@@ -1,56 +1,414 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skaraborg Maskin & Återbruk</title>
-    <meta name="description" content="Vi köper, säljer och tar tillvara maskiner i Skaraborg. Även trasiga objekt kan ha värde. Hämtning kan ordnas.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Köpa & sälja maskiner i Skaraborg | Skaraborg Maskin & Återbruk</title>
+  <meta name="description" content="Skaraborg Maskin & Återbruk – vi köper, säljer och tar tillvara maskiner i Skaraborg. Även trasiga objekt kan ha värde. Hämtning kan ordnas." />
+
+  <style>
+    :root{
+      --bg:#f4f6f4;
+      --card:#ffffff;
+      --text:#0f1a12;
+      --muted:#516255;
+      --brand:#1f2d1f;
+      --brand2:#243626;
+      --line:#e6ebe6;
+      --shadow: 0 10px 30px rgba(0,0,0,.08);
+      --radius:16px;
+      --max:1000px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:linear-gradient(180deg,#eef2ee, var(--bg));
+      line-height:1.55;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
+
+    /* Topbar */
+    .topbar{
+      position:sticky; top:0; z-index:50;
+      background:rgba(255,255,255,.86);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:12px;
+      padding:12px 0;
+    }
+    .brand{
+      display:flex; flex-direction:column; gap:2px;
+      text-decoration:none;
+    }
+    .brand strong{font-size:15px; letter-spacing:.2px}
+    .brand span{font-size:12px; color:var(--muted)}
+    nav{
+      display:flex; gap:14px; flex-wrap:wrap; align-items:center; justify-content:flex-end;
+      font-size:14px;
+    }
+    nav a{
+      text-decoration:none;
+      padding:8px 10px;
+      border-radius:10px;
+      color:#1b2a1d;
+    }
+    nav a:hover{background:#eef3ee}
+
+    /* Hero */
+    .hero{
+      padding:44px 0 28px;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .hero-card{
+      background:linear-gradient(135deg, var(--brand), var(--brand2));
+      color:white;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:28px;
+      overflow:hidden;
+      position:relative;
+    }
+    .hero-card:before{
+      content:"";
+      position:absolute; inset:-60px -80px auto auto;
+      width:220px; height:220px;
+      background:rgba(255,255,255,.08);
+      border-radius:50%;
+      transform:rotate(20deg);
+    }
+    .hero h1{margin:0 0 10px; font-size:34px; line-height:1.15}
+    .hero p{margin:0; color:rgba(255,255,255,.88); font-size:16px}
+    .pillrow{margin-top:16px; display:flex; gap:8px; flex-wrap:wrap}
+    .pill{
+      display:inline-flex; align-items:center; gap:8px;
+      font-size:13px;
+      padding:8px 10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.14);
+    }
+
+    .cta-card{
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:22px;
+      border:1px solid var(--line);
+    }
+    .cta-card h2{margin:0 0 10px; font-size:18px}
+    .cta-card p{margin:0 0 14px; color:var(--muted)}
+    .btnrow{display:flex; gap:10px; flex-wrap:wrap}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      gap:10px;
+      padding:12px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:600;
+      border:1px solid var(--line);
+      background:#fff;
+      box-shadow:0 6px 16px rgba(0,0,0,.06);
+    }
+    .btn.primary{
+      background:var(--brand);
+      color:#fff;
+      border-color:rgba(255,255,255,.18);
+    }
+    .btn.primary:hover{filter:brightness(1.05)}
+    .btn:hover{filter:brightness(.98)}
+    .smallnote{font-size:12px; color:var(--muted); margin-top:10px}
+
+    /* Sections */
+    section{
+      padding:18px 0;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:14px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:18px;
+    }
+    .card h3{margin:0 0 8px; font-size:16px}
+    .card p{margin:0; color:var(--muted)}
+    .card ul{margin:10px 0 0; padding-left:18px; color:var(--muted)}
+    .card li{margin:6px 0}
+
+    .span-6{grid-column:span 6}
+    .span-4{grid-column:span 4}
+    .span-12{grid-column:span 12}
+
+    /* Contact block */
+    .contact{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    .contact .line{
+      display:flex; gap:10px; align-items:flex-start;
+      margin:10px 0;
+      color:var(--muted);
+    }
+    .contact .line strong{color:var(--text)}
+    .tag{
+      display:inline-block;
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#eef3ee;
+      border:1px solid var(--line);
+      color:#2c3c2d;
+      margin-top:10px;
+    }
+
+    /* Footer */
+    footer{
+      margin-top:26px;
+      padding:18px 0 34px;
+      border-top:1px solid var(--line);
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    /* Responsive */
+    @media (max-width: 860px){
+      .hero-grid{grid-template-columns:1fr}
+      .contact{grid-template-columns:1fr}
+      nav{gap:8px}
+      .hero h1{font-size:28px}
+    }
+  </style>
 </head>
 
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4;">
+<body>
 
-    <header style="background-color: #1f2d1f; color: white; padding: 40px 20px; text-align: center;">
-        <h1>Skaraborg Maskin & Återbruk</h1>
-        <p style="font-size: 18px;">Vi köper, säljer och tar tillvara maskiner i Skaraborg.</p>
-    </header>
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#top">
+        <strong>Skaraborg Maskin &amp; Återbruk</strong>
+        <span>Vi köper, säljer och tar tillvara maskiner</span>
+      </a>
 
-    <section style="padding: 40px 20px; max-width: 900px; margin: auto; background-color: white;">
-        
-        <h2>Har du maskiner som står och tar plats?</h2>
+      <nav aria-label="Huvudmeny">
+        <a href="#tjanster">Tjänster</a>
+        <a href="#aterbruk">Återbruk</a>
+        <a href="#husvagnar">Husvagnar</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </div>
 
+  <!-- Hero -->
+  <div id="top" class="hero">
+    <div class="wrap hero-grid">
+
+      <div class="hero-card">
+        <h1>Skaraborg Maskin &amp; Återbruk</h1>
         <p>
-            Vi köper och hämtar maskiner i Skaraborg – även trasiga objekt kan ha värde.
+          Vi köper, säljer och tar tillvara maskiner i Skaraborg.
+          Även trasiga objekt kan ha värde. Hämtning kan ordnas.
         </p>
 
+        <div class="pillrow" aria-label="Snabbinfo">
+          <div class="pill">✅ Snabb bedömning</div>
+          <div class="pill">🚚 Hämtning kan ordnas</div>
+          <div class="pill">♻️ Återbruk &amp; reservdelar</div>
+        </div>
+      </div>
+
+      <div class="cta-card">
+        <h2>Vill du sälja eller bli av med något?</h2>
         <p>
-            Det som går att laga repareras och säljs vidare.
-            Det som inte går att rädda sorteras och tas om hand.
+          Skicka bild + ort + kort info om skick, så återkommer vi snabbt.
         </p>
 
-        <h3>Vi köper bland annat:</h3>
-        <ul>
-            <li>Gräsklippare & åkgräsklippare</li>
+        <div class="btnrow">
+          <!-- BYT NUMMER HÄR -->
+          <a class="btn primary" href="tel:07XXXXXXXX">📞 Ring: 07X-XXX XX XX</a>
+
+          <!-- BYT FACEBOOK-LÄNK HÄR -->
+          <a class="btn" href="https://facebook.com/DITTSIDNAMN" target="_blank" rel="noopener">🔗 Facebook</a>
+        </div>
+
+        <div class="smallnote">
+          Tips: skriv gärna märke/modell om du vet.
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Services -->
+  <section id="tjanster">
+    <div class="wrap">
+      <div class="grid">
+
+        <div class="card span-6">
+          <h3>Vi köper bland annat</h3>
+          <p>Maskiner med värde, även när de inte fungerar just nu.</p>
+          <ul>
+            <li>Gräsklippare &amp; åkgräsklippare</li>
             <li>Trädgårdsmaskiner</li>
             <li>Mindre maskiner</li>
             <li>Maskinrelaterat skrot</li>
-        </ul>
+          </ul>
+          <span class="tag">Verksamma i hela Skaraborg</span>
+        </div>
 
-        <h3>Husvagnar mottages</h3>
-        <p>
-            Äldre husvagnar tas emot efter bedömning.
-        </p>
+        <div class="card span-6">
+          <h3>Skrot &amp; bortforsling</h3>
+          <p>
+            Har du maskiner eller metall som står och tar plats?
+            Vi bedömer om det kan återbrukas, bli reservdelar eller gå till korrekt sortering.
+          </p>
+          <ul>
+            <li>Bedömning på plats vid behov</li>
+            <li>Sortering och hantering med fokus på återbruk</li>
+            <li>Smidig hämtning efter överenskommelse</li>
+          </ul>
+        </div>
 
-        <h3>Kontakt</h3>
-        <p>
-            📞 Telefon: 07X-XXX XX XX<br>
-            📍 Verksamma i hela Skaraborg
-        </p>
+      </div>
+    </div>
+  </section>
 
-    </section>
+  <!-- Reuse / Environment -->
+  <section id="aterbruk">
+    <div class="wrap">
+      <div class="grid">
 
-    <footer style="background-color: #1f2d1f; color: white; text-align: center; padding: 20px;">
-        <p>Skaraborg Maskin & Återbruk drivs genom FOB Handel AB.</p>
-    </footer>
+        <div class="card span-12">
+          <h3>Återbruk &amp; miljö</h3>
+          <p>
+            Många maskiner skrotas i onödan. Vi försöker alltid reparera och återbruka det som går.
+            Det som inte kan räddas tas tillvara som reservdelar eller sorteras korrekt.
+          </p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Reparation när det lönar sig</h3>
+          <p>Små fel kan ofta åtgärdas. Då får maskinen nytt liv istället för att bli stående.</p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Reservdelar tas tillvara</h3>
+          <p>Delar som fortfarande har värde sparas och återbrukas i andra maskiner.</p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Korrekt sortering</h3>
+          <p>Metall och övrigt material hanteras på rätt sätt när återbruk inte är möjligt.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Caravans -->
+  <section id="husvagnar">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-12">
+          <h3>Husvagnar mottages</h3>
+          <p>
+            Äldre husvagnar tas emot efter bedömning. Hämtning kan ordnas.
+            Skicka gärna bilder + ort + kort info om skick.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="kontakt">
+    <div class="wrap">
+      <div class="card">
+        <div class="contact">
+          <div>
+            <h3>Kontakt</h3>
+
+            <div class="line">
+              <div>📞</div>
+              <div>
+                <strong>Telefon</strong><br />
+                <!-- BYT NUMMER HÄR -->
+                <a href="tel:07XXXXXXXX">07X-XXX XX XX</a>
+              </div>
+            </div>
+
+            <div class="line">
+              <div>📍</div>
+              <div>
+                <strong>Område</strong><br />
+                Skaraborg med omnejd
+              </div>
+            </div>
+
+            <div class="line">
+              <div>🔗</div>
+              <div>
+                <strong>Facebook</strong><br />
+                <!-- BYT FACEBOOK-LÄNK HÄR -->
+                <a href="https://facebook.com/DITTSIDNAMN" target="_blank" rel="noopener">Skaraborg Maskin &amp; Återbruk</a>
+              </div>
+            </div>
+
+            <span class="tag">Snabb återkoppling vid bild + ort</span>
+          </div>
+
+          <div>
+            <h3>Så gör du för snabb bedömning</h3>
+            <p style="margin-top:0; color:var(--muted);">
+              Skicka detta så svarar vi snabbare:
+            </p>
+            <ul style="margin:10px 0 0; color:var(--muted); padding-left:18px;">
+              <li>1–3 bilder</li>
+              <li>Ort (t.ex. Hjo / Skövde / Mariestad)</li>
+              <li>Märke &amp; modell (om du vet)</li>
+              <li>Kort om skick: startar / står / trasig del</li>
+            </ul>
+
+            <div class="btnrow" style="margin-top:14px;">
+              <a class="btn primary" href="tel:07XXXXXXXX">📞 Ring nu</a>
+              <a class="btn" href="#top">⬆️ Till toppen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:space-between; align-items:center;">
+        <div>© <span id="year"></span> Skaraborg Maskin &amp; Återbruk</div>
+        <div>Skaraborg Maskin &amp; Återbruk drivs genom FOB Handel AB.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Dynamiskt årtal
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
 </html>
