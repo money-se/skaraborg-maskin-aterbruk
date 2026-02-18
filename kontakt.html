@@ -1,43 +1,50 @@
+<!-- 7️⃣ kontakt.html -->
 <!DOCTYPE html>
 <html lang="sv">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontakt | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Kontakta Skaraborg Maskin & Återbruk. Vi köper, säljer och tar tillvara maskiner i Skaraborg. Ring eller följ oss på Facebook.">
+<meta name="description" content="Kontakta Skaraborg Maskin & Återbruk. Ring eller följ oss på Facebook. Skicka gärna bild + ort + kort info för snabb bedömning.">
+
 <style>
-body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f5f7f5;line-height:1.65;color:#0f1a12}
-.wrap{max-width:950px;margin:auto;padding:40px 20px}
-.card{background:#fff;padding:30px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.08);margin-bottom:22px;border:1px solid #e6ebe6}
-h1,h2{margin-top:0}
-a.button{display:inline-block;margin-top:16px;padding:14px 20px;background:#1f2d1f;color:#fff;text-decoration:none;border-radius:10px;font-weight:700}
-ul{padding-left:18px}
-.note{font-size:13px;color:#5b6c60}
+:root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+.wrap{max-width:var(--max);margin:auto;padding:0 20px}
+main{padding:40px 0}
+.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:16px}
+.card h2{margin:0 0 8px;font-size:18px}
+.card p{margin:0;color:var(--muted)}
+ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+a.button{display:inline-flex;align-items:center;justify-content:center;margin-top:14px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
+.note{font-size:13px;color:var(--muted);margin-top:10px}
+.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
+.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
 </style>
 </head>
+
 <body>
+<div id="site-header"></div>
+
+<main>
 <div class="wrap">
+
 <h1>Kontakt</h1>
 
 <div class="card">
 <h2>Snabbaste sättet</h2>
-<p>Ring eller skicka bild + ort + kort info om skick.</p>
-
 <p>
 📞 Telefon: <a href="tel:07XXXXXXXX">07X-XXX XX XX</a><br>
 🔗 Facebook: <a href="https://facebook.com/DITTSIDNAMN" target="_blank" rel="noopener">Skaraborg Maskin &amp; Återbruk</a><br>
 📍 Skaraborg
 </p>
-
 <a class="button" href="tel:07XXXXXXXX">📞 Ring nu</a>
-
-<p class="note" style="margin-top:18px;">
-Tips: skriv gärna märke/modell och om den startar eller stått länge.
-</p>
+<div class="note">Tips: skicka gärna bild + ort + kort info om skick.</div>
 </div>
 
 <div class="card">
-<h2>För snabb bedömning – skicka detta</h2>
+<h2>För snabb bedömning</h2>
 <ul>
 <li>1–3 bilder</li>
 <li>Ort</li>
@@ -46,7 +53,23 @@ Tips: skriv gärna märke/modell och om den startar eller stått länge.
 </ul>
 </div>
 
-<p><a href="index.html">← Tillbaka till startsidan</a></p>
+<p class="note"><a href="index.html">← Tillbaka</a></p>
+
 </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script>
+async function inject(id,url){
+  const el=document.getElementById(id);
+  if(!el) return;
+  const res=await fetch(url);
+  el.innerHTML=await res.text();
+}
+inject("site-header","partials1/header.html");
+inject("site-footer","partials1/footer.html");
+</script>
+
 </body>
 </html>
