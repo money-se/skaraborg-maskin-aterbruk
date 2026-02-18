@@ -1,0 +1,13 @@
+<footer class="site-footer">
+  <div class="wrap foot">
+    <div>© <span id="year"></span> Skaraborg Maskin &amp; Återbruk</div>
+    <div>Skaraborg Maskin &amp; Återbruk drivs genom FOB Handel AB.</div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var el = document.getElementById("year");
+    if(el) el.textContent = new Date().getFullYear();
+  })();
+</script>
