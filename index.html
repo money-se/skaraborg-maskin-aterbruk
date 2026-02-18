@@ -55,6 +55,7 @@
       font-size:16px;
       letter-spacing:.6px;
       line-height:1.2;
+      color:var(--text);
     }
     .logo span{
       display:block;
@@ -197,7 +198,7 @@
     }
 
     /* FOOTER */
-    footer{
+    .site-footer{
       background:white;
       border-top:1px solid var(--line);
       padding:26px 0 30px;
@@ -224,29 +225,8 @@
 
 <body>
 
-  <!-- TOPBAR -->
-  <div class="topbar">
-    <div class="wrap topbar-inner">
-      <a class="logo" href="#top">
-        SKARABORG MASKIN &amp; ÅTERBRUK
-        <span>Vi köper, säljer och tar tillvara maskiner</span>
-      </a>
-
-      <nav aria-label="Meny">
-  <a href="kop-maskiner.html">Sälja maskin</a>
-  <a href="skrot-hamtning.html">Skrot</a>
-  <a href="husvagnar.html">Husvagnar/Kärror</a>
-  <a href="aterbruk.html">Återbruk</a>
-  <a href="sa-funkar-det.html">Så funkar det</a>
-  <a href="till-salu.html">Till salu</a>
-  <a href="faq.html">FAQ</a>
-  <a href="dodsbo-utrensning.html">Dödsbo</a>
-  <a href="om-oss.html">Om oss</a>
-  <a href="kontakt.html">Kontakt</a>
-
-      </nav>
-    </div>
-  </div>
+  <!-- Injected header -->
+  <div id="site-header"></div>
 
   <!-- HERO -->
   <div id="top" class="hero">
@@ -273,10 +253,7 @@
         </p>
 
         <div class="btnrow">
-          <!-- BYT NUMMER HÄR (utan mellanslag) -->
           <a class="btn white" href="tel:07XXXXXXXX">📞 Ring: 07X-XXX XX XX</a>
-
-          <!-- BYT FACEBOOK-LÄNK HÄR -->
           <a class="btn" href="https://facebook.com/DITTSIDNAMN" target="_blank" rel="noopener">🔗 Facebook</a>
         </div>
 
@@ -380,21 +357,23 @@
     </div>
   </section>
 
-  <!-- HUSVAGNAR -->
-  <section id="husvagnar">
-    <div class="wrap">
-      <div class="grid">
-        <div class="card span-12">
-          <h3>Husvagnar mottages</h3>
-          <p>
-            Äldre husvagnar tas emot efter bedömning. Hämtning kan ordnas.
-            Skicka gärna bilder + ort + kort info om skick, så återkommer vi.
-          </p>
-          <span class="tag">Bedömning på plats vid behov</span>
-        </div>
+<!-- HUSVAGNAR -->
+<section id="husvagnar">
+  <div class="wrap">
+    <div class="grid">
+      <div class="card span-12">
+        <h3>Husvagnar &amp; kärror mottages</h3>
+        <p>
+          Vi tar emot husvagnar och alla sorters kärror <strong>oavsett skick</strong>.
+          Inlämning sker hos oss (vi hämtar normalt inte husvagnar/kärror).
+          I vissa fall kan en symbolisk ersättning ges vid lämning, t.ex. runt 200 kr beroende på objekt.
+        </p>
+        <span class="tag">Inlämning hos oss • Alla skick • Bedömning på plats</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
   <!-- SÅ FUNKAR DET -->
   <section id="sa-funkar-det">
@@ -479,16 +458,18 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="wrap foot">
-      <div>© <span id="year"></span> Skaraborg Maskin &amp; Återbruk</div>
-      <div>Skaraborg Maskin &amp; Återbruk drivs genom FOB Handel AB.</div>
-    </div>
-  </footer>
+  <!-- Injected footer -->
+  <div id="site-footer"></div>
 
   <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
+    async function inject(id, url){
+      const el = document.getElementById(id);
+      if(!el) return;
+      const res = await fetch(url, { cache: "no-cache" });
+      el.innerHTML = await res.text();
+    }
+    inject("site-header", "partials1/header.html");
+    inject("site-footer", "partials1/footer.html");
   </script>
 
 </body>
