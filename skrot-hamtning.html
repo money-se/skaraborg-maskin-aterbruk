@@ -5,69 +5,204 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Skrot hämtning i Skaraborg | Maskiner & metall</title>
-<meta name="description" content="Vi hämtar maskinrelaterat skrot och metall i Skaraborg. Vi bedömer om det kan återbrukas, bli reservdelar eller sorteras korrekt. Hämtning kan ordnas.">
+<meta name="description" content="Vi tar hand om maskinrelaterat skrot och metall i Skaraborg. Vi bedömer om det kan återbrukas, bli reservdelar eller sorteras korrekt. Hämtning kan ordnas efter överenskommelse.">
 
 <style>
-body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f5f7f5;line-height:1.6;color:#0f1a12}
-.wrap{max-width:900px;margin:auto;padding:40px 20px}
-.card{background:#fff;padding:30px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.08);margin-bottom:22px;border:1px solid #e6ebe6}
-h1,h2{margin-top:0}
-.badge{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;background:#eef3ee;border:1px solid #e6ebe6;color:#2c3c2d}
-a.button{display:inline-block;margin-top:14px;padding:14px 20px;background:#1f2d1f;color:#fff;text-decoration:none;border-radius:10px;font-weight:700}
-ul{padding-left:18px}
+:root{
+  --brand:#1f2d1f;
+  --bg:#f5f7f5;
+  --card:#ffffff;
+  --text:#0f1a12;
+  --muted:#5b6c60;
+  --line:#e6ebe6;
+  --radius:18px;
+  --shadow:0 12px 30px rgba(0,0,0,.08);
+  --max:1100px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+}
+a{color:inherit}
+.wrap{max-width:var(--max); margin:auto; padding:0 20px}
+
+/* Header styles */
+.topbar{
+  position:sticky; top:0; z-index:100;
+  background:rgba(255,255,255,.92);
+  backdrop-filter: blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-inner{
+  display:flex; justify-content:space-between; align-items:center;
+  gap:12px; padding:14px 0; flex-wrap:wrap;
+}
+.logo{
+  text-decoration:none;
+  font-weight:900;
+  font-size:16px;
+  letter-spacing:.6px;
+  line-height:1.2;
+  color:var(--text);
+}
+.logo span{
+  display:block;
+  font-size:12px;
+  font-weight:500;
+  color:var(--muted);
+  margin-top:4px;
+}
+nav{
+  display:flex; gap:10px; flex-wrap:wrap;
+  justify-content:flex-end; align-items:center;
+  font-size:14px;
+}
+nav a{
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:10px;
+  color:#1d2a1f;
+}
+nav a:hover{background:#eef3ee}
+
+/* Page */
+main{padding:40px 0}
+.page-title{margin:0 0 16px; font-size:32px; line-height:1.2}
+.lead{margin:0 0 22px; color:var(--muted); max-width:75ch}
+.card{
+  background:var(--card);
+  padding:24px;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  border:1px solid var(--line);
+  margin-bottom:18px;
+}
+.card h2{margin:0 0 10px; font-size:18px}
+.card p{margin:0; color:var(--muted)}
+.card ul{margin:12px 0 0; padding-left:18px; color:var(--muted)}
+.card li{margin:6px 0}
+.badge{
+  display:inline-block;
+  font-size:12px;
+  padding:6px 10px;
+  border-radius:999px;
+  background:#eef3ee;
+  border:1px solid var(--line);
+  color:#2c3c2d;
+  margin-top:12px;
+}
+a.button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:14px;
+  padding:12px 16px;
+  background:var(--brand);
+  color:#fff;
+  text-decoration:none;
+  border-radius:12px;
+  font-weight:800;
+}
+.note{font-size:13px; color:var(--muted); margin-top:10px}
+
+/* Footer styles */
+.site-footer{
+  background:#fff;
+  border-top:1px solid var(--line);
+  padding:26px 0 30px;
+  font-size:13px;
+  color:var(--muted);
+}
+.foot{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+}
+
+@media (max-width: 860px){
+  nav{justify-content:flex-start}
+  .page-title{font-size:26px}
+}
 </style>
 </head>
 
 <body>
-<div class="wrap">
 
-<h1>Skrot hämtning i Skaraborg</h1>
+<div id="site-header"></div>
 
-<div class="card">
-<h2>Maskinrelaterat skrot & metall</h2>
-<p>
-Har du maskiner, metalldelar eller skrot som står och tar plats?
-Vi hämtar i Skaraborg efter överenskommelse och gör en snabb bedömning på vad som kan återbrukas.
-</p>
+<main>
+  <div class="wrap">
 
-<ul>
-  <li>Maskiner som inte längre används</li>
-  <li>Metalldelar och maskinrelaterat skrot</li>
-  <li>Trasiga klippare / trädgårdsmaskiner</li>
-  <li>Flera objekt vid samma hämtning</li>
-</ul>
+    <h1 class="page-title">Skrot hämtning i Skaraborg</h1>
+    <p class="lead">
+      Har du maskiner eller metall som står och tar plats?
+      Vi bedömer om det kan återbrukas, bli reservdelar eller sorteras korrekt.
+      Hämtning kan ordnas efter överenskommelse.
+    </p>
 
-<p>
-Vi försöker alltid ta tillvara det som går: reparera, använda som reservdelar eller sortera korrekt.
-</p>
+    <div class="card">
+      <h2>Maskinrelaterat skrot &amp; metall</h2>
+      <p>
+        Vi tar hand om maskinrelaterat skrot och metall. Skicka gärna 1–3 bilder + ort,
+        så återkommer vi med ett upplägg.
+      </p>
 
-<span class="badge">Snabbast svar = bild + ort</span><br>
-<a class="button" href="tel:07XXXXXXXX">📞 Ring 07X-XXX XX XX</a>
-</div>
+      <ul>
+        <li>Maskiner som inte längre används</li>
+        <li>Metalldelar och maskinrelaterat skrot</li>
+        <li>Trasiga klippare / trädgårdsmaskiner</li>
+        <li>Flera objekt vid samma hämtning</li>
+      </ul>
 
-<div class="card">
-<h2>När kan hämtning ordnas?</h2>
-<p>
-Det beror på objekt, mängd och avstånd. Skicka gärna:
-</p>
-<ul>
-  <li>1–3 bilder</li>
-  <li>Ort</li>
-  <li>Ungefärlig mängd (1 objekt / flera / släp)</li>
-  <li>Kort om vad det är</li>
-</ul>
-</div>
+      <span class="badge">Snabbast svar = bild + ort</span><br>
+      <a class="button" href="tel:07XXXXXXXX">📞 Ring 07X-XXX XX XX</a>
+      <div class="note">Tips: skriv gärna ungefärlig mängd (1 objekt / flera / släp).</div>
+    </div>
 
-<div class="card">
-<h2>Vad vi inte tar</h2>
-<p>
-För att undvika missförstånd: vi tar främst <strong>maskinrelaterat</strong> skrot och metall.
-Allmänt hushållsavfall och liknande ingår normalt inte.
-</p>
-</div>
+    <div class="card">
+      <h2>När kan hämtning ordnas?</h2>
+      <p>
+        Det beror på objekt, mängd och avstånd. För snabb bedömning:
+      </p>
+      <ul>
+        <li>1–3 bilder</li>
+        <li>Ort</li>
+        <li>Ungefärlig mängd</li>
+        <li>Kort om vad det är</li>
+      </ul>
+    </div>
 
-<p><a href="index.html">← Tillbaka till startsidan</a></p>
+    <div class="card">
+      <h2>Vad vi vanligtvis inte tar</h2>
+      <p>
+        Vi fokuserar främst på <strong>maskinrelaterat</strong> skrot och metall.
+        Allmänt hushållsavfall och liknande ingår normalt inte.
+      </p>
+    </div>
 
-</div>
+    <p class="note"><a href="index.html">← Tillbaka till startsidan</a></p>
+
+  </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script>
+  async function inject(id, url){
+    const el = document.getElementById(id);
+    if(!el) return;
+    const res = await fetch(url, { cache: "no-cache" });
+    el.innerHTML = await res.text();
+  }
+  inject("site-header", "partials/header.html");
+  inject("site-footer", "partials/footer.html");
+</script>
+
 </body>
 </html>
