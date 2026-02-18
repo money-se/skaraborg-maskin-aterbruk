@@ -4,37 +4,167 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kontakt | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Kontakta Skaraborg Maskin & Återbruk. Ring eller följ oss på Facebook. Skicka gärna bild + ort + kort info för snabb bedömning.">
+<meta name="description" content="Kontakta Skaraborg Maskin & Återbruk. Ring eller maila oss för snabb bedömning av maskiner, skrot eller husvagn. Skicka gärna bild + ort + kort info.">
 
 <style>
-:root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
+:root{
+  --brand:#1f2d1f;
+  --bg:#f5f7f5;
+  --card:#ffffff;
+  --text:#0f1a12;
+  --muted:#5b6c60;
+  --line:#e6ebe6;
+  --radius:18px;
+  --shadow:0 12px 30px rgba(0,0,0,.08);
+  --max:1100px;
+}
+
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+
+body{
+  margin:0;
+  font-family:system-ui,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+}
+
 a{color:inherit}
-.wrap{max-width:var(--max);margin:auto;padding:0 20px}
-main{padding:40px 0}
-.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:16px}
-.card h2{margin:0 0 8px;font-size:18px}
-.card p{margin:0;color:var(--muted)}
-ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
-a.button{display:inline-flex;align-items:center;justify-content:center;margin-top:14px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
-.note{font-size:13px;color:var(--muted);margin-top:10px}
-.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
-.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+
+.wrap{
+  max-width:var(--max);
+  margin:auto;
+  padding:0 20px;
+}
+
+main{
+  padding:40px 0;
+}
+
+.card{
+  background:var(--card);
+  padding:24px;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  border:1px solid var(--line);
+  margin-bottom:16px;
+}
+
+.card h2{
+  margin:0 0 8px;
+  font-size:18px;
+}
+
+.card p{
+  margin:0;
+  color:var(--muted);
+}
+
+ul{
+  margin:12px 0 0;
+  padding-left:18px;
+  color:var(--muted);
+}
+
+a.button{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-top:14px;
+  padding:12px 16px;
+  background:var(--brand);
+  color:#fff;
+  text-decoration:none;
+  border-radius:12px;
+  font-weight:800;
+}
+
+.note{
+  font-size:13px;
+  color:var(--muted);
+  margin-top:10px;
+}
+
+.site-footer{
+  background:#fff;
+  border-top:1px solid var(--line);
+  padding:26px 0 30px;
+  font-size:13px;
+  color:var(--muted);
+}
+
+.foot{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+}
 
 /* Header styles */
-.topbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
-.logo{text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;line-height:1.2;color:var(--text)}
-.logo span{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:4px;letter-spacing:0}
-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:center;font-size:14px}
-nav a{text-decoration:none;padding:8px 10px;border-radius:10px;color:#1d2a1f}
-nav a:hover{background:#eef3ee}
-@media (max-width: 860px){nav{justify-content:flex-start}}
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+
+.topbar-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  padding:14px 0;
+  flex-wrap:wrap;
+}
+
+.logo{
+  text-decoration:none;
+  font-weight:900;
+  font-size:16px;
+  letter-spacing:.6px;
+  line-height:1.2;
+  color:var(--text);
+}
+
+.logo span{
+  display:block;
+  font-size:12px;
+  font-weight:500;
+  color:var(--muted);
+  margin-top:4px;
+}
+
+nav{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  align-items:center;
+  font-size:14px;
+}
+
+nav a{
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:10px;
+  color:#1d2a1f;
+}
+
+nav a:hover{
+  background:#eef3ee;
+}
+
+@media (max-width: 860px){
+  nav{justify-content:flex-start}
+}
 </style>
 </head>
 
 <body>
+
 <div id="site-header"></div>
 
 <main>
@@ -44,17 +174,23 @@ nav a:hover{background:#eef3ee}
 
 <div class="card">
 <h2>Snabbaste sättet</h2>
+
 <p>
 📞 Telefon: <a href="tel:07XXXXXXXX">07X-XXX XX XX</a><br>
+✉️ E-post: <a id="emailLink" href="#">Maila oss</a><br>
 🔗 Facebook: <a href="https://facebook.com/DITTSIDNAMN" target="_blank" rel="noopener">Skaraborg Maskin &amp; Återbruk</a><br>
 📍 Skaraborg
 </p>
+
 <a class="button" href="tel:07XXXXXXXX">📞 Ring nu</a>
-<div class="note">Tips: skicka gärna bild + ort + kort info om skick.</div>
+
+<div class="note">
+Tips: Skicka gärna bild + ort + kort info om skick för snabbare svar.
+</div>
 </div>
 
 <div class="card">
-<h2>För snabb bedömning</h2>
+<h2>För snabb bedömning – skicka gärna:</h2>
 <ul>
 <li>1–3 bilder</li>
 <li>Ort</li>
@@ -79,6 +215,28 @@ async function inject(id,url){
 }
 inject("site-header","partials1/header.html");
 inject("site-footer","partials1/footer.html");
+
+/* Anti-spam mail */
+(function(){
+  const parts = ["nibor_95", "hotmail", "com"];
+  const addr = parts[0] + "@" + parts[1] + "." + parts[2];
+
+  const a = document.getElementById("emailLink");
+  if(!a) return;
+
+  const subject = encodeURIComponent("Förfrågan – maskin/skrot");
+  const body = encodeURIComponent(
+    "Hej!\n\n" +
+    "Jag vill sälja/lämna:\n" +
+    "Ort: \n" +
+    "Vad gäller det: \n" +
+    "Skick: \n" +
+    "Bilder bifogas.\n\n" +
+    "Mvh"
+  );
+
+  a.href = "mailto:" + addr + "?subject=" + subject + "&body=" + body;
+})();
 </script>
 
 </body>
