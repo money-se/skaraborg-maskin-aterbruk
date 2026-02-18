@@ -1,222 +1,476 @@
-<!-- 1️⃣ index.html -->
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skaraborg Maskin & Återbruk</title>
-    <meta name="description" content="Vi köper och säljer maskiner, skrot och återbruk. Hämtning kan ordnas i Skaraborg med omnejd.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="6Js1PK23eb36UTzlFCXKoJxgfAFT-fFTQ6ME1yfLWbA" />
 
-<link rel="stylesheet" href="partials1/site.css">
-<style>
-    /* HERO */
-    .hero{
-      padding:54px 0 18px;
+  <title>Köpa & sälja maskiner i Skaraborg | Skaraborg Maskin & Återbruk</title>
+  <meta name="description" content="Skaraborg Maskin & Återbruk – vi köper, säljer och tar tillvara maskiner i Skaraborg. Även trasiga objekt kan ha värde. Hämtning kan ordnas." />
+
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand2:#243626;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#0f1a12;
+      --muted:#5b6c60;
+      --line:#e6ebe6;
+      --radius:18px;
+      --shadow:0 12px 30px rgba(0,0,0,.08);
+      --max:1100px;
     }
-    .hero-card{
-      background:linear-gradient(180deg, rgba(31,45,31,.08), rgba(255,255,255,1));
-      border:1px solid var(--line);
-      border-radius:var(--radius);
-      box-shadow:var(--shadow);
-      padding:30px;
-      overflow:hidden;
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
     }
-    .hero-grid{
-      display:grid;
-      grid-template-columns:1.2fr .8fr;
-      gap:18px;
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:auto; padding:0 20px}
+
+    /* TOPBAR */
+    .topbar{
+      position:sticky;
+      top:0;
+      background:rgba(255,255,255,.92);
+      backdrop-filter: blur(10px);
+      border-bottom:1px solid var(--line);
+      z-index:100;
+    }
+    .topbar-inner{
+      display:flex;
+      justify-content:space-between;
       align-items:center;
+      gap:12px;
+      padding:14px 0;
+      flex-wrap:wrap;
     }
-    .badge{
-      display:inline-block;
-      background:#e9f0ea;
-      border:1px solid var(--line);
-      padding:6px 10px;
-      border-radius:999px;
+    .logo{
+      text-decoration:none;
+      font-weight:900;
+      font-size:16px;
+      letter-spacing:.6px;
+      line-height:1.2;
+      color:var(--text);
+    }
+    .logo span{
+      display:block;
       font-size:12px;
+      font-weight:500;
       color:var(--muted);
-      margin-bottom:12px;
+      letter-spacing:0;
+      margin-top:4px;
     }
-    h1{
-      font-size:34px;
-      line-height:1.12;
-      margin:0 0 12px;
-      letter-spacing:-.5px;
-    }
-    .lead{color:var(--muted); margin:0 0 18px; font-size:16px}
-    .cta{
+    nav{
       display:flex;
       gap:10px;
       flex-wrap:wrap;
-      margin-top:8px;
+      justify-content:flex-end;
+      align-items:center;
+      font-size:14px;
     }
-    .btn{
+    nav a{
+      text-decoration:none;
+      padding:8px 10px;
+      border-radius:10px;
+      color:#1d2a1f;
+    }
+    nav a:hover{background:#eef3ee}
+
+    /* HERO */
+    .hero{
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      color:white;
+      padding:64px 0 44px;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .hero h1{
+      margin:0 0 10px;
+      font-size:40px;
+      line-height:1.15;
+      letter-spacing:.2px;
+    }
+    .hero p{
+      margin:0;
+      font-size:17px;
+      opacity:.92;
+      max-width:62ch;
+    }
+    .pillrow{
+      margin-top:16px;
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .pill{
       display:inline-flex;
       align-items:center;
       gap:8px;
-      padding:11px 14px;
-      border-radius:14px;
-      text-decoration:none;
-      font-weight:700;
-      border:1px solid var(--line);
-      background:#fff;
-      box-shadow:0 6px 16px rgba(0,0,0,.06);
+      font-size:13px;
+      padding:8px 10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.14);
+      white-space:nowrap;
     }
-    .btn.primary{
-      background:var(--brand);
-      color:#fff;
-      border-color:rgba(0,0,0,.08);
-    }
-    .btn:hover{transform:translateY(-1px)}
-    .hero-side{
-      background:#fff;
-      border:1px solid var(--line);
+    .cta{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
       border-radius:var(--radius);
       padding:18px;
     }
-    .hero-side h2{margin:0 0 10px; font-size:16px}
-    .hero-side ul{margin:0; padding-left:18px; color:var(--muted)}
-    .hero-side li{margin:6px 0}
+    .cta h2{
+      margin:0 0 8px;
+      font-size:16px;
+      letter-spacing:.2px;
+    }
+    .cta p{
+      margin:0 0 14px;
+      font-size:14px;
+      opacity:.9;
+    }
+    .btnrow{display:flex; gap:10px; flex-wrap:wrap}
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:12px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:700;
+      border:1px solid rgba(255,255,255,.20);
+      background:rgba(255,255,255,.12);
+      color:#fff;
+    }
+    .btn.white{
+      background:#fff;
+      color:var(--brand);
+      border-color:#fff;
+    }
+    .btn:hover{filter:brightness(1.05)}
+    .smallnote{margin-top:10px; font-size:12px; opacity:.85}
 
-    /* SECTION */
-    .section{padding:24px 0 46px}
-    .section h2{margin:0 0 14px; font-size:22px}
+    /* SECTIONS */
+    section{padding:44px 0}
     .grid{
       display:grid;
-      grid-template-columns:repeat(3, 1fr);
-      gap:16px;
+      grid-template-columns: repeat(12, 1fr);
+      gap:14px;
     }
     .card{
       background:var(--card);
-      border:1px solid var(--line);
+      padding:22px;
       border-radius:var(--radius);
       box-shadow:var(--shadow);
-      padding:18px;
-      text-decoration:none;
-      display:block;
-      min-height:140px;
+      border:1px solid var(--line);
     }
     .card h3{margin:0 0 8px; font-size:16px}
-    .card p{margin:0; color:var(--muted); font-size:14px}
-    .card:hover{transform:translateY(-2px)}
+    .card p{margin:0; color:var(--muted)}
+    .card ul{margin:10px 0 0; padding-left:18px; color:var(--muted)}
+    .card li{margin:6px 0}
+    .span-12{grid-column:span 12}
+    .span-6{grid-column:span 6}
+    .span-4{grid-column:span 4}
 
-    /* STRIP */
-    .strip{
-      background:#fff;
+    .highlight{
+      border-left:6px solid var(--brand);
+      background:#f1f6f1;
+    }
+    .tag{
+      display:inline-block;
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#eef3ee;
+      border:1px solid var(--line);
+      color:#2c3c2d;
+      margin-top:10px;
+    }
+
+    /* FOOTER */
+    .site-footer{
+      background:white;
       border-top:1px solid var(--line);
-      border-bottom:1px solid var(--line);
-      padding:18px 0;
+      padding:26px 0 30px;
+      font-size:13px;
+      color:var(--muted);
     }
-    .strip .wrap{
+    .foot{
       display:flex;
-      gap:14px;
+      gap:10px;
       flex-wrap:wrap;
-      align-items:center;
       justify-content:space-between;
+      align-items:center;
     }
-    .strip strong{font-size:14px}
-    .strip span{color:var(--muted); font-size:14px}
 
+    /* RESPONSIVE */
     @media (max-width: 860px){
       .hero-grid{grid-template-columns:1fr}
-      .grid{grid-template-columns:1fr}
-      h1{font-size:28px}
+      .hero h1{font-size:30px}
+      .span-6,.span-4{grid-column:span 12}
+      nav{justify-content:flex-start}
     }
-</style>
+  </style>
 </head>
 
 <body>
-<div id="site-header"></div>
 
-<section class="hero">
-  <div class="wrap">
-    <div class="hero-card">
-      <div class="hero-grid">
-        <div>
-          <div class="badge">Snabb bedömning • Hämtning kan ordnas • Skaraborg</div>
-          <h1>Vi köper och säljer maskiner, skrot & återbruk</h1>
-          <p class="lead">Har du något du vill sälja? Skicka bild och beskrivning så återkommer vi med ett förslag. Vi köper även trasiga objekt.</p>
-          <div class="cta">
-            <a class="btn primary" href="kontakt.html">Kontakta oss</a>
-            <a class="btn" href="sa-funkar-det.html">Så funkar det</a>
-            <a class="btn" href="till-salu.html">Se vad som finns</a>
-          </div>
+  <!-- Injected header -->
+  <div id="site-header"></div>
+
+  <!-- HERO -->
+  <div id="top" class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Maskiner med nytt liv</h1>
+        <p>
+          Vi köper, säljer och tar tillvara maskiner i hela Skaraborg.
+          Även trasiga objekt kan ha värde. Hämtning kan ordnas.
+        </p>
+
+        <div class="pillrow" aria-label="Snabbinfo">
+          <div class="pill">✅ Snabb bedömning</div>
+          <div class="pill">🚚 Hämtning kan ordnas</div>
+          <div class="pill">♻️ Återbruk &amp; reservdelar</div>
+          <div class="pill">📍 Skaraborg</div>
         </div>
-        <aside class="hero-side">
-          <h2>Vi är intresserade av:</h2>
+      </div>
+
+      <div class="cta">
+        <h2>Vill du sälja eller bli av med något?</h2>
+        <p>
+          Skicka bild + ort + kort info om skick, så återkommer vi snabbt.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn white" href="tel:07XXXXXXXX">📞 Ring: 07X-XXX XX XX</a>
+          <a class="btn" href="https://facebook.com/DITTSIDNAMN" target="_blank" rel="noopener">🔗 Facebook</a>
+        </div>
+
+        <div class="smallnote">
+          Tips: skriv gärna märke/modell om du vet.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- VI KÖPER -->
+  <section id="kop">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-6">
+          <h3>Vi köper bland annat</h3>
+          <p>Maskiner med värde, även när de inte fungerar just nu.</p>
           <ul>
-            <li>Gräsklippare & åkgräsklippare</li>
-            <li>Maskiner och verktyg</li>
-            <li>Skrot & metall</li>
-            <li>Återbruk / dödsbo-utrensning</li>
+            <li>Gräsklippare &amp; åkgräsklippare</li>
+            <li>Trädgårdsmaskiner</li>
+            <li>Mindre maskiner</li>
+            <li>Maskinrelaterat skrot</li>
           </ul>
-        </aside>
+          <span class="tag">Hämtning kan ordnas</span>
+        </div>
+
+        <div class="card span-6">
+          <h3>Även trasigt kan ha värde</h3>
+          <p>
+            Många objekt har värde som reservdelar eller går att få igång med små åtgärder.
+            Skicka gärna bild + ort + kort info så gör vi en snabb bedömning.
+          </p>
+          <ul>
+            <li>Startar / står / okänd status</li>
+            <li>Synliga fel / saknade delar</li>
+            <li>Märke &amp; modell (om du vet)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKROT -->
+  <section id="skrot">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-12">
+          <h3>Skrot &amp; bortforsling</h3>
+          <p>
+            Har du maskiner eller metall som står och tar plats?
+            Vi bedömer om det kan återbrukas, bli reservdelar eller gå till korrekt sortering.
+            Smidig hämtning efter överenskommelse.
+          </p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Bedömning</h3>
+          <p>Vi avgör snabbt om det är köp, återbruk eller skrot.</p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Hämtning</h3>
+          <p>Hämtning kan ordnas beroende på objekt och plats.</p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Sortering</h3>
+          <p>Det som inte kan räddas sorteras och tas om hand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ÅTERBRUK -->
+  <section id="aterbruk">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-12">
+          <h3>Återbruk &amp; miljö</h3>
+          <p>
+            Många maskiner skrotas i onödan. Vi försöker alltid reparera och återbruka det som går.
+            Reservdelar tas tillvara när det är möjligt – och det som inte kan räddas hanteras korrekt.
+          </p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Reparation</h3>
+          <p>Små fel kan ofta åtgärdas – då får maskinen nytt liv.</p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Reservdelar</h3>
+          <p>Delar med värde sparas och kan komma andra maskiner till nytta.</p>
+        </div>
+
+        <div class="card span-4">
+          <h3>Korrekt hantering</h3>
+          <p>Metall och övrigt material sorteras när återbruk inte är möjligt.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- HUSVAGNAR -->
+<section id="husvagnar">
+  <div class="wrap">
+    <div class="grid">
+      <div class="card span-12">
+        <h3>Husvagnar &amp; kärror mottages</h3>
+        <p>
+          Vi tar emot husvagnar och alla sorters kärror <strong>oavsett skick</strong>.
+          Inlämning sker hos oss (vi hämtar normalt inte husvagnar/kärror).
+          I vissa fall kan en symbolisk ersättning ges vid lämning, t.ex. runt 200 kr beroende på objekt.
+        </p>
+        <span class="tag">Inlämning hos oss • Alla skick • Bedömning på plats</span>
       </div>
     </div>
   </div>
 </section>
 
-<section class="strip">
-  <div class="wrap">
-    <div><strong>Tips:</strong> <span>Ju fler bilder och info du skickar, desto snabbare kan vi bedöma.</span></div>
-    <a class="btn" href="faq.html">Läs FAQ</a>
-  </div>
-</section>
 
-<section class="section">
-  <div class="wrap">
-    <h2>Välj område</h2>
-    <div class="grid">
-      <a class="card" href="aterbruk.html">
-        <h3>Återbruk</h3>
-        <p>Vi tar hand om saker som kan återanvändas eller säljas vidare.</p>
-      </a>
+  <!-- SÅ FUNKAR DET -->
+  <section id="sa-funkar-det">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-12 highlight">
+          <h3>Så funkar det</h3>
+          <p>
+            1) Skicka bild + ort + kort info om skick<br>
+            2) Vi gör en snabb bedömning och återkopplar<br>
+            3) Vid överenskommelse: hämtning eller möte<br>
+            4) Betalning på plats enligt överenskommelse
+          </p>
+          <span class="tag">Snabbast svar = bild + ort</span>
+        </div>
 
-      <a class="card" href="skrot-hamtning.html">
-        <h3>Skrot & hämtning</h3>
-        <p>Vi hämtar skrot i Skaraborg. Enkelt, snabbt och tydligt.</p>
-      </a>
+        <div class="card span-6">
+          <h3>Privatperson</h3>
+          <p>
+            Perfekt om du vill bli av med något utan att lägga tid på att sälja själv.
+            Vi försöker alltid ta tillvara det som går.
+          </p>
+        </div>
 
-      <a class="card" href="kop-maskiner.html">
-        <h3>Vi köper maskiner</h3>
-        <p>Maskiner, trädgård, verktyg – även trasiga objekt.</p>
-      </a>
-
-      <a class="card" href="till-salu.html">
-        <h3>Till salu</h3>
-        <p>Se aktuella objekt och kontakta oss för lagerstatus.</p>
-      </a>
-
-      <a class="card" href="dodsbo-utrensning.html">
-        <h3>Dödsbo / utrensning</h3>
-        <p>Vi hjälper till med tömning och sortering.</p>
-      </a>
-
-      <a class="card" href="om-oss.html">
-        <h3>Om oss</h3>
-        <p>Vilka vi är och hur vi jobbar.</p>
-      </a>
+        <div class="card span-6">
+          <h3>Större utrensning / flera objekt</h3>
+          <p>
+            Har du flera maskiner, skrot eller ett förråd som behöver tömmas?
+            Skicka bilder så kan vi ge ett tydligt upplägg.
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div id="site-footer"></div>
+  <!-- TILL SALU -->
+  <section id="tillsalu">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-12 highlight">
+          <h3>Maskiner till salu just nu</h3>
+          <p style="margin-bottom:10px;">
+            Uppdatera listan genom att ändra texten här i filen <strong>index.html</strong>.
+          </p>
 
-<script>
-async function inject(id, url){
-  const el = document.getElementById(id);
-  if(!el) return;
+          <ul>
+            <li><strong>Åkgräsklippare – (exempel)</strong> • Genomgången och startklar • Pris: 6 900 kr</li>
+            <li><strong>Gräsklippare – (exempel)</strong> • Nyservad, bra skick • Pris: 2 300 kr</li>
+            <li><strong>(Exempel)</strong> • Kort beskrivning • Pris: X kr</li>
+          </ul>
 
-  try{
-    const res = await fetch(url, { cache: "no-cache" });
-    if(!res.ok) throw new Error(res.status + " " + res.statusText);
-    el.innerHTML = await res.text();
-  }catch(err){
-    console.warn("Inject failed:", url, err);
-  }
-}
-inject("site-header","partials1/header.html");
-inject("site-footer","partials1/footer.html");
-</script>
+          <span class="tag">Kontakta oss för aktuellt lager</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KONTAKT -->
+  <section id="kontakt">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-6">
+          <h3>Kontakt</h3>
+          <p>
+            📞 Telefon: <a href="tel:07XXXXXXXX">07X-XXX XX XX</a><br>
+            📍 Verksamma i hela Skaraborg<br>
+            🔗 Facebook: <a href="https://facebook.com/DITTSIDNAMN" target="_blank" rel="noopener">Skaraborg Maskin &amp; Återbruk</a>
+          </p>
+          <span class="tag">Ring eller skicka bild + ort</span>
+        </div>
+
+        <div class="card span-6">
+          <h3>För snabb bedömning</h3>
+          <ul>
+            <li>1–3 bilder</li>
+            <li>Ort (t.ex. Hjo / Skövde / Mariestad)</li>
+            <li>Märke &amp; modell (om du vet)</li>
+            <li>Kort om skick: startar / står / trasig del</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Injected footer -->
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id, url){
+      const el = document.getElementById(id);
+      if(!el) return;
+      const res = await fetch(url, { cache: "no-cache" });
+      el.innerHTML = await res.text();
+    }
+    inject("site-header", "partials1/header.html");
+    inject("site-footer", "partials1/footer.html");
+  </script>
+
 </body>
 </html>
