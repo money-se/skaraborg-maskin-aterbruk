@@ -1,65 +1,93 @@
+<!-- 4️⃣ sa-funkar-det.html -->
 <!DOCTYPE html>
 <html lang="sv">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Så funkar det | Sälja maskin till oss</title>
-<meta name="description" content="Så går det till när du säljer maskin, lämnar skrot eller lämnar husvagn/kärra till Skaraborg Maskin & Återbruk.">
+<title>Så funkar det | Skaraborg Maskin & Återbruk</title>
+<meta name="description" content="Så går det till när du säljer maskin, lämnar skrot eller lämnar husvagn/kärra hos Skaraborg Maskin & Återbruk.">
+
 <style>
-body{font-family:system-ui,Arial,sans-serif;margin:0;background:#f5f7f5;line-height:1.65;color:#0f1a12}
-.wrap{max-width:950px;margin:auto;padding:40px 20px}
-.card{background:#fff;padding:30px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.08);margin-bottom:22px;border:1px solid #e6ebe6}
-h1,h2{margin-top:0}
-ol{padding-left:18px}
-.note{font-size:13px;color:#5b6c60}
-a.button{display:inline-block;margin-top:16px;padding:14px 20px;background:#1f2d1f;color:#fff;text-decoration:none;border-radius:10px;font-weight:700}
+:root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+.wrap{max-width:var(--max);margin:auto;padding:0 20px}
+main{padding:40px 0}
+.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:16px}
+.card h2{margin:0 0 8px;font-size:18px}
+.card p{margin:0;color:var(--muted)}
+ol{margin:10px 0 0;padding-left:18px;color:var(--muted)}
+li{margin:6px 0}
+.badge{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;background:#eef3ee;border:1px solid var(--line);color:#2c3c2d;margin-top:10px}
+.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
+.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
 </style>
 </head>
+
 <body>
+<div id="site-header"></div>
+
+<main>
 <div class="wrap">
+
 <h1>Så funkar det</h1>
 
 <div class="card">
 <h2>För snabb bedömning</h2>
-<p>Skicka detta så går allt snabbare:</p>
+<p>Skicka gärna:</p>
 <ol>
 <li>1–3 bilder</li>
 <li>Ort</li>
 <li>Märke/modell (om du vet)</li>
 <li>Kort om skick: startar / står / trasig del</li>
 </ol>
-<p class="note">Ju tydligare info, desto snabbare återkoppling.</p>
+<span class="badge">Snabbast svar = bild + ort</span>
 </div>
 
 <div class="card">
 <h2>Om det gäller maskin (köp)</h2>
-<ol>
-<li>Du skickar bilder + info</li>
-<li>Vi gör en bedömning och ger förslag</li>
-<li>Vid överenskommelse: möte eller hämtning (ibland)</li>
-<li>Betalning enligt överenskommelse</li>
-</ol>
+<p>
+1) Du skickar bilder + info<br>
+2) Vi gör en bedömning och ger förslag<br>
+3) Vid överenskommelse: möte eller hämtning (ibland)<br>
+4) Betalning enligt överenskommelse
+</p>
 </div>
 
 <div class="card">
 <h2>Om det gäller skrot</h2>
-<ol>
-<li>Du skickar bilder + ungefärlig mängd</li>
-<li>Vi bedömer vad som kan återbrukas och vad som är metall</li>
-<li>Upplägg: inlämning eller hämtning efter överenskommelse</li>
-</ol>
+<p>
+1) Du skickar bilder + ungefärlig mängd<br>
+2) Vi bedömer upplägg<br>
+3) Inlämning eller hämtning efter överenskommelse
+</p>
 </div>
 
 <div class="card">
 <h2>Om det gäller husvagn/kärra</h2>
 <p>
-Inlämning hos oss. Vi tar emot alla skick. Bedömning sker på plats.
-I vissa fall kan symbolisk ersättning ges (t.ex. runt 200 kr) beroende på objektets värde.
+Inlämning hos oss. Vi tar emot alla skick. Bedömning på plats.
+I vissa fall kan symbolisk ersättning ges (t.ex. runt 200 kr) beroende på objekt.
 </p>
 </div>
 
-<a class="button" href="tel:07XXXXXXXX">📞 Ring 07X-XXX XX XX</a>
-<p style="margin-top:30px;"><a href="index.html">← Tillbaka till startsidan</a></p>
+<p><a href="index.html">← Tillbaka</a></p>
+
 </div>
+</main>
+
+<div id="site-footer"></div>
+
+<script>
+async function inject(id,url){
+  const el=document.getElementById(id);
+  if(!el) return;
+  const res=await fetch(url);
+  el.innerHTML=await res.text();
+}
+inject("site-header","partials1/header.html");
+inject("site-footer","partials1/footer.html");
+</script>
+
 </body>
 </html>
