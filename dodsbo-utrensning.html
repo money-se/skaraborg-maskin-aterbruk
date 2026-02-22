@@ -4,24 +4,28 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dödsbo & utrensning | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Vi hjälper vid dödsbo och större utrensningar i Skaraborg. Fokus på maskiner och metall.">
+<meta name="description" content="Vi hjälper vid dödsbo och större utrensningar i Skaraborg. Fokus på maskiner, verktyg och metall. Smidig hantering och tydligt upplägg.">
 
 <style>
 :root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,Arial;background:var(--bg);color:var(--text);line-height:1.65}
+body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
 a{color:inherit}
 .wrap{max-width:var(--max);margin:auto;padding:0 20px}
 main{padding:40px 0}
-.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:16px}
-.card h2{margin:0 0 8px;font-size:18px}
+.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:20px}
+.card h2{margin:0 0 10px;font-size:18px}
 .card p{margin:0;color:var(--muted)}
 ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+ol{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+li{margin:6px 0}
+.button{display:inline-block;margin-top:14px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
+.badge{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;background:#eef3ee;border:1px solid var(--line);color:#2c3c2d;margin-top:10px}
 .note{font-size:13px;color:var(--muted);margin-top:10px}
 .site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
 .foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
 
-/* Header styles */
+/* Header styles (for injected partials1/header.html) */
 .topbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
 .logo{text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;line-height:1.2;color:var(--text)}
@@ -42,18 +46,41 @@ nav a:hover{background:#eef3ee}
 <h1>Dödsbo & större utrensningar</h1>
 
 <div class="card">
-<h2>Maskiner & metall</h2>
-<p>Vi hanterar främst maskinrelaterade objekt vid dödsbo eller större utrensningar.</p>
+<h2>Smidig hantering – respektfullt upplägg</h2>
+<p>
+Vi hjälper vid dödsbo och större utrensningar med fokus på maskiner, verktyg och metall.
+Målet är att göra det enkelt och tydligt, utan onödigt krångel.
+</p>
+<span class="badge">Tydligt • Smidigt • Lokalt i Skaraborg</span>
+</div>
+
+<div class="card">
+<h2>Detta kan vi hjälpa till med</h2>
 <ul>
-<li>Gräsklippare & maskiner</li>
-<li>Förrådsinnehåll</li>
-<li>Metall & maskindelar</li>
+<li>Gräsklippare & åkgräsklippare</li>
+<li>Maskiner, verktyg och reservdelar</li>
+<li>Metall, skrot och maskindelar</li>
+<li>Förråd, garage och verkstad (maskinrelaterat)</li>
 </ul>
 </div>
 
 <div class="card">
 <h2>Så går det till</h2>
-<p>Skicka bilder + ort. Vi gör bedömning och föreslår upplägg (hämtning eller inlämning).</p>
+<ol>
+<li>Skicka 1–3 bilder + ort</li>
+<li>Vi gör en bedömning och föreslår upplägg</li>
+<li>Överenskommelse → inlämning eller hämtning (ibland)</li>
+<li>Klart</li>
+</ol>
+<p class="note">Snabbast svar: bild + ort + kort om skick.</p>
+<a class="button" href="tel:0727483256">📞 Ring 072-748 32 56</a>
+</div>
+
+<div class="card">
+<h2>Var vi är verksamma</h2>
+<p>
+Vi arbetar i hela Skaraborg – t.ex. Skövde, Hjo, Tibro, Karlsborg, Mariestad och närliggande områden.
+</p>
 </div>
 
 <p class="note"><a href="index.html">← Tillbaka</a></p>
@@ -67,7 +94,7 @@ nav a:hover{background:#eef3ee}
 async function inject(id,url){
   const el=document.getElementById(id);
   if(!el) return;
-  const res=await fetch(url, { cache: "no-cache" });
+  const res=await fetch(url,{cache:"no-cache"});
   el.innerHTML=await res.text();
 }
 inject("site-header","partials1/header.html");
