@@ -54,7 +54,7 @@ if(!el) return;
 const res=await fetch(url,{cache:"no-cache"});
 el.innerHTML=await res.text();
 }
-inject("site-header","partials1/header.html");
+inject("site-header", "partials1/header.html");
 inject("site-footer","partials1/footer.html");
 </script>
 
