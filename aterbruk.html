@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Återbruk & miljö | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Vi arbetar med återbruk, reparation och korrekt sortering av maskiner i Skaraborg.">
+<title>Återbruk & Miljö | Skaraborg Maskin & Återbruk</title>
+<meta name="description" content="Återbruk av maskiner och metall i Skaraborg. Vi reparerar, tar tillvara reservdelar och hanterar det som inte kan räddas korrekt.">
 
 <style>
 :root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
@@ -13,21 +13,17 @@ body{margin:0;font-family:system-ui,Arial;background:var(--bg);color:var(--text)
 a{color:inherit}
 .wrap{max-width:var(--max);margin:auto;padding:0 20px}
 main{padding:40px 0}
-.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:16px}
-.card h2{margin:0 0 8px;font-size:18px}
+.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:20px}
+.card h2{margin:0 0 10px}
 .card p{margin:0;color:var(--muted)}
-.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
-.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
-
-/* Header styles (for injected partials1/header.html) */
+ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+.button{display:inline-block;margin-top:15px;padding:10px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:700}
 .topbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
-.logo{text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;line-height:1.2;color:var(--text)}
-.logo span{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:4px;letter-spacing:0}
-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:center;font-size:14px}
-nav a{text-decoration:none;padding:8px 10px;border-radius:10px;color:#1d2a1f}
+.logo{text-decoration:none;font-weight:900;font-size:16px;color:var(--text)}
+nav{display:flex;gap:10px;flex-wrap:wrap}
+nav a{text-decoration:none;padding:8px 10px;border-radius:10px}
 nav a:hover{background:#eef3ee}
-@media (max-width: 860px){nav{justify-content:flex-start}}
 </style>
 </head>
 
@@ -41,15 +37,29 @@ nav a:hover{background:#eef3ee}
 
 <div class="card">
 <h2>Maskiner med nytt liv</h2>
-<p>Vi försöker alltid reparera och återbruka det som går innan något går till skrot.</p>
+<p>
+Många maskiner skrotas i onödan. Vi försöker alltid reparera och återbruka det som går.
+Reservdelar tas tillvara när det är möjligt – och det som inte kan räddas hanteras korrekt.
+</p>
 </div>
 
 <div class="card">
-<h2>Korrekt hantering</h2>
-<p>Det som inte kan räddas sorteras och tas om hand på rätt sätt.</p>
+<h2>Så arbetar vi</h2>
+<ul>
+<li>Bedömning av skick</li>
+<li>Reparation när det är möjligt</li>
+<li>Reservdelar sparas</li>
+<li>Korrekt sortering av metall</li>
+</ul>
 </div>
 
-<p><a href="index.html">← Tillbaka</a></p>
+<div class="card">
+<h2>Verksamma i Skaraborg</h2>
+<p>
+Vi arbetar i Skövde, Hjo, Tibro, Karlsborg, Mariestad och övriga Skaraborg.
+</p>
+<a class="button" href="tel:0727483256">📞 Ring 072-748 32 56</a>
+</div>
 
 </div>
 </main>
@@ -58,10 +68,10 @@ nav a:hover{background:#eef3ee}
 
 <script>
 async function inject(id,url){
-  const el=document.getElementById(id);
-  if(!el) return;
-  const res=await fetch(url, { cache: "no-cache" });
-  el.innerHTML=await res.text();
+const el=document.getElementById(id);
+if(!el) return;
+const res=await fetch(url,{cache:"no-cache"});
+el.innerHTML=await res.text();
 }
 inject("site-header","partials1/header.html");
 inject("site-footer","partials1/footer.html");
