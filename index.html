@@ -173,6 +173,7 @@
       border:1px solid rgba(255,255,255,.20);
       background:rgba(255,255,255,.12);
       color:#fff;
+      transition:transform .15s ease, filter .15s ease, box-shadow .15s ease;
     }
     .btn.white{
       background:#fff;
@@ -181,6 +182,53 @@
     }
     .btn:hover{filter:brightness(1.05)}
     .smallnote{margin-top:10px; font-size:12px; opacity:.85}
+
+    /* --- Marketplace CTA (tydligare + subtil puls) --- */
+    .btn.marketplace{
+      background:#1877f2;      /* Facebook-blå */
+      border-color:#1877f2;
+      color:#fff;
+      font-weight:800;
+      position:relative;
+      box-shadow:0 10px 22px rgba(24,119,242,.18);
+      animation:mpPulse 1.9s ease-in-out infinite;
+    }
+    .btn.marketplace:hover{
+      background:#0f63d8;
+      border-color:#0f63d8;
+      transform:translateY(-1px);
+      animation:none; /* stoppa puls vid hover så det känns “kontrollerat” */
+      box-shadow:0 14px 28px rgba(24,119,242,.26);
+    }
+    /* Liten “glow ring” som pulserar */
+    .btn.marketplace::after{
+      content:"";
+      position:absolute;
+      inset:-6px;
+      border-radius:14px;
+      border:2px solid rgba(24,119,242,.18);
+      opacity:.0;
+      transform:scale(.98);
+      animation:mpRing 1.9s ease-in-out infinite;
+      pointer-events:none;
+    }
+    @keyframes mpPulse{
+      0%,100%{transform:translateY(0)}
+      50%{transform:translateY(-1px)}
+    }
+    @keyframes mpRing{
+      0%{opacity:0; transform:scale(.98)}
+      35%{opacity:.55; transform:scale(1.03)}
+      70%{opacity:0; transform:scale(1.06)}
+      100%{opacity:0; transform:scale(1.06)}
+    }
+    /* Respektera användare som vill minska animation */
+    @media (prefers-reduced-motion: reduce){
+      .btn.marketplace,
+      .btn.marketplace::after{
+        animation:none !important;
+      }
+    }
 
     /* SECTIONS */
     section{padding:44px 0}
@@ -460,7 +508,7 @@
 
           <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
             <a class="btn white" href="till-salu.html">Se mer</a>
-            <a class="btn" href="https://www.facebook.com/share/1CbvpZN5W2/" target="_blank" rel="noopener">Se Marketplace-annons</a>
+            <a class="btn marketplace" href="https://www.facebook.com/share/1CbvpZN5W2/" target="_blank" rel="noopener">🔵 Se Marketplace-annons</a>
           </div>
         </div>
       </div>
