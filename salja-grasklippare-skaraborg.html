@@ -1,84 +1,192 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Sälja gräsklippare i Skaraborg | Snabb värdering</title>
-  <meta name="description" content="Vill du sälja gräsklippare i Skaraborg? Vi köper även trasiga objekt. Skicka bild + ort + riktpris för snabb bedömning." />
-  <link rel="canonical" href="https://money-se.github.io/skaraborg-maskin-aterbruk/salja-grasklippare-skaraborg.html" />
+<title>Sälja gräsklippare i Skaraborg | Snabb värdering</title>
+<meta name="description" content="Vill du sälja gräsklippare i Skaraborg? Vi köper även trasiga objekt. Skicka bild + ort + riktpris för snabb bedömning." />
+<link rel="canonical" href="https://money-se.github.io/skaraborg-maskin-aterbruk/salja-grasklippare-skaraborg.html" />
 
-  <style>
-    :root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
-    a{color:inherit}
-    .wrap{max-width:var(--max);margin:auto;padding:0 20px}
-    main{padding:40px 0}
-    .card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:16px}
-    h1{margin-top:0;font-size:32px}
-    h2{margin-top:0;font-size:20px}
-    .btn{display:inline-block;margin-top:12px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
-    .note{font-size:13px;color:var(--muted);margin-top:10px}
-  </style>
+<style>
+:root{
+  --brand:#1f2d1f;
+  --brand2:#243626;
+  --bg:#f5f7f5;
+  --card:#ffffff;
+  --text:#0f1a12;
+  --muted:#5b6c60;
+  --line:#e6ebe6;
+  --radius:18px;
+  --shadow:0 12px 30px rgba(0,0,0,.08);
+  --max:1100px;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:auto;padding:0 20px}
+main{padding:40px 0}
+.card{
+  background:var(--card);
+  padding:24px;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  border:1px solid var(--line);
+  margin-bottom:16px;
+}
+h1{margin:0 0 10px;font-size:32px;line-height:1.15}
+h2{margin:0 0 10px;font-size:20px}
+p{margin:0;color:var(--muted)}
+ul{margin:10px 0 0;padding-left:18px;color:var(--muted)}
+li{margin:6px 0}
+.note{font-size:13px;color:var(--muted);margin-top:10px}
+
+.btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:12px 14px;border-radius:12px;
+  text-decoration:none;font-weight:800;
+  border:1px solid var(--line);
+  background:#fff;
+}
+.btn.primary{background:var(--brand);border-color:var(--brand);color:#fff}
+
+/* Header styles (VIKTIGT för att header-partial ska se rätt ut) */
+.topbar{
+  position:sticky;
+  top:0;
+  z-index:100;
+  background:rgba(255,255,255,.92);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid var(--line);
+}
+.topbar-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  padding:14px 0;
+  flex-wrap:wrap;
+}
+.logo{
+  text-decoration:none;
+  font-weight:900;
+  font-size:16px;
+  letter-spacing:.6px;
+  line-height:1.2;
+  color:var(--text);
+}
+.logo span{
+  display:block;
+  font-size:12px;
+  font-weight:500;
+  color:var(--muted);
+  margin-top:4px;
+  letter-spacing:0;
+}
+nav{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  align-items:center;
+  font-size:14px;
+}
+nav a{
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:10px;
+  color:#1d2a1f;
+}
+nav a:hover{background:#eef3ee}
+@media (max-width: 860px){
+  nav{justify-content:flex-start}
+}
+
+/* Footer styles (så footern matchar) */
+.site-footer{
+  background:#fff;
+  border-top:1px solid var(--line);
+  padding:26px 0 30px;
+  font-size:13px;
+  color:var(--muted);
+}
+.foot{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+}
+</style>
 </head>
 
 <body>
 <div id="site-header"></div>
 
 <main>
-<div class="wrap">
+  <div class="wrap">
 
-<div class="card">
-<h1>Sälja gräsklippare i Skaraborg</h1>
-<p>
-Vill du sälja din gräsklippare i Skaraborg utan att lägga tid på annonser, prutande och visningar?
-Vi köper både fungerande och trasiga gräsklippare och gör en snabb bedömning baserat på bilder och information.
-</p>
-</div>
+    <div class="card">
+      <h1>Sälja gräsklippare i Skaraborg</h1>
+      <p>
+        Vill du sälja din gräsklippare i Skaraborg utan att lägga tid på annonser, prutande och visningar?
+        Vi köper både fungerande och trasiga gräsklippare och gör en snabb bedömning baserat på bilder och information.
+      </p>
+      <p class="note"><strong>Tips:</strong> Skicka gärna ett ungefärligt riktpris så vi snabbt kan ta ställning.</p>
+    </div>
 
-<div class="card">
-<h2>Vi köper bland annat</h2>
-<ul>
-<li>Åkgräsklippare</li>
-<li>Handgräsklippare</li>
-<li>Robotgräsklippare (äldre modeller)</li>
-<li>Objekt som inte startar</li>
-<li>Maskiner med mindre fel eller saknade delar</li>
-</ul>
-<p class="note">
-Verksamma i Skövde, Hjo, Tibro, Mariestad, Karlsborg och övriga Skaraborg.
-</p>
-</div>
+    <div class="card">
+      <h2>Vi köper bland annat</h2>
+      <ul>
+        <li>Handgräsklippare</li>
+        <li>Åkgräsklippare</li>
+        <li>Trädgårdsmaskiner</li>
+        <li>Objekt som inte startar / okänd status</li>
+        <li>Maskiner med mindre fel eller saknade delar</li>
+      </ul>
+      <p class="note">
+        Verksamma i Skövde, Hjo, Tibro, Mariestad, Karlsborg och övriga Skaraborg.
+      </p>
+    </div>
 
-<div class="card">
-<h2>Hur går det till?</h2>
-<p>
-Skicka 1–3 bilder, ort och en kort beskrivning av skicket.
-Skriv gärna ett ungefärligt riktpris så vi snabbt kan avgöra om det är aktuellt.
-</p>
+    <div class="card">
+      <h2>Så gör du för snabb bedömning</h2>
+      <ul>
+        <li>1–3 bilder</li>
+        <li>Ort</li>
+        <li>Kort om skick (startar / står / okänt)</li>
+        <li>Ett ungefärligt riktpris</li>
+      </ul>
 
-<a class="btn" href="tel:0727483256">📞 Ring 072-748 32 56</a>
-<a class="btn" style="margin-left:8px;background:#fff;color:#1f2d1f;border:1px solid #e6ebe6;" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank">🔗 Facebook</a>
-</div>
+      <div class="btnrow">
+        <a class="btn primary" href="tel:0727483256">📞 Ring 072-748 32 56</a>
+        <a class="btn" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
+      </div>
 
-<div class="card">
-<h2>Även trasiga gräsklippare kan ha värde</h2>
-<p>
-Många gräsklippare skrotas i onödan. I vissa fall kan de användas som reservdelar
-eller repareras. Därför köper vi även objekt som inte startar eller stått länge.
-</p>
-<p>
-Läs mer om hur vi arbetar på sidan
-<a href="sa-funkar-det.html">Så funkar det</a>
-eller se vilka objekt som finns just nu under
-<a href="till-salu.html">Till salu</a>.
-</p>
-</div>
+      <p class="note">Snabbast svar = bild + ort + riktpris.</p>
+    </div>
 
-<p><a href="index.html">← Tillbaka till startsidan</a></p>
+    <div class="card">
+      <h2>Även trasigt kan ha värde</h2>
+      <p>
+        Många gräsklippare skrotas i onödan. I vissa fall kan de användas som reservdelar eller repareras.
+        Därför är även objekt som inte startar ibland aktuella.
+      </p>
+      <p class="note">
+        Läs mer: <a href="sa-funkar-det.html">Så funkar det</a> • <a href="kop-maskiner.html">Sälja maskin</a>
+      </p>
+    </div>
 
-</div>
+    <p class="note"><a href="index.html">← Tillbaka till startsidan</a></p>
+
+  </div>
 </main>
 
 <div id="site-footer"></div>
