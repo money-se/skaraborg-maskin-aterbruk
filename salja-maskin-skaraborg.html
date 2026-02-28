@@ -10,6 +10,7 @@
 <style>
 :root{
   --brand:#1f2d1f;
+  --brand2:#243626;
   --bg:#f5f7f5;
   --card:#ffffff;
   --text:#0f1a12;
@@ -20,10 +21,67 @@
   --max:1100px;
 }
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.65;
+}
 a{color:inherit}
 .wrap{max-width:var(--max);margin:auto;padding:0 20px}
+
+/* ✅ HEADER STYLES – matchar partials1/header.html */
+.topbar{
+  position:sticky;
+  top:0;
+  background:rgba(255,255,255,.92);
+  backdrop-filter: blur(10px);
+  border-bottom:1px solid var(--line);
+  z-index:100;
+}
+.topbar-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  padding:14px 0;
+  flex-wrap:wrap;
+}
+.logo{
+  text-decoration:none;
+  font-weight:900;
+  font-size:16px;
+  letter-spacing:.6px;
+  line-height:1.2;
+  color:var(--text);
+}
+.logo span{
+  display:block;
+  font-size:12px;
+  font-weight:500;
+  color:var(--muted);
+  margin-top:4px;
+}
+nav{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  align-items:center;
+  font-size:14px;
+}
+nav a{
+  text-decoration:none;
+  padding:8px 10px;
+  border-radius:10px;
+  color:#1d2a1f;
+}
+nav a:hover{background:#eef3ee}
+
+/* Page */
 main{padding:40px 0}
+
 .card{
   background:var(--card);
   padding:26px;
@@ -35,13 +93,11 @@ main{padding:40px 0}
 .card h2{margin:0 0 10px;font-size:20px}
 .card h3{margin:18px 0 8px;font-size:16px}
 .card p{margin:0 0 10px;color:var(--muted)}
-.card ul, .card ol{margin:10px 0 0;padding-left:18px;color:var(--muted)}
+.card ul,.card ol{margin:10px 0 0;padding-left:18px;color:var(--muted)}
 .card li{margin:6px 0}
+
 .kicker{font-size:13px;color:var(--muted);margin-top:6px}
-.toc{
-  display:flex; flex-wrap:wrap; gap:10px;
-  margin-top:12px;
-}
+.toc{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
 .toc a{
   text-decoration:none;
   padding:8px 10px;
@@ -52,6 +108,7 @@ main{padding:40px 0}
   font-size:13px;
 }
 .toc a:hover{filter:brightness(1.02)}
+
 .btnrow{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
 .btn{
   display:inline-flex;
@@ -79,16 +136,35 @@ main{padding:40px 0}
   color:#2c3c2d;
   margin-top:8px;
 }
+
 details{
   border:1px solid var(--line);
   border-radius:14px;
-  padding:14px 14px;
+  padding:14px;
   background:#fff;
   margin-top:10px;
 }
-summary{cursor:pointer;font-weight:800;color:#1d2a1f}
+summary{cursor:pointer;font-weight:900;color:#1d2a1f}
 details p{margin:10px 0 0;color:var(--muted)}
+
+/* ✅ FOOTER STYLES – matchar partials1/footer.html */
+.site-footer{
+  background:#fff;
+  border-top:1px solid var(--line);
+  padding:26px 0 30px;
+  font-size:13px;
+  color:var(--muted);
+}
+.foot{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  align-items:center;
+}
+
 @media (max-width:860px){
+  nav{justify-content:flex-start}
   .card{padding:20px}
 }
 </style>
@@ -103,14 +179,14 @@ details p{margin:10px 0 0;color:var(--muted)}
 
 <h1>Sälja maskin i Skaraborg – komplett guide</h1>
 <p class="kicker">
-Den här sidan är en samlingsguide för dig som vill sälja gräsklippare, åkgräsklippare eller annan maskin i Skaraborg – snabbt, smidigt och utan onödigt krångel.
+Den här sidan samlar allt för dig som vill sälja gräsklippare, åkgräsklippare eller annan maskin i Skaraborg – snabbt och utan krångel.
 </p>
 
 <div class="card">
 <h2>Snabb överblick</h2>
 <p>
-Om du vill sälja maskin privat kan det ta tid: frågor, prut, uteblivna svar och “kan du hålla den till nästa vecka?”.
-Här är ett enklare upplägg: du skickar <strong>bild + ort + kort info om skick</strong>, så gör vi en bedömning.
+Att sälja privat kan ta tid: frågor, prut och uteblivna svar. Här är ett enklare upplägg:
+skicka <strong>bild + ort + kort info om skick</strong>, så gör vi en bedömning.
 </p>
 
 <div class="toc" aria-label="Innehåll">
@@ -149,8 +225,7 @@ Vi köper maskiner med värde – ibland som fungerande maskin, ibland som reser
 <div class="hr"></div>
 
 <p>
-Vill du ha en kortare sida med fokus på “sälja maskin” generellt?  
-Se: <a href="kop-maskiner.html">Sälja maskin</a>.
+Kortare servicesida: <a href="kop-maskiner.html">Sälja maskin</a>.
 </p>
 <span class="badge">Tips: skriv gärna märke/modell om du vet.</span>
 </div>
@@ -158,7 +233,7 @@ Se: <a href="kop-maskiner.html">Sälja maskin</a>.
 <div class="card" id="riktpris">
 <h2>Riktpris – så får du en snabb uppskattning</h2>
 <p>
-Många vill slippa gissa pris. Det bästa sättet att få ett rimligt riktpris är att du skickar tre saker:
+Vill du slippa gissa pris? Skicka:
 </p>
 <ul>
   <li><strong>Bild</strong> (helbild + närbild på ev. skador/skylt)</li>
@@ -166,8 +241,8 @@ Många vill slippa gissa pris. Det bästa sättet att få ett rimligt riktpris �
   <li><strong>Status</strong>: startar / står / trasig del / saknar delar</li>
 </ul>
 <p>
-Riktpris påverkas nästan alltid av: skick, märke, kompletthet, och hur lätt den är att transportera/hämta.
-Om du vill kan du även skriva vad du själv tänkt – då kan vi snabbt säga om det är rimligt eller om vi hamnar på annan nivå.
+Riktpris påverkas oftast av skick, märke, kompletthet och hur lätt den är att transportera/hämta.
+Du kan också skriva vad du själv tänkt – då kan vi snabbt säga om det är rimligt.
 </p>
 <span class="badge">Målet: tydlig bedömning utan att du behöver lägga tid på annonser.</span>
 </div>
@@ -175,7 +250,7 @@ Om du vill kan du även skriva vad du själv tänkt – då kan vi snabbt säga 
 <div class="card" id="trasigt">
 <h2>Trasig maskin – har den värde?</h2>
 <p>
-Ja, ofta. “Startar inte” betyder inte automatiskt “värdelös”. Många maskiner går att få igång med små åtgärder, eller har värde som reservdelar.
+Ja, ofta. “Startar inte” betyder inte automatiskt “värdelös”. Många maskiner har värde som reservdelar eller går att få igång med mindre insats.
 </p>
 
 <ul>
@@ -186,15 +261,14 @@ Ja, ofta. “Startar inte” betyder inte automatiskt “värdelös”. Många m
 </ul>
 
 <p>
-Vill du läsa mer specifikt om värde på trasigt?  
-Se: <a href="trasig-grasklippare-varde.html">Trasig gräsklippare – värde</a> och <a href="akgrasklippare-startar-inte.html">Åkgräsklippare startar inte</a>.
+Läs mer: <a href="trasig-grasklippare-varde.html">Trasig gräsklippare – värde</a> och <a href="akgrasklippare-startar-inte.html">Åkgräsklippare startar inte</a>.
 </p>
 </div>
 
 <div class="card" id="orter">
 <h2>Sälja maskin i din ort</h2>
 <p>
-Vi är verksamma i hela Skaraborg. Här är snabblänkar om du vill gå direkt till en ort-sida:
+Vi är verksamma i hela Skaraborg. Snabblänkar:
 </p>
 
 <h3>Sälja maskin</h3>
@@ -206,7 +280,7 @@ Vi är verksamma i hela Skaraborg. Här är snabblänkar om du vill gå direkt t
   <li><a href="salja-maskin-karlsborg.html">Sälja maskin i Karlsborg</a></li>
 </ul>
 
-<h3>Skrot / hämtning lokalt</h3>
+<h3>Skrot / lokalt</h3>
 <ul>
   <li><a href="skrot-hamtning-skovde.html">Skrot hämtning i Skövde</a></li>
   <li><a href="skrot-hamtning-hjo.html">Skrot hämtning i Hjo</a></li>
@@ -214,14 +288,12 @@ Vi är verksamma i hela Skaraborg. Här är snabblänkar om du vill gå direkt t
   <li><a href="bli-av-med-maskiner-mariestad.html">Bli av med maskiner i Mariestad</a></li>
 </ul>
 
-<span class="badge">Du kan alltid skicka bild + ort även om din ort inte står här.</span>
+<span class="badge">Du kan alltid skicka bild + ort även om din ort inte står listad.</span>
 </div>
 
 <div class="card" id="process">
 <h2>Så går det till – steg för steg</h2>
-<p>
-Det här är standardupplägget. Enkelt och tydligt:
-</p>
+<p>Standardupplägget:</p>
 
 <ol>
   <li><strong>Skicka bild + ort + kort om skick</strong></li>
@@ -231,23 +303,23 @@ Det här är standardupplägget. Enkelt och tydligt:
 </ol>
 
 <p>
-Vill du läsa den korta versionen: <a href="sa-funkar-det.html">Så funkar det</a>.
+Läs mer: <a href="sa-funkar-det.html">Så funkar det</a>.
 </p>
 
 <div class="hr"></div>
 
 <h3>Tips för snabbare svar</h3>
 <ul>
-  <li>1–3 bilder räcker (helbild + skylt + ev. skada)</li>
+  <li>Helbild + skylt + ev. skada räcker</li>
   <li>Skriv “startar” eller “startar inte”</li>
-  <li>Skriv om något saknas (batteri, klippdäck, kåpor, nyckel)</li>
+  <li>Skriv om något saknas (batteri, kåpor, nyckel)</li>
 </ul>
 </div>
 
 <div class="card" id="skrot">
 <h2>Skrot, metall och bortforsling</h2>
 <p>
-Ibland handlar det inte om att sälja – utan om att bli av med skrot som tar plats. Då bedömer vi om det kan återbrukas, bli reservdelar eller sorteras korrekt.
+Ibland handlar det inte om att sälja – utan om att bli av med skrot som tar plats. Då bedömer vi om det kan återbrukas eller sorteras korrekt.
 </p>
 
 <ul>
@@ -272,7 +344,7 @@ Se: <a href="husvagnar.html">Husvagnar/Kärror</a> och <a href="husvagn-inlamnin
 <div class="card" id="faq">
 <h2>Vanliga frågor</h2>
 <p>
-Här är de vanligaste frågorna. För full FAQ-sida: <a href="faq.html">FAQ</a>. :contentReference[oaicite:2]{index=2}
+För full FAQ-sida: <a href="faq.html">FAQ</a>.
 </p>
 
 <details>
@@ -298,9 +370,6 @@ Här är de vanligaste frågorna. För full FAQ-sida: <a href="faq.html">FAQ</a>
 <div class="hr"></div>
 
 <h3>Redo att sälja?</h3>
-<p>
-Skicka gärna:
-</p>
 <ul>
   <li>1–3 bilder</li>
   <li>Ort</li>
@@ -313,9 +382,7 @@ Skicka gärna:
   <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
 </div>
 
-<p class="note">
-Tillbaka till startsidan: <a href="index.html">Hem</a>. :contentReference[oaicite:3]{index=3}
-</p>
+<p class="note">Tillbaka: <a href="index.html">Hem</a>.</p>
 </div>
 
 </div>
