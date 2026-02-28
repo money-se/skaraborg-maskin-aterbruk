@@ -185,7 +185,7 @@
 
     /* --- Marketplace CTA (tydligare + subtil puls) --- */
     .btn.marketplace{
-      background:#1877f2;      /* Facebook-blå */
+      background:#1877f2;
       border-color:#1877f2;
       color:#fff;
       font-weight:800;
@@ -197,10 +197,9 @@
       background:#0f63d8;
       border-color:#0f63d8;
       transform:translateY(-1px);
-      animation:none; /* stoppa puls vid hover så det känns “kontrollerat” */
+      animation:none;
       box-shadow:0 14px 28px rgba(24,119,242,.26);
     }
-    /* Liten “glow ring” som pulserar */
     .btn.marketplace::after{
       content:"";
       position:absolute;
@@ -222,7 +221,6 @@
       70%{opacity:0; transform:scale(1.06)}
       100%{opacity:0; transform:scale(1.06)}
     }
-    /* Respektera användare som vill minska animation */
     @media (prefers-reduced-motion: reduce){
       .btn.marketplace,
       .btn.marketplace::after{
@@ -363,6 +361,19 @@
             <li>Märke &amp; modell (om du vet)</li>
           </ul>
         </div>
+
+        <!-- ✅ Guide-länk (pillar) -->
+        <div class="card span-12" style="background:#f3f6f3;">
+          <h3>Komplett guide: Sälja maskin i Skaraborg</h3>
+          <p>
+            Vill du ha en tydlig genomgång om riktpris, trasiga maskiner, hämtning och hur processen funkar –
+            plus länkar till orter?
+          </p>
+          <div style="margin-top:12px;">
+            <a class="btn white" style="border-color:#fff;" href="salja-maskin-skaraborg.html">Läs guiden →</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
@@ -508,6 +519,7 @@
 
           <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap;">
             <a class="btn white" href="till-salu.html">Se mer</a>
+            <!-- ✅ FIX: använder marketplace-klassen -->
             <a class="btn marketplace" href="https://www.facebook.com/share/1CbvpZN5W2/" target="_blank" rel="noopener">🔵 Se Marketplace-annons</a>
           </div>
         </div>
