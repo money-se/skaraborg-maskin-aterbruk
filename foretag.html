@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tjänster för företag | Skrot & maskiner i Skaraborg</title>
+
+<meta name="description" content="Vi hjälper företag i Skaraborg med skrothämtning, maskiner, metall och utrensning av verkstäder och lokaler. Smidig lösning för företag.">
+
+<style>
+:root{
+--brand:#1f2d1f;
+--bg:#f5f7f5;
+--card:#ffffff;
+--text:#0f1a12;
+--muted:#5b6c60;
+--line:#e6ebe6;
+--radius:18px;
+--shadow:0 12px 30px rgba(0,0,0,.08);
+--max:1100px;
+}
+*{box-sizing:border-box}
+body{
+margin:0;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.65;
+}
+.wrap{
+max-width:var(--max);
+margin:auto;
+padding:0 20px;
+}
+
+.topbar{
+position:sticky;
+top:0;
+background:rgba(255,255,255,.92);
+border-bottom:1px solid var(--line);
+}
+
+main{
+padding:40px 0;
+}
+
+.page-title{
+font-size:34px;
+margin:0 0 16px;
+}
+
+.lead{
+color:var(--muted);
+max-width:70ch;
+margin-bottom:28px;
+}
+
+.card{
+background:var(--card);
+padding:24px;
+border-radius:var(--radius);
+box-shadow:var(--shadow);
+border:1px solid var(--line);
+margin-bottom:20px;
+}
+
+.card h2{
+margin:0 0 10px;
+font-size:20px;
+}
+
+.card p{
+margin:0;
+color:var(--muted);
+}
+
+.card ul{
+margin:10px 0 0;
+padding-left:18px;
+color:var(--muted);
+}
+
+.button{
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:12px 16px;
+margin-top:14px;
+background:var(--brand);
+color:#fff;
+text-decoration:none;
+border-radius:12px;
+font-weight:700;
+}
+
+.site-footer{
+background:#fff;
+border-top:1px solid var(--line);
+padding:26px 0;
+font-size:13px;
+color:var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<div id="site-header"></div>
+
+<main>
+<div class="wrap">
+
+<h1 class="page-title">Tjänster för företag i Skaraborg</h1>
+
+<p class="lead">
+Skaraborg Maskin & Återbruk hjälper företag att bli av med maskiner, metall och skrot på ett smidigt sätt.  
+Vi arbetar med verkstäder, lantbruk, entreprenörer och andra verksamheter i hela Skaraborg.
+</p>
+
+<div class="card">
+<h2>Skrot hämtning för företag</h2>
+<p>
+Har ni metall, maskindelar eller skrot som tar plats i verkstaden eller på gården?  
+Vi kan i många fall hjälpa till med hämtning och bortforsling.
+</p>
+
+<ul>
+<li>Metallskrot</li>
+<li>Maskindelar</li>
+<li>Trasiga maskiner</li>
+<li>Utrustning som inte längre används</li>
+</ul>
+
+<a class="button" href="skrot-hamtning.html">Läs mer om skrothämtning</a>
+
+</div>
+
+<div class="card">
+<h2>Utrensning av verkstäder och lokaler</h2>
+
+<p>
+Vid flytt, omorganisation eller städning av verkstad kan mycket material bli stående.  
+Vi kan hjälpa till att bedöma vad som kan återbrukas, säljas eller hanteras som skrot.
+</p>
+
+<ul>
+<li>Verkstadsmaskiner</li>
+<li>Reservdelar</li>
+<li>Metall</li>
+<li>Utrustning</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Fördelar för företag</h2>
+
+<ul>
+<li>Frigör plats i verkstad eller lager</li>
+<li>Smidigare än att transportera skrot själv</li>
+<li>Vissa objekt kan fortfarande ha värde</li>
+<li>Snabb bedömning</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h2>Arbetsområde</h2>
+
+<p>
+Vi arbetar i hela Skaraborg och hjälper företag i bland annat:
+</p>
+
+<ul>
+<li>Skövde</li>
+<li>Hjo</li>
+<li>Tibro</li>
+<li>Karlsborg</li>
+<li>Mariestad</li>
+<li>Skara</li>
+<li>Falköping</li>
+<li>Tidaholm</li>
+<li>Töreboda</li>
+<li>Habo</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Kontakta oss</h2>
+
+<p>
+Skicka gärna bild + kort info om vad det gäller så kan vi göra en snabb bedömning.
+</p>
+
+<a class="button" href="tel:0727483256">Ring 072-748 32 56</a>
+
+<a class="button" style="background:#1877f2;margin-left:10px;"
+href="https://www.facebook.com/profile.php?id=61588383880828"
+target="_blank">
+Facebook
+</a>
+
+</div>
+
+</div>
+</main>
+
+<div id="site-footer"></div>
+
+<script>
+async function inject(id,url){
+const el=document.getElementById(id);
+if(!el) return;
+const res=await fetch(url);
+el.innerHTML=await res.text();
+}
+inject("site-header","partials1/header.html");
+inject("site-footer","partials1/footer.html");
+</script>
+
+</body>
+</html>
