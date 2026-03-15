@@ -1,158 +1,513 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Om oss | Skaraborg Maskin & Återbruk</title>
-  <meta name="description" content="Läs mer om Skaraborg Maskin & Återbruk. Vi arbetar med återbruk, maskiner, skrot och upphämtning i hela Skaraborg.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Läs mer om Skaraborg Maskin & Återbruk. Vi arbetar med återbruk, maskiner, skrot och upphämtning i hela Skaraborg för privatpersoner och företag." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Skaraborg Maskin & Återbruk",
+    "url": "https://skaraborgmaskin.se/om-oss.html",
+    "telephone": "+46727483256",
+    "areaServed": [
+      { "@type": "City", "name": "Skövde" },
+      { "@type": "City", "name": "Hjo" },
+      { "@type": "City", "name": "Tibro" },
+      { "@type": "City", "name": "Mariestad" },
+      { "@type": "City", "name": "Karlsborg" },
+      { "@type": "City", "name": "Tidaholm" },
+      { "@type": "City", "name": "Skara" },
+      { "@type": "City", "name": "Falköping" },
+      { "@type": "City", "name": "Töreboda" },
+      { "@type": "City", "name": "Habo" }
+    ],
+    "description": "Skaraborg Maskin & Återbruk arbetar med köp, försäljning, återbruk, skrot och maskinrelaterade uppdrag i hela Skaraborg.",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61588383880828"
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand2:#243626;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#0f1a12;
+      --muted:#5b6c60;
+      --line:#e6ebe6;
+      --radius:18px;
+      --shadow:0 12px 30px rgba(0,0,0,.08);
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 20px}
+
+    /* Header styles for injected partial */
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:100;
+      background:rgba(255,255,255,.92);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      padding:14px 0;
+      flex-wrap:wrap;
+    }
+    .logo{
+      text-decoration:none;
+      font-weight:900;
+      font-size:16px;
+      letter-spacing:.6px;
+      line-height:1.2;
+      color:var(--text);
+    }
+    .logo span{
+      display:block;
+      font-size:12px;
+      font-weight:500;
+      color:var(--muted);
+      margin-top:4px;
+      letter-spacing:0;
+    }
+    nav{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+      align-items:center;
+      font-size:14px;
+    }
+    nav a{
+      text-decoration:none;
+      padding:8px 10px;
+      border-radius:10px;
+      color:#1d2a1f;
+    }
+    nav a:hover{background:#eef3ee}
+
+    /* Hero */
+    .hero{
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      color:#fff;
+      padding:64px 0 44px;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .hero h1{
+      margin:0 0 12px;
+      font-size:40px;
+      line-height:1.12;
+      letter-spacing:.2px;
+    }
+    .hero p{
+      margin:0;
+      font-size:17px;
+      max-width:62ch;
+      opacity:.94;
+    }
+    .pillrow{
+      margin-top:16px;
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-size:13px;
+      padding:8px 10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.14);
+      white-space:nowrap;
+    }
+    .cta{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
+      border-radius:var(--radius);
+      padding:18px;
+    }
+    .cta h2{
+      margin:0 0 8px;
+      font-size:16px;
+      letter-spacing:.2px;
+    }
+    .cta p{
+      margin:0 0 14px;
+      font-size:14px;
+      opacity:.92;
+    }
+
+    /* Buttons */
+    .btnrow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:12px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:700;
+      border:1px solid rgba(255,255,255,.20);
+      background:rgba(255,255,255,.12);
+      color:#fff;
+      transition:transform .15s ease, filter .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover{filter:brightness(1.05)}
+    .btn.white{
+      background:#fff;
+      color:var(--brand);
+      border-color:#fff;
+    }
+    .btn.fb{
+      background:#1877f2;
+      border-color:#1877f2;
+      color:#fff;
+    }
+    .smallnote{
+      margin-top:10px;
+      font-size:12px;
+      opacity:.86;
+    }
+
+    /* Sections */
+    section{padding:44px 0}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:14px;
+    }
+    .card{
+      background:var(--card);
+      padding:22px;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      border:1px solid var(--line);
+    }
+    .card h2,
+    .card h3{
+      margin:0 0 8px;
+      font-size:18px;
+      line-height:1.3;
+    }
+    .card p{
+      margin:0;
+      color:var(--muted);
+    }
+    .card ul,
+    .card ol{
+      margin:10px 0 0;
+      padding-left:18px;
+      color:var(--muted);
+    }
+    .card li{margin:6px 0}
+    .span-12{grid-column:span 12}
+    .span-8{grid-column:span 8}
+    .span-6{grid-column:span 6}
+    .span-4{grid-column:span 4}
+    .highlight{
+      border-left:6px solid var(--brand);
+      background:#f1f6f1;
+    }
+    .soft{
+      background:#f3f6f3;
+    }
+    .tag,
+    .badge{
+      display:inline-block;
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#eef3ee;
+      border:1px solid var(--line);
+      color:#2c3c2d;
+      margin-top:12px;
+    }
+    .note{
+      font-size:13px;
+      color:var(--muted);
+      margin-top:10px;
+    }
+    .hr{
+      height:1px;
+      background:var(--line);
+      margin:14px 0;
+    }
+
+    /* Footer */
+    .site-footer{
+      background:#fff;
+      border-top:1px solid var(--line);
+      padding:26px 0 30px;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .foot{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    @media (max-width: 860px){
+      .hero-grid{grid-template-columns:1fr}
+      .hero h1{font-size:30px}
+      .span-8,.span-6,.span-4{grid-column:span 12}
+      nav{justify-content:flex-start}
+    }
+  </style>
 </head>
 
 <body>
 
-<div id="header-placeholder"></div>
+  <div id="site-header"></div>
 
-<section class="hero">
-  <div class="container">
-    <h1>Om Skaraborg Maskin & Återbruk</h1>
-    <p class="lead">
-      Vi arbetar lokalt i Skaraborg med att ta tillvara maskiner, material och föremål
-      som annars riskerar att skrotas eller kastas i onödan.
-    </p>
-  </div>
-</section>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Om Skaraborg Maskin &amp; Återbruk</h1>
+        <p>
+          Vi arbetar lokalt i Skaraborg med köp, återbruk, skrot och maskinrelaterade uppdrag.
+          Målet är enkelt: att ta tillvara så mycket som möjligt, göra processen smidig och hjälpa både privatpersoner och företag att bli av med sådant som bara står och tar plats.
+        </p>
 
-<section class="content">
-  <div class="container">
+        <div class="pillrow" aria-label="Snabbinfo">
+          <div class="pill">♻️ Återbruk först</div>
+          <div class="pill">🚚 Hämtning kan ordnas</div>
+          <div class="pill">🛠️ Maskiner & delar</div>
+          <div class="pill">📍 Hela Skaraborg</div>
+        </div>
+      </div>
 
-    <h2>Vår idé</h2>
+      <div class="cta">
+        <h2>Behöver du hjälp direkt?</h2>
+        <p>
+          Skicka bild + ort + kort info om vad det gäller, så gör vi en snabb bedömning.
+        </p>
 
-    <p>
-      Skaraborg Maskin & Återbruk startades med en enkel tanke:
-      väldigt mycket som människor slänger eller betraktar som skrot
-      har fortfarande ett värde.
-    </p>
+        <div class="btnrow">
+          <a class="btn white" href="tel:0727483256">📞 Ring 072-748 32 56</a>
+          <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
+        </div>
 
-    <p>
-      Det kan handla om maskiner som går att laga, material som kan användas igen,
-      eller föremål som någon annan faktiskt behöver.
-      Genom att ta hand om sådant sparar vi både resurser och pengar.
-    </p>
+        <div class="smallnote">
+          Snabbast svar får du om du skickar 1–3 bilder direkt.
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <p>
-      Vi arbetar främst i Skaraborg och hjälper både privatpersoner
-      och företag med upphämtning, återbruk och vidareförsäljning
-      av maskiner, verktyg och annat material.
-    </p>
+  <main>
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-8">
+            <h2>Vilka vi är</h2>
+            <p>
+              Skaraborg Maskin &amp; Återbruk finns för att väldigt mycket som människor ser som skrot eller problem fortfarande kan ha ett värde.
+              Ibland går något att laga. Ibland kan delar användas igen. Ibland handlar det bara om att någon behöver hjälp att få bort maskiner, metall eller utrustning på ett smidigt sätt.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Vi försöker därför alltid göra en rimlig bedömning av vad som kan säljas, återbrukas, användas som reservdelar eller hanteras som skrot på rätt sätt.
+            </p>
+            <span class="tag">Smidigt • Tydligt • Lokalt</span>
+          </div>
 
-  </div>
-</section>
+          <div class="card span-4 soft">
+            <h3>Det här vill vi stå för</h3>
+            <ul>
+              <li>Tydlig kommunikation</li>
+              <li>Praktisk hjälp utan krångel</li>
+              <li>Återbruk när det går</li>
+              <li>Snabba bedömningar</li>
+              <li>Lokal närvaro i Skaraborg</li>
+            </ul>
+          </div>
 
-<section class="content alt">
-  <div class="container">
+          <div class="card span-12 highlight">
+            <h2>Varför vi gör detta</h2>
+            <p>
+              Många maskiner, verktyg, reservdelar och metallföremål blir stående i garage, verkstäder, förråd och på gårdar.
+              För ägaren är det ofta mest något som tar plats. För oss kan det vara början på återbruk, reservdelar eller en smidigare lösning än att allt bara kastas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <h2>Vad vi gör</h2>
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Vad vi hjälper till med</h2>
+            <ul>
+              <li>Köp av maskiner, även trasiga objekt</li>
+              <li>Bedömning av maskindelar och metall</li>
+              <li>Skrot och maskinrelaterad bortforsling</li>
+              <li>Återbruk av delar och utrustning</li>
+              <li>Hjälp vid dödsbo och större utrensningar</li>
+              <li>Inlämning av husvagnar och kärror</li>
+            </ul>
+          </div>
 
-    <p>Vi arbetar bland annat med:</p>
+          <div class="card span-6">
+            <h2>Hur vi tänker kring återbruk</h2>
+            <p>
+              Vi försöker inte bara flytta saker från en plats till en annan.
+              Tanken är att ta tillvara det som fortfarande går att använda. En maskin som inte startar kan fortfarande ha delar med värde. En äldre utrustning kan få nytt liv hos någon annan.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Det sparar resurser, minskar onödigt avfall och gör att mer faktiskt kommer till användning i stället för att gå förlorat direkt.
+            </p>
+          </div>
 
-    <ul>
-      <li>Upphämtning av skrot och maskiner</li>
-      <li>Återbruk av material och utrustning</li>
-      <li>Köp och försäljning av maskiner</li>
-      <li>Hjälp vid dödsbon och utrensningar</li>
-      <li>Vidareförsäljning av föremål som fortfarande har värde</li>
-    </ul>
+          <div class="card span-4">
+            <h3>Köp</h3>
+            <p>Vi bedömer om objektet har värde som hel maskin, repobjekt eller reservdelar.</p>
+          </div>
 
-    <p>
-      Vår styrka är att vi ofta kan se värdet i saker som andra
-      bara betraktar som skräp.
-    </p>
+          <div class="card span-4">
+            <h3>Återbruk</h3>
+            <p>Det som går att rädda försöker vi ta tillvara innan något räknas som rent skrot.</p>
+          </div>
 
-  </div>
-</section>
+          <div class="card span-4">
+            <h3>Skrot</h3>
+            <p>Det som inte går att använda vidare sorteras och hanteras korrekt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<section class="content">
-  <div class="container">
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Var vi arbetar</h2>
+            <p>
+              Vi är verksamma i hela Skaraborg och hjälper ofta kunder i bland annat Skövde, Hjo, Tibro, Karlsborg, Mariestad, Tidaholm, Skara, Falköping, Töreboda och Habo.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Även om din ort inte står med kan du alltid höra av dig. Det viktiga är vad det gäller och var objektet finns.
+            </p>
+            <span class="badge">Hela Skaraborg</span>
+          </div>
 
-    <h2>Återbruk i praktiken</h2>
+          <div class="card span-6">
+            <h2>Privatpersoner och företag</h2>
+            <p>
+              Vi hjälper både privatpersoner som vill sälja eller bli av med något, och företag som behöver en smidig lösning kring maskiner, metall, utrensningar eller återbruk.
+            </p>
+            <div class="hr"></div>
+            <p>
+              För företag kan det ibland handla om att frigöra yta, minska avfall eller låta oss ta hand om sådant som annars bara blir ett bekymmer.
+            </p>
+          </div>
 
-    <p>
-      Mycket av det som slängs idag hade kunnat användas igen.
-      Maskiner, reservdelar, verktyg och material hamnar ofta
-      på återvinningen trots att de fortfarande har funktion
-      eller värde.
-    </p>
+          <div class="card span-12 soft">
+            <h2>Samarbeten</h2>
+            <p>
+              I vissa uppdrag samarbetar Skaraborg Maskin &amp; Återbruk med Nordtorpets Allservice AB när kompletterande tjänster behövs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <p>
-      Genom att ta hand om dessa saker kan vi ibland reparera,
-      ibland sälja vidare och ibland använda delar till andra
-      maskiner.
-    </p>
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6 highlight">
+            <h2>Så får du snabbast svar</h2>
+            <ol>
+              <li>Skicka 1–3 bilder</li>
+              <li>Skriv vilken ort det gäller</li>
+              <li>Skriv kort vad det är för objekt</li>
+              <li>Nämn gärna skick: startar, står, trasig del eller okänt</li>
+            </ol>
+            <div class="note">Det räcker ofta långt för att vi ska kunna ge ett första svar.</div>
+          </div>
 
-    <p>
-      På så sätt bidrar återbruk både till att minska avfall
-      och till att saker fortsätter användas istället för att
-      kastas.
-    </p>
+          <div class="card span-6">
+            <h2>Relaterade sidor</h2>
+            <ul>
+              <li><a href="salja-maskin-skaraborg.html">Sälja maskin i Skaraborg</a></li>
+              <li><a href="skrot-hamtning.html">Skrot &amp; hämtning</a></li>
+              <li><a href="aterbruk.html">Återbruk</a></li>
+              <li><a href="sa-funkar-det.html">Så funkar det</a></li>
+              <li><a href="dodsbo-utrensning.html">Dödsbo &amp; utrensning</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
 
-  </div>
-</section>
+          <div class="card span-12">
+            <h2>Kontakta oss</h2>
+            <p>
+              Vill du sälja en maskin, bli av med skrot, fråga om återbruk eller höra om vi kan hjälpa till med något större?
+              Hör av dig så tittar vi på det.
+            </p>
 
-<section class="content alt">
-  <div class="container">
+            <div class="btnrow" style="margin-top:14px;">
+              <a class="btn white" style="background:var(--brand);color:#fff;border-color:var(--brand);" href="tel:0727483256">📞 Ring 072-748 32 56</a>
+              <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Besök oss på Facebook</a>
+              <a class="btn white" href="kontakt.html">Kontakt-sidan</a>
+            </div>
 
-    <h2>Var vi arbetar</h2>
+            <div class="note"><a href="index.html">← Tillbaka till startsidan</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <p>
-      Vi arbetar i hela Skaraborg och hjälper ofta kunder i bland annat:
-    </p>
+  <div id="site-footer"></div>
 
-    <p>
-      Skövde, Tibro, Hjo, Karlsborg, Tidaholm, Falköping,
-      Skara, Mariestad, Töreboda och närliggande områden.
-    </p>
-
-    <p>
-      Behöver du hjälp med skrot, maskiner eller återbruk i området
-      är du alltid välkommen att kontakta oss.
-    </p>
-
-  </div>
-</section>
-
-<section class="content">
-  <div class="container">
-
-    <h2>Kontakt</h2>
-
-    <p>
-      Vill du sälja en maskin, bli av med skrot eller höra
-      om vi kan hjälpa till med något?
-    </p>
-
-    <p>
-      Skicka gärna bilder via Facebook eller ring oss direkt
-      så kan vi ofta göra en snabb bedömning.
-    </p>
-
-    <p>
-      <a class="button" href="kontakt.html">Kontakta oss</a>
-    </p>
-
-  </div>
-</section>
-
-<div id="footer-placeholder"></div>
-
-<script>
-fetch("partials1/header.html")
-  .then(response => response.text())
-  .then(data => document.getElementById("header-placeholder").innerHTML = data);
-
-fetch("partials1/footer.html")
-  .then(response => response.text())
-  .then(data => document.getElementById("footer-placeholder").innerHTML = data);
-</script>
+  <script>
+    async function inject(id, url){
+      const el = document.getElementById(id);
+      if(!el) return;
+      const res = await fetch(url, { cache: "no-cache" });
+      el.innerHTML = await res.text();
+    }
+    inject("site-header", "partials1/header.html");
+    inject("site-footer", "partials1/footer.html");
+  </script>
 
 </body>
 </html>
