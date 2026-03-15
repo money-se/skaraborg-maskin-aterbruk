@@ -1,117 +1,207 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<title>Skrot hämtning i Skara | Vi hämtar maskiner & metall</title>
-<meta name="description" content="Behöver du skrot hämtning i Skara? Vi hjälper till med maskiner, metall och objekt som står och tar plats. Snabb bedömning via bild.">
+  <title>Skrot hämtning i Skara | Maskiner & metall | Skaraborg Maskin & Återbruk</title>
+  <meta name="description" content="Behöver du skrot hämtning i Skara? Vi hjälper till med maskinrelaterat skrot, metall och trasiga maskiner. Skicka bild + ort + kort info för snabb bedömning." />
 
-<style>
-:root{
-  --brand:#1f2d1f;
-  --bg:#f5f7f5;
-  --card:#ffffff;
-  --text:#0f1a12;
-  --muted:#5b6c60;
-  --line:#e6ebe6;
-  --radius:18px;
-  --shadow:0 12px 30px rgba(0,0,0,.08);
-  --max:1100px;
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.65;
-}
-a{color:inherit}
-.wrap{max-width:var(--max);margin:auto;padding:0 20px;}
-.topbar{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter: blur(10px);border-bottom:1px solid var(--line);z-index:100;}
-.topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap;}
-.logo{text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;line-height:1.2;color:var(--text);}
-.logo span{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:4px;}
-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:center;font-size:14px;}
-nav a{text-decoration:none;padding:8px 10px;border-radius:10px;color:#1d2a1f;}
-nav a:hover{background:#eef3ee}
-main{padding:40px 0;}
-.page-title{margin:0 0 16px;font-size:32px;line-height:1.2;}
-.lead{margin:0 0 22px;color:var(--muted);max-width:75ch;}
-.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:20px;}
-.card h2{margin:0 0 10px;font-size:18px;}
-.card p{margin:0;color:var(--muted);}
-.card ul{margin:12px 0 0;padding-left:18px;color:var(--muted);}
-.card li{margin:6px 0;}
-.button{display:inline-flex;align-items:center;justify-content:center;margin-top:14px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800;}
-.note{font-size:13px;color:var(--muted);margin-top:10px;}
-.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted);}
-.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center;}
-@media (max-width: 860px){nav{justify-content:flex-start}.page-title{font-size:26px}}
-</style>
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand2:#243626;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#0f1a12;
+      --muted:#5b6c60;
+      --line:#e6ebe6;
+      --radius:18px;
+      --shadow:0 12px 30px rgba(0,0,0,.08);
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 20px}
+    .topbar{
+      position:sticky;top:0;background:rgba(255,255,255,.92);
+      backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:100;
+    }
+    .topbar-inner{
+      display:flex;justify-content:space-between;align-items:center;gap:12px;
+      padding:14px 0;flex-wrap:wrap;
+    }
+    .logo{
+      text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;
+      line-height:1.2;color:var(--text);
+    }
+    .logo span{
+      display:block;font-size:12px;font-weight:500;color:var(--muted);
+      margin-top:4px;letter-spacing:0;
+    }
+    nav{
+      display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;
+      align-items:center;font-size:14px;
+    }
+    nav a{
+      text-decoration:none;padding:8px 10px;border-radius:10px;color:#1d2a1f;
+    }
+    nav a:hover{background:#eef3ee}
+    .hero{
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      color:#fff;padding:56px 0 38px;
+    }
+    .hero h1{margin:0 0 10px;font-size:38px;line-height:1.15}
+    .hero p{margin:0;max-width:72ch;font-size:17px;opacity:.94}
+    .pillrow{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+    .pill{
+      display:inline-flex;align-items:center;gap:8px;font-size:13px;padding:8px 10px;
+      border-radius:999px;background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.14);
+    }
+    main{padding:38px 0}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+    .card{
+      background:var(--card);padding:24px;border-radius:var(--radius);
+      box-shadow:var(--shadow);border:1px solid var(--line);
+    }
+    .span-12{grid-column:span 12}
+    .span-6{grid-column:span 6}
+    .span-4{grid-column:span 4}
+    .card h2,.card h3{margin:0 0 10px}
+    .card p{margin:0;color:var(--muted)}
+    .card ul,.card ol{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+    .card li{margin:6px 0}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:12px 14px;border-radius:12px;text-decoration:none;font-weight:700;
+      border:1px solid #fff;background:var(--brand);color:#fff;margin-top:14px;
+    }
+    .tag{
+      display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;
+      background:#eef3ee;border:1px solid var(--line);color:#2c3c2d;margin-top:10px;
+    }
+    .note{font-size:13px;color:var(--muted);margin-top:10px}
+    .site-footer{
+      background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;
+      font-size:13px;color:var(--muted);
+    }
+    .foot{
+      display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center;
+    }
+    @media (max-width:860px){
+      .hero h1{font-size:30px}
+      .span-6,.span-4{grid-column:span 12}
+      nav{justify-content:flex-start}
+    }
+  </style>
 </head>
 <body>
-<div id="site-header"></div>
+  <div id="site-header"></div>
 
-<main>
-<div class="wrap">
+  <section class="hero">
+    <div class="wrap">
+      <h1>Skrot hämtning i Skara</h1>
+      <p>
+        Har du skrot, metall eller äldre maskiner som står och tar plats i Skara? Vi bedömer gärna om det finns återbruksvärde, reservdelsvärde eller om rätt väg är skrot och sortering. Hämtning kan ibland ordnas efter överenskommelse.
+      </p>
+      <div class="pillrow">
+        <div class="pill">📍 Skara</div>
+        <div class="pill">♻️ Maskinrelaterat skrot</div>
+        <div class="pill">🚚 Hämtning kan ordnas</div>
+        <div class="pill">✅ Snabb bedömning</div>
+      </div>
+    </div>
+  </section>
 
-<h1 class="page-title">Skrot hämtning i Skara</h1>
+  <main>
+    <div class="wrap">
+      <div class="grid">
+        <div class="card span-6">
+          <h2>Vad vi kan hjälpa till med i Skara</h2>
+          <p>
+            Vi fokuserar främst på skrot och metall med koppling till maskiner, verkstad,
+            trädgårdsmaskiner och äldre objekt som blivit stående.
+          </p>
+          <ul>
+            <li>Trasiga gräsklippare och åkgräsklippare</li>
+            <li>Maskindelar, metall och reservdelsobjekt</li>
+            <li>Flera objekt vid samma hämtning</li>
+            <li>Utrensning av garage, förråd och verkstad</li>
+          </ul>
+          <span class="tag">Snabbast svar = bild + ort</span>
+        </div>
 
-<p class="lead">
-Har du skrot, metall eller maskiner som står och tar plats i Skara?
-Vi hjälper till med bedömning och kan ibland ordna hämtning.
-</p>
+        <div class="card span-6">
+          <h2>Så går en bedömning till</h2>
+          <p>
+            För att kunna ge snabb återkoppling på skrot hämtning i Skara är det bäst att du skickar
+            några tydliga bilder och kort information om vad det gäller.
+          </p>
+          <ol>
+            <li>Skicka 1–3 bilder</li>
+            <li>Skriv ort: Skara</li>
+            <li>Beskriv ungefär vad det gäller</li>
+            <li>Vi återkommer med bedömning och upplägg</li>
+          </ol>
+          <a class="btn" href="kontakt.html">Kontakta oss</a>
+        </div>
 
-<div class="card">
-<h2>Detta kan vi ofta hjälpa till med</h2>
-<ul>
-<li>Äldre maskiner</li>
-<li>Metall och maskindelar</li>
-<li>Trasiga gräsklippare & åkgräsklippare</li>
-<li>Objekt i förråd, garage och verkstad</li>
-</ul>
-</div>
+        <div class="card span-12">
+          <h2>Skrot som blivit stående i Skara</h2>
+          <p>
+            Många hör av sig när skrot i Skara blivit stående för länge i garage, uthus eller på tomt. Då är det ofta bättre att börja med några tydliga bilder, så går det snabbt att avgöra vad som kan hämtas, tas tillvara eller sorteras vidare.
+          </p>
+        </div>
 
-<div class="card">
-<h2>Så får du snabbast svar</h2>
-<p>
-Skicka gärna 1–3 bilder + skriv att det gäller Skara.
-Lägg till kort info om vad det är och ungefärligt skick.
-</p>
-</div>
+        <div class="card span-4">
+          <h3>Återbruk först</h3>
+          <p>Vi försöker avgöra om delar eller hela objekt kan tas tillvara innan något går som skrot.</p>
+        </div>
 
-<div class="card">
-<h2>Kontakt</h2>
-<p>
-Vi återkommer med hur vi ser på objektet och om hämtning kan vara aktuellt.
-</p>
-<a class="button" href="tel:0727483256">📞 Ring 072-748 32 56</a>
-<a class="button" style="background:#1877f2;margin-left:10px;"
-   href="https://www.facebook.com/profile.php?id=61588383880828"
-   target="_blank" rel="noopener">
-🔗 Besök oss på Facebook
-</a>
-<div class="note">Snabbast svar: bild + ort + kort info.</div>
-</div>
+        <div class="card span-4">
+          <h3>Tydligt upplägg</h3>
+          <p>Du får snabbare svar om du skickar bilder, ort och ungefärlig mängd direkt.</p>
+        </div>
 
-<p class="note"><a href="index.html">← Tillbaka</a></p>
+        <div class="card span-4">
+          <h3>Lokalt i Skaraborg</h3>
+          <p>Skara är ett av områdena vi arbetar i, tillsammans med övriga delar av Skaraborg.</p>
+        </div>
 
-</div>
-</main>
+        <div class="card span-12">
+          <h2>Relaterade sidor</h2>
+          <p>
+            Läs även mer om <a href="skrot-hamtning.html">skrot hämtning i Skaraborg</a>,
+            <a href="maskinskrot-skara.html">maskinskrot i Skara</a>,
+            <a href="aterbruk-skara.html">återbruk i Skara</a> och
+            <a href="salja-maskin-skaraborg.html">vår kompletta guide för att sälja maskin i Skaraborg</a>.
+          </p>
+          <div class="note"><a href="index.html">← Tillbaka till startsidan</a></div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-<div id="site-footer"></div>
+  <div id="site-footer"></div>
 
-<script>
-async function inject(id,url){
-const el=document.getElementById(id);
-if(!el) return;
-const res=await fetch(url,{cache:"no-cache"});
-el.innerHTML=await res.text();
-}
-inject("site-header","partials1/header.html");
-inject("site-footer","partials1/footer.html");
-</script>
+  <script>
+    async function inject(id, url){
+      const el = document.getElementById(id);
+      if(!el) return;
+      const res = await fetch(url, { cache: "no-cache" });
+      el.innerHTML = await res.text();
+    }
+    inject("site-header","partials1/header.html");
+    inject("site-footer","partials1/footer.html");
+  </script>
 </body>
 </html>
+
