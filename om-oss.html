@@ -1,101 +1,157 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Om oss | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Om Skaraborg Maskin & Återbruk. Vi köper, tar hand om och återbrukar maskiner i Skaraborg. Smidiga affärer med fokus på tydlighet och återbruk.">
-
-<style>
-:root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
-*{box-sizing:border-box}
-body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
-a{color:inherit}
-.wrap{max-width:var(--max);margin:auto;padding:0 20px}
-main{padding:40px 0}
-.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:20px}
-.card h2{margin:0 0 10px;font-size:18px}
-.card p{margin:0;color:var(--muted)}
-ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
-li{margin:6px 0}
-.button{display:inline-block;margin-top:14px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
-.badge{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;background:#eef3ee;border:1px solid var(--line);color:#2c3c2d;margin-top:10px}
-.note{font-size:13px;color:var(--muted);margin-top:10px}
-.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
-.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
-
-/* Header styles (for injected partials1/header.html) */
-.topbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
-.logo{text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;line-height:1.2;color:var(--text)}
-.logo span{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:4px;letter-spacing:0}
-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:center;font-size:14px}
-nav a{text-decoration:none;padding:8px 10px;border-radius:10px;color:#1d2a1f}
-nav a:hover{background:#eef3ee}
-@media (max-width: 860px){nav{justify-content:flex-start}}
-</style>
+  <meta charset="UTF-8">
+  <title>Om oss | Skaraborg Maskin & Återbruk</title>
+  <meta name="description" content="Läs mer om Skaraborg Maskin & Återbruk. Vi arbetar med återbruk, maskiner, skrot och upphämtning i hela Skaraborg.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-<div id="site-header"></div>
 
-<main>
-<div class="wrap">
+<div id="header-placeholder"></div>
 
-<h1>Om oss</h1>
+<section class="hero">
+  <div class="container">
+    <h1>Om Skaraborg Maskin & Återbruk</h1>
+    <p class="lead">
+      Vi arbetar lokalt i Skaraborg med att ta tillvara maskiner, material och föremål
+      som annars riskerar att skrotas eller kastas i onödan.
+    </p>
+  </div>
+</section>
 
-<div class="card">
-<h2>Skaraborg Maskin &amp; Återbruk</h2>
-<p>
-Vi arbetar med köp, försäljning och återbruk av maskiner i Skaraborg.
-Målet är att göra det enkelt att bli av med maskiner som står och tar plats – samtidigt som vi tar tillvara det som går.
-</p>
-<span class="badge">Smidigt • Tydligt • Återbruk</span>
-</div>
+<section class="content">
+  <div class="container">
 
-<div class="card">
-<h2>Vad vi fokuserar på</h2>
-<ul>
-<li>Köper maskiner – även trasiga</li>
-<li>Tar tillvara reservdelar och återbrukar</li>
-<li>Hanterar skrot på ett korrekt sätt</li>
-<li>Tar emot husvagnar/kärror (inlämning)</li>
-<li>Hjälper vid dödsbo och större utrensningar (maskinrelaterat)</li>
-</ul>
-</div>
+    <h2>Vår idé</h2>
 
-<div class="card">
-<h2>Verksamma i Skaraborg</h2>
-<p>
-Vi arbetar i Skövde, Hjo, Tibro, Karlsborg, Mariestad och övriga Skaraborg.
-</p>
-<a class="button" href="tel:0727483256">📞 Ring 072-748 32 56</a>
-</div>
+    <p>
+      Skaraborg Maskin & Återbruk startades med en enkel tanke:
+      väldigt mycket som människor slänger eller betraktar som skrot
+      har fortfarande ett värde.
+    </p>
 
-<div class="card" style="background:#f3f6f3;">
-<h2>Samarbete</h2>
-<p>
-I vissa uppdrag samarbetar vi med Nordtorpets Allservice AB
-när kompletterande tjänster behövs.
-</p>
-</div>
+    <p>
+      Det kan handla om maskiner som går att laga, material som kan användas igen,
+      eller föremål som någon annan faktiskt behöver.
+      Genom att ta hand om sådant sparar vi både resurser och pengar.
+    </p>
 
-<p class="note"><a href="index.html">← Tillbaka</a></p>
+    <p>
+      Vi arbetar främst i Skaraborg och hjälper både privatpersoner
+      och företag med upphämtning, återbruk och vidareförsäljning
+      av maskiner, verktyg och annat material.
+    </p>
 
-</div>
-</main>
+  </div>
+</section>
 
-<div id="site-footer"></div>
+<section class="content alt">
+  <div class="container">
+
+    <h2>Vad vi gör</h2>
+
+    <p>Vi arbetar bland annat med:</p>
+
+    <ul>
+      <li>Upphämtning av skrot och maskiner</li>
+      <li>Återbruk av material och utrustning</li>
+      <li>Köp och försäljning av maskiner</li>
+      <li>Hjälp vid dödsbon och utrensningar</li>
+      <li>Vidareförsäljning av föremål som fortfarande har värde</li>
+    </ul>
+
+    <p>
+      Vår styrka är att vi ofta kan se värdet i saker som andra
+      bara betraktar som skräp.
+    </p>
+
+  </div>
+</section>
+
+<section class="content">
+  <div class="container">
+
+    <h2>Återbruk i praktiken</h2>
+
+    <p>
+      Mycket av det som slängs idag hade kunnat användas igen.
+      Maskiner, reservdelar, verktyg och material hamnar ofta
+      på återvinningen trots att de fortfarande har funktion
+      eller värde.
+    </p>
+
+    <p>
+      Genom att ta hand om dessa saker kan vi ibland reparera,
+      ibland sälja vidare och ibland använda delar till andra
+      maskiner.
+    </p>
+
+    <p>
+      På så sätt bidrar återbruk både till att minska avfall
+      och till att saker fortsätter användas istället för att
+      kastas.
+    </p>
+
+  </div>
+</section>
+
+<section class="content alt">
+  <div class="container">
+
+    <h2>Var vi arbetar</h2>
+
+    <p>
+      Vi arbetar i hela Skaraborg och hjälper ofta kunder i bland annat:
+    </p>
+
+    <p>
+      Skövde, Tibro, Hjo, Karlsborg, Tidaholm, Falköping,
+      Skara, Mariestad, Töreboda och närliggande områden.
+    </p>
+
+    <p>
+      Behöver du hjälp med skrot, maskiner eller återbruk i området
+      är du alltid välkommen att kontakta oss.
+    </p>
+
+  </div>
+</section>
+
+<section class="content">
+  <div class="container">
+
+    <h2>Kontakt</h2>
+
+    <p>
+      Vill du sälja en maskin, bli av med skrot eller höra
+      om vi kan hjälpa till med något?
+    </p>
+
+    <p>
+      Skicka gärna bilder via Facebook eller ring oss direkt
+      så kan vi ofta göra en snabb bedömning.
+    </p>
+
+    <p>
+      <a class="button" href="kontakt.html">Kontakta oss</a>
+    </p>
+
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
 
 <script>
-async function inject(id,url){
-  const el=document.getElementById(id);
-  if(!el) return;
-  const res=await fetch(url,{cache:"no-cache"});
-  el.innerHTML=await res.text();
-}
-inject("site-header","partials1/header.html");
-inject("site-footer","partials1/footer.html");
+fetch("partials1/header.html")
+  .then(response => response.text())
+  .then(data => document.getElementById("header-placeholder").innerHTML = data);
+
+fetch("partials1/footer.html")
+  .then(response => response.text())
+  .then(data => document.getElementById("footer-placeholder").innerHTML = data);
 </script>
 
 </body>
