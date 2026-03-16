@@ -369,4 +369,140 @@
       <div class="wrap">
         <div class="grid">
           <div class="card span-6">
-            <h2>
+            <h2>Det här kan vi hjälpa till med</h2>
+            <ul>
+              <li>Verkstadsutrensning</li>
+              <li>Lagerutrensning</li>
+              <li>Bedömning av maskiner och reservdelar</li>
+              <li>Metall och blandade objekt</li>
+              <li>Äldre utrustning som inte längre används</li>
+              <li>Sortering mellan återbruk och skrot</li>
+            </ul>
+          </div>
+
+          <div class="card span-6">
+            <h2>Fördelar för företaget</h2>
+            <ul>
+              <li>Frigöra plats i verkstad eller lokal</li>
+              <li>Slippa hantera allt själva</li>
+              <li>Få tydligare överblick över vad som har värde</li>
+              <li>Minska mängden som bara står i vägen</li>
+              <li>Ge material och utrustning större chans att återbrukas</li>
+            </ul>
+          </div>
+
+          <div class="card span-4">
+            <h3>Maskiner</h3>
+            <p>Äldre maskiner, repobjekt eller sådant som inte längre används i verksamheten.</p>
+          </div>
+
+          <div class="card span-4">
+            <h3>Reservdelar</h3>
+            <p>Delar, komponenter och blandat material som samlats över tid och behöver bedömas.</p>
+          </div>
+
+          <div class="card span-4">
+            <h3>Metall & övrigt</h3>
+            <p>Metall, verkstadsskrot och annan utrustning som tar plats i lokaler eller förråd.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Så går det till</h2>
+            <ol>
+              <li>Ni skickar bilder och kort info</li>
+              <li>Ni beskriver ort och ungefärlig omfattning</li>
+              <li>Vi gör en första bedömning</li>
+              <li>Vi återkommer med upplägg för återbruk, hämtning eller skrot</li>
+            </ol>
+            <span class="badge">Bild + ort + omfattning = snabbast svar</span>
+          </div>
+
+          <div class="card span-6">
+            <h2>Vad vi tittar på först</h2>
+            <ul>
+              <li>Vilken typ av objekt det gäller</li>
+              <li>Om något kan återbrukas</li>
+              <li>Om något har värde som reservdelar</li>
+              <li>Hur mycket material det rör sig om</li>
+              <li>Hur lättillgängligt det är för eventuell hämtning</li>
+            </ul>
+          </div>
+
+          <div class="card span-12 soft">
+            <h2>Exempel på sådant som ofta blir kvar</h2>
+            <ul>
+              <li>Gamla verkstadsmaskiner</li>
+              <li>Reservdelslådor och blandade delar</li>
+              <li>Metallskrot i hörn eller på gård</li>
+              <li>Utrustning efter omställning eller byte</li>
+              <li>Objekt som sparats “för säkerhets skull” men aldrig används</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Var vi arbetar</h2>
+            <p>
+              Vi hjälper företag i hela Skaraborg, bland annat i Skövde, Hjo, Tibro, Karlsborg, Mariestad, Tidaholm, Skara, Falköping, Töreboda och Habo.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Även om orten inte står med kan ni höra av er ändå. Det viktiga är vad det gäller och ungefär var det finns.
+            </p>
+            <span class="badge">Hela Skaraborg</span>
+          </div>
+
+          <div class="card span-6">
+            <h2>Relaterade sidor</h2>
+            <p>
+              Den här sidan passar bra ihop med företagssidan och sidan för skrot hämtning för företag, och bygger vidare på samma struktur för tydlig lokal SEO.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Läs även mer om <a href="foretag.html">företag</a>, <a href="skrot-hamtning-foretag.html">skrot hämtning för företag</a>, <a href="aterbruk.html">återbruk</a> och <a href="kontakt.html">kontakt</a>.
+            </p>
+          </div>
+
+          <div class="card span-12 highlight">
+            <h2>Kontakt</h2>
+            <p>
+              Behöver ni rensa ut verkstad, lager eller lokal? Skicka gärna bilder och en kort beskrivning, så kan vi börja där.
+            </p>
+            <div class="btnrow" style="margin-top:14px;">
+              <a class="btn white" style="background:var(--brand);color:#fff;border-color:var(--brand);" href="tel:0727483256">📞 072-748 32 56</a>
+              <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
+              <a class="btn" href="kontakt.html">Kontakt-sidan</a>
+            </div>
+            <div class="note">Tips: skriv gärna ort + ungefärlig mängd + typ av utrensning.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id,url){
+      const el=document.getElementById(id);
+      if(!el) return;
+      const res=await fetch(url,{cache:"no-cache"});
+      el.innerHTML=await res.text();
+    }
+    inject("site-header","partials1/header.html");
+    inject("site-footer","partials1/footer.html");
+  </script>
+
+</body>
+</html>
