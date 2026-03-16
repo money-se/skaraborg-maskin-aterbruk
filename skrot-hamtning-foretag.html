@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Skrot hämtning för företag i Skaraborg | Metall, maskiner & utrensning</title>
+  <meta name="description" content="Behöver ditt företag hjälp med skrot hämtning i Skaraborg? Vi hjälper till med maskinrelaterat skrot, metall, äldre utrustning och utrensning av verkstad, lager och industriytor." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Skaraborg Maskin & Återbruk",
+    "url": "https://skaraborgmaskin.se/skrot-hamtning-foretag.html",
+    "telephone": "+46727483256",
+    "areaServed": [
+      { "@type": "City", "name": "Skövde" },
+      { "@type": "City", "name": "Hjo" },
+      { "@type": "City", "name": "Tibro" },
+      { "@type": "City", "name": "Mariestad" },
+      { "@type": "City", "name": "Karlsborg" },
+      { "@type": "City", "name": "Tidaholm" },
+      { "@type": "City", "name": "Skara" },
+      { "@type": "City", "name": "Falköping" },
+      { "@type": "City", "name": "Töreboda" },
+      { "@type": "City", "name": "Habo" }
+    ],
+    "description": "Vi hjälper företag i Skaraborg med skrot hämtning, maskinrelaterat skrot, metall och utrensning av verkstad, lager och lokaler.",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61588383880828"
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand2:#243626;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#0f1a12;
+      --muted:#5b6c60;
+      --line:#e6ebe6;
+      --radius:18px;
+      --shadow:0 12px 30px rgba(0,0,0,.08);
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 20px}
+
+    /* Header styles for injected partial */
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:100;
+      background:rgba(255,255,255,.92);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      padding:14px 0;
+      flex-wrap:wrap;
+    }
+    .logo{
+      text-decoration:none;
+      font-weight:900;
+      font-size:16px;
+      letter-spacing:.6px;
+      line-height:1.2;
+      color:var(--text);
+    }
+    .logo span{
+      display:block;
+      font-size:12px;
+      font-weight:500;
+      color:var(--muted);
+      margin-top:4px;
+      letter-spacing:0;
+    }
+    nav{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+      align-items:center;
+      font-size:14px;
+    }
+    nav a{
+      text-decoration:none;
+      padding:8px 10px;
+      border-radius:10px;
+      color:#1d2a1f;
+    }
+    nav a:hover{background:#eef3ee}
+
+    /* Hero */
+    .hero{
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      color:#fff;
+      padding:64px 0 44px;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .hero h1{
+      margin:0 0 12px;
+      font-size:40px;
+      line-height:1.12;
+      letter-spacing:.2px;
+    }
+    .hero p{
+      margin:0;
+      font-size:17px;
+      max-width:64ch;
+      opacity:.94;
+    }
+    .pillrow{
+      margin-top:16px;
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-size:13px;
+      padding:8px 10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.14);
+      white-space:nowrap;
+    }
+    .cta{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
+      border-radius:var(--radius);
+      padding:18px;
+    }
+    .cta h2{
+      margin:0 0 8px;
+      font-size:16px;
+      letter-spacing:.2px;
+    }
+    .cta p{
+      margin:0 0 14px;
+      font-size:14px;
+      opacity:.92;
+    }
+
+    .btnrow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:12px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:700;
+      border:1px solid rgba(255,255,255,.20);
+      background:rgba(255,255,255,.12);
+      color:#fff;
+      transition:transform .15s ease, filter .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover{filter:brightness(1.05)}
+    .btn.white{
+      background:#fff;
+      color:var(--brand);
+      border-color:#fff;
+    }
+    .btn.fb{
+      background:#1877f2;
+      border-color:#1877f2;
+      color:#fff;
+    }
+    .smallnote{
+      margin-top:10px;
+      font-size:12px;
+      opacity:.86;
+    }
+
+    section{padding:44px 0}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:14px;
+    }
+    .card{
+      background:var(--card);
+      padding:22px;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      border:1px solid var(--line);
+    }
+    .card h2,
+    .card h3{
+      margin:0 0 8px;
+      font-size:18px;
+      line-height:1.3;
+    }
+    .card p{
+      margin:0;
+      color:var(--muted);
+    }
+    .card ul,
+    .card ol{
+      margin:10px 0 0;
+      padding-left:18px;
+      color:var(--muted);
+    }
+    .card li{margin:6px 0}
+    .span-12{grid-column:span 12}
+    .span-8{grid-column:span 8}
+    .span-6{grid-column:span 6}
+    .span-4{grid-column:span 4}
+
+    .highlight{
+      border-left:6px solid var(--brand);
+      background:#f1f6f1;
+    }
+    .soft{
+      background:#f3f6f3;
+    }
+    .tag,
+    .badge{
+      display:inline-block;
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#eef3ee;
+      border:1px solid var(--line);
+      color:#2c3c2d;
+      margin-top:12px;
+    }
+    .note{
+      font-size:13px;
+      color:var(--muted);
+      margin-top:10px;
+    }
+    .hr{
+      height:1px;
+      background:var(--line);
+      margin:14px 0;
+    }
+
+    .site-footer{
+      background:#fff;
+      border-top:1px solid var(--line);
+      padding:26px 0 30px;
+      font-size:13px;
+      color:var(--muted);
+    }
+    .foot{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    @media (max-width: 860px){
+      .hero-grid{grid-template-columns:1fr}
+      .hero h1{font-size:30px}
+      .span-8,.span-6,.span-4{grid-column:span 12}
+      nav{justify-content:flex-start}
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="site-header"></div>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Skrot hämtning för företag i Skaraborg</h1>
+        <p>
+          Vi hjälper företag som vill bli av med maskinrelaterat skrot, metall, äldre utrustning och blandade objekt som blivit stående i verkstad, lager, förråd eller på industriyta.
+          Målet är att göra det smidigt, bedöma vad som kan återbrukas och hantera resten på rätt sätt.
+        </p>
+
+        <div class="pillrow" aria-label="Snabbinfo">
+          <div class="pill">🏭 För företag</div>
+          <div class="pill">♻️ Återbruk först</div>
+          <div class="pill">🚚 Hämtning kan ordnas</div>
+          <div class="pill">📍 Hela Skaraborg</div>
+        </div>
+      </div>
+
+      <div class="cta">
+        <h2>Behöver ni snabb bedömning?</h2>
+        <p>
+          Skicka gärna 1–3 bilder, ort och kort info om mängd eller typ av skrot, så återkommer vi med ett upplägg.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn white" href="tel:0727483256">📞 072-748 32 56</a>
+          <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
+          <a class="btn" href="kontakt.html">Kontakt-sidan</a>
+        </div>
+
+        <div class="smallnote">
+          Snabbast svar får ni om ni skickar bilder direkt.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-8">
+            <h2>Maskinrelaterat skrot för företag</h2>
+            <p>
+              För företag handlar skrot hämtning ofta inte bara om att forsla bort något. Det handlar om att frigöra yta, få bättre ordning och slippa lägga tid på objekt som inte längre används.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Vi hjälper till att bedöma vad som kan gå till återbruk, vad som kan ha värde som reservdelar och vad som bör hanteras som rent skrot.
+            </p>
+            <span class="tag">Praktiskt • Tydligt • Smidigt</span>
+          </div>
+
+          <div class="card span-4 soft">
+            <h3>Det här gäller ofta</h3>
+            <ul>
+              <li>Verkstadsskrot</li>
+              <li>Maskindelar & metall</li>
+              <li>Äldre utrustning</li>
+              <li>Blandade objekt i lager</li>
+              <li>Rensning av arbetsytor</li>
+            </ul>
+          </div>
+
+          <div class="card span-12 highlight">
+            <h2>Återbruk innan något bara blir avfall</h2>
+            <p>
+              Många företag har material, delar eller maskiner som fortfarande kan komma till användning. Därför försöker vi alltid börja med att bedöma återbruksvärde innan något bara räknas som skrot.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Vad vi kan hjälpa företag med</h2>
+            <ul>
+              <li>Maskinrelaterat skrot och metall</li>
+              <li>Äldre maskiner och reservdelsobjekt</li>
+              <li>Utrensning av verkstad, förråd och lager</li>
+              <li>Blandade objekt på gård eller industriyta</li>
+              <li>Bedömning inför hämtning eller vidare upplägg</li>
+              <li>Återbruk när det är möjligt</li>
+            </ul>
+          </div>
+
+          <div class="card span-6">
+            <h2>Så går en bedömning till</h2>
+            <ol>
+              <li>Ni skickar 1–3 bilder</li>
+              <li>Ni skriver ort och ungefärlig mängd</li>
+              <li>Ni beskriver kort vad det gäller</li>
+              <li>Vi återkommer med bedömning och upplägg</li>
+            </ol>
+            <span class="badge">Snabbast svar = bild + ort + mängd</span>
+          </div>
+
+          <div class="card span-4">
+            <h3>Verkstad</h3>
+            <p>Maskiner, metall, delar och utrustning som blivit stående efter service, reparation eller byte.</p>
+          </div>
+
+          <div class="card span-4">
+            <h3>Lager</h3>
+            <p>Objekt, reservdelar eller äldre utrustning som tar plats men inte längre används.</p>
+          </div>
+
+          <div class="card span-4">
+            <h3>Industriyta / gård</h3>
+            <p>Större objekt eller blandat skrot som behöver bedömas innan upplägget bestäms.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>När kan hämtning ordnas?</h2>
+            <p>
+              Det beror på typ av objekt, mängd, tillgänglighet och var i Skaraborg det finns. Därför är bilder och en kort beskrivning nästan alltid den snabbaste vägen till ett tydligt svar.
+            </p>
+            <div class="hr"></div>
+            <p>
+              För vissa företag handlar det om några enstaka objekt. För andra handlar det om större rensningar eller återkommande behov.
+            </p>
+          </div>
+
+          <div class="card span-6">
+            <h2>Vad vi tittar på</h2>
+            <ul>
+              <li>Typ av material eller objekt</li>
+              <li>Om något har återbruksvärde</li>
+              <li>Ungefärlig mängd</li>
+              <li>Tillgänglighet för lastning/hämtning</li>
+              <li>Om det gäller enstaka objekt eller större rensning</li>
+            </ul>
+          </div>
+
+          <div class="card span-12 soft">
+            <h2>Exempel på sådant som ofta blir stående</h2>
+            <ul>
+              <li>Trasiga eller äldre maskiner</li>
+              <li>Metall och maskindelar</li>
+              <li>Reservdelsobjekt</li>
+              <li>Utrustning som blivit kvar efter omställning</li>
+              <li>Blandat verkstadsskrot eller lagerrester</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Var vi arbetar</h2>
+            <p>
+              Vi hjälper företag i hela Skaraborg, bland annat i Skövde, Hjo, Tibro, Karlsborg, Mariestad, Tidaholm, Skara, Falköping, Töreboda och Habo.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Även om orten inte står med kan ni höra av er ändå. Det viktiga är vad det gäller och ungefär var objekten finns.
+            </p>
+            <span class="badge">Hela Skaraborg</span>
+          </div>
+
+          <div class="card span-6">
+            <h2>Relaterade sidor</h2>
+            <p>
+              Den här sidan fungerar bra som undersida till företagssidan och skrotsidan, och passar ihop med samma struktur som övriga tjänstesidor på sajten.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Läs även mer om <a href="foretag.html">företag</a>, <a href="skrot-hamtning.html">skrot hämtning</a>, <a href="aterbruk.html">återbruk</a> och <a href="kontakt.html">kontakt</a>.
+            </p>
+          </div>
+
+          <div class="card span-12 highlight">
+            <h2>Kontakt</h2>
+            <p>
+              Har ni skrot, metall eller maskiner som blivit stående i verksamheten? Skicka gärna bilder och kort info, så kan vi börja där.
+            </p>
+            <div class="btnrow" style="margin-top:14px;">
+              <a class="btn white" style="background:var(--brand);color:#fff;border-color:var(--brand);" href="tel:0727483256">📞 072-748 32 56</a>
+              <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
+              <a class="btn" href="kontakt.html">Kontakt-sidan</a>
+            </div>
+            <div class="note">Tips: skriv gärna ort + mängd + typ av objekt.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id,url){
+      const el=document.getElementById(id);
+      if(!el) return;
+      const res=await fetch(url,{cache:"no-cache"});
+      el.innerHTML=await res.text();
+    }
+    inject("site-header","partials1/header.html");
+    inject("site-footer","partials1/footer.html");
+  </script>
+
+</body>
+                </html>
