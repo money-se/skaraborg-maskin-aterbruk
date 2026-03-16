@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Överskottslager för företag i Skaraborg | Maskiner, delar & återbruk</title>
+  <meta name="description" content="Behöver ditt företag hjälp med överskottslager i Skaraborg? Vi hjälper till att bedöma maskiner, reservdelar, metall och utrustning som blivit över för återbruk, skrot eller hämtning." />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Skaraborg Maskin & Återbruk",
+    "url": "https://skaraborgmaskin.se/overskottslager-foretag.html",
+    "telephone": "+46727483256",
+    "areaServed": [
+      { "@type": "City", "name": "Skövde" },
+      { "@type": "City", "name": "Hjo" },
+      { "@type": "City", "name": "Tibro" },
+      { "@type": "City", "name": "Mariestad" },
+      { "@type": "City", "name": "Karlsborg" },
+      { "@type": "City", "name": "Tidaholm" },
+      { "@type": "City", "name": "Skara" },
+      { "@type": "City", "name": "Falköping" },
+      { "@type": "City", "name": "Töreboda" },
+      { "@type": "City", "name": "Habo" }
+    ],
+    "description": "Vi hjälper företag i Skaraborg med överskottslager, maskiner, reservdelar, metall och utrustning som blivit över i verksamheten.",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61588383880828"
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand2:#243626;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#0f1a12;
+      --muted:#5b6c60;
+      --line:#e6ebe6;
+      --radius:18px;
+      --shadow:0 12px 30px rgba(0,0,0,.08);
+      --max:1100px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 20px}
+
+    .topbar{
+      position:sticky;
+      top:0;
+      z-index:100;
+      background:rgba(255,255,255,.92);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:12px;
+      padding:14px 0;
+      flex-wrap:wrap;
+    }
+    .logo{
+      text-decoration:none;
+      font-weight:900;
+      font-size:16px;
+      letter-spacing:.6px;
+      line-height:1.2;
+      color:var(--text);
+    }
+    .logo span{
+      display:block;
+      font-size:12px;
+      font-weight:500;
+      color:var(--muted);
+      margin-top:4px;
+      letter-spacing:0;
+    }
+    nav{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      justify-content:flex-end;
+      align-items:center;
+      font-size:14px;
+    }
+    nav a{
+      text-decoration:none;
+      padding:8px 10px;
+      border-radius:10px;
+      color:#1d2a1f;
+    }
+    nav a:hover{background:#eef3ee}
+
+    .hero{
+      background:linear-gradient(135deg,var(--brand),var(--brand2));
+      color:#fff;
+      padding:64px 0 44px;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:18px;
+      align-items:stretch;
+    }
+    .hero h1{
+      margin:0 0 12px;
+      font-size:40px;
+      line-height:1.12;
+      letter-spacing:.2px;
+    }
+    .hero p{
+      margin:0;
+      font-size:17px;
+      max-width:64ch;
+      opacity:.94;
+    }
+    .pillrow{
+      margin-top:16px;
+      display:flex;
+      gap:8px;
+      flex-wrap:wrap;
+    }
+    .pill{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      font-size:13px;
+      padding:8px 10px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.14);
+      white-space:nowrap;
+    }
+    .cta{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
+      border-radius:var(--radius);
+      padding:18px;
+    }
+    .cta h2{
+      margin:0 0 8px;
+      font-size:16px;
+      letter-spacing:.2px;
+    }
+    .cta p{
+      margin:0 0 14px;
+      font-size:14px;
+      opacity:.92;
+    }
+
+    .btnrow{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding:12px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:700;
+      border:1px solid rgba(255,255,255,.20);
+      background:rgba(255,255,255,.12);
+      color:#fff;
+      transition:transform .15s ease, filter .15s ease, box-shadow .15s ease;
+    }
+    .btn:hover{filter:brightness(1.05)}
+    .btn.white{
+      background:#fff;
+      color:var(--brand);
+      border-color:#fff;
+    }
+    .btn.fb{
+      background:#1877f2;
+      border-color:#1877f2;
+      color:#fff;
+    }
+    .smallnote{
+      margin-top:10px;
+      font-size:12px;
+      opacity:.86;
+    }
+
+    section{padding:44px 0}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:14px;
+    }
+    .card{
+      background:var(--card);
+      padding:22px;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      border:1px solid var(--line);
+    }
+    .card h2,
+    .card h3{
+      margin:0 0 8px;
+      font-size:18px;
+      line-height:1.3;
+    }
+    .card p{
+      margin:0;
+      color:var(--muted);
+    }
+    .card ul,
+    .card ol{
+      margin:10px 0 0;
+      padding-left:18px;
+      color:var(--muted);
+    }
+    .card li{margin:6px 0}
+    .span-12{grid-column:span 12}
+    .span-8{grid-column:span 8}
+    .span-6{grid-column:span 6}
+    .span-4{grid-column:span 4}
+
+    .highlight{
+      border-left:6px solid var(--brand);
+      background:#f1f6f1;
+    }
+    .soft{
+      background:#f3f6f3;
+    }
+    .tag,
+    .badge{
+      display:inline-block;
+      font-size:12px;
+      padding:6px 10px;
+      border-radius:999px;
+      background:#eef3ee;
+      border:1px solid var(--line);
+      color:#2c3c2d;
+      margin-top:12px;
+    }
+    .note{
+      font-size:13px;
+      color:var(--muted);
+      margin-top:10px;
+    }
+    .hr{
+      height:1px;
+      background:var(--line);
+      margin:14px 0;
+    }
+
+    .site-footer{
+      background:#fff;
+      border-top:1px solid var(--line);
+      padding:26px 0 30px;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    @media (max-width: 860px){
+      .hero-grid{grid-template-columns:1fr}
+      .hero h1{font-size:30px}
+      .span-8,.span-6,.span-4{grid-column:span 12}
+      nav{justify-content:flex-start}
+    }
+  </style>
+</head>
+
+<body>
+  <div id="site-header"></div>
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>Överskottslager för företag i Skaraborg</h1>
+        <p>
+          Vi hjälper företag som har maskiner, reservdelar, metall eller utrustning som blivit över i verksamheten.
+          Målet är att göra det enklare att frigöra plats och bedöma vad som kan gå till återbruk, vad som kan ha värde och vad som bör hanteras som skrot.
+        </p>
+
+        <div class="pillrow" aria-label="Snabbinfo">
+          <div class="pill">🏭 För företag</div>
+          <div class="pill">📦 Överskottslager</div>
+          <div class="pill">♻️ Återbruk först</div>
+          <div class="pill">📍 Hela Skaraborg</div>
+        </div>
+      </div>
+
+      <div class="cta">
+        <h2>Behöver ni snabb bedömning?</h2>
+        <p>
+          Skicka gärna bilder, ort och kort info om vad som blivit över, så återkommer vi med en första bedömning.
+        </p>
+
+        <div class="btnrow">
+          <a class="btn white" href="tel:0727483256">📞 072-748 32 56</a>
+          <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
+          <a class="btn" href="kontakt.html">Kontakt-sidan</a>
+        </div>
+
+        <div class="smallnote">
+          Snabbast svar får ni om ni skickar 1–3 bilder direkt.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-8">
+            <h2>När överskottslager tar plats i verksamheten</h2>
+            <p>
+              Många företag får med tiden ett överskott av maskiner, delar, metall, repobjekt eller annan utrustning som inte längre används.
+              Det kan vara rester från tidigare projekt, inköp som aldrig kom till användning eller material som bara blivit stående.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Vi hjälper till att bedöma vad som kan återbrukas, vad som kan ha värde som objekt eller delar, och vad som bör räknas som skrot.
+            </p>
+            <span class="tag">Utrymme • Överblick • Smidighet</span>
+          </div>
+
+          <div class="card span-4 soft">
+            <h3>Vanliga exempel</h3>
+            <ul>
+              <li>Gamla reservdelar</li>
+              <li>Överblivna maskiner</li>
+              <li>Metall och blandat material</li>
+              <li>Projektrester</li>
+              <li>Utrustning utan tydlig användning</li>
+            </ul>
+          </div>
+
+          <div class="card span-12 highlight">
+            <h2>Överskott kan fortfarande ha värde</h2>
+            <p>
+              Bara för att något blivit över betyder det inte att det saknar värde. Delar, maskiner och material kan ofta fortfarande komma till användning genom återbruk eller som reservdelsobjekt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Det här kan vi hjälpa till med</h2>
+            <ul>
+              <li>Bedömning av överskottslager</li>
+              <li>Maskiner och repobjekt</li>
+              <li>Reservdelar och komponenter</li>
+              <li>Metall och blandat material</li>
+              <li>Sortering mellan återbruk och skrot</li>
+              <li>Upplägg för vidare hantering</li>
+            </ul>
+          </div>
+
+          <div class="card span-6">
+            <h2>Fördelar för företaget</h2>
+            <ul>
+              <li>Frigöra lagerplats</li>
+              <li>Skapa bättre ordning</li>
+              <li>Slippa hantera allt internt</li>
+              <li>Få tydligare bild av vad som har värde</li>
+              <li>Minska sådant som bara står i vägen</li>
+            </ul>
+          </div>
+
+          <div class="card span-4">
+            <h3>Maskiner</h3>
+            <p>Överblivna maskiner eller objekt som inte längre fyller någon funktion i verksamheten.</p>
+          </div>
+
+          <div class="card span-4">
+            <h3>Reservdelar</h3>
+            <p>Delar och komponenter som blivit kvar efter tidigare projekt, service eller inköp.</p>
+          </div>
+
+          <div class="card span-4">
+            <h3>Material</h3>
+            <p>Metall och blandade objekt som samlats över tid och tagit upp värdefull plats.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Så går det till</h2>
+            <ol>
+              <li>Ni skickar bilder och kort info</li>
+              <li>Ni skriver ort och ungefärlig mängd</li>
+              <li>Vi gör en första bedömning</li>
+              <li>Vi återkommer med upplägg för återbruk, hämtning eller skrot</li>
+            </ol>
+            <span class="badge">Bild + ort + mängd = snabbast svar</span>
+          </div>
+
+          <div class="card span-6">
+            <h2>Vad vi tittar på först</h2>
+            <ul>
+              <li>Vilken typ av objekt det gäller</li>
+              <li>Om något kan återbrukas</li>
+              <li>Om något har värde som delar eller objekt</li>
+              <li>Hur mycket material det rör sig om</li>
+              <li>Hur lätt det är att bedöma via bilder</li>
+            </ul>
+          </div>
+
+          <div class="card span-12 soft">
+            <h2>Exempel på sådant som ofta blir över</h2>
+            <ul>
+              <li>Reservdelar som aldrig används</li>
+              <li>Maskiner från avslutade projekt</li>
+              <li>Material som blivit kvar i lager</li>
+              <li>Äldre utrustning efter omställning</li>
+              <li>Blandade objekt utan tydlig funktion</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-6">
+            <h2>Var vi arbetar</h2>
+            <p>
+              Vi hjälper företag i hela Skaraborg, bland annat i Skövde, Hjo, Tibro, Karlsborg, Mariestad, Tidaholm, Skara, Falköping, Töreboda och Habo.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Även om orten inte står med kan ni höra av er ändå. Det viktiga är vad det gäller och ungefär var materialet finns.
+            </p>
+            <span class="badge">Hela Skaraborg</span>
+          </div>
+
+          <div class="card span-6">
+            <h2>Relaterade sidor</h2>
+            <p>
+              Den här sidan passar bra ihop med företagssidan, lagerutrensning och maskinavveckling, och förstärker er företagsdel med fler tydliga ingångar för Google.
+            </p>
+            <div class="hr"></div>
+            <p>
+              Läs även mer om <a href="foretag.html">företag</a>, <a href="lagerutrensning-foretag.html">lagerutrensning</a>, <a href="maskinavveckling-foretag.html">maskinavveckling</a> och <a href="kontakt.html">kontakt</a>.
+            </p>
+          </div>
+
+          <div class="card span-12 highlight">
+            <h2>Kontakt</h2>
+            <p>
+              Har ni överskottslager som bara blivit stående? Skicka gärna bilder och en kort beskrivning, så kan vi börja där.
+            </p>
+            <div class="btnrow" style="margin-top:14px;">
+              <a class="btn white" style="background:var(--brand);color:#fff;border-color:var(--brand);" href="tel:0727483256">📞 072-748 32 56</a>
+              <a class="btn fb" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">🔗 Facebook</a>
+              <a class="btn" href="kontakt.html">Kontakt-sidan</a>
+            </div>
+            <div class="note">Tips: skriv gärna ort + typ av överskott + ungefärlig mängd.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id,url){
+      const el=document.getElementById(id);
+      if(!el) return;
+      const res=await fetch(url,{cache:"no-cache"});
+      el.innerHTML=await res.text();
+    }
+    inject("site-header","partials1/header.html");
+    inject("site-footer","partials1/footer.html");
+  </script>
+</body>
+      </html>
