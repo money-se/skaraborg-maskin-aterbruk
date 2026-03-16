@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Företag | Återbruk, skrot & maskiner i Skaraborg | Skaraborg Maskin & Återbruk</title>
-  <meta name="description" content="Vi hjälper företag i Skaraborg med återbruk, skrot, maskiner, metall och utrensning av verkstad, lager och lokaler. Smidig lösning för företag som vill frigöra plats och låta mer gå till återbruk." />
+  <meta name="description" content="Vi hjälper företag i Skaraborg med återbruk, skrot, maskiner, metall, lagerutrensning, verkstadsutrensning och överskottslager. Smidig lösning för företag som vill frigöra plats och låta mer gå till återbruk." />
 
   <script type="application/ld+json">
   {
@@ -58,7 +58,6 @@
     a{color:inherit}
     .wrap{max-width:var(--max);margin:auto;padding:0 20px}
 
-    /* Header styles for injected partial */
     .topbar{
       position:sticky;
       top:0;
@@ -107,7 +106,6 @@
     }
     nav a:hover{background:#eef3ee}
 
-    /* Hero */
     .hero{
       background:linear-gradient(135deg,var(--brand),var(--brand2));
       color:#fff;
@@ -165,7 +163,6 @@
       opacity:.92;
     }
 
-    /* Buttons */
     .btnrow{
       display:flex;
       gap:10px;
@@ -202,7 +199,6 @@
       opacity:.86;
     }
 
-    /* Sections */
     section{padding:44px 0}
     .grid{
       display:grid;
@@ -237,6 +233,31 @@
     .span-8{grid-column:span 8}
     .span-6{grid-column:span 6}
     .span-4{grid-column:span 4}
+    .service-card{
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      min-height:220px;
+    }
+    .service-card p{
+      margin-bottom:14px;
+    }
+    .service-link{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:11px 14px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:700;
+      background:var(--brand);
+      color:#fff;
+      width:max-content;
+      max-width:100%;
+    }
+    .service-link:hover{
+      filter:brightness(1.05);
+    }
     .highlight{
       border-left:6px solid var(--brand);
       background:#f1f6f1;
@@ -266,7 +287,6 @@
       margin:14px 0;
     }
 
-    /* Footer */
     .site-footer{
       background:#fff;
       border-top:1px solid var(--line);
@@ -274,19 +294,13 @@
       font-size:13px;
       color:var(--muted);
     }
-    .foot{
-      display:flex;
-      gap:10px;
-      flex-wrap:wrap;
-      justify-content:space-between;
-      align-items:center;
-    }
 
     @media (max-width: 860px){
       .hero-grid{grid-template-columns:1fr}
       .hero h1{font-size:30px}
       .span-8,.span-6,.span-4{grid-column:span 12}
       nav{justify-content:flex-start}
+      .service-link{width:100%}
     }
   </style>
 </head>
@@ -364,6 +378,75 @@
             <p>
               Det handlar inte bara om att bli av med saker. Det handlar också om att låta mer komma till användning igen, frigöra plats och slippa att fullt fungerande delar eller material försvinner i onödan.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-12">
+            <h2>Våra tjänster för företag</h2>
+            <p>
+              Här hittar ni våra mest relevanta företagssidor. Varje sida är skapad för en specifik typ av behov, så att ni lättare kan hitta rätt väg direkt.
+            </p>
+          </div>
+
+          <div class="card span-4 service-card">
+            <div>
+              <h3>Skrot hämtning för företag</h3>
+              <p>För företag som behöver hjälp med metall, maskinrelaterat skrot och objekt som blivit stående.</p>
+            </div>
+            <a class="service-link" href="skrot-hamtning-foretag.html">Läs mer</a>
+          </div>
+
+          <div class="card span-4 service-card">
+            <div>
+              <h3>Verkstadsutrensning</h3>
+              <p>För verkstäder och verksamheter som vill rensa ut maskiner, delar, metall och äldre utrustning.</p>
+            </div>
+            <a class="service-link" href="verkstadsutrensning-foretag.html">Läs mer</a>
+          </div>
+
+          <div class="card span-4 service-card">
+            <div>
+              <h3>Lagerutrensning</h3>
+              <p>För företag som behöver frigöra plats i lager, förråd eller andra förvaringsytor.</p>
+            </div>
+            <a class="service-link" href="lagerutrensning-foretag.html">Läs mer</a>
+          </div>
+
+          <div class="card span-4 service-card">
+            <div>
+              <h3>Industriskrot</h3>
+              <p>För företag med metall, större objekt och blandat skrot på industriyta, gårdsplan eller arbetsområde.</p>
+            </div>
+            <a class="service-link" href="industri-skrot-foretag.html">Läs mer</a>
+          </div>
+
+          <div class="card span-4 service-card">
+            <div>
+              <h3>Maskinavveckling</h3>
+              <p>För företag som vill avveckla äldre maskiner, repobjekt, reservmaskiner eller utrustning som inte längre används.</p>
+            </div>
+            <a class="service-link" href="maskinavveckling-foretag.html">Läs mer</a>
+          </div>
+
+          <div class="card span-4 service-card">
+            <div>
+              <h3>Överskottslager</h3>
+              <p>För företag som har maskiner, reservdelar, metall eller material som blivit över i verksamheten.</p>
+            </div>
+            <a class="service-link" href="overskottslager-foretag.html">Läs mer</a>
+          </div>
+
+          <div class="card span-12 service-card">
+            <div>
+              <h3>Företagsåterbruk i Skaraborg</h3>
+              <p>För företag som vill låta mer gå till återbruk istället för att allt direkt blir avfall. Fokus på att ta tillvara värde i maskiner, delar och material.</p>
+            </div>
+            <a class="service-link" href="foretagsaterbruk-skaraborg.html">Läs mer</a>
           </div>
         </div>
       </div>
@@ -474,7 +557,7 @@
           <div class="card span-6">
             <h2>Relaterade sidor</h2>
             <p>
-              För företagssidan är detta hubben. Härifrån kan vi sedan bygga vidare med mer specifika undersidor, till exempel för skrothämtning för företag, verkstadsutrensning och maskinrelaterat återbruk.
+              Företagssidan är navet för hela företagsspåret på sajten. Härifrån kan besökare hitta rätt undersida beroende på om det gäller skrot, lager, verkstad, överskottslager eller återbruk.
             </p>
             <div class="hr"></div>
             <p>
