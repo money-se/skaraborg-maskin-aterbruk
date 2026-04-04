@@ -8,7 +8,6 @@
   <title>Köpa & sälja maskiner i Skaraborg | Skaraborg Maskin & Återbruk</title>
   <meta name="description" content="Skaraborg Maskin & Återbruk – vi köper, säljer och tar tillvara maskiner i Skaraborg. Även trasiga objekt kan ha värde. Hämtning kan ordnas." />
 
-  <!-- LocalBusiness Schema Markup -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -16,18 +15,18 @@
     "name": "Skaraborg Maskin & Återbruk",
     "url": "https://skaraborgmaskin.se",
     "telephone": "+46727483256",
-"areaServed": [
-  { "@type": "City", "name": "Skövde" },
-  { "@type": "City", "name": "Hjo" },
-  { "@type": "City", "name": "Tibro" },
-  { "@type": "City", "name": "Mariestad" },
-  { "@type": "City", "name": "Karlsborg" },
-  { "@type": "City", "name": "Tidaholm" },
-  { "@type": "City", "name": "Skara" },
-  { "@type": "City", "name": "Falköping" },
-  { "@type": "City", "name": "Töreboda" },
-  { "@type": "City", "name": "Habo" }
-],
+    "areaServed": [
+      { "@type": "City", "name": "Skövde" },
+      { "@type": "City", "name": "Hjo" },
+      { "@type": "City", "name": "Tibro" },
+      { "@type": "City", "name": "Mariestad" },
+      { "@type": "City", "name": "Karlsborg" },
+      { "@type": "City", "name": "Tidaholm" },
+      { "@type": "City", "name": "Skara" },
+      { "@type": "City", "name": "Falköping" },
+      { "@type": "City", "name": "Töreboda" },
+      { "@type": "City", "name": "Habo" }
+    ],
     "description": "Vi köper, säljer och tar tillvara maskiner i hela Skaraborg. Även trasiga objekt kan ha värde. Hämtning kan ordnas.",
     "sameAs": [
       "https://www.facebook.com/profile.php?id=61588383880828"
@@ -188,51 +187,6 @@
     .btn:hover{filter:brightness(1.05)}
     .smallnote{margin-top:10px; font-size:12px; opacity:.85}
 
-    /* --- Marketplace CTA (tydligare + subtil puls) --- */
-    .btn.marketplace{
-      background:#1877f2;
-      border-color:#1877f2;
-      color:#fff;
-      font-weight:800;
-      position:relative;
-      box-shadow:0 10px 22px rgba(24,119,242,.18);
-      animation:mpPulse 1.9s ease-in-out infinite;
-    }
-    .btn.marketplace:hover{
-      background:#0f63d8;
-      border-color:#0f63d8;
-      transform:translateY(-1px);
-      animation:none;
-      box-shadow:0 14px 28px rgba(24,119,242,.26);
-    }
-    .btn.marketplace::after{
-      content:"";
-      position:absolute;
-      inset:-6px;
-      border-radius:14px;
-      border:2px solid rgba(24,119,242,.18);
-      opacity:.0;
-      transform:scale(.98);
-      animation:mpRing 1.9s ease-in-out infinite;
-      pointer-events:none;
-    }
-    @keyframes mpPulse{
-      0%,100%{transform:translateY(0)}
-      50%{transform:translateY(-1px)}
-    }
-    @keyframes mpRing{
-      0%{opacity:0; transform:scale(.98)}
-      35%{opacity:.55; transform:scale(1.03)}
-      70%{opacity:0; transform:scale(1.06)}
-      100%{opacity:0; transform:scale(1.06)}
-    }
-    @media (prefers-reduced-motion: reduce){
-      .btn.marketplace,
-      .btn.marketplace::after{
-        animation:none !important;
-      }
-    }
-
     /* SECTIONS */
     section{padding:44px 0}
     .grid{
@@ -298,10 +252,8 @@
 
 <body>
 
-  <!-- Injected header -->
   <div id="site-header"></div>
 
-  <!-- HERO -->
   <div id="top" class="hero">
     <div class="wrap hero-grid">
       <div>
@@ -338,7 +290,6 @@
     </div>
   </div>
 
-  <!-- VI KÖPER -->
   <section id="kop">
     <div class="wrap">
       <div class="grid">
@@ -367,7 +318,6 @@
           </ul>
         </div>
 
-        <!-- ✅ Guide-länk (pillar) -->
         <div class="card span-12" style="background:#f3f6f3;">
           <h3>Komplett guide: Sälja maskin i Skaraborg</h3>
           <p>
@@ -378,12 +328,10 @@
             <a class="btn white" style="border-color:#fff;" href="salja-maskin-skaraborg.html">Läs guiden →</a>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
-  <!-- SKROT -->
   <section id="skrot">
     <div class="wrap">
       <div class="grid">
@@ -414,7 +362,6 @@
     </div>
   </section>
 
-  <!-- ÅTERBRUK -->
   <section id="aterbruk">
     <div class="wrap">
       <div class="grid">
@@ -444,7 +391,6 @@
     </div>
   </section>
 
-  <!-- HUSVAGNAR -->
   <section id="husvagnar">
     <div class="wrap">
       <div class="grid">
@@ -461,7 +407,6 @@
     </div>
   </section>
 
-  <!-- SÅ FUNKAR DET -->
   <section id="sa-funkar-det">
     <div class="wrap">
       <div class="grid">
@@ -492,7 +437,6 @@
           </p>
         </div>
 
-        <!-- DÖDSBO -->
         <div class="card span-12">
           <h3>Dödsbo &amp; större utrensningar</h3>
           <p>
@@ -502,37 +446,28 @@
           <span class="tag">Maskinrelaterat • Skaraborg</span><br>
           <a class="btn" style="margin-top:12px;" href="dodsbo-utrensning.html">Läs mer om dödsbo</a>
         </div>
+
+        <div class="card span-12" style="background:#f3f6f3;">
+          <h3>För företag i Skaraborg</h3>
+          <p>
+            Vi hjälper företag att bli av med maskiner, metall, reservdelar och utrustning som bara står och tar plats.
+            Fokus ligger på smidig hantering, återbruk där det går och tydligt upplägg från start.
+          </p>
+          <ul>
+            <li>Verkstad, lager och företagslokaler</li>
+            <li>Maskiner, delar och metall</li>
+            <li>Större mängder vid samma upplägg</li>
+            <li>Återbruk först när det är möjligt</li>
+          </ul>
+          <div style="margin-top:12px;">
+            <a class="btn white" style="border-color:#fff;" href="foretag.html">Läs mer om företag →</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-   <!-- FÖRETAG -->
-  <div class="card">
-  <h2>För företag i Skaraborg</h2>
-  <p>
-    Har ni maskiner, metall, reservdelar eller utrustning som bara står och tar plats i verkstad, lager eller på gård?
-    Vi hjälper företag att rensa ut, bedöma värde och ta tillvara det som går till återbruk.
-  </p>
-
-  <div class="hr"></div>
-
-  <ul>
-    <li>Utrensning av verkstad och lager</li>
-    <li>Maskiner, delar och metall</li>
-    <li>Större mängder vid samma hämtning</li>
-    <li>Återbruk där det är möjligt</li>
-  </ul>
-
-  <div class="btnrow">
-    <a class="btn" href="foretag.html">Läs mer</a>
-    <a class="btn fb" href="kontakt.html">Kontakta oss</a>
-  </div>
-
-  <div class="note">
-    Snabbast svar: skicka 1–3 bilder + ort + kort beskrivning.
-  </div>
-
-  <!-- KONTAKT -->
   <section id="kontakt">
     <div class="wrap">
       <div class="grid">
@@ -557,7 +492,6 @@
         </div>
       </div>
 
-      <!-- SAMARBETE -->
       <div class="grid" style="margin-top:14px;">
         <div class="card span-12" style="background:#f3f6f3;">
           <h3 style="margin-top:0;">Samarbete</h3>
@@ -571,7 +505,6 @@
     </div>
   </section>
 
-  <!-- Injected footer -->
   <div id="site-footer"></div>
 
   <script>
