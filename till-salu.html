@@ -1,563 +1,579 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Till salu | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Se aktuella maskiner, fyrhjulingar, redskap, reservdelsmotorer och objekt till salu hos Skaraborg Maskin & Återbruk i Skaraborg.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-:root{
-  --brand:#1f2d1f;
-  --brand-2:#2d4630;
-  --accent:#d7e6d7;
-  --bg:#f5f7f5;
-  --card:#ffffff;
-  --text:#0f1a12;
-  --muted:#5b6c60;
-  --line:#e6ebe6;
-  --radius:18px;
-  --shadow:0 12px 30px rgba(0,0,0,.08);
-  --max:1100px;
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;
-  font-family:system-ui,Arial,sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.65;
-}
-a{color:inherit}
+  <title>Maskiner, reservdelar & redskap till salu i Skaraborg</title>
+  <meta name="description" content="Se hur du hittar aktuella maskiner, redskap, reservdelar och återbruksobjekt till salu hos Skaraborg Maskin & Återbruk i Hjo.">
+  <link rel="canonical" href="https://skaraborgmaskin.se/till-salu.html">
 
-.wrap{
-  max-width:var(--max);
-  margin:auto;
-  padding:0 20px;
-}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Skaraborg Maskin & Återbruk",
+    "url": "https://skaraborgmaskin.se/till-salu.html",
+    "telephone": "+46727483256",
+    "description": "Försäljning av begagnade maskiner, redskap, reservdelar och återbruksobjekt i Skaraborg.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hjo",
+      "addressRegion": "Skaraborg",
+      "addressCountry": "SE"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Skaraborg"
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61588383880828",
+      "https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk"
+    ]
+  }
+  </script>
 
-main{
-  padding:40px 0 60px;
-}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Var hittar jag era aktuella annonser?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Aktuella objekt publiceras främst på Robins, Henris och Tommys Marketplace-profiler. Länkar till samtliga profiler finns på sidan Till salu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan jag reservera en maskin?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Reservation kan i vissa fall göras efter överenskommelse. Vid längre reservation kan handpenning krävas."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Lämnar ni garanti på begagnade objekt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Objekten säljs normalt i befintligt skick. Kända fel och brister anges så tydligt som möjligt i respektive annons."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ni ordna frakt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mindre reservdelar kan ofta skickas. Större maskiner och redskap hämtas normalt på plats eller transporteras efter särskild överenskommelse."
+        }
+      }
+    ]
+  }
+  </script>
 
-.hero{
-  background:linear-gradient(180deg,#ffffff 0%, #f7faf7 100%);
-  border:1px solid var(--line);
-  border-radius:24px;
-  box-shadow:var(--shadow);
-  padding:28px;
-  margin-bottom:24px;
-}
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand-2:#2e4732;
+      --brand-soft:#eaf1ea;
+      --accent:#d4a64a;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#102015;
+      --muted:#5d6d61;
+      --line:#e1e8e1;
+      --radius:20px;
+      --shadow:0 14px 34px rgba(20,42,25,.09);
+      --max:1120px;
+    }
 
-.hero h1{
-  margin:0 0 10px;
-  font-size:clamp(28px,4vw,40px);
-  line-height:1.1;
-}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
 
-.hero p{
-  margin:0;
-  color:var(--muted);
-  max-width:760px;
-}
+    .hero{
+      background:
+        radial-gradient(circle at top right,rgba(255,255,255,.11),transparent 34%),
+        linear-gradient(135deg,var(--brand),var(--brand-2));
+      color:#fff;
+      padding:72px 0 58px;
+    }
+    .hero-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.18fr) minmax(300px,.82fr);
+      gap:28px;
+      align-items:center;
+    }
+    .eyebrow{
+      display:inline-flex;
+      padding:7px 11px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
+      font-size:13px;
+      font-weight:800;
+      margin-bottom:16px;
+    }
+    .hero h1{
+      margin:0 0 16px;
+      font-size:clamp(38px,6vw,62px);
+      line-height:1.04;
+      letter-spacing:-1.5px;
+      max-width:13ch;
+    }
+    .lead{
+      margin:0;
+      max-width:63ch;
+      font-size:18px;
+      color:rgba(255,255,255,.9);
+    }
+    .button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:48px;
+      padding:12px 17px;
+      border-radius:13px;
+      text-decoration:none;
+      font-weight:850;
+      border:1px solid transparent;
+      transition:.18s ease;
+    }
+    .button:hover{transform:translateY(-1px);filter:brightness(1.04)}
+    .button-primary{background:#fff;color:var(--brand)}
+    .button-secondary{background:rgba(255,255,255,.09);color:#fff;border-color:rgba(255,255,255,.24)}
+    .button-dark{background:var(--brand);color:#fff}
 
-.grid{
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:18px;
-}
+    .hero-card{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.17);
+      border-radius:var(--radius);
+      padding:24px;
+      backdrop-filter:blur(8px);
+    }
+    .hero-card h2{margin:0 0 9px;font-size:21px;color:#fff}
+    .hero-card p{margin:0;color:rgba(255,255,255,.86)}
+    .hero-list{list-style:none;margin:16px 0 0;padding:0}
+    .hero-list li{position:relative;padding:9px 0 9px 28px;border-top:1px solid rgba(255,255,255,.12)}
+    .hero-list li::before{content:"✓";position:absolute;left:0;font-weight:900}
 
-@media (max-width: 860px){
-  .grid{grid-template-columns:1fr}
-}
+    section{padding:58px 0}
+    .section-soft{background:#edf3ed}
+    .section-head{max-width:760px;margin-bottom:26px}
+    .section-head span{
+      display:block;
+      color:#58705c;
+      font-weight:850;
+      font-size:13px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      margin-bottom:6px;
+    }
+    .section-head h2{
+      margin:0 0 10px;
+      font-size:clamp(28px,4vw,42px);
+      line-height:1.13;
+      letter-spacing:-.5px;
+    }
+    .section-head p{margin:0;color:var(--muted);font-size:17px}
 
-.sale-card{
-  background:var(--card);
-  border:1px solid var(--line);
-  border-radius:20px;
-  box-shadow:var(--shadow);
-  padding:22px;
-  display:flex;
-  flex-direction:column;
-  gap:14px;
-}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .span-12{grid-column:span 12}
+    .span-8{grid-column:span 8}
+    .span-7{grid-column:span 7}
+    .span-6{grid-column:span 6}
+    .span-5{grid-column:span 5}
+    .span-4{grid-column:span 4}
 
-.sale-card h2{
-  margin:0;
-  font-size:22px;
-  line-height:1.2;
-}
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+      height:100%;
+    }
+    .card h2,.card h3{margin:0 0 9px;color:var(--text);line-height:1.25}
+    .card h3{font-size:20px}
+    .card p{margin:0;color:var(--muted)}
+    .card ul{margin:14px 0 0;padding-left:19px;color:var(--muted)}
+    .card li{margin:7px 0}
+    .icon{
+      width:46px;height:46px;
+      border-radius:14px;
+      display:grid;
+      place-items:center;
+      background:var(--brand-soft);
+      font-size:23px;
+      margin-bottom:16px;
+    }
 
-.badges{
-  display:flex;
-  flex-wrap:wrap;
-  gap:8px;
-}
+    .channel{
+      position:relative;
+      overflow:hidden;
+    }
+    .channel::after{
+      content:"";
+      position:absolute;
+      right:-45px;
+      bottom:-55px;
+      width:130px;
+      height:130px;
+      border-radius:50%;
+      background:var(--brand-soft);
+      opacity:.7;
+    }
+    .channel .button{margin-top:18px;position:relative;z-index:1}
 
-.badge{
-  display:inline-flex;
-  align-items:center;
-  padding:6px 10px;
-  border-radius:999px;
-  background:#eef3ee;
-  color:#203022;
-  font-size:13px;
-  font-weight:700;
-}
+    .notice{
+      background:#fff9ec;
+      border:1px solid #eeddb2;
+      border-radius:var(--radius);
+      padding:24px;
+      height:100%;
+    }
+    .notice h3{margin:0 0 9px;color:var(--text)}
+    .notice p{margin:0;color:#655a43}
 
-.price{
-  font-size:28px;
-  font-weight:900;
-  color:var(--brand);
-  line-height:1;
-}
+    .plain-list{list-style:none!important;margin:15px 0 0!important;padding:0!important}
+    .plain-list li{position:relative;padding-left:27px}
+    .plain-list li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:900}
 
-.desc{
-  color:var(--text);
-}
+    .steps{counter-reset:step}
+    .step{position:relative;padding-left:72px}
+    .step::before{
+      counter-increment:step;
+      content:counter(step);
+      position:absolute;
+      left:22px;
+      top:22px;
+      width:36px;
+      height:36px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:var(--brand);
+      color:#fff;
+      font-weight:900;
+    }
 
-.desc p{
-  margin:0 0 10px;
-}
+    details{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:15px;
+      padding:0 18px;
+      margin:10px 0;
+    }
+    summary{
+      cursor:pointer;
+      font-weight:800;
+      padding:17px 0;
+      color:var(--text);
+    }
+    details p{margin:0 0 17px;color:var(--muted)}
 
-.desc ul{
-  margin:0;
-  padding-left:18px;
-}
+    .cta-band{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:24px;
+      box-shadow:var(--shadow);
+      padding:28px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+    .cta-band h2{margin:0 0 8px;color:var(--text)}
+    .cta-band p{margin:0;color:var(--muted)}
 
-.desc li{
-  margin:0 0 4px;
-}
-
-.actions{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-  margin-top:auto;
-  padding-top:4px;
-}
-
-.btn{
-  display:inline-block;
-  text-decoration:none;
-  font-weight:800;
-  border-radius:12px;
-  padding:11px 14px;
-  transition:.2s ease;
-  border:1px solid transparent;
-}
-
-.btn-primary{
-  background:var(--brand);
-  color:#fff;
-}
-
-.btn-primary:hover{
-  background:var(--brand-2);
-}
-
-.info-box{
-  margin-top:24px;
-  background:#fff;
-  border:1px solid var(--line);
-  border-radius:18px;
-  box-shadow:var(--shadow);
-  padding:22px;
-}
-
-.info-box h3{
-  margin:0 0 10px;
-  font-size:20px;
-}
-
-.note{
-  font-size:14px;
-  color:var(--muted);
-}
-
-.back-link{
-  margin-top:22px;
-}
-
-.back-link a{
-  text-decoration:none;
-  font-weight:700;
-  color:var(--brand);
-}
-
-.back-link a:hover{
-  text-decoration:underline;
-}
-
-.site-footer{
-  background:#fff;
-  border-top:1px solid var(--line);
-  padding:26px 0 30px;
-  font-size:13px;
-  color:var(--muted);
-}
-
-.foot{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-  justify-content:space-between;
-  align-items:center;
-}
-
-/* Header styles */
-.topbar{
-  position:sticky;
-  top:0;
-  z-index:100;
-  background:rgba(255,255,255,.92);
-  backdrop-filter:blur(10px);
-  border-bottom:1px solid var(--line);
-}
-.topbar-inner{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:12px;
-  padding:14px 0;
-  flex-wrap:wrap;
-}
-.logo{
-  text-decoration:none;
-  font-weight:900;
-  font-size:16px;
-  letter-spacing:.6px;
-  line-height:1.2;
-  color:var(--text);
-}
-.logo span{
-  display:block;
-  font-size:12px;
-  font-weight:500;
-  color:var(--muted);
-  margin-top:4px;
-  letter-spacing:0;
-}
-nav{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-  justify-content:flex-end;
-  align-items:center;
-  font-size:14px;
-}
-nav a{
-  text-decoration:none;
-  padding:8px 10px;
-  border-radius:10px;
-  color:#1d2a1f;
-}
-nav a:hover{
-  background:#eef3ee;
-}
-@media (max-width: 860px){
-  nav{justify-content:flex-start}
-}
-</style>
+    @media (max-width:900px){
+      .hero-grid{grid-template-columns:1fr}
+      .hero h1{max-width:16ch}
+      .span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}
+      .cta-band{align-items:flex-start;flex-direction:column}
+    }
+    @media (max-width:620px){
+      .hero{padding:54px 0 44px}
+      section{padding:44px 0}
+      .card,.notice,.hero-card{padding:20px}
+      .button{width:100%}
+      .button-row{width:100%}
+    }
+  </style>
 </head>
 
 <body>
-<div id="site-header"></div>
+  <div id="site-header"></div>
 
-<main>
-  <div class="wrap">
-
+  <main>
     <section class="hero">
-      <h1>Maskiner & objekt till salu</h1>
-      <p>
-        Här visar vi ett urval av det vi har ute just nu. Skick varierar och många objekt säljs som repobjekt eller reservdelsmaskiner.
-        Klicka vidare till Facebook-annonsen för mer info eller hör av dig direkt till oss.
-      </p>
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Begagnat • återbruk • maskiner</div>
+          <h1>Maskiner och delar till salu</h1>
+          <p class="lead">
+            Vi säljer löpande begagnade maskiner, redskap, reservdelar och andra återbruksobjekt. De flesta aktuella annonserna publiceras via Robins, Henris och Tommys Marketplace-profiler.
+          </p>
+          <div class="button-row">
+            <a class="button button-primary" href="#marketplace-profiler">Se Marketplace-profilerna</a>
+            <a class="button button-secondary" href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener">Se Tradera</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <h2>Utbudet kan bland annat innehålla</h2>
+          <p>Objekten varierar beroende på vad som kommit in och vad som är färdigställt.</p>
+          <ul class="hero-list">
+            <li>Åkgräsklippare och handgräsklippare</li>
+            <li>Traktorer, fyrhjulingar och redskap</li>
+            <li>Motorer, förgasare och reservdelar</li>
+            <li>Verktyg, tillbehör och återbruksobjekt</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section class="grid">
+    <section id="marketplace-profiler">
+      <div class="wrap">
+        <div class="section-head">
+          <span>Aktuella annonser</span>
+          <h2>Här hittar du det som finns till salu just nu</h2>
+          <p>
+            De flesta objekten annonseras via våra tre Marketplace-profiler. Utbudet är gemensamt för verksamheten men annonserna kan ligga på olika profiler.
+          </p>
+        </div>
 
-      <article class="sale-card">
-        <h2>Stiga Villa repobjekt – 8,5 hk</h2>
-        <div class="badges">
-          <span class="badge">Stiga Villa</span>
-          <span class="badge">Repobjekt</span>
-        </div>
-        <div class="price">2 200 kr</div>
-        <div class="desc">
-          <p>Stiga Villa med 8,5 hk Briggs &amp; Stratton motor och 2-knivars klippbord.</p>
-          <ul>
-            <li>Motorn går runt men startar ej</li>
-            <li>2-knivars klippbord medföljer</li>
-            <li>Batteri saknas</li>
-            <li>Säljes som repobjekt</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/share/14PZRHHPC5M/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
+        <div class="grid">
+          <div class="card channel span-4">
+            <div class="icon">👤</div>
+            <h3>Marketplace – Robin</h3>
+            <p>
+              En del av Skaraborg Maskin & Återbruks aktuella annonser.
+            </p>
+            <a class="button button-dark" href="https://www.facebook.com/marketplace/profile/1485286868/?locale=sv_SE" target="_blank" rel="noopener">Visa Robins Marketplace</a>
+          </div>
 
-      <article class="sale-card">
-        <h2>Stiga Villa repobjekt – 12,5 hk</h2>
-        <div class="badges">
-          <span class="badge">Stiga Villa</span>
-          <span class="badge">Repobjekt</span>
-        </div>
-        <div class="price">1 900 kr</div>
-        <div class="desc">
-          <p>Stiga Villa med 12,5 hk Briggs &amp; Stratton motor och 2-knivars klippbord.</p>
-          <ul>
-            <li>Motorn går runt</li>
-            <li>Startmotor är dålig</li>
-            <li>2-knivars klippbord medföljer</li>
-            <li>En kniv saknas</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/share/17DWsrBwB8/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
+          <div class="card channel span-4">
+            <div class="icon">👤</div>
+            <h3>Marketplace – Henri</h3>
+            <p>
+              En del av Skaraborg Maskin & Återbruks aktuella annonser.
+            </p>
+            <a class="button button-dark" href="https://www.facebook.com/marketplace/profile/100000708068175/" target="_blank" rel="noopener">Visa Henris Marketplace</a>
+          </div>
 
-      <article class="sale-card">
-        <h2>Stiga Villa reservdelsmaskin</h2>
-        <div class="badges">
-          <span class="badge">Reservdelar</span>
-          <span class="badge">Stiga Villa</span>
-        </div>
-        <div class="price">1 000 kr</div>
-        <div class="desc">
-          <p>Reservdelsmaskin för dig som behöver delar eller vill bygga vidare på objektet.</p>
-          <ul>
-            <li>Dåligt 3-knivars klippbord</li>
-            <li>8 hk Briggs &amp; Stratton motor defekt</li>
-            <li>Bakhjul saknas</li>
-            <li>Säljes som reservdelsobjekt</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/share/18JiKvUnHZ/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
+          <div class="card channel span-4">
+            <div class="icon">👤</div>
+            <h3>Marketplace – Tommy</h3>
+            <p>
+              En del av Skaraborg Maskin & Återbruks aktuella annonser.
+            </p>
+            <a class="button button-dark" href="https://www.facebook.com/marketplace/profile/100015320762960/" target="_blank" rel="noopener">Visa Tommys Marketplace</a>
+          </div>
 
-      <article class="sale-card">
-        <h2>Stiga Park – rep/objekt – hydrostat</h2>
-        <div class="badges">
-          <span class="badge">Stiga Park</span>
-          <span class="badge">Repobjekt</span>
-          <span class="badge">Hydrostat</span>
-        </div>
-        <div class="price">2 900 kr</div>
-        <div class="desc">
-          <p>Stiga Park säljes som reparationsobjekt eller reservdelsmaskin.</p>
-          <ul>
-            <li>Hydrostatisk drift</li>
-            <li>16 hk Vanguard motor</li>
-            <li>Motor defekt, hål i motor</li>
-            <li>Inget klippbord</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/807826568457811/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
+          <div class="card channel span-6">
+            <div class="icon">📣</div>
+            <h3>Företagets Facebooksida</h3>
+            <p>
+              Här publicerar vi nyheter, nyinkommet, projekt och utvalda objekt från verksamheten.
+            </p>
+            <a class="button button-dark" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">Öppna Facebooksidan</a>
+          </div>
 
-      <article class="sale-card">
-        <h2>Stiga Park – repobjekt / reservdelar – 12 hk</h2>
-        <div class="badges">
-          <span class="badge">Stiga Park</span>
-          <span class="badge">Repobjekt</span>
-          <span class="badge">Reservdelar</span>
+          <div class="card channel span-6">
+            <div class="icon">📦</div>
+            <h3>Tradera</h3>
+            <p>
+              Här finns främst mindre reservdelar och andra objekt som kan skickas till köpare i hela Sverige.
+            </p>
+            <a class="button button-dark" href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener">Öppna Tradera</a>
+          </div>
         </div>
-        <div class="price">1 500 kr</div>
-        <div class="desc">
-          <p>Stiga Park säljes som reparationsobjekt eller reservdelar.</p>
-          <ul>
-            <li>12 hk Briggs &amp; Stratton motor</li>
-            <li>Motorn går runt men saknar startmotor</li>
-            <li>Ska ha fungerat för några år sedan</li>
-            <li>Bakdäck saknas</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/785370430925206/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
-
-      <article class="sale-card">
-        <h2>TWS Fiddy 110cc</h2>
-        <div class="badges">
-          <span class="badge">110cc</span>
-          <span class="badge">Startar och går</span>
-        </div>
-        <div class="price">3 000 kr</div>
-        <div class="desc">
-          <p>TWS Fiddy 110cc som startar och går, men lite fix finns.</p>
-          <ul>
-            <li>Startar och går</li>
-            <li>Dålig tomgång</li>
-            <li>Fix finns</li>
-            <li>Nytt bakdäck</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/2143665609793840/?ref=marketplace_profile&amp;referral_code=undefined" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
-
-      <article class="sale-card">
-        <h2>Kazuma 50cc barnfyrhjuling – startar och går</h2>
-        <div class="badges">
-          <span class="badge">Kazuma</span>
-          <span class="badge">50cc</span>
-          <span class="badge">Barnfyrhjuling</span>
-        </div>
-        <div class="price">3 500 kr</div>
-        <div class="desc">
-          <p>Kazuma 50cc barnfyrhjuling i bruksskick som startar och går.</p>
-          <ul>
-            <li>50cc</li>
-            <li>4 växlar, halvautomat</li>
-            <li>Ingen koppling</li>
-            <li>Startar och går</li>
-            <li>Ingen back</li>
-            <li>Bruksskick med visst kosmetiskt slitage</li>
-            <li>Årtal okänt</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/1495700452161190/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
-
-      <article class="sale-card">
-        <h2>Briggs &amp; Stratton 10,5 hk</h2>
-        <div class="badges">
-          <span class="badge">Motor</span>
-          <span class="badge">Reservdelar</span>
-        </div>
-        <div class="price">500 kr</div>
-        <div class="desc">
-          <p>Reservdelsmotor från Briggs &amp; Stratton på 10,5 hk.</p>
-          <ul>
-            <li>Saknas en del saker</li>
-            <li>Motor går runt</li>
-            <li>Skick i övrigt okänt</li>
-            <li>Säljes som reservdelsobjekt</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/4385456391781877/?ref=marketplace_profile&amp;referral_code=undefined" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
-
-      <article class="sale-card">
-        <h2>Harv Wibergs 18-pinnars – 3-punkt</h2>
-        <div class="badges">
-          <span class="badge">Harv</span>
-          <span class="badge">Wibergs</span>
-          <span class="badge">3-punkt</span>
-        </div>
-        <div class="price">3 500 kr</div>
-        <div class="desc">
-          <p>Stabil och rejäl harv från Wibergs i bra bruksskick för sin ålder.</p>
-          <ul>
-            <li>18 pinnar</li>
-            <li>3-punktsfäste</li>
-            <li>Svensktillverkad</li>
-            <li>Fungerar som den ska</li>
-            <li>Passar mindre gård eller hobbybruk</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/3341186129376333" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
-
-      <article class="sale-card">
-  <h2>Husqvarna 153 kamin – gjutjärn</h2>
-  <div class="badges">
-    <span class="badge">Husqvarna</span>
-    <span class="badge">Kamin</span>
-    <span class="badge">Gjutjärn</span>
-  </div>
-  <div class="price">850 kr</div>
-  <div class="desc">
-    <p>Äldre Husqvarna kamin i gjutjärn – perfekt för renovering eller bruk.</p>
-    <ul>
-      <li>Modell: Husqvarna 153</li>
-      <li>Höjd ca 70 cm</li>
-      <li>Bredd ca 27 cm</li>
-      <li>Djup ca 30 cm</li>
-      <li>Röranslutning ca 11,5 cm</li>
-      <li>Perfekt projekt eller brukskamin</li>
-    </ul>
-  </div>
-  <div class="actions">
-    <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/1417441900127022/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-  </div>
-</article>
-
-      <article class="sale-card">
-        <h2>Honda TRX450FE – bruksskick med en del fix</h2>
-        <div class="badges">
-          <span class="badge">Honda</span>
-          <span class="badge">TRX450FE</span>
-          <span class="badge">4x4</span>
-          <span class="badge">Projekt / arbetsmaskin</span>
-        </div>
-        <div class="price">16 000 kr</div>
-        <div class="desc">
-          <p>Honda TRX450FE i bruksskick med en del fix – passar bra som projekt eller arbetsmaskin med potential.</p>
-          <ul>
-            <li>2003 årsmodell</li>
-            <li>Halvautomat</li>
-            <li>4-hjulsdrift verkar fungera</li>
-            <li>Startar och går</li>
-            <li>Elhärva behöver ses över</li>
-            <li>Batteri saknas</li>
-            <li>Ingen back</li>
-            <li>Vinsch finns, ej testad</li>
-            <li>Vajer behöver dras ut på vinschen</li>
-            <li>Bakbromsvajer behöver fix</li>
-            <li>Saknar en del plast</li>
-            <li>Frontbåge behöver svetsas</li>
-            <li>3 däck har pyspunka / är torra</li>
-          </ul>
-        </div>
-        <div class="actions">
-          <a class="btn btn-primary" href="https://www.facebook.com/marketplace/item/2078867149560232/" target="_blank" rel="noopener noreferrer">Se annons på Facebook</a>
-        </div>
-      </article>
-
+      </div>
     </section>
 
-    <section class="info-box">
-      <h3>Information</h3>
-      <p class="note">
-        Lagret uppdateras löpande och vissa objekt kan säljas snabbt. Är du intresserad av något är det bäst att höra av dig direkt.
-        Vi kan även ha fler maskiner eller objekt inne som ännu inte hunnit läggas upp.
-      </p>
+    <section class="section-soft">
+      <div class="wrap">
+        <div class="section-head">
+          <span>Vad vi säljer</span>
+          <h2>Begagnat med fokus på användning och återbruk</h2>
+          <p>
+            Vi försöker ta vara på sådant som fortfarande kan användas, repareras eller fungera som reservdelar.
+          </p>
+        </div>
+
+        <div class="grid">
+          <div class="card span-4">
+            <div class="icon">🚜</div>
+            <h3>Maskiner och fordon</h3>
+            <ul>
+              <li>Åkgräsklippare och trädgårdsmaskiner</li>
+              <li>Traktorer och lantbruksmaskiner</li>
+              <li>Fyrhjulingar och mindre fordon</li>
+              <li>Reparations- och reservdelsobjekt</li>
+            </ul>
+          </div>
+
+          <div class="card span-4">
+            <div class="icon">⚙️</div>
+            <h3>Redskap och utrustning</h3>
+            <ul>
+              <li>Klippaggregat och snöblad</li>
+              <li>Jordfräsar och andra redskap</li>
+              <li>Verkstadsutrustning och verktyg</li>
+              <li>Tillbehör till maskiner och traktorer</li>
+            </ul>
+          </div>
+
+          <div class="card span-4">
+            <div class="icon">🔩</div>
+            <h3>Reservdelar</h3>
+            <ul>
+              <li>Motorer och motordelar</li>
+              <li>Förgasare och startmotorer</li>
+              <li>Hjul, kåpor, vajrar och drivdelar</li>
+              <li>Begagnade originaldelar och ersättningsdelar</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <p class="back-link"><a href="index.html">← Tillbaka till startsidan</a></p>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <span>Så går ett köp till</span>
+          <h2>Enkel kontakt och tydlig information</h2>
+        </div>
 
-  </div>
-</main>
+        <div class="grid steps">
+          <div class="card step span-4">
+            <h3>Hitta objektet</h3>
+            <p>Se den fullständiga annonsen på Facebook, Marketplace eller Tradera.</p>
+          </div>
+          <div class="card step span-4">
+            <h3>Ställ frågor</h3>
+            <p>Kontakta oss om skick, funktion, mått, hämtning eller något annat är oklart.</p>
+          </div>
+          <div class="card step span-4">
+            <h3>Köp eller hämta</h3>
+            <p>Vi kommer överens om betalning, eventuell reservation, hämtning eller frakt.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div id="site-footer"></div>
+    <section class="section-soft">
+      <div class="wrap">
+        <div class="grid">
+          <div class="card span-7">
+            <h2>Bra att känna till före köp</h2>
+            <ul class="plain-list">
+              <li>Begagnade objekt säljs normalt i befintligt skick</li>
+              <li>Kända fel och brister anges så tydligt vi kan</li>
+              <li>Äldre maskiner kan ha normalt slitage och tidigare reparationer</li>
+              <li>Kontrollera att objektet passar ditt användningsområde</li>
+              <li>Fråga gärna innan köp när något är oklart</li>
+            </ul>
+          </div>
 
-<script>
-async function inject(id,url){
-  const el=document.getElementById(id);
-  if(!el) return;
-  const res=await fetch(url, { cache: "no-cache" });
-  el.innerHTML=await res.text();
-}
-inject("site-header","partials1/header.html");
-inject("site-footer","partials1/footer.html");
-</script>
+          <div class="notice span-5">
+            <h3>Reservation och handpenning</h3>
+            <p>
+              Vi reserverar inte automatiskt objekt under längre tid. Vid särskild överenskommelse kan en handpenning på normalt 10 procent användas för att bekräfta reservationen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <span>Vanliga frågor</span>
+          <h2>Köp, skick, hämtning och frakt</h2>
+        </div>
+
+        <details>
+          <summary>Var hittar jag alla aktuella objekt?</summary>
+          <p>De flesta aktuella annonserna finns på Robins, Henris och Tommys Marketplace-profiler. Vissa objekt och uppdateringar publiceras även på företagets Facebooksida och Tradera.</p>
+        </details>
+
+        <details>
+          <summary>Är maskinerna genomgångna?</summary>
+          <p>Det varierar mellan objekten. I varje annons beskriver vi vad som är testat, vad som fungerar och vilka kända fel eller brister som finns.</p>
+        </details>
+
+        <details>
+          <summary>Kan jag provköra eller undersöka objektet?</summary>
+          <p>När det är praktiskt möjligt får köparen normalt möjlighet att titta på objektet före köp. Kontakta oss först för att boka tid.</p>
+        </details>
+
+        <details>
+          <summary>Kan ni skicka reservdelar?</summary>
+          <p>Mindre delar kan ofta skickas. Större och tyngre delar bedöms från fall till fall beroende på vikt, emballage och transportmöjlighet.</p>
+        </details>
+
+        <details>
+          <summary>Tar ni inbyten?</summary>
+          <p>Det kan ibland vara möjligt, men varje förslag bedöms separat. Skicka bilder, modell, skick, ort och önskat värde.</p>
+        </details>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-band">
+          <div>
+            <h2>Letar du efter en särskild maskin eller reservdel?</h2>
+            <p>Kontakta oss och beskriv vad du söker. Vi kan inte lova att vi har det inne, men vi hjälper gärna till att kontrollera lagret.</p>
+          </div>
+          <div class="button-row" style="margin-top:0">
+            <a class="button button-dark" href="kontakt.html">Kontakta oss</a>
+            <a class="button button-dark" href="tel:0727483256">072-748 32 56</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id, url) {
+      const element = document.getElementById(id);
+      if (!element) return;
+
+      try {
+        const response = await fetch(url, { cache: "no-cache" });
+        if (!response.ok) throw new Error("Kunde inte ladda " + url);
+        element.innerHTML = await response.text();
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    inject("site-header", "partials1/header.html");
+    inject("site-footer", "partials1/footer.html");
+  </script>
+
+  <noscript>
+    <div style="padding:16px;text-align:center;background:#fff;border-top:1px solid #e1e8e1">
+      Aktuella objekt finns på vår Facebooksida och Tradera. Ring oss på
+      <a href="tel:0727483256">072-748 32 56</a>.
+    </div>
+  </noscript>
 </body>
 </html>
