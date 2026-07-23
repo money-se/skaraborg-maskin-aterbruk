@@ -1,243 +1,590 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kontakt | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Kontakta Skaraborg Maskin & Återbruk. Ring eller maila oss för snabb bedömning av maskiner, skrot eller husvagn. Skicka gärna bild + ort + kort info.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-:root{
-  --brand:#1f2d1f;
-  --bg:#f5f7f5;
-  --card:#ffffff;
-  --text:#0f1a12;
-  --muted:#5b6c60;
-  --line:#e6ebe6;
-  --radius:18px;
-  --shadow:0 12px 30px rgba(0,0,0,.08);
-  --max:1100px;
-}
+  <title>Kontakt | Skaraborg Maskin & Återbruk</title>
+  <meta name="description" content="Kontakta Skaraborg Maskin & Återbruk i Hjo. Ring eller skicka meddelande via Facebook om maskiner, fordon, metall, skrot, återbruk eller utrensning.">
+  <link rel="canonical" href="https://skaraborgmaskin.se/kontakt.html">
 
-*{box-sizing:border-box}
+  <meta property="og:title" content="Kontakt | Skaraborg Maskin & Återbruk">
+  <meta property="og:description" content="Skicka bilder, ort och en kort beskrivning så kan vi göra en första bedömning.">
+  <meta property="og:type" content="website">
 
-body{
-  margin:0;
-  font-family:system-ui,Arial,sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.65;
-}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Skaraborg Maskin & Återbruk",
+    "telephone": "+46727483256",
+    "url": "https://skaraborgmaskin.se/kontakt.html",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hjo",
+      "addressRegion": "Skaraborg",
+      "addressCountry": "SE"
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Skaraborg"
+    },
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61588383880828",
+      "https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk"
+    ]
+  }
+  </script>
 
-a{color:inherit}
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand-2:#2f4833;
+      --brand-soft:#eaf1ea;
+      --accent:#d7ad55;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#102015;
+      --muted:#5d6d61;
+      --line:#e1e8e1;
+      --radius:20px;
+      --shadow:0 14px 34px rgba(20,42,25,.09);
+      --max:1120px;
+    }
 
-.wrap{
-  max-width:var(--max);
-  margin:auto;
-  padding:0 20px;
-}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
 
-main{
-  padding:40px 0;
-}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
 
-.card{
-  background:var(--card);
-  padding:24px;
-  border-radius:var(--radius);
-  box-shadow:var(--shadow);
-  border:1px solid var(--line);
-  margin-bottom:16px;
-}
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
 
-.card h2{
-  margin:0 0 8px;
-  font-size:18px;
-}
+    .hero{
+      background:
+        radial-gradient(circle at top right,rgba(255,255,255,.12),transparent 34%),
+        linear-gradient(135deg,var(--brand),var(--brand-2));
+      color:#fff;
+      padding:72px 0 58px;
+    }
 
-.card p{
-  margin:0;
-  color:var(--muted);
-}
+    .hero-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);
+      gap:28px;
+      align-items:center;
+    }
 
-ul{
-  margin:12px 0 0;
-  padding-left:18px;
-  color:var(--muted);
-}
+    .eyebrow{
+      display:inline-flex;
+      padding:7px 11px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
+      font-size:13px;
+      font-weight:800;
+      margin-bottom:16px;
+    }
 
-a.button{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  margin-top:14px;
-  padding:12px 16px;
-  background:var(--brand);
-  color:#fff;
-  text-decoration:none;
-  border-radius:12px;
-  font-weight:800;
-}
+    .hero h1{
+      margin:0 0 16px;
+      font-size:clamp(40px,6vw,64px);
+      line-height:1.04;
+      letter-spacing:-1.5px;
+    }
 
-.note{
-  font-size:13px;
-  color:var(--muted);
-  margin-top:10px;
-}
+    .lead{
+      margin:0;
+      max-width:62ch;
+      font-size:18px;
+      color:rgba(255,255,255,.9);
+    }
 
-.site-footer{
-  background:#fff;
-  border-top:1px solid var(--line);
-  padding:26px 0 30px;
-  font-size:13px;
-  color:var(--muted);
-}
+    .hero-card{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.17);
+      border-radius:var(--radius);
+      padding:24px;
+      backdrop-filter:blur(8px);
+    }
 
-.foot{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-  justify-content:space-between;
-  align-items:center;
-}
+    .hero-card h2{margin:0 0 9px;font-size:22px;color:#fff}
+    .hero-card p{margin:0;color:rgba(255,255,255,.88)}
 
-/* Header styles */
-.topbar{
-  position:sticky;
-  top:0;
-  z-index:100;
-  background:rgba(255,255,255,.92);
-  backdrop-filter:blur(10px);
-  border-bottom:1px solid var(--line);
-}
+    .hero-list{
+      list-style:none;
+      margin:16px 0 0;
+      padding:0;
+    }
 
-.topbar-inner{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:12px;
-  padding:14px 0;
-  flex-wrap:wrap;
-}
+    .hero-list li{
+      position:relative;
+      padding:9px 0 9px 28px;
+      border-top:1px solid rgba(255,255,255,.12);
+    }
 
-.logo{
-  text-decoration:none;
-  font-weight:900;
-  font-size:16px;
-  letter-spacing:.6px;
-  line-height:1.2;
-  color:var(--text);
-}
+    .hero-list li::before{
+      content:"✓";
+      position:absolute;
+      left:0;
+      font-weight:900;
+    }
 
-.logo span{
-  display:block;
-  font-size:12px;
-  font-weight:500;
-  color:var(--muted);
-  margin-top:4px;
-}
+    .button-row{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:24px;
+    }
 
-nav{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-  justify-content:flex-end;
-  align-items:center;
-  font-size:14px;
-}
+    .button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:48px;
+      padding:12px 17px;
+      border-radius:13px;
+      text-decoration:none;
+      font-weight:850;
+      border:1px solid transparent;
+      transition:.18s ease;
+    }
 
-nav a{
-  text-decoration:none;
-  padding:8px 10px;
-  border-radius:10px;
-  color:#1d2a1f;
-}
+    .button:hover{transform:translateY(-1px);filter:brightness(1.04)}
+    .button-primary{background:#fff;color:var(--brand)}
+    .button-secondary{background:rgba(255,255,255,.09);color:#fff;border-color:rgba(255,255,255,.24)}
+    .button-dark{background:var(--brand);color:#fff}
 
-nav a:hover{
-  background:#eef3ee;
-}
+    section{padding:58px 0}
+    .section-soft{background:#edf3ed}
 
-@media (max-width: 860px){
-  nav{justify-content:flex-start}
-}
-</style>
+    .section-head{
+      max-width:760px;
+      margin-bottom:26px;
+    }
+
+    .section-head span{
+      display:block;
+      color:#58705c;
+      font-weight:850;
+      font-size:13px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      margin-bottom:6px;
+    }
+
+    .section-head h2{
+      margin:0 0 10px;
+      font-size:clamp(28px,4vw,42px);
+      line-height:1.13;
+      letter-spacing:-.5px;
+    }
+
+    .section-head p{
+      margin:0;
+      color:var(--muted);
+      font-size:17px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      gap:18px;
+    }
+
+    .span-12{grid-column:span 12}
+    .span-8{grid-column:span 8}
+    .span-7{grid-column:span 7}
+    .span-6{grid-column:span 6}
+    .span-5{grid-column:span 5}
+    .span-4{grid-column:span 4}
+
+    .card{
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:var(--radius);
+      padding:24px;
+      box-shadow:var(--shadow);
+      height:100%;
+    }
+
+    .card h2,.card h3{
+      margin:0 0 9px;
+      color:var(--text);
+      line-height:1.25;
+    }
+
+    .card h3{font-size:21px}
+    .card p{margin:0;color:var(--muted)}
+
+    .card ul{
+      margin:14px 0 0;
+      padding-left:19px;
+      color:var(--muted);
+    }
+
+    .card li{margin:7px 0}
+
+    .icon{
+      width:48px;
+      height:48px;
+      border-radius:14px;
+      display:grid;
+      place-items:center;
+      background:var(--brand-soft);
+      font-size:24px;
+      margin-bottom:16px;
+    }
+
+    .contact-card{
+      display:flex;
+      flex-direction:column;
+    }
+
+    .contact-card .button{
+      margin-top:auto;
+      padding-top:12px;
+    }
+
+    .contact-value{
+      display:block;
+      margin:9px 0 15px;
+      font-size:20px;
+      font-weight:900;
+      color:var(--brand);
+      text-decoration:none;
+      overflow-wrap:anywhere;
+    }
+
+    .notice{
+      background:#fff9ec;
+      border:1px solid #eeddb2;
+      border-radius:var(--radius);
+      padding:24px;
+      height:100%;
+    }
+
+    .notice h3{
+      margin:0 0 9px;
+      color:var(--text);
+    }
+
+    .notice p{
+      margin:0;
+      color:#655a43;
+    }
+
+    .check-list{
+      list-style:none!important;
+      margin:15px 0 0!important;
+      padding:0!important;
+    }
+
+    .check-list li{
+      position:relative;
+      padding-left:28px;
+    }
+
+    .check-list li::before{
+      content:"✓";
+      position:absolute;
+      left:0;
+      color:var(--brand);
+      font-weight:900;
+    }
+
+    .step{
+      position:relative;
+      padding-left:78px;
+      min-height:130px;
+    }
+
+    .step-number{
+      position:absolute;
+      top:24px;
+      left:24px;
+      width:38px;
+      height:38px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      background:var(--brand);
+      color:#fff;
+      font-weight:900;
+    }
+
+    .cta-band{
+      background:var(--brand);
+      color:#fff;
+      border-radius:24px;
+      padding:30px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+      box-shadow:var(--shadow);
+    }
+
+    .cta-band h2{
+      margin:0 0 8px;
+      color:#fff;
+    }
+
+    .cta-band p{
+      margin:0;
+      color:rgba(255,255,255,.84);
+    }
+
+    @media (max-width:900px){
+      .hero-grid{grid-template-columns:1fr}
+      .span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}
+      .cta-band{align-items:flex-start;flex-direction:column}
+    }
+
+    @media (max-width:620px){
+      .hero{padding:54px 0 44px}
+      section{padding:44px 0}
+      .card,.notice,.hero-card{padding:20px}
+      .button{width:100%}
+      .button-row{width:100%}
+      .step{padding-left:70px}
+      .step-number{left:20px;top:20px}
+    }
+  </style>
 </head>
 
 <body>
+  <div id="site-header"></div>
 
-<div id="site-header"></div>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Hjo • Skaraborg</div>
+          <h1>Kontakta oss</h1>
+          <p class="lead">
+            Har du en maskin, ett fordon, metall, skrot, reservdelar eller ett utrymme som behöver rensas? Skicka gärna bilder, ort och en kort beskrivning så gör vi en första bedömning.
+          </p>
 
-<main>
-<div class="wrap">
+          <div class="button-row">
+            <a class="button button-primary" href="tel:0727483256">Ring eller skicka SMS</a>
+            <a class="button button-secondary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">Skicka meddelande på Facebook</a>
+          </div>
+        </div>
 
-<h1>Kontakt</h1>
+        <div class="hero-card">
+          <h2>Snabbare svar med rätt information</h2>
+          <p>Det behöver inte vara avancerat. Börja med det du vet.</p>
+          <ul class="hero-list">
+            <li>Flera tydliga bilder</li>
+            <li>Ort där objektet finns</li>
+            <li>Märke och modell om du vet</li>
+            <li>Känt skick eller fel</li>
+            <li>Ungefärlig mängd vid skrot eller partier</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Snabbaste sättet</h2>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <span>Kontaktvägar</span>
+          <h2>Välj det sätt som passar dig</h2>
+          <p>
+            Telefon är bäst när du vill prata direkt. Om vi inte svarar får du gärna skicka ett SMS med ditt ärende. Facebook passar bra när du vill skicka bilder och en längre beskrivning.
+          </p>
+        </div>
 
-<p>
-<a class="button" href="tel:0727483256">📞 Ring 072-748 32 56</a><br>
-✉️ E-post: <a id="emailLink" href="#">Maila oss</a><br>
-🔗 Facebook: <a href="https://www.facebook.com/profile.php?id=61588383880828&locale=sv_SE" target="_blank" rel="noopener">Skaraborg Maskin &amp; Återbruk</a><br>
-📍 Skaraborg
-</p>
+        <div class="grid">
+          <div class="card contact-card span-4">
+            <div class="icon">📞</div>
+            <h3>Telefon och SMS</h3>
+            <a class="contact-value" href="tel:0727483256">072-748 32 56</a>
+            <p>
+              Ring oss för att beskriva vad det gäller eller för att följa upp en tidigare förfrågan.
+            </p>
+            <p style="margin-top:12px">
+              <strong>Kan vi inte svara när du ringer?</strong><br>
+              Skicka gärna ett SMS med en kort beskrivning av ditt ärende, så återkommer vi så snart vi har möjlighet.
+            </p>
+            <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
+              <a class="button button-dark" href="tel:0727483256">Ring nu</a>
+              <a class="button button-dark" href="sms:0727483256">Skicka SMS</a>
+            </div>
+          </div>
 
-<a class="button" href="tel:0727483256">📞 Ring nu</a>
+          <div class="card contact-card span-4">
+            <div class="icon">💬</div>
+            <h3>Facebook</h3>
+            <span class="contact-value">Skaraborg Maskin & Återbruk</span>
+            <p>Skicka meddelande och bifoga gärna bilder direkt i konversationen.</p>
+            <div style="margin-top:18px">
+              <a class="button button-dark" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">Öppna Facebooksidan</a>
+            </div>
+          </div>
 
-<div class="note">
-Tips: Skicka gärna bild + ort + kort info om skick för snabbare svar.
-</div>
-</div>
+          <div class="card contact-card span-4">
+            <div class="icon">📍</div>
+            <h3>Verksamhetsområde</h3>
+            <span class="contact-value">Hjo och Skaraborg</span>
+            <p>Vi utgår från Hjo och bedömer förfrågningar i Skaraborg och närliggande områden från fall till fall.</p>
+            <div style="margin-top:18px">
+              <a class="button button-dark" href="sa-funkar-det.html">Se hur det fungerar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>För snabb bedömning – skicka gärna:</h2>
-<ul>
-<li>1–3 bilder</li>
-<li>Ort</li>
-<li>Märke &amp; modell (om du vet)</li>
-<li>Kort om skick: startar / står / trasig del</li>
-</ul>
-</div>
+    <section class="section-soft">
+      <div class="wrap">
+        <div class="section-head">
+          <span>Inför första kontakten</span>
+          <h2>Skicka gärna detta</h2>
+          <p>
+            Ett tydligt underlag gör det lättare att avgöra om objektet eller uppdraget kan vara aktuellt.
+          </p>
+        </div>
 
-<p class="note"><a href="index.html">← Tillbaka</a></p>
+        <div class="grid">
+          <div class="card span-7">
+            <h3>Bilder och grunduppgifter</h3>
+            <ul class="check-list">
+              <li>En översiktsbild och flera närbilder</li>
+              <li>Ort och ungefärlig placering</li>
+              <li>Märke, modell och typ om det går att se</li>
+              <li>Om objektet startar, fungerar eller kan flyttas</li>
+              <li>Kända fel, saknade delar och allmänt skick</li>
+              <li>Ungefärlig mängd vid metall, skrot eller blandade partier</li>
+              <li>Information om framkomlighet, lastning eller trånga utrymmen</li>
+            </ul>
+          </div>
 
-</div>
-</main>
+          <div class="notice span-5">
+            <h3>Skicka hellre för mycket än för lite</h3>
+            <p>
+              Dåliga eller få bilder kan göra en bedömning osäker. Fotografera gärna från flera håll och ta även bilder på märkskyltar, motorer, redskap och eventuella skador.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div id="site-footer"></div>
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <span>Efter att du hört av dig</span>
+          <h2>Vad händer sedan?</h2>
+        </div>
 
-<script>
-async function inject(id,url){
-  const el=document.getElementById(id);
-  if(!el) return;
-  const res=await fetch(url, { cache: "no-cache" });
-  el.innerHTML=await res.text();
-}
-inject("site-header","partials1/header.html");
-inject("site-footer","partials1/footer.html");
+        <div class="grid">
+          <div class="card step span-6">
+            <div class="step-number">1</div>
+            <h3>Vi granskar underlaget</h3>
+            <p>Vi tittar på bilderna och informationen för att avgöra om det passar verksamheten.</p>
+          </div>
 
-/* Anti-spam mail */
-(function(){
-  const parts = ["nibor_95", "hotmail", "com"];
-  const addr = parts[0] + "@" + parts[1] + "." + parts[2];
+          <div class="card step span-6">
+            <div class="step-number">2</div>
+            <h3>Vi ställer eventuella följdfrågor</h3>
+            <p>Vid behov ber vi om fler bilder, mått, mängd, platsinformation eller en tydligare beskrivning.</p>
+          </div>
 
-  const a = document.getElementById("emailLink");
-  if(!a) return;
+          <div class="card step span-6">
+            <div class="step-number">3</div>
+            <h3>Vi lämnar besked</h3>
+            <p>Du får veta om det kan vara aktuellt för köp, hämtning, återbruk eller vidare diskussion.</p>
+          </div>
 
-  const subject = encodeURIComponent("Förfrågan – maskin/skrot");
-  const body = encodeURIComponent(
-    "Hej!\n\n" +
-    "Jag vill sälja/lämna:\n" +
-    "Ort: \n" +
-    "Vad gäller det: \n" +
-    "Skick: \n" +
-    "Bilder bifogas.\n\n" +
-    "Mvh"
-  );
+          <div class="card step span-6">
+            <div class="step-number">4</div>
+            <h3>Vi kommer överens</h3>
+            <p>Om båda parter vill gå vidare bestämmer vi pris, tid, plats och praktiskt upplägg.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  a.href = "mailto:" + addr + "?subject=" + subject + "&body=" + body;
-})();
-</script>
+    <section class="section-soft">
+      <div class="wrap">
+        <div class="section-head">
+          <span>Vad gäller din förfrågan?</span>
+          <h2>Mer information om våra områden</h2>
+        </div>
 
+        <div class="grid">
+          <div class="card span-4">
+            <div class="icon">🚜</div>
+            <h3>Maskiner och fordon</h3>
+            <p>Traktorer, gräsklippare, ATV, släp, redskap, husvagnar och andra maskiner.</p>
+            <p style="margin-top:14px"><a href="kop-maskiner.html"><strong>Läs mer →</strong></a></p>
+          </div>
+
+          <div class="card span-4">
+            <div class="icon">♻️</div>
+            <h3>Metall och skrot</h3>
+            <p>Koppar, kabel, aluminium, mässing, järn, elmotorer och blandade metallpartier.</p>
+            <p style="margin-top:14px"><a href="skrot-hamtning.html"><strong>Läs mer →</strong></a></p>
+          </div>
+
+          <div class="card span-4">
+            <div class="icon">🏚️</div>
+            <h3>Återbruk och utrensning</h3>
+            <p>Garage, verkstäder, gårdar, förråd, maskinhallar och dödsbon med maskin- och återbruksinnehåll.</p>
+            <p style="margin-top:14px"><a href="aterbruk.html"><strong>Läs mer →</strong></a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-band">
+          <div>
+            <h2>Börja med ett samtal eller ett Facebook-meddelande</h2>
+            <p>Skicka bilder, ort och en kort beskrivning så återkommer vi med nästa steg.</p>
+          </div>
+          <div class="button-row" style="margin-top:0">
+            <a class="button button-primary" href="tel:0727483256">Ring oss</a>
+            <a class="button button-secondary" href="sms:0727483256">Skicka SMS</a>
+            <a class="button button-secondary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">Öppna Facebook</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id, url) {
+      const element = document.getElementById(id);
+      if (!element) return;
+
+      try {
+        const response = await fetch(url, { cache: "no-cache" });
+        if (!response.ok) throw new Error("Kunde inte ladda " + url);
+        element.innerHTML = await response.text();
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    inject("site-header", "partials1/header.html");
+    inject("site-footer", "partials1/footer.html");
+  </script>
+
+  <noscript>
+    <div style="padding:16px;text-align:center;background:#fff;border-top:1px solid #e1e8e1">
+      Ring oss på <a href="tel:0727483256">072-748 32 56</a>.
+    </div>
+  </noscript>
 </body>
 </html>
