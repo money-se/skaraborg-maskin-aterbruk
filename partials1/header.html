@@ -1,22 +1,224 @@
-<div class="topbar">
-  <div class="wrap topbar-inner">
-    <a class="logo" href="index.html">
-      SKARABORG MASKIN &amp; ÅTERBRUK
-      <span>Vi köper, säljer och tar tillvara maskiner</span>
+<style>
+  .site-header{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:rgba(255,255,255,.97);
+    border-bottom:1px solid #dfe7df;
+    box-shadow:0 8px 24px rgba(20,35,23,.06);
+    backdrop-filter:blur(12px);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+
+  .site-header *{box-sizing:border-box}
+
+  .header-inner{
+    width:min(100% - 40px,1160px);
+    min-height:78px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:24px;
+  }
+
+  .header-brand{
+    display:inline-flex;
+    flex-direction:column;
+    flex:0 0 auto;
+    color:#142317;
+    text-decoration:none;
+    line-height:1.12;
+  }
+
+  .header-brand strong{
+    font-size:15px;
+    font-weight:950;
+    letter-spacing:.025em;
+  }
+
+  .header-brand span{
+    margin-top:5px;
+    color:#607064;
+    font-size:11px;
+    font-weight:650;
+  }
+
+  .desktop-nav{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:3px;
+  }
+
+  .desktop-nav a{
+    display:inline-flex;
+    align-items:center;
+    min-height:40px;
+    padding:9px 10px;
+    border-radius:10px;
+    color:#263428;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:750;
+    white-space:nowrap;
+    transition:background .15s ease,color .15s ease,transform .15s ease;
+  }
+
+  .desktop-nav a:hover,
+  .desktop-nav a:focus-visible{
+    background:#eef4ef;
+    color:#142317;
+    outline:none;
+  }
+
+  .desktop-nav .header-cta{
+    margin-left:7px;
+    padding-inline:14px;
+    background:#142317;
+    color:#fff;
+    border:1px solid #142317;
+  }
+
+  .desktop-nav .header-cta:hover,
+  .desktop-nav .header-cta:focus-visible{
+    background:#24482b;
+    color:#fff;
+  }
+
+  .mobile-menu{display:none}
+
+  .mobile-menu summary{
+    list-style:none;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-width:46px;
+    min-height:44px;
+    padding:8px 12px;
+    border:1px solid #d7e0d8;
+    border-radius:10px;
+    background:#fff;
+    color:#142317;
+    font-size:14px;
+    font-weight:850;
+    cursor:pointer;
+  }
+
+  .mobile-menu summary::-webkit-details-marker{display:none}
+
+  .mobile-menu[open] summary{
+    background:#eef4ef;
+  }
+
+  .mobile-menu-panel{
+    position:absolute;
+    left:0;
+    right:0;
+    top:100%;
+    padding:12px 20px 20px;
+    background:#fff;
+    border-top:1px solid #e5ebe5;
+    box-shadow:0 18px 28px rgba(20,35,23,.12);
+  }
+
+  .mobile-menu-panel nav{
+    width:min(100%,1160px);
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:8px;
+  }
+
+  .mobile-menu-panel a{
+    display:flex;
+    align-items:center;
+    min-height:46px;
+    padding:10px 12px;
+    border-radius:10px;
+    background:#f6f8f6;
+    color:#203023;
+    text-decoration:none;
+    font-size:14px;
+    font-weight:750;
+  }
+
+  .mobile-menu-panel a:hover,
+  .mobile-menu-panel a:focus-visible{
+    background:#eef4ef;
+    outline:none;
+  }
+
+  .mobile-menu-panel .mobile-cta{
+    grid-column:1/-1;
+    justify-content:center;
+    background:#142317;
+    color:#fff;
+  }
+
+  @media (max-width:1040px){
+    .desktop-nav a{padding-inline:7px;font-size:12px}
+    .header-brand span{display:none}
+  }
+
+  @media (max-width:900px){
+    .header-inner{
+      width:min(100% - 28px,1160px);
+      min-height:70px;
+    }
+
+    .desktop-nav{display:none}
+    .mobile-menu{display:block}
+  }
+
+  @media (max-width:520px){
+    .header-brand strong{
+      max-width:220px;
+      font-size:13px;
+    }
+
+    .mobile-menu-panel nav{grid-template-columns:1fr}
+    .mobile-menu-panel .mobile-cta{grid-column:auto}
+  }
+</style>
+
+<header class="site-header" aria-label="Sidhuvud">
+  <div class="header-inner">
+    <a class="header-brand" href="index.html" aria-label="Skaraborg Maskin och Återbruk, startsida">
+      <strong>SKARABORG MASKIN &amp; ÅTERBRUK</strong>
+      <span>Vi köper, hämtar och återbrukar maskiner</span>
     </a>
 
-    <nav aria-label="Meny">
+    <nav class="desktop-nav" aria-label="Huvudmeny">
       <a href="kop-maskiner.html">Sälja maskin</a>
-      <a href="skrot-hamtning.html">Skrot</a>
-      <a href="husvagnar.html">Husvagnar/Kärror</a>
-      <a href="aterbruk.html">Återbruk</a>
-      <a href="foretag.html">Företag</a>
-      <a href="sa-funkar-det.html">Så funkar det</a>
-        <!-- <a href="till-salu.html">Till salu</a> -->
-      <a href="faq.html">FAQ</a>
+      <a href="skrot-hamtning.html">Skrothämtning</a>
       <a href="dodsbo-utrensning.html">Dödsbo</a>
+      <a href="foretag.html">Företag</a>
+      <a href="aterbruk.html">Återbruk</a>
+      <a href="sa-funkar-det.html">Så funkar det</a>
+      <a href="till-salu.html">Till salu</a>
+      <a href="faq.html">FAQ</a>
       <a href="om-oss.html">Om oss</a>
-      <a href="kontakt.html">Kontakt</a>
+      <a class="header-cta" href="kontakt.html">Kontakta oss</a>
     </nav>
+
+    <details class="mobile-menu">
+      <summary aria-label="Öppna meny">Meny</summary>
+      <div class="mobile-menu-panel">
+        <nav aria-label="Mobilmeny">
+          <a href="kop-maskiner.html">Sälja maskin</a>
+          <a href="skrot-hamtning.html">Skrothämtning</a>
+          <a href="dodsbo-utrensning.html">Dödsbo och utrensning</a>
+          <a href="foretag.html">För företag</a>
+          <a href="aterbruk.html">Återbruk</a>
+          <a href="sa-funkar-det.html">Så funkar det</a>
+          <a href="husvagnar.html">Husvagnar och kärror</a>
+          <a href="till-salu.html">Till salu</a>
+          <a href="faq.html">Vanliga frågor</a>
+          <a href="om-oss.html">Om oss</a>
+          <a class="mobile-cta" href="kontakt.html">Kontakta oss</a>
+        </nav>
+      </div>
+    </details>
   </div>
-</div>
+</header>
