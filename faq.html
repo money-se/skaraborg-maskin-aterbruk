@@ -1,167 +1,908 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vanliga frågor | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Vanliga frågor om att sälja maskiner, lämna skrot eller husvagn i Skaraborg.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-:root{
-  --brand:#1f2d1f;
-  --bg:#f5f7f5;
-  --card:#ffffff;
-  --text:#0f1a12;
-  --muted:#5b6c60;
-  --line:#e6ebe6;
-  --radius:18px;
-  --shadow:0 12px 30px rgba(0,0,0,.08);
-  --max:1100px;
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-  background:var(--bg);
-  color:var(--text);
-  line-height:1.65;
-}
-a{color:inherit}
+  <title>Vanliga frågor | Skaraborg Maskin & Återbruk</title>
+  <meta name="description" content="Svar på vanliga frågor om försäljning, hämtning, skrot, återbruk, dödsbon, reservationer och köp hos Skaraborg Maskin & Återbruk i Hjo.">
+  <link rel="canonical" href="https://skaraborgmaskin.se/faq.html">
 
-/* Viktigt: wrap måste vara "neutral" eftersom headern använder .wrap */
-.wrap{max-width:var(--max); margin:auto; padding:0 20px}
+  <meta property="og:title" content="Vanliga frågor | Skaraborg Maskin & Återbruk">
+  <meta property="og:description" content="Här hittar du svar på vanliga frågor om vad vi köper, hur hämtning fungerar, skrot, utrensningar, reservationer och köp av begagnade objekt.">
+  <meta property="og:type" content="website">
 
-/* Header styles (behövs eftersom headern injiceras som HTML) */
-.topbar{
-  position:sticky; top:0; z-index:100;
-  background:rgba(255,255,255,.92);
-  backdrop-filter: blur(10px);
-  border-bottom:1px solid var(--line);
-}
-.topbar-inner{
-  display:flex; justify-content:space-between; align-items:center;
-  gap:12px; padding:14px 0; flex-wrap:wrap;
-}
-.logo{
-  text-decoration:none;
-  font-weight:900;
-  font-size:16px;
-  letter-spacing:.6px;
-  line-height:1.2;
-  color:var(--text);
-}
-.logo span{
-  display:block;
-  font-size:12px;
-  font-weight:500;
-  color:var(--muted);
-  margin-top:4px;
-}
-nav{
-  display:flex; gap:10px; flex-wrap:wrap;
-  justify-content:flex-end; align-items:center;
-  font-size:14px;
-}
-nav a{
-  text-decoration:none;
-  padding:8px 10px;
-  border-radius:10px;
-  color:#1d2a1f;
-}
-nav a:hover{background:#eef3ee}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Köper ni allt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nej, varje förfrågan bedöms individuellt. Vad vi kan köpa eller hämta beror bland annat på objektets skick, värde, mängd, avstånd och vilken arbetsinsats som krävs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Betalar ni alltid för det ni hämtar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nej. I vissa fall köper vi objektet, i andra fall kan kostnadsfri hämtning vara möjlig och ibland behöver vi ta betalt för arbetet. Upplägget beror på värde, skick, mängd, avstånd och arbetsinsats."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Är hämtning alltid gratis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nej. Kostnaden eller ersättningen bedöms från fall till fall beroende på vad som ska hämtas, var det finns och hur omfattande arbetet är."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Vilket område arbetar ni inom?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vi utgår från Hjo och arbetar i hela Skaraborg samt närliggande områden efter överenskommelse."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Köper ni från både privatpersoner och företag?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja. Vi tar emot förfrågningar från privatpersoner, företag, föreningar, fastighetsägare och andra verksamheter."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Tar ni hela dödsbon?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vi arbetar främst med garage, verkstäder, förråd, maskinhallar, maskiner, verktyg, metall och andra objekt som passar vår verksamhet. Vi kan samtidigt titta på hela dödsbon och bedöma vad vi kan hjälpa till med."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Är ni en städ- eller flyttfirma?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nej. Vi är inte en traditionell städ- eller flyttfirma. Vårt fokus ligger på köp, hämtning, återbruk, sortering och hantering av maskiner, fordon, reservdelar, metall och andra användbara objekt."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan man besöka ert lager?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, men endast efter överenskommelse. Vi har inte en butik med fasta öppettider."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Lämnar ni garanti på begagnade objekt?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vi lämnar normalt ingen frivillig garanti på äldre begagnade maskiner, reservdelar eller reparationsobjekt om inget annat uttryckligen anges. Gällande svensk konsumentlagstiftning gäller alltid vid försäljning till konsument."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan man reservera en vara?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja. En vara reserveras normalt endast mot en handpenning på 10 procent av köpesumman. Handpenningen återbetalas normalt inte om köparen avbryter köpet."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Kan ni ta emot skrot hos er?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ja, skrot kan i vissa fall lämnas hos oss efter överenskommelse. Kontakta oss alltid innan du kör hit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Hur snabbt svarar ni?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vi försöker svara så snart vi kan. Om vi inte svarar när du ringer går det bra att skicka ett SMS med en kort beskrivning och gärna bilder."
+        }
+      }
+    ]
+  }
+  </script>
 
-/* Page */
-main{padding:40px 0}
-.page-title{margin:0 0 16px; font-size:32px; line-height:1.2}
-.card{
-  background:var(--card);
-  padding:24px;
-  border-radius:var(--radius);
-  box-shadow:var(--shadow);
-  border:1px solid var(--line);
-  margin-bottom:16px;
-}
-.card h2{margin:0 0 8px; font-size:18px}
-.card p{margin:0; color:var(--muted)}
-.button{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  margin-top:14px;
-  padding:12px 16px;
-  background:var(--brand);
-  color:#fff;
-  text-decoration:none;
-  border-radius:12px;
-  font-weight:800;
-}
+  <style>
+    :root{
+      --brand:#1f2d1f;
+      --brand-2:#304936;
+      --brand-3:#3e5d45;
+      --brand-soft:#eaf1ea;
+      --accent:#d7ad55;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#102015;
+      --muted:#5d6d61;
+      --line:#e1e8e1;
+      --radius:20px;
+      --shadow:0 14px 34px rgba(20,42,25,.09);
+      --max:1120px;
+    }
 
-/* Footer styles (för att matcha resten) */
-.site-footer{
-  background:#fff;
-  border-top:1px solid var(--line);
-  padding:26px 0 30px;
-  font-size:13px;
-  color:var(--muted);
-}
-.foot{
-  display:flex;
-  gap:10px;
-  flex-wrap:wrap;
-  justify-content:space-between;
-  align-items:center;
-}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
 
-@media (max-width: 860px){
-  nav{justify-content:flex-start}
-  .page-title{font-size:26px}
-}
-</style>
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+
+    .hero{
+      background:
+        radial-gradient(circle at 84% 20%,rgba(255,255,255,.12),transparent 28%),
+        radial-gradient(circle at 15% 100%,rgba(215,173,85,.11),transparent 34%),
+        linear-gradient(135deg,var(--brand),var(--brand-2));
+      color:#fff;
+      padding:72px 0 58px;
+    }
+
+    .hero-grid{
+      display:grid;
+      grid-template-columns:minmax(0,1.15fr) minmax(290px,.85fr);
+      gap:30px;
+      align-items:center;
+    }
+
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      padding:7px 11px;
+      border-radius:999px;
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.16);
+      font-size:13px;
+      font-weight:850;
+      margin-bottom:18px;
+    }
+
+    .hero h1{
+      margin:0 0 17px;
+      font-size:clamp(42px,6vw,66px);
+      line-height:1.03;
+      letter-spacing:-1.7px;
+    }
+
+    .hero p{
+      margin:0;
+      max-width:68ch;
+      font-size:18px;
+      color:rgba(255,255,255,.88);
+    }
+
+    .hero-card{
+      background:rgba(255,255,255,.10);
+      border:1px solid rgba(255,255,255,.17);
+      border-radius:var(--radius);
+      padding:25px;
+      backdrop-filter:blur(8px);
+    }
+
+    .hero-card h2{
+      margin:0 0 9px;
+      color:#fff;
+      font-size:24px;
+    }
+
+    .hero-card p{
+      font-size:15px;
+      color:rgba(255,255,255,.82);
+    }
+
+    .hero-actions{
+      display:flex;
+      gap:11px;
+      flex-wrap:wrap;
+      margin-top:20px;
+    }
+
+    .button{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:47px;
+      padding:12px 18px;
+      border-radius:13px;
+      text-decoration:none;
+      font-weight:850;
+      border:1px solid transparent;
+      transition:.18s ease;
+    }
+
+    .button:hover{transform:translateY(-1px);filter:brightness(1.04)}
+    .button-primary{background:#fff;color:var(--brand)}
+    .button-secondary{background:rgba(255,255,255,.09);color:#fff;border-color:rgba(255,255,255,.24)}
+    .button-dark{background:var(--brand);color:#fff}
+
+    main section{padding:58px 0}
+    .section-soft{background:#edf3ed}
+
+    .section-head{
+      max-width:790px;
+      margin-bottom:28px;
+    }
+
+    .section-head span{
+      display:block;
+      color:#58705c;
+      font-weight:850;
+      font-size:13px;
+      text-transform:uppercase;
+      letter-spacing:.08em;
+      margin-bottom:7px;
+    }
+
+    .section-head h2{
+      margin:0 0 11px;
+      font-size:clamp(30px,4vw,43px);
+      line-height:1.12;
+      letter-spacing:-.6px;
+    }
+
+    .section-head p{
+      margin:0;
+      color:var(--muted);
+      font-size:17px;
+    }
+
+    .quick-nav{
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+      margin-bottom:28px;
+    }
+
+    .quick-nav a{
+      display:inline-flex;
+      align-items:center;
+      min-height:42px;
+      padding:9px 14px;
+      border-radius:999px;
+      background:#fff;
+      border:1px solid var(--line);
+      text-decoration:none;
+      font-weight:800;
+      color:var(--brand);
+      box-shadow:0 6px 18px rgba(20,42,25,.05);
+    }
+
+    .faq-group{
+      margin-top:38px;
+      scroll-margin-top:24px;
+    }
+
+    .faq-group:first-of-type{margin-top:0}
+
+    .faq-group h2{
+      margin:0 0 15px;
+      font-size:27px;
+      line-height:1.2;
+    }
+
+    .faq-list{
+      display:grid;
+      gap:12px;
+    }
+
+    details{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:17px;
+      box-shadow:0 8px 24px rgba(20,42,25,.055);
+      overflow:hidden;
+    }
+
+    details[open]{
+      border-color:#cbd8cd;
+      box-shadow:var(--shadow);
+    }
+
+    summary{
+      position:relative;
+      cursor:pointer;
+      list-style:none;
+      padding:20px 58px 20px 22px;
+      font-size:18px;
+      line-height:1.35;
+      font-weight:850;
+      color:var(--text);
+    }
+
+    summary::-webkit-details-marker{display:none}
+
+    summary::after{
+      content:"+";
+      position:absolute;
+      right:21px;
+      top:50%;
+      width:30px;
+      height:30px;
+      margin-top:-15px;
+      border-radius:50%;
+      display:grid;
+      place-items:center;
+      background:var(--brand-soft);
+      color:var(--brand);
+      font-size:22px;
+      line-height:1;
+      transition:.18s ease;
+    }
+
+    details[open] summary::after{
+      content:"−";
+      transform:rotate(180deg);
+    }
+
+    .answer{
+      padding:0 22px 21px;
+      color:var(--muted);
+      border-top:1px solid var(--line);
+    }
+
+    .answer p{margin:17px 0 0}
+    .answer ul{margin:14px 0 0;padding-left:21px}
+    .answer li{margin:7px 0}
+
+    .notice{
+      margin-top:28px;
+      background:#fff9ec;
+      border:1px solid #ead7a8;
+      border-radius:18px;
+      padding:22px;
+    }
+
+    .notice h3{
+      margin:0 0 8px;
+      font-size:20px;
+    }
+
+    .notice p{
+      margin:0;
+      color:#655a43;
+    }
+
+    .future-box{
+      background:
+        radial-gradient(circle at top right,rgba(255,255,255,.10),transparent 30%),
+        linear-gradient(135deg,var(--brand),var(--brand-2));
+      color:#fff;
+      border-radius:24px;
+      padding:30px;
+      box-shadow:var(--shadow);
+    }
+
+    .future-box h2{
+      margin:0 0 12px;
+      color:#fff;
+      font-size:clamp(29px,4vw,42px);
+      line-height:1.12;
+    }
+
+    .future-box p{
+      margin:0;
+      color:rgba(255,255,255,.84);
+      font-size:17px;
+    }
+
+    .future-grid{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:12px;
+      margin-top:22px;
+    }
+
+    .future-item{
+      background:rgba(255,255,255,.08);
+      border:1px solid rgba(255,255,255,.12);
+      border-radius:15px;
+      padding:16px;
+      font-weight:750;
+    }
+
+    .cta-band{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:24px;
+      padding:30px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:22px;
+      box-shadow:var(--shadow);
+    }
+
+    .cta-band h2{
+      margin:0 0 7px;
+      font-size:29px;
+    }
+
+    .cta-band p{
+      margin:0;
+      color:var(--muted);
+    }
+
+    .cta-buttons{
+      display:flex;
+      gap:11px;
+      flex-wrap:wrap;
+      flex-shrink:0;
+    }
+
+    @media (max-width:860px){
+      .hero-grid{grid-template-columns:1fr}
+      .future-grid{grid-template-columns:1fr}
+      .cta-band{align-items:flex-start;flex-direction:column}
+    }
+
+    @media (max-width:620px){
+      .hero{padding:54px 0 45px}
+      main section{padding:45px 0}
+      .hero-card,.future-box,.cta-band{padding:21px}
+      .button{width:100%}
+      .hero-actions,.cta-buttons{width:100%}
+      summary{font-size:17px;padding-left:18px;padding-right:54px}
+      .answer{padding-left:18px;padding-right:18px}
+    }
+  </style>
 </head>
 
 <body>
-<div id="site-header"></div>
+  <div id="site-header"></div>
 
-<main>
-  <div class="wrap">
-    <h1 class="page-title">Vanliga frågor</h1>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Vanliga frågor och svar</div>
+          <h1>Hur fungerar det?</h1>
+          <p>
+            Här har vi samlat svar på vanliga frågor om vad vi köper, hämtning, betalning, skrot, utrensningar, lagerbesök, reservationer och köp av begagnade objekt.
+          </p>
+        </div>
 
-    <div class="card">
-      <h2>Köper ni trasiga maskiner?</h2>
-      <p>Ja, även objekt som inte startar eller saknar delar kan ha värde.</p>
+        <div class="hero-card">
+          <h2>Hittar du inte svaret?</h2>
+          <p>
+            Ring oss eller skicka ett SMS med en kort beskrivning. Bilder gör det ofta lättare för oss att ge ett första besked.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="tel:0727483256">Ring 072-748 32 56</a>
+            <a class="button button-secondary" href="sms:0727483256">Skicka SMS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head">
+          <span>Snabbnavigering</span>
+          <h2>Välj det område din fråga gäller</h2>
+        </div>
+
+        <nav class="quick-nav" aria-label="Frågekategorier">
+          <a href="#salja">Sälja till oss</a>
+          <a href="#hamtning">Hämtning och område</a>
+          <a href="#skrot">Skrot och återbruk</a>
+          <a href="#utrensning">Dödsbo och utrensning</a>
+          <a href="#kopa">Köpa av oss</a>
+          <a href="#kontakt">Kontakt och besök</a>
+        </nav>
+
+        <div class="faq-group" id="salja">
+          <h2>Sälja till oss</h2>
+          <div class="faq-list">
+
+            <details>
+              <summary>Köper ni allt?</summary>
+              <div class="answer">
+                <p>
+                  Nej. Varje förfrågan bedöms individuellt och vi kan behöva tacka nej. Bedömningen påverkas bland annat av objektets skick, förväntade värde, mängd, avstånd, efterfrågan och hur mycket arbete eller transport som krävs.
+                </p>
+                <p>
+                  Det bästa är ändå att fråga. Skicka gärna bilder, plats och en kort beskrivning så kan vi göra en första bedömning.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Köper ni trasiga eller ofullständiga maskiner?</summary>
+              <div class="answer">
+                <p>
+                  Ja, det kan vi göra. Även en maskin som inte startar, saknar delar eller behöver repareras kan ha ett värde som reparationsobjekt, reservdelsmaskin eller återbruk.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Köper ni från både privatpersoner och företag?</summary>
+              <div class="answer">
+                <p>
+                  Ja. Vi tar emot förfrågningar från privatpersoner, företag, föreningar, fastighetsägare, lantbruk och andra verksamheter.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Vad behöver ni för att kunna bedöma ett objekt?</summary>
+              <div class="answer">
+                <p>Skicka helst:</p>
+                <ul>
+                  <li>några tydliga bilder</li>
+                  <li>vad det är för objekt</li>
+                  <li>känt skick och eventuella fel</li>
+                  <li>var objektet finns</li>
+                  <li>ungefärligt pris eller önskat upplägg, om du har ett förslag</li>
+                </ul>
+                <p>
+                  Ju tydligare underlag vi får, desto lättare är det för oss att ge ett snabbt och relevant svar.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Betalar ni alltid för det ni hämtar?</summary>
+              <div class="answer">
+                <p>
+                  Nej. Upplägget varierar från fall till fall. I vissa ärenden köper vi objektet. I andra fall kan kostnadsfri hämtning vara möjlig. Om värdet är lågt i förhållande till transport, sortering och arbetsinsats kan hämtningen istället behöva kosta.
+                </p>
+                <p>
+                  Vi försöker alltid vara tydliga med upplägget innan något bestäms.
+                </p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+
+        <div class="faq-group" id="hamtning">
+          <h2>Hämtning och område</h2>
+          <div class="faq-list">
+
+            <details>
+              <summary>Är hämtning alltid gratis?</summary>
+              <div class="answer">
+                <p>
+                  Nej. Om hämtningen kan vara kostnadsfri, ge ersättning eller innebära en kostnad beror bland annat på objektets värde, mängd, avstånd, åtkomlighet och hur mycket arbete som krävs.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Vilket område arbetar ni inom?</summary>
+              <div class="answer">
+                <p>
+                  Vi utgår från Hjo och arbetar i hela Skaraborg samt i närliggande områden efter bedömning. Vid större eller särskilt intressanta objekt kan vi ibland köra längre.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Kan ni hämta större mängder eller hela partier?</summary>
+              <div class="answer">
+                <p>
+                  Ja, det kan vara aktuellt. Skicka bilder och information om ungefärlig mängd, plats, lastmöjligheter och vad partiet innehåller. Därefter bedömer vi transport och upplägg.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Måste allt stå framme och vara lättillgängligt?</summary>
+              <div class="answer">
+                <p>
+                  Nej, men åtkomligheten påverkar bedömningen. Berätta gärna om trånga utrymmen, trappor, mjuk mark, låsta hjul, behov av lastmaskin eller andra omständigheter redan från början.
+                </p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+
+        <div class="faq-group" id="skrot">
+          <h2>Skrot och återbruk</h2>
+          <div class="faq-list">
+
+            <details>
+              <summary>Kan ni ta emot skrot hos er?</summary>
+              <div class="answer">
+                <p>
+                  Ja, skrot kan i vissa fall lämnas hos oss efter överenskommelse. Kontakta oss alltid innan du kör hit så att vi kan bekräfta att vi kan ta emot materialet och bestämma tid.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Tar ni både metall och saker som kan återbrukas?</summary>
+              <div class="answer">
+                <p>
+                  Ja. Vi försöker i första hand identifiera sådant som kan användas igen, repareras eller säljas som reservdel. Det som inte går att återbruka kan istället sorteras för återvinning när det är möjligt.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Kan jag lämna skrot utan att ha kontaktat er?</summary>
+              <div class="answer">
+                <p>
+                  Nej. All inlämning måste vara överenskommen i förväg. Lämna aldrig material utanför lokalen eller på annan plats utan vårt godkännande.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Kommer ni erbjuda containrar och återkommande hämtning?</summary>
+              <div class="answer">
+                <p>
+                  Det är en del av vår framtidsplan. På sikt vill vi kunna erbjuda containrar, återkommande insamling och långsiktiga lösningar för företag. Kontakta oss gärna redan idag om ni vill diskutera ett framtida samarbete eller ett individuellt upplägg.
+                </p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+
+        <div class="faq-group" id="utrensning">
+          <h2>Dödsbo och utrensning</h2>
+          <div class="faq-list">
+
+            <details>
+              <summary>Tar ni hela dödsbon?</summary>
+              <div class="answer">
+                <p>
+                  Vi arbetar främst med garage, verkstäder, förråd, maskinhallar, maskiner, verktyg, reservdelar, metall och andra objekt som passar vår verksamhet.
+                </p>
+                <p>
+                  Vi kan samtidigt titta på ett helt dödsbo eller en större utrensning och bedöma vilka delar vi kan köpa, hämta eller hjälpa till att hantera. Det är alltså inget vi automatiskt säger nej till.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Är ni en städ- eller flyttfirma?</summary>
+              <div class="answer">
+                <p>
+                  Nej. Vi är inte en traditionell städ- eller flyttfirma. Vårt fokus ligger på köp, hämtning, sortering, återbruk och hantering av maskiner, fordon, reservdelar, metall och andra användbara objekt.
+                </p>
+                <p>
+                  Vid större utrensningar bedömer vi därför alltid vad uppdraget innehåller och vilka delar som passar vår verksamhet.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Kan ni hjälpa till med garage, verkstad eller förråd?</summary>
+              <div class="answer">
+                <p>
+                  Ja. Det är ofta den typen av utrymmen som passar oss bäst, särskilt när det finns maskiner, verktyg, delar, metall, fordonstillbehör eller annat som kan återbrukas.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Måste allt säljas eller hämtas vid samma tillfälle?</summary>
+              <div class="answer">
+                <p>
+                  Inte nödvändigtvis. Vid större ärenden kan vi komma överens om ett upplägg i flera steg beroende på mängd, åtkomlighet, sortering och transport.
+                </p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+
+        <div class="faq-group" id="kopa">
+          <h2>Köpa av oss</h2>
+          <div class="faq-list">
+
+            <details>
+              <summary>I vilket skick säljs era objekt?</summary>
+              <div class="answer">
+                <p>
+                  Vi säljer främst begagnade maskiner, reservdelar och återbruksobjekt. Samtliga objekt säljs i det skick som beskrivs och visas, om inget annat anges.
+                </p>
+                <p>
+                  Normalt slitage, smuts, repor, rost och bruksspår kan förekomma. Vi försöker beskriva och fotografera objekten så tydligt som möjligt, men mindre fel eller brister kan förekomma.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Är alla objekt funktionstestade?</summary>
+              <div class="answer">
+                <p>
+                  Nej. Funktionstestade objekt beskrivs efter vad vi har kunnat kontrollera vid testtillfället. Ej testade objekt anges normalt som ej testade, reparationsobjekt eller reservdelsobjekt.
+                </p>
+                <p>
+                  Läs alltid hela annonsen och fråga före köp om något är oklart.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Lämnar ni garanti?</summary>
+              <div class="answer">
+                <p>
+                  Vi lämnar normalt ingen frivillig garanti på äldre begagnade maskiner, reservdelar eller reparationsobjekt om inget annat uttryckligen anges i annonsen.
+                </p>
+                <p>
+                  Ingen garanti betyder däremot inte att lagstadgade konsumenträttigheter försvinner. Vid försäljning till privatperson följer vi alltid gällande svensk konsumentlagstiftning.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Har ni öppet köp eller returrätt?</summary>
+              <div class="answer">
+                <p>
+                  Vid köp på plats lämnar vi normalt inget frivilligt öppet köp om inget annat uttryckligen avtalats.
+                </p>
+                <p>
+                  Vid distansköp och köp via externa marknadsplatser kan lagstadgad ångerrätt och plattformens villkor gälla. Exakt vad som gäller framgår av annonsen, köpsättet och gällande lag.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Kan man reservera en vara?</summary>
+              <div class="answer">
+                <p>
+                  Ja. Vi reserverar normalt endast mot en handpenning på 10 procent av köpesumman. Handpenningen återbetalas normalt inte om köparen själv avbryter köpet.
+                </p>
+                <p>
+                  Utan handpenning gäller först till kvarn om inget annat har överenskommits.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Får jag undersöka objektet före köp?</summary>
+              <div class="answer">
+                <p>
+                  Ja. Vid köp på plats uppmanar vi köparen att undersöka objektet noggrant före köp och ställa frågor om sådant som är viktigt för användningen.
+                </p>
+              </div>
+            </details>
+
+          </div>
+
+          <div class="notice">
+            <h3>Begagnat innebär ofta bruksspår</h3>
+            <p>
+              Skick, testnivå och kända brister ska alltid bedömas utifrån den enskilda annonsen. Våra villkor begränsar aldrig rättigheter som följer av tvingande konsumentlagstiftning.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-group" id="kontakt">
+          <h2>Kontakt och besök</h2>
+          <div class="faq-list">
+
+            <details>
+              <summary>Kan man besöka ert lager?</summary>
+              <div class="answer">
+                <p>
+                  Ja, men endast efter överenskommelse. Vi har inte en butik med fasta öppettider. Kontakta oss innan du åker så bestämmer vi en tid.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Hur snabbt svarar ni?</summary>
+              <div class="answer">
+                <p>
+                  Vi försöker svara så snart vi kan. Eftersom vi ofta är ute på hämtningar, arbetar med maskiner eller kör transport kan vi inte alltid svara direkt.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Vad gör jag om ni inte svarar när jag ringer?</summary>
+              <div class="answer">
+                <p>
+                  Skicka gärna ett SMS till 072-748 32 56 med en kort beskrivning av ditt ärende. Vid försäljning eller hämtning får du gärna skicka bilder och skriva var objekten finns.
+                </p>
+              </div>
+            </details>
+
+            <details>
+              <summary>Kan jag skicka flera bilder?</summary>
+              <div class="answer">
+                <p>
+                  Ja. Bilder från flera vinklar, typskyltar, motorbeteckningar och synliga skador hjälper oss ofta att göra en bättre första bedömning.
+                </p>
+              </div>
+            </details>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-soft">
+      <div class="wrap">
+        <div class="future-box">
+          <h2>Vi utvecklar verksamheten steg för steg</h2>
+          <p>
+            Vårt mål är att på sikt kunna erbjuda större och mer återkommande lösningar för privatpersoner och företag, samtidigt som vi behåller det lokala och personliga arbetssättet.
+          </p>
+
+          <div class="future-grid">
+            <div class="future-item">Containrar hos företag</div>
+            <div class="future-item">Återkommande hämtningar</div>
+            <div class="future-item">Långsiktiga företagsavtal</div>
+            <div class="future-item">Större reservdelslager</div>
+            <div class="future-item">Större transportkapacitet</div>
+            <div class="future-item">Fler lokala verksamhetsorter</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-band">
+          <div>
+            <h2>Har du fortfarande en fråga?</h2>
+            <p>
+              Hör av dig så försöker vi hjälpa dig. Skicka gärna bilder och plats direkt för snabbare bedömning.
+            </p>
+          </div>
+
+          <div class="cta-buttons">
+            <a class="button button-dark" href="tel:0727483256">Ring oss</a>
+            <a class="button button-dark" href="sms:0727483256">Skicka SMS</a>
+            <a class="button button-dark" href="kontakt.html">Kontaktsidan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id, url) {
+      const element = document.getElementById(id);
+      if (!element) return;
+
+      try {
+        const response = await fetch(url, { cache: "no-cache" });
+        if (!response.ok) throw new Error("Kunde inte ladda " + url);
+        element.innerHTML = await response.text();
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    inject("site-header", "partials1/header.html");
+    inject("site-footer", "partials1/footer.html");
+  </script>
+
+  <noscript>
+    <div style="padding:16px;text-align:center;background:#fff;border-top:1px solid #e1e8e1">
+      Kontakta oss på <a href="tel:0727483256">072-748 32 56</a>.
     </div>
-
-    <div class="card">
-      <h2>Hämtar ni?</h2>
-      <p>Hämtning kan ordnas beroende på objekt och plats inom Skaraborg.</p>
-    </div>
-
-    <div class="card">
-      <h2>Hur snabbt svarar ni?</h2>
-      <p>Ofta samma dag. Snabbast svar får du genom att skicka bild + ort.</p>
-    </div>
-
-    <div class="card">
-      <h2>Tar ni emot husvagnar utan papper?</h2>
-      <p>Ja. Inlämning sker hos oss. Bedömning görs på plats.</p>
-    </div>
-
-    <a class="button" href="tel:0727483256">📞 Ring 072-748 32 56</a>
-  </div>
-</main>
-
-<div id="site-footer"></div>
-
-<script>
-async function inject(id,url){
-  const el=document.getElementById(id);
-  if(!el) return;
-  const res=await fetch(url,{cache:"no-cache"});
-  el.innerHTML=await res.text();
-}
-inject("site-header","partials1/header.html");
-inject("site-footer","partials1/footer.html");
-</script>
-
+  </noscript>
 </body>
 </html>
