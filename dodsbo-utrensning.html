@@ -3,103 +3,242 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dödsbo & utrensning | Skaraborg Maskin & Återbruk</title>
-<meta name="description" content="Vi hjälper vid dödsbo och större utrensningar i Skaraborg. Fokus på maskiner, verktyg och metall. Smidig hantering och tydligt upplägg.">
+<title>Dödsbo & utrensning i Skaraborg | Skaraborg Maskin & Återbruk</title>
+<meta name="description" content="Hjälp vid dödsbo och större utrensningar i Skaraborg. Vi bedömer maskiner, verktyg, redskap, reservdelar, metall och annat med återbruksvärde.">
+<link rel="canonical" href="https://skaraborgmaskin.se/dodsbo-utrensning.html">
+<meta name="robots" content="index,follow">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:title" content="Dödsbo & utrensning i Skaraborg">
+<meta property="og:description" content="Respektfull och tydlig bedömning av maskiner, verktyg, metall och annat med återbruksvärde vid dödsbo och större utrensningar.">
+<meta property="og:url" content="https://skaraborgmaskin.se/dodsbo-utrensning.html">
 
 <style>
-:root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
+:root{
+  --green-950:#102118;
+  --green-900:#173322;
+  --green-800:#21452d;
+  --green-700:#2e603d;
+  --green-100:#eaf2eb;
+  --green-50:#f4f8f4;
+  --gold:#d6aa45;
+  --gold-light:#f4df9b;
+  --text:#172019;
+  --muted:#5c6a60;
+  --white:#fff;
+  --line:#dce5dd;
+  --shadow:0 18px 45px rgba(16,33,24,.10);
+  --radius:22px;
+  --max:1160px;
+}
 *{box-sizing:border-box}
-body{margin:0;font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--white);color:var(--text);line-height:1.65}
 a{color:inherit}
-.wrap{max-width:var(--max);margin:auto;padding:0 20px}
-main{padding:40px 0}
-.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:20px}
-.card h2{margin:0 0 10px;font-size:18px}
-.card p{margin:0;color:var(--muted)}
-ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
-ol{margin:12px 0 0;padding-left:18px;color:var(--muted)}
-li{margin:6px 0}
-.button{display:inline-block;margin-top:14px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
-.badge{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;background:#eef3ee;border:1px solid var(--line);color:#2c3c2d;margin-top:10px}
-.note{font-size:13px;color:var(--muted);margin-top:10px}
-.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
-.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
-
-/* Header styles (for injected partials1/header.html) */
-.topbar{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-.topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
-.logo{text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;line-height:1.2;color:var(--text)}
-.logo span{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:4px;letter-spacing:0}
-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:center;font-size:14px}
-nav a{text-decoration:none;padding:8px 10px;border-radius:10px;color:#1d2a1f}
-nav a:hover{background:#eef3ee}
-@media (max-width: 860px){nav{justify-content:flex-start}}
+img{max-width:100%;display:block}
+.wrap{width:min(var(--max),calc(100% - 40px));margin-inline:auto}
+.skip-link{position:absolute;left:-9999px;top:10px;background:#fff;color:#000;padding:10px 14px;z-index:9999;border-radius:8px}.skip-link:focus{left:10px}
+.hero{background:linear-gradient(135deg,var(--green-950),var(--green-800));color:#fff;padding:76px 0 68px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:360px;height:360px;border-radius:50%;right:-110px;top:-130px;background:rgba(214,170,69,.12)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid rgba(255,255,255,.22);border-radius:999px;background:rgba(255,255,255,.08);font-size:13px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(280px,.7fr);gap:42px;align-items:center;position:relative;z-index:1}
+.hero h1{font-size:clamp(38px,6vw,68px);line-height:1.02;margin:18px 0 20px;letter-spacing:-.04em;max-width:820px}
+.hero h1 span{color:var(--gold-light)}
+.hero p{font-size:clamp(18px,2vw,21px);color:#e6eee8;max-width:760px;margin:0 0 28px}
+.hero-card{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.17);border-radius:var(--radius);padding:26px;backdrop-filter:blur(8px)}
+.hero-card h2{font-size:20px;margin:0 0 12px}.hero-card ul{margin:0;padding-left:20px;color:#edf4ef}.hero-card li{margin:7px 0}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 19px;border-radius:13px;text-decoration:none;font-weight:850;transition:.2s ease;border:1px solid transparent}.btn-primary{background:var(--gold);color:#172019}.btn-primary:hover{transform:translateY(-2px);background:#e0b959}.btn-secondary{border-color:rgba(255,255,255,.35);color:#fff;background:rgba(255,255,255,.06)}.btn-secondary:hover{background:rgba(255,255,255,.12)}
+section{padding:72px 0}.section-soft{background:var(--green-50)}.section-green{background:var(--green-900);color:#fff}.section-head{max-width:790px;margin-bottom:34px}.kicker{color:var(--green-700);font-size:13px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.section-green .kicker{color:var(--gold-light)}.section-head h2{font-size:clamp(30px,4vw,46px);line-height:1.12;margin:9px 0 14px;letter-spacing:-.03em}.section-head p{color:var(--muted);font-size:18px;margin:0}.section-green .section-head p{color:#dbe7de}
+.grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:27px;box-shadow:var(--shadow)}.card h3{font-size:21px;margin:0 0 10px}.card p{color:var(--muted);margin:0}.card ul{padding-left:20px;margin:14px 0 0;color:var(--muted)}.card li{margin:7px 0}.icon{width:46px;height:46px;border-radius:14px;background:var(--green-100);display:grid;place-items:center;font-size:23px;margin-bottom:18px}
+.notice{border-left:5px solid var(--gold);background:#fff8df;border-radius:16px;padding:22px 24px;color:#4c442a}.notice strong{display:block;color:#2d2a1d;margin-bottom:5px}
+.steps{counter-reset:step;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}.step{position:relative;background:#fff;border:1px solid var(--line);border-radius:20px;padding:25px}.step:before{counter-increment:step;content:counter(step);display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--green-800);color:#fff;font-weight:900;margin-bottom:17px}.step h3{margin:0 0 8px;font-size:18px}.step p{margin:0;color:var(--muted)}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:26px;align-items:start}.checklist{display:grid;gap:11px;margin-top:20px}.check{display:flex;gap:12px;align-items:flex-start}.check b{color:var(--green-800)}
+.faq{display:grid;gap:12px}.faq details{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px 20px}.faq summary{cursor:pointer;font-weight:850}.faq p{color:var(--muted);margin:12px 0 0}
+.cta{background:linear-gradient(135deg,var(--green-950),var(--green-700));color:#fff;border-radius:28px;padding:42px;display:flex;justify-content:space-between;gap:26px;align-items:center}.cta h2{font-size:clamp(28px,4vw,42px);margin:0 0 10px;line-height:1.1}.cta p{margin:0;color:#dce8df;max-width:680px}
+.link-grid a{text-decoration:none}.link-card{height:100%;transition:.2s ease}.link-card:hover{transform:translateY(-3px);border-color:#bacabb}
+@media(max-width:900px){.hero-grid,.split{grid-template-columns:1fr}.hero-card{max-width:620px}.grid-3{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.cta{align-items:flex-start;flex-direction:column}}
+@media(max-width:620px){.wrap{width:min(100% - 28px,var(--max))}.hero{padding:58px 0 52px}.grid-3,.grid-2,.steps{grid-template-columns:1fr}section{padding:56px 0}.cta{padding:30px 24px}.btn{width:100%}}
 </style>
-</head>
 
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Service",
+  "name":"Dödsbo och större utrensningar",
+  "provider":{"@type":"LocalBusiness","name":"Skaraborg Maskin & Återbruk","telephone":"+46727483256","address":{"@type":"PostalAddress","addressLocality":"Hjo","addressRegion":"Skaraborg","addressCountry":"SE"}},
+  "areaServed":"Skaraborg",
+  "description":"Bedömning och hantering av maskiner, verktyg, redskap, reservdelar, metall och andra objekt med återbruksvärde vid dödsbo och större utrensningar.",
+  "url":"https://skaraborgmaskin.se/dodsbo-utrensning.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {"@type":"Question","name":"Tömmer ni hela dödsbon?","acceptedAnswer":{"@type":"Answer","text":"Vi fokuserar främst på maskiner, verktyg, redskap, reservdelar, metall och annat som kan ha återbruks- eller skrotvärde. Vi erbjuder inte vanlig bohagsstädning eller komplett sophämtning."}},
+    {"@type":"Question","name":"Kan ni köpa sådant som finns i dödsboet?","acceptedAnswer":{"@type":"Answer","text":"Ja, i vissa fall kan vi köpa enskilda objekt eller partier. Bedömningen beror på innehåll, skick, mängd, plats och möjligheten till återbruk eller vidareförsäljning."}},
+    {"@type":"Question","name":"Hur får jag en första bedömning?","acceptedAnswer":{"@type":"Answer","text":"Skicka översiktsbilder, närbilder på intressanta objekt, ort och en kort beskrivning. Därefter återkommer vi med en första bedömning och förslag på upplägg."}}
+  ]
+}
+</script>
+</head>
 <body>
+<a class="skip-link" href="#main">Hoppa till innehållet</a>
 <div id="site-header"></div>
 
-<main>
-<div class="wrap">
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Dödsbo & större utrensningar</span>
+      <h1>Respektfull hjälp när mycket behöver <span>sorteras och bedömas</span></h1>
+      <p>Vi hjälper till att bedöma maskiner, verktyg, redskap, reservdelar, metall och andra objekt med återbruksvärde vid dödsbo och större utrensningar i Skaraborg.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">Skicka bilder via Facebook</a>
+        <a class="btn btn-secondary" href="tel:+46727483256">Ring 072-748 32 56</a>
+      </div>
+    </div>
+    <aside class="hero-card" aria-label="Bra att skicka med">
+      <h2>För en snabb första bedömning</h2>
+      <ul>
+        <li>Översiktsbilder av utrymmena</li>
+        <li>Närbilder på maskiner och verktyg</li>
+        <li>Ort och information om åtkomlighet</li>
+        <li>Ungefärlig mängd och önskad tidsplan</li>
+      </ul>
+    </aside>
+  </div>
+</section>
 
-<h1>Dödsbo & större utrensningar</h1>
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Vad vi tittar på</span>
+      <h2>Det som ser gammalt eller obrukbart ut kan fortfarande ha ett värde</h2>
+      <p>Vi försöker skilja på sådant som kan säljas vidare, repareras, användas som reservdelar eller sorteras som metall.</p>
+    </div>
+    <div class="grid-3">
+      <article class="card"><div class="icon">⚙️</div><h3>Maskiner & fordon</h3><p>Gräsklippare, åkgräsklippare, traktorer, motorer, släp, redskapsbärare och andra maskinrelaterade objekt.</p></article>
+      <article class="card"><div class="icon">🧰</div><h3>Verktyg & verkstad</h3><p>Handverktyg, elverktyg, verkstadsmaskiner, svetsar, kompressorer, hyllor, reservdelar och lagerinnehåll.</p></article>
+      <article class="card"><div class="icon">♻️</div><h3>Metall & material</h3><p>Koppar, kabelskrot, aluminium, mässing, rostfritt, järn, blandskrot, elmotorer och maskindelar.</p></article>
+    </div>
+  </div>
+</section>
 
-<div class="card">
-<h2>Smidig hantering – respektfullt upplägg</h2>
-<p>
-Vi hjälper vid dödsbo och större utrensningar med fokus på maskiner, verktyg och metall.
-Målet är att göra det enkelt och tydligt, utan onödigt krångel.
-</p>
-<span class="badge">Tydligt • Smidigt • Lokalt i Skaraborg</span>
-</div>
+<section class="section-soft">
+  <div class="wrap split">
+    <div>
+      <div class="section-head">
+        <span class="kicker">Utrymmen</span>
+        <h2>Inte bara bostaden</h2>
+        <p>Vid ett dödsbo finns ofta de mest intressanta objekten i andra byggnader än själva huset.</p>
+      </div>
+      <div class="checklist">
+        <div class="check"><span>✓</span><div><b>Garage och förråd</b><br>Maskiner, verktyg, reservdelar och material.</div></div>
+        <div class="check"><span>✓</span><div><b>Verkstäder och uthus</b><br>Arbetsbänkar, lager, industrimaterial och utrustning.</div></div>
+        <div class="check"><span>✓</span><div><b>Lador, stall och maskinhallar</b><br>Traktorer, redskap, lantbruksmaskiner och äldre gårdsutrustning.</div></div>
+        <div class="check"><span>✓</span><div><b>Tomter och upplag</b><br>Metall, maskindelar, vagnar och objekt som stått länge.</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Vi behöver inte börja med ett platsbesök</h3>
+      <p>Ofta går det att göra en första bedömning utifrån bilder. Det sparar tid för båda parter och gör det lättare att avgöra om vi kan hjälpa till.</p>
+      <ul>
+        <li>Ta hellre flera översiktsbilder än enstaka detaljbilder</li>
+        <li>Fotografera märkplåtar på större maskiner</li>
+        <li>Berätta om objekt måste bäras, vinschas eller lastas</li>
+        <li>Nämn om det finns trappor, smala portar eller dålig väg</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-<div class="card">
-<h2>Detta kan vi hjälpa till med</h2>
-<ul>
-<li>Gräsklippare & åkgräsklippare</li>
-<li>Maskiner, verktyg och reservdelar</li>
-<li>Metall, skrot och maskindelar</li>
-<li>Förråd, garage och verkstad (maskinrelaterat)</li>
-</ul>
-</div>
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Så fungerar det</span>
+      <h2>Från första kontakt till tydlig överenskommelse</h2>
+    </div>
+    <div class="steps">
+      <article class="step"><h3>Skicka underlag</h3><p>Bilder, ort, ungefärlig mängd och information om vad som finns.</p></article>
+      <article class="step"><h3>Vi bedömer</h3><p>Vi tittar på återbruksvärde, skick, omfattning, transport och åtkomlighet.</p></article>
+      <article class="step"><h3>Förslag på upplägg</h3><p>Vi berättar vad vi kan köpa, hämta eller titta närmare på.</p></article>
+      <article class="step"><h3>Överenskommelse</h3><p>Tid, ersättning, eventuell kostnad och omfattning bestäms innan något arbete påbörjas.</p></article>
+    </div>
+  </div>
+</section>
 
-<div class="card">
-<h2>Så går det till</h2>
-<ol>
-<li>Skicka 1–3 bilder + ort</li>
-<li>Vi gör en bedömning och föreslår upplägg</li>
-<li>Överenskommelse → inlämning eller hämtning (ibland)</li>
-<li>Klart</li>
-</ol>
-<p class="note">Snabbast svar: bild + ort + kort om skick.</p>
-<a class="button" href="tel:0727483256">📞 Ring 072-748 32 56</a>
-</div>
+<section class="section-green">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Tydlig avgränsning</span>
+      <h2>Vi är inte en vanlig städfirma eller sophämtare</h2>
+      <p>Vår styrka är att identifiera och ta hand om sådant som har ett värde som maskin, reservdel, återbruk eller metall.</p>
+    </div>
+    <div class="grid-2">
+      <div class="card"><h3>Det vi främst hjälper med</h3><ul><li>Maskiner, verktyg och redskap</li><li>Reservdelar och verkstadsinnehåll</li><li>Metall och material</li><li>Partier från garage, gårdar och uthus</li></ul></div>
+      <div class="card"><h3>Det vi normalt inte erbjuder</h3><ul><li>Komplett bohagsstädning</li><li>Flyttstädning eller sanering</li><li>Hämtning av osorterat hushållsavfall</li><li>Bortforsling av allt oavsett innehåll</li></ul></div>
+    </div>
+  </div>
+</section>
 
-<div class="card">
-<h2>Var vi är verksamma</h2>
-<p>
-Vi arbetar i hela Skaraborg – t.ex. Skövde, Hjo, Tibro, Karlsborg, Mariestad och närliggande områden.
-</p>
-</div>
+<section class="section-soft">
+  <div class="wrap">
+    <div class="notice"><strong>Varje dödsbo och utrensning bedöms individuellt.</strong>Värdet på innehållet kan ibland täcka delar av hanteringen, men gratis hämtning eller ersättning kan aldrig lovas innan vi har sett vad som finns och hur det kan lastas.</div>
+  </div>
+</section>
 
-<p class="note"><a href="index.html">← Tillbaka</a></p>
+<section>
+  <div class="wrap">
+    <div class="section-head"><span class="kicker">Vanliga frågor</span><h2>Det här brukar människor undra</h2></div>
+    <div class="faq">
+      <details><summary>Tömmer ni hela dödsbon?</summary><p>Vi fokuserar på sådant som har återbruks-, reservdels- eller metallvärde. Vi erbjuder inte komplett bohagsstädning, men kan ibland hjälpa med större delar av garage, verkstäder, förråd, uthus och maskinhallar.</p></details>
+      <details><summary>Kan ni köpa saker direkt från dödsboet?</summary><p>Ja, i vissa fall kan vi köpa enstaka objekt eller hela partier. Det beror bland annat på skick, efterfrågan, mängd och transport.</p></details>
+      <details><summary>Tar ni även trasiga maskiner?</summary><p>Ja, trasiga, ofullständiga och äldre maskiner kan vara intressanta som reparationsobjekt, reservdelar eller metall.</p></details>
+      <details><summary>Måste allt vara framplockat och sorterat?</summary><p>Nej, men tydliga bilder och möjlighet att komma åt objekten underlättar. Vid större mängder behöver vi veta hur lastningen kan genomföras.</p></details>
+      <details><summary>Vilka orter arbetar ni i?</summary><p>Vi utgår från Hjo och arbetar i Skaraborg, bland annat Hjo, Skövde, Tibro, Karlsborg, Tidaholm, Mariestad, Töreboda och närliggande områden.</p></details>
+    </div>
+  </div>
+</section>
 
-</div>
+<section class="section-soft">
+  <div class="wrap">
+    <div class="section-head"><span class="kicker">Relaterad hjälp</span><h2>Fler delar av verksamheten</h2></div>
+    <div class="grid-3 link-grid">
+      <a href="aterbruk.html"><article class="card link-card"><h3>Återbruk & tömning</h3><p>Översikt över tömningar, lantbruk, verkstäder och objekt med återbruksvärde.</p></article></a>
+      <a href="kop-maskiner.html"><article class="card link-card"><h3>Sälj maskiner</h3><p>Vi kan vara intresserade av maskiner, traktorer, redskap och reparationsobjekt.</p></article></a>
+      <a href="skrot-hamtning.html"><article class="card link-card"><h3>Metall & skrot</h3><p>Kabelskrot, koppar, aluminium, järn, blandskrot och maskinrelaterad metall.</p></article></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="cta">
+      <div><h2>Börja med några bilder</h2><p>Skicka översiktsbilder, ort och en kort beskrivning. Vi återkommer med en ärlig första bedömning av om och hur vi kan hjälpa till.</p></div>
+      <div class="actions"><a class="btn btn-primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">Skicka förfrågan</a><a class="btn btn-secondary" href="tel:+46727483256">Ring oss</a></div>
+    </div>
+  </div>
+</section>
 </main>
 
 <div id="site-footer"></div>
-
+<noscript><div style="padding:16px;text-align:center;background:#f4f8f4">Ring oss på <a href="tel:+46727483256">072-748 32 56</a>.</div></noscript>
 <script>
 async function inject(id,url){
   const el=document.getElementById(id);
   if(!el) return;
-  const res=await fetch(url,{cache:"no-cache"});
-  el.innerHTML=await res.text();
+  try{
+    const res=await fetch(url,{cache:"no-cache"});
+    if(!res.ok) throw new Error("Kunde inte läsa " + url);
+    el.innerHTML=await res.text();
+  }catch(err){
+    console.error(err);
+  }
 }
 inject("site-header","partials1/header.html");
 inject("site-footer","partials1/footer.html");
 </script>
-
 </body>
 </html>
