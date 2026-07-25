@@ -1,282 +1,74 @@
-<style>
-  .site-footer{
-    margin-top:0;
-    background:#142317;
-    color:#eef4ee;
-    border-top:4px solid #d8a52e;
-    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
-  }
-
-  .site-footer *{
-    box-sizing:border-box;
-  }
-
-  .footer-inner{
-    width:min(100% - 40px,1160px);
-    margin:0 auto;
-    padding:58px 0 38px;
-    display:grid;
-    grid-template-columns:minmax(260px,1.4fr) repeat(3,minmax(170px,1fr));
-    gap:42px;
-  }
-
-  .footer-brand h2,
-  .footer-column h2{
-    margin:0 0 16px;
-    color:#ffffff;
-    font-size:18px;
-    line-height:1.25;
-  }
-
-  .footer-brand h2{
-    max-width:320px;
-    font-size:24px;
-    letter-spacing:-.02em;
-  }
-
-  .footer-brand p{
-    max-width:390px;
-    margin:0;
-    color:#c7d3c9;
-    font-size:15px;
-    line-height:1.75;
-  }
-
-  .footer-points{
-    display:flex;
-    flex-wrap:wrap;
-    gap:8px;
-    margin-top:22px;
-  }
-
-  .footer-point{
-    display:inline-flex;
-    align-items:center;
-    padding:7px 10px;
-    border:1px solid rgba(255,255,255,.13);
-    border-radius:999px;
-    background:rgba(255,255,255,.055);
-    color:#e7eee8;
-    font-size:12px;
-    font-weight:700;
-  }
-
-  .footer-list{
-    list-style:none;
-    margin:0;
-    padding:0;
-    display:grid;
-    gap:10px;
-  }
-
-  .footer-list a,
-  .footer-contact a{
-    color:#c7d3c9;
-    text-decoration:none;
-    transition:color .15s ease,transform .15s ease;
-  }
-
-  .footer-list a:hover,
-  .footer-list a:focus-visible,
-  .footer-contact a:hover,
-  .footer-contact a:focus-visible{
-    color:#ffffff;
-    outline:none;
-  }
-
-  .footer-list a{
-    display:inline-flex;
-    align-items:center;
-    gap:8px;
-    font-size:14px;
-  }
-
-  .footer-list a::before{
-    content:"›";
-    color:#d8a52e;
-    font-weight:900;
-  }
-
-  .footer-contact{
-    display:grid;
-    gap:15px;
-  }
-
-  .footer-contact-item{
-    margin:0;
-    color:#c7d3c9;
-    font-size:14px;
-    line-height:1.55;
-  }
-
-  .footer-contact-item strong{
-    display:block;
-    margin-bottom:2px;
-    color:#ffffff;
-    font-size:13px;
-  }
-
-  .footer-socials{
-    display:flex;
-    flex-wrap:wrap;
-    gap:10px;
-    margin-top:4px;
-  }
-
-  .footer-social-link{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
-    min-height:40px;
-    padding:9px 13px;
-    border:1px solid rgba(255,255,255,.16);
-    border-radius:10px;
-    background:rgba(255,255,255,.06);
-    color:#ffffff !important;
-    font-size:13px;
-    font-weight:800;
-  }
-
-  .footer-social-link:hover,
-  .footer-social-link:focus-visible{
-    background:rgba(255,255,255,.12);
-  }
-
-  .footer-bottom{
-    border-top:1px solid rgba(255,255,255,.11);
-  }
-
-  .footer-bottom-inner{
-    width:min(100% - 40px,1160px);
-    margin:0 auto;
-    padding:20px 0;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:20px;
-    color:#9eaea1;
-    font-size:12px;
-  }
-
-  .footer-bottom-inner p{
-    margin:0;
-  }
-
-  .footer-bottom-links{
-    display:flex;
-    flex-wrap:wrap;
-    gap:16px;
-  }
-
-  .footer-bottom-links a{
-    color:#b9c6bb;
-    text-decoration:none;
-  }
-
-  .footer-bottom-links a:hover,
-  .footer-bottom-links a:focus-visible{
-    color:#ffffff;
-    outline:none;
-  }
-
-  @media (max-width:900px){
-    .footer-inner{
-      grid-template-columns:repeat(2,minmax(0,1fr));
-    }
-  }
-
-  @media (max-width:620px){
-    .footer-inner{
-      width:min(100% - 28px,1160px);
-      padding:44px 0 30px;
-      grid-template-columns:1fr;
-      gap:30px;
-    }
-
-    .footer-bottom-inner{
-      width:min(100% - 28px,1160px);
-      align-items:flex-start;
-      flex-direction:column;
-      gap:10px;
-    }
-  }
-</style>
-
-<footer class="site-footer" aria-label="Sidfot">
-  <div class="footer-inner">
-
-    <section class="footer-brand" aria-labelledby="footer-company-title">
-      <h2 id="footer-company-title">Skaraborg Maskin &amp; Återbruk</h2>
-      <p>
-        Vi köper, hämtar och återbrukar maskiner, reservdelsobjekt och metall
-        i Skaraborg med omnejd. Vi hjälper både privatpersoner och företag
-        med en enkel och smidig affär.
-      </p>
-
-      <div class="footer-points" aria-label="Fördelar">
-        <span class="footer-point">Snabb bedömning</span>
-        <span class="footer-point">Smidig hämtning</span>
-        <span class="footer-point">Personlig kontakt</span>
-      </div>
-    </section>
-
-    <nav class="footer-column" aria-labelledby="footer-services-title">
-      <h2 id="footer-services-title">Tjänster</h2>
-      <ul class="footer-list">
-        <li><a href="kop-maskiner.html">Vi köper maskiner</a></li>
-        <li><a href="skrot-hamtning.html">Skrothämtning</a></li>
-        <li><a href="dodsbo-utrensning.html">Dödsbo och utrensning</a></li>
-        <li><a href="foretag.html">För företag</a></li>
-        <li><a href="aterbruk.html">Återbruk</a></li>
-      </ul>
-    </nav>
-
-    <nav class="footer-column" aria-labelledby="footer-links-title">
-      <h2 id="footer-links-title">Snabblänkar</h2>
-      <ul class="footer-list">
-        <li><a href="index.html">Startsida</a></li>
-        <li><a href="om-oss.html">Om oss</a></li>
-        <li><a href="faq.html">Vanliga frågor</a></li>
-        <li><a href="kontakt.html">Kontakt</a></li>
-        <li><a href="sitemap.xml">Sitemap</a></li>
-      </ul>
-    </nav>
-
-    <section class="footer-column" aria-labelledby="footer-contact-title">
-      <h2 id="footer-contact-title">Kontakt</h2>
-
-      <div class="footer-contact">
-        <p class="footer-contact-item">
-          <strong>Ort</strong>
-          Hjo, Skaraborg
-        </p>
-
-        <p class="footer-contact-item">
-          <strong>Telefon</strong>
-          <a href="tel:+46727483256">072-748 32 56</a>
-        </p>
-
-        <p class="footer-contact-item">
-          <strong>Organisationsnummer</strong>
-          559426-7550
-        </p>
-
-        <div class="footer-socials" aria-label="Sociala kanaler">
-          <a class="footer-social-link" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Facebook</a>
-          <a class="footer-social-link" href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener noreferrer">Tradera</a>
+<footer class="site-footer">
+  <style>
+    .smar-footer{background:#142317;color:#e8f0e9;border-top:1px solid rgba(255,255,255,.08);padding:46px 0 22px;font-size:14px}
+    .smar-footer .smar-footer-wrap{width:min(100% - 40px,1120px);margin-inline:auto}
+    .smar-footer .smar-footer-grid{display:grid;grid-template-columns:1.25fr 1fr 1.6fr 1fr;gap:30px;align-items:start}
+    .smar-footer h2,.smar-footer h3{color:#fff;margin:0 0 13px;line-height:1.25}
+    .smar-footer h2{font-size:20px}.smar-footer h3{font-size:15px}
+    .smar-footer p{margin:0;color:#bcc9bf;line-height:1.65}
+    .smar-footer a{color:#dce7de;text-decoration:none}
+    .smar-footer a:hover,.smar-footer a:focus-visible{color:#fff;text-decoration:underline;text-underline-offset:3px}
+    .smar-footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+    .smar-footer .smar-areas{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 14px}
+    .smar-footer .smar-contact{margin-top:16px;display:grid;gap:7px}
+    .smar-footer .smar-contact a{font-weight:750}
+    .smar-footer-bottom{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap;margin-top:36px;padding-top:20px;border-top:1px solid rgba(255,255,255,.10);color:#93a497;font-size:12px}
+    @media(max-width:900px){.smar-footer .smar-footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:560px){.smar-footer{padding-top:36px}.smar-footer .smar-footer-grid{grid-template-columns:1fr;gap:25px}.smar-footer .smar-areas{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  </style>
+  <div class="smar-footer">
+    <div class="smar-footer-wrap">
+      <div class="smar-footer-grid">
+        <div>
+          <h2>Skaraborg Maskin &amp; Återbruk</h2>
+          <p>Lokalt företag med bas i Hjo. Vi köper maskiner, reservdelar, redskap, metall och andra återbruksobjekt från privatpersoner, företag och lantbruk.</p>
+          <div class="smar-contact">
+            <a href="tel:0727483256">072-748 32 56</a>
+            <a href="sms:0727483256">Skicka SMS</a>
+            <a href="kontakt.html">Kontakt</a>
+          </div>
+        </div>
+        <div>
+          <h3>Sälja till oss</h3>
+          <ul>
+            <li><a href="kop-maskiner.html">Maskiner &amp; fordon</a></li>
+            <li><a href="skrot-hamtning.html">Metall &amp; återbruk</a></li>
+            <li><a href="aterbruk.html">Återbruk &amp; utrensning</a></li>
+            <li><a href="dodsbo-utrensning.html">Dödsbo</a></li>
+            <li><a href="foretag.html">För företag</a></li>
+            <li><a href="sa-funkar-det.html">Så fungerar det</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Vi köper i Skaraborg</h3>
+          <ul class="smar-areas">
+            <li><a href="hjo.html">Hjo</a></li><li><a href="skovde.html">Skövde</a></li>
+            <li><a href="tibro.html">Tibro</a></li><li><a href="karlsborg.html">Karlsborg</a></li>
+            <li><a href="mariestad.html">Mariestad</a></li><li><a href="toreboda.html">Töreboda</a></li>
+            <li><a href="tidaholm.html">Tidaholm</a></li><li><a href="falkoping.html">Falköping</a></li>
+            <li><a href="skara.html">Skara</a></li><li><a href="lidkoping.html">Lidköping</a></li>
+            <li><a href="gotene.html">Götene</a></li><li><a href="vara.html">Vara</a></li>
+            <li><a href="grastorp.html">Grästorp</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Företaget</h3>
+          <ul>
+            <li><a href="om-oss.html">Om oss</a></li>
+            <li><a href="till-salu.html">Till salu</a></li>
+            <li><a href="faq.html">Vanliga frågor</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">Facebook</a></li>
+            <li><a href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener">Tradera</a></li>
+          </ul>
         </div>
       </div>
-    </section>
-
-  </div>
-
-  <div class="footer-bottom">
-    <div class="footer-bottom-inner">
-      <p>© 2026 Skaraborg Maskin &amp; Återbruk. Alla rättigheter förbehållna.</p>
-      <div class="footer-bottom-links">
-        <a href="kontakt.html">Kontakt</a>
-        <a href="sitemap.xml">Sitemap</a>
+      <div class="smar-footer-bottom">
+        <div>© <span id="year"></span> Skaraborg Maskin &amp; Återbruk</div>
+        <div>Skaraborg Maskin &amp; Återbruk drivs genom FOB Handel AB.</div>
       </div>
     </div>
   </div>
 </footer>
+<script>
+(function(){var el=document.getElementById("year");if(el)el.textContent=new Date().getFullYear();})();
+</script>
