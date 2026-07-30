@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Hämtning av däck på fälg i Skaraborg | 100 kr per däck</title>
+  <meta name="description" content="Vi hämtar gamla däck på fälg hos privatpersoner, företag och lantbruk i Skaraborg. 100 kr per däck, minsta debitering 500 kr. Skicka bilder för besked." />
+  <link rel="canonical" href="https://skaraborgmaskin.se/dack-hamtning.html" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+  <meta name="theme-color" content="#1f3322" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="sv_SE" />
+  <meta property="og:title" content="Hämtning av däck på fälg i Skaraborg" />
+  <meta property="og:description" content="Slipp lasta bilen och köra iväg däcken själv. Vi hämtar hos dig från 500 kr." />
+  <meta property="og:url" content="https://skaraborgmaskin.se/dack-hamtning.html" />
+  <meta property="og:site_name" content="Skaraborg Maskin & Återbruk" />
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Service",
+        "@id":"https://skaraborgmaskin.se/dack-hamtning.html#service",
+        "name":"Hämtning av däck på fälg",
+        "serviceType":"Hämtning av gamla däck på fälg",
+        "description":"Hämtning av däck på fälg hos privatpersoner, företag, verkstäder och lantbruk i Skaraborg.",
+        "provider":{"@id":"https://skaraborgmaskin.se/#business"},
+        "areaServed":{"@type":"AdministrativeArea","name":"Skaraborg"},
+        "offers":{
+          "@type":"Offer",
+          "priceCurrency":"SEK",
+          "description":"100 kronor per däck på fälg. Minsta debitering 500 kronor. Större mängder offereras separat."
+        }
+      },
+      {
+        "@type":"FAQPage",
+        "mainEntity":[
+          {
+            "@type":"Question",
+            "name":"Vad kostar hämtning av däck på fälg?",
+            "acceptedAnswer":{"@type":"Answer","text":"Priset är 100 kronor per däck på fälg med en minsta debitering på 500 kronor. För större mängder lämnas offert."}
+          },
+          {
+            "@type":"Question",
+            "name":"Hämtar ni även hos företag och lantbruk?",
+            "acceptedAnswer":{"@type":"Answer","text":"Ja, vi tar emot förfrågningar från privatpersoner, företag, verkstäder, fastighetsägare och lantbruk."}
+          },
+          {
+            "@type":"Question",
+            "name":"Kan kostnaden bli lägre om jag har andra saker?",
+            "acceptedAnswer":{"@type":"Answer","text":"I vissa fall kan den totala kostnaden påverkas om det samtidigt finns maskiner, delar eller annat som passar vår verksamhet. Vi lämnar alltid besked innan hämtningen bokas."}
+          },
+          {
+            "@type":"Question",
+            "name":"Måste jag hjälpa till att lasta?",
+            "acceptedAnswer":{"@type":"Answer","text":"Normalt sköter vi lastningen, men däcken behöver vara åtkomliga och förutsättningarna bedöms innan bokning."}
+          },
+          {
+            "@type":"Question",
+            "name":"Tar ni lösa däck utan fälg?",
+            "acceptedAnswer":{"@type":"Answer","text":"Tjänsten gäller i första hand däck som sitter på fälg. Skicka bilder och antal om du har andra typer av däck så lämnar vi besked."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root{
+      --brand:#1f3322;
+      --brand-dark:#142317;
+      --brand-mid:#2b4930;
+      --brand-soft:#eaf1ea;
+      --accent:#d8a52e;
+      --accent-soft:#f8efd7;
+      --bg:#f6f7f4;
+      --card:#fff;
+      --text:#142017;
+      --muted:#5f6d62;
+      --line:#dfe6df;
+      --danger:#8b3f2c;
+      --radius:20px;
+      --shadow:0 16px 42px rgba(20,35,23,.09);
+      --max:1160px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.65;
+    }
+
+    a{color:inherit}
+    h1,h2,h3{line-height:1.13;letter-spacing:-.025em;text-wrap:balance}
+    h1{margin:0 0 18px;font-size:clamp(2.55rem,6vw,4.6rem);max-width:13ch}
+    h2{margin:0 0 14px;font-size:clamp(2rem,4vw,3rem)}
+    h3{margin:0 0 10px;font-size:1.28rem}
+    p{margin-top:0}
+    .wrap{width:min(100% - 40px,var(--max));margin-inline:auto}
+
+    .skip-link{
+      position:absolute;
+      left:12px;
+      top:-70px;
+      z-index:3000;
+      padding:10px 14px;
+      border-radius:9px;
+      background:#fff;
+      font-weight:850;
+      box-shadow:var(--shadow);
+    }
+    .skip-link:focus{top:12px}
+
+    .hero{
+      position:relative;
+      overflow:hidden;
+      padding:76px 0 68px;
+      color:#fff;
+      background:
+        radial-gradient(circle at 88% 16%,rgba(216,165,46,.20),transparent 30%),
+        linear-gradient(138deg,var(--brand-dark),var(--brand-mid));
+    }
+    .hero::after{
+      content:"";
+      position:absolute;
+      width:500px;
+      height:500px;
+      right:-180px;
+      bottom:-280px;
+      border:1px solid rgba(255,255,255,.11);
+      border-radius:50%;
+      box-shadow:0 0 0 65px rgba(255,255,255,.025),0 0 0 130px rgba(255,255,255,.018);
+    }
+    .hero-grid{
+      position:relative;
+      z-index:1;
+      display:grid;
+      grid-template-columns:minmax(0,1.16fr) minmax(300px,.84fr);
+      gap:46px;
+      align-items:center;
+    }
+    .eyebrow{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      margin:0 0 14px;
+      color:#efc45e;
+      font-size:13px;
+      font-weight:900;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+    }
+    .eyebrow::before{content:"";width:28px;height:2px;background:var(--accent)}
+    .lead{max-width:750px;margin:0;color:#dbe6dd;font-size:clamp(1.06rem,2vw,1.2rem)}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      min-height:50px;
+      padding:12px 18px;
+      border:1px solid transparent;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:850;
+    }
+    .btn-primary{background:var(--accent);color:#182018}
+    .btn-secondary{border-color:rgba(255,255,255,.34);background:rgba(255,255,255,.06);color:#fff}
+    .btn-dark{background:var(--brand-dark);color:#fff}
+    .btn-outline{border-color:var(--brand-dark);color:var(--brand-dark)}
+
+    .price-card{
+      padding:30px;
+      border:1px solid rgba(255,255,255,.14);
+      border-radius:24px;
+      background:rgba(7,17,10,.55);
+      box-shadow:0 20px 55px rgba(0,0,0,.20);
+    }
+    .price-label{margin:0;color:#cbd8cd;font-size:13px;font-weight:850;text-transform:uppercase;letter-spacing:.08em}
+    .price{margin:6px 0 2px;font-size:clamp(2.4rem,5vw,3.7rem);font-weight:950;line-height:1}
+    .price span{font-size:1rem;font-weight:750;color:#d7e1d8}
+    .minimum{margin:13px 0 0;color:#fff;font-weight:850}
+    .price-note{margin:5px 0 0;color:#cbd8cd;font-size:.95rem}
+    .mini-list{display:grid;gap:10px;margin-top:22px}
+    .mini-item{display:flex;gap:10px;align-items:flex-start;color:#e3ebe4}
+    .mini-item b{color:#f1c45d}
+
+    section{padding:74px 0}
+    .white{background:#fff}
+    .soft{background:var(--brand-soft)}
+    .dark{background:var(--brand-dark);color:#fff}
+
+    .section-head{max-width:800px;margin-bottom:30px}
+    .kicker{margin:0 0 8px;color:#765711;font-size:13px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+    .section-head>p:last-child{margin:0;color:var(--muted);font-size:17px}
+    .dark .kicker{color:#efc45e}
+    .dark .section-head>p:last-child{color:#cbd8cd}
+
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .s4{grid-column:span 4}
+    .s5{grid-column:span 5}
+    .s6{grid-column:span 6}
+    .s7{grid-column:span 7}
+    .s12{grid-column:span 12}
+
+    .card{
+      height:100%;
+      padding:25px;
+      border:1px solid var(--line);
+      border-radius:17px;
+      background:#fff;
+      box-shadow:0 10px 28px rgba(20,35,23,.055);
+    }
+    .card p{margin:0;color:var(--muted)}
+    .card p+p{margin-top:12px}
+
+    .problem-card{
+      padding:30px;
+      border-radius:22px;
+      background:linear-gradient(135deg,var(--brand),var(--brand-mid));
+      color:#fff;
+      box-shadow:var(--shadow);
+    }
+    .problem-card p{color:#d7e2d8}
+    .problem-card strong{color:#fff}
+
+    .comparison{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:18px;
+    }
+    .compare-box{
+      padding:27px;
+      border-radius:19px;
+      border:1px solid var(--line);
+      background:#fff;
+    }
+    .compare-box.bad{border-top:5px solid #b76a56}
+    .compare-box.good{border-top:5px solid var(--brand-mid)}
+    .checklist{display:grid;gap:12px;margin:18px 0 0;padding:0;list-style:none}
+    .checklist li{display:flex;gap:10px;color:var(--muted)}
+    .checklist li::before{font-weight:950}
+    .bad .checklist li::before{content:"×";color:var(--danger)}
+    .good .checklist li::before{content:"✓";color:var(--brand-mid)}
+
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .step{
+      position:relative;
+      padding:26px;
+      border-radius:18px;
+      border:1px solid var(--line);
+      background:#fff;
+    }
+    .step-number{
+      width:42px;height:42px;display:grid;place-items:center;
+      margin-bottom:16px;border-radius:50%;
+      background:var(--brand-dark);color:#fff;font-weight:950;
+    }
+    .step p{margin:0;color:var(--muted)}
+
+    .trade-box{
+      padding:32px;
+      border-radius:24px;
+      background:linear-gradient(140deg,var(--accent-soft),#fff);
+      border:1px solid #ead9a8;
+      box-shadow:var(--shadow);
+    }
+    .trade-box .notice{
+      display:inline-block;
+      margin-bottom:12px;
+      padding:7px 10px;
+      border-radius:999px;
+      background:var(--brand-dark);
+      color:#fff;
+      font-size:12px;
+      font-weight:900;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+    }
+    .trade-box p{color:#4f5c52}
+    .trade-box strong{color:var(--brand-dark)}
+
+    .items{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:12px;
+      margin-top:22px;
+    }
+    .item{
+      padding:15px;
+      border:1px solid var(--line);
+      border-radius:13px;
+      background:#fff;
+      font-weight:800;
+      text-align:center;
+    }
+
+    .types{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .type{
+      padding:18px 15px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:#fff;
+      text-align:center;
+      font-weight:800;
+    }
+
+    .area-box{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:28px;
+      align-items:center;
+      padding:32px;
+      border-radius:24px;
+      background:#fff;
+      border:1px solid var(--line);
+      box-shadow:var(--shadow);
+    }
+    .places{display:flex;flex-wrap:wrap;gap:9px}
+    .place{
+      padding:9px 12px;
+      border:1px solid var(--line);
+      border-radius:999px;
+      background:var(--brand-soft);
+      font-size:14px;
+      font-weight:780;
+    }
+
+    .faq-list{display:grid;gap:12px}
+    details{
+      border:1px solid var(--line);
+      border-radius:14px;
+      background:#fff;
+      overflow:hidden;
+    }
+    summary{padding:18px 20px;cursor:pointer;font-weight:850}
+    details p{padding:0 20px 19px;margin:0;color:var(--muted)}
+
+    .final-cta{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:26px;
+      padding:34px;
+      border-radius:24px;
+      background:linear-gradient(135deg,var(--brand-dark),var(--brand-mid));
+      color:#fff;
+      box-shadow:var(--shadow);
+    }
+    .final-cta p{margin:0;color:#cbd8cd}
+    .final-actions{display:flex;gap:12px;flex-wrap:wrap;flex:0 0 auto}
+
+    .fineprint{
+      margin-top:18px;
+      color:var(--muted);
+      font-size:.92rem;
+    }
+
+    @media(max-width:900px){
+      .hero-grid,.area-box{grid-template-columns:1fr}
+      .s4,.s5,.s6,.s7{grid-column:span 12}
+      .steps{grid-template-columns:1fr}
+      .types{grid-template-columns:repeat(2,1fr)}
+    }
+
+    @media(max-width:650px){
+      .hero{padding:54px 0 48px}
+      section{padding:52px 0}
+      .comparison{grid-template-columns:1fr}
+      .items,.types{grid-template-columns:1fr}
+      .actions,.final-cta,.final-actions{flex-direction:column;align-items:stretch}
+      .btn{width:100%}
+      .final-cta{align-items:flex-start}
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Hoppa till innehållet</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Hämtning i hela Skaraborg</p>
+          <h1>Slipp köra iväg dina gamla däck</h1>
+          <p class="lead">
+            Har du däck på fälg som står i garaget, ladan, verkstaden eller på gården?
+            Vi kommer till dig och hämtar dem – så att du slipper lyfta, lasta och ordna transport själv.
+          </p>
+
+          <div class="actions">
+            <a class="btn btn-primary"
+               href="https://www.facebook.com/profile.php?id=61588383880828"
+               target="_blank"
+               rel="noopener">📷 Skicka bilder och antal</a>
+            <a class="btn btn-secondary" href="tel:+46727483256">📞 Ring oss</a>
+          </div>
+        </div>
+
+        <aside class="price-card" aria-label="Pris för däckhämtning">
+          <p class="price-label">Fast och tydligt pris</p>
+          <div class="price">100 kr <span>per däck på fälg</span></div>
+          <p class="minimum">Minsta debitering: 500 kr</p>
+          <p class="price-note">Större mängder och särskilda däcktyper offereras separat.</p>
+
+          <div class="mini-list">
+            <div class="mini-item"><b>✓</b><span>Vi kommer till dig</span></div>
+            <div class="mini-item"><b>✓</b><span>Du slipper transporten</span></div>
+            <div class="mini-item"><b>✓</b><span>Tydligt besked före bokning</span></div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="grid">
+          <article class="card s7">
+            <p class="kicker">Ett vanligt problem</p>
+            <h2>Däck som skulle bort blir lätt stående i flera år</h2>
+            <p>
+              Det börjar ofta med en uppsättning i ett hörn. Sedan blir däcken kvar eftersom de är
+              tunga, smutsiga och besvärliga att transportera. För att lämna dem själv behöver du
+              dessutom hitta rätt mottagare och avsätta tid för lastning och körning.
+            </p>
+            <p>
+              När däck sitter kvar på fälg kan mottagaren även behöva ta betalt för demontering
+              eller annan hantering. Det som verkar enkelt kan därför innebära både arbete,
+              transport och kostnader.
+            </p>
+          </article>
+
+          <aside class="problem-card s5">
+            <h3>Vi löser den jobbiga delen</h3>
+            <p>
+              Du behöver inte smutsa ner bilen, låna släp eller använda en ledig dag till att köra
+              runt med däcken. Skicka antal, bilder och ort – vi lämnar besked innan något bokas.
+            </p>
+            <p><strong>En kontakt. En hämtning. Däcken är borta.</strong></p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Vad tjänsten sparar</p>
+          <h2>Du kan ordna allt själv – eller låta oss göra det</h2>
+          <p>Priset gäller inte bara däcken. Det gäller tiden, transporten och arbetet du slipper.</p>
+        </div>
+
+        <div class="comparison">
+          <article class="compare-box bad">
+            <h3>Ordna det själv</h3>
+            <ul class="checklist">
+              <li>Lyfta och lasta tunga, smutsiga däck</li>
+              <li>Få plats med dem i bilen eller ordna släp</li>
+              <li>Hitta en mottagare som tar emot däck på fälg</li>
+              <li>Köra dit och lasta av</li>
+              <li>Eventuell avgift för demontering eller hantering</li>
+            </ul>
+          </article>
+
+          <article class="compare-box good">
+            <h3>Anlita oss</h3>
+            <ul class="checklist">
+              <li>Skicka bilder, antal och ort</li>
+              <li>Få ett tydligt besked före bokning</li>
+              <li>Vi kommer till dig</li>
+              <li>Vi sköter lastning och transport enligt överenskommelse</li>
+              <li>Du får tillbaka platsen som däcken tog upp</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Så fungerar det</p>
+          <h2>Från bilder till hämtning i tre enkla steg</h2>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-number">1</div>
+            <h3>Skicka information</h3>
+            <p>Skicka några bilder, antal däck, ort och gärna vilken typ av däck det gäller.</p>
+          </article>
+
+          <article class="step">
+            <div class="step-number">2</div>
+            <h3>Få ett tydligt besked</h3>
+            <p>Vi bekräftar pris och om hämtningen kan genomföras innan vi bokar en tid.</p>
+          </article>
+
+          <article class="step">
+            <div class="step-number">3</div>
+            <h3>Vi hämtar</h3>
+            <p>Däcken ska vara åtkomliga. Därefter sköter vi lastning och transport enligt överenskommelse.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="wrap">
+        <div class="trade-box">
+          <span class="notice">Har du mer som bara står?</span>
+          <h2>Visa gärna annat när du ändå kontaktar oss</h2>
+          <p>
+            Det kan finnas gamla maskiner, motorer, verktyg eller delar som du också vill få undan.
+            <strong>Vi lovar inte att allt är intressant eller har ett värde</strong>, men sådant som
+            passar vår verksamhet kan ibland tas med vid samma tillfälle.
+          </p>
+          <p>
+            I vissa fall kan det påverka den totala kostnaden för hämtningen. Vi tittar på helheten
+            och lämnar alltid besked innan något hämtas. Du behöver alltså inte själv avgöra vad som
+            går att återbruka – skicka bilder så berättar vi vad som kan vara aktuellt.
+          </p>
+
+          <div class="items" aria-label="Exempel på andra saker">
+            <div class="item">Åkgräsklippare</div>
+            <div class="item">Gräsklippare</div>
+            <div class="item">Motorer</div>
+            <div class="item">Trädgårdsmaskiner</div>
+            <div class="item">Reservdelar</div>
+            <div class="item">Verktyg & redskap</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Vad vi kan hämta</p>
+          <h2>Däck för privatpersoner, företag och lantbruk</h2>
+          <p>Tjänsten gäller i första hand däck på fälg. Andra typer och större dimensioner bedöms separat.</p>
+        </div>
+
+        <div class="types">
+          <div class="type">Personbilsdäck</div>
+          <div class="type">Plåtfälgar</div>
+          <div class="type">Aluminiumfälgar</div>
+          <div class="type">Släpvagnsdäck</div>
+          <div class="type">ATV-däck</div>
+          <div class="type">Mindre maskindäck</div>
+          <div class="type">Större mängder</div>
+          <div class="type">Företag & lantbruk</div>
+        </div>
+
+        <p class="fineprint">
+          Traktordäck, lastbilsdäck, entreprenaddäck och andra större eller ovanliga dimensioner
+          ingår inte automatiskt i standardpriset. Skicka bilder och mått för separat besked.
+        </p>
+      </div>
+    </section>
+
+    <section class="dark">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Samordnad körning</p>
+          <h2>Ibland kan vi kombinera flera uppdrag</h2>
+          <p>
+            Vi kör regelbundet i stora delar av Skaraborg. Om hämtningen kan samordnas med ett annat
+            uppdrag i samma område kan vi i vissa fall erbjuda ett annat upplägg. Det bedöms från fall till fall.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="wrap">
+        <div class="area-box">
+          <div>
+            <p class="kicker">Verksamhetsområde</p>
+            <h2>Vi hämtar i hela Skaraborg</h2>
+            <p>
+              Skicka gärna en förfrågan även om din ort inte står med. Möjligheten till hämtning
+              beror på antal, typ av däck, avstånd och om körningen kan samordnas.
+            </p>
+          </div>
+
+          <div class="places">
+            <span class="place">Hjo</span>
+            <span class="place">Skövde</span>
+            <span class="place">Tibro</span>
+            <span class="place">Karlsborg</span>
+            <span class="place">Mariestad</span>
+            <span class="place">Tidaholm</span>
+            <span class="place">Skara</span>
+            <span class="place">Falköping</span>
+            <span class="place">Töreboda</span>
+            <span class="place">Lidköping</span>
+            <span class="place">Götene</span>
+            <span class="place">Övriga Skaraborg</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="kicker">Vanliga frågor</p>
+          <h2>Det här är bra att veta före hämtningen</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Vad kostar hämtningen?</summary>
+            <p>Standardpriset är 100 kr per däck på fälg. Minsta debitering är 500 kr. Större mängder och särskilda däcktyper offereras separat.</p>
+          </details>
+
+          <details>
+            <summary>Varför är minsta debiteringen 500 kr?</summary>
+            <p>Varje uppdrag innebär planering, resa, lastning, transport och fortsatt hantering. Minsta debiteringen gör att vi kan erbjuda tjänsten även vid mindre mängder.</p>
+          </details>
+
+          <details>
+            <summary>Tar ni lösa däck utan fälg?</summary>
+            <p>Tjänsten gäller i första hand däck på fälg. Skicka bilder och antal om du har lösa däck så berättar vi om vi kan hjälpa till.</p>
+          </details>
+
+          <details>
+            <summary>Hämtar ni traktordäck och lastbilsdäck?</summary>
+            <p>Större däck bedöms separat eftersom vikt, dimension och lastningsbehov varierar. Skicka bilder och ungefärliga mått för offert.</p>
+          </details>
+
+          <details>
+            <summary>Kan kostnaden bli lägre om jag har andra saker?</summary>
+            <p>I vissa fall, ja. Om det finns maskiner, delar eller annat som passar vår verksamhet kan helheten påverka kostnaden. Vi lovar inte att allt är intressant och lämnar alltid besked i förväg.</p>
+          </details>
+
+          <details>
+            <summary>Måste jag hjälpa till att lasta?</summary>
+            <p>Normalt sköter vi lastningen, men däcken behöver vara lätt åtkomliga. Särskilda förhållanden, trappor eller mycket tunga däck behöver meddelas innan bokning.</p>
+          </details>
+
+          <details>
+            <summary>Hämtar ni hos företag, verkstäder och lantbruk?</summary>
+            <p>Ja. Vid större mängder vill vi gärna ha bilder, uppskattat antal och information om däcktyperna så att vi kan lämna offert.</p>
+          </details>
+
+          <details>
+            <summary>Hur bokar jag?</summary>
+            <p>Skicka bilder, antal däck och ort via Facebook eller ring oss. Vi återkommer med pris och besked innan hämtningen bokas.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="white">
+      <div class="wrap">
+        <div class="final-cta">
+          <div>
+            <p class="eyebrow">Få undan däcken</p>
+            <h2>Skicka bilder, antal och ort</h2>
+            <p>
+              Har du annat som också bara står? Skicka gärna bilder på det samtidigt.
+              Vi berättar vad vi kan hjälpa till med innan något bokas.
+            </p>
+          </div>
+
+          <div class="final-actions">
+            <a class="btn btn-primary"
+               href="https://www.facebook.com/profile.php?id=61588383880828"
+               target="_blank"
+               rel="noopener">📷 Skicka bilder</a>
+            <a class="btn btn-secondary" href="tel:+46727483256">📞 Ring oss</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script>
+    async function inject(id, url){
+      const el = document.getElementById(id);
+      if(!el) return;
+
+      try{
+        const response = await fetch(url, { cache:"no-cache" });
+        if(!response.ok) throw new Error("Kunde inte läsa " + url);
+        el.innerHTML = await response.text();
+      }catch(error){
+        console.error(error);
+      }
+    }
+
+    inject("site-header", "partials1/header.html");
+    inject("site-footer", "partials1/footer.html");
+  </script>
+</body>
+</html>
