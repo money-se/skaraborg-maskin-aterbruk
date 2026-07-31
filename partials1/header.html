@@ -95,6 +95,16 @@
       color:#fff;
     }
 
+    .smar-menu-toggle{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
+    }
+
     .smar-menu-button{
       display:none;
       width:44px;
@@ -107,6 +117,19 @@
       cursor:pointer;
       font-size:23px;
       line-height:1;
+      user-select:none;
+    }
+
+    .smar-menu-close{display:none}
+
+    .smar-menu-text{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
     }
 
     @media(max-width:1080px){
@@ -141,7 +164,15 @@
         align-items:stretch;
       }
 
-      .smar-nav.is-open{display:flex}
+      .smar-menu-toggle:checked ~ .smar-nav{display:flex}
+
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-open{display:none}
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-close{display:inline}
+
+      .smar-menu-toggle:focus-visible + .smar-menu-button{
+        outline:3px solid rgba(20,35,23,.25);
+        outline-offset:3px;
+      }
 
       .smar-nav a{
         padding:12px;
@@ -171,29 +202,35 @@
   </style>
 
   <div class="smar-header-wrap">
-    <a class="smar-brand" href="index.html" aria-label="Skaraborg Maskin & Återbruk – startsida">
-      <span class="smar-brand-name">Skaraborg Maskin &amp; Återbruk</span>
-      <span class="smar-brand-sub">Vi köper • hämtar • återbrukar</span>
+    <a class="smar-brand" href="index.html" aria-label="Skaraborg Maskin & Ã…terbruk â€“ startsida">
+      <span class="smar-brand-name">Skaraborg Maskin &amp; Ã…terbruk</span>
+      <span class="smar-brand-sub">Vi kÃ¶per â€¢ hÃ¤mtar â€¢ Ã¥terbrukar</span>
     </a>
 
-    <button
+    <input
+      class="smar-menu-toggle"
+      type="checkbox"
+      id="smar-menu-toggle"
+      aria-label="Ã–ppna eller stÃ¤ng meny">
+
+    <label
       class="smar-menu-button"
-      type="button"
-      aria-expanded="false"
-      aria-controls="smar-main-nav"
-      aria-label="Öppna meny">
-      ☰
-    </button>
+      for="smar-menu-toggle"
+      aria-controls="smar-main-nav">
+      <span class="smar-menu-open" aria-hidden="true">â˜°</span>
+      <span class="smar-menu-close" aria-hidden="true">Ã—</span>
+      <span class="smar-menu-text">Meny</span>
+    </label>
 
     <nav class="smar-nav" id="smar-main-nav" aria-label="Huvudmeny">
       <a href="index.html">Hem</a>
-      <a href="kop-maskiner.html">Vi köper</a>
-      <a href="aterbruk.html">Återbruk</a>
-      <a class="smar-dack" href="dack-hamtning.html">Däckhämtning</a>
-      <a href="skrot-hamtning.html">Skrothämtning</a>
-      <a href="sa-funkar-det.html">Så fungerar det</a>
+      <a href="kop-maskiner.html">Vi kÃ¶per</a>
+      <a href="aterbruk.html">Ã…terbruk</a>
+      <a class="smar-dack" href="dack-hamtning.html">DÃ¤ckhÃ¤mtning</a>
+      <a href="skrot-hamtning.html">SkrothÃ¤mtning</a>
+      <a href="sa-funkar-det.html">SÃ¥ fungerar det</a>
       <a href="till-salu.html">Till salu</a>
-      <a href="foretag.html">Företag</a>
+      <a href="foretag.html">FÃ¶retag</a>
       <a href="om-oss.html">Om oss</a>
       <a href="faq.html">FAQ</a>
       <a class="smar-facebook"
@@ -203,38 +240,4 @@
       <a class="smar-contact" href="kontakt.html">Kontakta oss</a>
     </nav>
   </div>
-
-  <script>
-    (function(){
-      const header = document.currentScript.closest(".smar-site-header");
-      if(!header) return;
-
-      const button = header.querySelector(".smar-menu-button");
-      const nav = header.querySelector(".smar-nav");
-
-      if(button && nav){
-        button.addEventListener("click", function(){
-          const open = nav.classList.toggle("is-open");
-          button.setAttribute("aria-expanded", open ? "true" : "false");
-          button.setAttribute("aria-label", open ? "Stäng meny" : "Öppna meny");
-          button.textContent = open ? "×" : "☰";
-        });
-
-        nav.querySelectorAll("a").forEach(function(link){
-          link.addEventListener("click", function(){
-            nav.classList.remove("is-open");
-            button.setAttribute("aria-expanded","false");
-            button.setAttribute("aria-label","Öppna meny");
-            button.textContent = "☰";
-          });
-        });
-      }
-
-      const current = (window.location.pathname.split("/").pop() || "index.html").toLowerCase();
-      header.querySelectorAll('a[href$=".html"]').forEach(function(link){
-        const target = link.getAttribute("href").split("/").pop().toLowerCase();
-        if(target === current) link.setAttribute("aria-current","page");
-      });
-    })();
-  </script>
 </header>
