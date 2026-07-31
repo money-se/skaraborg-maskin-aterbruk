@@ -1,3 +1,9 @@
+<!--
+  Viktigt: Alla fullstandiga HTML-sidor som laddar denna header ska ha:
+  <meta charset="UTF-8">
+  sa tidigt som mojligt i <head>.
+  Synlig text nedan anvander HTML-entiteter for att svenska tecken ska visas korrekt.
+-->
 <header class="smar-site-header">
   <style>
     .smar-site-header{
@@ -156,7 +162,7 @@
         right:-20px;
         max-height:calc(100vh - 72px);
         overflow:auto;
-        padding:13px 20px 20px;
+        padding:10px 20px 16px;
         background:#fff;
         border-bottom:1px solid #dfe6df;
         box-shadow:0 16px 34px rgba(20,35,23,.12);
@@ -175,7 +181,7 @@
       }
 
       .smar-nav a{
-        padding:12px;
+        padding:10px 12px;
         font-size:14px;
       }
 
@@ -202,35 +208,35 @@
   </style>
 
   <div class="smar-header-wrap">
-    <a class="smar-brand" href="index.html" aria-label="Skaraborg Maskin & Ã…terbruk â€“ startsida">
-      <span class="smar-brand-name">Skaraborg Maskin &amp; Ã…terbruk</span>
-      <span class="smar-brand-sub">Vi kÃ¶per â€¢ hÃ¤mtar â€¢ Ã¥terbrukar</span>
+    <a class="smar-brand" href="index.html" aria-label="Skaraborg Maskin & &Aring;terbruk &#8211; startsida">
+      <span class="smar-brand-name">Skaraborg Maskin &amp; &Aring;terbruk</span>
+      <span class="smar-brand-sub">Vi k&ouml;per &#8226; h&auml;mtar &#8226; &aring;terbrukar</span>
     </a>
 
     <input
       class="smar-menu-toggle"
       type="checkbox"
       id="smar-menu-toggle"
-      aria-label="Ã–ppna eller stÃ¤ng meny">
+      aria-label="&Ouml;ppna eller st&auml;ng meny">
 
     <label
       class="smar-menu-button"
       for="smar-menu-toggle"
       aria-controls="smar-main-nav">
-      <span class="smar-menu-open" aria-hidden="true">â˜°</span>
-      <span class="smar-menu-close" aria-hidden="true">Ã—</span>
+      <span class="smar-menu-open" aria-hidden="true">&#9776;</span>
+      <span class="smar-menu-close" aria-hidden="true">&#215;</span>
       <span class="smar-menu-text">Meny</span>
     </label>
 
     <nav class="smar-nav" id="smar-main-nav" aria-label="Huvudmeny">
       <a href="index.html">Hem</a>
-      <a href="kop-maskiner.html">Vi kÃ¶per</a>
-      <a href="aterbruk.html">Ã…terbruk</a>
-      <a class="smar-dack" href="dack-hamtning.html">DÃ¤ckhÃ¤mtning</a>
-      <a href="skrot-hamtning.html">SkrothÃ¤mtning</a>
-      <a href="sa-funkar-det.html">SÃ¥ fungerar det</a>
+      <a href="kop-maskiner.html">Vi k&ouml;per</a>
+      <a href="aterbruk.html">&Aring;terbruk</a>
+      <a class="smar-dack" href="dack-hamtning.html">D&auml;ckh&auml;mtning</a>
+      <a href="skrot-hamtning.html">Skroth&auml;mtning</a>
+      <a href="sa-funkar-det.html">S&aring; fungerar det</a>
       <a href="till-salu.html">Till salu</a>
-      <a href="foretag.html">FÃ¶retag</a>
+      <a href="foretag.html">F&ouml;retag</a>
       <a href="om-oss.html">Om oss</a>
       <a href="faq.html">FAQ</a>
       <a class="smar-facebook"
