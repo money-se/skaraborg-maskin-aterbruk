@@ -3,280 +3,322 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>STIGA Villa 12 HST – motor, modell & klippaggregat | Maskinarkivet</title>
-<meta name="description" content="Guide till STIGA Villa 12 HST. Identifiera rätt version, se vilka motorer som förekommer, vilket klippaggregat som används och hur du hittar rätt reservdelar.">
+<title>STIGA Villa 12 HST – komplett guide | Maskinarkivet</title>
+<meta name="description" content="Utförlig guide till STIGA Villa 12 HST: identifiering, motor, drivning, styrning, reglage, säkerhetssystem, 85 C/85 Combi, underhåll, tillbehör och reservdelar.">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="https://skaraborgmaskin.se/maskinarkiv/stiga-villa-12-hst.html">
 <style>
-:root{
- --ink:#172019;--muted:#667168;--green:#203a27;--green2:#31563a;
- --cream:#f7f6f1;--paper:#fff;--line:#e3e5df;--gold:#d7aa3a;
- --soft:#edf3ed;--max:1080px;--read:720px
-}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--cream);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.7}
-a{color:inherit}
-.wrap{width:min(calc(100% - 36px),var(--max));margin:auto}
-.read{max-width:var(--read)}
-.hero{background:linear-gradient(135deg,#17291c,#294b32);color:#fff;padding:64px 0 70px}
-.crumb{font-size:13px;color:#cbd6cd;margin-bottom:30px}.crumb a{text-decoration:none}.crumb a:hover{text-decoration:underline}
-.label{font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#e7c66d;margin-bottom:10px}
-h1{font-size:clamp(42px,7vw,68px);line-height:1.02;letter-spacing:-.045em;margin:0}
-.hero p{font-size:19px;color:#dce5dd;max-width:720px;margin:20px 0 0}
-.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 17px;border:0;border-radius:8px;font:inherit;font-weight:850;text-decoration:none;cursor:pointer}
-.btn-gold{background:var(--gold);color:#231c0c}.btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.3)}
-main article{padding:68px 0 80px}
-section.block{padding:56px 0;border-bottom:1px solid var(--line)}
-section.block:first-child{padding-top:0}
-section.block:last-of-type{border-bottom:0}
-h2{font-size:clamp(29px,4vw,40px);line-height:1.15;letter-spacing:-.03em;margin:0 0 16px}
-h3{font-size:20px;line-height:1.25;margin:0 0 6px}
-.lead{font-size:18px;color:var(--muted);margin:0 0 24px}
-.prose p{margin:0 0 16px}.prose p:last-child{margin-bottom:0}
-.snapshot{margin-top:28px;background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-.snap-row{display:grid;grid-template-columns:180px 1fr;padding:13px 18px;border-bottom:1px solid var(--line)}
-.snap-row:last-child{border-bottom:0}.snap-row b{font-size:13px;color:var(--muted)}
-.callout{margin:28px 0 0;padding:20px 22px;background:#fff8df;border-left:4px solid var(--gold);border-radius:0 9px 9px 0}
-.callout small{display:block;font-weight:900;text-transform:uppercase;letter-spacing:.07em;color:#745914;margin-bottom:5px}
-.versions{margin-top:28px;border-top:1px solid var(--line)}
-.version{display:grid;grid-template-columns:170px 1fr;gap:26px;padding:22px 0;border-bottom:1px solid var(--line)}
-.code{font-weight:900;color:var(--green)}.year{display:block;font-size:13px;color:var(--muted);margin-top:2px}
-.version p{margin:0;color:var(--muted)}
-.split{display:grid;grid-template-columns:1fr 1fr;gap:42px;margin-top:30px}
-.split-item{padding-top:16px;border-top:3px solid var(--green)}
-.split-item p{color:var(--muted);margin:8px 0 0}
-.big-answer{margin:26px 0 0;padding:24px;background:var(--green);color:#fff;border-radius:12px}
-.big-answer .answer-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#cddace;font-weight:900}
-.big-answer strong{display:block;font-size:25px;line-height:1.25;margin-top:4px}
-.big-answer p{color:#dce6dd;margin:8px 0 0}
-.steps{margin-top:28px}
-.step{display:grid;grid-template-columns:42px 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--line)}
-.step:last-child{border-bottom:0}.num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-weight:900}
-.step p{margin:4px 0 0;color:var(--muted)}
-.facts-line{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
-.pill{padding:7px 11px;border:1px solid var(--line);background:#fff;border-radius:999px;font-size:13px}
-details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px solid var(--line)}
-summary{padding:17px 2px;cursor:pointer;font-weight:850}details p{margin:0;padding:0 2px 18px;color:var(--muted)}
-.cta{margin-top:58px;padding:36px;background:var(--soft);border-radius:15px}
-.cta h2{max-width:700px}.cta p{max-width:700px;color:var(--muted)}
-.cta-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}.btn-dark{background:var(--green);color:#fff}
-.meta{display:flex;gap:9px;flex-wrap:wrap;margin-top:28px;color:var(--muted);font-size:13px}
-.source-btn{border:0;background:none;padding:0;font:inherit;color:var(--green);font-weight:850;text-decoration:underline;cursor:pointer}
-.modal{position:fixed;inset:0;z-index:9999;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(9,16,11,.68)}
-.modal.open{display:flex}.modal-card{width:min(100%,700px);max-height:82vh;overflow:auto;background:#fff;border-radius:14px}
-.modal-head{position:sticky;top:0;background:#fff;display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line)}
-.modal-head h2{font-size:23px;margin:0}.close{width:38px;height:38px;border:0;border-radius:50%;font-size:22px;cursor:pointer}
-.modal-body{padding:20px;color:var(--muted);font-size:14px}.source{padding:14px 0;border-bottom:1px solid var(--line)}.source strong{display:block;color:var(--ink);margin-bottom:4px}.source a{color:var(--green);font-weight:800}
-body.modal-open{overflow:hidden}
-@media(max-width:700px){
- .hero{padding:46px 0 52px}main article{padding:48px 0 60px}section.block{padding:42px 0}
- .snap-row{grid-template-columns:1fr;gap:3px}.version{grid-template-columns:1fr;gap:7px}.split{grid-template-columns:1fr;gap:24px}
- .hero-actions,.cta-actions{flex-direction:column}.btn{width:100%}.cta{padding:24px}
-}
+:root{--dark:#17291c;--green:#294a31;--green2:#3d6646;--soft:#edf4ee;--paper:#fff;--bg:#f6f7f3;--ink:#172019;--muted:#626d64;--line:#dde4dc;--gold:#d8aa37;--goldsoft:#fff7dc;--max:1180px;--article:760px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.72}a{color:inherit}.wrap{width:min(calc(100% - 36px),var(--max));margin:auto}
+.hero{background:linear-gradient(135deg,#142418,#2d5035);color:#fff;padding:58px 0 62px}.crumb{font-size:13px;color:#cad6cc;margin-bottom:28px}.crumb a{text-decoration:none}.eyebrow{font-size:12px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#edcb6e;margin-bottom:9px}h1{font-size:clamp(42px,7vw,66px);line-height:1.03;letter-spacing:-.045em;margin:0}.hero-lead{max-width:780px;color:#dce6dd;font-size:19px;margin:20px 0 0}.hero-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:25px}.hero-meta span{padding:6px 10px;border:1px solid rgba(255,255,255,.18);border-radius:999px;font-size:13px;color:#e4ece5}
+.layout{display:grid;grid-template-columns:240px minmax(0,var(--article));gap:58px;align-items:start;padding:54px 0 80px}.toc{position:sticky;top:90px}.toc-title{font-size:12px;text-transform:uppercase;letter-spacing:.09em;font-weight:900;color:var(--muted);margin-bottom:12px}.toc a{display:block;padding:7px 10px;border-left:2px solid var(--line);color:#526057;text-decoration:none;font-size:14px}.toc a:hover{border-color:var(--green);color:var(--green);background:#eef3ee}.toc .source-open{margin-top:15px;border:0;background:none;padding:0;color:var(--green);font:inherit;font-size:13px;font-weight:850;text-decoration:underline;cursor:pointer}
+.article section{padding:0 0 58px;margin:0 0 58px;border-bottom:1px solid var(--line)}.article section:last-of-type{border-bottom:0}.chapter{font-size:12px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--green2);margin-bottom:7px}h2{font-size:clamp(28px,4vw,38px);line-height:1.15;letter-spacing:-.03em;margin:0 0 16px}h3{font-size:20px;line-height:1.3;margin:28px 0 8px}.lead{font-size:18px;color:var(--muted);margin:0 0 24px}.article p{margin:0 0 16px}
+.quickfacts{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-top:25px}.qrow{display:grid;grid-template-columns:190px 1fr;padding:12px 16px;border-bottom:1px solid var(--line)}.qrow:last-child{border-bottom:0}.qrow b{color:var(--muted);font-size:13px}
+.learn{margin:24px 0;padding:19px 21px;background:var(--goldsoft);border-left:4px solid var(--gold);border-radius:0 10px 10px 0}.learn b{display:block;color:#6c5210;font-size:12px;text-transform:uppercase;letter-spacing:.07em;margin-bottom:5px}
+.answer{margin:22px 0;padding:21px 22px;background:var(--dark);color:#fff;border-radius:11px}.answer small{display:block;color:#c8d8cb;text-transform:uppercase;letter-spacing:.07em;font-weight:850}.answer strong{display:block;font-size:22px;margin-top:3px}.answer p{color:#dce6dd;margin:7px 0 0}
+.version{padding:18px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:155px 1fr;gap:20px}.version:last-child{border-bottom:1px solid var(--line)}.version-code{font-weight:900;color:var(--green)}.version small{display:block;color:var(--muted)}.version p{margin:0;color:var(--muted)}
+.steps{counter-reset:s;margin-top:20px}.step{position:relative;padding:16px 0 16px 48px;border-top:1px solid var(--line)}.step:last-child{border-bottom:1px solid var(--line)}.step:before{counter-increment:s;content:counter(s);position:absolute;left:0;top:16px;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#fff;font-weight:900;font-size:13px}.step h3{margin:0 0 3px;font-size:17px}.step p{margin:0;color:var(--muted)}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:22px 0}.spec{padding:14px 15px;background:#fff;border:1px solid var(--line);border-radius:9px}.spec b{display:block;font-size:12px;text-transform:uppercase;color:var(--muted);letter-spacing:.04em}.spec span{font-weight:750}
+.service{width:100%;border-collapse:collapse;margin:22px 0;background:#fff;border:1px solid var(--line)}.service th,.service td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);vertical-align:top}.service th{background:#eef3ee;font-size:12px;text-transform:uppercase;letter-spacing:.04em}.service tr:last-child td{border-bottom:0}
+.use-list{display:grid;gap:9px;margin-top:20px}.use{padding:14px 16px;background:#fff;border-left:3px solid var(--green);border-radius:0 8px 8px 0}.use strong{display:inline-block;min-width:160px}
+details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px solid var(--line)}summary{padding:16px 2px;cursor:pointer;font-weight:850}details p{padding:0 2px 17px;color:var(--muted)}
+.cta{padding:30px;background:var(--soft);border-radius:14px}.cta h2{margin-bottom:12px}.cta p{color:var(--muted)}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.btn{display:inline-flex;justify-content:center;align-items:center;padding:11px 16px;border-radius:8px;background:var(--dark);color:#fff;text-decoration:none;font-weight:850}.btn.alt{background:#fff;color:var(--dark);border:1px solid var(--line)}
+.meta{margin-top:25px;color:var(--muted);font-size:13px}.meta button{border:0;background:none;color:var(--green);font:inherit;font-weight:850;text-decoration:underline;cursor:pointer;padding:0}
+.modal{display:none;position:fixed;inset:0;z-index:9999;background:rgba(8,15,10,.7);padding:20px;align-items:center;justify-content:center}.modal.open{display:flex}.modalbox{width:min(100%,720px);max-height:84vh;overflow:auto;background:#fff;border-radius:14px}.modalhead{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;padding:17px 20px}.modalhead h2{font-size:22px;margin:0}.close{width:38px;height:38px;border:0;border-radius:50%;font-size:22px;cursor:pointer}.modalbody{padding:20px;color:var(--muted);font-size:14px}.source{padding:14px 0;border-bottom:1px solid var(--line)}.source strong{display:block;color:var(--ink);margin-bottom:4px}.source a{color:var(--green);font-weight:800}body.modal-open{overflow:hidden}
+.mobile-toc{display:none}
+@media(max-width:900px){.layout{grid-template-columns:1fr;gap:25px}.toc{display:none}.mobile-toc{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:36px}.mobile-toc summary{padding:13px 15px}.mobile-toc div{padding:0 15px 14px}.mobile-toc a{display:block;padding:6px 0;color:var(--green);text-decoration:none}}
+@media(max-width:620px){.hero{padding:44px 0 48px}.layout{padding-top:34px}.article section{padding-bottom:43px;margin-bottom:43px}.qrow,.version{grid-template-columns:1fr;gap:4px}.specs{grid-template-columns:1fr}.service{font-size:13px}.service th,.service td{padding:9px}.use strong{display:block;min-width:0;margin-bottom:3px}.buttons{flex-direction:column}.btn{width:100%}}
 </style>
 </head>
 <body>
 <div id="site-header"></div>
 
 <header class="hero">
- <div class="wrap">
-  <div class="crumb"><a href="../index.html">Hem</a> · <a href="../maskinarkivet.html">Maskinarkivet</a> · STIGA Villa 12 HST</div>
-  <div class="label">Maskinarkivet · STIGA</div>
-  <h1>STIGA Villa 12 HST</h1>
-  <p>Har du en Villa 12 HST och försöker lista ut vilken version, motor eller vilket klippaggregat du har? Här samlar vi det viktigaste på ett ställe.</p>
-  <div class="hero-actions">
-   <a class="btn btn-gold" href="#identifiera">Vilken version har jag?</a>
-   <button class="btn btn-ghost" type="button" data-open>Källor</button>
-  </div>
- </div>
+<div class="wrap">
+<div class="crumb"><a href="../index.html">Hem</a> · <a href="../maskinarkivet.html">Maskinarkivet</a> · STIGA Villa 12 HST</div>
+<div class="eyebrow">Maskinarkivet · Modellguide</div>
+<h1>STIGA Villa 12 HST</h1>
+<p class="hero-lead">En djupare guide för dig som äger, skruvar med, funderar på att köpa eller försöker identifiera en Villa 12 HST. Här samlar vi det som går att belägga om maskinen – och förklarar varför uppgifterna spelar roll.</p>
+<div class="hero-meta"><span>Frontklippare</span><span>2-hjulsdrift</span><span>Hydrostat</span><span>85 C / 85 Combi</span></div>
+</div>
 </header>
 
-<main>
-<article class="wrap">
+<main class="wrap layout">
 
-<section class="block">
- <div class="read">
-  <h2>En Villa 12 HST är inte alltid samma Villa 12 HST</h2>
-  <div class="prose">
-   <p>STIGA Villa 12 HST tillhör Villa-serien och är en frontklippare med drivning på framhjulen, bakhjulsstyrning via wire och frontmonterade redskap som drivs med rem.</p>
-   <p>Det som lätt skapar förvirring är att modellnamnet förekommer på flera produktversioner. Därför kan två maskiner med samma namn ha olika motorutförande.</p>
-  </div>
- </div>
+<aside class="toc">
+<div class="toc-title">På den här sidan</div>
+<a href="#oversikt">Översikt</a>
+<a href="#identifiering">Identifiera maskinen</a>
+<a href="#versioner">Produktversioner</a>
+<a href="#drivning">Drivning & styrning</a>
+<a href="#reglage">Reglage</a>
+<a href="#sakerhet">Säkerhetssystem</a>
+<a href="#aggregat">85 C / 85 Combi</a>
+<a href="#anvandning">Vad kan den användas till?</a>
+<a href="#underhall">Underhåll</a>
+<a href="#reservdelar">Reservdelar</a>
+<a href="#koprad">Köpråd</a>
+<a href="#faq">Vanliga frågor</a>
+<button class="source-open" data-open>Källor & manualer</button>
+</aside>
 
- <div class="snapshot">
-  <div class="snap-row"><b>Modell</b><span>STIGA Villa 12 HST</span></div>
-  <div class="snap-row"><b>Drivning</b><span>Framhjulsdrift</span></div>
-  <div class="snap-row"><b>Styrning</b><span>Bakhjulsstyrning via wire</span></div>
-  <div class="snap-row"><b>Transmission</b><span>Hydrostatisk / steglös</span></div>
-  <div class="snap-row"><b>Dokumenterat aggregat</b><span>STIGA 85 Combi / 85 C</span></div>
- </div>
+<article class="article">
 
- <div class="callout read">
-  <small>Värt att veta</small>
-  Produktnumret är ofta viktigare än själva modellnamnet när du letar efter rätt reservdel.
- </div>
-</section>
-
-<section class="block" id="identifiera">
- <div class="read">
-  <h2>Vilken version har jag?</h2>
-  <p class="lead">Titta efter maskinens produkt- eller artikelnummer. Det är den enklaste vägen till rätt version.</p>
- </div>
-
- <div class="versions">
-  <div class="version"><div><span class="code">13-2727-13</span><span class="year">2009</span></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ-transmission och Combi 85.</p></div>
-  <div class="version"><div><span class="code">13-2727-14</span><span class="year">2010</span></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ-transmission och Combi 85.</p></div>
-  <div class="version"><div><span class="code">13-2729-14</span><span class="year">2010</span></div><p>Reservdelsunderlag anger Briggs &amp; Stratton-motor, uppgiven som 21R502, samt Kanzaki K46 CJ och Combi 85.</p></div>
-  <div class="version"><div><span class="code">13-2729-15</span><span class="year">2011–2012</span></div><p>Reservdelsunderlag anger Briggs &amp; Stratton-motor, uppgiven som 21R602, samt Kanzaki K46 CJ och Combi 85.</p></div>
- </div>
-
- <div class="callout read">
-  <small>Kom ihåg</small>
-  Årsmodellen hjälper, men kontrollera produktnumret och motorns egen märkning innan du beställer delar.
- </div>
-</section>
-
-<section class="block" id="motor">
- <div class="read">
-  <h2>Vilken motor sitter i Villa 12 HST?</h2>
-  <p class="lead">Det finns inte ett enda svar. Kända produktversioner visar mer än ett motorutförande.</p>
- </div>
-
- <div class="split">
-  <div class="split-item"><h3>STIGA / GGP WM 12.5</h3><p>Förekommer i underlaget för produktnummer 13-2727-13 och 13-2727-14.</p></div>
-  <div class="split-item"><h3>Briggs &amp; Stratton</h3><p>Förekommer i reservdelsunderlag för senare produktversioner. Motorns egen märkning bör alltid kontrolleras.</p></div>
- </div>
-
- <div class="callout read">
-  <small>Varför säger olika sidor olika?</small>
-  Ett motorsvar kan vara korrekt för en Villa 12 HST och samtidigt fel för en annan produktversion. Det är en vanlig anledning till motstridiga uppgifter på nätet.
- </div>
-</section>
-
-<section class="block" id="aggregat">
- <div class="read">
-  <h2>Vilket klippaggregat hör till?</h2>
-  <p class="lead">STIGA 85 Combi / 85 C är dokumenterat för Villa-systemet och förekommer i underlaget för Villa 12 HST.</p>
-
-  <div class="big-answer">
-   <span class="answer-label">Dokumenterat aggregat</span>
-   <strong>STIGA 85 Combi / 85 C</strong>
-   <p>STIGAs manual anger en klipphöjd på 25–85 mm.</p>
-  </div>
-
-  <div class="facts-line">
-   <span class="pill">Klipphöjd 25–85 mm</span>
-   <span class="pill">Fram 0,4 bar / 6 psi</span>
-   <span class="pill">Bak 1,2 bar / 17 psi</span>
-   <span class="pill">Bakkant ca 5 mm högre</span>
-  </div>
- </div>
-</section>
-
-<section class="block" id="reservdelar">
- <div class="read">
-  <h2>Ska du leta reservdelar?</h2>
-  <p class="lead">Börja inte med att bara skriva “Villa 12 HST”. Tre kontroller minskar risken att du hamnar på fel del.</p>
-
-  <div class="steps">
-   <div class="step"><span class="num">1</span><div><h3>Hitta produktnumret</h3><p>Exempelvis 13-2727-14 eller 13-2729-15.</p></div></div>
-   <div class="step"><span class="num">2</span><div><h3>Använd rätt reservdelsunderlag</h3><p>Produktversionen hjälper dig att välja rätt dokumentation.</p></div></div>
-   <div class="step"><span class="num">3</span><div><h3>Läs av motorn separat</h3><p>Motordelar bör matchas mot motorns egen modell- och typkod.</p></div></div>
-  </div>
-
-  <div class="callout">
-   <small>Ett enkelt tips</small>
-   Ta ett tydligt foto på identifikationsskylten innan du börjar leta delar. Den informationen kan vara mer användbar än flera bilder på hela maskinen.
-  </div>
- </div>
-</section>
-
-<section class="block" id="underhall">
- <div class="read">
-  <h2>Några saker om 85 Combi</h2>
-  <p class="lead">Det här är inte en fullständig serviceguide, utan några punkter ur STIGAs dokumentation som är bra att känna till.</p>
-
-  <div class="prose">
-   <p><strong>Rengöring:</strong> STIGA anger att aggregatets undersida ska rengöras efter användning.</p>
-   <p><strong>Efter en kollision:</strong> knivar och synkronisering bör kontrolleras efter kontakt med sten eller annat fast föremål.</p>
-   <p><strong>Knivbyte:</strong> båda knivarna på samma knivbalk ska bytas samtidigt för att undvika obalans.</p>
-   <p><strong>Åtdragning:</strong> manualen anger 45 Nm för knivskruvar och 9,8 Nm för brytbultar.</p>
-  </div>
-
-  <div class="callout">
-   <small>Säkerhet</small>
-   Följ alltid originalmanualens säkerhetsanvisningar vid service. Maskinarkivet är ett faktastöd och ersätter inte tillverkarens instruktioner.
-  </div>
- </div>
-</section>
-
-<section class="block" id="faq">
- <div class="read">
-  <h2>Vanliga frågor</h2>
-
-  <details><summary>Har alla STIGA Villa 12 HST samma motor?</summary><p>Nej. Underlaget visar olika motorutföranden mellan olika produktversioner.</p></details>
-  <details><summary>Hur vet jag vilken version jag har?</summary><p>Börja med maskinens produkt-/artikelnummer och kontrollera därefter motorns egen märkning.</p></details>
-  <details><summary>Vilket klippaggregat hör till modellen?</summary><p>STIGA 85 Combi / 85 C är dokumenterat för Villa-systemet och förekommer i underlaget för Villa 12 HST.</p></details>
-  <details><summary>Vilken klipphöjd har 85 Combi?</summary><p>STIGAs dokumentation anger 25–85 mm.</p></details>
-  <details><summary>Kan jag beställa delar bara på modellnamnet?</summary><p>Det är säkrare att använda produktnumret och motorns identitet eftersom flera produktversioner förekommer.</p></details>
- </div>
-</section>
-
-<section class="cta">
- <div class="label" style="color:#705715">Återbruk</div>
- <h2>Har din Villa gjort sitt hos dig?</h2>
- <p>En gammal åkgräsklippare behöver inte vara värdelös bara för att den inte längre startar. Hela maskinen eller användbara delar kan fortfarande vara intressanta för återbruk.</p>
- <div class="cta-actions">
-  <a class="btn btn-dark" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skicka bilder på maskinen</a>
-  <a class="btn btn-dark" href="../kop-maskiner.html">Läs om vad vi köper</a>
- </div>
-</section>
-
-<div class="meta">
- <span>Senast faktagranskad: 8 augusti 2026</span><span>·</span>
- <button class="source-btn" type="button" data-open>Visa källor</button>
+<details class="mobile-toc">
+<summary>Innehåll – hoppa till rätt avsnitt</summary>
+<div>
+<a href="#oversikt">Översikt</a><a href="#identifiering">Identifiering</a><a href="#versioner">Versioner</a><a href="#drivning">Drivning & styrning</a><a href="#reglage">Reglage</a><a href="#sakerhet">Säkerhet</a><a href="#aggregat">Klippaggregat</a><a href="#anvandning">Användningsområden</a><a href="#underhall">Underhåll</a><a href="#reservdelar">Reservdelar</a><a href="#koprad">Köpråd</a><a href="#faq">FAQ</a>
 </div>
+</details>
+
+<section id="oversikt">
+<div class="chapter">01 · Översikt</div>
+<h2>Vad är STIGA Villa 12 HST?</h2>
+<p class="lead">Villa 12 HST är byggd enligt STIGAs frontklipparkoncept: klippaggregatet sitter framför maskinen medan styrningen sker med bakhjulen.</p>
+<p>STIGAs manual beskriver maskinen som tvåhjulsdriven med drivning på framhjulen. Frontmonterade redskap drivs via kilremmar. Bakhjulsstyrningen sker via wire och beskrivs av STIGA som en lösning som gör det lättare att svänga runt träd och andra hinder.</p>
+<p>Namnet <strong>HST</strong> används tillsammans med den hydrostatiska drivningen. För föraren innebär hydrostatlösningen att hastighet och färdriktning hanteras steglöst snarare än med en traditionell växellåda med fasta växlar.</p>
+
+<div class="quickfacts">
+<div class="qrow"><b>Maskintyp</b><span>Frontklippare / åkgräsklippare</span></div>
+<div class="qrow"><b>Drivning</b><span>2-hjulsdrift, drivning på framhjulen</span></div>
+<div class="qrow"><b>Styrning</b><span>Bakhjulsstyrning via wire</span></div>
+<div class="qrow"><b>Redskapsdrift</b><span>Frontmonterade redskap drivs via kilrem</span></div>
+<div class="qrow"><b>Dokumenterat klippaggregat</b><span>85 C samt 85 Combi-familjen för Villa/Ready</span></div>
+<div class="qrow"><b>Max lutning enligt maskinmanual</b><span>10° med monterade originaltillbehör, oavsett riktning</span></div>
+</div>
+
+<div class="learn"><b>Varför frontaggregat?</b>När klippaggregatet sitter framför maskinen kommer det åt gräset innan hjulen kör över det. Konstruktionen ger också bättre sikt över själva klippområdet än ett aggregat som ligger direkt under föraren.</div>
+</section>
+
+<section id="identifiering">
+<div class="chapter">02 · Identifiering</div>
+<h2>Så tar du reda på exakt vilken Villa 12 HST du har</h2>
+<p class="lead">Det här är kanske den viktigaste delen på hela sidan. “Villa 12 HST” är inte tillräckligt för att säkert identifiera alla reservdelar.</p>
+<p>Maskinen och motorn har egna identitetsuppgifter. När du letar efter delar bör du därför först identifiera själva maskinen och därefter motorn.</p>
+
+<div class="steps">
+<div class="step"><h3>Hitta maskinens produkt-/artikelnummer</h3><p>Det skiljer olika produktversioner från varandra och leder till rätt reservdelsunderlag.</p></div>
+<div class="step"><h3>Notera serienumret</h3><p>Serienumret identifierar den enskilda maskinen och kan vara viktigt när förändringar skett inom en modellserie.</p></div>
+<div class="step"><h3>Läs av motorns märkning</h3><p>Motorn har egna modell-, typ- och serienummer. Använd dem för motorrelaterade reservdelar.</p></div>
+<div class="step"><h3>Fotografera skyltarna</h3><p>Ett tydligt foto på märkningen är ofta det enklaste sättet att slippa skriva av en kod fel.</p></div>
+</div>
+
+<div class="learn"><b>Vanligt misstag</b>Att söka efter exempelvis “luftfilter Villa 12 HST” utan att först kontrollera vilken motor maskinen faktiskt har. Samma modellnamn förekommer med olika motorutföranden.</div>
+</section>
+
+<section id="versioner">
+<div class="chapter">03 · Produktversioner</div>
+<h2>Alla Villa 12 HST är inte identiska</h2>
+<p class="lead">Reservdelsunderlaget visar flera produktnummer och mer än ett motorutförande.</p>
+
+<div class="version"><div><span class="version-code">13-2727-13</span><small>2009</small></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ och Combi 85.</p></div>
+<div class="version"><div><span class="version-code">13-2727-14</span><small>2010</small></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ och Combi 85.</p></div>
+<div class="version"><div><span class="version-code">13-2729-14</span><small>2010</small></div><p>Kompletterande reservdelsunderlag anger Briggs &amp; Stratton, uppgiven som 21R502, tillsammans med Kanzaki K46 CJ och Combi 85.</p></div>
+<div class="version"><div><span class="version-code">13-2729-15</span><small>2011–2012</small></div><p>Kompletterande reservdelsunderlag anger Briggs &amp; Stratton, uppgiven som 21R602, tillsammans med Kanzaki K46 CJ och Combi 85.</p></div>
+
+<div class="answer"><small>Det viktiga</small><strong>Modellnamn → produktnummer → motoridentitet → rätt reservdel</strong><p>Det är den kedjan som gör informationen användbar när du faktiskt ska skruva eller beställa delar.</p></div>
+</section>
+
+<section id="drivning">
+<div class="chapter">04 · Konstruktion</div>
+<h2>Drivning, hydrostat och bakhjulsstyrning</h2>
+<h3>Framhjulen driver</h3>
+<p>STIGA anger att maskinen är tvåhjulsdriven och driver på framhjulen. Det skiljer Villa från många vanliga åkgräsklippare där drivhjulen sitter bak.</p>
+
+<h3>Bakhjulen styr</h3>
+<p>Styrningen sker via wire till bakhjulen. STIGA lyfter särskilt fram att bakhjulsstyrningen gör maskinen lätt att svänga runt träd och andra hinder.</p>
+
+<h3>Hydrostatisk transmission</h3>
+<p>De produktversioner som finns i vårt reservdelsunderlag är kopplade till Kanzaki K46 CJ. Hydrostatdriften ger steglös körning. Maskinmanualen varnar också för att maskinen inte ska bogseras längre sträckor eller i hög fart eftersom transmissionen kan skadas.</p>
+
+<div class="learn"><b>Intressant konstruktion</b>På Villa kombineras alltså framhjulsdrift, bakhjulsstyrning och ett frontmonterat redskap. Det är en ganska annorlunda layout jämfört med en traditionell trädgårdstraktor med motor fram och klippbord under mitten.</div>
+</section>
+
+<section id="reglage">
+<div class="chapter">05 · Reglage</div>
+<h2>Vad gör reglagen?</h2>
+<p class="lead">Maskinmanualen beskriver flera funktioner som tillsammans styr körning, redskap och säkerhet.</p>
+
+<h3>Redskapslyft</h3>
+<p>Redskapslyften används för att växla mellan arbetsläge och transportläge. Pedalen trampas ned helt och släpps därefter sakta upp.</p>
+
+<h3>Koppling och parkeringsbroms</h3>
+<p>Maskinen har en kombinerad kopplings-/parkeringsbromsfunktion. Den är dessutom en del av säkerhetssystemet: motorn ska endast kunna startas när rätt säkerhetsvillkor är uppfyllda.</p>
+
+<h3>Säte</h3>
+<p>Sätet kan fällas och justeras i längdriktningen. Det har också en säkerhetsbrytare kopplad till maskinens elektriska säkerhetssystem.</p>
+
+<h3>Motorhuv</h3>
+<p>Motorhuven öppnas för tankning samt tillsyn och underhåll av motor och batteri. Manualen anger att motorn inte får vara igång när huven öppnas.</p>
+</section>
+
+<section id="sakerhet">
+<div class="chapter">06 · Säkerhetssystem</div>
+<h2>Varför kan en Villa vägra starta?</h2>
+<p class="lead">Ett uteblivet startförsök behöver inte automatiskt betyda att startmotor eller motor är trasig. Maskinen har ett elektriskt säkerhetssystem.</p>
+<p>STIGA beskriver systemet som ett skydd som avbryter vissa aktiviteter vid felmanöver. Ett uttryckligt exempel i manualen är att motorn endast kan startas när kopplings-/parkeringsbromspedalen är nedtryckt.</p>
+<p>Sätets säkerhetsbrytare ingår också i systemet. Därför är säkerhetsfunktionerna relevanta att förstå vid felsökning – men de ska inte kopplas förbi. Manualen anger att säkerhetssystemets funktion ska kontrolleras före varje användning.</p>
+
+<div class="learn"><b>Felsökningstanke</b>Om startmotorn inte reagerar alls kan det därför vara relevant att först kontrollera att maskinen står i korrekt startläge och att säkerhetssystemets normala villkor är uppfyllda, innan man drar slutsatsen att en komponent är trasig.</div>
+</section>
+
+<section id="aggregat">
+<div class="chapter">07 · Klippaggregat</div>
+<h2>85 C och 85 Combi</h2>
+<p class="lead">STIGAs dokumentation kopplar Villa till 85 C, och den separata Combi-manualen anger 85 Combi för Villa/Ready.</p>
+
+<div class="specs">
+<div class="spec"><b>Klipphöjd</b><span>25–85 mm</span></div>
+<div class="spec"><b>System</b><span>Manuell eller elektrisk höjdinställning beroende på utförande</span></div>
+<div class="spec"><b>Framdäck</b><span>0,4 bar / 6 psi</span></div>
+<div class="spec"><b>Bakdäck</b><span>1,2 bar / 17 psi</span></div>
+</div>
+
+<h3>Aggregatets lutning spelar roll</h3>
+<p>STIGA beskriver en grundinställning där aggregatet ska luta framåt. I manualen finns möjlighet att höja aggregatets bakdel genom att flytta sprintarna från grundinställningen. Rätt inställning påverkar hur aggregatet arbetar mot gräset.</p>
+
+<h3>Remdrivningen</h3>
+<p>På Villa/Ready drivs aggregatet via maskinens remsystem. Combi-manualen beskriver hur remmen läggs runt maskinens remskiva och spänns med spännrullen.</p>
+
+<h3>Knivarna är synkroniserade</h3>
+<p>På aggregatet arbetar knivarna synkroniserat och manualens illustration visar dem 90° förskjutna. Efter en kollision ska knivsystemet kontrolleras. STIGA anger 45 Nm för knivskruvarna och 9,8 Nm för brytbultarna.</p>
+
+<div class="learn"><b>Varför 90°?</b>När knivarnas arbetsområden ligger nära varandra måste deras rörelser vara synkroniserade. Därför är knivarnas inbördes läge en viktig del av aggregatets konstruktion.</div>
+</section>
+
+<section id="anvandning">
+<div class="chapter">08 · Mer än gräsklippning</div>
+<h2>Vad är Villa tänkt att kunna göra?</h2>
+<p class="lead">Maskinmanualen visar att Villa-plattformen inte bara var tänkt som gräsklippare.</p>
+
+<div class="use-list">
+<div class="use"><strong>Gräsklippning</strong>med klippaggregat 85 C.</div>
+<div class="use"><strong>Sopning</strong>med STIGA sopaggregat; manualen nämner även dammskydd i samband med sopning.</div>
+<div class="use"><strong>Snöröjning</strong>med snöblad. Snökedjor och ramvikter rekommenderas i manualen.</div>
+<div class="use"><strong>Gräs- och lövuppsamling</strong>med bogserad uppsamlare 30 eller 42 tum.</div>
+<div class="use"><strong>Transport</strong>av gräs och löv med transportkärra Combi.</div>
+</div>
+
+<p style="margin-top:20px">Manualen anger också begränsningar för draganordningen: maximal vertikal kraft 100 N och maximal påskjutskraft från bogserade tillbehör 500 N. Maskinen är inte avsedd att köras på allmän väg.</p>
+
+<div class="learn"><b>Det säger något om Villa-idén</b>STIGA byggde alltså systemet kring en maskin som kunde bära olika front- och bogserade redskap. Klippaggregatet var bara ett av användningsområdena.</div>
+</section>
+
+<section id="underhall">
+<div class="chapter">09 · Underhåll</div>
+<h2>Vad behöver hållas efter?</h2>
+<p class="lead">Här är verifierade servicepunkter från Villa-manualen. Intervallen gäller manualens dokumenterade utförande; kontrollera alltid motoridentiteten på din egen maskin.</p>
+
+<table class="service">
+<thead><tr><th>Kontroll / service</th><th>Intervall / uppgift</th></tr></thead>
+<tbody>
+<tr><td>Motorolja – nivå</td><td>Kontroll före varje användning. Maskinen ska stå plant.</td></tr>
+<tr><td>Förfilter, luft</td><td>Rengör/byts var 25:e drifttimme.</td></tr>
+<tr><td>Pappersluftfilter</td><td>Rengör/byts var 100:e drifttimme; oftare i dammiga förhållanden.</td></tr>
+<tr><td>Kylluftintag</td><td>Rengör var 50:e drifttimme.</td></tr>
+<tr><td>Tändstift</td><td>Byts var 200:e drifttimme enligt manualen.</td></tr>
+<tr><td>Smörjpunkter</td><td>Var 25:e drifttimme och efter varje tvätt.</td></tr>
+</tbody>
+</table>
+
+<h3>Luftfiltret</h3>
+<p>Manualen beskriver ett skumplastförfilter och ett pappersfilter. Pappersfiltret ska inte rengöras med tryckluft eller petroleumbaserade lösningsmedel och ska inte oljas in.</p>
+
+<h3>Tändstift</h3>
+<p>Manualen anger Champion RC12YC eller likvärdigt och ett elektrodavstånd på 0,75 mm. Eftersom Villa 12 HST förekommer med olika motorutföranden bör uppgiften kontrolleras mot den motor som faktiskt sitter på maskinen.</p>
+
+<h3>Smörjning</h3>
+<p>Manualens smörjschema omfattar bland annat bakaxel, styrvajrar, spännarmar och reglagewirar. Bakaxeln smörjs via tre smörjnipplar med universalfett, medan styrvajrarna rengörs och smörjs med kedjespray av universaltyp.</p>
+
+<h3>Batteriet</h3>
+<p>Vid bortkoppling anger STIGA att den svarta kabeln från minuspolen ska kopplas bort före den röda pluskabeln. Vid montering sker ordningen omvänt. Oxiderade batteripoler ska rengöras och smörjas med polfett.</p>
+</section>
+
+<section id="reservdelar">
+<div class="chapter">10 · Reservdelar</div>
+<h2>Så minskar du risken att köpa fel del</h2>
+<p class="lead">På en äldre maskin är “passar STIGA Villa” sällan tillräckligt som kontroll.</p>
+
+<div class="steps">
+<div class="step"><h3>Maskindel?</h3><p>Använd Villa-maskinens produktnummer och rätt reservdelslista.</p></div>
+<div class="step"><h3>Motordel?</h3><p>Utgå från motorns egen modell- och typmärkning, inte bara namnet Villa 12 HST.</p></div>
+<div class="step"><h3>Aggregatdel?</h3><p>Identifiera själva klippaggregatet och dess version innan du matchar rem, kniv eller annan del.</p></div>
+<div class="step"><h3>Jämför den gamla delen</h3><p>Artikelnummer, dimensioner, infästning och utförande är värdefulla extra kontroller när maskinen är äldre.</p></div>
+</div>
+
+<div class="answer"><small>En bra vana</small><strong>Fotografera tre saker innan du beställer</strong><p>Maskinens skylt, motorns märkning och den gamla delen. Det ger betydligt bättre förutsättningar att hitta rätt.</p></div>
+</section>
+
+<section id="koprad">
+<div class="chapter">11 · Begagnat</div>
+<h2>Vad bör man titta på före köp?</h2>
+<p class="lead">Det här är en praktisk kontrollista, inte ett påstående om att punkterna är typfel på Villa 12 HST.</p>
+
+<p><strong>Identifieringen:</strong> kontrollera produktnummer och motor så att du vet vilken version du faktiskt tittar på.</p>
+<p><strong>Hydrostatdriften:</strong> provkör framåt och bakåt och känn efter att drivningen arbetar jämnt när maskinen blivit varm.</p>
+<p><strong>Styrningen:</strong> kontrollera glapp och att bakhjulsstyrningen rör sig normalt över hela styrutslaget.</p>
+<p><strong>Klippaggregatet:</strong> titta på knivar, lager, remdrift, infästningar och tecken på kraftiga kollisioner eller reparationer.</p>
+<p><strong>Säkerhetssystemet:</strong> maskinens säkerhetsfunktioner ska fungera – inte vara förbikopplade.</p>
+<p><strong>Servicehistorik:</strong> på en äldre maskin är faktisk skötsel ofta minst lika intressant som årsmodellen.</p>
+
+<div class="learn"><b>Varför detta är viktigt</b>En billig maskin med okänd identitet, dåligt aggregat och problem i drivningen kan snabbt bli mindre attraktiv än en dyrare men komplett och välskött maskin.</div>
+</section>
+
+<section id="faq">
+<div class="chapter">12 · Snabbsvar</div>
+<h2>Vanliga frågor</h2>
+<details><summary>Är STIGA Villa 12 HST framhjulsdriven?</summary><p>Ja. STIGAs manual beskriver maskinen som tvåhjulsdriven med drivning på framhjulen.</p></details>
+<details><summary>Styr den med fram- eller bakhjulen?</summary><p>Bakhjulen styr, via wire.</p></details>
+<details><summary>Har alla Villa 12 HST samma motor?</summary><p>Nej. Underlaget visar flera produktversioner och olika motorutföranden.</p></details>
+<details><summary>Vilket klippaggregat används?</summary><p>85 C anges i Villa-manualen och 85 Combi anges för Villa/Ready i STIGAs separata Combi-manual.</p></details>
+<details><summary>Vilken klipphöjd har 85 Combi?</summary><p>25–85 mm enligt STIGAs Combi-manual.</p></details>
+<details><summary>Kan Villa användas på vintern?</summary><p>STIGAs manual listar snöröjning med snöblad och rekommenderar snökedjor och ramvikter.</p></details>
+<details><summary>Kan den dra en kärra?</summary><p>Manualen listar transportkärra Combi och anger belastningsgränser för draganordningen.</p></details>
+<details><summary>Varför startar den inte när jag vrider på nyckeln?</summary><p>Det kan finnas många orsaker. En av sakerna att kontrollera är att säkerhetssystemets normala startvillkor är uppfyllda. Systemet ska inte kopplas förbi.</p></details>
+</section>
+
+<section>
+<div class="cta">
+<div class="chapter">Återbruk</div>
+<h2>Har du en Villa 12 HST som blivit stående?</h2>
+<p>Även en maskin som inte längre startar, saknar klippaggregat eller är tänkt som reservdelsobjekt kan vara intressant för oss efter individuell bedömning. Skicka gärna bilder, ort och kort information om skicket.</p>
+<div class="buttons">
+<a class="btn" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skicka bilder via Facebook</a>
+<a class="btn alt" href="tel:+46727483256">Ring 072-748 32 56</a>
+</div>
+</div>
+<div class="meta">Senast faktagranskad: 9 augusti 2026 · <button data-open>Visa källor & manualer</button></div>
+</section>
 
 </article>
 </main>
 
 <div id="site-footer"></div>
 
-<div class="modal" id="sourcesModal" aria-hidden="true">
- <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="sourcesTitle">
-  <div class="modal-head"><h2 id="sourcesTitle">Källor</h2><button class="close" type="button" aria-label="Stäng" data-close>×</button></div>
-  <div class="modal-body">
-   <p>Faktauppgifterna är sammanställda från tillverkarens dokumentation och kompletterande reservdelsunderlag.</p>
-   <div class="source"><strong>STIGA – Villa / Villa 12 HST, bruksanvisning 8211-0038-90</strong>Underlag för maskinens konstruktion, drivning, styrning, identifikation och underhåll.</div>
-   <div class="source"><strong>STIGA – Villa/Park 85 Combi, 95 Combi, 105 Combi, bruksanvisning 8211-7000-10</strong>Underlag för klippaggregat, klipphöjd, däcktryck, inställning, rengöring och knivsystem.</div>
-   <div class="source"><strong>Villa 12 HST 13-2727-13</strong><a href="https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/" target="_blank" rel="noopener noreferrer">Öppna reservdelsunderlag</a></div>
-   <div class="source"><strong>Villa 12 HST 13-2727-14</strong><a href="https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna reservdelsunderlag</a></div>
-   <div class="source"><strong>Villa 12 HST 13-2729-14</strong><a href="https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna reservdelsunderlag</a></div>
-   <div class="source"><strong>Villa 12 HST 13-2729-15</strong><a href="https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/" target="_blank" rel="noopener noreferrer">Öppna reservdelsunderlag</a></div>
-   <p style="margin-top:18px"><strong>Observera:</strong> kontrollera alltid produktnummer, identifikationsskylt och motorns egen märkning innan service eller beställning av delar.</p>
-  </div>
- </div>
+<div class="modal" id="sources" aria-hidden="true">
+<div class="modalbox" role="dialog" aria-modal="true" aria-labelledby="sourceTitle">
+<div class="modalhead"><h2 id="sourceTitle">Källor & faktaunderlag</h2><button class="close" data-close aria-label="Stäng">×</button></div>
+<div class="modalbody">
+<p>Maskinarkivet ska skilja på verifierad information och sådant som bara brukar sägas om en modell. Följande material ligger till grund för denna sida.</p>
+<div class="source"><strong>STIGA Villa / Villa 12 HST – bruksanvisning 8211-0038-90</strong>Huvudkälla för maskinens konstruktion, drivning, styrning, säkerhetssystem, reglage, användningsområden, däcktryck och underhåll.</div>
+<div class="source"><strong>STIGA Villa / Park – 85 Combi, 95 Combi, 105 Combi – bruksanvisning 8211-7000-10</strong>Huvudkälla för klippaggregatets kompatibilitet, klipphöjd, montering, inställning och knivsystem.</div>
+<div class="source"><strong>Villa 12 HST 13-2727-13 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
+<div class="source"><strong>Villa 12 HST 13-2727-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
+<div class="source"><strong>Villa 12 HST 13-2729-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
+<div class="source"><strong>Villa 12 HST 13-2729-15 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
+<p style="margin-top:18px"><strong>Viktigt:</strong> versionsberoende uppgifter ska alltid kontrolleras mot den aktuella maskinens produktnummer och motorns egen märkning.</p>
+</div>
+</div>
 </div>
 
 <script>
-async function inject(id,url){
- const el=document.getElementById(id); if(!el)return;
- try{const r=await fetch(url,{cache:"no-cache"});if(!r.ok)throw new Error(url);el.innerHTML=await r.text();}
- catch(e){console.error("Kunde inte ladda partial:",e);}
-}
+async function inject(id,url){const el=document.getElementById(id);if(!el)return;try{const r=await fetch(url,{cache:"no-cache"});if(!r.ok)throw new Error(url);el.innerHTML=await r.text()}catch(e){console.error("Kunde inte ladda partial:",e)}}
 inject("site-header","../partials1/header.html");
 inject("site-footer","../partials1/footer.html");
-
-const modal=document.getElementById("sourcesModal");
-const closeBtn=document.querySelector("[data-close]");
-function openModal(){modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.body.classList.add("modal-open");closeBtn.focus();}
-function closeModal(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.classList.remove("modal-open");}
-document.querySelectorAll("[data-open]").forEach(b=>b.addEventListener("click",openModal));
-closeBtn.addEventListener("click",closeModal);
-modal.addEventListener("click",e=>{if(e.target===modal)closeModal()});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modal.classList.contains("open"))closeModal()});
+const modal=document.getElementById("sources"),closeBtn=document.querySelector("[data-close]");
+function openM(){modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.body.classList.add("modal-open");closeBtn.focus()}
+function closeM(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.classList.remove("modal-open")}
+document.querySelectorAll("[data-open]").forEach(x=>x.addEventListener("click",openM));closeBtn.addEventListener("click",closeM);modal.addEventListener("click",e=>{if(e.target===modal)closeM()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeM()});
 </script>
 </body>
 </html>
