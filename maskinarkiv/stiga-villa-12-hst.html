@@ -4,23 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>STIGA Villa 12 HST – fakta, manual & reservdelar | Maskinarkivet</title>
-  <meta name="description" content="Faktasida om STIGA Villa 12 HST. Läs om produktversioner, motorer, transmission, STIGA 85 Combi, identifiering, underhåll och reservdelar.">
+  <title>STIGA Villa 12 HST – fakta, motor, aggregat & reservdelar | Maskinarkivet</title>
+  <meta name="description" content="Lär dig känna igen STIGA Villa 12 HST. Se produktversioner, motorer, klippaggregat, reservdelsinformation, underhåll och vanliga frågor.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://skaraborgmaskin.se/maskinarkiv/stiga-villa-12-hst.html">
 
   <style>
     :root {
-      --green-dark: #18281c;
-      --green: #29452f;
-      --green-soft: #edf3ed;
+      --green-900: #17271b;
+      --green-800: #213827;
+      --green-700: #2d4a34;
+      --green-100: #edf4ee;
+      --green-050: #f6f9f6;
       --gold: #d7aa3a;
-      --bg: #f7f8f6;
-      --white: #ffffff;
+      --gold-soft: #fff7dd;
       --text: #182019;
-      --muted: #626d64;
-      --border: #dde4dd;
-      --max: 980px;
+      --muted: #647067;
+      --border: #dde5de;
+      --white: #ffffff;
+      --shadow: 0 12px 30px rgba(24, 39, 27, .08);
+      --max: 1040px;
     }
 
     * { box-sizing: border-box; }
@@ -29,28 +32,30 @@
 
     body {
       margin: 0;
-      background: var(--bg);
+      background: var(--green-050);
       color: var(--text);
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-      line-height: 1.65;
+      line-height: 1.68;
     }
 
     a { color: inherit; }
 
     .wrap {
       width: min(100% - 32px, var(--max));
-      margin: 0 auto;
+      margin-inline: auto;
     }
 
     .hero {
-      background: var(--green-dark);
+      background:
+        radial-gradient(circle at 88% 18%, rgba(215,170,58,.18), transparent 26%),
+        linear-gradient(135deg, var(--green-900), var(--green-700));
       color: #fff;
-      padding: 64px 0 58px;
+      padding: 56px 0 50px;
     }
 
     .breadcrumb {
       margin-bottom: 18px;
-      color: #cad5cb;
+      color: #c9d5ca;
       font-size: 14px;
     }
 
@@ -64,25 +69,25 @@
 
     .kicker {
       margin: 0 0 8px;
-      color: #e6c56b;
+      color: #f1cf72;
       font-size: 13px;
-      font-weight: 800;
+      font-weight: 850;
       letter-spacing: .08em;
       text-transform: uppercase;
     }
 
     h1 {
       margin: 0;
-      max-width: 760px;
-      font-size: clamp(38px, 7vw, 58px);
-      line-height: 1.05;
-      letter-spacing: -.035em;
+      max-width: 800px;
+      font-size: clamp(40px, 7vw, 62px);
+      line-height: 1.04;
+      letter-spacing: -.04em;
     }
 
     .hero-lead {
-      max-width: 760px;
-      margin: 20px 0 0;
-      color: #dbe4dc;
+      max-width: 800px;
+      margin: 18px 0 0;
+      color: #dbe5dc;
       font-size: 18px;
     }
 
@@ -90,7 +95,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      margin-top: 26px;
+      margin-top: 24px;
     }
 
     .btn {
@@ -102,25 +107,56 @@
       border: 0;
       border-radius: 9px;
       font: inherit;
-      font-weight: 800;
+      font-weight: 850;
       cursor: pointer;
       text-decoration: none;
     }
 
     .btn-gold {
       background: var(--gold);
-      color: #211b0d;
+      color: #211a0b;
     }
 
-    .btn-light {
-      background: rgba(255,255,255,.1);
-      border: 1px solid rgba(255,255,255,.22);
+    .btn-ghost {
       color: #fff;
+      background: rgba(255,255,255,.09);
+      border: 1px solid rgba(255,255,255,.22);
     }
 
     .btn-dark {
-      background: var(--green-dark);
+      background: var(--green-900);
       color: #fff;
+    }
+
+    .quicknav-wrap {
+      margin-top: -22px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .quicknav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 14px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .quicknav a {
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: var(--green-100);
+      color: var(--green-800);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .quicknav a:hover {
+      background: #dfeadd;
     }
 
     .content {
@@ -128,7 +164,7 @@
     }
 
     .section {
-      margin-top: 42px;
+      margin-top: 46px;
     }
 
     .section:first-child {
@@ -137,14 +173,14 @@
 
     h2 {
       margin: 0 0 12px;
-      font-size: clamp(25px, 4vw, 32px);
-      line-height: 1.18;
-      letter-spacing: -.02em;
+      font-size: clamp(26px, 4vw, 34px);
+      line-height: 1.16;
+      letter-spacing: -.025em;
     }
 
     h3 {
-      margin: 0 0 7px;
-      font-size: 18px;
+      margin: 0 0 8px;
+      font-size: 19px;
       line-height: 1.25;
     }
 
@@ -156,33 +192,30 @@
       color: var(--muted);
     }
 
-    .summary {
-      padding: 22px;
-      background: var(--white);
+    .intro-card {
+      padding: 24px;
+      background: #fff;
       border: 1px solid var(--border);
       border-radius: 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .intro-card strong {
+      color: var(--green-800);
     }
 
     .facts {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      overflow: hidden;
-      background: #fff;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 18px;
     }
 
     .fact {
-      padding: 15px 17px;
-      border-bottom: 1px solid var(--border);
-    }
-
-    .fact:nth-child(odd) {
-      border-right: 1px solid var(--border);
-    }
-
-    .fact:nth-last-child(-n+2) {
-      border-bottom: 0;
+      padding: 15px 16px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 11px;
     }
 
     .fact-label {
@@ -195,67 +228,125 @@
       text-transform: uppercase;
     }
 
-    .note {
-      margin-top: 16px;
-      padding: 15px 17px;
-      border-left: 4px solid var(--gold);
+    .answer {
+      margin-top: 14px;
+      padding: 18px 20px;
       background: #fff;
-      border-radius: 8px;
-    }
-
-    .table-wrap {
-      overflow-x: auto;
       border: 1px solid var(--border);
+      border-left: 5px solid var(--green-700);
+      border-radius: 10px;
+    }
+
+    .answer strong {
+      color: var(--green-800);
+    }
+
+    .did-you-know {
+      margin-top: 18px;
+      padding: 18px 20px;
+      background: var(--gold-soft);
+      border: 1px solid #ead797;
       border-radius: 12px;
-      background: #fff;
     }
 
-    table {
-      width: 100%;
-      min-width: 720px;
-      border-collapse: collapse;
-      font-size: 14px;
-    }
-
-    th,
-    td {
-      padding: 12px 13px;
-      border-bottom: 1px solid var(--border);
-      text-align: left;
-      vertical-align: top;
-    }
-
-    th {
-      background: #f0f4f0;
-      font-size: 12px;
+    .did-you-know b {
+      display: block;
+      margin-bottom: 5px;
+      color: #6d5310;
+      font-size: 13px;
       letter-spacing: .04em;
       text-transform: uppercase;
     }
 
-    tr:last-child td {
-      border-bottom: 0;
+    .version-grid {
+      display: grid;
+      gap: 12px;
+      margin-top: 20px;
     }
 
-    .simple-grid {
+    .version {
+      display: grid;
+      grid-template-columns: 150px 1fr;
+      gap: 16px;
+      padding: 18px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .version-code {
+      font-weight: 900;
+      color: var(--green-800);
+    }
+
+    .version-year {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .version p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .two-col {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
+      gap: 14px;
+      margin-top: 18px;
     }
 
-    .simple-card {
-      padding: 17px;
+    .mini-card {
+      padding: 18px;
       background: #fff;
       border: 1px solid var(--border);
       border-radius: 11px;
     }
 
-    .simple-card p {
+    .mini-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .steps {
+      counter-reset: step;
+      display: grid;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .step {
+      position: relative;
+      padding: 16px 18px 16px 52px;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 11px;
+    }
+
+    .step::before {
+      counter-increment: step;
+      content: counter(step);
+      position: absolute;
+      left: 14px;
+      top: 14px;
+      display: grid;
+      place-items: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: var(--green-800);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .step p {
       margin: 0;
       color: var(--muted);
     }
 
     .checklist {
-      margin: 0;
+      margin: 16px 0 0;
       padding-left: 22px;
     }
 
@@ -264,16 +355,17 @@
     }
 
     details {
-      margin-top: 9px;
+      margin-top: 10px;
       background: #fff;
       border: 1px solid var(--border);
       border-radius: 10px;
+      overflow: hidden;
     }
 
     summary {
       padding: 14px 16px;
       cursor: pointer;
-      font-weight: 800;
+      font-weight: 850;
     }
 
     details p {
@@ -282,15 +374,17 @@
     }
 
     .cta {
-      margin-top: 46px;
-      padding: 28px;
-      background: var(--green-soft);
+      margin-top: 48px;
+      padding: 30px;
+      background:
+        radial-gradient(circle at 92% 18%, rgba(215,170,58,.15), transparent 25%),
+        var(--green-100);
       border: 1px solid #d5dfd5;
-      border-radius: 14px;
+      border-radius: 16px;
     }
 
     .cta p {
-      max-width: 720px;
+      max-width: 760px;
       color: var(--muted);
     }
 
@@ -298,9 +392,9 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      gap: 10px;
+      gap: 9px;
       margin-top: 30px;
-      padding-top: 20px;
+      padding-top: 18px;
       border-top: 1px solid var(--border);
       color: var(--muted);
       font-size: 13px;
@@ -310,15 +404,14 @@
       border: 0;
       padding: 0;
       background: none;
-      color: var(--green);
+      color: var(--green-800);
       font: inherit;
-      font-weight: 800;
+      font-weight: 850;
       cursor: pointer;
       text-decoration: underline;
       text-underline-offset: 2px;
     }
 
-    /* KÄLLMODAL */
     .modal {
       position: fixed;
       inset: 0;
@@ -327,7 +420,7 @@
       align-items: center;
       justify-content: center;
       padding: 20px;
-      background: rgba(10, 18, 12, .65);
+      background: rgba(10,18,12,.68);
     }
 
     .modal.open {
@@ -336,11 +429,11 @@
 
     .modal-box {
       width: min(100%, 720px);
-      max-height: min(82vh, 760px);
+      max-height: min(84vh, 780px);
       overflow-y: auto;
       background: #fff;
       border-radius: 16px;
-      box-shadow: 0 25px 80px rgba(0,0,0,.28);
+      box-shadow: 0 25px 80px rgba(0,0,0,.3);
     }
 
     .modal-head {
@@ -349,7 +442,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 20px;
+      gap: 18px;
       padding: 18px 20px;
       background: #fff;
       border-bottom: 1px solid var(--border);
@@ -392,38 +485,49 @@
     }
 
     .source a {
-      color: var(--green);
-      font-weight: 700;
+      color: var(--green-800);
+      font-weight: 800;
     }
 
     body.modal-open {
       overflow: hidden;
     }
 
-    @media (max-width: 680px) {
+    @media (max-width: 780px) {
+      .facts {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .version {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 620px) {
       .hero {
-        padding: 48px 0 44px;
+        padding: 44px 0 42px;
+      }
+
+      .quicknav-wrap {
+        margin-top: -14px;
+      }
+
+      .quicknav {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+      }
+
+      .quicknav a {
+        white-space: nowrap;
       }
 
       .content {
-        padding: 32px 0 52px;
+        padding: 34px 0 52px;
       }
 
       .facts,
-      .simple-grid {
+      .two-col {
         grid-template-columns: 1fr;
-      }
-
-      .fact:nth-child(odd) {
-        border-right: 0;
-      }
-
-      .fact {
-        border-bottom: 1px solid var(--border) !important;
-      }
-
-      .fact:last-child {
-        border-bottom: 0 !important;
       }
 
       .hero-actions {
@@ -432,6 +536,10 @@
 
       .btn {
         width: 100%;
+      }
+
+      .cta {
+        padding: 22px;
       }
     }
   </style>
@@ -458,42 +566,54 @@
       <h1>STIGA Villa 12 HST</h1>
 
       <p class="hero-lead">
-        Samlad och källkontrollerad information om STIGA Villa 12 HST:
-        produktversioner, motorer, transmission, klippaggregat,
-        identifiering och grundläggande underhåll.
+        Vilken motor sitter i den? Hur ser du vilken version du har?
+        Vilket klippaggregat hör till modellen? Här samlar vi det viktigaste
+        om Villa 12 HST på ett enkelt och källkontrollerat sätt.
       </p>
 
       <div class="hero-actions">
-        <a class="btn btn-gold" href="#versioner">Produktversioner</a>
-        <button class="btn btn-light" type="button" data-open-sources>Källor</button>
+        <a class="btn btn-gold" href="#identifiera">Identifiera din maskin</a>
+        <button class="btn btn-ghost" type="button" data-open-sources>Källor</button>
       </div>
 
     </div>
   </section>
 
+  <div class="quicknav-wrap">
+    <div class="wrap">
+      <nav class="quicknav" aria-label="Snabbmeny">
+        <a href="#kort-om">Kort om modellen</a>
+        <a href="#identifiera">Identifiera</a>
+        <a href="#motor">Motor</a>
+        <a href="#aggregat">Klippaggregat</a>
+        <a href="#reservdelar">Reservdelar</a>
+        <a href="#underhall">Underhåll</a>
+        <a href="#faq">Vanliga frågor</a>
+      </nav>
+    </div>
+  </div>
+
   <div class="content">
     <div class="wrap">
 
-      <section class="section">
-        <div class="summary">
-          <h2>Kort om modellen</h2>
+      <section class="section" id="kort-om">
+
+        <div class="intro-card">
+          <h2>Kort om STIGA Villa 12 HST</h2>
 
           <p>
-            STIGA Villa 12 HST tillhör Villa-serien. I STIGAs dokumentation
-            beskrivs Villa som en tvåhjulsdriven frontklippare med drivning på
-            framhjulen, bakhjulsstyrning via wire och frontmonterade redskap
-            som drivs med rem.
+            Villa 12 HST tillhör STIGAs Villa-serie och är en frontklippare
+            med drivning på framhjulen, bakhjulsstyrning via wire och
+            frontmonterade redskap som drivs med rem.
           </p>
 
-          <p class="muted">
-            Modellnamnet förekommer i flera produktversioner. Exakt motor och
-            vissa reservdelar kan därför skilja mellan olika maskiner.
+          <p>
+            Det mest intressanta med modellen är att
+            <strong>alla Villa 12 HST inte är exakt likadana</strong>.
+            Modellnamnet användes på flera produktversioner och olika
+            motorutföranden förekommer.
           </p>
         </div>
-      </section>
-
-      <section class="section">
-        <h2>Grundfakta</h2>
 
         <div class="facts">
           <div class="fact">
@@ -522,135 +642,178 @@
           </div>
 
           <div class="fact">
-            <span class="fact-label">Klippaggregat</span>
+            <span class="fact-label">Dokumenterat aggregat</span>
             STIGA 85 Combi / 85 C
           </div>
         </div>
 
-        <div class="note">
-          <strong>Viktigt:</strong>
-          kontrollera alltid maskinens produktnummer och motorns egen märkning
-          innan du beställer reservdelar.
+        <div class="did-you-know">
+          <b>Visste du att?</b>
+          Två maskiner som båda heter STIGA Villa 12 HST kan ha olika motor.
+          Det är därför produktnumret är viktigare än modellnamnet när du söker delar.
         </div>
+
       </section>
 
-      <section class="section" id="versioner">
-        <h2>Kända produktversioner</h2>
+      <section class="section" id="identifiera">
+        <h2>Vilken STIGA Villa 12 HST har jag?</h2>
 
         <p class="muted">
-          Villa 12 HST finns i flera dokumenterade produktversioner.
-          Tabellen nedan hjälper till att skilja dem åt.
+          Börja inte med årsmodellen om du ska hitta rätt reservdel.
+          Börja med maskinens identitet.
         </p>
 
-        <div class="table-wrap">
-          <table>
-            <thead>
-              <tr>
-                <th>Produktnr</th>
-                <th>År</th>
-                <th>Motor</th>
-                <th>Transmission</th>
-                <th>Aggregat</th>
-              </tr>
-            </thead>
+        <div class="steps">
+          <div class="step">
+            <h3>Hitta produkt-/artikelnumret</h3>
+            <p>
+              Det är den viktigaste uppgiften för att skilja olika
+              Villa 12 HST-versioner åt.
+            </p>
+          </div>
 
-            <tbody>
-              <tr>
-                <td><strong>13-2727-13</strong></td>
-                <td>2009</td>
-                <td>STIGA / WM 12.5</td>
-                <td>Kanzaki K46 CJ</td>
-                <td>Combi 85</td>
-              </tr>
+          <div class="step">
+            <h3>Kontrollera serienumret</h3>
+            <p>
+              Serienumret hjälper till att identifiera den enskilda maskinen.
+            </p>
+          </div>
 
-              <tr>
-                <td><strong>13-2727-14</strong></td>
-                <td>2010</td>
-                <td>STIGA / WM 12.5</td>
-                <td>Kanzaki K46 CJ</td>
-                <td>Combi 85</td>
-              </tr>
+          <div class="step">
+            <h3>Läs av motorns märkning</h3>
+            <p>
+              Motorn har egen identitet. Modell-, typ- och serienummer bör
+              kontrolleras separat.
+            </p>
+          </div>
 
-              <tr>
-                <td><strong>13-2729-14</strong></td>
-                <td>2010</td>
-                <td>Briggs &amp; Stratton, uppgiven som 21R502*</td>
-                <td>Kanzaki K46 CJ</td>
-                <td>Combi 85</td>
-              </tr>
-
-              <tr>
-                <td><strong>13-2729-15</strong></td>
-                <td>2011–2012</td>
-                <td>Briggs &amp; Stratton, uppgiven som 21R602*</td>
-                <td>Kanzaki K46 CJ</td>
-                <td>Combi 85</td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="step">
+            <h3>Jämför med rätt produktversion</h3>
+            <p>
+              När du har produktnumret kan du välja rätt reservdelsunderlag
+              och undvika att beställa delar till fel version.
+            </p>
+          </div>
         </div>
 
-        <p class="muted" style="font-size:13px;margin-top:10px;">
-          * Exakt Briggs &amp; Stratton-version bör kontrolleras mot motorns
-          märkning på den enskilda maskinen.
-        </p>
-      </section>
+        <div class="version-grid">
 
-      <section class="section">
-        <h2>Så identifierar du rätt version</h2>
+          <div class="version">
+            <div>
+              <div class="version-code">13-2727-13</div>
+              <div class="version-year">2009</div>
+            </div>
 
-        <div class="simple-grid">
-          <article class="simple-card">
-            <h3>Maskinens produktnummer</h3>
             <p>
-              Produkt- eller artikelnumret är den viktigaste nyckeln när
-              rätt reservdelslista ska väljas.
+              Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ-transmission
+              och Combi 85.
             </p>
-          </article>
+          </div>
 
-          <article class="simple-card">
-            <h3>Serienummer</h3>
-            <p>
-              Serienumret hjälper till att skilja den enskilda maskinen från
-              andra maskiner med samma modellnamn.
-            </p>
-          </article>
+          <div class="version">
+            <div>
+              <div class="version-code">13-2727-14</div>
+              <div class="version-year">2010</div>
+            </div>
 
-          <article class="simple-card">
-            <h3>Motorns märkning</h3>
             <p>
-              Kontrollera motorns modell-, typ- och serienummer separat.
+              Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ-transmission
+              och Combi 85.
             </p>
-          </article>
+          </div>
 
-          <article class="simple-card">
-            <h3>Årsmodell</h3>
+          <div class="version">
+            <div>
+              <div class="version-code">13-2729-14</div>
+              <div class="version-year">2010</div>
+            </div>
+
             <p>
-              Årsmodell är användbar information, men räcker inte alltid
-              ensam eftersom flera versioner kan förekomma samma år.
+              Reservdelsunderlag anger Briggs &amp; Stratton-motor,
+              uppgiven som 21R502, tillsammans med Kanzaki K46 CJ och Combi 85.
             </p>
-          </article>
+          </div>
+
+          <div class="version">
+            <div>
+              <div class="version-code">13-2729-15</div>
+              <div class="version-year">2011–2012</div>
+            </div>
+
+            <p>
+              Reservdelsunderlag anger Briggs &amp; Stratton-motor,
+              uppgiven som 21R602, tillsammans med Kanzaki K46 CJ och Combi 85.
+            </p>
+          </div>
+
+        </div>
+
+        <div class="answer">
+          <strong>Kort svar:</strong>
+          årsmodell hjälper, men produktnumret är säkrare eftersom flera
+          Villa 12 HST-versioner förekommer.
         </div>
       </section>
 
-      <section class="section">
-        <h2>STIGA 85 Combi / 85 C</h2>
+      <section class="section" id="motor">
+        <h2>Vilken motor sitter i STIGA Villa 12 HST?</h2>
 
         <p>
-          STIGAs manual för 85, 95 och 105 Combi anger att
-          <strong>85 Combi är avsett för Villa/Ready</strong>.
-          Klipphöjden kan ställas mellan 25 och 85 mm.
+          Det finns inte ett enda motorsvar för alla Villa 12 HST.
+          Kända produktversioner visar både STIGA/GGP WM 12.5 och
+          Briggs &amp; Stratton-varianter.
+        </p>
+
+        <div class="two-col">
+          <article class="mini-card">
+            <h3>STIGA / GGP WM 12.5</h3>
+            <p>
+              Dokumenterad för bland annat produktnummer
+              13-2727-13 och 13-2727-14.
+            </p>
+          </article>
+
+          <article class="mini-card">
+            <h3>Briggs &amp; Stratton</h3>
+            <p>
+              Senare produktversioner förekommer i reservdelsunderlag med
+              Briggs &amp; Stratton-motorer. Kontrollera alltid motorns egen
+              märkning innan du beställer delar.
+            </p>
+          </article>
+        </div>
+
+        <div class="did-you-know">
+          <b>Varför hittar man olika svar på nätet?</b>
+          För att Villa 12 HST är ett modellnamn som förekommer på flera
+          produktversioner. Ett motorsvar kan vara rätt för en version och
+          fel för en annan.
+        </div>
+      </section>
+
+      <section class="section" id="aggregat">
+        <h2>Vilket klippaggregat passar Villa 12 HST?</h2>
+
+        <div class="answer">
+          <strong>STIGA 85 Combi / 85 C</strong> är dokumenterat för
+          Villa-systemet och förekommer i underlaget för Villa 12 HST.
+        </div>
+
+        <p style="margin-top:16px;">
+          STIGAs manual för Combi-aggregaten anger en klipphöjd på
+          <strong>25–85 mm</strong>. Vid grundinställning ska aggregatets
+          bakkant ligga cirka <strong>5 mm högre</strong> än framkanten.
         </p>
 
         <div class="facts">
           <div class="fact">
-            <span class="fact-label">Klipphöjd</span>
-            25–85 mm
+            <span class="fact-label">Aggregat</span>
+            85 Combi / 85 C
           </div>
 
           <div class="fact">
-            <span class="fact-label">Grundinställning</span>
-            Bakkant ca 5 mm högre än framkant
+            <span class="fact-label">Klipphöjd</span>
+            25–85 mm
           </div>
 
           <div class="fact">
@@ -662,45 +825,118 @@
             <span class="fact-label">Bakdäck</span>
             1,2 bar / 17 psi
           </div>
-        </div>
 
-        <div class="note">
-          Aggregatet kan användas för mulching/kompostering eller bakutkast.
-          STIGA anger dessutom att undersidan ska rengöras efter varje användning.
-        </div>
-      </section>
+          <div class="fact">
+            <span class="fact-label">Grundinställning</span>
+            Bakkant ca 5 mm högre
+          </div>
 
-      <section class="section">
-        <h2>Underhåll av klippaggregatet</h2>
-
-        <ul class="checklist">
-          <li>Rengör aggregatets undersida efter varje användning.</li>
-          <li>Kontrollera knivarna efter kollision med sten eller annat fast föremål.</li>
-          <li>Synkroniserade knivar ska vara förskjutna 90° från varandra.</li>
-          <li>Byt båda knivarna på samma knivbalk samtidigt för att undvika obalans.</li>
-          <li>STIGA anger 45 Nm för knivskruvarna.</li>
-          <li>STIGA anger 9,8 Nm för brytbultarna.</li>
-        </ul>
-
-        <div class="note">
-          Följ alltid originalmanualens säkerhetsanvisningar innan service
-          eller arbete på klippaggregatet.
+          <div class="fact">
+            <span class="fact-label">Klippsätt</span>
+            Mulching/kompostering eller bakutkast
+          </div>
         </div>
       </section>
 
-      <section class="section">
-        <h2>Vanliga frågor</h2>
+      <section class="section" id="reservdelar">
+        <h2>Reservdelar till STIGA Villa 12 HST</h2>
+
+        <p>
+          Den viktigaste regeln är enkel:
+          <strong>beställ inte en del enbart på modellnamnet Villa 12 HST.</strong>
+        </p>
+
+        <div class="steps">
+          <div class="step">
+            <h3>Identifiera produktnumret</h3>
+            <p>Exempelvis 13-2727-14 eller 13-2729-15.</p>
+          </div>
+
+          <div class="step">
+            <h3>Kontrollera rätt reservdelslista</h3>
+            <p>
+              Produktversionen avgör vilket underlag som ska användas.
+            </p>
+          </div>
+
+          <div class="step">
+            <h3>Kontrollera motorn separat</h3>
+            <p>
+              Filter, tänddelar och motordelar ska matchas mot motorns egen kod.
+            </p>
+          </div>
+        </div>
+
+        <div class="did-you-know">
+          <b>Smartast när skylten finns kvar</b>
+          En bild på identifikationsskylten kan vara mer värdefull än flera
+          bilder på själva maskinen när rätt reservdel ska hittas.
+        </div>
+      </section>
+
+      <section class="section" id="underhall">
+        <h2>Tre saker värda att känna till om 85 Combi</h2>
+
+        <div class="two-col">
+          <article class="mini-card">
+            <h3>1. Rengör efter användning</h3>
+            <p>
+              STIGA anger att aggregatets undersida bör rengöras efter varje
+              användning.
+            </p>
+          </article>
+
+          <article class="mini-card">
+            <h3>2. Kontrollera efter kollision</h3>
+            <p>
+              Efter kontakt med sten eller annat fast föremål ska knivar och
+              synkronisering kontrolleras.
+            </p>
+          </article>
+
+          <article class="mini-card">
+            <h3>3. Byt knivar parvis på balken</h3>
+            <p>
+              STIGA anger att båda knivarna på samma knivbalk ska bytas
+              samtidigt för att undvika obalans.
+            </p>
+          </article>
+
+          <article class="mini-card">
+            <h3>Åtdragningsmoment</h3>
+            <p>
+              Manualen anger 45 Nm för knivskruvar och 9,8 Nm för brytbultar.
+            </p>
+          </article>
+        </div>
+
+        <div class="answer">
+          <strong>Viktigt:</strong>
+          sidan är ett faktastöd, inte en ersättning för originalmanualen.
+          Följ alltid tillverkarens säkerhetsanvisningar vid service.
+        </div>
+      </section>
+
+      <section class="section" id="faq">
+        <h2>Vanliga frågor om Villa 12 HST</h2>
 
         <details>
-          <summary>Har alla Villa 12 HST samma motor?</summary>
+          <summary>Har alla STIGA Villa 12 HST samma motor?</summary>
           <p>
             Nej. Dokumenterade produktversioner visar olika motorutföranden.
-            Kontrollera därför produktnummer och motorns märkning.
           </p>
         </details>
 
         <details>
-          <summary>Vilket klippaggregat hör till Villa 12 HST?</summary>
+          <summary>Hur vet jag vilken version jag har?</summary>
+          <p>
+            Börja med maskinens produkt-/artikelnummer och kontrollera sedan
+            motorns märkning.
+          </p>
+        </details>
+
+        <details>
+          <summary>Vilket klippaggregat hör till modellen?</summary>
           <p>
             STIGA 85 Combi / 85 C är dokumenterat för Villa-systemet och
             förekommer i underlaget för Villa 12 HST.
@@ -715,21 +951,23 @@
         </details>
 
         <details>
-          <summary>Kan jag beställa delar bara på modellnamnet?</summary>
+          <summary>Kan jag beställa reservdelar bara på modellnamnet?</summary>
           <p>
-            Det är säkrare att använda maskinens produktnummer och motorns
-            identitet eftersom Villa 12 HST förekommer i flera versioner.
+            Det är säkrare att använda produktnumret och motorns identitet,
+            eftersom flera produktversioner förekommer.
           </p>
         </details>
       </section>
 
       <section class="cta">
-        <h2>Har du en STIGA Villa 12 HST stående?</h2>
+        <p class="kicker" style="color:#6f5510;">Återbruk</p>
+
+        <h2>Har din Villa gjort sitt hos dig?</h2>
 
         <p>
-          Vi bedömer åkgräsklippare i olika skick. Även maskiner som inte
-          startar, saknar delar eller lämpar sig som reservdelsobjekt kan vara
-          intressanta.
+          En gammal åkgräsklippare behöver inte vara värdelös bara för att
+          den inte längre startar. Hela maskinen eller användbara delar kan
+          fortfarande vara intressanta för återbruk.
         </p>
 
         <div class="hero-actions">
@@ -737,7 +975,7 @@
              href="https://www.facebook.com/profile.php?id=61588383880828"
              target="_blank"
              rel="noopener noreferrer">
-            📷 Skicka bilder
+            📷 Skicka bilder på din maskin
           </a>
 
           <a class="btn btn-dark" href="../kop-maskiner.html">
@@ -761,7 +999,6 @@
 
 <div id="site-footer"></div>
 
-<!-- KÄLLMODAL -->
 <div class="modal" id="sourcesModal" aria-hidden="true">
   <div class="modal-box"
        role="dialog"
@@ -790,8 +1027,8 @@
         <strong>
           STIGA – Villa / Villa 12 HST, bruksanvisning 8211-0038-90
         </strong>
-        Använd för grundläggande uppgifter om maskinen, drivning,
-        styrning, identifiering, reglage och underhåll.
+        Grundläggande information om maskinens konstruktion, drivning,
+        styrning, identifikation, användning och underhåll.
       </div>
 
       <div class="source">
@@ -799,51 +1036,51 @@
           STIGA – Villa/Park 85 Combi, 95 Combi, 105 Combi,
           bruksanvisning 8211-7000-10
         </strong>
-        Använd för kompatibilitet med Villa/Ready, klipphöjd,
-        däcktryck, grundinställning, rengöring och knivsystem.
+        Underlag för kompatibilitet, klipphöjd, däcktryck,
+        grundinställning, rengöring och knivsystem.
       </div>
 
       <div class="source">
-        <strong>Villa 12 HST 13-2727-13 – reservdelsunderlag</strong>
+        <strong>Villa 12 HST 13-2727-13</strong>
         <a href="https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/"
            target="_blank"
            rel="noopener noreferrer">
-          Öppna källa
+          Öppna reservdelsunderlag
         </a>
       </div>
 
       <div class="source">
-        <strong>Villa 12 HST 13-2727-14 – reservdelsunderlag</strong>
+        <strong>Villa 12 HST 13-2727-14</strong>
         <a href="https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/"
            target="_blank"
            rel="noopener noreferrer">
-          Öppna källa
+          Öppna reservdelsunderlag
         </a>
       </div>
 
       <div class="source">
-        <strong>Villa 12 HST 13-2729-14 – reservdelsunderlag</strong>
+        <strong>Villa 12 HST 13-2729-14</strong>
         <a href="https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/"
            target="_blank"
            rel="noopener noreferrer">
-          Öppna källa
+          Öppna reservdelsunderlag
         </a>
       </div>
 
       <div class="source">
-        <strong>Villa 12 HST 13-2729-15 – reservdelsunderlag</strong>
+        <strong>Villa 12 HST 13-2729-15</strong>
         <a href="https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/"
            target="_blank"
            rel="noopener noreferrer">
-          Öppna källa
+          Öppna reservdelsunderlag
         </a>
       </div>
 
       <p style="margin-top:18px;">
         <strong>Observera:</strong>
         uppgifter kan skilja mellan produktversioner. Kontrollera alltid
-        maskinens identifikationsskylt, produktnummer och motorns egen märkning
-        innan service eller beställning av reservdelar.
+        maskinens produktnummer, identifikationsskylt och motorns egen
+        märkning innan service eller beställning av reservdelar.
       </p>
 
     </div>
@@ -864,7 +1101,6 @@
     }
   }
 
-  /* Sidan ligger i /maskinarkiv/, därför ../ */
   inject("site-header", "../partials1/header.html");
   inject("site-footer", "../partials1/footer.html");
 
@@ -892,7 +1128,9 @@
   closeButton.addEventListener("click", closeSources);
 
   modal.addEventListener("click", event => {
-    if (event.target === modal) closeSources();
+    if (event.target === modal) {
+      closeSources();
+    }
   });
 
   document.addEventListener("keydown", event => {
