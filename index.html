@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="google-site-verification" content="6Js1PK23eb36UTzlFCXKoJxgfAFT-fFTQ6ME1yfLWbA" />
 
-  <title>Sälja maskin i Skaraborg | Hämtning & snabb bedömning</title>
-  <meta name="description" content="Vill du sälja en maskin i Skaraborg? Skicka bilder, ort och skick så får du en snabb bedömning. Vi köper även trasiga maskiner och kan ordna hämtning." />
+  <title>Sälja maskin i Skaraborg | Dödsbo, återbruk & hämtning</title>
+  <meta name="description" content="Sälj maskiner, verktyg och relevanta partier till oss i Skaraborg. Vi köper även från dödsbon, tar emot trasiga objekt och kan ordna hämtning efter bedömning." />
   <link rel="canonical" href="https://skaraborgmaskin.se/" />
   <meta name="robots" content="index,follow,max-image-preview:large" />
   <meta name="theme-color" content="#1f3322" />
@@ -14,16 +14,16 @@
 
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="sv_SE" />
-  <meta property="og:title" content="Sälja maskin i Skaraborg | Skaraborg Maskin & Återbruk" />
-  <meta property="og:description" content="Skicka bilder, ort och skick så får du en snabb bedömning. Även trasiga maskiner kan vara intressanta." />
+  <meta property="og:title" content="Sälja maskin, dödsbo & återbruk i Skaraborg | Skaraborg Maskin & Återbruk" />
+  <meta property="og:description" content="Skicka bilder på maskiner, verktyg, dödsbon eller större partier. Vi gör en första bedömning och ser om det passar vår verksamhet." />
   <meta property="og:url" content="https://skaraborgmaskin.se/" />
   <meta property="og:site_name" content="Skaraborg Maskin & Återbruk" />
   <meta property="og:image" content="https://skaraborgmaskin.se/indexhero.jpg" />
   <meta property="og:image:alt" content="Skaraborg Maskin & Återbruks lastbil för hämtning i Skaraborg" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Sälja maskin i Skaraborg | Skaraborg Maskin & Återbruk" />
-  <meta name="twitter:description" content="Vi köper maskiner, tar emot trasiga objekt och kan ordna hämtning i Skaraborg." />
+  <meta name="twitter:title" content="Sälja maskin, dödsbo & återbruk i Skaraborg" />
+  <meta name="twitter:description" content="Vi köper maskiner, verktyg och relevanta partier, även från dödsbon. Skicka bilder så börjar vi där." />
   <meta name="twitter:image" content="https://skaraborgmaskin.se/indexhero.jpg" />
 
   <script type="application/ld+json">
@@ -36,7 +36,7 @@
         "name": "Skaraborg Maskin & Återbruk",
         "url": "https://skaraborgmaskin.se/",
         "telephone": "+46727483256",
-        "description": "Vi köper, säljer och tar tillvara maskiner i Skaraborg. Vi erbjuder hämtning med egen lastbil och hämtar även däck på fälg efter överenskommelse.",
+        "description": "Vi köper, säljer och återbrukar maskiner, verktyg, reservdelar och andra relevanta objekt i Skaraborg. Vi köper även från dödsbon och större partier samt kan ordna hämtning efter individuell bedömning.",
         "areaServed": [
           { "@type": "AdministrativeArea", "name": "Skaraborg" },
           { "@type": "City", "name": "Hjo" },
@@ -48,7 +48,10 @@
           { "@type": "City", "name": "Skara" },
           { "@type": "City", "name": "Falköping" },
           { "@type": "City", "name": "Töreboda" },
-          { "@type": "City", "name": "Habo" }
+          { "@type": "City", "name": "Lidköping" },
+          { "@type": "City", "name": "Götene" },
+          { "@type": "City", "name": "Vara" },
+          { "@type": "City", "name": "Grästorp" }
         ],
         "sameAs": [
           "https://www.facebook.com/profile.php?id=61588383880828"
@@ -84,6 +87,11 @@
             "@type": "Question",
             "name": "Måste maskinen fungera?",
             "acceptedAnswer": { "@type": "Answer", "text": "Nej. Även maskiner som inte startar, saknar delar eller har okänd status kan vara intressanta." }
+          },
+          {
+            "@type": "Question",
+            "name": "Köper ni från dödsbon?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ja. Vi kan köpa enstaka objekt eller större relevanta partier från dödsbon. Vi är särskilt intresserade av garage, verkstäder, förråd och uthus med maskiner, verktyg, reservdelar och andra äldre föremål." }
           },
           {
             "@type": "Question",
@@ -339,7 +347,6 @@
       min-height:500px;
       display:block;
       object-fit:cover;
-      object-position:50% 48%;
       object-position:center 48%;
     }
     .hero-photo-label{
@@ -402,8 +409,75 @@
     section{padding:74px 0}
     .alt{background:#fff}
 
+
+    /* Dödsbo feature */
+    .estate-feature{
+      display:grid;
+      grid-template-columns:1.12fr .88fr;
+      gap:28px;
+      align-items:stretch;
+      padding:34px;
+      border-radius:28px;
+      background:
+        radial-gradient(circle at 88% 14%,rgba(216,165,46,.13),transparent 30%),
+        linear-gradient(145deg,#102118,var(--brand));
+      color:#fff;
+      box-shadow:var(--shadow);
+    }
+    .estate-feature h2{
+      margin:0 0 12px;
+      font-size:clamp(30px,4vw,44px);
+    }
+    .estate-feature p{color:rgba(255,255,255,.82)}
+    .estate-list{
+      display:grid;
+      gap:10px;
+      margin:20px 0 0;
+      padding:0;
+      list-style:none;
+    }
+    .estate-list li{
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      color:rgba(255,255,255,.9);
+    }
+    .estate-list li::before{
+      content:"✓";
+      flex:0 0 24px;
+      width:24px;
+      height:24px;
+      display:grid;
+      place-items:center;
+      border-radius:50%;
+      background:rgba(216,165,46,.2);
+      color:#f0c65b;
+      font-weight:900;
+    }
+    .estate-side{
+      display:grid;
+      gap:12px;
+      align-content:start;
+    }
+    .estate-card{
+      padding:18px;
+      border:1px solid rgba(255,255,255,.15);
+      border-radius:16px;
+      background:rgba(255,255,255,.08);
+    }
+    .estate-card strong{
+      display:block;
+      margin-bottom:4px;
+      font-size:15px;
+      color:#fff;
+    }
+    .estate-card span{
+      color:rgba(255,255,255,.76);
+      font-size:13px;
+    }
+
     /* Category cards */
-    .category-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+    .category-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
     .category-card{
       display:flex;
       flex-direction:column;
@@ -580,7 +654,7 @@
     @media (max-width:980px){
       .topbar-inner{align-items:flex-start;flex-direction:column;gap:8px;padding:12px 0}
       .topbar nav{justify-content:flex-start}
-      .hero-grid,.split,.area-box,.tyre-feature,.archive-teaser{grid-template-columns:1fr}
+      .hero-grid,.split,.area-box,.tyre-feature,.archive-teaser,.estate-feature{grid-template-columns:1fr}
       .quick-contact-inner{grid-template-columns:1fr}
       .hero-photo,.hero-photo img{min-height:430px}
       .category-grid,.process-grid{grid-template-columns:repeat(2,1fr)}
@@ -598,7 +672,7 @@
       section{padding:56px 0}
       .category-grid,.process-grid,.benefits{grid-template-columns:1fr}
       .step::after{display:none!important}
-      .panel,.area-box,.final-cta,.archive-teaser{padding:24px}
+      .panel,.area-box,.final-cta,.archive-teaser,.estate-feature{padding:24px}
       .hero-card{padding:22px}
       .hero-photo,.hero-photo img{min-height:390px}
       .quick-contact{margin-top:-16px}
@@ -619,9 +693,9 @@
       <div class="wrap hero-grid">
         <div>
           <p class="eyebrow">Lokalt i Skaraborg</p>
-          <h1 id="hero-title">Vill du sälja en maskin eller bara <span>bli av med den?</span></h1>
+          <h1 id="hero-title">Har du något som blivit stående? <span>Skicka bilder först.</span></h1>
           <p class="hero-lead">
-            Vi köper maskiner, reservdelsobjekt och maskinrelaterat skrot. Även trasiga maskiner kan vara intressanta. Skicka några bilder så får du en snabb och enkel bedömning.
+            Vi köper maskiner, verktyg, reservdelar och större relevanta partier i Skaraborg. Även trasiga objekt och innehåll från dödsbon kan vara intressanta. Skicka några bilder så börjar vi där.
           </p>
 
           <div class="hero-actions">
@@ -635,6 +709,7 @@
             <span class="trust-chip">Egen lastbil</span>
             <span class="trust-chip">Hämtning kan ordnas</span>
             <span class="trust-chip">Fokus på återbruk</span>
+            <span class="trust-chip">Vi köper från dödsbon</span>
           </div>
         </div>
 
@@ -651,8 +726,8 @@
     <div class="quick-contact">
       <div class="wrap quick-contact-inner">
         <div>
-          <h2>Få en första bedömning</h2>
-          <p>Ingen lång annons behövs. Bilder och kort information räcker.</p>
+          <h2>Få en första bedömning – utan att sortera allt först</h2>
+          <p>Maskin, garage, förråd eller ett helt parti – några bilder och kort information räcker för att börja.</p>
         </div>
         <div class="quick-points" aria-label="Det vi behöver">
           <span class="quick-point">Tydliga bilder</span>
@@ -663,6 +738,35 @@
         <a class="btn btn-dark" href="kontakt.html">Kontakta oss</a>
       </div>
     </div>
+
+    <section aria-labelledby="estate-title">
+      <div class="wrap">
+        <div class="estate-feature">
+          <div>
+            <p class="eyebrow">Vi köper från dödsbon</p>
+            <h2 id="estate-title">Ska ni gå igenom ett dödsbo? Börja inte med tippen.</h2>
+            <p>
+              Maskiner, verktyg, reservdelar och äldre föremål kan vara intressanta även när ni själva inte vet vad sakerna är värda.
+              Vi tittar gärna på helheten – särskilt garage, verkstäder, förråd, uthus och gårdar.
+            </p>
+            <ul class="estate-list">
+              <li>Enstaka objekt eller större relevanta partier</li>
+              <li>Även trasiga och ofullständiga maskiner kan vara intressanta</li>
+              <li>Ni behöver inte identifiera eller värdera allt först</li>
+            </ul>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="dodsbo-utrensning.html">Läs om dödsbo & uppköp →</a>
+              <a class="btn btn-secondary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">📷 Skicka översiktsbilder</a>
+            </div>
+          </div>
+          <aside class="estate-side" aria-label="Det vi gärna tittar på vid dödsbo">
+            <div class="estate-card"><strong>🔧 Garage & verkstad</strong><span>Verktyg, maskiner, kompressorer, svetsar, reservdelar och blandade verkstadspartier.</span></div>
+            <div class="estate-card"><strong>🏚️ Förråd & uthus</strong><span>Äldre föremål, redskap, motorer, delar, samlingar och sådant som blivit stående.</span></div>
+            <div class="estate-card"><strong>🚜 Gård & maskinhall</strong><span>Maskiner, redskap, mindre traktorer, metallföremål och större blandade partier.</span></div>
+          </aside>
+        </div>
+      </div>
+    </section>
 
     <section aria-labelledby="dack-title">
       <div class="wrap">
@@ -686,7 +790,7 @@
     <section aria-labelledby="categories-title">
       <div class="wrap">
         <div class="section-head">
-          <p class="section-kicker">Vad vi tar emot</p>
+          <p class="section-kicker">Vad vi köper & bedömer</p>
           <h2 id="categories-title">Det här kan vara intressant för oss</h2>
           <p>Fungerande, trasigt eller stått länge – skicket avgör inte alltid om ett objekt har värde.</p>
         </div>
@@ -712,9 +816,15 @@
           </a>
           <a class="category-card" href="skrot-hamtning.html">
             <span class="category-icon" aria-hidden="true">♻️</span>
-            <h3>Skrot & utrensning</h3>
-            <p>Maskinrelaterat skrot, metall och större samlingar som behöver bedömas.</p>
+            <h3>Metall & skrot</h3>
+            <p>Metall, maskindelar, kabelskrot och större relevanta partier som behöver bedömas.</p>
             <span class="link">Läs om skrothämtning →</span>
+          </a>
+          <a class="category-card" href="dodsbo-utrensning.html">
+            <span class="category-icon" aria-hidden="true">🏚️</span>
+            <h3>Dödsbo</h3>
+            <p>Garage, verkstäder, förråd, uthus och andra relevanta delar av dödsbon.</p>
+            <span class="link">Vi köper från dödsbon →</span>
           </a>
         </div>
       </div>
@@ -805,10 +915,10 @@
         <div class="panel panel-dark">
           <p class="eyebrow">Fler sätt vi kan hjälpa</p>
           <h2>Mer än bara enstaka maskiner</h2>
-          <p>Vi tar även emot förfrågningar om större utrensningar, dödsbon och företag med flera objekt.</p>
+          <p>Vi tar även emot förfrågningar från dödsbon, företag, lantbruk och personer med större partier eller flera objekt.</p>
 
           <div class="service-links">
-            <a class="service-link" href="dodsbo-utrensning.html"><span>Dödsbo & större utrensningar</span><span>→</span></a>
+            <a class="service-link" href="dodsbo-utrensning.html"><span>Vi köper från dödsbon</span><span>→</span></a>
             <a class="service-link" href="foretag.html"><span>För företag</span><span>→</span></a>
             <a class="service-link" href="skrot-hamtning.html"><span>Skrot & bortforsling</span><span>→</span></a>
             <a class="service-link" href="husvagnar.html"><span>Husvagnar & kärror</span><span>→</span></a>
@@ -836,7 +946,11 @@
             <span class="place">Skara</span>
             <span class="place">Falköping</span>
             <span class="place">Töreboda</span>
-            <span class="place">Habo</span>
+            <span class="place">Lidköping</span>
+            <span class="place">Götene</span>
+            <span class="place">Vara</span>
+            <span class="place">Grästorp</span>
+            
             <span class="place">Övriga Skaraborg</span>
           </div>
         </div>
@@ -872,8 +986,8 @@
             <p>Ja, flera objekt kan vara intressanta. Skicka gärna översiktsbilder och en enkel lista över vad som finns.</p>
           </details>
           <details>
-            <summary>Hjälper ni till vid dödsbo?</summary>
-            <p>Ja, vi kan bedöma maskiner, verktyg och maskinrelaterat material vid dödsbo och större utrensningar. Läs mer på vår sida om dödsbo.</p>
+            <summary>Köper ni från dödsbon?</summary>
+            <p>Ja. Vi kan köpa enstaka objekt eller större relevanta partier från dödsbon. Vi är särskilt intresserade av garage, verkstäder, förråd och uthus med maskiner, verktyg, reservdelar och andra äldre föremål. <a href="dodsbo-utrensning.html">Läs mer om dödsbo och uppköp.</a></p>
           </details>
           <details>
             <summary>Hämtar ni gamla däck på fälg?</summary>
@@ -888,8 +1002,8 @@
         <div class="final-cta">
           <div>
             <p class="eyebrow">Ta nästa steg</p>
-            <h2 id="contact-title">Skicka några bilder – så börjar vi där</h2>
-            <p>Berätta var objektet finns och vad du vet om skicket. Du behöver inte ha alla svar.</p>
+            <h2 id="contact-title">Maskin, dödsbo eller större parti? Skicka några bilder.</h2>
+            <p>Berätta var det finns och vad du vet. Du behöver inte identifiera, värdera eller sortera allt innan du kontaktar oss.</p>
           </div>
           <div class="final-actions">
             <a class="btn btn-primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener">📷 Skicka bilder</a>
