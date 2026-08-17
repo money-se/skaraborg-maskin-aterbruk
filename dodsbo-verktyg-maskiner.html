@@ -48,11 +48,12 @@ section{padding:70px 0}.white{background:#fff}.soft{background:var(--soft)}.dark
 .sort-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.sort{padding:20px;border-radius:16px;background:#fff;border:1px solid var(--line)}.sort strong{display:block;margin-bottom:7px;font-size:1.05rem}.sort p{margin:0;color:var(--muted);font-size:14px}.sort.keep{border-top:4px solid #527257}.sort.sell{border-top:4px solid var(--gold)}.sort.check{border-top:4px solid #7183a2}.sort.leave{border-top:4px solid #9a796c}
 .timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.step{padding:22px;border-radius:17px;background:#1d3522;border:1px solid #34503a}.num{width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--gold);color:#172019;font-weight:900;margin-bottom:14px}.step h3{margin:0 0 8px;color:#fff}.step p{margin:0;color:#d2ded4}
 .mistakes{display:grid;gap:12px;margin-top:23px}.mistake{display:grid;grid-template-columns:38px 1fr;gap:13px;padding:18px;border-radius:15px;background:#fff;border:1px solid var(--line)}.mistake span{width:34px;height:34px;display:grid;place-items:center;border-radius:50%;background:#f6e7e0;color:#7c3f2e;font-weight:900}.mistake h3{margin:0 0 5px;font-size:1.05rem}.mistake p{margin:0;color:var(--muted)}
+.local-links{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.local-links a{display:flex;justify-content:space-between;gap:12px;text-decoration:none;padding:17px 18px;border-radius:14px;background:#fff;border:1px solid var(--line);font-weight:800}.local-links a:hover{box-shadow:var(--shadow)}
 .related{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.related a{text-decoration:none;padding:20px;border-radius:16px;background:#fff;border:1px solid var(--line)}.related a:hover{box-shadow:var(--shadow)}.related strong{display:block;margin-bottom:5px}.related span{font-size:14px;color:var(--muted)}
 .faq{display:grid;gap:10px}details{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}summary{cursor:pointer;font-weight:850;padding:18px 50px 18px 18px;position:relative}summary:after{content:"+";position:absolute;right:17px;top:15px;font-size:22px}details[open] summary:after{content:"−"}details div{padding:0 18px 18px}details p{margin:0;color:var(--muted)}
 .cta{padding:34px;border-radius:23px;background:linear-gradient(135deg,#102118,#315d3b);color:#fff;display:flex;align-items:center;justify-content:space-between;gap:25px;box-shadow:var(--shadow)}.cta h2{color:#fff}.cta p{margin:0;color:#d7e3d9;max-width:690px}
-@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.card{grid-column:span 6}.sort-grid,.timeline{grid-template-columns:1fr 1fr}.related{grid-template-columns:1fr 1fr}}
-@media(max-width:620px){.wrap{width:min(100% - 28px,var(--max))}.hero{padding:56px 0 50px}section{padding:52px 0}.card{grid-column:1/-1}.sort-grid,.timeline,.related{grid-template-columns:1fr}.actions,.cta{flex-direction:column;align-items:stretch}.btn{width:100%}}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.card{grid-column:span 6}.sort-grid,.timeline{grid-template-columns:1fr 1fr}.related{grid-template-columns:1fr 1fr}.local-links{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.wrap{width:min(100% - 28px,var(--max))}.hero{padding:56px 0 50px}section{padding:52px 0}.card{grid-column:1/-1}.sort-grid,.timeline,.related{grid-template-columns:1fr}.local-links{grid-template-columns:1fr}.actions,.cta{flex-direction:column;align-items:stretch}.btn{width:100%}}
 </style>
 </head>
 <body>
@@ -150,14 +151,25 @@ section{padding:70px 0}.white{background:#fff}.soft{background:var(--soft)}.dark
 
 <section class="soft">
  <div class="wrap">
-  <div class="head"><p class="kicker">Läs vidare</p><h2>Fler guider och lokala dödsbosidor</h2></div>
+  <div class="head"><p class="kicker">Läs vidare</p><h2>Fler guider om dödsbo</h2></div>
   <div class="related">
-   <a href="dodsbo-glom-inte-garaget.html"><strong>Glöm inte garaget</strong><span>Vad som är klokt att kontrollera innan utrensningen börjar.</span></a>
+   <a href="e-garaget.html"><strong>Glöm inte garaget</strong><span>Vad som är klokt att kontrollera innan utrensningen börjar.</span></a>
    <a href="dodsbo-utrensning.html"><strong>Vi köper från dödsbon</strong><span>Huvudsidan om hur vi bedömer och köper relevanta partier.</span></a>
-   <a href="dodsbo-hjo.html"><strong>Dödsbo i Hjo</strong><span>Lokal information för Hjo.</span></a>
-   <a href="dodsbo-skovde.html"><strong>Dödsbo i Skövde</strong><span>Lokal information för Skövde.</span></a>
-   <a href="dodsbo-tibro.html"><strong>Dödsbo i Tibro</strong><span>Lokal information för Tibro.</span></a>
-   <a href="dodsbo-falkoping.html"><strong>Dödsbo i Falköping</strong><span>Lokal information för Falköping.</span></a>
+  </div>
+
+  <div class="head" style="margin-top:42px"><p class="kicker">Lokalt i Skaraborg</p><h2>Lokala sidor om dödsbo i Skaraborg</h2><p>Här hittar du våra lokala sidor för uppköp av maskiner, verktyg och andra relevanta objekt från dödsbon.</p></div>
+  <div class="local-links">
+   <a href="dodsbo-utrensning-hjo.html"><span>Dödsbo i Hjo</span><span>→</span></a>
+   <a href="dodsbo-utrensning-skovde.html"><span>Dödsbo i Skövde</span><span>→</span></a>
+   <a href="dodsbo-utrensning-tibro.html"><span>Dödsbo i Tibro</span><span>→</span></a>
+   <a href="dodsbo-utrensning-tidaholm.html"><span>Dödsbo i Tidaholm</span><span>→</span></a>
+   <a href="dodsbo-utrensning-falkoping.html"><span>Dödsbo i Falköping</span><span>→</span></a>
+   <a href="dodsbo-utrensning-skara.html"><span>Dödsbo i Skara</span><span>→</span></a>
+   <a href="dodsbo-utrensning-karlsborg.html"><span>Dödsbo i Karlsborg</span><span>→</span></a>
+   <a href="dodsbo-utrensning-mariestad.html"><span>Dödsbo i Mariestad</span><span>→</span></a>
+   <a href="dodsbo-utrensning-toreboda.html"><span>Dödsbo i Töreboda</span><span>→</span></a>
+   <a href="dodsbo-utrensning-habo.html"><span>Dödsbo i Habo</span><span>→</span></a>
+   <a href="dodsbo-lidkoping.html"><span>Dödsbo i Lidköping</span><span>→</span></a>
   </div>
  </div>
 </section>
