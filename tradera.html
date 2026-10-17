@@ -61,7 +61,8 @@ const data=await res.json();
 if(data.status!=="ready"||!Array.isArray(data.items))return;
 const stamp=Date.parse(data.updated_at||"");if(!Number.isFinite(stamp)||Date.now()-stamp>36*60*60*1000){status.textContent="Annonslistan är tillfälligt inte uppdaterad. Se alltid aktuella annonser direkt på Tradera.";return}
 updated.textContent="Senast synkroniserad: "+new Date(stamp).toLocaleString("sv-SE");
-const items=data.items.filter(x=>x&&typeof x.title==="string"&&typeof x.url==="string"&&/^https:\/\/(www\.)?tradera\.com\//i.test(x.url));
+const now=Date.now();
+const items=data.items.filter(x=>x&&typeof x.title==="string"&&typeof x.url==="string"&&/^https:\/\/(www\.)?tradera\.com\//i.test(x.url)&&typeof x.end_at==="string"&&Number.isFinite(Date.parse(x.end_at))&&Date.parse(x.end_at)>now);
 function draw(){
 list.replaceChildren();
 const q=filter.value.toLocaleLowerCase("sv-SE").trim();const visible=items.filter(x=>x.title.toLocaleLowerCase("sv-SE").includes(q));
@@ -70,7 +71,7 @@ status.hidden=visible.length>0;
 if(!visible.length){status.textContent=items.length?"Inga annonser matchar din sökning.":"Inga aktiva annonser att visa just nu. Besök gärna vår Tradera-profil."}
 for(const item of visible){
 const article=document.createElement("article");article.className="item";
-if(typeof item.image==="string"&&/^https:\/\//i.test(item.image)){const img=document.createElement("img");img.className="thumb";img.src=item.image;img.alt="Bild på "+item.title;img.loading="lazy";article.append(img)}
+if(typeof item.image==="string"&&/^https:\/\//i.test(item.image)){const img=document.createElement("img");img.className="thumb";img.src=item.image;img.alt="Bild på "+item.title;img.loading="lazy";img.addEventListener("error",()=>{img.remove()},{once:true});article.append(img)}
 const inner=document.createElement("div");inner.className="inner";
 const h=document.createElement("h3");h.textContent=item.title;inner.append(h);
 if(typeof item.price==="number"&&Number.isFinite(item.price)){const p=document.createElement("div");p.className="price";p.textContent=(item.price_kind==="starting_bid"?"Utropspris: ":item.price_kind==="current_bid"?"Aktuellt bud: ":"Köp nu: ")+new Intl.NumberFormat("sv-SE",{style:"currency",currency:"SEK",maximumFractionDigits:0}).format(item.price);inner.append(p)}
