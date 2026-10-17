@@ -50,12 +50,15 @@ def normalize(item, now):
     quantity = first(item, "remainingQuantity")
     if not isinstance(quantity, int) or quantity <= 0:
         return None
-    url = first(item, "itemLink", "itemUrl", "url", "link")
-    if not isinstance(url,str) or not TRADERA_LINK.match(url):
-        category = first(item, "categoryId")
-        if not isinstance(category, int):
-            return None
+    # Build the canonical public listing route from verified Tradera item identifiers.
+    # API itemLink may point to a non-public/API URL.
+    category = first(item, "categoryId")
+    if isinstance(category, int) and category > 0 and str(ident).isdigit():
         url = f"https://www.tradera.com/item/{category}/{ident}"
+    else:
+        url = first(item, "itemLink", "itemUrl", "url", "link")
+        if not isinstance(url, str) or not TRADERA_LINK.match(url):
+            return None
     image = first(item, "thumbnailImage", "thumbnailUrl", "imageUrl", "image", "imageLinks")
     if isinstance(image, list):
         image = image[0] if image else None
