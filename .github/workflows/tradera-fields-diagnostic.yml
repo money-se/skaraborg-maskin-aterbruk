@@ -1,0 +1,58 @@
+name: Tradera status- och prisdiagnostik
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Analysera status, priser och bildformat utan privata uppgifter
+        env:
+          TRADERA_APP_ID: ${{ secrets.TRADERA_APP_ID }}
+          TRADERA_APP_KEY: ${{ secrets.TRADERA_APP_KEY }}
+        run: |
+          python - <<'PY'
+          import collections,datetime,json,os,urllib.request
+          req=urllib.request.Request("https://api.tradera.com/v4/items/seller/5896660",headers={"X-App-Id":os.environ["TRADERA_APP_ID"],"X-App-Key":os.environ["TRADERA_APP_KEY"],"Accept":"application/json"})
+          with urllib.request.urlopen(req,timeout=25) as r: items=json.load(r)
+          if not isinstance(items,list): raise ValueError("Oväntat schema")
+          now=datetime.datetime.now(datetime.timezone.utc)
+          statuses=collections.Counter()
+          combos=collections.Counter()
+          images=collections.Counter()
+          prices=collections.Counter()
+          candidates=0
+          for x in items:
+              if not isinstance(x,dict):continue
+              end=x.get("endDate")
+              try:
+                  t=datetime.datetime.fromisoformat(end.replace("Z","+00:00"))
+                  if t.tzinfo is None:t=t.replace(tzinfo=datetime.timezone.utc)
+              except (AttributeError,ValueError):continue
+              active=t>now and x.get("remainingQuantity",0)>0
+              status=x.get("status")
+              if active:
+                  candidates+=1
+                  if isinstance(status,dict):
+                      for k,v in status.items():statuses[(k,str(v)[:36])]+=1
+                  else:statuses[("type",type(status).__name__)]+=1
+                  combos[(x.get("itemType"),bool(x.get("buyItNowPrice")),bool(x.get("maxBid")),bool(x.get("nextBid")))]+=1
+                  for field in ("imageLinks","detailedImageLinks"):
+                      val=x.get(field)
+                      images[(field,type(val).__name__,type(val[0]).__name__ if isinstance(val,list) and val else "empty")]+=1
+                  for field in ("buyItNowPrice","maxBid","nextBid","openingBid"):
+                      val=x.get(field)
+                      prices[(field,"positive" if isinstance(val,(int,float)) and val>0 else "zero_or_missing")]+=1
+          print("POTENTIALLY_ACTIVE",candidates)
+          print("STATUS_FIELD_VALUE_COUNTS")
+          for k,v in statuses.most_common(30):print(k, v)
+          print("ITEM_TYPE_PRICE_PRESENCE")
+          for k,v in combos.most_common(30):print(k,v)
+          print("IMAGE_SHAPES")
+          for k,v in images.most_common(20):print(k,v)
+          print("PRICE_PRESENCE")
+          for k,v in prices.most_common(20):print(k,v)
+          print("No seller data, credentials, titles, or URLs output.")
+          PY
