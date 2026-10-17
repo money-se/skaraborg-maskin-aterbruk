@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shopify-butiken | Skaraborg Maskin & Återbruk</title>
+<meta name="description" content="Upptäck kläder, muggar, accessoarer och andra produkter från Skaraborg Merch. Köp tryggt direkt i Shopify-butiken.">
+<link rel="canonical" href="https://skaraborgmaskin.se/shopify.html">
+<style>
+:root{--dark:#142317;--green:#1f3322;--gold:#d8a52e;--bg:#f6f7f4;--muted:#57665b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font:16px/1.5 system-ui,sans-serif;color:#142017}
+.wrap{width:min(100% - 32px,1160px);margin:auto}.hero{padding:56px 0;background:linear-gradient(115deg,var(--dark),var(--green));color:white}.hero p{max-width:760px;color:#e6eee7}
+h1{font-size:clamp(30px,5vw,49px);line-height:1.15;margin:8px 0}h2{font-size:26px}.eyebrow{color:#f0cb73;font-size:13px;font-weight:800;letter-spacing:.06em}
+.hero a{display:inline-block;margin-top:12px;padding:10px 17px;border-radius:10px;background:var(--gold);color:#142017;text-decoration:none;font-weight:750}
+.audience{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.audience button{border:2px solid var(--green);border-radius:10px;padding:12px 22px;font:inherit;font-weight:700;background:white;color:var(--green);cursor:pointer}.audience button[aria-pressed="true"]{background:var(--green);color:white}.about{background:#eaf0e9;padding:38px 0}.about p{max-width:790px}main section.catalog{padding:38px 0 70px}.controls{display:grid;grid-template-columns:minmax(220px,2fr) repeat(2,minmax(155px,1fr));gap:12px;margin:22px 0 12px}
+.control label{display:block;margin-bottom:4px;font-weight:650;font-size:14px}.control input,.control select{width:100%;padding:12px;border:1px solid #b9c8b9;border-radius:9px;background:white;font:inherit}
+#count,.muted{color:var(--muted);font-size:14px}.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px;margin-top:18px}
+.product{display:flex;flex-direction:column;background:white;border:1px solid #dfe6df;border-radius:15px;overflow:hidden}.product img{width:100%;aspect-ratio:4/3;object-fit:cover;background:#e9eee8}.details{display:flex;flex-direction:column;flex:1;gap:10px;padding:16px}.details h3{font-size:17px;line-height:1.3;margin:0}.category{font-size:13px;color:var(--muted)}.price{font-weight:800;font-size:19px}
+.product a{display:block;margin-top:auto;text-align:center;text-decoration:none;background:var(--green);padding:10px;border-radius:9px;color:#fff;font-weight:750}
+.notice{padding:20px;background:white;border:1px solid #dfe6df;border-radius:12px}.more{display:block;margin:25px auto 0;padding:13px 30px;background:var(--green);color:white;border:0;border-radius:10px;font:inherit;font-weight:750;cursor:pointer}
+[hidden]{display:none!important}@media(max-width:680px){.controls{grid-template-columns:1fr}.hero{padding:40px 0}}
+</style></head><body>
+<div id="site-header"></div>
+<main>
+<section class="hero"><div class="wrap"><div class="eyebrow">SKARABORG MASKIN & ÅTERBRUK · SKARABORG MERCH</div><h1>Våra produkter från Skaraborg Merch</h1><p>Här hittar du kläder, presenter och andra produkter från vår Shopify-butik. Välj en produkt för att se alternativ, tillgänglighet och genomföra köpet tryggt hos Skaraborg Merch.</p><a href="https://skaraborgmerch.se/" target="_blank" rel="noopener noreferrer">Besök hela butiken ↗</a></div></section>
+<section class="about"><div class="wrap"><h2>Två bröder, maskiner och återbruk</h2><p>Skaraborg Maskin & Återbruk är ett familjedrivet företag med rötterna i Hjo. Vi köper, hämtar och säljer begagnade maskiner, redskap och annat som förtjänar att användas igen. I Skaraborg Merch har vi samlat kläder och produkter med inspiration från maskiner, verkstad och vardagen omkring oss.</p><p>Här kan du upptäcka vårt sortiment och gå vidare till Skaraborg Merch när du vill handla.</p></div></section>
+<section class="catalog"><div class="wrap"><h2>Upptäck sortimentet</h2><p>Vi visar vuxensortimentet först. Vill du se produkter för barn väljer du Barn nedan.</p><div class="audience" role="group" aria-label="Välj sortiment"><button id="adult" type="button" aria-pressed="true">Vuxna</button><button id="child" type="button" aria-pressed="false">Barn</button></div><p id="updated" class="muted">Vi förbereder produktkatalogen.</p>
+<div class="controls"><div class="control"><label for="search">Sök produkt</label><input id="search" type="search" placeholder="Sök bland produkterna" disabled></div>
+<div class="control"><label for="category">Kategori</label><select id="category" disabled><option value="">Alla kategorier</option></select></div>
+<div class="control"><label for="sort">Sortera</label><select id="sort" disabled><option value="title">Namn A–Ö</option><option value="low">Lägsta pris</option><option value="high">Högsta pris</option></select></div></div>
+<div id="count" aria-live="polite"></div>
+<div id="status" role="status" class="notice">Katalogen är inte ansluten ännu. Besök vår <a href="https://skaraborgmerch.se/">Shopify-butik</a> för aktuellt sortiment.</div>
+<div id="items" class="cards"></div><button type="button" id="more" class="more" hidden>Visa fler produkter</button>
+<p class="muted">Priser och tillgänglighet kan ändras. Aktuella uppgifter och betalning finns alltid på Skaraborg Merch.</p>
+</div></section></main><div id="site-footer"></div>
+<script>
+(async()=>{
+for(const [id,path] of [["site-header","partials1/header.html"],["site-footer","partials1/footer.html"]]){
+ try{const r=await fetch(path);if(r.ok)document.getElementById(id).innerHTML=await r.text()}catch(e){}
+}
+const search=document.getElementById("search"),category=document.getElementById("category"),sort=document.getElementById("sort"),
+count=document.getElementById("count"),status=document.getElementById("status"),grid=document.getElementById("items"),more=document.getElementById("more"),updated=document.getElementById("updated");
+let limit=16;let audience="vuxna";const adult=document.getElementById("adult"),child=document.getElementById("child");
+try{
+const r=await fetch("data/shopify-items.json",{cache:"no-store"});if(!r.ok)throw Error("Missing feed");
+const data=await r.json();if(data.status!=="ready"||!Array.isArray(data.items))return;
+const stamp=Date.parse(data.updated_at||"");if(!Number.isFinite(stamp)||Date.now()-stamp>48*60*60*1000||stamp>Date.now()+600000){status.textContent="Produktlistan är tillfälligt inte uppdaterad. Besök Skaraborg Merch för aktuellt sortiment.";return}
+const products=data.items.filter(x=>x&&typeof x.title==="string"&&typeof x.url==="string"&&/^https:\/\/skaraborgmerch\.se\/products\/[a-z0-9-]+\/?$/i.test(x.url)&&Number.isFinite(x.price)&&x.price>=0);
+updated.textContent="Senast uppdaterad: "+new Date(stamp).toLocaleString("sv-SE");
+function fillCategories(){category.replaceChildren();const all=document.createElement("option");all.value="";all.textContent="Alla kategorier";category.append(all);for(const group of [...new Set(products.filter(x=>x.audience===audience).map(x=>x.category||"Övrigt"))].sort((a,b)=>a.localeCompare(b,"sv"))){const option=document.createElement("option");option.value=group;option.textContent=group;category.append(option)}}fillCategories();
+function draw(){
+const q=search.value.trim().toLocaleLowerCase("sv-SE");
+const shown=products.filter(x=>x.audience===audience&&x.title.toLocaleLowerCase("sv-SE").includes(q)&&(!category.value||category.value===(x.category||"Övrigt")));
+shown.sort((a,b)=>sort.value==="low"?a.price-b.price:sort.value==="high"?b.price-a.price:a.title.localeCompare(b.title,"sv"));
+grid.replaceChildren();status.hidden=shown.length>0;
+if(!shown.length)status.textContent=products.length?"Inga produkter matchar sökningen.":"Inga produkter att visa. Besök Shopify-butiken.";
+for(const p of shown.slice(0,limit)){
+const card=document.createElement("article");card.className="product";
+if(typeof p.image==="string"&&p.image.startsWith("https://")){const img=document.createElement("img");img.src=p.image;img.loading="lazy";img.alt="Produktbild: "+p.title;img.addEventListener("error",()=>img.remove(),{once:true});card.append(img)}
+const body=document.createElement("div");body.className="details";
+const label=document.createElement("div");label.className="category";label.textContent=p.category||"Övrigt";body.append(label);
+const title=document.createElement("h3");title.textContent=p.title;body.append(title);
+const price=document.createElement("div");price.className="price";price.textContent="Från "+new Intl.NumberFormat("sv-SE",{style:"currency",currency:"SEK",maximumFractionDigits:0}).format(p.price);body.append(price);
+const a=document.createElement("a");a.href=p.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Visa i butiken ↗";body.append(a);card.append(body);grid.append(card)}
+count.textContent=shown.length+" produkter · visar "+Math.min(limit,shown.length);more.hidden=shown.length<=limit;
+}
+const refresh=()=>{limit=16;draw()};function switchAudience(next){audience=next;adult.setAttribute("aria-pressed",String(next==="vuxna"));child.setAttribute("aria-pressed",String(next==="barn"));search.value="";fillCategories();refresh()}adult.addEventListener("click",()=>switchAudience("vuxna"));child.addEventListener("click",()=>switchAudience("barn"));search.disabled=false;category.disabled=false;sort.disabled=false;search.addEventListener("input",refresh);category.addEventListener("change",refresh);sort.addEventListener("change",refresh);more.addEventListener("click",()=>{limit+=16;draw()});draw();
+}catch(e){console.warn("Shopify-katalog ej tillgänglig",e)}
+})();
+</script></body></html>

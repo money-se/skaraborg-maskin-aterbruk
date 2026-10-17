@@ -1,0 +1,31 @@
+name: Synka Shopify-produkter
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "37 */3 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: shopify-feed
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Kontrollera synkroniseringskod
+        run: python -m py_compile scripts/sync_shopify.py
+      - name: Hämta publicerade Shopify-produkter
+        run: python scripts/sync_shopify.py
+      - name: Spara endast verifierat produktflöde
+        run: |
+          if git diff --quiet -- data/shopify-items.json; then
+            echo "Inga ändringar"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/shopify-items.json
+          git commit -m "Update Shopify product catalogue"
+          git push

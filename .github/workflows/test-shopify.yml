@@ -1,0 +1,18 @@
+name: Kontrollera Shopify-katalog
+on:
+  pull_request:
+    paths:
+      - shopify.html
+      - scripts/sync_shopify.py
+      - data/shopify-items.json
+      - tests/test_shopify_sync.py
+      - .github/workflows/sync-shopify.yml
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m py_compile scripts/sync_shopify.py
+      - run: python -m unittest discover -s tests -p test_shopify_sync.py -v
