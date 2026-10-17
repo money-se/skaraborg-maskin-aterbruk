@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Våra Tradera-annonser | Skaraborg Maskin & Återbruk</title>
+<meta name="description" content="Utforska Skaraborg Maskin & Återbruks annonser på Tradera: begagnade maskindelar, reservdelar och återbruk. Gå vidare till Tradera för aktuella priser och köp.">
+<link rel="canonical" href="https://skaraborgmaskin.se/tradera.html">
+<meta name="robots" content="index,follow">
+<style>
+:root{--forest:#1f3322;--dark:#142317;--gold:#d8a52e;--bg:#f6f7f4;--muted:#57665b;--line:#dfe6df}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:#142017}
+a{color:inherit}.wrap{width:min(100% - 40px,1160px);margin-inline:auto}
+.hero{background:linear-gradient(120deg,var(--dark),var(--forest));color:white;padding:65px 0}
+.kicker{color:#f0cb73;font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:clamp(32px,5vw,52px);line-height:1.12;margin:10px 0 18px}h2{font-size:clamp(22px,3vw,30px)}
+.hero p{max-width:760px;color:#e2ece3}.btn{display:inline-flex;padding:11px 16px;border-radius:11px;background:var(--gold);color:#142017;font-weight:800;text-decoration:none}
+.hero .btn{margin-top:12px}main section.content{padding:42px 0 70px}
+.toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:24px 0}.toolbar label{font-weight:750}
+#filter,.toolbar select{flex:1;min-width:190px;border:1px solid #bdcbbc;border-radius:10px;font:inherit;padding:12px;background:#fff}
+#count{color:var(--muted);margin-left:auto}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:18px}
+.item{background:#fff;border:1px solid var(--line);border-radius:17px;overflow:hidden;display:flex;flex-direction:column}
+.thumb{width:100%;aspect-ratio:4/3;object-fit:cover;background:#edf1ec}
+.item .inner{padding:17px;display:flex;flex-direction:column;gap:8px;flex:1}
+.item h3{font-size:18px;line-height:1.25;margin:0}.price{font-weight:900;font-size:19px}.meta{color:var(--muted);font-size:13px}
+.item a.go{margin-top:auto;display:inline-flex;padding:10px 12px;background:var(--forest);color:white;border-radius:10px;text-decoration:none;font-weight:750;justify-content:center}
+.notice{background:#fff;border:1px solid var(--line);padding:20px;border-radius:14px}
+.small{font-size:14px;color:var(--muted)}
+.more{display:block;margin:26px auto 0;padding:13px 28px;border:0;border-radius:11px;background:var(--forest);color:white;font:inherit;font-weight:750;cursor:pointer}.more[hidden]{display:none}
+#site-header{min-height:70px}#site-footer{min-height:150px}
+@media(max-width:520px){.hero{padding:42px 0}#count{margin-left:0}}
+</style>
+</head>
+<body>
+<div id="site-header"></div>
+<main>
+<section class="hero"><div class="wrap">
+<div class="kicker">Skaraborg Maskin & Återbruk · Återbruk i hela Sverige</div>
+<h1>Våra annonser på Tradera</h1>
+<p>Här samlar vi våra aktuella Tradera-annonser. Hitta reservdelar, tillbehör och andra begagnade objekt. Priser och tillgänglighet kontrolleras alltid på Tradera innan köp.</p>
+<a class="btn" href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener noreferrer">Besök vår Tradera-profil ↗</a>
+</div></section>
+<section class="content"><div class="wrap">
+<h2>Aktuella objekt</h2>
+<p class="small" id="updated">Vi förbereder automatisk synkronisering från Tradera.</p>
+<div class="toolbar"><label for="filter">Sök bland annonserna</label><input type="search" id="filter" placeholder="Sök maskin, reservdel, modell …" disabled><label for="category">Varugrupp</label><select id="category" disabled><option value="">Alla varugrupper</option></select><label for="sort">Sortera</label><select id="sort" disabled><option value="end">Avslutas snart</option><option value="newest">Avslutas sist</option><option value="price-asc">Lägsta pris</option><option value="price-desc">Högsta pris</option><option value="title">Namn A–Ö</option></select><span id="count" aria-live="polite"></span></div>
+<div id="status" class="notice" role="status">Annonsflödet är ännu inte anslutet. Under tiden hittar du alla våra annonser direkt på <a href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener noreferrer">Tradera</a>.</div>
+<div class="grid" id="list" aria-live="polite"></div>
+<button id="more" class="more" type="button" hidden>Visa fler annonser</button>
+<p class="small">Annonser kan säljas eller avslutas mellan uppdateringar. Traderas annonssida visar alltid den aktuella informationen.</p>
+</div></section></main>
+<div id="site-footer"></div>
+<script>
+(async()=>{
+for(const [id,path] of [["site-header","partials1/header.html"],["site-footer","partials1/footer.html"]]){
+try{const r=await fetch(path);if(r.ok)document.getElementById(id).innerHTML=await r.text()}catch(e){console.warn("Sidkomponent kunde inte läsas",e)}
+}
+const status=document.getElementById("status"),list=document.getElementById("list"),filter=document.getElementById("filter"),count=document.getElementById("count"),updated=document.getElementById("updated"),more=document.getElementById("more"),category=document.getElementById("category"),sort=document.getElementById("sort");
+const PAGE_SIZE=16;let limit=PAGE_SIZE;
+try{
+const res=await fetch("data/tradera-items.json",{cache:"no-store"});if(!res.ok)throw Error("Ingen aktuell data");
+const data=await res.json();
+if(data.status!=="ready"||!Array.isArray(data.items))return;
+const stamp=Date.parse(data.updated_at||"");if(!Number.isFinite(stamp)||Date.now()-stamp>36*60*60*1000){status.textContent="Annonslistan är tillfälligt inte uppdaterad. Se alltid aktuella annonser direkt på Tradera.";return}
+updated.textContent="Senast synkroniserad: "+new Date(stamp).toLocaleString("sv-SE");
+const now=Date.now();
+const items=data.items.filter(x=>x&&typeof x.title==="string"&&typeof x.url==="string"&&/^https:\/\/(www\.)?tradera\.com\//i.test(x.url)&&typeof x.end_at==="string"&&Number.isFinite(Date.parse(x.end_at))&&Date.parse(x.end_at)>now);
+function groupOf(item){
+const title=item.title.toLocaleLowerCase("sv-SE");
+if(/tändstift|förgasare|kolv|cylinder|vevaxel|packning|motor|startmotor|tändspole|luftfilter|bränslefilter|oljefilter|drivrem|brigg|kohler|tecumseh/.test(title))return "Motorer och motordelar";
+if(/gräsklipp|rider|stiga|husqvarna|robotklipp|trimmer|röjsåg|motorsåg|häcksax|jordfräs|snöslunga/.test(title))return "Trädgårdsmaskiner";
+if(/atv|fyrhjul|moped|motorcykel|cross|skoter|mc |variator/.test(title))return "MC, moped och ATV";
+if(/verktyg|borr|skruvdrag|hyls|nyckel|sågblad|slip|kompressor|svets|domkraft/.test(title))return "Verktyg och utrustning";
+if(/traktor|gräv|hydraul|lastmaskin|lantbruk|harv|plog|redskap/.test(title))return "Traktor och entreprenad";
+return "Övriga delar och varor";
+}
+for(const label of [...new Set(items.map(groupOf))].sort((a,b)=>a.localeCompare(b,"sv"))){
+const option=document.createElement("option");option.value=label;option.textContent=label+" ("+items.filter(x=>groupOf(x)===label).length+")";category.append(option)
+}
+function draw(){
+list.replaceChildren();
+const q=filter.value.toLocaleLowerCase("sv-SE").trim();const visible=items.filter(x=>x.title.toLocaleLowerCase("sv-SE").includes(q)&&(!category.value||groupOf(x)===category.value));
+visible.sort((a,b)=>sort.value==="price-asc"?(a.price??Infinity)-(b.price??Infinity):sort.value==="price-desc"?(b.price??-Infinity)-(a.price??-Infinity):sort.value==="title"?a.title.localeCompare(b.title,"sv"):sort.value==="newest"?Date.parse(b.end_at)-Date.parse(a.end_at):Date.parse(a.end_at)-Date.parse(b.end_at));
+count.textContent=visible.length+" annonser · visar "+Math.min(limit,visible.length);
+status.hidden=visible.length>0;
+if(!visible.length){status.textContent=items.length?"Inga annonser matchar din sökning.":"Inga aktiva annonser att visa just nu. Besök gärna vår Tradera-profil."}
+more.hidden=visible.length<=limit;
+for(const item of visible.slice(0,limit)){
+const article=document.createElement("article");article.className="item";
+if(typeof item.image==="string"&&/^https:\/\//i.test(item.image)){const img=document.createElement("img");img.className="thumb";img.src=item.image;img.alt="Bild på "+item.title;img.loading="lazy";img.addEventListener("error",()=>{img.remove()},{once:true});article.append(img)}
+const inner=document.createElement("div");inner.className="inner";
+const h=document.createElement("h3");h.textContent=item.title;inner.append(h);
+if(typeof item.price==="number"&&Number.isFinite(item.price)){const p=document.createElement("div");p.className="price";p.textContent=(item.price_kind==="starting_bid"?"Utropspris: ":item.price_kind==="current_bid"?"Aktuellt bud: ":"Köp nu: ")+new Intl.NumberFormat("sv-SE",{style:"currency",currency:"SEK",maximumFractionDigits:0}).format(item.price);inner.append(p)}
+if(typeof item.end_at==="string"){const d=new Date(item.end_at);if(Number.isFinite(d.getTime())){const e=document.createElement("div");e.className="meta";e.textContent="Avslutas: "+d.toLocaleString("sv-SE");inner.append(e)}}
+const a=document.createElement("a");a.className="go";a.href=item.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Visa på Tradera ↗";inner.append(a);article.append(inner);list.append(article)
+}}
+filter.disabled=false;category.disabled=false;sort.disabled=false;const refresh=()=>{limit=PAGE_SIZE;draw()};filter.addEventListener("input",refresh);category.addEventListener("change",refresh);sort.addEventListener("change",refresh);more.addEventListener("click",()=>{limit+=PAGE_SIZE;draw()});draw();
+}catch(e){console.warn("Annonsflödet kunde inte laddas",e)}
+})();
+</script></body></html>
