@@ -1,0 +1,44 @@
+name: Förhandsgranska Shopify-katalog
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/shopify-katalog
+          persist-credentials: false
+      - name: Create standalone Shopify preview
+        run: |
+          python scripts/sync_shopify.py
+          python - <<'PY'
+          import pathlib,json
+          root=pathlib.Path(".")
+          page=(root/"shopify.html").read_text(encoding="utf-8")
+          data=json.loads((root/"data/shopify-items.json").read_text(encoding="utf-8"))
+          for ident,path in (("site-header","partials1/header.html"),("site-footer","partials1/footer.html")):
+              component=(root/path).read_text(encoding="utf-8")
+              page=page.replace('<div id="'+ident+'"></div>','<div id="'+ident+'">'+component+'</div>')
+          start='for(const [id,path] of [["site-header","partials1/header.html"],["site-footer","partials1/footer.html"]]){'
+          end='const search=document.getElementById("search")'
+          a=page.index(start);b=page.index(end,a)
+          page=page[:a]+page[b:]
+          old='const r=await fetch("data/shopify-items.json",{cache:"no-store"});if(!r.ok)throw Error("Missing feed");\nconst data=await r.json();'
+          if old not in page:raise ValueError("Feed injection point missing")
+          safe=json.dumps(data,ensure_ascii=False,separators=(",",":")).replace("<","\\u003c").replace(">","\\u003e").replace("&","\\u0026")
+          page=page.replace(old,"const data="+safe+";")
+          page=page.replace("Senast uppdaterad: ","Förhandsvisning hämtad: ")
+          out=root/"preview-shopify";out.mkdir(exist_ok=True)
+          (out/"shopify-forhandsvisning.html").write_text(page,encoding="utf-8")
+          print("SHOPIFY_PREVIEW_READY",len(data["items"]))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopify-forhandsvisning
+          path: preview-shopify/shopify-forhandsvisning.html
+          retention-days: 7
+          if-no-files-found: error
