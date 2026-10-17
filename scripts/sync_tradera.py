@@ -6,6 +6,7 @@ import os
 import pathlib
 import re
 import sys
+import unicodedata
 import urllib.error
 import urllib.request
 
@@ -54,7 +55,9 @@ def normalize(item, now):
     # API itemLink may point to a non-public/API URL.
     category = first(item, "categoryId")
     if isinstance(category, int) and category > 0 and str(ident).isdigit():
-        url = f"https://www.tradera.com/item/{category}/{ident}"
+        slug = unicodedata.normalize("NFKD", title.casefold()).encode("ascii", "ignore").decode("ascii")
+        slug = re.sub(r"[^a-z0-9]+", "-", slug).strip("-")[:90].strip("-")
+        url = f"https://www.tradera.com/item/{category}/{ident}/{slug}" if slug else f"https://www.tradera.com/item/{category}/{ident}"
     else:
         url = first(item, "itemLink", "itemUrl", "url", "link")
         if not isinstance(url, str) or not TRADERA_LINK.match(url):
