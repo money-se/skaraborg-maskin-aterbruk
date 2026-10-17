@@ -61,6 +61,8 @@ def normalize(item, now):
         image = image[0] if image else None
     if isinstance(image, dict):
         image = first(image, "url", "href", "imageUrl", "link")
+    if isinstance(image, str) and image.startswith("http://"):
+        image = "https://" + image[len("http://"):]
     if not (isinstance(image, str) and image.startswith("https://")):
         image = None
     item_type = item.get("itemType")
