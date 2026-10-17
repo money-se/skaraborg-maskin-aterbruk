@@ -44,7 +44,11 @@ jobs:
                                       print('Annonsfält:',', '.join(sorted(obj[field][0].keys())[:40]))
                       else: print('Oväntat svarformat:',type(obj).__name__)
               except urllib.error.HTTPError as e:
-                  print(label+': HTTP '+str(e.code)+' (inga svarskroppar eller nycklar skrivs ut)')\n                  if e.code == 401: print('HTTP 401: kontrollera att App ID och App Key tillhör samma nya applikation; se även om REST v4 har aktiverats')\n                  if e.code == 403: print('HTTP 403: applikation eller konto saknar behörighet till denna endpoint')
+                  print(label+': HTTP '+str(e.code)+' (inga svarskroppar eller nycklar skrivs ut)')
+                  if e.code == 401:
+                      print('HTTP 401: kontrollera App ID och App Key samt REST-behörighet')
+                  if e.code == 403:
+                      print('HTTP 403: behörighet till endpoint saknas')
                   sys.exit(1)
               except Exception as e:
                   print(label+': fel av typen '+type(e).__name__)
