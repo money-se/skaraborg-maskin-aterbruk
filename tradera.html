@@ -27,6 +27,7 @@ h1{font-size:clamp(32px,5vw,52px);line-height:1.12;margin:10px 0 18px}h2{font-si
 .item a.go{margin-top:auto;display:inline-flex;padding:10px 12px;background:var(--forest);color:white;border-radius:10px;text-decoration:none;font-weight:750;justify-content:center}
 .notice{background:#fff;border:1px solid var(--line);padding:20px;border-radius:14px}
 .small{font-size:14px;color:var(--muted)}
+.more{display:block;margin:26px auto 0;padding:13px 28px;border:0;border-radius:11px;background:var(--forest);color:white;font:inherit;font-weight:750;cursor:pointer}.more[hidden]{display:none}
 #site-header{min-height:70px}#site-footer{min-height:150px}
 @media(max-width:520px){.hero{padding:42px 0}#count{margin-left:0}}
 </style>
@@ -46,6 +47,7 @@ h1{font-size:clamp(32px,5vw,52px);line-height:1.12;margin:10px 0 18px}h2{font-si
 <div class="toolbar"><label for="filter">Sök bland annonserna</label><input type="search" id="filter" placeholder="Sök maskin, reservdel, modell …" disabled><span id="count" aria-live="polite"></span></div>
 <div id="status" class="notice" role="status">Annonsflödet är ännu inte anslutet. Under tiden hittar du alla våra annonser direkt på <a href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener noreferrer">Tradera</a>.</div>
 <div class="grid" id="list" aria-live="polite"></div>
+<button id="more" class="more" type="button" hidden>Visa fler annonser</button>
 <p class="small">Annonser kan säljas eller avslutas mellan uppdateringar. Traderas annonssida visar alltid den aktuella informationen.</p>
 </div></section></main>
 <div id="site-footer"></div>
@@ -54,7 +56,8 @@ h1{font-size:clamp(32px,5vw,52px);line-height:1.12;margin:10px 0 18px}h2{font-si
 for(const [id,path] of [["site-header","partials1/header.html"],["site-footer","partials1/footer.html"]]){
 try{const r=await fetch(path);if(r.ok)document.getElementById(id).innerHTML=await r.text()}catch(e){console.warn("Sidkomponent kunde inte läsas",e)}
 }
-const status=document.getElementById("status"),list=document.getElementById("list"),filter=document.getElementById("filter"),count=document.getElementById("count"),updated=document.getElementById("updated");
+const status=document.getElementById("status"),list=document.getElementById("list"),filter=document.getElementById("filter"),count=document.getElementById("count"),updated=document.getElementById("updated"),more=document.getElementById("more");
+const PAGE_SIZE=16;let limit=PAGE_SIZE;
 try{
 const res=await fetch("data/tradera-items.json",{cache:"no-store"});if(!res.ok)throw Error("Ingen aktuell data");
 const data=await res.json();
@@ -66,10 +69,11 @@ const items=data.items.filter(x=>x&&typeof x.title==="string"&&typeof x.url==="s
 function draw(){
 list.replaceChildren();
 const q=filter.value.toLocaleLowerCase("sv-SE").trim();const visible=items.filter(x=>x.title.toLocaleLowerCase("sv-SE").includes(q));
-count.textContent=visible.length+" annonser";
+count.textContent=visible.length+" annonser · visar "+Math.min(limit,visible.length);
 status.hidden=visible.length>0;
 if(!visible.length){status.textContent=items.length?"Inga annonser matchar din sökning.":"Inga aktiva annonser att visa just nu. Besök gärna vår Tradera-profil."}
-for(const item of visible){
+more.hidden=visible.length<=limit;
+for(const item of visible.slice(0,limit)){
 const article=document.createElement("article");article.className="item";
 if(typeof item.image==="string"&&/^https:\/\//i.test(item.image)){const img=document.createElement("img");img.className="thumb";img.src=item.image;img.alt="Bild på "+item.title;img.loading="lazy";img.addEventListener("error",()=>{img.remove()},{once:true});article.append(img)}
 const inner=document.createElement("div");inner.className="inner";
@@ -78,7 +82,7 @@ if(typeof item.price==="number"&&Number.isFinite(item.price)){const p=document.c
 if(typeof item.end_at==="string"){const d=new Date(item.end_at);if(Number.isFinite(d.getTime())){const e=document.createElement("div");e.className="meta";e.textContent="Avslutas: "+d.toLocaleString("sv-SE");inner.append(e)}}
 const a=document.createElement("a");a.className="go";a.href=item.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Visa på Tradera ↗";inner.append(a);article.append(inner);list.append(article)
 }}
-filter.disabled=false;filter.addEventListener("input",draw);draw();
+filter.disabled=false;filter.addEventListener("input",()=>{limit=PAGE_SIZE;draw()});more.addEventListener("click",()=>{limit+=PAGE_SIZE;draw()});draw();
 }catch(e){console.warn("Annonsflödet kunde inte laddas",e)}
 })();
 </script></body></html>
