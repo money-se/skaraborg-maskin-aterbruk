@@ -1,0 +1,43 @@
+name: Tradera bilddiagnostik
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  image-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Kontrollera bild-URL-format utan att exponera data
+        env:
+          TRADERA_APP_ID: ${{ secrets.TRADERA_APP_ID }}
+          TRADERA_APP_KEY: ${{ secrets.TRADERA_APP_KEY }}
+        run: |
+          python - <<'PY'
+          import json,os,urllib.request,collections,urllib.parse
+          req=urllib.request.Request('https://api.tradera.com/v4/items/seller/5896660',headers={'X-App-Id':os.environ['TRADERA_APP_ID'],'X-App-Key':os.environ['TRADERA_APP_KEY'],'Accept':'application/json'})
+          with urllib.request.urlopen(req,timeout=20) as res: data=json.load(res)
+          schemes=collections.Counter()
+          lengths=collections.Counter()
+          first_types=collections.Counter()
+          fields=collections.Counter()
+          for item in data:
+              if item.get('status',{}).get('ended') is not False:continue
+              arr=item.get('imageLinks')
+              if not isinstance(arr,list):continue
+              lengths['empty' if not arr else 'nonempty']+=1
+              if arr:
+                  first=arr[0]
+                  first_types[type(first).__name__]+=1
+                  if isinstance(first,str):
+                      parsed=urllib.parse.urlparse(first)
+                      schemes[parsed.scheme or 'no-scheme']+=1
+                      lengths['str-length='+str(min(len(first)//20*20,300))]+=1
+                  elif isinstance(first,dict):
+                      for key in first:fields[key]+=1
+          print('imageLinks availability:',dict(lengths))
+          print('First element types:',dict(first_types))
+          print('URL schemes:',dict(schemes))
+          print('Object keys:',dict(fields))
+          print('No image URLs, tokens or seller information printed.')
+          PY
