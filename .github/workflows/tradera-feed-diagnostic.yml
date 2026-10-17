@@ -1,0 +1,62 @@
+name: Tradera annonsdiagnostik
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Läs och analysera annonssvar utan publicering
+        env:
+          TRADERA_APP_ID: ${{ secrets.TRADERA_APP_ID }}
+          TRADERA_APP_KEY: ${{ secrets.TRADERA_APP_KEY }}
+        run: |
+          python - <<'PY'
+          import collections, datetime, json, os, urllib.request, sys
+          app=os.getenv("TRADERA_APP_ID","").strip()
+          key=os.getenv("TRADERA_APP_KEY","").strip()
+          if not app or not key:
+              sys.exit("API secrets saknas")
+          req=urllib.request.Request("https://api.tradera.com/v4/items/seller/5896660", headers={
+              "X-App-Id":app,"X-App-Key":key,"Accept":"application/json",
+              "User-Agent":"SMAR-readonly-diagnostic/1.0"})
+          with urllib.request.urlopen(req,timeout=25) as resp:
+              data=json.load(resp)
+          if isinstance(data,dict):
+              data=data.get("items")
+          if not isinstance(data,list):
+              sys.exit("Okänt API-format")
+          now=datetime.datetime.now(datetime.timezone.utc)
+          counts=collections.Counter()
+          types=collections.defaultdict(collections.Counter)
+          for obj in data:
+              if not isinstance(obj,dict):
+                  counts["non_object"]+=1
+                  continue
+              counts["total"]+=1
+              for field in ("id","shortDescription","title","itemLink","imageLinks","detailedImageLinks","buyItNowPrice","maxBid","nextBid","endDate","status","remainingQuantity","itemType","state","sold"):
+                  v=obj.get(field)
+                  types[field][type(v).__name__]+=1
+              end=obj.get("endDate")
+              if not isinstance(end,str):
+                  counts["missing_endDate"]+=1
+                  continue
+              try:
+                  end_time=datetime.datetime.fromisoformat(end.replace("Z","+00:00"))
+                  if end_time.tzinfo is None:
+                      end_time=end_time.replace(tzinfo=datetime.timezone.utc)
+              except ValueError:
+                  counts["unparsable_endDate"]+=1
+                  continue
+              counts["future_endDate" if end_time>now else "expired_endDate"]+=1
+              if end_time>now and obj.get("remainingQuantity")!=0:
+                  counts["potentially_active"]+=1
+          print("Diagnostic summary (no titles, identifiers, URLs, images or credentials)")
+          for k,v in sorted(counts.items()):
+              print(k+":",v)
+          for field in ("shortDescription","title","itemLink","imageLinks","detailedImageLinks","buyItNowPrice","maxBid","nextBid","endDate","status","remainingQuantity","itemType"):
+              print(field+" value types:",dict(types[field]))
+          print("Read-only diagnostic complete. No changes made.")
+          PY
