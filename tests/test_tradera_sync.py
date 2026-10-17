@@ -14,11 +14,17 @@ NOW=dt.datetime(2026,10,17,tzinfo=dt.timezone.utc)
 
 class TraderaTests(unittest.TestCase):
     def test_valid_item(self):
-        item={"id":1234,"shortDescription":"Briggs motor","categoryId":100,"buyItNowPrice":125,"endDate":"2026-10-20T12:00:00Z"}
+        item={"id":1234,"shortDescription":"Briggs motor","categoryId":100,"buyItNowPrice":125,"endDate":"2026-10-20T12:00:00Z","status":{"ended":False,"gotWinner":False,"gotBidders":False},"remainingQuantity":1,"itemType":3}
         output=sync.normalize(item,NOW)
         self.assertEqual(output["price"],125)
+        self.assertEqual(output["price_kind"],"buy_now")
         self.assertEqual(output["title"],"Briggs motor")
         self.assertEqual(output["url"],"https://www.tradera.com/item/100/1234")
+    def test_auction_starting_bid(self):
+        item={"id":7,"shortDescription":"Auktion","categoryId":100,"openingBid":50,"maxBid":70,"itemType":1,"status":{"ended":False,"gotWinner":False,"gotBidders":False},"remainingQuantity":1,"endDate":"2026-10-20T12:00:00Z"}
+        output=sync.normalize(item,NOW)
+        self.assertEqual(output["price"],50)
+        self.assertEqual(output["price_kind"],"starting_bid")
     def test_sold_item_excluded(self):
         self.assertIsNone(sync.normalize({"id":2,"title":"Såld","categoryId":100,"isSold":True},NOW))
     def test_ended_item_excluded(self):
