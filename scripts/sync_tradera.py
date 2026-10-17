@@ -82,7 +82,8 @@ def normalize(item, now):
             return None
     except (ValueError,TypeError):
         return None
-    return {"id":str(ident),"title":title.strip()[:180],"url":url,"image":image,"price":price,"price_kind":price_kind,"end_at":end}
+    category = first(item, "categoryId")
+    return {"id":str(ident),"title":title.strip()[:180],"url":url,"image":image,"price":price,"price_kind":price_kind,"category_id":str(category) if isinstance(category,int) else None,"end_at":end}
 
 def main():
     app_id=os.environ["TRADERA_APP_ID"]
