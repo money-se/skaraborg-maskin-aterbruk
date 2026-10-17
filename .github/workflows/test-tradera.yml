@@ -1,0 +1,22 @@
+name: Validate Tradera catalogue
+on:
+  pull_request:
+    paths:
+      - "scripts/sync_tradera.py"
+      - "tests/test_tradera_sync.py"
+      - "tradera.html"
+      - ".github/workflows/test-tradera.yml"
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile and run offline tests (no secrets)
+        run: |
+          python -m py_compile scripts/sync_tradera.py
+          python -m unittest discover -s tests -p test_tradera_sync.py -v
