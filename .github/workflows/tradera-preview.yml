@@ -1,0 +1,55 @@
+name: Förhandsgranska Tradera-sidan
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out Tradera feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/tradera-katalog
+          persist-credentials: false
+      - name: Build real preview with live Tradera listings
+        env:
+          TRADERA_APP_ID: ${{ secrets.TRADERA_APP_ID }}
+          TRADERA_APP_KEY: ${{ secrets.TRADERA_APP_KEY }}
+          TRADERA_SELLER_ID: "5896660"
+        run: |
+          python scripts/sync_tradera.py
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('.')
+          page=(root/'tradera.html').read_text(encoding='utf-8')
+          feed=json.loads((root/'data/tradera-items.json').read_text(encoding='utf-8'))
+          assert feed['status']=='ready' and feed['items'], 'No live listings'
+          for ident,component in [('site-header','partials1/header.html'),('site-footer','partials1/footer.html')]:
+              source=(root/component).read_text(encoding='utf-8')
+              # Preserve layout even when viewed as a standalone local file.
+              page=page.replace('<div id="'+ident+'"></div>','<div id="'+ident+'">'+source+'</div>')
+          start='for(const [id,path] of [["site-header","partials1/header.html"],["site-footer","partials1/footer.html"]]){'
+          end='const status=document.getElementById("status")'
+          i=page.index(start)
+          j=page.index(end,i)
+          page=page[:i]+page[j:]
+          old='const res=await fetch("data/tradera-items.json",{cache:"no-store"});if(!res.ok)throw Error("Ingen aktuell data");\nconst data=await res.json();'
+          if old not in page:raise RuntimeError('Expected feed fetch pattern absent')
+          embedded=json.dumps(feed,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c').replace('>','\\u003e').replace('&','\\u0026')
+          page=page.replace(old,'const data='+embedded+';')
+          # Local preview remains an offline file, not a live-updating feed.
+          page=page.replace('Senast synkroniserad: ','Förhandsvisning hämtad: ')
+          out=root/'preview'
+          out.mkdir(exist_ok=True)
+          (out/'tradera-forhandsvisning.html').write_text(page,encoding='utf-8')
+          print('PREVIEW_READY:',len(feed['items']),'real listings; no website publication')
+          PY
+      - name: Upload browser preview
+        uses: actions/upload-artifact@v4
+        with:
+          name: tradera-forhandsvisning
+          path: preview/tradera-forhandsvisning.html
+          retention-days: 7
+          if-no-files-found: error
