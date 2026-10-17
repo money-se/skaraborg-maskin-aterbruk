@@ -1,0 +1,40 @@
+name: Tradera länkdiagnostik
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Kontrollera API-länkarnas format och destinationer
+        env:
+          TRADERA_APP_ID: ${{ secrets.TRADERA_APP_ID }}
+          TRADERA_APP_KEY: ${{ secrets.TRADERA_APP_KEY }}
+        run: |
+          python - <<'PY'
+          import urllib.request,urllib.error,urllib.parse,collections,json,os
+          req=urllib.request.Request('https://api.tradera.com/v4/items/seller/5896660',headers={'X-App-Id':os.environ['TRADERA_APP_ID'],'X-App-Key':os.environ['TRADERA_APP_KEY'],'Accept':'application/json'})
+          with urllib.request.urlopen(req,timeout=25) as r: data=json.load(r)
+          active=[x for x in data if isinstance(x,dict) and x.get('status',{}).get('ended') is False and x.get('remainingQuantity',0)>0]
+          original=collections.Counter()
+          for x in active:
+              u=x.get('itemLink','')
+              p=urllib.parse.urlsplit(u)
+              original[(p.scheme,p.netloc,p.path.split('/')[1] if '/' in p.path else '')]+=1
+          print('API ITEM LINK FORMAT (scheme, domain, first path segment):')
+          for k,v in original.most_common(12):print(k,v)
+          print('CHECKING UP TO 4 ITEM LINKS, ONLY HTTP STATUS AND DESTINATION DOMAIN:')
+          for x in active[:4]:
+              u=x.get('itemLink','')
+              if not isinstance(u,str) or not u.startswith(('http://','https://')):continue
+              u='https://'+u.split('://',1)[1]
+              try:
+                  request=urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0'})
+                  with urllib.request.urlopen(request,timeout=12) as response:
+                      print('itemLink',response.status,urllib.parse.urlsplit(response.url).netloc)
+              except urllib.error.HTTPError as e:print('itemLink',e.code,urllib.parse.urlsplit(e.url).netloc)
+              except Exception as e:print('itemLink',type(e).__name__)
+          print('No titles, item IDs, complete URLs or keys printed.')
+          PY
