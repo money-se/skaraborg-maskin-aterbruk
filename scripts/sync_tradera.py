@@ -43,7 +43,14 @@ def normalize(item, now):
         return None
     if first(item, "isEnded", "ended", "isSold", "sold") is True:
         return None
-    if str(first(item, "status", "itemStatus") or "").lower() in ("ended", "sold", "closed"):
+    status = first(item, "status", "itemStatus")
+    if isinstance(status, dict):
+        # Statusformatet måste granskas innan detta kan tolkas som aktivt.
+        if any(status.get(k) is True for k in ("ended", "sold", "closed", "isEnded", "isSold")):
+            return None
+    elif str(status or "").lower() in ("ended", "sold", "closed"):
+        return None
+    if first(item, "remainingQuantity") == 0:
         return None
     url = first(item, "itemLink", "itemUrl", "url", "link")
     if not isinstance(url,str) or not TRADERA_LINK.match(url):
@@ -58,7 +65,9 @@ def normalize(item, now):
         image = first(image, "url", "href", "imageUrl", "link")
     if not (isinstance(image, str) and image.startswith("https://")):
         image = None
-    value = first(item, "buyItNowPrice", "currentBid", "price")
+    value = first(item, "buyItNowPrice", "maxBid", "nextBid", "currentBid", "price")
+    if value == 0:
+        value = first(item, "maxBid", "nextBid", "currentBid", "price")
     if isinstance(value, dict):
         value = first(value, "amount", "value")
     try:
