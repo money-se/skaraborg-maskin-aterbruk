@@ -39,18 +39,16 @@ def normalize(item, now):
     if not isinstance(title, str) or not title.strip() or not isinstance(ident, (int,str)):
         return None
     end = iso(first(item, "endDate", "endTime", "endAt"))
-    if end and dt.datetime.fromisoformat(end) <= now:
+    if not end or dt.datetime.fromisoformat(end) <= now:
         return None
     if first(item, "isEnded", "ended", "isSold", "sold") is True:
         return None
     status = first(item, "status", "itemStatus")
-    if isinstance(status, dict):
-        # Statusformatet måste granskas innan detta kan tolkas som aktivt.
-        if any(status.get(k) is True for k in ("ended", "sold", "closed", "isEnded", "isSold")):
-            return None
-    elif str(status or "").lower() in ("ended", "sold", "closed"):
+    # Tradera REST v4: status is an object containing ended, gotBidders and gotWinner.
+    if not isinstance(status, dict) or status.get("ended") is not False or status.get("gotWinner") is not False:
         return None
-    if first(item, "remainingQuantity") == 0:
+    quantity = first(item, "remainingQuantity")
+    if not isinstance(quantity, int) or quantity <= 0:
         return None
     url = first(item, "itemLink", "itemUrl", "url", "link")
     if not isinstance(url,str) or not TRADERA_LINK.match(url):
@@ -65,18 +63,24 @@ def normalize(item, now):
         image = first(image, "url", "href", "imageUrl", "link")
     if not (isinstance(image, str) and image.startswith("https://")):
         image = None
-    value = first(item, "buyItNowPrice", "maxBid", "nextBid", "currentBid", "price")
-    if value == 0:
-        value = first(item, "maxBid", "nextBid", "currentBid", "price")
+    item_type = item.get("itemType")
+    if item_type == 3:
+        value = item.get("buyItNowPrice")
+        price_kind = "buy_now"
+    elif item_type == 1:
+        value = item.get("openingBid") if status.get("gotBidders") is False else item.get("maxBid")
+        price_kind = "starting_bid" if status.get("gotBidders") is False else "current_bid"
+    else:
+        return None
     if isinstance(value, dict):
         value = first(value, "amount", "value")
     try:
         price = float(value) if value is not None else None
-        if price is not None and (price < 0 or price > 1e9):
-            price = None
+        if price is None or price <= 0 or price > 1e9:
+            return None
     except (ValueError,TypeError):
-        price = None
-    return {"id":str(ident),"title":title.strip()[:180],"url":url,"image":image,"price":price,"end_at":end}
+        return None
+    return {"id":str(ident),"title":title.strip()[:180],"url":url,"image":image,"price":price,"price_kind":price_kind,"end_at":end}
 
 def main():
     app_id=os.environ["TRADERA_APP_ID"]
