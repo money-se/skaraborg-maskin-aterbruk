@@ -1,0 +1,53 @@
+name: Tradera API anslutningstest
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Kontrollera anslutning och svarformat utan att skriva ut hemligheter
+        env:
+          TRADERA_APP_ID: ${{ secrets.TRADERA_APP_ID }}
+          TRADERA_APP_KEY: ${{ secrets.TRADERA_APP_KEY }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, os, sys, urllib.request, urllib.error
+          a=os.environ.get('TRADERA_APP_ID','').strip()
+          k=os.environ.get('TRADERA_APP_KEY','').strip()
+          if not a or not k:
+              print('ERROR: TRADERA_APP_ID eller TRADERA_APP_KEY saknas i repository secrets')
+              sys.exit(1)
+          headers={'X-App-Id':a,'X-App-Key':k,'Accept':'application/json','User-Agent':'SkaraborgMaskinReadOnlyCheck/1.0'}
+          for label,url in [
+              ('Autentisering','https://api.tradera.com/v4/reference-data/time'),
+              ('Säljarannonser','https://api.tradera.com/v4/items/seller/5896660'),
+          ]:
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(url,headers=headers),timeout=20) as response:
+                      obj=json.load(response)
+                  print(label+': HTTP 200')
+                  if label=='Säljarannonser':
+                      if isinstance(obj,list):
+                          print('Svarformat: lista; antal poster:',len(obj))
+                          if obj and isinstance(obj[0],dict):
+                              print('Fältnamn för första posten:',', '.join(sorted(obj[0].keys())[:40]))
+                      elif isinstance(obj,dict):
+                          print('Svarformat: objekt; toppnivåfält:',', '.join(sorted(obj.keys())[:40]))
+                          for field in ('items','results','listings'):
+                              if isinstance(obj.get(field),list):
+                                  print('Antal poster i '+field+':',len(obj[field]))
+                                  if obj[field] and isinstance(obj[field][0],dict):
+                                      print('Annonsfält:',', '.join(sorted(obj[field][0].keys())[:40]))
+                      else: print('Oväntat svarformat:',type(obj).__name__)
+              except urllib.error.HTTPError as e:
+                  print(label+': HTTP '+str(e.code)+' (inga svarskroppar eller nycklar skrivs ut)')
+                  sys.exit(1)
+              except Exception as e:
+                  print(label+': fel av typen '+type(e).__name__)
+                  sys.exit(1)
+          print('Anslutningstest slutfört. Endast läsanrop utförda.')
+          PY
