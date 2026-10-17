@@ -45,15 +45,17 @@ def normalize(item, now):
         return None
     if str(first(item, "status", "itemStatus") or "").lower() in ("ended", "sold", "closed"):
         return None
-    url = first(item, "itemUrl", "url", "link")
+    url = first(item, "itemLink", "itemUrl", "url", "link")
     if not isinstance(url,str) or not TRADERA_LINK.match(url):
         category = first(item, "categoryId")
         if not isinstance(category, int):
             return None
         url = f"https://www.tradera.com/item/{category}/{ident}"
-    image = first(item, "thumbnailImage", "thumbnailUrl", "imageUrl", "image")
+    image = first(item, "thumbnailImage", "thumbnailUrl", "imageUrl", "image", "imageLinks")
+    if isinstance(image, list):
+        image = image[0] if image else None
     if isinstance(image, dict):
-        image = first(image, "url", "href")
+        image = first(image, "url", "href", "imageUrl", "link")
     if not (isinstance(image, str) and image.startswith("https://")):
         image = None
     value = first(item, "buyItNowPrice", "currentBid", "price")
