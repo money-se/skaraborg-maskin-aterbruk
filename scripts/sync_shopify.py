@@ -38,6 +38,24 @@ def clean(item):
             "price":min(options), "category":str(item.get("product_type") or "Övrigt")[:80],
             "handle":handle}
 
+def child_handles():
+    handles = set()
+    for collection in ("barnklader", "baby"):
+        for page in range(1, MAX_PAGES + 1):
+            url = SHOP + "/collections/" + collection + "/products.json?" + urllib.parse.urlencode({"limit":250,"page":page})
+            req = urllib.request.Request(url, headers={"User-Agent":"SkaraborgMaskinShopifyCatalog/1.0","Accept":"application/json"})
+            with urllib.request.urlopen(req, timeout=30) as response:
+                if response.status != 200 or "json" not in response.headers.get("Content-Type","").lower():
+                    raise ValueError("Cannot verify child collections")
+                data = json.load(response)
+            rows = data.get("products") if isinstance(data,dict) else None
+            if not isinstance(rows,list): raise ValueError("Unexpected child collection response")
+            handles.update(x.get("handle") for x in rows if isinstance(x,dict) and isinstance(x.get("handle"),str))
+            if len(rows) < 250: break
+        else: raise ValueError("Child collection pagination limit reached")
+    if not handles: raise ValueError("Child collection list was unexpectedly empty")
+    return handles
+
 def main():
     result = []
     seen = set()
@@ -60,6 +78,9 @@ def main():
     else:
         raise ValueError("Pagination limit reached; feed not modified")
     if not result: raise ValueError("No public products available; feed not modified")
+    children = child_handles()
+    for item in result:
+        item["audience"] = "barn" if item["handle"] in children else "vuxna"
     result.sort(key=lambda x:x["title"].casefold())
     payload = {"status":"ready","updated_at":dt.datetime.now(dt.timezone.utc).isoformat(),"items":result}
     OUT.parent.mkdir(exist_ok=True)
