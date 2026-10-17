@@ -1,0 +1,24 @@
+name: Förhandsgranska annonsadmin
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/annonsadmin-prototyp
+          persist-credentials: false
+      - name: Kontrollera prototyp
+        run: |
+          test -s annonsadmin-prototyp.html
+          grep -q 'Annonsadmin' annonsadmin-prototyp.html
+          grep -q 'localStorage' annonsadmin-prototyp.html
+          grep -q 'noindex,nofollow' annonsadmin-prototyp.html
+      - uses: actions/upload-artifact@v4
+        with:
+          name: annonsadmin-prototyp
+          path: annonsadmin-prototyp.html
+          retention-days: 7
