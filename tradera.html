@@ -17,7 +17,7 @@ h1{font-size:clamp(32px,5vw,52px);line-height:1.12;margin:10px 0 18px}h2{font-si
 .hero p{max-width:760px;color:#e2ece3}.btn{display:inline-flex;padding:11px 16px;border-radius:11px;background:var(--gold);color:#142017;font-weight:800;text-decoration:none}
 .hero .btn{margin-top:12px}main section.content{padding:42px 0 70px}
 .toolbar{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:24px 0}.toolbar label{font-weight:750}
-#filter{flex:1;min-width:220px;border:1px solid #bdcbbc;border-radius:10px;font:inherit;padding:12px;background:#fff}
+#filter,.toolbar select{flex:1;min-width:190px;border:1px solid #bdcbbc;border-radius:10px;font:inherit;padding:12px;background:#fff}
 #count{color:var(--muted);margin-left:auto}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:18px}
 .item{background:#fff;border:1px solid var(--line);border-radius:17px;overflow:hidden;display:flex;flex-direction:column}
@@ -44,7 +44,7 @@ h1{font-size:clamp(32px,5vw,52px);line-height:1.12;margin:10px 0 18px}h2{font-si
 <section class="content"><div class="wrap">
 <h2>Aktuella objekt</h2>
 <p class="small" id="updated">Vi förbereder automatisk synkronisering från Tradera.</p>
-<div class="toolbar"><label for="filter">Sök bland annonserna</label><input type="search" id="filter" placeholder="Sök maskin, reservdel, modell …" disabled><span id="count" aria-live="polite"></span></div>
+<div class="toolbar"><label for="filter">Sök bland annonserna</label><input type="search" id="filter" placeholder="Sök maskin, reservdel, modell …" disabled><label for="category">Kategori</label><select id="category" disabled><option value="">Alla kategorier</option></select><label for="sort">Sortera</label><select id="sort" disabled><option value="end">Avslutas snart</option><option value="newest">Avslutas sist</option><option value="price-asc">Lägsta pris</option><option value="price-desc">Högsta pris</option><option value="title">Namn A–Ö</option></select><span id="count" aria-live="polite"></span></div>
 <div id="status" class="notice" role="status">Annonsflödet är ännu inte anslutet. Under tiden hittar du alla våra annonser direkt på <a href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk" target="_blank" rel="noopener noreferrer">Tradera</a>.</div>
 <div class="grid" id="list" aria-live="polite"></div>
 <button id="more" class="more" type="button" hidden>Visa fler annonser</button>
@@ -56,7 +56,7 @@ h1{font-size:clamp(32px,5vw,52px);line-height:1.12;margin:10px 0 18px}h2{font-si
 for(const [id,path] of [["site-header","partials1/header.html"],["site-footer","partials1/footer.html"]]){
 try{const r=await fetch(path);if(r.ok)document.getElementById(id).innerHTML=await r.text()}catch(e){console.warn("Sidkomponent kunde inte läsas",e)}
 }
-const status=document.getElementById("status"),list=document.getElementById("list"),filter=document.getElementById("filter"),count=document.getElementById("count"),updated=document.getElementById("updated"),more=document.getElementById("more");
+const status=document.getElementById("status"),list=document.getElementById("list"),filter=document.getElementById("filter"),count=document.getElementById("count"),updated=document.getElementById("updated"),more=document.getElementById("more"),category=document.getElementById("category"),sort=document.getElementById("sort");
 const PAGE_SIZE=16;let limit=PAGE_SIZE;
 try{
 const res=await fetch("data/tradera-items.json",{cache:"no-store"});if(!res.ok)throw Error("Ingen aktuell data");
@@ -66,9 +66,12 @@ const stamp=Date.parse(data.updated_at||"");if(!Number.isFinite(stamp)||Date.now
 updated.textContent="Senast synkroniserad: "+new Date(stamp).toLocaleString("sv-SE");
 const now=Date.now();
 const items=data.items.filter(x=>x&&typeof x.title==="string"&&typeof x.url==="string"&&/^https:\/\/(www\.)?tradera\.com\//i.test(x.url)&&typeof x.end_at==="string"&&Number.isFinite(Date.parse(x.end_at))&&Date.parse(x.end_at)>now);
+const categories=[...new Set(items.map(x=>x.category_id).filter(x=>typeof x==="string"&&x))].sort((a,b)=>Number(a)-Number(b));
+for(const id of categories){const option=document.createElement("option");option.value=id;option.textContent="Tradera-kategori "+id+" ("+items.filter(x=>x.category_id===id).length+")";category.append(option)}
 function draw(){
 list.replaceChildren();
-const q=filter.value.toLocaleLowerCase("sv-SE").trim();const visible=items.filter(x=>x.title.toLocaleLowerCase("sv-SE").includes(q));
+const q=filter.value.toLocaleLowerCase("sv-SE").trim();const visible=items.filter(x=>x.title.toLocaleLowerCase("sv-SE").includes(q)&&(!category.value||x.category_id===category.value));
+visible.sort((a,b)=>sort.value==="price-asc"?(a.price??Infinity)-(b.price??Infinity):sort.value==="price-desc"?(b.price??-Infinity)-(a.price??-Infinity):sort.value==="title"?a.title.localeCompare(b.title,"sv"):sort.value==="newest"?Date.parse(b.end_at)-Date.parse(a.end_at):Date.parse(a.end_at)-Date.parse(b.end_at));
 count.textContent=visible.length+" annonser · visar "+Math.min(limit,visible.length);
 status.hidden=visible.length>0;
 if(!visible.length){status.textContent=items.length?"Inga annonser matchar din sökning.":"Inga aktiva annonser att visa just nu. Besök gärna vår Tradera-profil."}
@@ -82,7 +85,7 @@ if(typeof item.price==="number"&&Number.isFinite(item.price)){const p=document.c
 if(typeof item.end_at==="string"){const d=new Date(item.end_at);if(Number.isFinite(d.getTime())){const e=document.createElement("div");e.className="meta";e.textContent="Avslutas: "+d.toLocaleString("sv-SE");inner.append(e)}}
 const a=document.createElement("a");a.className="go";a.href=item.url;a.target="_blank";a.rel="noopener noreferrer";a.textContent="Visa på Tradera ↗";inner.append(a);article.append(inner);list.append(article)
 }}
-filter.disabled=false;filter.addEventListener("input",()=>{limit=PAGE_SIZE;draw()});more.addEventListener("click",()=>{limit+=PAGE_SIZE;draw()});draw();
+filter.disabled=false;category.disabled=false;sort.disabled=false;const refresh=()=>{limit=PAGE_SIZE;draw()};filter.addEventListener("input",refresh);category.addEventListener("change",refresh);sort.addEventListener("change",refresh);more.addEventListener("click",()=>{limit+=PAGE_SIZE;draw()});draw();
 }catch(e){console.warn("Annonsflödet kunde inte laddas",e)}
 })();
 </script></body></html>
