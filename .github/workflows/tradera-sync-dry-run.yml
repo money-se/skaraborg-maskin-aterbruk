@@ -1,0 +1,45 @@
+name: Tradera synkroniseringstest
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  dry-run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Check out Tradera development branch (no publishing)
+        uses: actions/checkout@v4
+        with:
+          ref: feature/tradera-katalog
+          persist-credentials: false
+      - name: Validate sync module
+        run: |
+          python -m py_compile scripts/sync_tradera.py
+          python -m unittest discover -s tests -p test_tradera_sync.py -v
+      - name: Fetch and normalize real listings in isolated runner
+        env:
+          TRADERA_APP_ID: ${{ secrets.TRADERA_APP_ID }}
+          TRADERA_APP_KEY: ${{ secrets.TRADERA_APP_KEY }}
+          TRADERA_SELLER_ID: "5896660"
+        run: |
+          python scripts/sync_tradera.py
+          python - <<'PY'
+          import json,pathlib
+          path=pathlib.Path("data/tradera-items.json")
+          data=json.loads(path.read_text(encoding="utf-8"))
+          items=data.get("items",[])
+          invalid=[x for x in items if not x.get("url","").startswith("https://www.tradera.com/") and not x.get("url","").startswith("https://tradera.com/")]
+          kinds={}
+          images=0
+          for x in items:
+              kind=x.get("price_kind","unknown")
+              kinds[kind]=kinds.get(kind,0)+1
+              images+=bool(x.get("image"))
+          print("VALIDATED_ACTIVE_LISTINGS:",len(items))
+          print("PRICE_KINDS:",kinds)
+          print("LISTINGS_WITH_IMAGE:",images)
+          print("INVALID_LINK_COUNT:",len(invalid))
+          if invalid or not items:raise SystemExit("Invalid or empty catalog; do not deploy")
+          print("No data pushed or published.")
+          PY
