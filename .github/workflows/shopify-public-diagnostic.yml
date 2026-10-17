@@ -1,0 +1,31 @@
+name: Shopify offentlig katalogtest
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/shopify-katalog
+          persist-credentials: false
+      - name: Unit tests
+        run: |
+          python -m py_compile scripts/sync_shopify.py
+          python -m unittest discover -s tests -p test_shopify_sync.py -v
+      - name: Public product feed dry run
+        run: |
+          python scripts/sync_shopify.py
+          python - <<'PY'
+          import json,pathlib,collections
+          d=json.loads(pathlib.Path("data/shopify-items.json").read_text(encoding="utf-8"))
+          products=d["items"]
+          print("CATALOG_COUNT",len(products))
+          print("IMAGES",sum(bool(x.get("image")) for x in products))
+          print("CATEGORY_COUNTS",dict(collections.Counter(x["category"] for x in products)))
+          print("INVALID_PRODUCT_LINKS",sum(not x["url"].startswith("https://skaraborgmerch.se/products/") for x in products))
+          print("NO_WEBSITE_CHANGES")
+          PY
