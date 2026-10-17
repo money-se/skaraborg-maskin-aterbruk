@@ -25,6 +25,9 @@ class TraderaTests(unittest.TestCase):
         output=sync.normalize(item,NOW)
         self.assertEqual(output["price"],50)
         self.assertEqual(output["price_kind"],"starting_bid")
+    def test_http_tradera_image_upgraded_to_https(self):
+        item={"id":3,"shortDescription":"Med bild","categoryId":100,"imageLinks":["http://img.tradera.com/example.jpg"],"buyItNowPrice":125,"endDate":"2026-10-20T12:00:00Z","status":{"ended":False,"gotWinner":False,"gotBidders":False},"remainingQuantity":1,"itemType":3}
+        self.assertEqual(sync.normalize(item,NOW)["image"],"https://img.tradera.com/example.jpg")
     def test_sold_item_excluded(self):
         self.assertIsNone(sync.normalize({"id":2,"title":"Såld","categoryId":100,"isSold":True},NOW))
     def test_ended_item_excluded(self):
