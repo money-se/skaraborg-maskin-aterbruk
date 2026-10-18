@@ -1,0 +1,34 @@
+name: Kontrollera annonsadmin v3
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/annonsadmin-prototyp
+          persist-credentials: false
+      - name: Validate the frontend scripts
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for name in ['annonsadmin-v3.html','annonser-v3.html']:
+              text=Path(name).read_text(encoding='utf-8')
+              assert '<script type="module">' in text and '</script>' in text
+              assert 'service_role' not in text.lower()
+              assert 'sb_publishable_' in text
+              Path('/tmp/'+name+'.mjs').write_text(text.split('<script type="module">')[1].split('</script>')[0],encoding='utf-8')
+              print('PREPARED',name)
+          PY
+          node --check /tmp/annonsadmin-v3.html.mjs
+          node --check /tmp/annonser-v3.html.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: annonsadmin-v3-test
+          path: |
+            annonsadmin-v3.html
+            annonser-v3.html
+          retention-days: 7
