@@ -88,7 +88,21 @@ function openModal(){returnFocus=document.activeElement;dialog.classList.add("op
 function closeModal(){dialog.classList.remove("open");dialog.setAttribute("aria-hidden","true");document.body.classList.remove("modal-open");if(returnFocus&&returnFocus.focus)returnFocus.focus()}
 document.querySelectorAll("[data-open]").forEach(el=>el.addEventListener("click",openModal));close.addEventListener("click",closeModal);dialog.addEventListener("click",e=>{if(e.target===dialog)closeModal()});document.addEventListener("keydown",e=>{if(!dialog.classList.contains("open"))return;if(e.key==="Escape"){closeModal();return}if(e.key==="Tab"){const focusables=Array.from(dialog.querySelectorAll('button,a[href]'));const first=focusables[0],last=focusables[focusables.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}});
 })();
-fetch("../partials1/header.html").then(r=>{if(!r.ok)throw Error("header");return r.text()}).then(h=>{document.getElementById("site-header").innerHTML=h}).catch(()=>{});
-fetch("../partials1/footer.html").then(r=>{if(!r.ok)throw Error("footer");return r.text()}).then(h=>{document.getElementById("site-footer").innerHTML=h}).catch(()=>{});
+// Shared partials contain root-page relative links. Rebase only their local URLs
+// when they are displayed from /maskinarkiv/; leave the shared files untouched.
+function insertPartial(id,html){
+  const container=document.getElementById(id);
+  const fragment=document.createElement("template");
+  fragment.innerHTML=html;
+  fragment.content.querySelectorAll("a[href]").forEach(link=>{
+    const href=link.getAttribute("href");
+    if(href&&!href.startsWith("/")&&!href.startsWith("#")&&!/^[a-z][a-z0-9+.-]*:/i.test(href)){
+      link.setAttribute("href","/"+href.replace(/^\\.\\//,""));
+    }
+  });
+  container.replaceChildren(fragment.content.cloneNode(true));
+}
+fetch("../partials1/header.html").then(r=>{if(!r.ok)throw Error("header");return r.text()}).then(h=>insertPartial("site-header",h)).catch(()=>{});
+fetch("../partials1/footer.html").then(r=>{if(!r.ok)throw Error("footer");return r.text()}).then(h=>insertPartial("site-footer",h)).catch(()=>{});
 </script>
 </body></html>
