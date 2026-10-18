@@ -46,6 +46,7 @@ def render(ad, url):
                    "seller": {"@type": "Organization", "name": "Skaraborg Maskin & Återbruk"}},
     }
     if images: ld["image"] = images
+    ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
     gallery = '<div class="gallery">' + "".join(f'<img src="{safe(img)}" alt="{safe(title)} – bild {i+1}" loading="lazy">' for i,img in enumerate(images)) + "</div>" if images else ""
     status = "Till salu" if available else "Reserverad / väntande"
     contact = '<a class="cta" href="/kontakt.html">Kontakta oss om maskinen</a>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>"
@@ -55,7 +56,7 @@ def render(ad, url):
 <link rel="canonical" href="{safe(url)}">
 <meta property="og:type" content="product"><meta property="og:title" content="{safe(title)}">
 <meta property="og:description" content="{safe(summary)}"><meta property="og:url" content="{safe(url)}">
-<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False).replace('<','\\u003c')}</script>
+<script type="application/ld+json">{ld_json}</script>
 <style>
 *{{box-sizing:border-box}}body{{margin:0;color:#1d3424;font:16px/1.6 system-ui,sans-serif;background:radial-gradient(ellipse at 5% 10%,#dcebdc,transparent 40%),#edf2e9}}header{{background:#1b3825;color:white;padding:22px 16px}}.wrap{{max-width:1050px;margin:auto;padding:20px}}header a{{color:white}}.box{{background:#fff;border:1px solid #d7e4d7;border-radius:16px;padding:24px;margin:20px 0;box-shadow:0 8px 24px #18352213}}h1{{line-height:1.2}}.price{{font-size:28px;font-weight:800}}.state{{display:inline-block;background:#e5f0e5;padding:6px 12px;border-radius:30px}}.gallery{{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory}}.gallery img{{width:min(100%,600px);height:340px;object-fit:contain;background:#f0f4ef;border-radius:12px;scroll-snap-align:start;flex:0 0 min(100%,600px)}}.description{{white-space:pre-wrap;overflow-wrap:anywhere}}.cta{{display:inline-block;padding:13px 20px;background:#225436;color:#fff;text-decoration:none;border-radius:9px;font-weight:700}}a{{color:#205735}}@media(max-width:600px){{.wrap{{padding:12px}}.box{{padding:17px}}.gallery img{{height:240px}}}}
 </style></head><body>{MARKER}<header><div class="wrap"><a href="/annonser.html">← Alla annonser</a><p>Skaraborg Maskin & Återbruk · Hjo</p></div></header>
