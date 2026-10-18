@@ -9,6 +9,7 @@ async function digest(value:string){const buffer=await crypto.subtle.digest("SHA
 function normalized(s:unknown,max:number){return typeof s==="string"&&s.trim().length>0&&s.trim().length<=max?s.trim():null}
 async function captcha(token:string,secret:string,ip:string){const response=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({secret,response:token,remoteip:ip})});if(!response.ok)return false;const data=await response.json();return data.success===true&&data.hostname==="skaraborgmaskin.se"}
 Deno.serve(async req=>{
+ if(Deno.env.get("MESSAGE_PUBLIC_ENABLED")!=="true")return reply(503,{error:"Messaging rollout is not enabled"});
  if(req.method==="OPTIONS")return new Response(null,{headers:cors});
  if(req.method!=="POST")return reply(405,{error:"Method not allowed"});
  const expectedOrigin="https://skaraborgmaskin.se";
@@ -22,7 +23,7 @@ Deno.serve(async req=>{
  let data:any;try{data=await req.json()}catch{return reply(400,{error:"Bad JSON"})}
  const action=normalized(data.action,16);
  if(!["new","read","reply"].includes(action||""))return reply(400,{error:"Invalid action"});
- const ip=req.headers.get("cf-connecting-ip")||"";
+ const ip=req.headers.get("cf-connecting-ip")||""; // WARNING: requires trusted proxy verification before public activation
  if(!ip||ip.length>80)return reply(403,{error:"Request blocked"});
  const turnstile=normalized(data.captcha,4096);
  if(!turnstile)return reply(400,{error:"Verification required"});
@@ -34,7 +35,7 @@ Deno.serve(async req=>{
  if(action==="new"){
    if(data.website)return reply(200,{ok:true}); // honeypot
    const adId=normalized(data.ad_id,80),name=normalized(data.name,120),email=normalized(data.email,254),body=normalized(data.message,3000);
-   if(!adId||!name||!email||!body||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))return reply(400,{error:"Invalid fields"});
+   if(!adId||!/^[a-f0-9-]{36}$/i.test(adId)||!name||!email||!body||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))return reply(400,{error:"Invalid fields"});
    const emailHash=await digest(pepper+":email:"+email.toLowerCase());
    const limiter=await db.rpc("ad_message_rate_check",{p_hash:emailHash,p_limit:4,p_window_minutes:1440});
    if(limiter.error||limiter.data!==true)return reply(429,{error:"Too many requests"});
@@ -48,7 +49,7 @@ Deno.serve(async req=>{
    return reply(201,{conversation_id:conv.data.id,token});
  }
  const id=normalized(data.conversation_id,80),token=normalized(data.token,200);
- if(!id||!token)return reply(400,{error:"Missing conversation credentials"});
+ if(!id||!/^[a-f0-9-]{36}$/i.test(id)||!token)return reply(400,{error:"Missing conversation credentials"});
  const hash=await digest(pepper+":token:"+token);
  const conv=await db.from("ad_conversations").select("id,status,customer_name").eq("id",id).eq("access_token_hash",hash).maybeSingle();
  if(conv.error||!conv.data)return reply(404,{error:"Conversation unavailable"});
