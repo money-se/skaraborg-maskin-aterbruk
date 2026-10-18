@@ -2,7 +2,7 @@
   "name": "maskinarkivet-2",
   "private": true,
   "scripts": {
-    "build": "eleventy --input=src --output=../../_maskinarkiv-preview",
+    "build": "eleventy --input=src --output=../_maskinarkiv-preview",
     "check": "node scripts/check.mjs"
   },
   "devDependencies": {
