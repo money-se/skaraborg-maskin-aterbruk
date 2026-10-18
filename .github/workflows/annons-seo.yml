@@ -1,5 +1,10 @@
 name: Generera SEO-sidor för annonser
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_ad_seo.py'
+      - '.github/workflows/annons-seo.yml'
   workflow_dispatch:
   schedule:
     - cron: '17 * * * *'
@@ -21,7 +26,9 @@ jobs:
       - name: Build public advertisement pages and sitemap
         env:
           SUPABASE_PUBLISHABLE_KEY: sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR
-        run: python scripts/generate_ad_seo.py
+        run: |
+          python -m py_compile scripts/generate_ad_seo.py
+          python scripts/generate_ad_seo.py
       - name: Commit generated pages if changed
         run: |
           git add annonser/ sitemap-annonser.xml
@@ -30,4 +37,5 @@ jobs:
             exit 0
           fi
           git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update public ad SEO pages"
-          git push
+          git pull --rebase origin main
+          git push origin main
