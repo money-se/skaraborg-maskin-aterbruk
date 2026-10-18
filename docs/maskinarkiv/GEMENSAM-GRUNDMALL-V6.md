@@ -70,3 +70,21 @@ För samtliga fem finns nu konsekvent:
 - Saknade kategorier ska inte fyllas med påhittat material; underkapitel används där extra djup finns
 
 Kvalitet: statisk verifiering av ankarmål och identifierare. Visuell browsergranskning och redaktionell faktagranskning återstår före merge.
+
+
+## Godkänd referens: STIGA Park 16 (18 oktober 2026)
+
+STIGA Park 16 är numera den visuellt godkända referensen för hela Maskinarkivet. Husqvarna Rider 13 är inte längre den styrande visuella mallen.
+
+Gemensamma regler för alla fem maskinsidor:
+- Samma maskinarkiv-v6.css och likadan huvudstruktur: hero, sticky scrollbar kapitelmeny, artikel och mobil innehållsförteckning.
+- Faktakort i samma tvåkolumnsformat (facts/fact-row), med mobilanpassning.
+- Pedagogiska anmärkningar i samma park-note/park-info/park-warning-stil.
+- Tidslinjer visar årtal separerat från beskrivningen.
+- Rubriker i faktakort, källförbehåll och varningar ska skiljas visuellt från brödtexten.
+- Kapitelgenvägar ska vara rullbara, med informativa namn när flera avsnitt hör till samma kategori.
+- Kontaktknappar ska vara synliga, och Tradera-sektionen ska länka till /tradera.html.
+- Originalkällor ska ligga i en stängd, utfällbar källruta längst ned.
+- Behåll allt dokumenterat maskinspecifikt innehåll; hitta inte på saknade uppgifter för att fylla en mall.
+
+Ändringar av gemensamma komponenter görs primärt i maskinarkiv-v6.css. Den här referensen ska följas av nya maskinmodellsidor.

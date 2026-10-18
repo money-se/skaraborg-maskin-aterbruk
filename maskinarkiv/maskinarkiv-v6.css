@@ -112,3 +112,17 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 @media(max-width:620px){
   .article .timeline>div,.article .facts>div{grid-template-columns:1fr;gap:3px}
 }
+
+/* Park 16: godkänd gemensam artikelstandard. */
+.article .facts{background:#fff;border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:24px 0}
+.article .facts>.fact-row,.article .facts>div:not([class]){display:grid;grid-template-columns:minmax(135px,180px) minmax(0,1fr);gap:16px;padding:11px 0;border-bottom:1px solid var(--line)}
+.article .facts>.fact-row:last-child,.article .facts>div:not([class]):last-child{border-bottom:0}
+.article .facts>.fact-row>b,.article .facts>div:not([class])>b{color:var(--green)}
+.article .facts>.fact-row>span,.article .facts>div:not([class])>span{min-width:0}
+.article .park-note,.article .park-info,.article .park-warning{margin:24px 0;padding:19px 21px;border-left:4px solid;border-radius:0 10px 10px 0;background:var(--goldsoft);border-color:var(--gold)}
+.article .park-info{background:var(--blue-soft);border-color:var(--blue)}
+.article .park-warning{background:var(--goldsoft);border-color:var(--gold)}
+.article .park-note>b,.article .park-info>b,.article .park-warning>b{display:block;margin-bottom:8px}
+.article .park-note>p:last-child,.article .park-info>p:last-child,.article .park-warning>p:last-child{margin-bottom:0}
+.article .buttons{display:flex;flex-wrap:wrap;gap:10px}
+@media(max-width:620px){.article .facts>.fact-row,.article .facts>div:not([class]){grid-template-columns:1fr;gap:3px}.article .buttons{flex-direction:column}}
