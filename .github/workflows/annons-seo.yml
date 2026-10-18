@@ -1,0 +1,33 @@
+name: Generera SEO-sidor för annonser
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: public-ad-seo
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build public advertisement pages and sitemap
+        env:
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR
+        run: python scripts/generate_ad_seo.py
+      - name: Commit generated pages if changed
+        run: |
+          git add annonser/ sitemap-annonser.xml
+          if git diff --cached --quiet; then
+            echo "No SEO changes"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update public ad SEO pages"
+          git push
