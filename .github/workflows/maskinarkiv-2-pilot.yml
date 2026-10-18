@@ -1,0 +1,28 @@
+name: Maskinarkivet 2 pilot
+on:
+  pull_request:
+    paths:
+      - 'maskinarkiv-2/**'
+      - '.github/workflows/maskinarkiv-2-pilot.yml'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pilot dependencies
+        run: npm install --no-audit --no-fund
+        working-directory: maskinarkiv-2
+      - name: Build preview
+        run: npm run build
+        working-directory: maskinarkiv-2
+      - name: Validate generated HTML
+        run: npm run check
+        working-directory: maskinarkiv-2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maskinarkiv-2-preview
+          path: _maskinarkiv-preview/
