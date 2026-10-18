@@ -11,7 +11,7 @@ Deno.serve(async request=>{
  if(!secret||!pepper||pepper.length<24||!key||!url)return respond(503,{error:"Not configured"});
  if(Number(request.headers.get("content-length")||0)>9000)return respond(413,{error:"Size"});
  let data:any;try{data=await request.json()}catch{return respond(400,{error:"Format"})}
- if(!data||data.action!=="read"&&typeof data.captcha!=="string"||data.captcha.length>4096||data.captcha.length<1)return respond(400,{error:"Captcha"});
+ if(!data||(data.action!=="read"&&(typeof data.captcha!=="string"||data.captcha.length>4096||data.captcha.length<1)))return respond(400,{error:"Captcha"});
  if(data.action!=="read"){const verification=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({secret,response:data.captcha})}).then(r=>r.ok?r.json():null).catch(()=>null);
  if(!verification?.success||verification.hostname!=="skaraborgmaskin.se")return respond(403,{error:"Captcha"});}
  const db=createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}});
