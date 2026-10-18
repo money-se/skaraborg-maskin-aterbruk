@@ -17,6 +17,18 @@ jobs:
           grep -q 'Annonsadmin' annonsadmin-prototyp.html
           grep -q 'localStorage' annonsadmin-prototyp.html
           grep -q 'noindex,nofollow' annonsadmin-prototyp.html
+      - name: Kontrollera JavaScript-syntax för version 2
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path("annonsadmin-prototyp.html").read_text(encoding="utf-8")
+          assert 'function showDetail(' in html
+          assert 'function renderPublic(' in html
+          assert 'Bekräfta att' in html
+          assert 'id="tab-public"' in html
+          Path("/tmp/annonsadmin-v2.js").write_text(html.split("<script>",1)[1].split("</script>",1)[0],encoding="utf-8")
+          PY
+          node --check /tmp/annonsadmin-v2.js
       - uses: actions/upload-artifact@v4
         with:
           name: annonsadmin-prototyp
