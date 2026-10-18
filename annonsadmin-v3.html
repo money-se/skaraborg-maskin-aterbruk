@@ -13,7 +13,7 @@
 </main>
 <script type="module">
 import {createClient} from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
-// Only PUBLIC browser credentials belong here. Never paste a service_role key.
+// Only PUBLIC browser credentials belong here. Never paste a privileged server key.
 const SETTINGS={url:'https://jnorvriiehandxlvwkkg.supabase.co',publishableKey:'sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR'};
 const $=id=>document.getElementById(id),labels={sale:'Till salu',pending:'Väntande',sold:'Såld'};
 const configured=SETTINGS.url.startsWith('https://')&&!SETTINGS.publishableKey.startsWith('__');
