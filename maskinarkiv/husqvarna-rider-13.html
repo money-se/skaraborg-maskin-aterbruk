@@ -29,8 +29,9 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 @media(max-width:900px){.layout{grid-template-columns:1fr;gap:25px}.toc{display:none}.mobile-toc{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:36px}.mobile-toc summary{padding:13px 15px}.mobile-toc div{padding:0 15px 14px}.mobile-toc a{display:block;padding:6px 0;color:var(--green);text-decoration:none}}
 @media(max-width:620px){.hero{padding:44px 0 48px}.layout{padding-top:34px}.article section{padding-bottom:43px;margin-bottom:43px}.qrow,.variant{grid-template-columns:1fr;gap:4px}.specs{grid-template-columns:1fr}.compare{font-size:13px}.compare th,.compare td{padding:9px}.use strong{display:block;min-width:0;margin-bottom:3px}.buttons{flex-direction:column}.btn{width:100%}}
 </style>
+<link rel="stylesheet" href="/maskinarkiv/maskinarkiv-v6.css">
 </head>
-<body>
+<body class="maskinarkiv-v6">
 <div id="site-header"></div>
 
 <header class="hero">
@@ -45,15 +46,39 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 
 <main class="wrap layout">
 
-<aside class="toc">
-<div class="toc-title">På den här sidan</div>
-<a href="#oversikt">Översikt</a><a href="#familjen">Rider 13-familjen</a><a href="#identifiering">Identifiera din Rider</a><a href="#tidslinje">Tidslinje & generationer</a><a href="#motor">Motorer</a><a href="#transmission">K55 eller K46?</a><a href="#styrning">Midjestyrning</a><a href="#reglage">Reglage & körning</a><a href="#sakerhet">Säkerhetssystem</a><a href="#aggregat">Klippaggregat</a><a href="#service">Service & underhåll</a><a href="#reservdelar">Reservdelar</a><a href="#koprad">Köpråd</a><a href="#faq">Vanliga frågor</a>
-<button class="source-open" data-open>Källor & manualer</button>
-</aside>
+<aside class="toc" aria-label="Innehållsförteckning"><div class="toc-title">På den här sidan</div><a href="#oversikt">Översikt</a>
+<a href="#familjen">Modellversioner</a>
+<a href="#tidslinje">Modellversioner</a>
+<a href="#identifiering">Identifiering</a>
+<a href="#motor">Motor</a>
+<a href="#transmission">Drivning</a>
+<a href="#styrning">Styrning & reglage</a>
+<a href="#reglage">Styrning & reglage</a>
+<a href="#aggregat">Klippaggregat</a>
+<a href="#sakerhet">Säkerhet</a>
+<a href="#service">Service & underhåll</a>
+<a href="#reservdelar">Reservdelar</a>
+<a href="#koprad">Köpråd</a>
+<a href="#faq">Vanliga frågor</a>
+<a href="#kallor">Källor & manualer</a></aside>
 
 <article class="article">
 
-<details class="mobile-toc"><summary>Innehåll – hoppa till rätt avsnitt</summary><div><a href="#oversikt">Översikt</a><a href="#familjen">Rider 13-familjen</a><a href="#identifiering">Identifiering</a><a href="#tidslinje">Tidslinje</a><a href="#motor">Motor</a><a href="#transmission">Transmission</a><a href="#styrning">Styrning</a><a href="#reglage">Reglage</a><a href="#sakerhet">Säkerhet</a><a href="#aggregat">Klippaggregat</a><a href="#service">Service</a><a href="#reservdelar">Reservdelar</a><a href="#koprad">Köpråd</a><a href="#faq">FAQ</a></div></details>
+<details class="mobile-toc"><summary>Innehåll – välj kapitel</summary><nav aria-label="Kapitel"><a href="#oversikt">Översikt</a>
+<a href="#familjen">Modellversioner</a>
+<a href="#tidslinje">Modellversioner</a>
+<a href="#identifiering">Identifiering</a>
+<a href="#motor">Motor</a>
+<a href="#transmission">Drivning</a>
+<a href="#styrning">Styrning & reglage</a>
+<a href="#reglage">Styrning & reglage</a>
+<a href="#aggregat">Klippaggregat</a>
+<a href="#sakerhet">Säkerhet</a>
+<a href="#service">Service & underhåll</a>
+<a href="#reservdelar">Reservdelar</a>
+<a href="#koprad">Köpråd</a>
+<a href="#faq">Vanliga frågor</a>
+<a href="#kallor">Källor & manualer</a></nav></details>
 
 <section id="oversikt">
 <div class="chapter">01 · Översikt</div>
@@ -72,7 +97,7 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 </section>
 
 <section id="familjen">
-<div class="chapter">02 · Modellfamiljen</div>
+<div class="chapter">02 · Modellversioner</div>
 <h2>Rider 13, Rider 13 H, Bio, R och 13C – vad är skillnaden?</h2>
 <p class="lead">Husqvarnas dokumentation visar flera grenar inom Rider 13-familjen. De bör inte blandas ihop när man söker tekniska data eller reservdelar.</p>
 <div class="family">
@@ -85,8 +110,21 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 <div class="info"><b>Rider 13 eller Rider 13 H?</b>I äldre Husqvarna-dokument förekommer beteckningen Rider 13 H. H-versionen beskrivs som hydrostatisk. Senare dokument använder i stor utsträckning Rider 13 utan H. Typskylten och dokumentgenerationen är därför viktigare än att bara läsa dekalen på huven.</div>
 </section>
 
+<section id="tidslinje">
+<div class="chapter">03 · Modellversioner</div>
+<h2>Dokumenterade generationer</h2>
+<p class="lead">Datumen nedan är dokument-/reservdelsrevisioner, inte ett löfte om exakta produktionsstarter eller produktionsslut.</p>
+<div class="timeline">
+<div class="time"><strong>1998–1999</strong><span>Rider 13/13 H förekommer i tidiga manualer och reservdelsunderlag. Rider 13 Bio är dokumenterad åtminstone från 1999.</span></div>
+<div class="time"><strong>2001–2003</strong><span>Flera separata reservdelsrevisioner för Rider 13 och Rider 13 Bio. 85 cm respektive 90 cm aggregat är tydligt dokumenterade.</span></div>
+<div class="time"><strong>2003</strong><span>Rider 13 BioClip 953520901 och Rider 13 R/R Special 953533001 förekommer som separata varianter i reservdelsunderlag.</span></div>
+<div class="time"><strong>2006 och framåt</strong><span>Rider 13C blir den senare generationen, med produktnummer såsom 965070401 och därefter 965094301.</span></div>
+</div>
+<div class="learn"><b>Varför vi inte skriver “Rider 13 tillverkades 1998–2010”</b>Ett reservdels- eller manualdatum visar att modellen dokumenterades vid den tidpunkten. Det är inte alltid samma sak som exakt första eller sista tillverkningsdatum.</div>
+</section>
+
 <section id="identifiering">
-<div class="chapter">03 · Identifiering</div>
+<div class="chapter">04 · Identifiering</div>
 <h2>Så tar du reda på vilken Rider 13 du faktiskt har</h2>
 <p class="lead">Börja med maskinens märkning – inte med en bildsökning på Google.</p>
 <div class="steps">
@@ -97,19 +135,6 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 <div class="step"><h3>Identifiera själva klippaggregatet</h3><p>85, 90, 94 och 97 cm förekommer inom Rider 13-familjen. Aggregatet behöver därför identifieras som en egen komponent.</p></div>
 </div>
 <div class="answer"><small>En bra identifieringskedja</small><strong>Maskinskylt → motor → transmission → klippaggregat</strong><p>Fyra tydliga foton kan ofta ge bättre förutsättningar än modellnamnet “Rider 13” ensamt.</p></div>
-</section>
-
-<section id="tidslinje">
-<div class="chapter">04 · Tidslinje</div>
-<h2>Dokumenterade generationer</h2>
-<p class="lead">Datumen nedan är dokument-/reservdelsrevisioner, inte ett löfte om exakta produktionsstarter eller produktionsslut.</p>
-<div class="timeline">
-<div class="time"><strong>1998–1999</strong><span>Rider 13/13 H förekommer i tidiga manualer och reservdelsunderlag. Rider 13 Bio är dokumenterad åtminstone från 1999.</span></div>
-<div class="time"><strong>2001–2003</strong><span>Flera separata reservdelsrevisioner för Rider 13 och Rider 13 Bio. 85 cm respektive 90 cm aggregat är tydligt dokumenterade.</span></div>
-<div class="time"><strong>2003</strong><span>Rider 13 BioClip 953520901 och Rider 13 R/R Special 953533001 förekommer som separata varianter i reservdelsunderlag.</span></div>
-<div class="time"><strong>2006 och framåt</strong><span>Rider 13C blir den senare generationen, med produktnummer såsom 965070401 och därefter 965094301.</span></div>
-</div>
-<div class="learn"><b>Varför vi inte skriver “Rider 13 tillverkades 1998–2010”</b>Ett reservdels- eller manualdatum visar att modellen dokumenterades vid den tidpunkten. Det är inte alltid samma sak som exakt första eller sista tillverkningsdatum.</div>
 </section>
 
 <section id="motor">
@@ -128,7 +153,7 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 </section>
 
 <section id="transmission">
-<div class="chapter">06 · Hydrostat</div>
+<div class="chapter">06 · Drivning</div>
 <h2>K55 eller K46? Svaret beror på generationen</h2>
 <p class="lead">Det här är ett av de tydligaste exemplen på varför vi inte bör behandla alla Rider 13 som samma maskin.</p>
 <p>Husqvarnas transmissionsunderlag från 1999 kopplar <strong>Rider 13 H till Tuff Torq K55</strong>. För senare Rider 13, bland annat 2001-generationen, finns separat dokumentation för <strong>Tuff Torq K46</strong>.</p>
@@ -146,7 +171,7 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 </section>
 
 <section id="styrning">
-<div class="chapter">07 · Styrsystem</div>
+<div class="chapter">07 · Styrning & reglage</div>
 <h2>Så fungerar Rider-styrningen</h2>
 <p>Rider-plattformen är inte byggd som en traditionell trädgårdstraktor där framhjulen vrids på en fast ram. Maskinens fram- och bakdel arbetar tillsammans runt en ledpunkt, och styrsystemet använder bland annat styrvajrar.</p>
 <p>Husqvarnas serviceunderlag beskriver kontroll och justering av styrvajrarna. Vajrarna kan med tiden bli slakare, vilket förändrar styrningen och kan kräva justering.</p>
@@ -156,7 +181,7 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 </section>
 
 <section id="reglage">
-<div class="chapter">08 · Reglage & körning</div>
+<div class="chapter">08 · Styrning & reglage</div>
 <h2>Hur körs den hydrostatiska Ridern?</h2>
 <p>På Rider 13C regleras hastigheten steglöst med två pedaler: en för framåt och en för bakåt. Gasreglaget påverkar både motorvarv och därmed även knivarnas rotationshastighet.</p>
 <div class="system-flow">
@@ -170,22 +195,8 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 <div class="info"><b>Remlivslängd</b>Husqvarnas senare Rider-manual rekommenderar lågt motorvarv när knivarna kopplas in och fullgas först när aggregatet är i klippläge. Det minskar belastningen på drivremmarna.</div>
 </section>
 
-<section id="sakerhet">
-<div class="chapter">09 · Säkerhetssystem</div>
-<h2>Varför kan en Rider vägra starta?</h2>
-<p class="lead">Ett uteblivet startförsök behöver inte automatiskt betyda att startmotor eller solenoid är trasig.</p>
-<p>Husqvarnas Rider-manualer beskriver flera säkerhetsbrytare och startvillkor. På senare Rider 13C kontrolleras bland annat parkeringsbroms, neutral-/pedalläge och aggregatets läge.</p>
-<div class="system-flow">
-<div class="flow"><strong>1. Aggregatläge</strong><br><span>Maskinen ska stå i korrekt startläge.</span></div>
-<div class="flow"><strong>2. Hydrostat/pedaler</strong><br><span>Pedalerna ska inte begära fram- eller backdrift.</span></div>
-<div class="flow"><strong>3. Parkeringsbroms</strong><br><span>Säkerhetssystemet använder bromsläget i startlogiken på dokumenterade versioner.</span></div>
-<div class="flow"><strong>4. Sätesfunktion</strong><br><span>Sätets brytare ingår i säkerhetskedjan på dokumenterade Rider-versioner.</span></div>
-</div>
-<div class="learn"><b>Felsök smart – men koppla inte förbi systemet</b>Om startmotorn inte reagerar är det rimligt att först kontrollera att maskinen står i rätt startläge och att säkerhetsfunktionerna arbetar. Säkerhetsbrytare ska inte permanent förbikopplas.</div>
-</section>
-
 <section id="aggregat">
-<div class="chapter">10 · Klippaggregat</div>
+<div class="chapter">09 · Klippaggregat</div>
 <h2>85, 90, 94 eller 97 cm?</h2>
 <p class="lead">Klippaggregatet är en av de tydligaste ledtrådarna till vilken Rider 13 man har.</p>
 <table class="compare">
@@ -208,8 +219,22 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 <div class="info"><b>Varför klipphöjder kan skilja mellan dokument</b>Rider 13C förekommer över flera dokumentrevisioner. När en exakt specifikation är viktig bör produktnumret kopplas till rätt manual, istället för att använda en enda siffra för alla 13C.</div>
 </section>
 
+<section id="sakerhet">
+<div class="chapter">10 · Säkerhet</div>
+<h2>Varför kan en Rider vägra starta?</h2>
+<p class="lead">Ett uteblivet startförsök behöver inte automatiskt betyda att startmotor eller solenoid är trasig.</p>
+<p>Husqvarnas Rider-manualer beskriver flera säkerhetsbrytare och startvillkor. På senare Rider 13C kontrolleras bland annat parkeringsbroms, neutral-/pedalläge och aggregatets läge.</p>
+<div class="system-flow">
+<div class="flow"><strong>1. Aggregatläge</strong><br><span>Maskinen ska stå i korrekt startläge.</span></div>
+<div class="flow"><strong>2. Hydrostat/pedaler</strong><br><span>Pedalerna ska inte begära fram- eller backdrift.</span></div>
+<div class="flow"><strong>3. Parkeringsbroms</strong><br><span>Säkerhetssystemet använder bromsläget i startlogiken på dokumenterade versioner.</span></div>
+<div class="flow"><strong>4. Sätesfunktion</strong><br><span>Sätets brytare ingår i säkerhetskedjan på dokumenterade Rider-versioner.</span></div>
+</div>
+<div class="learn"><b>Felsök smart – men koppla inte förbi systemet</b>Om startmotorn inte reagerar är det rimligt att först kontrollera att maskinen står i rätt startläge och att säkerhetsfunktionerna arbetar. Säkerhetsbrytare ska inte permanent förbikopplas.</div>
+</section>
+
 <section id="service">
-<div class="chapter">11 · Service</div>
+<div class="chapter">11 · Service & underhåll</div>
 <h2>Vad ska kontrolleras på en Rider?</h2>
 <p class="lead">Husqvarnas serviceschema för senare Rider-generationer ger en bra bild av vilka system som behöver regelbunden uppmärksamhet.</p>
 <div class="use-list">
@@ -243,7 +268,7 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 </section>
 
 <section id="koprad">
-<div class="chapter">13 · Begagnat</div>
+<div class="chapter">13 · Köpråd</div>
 <h2>Vad bör man kontrollera på en begagnad Rider 13?</h2>
 <p class="lead">Punkterna nedan är praktiska kontrollområden – inte en lista över dokumenterade typfel.</p>
 <p><strong>Identiteten:</strong> börja med att avgöra vilken Rider 13-version det faktiskt är. Det påverkar både värdering och reservdelssökning.</p>
@@ -257,7 +282,7 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 </section>
 
 <section id="faq">
-<div class="chapter">14 · Snabbsvar</div>
+<div class="chapter">14 · Vanliga frågor</div>
 <h2>Vanliga frågor om Husqvarna Rider 13</h2>
 <details><summary>Har alla Husqvarna Rider 13 samma motor?</summary><p>Nej. Rider 13-familjen sträcker sig över flera generationer. Kontrollera maskinens produktidentitet och motorns egen märkning.</p></details>
 <details><summary>Vilken hydrostat sitter i Rider 13?</summary><p>Äldre Rider 13 H-underlag visar Tuff Torq K55, medan senare Rider 13 har dokumentation för K46. Det finns alltså inget enda generellt svar.</p></details>
@@ -281,43 +306,27 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 <a class="btn alt" href="/kop-maskiner.html">Läs om vad vi köper</a>
 </div>
 </div>
-<div class="meta">Senast faktagranskad: 11 augusti 2026 · <button data-open>Visa källor & manualer</button></div>
+<div class="meta">Senast faktagranskad: 11 augusti 2026 · <a class="source-jump" href="#kallor">Källor och manualer</a></div>
 </section>
 
+
+<section id="kallor" class="source-section"><div class="chapter">15 · Källor & manualer</div><h2>Källor och manualer</h2><p>Originalmanualer och reservdelskataloger finns samlade här. Öppna rutan om du vill läsa mer eller kontrollera en uppgift.</p><details class="source-disclosure"><summary>Visa källor och manualer <span aria-hidden="true">▾</span></summary><div class="source-disclosure-inner"><p>Välj gärna dokument som hör till just din maskins produktnummer.</p><div class="source-record"><strong>Husqvarna – Rider 11 R / Rider 11 C / Rider 13 C / Rider 16 C AWD / Rider 16 C – Operator's manual</strong>Huvudkälla för senare Rider 13C: konstruktion, reglage, Combi-aggregat, säkerhetssystem, däcktryck, service, styrvajrar och körning.</div>
+<div class="source-record"><strong>Husqvarna Rider 13C – officiell supportsida</strong>Officiellt stöd för bland annat senare 13C-specifikationer och produktnummer 965094301.<br><a href="https://www.husqvarna.com/uk/support/products-category/ride-on-front-mowers/rider-13c/" target="_blank" rel="noopener noreferrer">Öppna Husqvarna</a></div>
+<div class="source-record"><strong>Husqvarna Rider 13 / Rider 13 Bio – äldre manualmaterial</strong>Använt för äldre generationer, 12,5 hk-motorinformation, hydrostatprincip, 85/90 cm aggregat samt äldre versionsdata.</div>
+<div class="source-record"><strong>Husqvarna Rider 13 H – transmissionsunderlag 1999</strong>Underlag som kopplar äldre Rider 13 H till Tuff Torq K55.</div>
+<div class="source-record"><strong>Rider 13 2001-01 – K46-reservdelsunderlag</strong>Underlag för att senare Rider 13-generationer förekommer med Tuff Torq K46.</div>
+<div class="source-record"><strong>Husqvarnas reservdelsarkiv / IPL</strong>Använt för att hålla isär dokumenterade Rider 13-, Bio-, BioClip-, R- och 13C-generationer.<br><a href="https://shop-pa-v9.husqvarna.com/" target="_blank" rel="noopener noreferrer">Öppna reservdelsarkivet</a></div>
+<div class="source-record"><strong>Rider 13 Bio / BioClip – kompletterande IPL-underlag</strong>Stöd för 90 cm aggregat och produktnummer 953520901.</div>
+<div class="source-record"><strong>Rider 13 R / R Special – kompletterande IPL-underlag</strong>Stöd för produktnummer 953533001 och dokumenterat 97 cm aggregat.</div><p>Äldre dokument och artikelnummer kan skilja sig mellan produktversioner.</p></div></details></section>
 </article>
 </main>
 
 <div id="site-footer"></div>
 
-<div class="modal" id="sources" aria-hidden="true">
-<div class="modalbox" role="dialog" aria-modal="true" aria-labelledby="sourceTitle">
-<div class="modalhead"><h2 id="sourceTitle">Källor & faktaunderlag</h2><button class="close" data-close aria-label="Stäng">×</button></div>
-<div class="modalbody">
-<p>Rider 13 är en modellfamilj med flera dokumentgenerationer. Därför används både Husqvarnas egna manualer/support och kompletterande reservdelsunderlag för att hålla isär versionerna.</p>
-<div class="source"><strong>Husqvarna – Rider 11 R / Rider 11 C / Rider 13 C / Rider 16 C AWD / Rider 16 C – Operator's manual</strong>Huvudkälla för senare Rider 13C: konstruktion, reglage, Combi-aggregat, säkerhetssystem, däcktryck, service, styrvajrar och körning.</div>
-<div class="source"><strong>Husqvarna Rider 13C – officiell supportsida</strong>Officiellt stöd för bland annat senare 13C-specifikationer och produktnummer 965094301.<br><a href="https://www.husqvarna.com/uk/support/products-category/ride-on-front-mowers/rider-13c/" target="_blank" rel="noopener noreferrer">Öppna Husqvarna</a></div>
-<div class="source"><strong>Husqvarna Rider 13 / Rider 13 Bio – äldre manualmaterial</strong>Använt för äldre generationer, 12,5 hk-motorinformation, hydrostatprincip, 85/90 cm aggregat samt äldre versionsdata.</div>
-<div class="source"><strong>Husqvarna Rider 13 H – transmissionsunderlag 1999</strong>Underlag som kopplar äldre Rider 13 H till Tuff Torq K55.</div>
-<div class="source"><strong>Rider 13 2001-01 – K46-reservdelsunderlag</strong>Underlag för att senare Rider 13-generationer förekommer med Tuff Torq K46.</div>
-<div class="source"><strong>Husqvarnas reservdelsarkiv / IPL</strong>Använt för att hålla isär dokumenterade Rider 13-, Bio-, BioClip-, R- och 13C-generationer.<br><a href="https://shop-pa-v9.husqvarna.com/" target="_blank" rel="noopener noreferrer">Öppna reservdelsarkivet</a></div>
-<div class="source"><strong>Rider 13 Bio / BioClip – kompletterande IPL-underlag</strong>Stöd för 90 cm aggregat och produktnummer 953520901.</div>
-<div class="source"><strong>Rider 13 R / R Special – kompletterande IPL-underlag</strong>Stöd för produktnummer 953533001 och dokumenterat 97 cm aggregat.</div>
-<p style="margin-top:18px"><strong>Viktigt:</strong> datumen på äldre IPL/manualer visar dokumenterade revisioner och ska inte automatiskt tolkas som exakta första/sista tillverkningsdatum. Kontrollera alltid den aktuella maskinens typskylt, motor, transmission och aggregat före beställning av reservdelar.</p>
-</div>
-</div>
-</div>
-
 <script>
-async function inject(id,url){const el=document.getElementById(id);if(!el)return;try{const r=await fetch(url,{cache:"no-cache"});if(!r.ok)throw new Error(url);el.innerHTML=await r.text()}catch(e){console.error("Kunde inte ladda partial:",e)}}
+async function inject(id,url){const el=document.getElementById(id);if(!el)return;try{const r=await fetch(url,{cache:"no-cache"});if(!r.ok)throw new Error(url);const t=document.createElement("template");t.innerHTML=await r.text();t.content.querySelectorAll("[href],[src]").forEach(node=>{for(const key of ["href","src"]){const val=node.getAttribute(key);if(val&&!val.startsWith("/")&&!val.startsWith("#")&&!val.startsWith("?")&&!/^[a-z][a-z0-9+.-]*:/i.test(val))node.setAttribute(key,"/"+val.replace(/^\.\//,""))}});el.replaceChildren(t.content.cloneNode(true))}catch(e){console.error("Kunde inte ladda partial:",e)}}
 inject("site-header","../partials1/header.html");
 inject("site-footer","../partials1/footer.html");
-const modal=document.getElementById("sources"),closeBtn=document.querySelector("[data-close]");
-function openM(){modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.body.classList.add("modal-open");closeBtn.focus()}
-function closeM(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.classList.remove("modal-open")}
-document.querySelectorAll("[data-open]").forEach(x=>x.addEventListener("click",openM));
-closeBtn.addEventListener("click",closeM);
-modal.addEventListener("click",e=>{if(e.target===modal)closeM()});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"&&modal.classList.contains("open"))closeM()});
 </script>
 </body>
 </html>
