@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import assert from "node:assert/strict";
 const source=JSON.parse(fs.readFileSync("src/_data/machines/stiga-park-16.json","utf8"));
-const target="../../_maskinarkiv-preview/maskinarkiv/stiga-park-16.html";
+const target="../_maskinarkiv-preview/maskinarkiv/stiga-park-16.html";
 assert.ok(fs.existsSync(target), "Kör npm run build före npm run check");
 const html=fs.readFileSync(target,"utf8");
 assert.equal(source.chapters.length,17);
