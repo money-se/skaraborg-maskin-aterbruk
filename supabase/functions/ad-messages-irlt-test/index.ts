@@ -11,11 +11,11 @@ Deno.serve(async request=>{
  if(!secret||!pepper||pepper.length<24||!key||!url)return respond(503,{error:"Not configured"});
  if(Number(request.headers.get("content-length")||0)>9000)return respond(413,{error:"Size"});
  let data:any;try{data=await request.json()}catch{return respond(400,{error:"Format"})}
- if(!data||typeof data.captcha!=="string"||data.captcha.length>4096||data.captcha.length<1)return respond(400,{error:"Captcha"});
- const verification=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({secret,response:data.captcha})}).then(r=>r.ok?r.json():null).catch(()=>null);
- if(!verification?.success||verification.hostname!=="skaraborgmaskin.se")return respond(403,{error:"Captcha"});
+ if(!data||data.action!=="read"&&typeof data.captcha!=="string"||data.captcha.length>4096||data.captcha.length<1)return respond(400,{error:"Captcha"});
+ if(data.action!=="read"){const verification=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({secret,response:data.captcha})}).then(r=>r.ok?r.json():null).catch(()=>null);
+ if(!verification?.success||verification.hostname!=="skaraborgmaskin.se")return respond(403,{error:"Captcha"});}
  const db=createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}});
- const limit=await db.rpc("ad_message_rate_check",{p_hash:await hash(pepper+":test-messages-total"),p_limit:20,p_window_minutes:60});
+ const limit=await db.rpc("ad_message_rate_check",{p_hash:await hash(pepper+":test-messages-total:"+(data.action==="read"?"read":"write")),p_limit:data.action==="read"?360:20,p_window_minutes:60});
  if(limit.error||limit.data!==true)return respond(429,{error:"Rate limit"});
  if(data.action==="new"){
   const name=typeof data.name==="string"?data.name.trim():"",email=typeof data.email==="string"?data.email.trim().toLowerCase():"",body=typeof data.message==="string"?data.message.trim():"";
@@ -35,6 +35,7 @@ Deno.serve(async request=>{
  if(conv.error||!conv.data)return respond(404,{error:"Not found"});
  if(conv.data.status!=="open")return respond(410,{error:"Closed"});
  if(data.action==="read"){
+  const threadLimit=await db.rpc("ad_message_rate_check",{p_hash:await hash(pepper+":test-read:"+id),p_limit:120,p_window_minutes:60});if(threadLimit.error||threadLimit.data!==true)return respond(429,{error:"Rate limit"});
   const messages=await db.from("ad_messages").select("sender,body,sent_at").eq("conversation_id",id).order("sent_at").limit(100);
   return messages.error?respond(500,{error:"Failed"}):respond(200,{messages:messages.data});
  }
