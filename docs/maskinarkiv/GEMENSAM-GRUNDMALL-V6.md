@@ -41,3 +41,32 @@ Ingen faktisk visuell browser-rendering genomförd. Denna branch bör visas på 
 - Alla sidor använder gemensam CSS med nya regler för brödsmulor, badges, TOC och källrutor.
 - Statiskt verifierat på var och en av fem sidor: en hero, en layout, en article, en desktop-TOC, en mobile-TOC, källorna i stängd details, inga duplicerade ID:n eller trasiga interna ankare.
 - Ingen verklig renderad browser-test har genomförts. CSS finns bara i denna granskningsgren och kräver merge/deploy innan den publika webbplatsen kan visa utseendet.
+
+
+## v6.2 – enhetlig innehållsordning (2026-10-18)
+
+Alla fem artiklar är omordnade efter samma redaktionella grundprincip:
+1. Översikt – förklara maskinen från noll
+2. Modellversioner och skillnader
+3. Identifiering (märkplåt, produktnummer och motorkod)
+4. Så fungerar maskinen, motor
+5. Drivning, styrning och reglage
+6. Klippaggregat
+7. Användningsområden när relevant
+8. Säkerhet
+9. Service och underhåll
+10. Felsökning där dokumenterat material finns
+11. Reservdelar och sprängskisser
+12. Köpråd
+13. Ordlista där behövligt
+14. Vanliga frågor
+15. Återbruk/kontakt där befintligt
+16. Källor och manualer, stängt vid laddning
+
+För samtliga fem finns nu konsekvent:
+- Samma kapitelmarkör, NN · kategori
+- Samma navigeringsrubrik och standardiserade kategorinamn både på dator och mobil
+- Bevarade maskinspecifika H2-rubriker, faktatexter, tabeller och källor
+- Saknade kategorier ska inte fyllas med påhittat material; underkapitel används där extra djup finns
+
+Kvalitet: statisk verifiering av ankarmål och identifierare. Visuell browsergranskning och redaktionell faktagranskning återstår före merge.
