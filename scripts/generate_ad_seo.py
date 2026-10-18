@@ -32,7 +32,8 @@ def render(ad, url):
     title = str(ad["title"]).strip()
     description = str(ad.get("description") or "").strip()
     summary = " ".join(description.split())[:155] or f"Begagnad {title} i Hjo hos Skaraborg Maskin & Återbruk."
-    page_title = f"{title} begagnad i Hjo | Skaraborg Maskin & Återbruk"[:95]
+    seo_name = title if "begagnad" in title.lower() else f"{title} begagnad"
+    page_title = f"{seo_name} i Hjo | Skaraborg Maskin & Återbruk"[:95]
     available = ad["status"] == "sale"
     images = [f"{SUPABASE}/storage/v1/object/public/ad-images/{path}" for path in (ad.get("image_paths") or []) if isinstance(path, str) and not path.startswith("/") and ".." not in path]
     price = int(ad["price_sek"])
@@ -42,14 +43,14 @@ def render(ad, url):
         "url": url,
         "itemCondition": "https://schema.org/UsedCondition",
         "offers": {"@type": "Offer", "priceCurrency": "SEK", "price": str(price),
-                   "availability": "https://schema.org/InStock" if available else "https://schema.org/PreOrder", "url": url,
+                   "availability": "https://schema.org/InStock" if available else "https://schema.org/OutOfStock", "url": url,
                    "seller": {"@type": "Organization", "name": "Skaraborg Maskin & Återbruk"}},
     }
     if images: ld["image"] = images
     ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
     gallery = '<div class="gallery">' + "".join(f'<img src="{safe(img)}" alt="{safe(title)} – bild {i+1}" loading="lazy">' for i,img in enumerate(images)) + "</div>" if images else ""
     status = "Till salu" if available else "Reserverad / väntande"
-    contact = '<a class="cta" href="/kontakt.html">Kontakta oss om maskinen</a>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>"
+    contact = f'<a class="cta" href="/annonskontakt.html?ad={ad["id"]}">Skicka meddelande om annonsen</a>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>"
     return f"""<!doctype html>
 <html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{safe(page_title)}</title><meta name="description" content="{safe(summary)}">
