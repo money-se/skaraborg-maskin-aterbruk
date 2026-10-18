@@ -54,3 +54,19 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 .article .meta,.article .footer-note{font-size:13px;color:var(--muted)}
 .article .source-disclosure:focus-visible,.article .sources-disclosure:focus-visible{outline:3px solid var(--gold)}
 @media(max-width:960px){.article .mobile-toc{display:block;background:#fff;border:1px solid var(--line);border-radius:11px;padding:15px 19px;margin-bottom:30px}}
+
+/* Semantiska komponenter utan tidigare gemensam styling: Riders färgskala och typografi. */
+.article .version,.article .version-code{color:var(--green);font-weight:850}
+.article .small,.article .note,.article .intro{color:var(--muted);font-size:14px}
+.article .simple-label{display:block;color:var(--green2);font-size:12px;letter-spacing:.07em;text-transform:uppercase;font-weight:850;margin-bottom:8px}
+.article .big{display:block;font-size:20px;line-height:1.4;margin-bottom:8px}
+.article .child-example{border-left:4px solid var(--gold);background:var(--goldsoft);border-radius:0 9px 9px 0;padding:18px 20px;margin:23px 0}
+.article .glossary{display:grid;gap:12px;margin:22px 0}
+.article .glossary-item,.article .diag,.article .check{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 19px;margin:16px 0}
+.article .glossary-item strong{color:var(--green)}
+.article .btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.article .row{border-bottom:1px solid var(--line);padding:10px 0}
+.article .service{margin:24px 0}
+.skip{position:absolute;left:-9999px;top:auto}
+.skip:focus{left:15px;top:15px;z-index:3000;background:#fff;padding:10px 15px;color:var(--green)}
+@media(max-width:620px){.article .btns{flex-direction:column}}
