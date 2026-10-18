@@ -9,7 +9,6 @@ async function digest(value:string){const buffer=await crypto.subtle.digest("SHA
 function normalized(s:unknown,max:number){return typeof s==="string"&&s.trim().length>0&&s.trim().length<=max?s.trim():null}
 async function captcha(token:string,secret:string){const response=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({secret,response:token})});if(!response.ok)return false;const data=await response.json();return data.success===true&&data.hostname==="skaraborgmaskin.se"}
 Deno.serve(async req=>{
- if(Deno.env.get("MESSAGE_PUBLIC_ENABLED")!=="true")return reply(503,{error:"Messaging rollout is not enabled"});
  if(req.method==="OPTIONS")return new Response(null,{headers:cors});
  if(req.method!=="POST")return reply(405,{error:"Method not allowed"});
  const expectedOrigin="https://skaraborgmaskin.se";
@@ -23,14 +22,12 @@ Deno.serve(async req=>{
  let data:any;try{data=await req.json()}catch{return reply(400,{error:"Bad JSON"})}
  const action=normalized(data.action,16);
  if(!["new","read","reply"].includes(action||""))return reply(400,{error:"Invalid action"});
- const turnstile=normalized(data.captcha,4096);
- if(!turnstile)return reply(400,{error:"Verification required"});
- try{if(!await captcha(turnstile,secret))return reply(403,{error:"Verification failed"})}catch{return reply(503,{error:"Verification unavailable"})}
+ if(action!=="read"){const turnstile=normalized(data.captcha,4096);if(!turnstile)return reply(400,{error:"Verification required"});try{if(!await captcha(turnstile,secret))return reply(403,{error:"Verification failed"})}catch{return reply(503,{error:"Verification unavailable"})}}
  const db=createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}});
  // Never trust client-controlled forwarding headers as IP identity.
  // A shared global bucket limits total load; additional email and thread buckets apply below.
  const globalHash=await digest(pepper+":global:ad-messages");
- const rate=await db.rpc("ad_message_rate_check",{p_hash:globalHash,p_limit:30,p_window_minutes:60});
+ const rate=await db.rpc("ad_message_rate_check",{p_hash:globalHash,p_limit:300,p_window_minutes:60});
  if(rate.error||rate.data!==true)return reply(429,{error:"Too many requests"});
  if(action==="new"){
    if(data.website)return reply(200,{ok:true}); // honeypot
@@ -51,7 +48,7 @@ Deno.serve(async req=>{
  const id=normalized(data.conversation_id,80),token=normalized(data.token,200);
  if(!id||!/^[a-f0-9-]{36}$/i.test(id)||!token||!/^[-a-f0-9]{73}$/i.test(token))return reply(400,{error:"Missing conversation credentials"});
  const hash=await digest(pepper+":token:"+token);
- const threadBucket=await db.rpc("ad_message_rate_check",{p_hash:await digest(pepper+":thread:"+id),p_limit:20,p_window_minutes:60});
+ const threadBucket=await db.rpc("ad_message_rate_check",{p_hash:await digest(pepper+":thread:"+id+":"+action),p_limit:action==="read"?180:20,p_window_minutes:60});
  if(threadBucket.error||threadBucket.data!==true)return reply(429,{error:"Too many requests"});
  const conv=await db.from("ad_conversations").select("id,status,customer_name").eq("id",id).eq("access_token_hash",hash).maybeSingle();
  if(conv.error||!conv.data)return reply(404,{error:"Conversation unavailable"});
