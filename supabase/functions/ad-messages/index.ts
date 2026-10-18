@@ -7,7 +7,7 @@ const reply=(status:number,body:unknown)=>new Response(JSON.stringify(body),{sta
 const encoder=new TextEncoder();
 async function digest(value:string){const buffer=await crypto.subtle.digest("SHA-256",encoder.encode(value));return [...new Uint8Array(buffer)].map(x=>x.toString(16).padStart(2,"0")).join("")}
 function normalized(s:unknown,max:number){return typeof s==="string"&&s.trim().length>0&&s.trim().length<=max?s.trim():null}
-async function captcha(token:string,secret:string,ip:string){const response=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({secret,response:token,remoteip:ip})});if(!response.ok)return false;const data=await response.json();return data.success===true&&data.hostname==="skaraborgmaskin.se"}
+async function captcha(token:string,secret:string){const response=await fetch("https://challenges.cloudflare.com/turnstile/v0/siteverify",{method:"POST",headers:{"content-type":"application/x-www-form-urlencoded"},body:new URLSearchParams({secret,response:token})});if(!response.ok)return false;const data=await response.json();return data.success===true&&data.hostname==="skaraborgmaskin.se"}
 Deno.serve(async req=>{
  if(Deno.env.get("MESSAGE_PUBLIC_ENABLED")!=="true")return reply(503,{error:"Messaging rollout is not enabled"});
  if(req.method==="OPTIONS")return new Response(null,{headers:cors});
@@ -23,14 +23,14 @@ Deno.serve(async req=>{
  let data:any;try{data=await req.json()}catch{return reply(400,{error:"Bad JSON"})}
  const action=normalized(data.action,16);
  if(!["new","read","reply"].includes(action||""))return reply(400,{error:"Invalid action"});
- const ip=req.headers.get("cf-connecting-ip")||""; // WARNING: requires trusted proxy verification before public activation
- if(!ip||ip.length>80)return reply(403,{error:"Request blocked"});
  const turnstile=normalized(data.captcha,4096);
  if(!turnstile)return reply(400,{error:"Verification required"});
- try{if(!await captcha(turnstile,secret,ip))return reply(403,{error:"Verification failed"})}catch{return reply(503,{error:"Verification unavailable"})}
+ try{if(!await captcha(turnstile,secret))return reply(403,{error:"Verification failed"})}catch{return reply(503,{error:"Verification unavailable"})}
  const db=createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}});
- const iphash=await digest(pepper+":ip:"+ip);
- const rate=await db.rpc("ad_message_rate_check",{p_hash:iphash,p_limit:8,p_window_minutes:60});
+ // Never trust client-controlled forwarding headers as IP identity.
+ // A shared global bucket limits total load; additional email and thread buckets apply below.
+ const globalHash=await digest(pepper+":global:ad-messages");
+ const rate=await db.rpc("ad_message_rate_check",{p_hash:globalHash,p_limit:30,p_window_minutes:60});
  if(rate.error||rate.data!==true)return reply(429,{error:"Too many requests"});
  if(action==="new"){
    if(data.website)return reply(200,{ok:true}); // honeypot
@@ -49,8 +49,10 @@ Deno.serve(async req=>{
    return reply(201,{conversation_id:conv.data.id,token});
  }
  const id=normalized(data.conversation_id,80),token=normalized(data.token,200);
- if(!id||!/^[a-f0-9-]{36}$/i.test(id)||!token)return reply(400,{error:"Missing conversation credentials"});
+ if(!id||!/^[a-f0-9-]{36}$/i.test(id)||!token||!/^[-a-f0-9]{73}$/i.test(token))return reply(400,{error:"Missing conversation credentials"});
  const hash=await digest(pepper+":token:"+token);
+ const threadBucket=await db.rpc("ad_message_rate_check",{p_hash:await digest(pepper+":thread:"+id),p_limit:20,p_window_minutes:60});
+ if(threadBucket.error||threadBucket.data!==true)return reply(429,{error:"Too many requests"});
  const conv=await db.from("ad_conversations").select("id,status,customer_name").eq("id",id).eq("access_token_hash",hash).maybeSingle();
  if(conv.error||!conv.data)return reply(404,{error:"Conversation unavailable"});
  if(conv.data.status!=="open")return reply(410,{error:"Conversation closed"});
