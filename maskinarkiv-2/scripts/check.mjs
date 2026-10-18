@@ -9,7 +9,7 @@ for(const chapter of source.chapters){assert.ok(html.includes('id="'+chapter.id+
 assert.ok(html.includes('href="/tradera.html"'));
 assert.ok(html.includes('class="source-disclosure"'));
 assert.ok(html.includes('maskinarkiv-v6.css'));
-const ids=[...html.matchAll(/\\bid="([^"]+)"/g)].map(m=>m[1]);
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(new Set(ids).size,ids.length,"Dubblett-ID");
 for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(anchor),"Trasigt ankare: "+anchor);
 console.log("MASKINARKIV_2_PILOT=PASS; kapitel="+source.chapters.length);
