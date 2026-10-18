@@ -19,7 +19,10 @@ jobs:
               text=Path(name).read_text(encoding='utf-8')
               assert '<script type="module">' in text and '</script>' in text
               assert 'service_role' not in text.lower()
-              assert 'sb_publishable_' in text
+              if name != 'annonskontakt-v3.html':
+                  assert 'sb_publishable_' in text
+              else:
+                  assert '0x4AAAAAAFaFIoZ5SUmH1teb' in text
               Path('/tmp/'+name+'.mjs').write_text(text.split('<script type="module">')[1].split('</script>')[0],encoding='utf-8')
               print('PREPARED',name)
           PY
@@ -27,6 +30,16 @@ jobs:
           node --check /tmp/annonser-v3.html.mjs
           node --check /tmp/annonsinkorg-v3.html.mjs
           node --check /tmp/annonskontakt-v3.html.mjs
+      - name: Check messaging backend safety gates
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('supabase/functions/ad-messages/index.ts').read_text()
+          for marker in ['MESSAGE_PUBLIC_ENABLED','TURNSTILE_SECRET_KEY','MESSAGE_PEPPER','turnstile/v0/siteverify','ad_message_rate_check','access_token_hash']:
+              assert marker in s, f'Missing: {marker}'
+          assert 'cf-connecting-ip' not in s
+          print('MESSAGING_STATIC_SECURITY_CHECK=PASS')
+          PY
       - uses: actions/upload-artifact@v4
         with:
           name: annonsadmin-v3-test
