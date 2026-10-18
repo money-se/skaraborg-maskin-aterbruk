@@ -97,7 +97,7 @@ function insertPartial(id,html){
   fragment.content.querySelectorAll("a[href]").forEach(link=>{
     const href=link.getAttribute("href");
     if(href&&!href.startsWith("/")&&!href.startsWith("#")&&!/^[a-z][a-z0-9+.-]*:/i.test(href)){
-      link.setAttribute("href","/"+href.replace(/^\\.\\//,""));
+      link.setAttribute("href","/"+href);
     }
   });
   container.replaceChildren(fragment.content.cloneNode(true));
