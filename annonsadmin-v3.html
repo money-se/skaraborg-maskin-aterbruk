@@ -14,7 +14,7 @@
 <script type="module">
 import {createClient} from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
 // Only PUBLIC browser credentials belong here. Never paste a service_role key.
-const SETTINGS={url:'__SUPABASE_PROJECT_URL__',publishableKey:'__SUPABASE_PUBLISHABLE_KEY__'};
+const SETTINGS={url:'https://jnorvriiehandxlvwkkg.supabase.co',publishableKey:'sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR'};
 const $=id=>document.getElementById(id),labels={sale:'Till salu',pending:'Väntande',sold:'Såld'};
 const configured=SETTINGS.url.startsWith('https://')&&!SETTINGS.publishableKey.startsWith('__');
 let db=null,session=null,items=[],filter='sale',editing=null,previousImages=[];
