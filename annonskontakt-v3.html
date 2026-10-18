@@ -11,7 +11,7 @@ const PROJECT_URL='https://jnorvriiehandxlvwkkg.supabase.co',PUBLIC_KEY='sb_publ
 function note(s){$('site-status').textContent=s}
 function ready(){return typeof window.turnstile!=='undefined'}
 async function mount(target,onValid){for(let i=0;i<60&&!ready();i++)await new Promise(r=>setTimeout(r,100));if(!ready())throw Error('Säkerhetskontrollen kunde inte laddas');return window.turnstile.render('#'+target,{sitekey:SITE_KEY,action:'ad_message',callback:onValid,'expired-callback':()=>onValid(''),'error-callback':()=>onValid('')})}
-async function call(data){let r=await fetch(API,{method:'POST',headers:{'content-type':'application/json','apikey':PUBLIC_KEY},body:JSON.stringify(data)});let body=await r.json().catch(()=>({}));if(!r.ok)throw Error(body.error||'Tjänsten är tillfälligt otillgänglig');return body}
+async function call(data){let r=await fetch(API,{method:'POST',headers:{'content-type':'application/json','apikey':PUBLIC_KEY},body:JSON.stringify(data)});let body=await r.json().catch(()=>({}));if(!r.ok){if(r.status===401||r.status===503)throw Error('Meddelandefunktionen är ännu inte aktiverad för kunder. Försök senare.');throw Error(body.error||'Tjänsten är tillfälligt otillgänglig');}return body}
 function reset(id){if(id!==null&&ready())window.turnstile.reset(id)}
 function getToken(id){return id!==null&&ready()?window.turnstile.getResponse(id):''}
 function showThread(){ $('new-section').classList.add('hidden');$('thread-section').classList.remove('hidden');const link=$('private-link');link.classList.remove('hidden');$('thread-url').value=location.href; }
