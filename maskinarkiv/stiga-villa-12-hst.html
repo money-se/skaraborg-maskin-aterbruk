@@ -29,8 +29,9 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 @media(max-width:900px){.layout{grid-template-columns:1fr;gap:25px}.toc{display:none}.mobile-toc{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;margin-bottom:36px}.mobile-toc summary{padding:13px 15px}.mobile-toc div{padding:0 15px 14px}.mobile-toc a{display:block;padding:6px 0;color:var(--green);text-decoration:none}}
 @media(max-width:620px){.hero{padding:44px 0 48px}.layout{padding-top:34px}.article section{padding-bottom:43px;margin-bottom:43px}.qrow,.version{grid-template-columns:1fr;gap:4px}.specs{grid-template-columns:1fr}.service{font-size:13px}.service th,.service td{padding:9px}.use strong{display:block;min-width:0;margin-bottom:3px}.buttons{flex-direction:column}.btn{width:100%}}
 </style>
+<link rel="stylesheet" href="/maskinarkiv/maskinarkiv-v6.css">
 </head>
-<body>
+<body class="maskinarkiv-v6">
 <div id="site-header"></div>
 
 <header class="hero">
@@ -59,7 +60,7 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 <a href="#reservdelar">Reservdelar</a>
 <a href="#koprad">Köpråd</a>
 <a href="#faq">Vanliga frågor</a>
-<button class="source-open" data-open>Källor & manualer</button>
+<a class="source-jump" href="#kallor">Källor och manualer</a>
 </aside>
 
 <article class="article">
@@ -287,38 +288,25 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 <a class="btn alt" href="tel:+46727483256">Ring 072-748 32 56</a>
 </div>
 </div>
-<div class="meta">Senast faktagranskad: 9 augusti 2026 · <button data-open>Visa källor & manualer</button></div>
+<div class="meta">Senast faktagranskad: 9 augusti 2026 · <a class="source-jump" href="#kallor">Källor och manualer</a></div>
 </section>
 
+
+<section id="kallor" class="source-section"><div class="chapter">Källor och manualer</div><h2>Källor och manualer</h2><p>Originalmanualer och reservdelskataloger finns samlade här. Öppna rutan om du vill läsa mer eller kontrollera en uppgift.</p><details class="source-disclosure"><summary>Visa källor och manualer <span aria-hidden="true">▾</span></summary><div class="source-disclosure-inner"><p>Välj gärna dokument som hör till just din maskins produktnummer.</p><div class="source-record"><strong>STIGA Villa / Villa 12 HST – bruksanvisning 8211-0038-90</strong>Huvudkälla för maskinens konstruktion, drivning, styrning, säkerhetssystem, reglage, användningsområden, däcktryck och underhåll.</div>
+<div class="source-record"><strong>STIGA Villa / Park – 85 Combi, 95 Combi, 105 Combi – bruksanvisning 8211-7000-10</strong>Huvudkälla för klippaggregatets kompatibilitet, klipphöjd, montering, inställning och knivsystem.</div>
+<div class="source-record"><strong>Villa 12 HST 13-2727-13 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
+<div class="source-record"><strong>Villa 12 HST 13-2727-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
+<div class="source-record"><strong>Villa 12 HST 13-2729-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
+<div class="source-record"><strong>Villa 12 HST 13-2729-15 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div><p>Äldre dokument och artikelnummer kan skilja sig mellan produktversioner.</p></div></details></section>
 </article>
 </main>
 
 <div id="site-footer"></div>
 
-<div class="modal" id="sources" aria-hidden="true">
-<div class="modalbox" role="dialog" aria-modal="true" aria-labelledby="sourceTitle">
-<div class="modalhead"><h2 id="sourceTitle">Källor & faktaunderlag</h2><button class="close" data-close aria-label="Stäng">×</button></div>
-<div class="modalbody">
-<p>Maskinarkivet ska skilja på verifierad information och sådant som bara brukar sägas om en modell. Följande material ligger till grund för denna sida.</p>
-<div class="source"><strong>STIGA Villa / Villa 12 HST – bruksanvisning 8211-0038-90</strong>Huvudkälla för maskinens konstruktion, drivning, styrning, säkerhetssystem, reglage, användningsområden, däcktryck och underhåll.</div>
-<div class="source"><strong>STIGA Villa / Park – 85 Combi, 95 Combi, 105 Combi – bruksanvisning 8211-7000-10</strong>Huvudkälla för klippaggregatets kompatibilitet, klipphöjd, montering, inställning och knivsystem.</div>
-<div class="source"><strong>Villa 12 HST 13-2727-13 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
-<div class="source"><strong>Villa 12 HST 13-2727-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
-<div class="source"><strong>Villa 12 HST 13-2729-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
-<div class="source"><strong>Villa 12 HST 13-2729-15 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div>
-<p style="margin-top:18px"><strong>Viktigt:</strong> versionsberoende uppgifter ska alltid kontrolleras mot den aktuella maskinens produktnummer och motorns egen märkning.</p>
-</div>
-</div>
-</div>
-
 <script>
-async function inject(id,url){const el=document.getElementById(id);if(!el)return;try{const r=await fetch(url,{cache:"no-cache"});if(!r.ok)throw new Error(url);el.innerHTML=await r.text()}catch(e){console.error("Kunde inte ladda partial:",e)}}
+async function inject(id,url){const el=document.getElementById(id);if(!el)return;try{const r=await fetch(url,{cache:"no-cache"});if(!r.ok)throw new Error(url);const t=document.createElement("template");t.innerHTML=await r.text();t.content.querySelectorAll("[href],[src]").forEach(node=>{for(const key of ["href","src"]){const val=node.getAttribute(key);if(val&&!val.startsWith("/")&&!val.startsWith("#")&&!val.startsWith("?")&&!/^[a-z][a-z0-9+.-]*:/i.test(val))node.setAttribute(key,"/"+val.replace(/^\.\//,""))}});el.replaceChildren(t.content.cloneNode(true))}catch(e){console.error("Kunde inte ladda partial:",e)}}
 inject("site-header","../partials1/header.html");
 inject("site-footer","../partials1/footer.html");
-const modal=document.getElementById("sources"),closeBtn=document.querySelector("[data-close]");
-function openM(){modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.body.classList.add("modal-open");closeBtn.focus()}
-function closeM(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.classList.remove("modal-open")}
-document.querySelectorAll("[data-open]").forEach(x=>x.addEventListener("click",openM));closeBtn.addEventListener("click",closeM);modal.addEventListener("click",e=>{if(e.target===modal)closeM()});document.addEventListener("keydown",e=>{if(e.key==="Escape")closeM()});
 </script>
 </body>
 </html>
