@@ -63,3 +63,35 @@ Ej fastställda / ännu inte publicerbara:
 
 ## Nästa kvalitetsspärr
 Verifiera delspecifikationer med rätt versionskopplade originalmanualer och IPL innan dessa anges i HTML. Behåll sticky innehållsförteckning, mobilanpassning och källmodal enligt maskinarkivets huvudmall. Ändra bara maskinarkiv/husqvarna-lth151.html och docs/maskinarkiv/husqvarna-lth151/ på denna gren. Ingen sitemap, huvudarkiv, partial, startsida eller main.
+
+## Bekräftade detaljuppgifter för just produktnummer 96041001903
+
+Källa: IPL LTH151 96041001903, 2008-01, sidorna 9–12 i PDF (tryckta sidorna 9–12):
+https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Akgrasklippare/LTH151/IPL%2C-LTH151%2C-96041001903%2C-2008-01_wm.pdf
+
+A för denna variant, INTE alla LTH151:
+- Motor: Kohler SV470, enligt sprängskissens motorlista (tryckt sida 11).
+- Transmission: Hydro-Gear T2, enligt "Transaxle, Hydro GR T2" (tryckt sida 9).
+- Drivrem: Husqvarna 532 12 59-07, enligt samma drivlineförteckning (tryckt sida 9). Verifiera ny ersättningskod mot aktuell Husqvarna-katalog före beställning.
+- Frikopplingsstång: 532 40 84-18 ("Rod Bypass", sida 9).
+- Styrningens främre axelenhet: 532 19 56-73 (sida 13).
+
+Tolkningsnotering: Katalogen visar reservdelsnummer för en historisk produktvariant; artikelnumren kan ha ersatts. En tryckt reservdelspost utgör inte bevis för passning på övriga LTH151-versioner.
+
+## Säkerhetsunderlag i originalmanualen
+
+Manual 532 43 41-78 Rev. 2, engelska säkerhetskapitlet, tryckt sida 3:
+- Kör inte på lutning över 15 grader (gäller denna manualutgåva; kontrollera rätt maskins manual).
+- Motorn ska inte köras i stängt utrymme på grund av kolmonoxid.
+- Innan start: koppla ur knivdriften och lägg växeln/drivningen i neutralt.
+- Ingen körning med borttagna eller defekta skydd/säkerhetsanordningar.
+
+Ingen instruktion om förbikoppling av säkerhetsbrytare ska publiceras.
+
+## Öppna researchfrågor före HTML
+1. Jämför teknisk motor-/transmissionsdata mellan produktnummer 960410019xx och 960410020xx.
+2. Kontrollera om och hur klippaggregatens bredd/uppbyggnad varierar mellan versioner.
+3. Kontrollera instruktioner för däcktryck, oljemängd och service mot versionsspecifik manual.
+4. Spåra svensk operatörsmanual från Husqvarnas officiella dokumentbibliotek.
+5. Validera aktuella reservdelsersättningar separat från historisk IPL.
+
