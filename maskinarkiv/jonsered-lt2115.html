@@ -338,7 +338,8 @@ async function inject(id,url){
         const value=node.getAttribute(attr);
         if(!value||value.startsWith("/")||value.startsWith("#")||/^[a-z][a-z\d+.-]*:/i.test(value))continue;
         // Partial-filerna hör till webbplatsroten, inte /maskinarkiv/.
-        node.setAttribute(attr,new URL(value,location.origin+"/").pathname+new URL(value,location.origin+"/").search+new URL(value,location.origin+"/").hash);
+        const target=new URL(value,location.origin+"/");
+        node.setAttribute(attr,target.pathname+target.search+target.hash);
       }
     });
     e.replaceChildren(template.content.cloneNode(true));
