@@ -33,3 +33,11 @@ Denna branch innehåller en gemensam CSS-fil: maskinarkiv/maskinarkiv-v6.css.
 ## Granskningsstatus
 Statisk kontroll genomförd: alla fem sidor länkar till samma CSS, alla har utfällbara källor och inga interna ankarmål saknas.
 Ingen faktisk visuell browser-rendering genomförd. Denna branch bör visas på en riktig preview/staging innan en sammanslagning till main. Vid fel måste ändringar rättas här före merge.
+
+## v6.1 – korrigerad struktur
+- Fem maskinsidor delar en faktisk klassstandard: .hero, .wrap.layout, .toc, .article, .mobile-toc och källor i <details>.
+- Husqvarna LTH151: tidigare <main class="article"> inne i layout-wrapper har normaliserats till <article class="article"> och mobilklass till .mobile-toc.
+- Jonsered LT2115: mobilklass .mobile har normaliserats till .mobile-toc och hero-badgar till .hero-meta.
+- Alla sidor använder gemensam CSS med nya regler för brödsmulor, badges, TOC och källrutor.
+- Statiskt verifierat på var och en av fem sidor: en hero, en layout, en article, en desktop-TOC, en mobile-TOC, källorna i stängd details, inga duplicerade ID:n eller trasiga interna ankare.
+- Ingen verklig renderad browser-test har genomförts. CSS finns bara i denna granskningsgren och kräver merge/deploy innan den publika webbplatsen kan visa utseendet.
