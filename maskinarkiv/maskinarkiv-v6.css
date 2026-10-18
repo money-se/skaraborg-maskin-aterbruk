@@ -53,3 +53,22 @@ body.maskinarkiv-v6 :focus-visible{outline:3px solid var(--mk-gold);outline-offs
 @media(min-width:961px){body.maskinarkiv-v6 .article :is(.mobile-toc,.mobtoc,.mobile){display:none}}
 @media(max-width:620px){body.maskinarkiv-v6 .hero h1{font-size:42px}body.maskinarkiv-v6 .hero :is(.hero-lead,.leadhero,p){font-size:17px}body.maskinarkiv-v6 .article .cta :is(.buttons,.btns){display:flex;flex-direction:column}body.maskinarkiv-v6 .article .cta .btn{text-align:center}}
 @media(prefers-reduced-motion:reduce){body.maskinarkiv-v6{scroll-behavior:auto}}
+
+/* v6.1: unify previously different HTML class conventions and prevent legacy spacing. */
+body.maskinarkiv-v6 .hero .crumb{font-size:13px;color:#cedbcf;margin:0 0 26px}
+body.maskinarkiv-v6 .hero .crumb a{color:inherit;text-decoration:none}
+body.maskinarkiv-v6 .hero .eyebrow{font-size:12px;letter-spacing:.1em;font-weight:900;text-transform:uppercase;color:#f0d47d;margin:0 0 10px}
+body.maskinarkiv-v6 .hero .hero-meta{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+body.maskinarkiv-v6 .hero .hero-meta span{display:inline-block;font-size:13px;line-height:1.4;color:#e9f0e9;background:transparent;border:1px solid rgba(255,255,255,.24);border-radius:999px;padding:7px 12px}
+body.maskinarkiv-v6 .article .mobile-toc{display:none}
+body.maskinarkiv-v6 .article .mobile-toc a{display:block;font-size:14px;line-height:1.5;color:var(--mk-green);padding:8px 3px;text-decoration:none}
+body.maskinarkiv-v6 .article .mobile-toc a:hover{text-decoration:underline}
+body.maskinarkiv-v6 .article .mobile-toc nav{margin-top:10px}
+body.maskinarkiv-v6 .article .faq details{border-bottom:1px solid var(--mk-line);padding:14px 0}
+body.maskinarkiv-v6 .article .faq summary{font-weight:800;cursor:pointer}
+body.maskinarkiv-v6 .article .meta,body.maskinarkiv-v6 .article .footer-note{font-size:13px;color:var(--mk-muted);margin-top:20px}
+body.maskinarkiv-v6 .article .source-section{padding-bottom:25px}
+@media(max-width:960px){
+  body.maskinarkiv-v6 .article .mobile-toc{display:block!important;background:#fff;border:1px solid var(--mk-line);border-radius:11px;padding:15px 19px;margin:0 0 30px}
+  body.maskinarkiv-v6 .article .mobile-toc>summary{font-weight:850;color:var(--mk-green);cursor:pointer}
+}
