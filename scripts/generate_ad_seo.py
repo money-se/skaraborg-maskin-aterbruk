@@ -81,7 +81,7 @@ def main():
         if not isinstance(ad.get("title"), str) or not ad["title"].strip(): continue
         if ad.get("status") not in ("sale", "pending"): continue
         # Never expose placeholder test advertisements to search engines.
-        if re.match(r"^(test|testannons|test –|test -)(\\b|$)", ad["title"].strip(), re.IGNORECASE): continue
+        if re.match(r"^(test|testannons|test –|test -)(\b|$)", ad["title"].strip(), re.IGNORECASE): continue
         if not re.fullmatch(r"[a-f0-9-]{36}", str(ad["id"])): continue
         name = slugify(ad["title"]) + "-" + ad["id"][:8] + ".html"
         desired.add(name)
