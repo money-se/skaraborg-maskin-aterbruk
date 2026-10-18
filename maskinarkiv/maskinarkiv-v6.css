@@ -89,3 +89,26 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 .article .tradera-follow .tradera-link:hover{background:var(--dark);border-color:var(--dark)}
 .article .cta .btn.alt,.article .cta .btn.secondary{border:2px solid #f3d477;background:var(--gold);color:#17291c;box-shadow:0 3px 10px rgba(0,0,0,.14)}
 .article .cta .btn.alt:hover,.article .cta .btn.secondary:hover{background:#f1c85d;color:#17291c}
+
+
+/* Läsbarhetsfix efter visuell granskning 2026-10-18 */
+@media (min-width:961px){
+  .layout .toc-title{position:sticky;top:0;z-index:2;background:var(--bg);padding:5px 0 12px;margin:0}
+  .layout .toc{scroll-padding-top:48px}
+}
+.article .timeline>div{display:grid;grid-template-columns:96px minmax(0,1fr);column-gap:16px;padding:12px 0;border-bottom:1px solid var(--line);align-items:start}
+.article .timeline>div:last-child{border-bottom:0}
+.article .timeline>div>b{color:var(--green);white-space:nowrap}
+.article .timeline>div>span{min-width:0}
+.article .facts>div{display:grid;grid-template-columns:minmax(135px,180px) minmax(0,1fr);gap:16px;padding:11px 0;border-bottom:1px solid var(--line)}
+.article .facts>div:last-child{border-bottom:0}
+.article .facts>div>b{color:var(--green)}
+.article .facts>div>span{min-width:0}
+.article .note>strong,.article .warning>strong{display:block;margin-bottom:8px}
+.article .check> b{display:block;margin-bottom:8px}
+.article .steps>div:not(.step){padding:15px 0;border-top:1px solid var(--line)}
+.article .steps>div:not(.step):last-child{border-bottom:1px solid var(--line)}
+.article .steps>div:not(.step)>h3{margin:0 0 8px}
+@media(max-width:620px){
+  .article .timeline>div,.article .facts>div{grid-template-columns:1fr;gap:3px}
+}
