@@ -8,7 +8,11 @@ assert.equal(source.chapters.length,16);
 const allowed = new Set(["html","facts","note","warning","check","table-scroll","steps","answer","faq","cta","tradera-follow"]);
 for (const chapter of source.chapters) { assert.ok(chapter.blocks.length > 0, "Empty chapter: "+chapter.id); for (const block of chapter.blocks) assert.ok(allowed.has(block.type), "Unknown block: "+block.type); }
 const typed = source.chapters.flatMap(c => c.blocks).filter(b => b.type !== "html");
-assert.equal(typed.length, 24, "Unexpected component count");
+assert.equal(typed.length, 23, "Unexpected component count inside chapters");
+assert.equal(source.traderaBlock.type,"tradera-follow");
+assert.ok(source.afterChaptersMetaHtml.includes("Källprincip"));
+assert.equal((html.match(/class="tradera-section"/g)||[]).length,1);
+assert.equal((html.match(/<section\b/g)||[]).length,(html.match(/<\/section>/g)||[]).length,"Section tags unbalanced");
 assert.equal(typed.filter(b => b.type === "facts").length,2);
 assert.equal(typed.filter(b => b.type === "table-scroll").length,4);
 assert.equal(source.sources.length,6);
