@@ -4,11 +4,11 @@ const source=JSON.parse(fs.readFileSync("src/_data/machines/stiga-park-16.json",
 const target="../_maskinarkiv-preview/maskinarkiv/stiga-park-16.html";
 assert.ok(fs.existsSync(target),"Kör npm run build före npm run check");
 const html=fs.readFileSync(target,"utf8");
-assert.equal(source.chapters.length,16);
+assert.equal(source.chapters.length,15);
 const allowed = new Set(["html","facts","note","warning","check","table-scroll","steps","answer","faq","cta","tradera-follow"]);
 for (const chapter of source.chapters) { assert.ok(chapter.blocks.length > 0, "Empty chapter: "+chapter.id); for (const block of chapter.blocks) assert.ok(allowed.has(block.type), "Unknown block: "+block.type); }
 const typed = source.chapters.flatMap(c => c.blocks).filter(b => b.type !== "html");
-assert.equal(typed.length, 23, "Unexpected component count inside chapters");
+assert.equal(typed.length, 22, "Unexpected component count inside chapters");
 assert.equal(source.traderaBlock.type,"tradera-follow");
 assert.ok(source.afterChaptersMetaHtml.includes("Källprincip"));
 assert.equal((html.match(/class="tradera-section"/g)||[]).length,1);
@@ -48,7 +48,7 @@ const lth=JSON.parse(fs.readFileSync("src/_data/machines/husqvarna-lth151.json",
 const lthPath="../_maskinarkiv-preview/maskinarkiv/husqvarna-lth151.html";
 assert.ok(fs.existsSync(lthPath),"LTH151 output missing");
 const lthHtml=fs.readFileSync(lthPath,"utf8");
-assert.equal(lth.chapters.length,14);
+assert.equal(lth.chapters.length,13;
 assert.equal(lth.sources.length,4);
 for(const chapter of lth.chapters)assert.ok(lthHtml.includes('id="'+chapter.id+'"'),"LTH151 chapter missing: "+chapter.id);
 const lthIds=[...lthHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
@@ -60,10 +60,13 @@ assert.equal((lthHtml.match(/class="source-record"/g)||[]).length,lth.sources.le
 console.log("MASKINARKIV_2_LTH151=PASS");
 
 for(const page of [html,riderHtml,lthHtml]) {
-  assert.equal((page.match(/class="archive-contact"/g)||[]).length,1,"Missing or duplicate shared contact block");
-  assert.ok(page.includes('Kontakta oss på Facebook'),"Shared Facebook CTA missing");
+  assert.equal((page.match(/class="archive-reuse"/g)||[]).length,1,"Missing or duplicate shared reuse block");
+  assert.ok(page.includes('Kontakta oss på Facebook'),"Reuse Facebook CTA missing");
   assert.ok(page.includes('class="footer-bottom"'),"Shared footer missing");
   assert.ok(page.includes('class="smar-'),"Shared header missing");
   assert.ok(!page.includes('inject("site-header"'),"Runtime header injection must be removed");
 }
 console.log("MASKINARKIV_2_SHARED_CHROME=PASS");
+
+for(const page of [html,riderHtml,lthHtml]){assert.equal((page.match(/id="aterbruk"/g)||[]).length,1,"Exactly one shared reuse section required");assert.ok(page.includes("Så köper vi maskiner"),"Missing buying CTA");}
+console.log("MASKINARKIV_2_REUSE_UNIFIED=PASS");
