@@ -233,19 +233,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "\n<details><summary>Har alla Husqvarna Rider 13 samma motor?</summary><p>Nej. Rider 13-familjen sträcker sig över flera generationer. Kontrollera maskinens produktidentitet och motorns egen märkning.</p></details>\n<details><summary>Vilken hydrostat sitter i Rider 13?</summary><p>Äldre Rider 13 H-underlag visar Tuff Torq K55, medan senare Rider 13 har dokumentation för K46. Det finns alltså inget enda generellt svar.</p></details>\n<details><summary>Vad är Rider 13 H?</summary><p>Äldre Husqvarna-dokument använder beteckningen Rider 13 H för en hydrostatisk Rider 13-generation.</p></details>\n<details><summary>Vilket klippaggregat har vanlig Rider 13?</summary><p>85 cm bakutkast är dokumenterat för den äldre vanliga Rider 13.</p></details>\n<details><summary>Vilket aggregat har Rider 13 Bio?</summary><p>90 cm Bio/BioClip är dokumenterat för Bio-grenen.</p></details>\n<details><summary>Vilket aggregat har Rider 13C?</summary><p>Senare Rider 13C är dokumenterad med ett 94 cm Combi-aggregat.</p></details>\n<details><summary>Är Rider 13C hydrostatisk?</summary><p>Ja. Den dokumenterade 13C-generationen har hydrostatisk transmission med separata pedaler för framåt och bakåt.</p></details>\n<details><summary>Vilket däcktryck anges för Rider 13C?</summary><p>Husqvarnas manual anger 60 kPa / 0,6 bar i däcken.</p></details>\n<details><summary>Varför reagerar inte startmotorn?</summary><p>Det kan finnas många orsaker. Kontrollera först att maskinen står i korrekt startläge och att säkerhetssystemets normala villkor är uppfyllda. Säkerhetssystemet ska inte kopplas förbi.</p></details>\n<details><summary>Kan jag köpa delar bara genom att söka “Rider 13”?</summary><p>Det är riskabelt. Använd helst produktnummer, motormärkning, transmissionsmärkning och aggregatidentitet.</p></details>\n</section>\n\n<section>\n"
-        },
-        {
-          "type": "html",
-          "html": "<div class=\"archive-context\">\n<div class=\"chapter\">Återbruk</div>\n<h2>Har du en Husqvarna Rider som blivit stående?</h2>\n<p>Vi är intresserade av åkgräsklippare och Riders i olika skick. Även en maskin som inte startar, saknar aggregat eller säljs som reservdelsobjekt kan vara intressant efter individuell bedömning. Skicka gärna bilder, ort och kort information om skicket.</p>\n\n</div>"
-        },
-        {
-          "type": "html",
-          "html": "\n<div class=\"meta\">Senast faktagranskad: 11 augusti 2026 · <a class=\"source-jump\" href=\"#kallor\">Källor och manualer</a></div>\n</section>\n\n\n<section class=\"tradera-section\" aria-label=\"Följ våra annonser på Tradera\">"
-        },
-        {
-          "type": "html",
-          "html": "<div class=\"tradera-follow\"><span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a></div>"
+          "html": "\n<details><summary>Har alla Husqvarna Rider 13 samma motor?</summary><p>Nej. Rider 13-familjen sträcker sig över flera generationer. Kontrollera maskinens produktidentitet och motorns egen märkning.</p></details>\n<details><summary>Vilken hydrostat sitter i Rider 13?</summary><p>Äldre Rider 13 H-underlag visar Tuff Torq K55, medan senare Rider 13 har dokumentation för K46. Det finns alltså inget enda generellt svar.</p></details>\n<details><summary>Vad är Rider 13 H?</summary><p>Äldre Husqvarna-dokument använder beteckningen Rider 13 H för en hydrostatisk Rider 13-generation.</p></details>\n<details><summary>Vilket klippaggregat har vanlig Rider 13?</summary><p>85 cm bakutkast är dokumenterat för den äldre vanliga Rider 13.</p></details>\n<details><summary>Vilket aggregat har Rider 13 Bio?</summary><p>90 cm Bio/BioClip är dokumenterat för Bio-grenen.</p></details>\n<details><summary>Vilket aggregat har Rider 13C?</summary><p>Senare Rider 13C är dokumenterad med ett 94 cm Combi-aggregat.</p></details>\n<details><summary>Är Rider 13C hydrostatisk?</summary><p>Ja. Den dokumenterade 13C-generationen har hydrostatisk transmission med separata pedaler för framåt och bakåt.</p></details>\n<details><summary>Vilket däcktryck anges för Rider 13C?</summary><p>Husqvarnas manual anger 60 kPa / 0,6 bar i däcken.</p></details>\n<details><summary>Varför reagerar inte startmotorn?</summary><p>Det kan finnas många orsaker. Kontrollera först att maskinen står i korrekt startläge och att säkerhetssystemets normala villkor är uppfyllda. Säkerhetssystemet ska inte kopplas förbi.</p></details>\n<details><summary>Kan jag köpa delar bara genom att söka “Rider 13”?</summary><p>Det är riskabelt. Använd helst produktnummer, motormärkning, transmissionsmärkning och aggregatidentitet.</p></details>\n"
         }
       ]
     }
@@ -357,5 +345,9 @@
   "sourceHeading": "15 · Källor & manualer",
   "sourceIntro": "Originalmanualer och reservdelskataloger finns samlade här. Öppna rutan om du vill läsa mer eller kontrollera en uppgift.",
   "sourceHelp": "Välj gärna dokument som hör till just din maskins produktnummer.",
-  "sourceOutro": "Äldre dokument och artikelnummer kan skilja sig mellan produktversioner."
+  "sourceOutro": "Äldre dokument och artikelnummer kan skilja sig mellan produktversioner.",
+  "traderaBlock": {
+    "type": "tradera-follow",
+    "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
+  }
 }
