@@ -71,10 +71,6 @@
       "label": "Vanliga frågor"
     },
     {
-      "id": "aterbruk",
-      "label": "Återbruk"
-    },
-    {
       "id": "kallor",
       "label": "Källor & manualer"
     }
@@ -416,18 +412,6 @@
         {
           "type": "faq",
           "innerHtml": "<details><summary>Vilken motor har STIGA Park 16?</summary><p>Det varierar mellan versioner. För äldre 13-1458-15 finns motstridiga sekundäruppgifter om exakt Briggs &amp; Stratton-typ. Kontrollera därför motorns egen märkning.</p></details><details><summary>Vilken hydrostat sitter i Park 16 HST?</summary><p>Kanzaki K110 är uttryckligen dokumenterad i katalogerna för 13-1458-14 och 13-1458-15 [S1–S2]. Utgå inte från att det gäller varje Park 16.</p></details><details><summary>Är Park 16 HST och Park 16 HST Pro samma sak?</summary><p>Nej. De har separata produktnummer och reservdelskataloger, och vissa delar skiljer sig.</p></details><details><summary>Passar STIGA 121M på en Park 16 från 1993?</summary><p>STIGAs 121M-manual innehåller en särskild anpassning för Park-maskiner till och med 1993. Kontrollera exakt maskin och fullständig monteringsmanual innan köp eller installation [S6].</p></details><details><summary>Kan jag använda en Park Pro 16-manual för min äldre Park 16 HST?</summary><p>Inte för versionsspecifika uppgifter utan kontroll. Senare Park Pro har andra produktnummer och kan ha annan transmission.</p></details><details><summary>Vilken olja ska jag ha i K110?</summary><p>Den här artikeln har inte tillräckligt säker originalkälla för att ange oljetyp eller volym. Använd dokumentation för exakt hydrostatutförande.</p></details><details><summary>Var hittar jag reservdelsnummer?</summary><p>I STIGAs originalreservdelskatalog som matchar ditt produktnummer. Källbiblioteket nedan innehåller flera kataloger.</p></details><details><summary>Är en Park 16 med trasig motor värdelös?</summary><p>Inte nödvändigtvis. Chassi, styrdelar, redskap och andra reservdelar kan ha återbruksvärde. Värdet beror på skick och efterfrågan.</p></details><details><summary>Är ”1993” i katalogen samma som tillverkningsåret?</summary><p>Inte alltid. ”Season 1993” är ett dokumenterat säsongsår. Den enskilda maskinens identifieringsskylt väger tyngre.</p></details><details><summary>Finns det kända typfel?</summary><p>Vi har inte tillräckligt belägg för att kalla vissa fel allmänna typfel på hela familjen. Däremot finns flera relevanta kontrollpunkter kring drivning, styrning och aggregat.</p></details>"
-        }
-      ]
-    },
-    {
-      "id": "aterbruk",
-      "heading": "16 · Återbruk",
-      "title": "Har du en Park 16 stående?",
-      "headingId": "h-aterbruk",
-      "blocks": [
-        {
-          "type": "cta",
-          "innerHtml": "<h2>Vi tar gärna en titt</h2><p>Skaraborg Maskin &amp; Återbruk arbetar med begagnade maskiner, även sådana som behöver reparation eller kan användas som reservdelsobjekt. Har du en STIGA Park 16, ett klippaggregat eller andra äldre maskiner du vill bli av med? Hör av dig med några bilder, ort, skick och gärna ett tänkt pris.</p><p>Vi gör en individuell bedömning och kan diskutera hämtning där det är aktuellt. Att skicka en förfrågan innebär inte att vi lovar ett köp.</p>"
         }
       ]
     }
