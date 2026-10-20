@@ -1,0 +1,285 @@
+{
+  "slug": "husqvarna-rider-11",
+  "model": "Husqvarna Rider 11",
+  "title": "Husqvarna Rider 11",
+  "lead": "Känn igen den äldre växlade Rider 11, förstå motorn och Peerless MST 205, kontrollera styrning, klippaggregat, service och rätt reservdelar.",
+  "tags": [
+    "Frontklippare",
+    "5 växlar",
+    "Peerless MST 205",
+    "Versionsguide"
+  ],
+  "eyebrow": "Maskinarkivet · Husqvarna Rider",
+  "navigation": [
+    {
+      "id": "oversikt",
+      "label": "Översikt"
+    },
+    {
+      "id": "identifiering",
+      "label": "Identifiering"
+    },
+    {
+      "id": "versioner",
+      "label": "Modellfamiljen"
+    },
+    {
+      "id": "motor",
+      "label": "Motor"
+    },
+    {
+      "id": "vaxellada",
+      "label": "Växellåda"
+    },
+    {
+      "id": "styrning",
+      "label": "Styrsystem"
+    },
+    {
+      "id": "reglage",
+      "label": "Reglage och körning"
+    },
+    {
+      "id": "aggregat",
+      "label": "Klippaggregat"
+    },
+    {
+      "id": "sakerhet",
+      "label": "Säkerhet"
+    },
+    {
+      "id": "service",
+      "label": "Service"
+    },
+    {
+      "id": "felsokning",
+      "label": "Felsökning"
+    },
+    {
+      "id": "reservdelar",
+      "label": "Reservdelar"
+    },
+    {
+      "id": "koprad",
+      "label": "Begagnatköp"
+    },
+    {
+      "id": "faq",
+      "label": "Frågor och svar"
+    },
+    {
+      "id": "aterbruk",
+      "label": "Återbruk"
+    },
+    {
+      "id": "tradera",
+      "label": "Tradera"
+    },
+    {
+      "id": "kallor",
+      "label": "Källor & manualer"
+    }
+  ],
+  "headHtml": "<!DOCTYPE html>\n<html lang=\"sv\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>Husqvarna Rider 11 – motor, växellåda, manual och reservdelar | Maskinarkivet</title>\n<meta name=\"description\" content=\"Guide till Husqvarna Rider 11: Briggs & Stratton 28B707, Peerless MST 205, 85 cm aggregat, identifiering, felsökning, service, varianter och manualer.\">\n<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">\n<link rel=\"canonical\" href=\"https://skaraborgmaskin.se/maskinarkiv/husqvarna-rider-11.html\">\n<link rel=\"stylesheet\" href=\"/maskinarkiv/maskinarkiv-v6.css\">\n</head>\n<body>\n<a class=\"skip\" href=\"#main\">Hoppa till innehållet</a>\n<div id=\"site-header\"></div>\n",
+  "footerHtml": "</main>\n<div id=\"site-footer\"></div>\n</body>\n</html>",
+  "chapters": [
+    {
+      "id": "oversikt",
+      "heading": "01 · Översikt",
+      "title": "Vad är Husqvarna Rider 11?",
+      "headingId": "h-oversikt",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Rider 11 är en äldre frontklippare med ledad styrning. Klippaggregatet sitter framför maskinen och i Husqvarnas originalmanual från 1999 beskrivs den vanliga Rider 11 som <strong>mekaniskt växlad</strong>, inte hydrostatisk. Det är den skillnaden som är viktigast att förstå innan du beställer delar. [S1]</p><p>En frontklippare låter föraren se klippområdet framför maskinen. Med ledad styrning följer fram- och bakdel varandra runt en ledpunkt i stället för att enbart styra framhjulen som på en vanlig trädgårdstraktor.</p><div class=\"facts\"><div class=\"fact-row\"><b>Maskin</b><span>Frontklippare, äldre Rider 11</span></div><div class=\"fact-row\"><b>Motor, dokumenterad version</b><span>Briggs &amp; Stratton 28B707, 10,5 hk enligt manualen [S1]</span></div><div class=\"fact-row\"><b>Växellåda</b><span>Peerless MST 205, 5 framåt och 1 back [S1]</span></div><div class=\"fact-row\"><b>Klippaggregat</b><span>85 cm bakutkast, tre knivar i denna version [S1]</span></div><div class=\"fact-row\"><b>Varianter</b><span>Rider 11, 11 Bio samt senare 11 C och 11 R – separat dokumentation [S2–S3]</span></div></div><div class=\"park-note\"><b>Det viktigaste</b>Rider 11 och Rider 13 H förekommer i samma manual, men har olika drivsystem. Lägg inte ihop deras specifikationer.</div>"
+        }
+      ]
+    },
+    {
+      "id": "identifiering",
+      "heading": "02 · Identifiering",
+      "title": "Så hittar du rätt Rider 11 och reservdelar",
+      "headingId": "h-identifiering",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Börja på maskinen, inte med ett sökresultat. Rider 11-namnet har förekommit i flera manualgenerationer och behöver kompletteras med typskylt och identifiering av större komponenter.</p><div class=\"steps\"><div class=\"step\"><h3>Fotografera typskylten</h3><p>Läs av modell, produkt-/typnummer och serienummer samt eventuell årtalsmärkning. Husqvarna ber att dessa uppgifter anges vid reservdelsbeställning [S1].</p></div><div class=\"step\"><h3>Bestäm typen av drivning</h3><p>Har maskinen kopplingspedal och växelspak med fem växlar? Då liknar den äldre Rider 11 i originalmanualen. Pedalstyrd steglös drivning hör till andra utföranden och ska identifieras separat.</p></div><div class=\"step\"><h3>Läs av motorns egen märkning</h3><p>Notera Briggs &amp; Strattons modell-, typ- och kodnummer. Motorn kan vara utbytt sedan maskinen var ny.</p></div><div class=\"step\"><h3>Identifiera klippaggregatet</h3><p>Kontrollera aggregatets etikett, bredd, knivantal och fästpunkter. Bakutkast och BioClip är inte samma utförande.</p></div><div class=\"step\"><h3>Jämför rätt originaldokument</h3><p>Använd äldre Rider 11-manual för den femväxlade maskinen [S1]; använd separat dokument för Bio- eller C/R-variant [S2–S3].</p></div></div>"
+        }
+      ]
+    },
+    {
+      "id": "versioner",
+      "heading": "03 · Modellfamiljen",
+      "title": "Rider 11, 11 Bio, 11 C och 11 R",
+      "headingId": "h-versioner",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Husqvarna har gett ut manualer för flera snarlika namn. Namnlikheten innebär inte att drivning, klippaggregat eller motorer kan behandlas som identiska.</p><div class=\"table-scroll\"><table><thead><tr><th>Benämning</th><th>Vad originalkällan visar</th><th>Viktig gräns</th></tr></thead><tbody><tr><td>Rider 11</td><td>1999 års manual: fem framväxlar, en backväxel och 85 cm bakutkast [S1]</td><td>Inte K55-hydrostat</td></tr><tr><td>Rider 11 Bio</td><td>Separat benämnd i Husqvarnas manual från 2000 [S2]</td><td>Bio-aggregat måste identifieras separat</td></tr><tr><td>Rider 11 C</td><td>Förekommer i senare Husqvarna-manual [S3]</td><td>Inte automatiskt samma motor eller växellåda</td></tr><tr><td>Rider 11 R</td><td>Förekommer i Husqvarnas manual från 2010 [S4]</td><td>Eget utförande med egna tekniska data</td></tr></tbody></table></div><p>Årtalen ovan avser manualer och dokumenterade modellbeteckningar. De ska inte läsas som exakta produktionsintervall för varje maskin.</p><div class=\"park-info\"><b>Vanlig sammanblandning</b>Rider 13 H i samma äldre manual har Tuff Torq K55-hydrostat. Den specifikationen hör inte till den femväxlade Rider 11 [S1].</div>"
+        }
+      ]
+    },
+    {
+      "id": "motor",
+      "heading": "04 · Motor",
+      "title": "Briggs & Stratton – förstå motoridentiteten",
+      "headingId": "h-motor",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Originalmanualen anger <strong>Briggs &amp; Stratton 28B707</strong> för Rider 11 och en angiven effekt på 10,5 hk. Det är dokumenterat för den maskinversion manualen beskriver, inte ett löfte om motorn på varje Rider 11 som fortfarande används [S1].</p><div class=\"facts\"><div class=\"fact-row\"><b>Motorbeteckning</b><span>Briggs &amp; Stratton 28B707</span></div><div class=\"fact-row\"><b>Volym</b><span>465 cm³</span></div><div class=\"fact-row\"><b>Effekt enligt manual</b><span>7,7 kW / 10,5 hk</span></div><div class=\"fact-row\"><b>Startsystem</b><span>Elektrisk start</span></div><div class=\"fact-row\"><b>Tank enligt manual</b><span>7 liter</span></div></div><p>Motorns modell anger vilken motorfamilj det gäller. Typ- och koduppgifter preciserar utförandet och behövs när du söker exempelvis förgasare, startmotor, filter eller tänddelar. Förbrukningsdelar ska alltid kontrolleras mot motorns aktuella märkning.</p><h3>Vad gör motorreglagen?</h3><p>Gasreglaget påverkar motorvarv och därmed också klippknivarnas arbetshastighet. Choken används för att underlätta kallstart genom att ge en rikare bränsleblandning. Husqvarna visar båda funktionerna i samma reglage för den äldre versionen [S1].</p><div class=\"park-note\"><b>Oljeuppgifter kräver exakt motor</b>Originalmanualen anger 1,4 liter och SAE 30 eller SAE 10W/30 för den dokumenterade motorn [S1]. Kontrollera emellertid motorns identitet och motsvarande aktuell motormanual innan du väljer olja eller mängd till en begagnad maskin.</div>"
+        }
+      ]
+    },
+    {
+      "id": "vaxellada",
+      "heading": "05 · Växellåda",
+      "title": "Peerless MST 205 – fem växlar i stället för hydrostat",
+      "headingId": "h-vaxellada",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">I originalmanualens tekniska tabell står <strong>Peerless MST 205</strong> under Rider 11. Maskinen har fem växlar framåt och en bakåt [S1].</p><h3>Hur fungerar en mekanisk växellåda?</h3><p>Växelspaken väljer en bestämd utväxling. Det betyder att föraren får olika hastighetsområden i olika växlar. Kopplingen används för att bryta framdrivningen när man ska växla eller stanna. Det är inte samma princip som en hydrostat, där farten kan regleras steglöst.</p><h3>Skillnaden mot Rider 13 H</h3><p>Rider 13 H har Tuff Torq K55 med hydrostatisk framdrivning i samma handbok. Det är därför direkt fel att säga att ”Rider 11 har K55” utifrån just denna källa [S1].</p><div class=\"table-scroll\"><table><thead><tr><th>Egenskap</th><th>Äldre Rider 11</th><th>Rider 13 H i samma manual</th></tr></thead><tbody><tr><td>Princip</td><td>Mekanisk växellåda</td><td>Hydrostat</td></tr><tr><td>Enhet</td><td>Peerless MST 205</td><td>Tuff Torq K55</td></tr><tr><td>Fartreglering</td><td>Fem fasta framväxlar</td><td>Steglös, pedalstyrd</td></tr><tr><td>Back</td><td>En backväxel</td><td>Steglös backning</td></tr></tbody></table></div><h3>Om växlarna kärvar</h3><p>Observera om problemet finns i alla lägen eller bara en växel. Kontrollera kopplingspedalens funktion och synliga länkar med avstängd motor. Tvinga inte växelspaken. Ett växelfel kan bero på flera saker och kan inte diagnostiseras utan att mekanismen granskas.</p>"
+        }
+      ]
+    },
+    {
+      "id": "styrning",
+      "heading": "06 · Styrsystem",
+      "title": "Ledat chassi och styrvajrar",
+      "headingId": "h-styrning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>En Rider styr inte som en vanlig trädgårdstraktor med enbart vridbara framhjul. Ledkonstruktionen gör att maskinens delar svänger i förhållande till varandra och att frontaggregatet kan komma nära hinder.</p><p>Husqvarnas manual för den äldre Rider 11 beskriver styrningen som vajerstyrd och anger att vajrar kan slacka med tiden. Den tar upp hur spänningen kontrolleras och justeras [S1].</p><h3>Vad kan du själv kontrollera?</h3><div class=\"check\"><ul><li>Om ratten har ett ovanligt stort spel innan maskinen reagerar.</li><li>Om styrningen känns olika tung åt vänster och höger.</li><li>Om styrvajrar eller synliga fästen har skador.</li><li>Om det finns synligt glapp, korrosion eller sprickor vid leden.</li></ul></div><p>Detta är rimliga kontrollpunkter och inte påståenden om att alla Rider 11 har samma typfel. Justering bör göras efter originalmanualen, eftersom för hårt spända vajrar också kan orsaka problem [S1].</p>"
+        }
+      ]
+    },
+    {
+      "id": "reglage",
+      "heading": "07 · Reglage och körning",
+      "title": "Koppling, broms och växelspak",
+      "headingId": "h-reglage",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">På den äldre växlade Rider 11 är koppling och broms olika reglage, till skillnad från den hydrostatiska Rider 13 H i samma manual.</p><div class=\"steps\"><div class=\"step\"><h3>Kopplingspedal</h3><p>Kopplar bort framdrivningen. Enligt Husqvarna påverkar kopplingspedalen inte klippknivarnas drivning [S1].</p></div><div class=\"step\"><h3>Växelspak</h3><p>Väljer växel 1–5, neutral eller back. Husqvarna anger att backväxeln kräver att en spärrknapp trycks ned [S1].</p></div><div class=\"step\"><h3>Bromspedal och parkeringsbroms</h3><p>Bromsen påverkar en skivbroms på växellådan. Husqvarna beskriver att kopplingen samtidigt bör tryckas ned vid bromsning [S1].</p></div><div class=\"step\"><h3>Aggregatlyft</h3><p>Lyfter aggregatet till transportläge. I manualens beskrivna system stannar knivarna när aggregatet lyfts [S1].</p></div><div class=\"step\"><h3>Klipphöjdsreglage</h3><p>Den dokumenterade 85 cm-versionen har nio höjdlägen, 40–90 mm [S1].</p></div></div><div class=\"park-note\"><b>Kontrollera före körning</b>Använd rätt bruksanvisning för din maskin och verifiera att alla reglage och säkerhetsfunktioner arbetar korrekt innan du börjar klippa.</div>"
+        }
+      ]
+    },
+    {
+      "id": "aggregat",
+      "heading": "08 · Klippaggregat",
+      "title": "85 cm bakutkast – och varför Bio är annorlunda",
+      "headingId": "h-aggregat",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Den äldre Rider 11 i Husqvarnas originalmanual har ett frontmonterat aggregat med tre knivar och bakutkast. Klippbredden anges till 850 mm, knivdiametern till 304 mm och klipphöjden till nio lägen mellan 40 och 90 mm [S1].</p><h3>Vad betyder bakutkast?</h3><p>Det klippta gräset lämnar aggregatet bakåt. Hur gräset sprids och hur fint det fördelas är något annat än BioClip-principen, där gräset finfördelas i aggregatet.</p><h3>Är ett Rider 11 Bio-aggregat likadant?</h3><p>Nej. Rider 11 Bio förekommer som separat utförande i Husqvarnas dokumentation [S2]. Utgå därför inte från att remmar, knivar, kåpor eller infästningar är desamma.</p><div class=\"check\"><b>Kontrollpunkter före reservdelsköp</b><ul><li>Aggregatets artikelnummer och märkning.</li><li>Antal knivar och faktisk klippbredd.</li><li>Infästningspunkter och lyftanordning.</li><li>Remskivor, remdragning och knivdrift.</li><li>Eventuella ombyggnader av den begagnade maskinen.</li></ul></div>"
+        }
+      ]
+    },
+    {
+      "id": "sakerhet",
+      "heading": "09 · Säkerhet",
+      "title": "Säker hantering och startvillkor",
+      "headingId": "h-sakerhet",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Husqvarnas originalmanual beskriver särskilda säkerhetsregler för sluttningar, backning, barn i närheten, broms och arbete vid knivarna [S1]. En maskin som är flera årtionden gammal måste också kontrolleras för borttagna skydd och modifierade säkerhetsbrytare.</p><div class=\"park-warning\"><b>Viktigt</b>Kör aldrig med passagerare. Arbeta inte under ett lyft aggregat utan säkra stöd. Stäng av motorn, ta ur nyckeln och koppla från tändningen enligt motorns anvisningar innan arbete på knivar, remmar eller motor.</div><p>Manualen anger högsta lutning 15 grader för de dokumenterade maskinerna [S1]. Det är ingen rekommendation att köra i sådan lutning: terrängens skick, fäste, hinder och maskinens tillstånd kan göra betydligt flackare mark riskfylld.</p><p>Kring startspärrar och brytare ska den enskilda maskinens manual följas. Koppla aldrig förbi en säkerhetsfunktion för att försöka få maskinen att starta.</p>"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "10 · Service",
+      "title": "Underhåll utan att förväxla motor och växellåda",
+      "headingId": "h-service",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Service ska styras av rätt manual för rätt maskin, motor och växellåda. Rider 11:s Peerless-låda ska inte servas efter anvisningarna för Rider 13 H:s K55-hydrostat.</p><div class=\"check\"><b>Före användning</b><ul><li>Kontrollera motorolja enligt motorns märkning och manual.</li><li>Se över däck, synligt läckage, broms och styrning.</li><li>Kontrollera att skydd, knivar och aggregat är hela.</li><li>Rengör kylområden och luftintag vid behov.</li></ul></div><h3>Motorolja</h3><p>För motorutförandet i originalmanualen anges 1,4 liter och SAE 30 eller SAE 10W/30 med tidens klassificering [S1]. Det värdet måste bekräftas mot den motor som faktiskt sitter i din maskin.</p><h3>Styrvajrar och broms</h3><p>Husqvarna beskriver kontroll av styrvajrar samt separat justering av den skivbroms som sitter på växellådan hos Rider 11 [S1]. Gå efter instruktionerna och mätpunkterna i fullständig manual vid justering.</p><h3>Växellådans smörjning</h3><p>Vi publicerar inte någon generell växellådsolja eller bytesvolym för Peerless MST 205 här. Säkerställ exakt utförande och tillverkarunderlag innan du fyller eller öppnar växellådan.</p>"
+        }
+      ]
+    },
+    {
+      "id": "felsokning",
+      "heading": "11 · Felsökning",
+      "title": "Så ringar du in problemet",
+      "headingId": "h-felsokning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>En användbar felsökning börjar med att dela upp maskinen i delsystem. Ett motorproblem kräver andra kontroller än ett växelproblem, och ett ojämnt klippresultat behöver inte bero på motorn.</p><div class=\"steps\"><div class=\"step\"><h3>Motorn går inte runt</h3><p>Kontrollera batteriets skick, anslutningar, säkringar och att maskinens startvillkor är uppfyllda. Kringgå inte säkerhetsbrytare.</p></div><div class=\"step\"><h3>Motorn går runt men startar inte</h3><p>Notera bränslets skick, eventuell choke och synliga anslutningar. För tändning och bränslesystem krävs manual för aktuell motor.</p></div><div class=\"step\"><h3>Motorn går men maskinen rör sig inte</h3><p>Kontrollera om kopplingen verkligen tar, om växelreglaget rör sig och om synlig drivrem är hel. Undvik att stå nära rörliga delar under drift.</p></div><div class=\"step\"><h3>Bromsen tar dåligt</h3><p>Ställ av maskinen från användning tills bromsens funktion är verifierad. Bromsen är separat beskriven i originalmanualen [S1].</p></div><div class=\"step\"><h3>Klipper ojämnt eller vibrerar</h3><p>Kontrollera aggregatets skick, knivar, däcktryck och infästning med motorn avstängd. Kraftiga vibrationer bör utredas före fortsatt körning.</p></div></div>"
+        }
+      ]
+    },
+    {
+      "id": "reservdelar",
+      "heading": "12 · Reservdelar",
+      "title": "Så undviker du att beställa fel",
+      "headingId": "h-reservdelar",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Det räcker inte att skriva ”Husqvarna Rider 11” i en reservdelsbutik och välja första resultatet. Maskinens produktversion, motorn och klippaggregatet kan ha olika nummer.</p><div class=\"steps\"><div class=\"step\"><h3>Hitta maskinens produkt-/typnummer</h3><p>Det leder till rätt sprängskiss och reservdelslista.</p></div><div class=\"step\"><h3>Välj rätt system</h3><p>Avgör om delen hör till motor, Peerless-växellåda, chassi/styrning eller klippaggregat.</p></div><div class=\"step\"><h3>Kontrollera positionsnummer och artikelnummer</h3><p>Jämför sprängskiss och förteckning. En liknande bild är inte bevis för passform.</p></div><div class=\"step\"><h3>Kontrollera ersättningsnummer</h3><p>Äldre originalnummer kan vara ersatta. Säkerställ aktuell kompatibilitet före beställning.</p></div></div><p>Originalmanualen för Rider 11 anger att modell, typ, serienummer och inköpsår ska lämnas vid reservdelsbeställning [S1]. Vid osäkerhet är ett foto på märkningen ofta viktigare än en uppskattad årsmodell.</p>"
+        }
+      ]
+    },
+    {
+      "id": "koprad",
+      "heading": "13 · Begagnatköp",
+      "title": "Köpa en begagnad Rider 11",
+      "headingId": "h-koprad",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Äldre Rider 11 kan vara intressanta för återbruk, men skicket kan variera mycket. Provkör bara när maskinen är säker att använda, och börja med identiteten.</p><div class=\"check\"><b>Köpkontroll</b><ul><li><strong>Modell:</strong> Är det verkligen en växlad Rider 11, eller en Bio/C/R-variant?</li><li><strong>Motor:</strong> Startar den kall och går jämnt utan missljud eller ovanlig rök?</li><li><strong>Växlar:</strong> Går samtliga lägen i utan onormala ljud eller ofrivilligt urhopp?</li><li><strong>Koppling:</strong> Frikopplar den som avsett?</li><li><strong>Broms:</strong> Håller parkeringsbromsen och fungerar färdbromsen?</li><li><strong>Styrning:</strong> Finns kraftigt glapp eller skador kring led och vajrar?</li><li><strong>Aggregat:</strong> Är kåpa, infästning, knivar och lager hela?</li><li><strong>Delar:</strong> Går reservdelar att hitta till rätt maskin och växellåda?</li></ul></div><p>Att ett exemplar startar är bara en del av bedömningen. Kostnader för skadad växellåda, rostigt aggregat eller omfattande styrreparationer kan förändra vad som är ett rimligt inköpspris. Det är en teknisk riskbedömning, inte ett påstående om vanliga fabrikationsfel.</p>"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": "14 · Frågor och svar",
+      "title": "Vanliga frågor om Husqvarna Rider 11",
+      "headingId": "h-faq",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<div class=\"faq\"><details><summary>Har Husqvarna Rider 11 hydrostat?</summary><p>Den äldre Rider 11 som beskrivs i Husqvarnas manual från 1999 är mekaniskt växlad med Peerless MST 205. Rider 13 H i samma manual har däremot hydrostat [S1]. Identifiera andra Rider 11-varianter separat.</p></details><details><summary>Vilken motor sitter i Rider 11?</summary><p>Originalmanualen anger Briggs &amp; Stratton 28B707, 465 cm³ och 10,5 hk för den dokumenterade versionen [S1]. Läs av motorn på din maskin innan reservdelsköp.</p></details><details><summary>Hur många växlar har den äldre Rider 11?</summary><p>Fem framåt och en back enligt Husqvarnas originalmanual [S1].</p></details><details><summary>Hur brett klipper den?</summary><p>85 cm på den dokumenterade versionen med treknivars aggregat och bakutkast [S1].</p></details><details><summary>Passar Rider 11 Bio-aggregat direkt?</summary><p>Det kan inte bekräftas enbart av modellnamnet. Kontrollera båda produktnumren och deras monteringsanvisningar.</p></details><details><summary>Vilken växellådsolja används?</summary><p>Vi anger inget generellt värde för Peerless MST 205 utan en säker modell- och servicekälla.</p></details><details><summary>Kan jag använda en Rider 13 H-manual?</summary><p>De två modellerna behandlas tillsammans i vissa manualer, men drivsystem och reglage skiljer sig. Läs alltid modellrubrikerna noggrant [S1].</p></details><details><summary>Finns reservdelar kvar?</summary><p>Det måste kontrolleras del för del. Originalnummer och eventuella ersättningsnummer hjälper vid sökningen, men tillgång kan förändras.</p></details><details><summary>Är en defekt Rider 11 värd att spara?</summary><p>Det kan finnas återbruksvärde i motor, chassi, delar och aggregat även om maskinen inte går att använda. Värdet behöver bedömas individuellt.</p></details></div>"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "S1 · Husqvarna Rider 11 / Rider 13 H – Operator’s manual, 101 90 52-26",
+      "description": "Originalmanual från Husqvarna, publicerad som 1999-12-utgåva. Teknisk tabell, reglage, motor, Peerless-växellåda, styrvajrar, säkerhet och underhåll.",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000014092/doc000033214"
+    },
+    {
+      "title": "S2 · Husqvarna Rider 11, Rider 11 Bio, Rider 13 H, Rider 13 H Bio – manual 2000-09",
+      "description": "Originaldokument som skiljer de äldre Bio-versionerna från standardutförandena.",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000015161/doc000034674"
+    },
+    {
+      "title": "S3 · Husqvarna Rider 11, Rider 11 C m.fl. – senare användarmanual",
+      "description": "Originalkälla som belägger senare modellbeteckningar. Inte källa för växellådan i äldre Rider 11.",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000034624/doc000064858/OM/WtVRI5l0lSBAG-Yp35SuNWbJ2R8?httproute=True"
+    },
+    {
+      "title": "S4 · Husqvarna Rider 11 R, Rider 11 C m.fl. – 2010-02",
+      "description": "Originalmanual som belägger separat senare modellfamilj.",
+      "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000046117/doc000082645/OM/l2tCXpHB9sgCBrK1aUfngY245LQ?httproute=True"
+    }
+  ],
+  "sourceHeading": "Källor & manualer",
+  "sourceIntro": "Här finns originalmanualer från Husqvarna. Uppgifter om motor, växellåda och aggregat är kopplade till den beskrivna dokumentversionen.",
+  "sourceHelp": "Identifiera din maskin innan du använder en manual avsedd för en närliggande modell.",
+  "afterChaptersMetaHtml": "<div class=\"meta\">Källprincip: [S1–S4] avser källorna nedan. Årtalen är manual- och dokumentdatum, inte generella tillverkningsperioder. <a href=\"#kallor\">Visa källor och manualer</a>.</div>",
+  "traderaBlock": {
+    "type": "tradera-follow",
+    "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter maskindelar och andra fynd?</h2><p>Vi säljer ibland reservdelar, redskap och andra begagnade produkter. Följ våra annonser på Tradera för att se vad som finns inne just nu.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra Tradera-annonser <span aria-hidden=\"true\">→</span></a>"
+  }
+}
