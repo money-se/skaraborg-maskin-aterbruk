@@ -43,6 +43,9 @@ jobs:
       - name: Kontrollera strukturen
         working-directory: maskinarkiv-2
         run: npm run check
+      - name: Kontrollera STIGA Park 12 HST-utkast
+        working-directory: maskinarkiv-2
+        run: npm run check:park12
       - name: Kontrollera SEO och länkar
         working-directory: maskinarkiv-2
         run: npm run audit
