@@ -428,14 +428,6 @@
         {
           "type": "cta",
           "innerHtml": "<h2>Vi tar gärna en titt</h2><p>Skaraborg Maskin &amp; Återbruk arbetar med begagnade maskiner, även sådana som behöver reparation eller kan användas som reservdelsobjekt. Har du en STIGA Park 16, ett klippaggregat eller andra äldre maskiner du vill bli av med? Hör av dig med några bilder, ort, skick och gärna ett tänkt pris.</p><p>Vi gör en individuell bedömning och kan diskutera hämtning där det är aktuellt. Att skicka en förfrågan innebär inte att vi lovar ett köp.</p><div class=\"buttons\"><a class=\"btn\" href=\"../kop-maskiner.html\">Se hur vi köper maskiner</a><a class=\"btn alt\" href=\"https://www.facebook.com/profile.php?id=61588383880828\" rel=\"noopener noreferrer\" target=\"_blank\">Kontakta oss på Facebook</a></div>"
-        },
-        {
-          "type": "html",
-          "html": "</section>\n<div class=\"meta\">Källprincip: [S1–S6] hänvisar till dokumenten nedan. Tekniska uppgifter är knutna till angiven produktversion. Senast granskad 18 oktober 2026. <a class=\"source-jump\" href=\"#kallor\">Källor och manualer</a></div>\n<section class=\"tradera-section\" aria-label=\"Följ våra annonser på Tradera\">"
-        },
-        {
-          "type": "tradera-follow",
-          "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
         }
       ]
     }
@@ -474,5 +466,10 @@
   ],
   "sourceHeading": "17 · Källor & manualer",
   "sourceIntro": "Vill du läsa originaldokumenten eller kontrollera en uppgift? Öppna rutan nedan. Källorna är dolda tills du väljer att visa dem.",
-  "sourceHelp": "Välj dokument efter produktnumret på din maskin."
+  "sourceHelp": "Välj dokument efter produktnumret på din maskin.",
+  "afterChaptersMetaHtml": "\n<div class=\"meta\">Källprincip: [S1–S6] hänvisar till dokumenten nedan. Tekniska uppgifter är knutna till angiven produktversion. Senast granskad 18 oktober 2026. <a class=\"source-jump\" href=\"#kallor\">Källor och manualer</a></div>\n",
+  "traderaBlock": {
+    "type": "tradera-follow",
+    "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
+  }
 }
