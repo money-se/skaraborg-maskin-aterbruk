@@ -79,3 +79,28 @@ https://www.manualslib.com/manual/1110373/Husqvarna-Rider-15v2.html
 5. Testsuite, review-preview och godkännande före main.
 
 Ingen mall, publicerad sida, workflow eller annan webbplatsfil ska ändras i forskningsfasen.
+
+
+## Tillägg v1.1 – kontroll mot Husqvarnas originalförarmanual (2026-10-20)
+
+Primärmanual (originalmanus publicerat i dokumentarkiv): **OM Rider 15V2 / Rider 15V2 AWD / Rider 15V2s AWD, 2008-11**, 40 PDF-sidor. Dokumentlänk: https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/operators-manual-rider15v2awd.pdf . Denna kontroll gäller modellkolumnerna i **denna manualrevision** – exakt maskin- och produktnummer måste fortfarande matchas mot rätt IPL innan data överförs till en specifik variant.
+
+### Bekräftade manualuppgifter – Rider 15V2 enligt 2008-11
+- Tillverkaren beskriver **Kawasaki-motor märkt som 15 hp**; motorns exakta typkod/serienummer ska avläsas på verklig motor (presentationen, PDF s. 14 / tryckt s. 13).
+- Hydrostatiskt steglöst drivsystem med en framåt- och en bakåtpedal; förklarat i originalmanualens presentation (PDF s. 14).
+- Tekniska tabellen anger **Tuff Torq K46** för Rider 15V2 **utan AWD**. AWD och V2s AWD står i separata kolumner med **Tuff Torq**, inte samma specificerade K46-kod (PDF s. 35 / tryckt s. 35).
+- Manualens tekniska tabell anger **Combi 103 (1 030 mm) eller Combi 112 (1 120 mm)** för maskinerna i just denna revision. Detta ersätter inte äldre manuals förekomst av andra aggregat eller IPL-register (PDF s. 35).
+- En tidigare originalmanual enbart för Rider 15V2 (ManualsLib, 52 sidor) beskriver även **BioClip 900 mm**, Combi 1030 och Combi 1120; detta är en **skillnad mellan manualrevisioner**, inte bevis att samma maskin levererades med tre aggregat: https://www.manualslib.com/manual/1110373/Husqvarna-Rider-15v2.html .
+
+### Underhåll enligt samma manual – ej universella råd
+- Motorolja: första byte **5 drifttimmar**, därefter **100 timmar**, eller **50 timmar vid tung belastning/hög temperatur** (PDF s. 31/tryckt s. 31).
+- Oljemängd enligt manual: **1,5 l utan filterbyte; 1,7 l med filterbyte**. Fyllnivån avgörs med oljestickan och enligt rätt motoridentitet (PDF s. 31).
+- Motoroljefilter **200 drifttimmar** enligt denna dokumentrevision (PDF s. 31).
+- Transmissionsolja i manualens underhållsavsnitt: **Rider 15V2: SAE 10W/30 (SF–CC)**, **Rider 15V2 AWD: SAE 10W/40 (SF–CC)**. Manualen hänvisar oljebyte, filter och avluftning till auktoriserad service/verkstadshandbok. Förväxla inte dessa (PDF s. 32).
+- Vid startproblem anger tillverkarens felsökningsschema bl.a. fel läge på klippaggregatets lyftspak, neutralvillkor för hydrostatpedaler, säkring/batteri. Det är möjliga **kontrollpunkter**, inte statistik över typfel (PDF s. 33).
+
+### Källkonflikt för aggregat (viktig)
+Originalmanualen 2008-11 anger 103/112 cm; äldre Rider 15V2-manualen visar BioClip 90/Combi 103/112; Husqvarnas samlade IPL-portalsida har fler aggregatavsnitt (90/97/103/112). Detta ska redovisas som **revisions-/registerskillnad** och utredas mot exakta produktnummer samt aggregatens egna ID. Listningen i ett samlat reservdelsregister är inte ett komplett kompatibilitetsbesked.
+
+### Fortsatt publiceringsspärr
+Koppla fortfarande varje motor-/transmissions-/klippaggregatuppgift till en **specificerad produktrevision och relevant originalmanual**. Komplettera med original-IPLs för 953533701, 953533705, 965094501 och 965200701 och separat tillverkar-/motordokumentation innan en full teknisk versionstabell eller specifika reservdelsnummer publiceras.
