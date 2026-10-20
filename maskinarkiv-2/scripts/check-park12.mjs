@@ -47,3 +47,7 @@ for(const phrase of ["Champion","J19LM","RJ19LM","0,76 mm","Luftfilterpatron uta
 
 const driving=model.chapters.find(c=>c.id==="styrning").blocks.map(b=>b.html||"").join("");
 for (const phrase of ["Vad gör reglagen?","Innan du försöker starta","Hur vet du om maskinen beter sig normalt?","ingen exakt knapp- eller pedalsekvens"]) assert.ok(driving.includes(phrase),"Missing beginner-safe driving guidance: "+phrase);
+
+const desiredOrder=["hitta-hjalp","oversikt","identifiering","felsokning","reservdelar"];
+assert.deepEqual(model.chapters.slice(0,5).map(c=>c.id),desiredOrder,"Beginner-first chapter ordering drifted");
+assert.equal(model.chapters.length,16);
