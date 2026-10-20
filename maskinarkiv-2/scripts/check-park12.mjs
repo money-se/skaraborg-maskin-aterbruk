@@ -40,3 +40,6 @@ for(const phrase of ["Underhåll för nybörjare","Vilka serviceuppgifter har vi
 
 const engineSeries=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
 for(const phrase of ["1,4 liter","50:e drifttimme","operatörsmanual","Form No. 271971-7:91"]) assert.ok(engineSeries.includes(phrase),"Missing historical engine-manual qualification: "+phrase);
+
+const ignition=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
+for(const phrase of ["Champion","J19LM","RJ19LM","0,76 mm","Luftfilterpatron utan förfilter","kontrollera alltid din motors"]) assert.ok(ignition.toLowerCase().includes(phrase.toLowerCase()),"Missing engine plug/filter guide: "+phrase);
