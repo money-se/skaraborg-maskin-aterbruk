@@ -39,3 +39,16 @@ Maskindatan innehåller titel, ingress, etiketter, kapitelnamn, kapitelinnehåll
 **Återstår:** att konvertera `bodyHtml` i varje kapitel till helt strukturerade objekt för faktarutor, tekniska tabeller, checklistor och övriga återkommande block. I detta steg är dessa block fortfarande bevarad HTML för att undvika att maskininformation går förlorad. `headHtml` och `footerHtml` är också fortfarande äldre infrastruktur som behöver flyttas till gemensam sidlayout i nästa steg.
 
 GitHub Actions-bygg: https://github.com/money-se/skaraborg-maskin-aterbruk/actions/workflows/maskinarkiv-2-pilot.yml
+
+
+## Steg 3: återanvändbara innehållsblock (2026-10-20)
+
+STIGA Park 16:s 16 innehållskapitel innehåller nu en ordnad lista av `blocks` i datafilen i stället för en enda `bodyHtml`-sträng per kapitel. Nunjucks använder separata komponentmallar i `src/_includes/blocks/` för:
+
+- `facts` – etikett/värde-rader ur maskinens faktarutor
+- `note` och `warning` – notisrubrik och förklaring som separata fält
+- `table-scroll`, `check`, `steps`, `answer`, `faq`, `cta` och `tradera-follow`
+
+Tabellceller, listpunkter och andra komplexa underblock ligger ännu som bevarad `innerHtml` inuti respektive komponent. Detta är en medveten, säker mellanform för att behålla uppgifter och länkar under migreringen. Nästa förbättring är att modellera även dem som strukturerade fält.
+
+Tradera-sektionen är nu fristående från kapitlet Återbruk, och källor renderas från sex strukturerade källposter. Kontrollerna omfattar komponentantal, ankarlänkar, unika ID och balanserade HTML-sektioner. Publicerade modellsidor har inte ändrats av denna pilot.
