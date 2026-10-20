@@ -2,7 +2,7 @@
   "slug": "stiga-park-12-hst",
   "model": "STIGA Park 12 HST",
   "title": "STIGA Park 12 HST",
-  "lead": "Identifiera rätt STIGA Park 12 HST, jämför produktversioner och förstå motor, hydrostat, klippaggregat, felsökning och reservdelar.",
+  "lead": "Ny på åkgräsklippare? Börja med enkla svar och hitta snabbt rätt hjälp för din STIGA Park 12 HST. Fördjupa dig sedan i modellnummer, motor, drivning, service och reservdelar.",
   "tags": [
     "Frontklippare",
     "Äldre Park-modeller",
@@ -11,16 +11,24 @@
   ],
   "navigation": [
     {
+      "id": "hitta-hjalp",
+      "label": "Hitta hjälp snabbt"
+    },
+    {
       "id": "oversikt",
-      "label": "Översikt"
+      "label": "Vad är maskinen?"
+    },
+    {
+      "id": "ordlista",
+      "label": "Förklaring av ord"
     },
     {
       "id": "versioner",
-      "label": "Produktversioner"
+      "label": "Modellversioner"
     },
     {
       "id": "identifiering",
-      "label": "Identifiering"
+      "label": "Hitta produktnumret"
     },
     {
       "id": "motor",
@@ -28,15 +36,15 @@
     },
     {
       "id": "hydrostat",
-      "label": "Drivning"
+      "label": "Så kör den"
     },
     {
       "id": "styrning",
-      "label": "Styrning"
+      "label": "Styrning och reglage"
     },
     {
       "id": "aggregat",
-      "label": "Klippaggregat"
+      "label": "Klippdelen"
     },
     {
       "id": "elsystem",
@@ -52,15 +60,15 @@
     },
     {
       "id": "felsokning",
-      "label": "Felsökning"
+      "label": "Startar inte? Felsök"
     },
     {
       "id": "reservdelar",
-      "label": "Reservdelar"
+      "label": "Hitta rätt reservdel"
     },
     {
       "id": "koprad",
-      "label": "Begagnatköp"
+      "label": "Köpa begagnad?"
     },
     {
       "id": "faq",
@@ -71,8 +79,20 @@
   "footerHtml": "</main>\n<div id=\"site-footer\"></div>\n<script>\ndocument.querySelectorAll(\".mobile-toc a[href^='#']\").forEach(a=>a.addEventListener(\"click\",()=>{const d=a.closest(\"details\");if(d)d.open=false}));\n// Shared partials contain root-page relative links. Rebase only their local URLs\n// when they are displayed from /maskinarkiv/; leave the shared files untouched.\nfunction insertPartial(id,html){\n  const container=document.getElementById(id);\n  const fragment=document.createElement(\"template\");\n  fragment.innerHTML=html;\n  fragment.content.querySelectorAll(\"a[href]\").forEach(link=>{\n    const href=link.getAttribute(\"href\");\n    if(href&&!href.startsWith(\"/\")&&!href.startsWith(\"#\")&&!/^[a-z][a-z0-9+.-]*:/i.test(href)){\n      link.setAttribute(\"href\",\"/\"+href);\n    }\n  });\n  container.replaceChildren(fragment.content.cloneNode(true));\n}\nfetch(\"../partials1/header.html\").then(r=>{if(!r.ok)throw Error(\"header\");return r.text()}).then(h=>insertPartial(\"site-header\",h)).catch(()=>{});\nfetch(\"../partials1/footer.html\").then(r=>{if(!r.ok)throw Error(\"footer\");return r.text()}).then(h=>insertPartial(\"site-footer\",h)).catch(()=>{});\n</script>\n</body></html>",
   "chapters": [
     {
+      "id": "hitta-hjalp",
+      "heading": "01 · Börja här",
+      "title": "Vad behöver du hjälp med?",
+      "headingId": "h-hitta-hjalp",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Du behöver inte kunna något om gräsklippare för att använda guiden. Välj det som bäst beskriver din fråga så kommer du direkt till rätt avsnitt.</p><div class=\"table-scroll\"><table><thead><tr><th>Jag undrar …</th><th>Gå hit</th></tr></thead><tbody><tr><td>Vad är det här för maskin?</td><td><a href=\"#oversikt\">Förklaring från början</a></td></tr><tr><td>Vilken modell eller årsmodell har jag?</td><td><a href=\"#identifiering\">Hitta maskinens nummer</a></td></tr><tr><td>Den startar inte eller kör dåligt</td><td><a href=\"#felsokning\">Felsökning steg för steg</a></td></tr><tr><td>Vad är hydrostat eller klippaggregat?</td><td><a href=\"#ordlista\">Enkla förklaringar av orden</a></td></tr><tr><td>Jag behöver köpa en reservdel</td><td><a href=\"#reservdelar\">Hitta rätt reservdel</a></td></tr><tr><td>Jag funderar på att köpa en begagnad</td><td><a href=\"#koprad\">Köpguide</a></td></tr><tr><td>Jag behöver en originalmanual</td><td><a href=\"#kallor\">Källor och manualer</a></td></tr></tbody></table></div><p><strong>Vet du inte produktnumret?</strong> Det är inget problem. Börja med avsnittet <a href=\"#identifiering\">Så hittar du maskinens nummer</a>. Vissa tekniska detaljer gäller bara en viss version av Park 12 HST.</p><div class=\"park-note\"><b>Säkerhet:</b> Stäng av motorn, ta ur nyckeln och vänta tills knivar och remmar står helt stilla innan du undersöker maskinen. Använd inte en maskin med osäkra bromsar eller säkerhetsfunktioner.</div>"
+        }
+      ]
+    },
+    {
       "id": "oversikt",
-      "heading": "01 · Översikt",
+      "heading": "02 · Översikt",
       "title": "Vad är STIGA Park 12 HST?",
       "headingId": "h-oversikt",
       "blocks": [
@@ -83,8 +103,20 @@
       ]
     },
     {
+      "id": "ordlista",
+      "heading": "03 · Enkla ord",
+      "title": "Ordlista – gräsklipparens delar på enkel svenska",
+      "headingId": "h-ordlista",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Här är vanliga ord du möter när du läser om en åkgräsklippare. Du behöver inte lära dig allt på en gång.</p><div class=\"table-scroll\"><table><thead><tr><th>Ord</th><th>Vad det betyder</th></tr></thead><tbody><tr><td><strong>Frontklippare</strong></td><td>En åkgräsklippare som har själva klippdelen framför föraren.</td></tr><tr><td><strong>Klippaggregat</strong></td><td>Delen med knivar som klipper gräset. Den kan vara ett separat redskap.</td></tr><tr><td><strong>Hydrostat</strong></td><td>Ett system som gör att du kan reglera körhastigheten utan vanliga växlar.</td></tr><tr><td><strong>Transmission/transaxel</strong></td><td>Delarna som överför motorns kraft till de drivande hjulen.</td></tr><tr><td><strong>Drivrem</strong></td><td>En rem som överför rörelse mellan remskivor, till exempel i drivningen.</td></tr><tr><td><strong>Produktnummer</strong></td><td>Tillverkarens nummer för en bestämd version av maskinen, till exempel <code>13-1358-12</code>.</td></tr><tr><td><strong>Serienummer</strong></td><td>Ett nummer som identifierar just ditt exemplar.</td></tr><tr><td><strong>Reservdelskatalog (IPL)</strong></td><td>En lista med bilder och nummer på maskinens delar.</td></tr><tr><td><strong>Sprängskiss</strong></td><td>En ritning där delarna visas åtskilda så du ser hur de hör ihop.</td></tr><tr><td><strong>Artikelnummer</strong></td><td>Det nummer som används när du letar efter eller beställer en viss del.</td></tr></tbody></table></div><p><strong>Skillnaden mellan manual och reservdelskatalog:</strong> Manualen visar normalt hur maskinen används och sköts. Reservdelskatalogen hjälper dig identifiera delar. En reservdelskatalog ersätter inte en service- eller säkerhetsinstruktion.</p>"
+        }
+      ]
+    },
+    {
       "id": "versioner",
-      "heading": "02 · Produktversioner",
+      "heading": "04 · Produktversioner",
       "title": "Vilken Park 12 HST har du?",
       "headingId": "h-versioner",
       "blocks": [
@@ -96,8 +128,8 @@
     },
     {
       "id": "identifiering",
-      "heading": "03 · Identifiering",
-      "title": "Hitta rätt produktnummer",
+      "heading": "05 · Identifiering",
+      "title": "Var hittar jag numret som visar vilken maskin jag har?",
       "headingId": "h-identifiering",
       "blocks": [
         {
@@ -108,7 +140,7 @@
     },
     {
       "id": "motor",
-      "heading": "04 · Motor",
+      "heading": "06 · Motor",
       "title": "Vad vet vi om motorn?",
       "headingId": "h-motor",
       "blocks": [
@@ -120,7 +152,7 @@
     },
     {
       "id": "hydrostat",
-      "heading": "05 · Drivning",
+      "heading": "07 · Drivning",
       "title": "Hur fungerar hydrostaten?",
       "headingId": "h-hydrostat",
       "blocks": [
@@ -132,7 +164,7 @@
     },
     {
       "id": "styrning",
-      "heading": "06 · Styrning och reglage",
+      "heading": "08 · Styrning och reglage",
       "title": "Hur styr och kör man maskinen?",
       "headingId": "h-styrning",
       "blocks": [
@@ -144,7 +176,7 @@
     },
     {
       "id": "aggregat",
-      "heading": "07 · Klippaggregat",
+      "heading": "09 · Klippaggregat",
       "title": "Vilket klippaggregat passar?",
       "headingId": "h-aggregat",
       "blocks": [
@@ -156,7 +188,7 @@
     },
     {
       "id": "elsystem",
-      "heading": "08 · Elsystem",
+      "heading": "10 · Elsystem",
       "title": "Elsystem, tändningslås och startproblem",
       "headingId": "h-elsystem",
       "blocks": [
@@ -168,7 +200,7 @@
     },
     {
       "id": "bromsar",
-      "heading": "09 · Bromsar",
+      "heading": "11 · Bromsar",
       "title": "Bromsar och parkeringsfunktion",
       "headingId": "h-bromsar",
       "blocks": [
@@ -180,7 +212,7 @@
     },
     {
       "id": "service",
-      "heading": "10 · Service",
+      "heading": "12 · Service",
       "title": "Service, remdrift och löpande kontroller",
       "headingId": "h-service",
       "blocks": [
@@ -192,8 +224,8 @@
     },
     {
       "id": "felsokning",
-      "heading": "11 · Felsökning",
-      "title": "Vad kontrollerar du om den inte fungerar?",
+      "heading": "13 · Felsökning",
+      "title": "Min gräsklippare fungerar inte – var börjar jag?",
       "headingId": "h-felsokning",
       "blocks": [
         {
@@ -204,8 +236,8 @@
     },
     {
       "id": "reservdelar",
-      "heading": "12 · Reservdelar",
-      "title": "Så hittar du rätt reservdelar",
+      "heading": "14 · Reservdelar",
+      "title": "Hur hittar jag en reservdel som verkligen passar?",
       "headingId": "h-reservdelar",
       "blocks": [
         {
@@ -216,7 +248,7 @@
     },
     {
       "id": "koprad",
-      "heading": "13 · Begagnatköp",
+      "heading": "15 · Begagnatköp",
       "title": "Vad bör du kontrollera före köp?",
       "headingId": "h-koprad",
       "blocks": [
@@ -228,7 +260,7 @@
     },
     {
       "id": "faq",
-      "heading": "14 · Vanliga frågor",
+      "heading": "16 · Vanliga frågor",
       "title": "Snabba svar om Park 12 HST",
       "headingId": "h-faq",
       "blocks": [
@@ -301,7 +333,7 @@
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1443-17_93_SV-EN.pdf"
     }
   ],
-  "sourceHeading": "14 · Källor och manualer",
+  "sourceHeading": "17 · Källor och manualer",
   "sourceIntro": "Originalkataloger och separata produktversioner listas nedan. Kontrollera artikelnummer mot exakt produktnummer och motorvariant.",
   "sourceHelp": "Originalkataloger [S1–S3] väger tyngre än sekundära register [S4–S5]. Kontrollera alltid produktnummer, motor och transmission på den enskilda maskinen.",
   "traderaBlock": {
