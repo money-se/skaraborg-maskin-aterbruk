@@ -39,6 +39,13 @@ jobs:
       - name: Audit production SEO and local URLs
         run: npm run audit
         working-directory: maskinarkiv-2
+      - name: Stage review-only production release
+        run: node scripts/stage-production.mjs
+        working-directory: maskinarkiv-2
+      - uses: actions/upload-artifact@v4
+        with:
+          name: maskinarkivet-2-release-review-only
+          path: _maskinarkiv-release-review/
       - name: Create browser-ready preview from generated HTML
         run: node scripts/build-browser-preview.mjs
         working-directory: maskinarkiv-2
