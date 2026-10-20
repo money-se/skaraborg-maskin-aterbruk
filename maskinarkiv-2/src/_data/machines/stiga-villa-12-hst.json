@@ -1,0 +1,242 @@
+{
+  "slug": "stiga-villa-12-hst",
+  "model": "STIGA Villa 12 HST",
+  "title": "STIGA Villa 12 HST",
+  "lead": "En djupare guide för dig som äger, skruvar med, funderar på att köpa eller försöker identifiera en Villa 12 HST. Här samlar vi det som går att belägga om maskinen – och förklarar varför uppgifterna spelar roll.",
+  "eyebrow": "Maskinarkivet · Modellguide",
+  "tags": [
+    "Frontklippare",
+    "2-hjulsdrift",
+    "Hydrostat",
+    "85 C / 85 Combi"
+  ],
+  "headHtml": "<!DOCTYPE html>\n<html lang=\"sv\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n<title>STIGA Villa 12 HST – komplett guide | Maskinarkivet</title>\n<meta name=\"description\" content=\"Utförlig guide till STIGA Villa 12 HST: identifiering, motor, drivning, styrning, reglage, säkerhetssystem, 85 C/85 Combi, underhåll, tillbehör och reservdelar.\">\n<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">\n<link rel=\"canonical\" href=\"https://skaraborgmaskin.se/maskinarkiv/stiga-villa-12-hst.html\">\n<link rel=\"stylesheet\" href=\"/maskinarkiv/maskinarkiv-v6.css\">\n</head>\n<body>\n<div id=\"site-header\"></div>\n\n",
+  "footerHtml": "\n</main>\n\n<div id=\"site-footer\"></div>\n\n<script>\nasync function inject(id,url){const el=document.getElementById(id);if(!el)return;try{const r=await fetch(url,{cache:\"no-cache\"});if(!r.ok)throw new Error(url);const t=document.createElement(\"template\");t.innerHTML=await r.text();t.content.querySelectorAll(\"[href],[src]\").forEach(node=>{for(const key of [\"href\",\"src\"]){const val=node.getAttribute(key);if(val&&!val.startsWith(\"/\")&&!val.startsWith(\"#\")&&!val.startsWith(\"?\")&&!/^[a-z][a-z0-9+.-]*:/i.test(val))node.setAttribute(key,\"/\"+val.replace(/^\\.\\//,\"\"))}});el.replaceChildren(t.content.cloneNode(true))}catch(e){console.error(\"Kunde inte ladda partial:\",e)}}\ninject(\"site-header\",\"../partials1/header.html\");\ninject(\"site-footer\",\"../partials1/footer.html\");\n</script>\n</body>\n</html>\n",
+  "navigation": [
+    {
+      "id": "oversikt",
+      "label": "Översikt"
+    },
+    {
+      "id": "versioner",
+      "label": "Modellversioner"
+    },
+    {
+      "id": "identifiering",
+      "label": "Identifiering"
+    },
+    {
+      "id": "drivning",
+      "label": "Drivning"
+    },
+    {
+      "id": "reglage",
+      "label": "Styrning & reglage"
+    },
+    {
+      "id": "aggregat",
+      "label": "Klippaggregat"
+    },
+    {
+      "id": "anvandning",
+      "label": "Användningsområden"
+    },
+    {
+      "id": "sakerhet",
+      "label": "Säkerhet"
+    },
+    {
+      "id": "underhall",
+      "label": "Service & underhåll"
+    },
+    {
+      "id": "reservdelar",
+      "label": "Reservdelar"
+    },
+    {
+      "id": "koprad",
+      "label": "Köpråd"
+    },
+    {
+      "id": "faq",
+      "label": "Vanliga frågor"
+    },
+    {
+      "id": "kallor",
+      "label": "Källor & manualer"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "oversikt",
+      "heading": "01 · Översikt",
+      "title": "Vad är STIGA Villa 12 HST?",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Villa 12 HST är byggd enligt STIGAs frontklipparkoncept: klippaggregatet sitter framför maskinen medan styrningen sker med bakhjulen.</p>\n<p>STIGAs manual beskriver maskinen som tvåhjulsdriven med drivning på framhjulen. Frontmonterade redskap drivs via kilremmar. Bakhjulsstyrningen sker via wire och beskrivs av STIGA som en lösning som gör det lättare att svänga runt träd och andra hinder.</p>\n<p>Namnet <strong>HST</strong> används tillsammans med den hydrostatiska drivningen. För föraren innebär hydrostatlösningen att hastighet och färdriktning hanteras steglöst snarare än med en traditionell växellåda med fasta växlar.</p>\n\n<div class=\"facts\">\n<div class=\"fact-row\"><b>Maskintyp</b><span>Frontklippare / åkgräsklippare</span></div>\n<div class=\"fact-row\"><b>Drivning</b><span>2-hjulsdrift, drivning på framhjulen</span></div>\n<div class=\"fact-row\"><b>Styrning</b><span>Bakhjulsstyrning via wire</span></div>\n<div class=\"fact-row\"><b>Redskapsdrift</b><span>Frontmonterade redskap drivs via kilrem</span></div>\n<div class=\"fact-row\"><b>Dokumenterat klippaggregat</b><span>85 C samt 85 Combi-familjen för Villa/Ready</span></div>\n<div class=\"fact-row\"><b>Max lutning enligt maskinmanual</b><span>10° med monterade originaltillbehör, oavsett riktning</span></div></div>\n\n<div class=\"park-note\"><b>Varför frontaggregat?</b>När klippaggregatet sitter framför maskinen kommer det åt gräset innan hjulen kör över det. Konstruktionen ger också bättre sikt över själva klippområdet än ett aggregat som ligger direkt under föraren.</div>\n"
+        }
+      ]
+    },
+    {
+      "id": "versioner",
+      "heading": "02 · Modellversioner",
+      "title": "Alla Villa 12 HST är inte identiska",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Reservdelsunderlaget visar flera produktnummer och mer än ett motorutförande.</p>\n\n<div class=\"version\"><div><span class=\"version-code\">13-2727-13</span><small>2009</small></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ och Combi 85.</p></div>\n<div class=\"version\"><div><span class=\"version-code\">13-2727-14</span><small>2010</small></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ och Combi 85.</p></div>\n<div class=\"version\"><div><span class=\"version-code\">13-2729-14</span><small>2010</small></div><p>Kompletterande reservdelsunderlag anger Briggs &amp; Stratton, uppgiven som 21R502, tillsammans med Kanzaki K46 CJ och Combi 85.</p></div>\n<div class=\"version\"><div><span class=\"version-code\">13-2729-15</span><small>2011–2012</small></div><p>Kompletterande reservdelsunderlag anger Briggs &amp; Stratton, uppgiven som 21R602, tillsammans med Kanzaki K46 CJ och Combi 85.</p></div>\n\n<div class=\"answer\"><small>Det viktiga</small><strong>Modellnamn → produktnummer → motoridentitet → rätt reservdel</strong><p>Det är den kedjan som gör informationen användbar när du faktiskt ska skruva eller beställa delar.</p></div>\n"
+        }
+      ]
+    },
+    {
+      "id": "identifiering",
+      "heading": "03 · Identifiering",
+      "title": "Så tar du reda på exakt vilken Villa 12 HST du har",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Det här är kanske den viktigaste delen på hela sidan. “Villa 12 HST” är inte tillräckligt för att säkert identifiera alla reservdelar.</p>\n<p>Maskinen och motorn har egna identitetsuppgifter. När du letar efter delar bör du därför först identifiera själva maskinen och därefter motorn.</p>\n\n<div class=\"steps\">\n<div class=\"step\"><h3>Hitta maskinens produkt-/artikelnummer</h3><p>Det skiljer olika produktversioner från varandra och leder till rätt reservdelsunderlag.</p></div>\n<div class=\"step\"><h3>Notera serienumret</h3><p>Serienumret identifierar den enskilda maskinen och kan vara viktigt när förändringar skett inom en modellserie.</p></div>\n<div class=\"step\"><h3>Läs av motorns märkning</h3><p>Motorn har egna modell-, typ- och serienummer. Använd dem för motorrelaterade reservdelar.</p></div>\n<div class=\"step\"><h3>Fotografera skyltarna</h3><p>Ett tydligt foto på märkningen är ofta det enklaste sättet att slippa skriva av en kod fel.</p></div>\n</div>\n\n<div class=\"park-note\"><b>Vanligt misstag</b>Att söka efter exempelvis “luftfilter Villa 12 HST” utan att först kontrollera vilken motor maskinen faktiskt har. Samma modellnamn förekommer med olika motorutföranden.</div>\n"
+        }
+      ]
+    },
+    {
+      "id": "drivning",
+      "heading": "04 · Drivning",
+      "title": "Drivning, hydrostat och bakhjulsstyrning",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<h3>Framhjulen driver</h3>\n<p>STIGA anger att maskinen är tvåhjulsdriven och driver på framhjulen. Det skiljer Villa från många vanliga åkgräsklippare där drivhjulen sitter bak.</p>\n\n<h3>Bakhjulen styr</h3>\n<p>Styrningen sker via wire till bakhjulen. STIGA lyfter särskilt fram att bakhjulsstyrningen gör maskinen lätt att svänga runt träd och andra hinder.</p>\n\n<h3>Hydrostatisk transmission</h3>\n<p>De produktversioner som finns i vårt reservdelsunderlag är kopplade till Kanzaki K46 CJ. Hydrostatdriften ger steglös körning. Maskinmanualen varnar också för att maskinen inte ska bogseras längre sträckor eller i hög fart eftersom transmissionen kan skadas.</p>\n\n<div class=\"park-note\"><b>Intressant konstruktion</b>På Villa kombineras alltså framhjulsdrift, bakhjulsstyrning och ett frontmonterat redskap. Det är en ganska annorlunda layout jämfört med en traditionell trädgårdstraktor med motor fram och klippbord under mitten.</div>\n"
+        }
+      ]
+    },
+    {
+      "id": "reglage",
+      "heading": "05 · Styrning & reglage",
+      "title": "Vad gör reglagen?",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Maskinmanualen beskriver flera funktioner som tillsammans styr körning, redskap och säkerhet.</p>\n\n<h3>Redskapslyft</h3>\n<p>Redskapslyften används för att växla mellan arbetsläge och transportläge. Pedalen trampas ned helt och släpps därefter sakta upp.</p>\n\n<h3>Koppling och parkeringsbroms</h3>\n<p>Maskinen har en kombinerad kopplings-/parkeringsbromsfunktion. Den är dessutom en del av säkerhetssystemet: motorn ska endast kunna startas när rätt säkerhetsvillkor är uppfyllda.</p>\n\n<h3>Säte</h3>\n<p>Sätet kan fällas och justeras i längdriktningen. Det har också en säkerhetsbrytare kopplad till maskinens elektriska säkerhetssystem.</p>\n\n<h3>Motorhuv</h3>\n<p>Motorhuven öppnas för tankning samt tillsyn och underhåll av motor och batteri. Manualen anger att motorn inte får vara igång när huven öppnas.</p>\n"
+        }
+      ]
+    },
+    {
+      "id": "aggregat",
+      "heading": "06 · Klippaggregat",
+      "title": "85 C och 85 Combi",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">STIGAs dokumentation kopplar Villa till 85 C, och den separata Combi-manualen anger 85 Combi för Villa/Ready.</p>\n\n<div class=\"specs\">\n<div class=\"spec\"><b>Klipphöjd</b><span>25–85 mm</span></div>\n<div class=\"spec\"><b>System</b><span>Manuell eller elektrisk höjdinställning beroende på utförande</span></div>\n<div class=\"spec\"><b>Framdäck</b><span>0,4 bar / 6 psi</span></div>\n<div class=\"spec\"><b>Bakdäck</b><span>1,2 bar / 17 psi</span></div>\n</div>\n\n<h3>Aggregatets lutning spelar roll</h3>\n<p>STIGA beskriver en grundinställning där aggregatet ska luta framåt. I manualen finns möjlighet att höja aggregatets bakdel genom att flytta sprintarna från grundinställningen. Rätt inställning påverkar hur aggregatet arbetar mot gräset.</p>\n\n<h3>Remdrivningen</h3>\n<p>På Villa/Ready drivs aggregatet via maskinens remsystem. Combi-manualen beskriver hur remmen läggs runt maskinens remskiva och spänns med spännrullen.</p>\n\n<h3>Knivarna är synkroniserade</h3>\n<p>På aggregatet arbetar knivarna synkroniserat och manualens illustration visar dem 90° förskjutna. Efter en kollision ska knivsystemet kontrolleras. STIGA anger 45 Nm för knivskruvarna och 9,8 Nm för brytbultarna.</p>\n\n<div class=\"park-note\"><b>Varför 90°?</b>När knivarnas arbetsområden ligger nära varandra måste deras rörelser vara synkroniserade. Därför är knivarnas inbördes läge en viktig del av aggregatets konstruktion.</div>\n"
+        }
+      ]
+    },
+    {
+      "id": "anvandning",
+      "heading": "07 · Användningsområden",
+      "title": "Vad är Villa tänkt att kunna göra?",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Maskinmanualen visar att Villa-plattformen inte bara var tänkt som gräsklippare.</p>\n\n<div class=\"use-list\">\n<div class=\"use\"><strong>Gräsklippning</strong>med klippaggregat 85 C.</div>\n<div class=\"use\"><strong>Sopning</strong>med STIGA sopaggregat; manualen nämner även dammskydd i samband med sopning.</div>\n<div class=\"use\"><strong>Snöröjning</strong>med snöblad. Snökedjor och ramvikter rekommenderas i manualen.</div>\n<div class=\"use\"><strong>Gräs- och lövuppsamling</strong>med bogserad uppsamlare 30 eller 42 tum.</div>\n<div class=\"use\"><strong>Transport</strong>av gräs och löv med transportkärra Combi.</div>\n</div>\n\n<p style=\"margin-top:20px\">Manualen anger också begränsningar för draganordningen: maximal vertikal kraft 100 N och maximal påskjutskraft från bogserade tillbehör 500 N. Maskinen är inte avsedd att köras på allmän väg.</p>\n\n<div class=\"park-note\"><b>Det säger något om Villa-idén</b>STIGA byggde alltså systemet kring en maskin som kunde bära olika front- och bogserade redskap. Klippaggregatet var bara ett av användningsområdena.</div>\n"
+        }
+      ]
+    },
+    {
+      "id": "sakerhet",
+      "heading": "08 · Säkerhet",
+      "title": "Varför kan en Villa vägra starta?",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Ett uteblivet startförsök behöver inte automatiskt betyda att startmotor eller motor är trasig. Maskinen har ett elektriskt säkerhetssystem.</p>\n<p>STIGA beskriver systemet som ett skydd som avbryter vissa aktiviteter vid felmanöver. Ett uttryckligt exempel i manualen är att motorn endast kan startas när kopplings-/parkeringsbromspedalen är nedtryckt.</p>\n<p>Sätets säkerhetsbrytare ingår också i systemet. Därför är säkerhetsfunktionerna relevanta att förstå vid felsökning – men de ska inte kopplas förbi. Manualen anger att säkerhetssystemets funktion ska kontrolleras före varje användning.</p>\n\n<div class=\"park-note\"><b>Felsökningstanke</b>Om startmotorn inte reagerar alls kan det därför vara relevant att först kontrollera att maskinen står i korrekt startläge och att säkerhetssystemets normala villkor är uppfyllda, innan man drar slutsatsen att en komponent är trasig.</div>\n"
+        }
+      ]
+    },
+    {
+      "id": "underhall",
+      "heading": "09 · Service & underhåll",
+      "title": "Vad behöver hållas efter?",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Här är verifierade servicepunkter från Villa-manualen. Intervallen gäller manualens dokumenterade utförande; kontrollera alltid motoridentiteten på din egen maskin.</p>\n\n<table class=\"service\">\n<thead><tr><th>Kontroll / service</th><th>Intervall / uppgift</th></tr></thead>\n<tbody>\n<tr><td>Motorolja – nivå</td><td>Kontroll före varje användning. Maskinen ska stå plant.</td></tr>\n<tr><td>Förfilter, luft</td><td>Rengör/byts var 25:e drifttimme.</td></tr>\n<tr><td>Pappersluftfilter</td><td>Rengör/byts var 100:e drifttimme; oftare i dammiga förhållanden.</td></tr>\n<tr><td>Kylluftintag</td><td>Rengör var 50:e drifttimme.</td></tr>\n<tr><td>Tändstift</td><td>Byts var 200:e drifttimme enligt manualen.</td></tr>\n<tr><td>Smörjpunkter</td><td>Var 25:e drifttimme och efter varje tvätt.</td></tr>\n</tbody>\n</table>\n\n<h3>Luftfiltret</h3>\n<p>Manualen beskriver ett skumplastförfilter och ett pappersfilter. Pappersfiltret ska inte rengöras med tryckluft eller petroleumbaserade lösningsmedel och ska inte oljas in.</p>\n\n<h3>Tändstift</h3>\n<p>Manualen anger Champion RC12YC eller likvärdigt och ett elektrodavstånd på 0,75 mm. Eftersom Villa 12 HST förekommer med olika motorutföranden bör uppgiften kontrolleras mot den motor som faktiskt sitter på maskinen.</p>\n\n<h3>Smörjning</h3>\n<p>Manualens smörjschema omfattar bland annat bakaxel, styrvajrar, spännarmar och reglagewirar. Bakaxeln smörjs via tre smörjnipplar med universalfett, medan styrvajrarna rengörs och smörjs med kedjespray av universaltyp.</p>\n\n<h3>Batteriet</h3>\n<p>Vid bortkoppling anger STIGA att den svarta kabeln från minuspolen ska kopplas bort före den röda pluskabeln. Vid montering sker ordningen omvänt. Oxiderade batteripoler ska rengöras och smörjas med polfett.</p>\n"
+        }
+      ]
+    },
+    {
+      "id": "reservdelar",
+      "heading": "10 · Reservdelar",
+      "title": "Så minskar du risken att köpa fel del",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">På en äldre maskin är “passar STIGA Villa” sällan tillräckligt som kontroll.</p>\n\n<div class=\"steps\">\n<div class=\"step\"><h3>Maskindel?</h3><p>Använd Villa-maskinens produktnummer och rätt reservdelslista.</p></div>\n<div class=\"step\"><h3>Motordel?</h3><p>Utgå från motorns egen modell- och typmärkning, inte bara namnet Villa 12 HST.</p></div>\n<div class=\"step\"><h3>Aggregatdel?</h3><p>Identifiera själva klippaggregatet och dess version innan du matchar rem, kniv eller annan del.</p></div>\n<div class=\"step\"><h3>Jämför den gamla delen</h3><p>Artikelnummer, dimensioner, infästning och utförande är värdefulla extra kontroller när maskinen är äldre.</p></div>\n</div>\n\n<div class=\"answer\"><small>En bra vana</small><strong>Fotografera tre saker innan du beställer</strong><p>Maskinens skylt, motorns märkning och den gamla delen. Det ger betydligt bättre förutsättningar att hitta rätt.</p></div>\n"
+        }
+      ]
+    },
+    {
+      "id": "koprad",
+      "heading": "11 · Köpråd",
+      "title": "Vad bör man titta på före köp?",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<p class=\"lead\">Det här är en praktisk kontrollista, inte ett påstående om att punkterna är typfel på Villa 12 HST.</p>\n\n<p><strong>Identifieringen:</strong> kontrollera produktnummer och motor så att du vet vilken version du faktiskt tittar på.</p>\n<p><strong>Hydrostatdriften:</strong> provkör framåt och bakåt och känn efter att drivningen arbetar jämnt när maskinen blivit varm.</p>\n<p><strong>Styrningen:</strong> kontrollera glapp och att bakhjulsstyrningen rör sig normalt över hela styrutslaget.</p>\n<p><strong>Klippaggregatet:</strong> titta på knivar, lager, remdrift, infästningar och tecken på kraftiga kollisioner eller reparationer.</p>\n<p><strong>Säkerhetssystemet:</strong> maskinens säkerhetsfunktioner ska fungera – inte vara förbikopplade.</p>\n<p><strong>Servicehistorik:</strong> på en äldre maskin är faktisk skötsel ofta minst lika intressant som årsmodellen.</p>\n\n<div class=\"park-note\"><b>Varför detta är viktigt</b>En billig maskin med okänd identitet, dåligt aggregat och problem i drivningen kan snabbt bli mindre attraktiv än en dyrare men komplett och välskött maskin.</div>\n"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": "12 · Vanliga frågor",
+      "title": "Vanliga frågor",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "\n<details><summary>Är STIGA Villa 12 HST framhjulsdriven?</summary><p>Ja. STIGAs manual beskriver maskinen som tvåhjulsdriven med drivning på framhjulen.</p></details>\n<details><summary>Styr den med fram- eller bakhjulen?</summary><p>Bakhjulen styr, via wire.</p></details>\n<details><summary>Har alla Villa 12 HST samma motor?</summary><p>Nej. Underlaget visar flera produktversioner och olika motorutföranden.</p></details>\n<details><summary>Vilket klippaggregat används?</summary><p>85 C anges i Villa-manualen och 85 Combi anges för Villa/Ready i STIGAs separata Combi-manual.</p></details>\n<details><summary>Vilken klipphöjd har 85 Combi?</summary><p>25–85 mm enligt STIGAs Combi-manual.</p></details>\n<details><summary>Kan Villa användas på vintern?</summary><p>STIGAs manual listar snöröjning med snöblad och rekommenderar snökedjor och ramvikter.</p></details>\n<details><summary>Kan den dra en kärra?</summary><p>Manualen listar transportkärra Combi och anger belastningsgränser för draganordningen.</p></details>\n<details><summary>Varför startar den inte när jag vrider på nyckeln?</summary><p>Det kan finnas många orsaker. En av sakerna att kontrollera är att säkerhetssystemets normala startvillkor är uppfyllda. Systemet ska inte kopplas förbi.</p></details>\n</section>\n\n<section>\n\n"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "rawHtml": "<strong>STIGA Villa / Villa 12 HST – bruksanvisning 8211-0038-90</strong>Huvudkälla för maskinens konstruktion, drivning, styrning, säkerhetssystem, reglage, användningsområden, däcktryck och underhåll."
+    },
+    {
+      "rawHtml": "<strong>STIGA Villa / Park – 85 Combi, 95 Combi, 105 Combi – bruksanvisning 8211-7000-10</strong>Huvudkälla för klippaggregatets kompatibilitet, klipphöjd, montering, inställning och knivsystem."
+    },
+    {
+      "rawHtml": "<strong>Villa 12 HST 13-2727-13 – kompletterande reservdelsunderlag</strong><a href=\"https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Öppna källa</a>"
+    },
+    {
+      "rawHtml": "<strong>Villa 12 HST 13-2727-14 – kompletterande reservdelsunderlag</strong><a href=\"https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Öppna källa</a>"
+    },
+    {
+      "rawHtml": "<strong>Villa 12 HST 13-2729-14 – kompletterande reservdelsunderlag</strong><a href=\"https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Öppna källa</a>"
+    },
+    {
+      "rawHtml": "<strong>Villa 12 HST 13-2729-15 – kompletterande reservdelsunderlag</strong><a href=\"https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Öppna källa</a>"
+    }
+  ],
+  "sourceHeading": "13 · Källor & manualer",
+  "sourceIntro": "Originalmanualer och reservdelskataloger finns samlade här. Öppna rutan om du vill läsa mer eller kontrollera en uppgift.",
+  "sourceHelp": "Välj dokument som hör till just din maskins produktnummer.",
+  "traderaBlock": {
+    "type": "tradera-follow",
+    "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
+  }
+}
