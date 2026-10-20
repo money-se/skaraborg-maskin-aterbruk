@@ -48,7 +48,7 @@ const lth=JSON.parse(fs.readFileSync("src/_data/machines/husqvarna-lth151.json",
 const lthPath="../_maskinarkiv-preview/maskinarkiv/husqvarna-lth151.html";
 assert.ok(fs.existsSync(lthPath),"LTH151 output missing");
 const lthHtml=fs.readFileSync(lthPath,"utf8");
-assert.equal(lth.chapters.length,13;
+assert.equal(lth.chapters.length,13);
 assert.equal(lth.sources.length,4);
 for(const chapter of lth.chapters)assert.ok(lthHtml.includes('id="'+chapter.id+'"'),"LTH151 chapter missing: "+chapter.id);
 const lthIds=[...lthHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
