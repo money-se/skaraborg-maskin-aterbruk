@@ -1,1 +1,1 @@
-module.exports = require("./machines/stiga-park-16.json");
+module.exports = require("./prepare")(require("./machines/stiga-park-16.json"));
