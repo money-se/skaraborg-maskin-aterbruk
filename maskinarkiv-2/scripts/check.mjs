@@ -5,6 +5,12 @@ const target="../_maskinarkiv-preview/maskinarkiv/stiga-park-16.html";
 assert.ok(fs.existsSync(target),"Kör npm run build före npm run check");
 const html=fs.readFileSync(target,"utf8");
 assert.equal(source.chapters.length,16);
+const allowed = new Set(["html","facts","note","warning","check","table-scroll","steps","answer","faq","cta","tradera-follow"]);
+for (const chapter of source.chapters) { assert.ok(chapter.blocks.length > 0, "Empty chapter: "+chapter.id); for (const block of chapter.blocks) assert.ok(allowed.has(block.type), "Unknown block: "+block.type); }
+const typed = source.chapters.flatMap(c => c.blocks).filter(b => b.type !== "html");
+assert.equal(typed.length, 24, "Unexpected component count");
+assert.equal(typed.filter(b => b.type === "facts").length,2);
+assert.equal(typed.filter(b => b.type === "table-scroll").length,4);
 assert.equal(source.sources.length,6);
 for(const chapter of source.chapters) assert.ok(html.includes('id="'+chapter.id+'"'),"Saknar kapitel: "+chapter.id);
 assert.ok(html.includes('href="/tradera.html"'));
