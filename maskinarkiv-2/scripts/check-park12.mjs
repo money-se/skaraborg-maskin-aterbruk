@@ -5,8 +5,9 @@ const model=JSON.parse(fs.readFileSync("src/_data/machines/"+slug+".json","utf8"
 const file="../_maskinarkiv-preview/maskinarkiv/"+slug+".html";
 assert.ok(fs.existsSync(file),"STIGA Park 12 HST generated file missing");
 const html=fs.readFileSync(file,"utf8");
-assert.equal(model.chapters.length,11);
-assert.ok(model.sources.length>=9);
+assert.equal(model.chapters.length,14);
+assert.ok(model.sources.length>=10);
+for(const id of ["elsystem","bromsar","service"]) assert.ok(model.chapters.some(c=>c.id===id),"Missing deep-research chapter: "+id);
 const versions=(model.chapters.find(c=>c.id==="versioner")?.blocks||[]).map(b=>b.html||"").join("");
 assert.equal((versions.match(/<tr><td><code>13-/g)||[]).length,12,"Expected 12 documented variants");
 assert.ok(versions.includes("13-1318-83") && versions.includes("13-5319-13"),"F/JP variants missing");
