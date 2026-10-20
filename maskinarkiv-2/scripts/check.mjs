@@ -101,3 +101,23 @@ for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,6],["jonsered-lt2
  assert.equal([...page.matchAll(/<\/(?:b|strong)>(?=[\p{L}\d])/gu)].length,0,slug+" missing whitespace after labels");
  console.log("MASKINARKIV_2_"+slug+"=PASS");
 }
+
+const rider11=JSON.parse(fs.readFileSync("src/_data/machines/husqvarna-rider-11.json","utf8"));
+const rider11Html=fs.readFileSync("../_maskinarkiv-preview/maskinarkiv/husqvarna-rider-11.html","utf8");
+assert.equal(rider11.chapters.length,14,"Rider 11 chapter count");
+assert.equal(rider11.sources.length,4,"Rider 11 source count");
+for(const chapter of rider11.chapters){
+ assert.ok(chapter.blocks.length>0,"Rider 11 empty chapter: "+chapter.id);
+ for(const block of chapter.blocks)assert.ok(allowed.has(block.type),"Rider 11 unsupported block: "+block.type);
+ assert.ok(rider11Html.includes('id="'+chapter.id+'"'),"Rider 11 chapter missing: "+chapter.id);
+}
+const rider11Ids=[...rider11Html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(rider11Ids.length,new Set(rider11Ids).size,"Rider 11 duplicate ids");
+for(const [,id]of rider11Html.matchAll(/href="#([^"]+)"/g))assert.ok(rider11Ids.includes(id),"Rider 11 broken anchor: "+id);
+for(const section of ["aterbruk","tradera","kallor"])assert.ok(rider11Ids.includes(section),"Rider 11 missing shared section: "+section);
+assert.equal((rider11Html.match(/class="source-record"/g)||[]).length,4,"Rider 11 source rendering");
+assert.ok(rider11Html.includes('class="footer-bottom"'),"Rider 11 footer missing");
+assert.ok(rider11Html.includes('href="/tradera.html"'),"Rider 11 Tradera link missing");
+assert.equal((rider11Html.match(/<section\b/g)||[]).length,(rider11Html.match(/<\/section>/g)||[]).length,"Rider 11 sections unbalanced");
+assert.equal([...rider11Html.matchAll(/<\/(?:b|strong)>(?=[\p{L}\d])/gu)].length,0,"Rider 11 glued labels");
+console.log("MASKINARKIV_2_RIDER11=PASS");
