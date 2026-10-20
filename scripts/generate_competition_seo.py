@@ -33,18 +33,19 @@ def render(item):
     started = str(item.get("starts_at") or "")[:16].replace("T"," ")
     ended = str(item.get("ends_at") or "")[:16].replace("T"," ")
     facebook = item.get("facebook_url") or ""
-    link = ('<p><a class="cta" rel="noopener noreferrer" target="_blank" href="'+safe(facebook)+'">Delta på Facebook →</a></p>') if item["status"]=="active" and facebook.startswith("https://") else ""
+    link = ('<p><a class="cta" rel="noopener noreferrer" target="_blank" href="'+safe(facebook)+'">Delta på Facebook →</a></p>') if item["status"]=="active" and not item.get("is_test") and facebook.startswith("https://") else ""
     ld = {"@context":"https://schema.org","@type":"WebPage","name":title+" – Månadens maskin","description":summary,"url":url,"inLanguage":"sv-SE","isPartOf":{"@type":"WebSite","name":"Skaraborg Maskin & Återbruk","url":BASE}}
     if images:ld["primaryImageOfPage"]={"@type":"ImageObject","url":images[0]}
     jsonld=json.dumps(ld,ensure_ascii=False).replace("<","\\u003c")
     ogimg='<meta property="og:image" content="'+safe(images[0])+'">' if images else ""
+    test_banner = '<p style="background:#fff0cf;padding:14px;font-weight:800">TESTTÄVLING – endast demonstration. Inget deltagande och inget pris delas ut.</p>' if item.get('is_test') else ''
     return f'''<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{safe(site_title)}</title><meta name="description" content="{safe(summary)}"><meta name="robots" content="index,follow,max-image-preview:large">
 <link rel="canonical" href="{safe(url)}"><meta property="og:type" content="website"><meta property="og:title" content="{safe(title)}"><meta property="og:description" content="{safe(summary)}"><meta property="og:url" content="{safe(url)}">{ogimg}
 <script type="application/ld+json">{jsonld}</script><style>
 *{{box-sizing:border-box}}body{{margin:0;color:#1a3523;background:#f2f6f0;font:16px/1.65 system-ui,sans-serif}}header{{background:#173925;color:#fff;padding:18px}}header a{{color:white}}.wrap{{max-width:1000px;margin:auto;padding:20px}}article{{background:white;border:1px solid #d6e2d4;padding:25px;border-radius:18px}}h1{{line-height:1.2}}.gallery{{display:flex;gap:12px;overflow:auto;margin:24px 0}}.gallery img{{width:min(90vw,580px);height:350px;object-fit:contain;background:#f0f3ef;border-radius:12px;flex:none}}.multiline{{white-space:pre-wrap;overflow-wrap:anywhere}}.cta{{display:inline-block;background:#215a36;color:white;text-decoration:none;padding:13px 19px;border-radius:10px;font-weight:bold}}@media(max-width:600px){{.wrap{{padding:12px}}article{{padding:18px}}.gallery img{{height:240px}}}}
 </style></head><body>{MARK}<header><div class="wrap"><a href="/tavlingar.html">← Månadens maskin</a><p>Skaraborg Maskin & Återbruk</p></div></header>
-<main class="wrap"><article><h1>{safe(title)}</h1><p><strong>{'Aktiv tävling' if item["status"]=="active" else 'Avslutad tävling'}</strong></p><div class="gallery">{imgs}</div>
+<main class="wrap"><article><h1>{safe(title)}</h1>{test_banner}<p><strong>{'Aktiv tävling' if item["status"]=="active" else 'Avslutad tävling'}</strong></p><div class="gallery">{imgs}</div>
 {text_section("Om maskinen",item.get("description"))}
 {text_section("Skick och kända fel",item.get("prize_condition"))}
 <p><strong>Tävlingsperiod:</strong> {safe(started)} – {safe(ended)} (UTC)</p>
@@ -55,7 +56,7 @@ def render(item):
 
 def main():
     key=os.environ["SUPABASE_PUBLISHABLE_KEY"]
-    query="/rest/v1/competitions?select=slug,title,description,prize_condition,image_paths,facebook_url,starts_at,ends_at,status,rules,winner_name&published=eq.true&status=in.(active,ended)&order=starts_at.desc&limit=500"
+    query="/rest/v1/competitions?select=slug,title,description,prize_condition,image_paths,facebook_url,starts_at,ends_at,status,rules,winner_name,is_test&published=eq.true&is_test=eq.false&status=in.(active,ended)&order=starts_at.desc&limit=500"
     req=urllib.request.Request(SUPABASE+query,headers={"apikey":key,"Accept":"application/json"})
     with urllib.request.urlopen(req,timeout=30) as response: items=json.load(response)
     OUT.mkdir(exist_ok=True)
