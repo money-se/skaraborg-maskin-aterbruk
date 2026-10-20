@@ -1,0 +1,233 @@
+{
+  "slug": "stiga-park-12-hst",
+  "model": "STIGA Park 12 HST",
+  "title": "STIGA Park 12 HST",
+  "lead": "Identifiera rätt STIGA Park 12 HST, jämför produktversioner och förstå motor, hydrostat, klippaggregat, felsökning och reservdelar.",
+  "tags": [
+    "Frontklippare",
+    "Äldre Park-modeller",
+    "Hydrostat",
+    "Produktnummer"
+  ],
+  "navigation": [
+    {
+      "id": "oversikt",
+      "label": "Översikt"
+    },
+    {
+      "id": "versioner",
+      "label": "Produktversioner"
+    },
+    {
+      "id": "identifiering",
+      "label": "Identifiering"
+    },
+    {
+      "id": "motor",
+      "label": "Motor"
+    },
+    {
+      "id": "hydrostat",
+      "label": "Drivning"
+    },
+    {
+      "id": "styrning",
+      "label": "Styrning och reglage"
+    },
+    {
+      "id": "aggregat",
+      "label": "Klippaggregat"
+    },
+    {
+      "id": "felsokning",
+      "label": "Felsökning"
+    },
+    {
+      "id": "reservdelar",
+      "label": "Reservdelar"
+    },
+    {
+      "id": "koprad",
+      "label": "Begagnatköp"
+    },
+    {
+      "id": "faq",
+      "label": "Vanliga frågor"
+    }
+  ],
+  "headHtml": "<!DOCTYPE html>\n<html lang=\"sv\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>STIGA Park 12 HST – modeller, hydrostat och reservdelar | Maskinarkivet</title>\n<meta name=\"description\" content=\"Guide till STIGA Park 12 HST: produktnummer, dokumenterade versioner, motor, Kanzaki K110, transmission, aggregat, felsökning och reservdelar.\">\n<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">\n<link rel=\"canonical\" href=\"https://skaraborgmaskin.se/maskinarkiv/stiga-park-12-hst.html\">\n<link rel=\"stylesheet\" href=\"/maskinarkiv/maskinarkiv-v6.css\">\n</head>\n<body>\n<a class=\"skip\" href=\"#main\">Hoppa till innehållet</a>\n<div id=\"site-header\"></div>\n",
+  "footerHtml": "</main>\n<div id=\"site-footer\"></div>\n<script>\ndocument.querySelectorAll(\".mobile-toc a[href^='#']\").forEach(a=>a.addEventListener(\"click\",()=>{const d=a.closest(\"details\");if(d)d.open=false}));\n// Shared partials contain root-page relative links. Rebase only their local URLs\n// when they are displayed from /maskinarkiv/; leave the shared files untouched.\nfunction insertPartial(id,html){\n  const container=document.getElementById(id);\n  const fragment=document.createElement(\"template\");\n  fragment.innerHTML=html;\n  fragment.content.querySelectorAll(\"a[href]\").forEach(link=>{\n    const href=link.getAttribute(\"href\");\n    if(href&&!href.startsWith(\"/\")&&!href.startsWith(\"#\")&&!/^[a-z][a-z0-9+.-]*:/i.test(href)){\n      link.setAttribute(\"href\",\"/\"+href);\n    }\n  });\n  container.replaceChildren(fragment.content.cloneNode(true));\n}\nfetch(\"../partials1/header.html\").then(r=>{if(!r.ok)throw Error(\"header\");return r.text()}).then(h=>insertPartial(\"site-header\",h)).catch(()=>{});\nfetch(\"../partials1/footer.html\").then(r=>{if(!r.ok)throw Error(\"footer\");return r.text()}).then(h=>insertPartial(\"site-footer\",h)).catch(()=>{});\n</script>\n</body></html>",
+  "chapters": [
+    {
+      "id": "oversikt",
+      "heading": "01 · Översikt",
+      "title": "Vad är STIGA Park 12 HST?",
+      "headingId": "h-oversikt",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">STIGA Park 12 HST är en äldre frontklippare inom Park-familjen. Klippaggregatet sitter framför maskinen och HST står för hydrostatisk drivning – föraren reglerar farten steglöst i stället för att välja fasta växlar.</p><p>Modellnamnet finns på flera produktversioner. För rätt manual och rätt reservdel börjar du alltid med maskinens produktnummer, inte bara texten på huven.</p><div class=\"park-note\"><b>Viktigast att förstå:</b> Park 12 HST är en modellfamilj. Uppgifter om exempelvis motor, transmission och klippaggregat måste kontrolleras mot rätt version.</div>"
+        }
+      ]
+    },
+    {
+      "id": "versioner",
+      "heading": "02 · Produktversioner",
+      "title": "Vilken Park 12 HST har du?",
+      "headingId": "h-versioner",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>STIGAs katalogregister innehåller flera varianter från perioden omkring 1990–1994. Säsongsbeteckningar i reservdelskatalogerna hjälper oss skilja dokumenten åt, men de bevisar inte ensamma när ett specifikt exemplar tillverkades. [S1–S3]</p><div class=\"table-scroll\"><table><thead><tr><th>Produktnummer</th><th>Kataloguppgift</th><th>Kommentar</th></tr></thead><tbody><tr><td>13-1318-12</td><td>1990</td><td>Separat reservdelskatalog</td></tr><tr><td>13-1318-13</td><td>1991</td><td>Separat reservdelskatalog från STIGA</td></tr><tr><td>13-1318-14</td><td>1992</td><td>Separat dokumenterad produktversion</td></tr><tr><td>13-1358-12</td><td>1990</td><td>STIGA-katalog, Park 12 HST</td></tr><tr><td>13-1358-15</td><td>1993</td><td>Senare reservdelskatalog</td></tr><tr><td>13-1443-17</td><td>1994 enligt reservdelsregister</td><td>Ytterligare dokumenterad version</td></tr><tr><td>13-5319-12</td><td>1990 enligt katalog/register</td><td>Egen variant; kontrollera dess katalog</td></tr></tbody></table></div><p>Listan är exempel på dokumenterade produktnummer, inte ett påstående att alla Park 12 HST-varianter är med. [S1–S4]</p>"
+        }
+      ]
+    },
+    {
+      "id": "identifiering",
+      "heading": "03 · Identifiering",
+      "title": "Hitta rätt produktnummer",
+      "headingId": "h-identifiering",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<div class=\"steps\"><div class=\"step\"><h3>1. Leta efter maskinens identifieringsskylt</h3><p>Fotografera produktnummer och serienummer. Ett nummer som <code>13-1318-13</code> är mer användbart vid reservdelssökning än bara ”Park 12 HST”.</p></div><div class=\"step\"><h3>2. Läs av motorns märkning</h3><p>Briggs &amp; Stratton-motorer identifieras vanligtvis via modell, typ och kod. Använd motorns egen märkning när du behöver motordelar.</p></div><div class=\"step\"><h3>3. Kontrollera transmissionen</h3><p>Om du ska beställa delar till drivningen, jämför transmissionens märkning och sprängskiss mot den aktuella katalogen.</p></div><div class=\"step\"><h3>4. Identifiera klippaggregatet separat</h3><p>Aggregatet kan ha egen märkning och ha bytts under maskinens livstid.</p></div></div><p>STIGAs reservdelsunderlag anger uttryckligen att man ska välja en katalog som passar maskinens identifiering. [S2]</p>"
+        }
+      ]
+    },
+    {
+      "id": "motor",
+      "heading": "04 · Motor",
+      "title": "Vad vet vi om motorn?",
+      "headingId": "h-motor",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Reservdelsregister för två identifierade Park 12 HST-varianter anger Briggs &amp; Stratton, men med olika motorbeteckningar. För <code>13-5319-12</code> anges <code>281707-0142</code> och för <code>13-1443-17</code> anges <code>286707-0141</code>. Detta är sekundära registeruppgifter och ska kontrolleras mot motorns märkning. [S4–S5]</p><div class=\"park-note\"><b>Undvik felköp:</b> Luftfilter, startmotor, tänddelar och förgasardelar väljs efter motorns fullständiga modell- och typkod, inte enbart efter Park 12 HST.</div><p>Den här guiden fastställer därför ingen gemensam motormodell eller exakt motoreffekt för alla Park 12 HST.</p>"
+        }
+      ]
+    },
+    {
+      "id": "hydrostat",
+      "heading": "05 · Drivning",
+      "title": "Hur fungerar hydrostaten?",
+      "headingId": "h-hydrostat",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>En hydrostatisk drivning använder ett hydraulsystem för steglös hastighetsreglering. Föraren ändrar hur kraften överförs till hjulen utan att behöva växla mellan fasta hastighetssteg.</p><p>Sprängskisser för flera tidiga Park 12 HST-versioner visar en <strong>Kanzaki K110</strong>-transaxel. Reservdelsregister för andra versioner anger <strong>Tecumseh 846</strong>. Det betyder att du inte bör beställa transmissionsdelar innan du kontrollerat den faktiska maskinens version. [S3–S5]</p><div class=\"park-note\"><b>Symtom är inte diagnos:</b> Svag drivning kan även bero på drivrem, reglage, remspänning eller mekaniska problem. Bedöm hela drivkedjan innan du misstänker att hydrostaten behöver ersättas.</div>"
+        }
+      ]
+    },
+    {
+      "id": "styrning",
+      "heading": "06 · Styrning och reglage",
+      "title": "Hur styr och kör man maskinen?",
+      "headingId": "h-styrning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Park-familjen är konstruerad för att klippa med ett frontmonterat aggregat, vilket ger god överblick framför föraren. Reservdelskatalogerna har separata sprängskisser för bland annat styrning, drivpedal och reglage. [S2–S3]</p><p>Kontrollera glapp i leder och styrsystem, att pedaler återgår som de ska och att alla säkerhetsfunktioner fungerar enligt rätt instruktionsbok. Koppla inte förbi säkerhetsbrytare.</p><p>Exakta inställningsmått och procedurer ska hämtas ur manualen som motsvarar maskinens produktnummer.</p>"
+        }
+      ]
+    },
+    {
+      "id": "aggregat",
+      "heading": "07 · Klippaggregat",
+      "title": "Vilket klippaggregat passar?",
+      "headingId": "h-aggregat",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Det finns dokumenterade uppgifter om <strong>100B</strong> och <strong>100M</strong> i reservdelsregister för vissa Park 12 HST-varianter. Detta visar inte automatiskt att samtliga Park 12 HST-versioner använder samma redskap eller infästning. [S4–S5]</p><p>Läs av aggregatets märkning. Kontrollera att infästning, remdragning och eventuella remskivor motsvarar din maskin. Jämför mot originalmanual och reservdelskatalog innan du köper begagnat aggregat.</p>"
+        }
+      ]
+    },
+    {
+      "id": "felsokning",
+      "heading": "08 · Felsökning",
+      "title": "Vad kontrollerar du om den inte fungerar?",
+      "headingId": "h-felsokning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<div class=\"steps\"><div class=\"step\"><h3>Startmotorn reagerar inte</h3><p>Kontrollera batteri, anslutningar och maskinens normala startvillkor. Säkerhetsbrytare ska inte kopplas förbi.</p></div><div class=\"step\"><h3>Motorn går men maskinen driver dåligt</h3><p>Undersök remmens skick och drivreglagens funktion först. Fortsätt därefter enligt rätt transmissionsmanual.</p></div><div class=\"step\"><h3>Klippningen blir ojämn</h3><p>Kontrollera knivar, aggregatets nivå, hjul och rätt inställningar enligt aggregatets dokumentation.</p></div></div><div class=\"park-note\"><b>Arbeta säkert:</b> Stäng av motor och koppla från tändning innan du arbetar vid remmar eller knivar. Följ alltid tillverkarens instruktioner.</div>"
+        }
+      ]
+    },
+    {
+      "id": "reservdelar",
+      "heading": "09 · Reservdelar",
+      "title": "Så hittar du rätt reservdelar",
+      "headingId": "h-reservdelar",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>STIGAs originalkataloger innehåller sprängskisser med positionsnummer och artikelnummer för respektive produktversion. Börja med maskinens produktnummer och leta sedan efter rätt komponentgrupp. [S1–S3]</p><div class=\"steps\"><div class=\"step\"><h3>1. Välj rätt reservdelskatalog</h3><p>Matcha maskinens produktnummer mot dokumentets rubrik.</p></div><div class=\"step\"><h3>2. Hitta komponenten i sprängskissen</h3><p>Identifiera delens position och originalartikelnummer.</p></div><div class=\"step\"><h3>3. Kontrollera ersättningsnummer</h3><p>Gamla nummer kan ha ersatts. Säkerställ passform före beställning.</p></div></div>"
+        }
+      ]
+    },
+    {
+      "id": "koprad",
+      "heading": "10 · Begagnatköp",
+      "title": "Vad bör du kontrollera före köp?",
+      "headingId": "h-koprad",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>En äldre Park 12 HST kan vara intressant för den som vill ha en frontklippare eller ett reservdelsobjekt. Värdet påverkas av version, skick, komplett aggregat och fungerande drivning; utan att undersöka exemplaret går det inte att ge ett säkert värde.</p><div class=\"check\"><strong>Praktisk kontroll</strong><ul><li>Fotografera produktnummer och motormärkning.</li><li>Provkör både kall och varm om det är säkert och möjligt.</li><li>Lyssna efter ovanliga ljud och kontrollera remmar och läckage.</li><li>Kontrollera aggregat, knivfästen och upphängning.</li><li>Se efter glapp i styrning och kontrollera säkerhetsfunktioner.</li><li>Undersök rost, reparationer och saknade delar.</li></ul></div>"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": "11 · Vanliga frågor",
+      "title": "Snabba svar om Park 12 HST",
+      "headingId": "h-faq",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<details><summary>Har alla Park 12 HST samma motor?</summary><p>Det går inte att fastslå. Dokumenterade varianter har olika registrerade Briggs &amp; Stratton-beteckningar. Läs av motorns märkning.</p></details><details><summary>Är alla Park 12 HST utrustade med Kanzaki K110?</summary><p>Nej, det kan inte antas. Flera äldre versioner har K110 i sprängskissregister, medan andra sekundära register anger Tecumseh 846. Kontrollera din specifika version.</p></details><details><summary>Hur hittar jag tillverkningsåret?</summary><p>Kontrollera identifieringsskylt och tillverkarens uppgifter. Ett säsongsår i en katalog är inte säkert samma sak som exemplarets tillverkningsår.</p></details><details><summary>Kan en trasig Park 12 HST ha återbruksvärde?</summary><p>Ja, ibland. Skick, reservdelsbehov och komplett utrustning avgör. Varje maskin behöver bedömas individuellt.</p></details>"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "S1 · STIGA Park 1990 – originalkatalogregister",
+      "description": "Originalregistrering av flera äldre Park 12 HST-produkter och katalogfiler.",
+      "url": "https://view.stiga-store.com/park-1990.html"
+    },
+    {
+      "title": "S2 · STIGA Park 12HST 13-1318-13 – reservdelskatalog",
+      "description": "Originalkatalog för den produktnummerbundna 1991-versionen. Filerna kan innehålla senare utgåvedatum.",
+      "url": "https://www.bahn-larsen.dk/reservedele/kataloger/stiga/Stiga_Frontklipper_PARK_12_HST_13-1318-13_1909.pdf"
+    },
+    {
+      "title": "S3 · STIGA Park 12HST 13-1358-12 – originalreservdelskatalog",
+      "description": "Originalkatalog med sprängskisser för en 1990-säsongsvariant.",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1358-12_89_SV-EN.pdf"
+    },
+    {
+      "title": "S4 · Sandby Smedie – Park 12 HST 13-5319-12",
+      "description": "Sekundärt reservdelsregister med uppgifter om Briggs & Stratton 281707-0142, Tecumseh 846 och tillbehör. Verifiera mot maskinen.",
+      "url": "https://www.sandbysmeden.dk/13-5319-12-stiga-park-12-hst-1990/"
+    },
+    {
+      "title": "S5 · Sandby Smedie – Park 12 HST 13-1443-17",
+      "description": "Sekundärt register med uppgifter om Briggs & Stratton 286707-0141 och Tecumseh 846. Versionsbundet.",
+      "url": "https://www.sandbysmeden.dk/13-1443-17-stiga-park-12-hst-1994/"
+    },
+    {
+      "title": "S6 · STIGA support och manualer",
+      "description": "Tillverkarens portal för att leta upp manualer efter produktnamn eller artikelnummer.",
+      "url": "https://www.stiga.com/se/support"
+    }
+  ],
+  "sourceHeading": "12 · Källor och manualer",
+  "sourceIntro": "Här finns dokumentationen bakom uppgifterna. Använd i första hand rätt originalkatalog för just maskinens produktnummer.",
+  "sourceHelp": "Originalkataloger [S1–S3] väger tyngre än sekundära register [S4–S5]. Kontrollera alltid produktnummer, motor och transmission på den enskilda maskinen.",
+  "traderaBlock": {
+    "type": "tradera-follow",
+    "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
+  }
+}
