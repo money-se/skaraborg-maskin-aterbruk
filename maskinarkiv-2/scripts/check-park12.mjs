@@ -43,3 +43,7 @@ for(const phrase of ["1,4 liter","50:e drifttimme","operatörsmanual","Form No. 
 
 const ignition=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
 for(const phrase of ["Champion","J19LM","RJ19LM","0,76 mm","Luftfilterpatron utan förfilter","kontrollera alltid din motors"]) assert.ok(ignition.toLowerCase().includes(phrase.toLowerCase()),"Missing engine plug/filter guide: "+phrase);
+
+
+const driving=model.chapters.find(c=>c.id==="styrning").blocks.map(b=>b.html||"").join("");
+for (const phrase of ["Vad gör reglagen?","Innan du försöker starta","Hur vet du om maskinen beter sig normalt?","ingen exakt knapp- eller pedalsekvens"]) assert.ok(driving.includes(phrase),"Missing beginner-safe driving guidance: "+phrase);
