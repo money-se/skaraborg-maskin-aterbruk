@@ -4,13 +4,19 @@ on:
     branches:
       - feature/maskinarkivet-2-eleventy-pilot
     paths:
-      - 'maskinarkiv-2/**'
+      - 'maskinarkiv-2/src/**'
+      - 'maskinarkiv-2/scripts/**'
+      - 'maskinarkiv-2/package.json'
+      - 'partials1/header.html'
+      - 'partials1/footer.html'
       - '.github/workflows/maskinarkiv-2-pilot.yml'
   pull_request:
     paths:
       - 'maskinarkiv-2/**'
       - '.github/workflows/maskinarkiv-2-pilot.yml'
   workflow_dispatch:
+permissions:
+  contents: write
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,16 +25,29 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install pilot dependencies
+      - name: Install dependencies
         run: npm install --no-audit --no-fund
         working-directory: maskinarkiv-2
-      - name: Build preview
+      - name: Build single source of truth
         run: npm run build
         working-directory: maskinarkiv-2
-      - name: Validate generated HTML
+      - name: Validate five machine pages
         run: npm run check
+        working-directory: maskinarkiv-2
+      - name: Create browser-ready preview from generated HTML
+        run: node scripts/build-browser-preview.mjs
         working-directory: maskinarkiv-2
       - uses: actions/upload-artifact@v4
         with:
           name: maskinarkiv-2-preview
-          path: _maskinarkiv-preview/
+          path: maskinarkiv-2/preview/
+      - name: Update preview files on development branch only
+        if: github.event_name == 'push' && github.ref == 'refs/heads/feature/maskinarkivet-2-eleventy-pilot'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add maskinarkiv-2/preview/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: regenerate Maskinarkivet 2 browser preview"
+            git push origin HEAD:feature/maskinarkivet-2-eleventy-pilot
+          fi
