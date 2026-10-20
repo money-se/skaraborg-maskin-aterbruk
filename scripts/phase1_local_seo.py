@@ -48,7 +48,11 @@ def edit(name, original):
         if not re.search(r'</main>', result, re.I):
             raise ValueError(f"No main closing tag: {name}")
         result = re.sub(r'</main>', lambda m: links + m.group(), result, count=1, flags=re.I)
-    # Normalize existing trailing spaces too, so git diff --check stays clean.\n    result = re.sub(r"[ \\t]+(?=\\r?$)", "", result, flags=re.M)\n    return result\n\ndef main():
+    # Remove trailing spaces so git diff --check remains clean.
+    result = re.sub(r"[ \t]+(?=\r?$)", "", result, flags=re.M)
+    return result
+
+def main():
     changed = []
     for family in FAMILIES:
         for place in PLACES:
