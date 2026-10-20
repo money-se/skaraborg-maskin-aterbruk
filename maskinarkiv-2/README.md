@@ -67,3 +67,20 @@ Testet `npm run check` validerar båda genererade HTML-filerna, respektive käll
 Husqvarna LTH151 har nu migrerats till samma `src/_includes/pages/machine.njk` som STIGA Park 16 och Husqvarna Rider 13. LTH151 har 14 innehållskapitel och 4 bevarade källposter. Samtliga tre byggs i GitHub Actions med automatiska kontroller av kapitel, källor, ankar-ID och sektionstaggar.
 
 **Förbehåll:** LTH151:s kapitelblock är ännu importerad HTML. Källposterna är bevarade som källnära HTML eftersom deras inbördes struktur skiljer sig. Detta är inte ett färdigt, fritt från HTML dataskikt och inte heller en fullständig visuell jämförelse. Migrera resterande modeller först efter fortsatt datastandardisering och visuell granskning. Publicerad HTML har inte ändrats.
+
+
+## Steg 6 – automatisk förhandsvisning och säker övergång
+
+**Enda källan:** `src/_data/machines/*.json` och `src/_includes/**` samt Eleventy-indata. Filerna i `preview/` är *genererade utdata* och ska aldrig redigeras för hand.
+
+`npm run build` skapar fem maskinsidor och testindex under `../_maskinarkiv-preview/`; `npm run check` verifierar kapitel, ankare, innehållsblock, källor och CTA. `node scripts/build-browser-preview.mjs` gör genererade HTML-filer fristående för RawGitHack, sätter `noindex,nofollow`, skriver om webblänkar mot ordinarie domän och lägger resultatet i `preview/`. Github Actions laddar alltid upp filerna som artifact och kan skriva tillbaka dem **endast till feature/maskinarkivet-2-eleventy-pilot**, förutsatt godkända tester och tillåten token-behörighet.
+
+### Publicering på skaraborgmaskin.se (inte utförd)
+
+1. Granska de fem genererade HTML-sidorna visuellt i desktop och mobil. Kontrollera särskilt gamla HTML-fragment i faktarutor och tabeller.
+2. Kontrollera att teknisk text, källhänvisningar, titlar, meta descriptions, canonical-URL:er och internlänkar stämmer mot godkända publicerade sidor.
+3. Bestäm hur Eleventy-bygget integreras med den befintliga GitHub Pages-publiceringen så att övriga webbplatsens filer bevaras. Publicera *endast* `maskinarkiv/{de fem filnamnen}.html`; använd inte preview-utdata för SEO-publicering eftersom de avsiktligt har noindex och absoluta testresurser.
+4. Ta en versionsbunden backup av de fem gamla HTML-filerna. Gör först därefter ett separat och granskningsbart PR med de genererade produktionsfilerna.
+5. Kontrollera live-länkar, robots/canonical, sitemap och mobilvy efter godkänt PR.
+
+**Ingen automatisk produktion-publicering är ansluten eller godkänd.** Övriga webbplatsen, särskilt `index.html`, ska inte ersättas av testprojektets `index.html`.
