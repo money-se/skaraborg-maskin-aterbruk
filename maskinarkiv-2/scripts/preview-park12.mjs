@@ -1,0 +1,24 @@
+import fs from "node:fs";
+import path from "node:path";
+import assert from "node:assert/strict";
+const slug="stiga-park-12-hst";
+const root=path.resolve(process.cwd(),"..");
+const source=path.join(root,"_maskinarkiv-preview","maskinarkiv",slug+".html");
+assert.ok(fs.existsSync(source),"Run npm run build first");
+let html=fs.readFileSync(source,"utf8");
+html=html.replace(/<link rel="canonical"[^>]*>/gi,"");
+html=html.replace(/<meta name="robots"[^>]*>/gi,"");
+html=html.replace(/<\/head>/i,'<meta name="robots" content="noindex,nofollow"></head>');
+const origin="https://skaraborgmaskin.se";
+html=html.replace(/(href|src)=(["'])([^"']+)\2/gi,(m,key,quote,url)=>{
+ if(url.startsWith("#")||url.startsWith("?")||/^[a-z][a-z0-9+.-]*:/i.test(url))return m;
+ const full=url.startsWith("//")?"https:"+url:origin+(url.startsWith("/")?url:"/"+url.replace(/^\.\.\//,""));
+ return key+"="+quote+full+quote;
+});
+assert.ok(html.includes('name="robots" content="noindex,nofollow"'));
+assert.ok(html.includes(origin+"/maskinarkiv/maskinarkiv-v6.css"));
+assert.ok(html.includes('class="footer-bottom"'));
+const dest=path.join("preview",slug+".html");
+fs.mkdirSync(path.dirname(dest),{recursive:true});
+fs.writeFileSync(dest,html);
+console.log("PARK12_BROWSER_PREVIEW=PASS");
