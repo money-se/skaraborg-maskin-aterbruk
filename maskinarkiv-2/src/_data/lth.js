@@ -1,1 +1,1 @@
-module.exports = require("./machines/husqvarna-lth151.json");
+module.exports = require("./prepare")(require("./machines/husqvarna-lth151.json"));
