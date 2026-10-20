@@ -98,5 +98,6 @@ for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,6],["jonsered-lt2
  assert.ok(reuse>=0&&reuse<tradera&&tradera<source,slug+" bad CTA order");
  assert.ok(page.includes('Kontakta oss på Facebook'));
  assert.ok(page.includes('class="footer-bottom"'));
+ assert.equal([...page.matchAll(/<\/(?:b|strong)>(?=[\p{L}\d])/gu)].length,0,slug+" missing whitespace after labels");
  console.log("MASKINARKIV_2_"+slug+"=PASS");
 }
