@@ -4,7 +4,8 @@
   "scripts": {
     "build": "eleventy --input=src --output=../_maskinarkiv-preview",
     "check": "node scripts/check.mjs",
-    "audit": "node scripts/audit-production.mjs"
+    "audit": "node scripts/audit-production.mjs",
+    "check:park12": "node scripts/check-park12.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2"

@@ -1,0 +1,53 @@
+import fs from "node:fs";
+import assert from "node:assert/strict";
+const slug="stiga-park-12-hst";
+const model=JSON.parse(fs.readFileSync("src/_data/machines/"+slug+".json","utf8"));
+const file="../_maskinarkiv-preview/maskinarkiv/"+slug+".html";
+assert.ok(fs.existsSync(file),"STIGA Park 12 HST generated file missing");
+const html=fs.readFileSync(file,"utf8");
+assert.equal(model.chapters.length,16);
+assert.ok(model.sources.length>=27);
+const motor=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
+for(const key of ["Så hittar du Briggs","281707-0142","281707-0127","Briggs &amp; Strattons manualsökning","suffixet"]) assert.ok(motor.includes(key),"Missing verified engine guidance: "+key);
+const deck=model.chapters.find(c=>c.id==="aggregat").blocks.map(b=>b.html||"").join("");
+for(const text of ["13-2919-92","13-2918-92","1134-2082-01","1134-9006-01","1134-9011-01","Felsöka aggregatet utan att gissa reservdel"]) assert.ok(deck.includes(text),"Deck catalogue details missing: "+text);
+for(const section of ["identifiering","aggregat","reservdelar"]) assert.ok(model.chapters.find(c=>c.id===section)?.blocks.some(b=>(b.html||"").includes("<h3>")),"Missing beginner guide: "+section);
+const troubleshooting=model.chapters.find(c=>c.id==="felsokning").blocks.map(b=>b.html||"").join("");
+for(const anchor of ["fel-helt-tyst","fel-snurrar","fel-stannar","fel-ingen-drivning","fel-klippning"]) assert.ok(troubleshooting.includes('id="'+anchor+'"'),"Missing symptom branch: "+anchor);
+const hydro=(model.chapters.find(c=>c.id==="hydrostat")?.blocks||[]).map(b=>b.html||"").join("");
+for(const needle of ["Tecumseh Peerless Transaxle 846","1134-3364-01","K50/K55"]) assert.ok(hydro.includes(needle),"Missing original-document comparison: "+needle);
+for(const id of ["hitta-hjalp","ordlista","elsystem","bromsar","service"]) assert.ok(model.chapters.some(c=>c.id===id),"Missing deep-research chapter: "+id);
+const versions=(model.chapters.find(c=>c.id==="versioner")?.blocks||[]).map(b=>b.html||"").join("");
+assert.equal((versions.match(/<tr><td><code>13-/g)||[]).length,12,"Expected 12 documented variants");
+assert.ok(versions.includes("13-1318-83") && versions.includes("13-5319-13"),"F/JP variants missing");
+const drivning=(model.chapters.find(c=>c.id==="hydrostat")?.blocks||[]).map(b=>b.html||"").join("");
+assert.ok(drivning.includes("1139-0220-01"),"Original K110 parts missing");
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(ids.length,new Set(ids).size,"Duplicate anchors");
+for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(anchor),"Missing anchor "+anchor);
+for(const chapter of model.chapters)assert.ok(ids.includes(chapter.id),"Missing chapter "+chapter.id);
+assert.equal((html.match(/<section\b/g)||[]).length,(html.match(/<\/section>/g)||[]).length,"Unbalanced sections");
+assert.ok(html.includes('href="https://skaraborgmaskin.se/maskinarkiv/stiga-park-12-hst.html"'));
+assert.ok(html.includes('id="aterbruk"')&&html.includes('id="tradera"')&&html.includes('id="kallor"'));
+assert.ok(html.includes("13-1318-13")&&html.includes("13-1443-17"));
+assert.ok(!html.includes('noindex'));
+for(const fragment of ['href="#identifiering"','href="#felsokning"','href="#ordlista"','href="#kallor"']) assert.ok(html.includes(fragment),"Quick links missing: "+fragment);
+assert.ok(html.includes("Ny på åkgräsklippare?"),"Beginner lead missing");
+console.log("MASKINARKIV_PARK12_DRAFT_TEST=PASS");
+
+const service=model.chapters.find(c=>c.id==="service").blocks.map(b=>b.html||"").join("");
+for(const phrase of ["Underhåll för nybörjare","Vilka serviceuppgifter har vi ännu inte kunnat fastställa?","Hydrostatoljans typ och mängd","Skruva inte loss en okänd plugg"]) assert.ok(service.includes(phrase),"Missing service safety guidance: "+phrase);
+
+const engineSeries=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
+for(const phrase of ["1,4 liter","50:e drifttimme","operatörsmanual","Form No. 271971-7:91"]) assert.ok(engineSeries.includes(phrase),"Missing historical engine-manual qualification: "+phrase);
+
+const ignition=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
+for(const phrase of ["Champion","J19LM","RJ19LM","0,76 mm","Luftfilterpatron utan förfilter","kontrollera alltid din motors"]) assert.ok(ignition.toLowerCase().includes(phrase.toLowerCase()),"Missing engine plug/filter guide: "+phrase);
+
+
+const driving=model.chapters.find(c=>c.id==="styrning").blocks.map(b=>b.html||"").join("");
+for (const phrase of ["Vad gör reglagen?","Innan du försöker starta","Hur vet du om maskinen beter sig normalt?","ingen exakt knapp- eller pedalsekvens"]) assert.ok(driving.includes(phrase),"Missing beginner-safe driving guidance: "+phrase);
+
+const desiredOrder=["hitta-hjalp","oversikt","identifiering","felsokning","reservdelar"];
+assert.deepEqual(model.chapters.slice(0,5).map(c=>c.id),desiredOrder,"Beginner-first chapter ordering drifted");
+assert.equal(model.chapters.length,16);
