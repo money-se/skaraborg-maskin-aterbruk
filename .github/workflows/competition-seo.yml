@@ -1,0 +1,36 @@
+name: Generera SEO-sidor för tävlingar
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_competition_seo.py'
+      - '.github/workflows/competition-seo.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '29 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: competition-seo
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate public competition pages
+        env:
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR
+        run: |
+          python -m py_compile scripts/generate_competition_seo.py
+          python scripts/generate_competition_seo.py
+      - name: Commit pages
+        run: |
+          git add tavlingar/ sitemap-tavlingar.xml
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Refresh competition SEO pages"
+          git pull --rebase origin main
+          git push origin main
