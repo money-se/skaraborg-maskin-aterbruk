@@ -67,10 +67,6 @@
       "label": "Vanliga frågor"
     },
     {
-      "id": "aterbruk",
-      "label": "Återbruk"
-    },
-    {
       "id": "kallor",
       "label": "Källor och manualer"
     }
@@ -229,18 +225,6 @@
         {
           "type": "html",
           "html": "<details><summary>Har alla Husqvarna LTH151 samma motor?</summary><p>Det kan vi inte fastslå för hela modellfamiljen. För produktnummer 96041001903 anger katalogen Kohler SV470. Kontrollera alltid produktnumret och motorns egen märkning.</p></details><details><summary>Vilken växellåda sitter i LTH151?</summary><p>För produktnummer 96041001903 anger originalets reservdelsunderlag Hydro-Gear T2. Det är inte tillräckligt för att fastställa drivlåda på alla andra LTH151.</p></details><details><summary>Vilken drivrem behöver jag?</summary><p>Ta fram traktorns produktnummer och slå upp drivningen i just den reservdelskatalogen. Kontrollera sedan eventuella ersättningsnummer.</p></details><details><summary>Var hittar jag bruksanvisningen?</summary><p>Husqvarnas reservdelsportal listar flera operatörsmanualer (OM) för LTH151. Välj den som motsvarar din version. Det finns även en officiell flerspråkig PDF bland källorna nedan.</p></details><details><summary>Hur gammal är min LTH151?</summary><p>De daterade dokumenten sträcker sig över flera år, men dokumentdatum är inte samma sak som maskinens tillverkningsdatum. Serienummer och tillverkarens dokumentation behöver kontrolleras.</p></details><details><summary>Kan en trasig LTH151 vara värd något?</summary><p>Ja, ibland. Värdet beror på skick, motor, transmission, aggregat, komplettering och efterfrågan på reservdelar. En individuell bedömning behövs.</p></details>"
-        }
-      ]
-    },
-    {
-      "id": "aterbruk",
-      "heading": "14 · Återbruk",
-      "title": "Har du en LTH151 som blivit stående?",
-      "headingId": null,
-      "blocks": [
-        {
-          "type": "html",
-          "html": "<p>Skaraborg Maskin &amp; Återbruk är intresserade av äldre trädgårdsmaskiner i olika skick, även trasiga eller ofullständiga efter bedömning. Skicka gärna bilder, ort, skick och eventuellt produktnummer.</p></div><p class=\"footer-note\">Faktaunderlag sammanställt: 18 oktober 2026. Tabeller med specifika komponenter avser angivet produktnummer. <a class=\"sourcebutton\" href=\"#kallor\">Se källor och manualer</a></p>"
         }
       ]
     }
