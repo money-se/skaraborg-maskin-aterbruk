@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>STIGA Villa 12 HST – komplett guide | Maskinarkivet</title>
+<meta name="description" content="Utförlig guide till STIGA Villa 12 HST: identifiering, motor, drivning, styrning, reglage, säkerhetssystem, 85 C/85 Combi, underhåll, tillbehör och reservdelar.">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="https://skaraborgmaskin.se/maskinarkiv/maskinarkiv-v6.css">
+</head>
+<body>
+<!--
+  Viktigt: Alla fullstandiga HTML-sidor som laddar denna header ska ha:
+  <meta charset="UTF-8">
+  sa tidigt som mojligt i <head>.
+  Synlig text nedan anvander HTML-entiteter for att svenska tecken ska visas korrekt.
+-->
+<header class="smar-site-header">
+  <style>
+    .smar-site-header{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      background:rgba(255,255,255,.97);
+      backdrop-filter:blur(12px);
+      -webkit-backdrop-filter:blur(12px);
+      border-bottom:1px solid #dfe6df;
+      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    }
+
+    .smar-header-wrap{
+      width:min(100% - 40px,1220px);
+      min-height:76px;
+      margin-inline:auto;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+
+    .smar-brand{
+      color:#142017;
+      text-decoration:none;
+      font-weight:950;
+      letter-spacing:.01em;
+      line-height:1.08;
+      white-space:nowrap;
+    }
+
+    .smar-brand-name{
+      display:block;
+      font-size:17px;
+    }
+
+    .smar-brand-sub{
+      display:block;
+      margin-top:5px;
+      color:#68766b;
+      font-size:11px;
+      font-weight:750;
+      letter-spacing:.045em;
+    }
+
+    .smar-nav{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:2px;
+    }
+
+    .smar-nav a{
+      position:relative;
+      padding:10px 9px;
+      border-radius:10px;
+      color:#1d2b20;
+      text-decoration:none;
+      font-size:13px;
+      font-weight:780;
+      white-space:nowrap;
+    }
+
+    .smar-nav a:hover,
+    .smar-nav a:focus-visible{
+      background:#eaf1ea;
+      outline:none;
+    }
+
+    .smar-nav a[aria-current="page"]{
+      background:#eaf1ea;
+      color:#142317;
+    }
+
+    .smar-nav .smar-dodsbo{
+      color:#6b4d12;
+    }
+
+    .smar-nav .smar-dack{
+      color:#73540d;
+    }
+
+    .smar-nav .smar-facebook{
+      color:#405c44;
+    }
+
+    .smar-nav .smar-contact{
+      margin-left:5px;
+      padding:10px 14px;
+      background:#142317;
+      color:#fff;
+    }
+
+    .smar-nav .smar-contact:hover,
+    .smar-nav .smar-contact:focus-visible,
+    .smar-nav .smar-contact[aria-current="page"]{
+      background:#2b4930;
+      color:#fff;
+    }
+
+    .smar-menu-toggle{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
+    }
+
+    .smar-menu-button{
+      display:none;
+      width:44px;
+      height:44px;
+      padding:0;
+      border:1px solid #d7dfd8;
+      border-radius:11px;
+      background:#fff;
+      color:#142017;
+      cursor:pointer;
+      font-size:23px;
+      line-height:1;
+      user-select:none;
+    }
+
+    .smar-menu-close{display:none}
+
+    .smar-menu-text{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
+    }
+
+    @media(max-width:1180px){
+      .smar-brand-name{font-size:16px}
+      .smar-nav a{padding-inline:7px;font-size:12px}
+    }
+
+    @media(max-width:1080px){
+      .smar-header-wrap{
+        position:relative;
+        min-height:70px;
+      }
+
+      .smar-menu-button{
+        display:grid;
+        place-items:center;
+      }
+
+      .smar-nav{
+        display:none;
+        position:absolute;
+        top:calc(100% + 1px);
+        left:-20px;
+        right:-20px;
+        max-height:calc(100vh - 72px);
+        overflow:auto;
+        padding:10px 20px 16px;
+        background:#fff;
+        border-bottom:1px solid #dfe6df;
+        box-shadow:0 16px 34px rgba(20,35,23,.12);
+        flex-direction:column;
+        align-items:stretch;
+      }
+
+      .smar-menu-toggle:checked ~ .smar-nav{display:flex}
+
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-open{display:none}
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-close{display:inline}
+
+      .smar-menu-toggle:focus-visible + .smar-menu-button{
+        outline:3px solid rgba(20,35,23,.25);
+        outline-offset:3px;
+      }
+
+      .smar-nav a{
+        padding:10px 12px;
+        font-size:14px;
+      }
+
+      .smar-nav .smar-contact{
+        margin:6px 0 0;
+        text-align:center;
+      }
+    }
+
+    @media(max-width:520px){
+      .smar-header-wrap{
+        width:min(100% - 28px,1220px);
+      }
+
+      .smar-nav{
+        left:-14px;
+        right:-14px;
+        padding-inline:14px;
+      }
+
+      .smar-brand-name{font-size:14px}
+      .smar-brand-sub{font-size:9.5px}
+    }
+  </style>
+
+  <div class="smar-header-wrap">
+    <a class="smar-brand" href="https://skaraborgmaskin.se/index.html" aria-label="Skaraborg Maskin & &Aring;terbruk &#8211; startsida">
+      <span class="smar-brand-name">Skaraborg Maskin &amp; &Aring;terbruk</span>
+      <span class="smar-brand-sub">Vi k&ouml;per &#8226; h&auml;mtar &#8226; &aring;terbrukar</span>
+    </a>
+
+    <input
+      class="smar-menu-toggle"
+      type="checkbox"
+      id="smar-menu-toggle"
+      aria-label="&Ouml;ppna eller st&auml;ng meny">
+
+    <label
+      class="smar-menu-button"
+      for="smar-menu-toggle"
+      aria-controls="smar-main-nav">
+      <span class="smar-menu-open" aria-hidden="true">&#9776;</span>
+      <span class="smar-menu-close" aria-hidden="true">&#215;</span>
+      <span class="smar-menu-text">Meny</span>
+    </label>
+
+    <nav class="smar-nav" id="smar-main-nav" aria-label="Huvudmeny">
+      <a href="https://skaraborgmaskin.se/index.html">Hem</a>
+      <a href="https://skaraborgmaskin.se/kop-maskiner.html">Vi k&ouml;per</a>
+      <a href="https://skaraborgmaskin.se/aterbruk.html">&Aring;terbruk</a>
+      <a class="smar-dodsbo" href="https://skaraborgmaskin.se/dodsbo-utrensning.html">D&ouml;dsbo</a>
+      <a class="smar-dack" href="https://skaraborgmaskin.se/dack-hamtning.html">D&auml;ckh&auml;mtning</a>
+      <a href="https://skaraborgmaskin.se/skrot-hamtning.html">Skroth&auml;mtning</a>
+      <a href="https://skaraborgmaskin.se/sa-funkar-det.html">S&aring; fungerar det</a>
+      <a href="https://skaraborgmaskin.se/till-salu.html">Till salu</a>
+      <a href="https://skaraborgmaskin.se/foretag.html">F&ouml;retag</a>
+      <a href="https://skaraborgmaskin.se/om-oss.html">Om oss</a>
+      <a href="https://skaraborgmaskin.se/faq.html">FAQ</a>
+      <a class="smar-facebook"
+         href="https://www.facebook.com/profile.php?id=61588383880828"
+         target="_blank"
+         rel="noopener noreferrer">Facebook</a>
+      <a class="smar-contact" href="https://skaraborgmaskin.se/kontakt.html">Kontakta oss</a>
+    </nav>
+  </div>
+</header>
+
+
+
+<header class="hero"><div class="wrap"><div class="crumb"><a href="https://skaraborgmaskin.se/">Hem</a> · <a href="https://skaraborgmaskin.se/maskinarkivet.html">Maskinarkivet</a> · STIGA Villa 12 HST</div><div class="eyebrow">Maskinarkivet · Modellguide</div><h1>STIGA Villa 12 HST</h1><p class="hero-lead">En djupare guide för dig som äger, skruvar med, funderar på att köpa eller försöker identifiera en Villa 12 HST. Här samlar vi det som går att belägga om maskinen – och förklarar varför uppgifterna spelar roll.</p><div class="hero-meta"><span>Frontklippare</span><span>2-hjulsdrift</span><span>Hydrostat</span><span>85 C / 85 Combi</span></div></div></header><main id="main" class="wrap layout"><aside class="toc" aria-label="Innehållsförteckning"><div class="toc-title">På den här sidan</div><a href="#oversikt">Översikt</a><a href="#versioner">Modellversioner</a><a href="#identifiering">Identifiering</a><a href="#drivning">Drivning</a><a href="#reglage">Styrning & reglage</a><a href="#aggregat">Klippaggregat</a><a href="#anvandning">Användningsområden</a><a href="#sakerhet">Säkerhet</a><a href="#underhall">Service & underhåll</a><a href="#reservdelar">Reservdelar</a><a href="#koprad">Köpråd</a><a href="#faq">Vanliga frågor</a><a href="#aterbruk">Återbruk</a><a href="#tradera">Tradera</a><a href="#kallor">Källor och manualer</a></aside><article class="article"><details class="mobile-toc"><summary>Innehåll – välj kapitel</summary><nav aria-label="Kapitel"><a href="#oversikt">Översikt</a><a href="#versioner">Modellversioner</a><a href="#identifiering">Identifiering</a><a href="#drivning">Drivning</a><a href="#reglage">Styrning & reglage</a><a href="#aggregat">Klippaggregat</a><a href="#anvandning">Användningsområden</a><a href="#sakerhet">Säkerhet</a><a href="#underhall">Service & underhåll</a><a href="#reservdelar">Reservdelar</a><a href="#koprad">Köpråd</a><a href="#faq">Vanliga frågor</a><a href="#aterbruk">Återbruk</a><a href="#tradera">Tradera</a><a href="#kallor">Källor och manualer</a></nav></details><section id="oversikt"><div class="chapter">01 · Översikt</div><h2>Vad är STIGA Villa 12 HST?</h2>
+<p class="lead">Villa 12 HST är byggd enligt STIGAs frontklipparkoncept: klippaggregatet sitter framför maskinen medan styrningen sker med bakhjulen.</p>
+<p>STIGAs manual beskriver maskinen som tvåhjulsdriven med drivning på framhjulen. Frontmonterade redskap drivs via kilremmar. Bakhjulsstyrningen sker via wire och beskrivs av STIGA som en lösning som gör det lättare att svänga runt träd och andra hinder.</p>
+<p>Namnet <strong>HST</strong> används tillsammans med den hydrostatiska drivningen. För föraren innebär hydrostatlösningen att hastighet och färdriktning hanteras steglöst snarare än med en traditionell växellåda med fasta växlar.</p>
+
+<div class="facts">
+<div class="fact-row"><b>Maskintyp</b><span>Frontklippare / åkgräsklippare</span></div>
+<div class="fact-row"><b>Drivning</b><span>2-hjulsdrift, drivning på framhjulen</span></div>
+<div class="fact-row"><b>Styrning</b><span>Bakhjulsstyrning via wire</span></div>
+<div class="fact-row"><b>Redskapsdrift</b><span>Frontmonterade redskap drivs via kilrem</span></div>
+<div class="fact-row"><b>Dokumenterat klippaggregat</b><span>85 C samt 85 Combi-familjen för Villa/Ready</span></div>
+<div class="fact-row"><b>Max lutning enligt maskinmanual</b><span>10° med monterade originaltillbehör, oavsett riktning</span></div></div>
+
+<div class="park-note"><b>Varför frontaggregat?</b>När klippaggregatet sitter framför maskinen kommer det åt gräset innan hjulen kör över det. Konstruktionen ger också bättre sikt över själva klippområdet än ett aggregat som ligger direkt under föraren.</div>
+</section><section id="versioner"><div class="chapter">02 · Modellversioner</div><h2>Alla Villa 12 HST är inte identiska</h2>
+<p class="lead">Reservdelsunderlaget visar flera produktnummer och mer än ett motorutförande.</p>
+
+<div class="version"><div><span class="version-code">13-2727-13</span><small>2009</small></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ och Combi 85.</p></div>
+<div class="version"><div><span class="version-code">13-2727-14</span><small>2010</small></div><p>Dokumenterad med STIGA/WM 12.5, Kanzaki K46 CJ och Combi 85.</p></div>
+<div class="version"><div><span class="version-code">13-2729-14</span><small>2010</small></div><p>Kompletterande reservdelsunderlag anger Briggs &amp; Stratton, uppgiven som 21R502, tillsammans med Kanzaki K46 CJ och Combi 85.</p></div>
+<div class="version"><div><span class="version-code">13-2729-15</span><small>2011–2012</small></div><p>Kompletterande reservdelsunderlag anger Briggs &amp; Stratton, uppgiven som 21R602, tillsammans med Kanzaki K46 CJ och Combi 85.</p></div>
+
+<div class="answer"><small>Det viktiga</small><strong>Modellnamn → produktnummer → motoridentitet → rätt reservdel</strong><p>Det är den kedjan som gör informationen användbar när du faktiskt ska skruva eller beställa delar.</p></div>
+</section><section id="identifiering"><div class="chapter">03 · Identifiering</div><h2>Så tar du reda på exakt vilken Villa 12 HST du har</h2>
+<p class="lead">Det här är kanske den viktigaste delen på hela sidan. “Villa 12 HST” är inte tillräckligt för att säkert identifiera alla reservdelar.</p>
+<p>Maskinen och motorn har egna identitetsuppgifter. När du letar efter delar bör du därför först identifiera själva maskinen och därefter motorn.</p>
+
+<div class="steps">
+<div class="step"><h3>Hitta maskinens produkt-/artikelnummer</h3><p>Det skiljer olika produktversioner från varandra och leder till rätt reservdelsunderlag.</p></div>
+<div class="step"><h3>Notera serienumret</h3><p>Serienumret identifierar den enskilda maskinen och kan vara viktigt när förändringar skett inom en modellserie.</p></div>
+<div class="step"><h3>Läs av motorns märkning</h3><p>Motorn har egna modell-, typ- och serienummer. Använd dem för motorrelaterade reservdelar.</p></div>
+<div class="step"><h3>Fotografera skyltarna</h3><p>Ett tydligt foto på märkningen är ofta det enklaste sättet att slippa skriva av en kod fel.</p></div>
+</div>
+
+<div class="park-note"><b>Vanligt misstag</b>Att söka efter exempelvis “luftfilter Villa 12 HST” utan att först kontrollera vilken motor maskinen faktiskt har. Samma modellnamn förekommer med olika motorutföranden.</div>
+</section><section id="drivning"><div class="chapter">04 · Drivning</div><h2>Drivning, hydrostat och bakhjulsstyrning</h2>
+<h3>Framhjulen driver</h3>
+<p>STIGA anger att maskinen är tvåhjulsdriven och driver på framhjulen. Det skiljer Villa från många vanliga åkgräsklippare där drivhjulen sitter bak.</p>
+
+<h3>Bakhjulen styr</h3>
+<p>Styrningen sker via wire till bakhjulen. STIGA lyfter särskilt fram att bakhjulsstyrningen gör maskinen lätt att svänga runt träd och andra hinder.</p>
+
+<h3>Hydrostatisk transmission</h3>
+<p>De produktversioner som finns i vårt reservdelsunderlag är kopplade till Kanzaki K46 CJ. Hydrostatdriften ger steglös körning. Maskinmanualen varnar också för att maskinen inte ska bogseras längre sträckor eller i hög fart eftersom transmissionen kan skadas.</p>
+
+<div class="park-note"><b>Intressant konstruktion</b>På Villa kombineras alltså framhjulsdrift, bakhjulsstyrning och ett frontmonterat redskap. Det är en ganska annorlunda layout jämfört med en traditionell trädgårdstraktor med motor fram och klippbord under mitten.</div>
+</section><section id="reglage"><div class="chapter">05 · Styrning & reglage</div><h2>Vad gör reglagen?</h2>
+<p class="lead">Maskinmanualen beskriver flera funktioner som tillsammans styr körning, redskap och säkerhet.</p>
+
+<h3>Redskapslyft</h3>
+<p>Redskapslyften används för att växla mellan arbetsläge och transportläge. Pedalen trampas ned helt och släpps därefter sakta upp.</p>
+
+<h3>Koppling och parkeringsbroms</h3>
+<p>Maskinen har en kombinerad kopplings-/parkeringsbromsfunktion. Den är dessutom en del av säkerhetssystemet: motorn ska endast kunna startas när rätt säkerhetsvillkor är uppfyllda.</p>
+
+<h3>Säte</h3>
+<p>Sätet kan fällas och justeras i längdriktningen. Det har också en säkerhetsbrytare kopplad till maskinens elektriska säkerhetssystem.</p>
+
+<h3>Motorhuv</h3>
+<p>Motorhuven öppnas för tankning samt tillsyn och underhåll av motor och batteri. Manualen anger att motorn inte får vara igång när huven öppnas.</p>
+</section><section id="aggregat"><div class="chapter">06 · Klippaggregat</div><h2>85 C och 85 Combi</h2>
+<p class="lead">STIGAs dokumentation kopplar Villa till 85 C, och den separata Combi-manualen anger 85 Combi för Villa/Ready.</p>
+
+<div class="specs">
+<div class="spec"><b>Klipphöjd</b><span>25–85 mm</span></div>
+<div class="spec"><b>System</b><span>Manuell eller elektrisk höjdinställning beroende på utförande</span></div>
+<div class="spec"><b>Framdäck</b><span>0,4 bar / 6 psi</span></div>
+<div class="spec"><b>Bakdäck</b><span>1,2 bar / 17 psi</span></div>
+</div>
+
+<h3>Aggregatets lutning spelar roll</h3>
+<p>STIGA beskriver en grundinställning där aggregatet ska luta framåt. I manualen finns möjlighet att höja aggregatets bakdel genom att flytta sprintarna från grundinställningen. Rätt inställning påverkar hur aggregatet arbetar mot gräset.</p>
+
+<h3>Remdrivningen</h3>
+<p>På Villa/Ready drivs aggregatet via maskinens remsystem. Combi-manualen beskriver hur remmen läggs runt maskinens remskiva och spänns med spännrullen.</p>
+
+<h3>Knivarna är synkroniserade</h3>
+<p>På aggregatet arbetar knivarna synkroniserat och manualens illustration visar dem 90° förskjutna. Efter en kollision ska knivsystemet kontrolleras. STIGA anger 45 Nm för knivskruvarna och 9,8 Nm för brytbultarna.</p>
+
+<div class="park-note"><b>Varför 90°?</b>När knivarnas arbetsområden ligger nära varandra måste deras rörelser vara synkroniserade. Därför är knivarnas inbördes läge en viktig del av aggregatets konstruktion.</div>
+</section><section id="anvandning"><div class="chapter">07 · Användningsområden</div><h2>Vad är Villa tänkt att kunna göra?</h2>
+<p class="lead">Maskinmanualen visar att Villa-plattformen inte bara var tänkt som gräsklippare.</p>
+
+<div class="use-list">
+<div class="use"><strong>Gräsklippning</strong>med klippaggregat 85 C.</div>
+<div class="use"><strong>Sopning</strong>med STIGA sopaggregat; manualen nämner även dammskydd i samband med sopning.</div>
+<div class="use"><strong>Snöröjning</strong>med snöblad. Snökedjor och ramvikter rekommenderas i manualen.</div>
+<div class="use"><strong>Gräs- och lövuppsamling</strong>med bogserad uppsamlare 30 eller 42 tum.</div>
+<div class="use"><strong>Transport</strong>av gräs och löv med transportkärra Combi.</div>
+</div>
+
+<p style="margin-top:20px">Manualen anger också begränsningar för draganordningen: maximal vertikal kraft 100 N och maximal påskjutskraft från bogserade tillbehör 500 N. Maskinen är inte avsedd att köras på allmän väg.</p>
+
+<div class="park-note"><b>Det säger något om Villa-idén</b>STIGA byggde alltså systemet kring en maskin som kunde bära olika front- och bogserade redskap. Klippaggregatet var bara ett av användningsområdena.</div>
+</section><section id="sakerhet"><div class="chapter">08 · Säkerhet</div><h2>Varför kan en Villa vägra starta?</h2>
+<p class="lead">Ett uteblivet startförsök behöver inte automatiskt betyda att startmotor eller motor är trasig. Maskinen har ett elektriskt säkerhetssystem.</p>
+<p>STIGA beskriver systemet som ett skydd som avbryter vissa aktiviteter vid felmanöver. Ett uttryckligt exempel i manualen är att motorn endast kan startas när kopplings-/parkeringsbromspedalen är nedtryckt.</p>
+<p>Sätets säkerhetsbrytare ingår också i systemet. Därför är säkerhetsfunktionerna relevanta att förstå vid felsökning – men de ska inte kopplas förbi. Manualen anger att säkerhetssystemets funktion ska kontrolleras före varje användning.</p>
+
+<div class="park-note"><b>Felsökningstanke</b>Om startmotorn inte reagerar alls kan det därför vara relevant att först kontrollera att maskinen står i korrekt startläge och att säkerhetssystemets normala villkor är uppfyllda, innan man drar slutsatsen att en komponent är trasig.</div>
+</section><section id="underhall"><div class="chapter">09 · Service & underhåll</div><h2>Vad behöver hållas efter?</h2>
+<p class="lead">Här är verifierade servicepunkter från Villa-manualen. Intervallen gäller manualens dokumenterade utförande; kontrollera alltid motoridentiteten på din egen maskin.</p>
+
+<table class="service">
+<thead><tr><th>Kontroll / service</th><th>Intervall / uppgift</th></tr></thead>
+<tbody>
+<tr><td>Motorolja – nivå</td><td>Kontroll före varje användning. Maskinen ska stå plant.</td></tr>
+<tr><td>Förfilter, luft</td><td>Rengör/byts var 25:e drifttimme.</td></tr>
+<tr><td>Pappersluftfilter</td><td>Rengör/byts var 100:e drifttimme; oftare i dammiga förhållanden.</td></tr>
+<tr><td>Kylluftintag</td><td>Rengör var 50:e drifttimme.</td></tr>
+<tr><td>Tändstift</td><td>Byts var 200:e drifttimme enligt manualen.</td></tr>
+<tr><td>Smörjpunkter</td><td>Var 25:e drifttimme och efter varje tvätt.</td></tr>
+</tbody>
+</table>
+
+<h3>Luftfiltret</h3>
+<p>Manualen beskriver ett skumplastförfilter och ett pappersfilter. Pappersfiltret ska inte rengöras med tryckluft eller petroleumbaserade lösningsmedel och ska inte oljas in.</p>
+
+<h3>Tändstift</h3>
+<p>Manualen anger Champion RC12YC eller likvärdigt och ett elektrodavstånd på 0,75 mm. Eftersom Villa 12 HST förekommer med olika motorutföranden bör uppgiften kontrolleras mot den motor som faktiskt sitter på maskinen.</p>
+
+<h3>Smörjning</h3>
+<p>Manualens smörjschema omfattar bland annat bakaxel, styrvajrar, spännarmar och reglagewirar. Bakaxeln smörjs via tre smörjnipplar med universalfett, medan styrvajrarna rengörs och smörjs med kedjespray av universaltyp.</p>
+
+<h3>Batteriet</h3>
+<p>Vid bortkoppling anger STIGA att den svarta kabeln från minuspolen ska kopplas bort före den röda pluskabeln. Vid montering sker ordningen omvänt. Oxiderade batteripoler ska rengöras och smörjas med polfett.</p>
+</section><section id="reservdelar"><div class="chapter">10 · Reservdelar</div><h2>Så minskar du risken att köpa fel del</h2>
+<p class="lead">På en äldre maskin är “passar STIGA Villa” sällan tillräckligt som kontroll.</p>
+
+<div class="steps">
+<div class="step"><h3>Maskindel?</h3><p>Använd Villa-maskinens produktnummer och rätt reservdelslista.</p></div>
+<div class="step"><h3>Motordel?</h3><p>Utgå från motorns egen modell- och typmärkning, inte bara namnet Villa 12 HST.</p></div>
+<div class="step"><h3>Aggregatdel?</h3><p>Identifiera själva klippaggregatet och dess version innan du matchar rem, kniv eller annan del.</p></div>
+<div class="step"><h3>Jämför den gamla delen</h3><p>Artikelnummer, dimensioner, infästning och utförande är värdefulla extra kontroller när maskinen är äldre.</p></div>
+</div>
+
+<div class="answer"><small>En bra vana</small><strong>Fotografera tre saker innan du beställer</strong><p>Maskinens skylt, motorns märkning och den gamla delen. Det ger betydligt bättre förutsättningar att hitta rätt.</p></div>
+</section><section id="koprad"><div class="chapter">11 · Köpråd</div><h2>Vad bör man titta på före köp?</h2>
+<p class="lead">Det här är en praktisk kontrollista, inte ett påstående om att punkterna är typfel på Villa 12 HST.</p>
+
+<p><strong>Identifieringen:</strong> kontrollera produktnummer och motor så att du vet vilken version du faktiskt tittar på.</p>
+<p><strong>Hydrostatdriften:</strong> provkör framåt och bakåt och känn efter att drivningen arbetar jämnt när maskinen blivit varm.</p>
+<p><strong>Styrningen:</strong> kontrollera glapp och att bakhjulsstyrningen rör sig normalt över hela styrutslaget.</p>
+<p><strong>Klippaggregatet:</strong> titta på knivar, lager, remdrift, infästningar och tecken på kraftiga kollisioner eller reparationer.</p>
+<p><strong>Säkerhetssystemet:</strong> maskinens säkerhetsfunktioner ska fungera – inte vara förbikopplade.</p>
+<p><strong>Servicehistorik:</strong> på en äldre maskin är faktisk skötsel ofta minst lika intressant som årsmodellen.</p>
+
+<div class="park-note"><b>Varför detta är viktigt</b>En billig maskin med okänd identitet, dåligt aggregat och problem i drivningen kan snabbt bli mindre attraktiv än en dyrare men komplett och välskött maskin.</div>
+</section><section id="faq"><div class="chapter">12 · Vanliga frågor</div><h2>Vanliga frågor</h2>
+<details><summary>Är STIGA Villa 12 HST framhjulsdriven?</summary><p>Ja. STIGAs manual beskriver maskinen som tvåhjulsdriven med drivning på framhjulen.</p></details>
+<details><summary>Styr den med fram- eller bakhjulen?</summary><p>Bakhjulen styr, via wire.</p></details>
+<details><summary>Har alla Villa 12 HST samma motor?</summary><p>Nej. Underlaget visar flera produktversioner och olika motorutföranden.</p></details>
+<details><summary>Vilket klippaggregat används?</summary><p>85 C anges i Villa-manualen och 85 Combi anges för Villa/Ready i STIGAs separata Combi-manual.</p></details>
+<details><summary>Vilken klipphöjd har 85 Combi?</summary><p>25–85 mm enligt STIGAs Combi-manual.</p></details>
+<details><summary>Kan Villa användas på vintern?</summary><p>STIGAs manual listar snöröjning med snöblad och rekommenderar snökedjor och ramvikter.</p></details>
+<details><summary>Kan den dra en kärra?</summary><p>Manualen listar transportkärra Combi och anger belastningsgränser för draganordningen.</p></details>
+<details><summary>Varför startar den inte när jag vrider på nyckeln?</summary><p>Det kan finnas många orsaker. En av sakerna att kontrollera är att säkerhetssystemets normala startvillkor är uppfyllda. Systemet ska inte kopplas förbi.</p></details>
+</section>
+
+<section>
+
+</section><section id="aterbruk" class="archive-reuse" aria-labelledby="h-aterbruk"><div class="chapter">Återbruk</div><h2 id="h-aterbruk">Har du en maskin som blivit stående?</h2><p>Vi är intresserade av begagnade åkgräsklippare och andra maskiner i olika skick. Även trasiga eller ofullständiga maskiner kan vara aktuella efter individuell bedömning.</p><p>Skicka gärna några bilder, ort, skick och eventuellt produktnummer. Vi bedömer varje förfrågan individuellt och kan diskutera hämtning där det är aktuellt.</p><div class="cta"><h3>Vi tar gärna en titt</h3><div class="buttons"><a class="btn" href="https://skaraborgmaskin.se/kop-maskiner.html">Så köper vi maskiner</a><a class="btn alt" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Kontakta oss på Facebook</a></div></div></section><section id="tradera" class="tradera-section" aria-label="Följ våra annonser på Tradera"><div class="tradera-follow"><span class="tradera-eyebrow">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class="tradera-link" href="https://skaraborgmaskin.se/tradera.html">Se våra annonser och fynd <span aria-hidden="true">→</span></a></div></section><section id="kallor" class="source-section"><div class="chapter">13 · Källor & manualer</div><h2>Källor och manualer</h2><p>Originalmanualer och reservdelskataloger finns samlade här. Öppna rutan om du vill läsa mer eller kontrollera en uppgift.</p><details class="source-disclosure"><summary>Visa källor och manualer <span aria-hidden="true">▾</span></summary><div class="source-disclosure-inner"><p>Välj dokument som hör till just din maskins produktnummer.</p><div class="source-record"><strong>STIGA Villa / Villa 12 HST – bruksanvisning 8211-0038-90</strong>Huvudkälla för maskinens konstruktion, drivning, styrning, säkerhetssystem, reglage, användningsområden, däcktryck och underhåll.</div><div class="source-record"><strong>STIGA Villa / Park – 85 Combi, 95 Combi, 105 Combi – bruksanvisning 8211-7000-10</strong>Huvudkälla för klippaggregatets kompatibilitet, klipphöjd, montering, inställning och knivsystem.</div><div class="source-record"><strong>Villa 12 HST 13-2727-13 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div><div class="source-record"><strong>Villa 12 HST 13-2727-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div><div class="source-record"><strong>Villa 12 HST 13-2729-14 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div><div class="source-record"><strong>Villa 12 HST 13-2729-15 – kompletterande reservdelsunderlag</strong><a href="https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/" target="_blank" rel="noopener noreferrer">Öppna källa</a></div></div></details></section></article>
+</main>
+
+<style>
+  .site-footer{
+    margin-top:0;
+    background:#142317;
+    color:#eef4ee;
+    border-top:4px solid #d8a52e;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+
+  .site-footer *{box-sizing:border-box}
+
+  .footer-inner{
+    width:min(100% - 40px,1220px);
+    margin:0 auto;
+    padding:60px 0 40px;
+    display:grid;
+    grid-template-columns:minmax(270px,1.35fr) repeat(3,minmax(170px,1fr));
+    gap:44px;
+  }
+
+  .footer-brand h2,
+  .footer-column h2{
+    margin:0 0 16px;
+    color:#fff;
+    font-size:18px;
+    line-height:1.25;
+  }
+
+  .footer-brand h2{
+    max-width:340px;
+    font-size:25px;
+    letter-spacing:-.025em;
+  }
+
+  .footer-brand p{
+    max-width:410px;
+    margin:0;
+    color:#c7d3c9;
+    font-size:15px;
+    line-height:1.75;
+  }
+
+  .footer-points{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:22px;
+  }
+
+  .footer-point{
+    display:inline-flex;
+    align-items:center;
+    padding:7px 10px;
+    border:1px solid rgba(255,255,255,.13);
+    border-radius:999px;
+    background:rgba(255,255,255,.055);
+    color:#e7eee8;
+    font-size:12px;
+    font-weight:750;
+  }
+
+  .footer-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+
+  .footer-list a,
+  .footer-contact a{
+    color:#c7d3c9;
+    text-decoration:none;
+    transition:color .15s ease;
+  }
+
+  .footer-list a:hover,
+  .footer-list a:focus-visible,
+  .footer-contact a:hover,
+  .footer-contact a:focus-visible{
+    color:#fff;
+    outline:none;
+  }
+
+  .footer-list a{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:14px;
+  }
+
+  .footer-list a::before{
+    content:"›";
+    color:#d8a52e;
+    font-weight:950;
+  }
+
+  .footer-contact{
+    display:grid;
+    gap:15px;
+  }
+
+  .footer-contact-item{
+    margin:0;
+    color:#c7d3c9;
+    font-size:14px;
+    line-height:1.55;
+  }
+
+  .footer-contact-item strong{
+    display:block;
+    margin-bottom:2px;
+    color:#fff;
+    font-size:13px;
+  }
+
+  .footer-socials{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:3px;
+  }
+
+  .footer-social-link{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:40px;
+    padding:9px 13px;
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:10px;
+    background:rgba(255,255,255,.06);
+    color:#fff !important;
+    font-size:13px;
+    font-weight:850;
+  }
+
+  .footer-social-link:hover,
+  .footer-social-link:focus-visible{
+    background:rgba(255,255,255,.12);
+  }
+
+  .footer-bottom{
+    border-top:1px solid rgba(255,255,255,.11);
+  }
+
+  .footer-bottom-inner{
+    width:min(100% - 40px,1220px);
+    margin:0 auto;
+    padding:20px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    color:#9eaea1;
+    font-size:12px;
+  }
+
+  .footer-bottom-inner p{margin:0}
+
+  .footer-bottom-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+
+  .footer-bottom-links a{
+    color:#b9c6bb;
+    text-decoration:none;
+  }
+
+  .footer-bottom-links a:hover,
+  .footer-bottom-links a:focus-visible{
+    color:#fff;
+    outline:none;
+  }
+
+  @media(max-width:940px){
+    .footer-inner{
+      grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+  }
+
+  @media(max-width:620px){
+    .footer-inner{
+      width:min(100% - 28px,1220px);
+      padding:46px 0 32px;
+      grid-template-columns:1fr;
+      gap:31px;
+    }
+
+    .footer-bottom-inner{
+      width:min(100% - 28px,1220px);
+      align-items:flex-start;
+      flex-direction:column;
+      gap:10px;
+    }
+  }
+</style>
+
+<footer class="site-footer" aria-label="Sidfot">
+  <div class="footer-inner">
+    <section class="footer-brand" aria-labelledby="footer-company-title">
+      <h2 id="footer-company-title">Skaraborg Maskin &amp; Återbruk</h2>
+      <p>
+        Vi köper, hämtar och tar tillvara maskiner, verktyg, reservdelar och andra
+        relevanta objekt i hela Skaraborg. Vi köper även från dödsbon och större partier,
+        med extra intresse för garage, verkstäder, förråd, uthus och gårdar.
+      </p>
+
+      <div class="footer-points" aria-label="Fördelar">
+        <span class="footer-point">Snabb bedömning</span>
+        <span class="footer-point">Egen lastbil</span>
+        <span class="footer-point">Personlig kontakt</span>
+        <span class="footer-point">Köp från dödsbon</span>
+      </div>
+    </section>
+
+    <nav class="footer-column" aria-labelledby="footer-services-title">
+      <h2 id="footer-services-title">Tjänster</h2>
+      <ul class="footer-list">
+        <li><a href="https://skaraborgmaskin.se/kop-maskiner.html">Vi köper maskiner</a></li>
+        <li><a href="https://skaraborgmaskin.se/dodsbo-utrensning.html">Vi köper från dödsbon</a></li>
+        <li><a href="https://skaraborgmaskin.se/aterbruk.html">Återbruk</a></li>
+        <li><a href="https://skaraborgmaskin.se/dack-hamtning.html">Däckhämtning</a></li>
+        <li><a href="https://skaraborgmaskin.se/skrot-hamtning.html">Skrothämtning</a></li>
+        <li><a href="https://skaraborgmaskin.se/foretag.html">För företag</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-column" aria-labelledby="footer-links-title">
+      <h2 id="footer-links-title">Snabblänkar</h2>
+      <ul class="footer-list">
+        <li><a href="https://skaraborgmaskin.se/index.html">Startsida</a></li>
+        <li><a href="https://skaraborgmaskin.se/till-salu.html">Till salu</a></li>
+        <li><a href="https://skaraborgmaskin.se/sa-funkar-det.html">Så fungerar det</a></li>
+        <li><a href="https://skaraborgmaskin.se/om-oss.html">Om oss</a></li>
+        <li><a href="https://skaraborgmaskin.se/faq.html">Vanliga frågor</a></li>
+        <li><a href="https://skaraborgmaskin.se/kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <section class="footer-column" aria-labelledby="footer-contact-title">
+      <h2 id="footer-contact-title">Kontakt</h2>
+
+      <div class="footer-contact">
+        <p class="footer-contact-item">
+          <strong>Verksamhetsområde</strong>
+          Hjo och hela Skaraborg
+        </p>
+
+        <p class="footer-contact-item">
+          <strong>Telefon</strong>
+          <a href="tel:+46727483256">072-748 32 56</a>
+        </p>
+
+        <p class="footer-contact-item">
+          <strong>Organisationsnummer</strong>
+          559426-7550
+        </p>
+
+        <div class="footer-socials" aria-label="Sociala kanaler">
+          <a class="footer-social-link"
+             href="https://www.facebook.com/profile.php?id=61588383880828"
+             target="_blank"
+             rel="noopener noreferrer">Facebook</a>
+          <a class="footer-social-link"
+             href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk"
+             target="_blank"
+             rel="noopener noreferrer">Tradera</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <p>© 2026 Skaraborg Maskin &amp; Återbruk. Alla rättigheter förbehållna.</p>
+      <div class="footer-bottom-links">
+        <a href="https://skaraborgmaskin.se/kontakt.html">Kontakt</a>
+        <a href="https://skaraborgmaskin.se/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
