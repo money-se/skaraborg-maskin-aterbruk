@@ -80,3 +80,23 @@ for(const page of [html,riderHtml,lthHtml]) {
   assert.equal((page.match(/Kontakta oss på Facebook/g)||[]).length,1,"One Facebook CTA expected");
 }
 console.log("MASKINARKIV_2_SECTION_ORDER=PASS");
+
+
+for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,6],["jonsered-lt2115",21,10]]) {
+ const data=JSON.parse(fs.readFileSync("src/_data/machines/"+slug+".json","utf8"));
+ const file="../_maskinarkiv-preview/maskinarkiv/"+slug+".html";
+ assert.ok(fs.existsSync(file),"Missing generated "+slug);
+ const page=fs.readFileSync(file,"utf8");
+ assert.equal(data.chapters.length,chapters);
+ assert.equal(data.sources.length,sources);
+ const ids=[...page.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
+ assert.equal(ids.length,new Set(ids).size,slug+" duplicate IDs");
+ for(const [,anchor] of page.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(anchor),slug+" bad anchor "+anchor);
+ for(const chapter of data.chapters)assert.ok(ids.includes(chapter.id),slug+" missing "+chapter.id);
+ assert.equal((page.match(/<section\b/g)||[]).length,(page.match(/<\/section>/g)||[]).length,slug+" unbalanced sections");
+ const reuse=page.indexOf('id="aterbruk"'),tradera=page.indexOf('id="tradera"'),source=page.indexOf('id="kallor"');
+ assert.ok(reuse>=0&&reuse<tradera&&tradera<source,slug+" bad CTA order");
+ assert.ok(page.includes('Kontakta oss på Facebook'));
+ assert.ok(page.includes('class="footer-bottom"'));
+ console.log("MASKINARKIV_2_"+slug+"=PASS");
+}
