@@ -70,3 +70,13 @@ console.log("MASKINARKIV_2_SHARED_CHROME=PASS");
 
 for(const page of [html,riderHtml,lthHtml]){assert.equal((page.match(/id="aterbruk"/g)||[]).length,1,"Exactly one shared reuse section required");assert.ok(page.includes("Så köper vi maskiner"),"Missing buying CTA");}
 console.log("MASKINARKIV_2_REUSE_UNIFIED=PASS");
+
+for(const page of [html,riderHtml,lthHtml]) {
+  const reuseAt=page.indexOf('id="aterbruk"');
+  const traderaAt=page.indexOf('class="tradera-section"');
+  const sourcesAt=page.indexOf('id="kallor"');
+  assert.ok(reuseAt>=0 && traderaAt>reuseAt && sourcesAt>traderaAt,"Wrong reusable section ordering");
+  assert.ok(!page.includes("Har du en Husqvarna Rider som blivit stående?"),"Legacy Rider Återbruk remains");
+  assert.equal((page.match(/Kontakta oss på Facebook/g)||[]).length,1,"One Facebook CTA expected");
+}
+console.log("MASKINARKIV_2_SECTION_ORDER=PASS");
