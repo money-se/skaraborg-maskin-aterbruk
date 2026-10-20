@@ -78,7 +78,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "<p>STIGAs katalogregister innehåller flera varianter från perioden omkring 1990–1994. Säsongsbeteckningar i reservdelskatalogerna hjälper oss skilja dokumenten åt, men de bevisar inte ensamma när ett specifikt exemplar tillverkades. [S1–S3]</p><div class=\"table-scroll\"><table><thead><tr><th>Produktnummer</th><th>Kataloguppgift</th><th>Kommentar</th></tr></thead><tbody><tr><td>13-1318-12</td><td>1990</td><td>Separat reservdelskatalog</td></tr><tr><td>13-1318-13</td><td>1991</td><td>Separat reservdelskatalog från STIGA</td></tr><tr><td>13-1318-14</td><td>1992</td><td>Separat dokumenterad produktversion</td></tr><tr><td>13-1358-12</td><td>1990</td><td>STIGA-katalog, Park 12 HST</td></tr><tr><td>13-1358-15</td><td>1993</td><td>Senare reservdelskatalog</td></tr><tr><td>13-1443-17</td><td>1994 enligt reservdelsregister</td><td>Ytterligare dokumenterad version</td></tr><tr><td>13-5319-12</td><td>1990 enligt katalog/register</td><td>Egen variant; kontrollera dess katalog</td></tr></tbody></table></div><p>Listan är exempel på dokumenterade produktnummer, inte ett påstående att alla Park 12 HST-varianter är med. [S1–S4]</p>"
+          "html": "<p>Reservdelsregistret listar minst tolv separata produktversioner under namnet Park 12 HST. STIGAs eget dokumentarkiv bekräftar flera av numren genom originalkataloger. Årtalen är katalogernas säsongs-/modelluppgifter och är inte i sig en säker datering av det enskilda exemplaret. [S1–S3, S7–S8]</p><div class=\"table-scroll\"><table><thead><tr><th>Produktnummer</th><th>Registerår</th><th>Variant och källstatus</th></tr></thead><tbody><tr><td><code>13-1318-82</code></td><td>1990</td><td>Fransk variant (F)</td></tr><tr><td><code>13-1318-83</code></td><td>1991</td><td>Fransk variant (F)</td></tr><tr><td><code>13-5319-13</code></td><td>1991</td><td>Japansk variant (JP)</td></tr><tr><td><code>13-1318-12</code></td><td>1990</td><td>Original STIGA-katalog</td></tr><tr><td><code>13-1318-13</code></td><td>1991</td><td>Separat katalog/variant</td></tr><tr><td><code>13-1318-14</code></td><td>1992</td><td>Original STIGA-katalog</td></tr><tr><td><code>13-1358-12</code></td><td>1990</td><td>Original STIGA-katalog</td></tr><tr><td><code>13-1358-13</code></td><td>1991</td><td>Separat katalog/variant</td></tr><tr><td><code>13-1358-14</code></td><td>1992</td><td>Original STIGA-katalog</td></tr><tr><td><code>13-1358-15</code></td><td>1993</td><td>Separat katalog/variant</td></tr><tr><td><code>13-1443-17</code></td><td>1994</td><td>Separat katalog/variant</td></tr><tr><td><code>13-5319-12</code></td><td>1990</td><td>Original STIGA-katalog</td></tr></tbody></table></div><p>(F) och (JP) är marknadsbeteckningar i reservdelsregistret. De innebär inte att alla maskiner av den årsmodellen är likadana. Tabellen avser dokumenterade registerposter, inte en garanterat fullständig förteckning över alla tillverkade exemplar. [S7]</p>"
         }
       ]
     },
@@ -102,7 +102,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "<p>Reservdelsregister för två identifierade Park 12 HST-varianter anger Briggs &amp; Stratton, men med olika motorbeteckningar. För <code>13-5319-12</code> anges <code>281707-0142</code> och för <code>13-1443-17</code> anges <code>286707-0141</code>. Detta är sekundära registeruppgifter och ska kontrolleras mot motorns märkning. [S4–S5]</p><div class=\"park-note\"><b>Undvik felköp:</b> Luftfilter, startmotor, tänddelar och förgasardelar väljs efter motorns fullständiga modell- och typkod, inte enbart efter Park 12 HST.</div><p>Den här guiden fastställer därför ingen gemensam motormodell eller exakt motoreffekt för alla Park 12 HST.</p>"
+          "html": "<p>Reservdelsregister för två identifierade Park 12 HST-varianter anger Briggs &amp; Stratton, men med olika motorbeteckningar. För <code>13-5319-12</code> anges <code>281707-0142</code> och för <code>13-1443-17</code> anges <code>286707-0141</code>. Detta är sekundära registeruppgifter och ska kontrolleras mot motorns märkning. [S4–S5]</p><div class=\"park-note\"><b>Undvik felköp:</b> Luftfilter, startmotor, tänddelar och förgasardelar väljs efter motorns fullständiga modell- och typkod, inte enbart efter Park 12 HST.</div><p>Den här guiden fastställer därför ingen gemensam motormodell eller exakt motoreffekt för alla Park 12 HST.</p><h3>Motorn kan skilja även inom samma katalog</h3><p>I STIGAs originalkatalog för <code>13-1358-12</code> står både Briggs &amp; Stratton <code>281707-0142</code> och <code>281707-0127</code> vid motordelar. Katalogen skiljer bland annat mellan förgasare <code>491031</code> för 0142 och <code>490518</code> för 0127 samt bränslefilter <code>298090</code> respektive <code>394358</code>. Detta gäller katalogens specificerade motorutföranden, inte alla Park 12 HST. [S3]</p><p>Vid beställning: matcha först motorns märkning, därefter sprängskissens motorkod och position. Att två motorer använder samma grundmodell 281707 räcker inte för att anta att alla servicedelar passar.</p>"
         }
       ]
     },
@@ -114,7 +114,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "<p>En hydrostatisk drivning använder ett hydraulsystem för steglös hastighetsreglering. Föraren ändrar hur kraften överförs till hjulen utan att behöva växla mellan fasta hastighetssteg.</p><p>Sprängskisser för flera tidiga Park 12 HST-versioner visar en <strong>Kanzaki K110</strong>-transaxel. Reservdelsregister för andra versioner anger <strong>Tecumseh 846</strong>. Det betyder att du inte bör beställa transmissionsdelar innan du kontrollerat den faktiska maskinens version. [S3–S5]</p><div class=\"park-note\"><b>Symtom är inte diagnos:</b> Svag drivning kan även bero på drivrem, reglage, remspänning eller mekaniska problem. Bedöm hela drivkedjan innan du misstänker att hydrostaten behöver ersättas.</div>"
+          "html": "<p>En hydrostatisk drivning använder ett hydraulsystem för steglös hastighetsreglering. Föraren ändrar hur kraften överförs till hjulen utan att behöva växla mellan fasta hastighetssteg.</p><p>Sprängskisser för flera tidiga Park 12 HST-versioner visar en <strong>Kanzaki K110</strong>-transaxel. För <code>13-5319-12</code> visar ett detaljerat reservdelsregister också uttryckligen rubriken <strong>Kanzaki Transaxle K110</strong>. Andra sekundära sammanställningar har beskrivit transmissionen annorlunda, vilket måste betraktas som en olöst källkonflikt, inte bevis för ett maskinbyte. Det betyder att du inte bör beställa transmissionsdelar innan du kontrollerat den faktiska maskinens version. [S3, S4, S7–S9]</p><div class=\"park-note\"><b>Symtom är inte diagnos:</b> Svag drivning kan även bero på drivrem, reglage, remspänning eller mekaniska problem. Bedöm hela drivkedjan innan du misstänker att hydrostaten behöver ersättas.</div><h3>Exempel på dokumenterade K110-delar</h3><p>STIGAs originalkatalog för <code>13-1358-12</code> anger bland annat slutdrevsdel <code>1139-0213-01</code>, bromstrumma <code>1139-0220-01</code> och bricka <code>1139-0225-01</code> under Kanzaki K110. Dessa är **kataloguppgifter**, inte en garanti för att delen passar ett annat produktnummer. [S3]</p>"
         }
       ]
     },
@@ -126,7 +126,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "<p>Park-familjen är konstruerad för att klippa med ett frontmonterat aggregat, vilket ger god överblick framför föraren. Reservdelskatalogerna har separata sprängskisser för bland annat styrning, drivpedal och reglage. [S2–S3]</p><p>Kontrollera glapp i leder och styrsystem, att pedaler återgår som de ska och att alla säkerhetsfunktioner fungerar enligt rätt instruktionsbok. Koppla inte förbi säkerhetsbrytare.</p><p>Exakta inställningsmått och procedurer ska hämtas ur manualen som motsvarar maskinens produktnummer.</p>"
+          "html": "<p>Park-familjen är konstruerad för att klippa med ett frontmonterat aggregat, vilket ger god överblick framför föraren. Reservdelskatalogerna har separata sprängskisser för bland annat styrning, drivpedal och reglage. [S2–S3]</p><p>Kontrollera glapp i leder och styrsystem, att pedaler återgår som de ska och att alla säkerhetsfunktioner fungerar enligt rätt instruktionsbok. Koppla inte förbi säkerhetsbrytare.</p><p>Exakta inställningsmått och procedurer ska hämtas ur manualen som motsvarar maskinens produktnummer.</p><h3>Konkreta delar i styrsystemet</h3><p>För version <code>13-1358-12</code> finns exempelvis linhjul <code>1134-9025-01</code> (sats med två), kedjehjul <code>1134-2816-01</code>, kedja <code>1134-2820-01</code> och kedjelås <code>1134-2824-01</code> i originalkatalogens styrningsavsnitt. De hjälper vid identifiering genom sprängskissen, men ska inte användas som en universell reservdelslista för hela Park 12 HST. [S3]</p>"
         }
       ]
     },
@@ -221,10 +221,25 @@
       "title": "S6 · STIGA support och manualer",
       "description": "Tillverkarens portal för att leta upp manualer efter produktnamn eller artikelnummer.",
       "url": "https://www.stiga.com/se/support"
+    },
+    {
+      "title": "S7 · Partsharp – register över tolv Park 12 HST-varianter",
+      "description": "Sekundärt reservdelsregister över tolv nummer inklusive F- och JP-versioner. Säsongsåren måste kontrolleras mot originalkatalogerna.",
+      "url": "https://www.partsharp.com/spare-parts/stiga/park-compact/49ff254a-efd0-4dee-b8b5/713bf594-3d17-45dd-b985.aspx"
+    },
+    {
+      "title": "S8 · STIGA – original IPL för 13-1318-12",
+      "description": "43-sidig originalkatalog, Season 1990, Issue 39–2014. Visar bland annat detaljer kopplade till motorversionerna 281707-0142 och 281707-0127.",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1318-12_89_SV-EN.pdf"
+    },
+    {
+      "title": "S9 · DIY Spare Parts – sprängskisser 13-5319-12",
+      "description": "Sekundärt, positionsbaserat register som uttryckligen har två delavsnitt för Kanzaki K110 för just 13-5319-12.",
+      "url": "https://www.diyspareparts.com/parts/stiga/diagrams/cb39847f-f8d2-48b1-9e1d/28804a7d-ca7d-444f-ad6d"
     }
   ],
   "sourceHeading": "12 · Källor och manualer",
-  "sourceIntro": "Här finns dokumentationen bakom uppgifterna. Använd i första hand rätt originalkatalog för just maskinens produktnummer.",
+  "sourceIntro": "Originalkataloger och separata produktversioner listas nedan. Kontrollera artikelnummer mot exakt produktnummer och motorvariant.",
   "sourceHelp": "Originalkataloger [S1–S3] väger tyngre än sekundära register [S4–S5]. Kontrollera alltid produktnummer, motor och transmission på den enskilda maskinen.",
   "traderaBlock": {
     "type": "tradera-follow",
