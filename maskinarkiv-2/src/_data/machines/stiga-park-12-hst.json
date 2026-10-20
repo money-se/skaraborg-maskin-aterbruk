@@ -134,7 +134,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "<div class=\"steps\"><div class=\"step\"><h3>1. Leta efter maskinens identifieringsskylt</h3><p>Fotografera produktnummer och serienummer. Ett nummer som <code>13-1318-13</code> är mer användbart vid reservdelssökning än bara ”Park 12 HST”.</p></div><div class=\"step\"><h3>2. Läs av motorns märkning</h3><p>Briggs &amp; Stratton-motorer identifieras vanligtvis via modell, typ och kod. Använd motorns egen märkning när du behöver motordelar.</p></div><div class=\"step\"><h3>3. Kontrollera transmissionen</h3><p>Om du ska beställa delar till drivningen, jämför transmissionens märkning och sprängskiss mot den aktuella katalogen.</p></div><div class=\"step\"><h3>4. Identifiera klippaggregatet separat</h3><p>Aggregatet kan ha egen märkning och ha bytts under maskinens livstid.</p></div></div><p>STIGAs reservdelsunderlag anger uttryckligen att man ska välja en katalog som passar maskinens identifiering. [S2]</p>"
+          "html": "<div class=\"steps\"><div class=\"step\"><h3>1. Leta efter maskinens identifieringsskylt</h3><p>Fotografera produktnummer och serienummer. Ett nummer som <code>13-1318-13</code> är mer användbart vid reservdelssökning än bara ”Park 12 HST”.</p></div><div class=\"step\"><h3>2. Läs av motorns märkning</h3><p>Briggs &amp; Stratton-motorer identifieras vanligtvis via modell, typ och kod. Använd motorns egen märkning när du behöver motordelar.</p></div><div class=\"step\"><h3>3. Kontrollera transmissionen</h3><p>Om du ska beställa delar till drivningen, jämför transmissionens märkning och sprängskiss mot den aktuella katalogen.</p></div><div class=\"step\"><h3>4. Identifiera klippaggregatet separat</h3><p>Aggregatet kan ha egen märkning och ha bytts under maskinens livstid.</p></div></div><p>STIGAs reservdelsunderlag anger uttryckligen att man ska välja en katalog som passar maskinens identifiering. [S2]</p><h3>Vilka uppgifter ska jag skriva ned?</h3><div class=\"table-scroll\"><table><thead><tr><th>Uppgift</th><th>Varför behövs den?</th></tr></thead><tbody><tr><td>Maskinens produktnummer</td><td>Väljer rätt originalreservdelskatalog</td></tr><tr><td>Serienummer</td><td>Hjälper till att identifiera ditt exemplar</td></tr><tr><td>Motorns modell, typ och kod</td><td>Behövs för motorrelaterade reservdelar</td></tr><tr><td>Märkning på transmissionen</td><td>Kan skilja mellan versioner – särskilt viktigt vid drivproblem</td></tr><tr><td>Klippaggregatets märkning</td><td>Avgör vilken aggregatkatalog som är relevant</td></tr></tbody></table></div><p>Ta gärna tydliga foton på märkningarna innan du kontaktar en säljare eller verkstad. Hittar du ingen skylt ska du inte gissa produktnummer utifrån färg, huv eller uppgiven årsmodell.</p>"
         }
       ]
     },
@@ -182,7 +182,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "<p>Det finns dokumenterade uppgifter om <strong>100B</strong> och <strong>100M</strong> i reservdelsregister för vissa Park 12 HST-varianter. Detta visar inte automatiskt att samtliga Park 12 HST-versioner använder samma redskap eller infästning. [S4–S5]</p><p>Läs av aggregatets märkning. Kontrollera att infästning, remdragning och eventuella remskivor motsvarar din maskin. Jämför mot originalmanual och reservdelskatalog innan du köper begagnat aggregat.</p>"
+          "html": "<p>Det finns dokumenterade uppgifter om <strong>100B</strong> och <strong>100M</strong> i reservdelsregister för vissa Park 12 HST-varianter. Detta visar inte automatiskt att samtliga Park 12 HST-versioner använder samma redskap eller infästning. [S4–S5]</p><p>Läs av aggregatets märkning. Kontrollera att infästning, remdragning och eventuella remskivor motsvarar din maskin. Jämför mot originalmanual och reservdelskatalog innan du köper begagnat aggregat.</p><h3>Så avgör du om ett begagnat aggregat passar</h3><p>På äldre Park-modeller kan ett aggregat ha bytts. Noteringarna om 100B och 100M i reservdelsregister för en viss maskin betyder därför <strong>inte</strong> att båda passar varje Park 12 HST.</p><div class=\"steps\"><div class=\"step\"><h3>1. Identifiera själva aggregatet</h3><p>Sök efter aggregatets modell- eller artikelnummer. Saknas märkning? Fotografera infästning, remskivor och undersida utan att arbeta nära rörliga delar.</p></div><div class=\"step\"><h3>2. Jämför infästning och drivning</h3><p>Kontrollera att tillverkaren dokumenterat rätt fästen, remdragning och drivremslösning för din maskinversion.</p></div><div class=\"step\"><h3>3. Hitta aggregatets egen reservdelskatalog</h3><p>Knivar, remmar och lager behöver oftast identifieras i aggregatets dokumentation – inte enbart i maskinens huvudkatalog.</p></div></div><p><strong>Vad saknas ännu?</strong> Vi har inte verifierat någon fullständig kompatibilitetstabell för alla Park 12 HST och alla tillgängliga aggregat. Ingen universell passformslista ska därför publiceras som fakta.</p>"
         }
       ]
     },
@@ -242,7 +242,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "<p>STIGAs originalkataloger innehåller sprängskisser med positionsnummer och artikelnummer för respektive produktversion. Börja med maskinens produktnummer och leta sedan efter rätt komponentgrupp. [S1–S3]</p><div class=\"steps\"><div class=\"step\"><h3>1. Välj rätt reservdelskatalog</h3><p>Matcha maskinens produktnummer mot dokumentets rubrik.</p></div><div class=\"step\"><h3>2. Hitta komponenten i sprängskissen</h3><p>Identifiera delens position och originalartikelnummer.</p></div><div class=\"step\"><h3>3. Kontrollera ersättningsnummer</h3><p>Gamla nummer kan ha ersatts. Säkerställ passform före beställning.</p></div></div>"
+          "html": "<p>STIGAs originalkataloger innehåller sprängskisser med positionsnummer och artikelnummer för respektive produktversion. Börja med maskinens produktnummer och leta sedan efter rätt komponentgrupp. [S1–S3]</p><div class=\"steps\"><div class=\"step\"><h3>1. Välj rätt reservdelskatalog</h3><p>Matcha maskinens produktnummer mot dokumentets rubrik.</p></div><div class=\"step\"><h3>2. Hitta komponenten i sprängskissen</h3><p>Identifiera delens position och originalartikelnummer.</p></div><div class=\"step\"><h3>3. Kontrollera ersättningsnummer</h3><p>Gamla nummer kan ha ersatts. Säkerställ passform före beställning.</p></div></div><h3>Exempel: två källor kan säga olika saker</h3><p>För <code>13-5319-12</code> anger ett kommersiellt reservdelsregister Tecumseh 846 [S4], medan ett annat har separata K110-avsnitt [S9]. Detta är en <strong>källkonflikt</strong>. Lösningen är att läsa av den faktiska transmissionens märkning och jämföra med en originalkatalog för exakt produktnummer, inte att beställa den del som råkar dyka upp överst i sökresultaten.</p><h3>Vilken sorts manual behöver du?</h3><div class=\"table-scroll\"><table><thead><tr><th>Om du behöver …</th><th>Leta efter …</th></tr></thead><tbody><tr><td>Lära dig starta och köra säkert</td><td>Instruktionsbok/bruksanvisning</td></tr><tr><td>Hitta artikelnummer och sprängskisser</td><td>Reservdelskatalog (IPL)</td></tr><tr><td>Serviceintervall och oljeuppgifter</td><td>Rätt maskin- och motormanual</td></tr><tr><td>Reparera transmissionen</td><td>Dokumentation för den identifierade transaxeln</td></tr><tr><td>Byta kniv eller aggregatrem</td><td>Aggregatets egen manual och reservdelskatalog</td></tr></tbody></table></div>"
         }
       ]
     },
@@ -341,11 +341,31 @@
       "title": "S14 · STIGA – originalkatalogindex för Park 1994",
       "description": "Tillverkarens index skiljer Park 12 HST 13-1443-17 från Park 11 och Park 13 HST. Katalogens säsongsbeteckning bevisar inte exakt tillverkningsdatum.",
       "url": "https://view.stiga-store.com/park-1994.html"
+    },
+    {
+      "title": "S15 · STIGA – direkt originalkatalog 13-1318-14",
+      "description": "Original IPL för en separat Park 12 HST-version (filnamnets säsongkod 91); jämför komponenter mot rätt produktnummer.",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1318-14_91_SV-EN.pdf"
+    },
+    {
+      "title": "S16 · STIGA – direkt originalkatalog 13-1358-14",
+      "description": "Original IPL för en annan separat Park 12 HST-version (filnamnets säsongkod 91).",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1358-14_91_SV-EN.pdf"
+    },
+    {
+      "title": "S17 · STIGA – direkt originalkatalog 13-1318-82 (F)",
+      "description": "Original IPL för franskmärkt Park 12 HST-version i STIGAs katalogarkiv.",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_-F-_13-1318-82_89_SV-EN.pdf"
+    },
+    {
+      "title": "S18 · STIGA – katalogarkiv för äldre Park",
+      "description": "Tillverkarens samlade filindex. Hjälper till att hitta fler ursprungliga Park-kataloger efter produktnummer.",
+      "url": "https://view.stiga-store.com/files/"
     }
   ],
   "sourceHeading": "17 · Källor och manualer",
-  "sourceIntro": "Originalkataloger och separata produktversioner listas nedan. Kontrollera artikelnummer mot exakt produktnummer och motorvariant.",
-  "sourceHelp": "Originalkataloger [S1–S3] väger tyngre än sekundära register [S4–S5]. Kontrollera alltid produktnummer, motor och transmission på den enskilda maskinen. Senare Park-manualer för Comfort, Prestige eller Power får inte användas för olja eller servicevärden på denna äldre Park 12 HST utan dokumenterad versionskoppling.",
+  "sourceIntro": "Välj först produktnummer. Nedan finns tillverkarens egna arkiv och utvalda originalkataloger, tillsammans med tydligt märkta sekundära register.",
+  "sourceHelp": "Originalkataloger [S1–S3] väger tyngre än sekundära register [S4–S5]. Kontrollera alltid produktnummer, motor och transmission på den enskilda maskinen. Senare Park-manualer för Comfort, Prestige eller Power får inte användas för olja eller servicevärden på denna äldre Park 12 HST utan dokumenterad versionskoppling. Kontrollera att kataloglänken stämmer med numret på din maskin. Saknad instruktionsbok, vätskespecifikation eller kompatibilitet får inte ersättas med uppgifter från en annan generation.",
   "traderaBlock": {
     "type": "tradera-follow",
     "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
