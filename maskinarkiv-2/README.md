@@ -60,3 +60,10 @@ STIGA Park 16 och Husqvarna Rider 13 skapas nu från **exakt samma sidmall**, `s
 **Viktigt:** Rider 13:s kapitelinnehåll använder ännu bevarade HTML-fragment. Även Park 16:s många tabeller och listor har innerHtml. Båda kan renderas från samma sidmall, men den slutliga ambitionen med 100 % strukturerad innehållsdata är inte färdig. Den publika webbplatsen påverkas inte.
 
 Testet `npm run check` validerar båda genererade HTML-filerna, respektive käll- och kapitelantal, ankare, unika ID:n och balanserade section-taggar.
+
+
+## Steg 5: tre maskiner, samma mall (2026-10-20)
+
+Husqvarna LTH151 har nu migrerats till samma `src/_includes/pages/machine.njk` som STIGA Park 16 och Husqvarna Rider 13. LTH151 har 14 innehållskapitel och 4 bevarade källposter. Samtliga tre byggs i GitHub Actions med automatiska kontroller av kapitel, källor, ankar-ID och sektionstaggar.
+
+**Förbehåll:** LTH151:s kapitelblock är ännu importerad HTML. Källposterna är bevarade som källnära HTML eftersom deras inbördes struktur skiljer sig. Detta är inte ett färdigt, fritt från HTML dataskikt och inte heller en fullständig visuell jämförelse. Migrera resterande modeller först efter fortsatt datastandardisering och visuell granskning. Publicerad HTML har inte ändrats.
