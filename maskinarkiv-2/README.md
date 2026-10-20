@@ -52,3 +52,11 @@ STIGA Park 16:s 16 innehållskapitel innehåller nu en ordnad lista av `blocks` 
 Tabellceller, listpunkter och andra komplexa underblock ligger ännu som bevarad `innerHtml` inuti respektive komponent. Detta är en medveten, säker mellanform för att behålla uppgifter och länkar under migreringen. Nästa förbättring är att modellera även dem som strukturerade fält.
 
 Tradera-sektionen är nu fristående från kapitlet Återbruk, och källor renderas från sex strukturerade källposter. Kontrollerna omfattar komponentantal, ankarlänkar, unika ID och balanserade HTML-sektioner. Publicerade modellsidor har inte ändrats av denna pilot.
+
+## Steg 4: två maskiner, en master-mall (2026-10-20)
+
+STIGA Park 16 och Husqvarna Rider 13 skapas nu från **exakt samma sidmall**, `src/_includes/pages/machine.njk`. Modellfilerna under `src/_data/machines/` innehåller respektive maskins källunderlag och kapitel. Den enda modellen som för närvarande är uppdelad i alla utbrutna typer av innehållsblock är STIGA Park 16. Rider 13 har 14 kapitel och 8 dokumenterade källposter, varav två innehåller direkta URL:er i källmaterialet. De övriga källorna visas utan påhittade länkar.
+
+**Viktigt:** Rider 13:s kapitelinnehåll använder ännu bevarade HTML-fragment. Även Park 16:s många tabeller och listor har innerHtml. Båda kan renderas från samma sidmall, men den slutliga ambitionen med 100 % strukturerad innehållsdata är inte färdig. Den publika webbplatsen påverkas inte.
+
+Testet `npm run check` validerar båda genererade HTML-filerna, respektive käll- och kapitelantal, ankare, unika ID:n och balanserade section-taggar.
