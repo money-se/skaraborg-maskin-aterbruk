@@ -9,18 +9,13 @@
 <section id="login" class="panel hidden"><h1>Logga in</h1><form id="login-form"><label>E-post<input id="email" type="email" autocomplete="username" required></label><label>Lösenord<input id="password" type="password" autocomplete="current-password" required></label><button>Logga in</button></form></section>
 <section id="app" class="hidden"><button id="logout" class="secondary">Logga ut</button><section class="panel"><h1>Tävlingar</h1><button id="new">+ Skapa tävling</button><div id="list"></div></section>
 <section id="editor" class="panel hidden"><h2 id="form-heading">Ny tävling</h2><form id="form"><div class="grid">
-<div class="full"><label for="title">Rubrik *</label><input id="title" maxlength="120" required></div>
-<div class="full"><label for="slug">Kort adressnamn *</label><input id="slug" maxlength="100" pattern="[a-z0-9]+(-[a-z0-9]+)*" required><small class="hint">Exempel: jonsered-lt2115-oktober-2026. Ändra inte efter publicering.</small></div>
-<div class="full"><label for="description">Beskrivning</label><textarea id="description" maxlength="8000"></textarea></div>
-<div class="full"><label for="condition">Maskinens skick och kända fel</label><textarea id="condition" maxlength="2500"></textarea></div>
-<div><label for="starts">Startdatum och tid</label><input id="starts" type="datetime-local"></div>
-<div><label for="ends">Slutdatum och tid</label><input id="ends" type="datetime-local"></div>
-<div class="full"><label for="facebook">Länk till tävlingsinlägget på Facebook</label><input id="facebook" type="url" placeholder="https://www.facebook.com/…"></div>
-<div class="full"><label for="posturl">Facebooks tävlingsinlägg (vanlig länk eller iframe-kod)</label><textarea id="posturl" maxlength="3000" placeholder="https://www.facebook.com/permalink.php?..."></textarea></div><div class="full"><label for="reelurl">Reel med vinnardragningen (vanlig länk eller iframe-kod)</label><textarea id="reelurl" maxlength="3000" placeholder="https://www.facebook.com/reel/..."></textarea></div><div class="full"><label for="rules">Tävlingsvillkor</label><textarea id="rules" maxlength="8000" placeholder="Hur man deltar, vilka som får delta och hur vinnaren utses."></textarea></div>
-<div><label for="testmode">Typ av tävling</label><select id="testmode"><option value="false">Riktig tävling</option><option value="true">Testtävling – synlig men inte möjlig att delta i</option></select></div><div><label for="status">Status</label><select id="status"><option value="draft">Utkast</option><option value="active">Aktiv</option><option value="ended">Avslutad</option></select></div>
-<div><label for="published">Synlighet</label><select id="published"><option value="false">Ej publicerad</option><option value="true">Publicerad</option></select></div>
-<div class="full"><label for="winner">Vinnare (visa bara med samtycke)</label><input id="winner" maxlength="120"></div>
-<div class="full"><label for="images">Bilder, högst 10</label><input id="images" type="file" accept="image/jpeg,image/png,image/webp" multiple><p class="hint">Nya bilder ersätter befintliga bilder. Lämna tomt för att behålla dem.</p><div class="thumbs" id="image-preview"></div></div>
+<div class="full"><label for="title">Tävlingsnamn *</label><input id="title" maxlength="120" required placeholder="Månadens maskin #4"></div>
+<div class="full"><label for="posturl">Facebooks tävlingsinlägg *</label><textarea id="posturl" placeholder="Klistra in Facebook-länken eller iframe-koden" maxlength="3000"></textarea></div>
+<div class="full"><label for="reelurl">Vinnardragning – Reel eller video (lägg till senare)</label><textarea id="reelurl" placeholder="Klistra in Facebook-länken eller iframe-koden när dragningen är klar" maxlength="3000"></textarea></div>
+<div><label for="status">Status</label><select id="status"><option value="active">Aktiv</option><option value="ended">Avslutad</option><option value="draft">Utkast</option></select></div>
+<div><label for="published">Synlighet</label><select id="published"><option value="true">Publicerad</option><option value="false">Ej publicerad</option></select></div>
+<div><label for="testmode">Typ</label><select id="testmode"><option value="false">Riktig tävling</option><option value="true">Testtävling</option></select></div>
+<div class="full hidden"><input id="slug" maxlength="100"><textarea id="description"></textarea><textarea id="condition"></textarea><input id="starts"><input id="ends"><input id="facebook"><textarea id="rules"></textarea><input id="winner"><input id="images" type="file"><div id="image-preview"></div></div>
 </div><button id="save" type="submit">Spara tävling</button><button id="cancel" type="button" class="secondary">Avbryt</button></form></section></section></main>
 <script type="module">
 import {createClient} from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
@@ -51,10 +46,10 @@ const paths=existing.slice(),files=[...$('images').files];if(files.length>10)thr
 if(files.length){paths.length=0;for(const f of files){if(!['image/jpeg','image/png','image/webp'].includes(f.type))throw Error('Otillåtet bildformat');const blob=await compress(f);if(blob.size>1048576)throw Error('Bilden är för stor');const path=session.user.id+'/'+crypto.randomUUID()+'.webp';const r=await db.storage.from('competition-images').upload(path,blob,{contentType:'image/webp'});if(r.error)throw r.error;paths.push(path)}}
 const s=$('status').value,pub=$('published').value==='true';const starts=$('starts').value?new Date($('starts').value).toISOString():null,ends=$('ends').value?new Date($('ends').value).toISOString():null;
 const record={title:$('title').value.trim(),slug:$('slug').value.trim(),description:$('description').value.trim(),prize_condition:$('condition').value.trim(),starts_at:starts,ends_at:ends,facebook_url:$('facebook').value.trim(),rules:$('rules').value.trim(),winner_name:$('winner').value.trim(),facebook_post_url:facebookOriginal($('posturl').value,'post'),winner_reel_url:facebookOriginal($('reelurl').value,'reel'),is_test:$('testmode').value==='true',status:s,published:pub,image_paths:paths,updated_at:new Date().toISOString()};
-if(s==='active'&&!record.is_test&&(!starts||!ends||!record.facebook_url||!record.rules||!paths.length))throw Error('Aktiv tävling kräver datum, Facebook-länk, villkor och minst en bild.');
+if(s==='active'&&!record.is_test&&!record.facebook_post_url&&!record.facebook_url)throw Error('Klistra in tävlingsinläggets Facebook-länk.');
 if(record.is_test&&pub&&s==='active'&&!confirm('Publicera en tydligt märkt TESTTÄVLING på hemsidan? Besökare kommer se att den inte går att delta i.'))return;
-if(pub&&s==='draft')throw Error('Välj Aktiv eller Avslutad under Status innan du väljer Publicerad.');
-if(record.facebook_post_url&&!record.facebook_url)record.facebook_url=record.facebook_post_url;
+if(pub&&s==='draft')throw Error('Välj Aktiv eller Avslutad för att publicera.');
+if(record.facebook_post_url)record.facebook_url=record.facebook_post_url;
 const r=editing?await db.from('competitions').update(record).eq('id',editing):await db.from('competitions').insert(record);
 if(r.error)throw r.error;$('editor').classList.add('hidden');await load();msg('Tävlingen sparades.');
 }catch(err){msg('Kunde inte spara: '+err.message);$('message').scrollIntoView({behavior:'smooth',block:'center'});}finally{save.disabled=false}});
