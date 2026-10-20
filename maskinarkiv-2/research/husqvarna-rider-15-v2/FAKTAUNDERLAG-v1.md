@@ -104,3 +104,52 @@ Originalmanualen 2008-11 anger 103/112 cm; äldre Rider 15V2-manualen visar BioC
 
 ### Fortsatt publiceringsspärr
 Koppla fortfarande varje motor-/transmissions-/klippaggregatuppgift till en **specificerad produktrevision och relevant originalmanual**. Komplettera med original-IPLs för 953533701, 953533705, 965094501 och 965200701 och separat tillverkar-/motordokumentation innan en full teknisk versionstabell eller specifika reservdelsnummer publiceras.
+
+
+## Tillägg v1.2 – reviderad primärkällkontroll (2026-10-20)
+
+### Rider 15V2: Husqvarnas originalförarmanual 2003-01 (A)
+Primärkälla: Husqvarna, *OM, Rider 15 V2, 2003-01*, 52 sidor:
+https://content.tdr.dss.husqvarnagroup.net/pub000021444/doc000043993
+
+**Tekniska data i den manualens tabell, tryckt s. 44 (PDF s. 45):**
+- Motor: **Kawasaki FH430V**, uppgiven effekt **11,2 kW / 15 hp**, slagvolym **431 cm³**.
+- Transmission: **Tuff Torq K46**, olja **SAE 10W/30, SF–CC**.
+- Däck: **16 × 6.50-8**; tryck **60 kPa (0,6 bar)** fram och bak.
+- Aggregattyper som tekniska data omfattar: **BioClip 90 cm, bak-/sidoutkast 97 cm, Combi 103 cm, Combi 112 cm**. Tabellens sammanställning visar vilka aggregat som ingår i manualfamiljens beskrivning, inte att alla passar varje specifik produktrevision.
+- Oljemängd för motorn: **1,5 liter utan filterbyte**, **1,7 liter med filterbyte**; kontrollera oljenivån enligt förarmanualen.
+
+**Identifiering, tryckt s. 3 (PDF s. 4):**
+- Traktorns typbeteckning, tillverkarens typnummer och serienummer sitter på skylt framtill till vänster under sätet.
+- Motor och transmission har separata märkningar/serienummer. Transmissionsetikettens typkod börjar med bokstaven K.
+
+**VIKTIG KÄLLKONFLIKT, första oljebyte:**
+- Manual **2003-01** anger i servicejournalen **första motoroljebyte efter 8 timmar** (tryckt s. 46; PDF s. 47).
+- Den tidigare granskade manualrevisionen **2008-11** anger **5 timmar**.
+- Vi ska INTE publicera ”första oljebyte efter 5 timmar” som allmängiltigt för Rider 15V2. Ange intervall per manualrevision och låt exakt maskin-/motor-ID avgöra vilket schema som gäller.
+
+**Säkerhet, originalmanual:** Klippaggregatets lyftläge, hydrostatpedalernas neutralvillkor och säkerhetsbrytare behandlas uttryckligen. Beskriv kontrollpunkter, aldrig förbikoppling av brytare.
+
+### IPL-revisioner och överensstämmelse
+- Husqvarnas original-IPLs samlingsregister innehåller 90, 97, 103 och 112 cm. Den specifika portallistan för **953 53 37-01, 2006-01** visar i stället **103 cm och 112 cm** som valbara aggregatavsnitt. Detta är inte ett bevis att äldre aggregat passar 2006-utförandet.
+  Original: https://shop-pa-v9.husqvarna.com/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcCategory=Riders&epcProduct=RIDER+15V2&epcVariantName=RIDER+15V2%2C+953+53+37-01%2C+2006-01&langId=-1&modelId=Husqvarna-Riders_RIDER+15V2&storeId=11251
+
+- Reservdelskatalog för **965200701, 2008-01** anger uttryckligen **HYDROSTAT K46 EU** i transmissionssektionen. Detta är ytterligare transmissionsstöd för en senare *specifik* revision, inte universell teknisk identitet.
+  Sekundärt speglad originalkatalog: https://www.foretjardin.com/img/cms/documents/pieces-detachees/husqvarna/tracteurs-tondeuse-rider/rider%2015%20v2/tracteur_tondeuse_husqvarna_rider_rider15v2_liste-des-pieces_2008-01.pdf
+
+- Reservdelslista **965200701, 2008-01** anger motorkomponent **535451901** under ENGINE, men listningen räcker INTE till för att härleda faktisk motortyp. Original-Kawasaki-märkning och riktig IPL skall fortsatt användas för motorkod.
+  Sekundärt register: https://www.sgarden.cz/SpareParts/PartList/27852/ENGINE
+
+### Versionsmatris inför full artikel
+| Revision/dokument | Verifierad motor | Verifierad växellåda | Aggregat/dokumentläget |
+| --- | --- | --- | --- |
+| Rider 15V2, manual 2003-01, ej låst produktnummer | Kawasaki FH430V | Tuff Torq K46 | Manual omfattar 90, 97, 103, 112 cm |
+| Rider 15V2, 953533701, katalog 2006-01 | Ej separat låst i denna IPL | Ej separat låst i denna IPL | Portallistan visar 103 och 112 cm |
+| Rider 15V2, 953533701, katalog 2006-05 | Kräver specifik originalkontroll | K46 nämnt i sekundär reservdelslista | 94/103/112 cm i sekundärt register – ej kompatibilitetsbevis |
+| Rider 15V2, 965200701, 2008-01 | Exakt modellkod ännu ej styrkt i denna IPL | ”HYDROSTAT K46 EU” i dokumentets transmissionsavsnitt | Kompatibilitet ej låst |
+| Rider 15V2, manual 2008-11, ej låst produktnummer | Kawasaki (exakt motor-ID måste verifieras) | K46 för icke-AWD-version i manual | Combi 103/112 cm i tabell |
+
+### Källgranskningsbegränsning
+Webbverktyget kunde extrahera originalmanualens text och tekniska tabell, men dess skärmbildsläsning för PDF-sidan misslyckades; därför är illustrationsdetaljerna **inte visuellt slutgranskade**. Ingen slutsats om faktisk kompatibilitet får dras från osedda sprängskisser.
+
+Nästa researchmål: extrahera verifierbara motor-/transmissionsposter ur respektive original-IPL och dokumentera aggregatens modell-ID samt kompatibilitetsvillkor. Inget produktions-HTML eller 11ty-mallarbete i detta tillägg.
