@@ -26,3 +26,19 @@ const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(new Set(ids).size,ids.length,"Dubblett-ID");
 for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(anchor),"Trasigt ankare: "+anchor);
 console.log("MASKINARKIV_2_COMPONENTS=PASS; articles="+source.chapters.length+"; sources="+source.sources.length);
+
+
+const rider = JSON.parse(fs.readFileSync("src/_data/machines/husqvarna-rider-13.json","utf8"));
+const riderPath="../_maskinarkiv-preview/maskinarkiv/husqvarna-rider-13.html";
+assert.ok(fs.existsSync(riderPath), "Rider 13 HTML must be generated");
+const riderHtml=fs.readFileSync(riderPath,"utf8");
+assert.equal(rider.chapters.length,14);
+assert.equal(rider.sources.length,8);
+for(const ch of rider.chapters) assert.ok(riderHtml.includes('id="'+ch.id+'"'), "Rider chapter missing: "+ch.id);
+assert.ok(riderHtml.includes('class="source-disclosure"'));
+assert.ok(riderHtml.includes("Husqvarna Rider 13"));
+const riderIds=[...riderHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(new Set(riderIds).size,riderIds.length,"Rider duplicate IDs");
+for(const [,anchor] of riderHtml.matchAll(/href="#([^"]+)"/g)) assert.ok(riderIds.includes(anchor),"Rider broken anchor: "+anchor);
+assert.equal((riderHtml.match(/<section\b/g)||[]).length,(riderHtml.match(/<\/section>/g)||[]).length,"Rider section tags unbalanced");
+console.log("MASKINARKIV_2_RIDER=PASS; chapters="+rider.chapters.length+"; sources="+rider.sources.length);
