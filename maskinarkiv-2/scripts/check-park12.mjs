@@ -5,11 +5,11 @@ const model=JSON.parse(fs.readFileSync("src/_data/machines/"+slug+".json","utf8"
 const file="../_maskinarkiv-preview/maskinarkiv/"+slug+".html";
 assert.ok(fs.existsSync(file),"STIGA Park 12 HST generated file missing");
 const html=fs.readFileSync(file,"utf8");
-assert.equal(model.chapters.length,14);
+assert.equal(model.chapters.length,16);
 assert.ok(model.sources.length>=12);
 const hydro=(model.chapters.find(c=>c.id==="hydrostat")?.blocks||[]).map(b=>b.html||"").join("");
 for(const needle of ["Tecumseh Peerless Transaxle 846","1134-3364-01","K50/K55"]) assert.ok(hydro.includes(needle),"Missing original-document comparison: "+needle);
-for(const id of ["elsystem","bromsar","service"]) assert.ok(model.chapters.some(c=>c.id===id),"Missing deep-research chapter: "+id);
+for(const id of ["hitta-hjalp","ordlista","elsystem","bromsar","service"]) assert.ok(model.chapters.some(c=>c.id===id),"Missing deep-research chapter: "+id);
 const versions=(model.chapters.find(c=>c.id==="versioner")?.blocks||[]).map(b=>b.html||"").join("");
 assert.equal((versions.match(/<tr><td><code>13-/g)||[]).length,12,"Expected 12 documented variants");
 assert.ok(versions.includes("13-1318-83") && versions.includes("13-5319-13"),"F/JP variants missing");
@@ -24,4 +24,6 @@ assert.ok(html.includes('href="https://skaraborgmaskin.se/maskinarkiv/stiga-park
 assert.ok(html.includes('id="aterbruk"')&&html.includes('id="tradera"')&&html.includes('id="kallor"'));
 assert.ok(html.includes("13-1318-13")&&html.includes("13-1443-17"));
 assert.ok(!html.includes('noindex'));
+for(const fragment of ['href="#identifiering"','href="#felsokning"','href="#ordlista"','href="#kallor"']) assert.ok(html.includes(fragment),"Quick links missing: "+fragment);
+assert.ok(html.includes("Ny på åkgräsklippare?"),"Beginner lead missing");
 console.log("MASKINARKIV_PARK12_DRAFT_TEST=PASS");
