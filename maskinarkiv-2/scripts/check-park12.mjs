@@ -39,4 +39,4 @@ const service=model.chapters.find(c=>c.id==="service").blocks.map(b=>b.html||"")
 for(const phrase of ["Underhåll för nybörjare","Vilka serviceuppgifter har vi ännu inte kunnat fastställa?","Hydrostatoljans typ och mängd","Skruva inte loss en okänd plugg"]) assert.ok(service.includes(phrase),"Missing service safety guidance: "+phrase);
 
 const engineSeries=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
-for(const phrase of ["1,4 liter","50:e drifttimme","motorns exakta märkning","Form No. 271971-7:91"]) assert.ok(engineSeries.includes(phrase),"Missing historical engine-manual qualification: "+phrase);
+for(const phrase of ["1,4 liter","50:e drifttimme","motorns egen operatörsmanual","Form No. 271971-7:91"]) assert.ok(engineSeries.includes(phrase),"Missing historical engine-manual qualification: "+phrase);
