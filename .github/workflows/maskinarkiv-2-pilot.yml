@@ -1,5 +1,11 @@
 name: Maskinarkivet 2 pilot
 on:
+  push:
+    branches:
+      - feature/maskinarkivet-2-eleventy-pilot
+    paths:
+      - 'maskinarkiv-2/**'
+      - '.github/workflows/maskinarkiv-2-pilot.yml'
   pull_request:
     paths:
       - 'maskinarkiv-2/**'
