@@ -84,3 +84,18 @@ Husqvarna LTH151 har nu migrerats till samma `src/_includes/pages/machine.njk` s
 5. Kontrollera live-länkar, robots/canonical, sitemap och mobilvy efter godkänt PR.
 
 **Ingen automatisk produktion-publicering är ansluten eller godkänd.** Övriga webbplatsen, särskilt `index.html`, ska inte ersättas av testprojektets `index.html`.
+
+
+## Permanent integration – gäller ENDAST Maskinarkivet
+
+Automatiseringen kör Eleventy i mappen `maskinarkiv-2/`. Den ordinarie webbplatsens startsida, ortssidor, tjänstesidor, Shopify och andra filer byggs **inte** med Eleventy och ändras **inte** av arbetsflödet.
+
+GitHub Actions-filen `.github/workflows/maskinarkiv-2-pilot.yml`:
+- Kör bygget när filer under `maskinarkiv-2/src/**`, scripts, specifika byggfiler eller gemensamma header/footer ändras på `main`.
+- Kör samma struktur- och SEO-kontroller på pull requests utan att publicera.
+- Skriver endast till de fem uttryckligen tillåtna `maskinarkiv/*.html`-filerna vid `push` till `main`. Om diffen innehåller en otillåten fil stoppas processen.
+- En publiceringstransaktion som inte ger HTML-ändringar skapar ingen commit.
+- Nya maskinmodeller: lägg till ny JSON, ny Nunjucks-entry och uppdatera den uttryckliga tillåtelselistan i workflow/tester. Inget skrivs till andra mappar.
+- `maskinarkiv-2/preview/` är en historisk granskning, **inte** produktionskällan. Genererat produktions-HTML byggs från `src/`.
+
+**Viktigt:** Automatiserad återpublicering på `main` efter ändrade maskinkällor kräver att GitHub Actions har skrivbehörighet och att grenreglerna tillåter bot-commit. Om dessa regler stoppar automatisk push behålls byggartefakten och webbsidorna oförändrade; kontrollera jobbets logg. Publicera aldrig hela genereringsmappen eller testindex till webbplatsens rot.
