@@ -58,3 +58,12 @@ assert.equal((lthHtml.match(/<section\b/g)||[]).length,(lthHtml.match(/<\/sectio
 assert.ok(lthHtml.includes('href="/tradera.html"'));
 assert.equal((lthHtml.match(/class="source-record"/g)||[]).length,lth.sources.length);
 console.log("MASKINARKIV_2_LTH151=PASS");
+
+for(const page of [html,riderHtml,lthHtml]) {
+  assert.equal((page.match(/class="archive-contact"/g)||[]).length,1,"Missing or duplicate shared contact block");
+  assert.ok(page.includes('Kontakta oss på Facebook'),"Shared Facebook CTA missing");
+  assert.ok(page.includes('class="footer-bottom"'),"Shared footer missing");
+  assert.ok(page.includes('class="smar-'),"Shared header missing");
+  assert.ok(!page.includes('inject("site-header"'),"Runtime header injection must be removed");
+}
+console.log("MASKINARKIV_2_SHARED_CHROME=PASS");
