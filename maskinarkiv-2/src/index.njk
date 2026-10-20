@@ -1,0 +1,5 @@
+---
+permalink: "index.html"
+eleventyExcludeFromCollections: true
+---
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Maskinarkivet 2.0 – Test</title><style>body{font:16px/1.6 system-ui;background:#f5f7f4;color:#183626;max-width:760px;margin:35px auto;padding:22px}a{color:#17583a}.card{display:block;background:white;padding:21px;margin:12px 0;border-radius:12px;border:1px solid #dce5de;text-decoration:none;font-weight:700}</style></head><body><h1>Maskinarkivet 2.0</h1><p>Automatiskt genererad testversion från en gemensam huvudmall. Publicerade maskinsidor påverkas inte.</p>{% for item in [{"name":"STIGA Park 16","slug":"stiga-park-16"},{"name":"Husqvarna Rider 13","slug":"husqvarna-rider-13"},{"name":"Husqvarna LTH151","slug":"husqvarna-lth151"},{"name":"STIGA Villa 12 HST","slug":"stiga-villa-12-hst"},{"name":"Jonsered LT2115","slug":"jonsered-lt2115"}] %}<a class="card" href="maskinarkiv/{{ item.slug }}.html">{{ item.name }} →</a>{% endfor %}</body></html>
