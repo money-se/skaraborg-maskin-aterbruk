@@ -50,7 +50,7 @@ def render(ad, url):
     ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
     gallery = '<div class="gallery">' + "".join(f'<img src="{safe(img)}" alt="{safe(title)} – bild {i+1}" loading="lazy">' for i,img in enumerate(images)) + "</div>" if images else ""
     status = "Till salu" if available else "Reserverad / väntande"
-    contact = f'<a class="cta" href="https://m.me/61588383880828" target="_blank" rel="noopener noreferrer">Kontakta oss via Messenger</a>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>"
+    contact = f'<a class="cta" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Kontakta oss på Facebook</a>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>"
     return f"""<!doctype html>
 <html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{safe(page_title)}</title><meta name="description" content="{safe(summary)}">
