@@ -42,3 +42,19 @@ assert.equal(new Set(riderIds).size,riderIds.length,"Rider duplicate IDs");
 for(const [,anchor] of riderHtml.matchAll(/href="#([^"]+)"/g)) assert.ok(riderIds.includes(anchor),"Rider broken anchor: "+anchor);
 assert.equal((riderHtml.match(/<section\b/g)||[]).length,(riderHtml.match(/<\/section>/g)||[]).length,"Rider section tags unbalanced");
 console.log("MASKINARKIV_2_RIDER=PASS; chapters="+rider.chapters.length+"; sources="+rider.sources.length);
+
+
+const lth=JSON.parse(fs.readFileSync("src/_data/machines/husqvarna-lth151.json","utf8"));
+const lthPath="../_maskinarkiv-preview/maskinarkiv/husqvarna-lth151.html";
+assert.ok(fs.existsSync(lthPath),"LTH151 output missing");
+const lthHtml=fs.readFileSync(lthPath,"utf8");
+assert.equal(lth.chapters.length,14);
+assert.equal(lth.sources.length,4);
+for(const chapter of lth.chapters)assert.ok(lthHtml.includes('id="'+chapter.id+'"'),"LTH151 chapter missing: "+chapter.id);
+const lthIds=[...lthHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(new Set(lthIds).size,lthIds.length,"LTH151 duplicate IDs");
+for(const [,anchor] of lthHtml.matchAll(/href="#([^"]+)"/g))assert.ok(lthIds.includes(anchor),"LTH151 broken anchor: "+anchor);
+assert.equal((lthHtml.match(/<section\b/g)||[]).length,(lthHtml.match(/<\/section>/g)||[]).length,"LTH151 section tags unbalanced");
+assert.ok(lthHtml.includes('href="/tradera.html"'));
+assert.equal((lthHtml.match(/class="source-record"/g)||[]).length,lth.sources.length);
+console.log("MASKINARKIV_2_LTH151=PASS");
