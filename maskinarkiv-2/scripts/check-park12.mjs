@@ -8,7 +8,7 @@ const html=fs.readFileSync(file,"utf8");
 assert.equal(model.chapters.length,16);
 assert.ok(model.sources.length>=22);
 const deck=model.chapters.find(c=>c.id==="aggregat").blocks.map(b=>b.html||"").join("");
-for(const text of ["13-2919-92","13-2918-92","1134-2082-01"]) assert.ok(deck.includes(text),"Deck catalogue details missing: "+text);
+for(const text of ["13-2919-92","13-2918-92","1134-2082-01","1134-9006-01","1134-9011-01","Felsöka aggregatet utan att gissa reservdel"]) assert.ok(deck.includes(text),"Deck catalogue details missing: "+text);
 for(const section of ["identifiering","aggregat","reservdelar"]) assert.ok(model.chapters.find(c=>c.id===section)?.blocks.some(b=>(b.html||"").includes("<h3>")),"Missing beginner guide: "+section);
 const troubleshooting=model.chapters.find(c=>c.id==="felsokning").blocks.map(b=>b.html||"").join("");
 for(const anchor of ["fel-helt-tyst","fel-snurrar","fel-stannar","fel-ingen-drivning","fel-klippning"]) assert.ok(troubleshooting.includes('id="'+anchor+'"'),"Missing symptom branch: "+anchor);
