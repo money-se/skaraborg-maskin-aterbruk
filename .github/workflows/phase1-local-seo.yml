@@ -1,0 +1,38 @@
+name: Fas 1 - lokala SEO-sidor
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/phase1_local_seo.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: phase1-local-seo
+  cancel-in-progress: false
+jobs:
+  improve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Update and verify local pages
+        run: |
+          python -m py_compile scripts/phase1_local_seo.py
+          python scripts/phase1_local_seo.py
+          git diff --check
+          git diff --stat
+      - name: Commit verified changes
+        run: |
+          git add -- '*.html'
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Improve canonical, linking and written contact on local pages"
+          git pull --rebase origin main
+          git push origin main
