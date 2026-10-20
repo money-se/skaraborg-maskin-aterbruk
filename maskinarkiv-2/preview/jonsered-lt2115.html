@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Jonsered LT2115 – enkel guide från nybörjare till tekniska detaljer | Maskinarkivet</title>
+<meta name="description" content="Jonsered LT2115 förklarad från grunden: motor, remmar, hydrostat, klippbord, elsystem och reservdelar – med enkla förklaringar och tekniska fakta för den som vill gå djupare.">
+
+<link rel="stylesheet" href="https://skaraborgmaskin.se/maskinarkiv/maskinarkiv-v6.css">
+<meta name="robots" content="noindex,nofollow"></head><body><!--
+  Viktigt: Alla fullstandiga HTML-sidor som laddar denna header ska ha:
+  <meta charset="UTF-8">
+  sa tidigt som mojligt i <head>.
+  Synlig text nedan anvander HTML-entiteter for att svenska tecken ska visas korrekt.
+-->
+<header class="smar-site-header">
+  <style>
+    .smar-site-header{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      background:rgba(255,255,255,.97);
+      backdrop-filter:blur(12px);
+      -webkit-backdrop-filter:blur(12px);
+      border-bottom:1px solid #dfe6df;
+      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    }
+
+    .smar-header-wrap{
+      width:min(100% - 40px,1220px);
+      min-height:76px;
+      margin-inline:auto;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+
+    .smar-brand{
+      color:#142017;
+      text-decoration:none;
+      font-weight:950;
+      letter-spacing:.01em;
+      line-height:1.08;
+      white-space:nowrap;
+    }
+
+    .smar-brand-name{
+      display:block;
+      font-size:17px;
+    }
+
+    .smar-brand-sub{
+      display:block;
+      margin-top:5px;
+      color:#68766b;
+      font-size:11px;
+      font-weight:750;
+      letter-spacing:.045em;
+    }
+
+    .smar-nav{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:2px;
+    }
+
+    .smar-nav a{
+      position:relative;
+      padding:10px 9px;
+      border-radius:10px;
+      color:#1d2b20;
+      text-decoration:none;
+      font-size:13px;
+      font-weight:780;
+      white-space:nowrap;
+    }
+
+    .smar-nav a:hover,
+    .smar-nav a:focus-visible{
+      background:#eaf1ea;
+      outline:none;
+    }
+
+    .smar-nav a[aria-current="page"]{
+      background:#eaf1ea;
+      color:#142317;
+    }
+
+    .smar-nav .smar-dodsbo{
+      color:#6b4d12;
+    }
+
+    .smar-nav .smar-dack{
+      color:#73540d;
+    }
+
+    .smar-nav .smar-facebook{
+      color:#405c44;
+    }
+
+    .smar-nav .smar-contact{
+      margin-left:5px;
+      padding:10px 14px;
+      background:#142317;
+      color:#fff;
+    }
+
+    .smar-nav .smar-contact:hover,
+    .smar-nav .smar-contact:focus-visible,
+    .smar-nav .smar-contact[aria-current="page"]{
+      background:#2b4930;
+      color:#fff;
+    }
+
+    .smar-menu-toggle{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
+    }
+
+    .smar-menu-button{
+      display:none;
+      width:44px;
+      height:44px;
+      padding:0;
+      border:1px solid #d7dfd8;
+      border-radius:11px;
+      background:#fff;
+      color:#142017;
+      cursor:pointer;
+      font-size:23px;
+      line-height:1;
+      user-select:none;
+    }
+
+    .smar-menu-close{display:none}
+
+    .smar-menu-text{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
+    }
+
+    @media(max-width:1180px){
+      .smar-brand-name{font-size:16px}
+      .smar-nav a{padding-inline:7px;font-size:12px}
+    }
+
+    @media(max-width:1080px){
+      .smar-header-wrap{
+        position:relative;
+        min-height:70px;
+      }
+
+      .smar-menu-button{
+        display:grid;
+        place-items:center;
+      }
+
+      .smar-nav{
+        display:none;
+        position:absolute;
+        top:calc(100% + 1px);
+        left:-20px;
+        right:-20px;
+        max-height:calc(100vh - 72px);
+        overflow:auto;
+        padding:10px 20px 16px;
+        background:#fff;
+        border-bottom:1px solid #dfe6df;
+        box-shadow:0 16px 34px rgba(20,35,23,.12);
+        flex-direction:column;
+        align-items:stretch;
+      }
+
+      .smar-menu-toggle:checked ~ .smar-nav{display:flex}
+
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-open{display:none}
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-close{display:inline}
+
+      .smar-menu-toggle:focus-visible + .smar-menu-button{
+        outline:3px solid rgba(20,35,23,.25);
+        outline-offset:3px;
+      }
+
+      .smar-nav a{
+        padding:10px 12px;
+        font-size:14px;
+      }
+
+      .smar-nav .smar-contact{
+        margin:6px 0 0;
+        text-align:center;
+      }
+    }
+
+    @media(max-width:520px){
+      .smar-header-wrap{
+        width:min(100% - 28px,1220px);
+      }
+
+      .smar-nav{
+        left:-14px;
+        right:-14px;
+        padding-inline:14px;
+      }
+
+      .smar-brand-name{font-size:14px}
+      .smar-brand-sub{font-size:9.5px}
+    }
+  </style>
+
+  <div class="smar-header-wrap">
+    <a class="smar-brand" href="https://skaraborgmaskin.se/index.html" aria-label="Skaraborg Maskin & &Aring;terbruk &#8211; startsida">
+      <span class="smar-brand-name">Skaraborg Maskin &amp; &Aring;terbruk</span>
+      <span class="smar-brand-sub">Vi k&ouml;per &#8226; h&auml;mtar &#8226; &aring;terbrukar</span>
+    </a>
+
+    <input
+      class="smar-menu-toggle"
+      type="checkbox"
+      id="smar-menu-toggle"
+      aria-label="&Ouml;ppna eller st&auml;ng meny">
+
+    <label
+      class="smar-menu-button"
+      for="smar-menu-toggle"
+      aria-controls="smar-main-nav">
+      <span class="smar-menu-open" aria-hidden="true">&#9776;</span>
+      <span class="smar-menu-close" aria-hidden="true">&#215;</span>
+      <span class="smar-menu-text">Meny</span>
+    </label>
+
+    <nav class="smar-nav" id="smar-main-nav" aria-label="Huvudmeny">
+      <a href="https://skaraborgmaskin.se/index.html">Hem</a>
+      <a href="https://skaraborgmaskin.se/kop-maskiner.html">Vi k&ouml;per</a>
+      <a href="https://skaraborgmaskin.se/aterbruk.html">&Aring;terbruk</a>
+      <a class="smar-dodsbo" href="https://skaraborgmaskin.se/dodsbo-utrensning.html">D&ouml;dsbo</a>
+      <a class="smar-dack" href="https://skaraborgmaskin.se/dack-hamtning.html">D&auml;ckh&auml;mtning</a>
+      <a href="https://skaraborgmaskin.se/skrot-hamtning.html">Skroth&auml;mtning</a>
+      <a href="https://skaraborgmaskin.se/sa-funkar-det.html">S&aring; fungerar det</a>
+      <a href="https://skaraborgmaskin.se/till-salu.html">Till salu</a>
+      <a href="https://skaraborgmaskin.se/foretag.html">F&ouml;retag</a>
+      <a href="https://skaraborgmaskin.se/om-oss.html">Om oss</a>
+      <a href="https://skaraborgmaskin.se/faq.html">FAQ</a>
+      <a class="smar-facebook"
+         href="https://www.facebook.com/profile.php?id=61588383880828"
+         target="_blank"
+         rel="noopener noreferrer">Facebook</a>
+      <a class="smar-contact" href="https://skaraborgmaskin.se/kontakt.html">Kontakta oss</a>
+    </nav>
+  </div>
+</header>
+
+
+<header class="hero"><div class="wrap"><div class="crumb"><a href="https://skaraborgmaskin.se/">Hem</a> · <a href="https://skaraborgmaskin.se/maskinarkivet.html">Maskinarkivet</a> · Jonsered LT2115</div><div class="eyebrow">Maskinarkivet · Jonsered</div><h1>Jonsered LT2115</h1><p class="hero-lead">Lär känna Jonsered LT2115 från grunden: hur den körs, hur knivarna klipper gräset och vad du kan kontrollera när något inte fungerar. Vi visar också hur du hittar rätt reservdelar.</p><div class="hero-meta"><span>LT2115 / LT2115A</span><span>36 &amp; 42 tum förekommer</span><span>Kohler SV470 dokumenterad</span><span>Hydro-Gear dokumenterad</span></div></div></header><main id="main" class="wrap layout"><aside class="toc" aria-label="Innehållsförteckning"><div class="toc-title">På den här sidan</div><a href="#oversikt">Översikt</a><a href="#familj">Modellfamiljen</a><a href="#variantguide">Modellversioner</a><a href="#id">Identifiering</a><a href="#motor">Motor</a><a href="#motorschema">Motorns serviceintervall</a><a href="#trans">Transmission</a><a href="#drivning">Drivsystem</a><a href="#reglage">Reglage</a><a href="#deck">Klippaggregat</a><a href="#spindlar">Spindlar och knivar</a><a href="#lyft">Klipphöjd och lyft</a><a href="#manualgrans">Manual och säkerhet</a><a href="#el">Elsystem</a><a href="#start">Startproblem</a><a href="#service">Service</a><a href="#ipl">Reservdelskatalog</a><a href="#delar">Reservdelar</a><a href="#kop">Köpråd</a><a href="#ordlista">Ordlista</a><a href="#faq">Vanliga frågor</a><a href="#aterbruk">Återbruk</a><a href="#tradera">Tradera</a><a href="#kallor">Källor och manualer</a></aside><article class="article"><details class="mobile-toc"><summary>Innehåll – välj kapitel</summary><nav aria-label="Kapitel"><a href="#oversikt">Översikt</a><a href="#familj">Modellfamiljen</a><a href="#variantguide">Modellversioner</a><a href="#id">Identifiering</a><a href="#motor">Motor</a><a href="#motorschema">Motorns serviceintervall</a><a href="#trans">Transmission</a><a href="#drivning">Drivsystem</a><a href="#reglage">Reglage</a><a href="#deck">Klippaggregat</a><a href="#spindlar">Spindlar och knivar</a><a href="#lyft">Klipphöjd och lyft</a><a href="#manualgrans">Manual och säkerhet</a><a href="#el">Elsystem</a><a href="#start">Startproblem</a><a href="#service">Service</a><a href="#ipl">Reservdelskatalog</a><a href="#delar">Reservdelar</a><a href="#kop">Köpråd</a><a href="#ordlista">Ordlista</a><a href="#faq">Vanliga frågor</a><a href="#aterbruk">Återbruk</a><a href="#tradera">Tradera</a><a href="#kallor">Källor och manualer</a></nav></details><section id="oversikt"><div class="chapter">01 · Översikt</div><h2>Vad är Jonsered LT2115?</h2>
+
+<div class="simple">
+  <span class="simple-label">Först: superenkelt</span>
+  <strong class="big">Det här är en åkgräsklippare du sitter på.</strong>
+  <p>Motorn gör kraft. En rem flyttar kraften. Växellådan bestämmer hur fort du kör. Klippbordet under maskinen har knivar som klipper gräset.</p>
+  <div class="child-example"><b>Tänk så här:</b> ungefär som en trampbil med motor – fast motorn både får maskinen att köra och får knivarna att snurra.</div>
+</div><p class="intro">Dokumentationen visar flera produktrevisioner. Därför kan två traktorer med LT2115 på huven behöva olika delar.</p><p>En äldre LT2115/J2115A finns katalogiserad som <strong>954130210</strong>. En senare LT2115A är dokumenterad som <strong>96011018200</strong>, produktnummer <strong>960 11 01-82</strong>, med reservdelskatalog daterad 2006-03.</p><div class="answer"><small>Viktigaste regeln</small><strong>Beställ inte delar på “LT2115” ensamt.</strong><p>Produktnumret på märkplåten är nyckeln till rätt reservdelskatalog.</p></div></section><section id="familj"><div class="chapter">02 · Modellversioner</div><h2>36 och 42 tum förekommer</h2><div class="table-scroll" role="region" aria-label="LT2115, dokumenterade klippbredder" tabindex="0"><table class="table"><tr><th>Version</th><th>Dokumenterat</th></tr><tr><td>LT2115 / 954130210</td><td>36-tums klippbord</td></tr><tr><td>LT2115A / 96011018200</td><td>42-tums klippbord, cirka 107 cm</td></tr><tr><td>LT2115CM m.fl.</td><td>Separata beteckningar förekommer och ska inte automatiskt blandas ihop</td></tr></table></div>
+<p>Utöver 954130210 och 96011018200 finns även separata LT2115A-revisioner som
+<strong>960110008-01</strong> och <strong>960110124-00</strong> dokumenterade i reservdelsregister.
+Det förstärker bilden av LT2115 som en familj där produktnumret är viktigare än huvens modellnamn.</p>
+<div class="note"><b>Årsmodell</b> Dokumentdatum hjälper oss placera revisionen men är inte automatiskt maskinens exakta tillverkningsdatum.</div></section><section id="variantguide"><div class="chapter">03 · Modellversioner</div><h2>Fyra dokumenterade LT2115-utföranden – jämför rätt nummer</h2>
+<p class="intro">LT2115, LT2115A, LT2115CM och LT2115CMA är inte utbytbara namn på samma maskin. I reservdelskataloger från 2006 dokumenteras olika växellådor och två typer av klippaggregat. Tabellen gäller <strong>exakt angivna produktnummer</strong>, inte alla maskiner som bär samma namn.</p>
+<div class="table-scroll" role="region" aria-label="Jämförelse av LT2115-versioner" tabindex="0"><table class="table"><thead><tr><th>Modell / produktnummer</th><th>Motor i IPL</th><th>Transmission</th><th>Klippaggregat</th><th>Reservdelskatalog</th></tr></thead><tbody>
+<tr><td><strong>LT2115</strong><br>96011018100*</td><td>Kohler SV470</td><td>Peerless 206-545C (mekanisk)</td><td>42 tum, cirka 107 cm</td><td>544 46 75-01, 2006-05</td></tr>
+<tr><td><strong>LT2115A</strong><br>96011018200</td><td>Kohler SV470</td><td>Hydro-Gear 322-0510 (hydrostat)</td><td>42 tum, cirka 107 cm</td><td>544 40 90-01, 2006-03</td></tr>
+<tr><td><strong>LT2115CM</strong><br>96061008101</td><td>Kohler SV470</td><td>Peerless 206-546 (mekanisk)</td><td>92 cm, uppsamlarutförande</td><td>544 46 78-01, 2006-05</td></tr>
+<tr><td><strong>LT2115CMA</strong><br>96061008301</td><td>Kohler SV470</td><td>Hydro-Gear 321-0510 (hydrostat)</td><td>92 cm, uppsamlarutförande</td><td>544 88 89-01, 2006-06</td></tr>
+</tbody></table></div>
+<div class="note"><b>*Källkonflikt i LT2115-katalogen</b> Framsida och reservdelsavsnitt använder främst 96011018100, men samma katalog har också textraderna 96011011800 och 960 11 01-812. Vi kan inte säkert avgöra vilken av dessa som är en tryckavvikelse. Kontrollera alltid den fysiska märkplåten och rätt dokumentrevision före beställning.</div>
+<h3>Vad betyder skillnaden i praktiken?</h3><p>En <strong>mekanisk växellåda</strong> har valbara växellägen. En <strong>hydrostat</strong> reglerar körhastigheten steglöst. Det påverkar körkänslan och vilka reservdelar som behövs. Även klippaggregatens konstruktion skiljer sig: ett 42-tums sidoutkastaggregat ska inte behandlas som samma system som ett 92 cm uppsamlaraggregat.</p>
+<h3>Finns fler produktnummer?</h3><p>Ja. Reservdelsregister nämner bland annat LT2115 96011000702 och 96011012200; LT2115A 96011012500; LT2115CM 96061000900, 96061000902, 96061008000, 96061008001 och 96061008100; samt LT2115CMA 96061008300. Deras kompletta motor-, växellåds- och aggregatkombinationer är <strong>inte verifierade här</strong>. De får inte automatiskt ärva uppgifterna i tabellen.</p>
+<h3>Tre reservdelsfällor</h3>
+<p><strong>Remmar:</strong> LT2115 96011018100 har klipprem 532 18 02-15 enligt sin IPL, medan LT2115CMA 96061008301 har klipprem 532 40 20-08. Samma modellfamilj innebär inte samma rem.</p>
+<p><strong>Knivar:</strong> för LT2115CMA redovisar reservdelskatalogen standardknivar (vänster 532 18 63-85, höger 532 18 63-86) och separata så kallade cross blades (vänster 532 18 63-87, höger 532 18 63-88). Det är <strong>inte</strong> ett besked om att systemen kan blandas eller att en viss maskin har båda.</p>
+<p><strong>Transaxel:</strong> LT2115A:s Hydro-Gear 322-0510 är inte samma dokumenterade enhet som LT2115CMA:s Hydro-Gear 321-0510. Läs märkningen på den egna maskinen.</p>
+<div class="answer"><small>Ordningen som minskar felköp</small><strong>Maskinskylt → produktnummer → rätt IPL → motormärkning → delnummer</strong><p>Kontrollera dessutom klippaggregatets identitet och jämför fysisk del innan beställning. Katalogens delnummer garanterar inte dagens lagerstatus eller kompatibilitet efter ett motor- eller komponentbyte.</p></div></section><section id="id"><div class="chapter">04 · Identifiering</div><h2>Så identifierar du rätt maskin</h2><div class="steps"><div class="step"><strong>Hitta märkplåten</strong><span>Fotografera hela modell-/produktnumret och serienumret.</span></div><div class="step"><strong>Kontrollera klippbordet</strong><span>36 och 42 tum är dokumenterade inom familjen.</span></div><div class="step"><strong>Läs motorns märkning</strong><span>Motor kan skilja mellan revisioner eller ha bytts.</span></div><div class="step"><strong>Identifiera transaxeln</strong><span>Fotografera märkningen innan transmissionsdelar beställs.</span></div><div class="step"><strong>Matcha rätt IPL</strong><span>Produktnumret ska stämma mot reservdelskatalogen.</span></div></div></section><section id="motor"><div class="chapter">05 · Motor</div><h2>Kohler SV470 på LT2115A 96011018200</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad är motorn?</span>
+  <strong class="big">Motorn är maskinens kraftkälla.</strong>
+  <p>Den bränner bensin och börjar snurra. Det är den snurrande kraften som sedan används både för att köra framåt och för att driva klippknivarna.</p>
+  <div class="child-example"><b>Tänk så här:</b> motorn är som musklerna i kroppen. Utan muskler händer ingenting.</div>
+</div><p>Reservdelsunderlaget för <strong>LT2115A 96011018200</strong> identifierar motorn som <strong>Kohler SV470</strong>.</p><div class="facts"><div class="row"><b>Maskin</b><span>Jonsered LT2115A</span></div><div class="row"><b>Produktnummer</b><span>96011018200 / 960 11 01-82</span></div><div class="row"><b>Motor</b><span>Kohler SV470 enligt underlaget</span></div></div><div class="note"><b>Gäller inte automatiskt alla LT2115</b> Kontrollera motorns egen märkning när motorreservdelar ska beställas.</div></section><section id="motorschema"><div class="chapter">06 · Motor</div><h2>SV470: serviceuppgifter som behöver rätt motoridentitet</h2>
+<p>Reservdelskatalogerna ovan nämner Kohler SV470. Motorservice ska ändå utgå från motorns egen modell-/specifikationsmärkning. Kohlers servicehandbok för <strong>SV470–SV620</strong>, dokument <strong>20 690 01 Rev. J</strong>, ger bland annat nedanstående intervall. Detta är <strong>motorfamiljens</strong> schema, inte en universell serviceplan för hela LT2115-traktorn.</p>
+<div class="table-scroll" role="region" aria-label="Kohlers serviceschema" tabindex="0"><table class="table"><thead><tr><th>Motorarbete</th><th>Ordinarie intervall i handboken</th></tr></thead><tbody>
+<tr><td>Förfilter</td><td>25 drifttimmar eller årligen</td></tr><tr><td>Motorolja och oljefilter</td><td>100 drifttimmar eller årligen</td></tr><tr><td>Rengöring av kylområden</td><td>100 drifttimmar eller årligen</td></tr><tr><td>Bränslefilter</td><td>100 drifttimmar</td></tr><tr><td>Ventilspel</td><td>Kontroll vid 200 drifttimmar, verkstadsarbete</td></tr><tr><td>Tändstift</td><td>500 drifttimmar</td></tr></tbody></table></div>
+<p>Handboken anger en oljepåfyllningskapacitet omkring <strong>1,5 liter</strong> för den dokumenterade motorfamiljen. Fyll inte blint efter en siffra: kontrollera oljestickan enligt instruktionen. Oljans viskositet ska väljas efter temperatur och handbokens krav. Tätare service kan behövas vid dammiga arbetsförhållanden.</p>
+<div class="note"><b>300 timmar gäller inte generellt</b> En särskild uppgift i en senare Kohler-revision om 300-timmars oljebyte gäller endast med angiven KOHLER PRO 10W-50-olja och motsvarande PRO-filter. Den ska inte uppfattas som standardråd för en äldre Jonsered.</div></section><section id="trans"><div class="chapter">07 · Drivning</div><h2>Hydro-Gear 322-0510 på den dokumenterade LT2115A</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad är en hydrostat?</span>
+  <strong class="big">Hydrostaten är ungefär maskinens automatiska växellåda.</strong>
+  <p>Den tar emot kraft från motorn och bestämmer hur snabbt bakhjulen ska driva framåt eller bakåt.</p>
+  <div class="child-example"><b>Tänk så här:</b> motorn säger “här kommer kraft”, hydrostaten säger “bra – jag skickar lagom mycket till hjulen”.</div>
+</div><p>LT2115A-revisionen 96011018200 är dokumenterad med hydrostatisk <strong>Hydro-Gear 322-0510</strong>-transaxel.</p><div class="cards"><div class="card"><b>Typ</b> Hydrostatisk transaxel</div><div class="card"><b>Enhet</b> Hydro-Gear 322-0510</div></div><p>Identifiera ändå transaxeln på den faktiska maskinen före beställning. På äldre maskiner kan komponenter ha bytts.</p><div class="note"><b>Felsök hela drivsystemet</b> Svag drivning betyder inte automatiskt att hydrostaten är slut. Drivrem, remstyrning och länkage är också relevanta kontrollpunkter.</div></section><section id="drivning"><div class="chapter">08 · Drivning</div><h2>Från motor till bakhjul – hydrostaten är bara en del</h2>
+<p>Reservdelskatalogen för LT2115A 96011018200 visar att drivningen består av flera externa delar före själva transaxeln: motorremskiva, drivrem, remstyrningar, momentstag, fjädrar och länkage.</p>
+<div class="system-flow">
+<div class="flow"><strong>1. Motor</strong><br><span>Skapar rotation.</span></div>
+<div class="flow"><strong>2. Motorremskiva</strong><br><span>Överför kraft till drivremmen.</span></div>
+<div class="flow"><strong>3. Ground-drive belt</strong><br><span>För kraften vidare till hydrostaten.</span></div>
+<div class="flow"><strong>4. Hydro-Gear 322-0510</strong><br><span>Reglerar fram- och backdrift.</span></div>
+<div class="flow"><strong>5. Bakhjul</strong><br><span>Driver traktorn.</span></div>
+</div>
+<p>För den dokumenterade revisionen finns drivrem <strong>532 14 02-94</strong> angiven i drivsystemets reservdelsunderlag.</p>
+<div class="note"><b>Felsökningslärdom</b> Svag drivning behöver inte automatiskt betyda att hydrostaten är slut. Sliten drivrem, felaktig remstyrning eller problem i länkaget är också relevanta kontrollområden.</div>
+</section><section id="reglage"><div class="chapter">09 · Styrning & reglage</div><h2>Pedalen arbetar genom ett mekaniskt länkage</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad händer när du trycker på pedalen?</span>
+  <strong class="big">Pedalen drar och flyttar små mekaniska delar.</strong>
+  <p>Pedalen påverkar länkar och axlar som i sin tur säger åt hydrostaten hur maskinen ska köra.</p>
+</div>
+<p>Hydrostatens reglage är inte bara en pedal direkt på transmissionen. IPL:n visar tväraxel, länkar, fjädrar och infästningar mellan förarens reglage och transaxeln.</p>
+<p>Det betyder att problem med neutralposition, full slaglängd eller trög reglering kan behöva bedömas i hela reglagekedjan innan själva hydrostaten misstänks.</p>
+<div class="note"><b>Justering</b> Exakta justeringsmått och procedurer ska följas från rätt manual för produktrevisionen. Här beskriver vi systemets uppbyggnad, inte en universell justering.</div>
+</section><section id="deck"><div class="chapter">10 · Klippaggregat</div><h2>Modellnamnet räcker inte för knivar och remmar</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad är klippbordet?</span>
+  <strong class="big">Det är den stora delen under maskinen där knivarna sitter.</strong>
+  <p>Remmen får knivarna att snurra inne i klippbordet. När maskinen kör över gräset skär knivarna av det.</p>
+  <div class="child-example"><b>Tänk så här:</b> klippbordet är som ett skyddande skal runt två väldigt snabbt snurrande saxar.</div>
+</div><p>42-tumsbordet för 96011018200 är dokumenterat som tvåspindligt/tvåknivigt. I IPL:n finns bland annat komplett deck <strong>532 16 58-92</strong>, kniv <strong>532 13 41-49</strong>, spindelaxel <strong>532 13 76-45</strong>, spindelhus <strong>532 12 87-74</strong>, lager <strong>532 11 04-85</strong> och remskiva <strong>532 15 35-35</strong>.</p><p>Den äldre 954130210-versionen har däremot 36-tumsbord. Därför ska artikelnumren ovan inte användas generellt för LT2115.</p><div class="answer"><small>Reservdelsprincip</small><strong>Produktnummer → IPL → artikelnummer.</strong><p>Det är säkrare än att söka på “rem Jonsered LT2115”.</p></div></section><section id="spindlar"><div class="chapter">11 · Klippaggregat</div><h2>Så hänger 42-tumsbordet ihop</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad är en spindel?</span>
+  <strong class="big">Spindeln är axeln som kniven snurrar på.</strong>
+  <p>Ovanpå spindeln sitter en remskiva. Under spindeln sitter kniven. När remmen snurrar remskivan snurrar också axeln och kniven.</p>
+  <div class="child-example"><b>Superkort:</b> rem → remskiva → axel → kniv.</div>
+</div>
+<p>På 42-tumsbordet för 96011018200 visar IPL:n två spindelenheter. Varje spindel består av flera delar som tillsammans överför remmens rotation till kniven.</p>
+<div class="system-flow">
+<div class="flow"><strong>Spindelhus</strong><br><span>Bär lager och axel.</span></div>
+<div class="flow"><strong>Lager</strong><br><span>Låter spindelaxeln rotera.</span></div>
+<div class="flow"><strong>Spindelaxel</strong><br><span>För rotation mellan remskiva och kniv.</span></div>
+<div class="flow"><strong>Remskiva</strong><br><span>Tar emot kraft från klippremmen.</span></div>
+<div class="flow"><strong>Kniv</strong><br><span>Utför själva klippningen.</span></div>
+</div>
+<div class="facts">
+<div class="row"><b>Komplett deck</b><span>532 16 58-92</span></div>
+<div class="row"><b>Kniv</b><span>532 13 41-49</span></div>
+<div class="row"><b>Spindelaxel</b><span>532 13 76-45</span></div>
+<div class="row"><b>Spindelhus</b><span>532 12 87-74</span></div>
+<div class="row"><b>Spindellager</b><span>532 11 04-85</span></div>
+<div class="row"><b>Spindelremskiva</b><span>532 15 35-35</span></div>
+</div>
+<div class="note"><b>Versionsbundet</b> Artikelnumren ovan hör till det dokumenterade 42-tumsunderlaget och ska inte automatiskt användas på äldre 36-tums LT2115.</div>
+</section><section id="lyft"><div class="chapter">12 · Klippaggregat</div><h2>Ojämn klippning handlar inte bara om knivarna</h2>
+<p>Reservdelskatalogen behandlar klippbord och lyftsystem som separata mekaniska grupper. Bordets upphängning, lyftlänkar och position påverkar därför också hur klippaggregatet arbetar.</p>
+<p>Vid ojämn klippning är det relevant att kontrollera hela bordets upphängning och mekanik – inte bara byta knivar.</p>
+</section><section id="manualgrans"><div class="chapter">13 · Säkerhet</div><h2>Uppsamlarsystem, brytare och säker identifiering</h2>
+<p>LT2115CM:s reservdelslista och elschema visar särskilda komponenter för uppsamlarsystemet, bland annat en interlock-brytare och en summer. LT2115CMA-katalogen visar också komponenter knutna till uppsamlarutförandet. Delarnas förekomst visar <em>att system finns</em>, men fastställer inte alla start-, stopp- eller backningsvillkor.</p>
+<p>Om maskinen inte reagerar vid start: börja med de normala startvillkoren i bruksanvisningen för just ditt utförande. Koppla aldrig förbi sätes-, broms- eller aggregatsäkerhetsfunktioner. Vid service: stäng av maskinen, ta ur nyckeln och följ motormanualens instruktioner om tändkabel och batteri.</p>
+<h3>Vilken bruksanvisning gäller?</h3><p>Separata bruksanvisningar har hittats för LT2115 respektive LT2115CM. De anger bland annat <strong>1,0 bar fram</strong> och <strong>0,8 bar bak</strong> i sina respektive dokument. Manualernas exakta koppling till alla produktnummer är dock inte fastställd: använd inte däcktrycken som universella värden för varje LT2115-version utan att identifiera rätt förarmanual.</p>
+<p>Undvik också att tolka katalogdatumet 2006 som exakt tillverkningsår eller att beskriva kontrollpunkter för en begagnad maskin som statistiskt dokumenterade ”typfel”.</p></section><section id="el"><div class="chapter">14 · Säkerhet</div><h2>Startkedjan innehåller flera säkerhetsfunktioner</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad gör elen?</span>
+  <strong class="big">Elen hjälper maskinen att starta och kontrollerar att den används säkert.</strong>
+  <p>Batteriet ger ström. Tändningslåset skickar en startsignal. Solenoiden kopplar in startmotorn. Säkerhetsbrytare kontrollerar att maskinen står rätt innan den får starta.</p>
+</div><p>Elschemat för LT2115A dokumenterar bland annat batteri, startmotor, solenoid, tändningslås, säkring, sätesbrytare, kopplings-/bromsbrytare, redskapskoppling och backrelaterad brytare. Laddsystem och bränsleavstängningssolenoid förekommer också i underlaget.</p><div class="note"><b>Säkerhet</b> Om maskinen inte startar ska rätt elschema följas. Säkerhetsbrytare ska inte kringgås som permanent lösning.</div></section><section id="start"><div class="chapter">15 · Felsökning</div><h2>Varför kan startmotorn vara helt tyst trots bra batteri?</h2>
+
+<div class="simple">
+  <span class="simple-label">Varför händer ibland ingenting när du vrider på nyckeln?</span>
+  <strong class="big">Maskinen frågar först: “Är det säkert att starta?”</strong>
+  <p>Om exempelvis en säkerhetsbrytare säger nej kan startmotorn vara helt tyst även om både batteri och startmotor fungerar.</p>
+</div>
+<p>Elschemat visar att startkommandot passerar flera komponenter och säkerhetsvillkor innan startmotorn får arbeta.</p>
+<div class="system-flow">
+<div class="flow"><strong>1. Batteri och säkring</strong><br><span>Grundspänning måste finnas.</span></div>
+<div class="flow"><strong>2. Tändningslås</strong><br><span>Föraren begär start.</span></div>
+<div class="flow"><strong>3. Säkerhetsbrytare</strong><br><span>Maskinen måste stå i avsett startläge.</span></div>
+<div class="flow"><strong>4. Startsolenoid</strong><br><span>Kopplar hög ström till startmotorn.</span></div>
+<div class="flow"><strong>5. Startmotor</strong><br><span>Drar runt motorn.</span></div>
+</div>
+<div class="note"><b>Säkerhet</b> Säkerhetsbrytare ska inte permanent kopplas förbi. Felsök enligt rätt elschema för revisionen.</div>
+</section><section id="service"><div class="chapter">16 · Service & underhåll</div><h2>Rätt manual är en del av själva servicen</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad betyder service?</span>
+  <strong class="big">Att ta hand om maskinen innan saker går sönder.</strong>
+  <p>Det betyder bland annat att kontrollera olja, filter, remmar, knivar, lager, batteri och rörliga delar.</p>
+</div>
+<p>Eftersom LT2115 finns i flera revisioner är ett enda generellt serviceschema för hela modellfamiljen mindre tillförlitligt. Motorn ska servas enligt rätt motoridentitet och traktorn enligt rätt bruksanvisning.</p>
+<div class="use-list">
+<div class="use"><strong>Motor</strong> Olja, luftfilter, tändsystem och kylning enligt rätt motormanual.</div>
+<div class="use"><strong>Drivsystem</strong> Kontrollera drivrem, remstyrning, länkar och transmissionens märkning.</div>
+<div class="use"><strong>Klippbord</strong> Kontrollera rem, knivar, spindlar, lager och infästningar.</div>
+<div class="use"><strong>Elsystem</strong> Kontrollera batteri, säkring, anslutningar och säkerhetsfunktioner.</div>
+<div class="use"><strong>Styrning & chassi</strong> Kontrollera glapp, hjul och rörliga leder.</div>
+</div>
+</section><section id="ipl"><div class="chapter">17 · Reservdelar</div><h2>Så använder du en IPL steg för steg</h2>
+
+<div class="simple">
+  <span class="simple-label">Vad är en IPL?</span>
+  <strong class="big">Det är en ritning där maskinen är isärplockad på papper.</strong>
+  <p>Du ser varje liten del, får ett nummer på den och kan sedan hitta rätt reservdelsnummer.</p>
+  <div class="child-example"><b>Tänk så här:</b> som LEGO-instruktioner för en åkgräsklippare.</div>
+</div>
+<p>IPL står för Illustrated Parts List – en illustrerad reservdelslista. För äldre maskiner är den ofta viktigare än en vanlig webbutik eftersom den visar exakt hur delarna hör ihop.</p>
+<div class="steps">
+<div class="step"><strong>Kontrollera produktnumret på katalogen</strong><span>Det ska matcha märkplåten på maskinen.</span></div>
+<div class="step"><strong>Välj rätt sektion</strong><span>Exempelvis Drive, Electrical, Mower Deck eller Lift.</span></div>
+<div class="step"><strong>Hitta delen i sprängskissen</strong><span>Varje komponent har ett positionsnummer.</span></div>
+<div class="step"><strong>Matcha mot reservdelstabellen</strong><span>Där finns artikelnummer och beskrivning.</span></div>
+<div class="step"><strong>Sök sedan på artikelnumret</strong><span>Kontrollera även om originalnumret ersatts av ett nytt.</span></div>
+</div>
+<div class="answer"><small>Exempel</small><strong>“532 13 41-49” är mer exakt än “Jonsered LT2115 kniv”.</strong><p>Artikelnumret knyter sökningen till en dokumenterad reservdel.</p></div>
+</section><section id="delar"><div class="chapter">18 · Reservdelar</div><h2>Produktnumret är din bästa reservdelsnyckel</h2>
+
+<div class="simple">
+  <span class="simple-label">Hur hittar man rätt reservdel?</span>
+  <strong class="big">Först rätt maskin. Sedan rätt ritning. Sedan rätt delnummer.</strong>
+  <p>Hoppar du över första steget kan du lätt köpa en del som ser rätt ut men inte passar.</p>
+</div><p>Slitdelar som knivar, remmar, lager och vissa spindeldelar går ofta att hitta när rätt artikelnummer är känt. Större kaross- och chassidelar kan vara svårare på äldre revisioner.</p><div class="steps"><div class="step"><strong>Läs produktnumret</strong><span>Exempel: 96011018200.</span></div><div class="step"><strong>Öppna rätt IPL</strong><span>Kontrollera att katalogens nummer stämmer.</span></div><div class="step"><strong>Hitta delen i sprängskissen</strong><span>Notera positions- och artikelnummer.</span></div><div class="step"><strong>Sök på artikelnumret</strong><span>Kontrollera eventuella ersättningsnummer och passning.</span></div></div><p>För motorservice bör även motorns egen dokumentation följas. Vi anger därför inte ett enda generiskt serviceintervall som påstås gälla alla LT2115-revisioner.</p></section><section id="kop"><div class="chapter">19 · Köpråd</div><h2>Vad bör kontrolleras före köp?</h2>
+
+<div class="simple">
+  <span class="simple-label">Om du ska köpa en begagnad</span>
+  <strong class="big">Kolla att den startar, kör, styr och klipper.</strong>
+  <p>Titta också efter rost, glapp, oljeläckage, missljud och gamla reparationer.</p>
+</div><p><strong>Märkplåt:</strong> fotografera den först. <strong>Hydrostat:</strong> provkör framåt och bakåt under belastning. <strong>Klippbord:</strong> kontrollera rost, spindelglapp, lagerljud, knivar, remmar och svetsningar. <strong>Motor:</strong> kontrollera kall- och varmstart, rök och läckage. <strong>Elsystem:</strong> kontrollera att start- och säkerhetsfunktioner fungerar.</p><p>Detta är praktiska kontrollpunkter, inte en lista över påstådda typfel för modellen.</p></section><section id="ordlista"><div class="chapter">20 · Ordlista</div><h2>Maskinord på vanlig svenska</h2>
+
+  <div class="simple">
+    <span class="simple-label">Om du aldrig skruvat förut</span>
+    <strong class="big">Här är orden du behöver kunna.</strong>
+    <p>Du behöver inte memorera dem. Använd listan när ett ord dyker upp längre upp på sidan.</p>
+  </div>
+
+  <div class="glossary">
+    <div class="glossary-item"><strong>Motor</strong> Gör kraft genom att bränna bensin.</div>
+    <div class="glossary-item"><strong>Rem</strong> Ett starkt gummiband som flyttar rotation från en del till en annan.</div>
+    <div class="glossary-item"><strong>Remskiva</strong> Ett hjul som remmen ligger runt.</div>
+    <div class="glossary-item"><strong>Hydrostat</strong> En växellåda som låter dig ändra fart steglöst.</div>
+    <div class="glossary-item"><strong>Transaxel</strong> Växellåda och bakaxel byggda som en enhet.</div>
+    <div class="glossary-item"><strong>Klippbord</strong> Den stora kåpan där knivarna sitter.</div>
+    <div class="glossary-item"><strong>Spindel</strong> Axeln som klippkniven sitter på och snurrar runt.</div>
+    <div class="glossary-item"><strong>Lager</strong> Små delar som hjälper en axel att snurra lätt.</div>
+    <div class="glossary-item"><strong>Solenoid</strong> En elektrisk strömbrytare som hjälper startmotorn få mycket ström.</div>
+    <div class="glossary-item"><strong>IPL</strong> En sprängskiss/reservdelskatalog där maskinen visas isärplockad.</div>
+  </div>
+</section><section id="faq"><div class="chapter">21 · Vanliga frågor</div><h2>Vanliga frågor</h2><details><summary>Har alla LT2115 samma klippbord?</summary><p>Nej. Både 36 och 42 tum är dokumenterade inom modellfamiljen.</p></details><details><summary>Vilken motor sitter i LT2115A?</summary><p>Kohler SV470 är dokumenterad för produktnummer 96011018200. Kontrollera den faktiska motormärkningen.</p></details><details><summary>Vilken hydrostat sitter i LT2115A?</summary><p>Hydro-Gear 322-0510 är dokumenterad för 96011018200.</p></details><details><summary>Kan jag köpa rem genom att bara ange LT2115?</summary><p>Det är osäkert eftersom flera produktrevisioner och klippbord finns. Använd produktnummer och rätt IPL.</p></details><details><summary>Var hittar jag rätt reservdelsnummer?</summary><p>I reservdelskatalogen/IPL för maskinens exakta produktnummer.</p></details><details><summary>Vilken drivrem har LT2115A 96011018200?</summary><p>Ground-drive belt 532 14 02-94 finns dokumenterad för drivsystemet på den revisionen.</p></details>
+<details><summary>Hur många knivar har 42-tumsbordet?</summary><p>Det dokumenterade 42-tumsbordet är tvåspindligt och använder två knivar.</p></details>
+<details><summary>Varför kan maskinen driva dåligt trots att hydrostaten fungerar?</summary><p>Drivrem, remstyrningar och länkage är externa delar av drivsystemet och kan påverka drivningen. Exakt felsökning ska göras enligt rätt manual.</p></details>
+</section>
+<section></section><section id="aterbruk" class="archive-reuse" aria-labelledby="h-aterbruk"><div class="chapter">Återbruk</div><h2 id="h-aterbruk">Har du en maskin som blivit stående?</h2><p>Vi är intresserade av begagnade åkgräsklippare och andra maskiner i olika skick. Även trasiga eller ofullständiga maskiner kan vara aktuella efter individuell bedömning.</p><p>Skicka gärna några bilder, ort, skick och eventuellt produktnummer. Vi bedömer varje förfrågan individuellt och kan diskutera hämtning där det är aktuellt.</p><div class="cta"><h3>Vi tar gärna en titt</h3><div class="buttons"><a class="btn" href="https://skaraborgmaskin.se/kop-maskiner.html">Så köper vi maskiner</a><a class="btn alt" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Kontakta oss på Facebook</a></div></div></section><section id="tradera" class="tradera-section" aria-label="Följ våra annonser på Tradera"><div class="tradera-follow"><span class="tradera-eyebrow">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class="tradera-link" href="https://skaraborgmaskin.se/tradera.html">Se våra annonser och fynd <span aria-hidden="true">→</span></a></div></section><section id="kallor" class="source-section"><div class="chapter">22 · Källor &amp; manualer</div><h2>Källor och manualer</h2><p>Vill du läsa originaldokumenten eller kontrollera en uppgift? Öppna rutan nedan. Källorna är dolda tills du väljer att visa dem.</p><details class="source-disclosure"><summary>Visa källor och manualer <span aria-hidden="true">▾</span></summary><div class="source-disclosure-inner"><p>Välj dokument efter produktnumret på din maskin.</p><div class="source-record"><strong>Jonsered LT2115A – IPL / reservdelskatalog, 96011018200</strong> Huvudunderlag för produktnummer, 42-tumsbord, komponenter och elsystem.<br><a href="https://manualmachine.com/jonsered/lt2115a/831171-user-manual/" target="_blank" rel="noopener noreferrer">Öppna källan</a></div><div class="source-record"><strong>Jonsered LT2115A – alternativ dokumentkopia</strong> Kompletterande underlag för samma LT2115A-familj.<br><a href="https://manualzilla.com/doc/7024488/jonsered-lt2115a-user-s-manual" target="_blank" rel="noopener noreferrer">Öppna källan</a></div><div class="source-record"><strong>LT2115 / 954130210 – reservdelskatalogregister</strong> Underlag för äldre revision och 36-tums klippbord.<br><a href="https://www.motoruf.com/n/partslists.html?id=2302517" target="_blank" rel="noopener noreferrer">Öppna källan</a></div><div class="source-record"><strong>LT2115-familj – revisions-/reservdelsregister</strong> Kompletterande stöd för flera produktrevisioner.<br><a href="https://www.remlagret.se/products/drivrem-jonsered-lt-2115-tradgardstraktor" target="_blank" rel="noopener noreferrer">Öppna källan</a></div><div class="source-record"><strong>Jonsered LT2115 – IPL 544 46 75-01 (2006-05)</strong> Produktidentitet (med intern sifferkonflikt), Peerless 206-545C och 42-tums klipprem.<br><a href="https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%2096011018100%202006-05/LT2115-96011018100-2006-05.pdf" target="_blank" rel="noopener noreferrer">Öppna PDF</a></div><div class="source-record"><strong>Jonsered LT2115A – IPL 544 40 90-01 (2006-03)</strong> Produktnummer 96011018200 och Hydro-Gear 322-0510.<br><a href="https://manuals.plus/m/72d6a479fe46cbd11de53f0c3c8d712908745b57e81d8ab915ec4c015b77881b" target="_blank" rel="noopener noreferrer">Öppna dokument</a></div><div class="source-record"><strong>Jonsered LT2115CM – IPL 544 46 78-01 (2006-05)</strong> Produktnummer 96061008101, Peerless 206-546 och uppsamlar-/elkomponenter.<br><a href="https://www.yumpu.com/en/document/view/47595443/ipl-lt2115-cm-96061008101-2006-05-tractor-jonsered" target="_blank" rel="noopener noreferrer">Öppna dokument</a></div><div class="source-record"><strong>Jonsered LT2115CMA – IPL 544 88 89-01 (2006-06)</strong> Produktnummer 96061008301, Hydro-Gear 321-0510, 92 cm-aggregat samt separata knivtyper.<br><a href="https://ersatzteil-shop24.de/bilder/zeichnungen/jonsered/JIPL2006_5448889-01.pdf" target="_blank" rel="noopener noreferrer">Öppna PDF</a></div><div class="source-record"><strong>Kohler SV470–SV620 Service Manual 20 690 01 Rev. J</strong> Motorfamiljens oljekapacitet, serviceschema och oljevillkor; kontrollera egen motorspecifikation.<br><a href="https://manuals.plus/m/d09d06aa830d28de9bbdbb08a6b67477deb1324d0adb9766bcecbc9b18442fff.pdf" target="_blank" rel="noopener noreferrer">Öppna dokument</a></div><div class="source-record"><strong>Jonsered LT2115 / LT2115CM – förarmanualer</strong> Beskriver körning och däcktryck; ännu inte säkert mappade till varje produktnummer.<br><a href="https://www.manualslib.com/manual/3649565/Jonsered-Lt2115.html" target="_blank" rel="noopener noreferrer">LT2115</a> · <a href="https://www.manualslib.de/manual/868011/Jonsered-Lt2115Cm.html" target="_blank" rel="noopener noreferrer">LT2115CM</a></div></div></details></section></article></main><style>
+  .site-footer{
+    margin-top:0;
+    background:#142317;
+    color:#eef4ee;
+    border-top:4px solid #d8a52e;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+
+  .site-footer *{box-sizing:border-box}
+
+  .footer-inner{
+    width:min(100% - 40px,1220px);
+    margin:0 auto;
+    padding:60px 0 40px;
+    display:grid;
+    grid-template-columns:minmax(270px,1.35fr) repeat(3,minmax(170px,1fr));
+    gap:44px;
+  }
+
+  .footer-brand h2,
+  .footer-column h2{
+    margin:0 0 16px;
+    color:#fff;
+    font-size:18px;
+    line-height:1.25;
+  }
+
+  .footer-brand h2{
+    max-width:340px;
+    font-size:25px;
+    letter-spacing:-.025em;
+  }
+
+  .footer-brand p{
+    max-width:410px;
+    margin:0;
+    color:#c7d3c9;
+    font-size:15px;
+    line-height:1.75;
+  }
+
+  .footer-points{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:22px;
+  }
+
+  .footer-point{
+    display:inline-flex;
+    align-items:center;
+    padding:7px 10px;
+    border:1px solid rgba(255,255,255,.13);
+    border-radius:999px;
+    background:rgba(255,255,255,.055);
+    color:#e7eee8;
+    font-size:12px;
+    font-weight:750;
+  }
+
+  .footer-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+
+  .footer-list a,
+  .footer-contact a{
+    color:#c7d3c9;
+    text-decoration:none;
+    transition:color .15s ease;
+  }
+
+  .footer-list a:hover,
+  .footer-list a:focus-visible,
+  .footer-contact a:hover,
+  .footer-contact a:focus-visible{
+    color:#fff;
+    outline:none;
+  }
+
+  .footer-list a{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:14px;
+  }
+
+  .footer-list a::before{
+    content:"›";
+    color:#d8a52e;
+    font-weight:950;
+  }
+
+  .footer-contact{
+    display:grid;
+    gap:15px;
+  }
+
+  .footer-contact-item{
+    margin:0;
+    color:#c7d3c9;
+    font-size:14px;
+    line-height:1.55;
+  }
+
+  .footer-contact-item strong{
+    display:block;
+    margin-bottom:2px;
+    color:#fff;
+    font-size:13px;
+  }
+
+  .footer-socials{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:3px;
+  }
+
+  .footer-social-link{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:40px;
+    padding:9px 13px;
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:10px;
+    background:rgba(255,255,255,.06);
+    color:#fff !important;
+    font-size:13px;
+    font-weight:850;
+  }
+
+  .footer-social-link:hover,
+  .footer-social-link:focus-visible{
+    background:rgba(255,255,255,.12);
+  }
+
+  .footer-bottom{
+    border-top:1px solid rgba(255,255,255,.11);
+  }
+
+  .footer-bottom-inner{
+    width:min(100% - 40px,1220px);
+    margin:0 auto;
+    padding:20px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    color:#9eaea1;
+    font-size:12px;
+  }
+
+  .footer-bottom-inner p{margin:0}
+
+  .footer-bottom-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+
+  .footer-bottom-links a{
+    color:#b9c6bb;
+    text-decoration:none;
+  }
+
+  .footer-bottom-links a:hover,
+  .footer-bottom-links a:focus-visible{
+    color:#fff;
+    outline:none;
+  }
+
+  @media(max-width:940px){
+    .footer-inner{
+      grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+  }
+
+  @media(max-width:620px){
+    .footer-inner{
+      width:min(100% - 28px,1220px);
+      padding:46px 0 32px;
+      grid-template-columns:1fr;
+      gap:31px;
+    }
+
+    .footer-bottom-inner{
+      width:min(100% - 28px,1220px);
+      align-items:flex-start;
+      flex-direction:column;
+      gap:10px;
+    }
+  }
+</style>
+
+<footer class="site-footer" aria-label="Sidfot">
+  <div class="footer-inner">
+    <section class="footer-brand" aria-labelledby="footer-company-title">
+      <h2 id="footer-company-title">Skaraborg Maskin &amp; Återbruk</h2>
+      <p>
+        Vi köper, hämtar och tar tillvara maskiner, verktyg, reservdelar och andra
+        relevanta objekt i hela Skaraborg. Vi köper även från dödsbon och större partier,
+        med extra intresse för garage, verkstäder, förråd, uthus och gårdar.
+      </p>
+
+      <div class="footer-points" aria-label="Fördelar">
+        <span class="footer-point">Snabb bedömning</span>
+        <span class="footer-point">Egen lastbil</span>
+        <span class="footer-point">Personlig kontakt</span>
+        <span class="footer-point">Köp från dödsbon</span>
+      </div>
+    </section>
+
+    <nav class="footer-column" aria-labelledby="footer-services-title">
+      <h2 id="footer-services-title">Tjänster</h2>
+      <ul class="footer-list">
+        <li><a href="https://skaraborgmaskin.se/kop-maskiner.html">Vi köper maskiner</a></li>
+        <li><a href="https://skaraborgmaskin.se/dodsbo-utrensning.html">Vi köper från dödsbon</a></li>
+        <li><a href="https://skaraborgmaskin.se/aterbruk.html">Återbruk</a></li>
+        <li><a href="https://skaraborgmaskin.se/dack-hamtning.html">Däckhämtning</a></li>
+        <li><a href="https://skaraborgmaskin.se/skrot-hamtning.html">Skrothämtning</a></li>
+        <li><a href="https://skaraborgmaskin.se/foretag.html">För företag</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-column" aria-labelledby="footer-links-title">
+      <h2 id="footer-links-title">Snabblänkar</h2>
+      <ul class="footer-list">
+        <li><a href="https://skaraborgmaskin.se/index.html">Startsida</a></li>
+        <li><a href="https://skaraborgmaskin.se/till-salu.html">Till salu</a></li>
+        <li><a href="https://skaraborgmaskin.se/sa-funkar-det.html">Så fungerar det</a></li>
+        <li><a href="https://skaraborgmaskin.se/om-oss.html">Om oss</a></li>
+        <li><a href="https://skaraborgmaskin.se/faq.html">Vanliga frågor</a></li>
+        <li><a href="https://skaraborgmaskin.se/kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <section class="footer-column" aria-labelledby="footer-contact-title">
+      <h2 id="footer-contact-title">Kontakt</h2>
+
+      <div class="footer-contact">
+        <p class="footer-contact-item">
+          <strong>Verksamhetsområde</strong>
+          Hjo och hela Skaraborg
+        </p>
+
+        <p class="footer-contact-item">
+          <strong>Telefon</strong>
+          <a href="tel:+46727483256">072-748 32 56</a>
+        </p>
+
+        <p class="footer-contact-item">
+          <strong>Organisationsnummer</strong>
+          559426-7550
+        </p>
+
+        <div class="footer-socials" aria-label="Sociala kanaler">
+          <a class="footer-social-link"
+             href="https://www.facebook.com/profile.php?id=61588383880828"
+             target="_blank"
+             rel="noopener noreferrer">Facebook</a>
+          <a class="footer-social-link"
+             href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk"
+             target="_blank"
+             rel="noopener noreferrer">Tradera</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <p>© 2026 Skaraborg Maskin &amp; Återbruk. Alla rättigheter förbehållna.</p>
+      <div class="footer-bottom-links">
+        <a href="https://skaraborgmaskin.se/kontakt.html">Kontakt</a>
+        <a href="https://skaraborgmaskin.se/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body></html>

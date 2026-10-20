@@ -1,0 +1,101 @@
+# Maskinarkivet 2.0 – 11ty-pilot
+
+Detta är en **separat testbyggnad**; ingen publicerad HTML-fil skrivs över.
+
+## Kör lokalt
+
+```bash
+cd maskinarkiv-2
+npm install
+npm run build
+npm run check
+```
+
+Byggutdata skrivs till `_maskinarkiv-preview/maskinarkiv/stiga-park-16.html` i projektroten. Öppna gärna via en lokal HTTP-server från projektroten så att befintlig CSS, header och footer går att hämta. Den här piloten migrerar STIGA Park 16 **utan redaktionella innehållsändringar**.
+
+## Hur det fungerar
+
+- `src/stiga-park-16.njk`: sidmall som monterar ihop kapitel
+- `src/_data/machines/stiga-park-16.json`: maskinspecifika kapitel med id, rubrik och befintlig källkontrollerad HTML
+- `src/_data/machines.js`: läser innehållsfilen
+- `scripts/check.mjs`: verifierar att kapitel och vitala element återfinns i den genererade filen
+
+**Begränsning i första piloten:** sidhuvud, meny och befintliga kapitelmarkup följer med som oförändrade HTML-delar. Nästa steg är att bryta ut gemensamma komponenter (faktaruta, steg, källor, navigering) till separata Nunjucks-mallar och omvandla innehållet till fält i JSON. Först då blir komponenternas form helt styrd av en enda mall. Denna pilot bevisar byggkedjan och gör migreringen reversibel.
+
+Den publika CSS-sökvägen är `/maskinarkiv/maskinarkiv-v6.css`. För att förhandsgranska behöver man antingen leverera CSS från webbplatsen eller kopiera in den i en lokal webbserver. Inget byggsteg körs automatiskt av GitHub Pages ännu.
+
+## Steg 2: gemensamma layoutkomponenter (2026-10-20)
+
+Pilotens Nunjucks-mallar återanvänds nu av innehållet i datafilen:
+
+- `src/_includes/partials/hero.njk` – sidhuvud
+- `src/_includes/partials/nav.njk` – kapitelmeny
+- `src/_includes/partials/mobile-nav.njk` – mobilmeny
+- `src/_includes/partials/chapter.njk` – kapitlets rubrik och omslag
+- `src/_includes/partials/sources.njk` – utfällbara originalkällor
+
+Maskindatan innehåller titel, ingress, etiketter, kapitelnamn, kapitelinnehåll och källor. Den gamla sidomenyn är inte längre kopierad in i datan.
+
+**Återstår:** att konvertera `bodyHtml` i varje kapitel till helt strukturerade objekt för faktarutor, tekniska tabeller, checklistor och övriga återkommande block. I detta steg är dessa block fortfarande bevarad HTML för att undvika att maskininformation går förlorad. `headHtml` och `footerHtml` är också fortfarande äldre infrastruktur som behöver flyttas till gemensam sidlayout i nästa steg.
+
+GitHub Actions-bygg: https://github.com/money-se/skaraborg-maskin-aterbruk/actions/workflows/maskinarkiv-2-pilot.yml
+
+
+## Steg 3: återanvändbara innehållsblock (2026-10-20)
+
+STIGA Park 16:s 16 innehållskapitel innehåller nu en ordnad lista av `blocks` i datafilen i stället för en enda `bodyHtml`-sträng per kapitel. Nunjucks använder separata komponentmallar i `src/_includes/blocks/` för:
+
+- `facts` – etikett/värde-rader ur maskinens faktarutor
+- `note` och `warning` – notisrubrik och förklaring som separata fält
+- `table-scroll`, `check`, `steps`, `answer`, `faq`, `cta` och `tradera-follow`
+
+Tabellceller, listpunkter och andra komplexa underblock ligger ännu som bevarad `innerHtml` inuti respektive komponent. Detta är en medveten, säker mellanform för att behålla uppgifter och länkar under migreringen. Nästa förbättring är att modellera även dem som strukturerade fält.
+
+Tradera-sektionen är nu fristående från kapitlet Återbruk, och källor renderas från sex strukturerade källposter. Kontrollerna omfattar komponentantal, ankarlänkar, unika ID och balanserade HTML-sektioner. Publicerade modellsidor har inte ändrats av denna pilot.
+
+## Steg 4: två maskiner, en master-mall (2026-10-20)
+
+STIGA Park 16 och Husqvarna Rider 13 skapas nu från **exakt samma sidmall**, `src/_includes/pages/machine.njk`. Modellfilerna under `src/_data/machines/` innehåller respektive maskins källunderlag och kapitel. Den enda modellen som för närvarande är uppdelad i alla utbrutna typer av innehållsblock är STIGA Park 16. Rider 13 har 14 kapitel och 8 dokumenterade källposter, varav två innehåller direkta URL:er i källmaterialet. De övriga källorna visas utan påhittade länkar.
+
+**Viktigt:** Rider 13:s kapitelinnehåll använder ännu bevarade HTML-fragment. Även Park 16:s många tabeller och listor har innerHtml. Båda kan renderas från samma sidmall, men den slutliga ambitionen med 100 % strukturerad innehållsdata är inte färdig. Den publika webbplatsen påverkas inte.
+
+Testet `npm run check` validerar båda genererade HTML-filerna, respektive käll- och kapitelantal, ankare, unika ID:n och balanserade section-taggar.
+
+
+## Steg 5: tre maskiner, samma mall (2026-10-20)
+
+Husqvarna LTH151 har nu migrerats till samma `src/_includes/pages/machine.njk` som STIGA Park 16 och Husqvarna Rider 13. LTH151 har 14 innehållskapitel och 4 bevarade källposter. Samtliga tre byggs i GitHub Actions med automatiska kontroller av kapitel, källor, ankar-ID och sektionstaggar.
+
+**Förbehåll:** LTH151:s kapitelblock är ännu importerad HTML. Källposterna är bevarade som källnära HTML eftersom deras inbördes struktur skiljer sig. Detta är inte ett färdigt, fritt från HTML dataskikt och inte heller en fullständig visuell jämförelse. Migrera resterande modeller först efter fortsatt datastandardisering och visuell granskning. Publicerad HTML har inte ändrats.
+
+
+## Steg 6 – automatisk förhandsvisning och säker övergång
+
+**Enda källan:** `src/_data/machines/*.json` och `src/_includes/**` samt Eleventy-indata. Filerna i `preview/` är *genererade utdata* och ska aldrig redigeras för hand.
+
+`npm run build` skapar fem maskinsidor och testindex under `../_maskinarkiv-preview/`; `npm run check` verifierar kapitel, ankare, innehållsblock, källor och CTA. `node scripts/build-browser-preview.mjs` gör genererade HTML-filer fristående för RawGitHack, sätter `noindex,nofollow`, skriver om webblänkar mot ordinarie domän och lägger resultatet i `preview/`. Github Actions laddar alltid upp filerna som artifact och kan skriva tillbaka dem **endast till feature/maskinarkivet-2-eleventy-pilot**, förutsatt godkända tester och tillåten token-behörighet.
+
+### Publicering på skaraborgmaskin.se (inte utförd)
+
+1. Granska de fem genererade HTML-sidorna visuellt i desktop och mobil. Kontrollera särskilt gamla HTML-fragment i faktarutor och tabeller.
+2. Kontrollera att teknisk text, källhänvisningar, titlar, meta descriptions, canonical-URL:er och internlänkar stämmer mot godkända publicerade sidor.
+3. Bestäm hur Eleventy-bygget integreras med den befintliga GitHub Pages-publiceringen så att övriga webbplatsens filer bevaras. Publicera *endast* `maskinarkiv/{de fem filnamnen}.html`; använd inte preview-utdata för SEO-publicering eftersom de avsiktligt har noindex och absoluta testresurser.
+4. Ta en versionsbunden backup av de fem gamla HTML-filerna. Gör först därefter ett separat och granskningsbart PR med de genererade produktionsfilerna.
+5. Kontrollera live-länkar, robots/canonical, sitemap och mobilvy efter godkänt PR.
+
+**Ingen automatisk produktion-publicering är ansluten eller godkänd.** Övriga webbplatsen, särskilt `index.html`, ska inte ersättas av testprojektets `index.html`.
+
+
+## Permanent integration – gäller ENDAST Maskinarkivet
+
+Automatiseringen kör Eleventy i mappen `maskinarkiv-2/`. Den ordinarie webbplatsens startsida, ortssidor, tjänstesidor, Shopify och andra filer byggs **inte** med Eleventy och ändras **inte** av arbetsflödet.
+
+GitHub Actions-filen `.github/workflows/maskinarkiv-2-pilot.yml`:
+- Kör bygget när filer under `maskinarkiv-2/src/**`, scripts, specifika byggfiler eller gemensamma header/footer ändras på `main`.
+- Kör samma struktur- och SEO-kontroller på pull requests utan att publicera.
+- Skriver endast till de fem uttryckligen tillåtna `maskinarkiv/*.html`-filerna vid `push` till `main`. Om diffen innehåller en otillåten fil stoppas processen.
+- En publiceringstransaktion som inte ger HTML-ändringar skapar ingen commit.
+- Nya maskinmodeller: lägg till ny JSON, ny Nunjucks-entry och uppdatera den uttryckliga tillåtelselistan i workflow/tester. Inget skrivs till andra mappar.
+- `maskinarkiv-2/preview/` är en historisk granskning, **inte** produktionskällan. Genererat produktions-HTML byggs från `src/`.
+
+**Viktigt:** Automatiserad återpublicering på `main` efter ändrade maskinkällor kräver att GitHub Actions har skrivbehörighet och att grenreglerna tillåter bot-commit. Om dessa regler stoppar automatisk push behålls byggartefakten och webbsidorna oförändrade; kontrollera jobbets logg. Publicera aldrig hela genereringsmappen eller testindex till webbplatsens rot.
