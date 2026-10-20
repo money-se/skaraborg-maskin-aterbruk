@@ -1,1 +1,1 @@
-module.exports = require("./prepare")(require("./machines/husqvarna-rider-13.json"));
+module.exports = require("../_lib/prepare")(require("./machines/husqvarna-rider-13.json"));
