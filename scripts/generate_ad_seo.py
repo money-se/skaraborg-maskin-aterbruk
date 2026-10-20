@@ -50,7 +50,7 @@ def render(ad, url):
     ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
     gallery = '<div class="gallery">' + "".join(f'<img src="{safe(img)}" alt="{safe(title)} – bild {i+1}" loading="lazy">' for i,img in enumerate(images)) + "</div>" if images else ""
     status = "Till salu" if available else "Reserverad / väntande"
-    contact = f'<a class="cta" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Kontakta oss på Facebook</a>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>"
+    contact = (f'<button type="button" class="cta" onclick="copyAdDetails()">Kopiera annonsuppgifter</button> <a class="cta" href="https://www.messenger.com/t/924620407412160/" target="_blank" rel="noopener noreferrer">Öppna Messenger</a><p>Kopiera annonsuppgifterna och klistra in dem i Messenger.</p><script>function copyAdDetails(){{const message={json.dumps("Hej! Jag är intresserad av annonsen: " + title + chr(10) + "Annons: " + url + chr(10) + chr(10) + "Min fråga: ",ensure_ascii=False)};navigator.clipboard.writeText(message).then(()=>alert("Kopierat! Klistra in texten i Messenger.")).catch(()=>prompt("Kopiera texten:",message));}}</script>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>")
     return f"""<!doctype html>
 <html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{safe(page_title)}</title><meta name="description" content="{safe(summary)}">
