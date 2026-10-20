@@ -22,6 +22,7 @@ Deno.serve(async req=>{
  let data:any;try{data=await req.json()}catch{return reply(400,{error:"Bad JSON"})}
  const action=normalized(data.action,16);
  if(!["new","read","reply"].includes(action||""))return reply(400,{error:"Invalid action"});
+ if(action==="new"||action==="reply")return reply(410,{error:"Den inbyggda chatten är pausad. Kontakta oss via Facebook Messenger."});
  if(action!=="read"){const turnstile=normalized(data.captcha,4096);if(!turnstile)return reply(400,{error:"Verification required"});try{if(!await captcha(turnstile,secret))return reply(403,{error:"Verification failed"})}catch{return reply(503,{error:"Verification unavailable"})}}
  const db=createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false}});
  // Never trust client-controlled forwarding headers as IP identity.
