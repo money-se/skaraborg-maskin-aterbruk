@@ -36,6 +36,9 @@ jobs:
       - name: Validate five machine pages
         run: npm run check
         working-directory: maskinarkiv-2
+      - name: Audit production SEO and local URLs
+        run: npm run audit
+        working-directory: maskinarkiv-2
       - name: Create browser-ready preview from generated HTML
         run: node scripts/build-browser-preview.mjs
         working-directory: maskinarkiv-2
