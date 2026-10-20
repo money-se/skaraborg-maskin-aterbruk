@@ -1,0 +1,38 @@
+name: Publicera veckobloggens SEO-sidor
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/generate_weekly_blog_seo.py'
+      - '.github/workflows/veckoblogg-seo.yml'
+  schedule:
+    - cron: '29 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: weekly-blog-seo
+  cancel-in-progress: false
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate weekly blog SEO pages
+        env:
+          SUPABASE_PUBLISHABLE_KEY: sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR
+        run: |
+          python -m py_compile scripts/generate_weekly_blog_seo.py
+          python scripts/generate_weekly_blog_seo.py
+      - name: Commit generated pages
+        run: |
+          git add veckoblogg/ sitemap-veckoblogg.xml
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "Update weekly blog SEO pages"
+          git pull --rebase origin main
+          git push origin main
