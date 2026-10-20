@@ -1,0 +1,12 @@
+{
+  "name": "maskinarkivet-2",
+  "private": true,
+  "scripts": {
+    "build": "eleventy --input=src --output=../_maskinarkiv-preview",
+    "check": "node scripts/check.mjs",
+    "audit": "node scripts/audit-production.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
