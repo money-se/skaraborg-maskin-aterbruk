@@ -22,6 +22,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -42,7 +44,7 @@ jobs:
           name: maskinarkiv-2-preview
           path: maskinarkiv-2/preview/
       - name: Update preview files on development branch only
-        if: github.event_name == 'push' && github.ref == 'refs/heads/feature/maskinarkivet-2-eleventy-pilot'
+        if: (github.event_name == 'push' && github.ref == 'refs/heads/feature/maskinarkivet-2-eleventy-pilot') || (github.event_name == 'pull_request' && github.head_ref == 'feature/maskinarkivet-2-eleventy-pilot' && github.event.pull_request.head.repo.full_name == github.repository)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
