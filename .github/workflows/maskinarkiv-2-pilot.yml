@@ -1,98 +1,78 @@
-name: Maskinarkivet 2 pilot
+name: Maskinarkivet – isolerad byggning och publicering
 on:
   push:
-    branches:
-      - feature/maskinarkivet-2-eleventy-pilot
+    branches: [main]
     paths:
       - 'maskinarkiv-2/src/**'
       - 'maskinarkiv-2/scripts/**'
       - 'maskinarkiv-2/package.json'
+      - 'maskinarkiv-2/package-lock.json'
       - 'partials1/header.html'
       - 'partials1/footer.html'
       - '.github/workflows/maskinarkiv-2-pilot.yml'
   pull_request:
+    branches: [main]
     paths:
       - 'maskinarkiv-2/**'
+      - 'partials1/header.html'
+      - 'partials1/footer.html'
       - '.github/workflows/maskinarkiv-2-pilot.yml'
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: maskinarkivet-main-build
+  cancel-in-progress: false
 jobs:
-  build:
+  maskinarkivet:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.head_ref || github.ref_name }}
+          persist-credentials: true
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install dependencies
+      - name: Installera enbart Maskinarkivets byggverktyg
+        working-directory: maskinarkiv-2
         run: npm install --no-audit --no-fund
+      - name: Generera Maskinarkivet
         working-directory: maskinarkiv-2
-      - name: Build single source of truth
         run: npm run build
+      - name: Kontrollera strukturen
         working-directory: maskinarkiv-2
-      - name: Validate five machine pages
         run: npm run check
+      - name: Kontrollera SEO och länkar
         working-directory: maskinarkiv-2
-      - name: Audit production SEO and local URLs
         run: npm run audit
-        working-directory: maskinarkiv-2
-      - name: Stage review-only production release
-        run: node scripts/stage-production.mjs
-        working-directory: maskinarkiv-2
-      - name: Compare original and generated content
-        run: node scripts/audit-content-parity.mjs
-        working-directory: maskinarkiv-2
-      - uses: actions/upload-artifact@v4
+      - name: Skapa granskbar byggfil
+        uses: actions/upload-artifact@v4
         with:
-          name: maskinarkivet-2-release-review-only
-          path: _maskinarkiv-release-review/
-      - name: Create isolated five-file release branch (never main)
-        if: github.event_name == 'pull_request' && github.head_ref == 'feature/maskinarkivet-2-eleventy-pilot' && github.event.pull_request.head.repo.full_name == github.repository
+          name: maskinarkivet-generated-html
+          path: _maskinarkiv-preview/maskinarkiv/
+      - name: Publicera enbart Maskinarkivets fem HTML-sidor
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        shell: bash
         run: |
           set -euo pipefail
-          RELEASE_BRANCH="release/maskinarkivet-2-five-pages-20261020"
-          git fetch origin main
-          if git ls-remote --exit-code --heads origin "$RELEASE_BRANCH"; then
-            echo "::error::Release branch already exists; refusing overwrite"
-            exit 1
-          fi
-          git worktree add --detach /tmp/maskinarkiv-release origin/main
-          mkdir -p /tmp/maskinarkiv-release/maskinarkiv
+          # Inte en webbplatsbyggning. Exakt dessa fem HTML-filer får uppdateras.
           for slug in stiga-park-16 husqvarna-rider-13 husqvarna-lth151 stiga-villa-12-hst jonsered-lt2115; do
-            cp "_maskinarkiv-release-review/maskinarkiv/$slug.html" "/tmp/maskinarkiv-release/maskinarkiv/$slug.html"
+            cp "_maskinarkiv-preview/maskinarkiv/$slug.html" "maskinarkiv/$slug.html"
           done
-          cd /tmp/maskinarkiv-release
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- maskinarkiv/stiga-park-16.html maskinarkiv/husqvarna-rider-13.html maskinarkiv/husqvarna-lth151.html maskinarkiv/stiga-villa-12-hst.html maskinarkiv/jonsered-lt2115.html
-          for filepath in $(git diff --cached --name-only); do
-            case "$filepath" in
+          for changed in $(git diff --cached --name-only); do
+            case "$changed" in
               maskinarkiv/stiga-park-16.html|maskinarkiv/husqvarna-rider-13.html|maskinarkiv/husqvarna-lth151.html|maskinarkiv/stiga-villa-12-hst.html|maskinarkiv/jonsered-lt2115.html) ;;
-              *) echo "::error::Unexpected file in release: $filepath"; exit 1 ;;
+              *) echo "::error::Otillåten ändring: $changed"; exit 1 ;;
             esac
           done
-          test "$(git diff --cached --name-only | wc -l)" -eq 5
           git diff --cached --check
-          git switch -c "$RELEASE_BRANCH"
-          git commit -m "Prepare five Maskinarkivet 2 HTML pages for review"
-          git push origin "HEAD:refs/heads/$RELEASE_BRANCH"
-      - name: Create browser-ready preview from generated HTML
-        run: node scripts/build-browser-preview.mjs
-        working-directory: maskinarkiv-2
-      - uses: actions/upload-artifact@v4
-        with:
-          name: maskinarkiv-2-preview
-          path: maskinarkiv-2/preview/
-      - name: Update preview files on development branch only
-        if: (github.event_name == 'push' && github.ref == 'refs/heads/feature/maskinarkivet-2-eleventy-pilot') || (github.event_name == 'pull_request' && github.head_ref == 'feature/maskinarkivet-2-eleventy-pilot' && github.event.pull_request.head.repo.full_name == github.repository)
-        run: |
+          if git diff --cached --quiet; then
+            echo "Maskinarkivets sidor är redan aktuella."
+            exit 0
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add maskinarkiv-2/preview/
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: regenerate Maskinarkivet 2 browser preview"
-            git push origin HEAD:feature/maskinarkivet-2-eleventy-pilot
-          fi
+          git commit -m "build(maskinarkivet): update five generated machine guides [skip ci]"
+          git push origin HEAD:main
