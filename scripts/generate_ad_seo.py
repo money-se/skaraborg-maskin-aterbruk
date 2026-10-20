@@ -77,7 +77,8 @@ def main():
     ads = fetch()
     OUTPUT.mkdir(exist_ok=True)
     desired = set()
-    urls = []
+    # Keep a useful URL in the sitemap even when only test ads (or no ads) exist.
+    urls = [BASE + "/annonser.html"]
     for ad in ads:
         if not isinstance(ad.get("title"), str) or not ad["title"].strip(): continue
         if ad.get("status") not in ("sale", "pending"): continue
