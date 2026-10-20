@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Månadens tävling | Skaraborg Maskin & Återbruk</title>
+  <title>Månadens maskin – tävlingar | Skaraborg Maskin & Återbruk</title>
   <meta name="description" content="Här publiceras aktuell status, pris, datum, deltagande, regler och vinnare för tävlingar hos Skaraborg Maskin & Återbruk.">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://skaraborgmaskin.se/tavlingar.html">
@@ -16,8 +16,9 @@
 <body>
 <div id="site-header"></div>
 <main>
-<section class="hero"><div class="hero-in"><div><span class="eyebrow">Tävlingar & aktiviteter</span><h1>Månadens tävling</h1><p>Här samlar vi våra aktuella och tidigare tävlingar. När en ny tävling är aktiv hittar du pris, period, deltagande och fullständiga villkor här.</p><div class="actions"><a class="btn primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Följ oss på Facebook</a><a class="btn secondary" href="#aktuell">Se aktuell status</a></div></div><aside class="panel"><h2>En levande del av sidan</h2><p>Målet är att skapa återkommande aktivitet och ge besökare en anledning att komma tillbaka.</p></aside></div></section>
-<section class="section white" id="aktuell"><div class="wrap"><span class="eyebrow">Aktuell tävling</span><h2 class="title">Nästa tävling förbereds</h2><p class="intro">När nästa tävling startar uppdateras denna sida med exakt pris, startdatum, slutdatum, hur man deltar och vilka villkor som gäller.</p><div class="notice"><h3>Ingen aktiv tävling visas här just nu</h3><p>Följ vår Facebook-sida för nyheter. Vid lansering ska denna sida vara huvudkälla för regler, datum och vinnarinformation.</p></div></div></section>
+<section class="hero"><div class="hero-in"><div><span class="eyebrow">Tävlingar & aktiviteter</span><h1>Månadens maskin</h1><p>Här samlar vi våra aktuella och tidigare tävlingar. När en ny tävling är aktiv hittar du pris, period, deltagande och fullständiga villkor här.</p><div class="actions"><a class="btn primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Följ oss på Facebook</a><a class="btn secondary" href="#aktuell">Se aktuell status</a></div></div><aside class="panel"><h2>En levande del av sidan</h2><p>Målet är att skapa återkommande aktivitet och ge besökare en anledning att komma tillbaka.</p></aside></div></section>
+<section class="section white" id="aktuell"><div class="wrap"><span class="eyebrow">Månadens maskin</span><h2 class="title">Aktuell tävling</h2><div id="competition-live" aria-live="polite"><p>Hämtar tävlingsinformation…</p></div></div></section>
+<section class="section light" id="tidigare"><div class="wrap"><h2 class="title">Tidigare tävlingar</h2><div id="competition-archive" class="grid"><p>Hämtar arkivet…</p></div></div></section>
 <section class="section light"><div class="wrap"><span class="eyebrow">När tävlingen är aktiv</span><h2 class="title">All information på ett ställe</h2><div class="grid">
 <article class="card"><span class="icon">🎁</span><h3>Priset</h3><p>Vad som lottas ut och relevant information om objektets skick.</p></article>
 <article class="card"><span class="icon">📅</span><h3>Perioden</h3><p>Exakta start- och slutdatum ska alltid anges tydligt.</p></article>
@@ -34,4 +35,25 @@
 async function loadPartial(id,path){const el=document.getElementById(id);if(!el)return;try{const r=await fetch(path);if(!r.ok)throw new Error(path);el.innerHTML=await r.text();}catch(e){console.error(e);}}
 loadPartial("site-header","partials1/header.html");loadPartial("site-footer","partials1/footer.html");
 </script>
-</body></html>
+<script type="module">
+import {createClient} from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
+const db=createClient('https://jnorvriiehandxlvwkkg.supabase.co','sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR',{auth:{persistSession:false,autoRefreshToken:false}});
+const imageUrl=p=>db.storage.from('competition-images').getPublicUrl(p).data.publicUrl;
+const live=document.getElementById('competition-live'),archive=document.getElementById('competition-archive');
+function el(tag,cls,content){const n=document.createElement(tag);if(cls)n.className=cls;if(content!==undefined)n.textContent=content;return n}
+function details(x,compact=false){const card=el('article','card');card.style.marginBottom='18px';const h=el(compact?'h3':'h2',null,x.title);card.append(h);
+if(x.image_paths?.length){const gallery=el('div');gallery.style.cssText='display:flex;gap:10px;overflow-x:auto;margin:15px 0';for(const p of x.image_paths){const img=el('img');img.src=imageUrl(p);img.alt=x.title+' – tävlingsbild';img.loading='lazy';img.style.cssText='max-width:min(100%,500px);width:100%;height:260px;object-fit:contain;background:#edf2e9;border-radius:12px;flex:0 0 min(100%,500px)';gallery.append(img)}card.append(gallery)}
+for(const [name,value] of [['Beskrivning',x.description],['Skick och kända fel',x.prize_condition],['Tävlingsvillkor',compact?'':x.rules],['Vinnare',x.winner_name]]){if(!value)continue;const h=el('h3',null,name),p=el('p',null,value);p.style.whiteSpace='pre-wrap';card.append(h,p)}
+const fmt=s=>s?new Date(s).toLocaleString('sv-SE',{dateStyle:'medium',timeStyle:'short'}):'Ej angivet';card.append(el('p',null,'Tävlingsperiod: '+fmt(x.starts_at)+' – '+fmt(x.ends_at)));
+card.append(el('p',null,x.status==='active'?'Status: Aktiv tävling':'Status: Avslutad tävling'));
+if(x.status==='active'&&x.facebook_url){const a=el('a','btn primary','Delta på Facebook →');a.href=x.facebook_url;a.target='_blank';a.rel='noopener noreferrer';card.append(a)}
+return card}
+async function load(){const r=await db.from('competitions').select('title,slug,description,prize_condition,image_paths,facebook_url,starts_at,ends_at,status,rules,winner_name').eq('published',true).in('status',['active','ended']).order('starts_at',{ascending:false});if(r.error)throw r.error;
+const data=r.data||[];live.replaceChildren();archive.replaceChildren();
+const active=data.find(x=>x.status==='active'&&(!x.starts_at||new Date(x.starts_at)<=new Date())&&(!x.ends_at||new Date(x.ends_at)>=new Date()));
+if(active)live.append(details(active));else live.append(el('p',null,'Ingen aktiv tävling just nu. Följ oss på Facebook för nyheter.'));
+const old=data.filter(x=>x.status==='ended'||x.status==='active'&&x!==active&&x.ends_at&&new Date(x.ends_at)<new Date());
+if(!old.length)archive.append(el('p',null,'Tidigare tävlingar publiceras här.'));else for(const x of old)archive.append(details(x,true));
+}
+load().catch(e=>{live.textContent='Tävlingsinformationen kunde inte hämtas just nu.';archive.textContent='Arkivet kunde inte hämtas.';console.error(e)});
+</script></body></html>
