@@ -32,11 +32,23 @@
     },
     {
       "id": "styrning",
-      "label": "Styrning och reglage"
+      "label": "Styrning"
     },
     {
       "id": "aggregat",
       "label": "Klippaggregat"
+    },
+    {
+      "id": "elsystem",
+      "label": "Elsystem"
+    },
+    {
+      "id": "bromsar",
+      "label": "Bromsar"
+    },
+    {
+      "id": "service",
+      "label": "Service"
     },
     {
       "id": "felsokning",
@@ -143,8 +155,44 @@
       ]
     },
     {
+      "id": "elsystem",
+      "heading": "08 · Elsystem",
+      "title": "Elsystem, tändningslås och startproblem",
+      "headingId": "h-elsystem",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Originalreservdelskatalogen för <code>13-1358-12</code> har ett eget avsnitt för <strong>elsystem</strong>. Där listas bland annat komplett strålkastare <code>1134-1466-01</code>, elektrisk kabel <code>1134-3082-01</code>, brytare <code>9400-0063-00</code>, komplett tändningslås <code>1134-1814-01</code>, tändningsnyckel <code>1134-2848-01</code> och ytterligare brytare <code>9400-0167-00</code>. Numren avser den angivna produktversionen. [S3]</p><h3>Vad gör de olika delarna?</h3><p><strong>Tändningslåset</strong> används för att styra maskinens tändnings- och startfunktioner. <strong>Brytare</strong> kan ingå i reglage och säkerhetskretsar. <strong>Kabelstam och anslutningar</strong> leder ström mellan komponenterna. En sprängskiss identifierar delarna, men beskriver inte automatiskt exakt vilka elektriska villkor som ska vara uppfyllda för start.</p><div class=\"table-scroll\"><table><thead><tr><th>Del enligt STIGA</th><th>Artikelnummer</th><th>Vad du bör kontrollera</th></tr></thead><tbody><tr><td>Tändningslås, komplett</td><td><code>1134-1814-01</code></td><td>Rätt variant och anslutningar</td></tr><tr><td>Tändningsnyckel</td><td><code>1134-2848-01</code></td><td>Rätt låsutförande</td></tr><tr><td>Brytare</td><td><code>9400-0063-00</code></td><td>Funktion och korrosion</td></tr><tr><td>Kabel</td><td><code>1134-3082-01</code></td><td>Synliga skador och anslutningar</td></tr></tbody></table></div><p>Om startmotorn inte reagerar: börja med batteriets skick, synliga kabelanslutningar och instruktionerna för normal start. Koppla inte förbi okända brytare eller säkerhetsspärrar. Vilken brytare som fyller vilken säkerhetsfunktion måste fastställas med rätt kopplingsschema eller instruktionsbok.</p>"
+        }
+      ]
+    },
+    {
+      "id": "bromsar",
+      "heading": "09 · Bromsar",
+      "title": "Bromsar och parkeringsfunktion",
+      "headingId": "h-bromsar",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Originalkatalogen för <code>13-1358-12</code> skiljer mellan avsnittet <em>Engine – Brake System</em> och transmissionens delsystem. I reservdelslistan förekommer bland annat fjäder <code>1131-1497-01</code>, samtidigt som ett separat avsnitt omfattar broms- och spärrdelar. Det visar hur delarna är identifierade, men inte hur bromsen ska ställas in på ett visst exemplar. [S3, S10]</p><p>En broms som tar ojämnt, kärvar eller inte håller maskinen stilla ska undersökas innan fortsatt användning. Kontrollera synligt slitage och mekanisk rörelse enligt rätt dokumentation. En reservdelskatalog är inte i sig en komplett anvisning för justering eller reparation.</p><div class=\"park-note\"><b>Viktig säkerhetsgräns:</b> Maskinen ska inte användas om broms- eller parkeringsfunktionen inte är tillförlitlig. Följ instruktionsboken eller anlita kunnig verkstad för funktionskontroll och justering.</div>"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "10 · Service",
+      "title": "Service, remdrift och löpande kontroller",
+      "headingId": "h-service",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>För <code>13-1358-12</code> anger STIGAs reservdelskatalog i transmissionsavsnittet bland annat fartreglagewire <code>1134-2766-01</code>, drivrem <code>1134-9029-01</code>, spännrulle <code>1134-9027-01</code> och spännarm <code>1134-2015-03</code>. Om maskinen tappar fart behöver du därför även kontrollera kraftöverföringen runt hydrostaten. [S3]</p><div class=\"table-scroll\"><table><thead><tr><th>Kontrollpunkt</th><th>Vad du kan undersöka</th><th>Begränsning</th></tr></thead><tbody><tr><td>Drivrem</td><td>Sprickor, slitage och om den sitter korrekt</td><td>Remmått och justering hämtas ur rätt manual</td></tr><tr><td>Spännrulle</td><td>Synliga skador eller missljud</td><td>Arbeta aldrig nära rörliga remmar</td></tr><tr><td>Fartreglagewire</td><td>Synlig skada och om reglaget rör sig normalt</td><td>Inställning är versionsberoende</td></tr><tr><td>Motorservice</td><td>Oljenivå och filterskick enligt motorns instruktioner</td><td>Motorernas servicevärden kan skilja sig</td></tr><tr><td>Hjul och styrning</td><td>Däck, glapp och skador</td><td>Kontrollera rätt däck- och åtdragningsdata</td></tr></tbody></table></div><p>Jag har ännu inte verifierat ett fullständigt fabriksschema med timintervaller, hydrostatolja eller remspänningsmått för alla Park 12 HST-versioner. Sådana värden ska därför inte gissas. Katalogutgåvan från 2014 är en reservdelsförteckning för en säsongsvariant, inte automatiskt en komplett verkstadshandbok. [S3]</p>"
+        }
+      ]
+    },
+    {
       "id": "felsokning",
-      "heading": "08 · Felsökning",
+      "heading": "11 · Felsökning",
       "title": "Vad kontrollerar du om den inte fungerar?",
       "headingId": "h-felsokning",
       "blocks": [
@@ -156,7 +204,7 @@
     },
     {
       "id": "reservdelar",
-      "heading": "09 · Reservdelar",
+      "heading": "12 · Reservdelar",
       "title": "Så hittar du rätt reservdelar",
       "headingId": "h-reservdelar",
       "blocks": [
@@ -168,7 +216,7 @@
     },
     {
       "id": "koprad",
-      "heading": "10 · Begagnatköp",
+      "heading": "13 · Begagnatköp",
       "title": "Vad bör du kontrollera före köp?",
       "headingId": "h-koprad",
       "blocks": [
@@ -180,7 +228,7 @@
     },
     {
       "id": "faq",
-      "heading": "11 · Vanliga frågor",
+      "heading": "14 · Vanliga frågor",
       "title": "Snabba svar om Park 12 HST",
       "headingId": "h-faq",
       "blocks": [
@@ -236,9 +284,14 @@
       "title": "S9 · DIY Spare Parts – sprängskisser 13-5319-12",
       "description": "Sekundärt, positionsbaserat register som uttryckligen har två delavsnitt för Kanzaki K110 för just 13-5319-12.",
       "url": "https://www.diyspareparts.com/parts/stiga/diagrams/cb39847f-f8d2-48b1-9e1d/28804a7d-ca7d-444f-ad6d"
+    },
+    {
+      "title": "S10 · STIGA 13-1358-12 – original IPL, bromssystem och transmission",
+      "description": "Samma originalkatalog som S3, särskilt avsnitten Engine – Brake System, Electrical System och Transmission. Används för komponentnamn och reservdelsnummer, inte som inställningsmanual.",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1358-12_89_SV-EN.pdf"
     }
   ],
-  "sourceHeading": "12 · Källor och manualer",
+  "sourceHeading": "14 · Källor och manualer",
   "sourceIntro": "Originalkataloger och separata produktversioner listas nedan. Kontrollera artikelnummer mot exakt produktnummer och motorvariant.",
   "sourceHelp": "Originalkataloger [S1–S3] väger tyngre än sekundära register [S4–S5]. Kontrollera alltid produktnummer, motor och transmission på den enskilda maskinen.",
   "traderaBlock": {
