@@ -68,9 +68,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add -- maskinarkiv/stiga-park-16.html maskinarkiv/husqvarna-rider-13.html maskinarkiv/husqvarna-lth151.html maskinarkiv/stiga-villa-12-hst.html maskinarkiv/jonsered-lt2115.html
-          EXPECTED="$(printf '%s\\n' maskinarkiv/husqvarna-lth151.html maskinarkiv/husqvarna-rider-13.html maskinarkiv/jonsered-lt2115.html maskinarkiv/stiga-park-16.html maskinarkiv/stiga-villa-12-hst.html)"
-          ACTUAL="$(git diff --cached --name-only | LC_ALL=C sort)"
-          test "$ACTUAL" = "$EXPECTED"
+          for filepath in $(git diff --cached --name-only); do
+            case "$filepath" in
+              maskinarkiv/stiga-park-16.html|maskinarkiv/husqvarna-rider-13.html|maskinarkiv/husqvarna-lth151.html|maskinarkiv/stiga-villa-12-hst.html|maskinarkiv/jonsered-lt2115.html) ;;
+              *) echo "::error::Unexpected file in release: $filepath"; exit 1 ;;
+            esac
+          done
           test "$(git diff --cached --name-only | wc -l)" -eq 5
           git diff --cached --check
           git switch -c "$RELEASE_BRANCH"
