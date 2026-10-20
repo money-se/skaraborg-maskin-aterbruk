@@ -1,0 +1,338 @@
+{
+  "slug": "husqvarna-rider-15-v2",
+  "model": "Husqvarna Rider 15 V2",
+  "title": "Husqvarna Rider 15 V2",
+  "lead": "Identifiera din Rider 15 V2, förstå Kawasaki-motorn och hydrostaten, jämför originalmanualer och hitta rätt klippaggregat och reservdelar.",
+  "eyebrow": "Maskinarkivet · Husqvarna",
+  "tags": [
+    "Frontklippare",
+    "Kawasaki FH430V i 2003 års manual",
+    "Tuff Torq K46 dokumenterad",
+    "Versions- och manualguide"
+  ],
+  "navigation": [
+    {
+      "id": "oversikt",
+      "label": "Översikt"
+    },
+    {
+      "id": "identifiering",
+      "label": "Identifiering"
+    },
+    {
+      "id": "versioner",
+      "label": "Dokumenterade versioner"
+    },
+    {
+      "id": "motor",
+      "label": "Motor"
+    },
+    {
+      "id": "transmission",
+      "label": "Transmission"
+    },
+    {
+      "id": "styrning",
+      "label": "Styrning och körning"
+    },
+    {
+      "id": "aggregat",
+      "label": "Klippaggregat"
+    },
+    {
+      "id": "sakerhet",
+      "label": "Säkerhet"
+    },
+    {
+      "id": "service",
+      "label": "Service och underhåll"
+    },
+    {
+      "id": "felsokning",
+      "label": "Kontroller och felsökning"
+    },
+    {
+      "id": "reservdelar",
+      "label": "Reservdelar och manualer"
+    },
+    {
+      "id": "koprad",
+      "label": "Begagnatköp"
+    },
+    {
+      "id": "faq",
+      "label": "Vanliga frågor"
+    },
+    {
+      "id": "kallor",
+      "label": "Källor och manualer"
+    }
+  ],
+  "headHtml": "<!DOCTYPE html>\n<html lang=\"sv\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>Husqvarna Rider 15 V2 – motor, hydrostat, manual och reservdelar | Maskinarkivet</title>\n<meta name=\"description\" content=\"Husqvarna Rider 15 V2: identifiering, Kawasaki FH430V, Tuff Torq K46, Combi-aggregat, serviceintervall, manualer och reservdelar.\">\n<meta name=\"robots\" content=\"index,follow,max-image-preview:large\">\n<link rel=\"canonical\" href=\"https://skaraborgmaskin.se/maskinarkiv/husqvarna-rider-15-v2.html\">\n<link rel=\"stylesheet\" href=\"/maskinarkiv/maskinarkiv-v6.css\">\n</head>\n<body>\n<a class=\"skip\" href=\"#main\">Hoppa till innehållet</a>\n<div id=\"site-header\"></div>\n",
+  "footerHtml": "</main>\n<div id=\"site-footer\"></div>\n<script>\ndocument.querySelectorAll(\".mobile-toc a[href^='#']\").forEach(a=>a.addEventListener(\"click\",()=>{const d=a.closest(\"details\");if(d)d.open=false}));\n// Shared partials contain root-page relative links. Rebase only their local URLs\n// when they are displayed from /maskinarkiv/; leave the shared files untouched.\nfunction insertPartial(id,html){\n  const container=document.getElementById(id);\n  const fragment=document.createElement(\"template\");\n  fragment.innerHTML=html;\n  fragment.content.querySelectorAll(\"a[href]\").forEach(link=>{\n    const href=link.getAttribute(\"href\");\n    if(href&&!href.startsWith(\"/\")&&!href.startsWith(\"#\")&&!/^[a-z][a-z0-9+.-]*:/i.test(href)){\n      link.setAttribute(\"href\",\"/\"+href);\n    }\n  });\n  container.replaceChildren(fragment.content.cloneNode(true));\n}\nfetch(\"../partials1/header.html\").then(r=>{if(!r.ok)throw Error(\"header\");return r.text()}).then(h=>insertPartial(\"site-header\",h)).catch(()=>{});\nfetch(\"../partials1/footer.html\").then(r=>{if(!r.ok)throw Error(\"footer\");return r.text()}).then(h=>insertPartial(\"site-footer\",h)).catch(()=>{});\n</script>\n</body></html>",
+  "chapters": [
+    {
+      "id": "oversikt",
+      "heading": "01 · Översikt",
+      "title": "Vad är en Husqvarna Rider 15 V2?",
+      "headingId": "h-oversikt",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Rider 15 V2 är en frontmonterad åkgräsklippare med bakhjulsstyrning. Det betyder att klippaggregatet sitter framför föraren och att bakhjulen hjälper maskinen att svänga. Modellen ska inte förväxlas med Rider 15 C, Rider 15 V2 AWD eller Rider 15 T.</p><p>Här börjar vi med det enkla: en motor driver dels maskinen framåt, dels klippaggregatets knivar. Mellan motorn och drivhjulen finns en transmission som reglerar hastigheten. Underhåll och reservdelar beror på maskinens exakta utförande.</p>"
+        },
+        {
+          "type": "facts",
+          "rows": [
+            {
+              "label": "Typ",
+              "value": "Frontklippare / åkgräsklippare"
+            },
+            {
+              "label": "Dokumenterad motorfamilj",
+              "value": "Kawasaki FH430V enligt Rider 15 V2-manualen 2003-01 [S1]"
+            },
+            {
+              "label": "Dokumenterad transmission",
+              "value": "Tuff Torq K46 enligt samma manual [S1]"
+            },
+            {
+              "label": "Viktigast vid identifiering",
+              "value": "Maskinens märkplåt, motorns specifikationskod och transmissionens märkning"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "label": "Börja med maskinens identitet",
+          "textHtml": "Tekniska uppgifter i äldre handböcker kan skilja sig mellan revisioner. Läs märkplåten innan du köper reservdelar."
+        }
+      ]
+    },
+    {
+      "id": "identifiering",
+      "heading": "02 · Identifiering",
+      "title": "Så hittar du rätt produktnummer och version",
+      "headingId": "h-identifiering",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Enligt Husqvarnas förarmanual finns märkplåten framtill till vänster under sätet. Där står maskinens typbeteckning, tillverkarens typnummer och serienummer. Motorn och transmissionen har också egna märkningar [S1].</p><ol><li>Fotografera hela maskinens märkplåt.</li><li>Skriv av produkt-/typnummer och serienummer utan att tolka dem som årsmodell.</li><li>Kontrollera motorns egen typ- och specifikationskod.</li><li>Kontrollera transmissionens märkning samt det monterade klippaggregatets identitet.</li><li>Välj därefter rätt reservdelskatalog (IPL).</li></ol><p>En övermålad, skadad eller oläslig märkplåt gör reservdelsidentifieringen svårare. Utgå då inte enbart från dekaler på kåpan.</p>"
+        },
+        {
+          "type": "note",
+          "label": "Årtal i dokument",
+          "textHtml": "Beteckningen ”2006-01” i en reservdelskatalog är ett dokumentdatum, inte bevis för ett enskilt exemplars tillverkningsår."
+        }
+      ]
+    },
+    {
+      "id": "versioner",
+      "heading": "03 · Dokumenterade versioner",
+      "title": "Rider 15 V2, AWD och olika katalogrevisioner",
+      "headingId": "h-versioner",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Husqvarnas dokumentation täcker flera varianter. Den vanliga Rider 15 V2 och AWD-modellerna har olika dokumenterade drivlineuppgifter, och dessa ska hållas isär. Följande är <strong>dokumenterade katalogidentiteter</strong> snarare än en lista över årsmodeller:</p><div class=\"table-scroll\"><table><thead><tr><th>Produktnummer / källa</th><th>Dokumentläge</th><th>Vad vi säkert kan säga</th></tr></thead><tbody><tr><td>953 53 37-01</td><td>IPL, 2006-01</td><td>Separat katalog; aggregatavsnitt för 103 och 112 cm [S3]</td></tr><tr><td>953 53 37-01</td><td>Register, 2006-05</td><td>Transmissionsbenämning K46 nämns i sekundär partslista [S4]</td></tr><tr><td>965200701</td><td>Reservdelsregister, 2008-01</td><td>Hydrostat K46 EU uppges i transmissionsavsnitt [S5]</td></tr><tr><td>Rider 15 V2 AWD / V2s AWD</td><td>Gemensam manual 2008-11</td><td>Separata AWD-varianter; inte samma transmissions-/oljepost som icke-AWD [S2]</td></tr></tbody></table></div><p>Ytterligare registrerade identiteter är 953 53 37-05 och 965094501. Deras kompletta motorspecifikationer och aggregatkompatibilitet är ännu inte fastställda i detta underlag.</p>"
+        },
+        {
+          "type": "note",
+          "label": "Läs versionsraderna rätt",
+          "textHtml": "Uppgifter hämtade ur en manual utan exakt produktnummer får inte automatiskt kopplas till alla produktnummer i tabellen."
+        }
+      ]
+    },
+    {
+      "id": "motor",
+      "heading": "04 · Motor",
+      "title": "Kawasaki FH430V – hur motorn arbetar",
+      "headingId": "h-motor",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Husqvarnas Rider 15 V2-manual från 2003 anger <strong>Kawasaki FH430V</strong>, <strong>431 cm³</strong> och <strong>11,2 kW / 15 hp</strong> [S1]. Uppgifterna hör till manualens beskrivna utförande och är inte ett löfte om motorkod på varje Rider 15 V2.</p><p>Motorn omvandlar bränslets energi till rotation. Denna kraft kan via remmar och drivsystem användas både för framdrivning och för att sätta klippknivarna i rörelse. Motorns egen märkning är avgörande för att hitta rätt filter, tändstift och andra motordelar.</p>"
+        },
+        {
+          "type": "facts",
+          "rows": [
+            {
+              "label": "Motor enligt manual 2003-01",
+              "value": "Kawasaki FH430V"
+            },
+            {
+              "label": "Slagvolym enligt samma källa",
+              "value": "431 cm³"
+            },
+            {
+              "label": "Angiven effekt",
+              "value": "11,2 kW / 15 hp"
+            },
+            {
+              "label": "Kontrollera alltid",
+              "value": "Motorns egna märkningar och manualrevision"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "transmission",
+      "heading": "05 · Transmission",
+      "title": "Vad är en hydrostat och vad betyder K46?",
+      "headingId": "h-transmission",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>En hydrostat reglerar hur snabbt maskinen kör genom hydraulisk kraftöverföring. Föraren kan styra farten steglöst utan att välja traditionella växellägen. Rider 15 V2-manualen från 2003 anger <strong>Tuff Torq K46</strong>; en senare reservdelskatalog anger också K46 EU för en separat produktrevision [S1, S5].</p><p>Drivproblem behöver inte alltid betyda att hydrostaten är skadad. Drivrem, reglagelänkage och broms kan påverka körningen. Kontrollera sådana yttre delar innan man misstänker ett invändigt transmissionsfel.</p><h3>AWD är inte samma utförande</h3><p>AWD betyder fyrhjulsdrift. Husqvarnas manual från 2008 har separata kolumner och underhållsuppgifter för de AWD-varianter den beskriver. Utgå inte från att deras drivlinor, oljor eller reservdelar är identiska med tvåhjulsdrivna Rider 15 V2 [S2].</p>"
+        },
+        {
+          "type": "note",
+          "label": "Service på transmissionen",
+          "textHtml": "K46-beteckningen är inte tillräcklig för att välja olja eller utföra ingrepp på ett okänt exemplar. Följ just den transmissionens och modellrevisionens instruktioner."
+        }
+      ]
+    },
+    {
+      "id": "styrning",
+      "heading": "06 · Styrning och körning",
+      "title": "Varför svänger Rider annorlunda än en vanlig traktor?",
+      "headingId": "h-styrning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>På en traditionell trädgårdstraktor styr ofta framhjulen. Rider använder i stället bakhjulsstyrning, vilket hjälper det frontmonterade aggregatet att följa runt hinder. Föraren behöver ändå ha uppsikt över bakpartiets rörelse nära väggar, stolpar och andra hinder.</p><p>Den hydrostatiska körningen beskrivs i manualen med en pedal för framåtdrift och en för backning [S2]. Läs maskinens reglagebeskrivning före första användning, särskilt om du tidigare bara kört traktorgräsklippare.</p>"
+        }
+      ]
+    },
+    {
+      "id": "aggregat",
+      "heading": "07 · Klippaggregat",
+      "title": "BioClip och Combi – varför bredden inte räcker",
+      "headingId": "h-aggregat",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p><strong>Klippaggregatet</strong> är delen längst fram där knivarna sitter. BioClip finfördelar gräset, medan Combi är en aggregatfamilj med olika klipplägen beroende på konfiguration. Det är inte samma sak som att alla aggregat är kompatibla.</p><p>Den äldre originalmanualen redovisar BioClip 90 cm, 97 cm samt Combi 103 och 112 cm. Den senare manualen från 2008 listar Combi 103 och Combi 112. Reservdelsregistren visar ytterligare katalogavsnitt. Skillnaderna måste läsas mot produktrevision och aggregatets egen märkning [S1–S3].</p><div class=\"table-scroll\"><table><thead><tr><th>Dokument</th><th>Angivna aggregat</th><th>Tolkning</th></tr></thead><tbody><tr><td>Manual 2003-01 [S1]</td><td>90, 97, 103, 112 cm</td><td>Omfattning i äldre manual</td></tr><tr><td>Manual 2008-11 [S2]</td><td>Combi 103 och 112</td><td>Omfattning i senare manual</td></tr><tr><td>IPL 953 53 37-01, 2006-01 [S3]</td><td>103 och 112 cm</td><td>Katalogavsnitt, inte leveransbevis</td></tr></tbody></table></div>"
+        },
+        {
+          "type": "note",
+          "label": "Inga universella reservdelsnummer",
+          "textHtml": "Kontrollera alltid aggregatets modellbeteckning och dess IPL före beställning av knivar, remmar eller spindlar."
+        }
+      ]
+    },
+    {
+      "id": "sakerhet",
+      "heading": "08 · Säkerhet",
+      "title": "Startvillkor och säkerhetsbrytare",
+      "headingId": "h-sakerhet",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Originalmanualen beskriver flera säkerhetsvillkor. Vid startproblem kan exempelvis klippaggregatets lyftläge, hydrostatpedalernas neutralvillkor, säkring eller batteri vara relevanta kontrollpunkter [S1–S2]. De är dock inte bevis för att just dessa fel är vanliga på modellen.</p><p>Koppla aldrig förbi sätesbrytare eller andra säkerhetsfunktioner. Inför arbete på knivar eller remmar ska motorn vara avstängd, startnyckeln tas bort och tillverkarens stopp- och frånkopplingsrutiner följas.</p>"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "09 · Service och underhåll",
+      "title": "Oljebyten: varför manualrevisionen spelar roll",
+      "headingId": "h-service",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Här finns en viktig <strong>skillnad mellan originalmanualerna</strong>. Servicejournalen i 2003 års Rider 15 V2-manual anger första motoroljebyte efter <strong>8 drifttimmar</strong>. Manualen från november 2008 anger i stället <strong>5 timmar</strong> [S1–S2]. Följ därför rätt dokument för ditt exemplar.</p><div class=\"table-scroll\"><table><thead><tr><th>Kontroll</th><th>Manual 2003-01</th><th>Manual 2008-11</th></tr></thead><tbody><tr><td>Första motoroljebyte</td><td>Efter 8 timmar</td><td>Efter 5 timmar</td></tr><tr><td>Motorolja, mängd enligt tabell</td><td>1,5 liter utan filter, 1,7 med filter</td><td>1,5 liter utan filter, 1,7 med filter</td></tr><tr><td>Transmission, icke-AWD</td><td>SAE 10W/30 enligt manualen</td><td>SAE 10W/30 enligt manualen</td></tr></tbody></table></div><p>En oljemängd är en referensuppgift, inte en uppmaning att hälla i exakt den mängden utan nivåkontroll. Använd korrekt manual och kontrollera nivån enligt anvisningarna.</p>"
+        },
+        {
+          "type": "note",
+          "label": "En revisionsskillnad, inte ett typfel",
+          "textHtml": "Skriv aldrig ett enda serviceintervall som universellt när originalmanualerna motsäger varandra."
+        }
+      ]
+    },
+    {
+      "id": "felsokning",
+      "heading": "10 · Kontroller och felsökning",
+      "title": "Börja med symptomet, inte med en gissad reservdel",
+      "headingId": "h-felsokning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<h3>Startmotorn går inte runt</h3><p>Kontrollera användarens startförutsättningar i förarmanualen, batteriets anslutningar och synliga säkringar. Säkerhetskretsar ska testas enligt tillverkarens instruktioner, aldrig kopplas förbi.</p><h3>Motorn går men maskinen driver svagt</h3><p>Notera om drivrem eller länkage verkar skadat eller felinställt. Kontrollera sedan exakt vilken transmission som är monterad innan serviceföreskrifter följs.</p><h3>Klippningen blir ojämn</h3><p>Kontrollera däcktryck enligt rätt manual, klippaggregatets inställning och knivarnas skick. Stäng av och säkra maskinen innan kontroll av rörliga eller vassa delar.</p><p>Detta är <em>allmänna, systembaserade kontrollsteg</em> och ska inte beskrivas som statistiskt dokumenterade typfel på Rider 15 V2.</p>"
+        }
+      ]
+    },
+    {
+      "id": "reservdelar",
+      "heading": "11 · Reservdelar och manualer",
+      "title": "Så hittar du rätt del i IPL",
+      "headingId": "h-reservdelar",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>En IPL är en <em>illustrated parts list</em>, en reservdelskatalog med sprängskisser och artikelnummer. Leta upp rätt produktnummer för maskinen och rätt separat aggregat innan du slår upp motorns, remmens eller klippknivens delar.</p><ol><li>Hitta produktnummer och serienummer.</li><li>Välj dokumentet för just den revisionen i Husqvarnas portal [S3].</li><li>Kontrollera rätt avsnitt: motor, transmission, styrning eller aggregat.</li><li>Jämför den faktiska komponenten och dess märkning med kataloguppgifterna.</li><li>Kontrollera ersättningsnummer och tillgänglighet hos leverantören.</li></ol><p>Att två modeller har samma motor- eller transmissionsfamilj innebär inte att alla reservdelar passar utan kontroll.</p>"
+        }
+      ]
+    },
+    {
+      "id": "koprad",
+      "heading": "12 · Begagnatköp",
+      "title": "Vad bör du undersöka före köp?",
+      "headingId": "h-koprad",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Be gärna om foto på hela maskinen, märkplåten, klippaggregatet och motorns märkning. Vid provkörning bör du observera om motorn startar normalt, om fram- och backdrift känns jämn, om maskinen styr utan ovanligt glapp och om klippaggregatet kan aktiveras säkert.</p><p>Undersök dessutom rostskador, remslitage, knivarnas tillstånd, vibrationer, tydliga läckage och om säkerhetsbrytarna fungerar korrekt. Dessa är kontrollpunkter för en äldre begagnad maskin – inte dokumenterade typfel på just Rider 15 V2.</p><p>Kontrollera att eventuell medföljande manual och reservdelslista verkligen hör till maskinens produktnummer.</p>"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": "13 · Vanliga frågor",
+      "title": "Snabba svar om Rider 15 V2",
+      "headingId": "h-faq",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<details><summary>Har alla Rider 15 V2 samma motor?</summary><p>Nej, det kan vi inte slå fast. 2003 års originalmanual anger Kawasaki FH430V, men motorn på ett enskilt exemplar måste identifieras separat.</p></details><details><summary>Är Rider 15 V2 samma som Rider 15 V2 AWD?</summary><p>Nej. Husqvarnas manualer skiljer AWD-utförandena från tvåhjulsdrivna modeller, bland annat i drivlina och transmissionsuppgifter.</p></details><details><summary>Passar alla Combi-aggregat?</summary><p>Inte nödvändigtvis. Matcha både traktorversion och aggregatets identitet mot tillverkarens reservdelskatalog.</p></details><details><summary>När ska första oljebytet ske?</summary><p>Det beror på rätt manualrevision: 2003 års servicejournal anger 8 timmar, en senare manual anger 5 timmar. Använd dokumentet för din maskin.</p></details><details><summary>Hur hittar jag rätt reservdelar?</summary><p>Börja med märkplåtens produktnummer och den tillhörande original-IPLn. Motorn och aggregatet kan ha egna modellnummer.</p></details>"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "S1 · Husqvarna OM Rider 15 V2, 2003-01",
+      "description": "Originalförarmanual; märkplåt, Kawasaki FH430V, K46, aggregat och äldre serviceschema.",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000021444/doc000043993"
+    },
+    {
+      "title": "S2 · Husqvarna OM Rider 15 V2 / AWD, 2008-11",
+      "description": "Originalförarmanual; dokumenterade skillnader mellan icke-AWD och AWD, aggregat och senare serviceintervall.",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000038634/doc000071096"
+    },
+    {
+      "title": "S3 · Husqvarna RIDER 15V2, 953 53 37-01, 2006-01",
+      "description": "Tillverkarens originalreservdelsregister (IPL), revisionsbundna aggregatavsnitt.",
+      "url": "https://shop-pa-v9.husqvarna.com/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcCategory=Riders&epcProduct=RIDER+15V2&epcVariantName=RIDER+15V2%2C+953+53+37-01%2C+2006-01&langId=-1&modelId=Husqvarna-Riders_RIDER+15V2&storeId=11251"
+    },
+    {
+      "title": "S4 · sGarden, transmission för 953 53 37-01, 2006-05",
+      "description": "Sekundär reservdelslista där K46 anges; kontroll mot original-IPLn krävs.",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/27934/TRANSMISSION"
+    },
+    {
+      "title": "S5 · Husqvarna Rider 15V2, 965200701, IPL 2008-01",
+      "description": "Speglad reservdelskatalog; refererar till HYDROSTAT K46 EU.",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/husqvarna/tracteurs-tondeuse-rider/rider%2015%20v2/tracteur_tondeuse_husqvarna_rider_rider15v2_liste-des-pieces_2008-01.pdf"
+    }
+  ],
+  "sourceHeading": "Källor",
+  "sourceIntro": "Tekniska uppgifter ovan hör till de dokumentrevisioner där de är belagda. Produktnummer och manualdatum är inte utbytbara med maskinens tillverkningsår.",
+  "sourceHelp": "Välj alltid den originalmanual och reservdelskatalog som hör till din märkplåt. Sekundära reservdelsregister är hjälpmedel, inte universella kompatibilitetsbevis.",
+  "afterChaptersMetaHtml": "<p class=\"meta\">Faktaunderlag: Husqvarnas originalmanualer 2003-01 och 2008-11 samt revisionsbundna reservdelsregister. Versioner som saknar tillräcklig dokumentation lämnas uttryckligen öppna.</p>",
+  "traderaBlock": {
+    "type": "tradera-follow",
+    "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din maskin?</h2><p>Vi säljer ibland reservdelar, tillbehör och andra begagnade fynd på Tradera. Följ gärna vår profil och kika bland annonserna – kanske dyker det du söker upp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
+  }
+}
