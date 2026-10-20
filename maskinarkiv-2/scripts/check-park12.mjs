@@ -6,7 +6,7 @@ const file="../_maskinarkiv-preview/maskinarkiv/"+slug+".html";
 assert.ok(fs.existsSync(file),"STIGA Park 12 HST generated file missing");
 const html=fs.readFileSync(file,"utf8");
 assert.equal(model.chapters.length,16);
-assert.ok(model.sources.length>=24);
+assert.ok(model.sources.length>=27);
 const motor=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
 for(const key of ["Så hittar du Briggs","281707-0142","281707-0127","Briggs &amp; Strattons manualsökning","suffixet"]) assert.ok(motor.includes(key),"Missing verified engine guidance: "+key);
 const deck=model.chapters.find(c=>c.id==="aggregat").blocks.map(b=>b.html||"").join("");
@@ -37,3 +37,6 @@ console.log("MASKINARKIV_PARK12_DRAFT_TEST=PASS");
 
 const service=model.chapters.find(c=>c.id==="service").blocks.map(b=>b.html||"").join("");
 for(const phrase of ["Underhåll för nybörjare","Vilka serviceuppgifter har vi ännu inte kunnat fastställa?","Hydrostatoljans typ och mängd","Skruva inte loss en okänd plugg"]) assert.ok(service.includes(phrase),"Missing service safety guidance: "+phrase);
+
+const engineSeries=model.chapters.find(c=>c.id==="motor").blocks.map(b=>b.html||"").join("");
+for(const phrase of ["1,4 liter","50:e drifttimme","motorns exakta märkning","Form No. 271971-7:91"]) assert.ok(engineSeries.includes(phrase),"Missing historical engine-manual qualification: "+phrase);
