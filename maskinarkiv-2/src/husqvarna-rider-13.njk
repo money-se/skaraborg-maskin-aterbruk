@@ -2,4 +2,4 @@
 permalink: "maskinarkiv/husqvarna-rider-13.html"
 eleventyExcludeFromCollections: true
 ---
-{% set pilot = rider %}{{ pilot.headHtml | safe }}{% include "partials/hero.njk" %}<main class="wrap layout">{% include "partials/nav.njk" %}<article class="article">{% include "partials/mobile-nav.njk" %}{% for chapter in pilot.chapters %}{% include "partials/chapter.njk" %}{% endfor %}{% include "partials/sources.njk" %}</article>{{ pilot.footerHtml | safe }}
+{% set pilot = rider %}{% include "pages/machine.njk" %}
