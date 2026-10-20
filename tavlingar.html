@@ -54,7 +54,7 @@ return a}
 function archiveCard(x){const article=el('article','archive-card');if(x.image_paths?.length){const img=el('img');img.src=photo(x.image_paths[0]);img.alt=x.title;img.loading='lazy';article.append(img)}else if(!x.facebook_post_url&&!x.winner_reel_url)article.append(el('div','archive-placeholder','⚙'));
 const body=el('div','archive-card-body');body.append(el('span','status'+(x.is_test?' test':' ended'),x.is_test?'Test':'Avslutad'),el('h3',null,x.title));
 if(x.ends_at)body.append(el('p',null,'Avslutades '+date(x.ends_at)));if(x.winner_name&&!x.is_test)body.append(el('p',null,'Vinnare: '+x.winner_name));
-if(!x.is_test){const link=el('a',null,'Se tävlingen →');link.href='/tavlingar/'+x.slug+'.html';body.append(link)}
+
 article.prepend(body);if(x.facebook_post_url||x.winner_reel_url){const b=el('div','archive-embeds');embed(b,x.facebook_post_url,'post');embed(b,x.winner_reel_url,'reel');article.append(b)}return article}
 async function load(){const r=await db.from('competitions').select('title,slug,description,prize_condition,image_paths,facebook_url,starts_at,ends_at,status,rules,winner_name,is_test,facebook_post_url,winner_reel_url').eq('published',true).in('status',['active','ended']).order('starts_at',{ascending:false});if(r.error)throw r.error;const data=r.data||[],now=Date.now();
 const active=data.find(x=>x.status==='active'&&(x.is_test||((!x.starts_at||Date.parse(x.starts_at)<=now)&&(!x.ends_at||Date.parse(x.ends_at)>=now))));
