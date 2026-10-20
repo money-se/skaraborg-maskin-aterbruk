@@ -94,11 +94,29 @@
         },
         {
           "type": "facts",
-          "innerHtml": "<div><b>Huvudfokus</b><span>Äldre Park 16 HST, särskilt 1990–1993 års dokumenterade produktversioner</span></div><div><b>Närliggande modell</b><span>Park 16 HST Pro – separat reservdelsgren</span></div><div><b>Drivning</b><span>Hydrostatisk; Kanzaki K110 dokumenterad för 13-1458-14 och 13-1458-15 [S1–S2]</span></div><div><b>Rätt reservdelsval</b><span>Utgå från produktnummer och motorns egen märkning</span></div>"
+          "rows": [
+            {
+              "label": "Huvudfokus",
+              "value": "Äldre Park 16 HST, särskilt 1990–1993 års dokumenterade produktversioner"
+            },
+            {
+              "label": "Närliggande modell",
+              "value": "Park 16 HST Pro – separat reservdelsgren"
+            },
+            {
+              "label": "Drivning",
+              "value": "Hydrostatisk; Kanzaki K110 dokumenterad för 13-1458-14 och 13-1458-15 [S1–S2]"
+            },
+            {
+              "label": "Rätt reservdelsval",
+              "value": "Utgå från produktnummer och motorns egen märkning"
+            }
+          ]
         },
         {
           "type": "note",
-          "innerHtml": "<strong>Börja här</strong>Har du bara uppgiften ”STIGA Park 16”? Gå direkt till identifieringsguiden. Den kan spara både felköp och onödig felsökning."
+          "label": "Börja här",
+          "textHtml": "Har du bara uppgiften ”STIGA Park 16”? Gå direkt till identifieringsguiden. Den kan spara både felköp och onödig felsökning."
         }
       ]
     },
@@ -122,7 +140,8 @@
         },
         {
           "type": "note",
-          "innerHtml": "<strong>Om årsmodeller</strong>En katalog märkt ”Season 1993” visar att produktversionen dokumenterats för den säsongen. Den bevisar inte att varje exemplar med den beteckningen tillverkades under precis samma kalenderår."
+          "label": "Om årsmodeller",
+          "textHtml": "En katalog märkt ”Season 1993” visar att produktversionen dokumenterats för den säsongen. Den bevisar inte att varje exemplar med den beteckningen tillverkades under precis samma kalenderår."
         }
       ]
     },
@@ -174,7 +193,8 @@
         },
         {
           "type": "note",
-          "innerHtml": "<strong>Undvik en vanlig genväg</strong>Beställ inte tändstift, förgasare eller startmotor enbart på sökningen ”Park 16”. En historisk kataloglista är inte ett universellt servicekit."
+          "label": "Undvik en vanlig genväg",
+          "textHtml": "Beställ inte tändstift, förgasare eller startmotor enbart på sökningen ”Park 16”. En historisk kataloglista är inte ett universellt servicekit."
         }
       ]
     },
@@ -198,7 +218,8 @@
         },
         {
           "type": "note",
-          "innerHtml": "<strong>Versionsgräns</strong>Att en senare Park Pro 16 kan ha K62 betyder inte att en Park 16 HST från 1993 har det. Läs alltid av produktnumret."
+          "label": "Versionsgräns",
+          "textHtml": "Att en senare Park Pro 16 kan ha K62 betyder inte att en Park 16 HST från 1993 har det. Läs alltid av produktnumret."
         }
       ]
     },
@@ -254,11 +275,29 @@
         },
         {
           "type": "facts",
-          "innerHtml": "<div><b>121M mekaniskt</b><span><code>13-2915</code>; 17 fasta klipphöjdslägen enligt manualen</span></div><div><b>121M elektriskt</b><span><code>13-2921</code>; steglös höjdinställning enligt manualen</span></div><div><b>Höjdintervall</b><span>30–80 mm för 121M enligt manualen</span></div><div><b>Äldre Park</b><span>Särskild monteringsanpassning anges för modeller till och med 1993</span></div>"
+          "rows": [
+            {
+              "label": "121M mekaniskt",
+              "value": "<code>13-2915</code>; 17 fasta klipphöjdslägen enligt manualen"
+            },
+            {
+              "label": "121M elektriskt",
+              "value": "<code>13-2921</code>; steglös höjdinställning enligt manualen"
+            },
+            {
+              "label": "Höjdintervall",
+              "value": "30–80 mm för 121M enligt manualen"
+            },
+            {
+              "label": "Äldre Park",
+              "value": "Särskild monteringsanpassning anges för modeller till och med 1993"
+            }
+          ]
         },
         {
           "type": "warning",
-          "innerHtml": "<strong>Passar inte nödvändigtvis direkt</strong>STIGAs 121M-manual beskriver en ändring av infästningen för styrningens returfjäder på Park-maskiner till och med 1993. Det är ett tydligt skäl att kontrollera originalmanualen och maskinens exakta utförande innan ett begagnat 121M-aggregat köps eller monteras. Utför inte ingrepp utifrån en sammanfattning på nätet."
+          "label": "Passar inte nödvändigtvis direkt",
+          "textHtml": "STIGAs 121M-manual beskriver en ändring av infästningen för styrningens returfjäder på Park-maskiner till och med 1993. Det är ett tydligt skäl att kontrollera originalmanualen och maskinens exakta utförande innan ett begagnat 121M-aggregat köps eller monteras. Utför inte ingrepp utifrån en sammanfattning på nätet."
         },
         {
           "type": "html",
@@ -286,7 +325,8 @@
         },
         {
           "type": "note",
-          "innerHtml": "<strong>Viktigt källförbehåll</strong>Utan en verifierad originalbruksanvisning för din produktversion anger vi inte exakta startspärrar, tillåtna lutningar eller körinställningar för de äldre HST-modellerna."
+          "label": "Viktigt källförbehåll",
+          "textHtml": "Utan en verifierad originalbruksanvisning för din produktversion anger vi inte exakta startspärrar, tillåtna lutningar eller körinställningar för de äldre HST-modellerna."
         }
       ]
     },
@@ -302,7 +342,8 @@
         },
         {
           "type": "note",
-          "innerHtml": "<strong>Därför saknas en oljetabell</strong>Det vore lätt att skriva generella värden för motorolja och hydrostatolja. Men när fullständiga originalserviceuppgifter inte är verifierade riskerar sådana värden att skada maskinen. Välj alltid manual utifrån motorns respektive transmissionens märkning."
+          "label": "Därför saknas en oljetabell",
+          "textHtml": "Det vore lätt att skriva generella värden för motorolja och hydrostatolja. Men när fullständiga originalserviceuppgifter inte är verifierade riskerar sådana värden att skada maskinen. Välj alltid manual utifrån motorns respektive transmissionens märkning."
         }
       ]
     },
