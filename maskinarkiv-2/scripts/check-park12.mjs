@@ -32,3 +32,6 @@ assert.ok(!html.includes('noindex'));
 for(const fragment of ['href="#identifiering"','href="#felsokning"','href="#ordlista"','href="#kallor"']) assert.ok(html.includes(fragment),"Quick links missing: "+fragment);
 assert.ok(html.includes("Ny på åkgräsklippare?"),"Beginner lead missing");
 console.log("MASKINARKIV_PARK12_DRAFT_TEST=PASS");
+
+const service=model.chapters.find(c=>c.id==="service").blocks.map(b=>b.html||"").join("");
+for(const phrase of ["Underhåll för nybörjare","Vilka serviceuppgifter har vi ännu inte kunnat fastställa?","Hydrostatoljans typ och mängd","Skruva inte loss en okänd plugg"]) assert.ok(service.includes(phrase),"Missing service safety guidance: "+phrase);
