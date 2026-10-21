@@ -221,13 +221,20 @@
       "title": "ReservdelarOnline complete later Stiga Villa 85 Combi deck compatibility",
       "document": "387561538/0; replacement 2D2708511/S16, general Villa after 2005",
       "url": "https://www.reservdelaronline.se/produkter/klippaggregat-villa-85-combi"
+    },
+    {
+      "id": "hobbystore-villa-all-models",
+      "tier": 2,
+      "title": "Villa 12 HST machine PNC and year index",
+      "document": "Hobbystore original spare-part catalogue index, 2009–2012 including FR",
+      "url": "https://hobbystore.it/ricambi-trattorini-trattorini-piattofrontale-stiga-villa12"
     }
   ],
   "topics": {
     "A": {
       "name": "Identitet och produktversioner",
       "state": "gap",
-      "note": "Fem maskinproduktnummer identifierade; STIGA 2011 original belägger FR-utförande med separat fransk ägarmanual och särskild karossgrupp. Fullständig variant-/komponentmappning samt 2010-suffixkontroll återstår. 2010 års ursprungskatalog har redan kontrollerats för grupperna 2727 och 2729, men komplett suffix-/revisionsbindning kvarstår."
+      "note": "Fem maskinproduktnummer identifierade; STIGA 2011 original belägger FR-utförande med separat fransk ägarmanual och särskild karossgrupp. Fullständig variant-/komponentmappning samt 2010-suffixkontroll återstår. 2010 års ursprungskatalog har redan kontrollerats för grupperna 2727 och 2729, men komplett suffix-/revisionsbindning kvarstår. En oberoende reservdelslista räknar upp samtliga fem maskin-PNC med år 2009–2012 (klass B)."
     },
     "B": {
       "name": "Grundkonstruktion",
@@ -262,7 +269,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad. Manualutgåvorna -10 och -80 är jämförda; skillnaden i remkåpa/remstyrningssteg är dokumenterad och ska visas som editionsskillnad, inte behandlas som obesvarad jämförelse. Ny STIGA primärpartslista styrker även deck 13-2960-15 säsong 2015. Återförsäljare listar senare aggregat 387561538/0 till Villa efter 2005, men inga exakta kopplingar till alla fem äldre 13-27xx-revisioner eller monteringskit är originalverifierade."
+      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad. Manualutgåvorna -10 och -80 är jämförda; skillnaden i remkåpa/remstyrningssteg är dokumenterad och ska visas som editionsskillnad, inte behandlas som obesvarad jämförelse. Ny STIGA primärpartslista styrker även deck 13-2960-15 säsong 2015. Återförsäljare listar senare aggregat 387561538/0 till Villa efter 2005, men inga exakta kopplingar till alla fem äldre 13-27xx-revisioner eller monteringskit är originalverifierade. STIGA:s originalmaskinmanual §6 bekräftar 85 C som avsett klippaggregat på manualnivå, men inte vilket av aggregatens revisions-PNC som passar varje basmaskin."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -749,6 +756,24 @@
       "grade": "B",
       "sourceId": "retailer-85combi-2023-compatibility",
       "locator": "Produktinformation; avsnitt Passar till samt notering om fästen utanför hjulen"
+    },
+    {
+      "id": "villa-year-pnc-index-all-five",
+      "topic": "A",
+      "statement": "Ett separat reservdelsregister listar Villa 12 HST maskin-ID 13-2727-13 (2009), 13-2727-14 och 13-2729-14 (2010), 13-2729-15 (2011/2012), samt 13-2729-35 (2011 och FR 2012), vilket bekräftar att fem olika produktnummer måste behandlas individuellt. Årtal från återförsäljare förblir B, inte ett substitut för märkplåt.",
+      "variant": "Villa 12 HST 2009–2012 fem olika maskin-PNC, inklusive FR",
+      "grade": "B",
+      "sourceId": "hobbystore-villa-all-models",
+      "locator": "VILLA 12 index, underposter VILLA 12 HST för 2009, 2010, 2011, 2012"
+    },
+    {
+      "id": "stiga-manual-85c-application",
+      "topic": "H",
+      "statement": "STIGA:s Villa 12 HST-användarmanual 8211-0038-90 anger uttryckligen 'Med klippaggregat 85 C' som användningsområde för gräsklippning. Det styrker 85 C som manualavsedd aggregattyp för det maskinutförande manualen gäller, men styrker inte universell passform eller särskilt aggregat-PNC 13-2960-13/-14/-15 per basmaskinsrevision.",
+      "variant": "STIGA Villa 12 HST enligt maskinmanual 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svensk manual, avsnitt 6 ANVÄNDNINGSOMRÅDEN, tryckt s. 12, raden Gräsklippning / Med klippaggregat 85 C"
     }
   ],
   "gaps": [
