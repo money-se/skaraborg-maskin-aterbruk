@@ -184,3 +184,13 @@ I montageavsnittet, figur **2196A** (PDF s. 3), anges även separata dokument: `
 Primärkälla: https://www.ersatzteil-shop24.de/bilder/zeichnungen/ggp_o_st/Stiga/Frontm%C3%A4her/Basismaschinen/Villa_Ready/2011/SSPL2011_20110214_Villa_HST.pdf – originalkatalog PDF s. 3 och 7.
 
 **Grindstatus: `needs_research`.** Den här etappen stärker identiteten hos FR-versionen men färdigställer inte forskning inom motorservice, samtliga varianter eller klippaggregatsmontering.
+
+## 85 Combi – monteringsprincip och revisionsrisk
+
+Ytterligare kontroll av STIGA:s senare bruksanvisningsutgåva **8211-7000-80** (återgiven på ManualsLib, engelska s. 32, avsnitt 3.1) beskriver **Villa/Ready med fasta aggregatfästen**. Monteringen inkluderar aggregatfästen, brickor, låsringar, remstyrningar och spännrulle. För Villa/Ready anges att remspännaren ska ligga **på remmens insida** och dra åt vänster sett från förarplatsen (figur 11). Aggregatet hängs sedan i redskapslyften (figur 13), med eventuell anslutning av elektrisk höjdinställning (figur 16). Anvisningen anger separat bricka (figur 3:D) **endast till och med 2006**, vilket visar att fästen kan vara årsberoende.
+
+**Avgörande källbegränsning:** den tidigare använda originalmanualen är identifierad som **8211-7000-10**, medan den här återgivna senare utgåvan är **8211-7000-80**. Liknande monteringsanvisningar räcker inte för att fastställa identisk tillämpning mellan revisioner. Stegen ovan är därför en dokumenterad **princip för senare Villa/Ready**, inte en godkänd komplett monteringsinstruktion för alla fem Villa 12 HST-maskinrevisioner.
+
+Källa: https://www.manualslib.com/manual/1275367/Stiga-Park-85-Combi.html?page=32 (§3.1).
+
+**Återstår innan färdig artikel:** jämför originalversionen 8211-7000-10 mot senare -80/-91 sida för sida, kontrollera monteringssatsens artikelnummer för basmaskin och aggregat, och håll aggregatets interna remsystem separat från maskinens PTO- och transmissionsdrift.
