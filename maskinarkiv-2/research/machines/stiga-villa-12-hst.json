@@ -116,6 +116,27 @@
       "title": "Villa 12 HST 13-2727-14 Engine parts list",
       "document": "13-2727-14 engine assembly",
       "url": "https://www.sgarden.cz/SpareParts/PartList/130703/Engine"
+    },
+    {
+      "id": "diy-2729-14-k46-parts",
+      "tier": 2,
+      "title": "Stiga Villa 12 HST 13-2729-14 transaxle parts breakdown",
+      "document": "2010 13-2729-14 transmission assembly",
+      "url": "https://diyspareparts.com/parts/stiga/diagrams/ef210c92-4bd7-4f68-9185/b9c82e35-2c21-4769-a4a7"
+    },
+    {
+      "id": "sandby-2729-14-engine",
+      "tier": 2,
+      "title": "Sandby Smedie 13-2729-14 technical identification",
+      "document": "13-2729-14 2010",
+      "url": "https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/"
+    },
+    {
+      "id": "sandby-2729-15-engine",
+      "tier": 2,
+      "title": "Sandby Smedie 13-2729-15 technical identification",
+      "document": "13-2729-15 2011–2012",
+      "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/"
     }
   ],
   "topics": {
@@ -132,12 +153,12 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "A-belägg för GGP WM 12,5 på 13-2727-13 och för B&S-fabrikat på både 13-2729-15/35. Exakta Briggs Model/Type/Code och motorn på 13-2729-14 återstår."
+      "note": "Original STIGA: GGP WM 12,5 på 13-2727-13 och B&S-avsnitt för 13-2729-15/35. Återförsäljare föreslår 21R502 (2729-14) och 21R602 (2729-15), klass C tills motormärkning/original-IPL styrker exakta koder."
     },
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "K46 CJ har nu katalogbelägg för just 13-2729-35, men transmissionsspecifikationer för övriga fyra produktnummer återstår."
+      "note": "Sekundära reservdelsscheman kopplar K46 CJ, artikel 1134-7766-01, till 13-2729-14 och 13-2729-35; för övriga varianter kvarstår individuell bekräftelse."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -365,6 +386,33 @@
       "grade": "A",
       "sourceId": "stiga-2011-villa-hst-original",
       "locator": "Reservdelskatalog utgåva 2011-11, MOTOR / ENGINE (B&S), bildnummer 1651C, tryckt s. 24, PDF s. 23 (nollbaserat index 22)"
+    },
+    {
+      "id": "k46-2010-direct-part",
+      "topic": "D",
+      "statement": "Reservdelslistan för 13-2729-14 visar transaxel K46 CJ som artikel 1134-7766-01, vilket även finns registrerat för 13-2729-35. Gemensamt delnummer i katalog är inte bevis att alla delsystem och tillbehör är identiska.",
+      "variant": "13-2729-14 (2010)",
+      "grade": "B",
+      "sourceId": "diy-2729-14-k46-parts",
+      "locator": "Transmission parts diagram, position 1"
+    },
+    {
+      "id": "2010-expected-21r502",
+      "topic": "C",
+      "statement": "Återförsäljaren anger Briggs & Stratton Powerbuilt 3130 AVS 21R502 som förväntad motor för 13-2729-14; uppgiften är uttryckligen inte fabrikskodsverifiering.",
+      "variant": "13-2729-14 (2010)",
+      "grade": "C",
+      "sourceId": "sandby-2729-14-engine",
+      "locator": "Tekniske informationer, Forventet model"
+    },
+    {
+      "id": "2011-expected-21r602",
+      "topic": "C",
+      "statement": "Återförsäljaren anger Briggs & Stratton Powerbuilt 3135 AVS 21R602 som förväntad motor för 13-2729-15; uppgiften är uttryckligen inte fabrikskodsverifiering.",
+      "variant": "13-2729-15 (2011–2012)",
+      "grade": "C",
+      "sourceId": "sandby-2729-15-engine",
+      "locator": "Tekniske informationer, Forventet model"
     }
   ],
   "gaps": [
@@ -380,6 +428,7 @@
     "Exakt B&S motorkod för 13-2729-35 kvarstår trots publicerade motor-sprängskisser; fästdelar i motorkapitlet bevisar inte modellkod.",
     "Granska skillnader mellan franska 13-2729-35 (FR) och 13-2729-15 mot de enskilda delgrupperna: den märkta marknadsvarianten är inte belägg för samma komponenter.",
     "Verifiera 2010 års STIGA originalkatalog för 13-2727-14 och 13-2729-14 innan motorval och specifika reservdelar skrivs som A-fakta.",
-    "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå."
+    "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå.",
+    "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass."
   ]
 }
