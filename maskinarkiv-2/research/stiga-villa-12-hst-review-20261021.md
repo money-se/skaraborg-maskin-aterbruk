@@ -151,3 +151,24 @@ Ny primärkälla: STIGA **8211-3401-10**, 2010-utgåva, https://view.stiga-store
 **Noggrann avgränsning:** STIGA-katalogen använder korta modellgruppsnummer 2727 respektive 2729. Gruppen är inte alltid samma detaljnivå som hela maskinens produkt-ID med revisionssuffix. För beställning eller service krävs fullständigt produktnummer, motormärkning och i förekommande fall delens egen kod. Katalogen innehåller inga generella serviceinstruktioner för oljeval i K46CJ.
 
 Denna primärkälla ersätter behovet av att enbart lita på återförsäljarnas uppgifter om motorfabrikat och transaxeltyp för **2010 års kataloggrupper**, men Briggs exakta motorkoder återstår.
+
+## Klippaggregatet 85 Combi – dokumenterade reservdelar, inte generell passform
+
+Ny kontroll av STIGA:s **originalreservdelskatalog för 85 Combi, 13-2960-14 (2011/2012)**, figur **2130A**, PDF sida 7. Följande uppgifter gäller **aggregatet med detta produktnummer**:
+
+| Del | Artikelnummer | Figur/position |
+|---|---|---|
+| Knivbalkssats | 1134-9116-01 | 2130A, 6 |
+| Knivsats | 1134-9119-01 | 2130A, 7 |
+| Brytbultsats | 1134-9054-01 | 2130A, 8 |
+| Kuggrem | 9585-0161-01 | 2130A, 34 |
+| Drivrem för aggregat | 1134-9109-01 (även 9585-0160-01) | 2130A, 36 |
+
+**Tre olika remsystem måste hållas isär:** (1) basmaskinens hydrostatdrivning, (2) dess PTO/kraftuttag, och (3) klippaggregatets interna remdrift. Denna tabell beskriver det tredje systemet. Inget av numren ska marknadsföras som generell rem till alla Villa 12 HST.
+
+Katalogen säger också att man måste välja reservdelslista efter maskinens år och märkplåt. Därför räcker det inte att känna till att maskinen heter ”Villa 12 HST”; både maskin- och aggregatidentitet behövs vid beställning.
+
+**Källa:** https://view.stiga-store.com/files/SSPL2011_20110214_Mower_deck_Villa_85C-2-.pdf, omslag och figur 2130A på PDF sida 7.
+
+### Forskningsgräns
+Denna etapp verifierar **komponenterna i aggregatet 13-2960-14**, men ger inte en komplett kompatibilitetsmatris för de fem maskinvarianterna. Status behålls **needs_research**. Uppdatera inte artikelns kompatibilitetstabell förrän fästen, drivrem och aktuellt maskin-ID är uttryckligen styrkta.
