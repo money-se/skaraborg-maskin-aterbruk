@@ -172,3 +172,15 @@ Katalogen säger också att man måste välja reservdelslista efter maskinens å
 
 ### Forskningsgräns
 Denna etapp verifierar **komponenterna i aggregatet 13-2960-14**, men ger inte en komplett kompatibilitetsmatris för de fem maskinvarianterna. Status behålls **needs_research**. Uppdatera inte artikelns kompatibilitetstabell förrän fästen, drivrem och aktuellt maskin-ID är uttryckligen styrkta.
+
+## FR-varianten 13-2729-35: verkliga skillnader i STIGA:s originalkatalog
+
+Katalogen `SSPL2011_20110214_Villa_HST.pdf` innehåller faktiskt en **egen karosssida märkt (Frankrike) / (France)**, figur **2819** (PDF s. 7). Den skiljer ut vänster och höger sidoskydd, med tillhörande fästen och gummiduk (positionerna 1, 5, 15–18). Det är en konkret modell-/marknadsskillnad, och en förklaring till att FR-suffixet inte bara är en alternativ stavning av samma maskin.
+
+I montageavsnittet, figur **2196A** (PDF s. 3), anges även separata dokument: `8211-0011-10` standardbruksanvisning och `8211-0049-10` fransk bruksanvisning. Denna språk-/marknadsskillnad bevisar **inte** avvikande motor eller transmission.
+
+**Praktisk följd för reservdelsråd:** Vid FR-märkning måste man särskilt kontrollera karossdelar, sidokåpor och fästen i FR-sprängskissen. Använd inte svenska standardversionens karosslista okritiskt. Motorns fullständiga Model/Type/Code och aggregatens kompatibilitet är alltjämt öppna frågor.
+
+Primärkälla: https://www.ersatzteil-shop24.de/bilder/zeichnungen/ggp_o_st/Stiga/Frontm%C3%A4her/Basismaschinen/Villa_Ready/2011/SSPL2011_20110214_Villa_HST.pdf – originalkatalog PDF s. 3 och 7.
+
+**Grindstatus: `needs_research`.** Den här etappen stärker identiteten hos FR-versionen men färdigställer inte forskning inom motorservice, samtliga varianter eller klippaggregatsmontering.
