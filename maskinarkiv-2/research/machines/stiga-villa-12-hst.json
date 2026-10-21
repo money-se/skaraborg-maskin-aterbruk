@@ -132,7 +132,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Primärkatalog bekräftar GGP WM 12,5 med bränslepump för 13-2727-13. Kompletterande Engine IPL anger GGP WM 12,5 1134-9500-01 för 13-2727-14. Briggs-utgåvor och FR-variant ej fullständigt identifierade."
+      "note": "A-belägg för GGP WM 12,5 på 13-2727-13 och för B&S-fabrikat på både 13-2729-15/35. Exakta Briggs Model/Type/Code och motorn på 13-2729-14 återstår."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -356,6 +356,15 @@
       "grade": "B",
       "sourceId": "sgarden-2727-14-engine",
       "locator": "Engine parts list, position 99"
+    },
+    {
+      "id": "bs-2011-normal-fr",
+      "topic": "C",
+      "statement": "STIGA:s originalreservdelskatalog grupperar både produktnummer 13-2729-15 och 13-2729-35 under motoravsnittet märkt B&S (Briggs & Stratton). Tabellen styrker fabrikatet, men inte fullständig Model/Type/Code.",
+      "variant": "13-2729-15 och 13-2729-35 (FR), 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Reservdelskatalog utgåva 2011-11, MOTOR / ENGINE (B&S), bildnummer 1651C, tryckt s. 24, PDF s. 23 (nollbaserat index 22)"
     }
   ],
   "gaps": [
@@ -370,6 +379,7 @@
     "Kontrollera exakt vilka Villa 12 HST-produktnummer som godkänner 85 Combi 13-2960-14, utöver att den separata originalkatalogen tillhör READY/VILLA-plattformen.",
     "Exakt B&S motorkod för 13-2729-35 kvarstår trots publicerade motor-sprängskisser; fästdelar i motorkapitlet bevisar inte modellkod.",
     "Granska skillnader mellan franska 13-2729-35 (FR) och 13-2729-15 mot de enskilda delgrupperna: den märkta marknadsvarianten är inte belägg för samma komponenter.",
-    "Verifiera 2010 års STIGA originalkatalog för 13-2727-14 och 13-2729-14 innan motorval och specifika reservdelar skrivs som A-fakta."
+    "Verifiera 2010 års STIGA originalkatalog för 13-2727-14 och 13-2729-14 innan motorval och specifika reservdelar skrivs som A-fakta.",
+    "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå."
   ]
 }
