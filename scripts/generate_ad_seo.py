@@ -23,7 +23,7 @@ def safe(value):
     return html.escape(str(value or ""), quote=True)
 
 def fetch():
-    url = SUPABASE + "/rest/v1/ads?select=id,title,description,price_sek,status,image_paths,created_at,location_name,marketplace_url&published=eq.true&status=in.(sale,pending)&order=created_at.desc&limit=1000"
+    url = SUPABASE + "/rest/v1/ads?select=id,title,description,price_sek,status,image_paths,created_at,location_name,marketplace_url&published=eq.true&status=in.(sale,pending,sold)&order=created_at.desc&limit=1000"
     req = urllib.request.Request(url, headers={"apikey": KEY, "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=30) as response:
         return json.load(response)
@@ -49,8 +49,8 @@ def render(ad, url):
     if images:
         thumbnails = "".join(f'<button type="button" aria-label="Visa bild {i+1}" aria-pressed="{"true" if i==0 else "false"}" data-image="{safe(img)}"><img src="{safe(img)}" alt="Miniatyr {i+1}" loading="lazy"></button>' for i,img in enumerate(images))
         gallery = f'<div class="gallery-main" role="button" tabindex="0" aria-label="Förstora vald bild"><img id="large-ad-image" src="{safe(images[0])}" alt="{safe(title)} – bild 1"></div><div class="thumb" aria-label="Fler bilder på annonsen">{thumbnails}</div>'
-    contact = (f'<div class="ad-contact"><a class="contact-action" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Besök vår Facebooksida</a><p class="muted">Öppna vår Facebooksida och välj Meddelande. Skriv gärna vilken annons det gäller: {safe(title)}.</p></div>' if available else '<p class="muted">Annonsen är väntande. Vi tar inte emot nya förfrågningar just nu.</p>')
-    status = "Till salu" if available else "Reserverad / väntande"
+    contact = (f'<div class="ad-contact"><a class="contact-action" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Besök vår Facebooksida</a><p class="muted">Öppna vår Facebooksida och välj Meddelande. Skriv gärna vilken annons det gäller: {safe(title)}.</p></div>' if available else ('<p class="muted"><strong>Såld.</strong> Objektet är inte längre till salu.</p>' if ad['status'] == 'sold' else '<p class="muted">Annonsen är väntande. Vi tar inte emot nya förfrågningar just nu.</p>'))
+    status = "Såld" if ad["status"] == "sold" else ("Till salu" if available else "Reserverad / väntande")
     return f'''<!doctype html>
 <html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{safe(page_title)}</title><meta name="description" content="{safe(summary)}">
@@ -93,7 +93,7 @@ def main():
     urls = [BASE + "/annonser.html"]
     for ad in ads:
         if not isinstance(ad.get("title"), str) or not ad["title"].strip(): continue
-        if ad.get("status") not in ("sale", "pending"): continue
+        if ad.get("status") not in ("sale", "pending", "sold"): continue
         # Never expose placeholder test advertisements to search engines.
         if re.match(r"^(test|testannons|test –|test -)(\b|$)", ad["title"].strip(), re.IGNORECASE): continue
         if not re.fullmatch(r"[a-f0-9-]{36}", str(ad["id"])): continue
@@ -101,7 +101,7 @@ def main():
         desired.add(name)
         url = f"{BASE}/annonser/{name}"
         (OUTPUT / name).write_text(render(ad,url), encoding="utf-8")
-        urls.append(url)
+        if ad["status"] != "sold": urls.append(url)
     # Remove only pages created by this generator; leave other files untouched.
     for file in OUTPUT.glob("*.html"):
         if file.name not in desired and MARKER in file.read_text(encoding="utf-8")[:10000]:
