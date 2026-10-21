@@ -172,6 +172,13 @@
       "title": "13-2729-15 transmission diagram",
       "document": "13-2729-15 Transmission_0",
       "url": "https://www.diyspareparts.com/parts/stiga/diagrams/79dc6baa-857f-459f-8861/97c910b4-245a-418f-924e/"
+    },
+    {
+      "id": "stiga-original-2010-villa-hst",
+      "tier": 1,
+      "title": "STIGA Villa HST original reservdelskatalog 2010",
+      "document": "8211-3401-10, katalogutgåva 2010-11",
+      "url": "https://view.stiga-store.com/files/SSPL2010_20100208_Villa_HST.pdf"
     }
   ],
   "topics": {
@@ -188,12 +195,12 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Original STIGA: GGP WM 12,5 på 13-2727-13 och B&S-avsnitt för 13-2729-15/35. Återförsäljare föreslår 21R502 (2729-14) och 21R602 (2729-15), klass C tills motormärkning/original-IPL styrker exakta koder."
+      "note": "Primärkatalog 2010 (8211-3401-10) visar GGP WM 12,5 på kataloggrupp 2727 och B&S på grupp 2729; 2011 original visar B&S för senare grupper. Fullständiga Briggs Model/Type/Code saknas fortfarande."
     },
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "STIGA:s originalkatalog 2011/2012 ger A-belägg för transaxel K46CJ 1134-7766-01 i 2729-gruppen (13-2729-15 och FR 13-2729-35); kompletterande B-belägg finns för 13-2729-14. Tidigare GGP-versioner och faktisk hydrostatservice behöver separat kontroll."
+      "note": "Original STIGA 2010, figur 1157G, ger A-belägg för K46CJ 1134-7766-01 för kataloggrupper 2727 och 2729; STIGA 2011 ger A-belägg för senare 2729-grupp. Fullständig maskinidentitet, individuella revisionsgränser och hydrostatservice kontrolleras separat."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -493,6 +500,42 @@
       "grade": "A",
       "sourceId": "stiga-2011-villa-hst-original",
       "locator": "PDF s. 27 (0-baserad P26), transmissionsförteckning figur 1157G, position 23; omslag PDF s. 1"
+    },
+    {
+      "id": "stiga-2010-ggp2727",
+      "topic": "C",
+      "statement": "STIGA:s originalkatalog 2010 redovisar motoravsnitt MOTOR/ENGINE (GGP) för modellgrupp 2727, och listar motorassembly 118550439/0 som GGP WM 12,5. Kataloggruppen 2727 behöver knytas till fullständigt produktnummer vid reservdelsbeställning.",
+      "variant": "STIGA kataloggrupp 2727, Villa HST 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 21, nollbaserat index 20, MOTOR (GGP), figur 2519, position 99"
+    },
+    {
+      "id": "stiga-2010-bs2729",
+      "topic": "C",
+      "statement": "STIGA:s originalkatalog 2010 redovisar motoravsnitt märkt B&S för modellgrupp 2729. Detta styrker fabrikatskopplingen på gruppnivå men dokumenterar inte fullständigt Briggs Model/Type/Code.",
+      "variant": "STIGA kataloggrupp 2729, Villa HST 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 23, nollbaserat index 22, MOTOR (B&S), figur 1651B"
+    },
+    {
+      "id": "stiga-2010-k46cj",
+      "topic": "D",
+      "statement": "STIGA:s originalkatalog 2010 anger transaxel 1134-7766-01 som Kanzaki K46CJ för kataloggrupperna 2727 och 2729 i samma transmissionsavsnitt. Kontrollera ändå fullständigt maskin-ID innan reservdelsorder.",
+      "variant": "STIGA kataloggrupper 2727 och 2729, Villa HST 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 27, nollbaserat index 26, TRANSMISSION, figur 1157G, position 23"
+    },
+    {
+      "id": "stiga-2010-drivebelt",
+      "topic": "D",
+      "statement": "I 2010 års originalkatalog står transmissionsdrivrem 1134-9064-01 (alternativnummer 9585-0099-01) i transmissionsavsnittet, vilket inte får förväxlas med separat PTO-rem.",
+      "variant": "STIGA Villa HST transmissionsgrupp 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 27, nollbaserat index 26, TRANSMISSION figur 1157G, position 17"
     }
   ],
   "gaps": [
@@ -511,6 +554,7 @@
     "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå.",
     "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass.",
     "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning.",
-    "Fastställ hydrostatens exakta serviceanvisning genom originaltillverkarens instruktioner i stället för att härleda olja, volym eller avtappning från delnummer."
+    "Fastställ hydrostatens exakta serviceanvisning genom originaltillverkarens instruktioner i stället för att härleda olja, volym eller avtappning från delnummer.",
+    "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används."
   ]
 }
