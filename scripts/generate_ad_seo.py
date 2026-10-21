@@ -23,7 +23,7 @@ def safe(value):
     return html.escape(str(value or ""), quote=True)
 
 def fetch():
-    url = SUPABASE + "/rest/v1/ads?select=id,title,description,price_sek,status,image_paths,created_at&published=eq.true&status=in.(sale,pending)&order=created_at.desc&limit=1000"
+    url = SUPABASE + "/rest/v1/ads?select=id,title,description,price_sek,status,image_paths,created_at,location_name,marketplace_url&published=eq.true&status=in.(sale,pending)&order=created_at.desc&limit=1000"
     req = urllib.request.Request(url, headers={"apikey": KEY, "Accept": "application/json"})
     with urllib.request.urlopen(req, timeout=30) as response:
         return json.load(response)
@@ -33,10 +33,13 @@ def render(ad, url):
     description = str(ad.get("description") or "").strip()
     summary = " ".join(description.split())[:155] or f"Begagnad {title} i Hjo hos Skaraborg Maskin & Återbruk."
     seo_name = title if "begagnad" in title.lower() else f"{title} begagnad"
-    page_title = f"{seo_name} i Hjo | Skaraborg Maskin & Återbruk"[:95]
+    page_title = f"{seo_name} i {str(ad.get('location_name') or 'Hjo').strip()} | Skaraborg Maskin & Återbruk"[:95]
     available = ad["status"] == "sale"
     images = [f"{SUPABASE}/storage/v1/object/public/ad-images/{path}" for path in (ad.get("image_paths") or []) if isinstance(path, str) and not path.startswith("/") and ".." not in path]
     price = int(ad["price_sek"])
+    place = str(ad.get("location_name") or "Hjo").strip()
+    market_url = str(ad.get("marketplace_url") or "").strip()
+    market_link = (f'<p><a class="cta" href="{safe(market_url)}" target="_blank" rel="noopener noreferrer">Visa annonsen på Marketplace ↗</a></p>' if re.match(r"^https://(?:www\\.|m\\.|web\\.)?facebook\\.com/(?:marketplace/|share/)", market_url) else "")
     ld = {
         "@context": "https://schema.org", "@type": "Product", "name": title,
         "description": description or summary,
@@ -48,7 +51,7 @@ def render(ad, url):
     }
     if images: ld["image"] = images
     ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
-    gallery = '<div class="gallery">' + "".join(f'<img src="{safe(img)}" alt="{safe(title)} – bild {i+1}" loading="lazy">' for i,img in enumerate(images)) + "</div>" if images else ""
+    gallery = ('<div class="gallery"><img id="main-ad-image" class="main-image" src="' + safe(images[0]) + '" alt="' + safe(title) + ' – bild 1"><div class="thumbs">' + "".join(f'<button type="button" class="thumb" data-img="{safe(img)}" aria-label="Visa bild {i+1}"><img src="{safe(img)}" alt="Miniatyr {i+1}" loading="lazy"></button>' for i,img in enumerate(images)) + "</div></div>" if images else "")
     status = "Till salu" if available else "Reserverad / väntande"
     contact = (f'<a class="cta" href="https://www.messenger.com/t/924620407412160/" target="_blank" rel="noopener noreferrer">Skriv till oss på Messenger</a><p>Berätta gärna vilken annons du frågar om: <strong>{safe(title)}</strong>. Messenger öppnas separat.</p>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>")
     return f"""<!doctype html>
@@ -59,10 +62,11 @@ def render(ad, url):
 <meta property="og:description" content="{safe(summary)}"><meta property="og:url" content="{safe(url)}">
 <script type="application/ld+json">{ld_json}</script>
 <style>
-*{{box-sizing:border-box}}body{{margin:0;color:#1d3424;font:16px/1.6 system-ui,sans-serif;background:radial-gradient(ellipse at 5% 10%,#dcebdc,transparent 40%),#edf2e9}}header{{background:#1b3825;color:white;padding:22px 16px}}.wrap{{max-width:1050px;margin:auto;padding:20px}}header a{{color:white}}.box{{background:#fff;border:1px solid #d7e4d7;border-radius:16px;padding:24px;margin:20px 0;box-shadow:0 8px 24px #18352213}}h1{{line-height:1.2}}.price{{font-size:28px;font-weight:800}}.state{{display:inline-block;background:#e5f0e5;padding:6px 12px;border-radius:30px}}.gallery{{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory}}.gallery img{{cursor:zoom-in;width:min(100%,600px);height:340px;object-fit:contain;background:#f0f4ef;border-radius:12px;scroll-snap-align:start;flex:0 0 min(100%,600px)}}.description{{white-space:pre-wrap;overflow-wrap:anywhere}}.cta{{display:inline-block;padding:13px 20px;background:#225436;color:#fff;text-decoration:none;border-radius:9px;font-weight:700}}a{{color:#205735}}@media(max-width:600px){{.wrap{{padding:12px}}.box{{padding:17px}}.gallery img{{height:240px}}}}
+*{{box-sizing:border-box}}body{{margin:0;color:#1d3424;font:16px/1.6 system-ui,sans-serif;background:radial-gradient(ellipse at 5% 10%,#dcebdc,transparent 40%),#edf2e9}}header{{background:#1b3825;color:white;padding:22px 16px}}.wrap{{max-width:1050px;margin:auto;padding:20px}}header a{{color:white}}.box{{background:#fff;border:1px solid #d7e4d7;border-radius:16px;padding:24px;margin:20px 0;box-shadow:0 8px 24px #18352213}}h1{{line-height:1.2}}.price{{font-size:28px;font-weight:800}}.state{{display:inline-block;background:#e5f0e5;padding:6px 12px;border-radius:30px}}.gallery .main-image{{width:100%;max-height:440px;height:350px;object-fit:contain;background:#f0f4ef;border-radius:12px;cursor:zoom-in}}.thumbs{{display:flex;gap:8px;overflow-x:auto;margin-top:10px}}.thumb{{flex:0 0 80px;padding:3px;border:2px solid #c5d6c7;border-radius:8px;background:white;cursor:pointer}}.thumb img{{width:100%;height:65px;object-fit:cover}}.description{{white-space:pre-wrap;overflow-wrap:anywhere}}.cta{{display:inline-block;padding:13px 20px;background:#225436;color:#fff;text-decoration:none;border-radius:9px;font-weight:700}}a{{color:#205735}}@media(max-width:600px){{.wrap{{padding:12px}}.box{{padding:17px}}.gallery .main-image{{height:240px}}}}
 </style><script defer src="/statistik-raknare.js" data-page="annons:{safe(ad['id'])}"></script><script>
 document.addEventListener('click',function(e){{
- const img=e.target.closest('.gallery img');if(!img)return;
+ const thumb=e.target.closest('.thumb');if(thumb){{document.getElementById('main-ad-image').src=thumb.dataset.img;return;}}
+ const img=e.target.closest('.main-image');if(!img)return;
  const d=document.createElement('dialog');d.style.cssText='width:100vw;height:100vh;max-width:100vw;max-height:100vh;margin:0;padding:50px 15px 10px;background:#09170ef5;border:0';
  const big=document.createElement('img');big.src=img.src;big.alt=img.alt;big.style.cssText='display:block;max-width:96vw;max-height:82vh;margin:auto;object-fit:contain';
  const close=document.createElement('button');close.textContent='Stäng bild ×';close.style.cssText='display:block;margin:0 0 12px auto;padding:10px;font:inherit';close.onclick=()=>d.close();
@@ -70,7 +74,7 @@ document.addEventListener('click',function(e){{
  d.append(close,big);document.body.append(d);d.showModal();close.focus();
 }});
 </script></head><body>{MARKER}<header><div class="wrap"><a href="/annonser.html">← Alla annonser</a><p>Skaraborg Maskin & Återbruk · Hjo</p></div></header>
-<main class="wrap"><article class="box"><h1>{safe(title)}</h1><p class="price">{price:,} kr</p><span class="state">{status}</span>{gallery}<h2>Beskrivning</h2><p class="description">{safe(description) if description else 'Kontakta oss för mer information.'}</p><p>Begagnad vara säljs i befintligt skick. Fråga oss gärna om detaljer före köp.</p>{contact}</article>
+<main class="wrap"><article class="box"><h1>{safe(title)}</h1><p class="price">{price:,} kr</p><span class="state">{status}</span>{gallery}<h2>Beskrivning</h2><p class="description">{safe(description) if description else 'Kontakta oss för mer information.'}</p><p>Begagnad vara säljs i befintligt skick. Fråga oss gärna om detaljer före köp.</p>{market_link}{contact}</article>
 <aside class="box"><h2>Skaraborg Maskin & Återbruk</h2><p>Vi arbetar med begagnade maskiner, redskap och återbruk. Vi finns i Hjo.</p><p><a href="/om-oss.html">Om företaget</a> · <a href="/annonser.html">Fler annonser</a></p></aside></main></body></html>"""
 
 def main():
