@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-villa-12-hst",
+  "status": "needs_research",
+  "reviewDate": "2026-10-21",
+  "scope": "Forskningsstatus för befintlig Villa 12 HST-sida. Inte samma sak som designstatus.",
+  "sources": [
+    {
+      "id": "stiga-villa-om",
+      "tier": 1,
+      "title": "STIGA Villa 12 HST bruksanvisning",
+      "document": "8211-0038-90",
+      "url": "https://manualzz.com/doc/sv/4520408/stiga-villa-12-hst-ride-on-mower-gebrauchsanweisung"
+    },
+    {
+      "id": "stiga-combi-om",
+      "tier": 1,
+      "title": "STIGA 85/95/105 Combi bruksanvisning",
+      "document": "8211-7000-10",
+      "url": "https://www.manualslib.es/manual/188585/Stiga-Villa-85-Combi.html"
+    },
+    {
+      "id": "villa-13-2727-13",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2727-13",
+      "document": "13-2727-13",
+      "url": "https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/"
+    },
+    {
+      "id": "villa-13-2727-14",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2727-14",
+      "document": "13-2727-14",
+      "url": "https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/"
+    },
+    {
+      "id": "villa-13-2729-14",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2729-14",
+      "document": "13-2729-14",
+      "url": "https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/"
+    },
+    {
+      "id": "villa-13-2729-15",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2729-15",
+      "document": "13-2729-15",
+      "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "verified",
+      "note": "Fyra katalogidentifierare finns, men produktnummer till faktisk motor/transmission är ännu inte spårade genom original-IPL."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "verified",
+      "note": "Maskinens konstruktion beskriven i STIGA-manual 8211-0038-90."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "verified",
+      "note": "Manuella reglage beskrivs i STIGA-manual 8211-0038-90."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "verified",
+      "note": "Säkerhetsprinciper finns i originalmanualen, men varje publicerat startvillkor behöver påståendespåras."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+    }
+  },
+  "claims": [
+    {
+      "id": "manual-identity",
+      "statement": "STIGA-manualen 8211-0038-90 avser Villa 12 HST.",
+      "variant": "VILLA 12 HST i manualen",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Omslag och dokumenthuvud"
+    },
+    {
+      "id": "combi-manual",
+      "statement": "Dokument 8211-7000-10 behandlar bland annat 85 Combi för Villa/Park.",
+      "variant": "85 Combi enligt tillbehörsmanualen",
+      "grade": "A",
+      "sourceId": "stiga-combi-om",
+      "locator": "Omslag och tabell för maskinplattformar"
+    }
+  ],
+  "gaps": [
+    "Koppla exakt produktnummer till motor Model/Type/Code och dess servicevärden.",
+    "Belägg transmissionsmodell/variant och eventuella nivå- eller oljevärden i primärkälla.",
+    "Kartlägg varje klippaggregats kompatibilitet och eventuellt monteringskit per produktnummer.",
+    "Ta fram källposition för varje publicerad teknisk siffra, serviceintervall och reservdelsreferens.",
+    "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem."
+  ]
+}
