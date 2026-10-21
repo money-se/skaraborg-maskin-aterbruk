@@ -61,3 +61,15 @@ Källa: https://www.worldofmowers.co.uk/stiga-spare-parts/front-mowers/base-mach
 **Motorerna:** Även en motor-sprängskiss kan bestå av maskinens motorfästen och kringdelar. Därför registreras ingen ny Briggs & Stratton Model/Type/Code förrän själva motorkoden är uttryckligen dokumenterad av tillverkare eller motorns märkning.
 
 **Kvalitetsgrind:** status fortsatt needs_research. Inga universella motordata, aggregatkombinationer eller modellövergripande reservdelsnummer publiceras.
+
+## STIGA:s originalkataloger: starkare bevis för motor och FR-variant
+
+**2009 – katalog 8211-3401-09, utgåva 2009-11 (PDF s. 4, tabell F-3):** originalkatalogens produktöversikt anger produktnummer `13-2727-13` som **Villa 12 HST – GGP WM 12,5, with fuel pump**. Samma tabell listar `13-2960-13` som ett separat **85 Combi-klippaggregat**. Att båda finns i sortimentet bevisar inte en individuell kombination på alla maskiner. Primärkälla: https://ersatzteil-shop24.de/bilder/zeichnungen/ggp_o_st/Stiga/Aufsitzm%C3%A4her/Stiga%20Front%20Mowers%202009_Park.pdf
+
+**2011/2012 – STIGA Villa HST, utgåva 2011-11 (omslag PDF s. 1):** här listas `13-2729-15 Villa 12 HST` och **`13-2729-35 Villa 12 HST (FR)`**. Den senare har därmed en dokumenterad FR-beteckning (fransk marknadsvariant), inte en obestämd femte konfiguration. Manualens FR-beteckning belägger inte på egen hand skillnader i motorn eller transmissionen. Primärkälla: https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf
+
+**2010 – 13-2727-14 (sekundär reservdelsförteckning):** separat Engine-lista anger **GGP WM 12,5**, motorassembly `1134-9500-01` (position 99). Det stärker kopplingen, men original-IPL behövs innan den flyttas till A-klass. Källa: https://www.sgarden.cz/SpareParts/PartList/130703/Engine
+
+**Vad återstår?** Original-STIGA-listan för 2010, explicit motoridentitet (Model/Type/Code) för 13-2729-14, 13-2729-15 och franska 13-2729-35, samt individuella transmissions- och aggregatmatchningar.
+
+**Forskningsstatus:** `needs_research`. Inget påstående om att samtliga motorer eller klippaggregat är likadana.
