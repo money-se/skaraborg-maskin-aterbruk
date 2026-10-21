@@ -220,7 +220,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Originalkatalog 13-2960-14 verifierar aggregatets egen identitet, knivsatser och kuggrem/drivrem per fig. 2130A. Däremot saknas belägg att alla fem Villa 12 HST basmaskiner kan använda just det aggregatutförandet."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -235,7 +235,7 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Tre modellbundna reservdelsnummer noterade för 13-2729-35; reservdelarna får inte framställas som universella."
+      "note": "Källbelagda reservdelsnummer finns för utvalda K46CJ-basmodeller och 85 Combi 13-2960-14. Reservdelar måste matchas mot maskinens respektive aggregatets märkskylt; inga universella passformspåståenden."
     },
     "L": {
       "name": "Begagnat och köpråd",
@@ -536,6 +536,33 @@
       "grade": "A",
       "sourceId": "stiga-original-2010-villa-hst",
       "locator": "PDF s. 27, nollbaserat index 26, TRANSMISSION figur 1157G, position 17"
+    },
+    {
+      "id": "85combi-2011-independent-blade-parts",
+      "topic": "H",
+      "statement": "STIGA:s originalkatalog för 85 Combi 13-2960-14 anger knivbalkssats 1134-9116-01, knivsats 1134-9119-01 och brytbultsats 1134-9054-01 i aggregatets egen transmissionsdel. Uppgifterna gäller aggregat-ID, inte valfri Villa 12 HST.",
+      "variant": "Klippaggregat 13-2960-14, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Original PDF s. 7, figur 2130A, positionerna 6–8"
+    },
+    {
+      "id": "85combi-2011-belt-parts",
+      "topic": "H",
+      "statement": "STIGA:s originalkatalog för 85 Combi 13-2960-14 anger kuggrem 9585-0161-01, aggregatdrivrem 1134-9109-01 (alternativt 9585-0160-01). Dessa avser klippaggregatets interna transmission, inte maskinens hydrostattransmission.",
+      "variant": "Klippaggregat 13-2960-14, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Original PDF s. 7, figur 2130A, positionerna 34 och 36"
+    },
+    {
+      "id": "85combi-2011-no-fit-assumption",
+      "topic": "K",
+      "statement": "Tillverkarens aggregatkatalog anger att korrekt reservdelslista måste motsvara maskinens tillverkningsår enligt märkplåten. 13-2960-14 är ett aggregatnummer och är inte samma identitet som en Villa 12 HST-basmaskin.",
+      "variant": "Aggregat 13-2960-14, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Original PDF omslag, villkor och modellnummer"
     }
   ],
   "gaps": [
@@ -555,6 +582,7 @@
     "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass.",
     "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning.",
     "Fastställ hydrostatens exakta serviceanvisning genom originaltillverkarens instruktioner i stället för att härleda olja, volym eller avtappning från delnummer.",
-    "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används."
+    "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används.",
+    "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad."
   ]
 }
