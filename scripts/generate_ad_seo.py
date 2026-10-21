@@ -39,7 +39,7 @@ def render(ad, url):
     price = int(ad["price_sek"])
     images = [f"{SUPABASE}/storage/v1/object/public/ad-images/{path}" for path in (ad.get("image_paths") or []) if isinstance(path, str) and not path.startswith("/") and ".." not in path]
     market_url = str(ad.get("marketplace_url") or "").strip()
-    market = (f'<p><a class="contact-action" href="{safe(market_url)}" target="_blank" rel="noopener noreferrer">Visa Marketplace-annons ↗</a></p>' if re.match(r"^https://(?:www\\.|m\\.|web\\.)?facebook\\.com/(?:marketplace/|share/)", market_url) else "")
+    market = (f'<p><a class="contact-action" href="{safe(market_url)}" target="_blank" rel="noopener noreferrer">Visa Marketplace-annons ↗</a></p>' if re.match(r"^https://(?:www\.|m\.|web\.)?facebook\.com/(?:marketplace/|share/)", market_url) else "")
     ld = {"@context":"https://schema.org","@type":"Product","name":title,"description":description or summary,"url":url,
           "itemCondition":"https://schema.org/UsedCondition",
           "offers":{"@type":"Offer","priceCurrency":"SEK","price":str(price),"availability":"https://schema.org/InStock" if available else "https://schema.org/OutOfStock","url":url,"seller":{"@type":"Organization","name":"Skaraborg Maskin & Återbruk"}}}
