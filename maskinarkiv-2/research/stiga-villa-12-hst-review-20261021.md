@@ -48,3 +48,16 @@ Källor:
 - https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/power-take-off
 
 **Grindstatus efter fortsatt kontroll:** `needs_research`. Även kategori A (variantöversikt) är markerad som kunskapslucka tills identifieringen är komplett. Nästa steg är original-IPL/motortypskylt för produktnummer 13-2729-35 och därefter motsvarande kontroll för återstående fyra.
+
+## Fortsatt kontroll: originalkatalog för 85 Combi
+
+STIGA:s originalreservdelskatalog för **Villa 85 Combi** (modellår 2011/2012, utgåva 2011-11) identifierar separat aggregatnummer **13-2960-14**. Den listar även **8211-7000-10** som aggregatets bruksanvisning (position 99). Detta är ett betydligt bättre originalbelägg för **aggregatets identitet** än att dra slutsatser från maskinens smeknamn. Källa: https://view.stiga-store.com/files/SSPL2011_20110214_Mower_deck_Villa_85C-2-.pdf
+
+**Avgränsning:** Katalogen anger READY/VILLA-plattformen, men är inte en individuell kompatibilitetsbekräftelse för varje Villa 12 HST-maskinnummer. En maskin kan också ha fått ett annat aggregat i efterhand. Matchning på båda typskyltarna krävs.
+
+Vidare har återförsäljarens katalog för **13-2729-14** en egen del för **Kanzaki Transaxle K46CJ**. Det stärker kopplingen till ytterligare en specifik Villa-version, men ger inte oljekvalitet, driftsbegränsningar eller stöd för de återstående produktnumren.
+Källa: https://www.worldofmowers.co.uk/stiga-spare-parts/front-mowers/base-machine/2010/villa-12-hst-13-2729-14
+
+**Motorerna:** Även en motor-sprängskiss kan bestå av maskinens motorfästen och kringdelar. Därför registreras ingen ny Briggs & Stratton Model/Type/Code förrän själva motorkoden är uttryckligen dokumenterad av tillverkare eller motorns märkning.
+
+**Kvalitetsgrind:** status fortsatt needs_research. Inga universella motordata, aggregatkombinationer eller modellövergripande reservdelsnummer publiceras.
