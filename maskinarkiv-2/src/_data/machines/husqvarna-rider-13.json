@@ -22,6 +22,10 @@
         {
           "type": "html",
           "html": "<p class=\"lead\">Du behöver inte kunna något om åkgräsklippare. Välj den fråga som stämmer bäst så kommer du direkt till rätt avsnitt.</p><div class=\"table-scroll\"><table><thead><tr><th>Jag vill …</th><th>Öppna avsnitt</th></tr></thead><tbody><tr><td>Ta reda på vilken Rider 13 jag har</td><td><a href=\"#identifiering\">Hitta maskinens produktnummer</a></td></tr><tr><td>Felsöka något som inte fungerar</td><td><a href=\"#felsokning\">Välj symptom</a></td></tr><tr><td>Köpa en rem, kniv eller annan del</td><td><a href=\"#reservdelar\">Hitta rätt reservdel</a></td></tr><tr><td>Förstå motor eller drivning</td><td><a href=\"#motor\">Motor</a> eller <a href=\"#transmission\">Transmission</a></td></tr><tr><td>Ta hand om gräsklipparen</td><td><a href=\"#service\">Service</a> och <a href=\"#sakerhet\">Säkerhet</a></td></tr><tr><td>Förstå ett svårt ord</td><td><a href=\"#ordlista\">Ordlista</a></td></tr></tbody></table></div><p><strong>Viktigt:</strong> Rider 13, Rider 13 Bio, Rider 13 H och senare Rider 13C är inte säkert identiska. Börja med <a href=\"#identifiering\">identifieringen</a> innan du använder ett reservdelsnummer eller servicevärde.</p>"
+        },
+        {
+          "type": "html",
+          "html": "<p>Vill du montera släp, mossrivare, snökedjor eller andra redskap? Läs <a href=\"#tillbehor\">tillbehörsguiden</a> och kontrollera kompatibiliteten med ditt produktnummer.</p>"
         }
       ]
     },
@@ -274,8 +278,20 @@
       ]
     },
     {
+      "id": "tillbehor",
+      "heading": "15 · Tillbehör till Husqvarna Rider 13 – kontrollera rätt version",
+      "title": "Tillbehör till Husqvarna Rider 13 – kontrollera rätt version",
+      "headingId": null,
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Det finns dokumenterade tillbehör till Rider 13C, men samma modellnamn räcker inte för att lova att ett begagnat redskap passar varje Rider 13.</p><div class=\"table-scroll\"><table><thead><tr><th>Tillbehör</th><th>Vad källorna visar</th><th>Kontroll före köp</th></tr></thead><tbody><tr><td>Släpvagn Trailer 275</td><td>Listas av Husqvarna för Rider 13C</td><td>Drag, fäste och användarhandbok för exakt artikelnummer</td></tr><tr><td>Mossrivare och grusharv</td><td>Listas bland Rider 13C:s bakmonterade tillbehör</td><td>Infästning och eventuella begränsningar</td></tr><tr><td>Spridare 30</td><td>Listas på Husqvarnas Rider 13C-supportsida</td><td>Fäste, last och tillbehörets instruktion</td></tr><tr><td>Motvikt</td><td>Listas som Rider 13C-tillbehör</td><td>Vilken vikt, placering och vilket redskap den är avsedd för</td></tr><tr><td>Snökedjor / hjulvikter</td><td>Förekommer på Husqvarnas regionala Rider 13C-supportsidor</td><td>Däckdimension, artikelnummer och aktuell monteringsanvisning</td></tr><tr><td>Snöblad / sopborste / snöslunga</td><td>Inte styrkt som generellt kompatibla med hela Rider 13-familjen av källorna här</td><td>Begär tillbehörets och maskinens artikelnummer; anta inte passform</td></tr></tbody></table></div><div class=\"park-info\"><b>Kompatibilitet är inte samma sak som att en produkt visas i tillbehörslistan.</b>Husqvarnas webbplats kan samla flera artikelnummer och generationer under namnet Rider 13C. Kontrollera alltid maskinskylt, redskapets märkning, erforderligt monteringskit och tillverkarens tillbehörsanvisning. De äldre Rider 13-, 13 H-, Bio- och R-versionerna är inte därmed verifierade för samma redskap.</div><p><a href=\"https://www.husqvarna.com/uk/support/ride-on-front-mowers/rider-13c/\">Husqvarnas Rider 13C-support och tillbehör</a> · <a href=\"https://www.husqvarna.com/si/podpora/rider-13c/\">Husqvarnas regionala tillbehörsöversikt</a></p>"
+        }
+      ]
+    },
+    {
       "id": "ordlista",
-      "heading": "15 · Ordlista – Rider 13 på enkel svenska",
+      "heading": "16 · Ordlista – Rider 13 på enkel svenska",
       "title": "Ordlista – Rider 13 på enkel svenska",
       "headingId": "h-ordlista",
       "blocks": [
@@ -287,7 +303,7 @@
     },
     {
       "id": "koprad",
-      "heading": "16 · Vad bör man kontrollera på en begagnad Rider 13?",
+      "heading": "17 · Vad bör man kontrollera på en begagnad Rider 13?",
       "title": "Vad bör man kontrollera på en begagnad Rider 13?",
       "headingId": null,
       "blocks": [
@@ -303,7 +319,7 @@
     },
     {
       "id": "faq",
-      "heading": "17 · Vanliga frågor om Husqvarna Rider 13",
+      "heading": "18 · Vanliga frågor om Husqvarna Rider 13",
       "title": "Vanliga frågor om Husqvarna Rider 13",
       "headingId": null,
       "blocks": [
@@ -370,6 +386,10 @@
     {
       "id": "tidslinje",
       "label": "Modellhistorik"
+    },
+    {
+      "id": "tillbehor",
+      "label": "Tillbehör"
     },
     {
       "id": "ordlista",
@@ -478,6 +498,16 @@
       "title": "sGarden – 97 cm aggregat Rider 13 R Special 953533001 (2003-09)",
       "description": "Visar kniv-, rem- och lagerpositioner i den angivna katalogrevisionen. Ingen generell kompatibilitet med andra Rider-versioner.",
       "url": "https://www.sgarden.cz/SpareParts/PartList/26593/97CM_CUTTING_DECK"
+    },
+    {
+      "title": "Husqvarna Rider 13C – officiell tillbehörsöversikt",
+      "description": "Primärkälla: Trailer 275, mossrivare, grusharv, spridare och motvikt listas. Artikelnummer och montering måste kontrolleras på individnivå.",
+      "url": "https://www.husqvarna.com/uk/support/ride-on-front-mowers/rider-13c/"
+    },
+    {
+      "title": "Husqvarna SI – Rider 13C regional tillbehörslista",
+      "description": "Primärkälla som även visar snökedjor och hjulvikt. Listning utgör inte bevis för passform till samtliga produktrevisioner.",
+      "url": "https://www.husqvarna.com/si/podpora/rider-13c/"
     }
   ],
   "sourceHeading": "Källor och manualer",
