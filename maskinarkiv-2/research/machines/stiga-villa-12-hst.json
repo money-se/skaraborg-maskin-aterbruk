@@ -46,6 +46,13 @@
       "title": "Villa 12 HST reservdelskatalog 13-2729-15",
       "document": "13-2729-15",
       "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/"
+    },
+    {
+      "id": "partsharp-villa-list",
+      "tier": 2,
+      "title": "Partsharp produktversioner Villa 12 HST (fem kataloger)",
+      "document": "Villa 12 HST product diagrams",
+      "url": "https://www.partsharp.com/spare-parts/stiga/villa/24d21ec5-b48b-49e6-a531/22eb499c-c519-4459-b929.aspx"
     }
   ],
   "topics": {
@@ -133,6 +140,33 @@
       "sourceId": "stiga-combi-om",
       "locator": "Omslag och tabell för maskinplattformar",
       "topic": "H"
+    },
+    {
+      "id": "variant-35",
+      "topic": "A",
+      "statement": "Reservdelskatalog för Villa 12 HST 13-2729-35, 2011–2012, finns listad utöver de fyra versioner som artikeln tar upp.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "partsharp-villa-list",
+      "locator": "List of available diagrams, parts diagram 5"
+    },
+    {
+      "id": "slope-10",
+      "topic": "G",
+      "statement": "Bruksanvisningen anger maximal körlutning 10 grader med monterade originaltillbehör.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska säkerhetsföreskrifter avsnitt 2.3, även varningssymboler avsnitt 1.1"
+    },
+    {
+      "id": "safety-bypass",
+      "topic": "G",
+      "statement": "Säkerhetsanordningar får inte kopplas bort och ska kontrolleras före varje användning.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska säkerhetsföreskrifter avsnitt 2.3"
     }
   ],
   "gaps": [
@@ -140,6 +174,7 @@
     "Belägg transmissionsmodell/variant och eventuella nivå- eller oljevärden i primärkälla.",
     "Kartlägg varje klippaggregats kompatibilitet och eventuellt monteringskit per produktnummer.",
     "Ta fram källposition för varje publicerad teknisk siffra, serviceintervall och reservdelsreferens.",
-    "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem."
+    "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem.",
+    "Femte reservdelsvarianten 13-2729-35 behöver granskas för motor, drivning och aggregat innan versionskapitlet skrivs om."
   ]
 }
