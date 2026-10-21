@@ -185,12 +185,12 @@
     "A": {
       "name": "Identitet och produktversioner",
       "state": "gap",
-      "note": "Originalkatalog för 2011/2012 identifierar 13-2729-35 som FR-version; de fem produktnumren är belagda, men fullständig primärkälleinventering för 2010 och motoridentitet återstår."
+      "note": "Fem maskinproduktnummer identifierade; STIGA 2011 original belägger FR-utförande med separat fransk ägarmanual och särskild karossgrupp. Fullständig variant-/komponentmappning samt 2010-suffixkontroll återstår."
     },
     "B": {
       "name": "Grundkonstruktion",
       "state": "verified",
-      "note": "Maskinens konstruktion beskriven i STIGA-manual 8211-0038-90."
+      "note": "STIGA-originalkatalog 2011/12 dokumenterar egna FR-karossidor och fästen i figur 2819. Skillnaden styrker FR-marknadsutförandet, men motordata, hydrostatservice och samtliga komponenter ska inte förutsättas olika."
     },
     "C": {
       "name": "Motor",
@@ -563,6 +563,24 @@
       "grade": "A",
       "sourceId": "stiga-original-85combi-2011",
       "locator": "Original PDF omslag, villkor och modellnummer"
+    },
+    {
+      "id": "fr-separate-panels-2011",
+      "topic": "B",
+      "statement": "STIGA har en separat karossritning för fransk marknadsvariant, med egna vänster/höger sidoskydd och fästdetaljer. Detta är en dokumenterad FR-skillnad, men visar inte på annorlunda motor eller hydrostat.",
+      "variant": "13-2729-35 (FR), 2011-katalog",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Originalkatalog PDF s. 7, KAROSS (Frankrike) figur 2819, positionerna 1, 5, 15–18"
+    },
+    {
+      "id": "fr-owner-manual-2011",
+      "topic": "A",
+      "statement": "2011 års STIGA-originalkatalog listar fransk bruksanvisning 8211-0049-10 separat från standardbruksanvisning 8211-0011-10. Detta är dokumentation för marknadsskillnad; inget bevis för skild motor.",
+      "variant": "Villa HST standard kontra FR, 2011",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Originalkatalog PDF s. 3, monteringsdetaljer fig. 2196A, position X 21"
     }
   ],
   "gaps": [
@@ -583,6 +601,7 @@
     "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning.",
     "Fastställ hydrostatens exakta serviceanvisning genom originaltillverkarens instruktioner i stället för att härleda olja, volym eller avtappning från delnummer.",
     "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används.",
-    "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad."
+    "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad.",
+    "FR-variantens separata sidoskydd och manual är bekräftade. Kontrollera ytterligare eventuell skillnad i säkerhet, reglage och aggregatmontering innan FR-varianten betecknas funktionsidentisk med standardutförandet."
   ]
 }
