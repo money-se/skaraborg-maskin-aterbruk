@@ -14,7 +14,7 @@ for(const file of files){
   assert.equal(d.schemaVersion,1,file+" schema version");
   assert.equal(file,d.slug+".json","Filename must match machine slug");
   assert.ok(["needs_research","ready"].includes(d.status),d.slug+" invalid status");
-  assert.ok(d.reviewDate && /^\\d{4}-\\d{2}-\\d{2}$/.test(d.reviewDate),d.slug+" review date");
+  assert.ok(d.reviewDate && /^\d{4}-\d{2}-\d{2}$/.test(d.reviewDate),d.slug+" review date");
   assert.deepEqual(Object.keys(d.topics).sort(),keys,d.slug+" must cover research topics A-M");
   for(const k of keys){
     const t=d.topics[k];
