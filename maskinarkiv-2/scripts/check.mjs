@@ -32,12 +32,15 @@ const rider = JSON.parse(fs.readFileSync("src/_data/machines/husqvarna-rider-13.
 const riderPath="../_maskinarkiv-preview/maskinarkiv/husqvarna-rider-13.html";
 assert.ok(fs.existsSync(riderPath), "Rider 13 HTML must be generated");
 const riderHtml=fs.readFileSync(riderPath,"utf8");
-assert.equal(rider.chapters.length,17);
+assert.equal(rider.chapters.length,18);
 assert.deepEqual(rider.chapters.slice(0,5).map(c=>c.id),["hitta-hjalp","oversikt","identifiering","felsokning","reservdelar"]);
-assert.equal(rider.sources.length,18);
+assert.equal(rider.sources.length,20);
 for(const ch of rider.chapters) assert.ok(riderHtml.includes('id="'+ch.id+'"'), "Rider chapter missing: "+ch.id);
 assert.ok(riderHtml.includes('class="source-disclosure"'));
 assert.ok(riderHtml.includes("Husqvarna Rider 13"));
+assert.ok(riderHtml.includes('id="tillbehor"'),"Missing accessory section");
+assert.ok(riderHtml.includes("Trailer 275"),"Missing documented accessories");
+assert.ok(fs.existsSync("research/husqvarna-rider-13.md"),"Missing research ledger");
 for(const phrase of ["Provkörningsprotokoll för köpare","Varför blir drivningen svag när den är varm?","Så hittar du rätt originalmanual","Ojämn klippning"])assert.ok(riderHtml.includes(phrase),"Rider enrichment missing: "+phrase);
 const riderIds=[...riderHtml.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(new Set(riderIds).size,riderIds.length,"Rider duplicate IDs");
