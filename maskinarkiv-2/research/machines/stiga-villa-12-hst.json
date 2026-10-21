@@ -207,6 +207,20 @@
       "title": "Tuff Torq official FAQ – transaxle serial number and configuration caution",
       "document": "Tuff Torq FAQ, serial-based identification and oil replacement",
       "url": "https://www.tufftorq.com/faq/"
+    },
+    {
+      "id": "stiga-2015-85combi-15",
+      "tier": 1,
+      "title": "STIGA Deck Villa 85 Combi 13-2960-15 original parts catalogue",
+      "document": "2014 issue 1, Season 2015",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_Deck_Villa_85_Combi_13-2960-15_14_SV-EN.pdf"
+    },
+    {
+      "id": "retailer-85combi-2023-compatibility",
+      "tier": 2,
+      "title": "ReservdelarOnline complete later Stiga Villa 85 Combi deck compatibility",
+      "document": "387561538/0; replacement 2D2708511/S16, general Villa after 2005",
+      "url": "https://www.reservdelaronline.se/produkter/klippaggregat-villa-85-combi"
     }
   ],
   "topics": {
@@ -248,7 +262,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad. Manualutgåvorna -10 och -80 är jämförda; skillnaden i remkåpa/remstyrningssteg är dokumenterad och ska visas som editionsskillnad, inte behandlas som obesvarad jämförelse."
+      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad. Manualutgåvorna -10 och -80 är jämförda; skillnaden i remkåpa/remstyrningssteg är dokumenterad och ska visas som editionsskillnad, inte behandlas som obesvarad jämförelse. Ny STIGA primärpartslista styrker även deck 13-2960-15 säsong 2015. Återförsäljare listar senare aggregat 387561538/0 till Villa efter 2005, men inga exakta kopplingar till alla fem äldre 13-27xx-revisioner eller monteringskit är originalverifierade."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -717,6 +731,24 @@
       "grade": "A",
       "sourceId": "tufftorq-faq-id",
       "locator": "FAQ Where is the serial number located? / My owner's manual says that I have a (EX. K46HD)"
+    },
+    {
+      "id": "stiga-2015-deck-third-identity",
+      "topic": "H",
+      "statement": "STIGA har separat originalreservdelskatalog för Deck Villa 85 Combi med aggregatnummer 13-2960-15, säsong 2015. Detta är ett tredje dokumenterat aggregat-ID utöver 13-2960-13 och 13-2960-14 och bevisar inte retroaktiv kompatibilitet med Villa 12 HST 2009–2012.",
+      "variant": "Klippaggregat 13-2960-15, 2015",
+      "grade": "A",
+      "sourceId": "stiga-2015-85combi-15",
+      "locator": "Omslag PDF sida 1: Deck Villa 85 Combi, 13-2960-15, Season 2015; ©2014 Global Garden Products"
+    },
+    {
+      "id": "retailer-new-deck-villa-after-2005",
+      "topic": "H",
+      "statement": "En svensk reservdelssäljare anger att senare komplett 85 Combi 387561538/0, ersättningsnummer 2D2708511/S16, passar Stiga Villa efter 2005 samt Villa 12, men anger inte de fem kompletta gamla maskinproduktnumren eller verifierad installationssats.",
+      "variant": "Senare komplett 85 Combi 387561538/0, generell Villa 12/efter 2005",
+      "grade": "B",
+      "sourceId": "retailer-85combi-2023-compatibility",
+      "locator": "Produktinformation; avsnitt Passar till samt notering om fästen utanför hjulen"
     }
   ],
   "gaps": [
@@ -738,6 +770,7 @@
     "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används.",
     "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad.",
     "FR-variantens separata sidoskydd och manual är bekräftade. Kontrollera ytterligare eventuell skillnad i säkerhet, reglage och aggregatmontering innan FR-varianten betecknas funktionsidentisk med standardutförandet.",
-    "Manualutgåvorna -10 och -80 får inte blandas ihop vid stegvis monteringsinstruktion: -80 beskriver bland annat lossa/remontera remkåpa och remstyrning, vilket inte står som samma monteringssekvens i -10. Kontrollera originaldokument och maskin-ID före praktisk monteringsguide."
+    "Manualutgåvorna -10 och -80 får inte blandas ihop vid stegvis monteringsinstruktion: -80 beskriver bland annat lossa/remontera remkåpa och remstyrning, vilket inte står som samma monteringssekvens i -10. Kontrollera originaldokument och maskin-ID före praktisk monteringsguide.",
+    "Det finns även aggregat-ID 13-2960-15 (2015) och senare komplett aggregat 387561538/0; kartlägg historisk och senare kompatibilitet per maskin-ID före generell köprekommendation."
   ]
 }
