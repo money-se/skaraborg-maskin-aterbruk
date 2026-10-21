@@ -95,13 +95,34 @@
       "title": "Villa 12 HST 13-2729-15 2012 engine assembly",
       "document": "13-2729-15 engine",
       "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2012/villa-12-hst-13-2729-15/engine"
+    },
+    {
+      "id": "stiga-2009-front-original",
+      "tier": 1,
+      "title": "STIGA Frontklippare 2009 reservdelskatalog",
+      "document": "8211-3401-09, utgåva 2009-11",
+      "url": "https://ersatzteil-shop24.de/bilder/zeichnungen/ggp_o_st/Stiga/Aufsitzm%C3%A4her/Stiga%20Front%20Mowers%202009_Park.pdf"
+    },
+    {
+      "id": "stiga-2011-villa-hst-original",
+      "tier": 1,
+      "title": "STIGA Villa HST original parts catalogue 2011/2012",
+      "document": "Villa HST, issue 2011-11",
+      "url": "https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf"
+    },
+    {
+      "id": "sgarden-2727-14-engine",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2727-14 Engine parts list",
+      "document": "13-2727-14 engine assembly",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/130703/Engine"
     }
   ],
   "topics": {
     "A": {
       "name": "Identitet och produktversioner",
       "state": "gap",
-      "note": "Fem produktnummer hittade via återförsäljarindex. Primärkälla, samtliga motoridentiteter och revisionsgränser återstår."
+      "note": "Originalkatalog för 2011/2012 identifierar 13-2729-35 som FR-version; de fem produktnumren är belagda, men fullständig primärkälleinventering för 2010 och motoridentitet återstår."
     },
     "B": {
       "name": "Grundkonstruktion",
@@ -111,7 +132,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Primärkatalog bekräftar GGP WM 12,5 med bränslepump för 13-2727-13. Kompletterande Engine IPL anger GGP WM 12,5 1134-9500-01 för 13-2727-14. Briggs-utgåvor och FR-variant ej fullständigt identifierade."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -299,6 +320,42 @@
       "grade": "B",
       "sourceId": "worldofmowers-2729-14",
       "locator": "Assembly list, Kanzaki Transaxle K46Cj (S/N 0000001 - )"
+    },
+    {
+      "id": "manufacturer-2009-wm125",
+      "topic": "C",
+      "statement": "STIGA:s egen sortimentslista för 2009 anger 13-2727-13 Villa 12 HST med GGP WM 12,5 och bränslepump.",
+      "variant": "13-2727-13 (2009)",
+      "grade": "A",
+      "sourceId": "stiga-2009-front-original",
+      "locator": "F-3 produktöversikt, PDF sida 4 (index 3), rad 13-2727-13"
+    },
+    {
+      "id": "manufacturer-fr-2011",
+      "topic": "A",
+      "statement": "STIGA:s originalkatalog 2011/2012 identifierar 13-2729-35 uttryckligen som Villa 12 HST (FR), medan 13-2729-15 anges som Villa 12 HST.",
+      "variant": "13-2729-35 kontra 13-2729-15, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Omslag PDF sida 1, modellförteckningen"
+    },
+    {
+      "id": "manufacturer-2009-deck",
+      "topic": "H",
+      "statement": "STIGA:s sortiment 2009 omfattar aggregatet 85 Combi med produktnummer 13-2960-13 separat från maskinens 13-2727-13.",
+      "variant": "85 Combi 13-2960-13, sortiment 2009",
+      "grade": "A",
+      "sourceId": "stiga-2009-front-original",
+      "locator": "F-3 produktöversikt, PDF sida 4 (index 3), rad 13-2960-13"
+    },
+    {
+      "id": "dealer-2010-engine-wm",
+      "topic": "C",
+      "statement": "Motorsprängskiss för Villa 12 HST 13-2727-14 anger Engine Assembled GGP WM 12,5 med artikelnummer 1134-9500-01.",
+      "variant": "13-2727-14 (2010)",
+      "grade": "B",
+      "sourceId": "sgarden-2727-14-engine",
+      "locator": "Engine parts list, position 99"
     }
   ],
   "gaps": [
@@ -311,6 +368,8 @@
     "Motoroljebyte 5/50 timmar, tändstift RC12YC och 0,75 mm finns i maskinmanualen men måste kopplas till korrekt motorvariant innan de presenteras universellt.",
     "Kontrollera om transaxel 1134-7766-01 (K46 CJ), styrwire 1134-9154-01 och PTO-rem 1134-9079-01 också förekommer på andra produktnummer; dessa tre uppgifter är endast dokumenterade här för 13-2729-35.",
     "Kontrollera exakt vilka Villa 12 HST-produktnummer som godkänner 85 Combi 13-2960-14, utöver att den separata originalkatalogen tillhör READY/VILLA-plattformen.",
-    "Exakt B&S motorkod för 13-2729-35 kvarstår trots publicerade motor-sprängskisser; fästdelar i motorkapitlet bevisar inte modellkod."
+    "Exakt B&S motorkod för 13-2729-35 kvarstår trots publicerade motor-sprängskisser; fästdelar i motorkapitlet bevisar inte modellkod.",
+    "Granska skillnader mellan franska 13-2729-35 (FR) och 13-2729-15 mot de enskilda delgrupperna: den märkta marknadsvarianten är inte belägg för samma komponenter.",
+    "Verifiera 2010 års STIGA originalkatalog för 13-2727-14 och 13-2729-14 innan motorval och specifika reservdelar skrivs som A-fakta."
   ]
 }
