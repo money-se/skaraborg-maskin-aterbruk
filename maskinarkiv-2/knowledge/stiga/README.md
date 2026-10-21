@@ -9,7 +9,7 @@ Detta är det **återanvändbara källbiblioteket** som ska öppnas **innan fors
 - [NY-MODELL-ARBETSGANG.md](./NY-MODELL-ARBETSGANG.md) – sök-, gransknings- och publiceringsrutin.
 - Ursprunglig forskningsfil i PR #27: `maskinarkiv-2/research/machines/stiga-villa-12-hst.json`.
 
-**Startläge 2026-10-21:** 32 källor och 53 källkopplade påståenden, importerade från Villa 12 HST-forskningen. Biblioteket är **inte** en systematisk inventering av alla STIGA-manualer eller maskinserier. Vi utökar löpande till Villa, Park, Ready, Estate, Tornado, motorsågar och andra produktfamiljer först när de undersöks. Varje ny maskin ska kunna tillföra nya källor och återanvända befintliga käll-ID.
+**Startläge 2026-10-21:** 43 källposter och 53 källkopplade påståenden, importerade från Villa 12 HST-forskningen. Biblioteket är **inte** en systematisk inventering av alla STIGA-manualer eller maskinserier. Vi utökar löpande till Villa, Park, Ready, Estate, Tornado, motorsågar och andra produktfamiljer först när de undersöks. Varje ny maskin ska kunna tillföra nya källor och återanvända befintliga käll-ID.
 
 ## Vad betyder registrerade källor?
 
@@ -49,3 +49,9 @@ Nästa naturliga utbyggnad är fler tillverkargrupper (`briggs/`, `tufftorq/`), 
 5. Låt modellens egen forsknings-, innehålls-, design- och teknikgrind avgöra publicering.
 
 **GitHub är en lagringsplats för våra strukturerade hänvisningar och analyser, inte en garanti för att tredjepartslänkar lever för alltid.** Vill vi långtidssäkra PDF:er måste licensvillkor och rättigheterna till kopiering granskas innan originalfiler checkas in.
+
+## Utökning med tidigare byggda STIGA-modeller
+
+Källbiblioteket innehåller nu även 6 katalog-/manualhänvisningar från den befintliga sidan **STIGA Park 16** och 5 externa länkar från den äldre **STIGA Park 2000**-artikeln. Park 2000-länkarna är indexerade som historiska artikelexterna länkar, **inte** som manuellt omverifierade tekniska källor. Kopplingen finns i `usedBy`.
+
+Källorna från andra tillverkare (Husqvarna och Jonsered) finns i `../other-models-sources.json`. Se även `../README.md` för en samlad inventering.
