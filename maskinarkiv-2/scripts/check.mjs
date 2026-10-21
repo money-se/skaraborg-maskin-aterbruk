@@ -34,7 +34,7 @@ assert.ok(fs.existsSync(riderPath), "Rider 13 HTML must be generated");
 const riderHtml=fs.readFileSync(riderPath,"utf8");
 assert.equal(rider.chapters.length,17);
 assert.deepEqual(rider.chapters.slice(0,5).map(c=>c.id),["hitta-hjalp","oversikt","identifiering","felsokning","reservdelar"]);
-assert.equal(rider.sources.length,11);
+assert.equal(rider.sources.length,12);
 for(const ch of rider.chapters) assert.ok(riderHtml.includes('id="'+ch.id+'"'), "Rider chapter missing: "+ch.id);
 assert.ok(riderHtml.includes('class="source-disclosure"'));
 assert.ok(riderHtml.includes("Husqvarna Rider 13"));
