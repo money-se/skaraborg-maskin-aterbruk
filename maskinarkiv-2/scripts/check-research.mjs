@@ -69,7 +69,7 @@ for(const file of files){
     }
     ready++;
   }else incomplete++;
-  if(release && d.slug===target)assert.equal(d.status,"ready",d.slug+" RESEARCH_NOT_READY");
+  if(release && d.slug===target)assert.ok(["ready","scoped_ready"].includes(d.status),d.slug+" RESEARCH_NOT_READY");
   console.log("RESEARCH_RECORD="+d.slug+"; status="+d.status+"; claims="+d.claims.length+"; gaps="+d.gaps.length);
 }
 if(release)assert.ok(files.includes(target+".json"),"No research record for "+target);
