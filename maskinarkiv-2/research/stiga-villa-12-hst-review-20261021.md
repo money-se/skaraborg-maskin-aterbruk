@@ -227,3 +227,19 @@ Avsnitt: *Residential IHT (w/ integrated reservoir tank) Oil Maintenance*, under
 **Säker redaktionell slutsats:** Vi har nu A-belägg för en generell **K46CJ-serviceprincip**, men inte en individuellt verifierad serviceinstruktion för varje Villa 12 HST-basmaskin. Skriv i artikeln att den monterade transmissionen identifieras med enhetens märkning och att tillverkarens och STIGA:s relevanta serviceinstruktioner ska jämföras. Undvik att ange generella volymer/intervall utan den kontrollen.
 
 Därför kvarstår `D:gap` och det övergripande `needs_research`, trots att ett viktigt delproblem nu har ett originalbelagt svar.
+
+## 85 Combi: senare aggregat-ID och evidensgräns för ersättningsaggregat
+
+Original reservdelskatalog från STIGA/GGP för **13-2960-15** anger **Deck Villa 85 Combi, Season 2015**, katalogutgåva 1–2014. Detta utökar vår kända aggregatnummerkedja:
+
+- 13-2960-13 – äldre 85 Combi-katalog (2009)
+- 13-2960-14 – 85 Combi-katalog 2011/2012
+- **13-2960-15 – 85 Combi-katalog, säsong 2015**
+
+Se https://view.stiga-store.com/files/IPL_Stiga_Deck_Villa_85_Combi_13-2960-15_14_SV-EN.pdf, omslag. PDF-texten har kontrollerats; bildvisningen gick inte att hämta i denna körning. Därför påstås inga nya delpositioner ur sprängskissen.
+
+En svensk återförsäljare anger att **387561538/0**, ersättning **2D2708511/S16**, är ett komplett senare Villa 85 Combi som passar Villa efter 2005 och Villa 12. Detta är **sekundär passformsinformation**, inte en STIGA-originalmatris per exakt 13-2727-13 / -14 eller 13-2729-14 / -15 / -35. Återförsäljaren beskriver att aggregatfästet sitter **på utsidan av hjulen**, inte på insidan som hos äldre maskiner. Källa: https://www.reservdelaronline.se/produkter/klippaggregat-villa-85-combi.
+
+**Slutsats:** En praktisk köpguide får nämna senare ersättningsaggregat som *möjliga* alternativ, men måste kräva kontroll av fästen, drivrem, höjdinställning och aktuell maskinproduktkod. Det skulle vara fel att lägga in 2015-versionen i kompatibilitetstabellen för 2009–2012 som en verifierad originalmontering.
+
+**Status:** `needs_research`; källorna ger ny information men inte den efterfrågade exakta motor- eller aggregatkopplingen.
