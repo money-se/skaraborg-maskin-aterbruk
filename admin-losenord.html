@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Byt eller återställ lösenord | Skaraborg Maskin & Återbruk</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f6f3;color:#142a1d;font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{background:#193d27;color:#fff;padding:26px 18px}header div,main{max-width:610px;margin:auto}h1{font-size:clamp(1.5rem,4vw,2rem);line-height:1.2;margin:0}h2{font-size:1.3rem;margin:0 0 8px}
+main{padding:20px 18px 54px}.card{background:#fff;border:1px solid #d5e2d6;border-radius:15px;padding:22px;margin:16px 0}
+label{display:block;font-weight:700;margin:14px 0 5px}input{width:100%;font:inherit;padding:12px;border:1px solid #aebfb1;border-radius:9px}
+button{font:inherit;font-weight:750;background:#1a4d2c;color:white;border:1px solid #1a4d2c;border-radius:10px;padding:11px 17px;cursor:pointer;margin-top:18px}button:disabled{opacity:.5;cursor:wait}a{color:#174e30}a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid #d8a52e;outline-offset:3px}
+.hidden{display:none!important}.muted{color:#526455}.status{border-left:4px solid #2b6c42;padding:12px;background:#e8f2eb;border-radius:7px}
+</style>
+</head>
+<body>
+<header><div><h1>Hantera ditt lösenord</h1><p>Annonsadministrationen · Skaraborg Maskin & Återbruk</p></div></header>
+<main>
+<p><a href="/admin.html">← Tillbaka till annonsadministrationen</a></p>
+<p id="notice" class="status" role="status" aria-live="polite">Kontrollerar inloggningen …</p>
+<section class="card hidden" id="forgot">
+<h2>Glömt lösenordet?</h2>
+<p>Fyll i mejladressen till ditt konto så får du ett mejl med en länk där du kan välja nytt lösenord.</p>
+<form id="forgot-form">
+<label for="account-email">Din mejladress</label>
+<input id="account-email" type="email" autocomplete="email" required maxlength="254">
+<button type="submit">Skicka återställningslänk</button>
+</form>
+</section>
+<section class="card hidden" id="change">
+<h2>Välj nytt lösenord</h2>
+<p class="muted">Du ändrar bara lösenordet till det konto som är inloggat. Välj minst tio tecken.</p>
+<form id="change-form">
+<label for="new-password">Nytt lösenord</label>
+<input id="new-password" type="password" autocomplete="new-password" minlength="10" required>
+<label for="confirm-password">Bekräfta nytt lösenord</label>
+<input id="confirm-password" type="password" autocomplete="new-password" minlength="10" required>
+<button type="submit">Spara nytt lösenord</button>
+</form>
+</section>
+<p class="muted">Om du precis blivit inbjuden behöver du först använda länken i mejlet för att aktivera ditt konto.</p>
+</main>
+<script type="module">
+import {createClient} from 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm';
+const db=createClient('https://jnorvriiehandxlvwkkg.supabase.co','sb_publishable_VZCeFFISX9vzOMlVxYVchg_w1UWYpYR',{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});
+const $=id=>document.getElementById(id);
+const info=message=>{$('notice').textContent=message};
+function show(session){$('forgot').classList.toggle('hidden',!!session);$('change').classList.toggle('hidden',!session);info(session?'Du är inloggad och kan byta lösenord.':'Ange mejladressen till ditt konto för att återställa lösenordet.')}
+db.auth.onAuthStateChange((event,session)=>{if(event==='PASSWORD_RECOVERY')show(session);else if(event==='SIGNED_IN'||event==='SIGNED_OUT')show(session)});
+$('forgot-form').addEventListener('submit',async event=>{
+ event.preventDefault();const button=event.submitter;button.disabled=true;
+ try{const email=$('account-email').value.trim();const {error}=await db.auth.resetPasswordForEmail(email,{redirectTo:'https://skaraborgmaskin.se/admin-losenord.html'});
+ if(error){info('Kunde inte skicka just nu. Kontrollera mejladressen och försök senare.');console.error('Password reset request failed:',error.message)}
+ else info('Om mejladressen har ett konto kommer ett återställningsmejl inom kort. Kontrollera även skräpposten.')}
+ catch(err){info('Det uppstod ett anslutningsfel. Försök igen senare.');console.error(err)}
+ finally{button.disabled=false}
+});
+$('change-form').addEventListener('submit',async event=>{
+ event.preventDefault();const button=event.submitter;
+ const first=$('new-password').value,second=$('confirm-password').value;
+ if(first.length<10){info('Välj minst tio tecken.');return}
+ if(first!==second){info('Lösenorden stämmer inte överens.');return}
+ button.disabled=true;
+ try{const {error}=await db.auth.updateUser({password:first});
+ if(error){info('Lösenordet kunde inte ändras: '+error.message);return}
+ $('change-form').reset();info('Lösenordet har ändrats. Du kan använda det vid nästa inloggning.')}
+ catch(err){info('Det uppstod ett anslutningsfel. Försök igen senare.');console.error(err)}
+ finally{button.disabled=false}
+});
+db.auth.getSession().then(({data,error})=>{if(error){info('Kunde inte läsa inloggningen. Uppdatera sidan och försök igen.');return}show(data.session)}).catch(()=>info('Kunde inte ansluta. Försök igen senare.'));
+</script>
+</body>
+</html>
