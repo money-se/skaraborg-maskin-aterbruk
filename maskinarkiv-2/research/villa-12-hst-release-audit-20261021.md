@@ -34,3 +34,24 @@ Granskningen är gjord mot `research/machines/stiga-villa-12-hst.json` och `scri
 `check-research.mjs` kräver i ready-läge: (i) noll öppna luckor; (ii) alla A–M = verified; (iii) minst ett A/B-påstående för varje område; (iv) `reviewedBy` och `reviewedAt`. Dessa kriterier får **inte** uppnås genom att markera områden utan faktaunderlag eller ta bort giltiga luckor för att få grönt CI. Värdet av den manuella primärkällegranskningen måste också vara dokumenterat.
 
 Denna audit ger ett mätbart slutmål. Först efter att dessa villkor verkligen uppfylls bör modellens JSON-artikel revideras och publicerings-PR granskas visuellt.
+
+## Etapp: F, I, L, M – spårning mot originalmanual 8211-0038-90
+
+Efter den första revisionen har originalmanualens **svenska innehåll** granskats mot exakta kapitel. De tidigare helt tomma A/B-områdena F, I, L och M har nu registrerade primärkällepåståenden.
+
+| Område | Nytillförda A-påståenden | Källställe | Status efter etapp |
+|---|---:|---|---|
+| F Reglage | 2 | §§5.4.2–5.4.8, tryckta s. 11–12 | **verified**, manualens avgränsade reglage |
+| I Tillbehör | 2 | §6, tryckt s. 12 | **gap**, specifik modell-/aggregatkompatibilitet saknas |
+| L Köpråd | 1 | §7.3.1, tryckt s. 13 | **gap**, värdering och skador kräver tydlig åtskillnad |
+| M FAQ | 2 | §§7.3.2 och 5.4.7, s. 12–13 | **gap**, fler frågor och variantsamband återstår |
+
+**Vad manualen faktiskt styrker:**
+- Reglage: separat pedalfunktion för fram/back/stopp, parkeringsbroms, PTO-spak och urkoppling av hydrostat vid handförflyttning.
+- Tillbehör: exempel på STIGA-originaltillbehör såsom 85 C, snöblad, sopaggregat, 30/42-tums uppsamlare och transportkärra; **inte** en produktnummerstyrd kompatibilitetsmatris.
+- För köp: manualens säkerhetskontrollpunkter kan omvandlas till ett konkret kontrollschema, men själva köpbeslutet är redaktionell rådgivning.
+- FAQ: dokumenterade startspärrar och förbud mot PTO inkopplat i transportläge.
+
+**Därmed undanröjs en tydlig spårbarhetsbrist:** alla A–M har nu minst ett A/B-påstående. Det betyder **inte** att alla är färdiggranskade: release-gaten blockerar fortfarande kvarvarande `gap`-markeringar och öppna frågor. Den tidigare tabellen ovan är en ögonblicksbild *före* denna etapp och ska inte läsas som nuvarande räkneläge.
+
+Primärkälla: https://manualzz.com/doc/sv/4520408/stiga-villa-12-hst-ride-on-mower-gebrauchsanweisung.
