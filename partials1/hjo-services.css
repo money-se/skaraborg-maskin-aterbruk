@@ -1,0 +1,27 @@
+/* Gemensam visuell standard för Hjos sju tjänstesidor. */
+:root{--hjo-deep:#142317;--hjo-forest:#24452c;--hjo-gold:#d8a52e;--hjo-bg:#f5f7f5;--hjo-line:#dce5dd;--hjo-shadow:0 14px 34px rgba(20,42,25,.09)}
+html{scroll-behavior:smooth}body{background:var(--hjo-bg);line-height:1.65}main{min-width:0}main .wrap{max-width:1160px}
+main h1,main h2,main h3{text-wrap:balance;letter-spacing:-.022em}main h1{font-size:clamp(2.4rem,5.6vw,4.3rem);line-height:1.08}main h2{line-height:1.18}main p,main li{overflow-wrap:break-word}
+.hero{background:radial-gradient(circle at 86% 12%,rgba(216,165,46,.17),transparent 30%),linear-gradient(135deg,#142317,#304936);padding-top:72px;padding-bottom:62px;color:#fff}
+.hero h1{max-width:17ch;font-size:clamp(2.5rem,5.8vw,4.4rem);letter-spacing:-.035em;line-height:1.07}
+.hero p{max-width:72ch}.hero .pill,.hero .eyebrow{border-color:rgba(255,255,255,.22)}
+main .card{border:1px solid var(--hjo-line);border-radius:20px;box-shadow:var(--hjo-shadow);padding:clamp(20px,2.8vw,29px)}
+main .card h2,main .card h3{font-size:clamp(1.25rem,2.3vw,1.55rem)}
+main .card p,main .card li{line-height:1.68}
+main .btn,main .button,main a.btn{min-height:48px;border-radius:12px;transition:filter .16s ease,transform .16s ease}
+main a:focus-visible,main button:focus-visible{outline:3px solid var(--hjo-gold);outline-offset:4px}
+.hjo-hero{padding:70px 0 64px;background:radial-gradient(circle at 86% 12%,rgba(216,165,46,.2),transparent 31%),linear-gradient(135deg,#142317,#304936);color:#fff}
+.hjo-hero .hjo-eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.1em;color:#f3d887;font-weight:850}
+.hjo-hero h1{margin:14px 0 18px;max-width:17ch;color:#fff}
+.hjo-hero .hjo-lead{font-size:clamp(1.06rem,2vw,1.22rem);max-width:70ch;color:#e4eee5}
+.hjo-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}
+.hjo-action{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:800;padding:12px 19px;min-height:50px;border-radius:12px;background:var(--hjo-gold);color:#142317}
+.hjo-action--secondary{color:#fff;border:1px solid rgba(255,255,255,.38);background:rgba(255,255,255,.08)}
+.hjo-breadcrumb{font-size:14px;margin:0 0 18px;color:#dce8df}.hjo-breadcrumb a{color:inherit;text-underline-offset:3px}
+.hjo-service-links{padding:40px 0 58px;background:#edf3ed;border-top:1px solid var(--hjo-line)}
+.hjo-service-links h2{font-size:clamp(1.4rem,3vw,2rem);margin:0 0 17px}
+.hjo-service-links ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.hjo-service-links a{display:block;border-radius:14px;background:white;border:1px solid var(--hjo-line);padding:14px 16px;text-decoration:none;font-weight:750;height:100%}
+.hjo-service-links a:hover{box-shadow:var(--hjo-shadow)}
+@media(max-width:900px){.hjo-service-links ul{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){.hero,.hjo-hero{padding-top:48px;padding-bottom:44px}.hjo-actions{flex-direction:column}.hjo-action{width:100%}.hjo-service-links ul{grid-template-columns:1fr}.hjo-service-links{padding:32px 0 42px}}
