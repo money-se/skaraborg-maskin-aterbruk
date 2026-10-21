@@ -106,3 +106,24 @@ För 13-2729-35 (FR) har jag också kontrollerat Engine_0 i en parts-diagramkata
 - Reservdelsdiagram FR 13-2729-35: https://diyspareparts.com/parts/stiga/diagrams/5d48750b-f87b-4a49-9901/ef381743-aeb1-4b3e-aba6
 
 **Resultat:** Vi har verifierat kravet på metod, men inte de saknade motorkoderna. Research-status förblir `needs_research`.
+
+## Etapp: transmission för 13-2729-15 och granskning av servicetabellen
+
+I reservdelssprängskissen **Transmission_0** för maskin-ID **13-2729-15** (2011–2012) anges i **position 23** `1134-7766-01 Stiga Transaxle K46 Cj`. Det innebär att samma specificerade transaxel nu har separat katalogbelägg för 13-2729-14, 13-2729-15 och 13-2729-35. Detta är fortfarande inte ett tillverkarstyrkt serviceintervall, en säker oljespecifikation eller ett intyg om att en komponent passar alla årsutföranden.
+
+Källa: https://www.diyspareparts.com/parts/stiga/diagrams/79dc6baa-857f-459f-8861/97c910b4-245a-418f-924e/
+
+### Servicevärden – vad manualen faktiskt säger
+STIGA:s svenska instruktionsbok **8211-0038-90**, avsnitt 8.3–8.4, anger däcktryck fram/bak **0,4/1,2 bar** samt motoroljebyte första gången efter **5 timmar**, därefter **50 timmar eller en säsong**. Vid mycket tung drift eller hög omgivningstemperatur anger avsnitt 8.4 **25 timmar eller åtminstone en gång per säsong**. Avsnittet anger också **SAE 10W-30, kvalitet SJ eller högre**, och **1,2 liter** för **det motorutförande som manualen omfattar**. Däcktryck och växellådans olja får inte förväxlas med motorspecifikationer.
+
+Manualen innehåller dessutom kontroll av styrning efter 5 timmar och sedan var 25:e timme (avsnitt 8.7), samt luftfilterintervall (avsnitt 8.9).
+
+**Avgränsning:** Oljemängden 1,2 liter eller tändstiftsvärden ska inte föras över som generella värden för alla fem Villa-varianter. Manualens motorspecifikation är ett källbelagt exempel, inte ett bevis för B&S-versionerna. Alla ägare bör identifiera motorns faktiska Model/Type/Code och slå upp dess egen servicehandbok.
+
+Källa: https://manualzz.com/doc/sv/4520408/stiga-villa-12-hst-ride-on-mower-gebrauchsanweisung (svenska avsnitt 8.3, 8.4, 8.7 och 8.9).
+
+### Inför artikelförbättring
+- Särredovisa **motorolja** och **hydrostatolja**; gissa inte servicetyp på K46 CJ.
+- Skriv tydligt att `1134-7766-01` har spårats för **tre** produkt-ID:n, inte fem.
+- För servicevärden från 8211-0038-90, ange alltid manualens räckvidd och hänvisa B&S-ägare till den identifierade motorns specifika instruktioner.
+- Behåll forskningsstatus `needs_research` tills kvarvarande motor- och aggregatverifikation är genomförd.
