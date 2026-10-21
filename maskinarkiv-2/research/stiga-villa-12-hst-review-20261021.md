@@ -73,3 +73,14 @@ Källa: https://www.worldofmowers.co.uk/stiga-spare-parts/front-mowers/base-mach
 **Vad återstår?** Original-STIGA-listan för 2010, explicit motoridentitet (Model/Type/Code) för 13-2729-14, 13-2729-15 och franska 13-2729-35, samt individuella transmissions- och aggregatmatchningar.
 
 **Forskningsstatus:** `needs_research`. Inget påstående om att samtliga motorer eller klippaggregat är likadana.
+
+## Motorfabrikat 2011/2012 – säkerställd avgränsning
+
+I STIGA:s originalkatalog `SSPL2011_20110214_Villa_HST.pdf`, utgåva **2011-11**, står både `13-2729-15` och `13-2729-35` i modellförteckningen (omslaget, PDF sida 1). I avsnittet **MOTOR / ENGINE (B&S)**, bildnummer **1651C**, tryckt s. 24 / PDF s. 23, redovisas motorrelaterade delar för båda 2729-varianterna. **Det bekräftar att STIGA har B&S-motorunderlag för båda, inklusive FR-varianten.** Tabellen innehåller däremot inte ett komplett Briggs & Stratton Model/Type/Code.
+
+Återförsäljarens motoravsnitt för `13-2729-15` visar i stor utsträckning tank, bränsleslang, ljuddämpare och motorfästen. Enbart dessa kringdelar motiverar inte påståendet `21R602` eller `21R502`.
+
+**Godkänd formulering för framtida artikelförbättring:** ”I STIGA:s originalreservdelskatalog för 2011/2012 har både 13-2729-15 och 13-2729-35 (FR) ett motoravsnitt märkt B&S. Exakt motorvariant måste identifieras på motorns egen märkning.”
+
+**Fortfarande öppet:** Briggs exakta modell-/typ-/kodidentifiering och varianternas skilda servicevärden samt `13-2729-14` från 2010. Ingen ändring på publika sidan innan fler kontroller.
+Källor: https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf och https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2012/villa-12-hst-13-2729-15/engine
