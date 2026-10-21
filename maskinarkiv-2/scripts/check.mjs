@@ -104,7 +104,7 @@ for(const page of [html,riderHtml,lthHtml]) {
 console.log("MASKINARKIV_2_SECTION_ORDER=PASS");
 
 
-for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,6],["jonsered-lt2115",21,10]]) {
+for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,14],["jonsered-lt2115",21,10]]) {
  const data=JSON.parse(fs.readFileSync("src/_data/machines/"+slug+".json","utf8"));
  const file="../_maskinarkiv-preview/maskinarkiv/"+slug+".html";
  assert.ok(fs.existsSync(file),"Missing generated "+slug);
