@@ -194,3 +194,23 @@ Ytterligare kontroll av STIGA:s senare bruksanvisningsutgåva **8211-7000-80** (
 Källa: https://www.manualslib.com/manual/1275367/Stiga-Park-85-Combi.html?page=32 (§3.1).
 
 **Återstår innan färdig artikel:** jämför originalversionen 8211-7000-10 mot senare -80/-91 sida för sida, kontrollera monteringssatsens artikelnummer för basmaskin och aggregat, och håll aggregatets interna remsystem separat från maskinens PTO- och transmissionsdrift.
+
+## Jämförelse av monteringsmanualer 8211-7000-10 och 8211-7000-80
+
+**Kontrollerat mot återgivna avsnitt i båda utgåvorna**, inte antaget att revisionsnummer saknar betydelse.
+
+| Kontroll | 8211-7000-10, engelska s. 31 §3.1 | 8211-7000-80, engelska s. 32 §3.1 | Bedömning |
+|---|---|---|---|
+| Grundtyp | Fasta Villa/Ready-aggregatfästen | Fasta Villa/Ready-aggregatfästen | Samma övergripande princip |
+| Bricka figur 3:D | Endast maskiner t.o.m. 2006 | Endast maskiner t.o.m. 2006 | Samma årsgräns |
+| Remspänning Villa/Ready | Remspännare på insidan, drar åt vänster | Remspännare på insidan, drar åt vänster | Samma princip |
+| Koppling till redskapslyft | Figur 13 | Figur 13 | Samma övergripande funktion |
+| Remkåpa/remstyrning | Kortare monteringsföljd utan motsvarande moment i §3.1 | Extra steg för att ta bort/sätta tillbaka remkåpa samt lossa/åtdra remstyrningsskruvar | **Arbetsgången skiljer** |
+
+Utgåva **-10**: https://manualzz.com/doc/en/html/51842571/stiga-villa-85-combi-cutting-deck-instructions-for-use
+Utgåva **-80**: https://www.usermanuals.tech/d/lawn-mower-8211-7000-80-stiga-park-stiga-villa-85-combi-95-combi-105-combi-instructions-manual/part4
+
+### Praktisk konsekvens
+Det går nu att styrka **en gemensam monteringsprincip** för Villa/Ready-plattformen, men **inte en enda universell steg-för-steg-instruktion** för alla aggregat- och maskinårsmodeller. När vi skriver webbavsnittet ska remkåpa, remstyrning och fästdetaljer hänvisas till *det installerade aggregatets egen manualutgåva*. Vi bör aldrig ersätta den med en hopslagen monteringsguide från olika revisioner.
+
+Detta klargör en tidigare forskningslucka delvis. Individuell kompatibilitet mellan maskin-ID och aggregat-ID samt Briggs fullständiga Model/Type/Code återstår. Forskningsstatus: `needs_research`.
