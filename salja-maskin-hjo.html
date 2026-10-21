@@ -8,111 +8,26 @@
 <meta name="description" content="Vill du sälja maskiner eller trädgårdsmaskiner i Hjo? Vi bedömer även trasiga och ofullständiga objekt. Skicka bilder, ort och skick för besked.">
 
 <style>
-:root{--brand:#1f2d1f;--bg:#f5f7f5;--card:#fff;--text:#0f1a12;--muted:#5b6c60;--line:#e6ebe6;--radius:18px;--shadow:0 12px 30px rgba(0,0,0,.08);--max:1100px}
-*{box-sizing:border-box}
-body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
-a{color:inherit}
-.wrap{max-width:var(--max);margin:auto;padding:0 20px}
-
-/* Header */
-.topbar{position:sticky;top:0;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:100}
-.topbar-inner{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0;flex-wrap:wrap}
-.logo{text-decoration:none;font-weight:900;font-size:16px;letter-spacing:.6px;line-height:1.2;color:var(--text)}
-.logo span{display:block;font-size:12px;font-weight:500;color:var(--muted);margin-top:4px}
-nav{display:flex;gap:10px;flex-wrap:wrap;justify-content:flex-end;align-items:center;font-size:14px}
-nav a{text-decoration:none;padding:8px 10px;border-radius:10px;color:#1d2a1f}
-nav a:hover{background:#eef3ee}
-
-main{padding:40px 0}
-.page-title{margin:0 0 16px;font-size:32px;line-height:1.2}
-.lead{margin:0 0 22px;color:var(--muted);max-width:75ch}
-.card{background:var(--card);padding:24px;border-radius:var(--radius);box-shadow:var(--shadow);border:1px solid var(--line);margin-bottom:20px}
-.card h2{margin:0 0 10px;font-size:18px}
-.card p{margin:0;color:var(--muted)}
-.card ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
-.card li{margin:6px 0}
-.button{display:inline-flex;align-items:center;justify-content:center;margin-top:14px;padding:12px 16px;background:var(--brand);color:#fff;text-decoration:none;border-radius:12px;font-weight:800}
-.note{font-size:13px;color:var(--muted);margin-top:10px}
-
-/* Footer */
-.site-footer{background:#fff;border-top:1px solid var(--line);padding:26px 0 30px;font-size:13px;color:var(--muted)}
-.foot{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
-
-@media (max-width:860px){nav{justify-content:flex-start}.page-title{font-size:26px}}
+:root{--dark:#142317;--forest:#24452c;--gold:#d8a52e;--soft:#edf3ed;--line:#dce5dd;--text:#142319;--muted:#526556}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--text);background:#f7f8f6;font:16px/1.7 system-ui,-apple-system,Segoe UI,Arial,sans-serif}a{color:inherit}a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:4px}h1,h2,h3{text-wrap:balance;letter-spacing:-.025em;line-height:1.15}h1{font-size:clamp(2.5rem,6vw,4.7rem);margin:13px 0 21px}h2{font-size:clamp(1.8rem,3.8vw,3rem);margin:0 0 17px}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}.eyebrow{color:#9c7a24;text-transform:uppercase;font-size:13px;font-weight:850;letter-spacing:.12em}.hero{padding:50px 0 79px;background:radial-gradient(circle at 85% 17%,rgba(216,165,46,.18),transparent 33%),linear-gradient(130deg,#142317,#31503a);color:white}.hero .eyebrow{color:#f3d887}.crumb{margin:0 0 30px;font-size:14px;color:#daeadf}.hero-grid,.split{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px}.lead{font-size:clamp(1.08rem,2.1vw,1.24rem);color:#e1ece3}.hero-note{background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.24);padding:29px;border-radius:22px}.hero-note h2{font-size:1.5rem}.hero-note li{margin:11px 0}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;min-height:50px;border-radius:12px;font-weight:800;text-decoration:none;line-height:1.3}.primary{background:var(--gold);color:#15231a}.outline{border:1px solid #afc8b5;color:#fff}.section{padding:82px 0}.white{background:#fff}.soft{background:var(--soft)}.intro{max-width:770px;margin:0 0 30px}.intro p,.split p,.faq p{color:var(--muted)}.cards,.terms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.cards article,.terms article{padding:26px;background:white;border:1px solid var(--line);border-radius:20px;box-shadow:0 12px 32px rgba(20,35,23,.055)}.cards h3,.terms h3{font-size:1.25rem;margin:0 0 12px}.cards p,.terms p{margin:0;color:var(--muted)}.num{display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:12px;background:var(--soft);color:var(--forest);font-weight:850;margin-bottom:18px}.dark-panel{padding:32px;border-radius:22px;background:var(--forest);color:white}.dark-panel h3{font-size:1.55rem;margin:0 0 13px}.dark-panel li{margin:11px 0}.dark-panel p{color:#e4eee5}.facts{display:grid;grid-template-columns:1fr 1fr;gap:14px}.facts article{padding:19px;background:#fff;border:1px solid var(--line);border-radius:14px}.facts h3{font-size:1.04rem;margin:0 0 6px}.facts p{font-size:.93rem;margin:0}.faq{max-width:830px}.faq details{padding:17px 0;border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;font-weight:800;font-size:1.08rem}.faq details p{margin-bottom:0}.cta{display:flex;align-items:center;justify-content:space-between;gap:25px;background:linear-gradient(130deg,#142317,#31503a);color:white;padding:40px;border-radius:24px}.cta h2{margin:9px 0;font-size:clamp(1.8rem,4vw,2.75rem)}.cta p{color:#e5eee7}.cta .btn{flex-shrink:0}.related{padding:50px 0 75px}.related h2{font-size:1.6rem}.related ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.related li a{display:block;text-decoration:none;background:#fff;border:1px solid var(--line);padding:16px;border-radius:12px;font-weight:750}.related li a:hover{border-color:#7e9d85}.note{color:var(--muted);font-size:.92rem}
+@media(max-width:860px){.hero-grid,.split{grid-template-columns:1fr}.cards,.terms,.related ul{grid-template-columns:repeat(2,minmax(0,1fr))}.cta{display:block}.cta .btn{margin-top:15px}}
+@media(max-width:560px){.wrap{width:min(100% - 32px,1120px)}.hero{padding:32px 0 55px}.hero-grid{gap:25px}.section{padding:55px 0}.actions{flex-direction:column}.actions .btn,.cta .btn{width:100%}.cards,.terms,.related ul,.facts{grid-template-columns:1fr}.hero-note,.dark-panel{padding:23px}.cta{padding:27px}}
 </style>
 <link rel="canonical" href="https://skaraborgmaskin.se/salja-maskin-hjo.html">
-<link rel="stylesheet" href="/partials1/hjo-services.css">
+
+<meta property="og:title" content="Sälja maskiner i Hjo | Skaraborg Maskin & Återbruk"><meta property="og:type" content="website">
 </head>
 
-<body>
-<div id="site-header"></div>
-
-<main>
-<div class="wrap">
-
-</div>
-
-
-<section class="hjo-hero"><div class="wrap"><p class="hjo-breadcrumb"><a href="/hjo.html">Hjo</a> / Sälja maskiner</p><p class="hjo-eyebrow">Maskiner & återbruk i Hjo</p><h1>Sälja maskiner i Hjo</h1><p class="hjo-lead">Har du en maskin som står och tar plats i Hjo? Vi bedömer gräsklippare, åkgräsklippare och andra maskiner – även trasiga.
-Skicka gärna 1–3 bilder + kort info om skick så gör vi en snabb bedömning.</p><div class="hjo-actions"><a class="hjo-action" href="https://www.facebook.com/profile.php?id=61588383880828">Skicka bilder via Facebook</a><a class="hjo-action hjo-action--secondary" href="/kontakt.html">Kontakta oss</a></div></div></section>
-<div class="hjo-sale-main"><div class="wrap">
-
-<div class="card">
-<h2>Vi köper bland annat</h2>
-<ul>
-<li>Gräsklippare & åkgräsklippare</li>
-<li>Trädgårdsmaskiner</li>
-<li>Mindre maskiner</li>
-<li>Objekt som saknar delar</li>
-<li>Maskiner som inte startar</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Även trasigt kan ha värde</h2>
-<p>
-Maskiner som inte startar kan ändå ha värde som reservdelar – eller vara enkla att få igång.
-Skicka bild + kort text (startar / står / fel) så återkommer vi.
-</p>
-</div>
-
-<div class="card">
-<h2>Så går det till</h2>
-<p>
-1) Skicka bild + ort (Hjo)<br>
-2) Vi gör en bedömning<br>
-3) Vid överenskommelse – möte eller hämtning (ibland)<br>
-4) Betalning enligt överenskommelse
-</p>
-
-<a class="button" href="https://www.messenger.com/t/924620407412160/" target="_blank" rel="noopener noreferrer">✉ Skriv på Messenger</a>
-
-<a class="button" style="background:#1877f2;margin-left:10px;"
-   href="https://www.facebook.com/profile.php?id=61588383880828"
-   target="_blank" rel="noopener">🔗 Besök oss på Facebook</a>
-
-<div class="note">Snabbast svar: bild + ort + kort info om skick.</div>
-</div>
-
-<p class="note"><a href="index.html">← Tillbaka</a></p>
-
-</div>
-
-<nav aria-label="Fler sätt att kontakta oss och läsa vidare" style="max-width:1080px;margin:22px auto;padding:15px 20px;background:#f0f5ef;border-radius:12px">
-<strong>Mer information:</strong> <a href="/kop-maskiner.html">Läs om tjänsten</a> · <a href="/foretag.html">För företag</a> · <a href="/kontakt.html">Kontakt</a>.
-<p>Vi föredrar skriftliga förfrågningar. Skicka gärna bilder, ort och en kort beskrivning via <a href="https://www.messenger.com/t/924620407412160/" target="_blank" rel="noopener noreferrer">Messenger</a>.</p>
-</nav>
-
-<div aria-label="Hjo pilot fas 2"><section class="card"><h2>När du vill sälja en maskin – inte bara bli av med skrot</h2><p>Den här sidan är till för dig som vill erbjuda oss en maskin eller ett parti till försäljning i Hjo. Vi tittar på vilket objekt det är, om det är komplett och vilket skick det har. Även en trasig maskin kan vara intressant, men varje köp avgörs från fall till fall.</p><h3>Det hjälper oss att bedöma objektet</h3><ul><li>Märke, modell eller en bild på märkplåten, om den finns.</li><li>Vad som fungerar och vad som eventuellt är trasigt.</li><li>Om viktiga delar saknas och om objektet går att flytta.</li><li>Ungefärligt önskat pris, om du har ett.</li></ul><p>Gäller det särskilt en åkgräsklippare? Läs om <a href="/salja-akgrasklippare-hjo.html">hur vi bedömer åkgräsklippare i Hjo</a>. Är det främst metall eller uttjänta maskindelar? Se <a href="/skrot-hamtning-hjo.html">skrot och hämtning i Hjo</a>. För en bredare översikt finns <a href="/hjo.html">vår Hjo-sida</a>.</p></section></div>
-<nav aria-label="Hjo översikt" style="max-width:1080px;margin:18px auto;padding:12px 20px"><a href="/hjo.html">← Alla våra tjänster i Hjo</a></nav>
-
-<section id="gamla-maskiner-och-tradgardsmaskiner" style="padding:46px 20px;background:#edf3ed"><div style="max-width:1050px;margin:auto"><h2>Trädgårdsmaskiner och maskiner du vill bli av med i Hjo</h2><p>Har du en gammal maskin som står oanvänd i garage, förråd eller på gården? Vi bedömer också trädgårdsmaskiner som jordfräsar, motorsågar, röjsågar, snöslungor och maskiner för reservdelar. Både fungerande och trasiga objekt kan vara intressanta.</p><h3>Vill du sälja eller bara bli av med den?</h3><p><strong>Försäljning:</strong> Om objektet passar vår verksamhet och har ett inköpsvärde kan vi lämna ett köpförslag efter bedömning.</p><p><strong>Överlämning utan ersättning:</strong> Vissa objekt kan vi eventuellt ta emot utan att betala för dem. Det bestäms alltid tillsammans med ägaren.</p><p><strong>Hämtning eller bortforsling:</strong> Möjligheten och en eventuell kostnad bedöms utifrån objekt, mängd, plats, avstånd och lastningsförutsättningar. Hämtning är inte automatiskt kostnadsfri.</p><p>Skicka gärna 1–3 bilder, ort, beskrivning av skicket och gärna ett prisönskemål om du vill sälja. Vi berättar vad som kan vara möjligt innan något bestäms.</p></div></section>
-</div>
-<section class="hjo-seo-content" aria-label="Mer om sälja eller bli av med gamla maskiner i hjo" style="padding:44px 0"><div class="wrap"><h2>Sälja eller bli av med gamla maskiner i Hjo</h2><p>Vi utgår från Hjo och tittar på maskiner som blivit stående på gårdar, i garage, uthus och förråd. Det kan vara jordfräsar, snöslungor, motorsågar, röjsågar, motorer, redskap, mindre maskiner och blandade maskinpartier. För gräsklippare och åkgräsklippare finns också egna fördjupade sidor.</p><p>Maskinen behöver inte vara körklar för att du ska fråga. Vi tar hänsyn till märke, modell, skick, efterfrågan, reservdelar, mängd och transportbehov. Vi kan lämna ett köpförslag om objektet passar verksamheten, ibland ta emot något utan ersättning eller diskutera hämtning som kan medföra kostnad. Vi lovar inte att köpa eller hämta allt.</p><h3>Så gör du en förfrågan</h3><p>Skicka gärna 1–3 bilder, var i Hjo-området objekten finns och en kort beskrivning av skick och mängd. Ange gärna ett prisönskemål om du vill sälja. <a href="https://www.facebook.com/profile.php?id=61588383880828">Skriv till oss på Facebook</a> eller se våra <a href="/kontakt.html">kontaktuppgifter</a>.</p></div></section>
-<section class="hjo-service-links" aria-label="Fler tjänster i Hjo"><div class="wrap"><h2>Fler tjänster i Hjo</h2><ul><li><a href="/salja-akgrasklippare-hjo.html">Sälja åkgräsklippare</a></li><li><a href="/salja-grasklippare-hjo.html">Sälja gräsklippare</a></li><li><a href="/skrot-hamtning-hjo.html">Skrothämtning</a></li><li><a href="/dodsbo-utrensning-hjo.html">Dödsbo och utrensning</a></li><li><a href="/verkstad-maskiner-hjo.html">Verkstadsmaskiner</a></li><li><a href="/aterbruk-hjo.html">Återbruk</a></li></ul><p><a href="/hjo.html">← Tillbaka till Hjos huvudsida</a></p></div></section>
-</main>
-
-<div id="site-footer"></div>
+<body><div id="site-header"></div><main>
+<section class="hero"><div class="wrap"><p class="crumb"><a href="/">Startsida</a> / <a href="/hjo.html">Hjo</a> / Sälja maskiner</p><div class="hero-grid"><div><span class="eyebrow">Lokalt i Hjo · Köp och återbruk</span><h1>Sälja maskiner i Hjo</h1><p class="lead">Har du en maskin som blivit stående, slutat fungera eller bara tar plats? Vi tittar på både fungerande och trasiga maskiner och gör en individuell bedömning.</p><div class="actions"><a class="btn primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skicka bilder via Facebook ↗</a><a class="btn outline" href="/kontakt.html">Andra kontaktvägar</a></div></div><aside class="hero-note"><h2>Enkelt att börja</h2><ol><li>Ta gärna 1–3 bilder.</li><li>Berätta om skick och var maskinen finns.</li><li>Skriv gärna modell och prisönskemål.</li></ol><p>Du behöver inte kunna värdera maskinen själv.</p></aside></div></div></section>
+<section class="section white"><div class="wrap"><div class="intro"><span class="eyebrow">Vad vi tittar på</span><h2>Från trädgårdsmaskiner till gamla projekt</h2><p>Vi bedömer maskiner som inte längre används, från enstaka objekt till mindre partier. Även felaktiga och ofullständiga maskiner kan vara intressanta för återbruk eller reservdelar.</p></div><div class="cards"><article><span class="num">01</span><h3>Trädgårdsmaskiner</h3><p>Jordfräsar, snöslungor, motorsågar, röjsågar och andra mindre maskiner.</p></article><article><span class="num">02</span><h3>Gräsklippare och riders</h3><p>Vanliga gräsklippare, åkgräsklippare och frontklippare, även med motor- eller drivningsfel.</p></article><article><span class="num">03</span><h3>Maskiner, motorer och delar</h3><p>Äldre maskiner, reservdelar, redskap, motorer och projekt där delar saknas.</p></article></div><p class="note">Vi köper inte automatiskt allt. Varje objekt bedöms utifrån skick, efterfrågan och transport.</p></div></section>
+<section class="section soft"><div class="wrap split"><div><span class="eyebrow">Så fungerar det</span><h2>Du visar vad du har. Vi återkommer med ett förslag.</h2><p>Du behöver inte reparera, rengöra eller värdera maskinen först. Skicka bilder, ort och det du känner till om skicket. Berätta också om maskinen är komplett och om du har ett prisönskemål.</p><p>Har du flera maskiner i garage, förråd eller uthus går det bra att skicka en översiktsbild på hela partiet.</p></div><div class="dark-panel"><h3>Fyra enkla steg</h3><ol><li>Du skickar bilder och kort information.</li><li>Vi tittar på modell, skick och möjligt återbruk.</li><li>Vi pratar pris, överlämning och eventuell hämtning.</li><li>Vid överenskommelse genomför vi affären.</li></ol><p>Du får besked om villkoren innan något bestäms.</p></div></div></section>
+<section class="section white"><div class="wrap split"><div><span class="eyebrow">Även trasiga maskiner</span><h2>Den startar inte – kan den ändå ha värde?</h2><p>Ja, ibland. En maskin kan gå att reparera eller innehålla användbara delar även när den är trasig. Men saknade delar, dåligt skick och transportkostnader kan också innebära att vi inte kan erbjuda något inköpspris.</p><p>Vet du inte vad som är fel räcker det att skriva att skicket är okänt.</p></div><div class="facts"><article><h3>Fungerande</h3><p>Märke, modell och helhetsintryck spelar roll.</p></article><article><h3>Startar inte</h3><p>Vi tittar på möjlig reparation och delar.</p></article><article><h3>Delar saknas</h3><p>En reservdelsmaskin kan ändå vara aktuell.</p></article><article><h3>Flera objekt</h3><p>Vi kan bedöma ett parti tillsammans.</p></article></div></div></section>
+<section class="section soft"><div class="wrap"><div class="intro"><span class="eyebrow">Tydliga villkor</span><h2>Köp, mottagning och hämtning är tre olika saker</h2><p>Vi vill alltid att du ska förstå vad som gäller innan vi kommer överens.</p></div><div class="terms"><article><h3>Vi köper</h3><p>Om maskinen passar oss kan vi erbjuda ett pris som du får ta ställning till.</p></article><article><h3>Vi tar emot</h3><p>Vissa objekt kan vi komma överens om att ta emot utan ersättning.</p></article><article><h3>Vi kan hämta</h3><p>Hämtning beror på objekt, plats och lastning. Transport kan medföra kostnad, vilket vi i så fall berättar i förväg.</p></article></div></div></section>
+<section class="section white"><div class="wrap faq"><span class="eyebrow">Vanliga frågor</span><h2>Det här undrar många</h2><details><summary>Måste maskinen fungera?</summary><p>Nej. Även trasiga maskiner kan vara intressanta efter individuell bedömning.</p></details><details><summary>Kan jag skicka bilder på flera maskiner?</summary><p>Ja. Skicka gärna en översiktsbild och kort beskrivning av varje objekt.</p></details><details><summary>Hämtar ni alltid gratis?</summary><p>Nej. Eventuell hämtning och kostnad avtalas efter att vi sett vad det gäller.</p></details><details><summary>Hur får jag snabbast svar?</summary><p>Skicka 1–3 bilder, ort, skick, gärna modell och prisönskemål.</p></details></div></section>
+<section class="section"><div class="wrap"><div class="cta"><div><span class="eyebrow" style="color:#f3d887">Vi utgår från Hjo</span><h2>Har du en maskin vi borde titta på?</h2><p>Skicka några bilder och en kort beskrivning – så kan vi börja där.</p></div><a class="btn primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skicka din förfrågan ↗</a></div></div></section>
+<nav class="related wrap" aria-label="Fler Hjo-tjänster"><h2>Fler tjänster i Hjo</h2><ul><li><a href="/salja-akgrasklippare-hjo.html">Sälja åkgräsklippare →</a></li><li><a href="/salja-grasklippare-hjo.html">Sälja gräsklippare →</a></li><li><a href="/skrot-hamtning-hjo.html">Skrothämtning →</a></li><li><a href="/dodsbo-utrensning-hjo.html">Dödsbo & utrensning →</a></li><li><a href="/verkstad-maskiner-hjo.html">Verkstadsmaskiner →</a></li><li><a href="/aterbruk-hjo.html">Återbruk →</a></li></ul><a href="/hjo.html">← Tillbaka till Hjo</a></nav>
+</main><div id="site-footer"></div>
 
 <script>
 async function inject(id,url){
