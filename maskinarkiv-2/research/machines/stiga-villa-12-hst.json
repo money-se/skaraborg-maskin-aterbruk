@@ -193,6 +193,20 @@
       "title": "STIGA Villa 85 Combi manual 8211-7000-10, mounting instructions",
       "document": "8211-7000-10",
       "url": "https://manualzz.com/doc/en/html/51842571/stiga-villa-85-combi-cutting-deck-instructions-for-use"
+    },
+    {
+      "id": "tufftorq-k46cj-internal-oil",
+      "tier": 1,
+      "title": "Tuff Torq residential IHT internal reservoir oil maintenance",
+      "document": "Tuff Torq official technical bulletin, explicitly lists K46CJ",
+      "url": "https://www.tufftorq.com/tuff-torq-transaxle-oil-service/"
+    },
+    {
+      "id": "tufftorq-faq-id",
+      "tier": 1,
+      "title": "Tuff Torq official FAQ – transaxle serial number and configuration caution",
+      "document": "Tuff Torq FAQ, serial-based identification and oil replacement",
+      "url": "https://www.tufftorq.com/faq/"
     }
   ],
   "topics": {
@@ -214,7 +228,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Original STIGA 2010, figur 1157G, ger A-belägg för K46CJ 1134-7766-01 för kataloggrupper 2727 och 2729; STIGA 2011 ger A-belägg för senare 2729-grupp. Fullständig maskinidentitet, individuella revisionsgränser och hydrostatservice kontrolleras separat."
+      "note": "STIGA 2010/2011 A-belägger K46CJ 1134-7766-01 i angivna grupper. Tuff Torqs officiella interna-behållaranvisning namnger uttryckligen K46CJ och normalt livslång/ingen rutinservice, med oljeserviceinstruktion vid behov. OEM-konfiguration, etikett och servicegränser per maskin är fortfarande inte individuellt kontrollerade."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -249,7 +263,7 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Källbelagda reservdelsnummer finns för utvalda K46CJ-basmodeller och 85 Combi 13-2960-14. Reservdelar måste matchas mot maskinens respektive aggregatets märkskylt; inga universella passformspåståenden."
+      "note": "STIGA-kataloger och aggregatkatalog styrker vissa reservdelsnummer. Tuff Torq rekommenderar att dess egen transaxelserie identifieras via enhetens serienummeretikett; den skrivna modelluppgiften i maskinmanualen räcker inte för individuell delbeställning."
     },
     "L": {
       "name": "Begagnat och köpråd",
@@ -685,6 +699,24 @@
       "grade": "A",
       "sourceId": "stiga-villa-om",
       "locator": "Svenska avsnitt 5.4.7 Kraftuttag, tryckt s. 12"
+    },
+    {
+      "id": "k46cj-tufftorq-service-primary",
+      "topic": "D",
+      "statement": "Tuff Torqs tillverkaranvisning för K46-serien med intern oljebehållare nämner uttryckligen tillverkar-ID K46CJ. Normalt anges enheten som underhållsfri under fordonets livslängd; om oljeservice ändå görs beskriver tillverkaren särskild påfyllnings-/nivåkontrollmetod. Detta gäller endast om identifierad transaxel är just rätt internbehållarutförande och maskinens OEM-anvisning inte kräver annan hantering.",
+      "variant": "Kanzaki/Tuff Torq K46CJ, intern oljebehållare; ej automatiskt samtliga Villa-versioners monterade utförande",
+      "grade": "A",
+      "sourceId": "tufftorq-k46cj-internal-oil",
+      "locator": "Models covered K46CJ; oil maintenance procedure for internal reservoir tank"
+    },
+    {
+      "id": "k46-tufftorq-id-serial",
+      "topic": "K",
+      "statement": "Tuff Torq kräver identifiering via transaxelns egen serienummeretikett, inte enbart uppgift i maskinens manual, eftersom tillverkarkataloger kan ha felaktig modelluppgift.",
+      "variant": "Allmän tillverkaranvisning för identifikation av Tuff Torq/Kanzaki transaxel",
+      "grade": "A",
+      "sourceId": "tufftorq-faq-id",
+      "locator": "FAQ Where is the serial number located? / My owner's manual says that I have a (EX. K46HD)"
     }
   ],
   "gaps": [
