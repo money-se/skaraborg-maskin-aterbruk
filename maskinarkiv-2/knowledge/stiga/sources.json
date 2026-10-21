@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "brand": "STIGA",
+  "state": "seeded_from_villa_12_hst_research",
+  "asOf": "2026-10-21",
+  "policy": "Källregister är arbetsindex, inte godkänd passform. Länkar och tidigare claims kräver fortsatt källkontroll och modellbunden tillämpning.",
+  "sourceOrigin": {
+    "branch": "feature/villa12-research-revision-20261021",
+    "path": "maskinarkiv-2/research/machines/stiga-villa-12-hst.json"
+  },
+  "sources": [
+    {
+      "id": "stiga-villa-om",
+      "tier": 1,
+      "title": "STIGA Villa 12 HST bruksanvisning",
+      "document": "8211-0038-90",
+      "url": "https://manualzz.com/doc/sv/4520408/stiga-villa-12-hst-ride-on-mower-gebrauchsanweisung",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "manual-identity",
+        "slope-10",
+        "safety-bypass",
+        "oil-service",
+        "steering-check",
+        "tire-pressure",
+        "spark-plug",
+        "controls-hydro-pedal-original-manual",
+        "controls-pto-bypass-original-manual",
+        "accessories-uses-list-manual",
+        "accessories-draw-limits-manual",
+        "buyer-check-from-safety-inspection",
+        "faq-no-start-pto-brake-conditions",
+        "faq-pto-transport-warning",
+        "stiga-manual-85c-application"
+      ]
+    },
+    {
+      "id": "stiga-combi-om",
+      "tier": 1,
+      "title": "STIGA 85/95/105 Combi bruksanvisning",
+      "document": "8211-7000-10",
+      "url": "https://www.manualslib.es/manual/188585/Stiga-Villa-85-Combi.html",
+      "scope": "cutting_deck",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "combi-manual"
+      ]
+    },
+    {
+      "id": "villa-13-2727-13",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2727-13",
+      "document": "13-2727-13",
+      "url": "https://www.sandbysmeden.dk/13-2727-13-stiga-villa-12-hst-2009-2/",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": []
+    },
+    {
+      "id": "villa-13-2727-14",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2727-14",
+      "document": "13-2727-14",
+      "url": "https://www.sandbysmeden.dk/13-2727-14-stiga-villa-12-hst-2010-2/",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": []
+    },
+    {
+      "id": "villa-13-2729-14",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2729-14",
+      "document": "13-2729-14",
+      "url": "https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": []
+    },
+    {
+      "id": "villa-13-2729-15",
+      "tier": 2,
+      "title": "Villa 12 HST reservdelskatalog 13-2729-15",
+      "document": "13-2729-15",
+      "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": []
+    },
+    {
+      "id": "partsharp-villa-list",
+      "tier": 2,
+      "title": "Partsharp produktversioner Villa 12 HST (fem kataloger)",
+      "document": "Villa 12 HST product diagrams",
+      "url": "https://www.partsharp.com/spare-parts/stiga/villa/24d21ec5-b48b-49e6-a531/22eb499c-c519-4459-b929.aspx",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "variant-35"
+      ]
+    },
+    {
+      "id": "worldofmowers-2729-35-transmission",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 transmission parts diagram",
+      "document": "13-2729-35 Transmission assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/transmission",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "k46-2729-35"
+      ]
+    },
+    {
+      "id": "worldofmowers-2729-35-steering",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 steering parts diagram",
+      "document": "13-2729-35 Steering assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/steering",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "steering-cable-2729-35"
+      ]
+    },
+    {
+      "id": "worldofmowers-2729-35-pto",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 Power Take-off parts diagram",
+      "document": "13-2729-35 Power Take-off assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/power-take-off",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "pto-belt-2729-35"
+      ]
+    },
+    {
+      "id": "stiga-original-85combi-2011",
+      "tier": 1,
+      "title": "STIGA original reservdelskatalog Villa mower deck 85 Combi 2011/2012",
+      "document": "13-2960-14; PDF 2011-11",
+      "url": "https://view.stiga-store.com/files/SSPL2011_20110214_Mower_deck_Villa_85C-2-.pdf",
+      "scope": "cutting_deck",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "deck-2960-14",
+        "deck-manual-sku",
+        "85combi-2011-independent-blade-parts",
+        "85combi-2011-belt-parts",
+        "85combi-2011-no-fit-assumption"
+      ]
+    },
+    {
+      "id": "worldofmowers-2729-14",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-14 2010 assembly catalog",
+      "document": "13-2729-14",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/front-mowers/base-machine/2010/villa-12-hst-13-2729-14",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "trans-diagram-2729-14"
+      ]
+    },
+    {
+      "id": "worldofmowers-2729-15-engine",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-15 2012 engine assembly",
+      "document": "13-2729-15 engine",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2012/villa-12-hst-13-2729-15/engine",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": []
+    },
+    {
+      "id": "stiga-2009-front-original",
+      "tier": 1,
+      "title": "STIGA Frontklippare 2009 reservdelskatalog",
+      "document": "8211-3401-09, utgåva 2009-11",
+      "url": "https://ersatzteil-shop24.de/bilder/zeichnungen/ggp_o_st/Stiga/Aufsitzm%C3%A4her/Stiga%20Front%20Mowers%202009_Park.pdf",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "manufacturer-2009-wm125",
+        "manufacturer-2009-deck"
+      ]
+    },
+    {
+      "id": "stiga-2011-villa-hst-original",
+      "tier": 1,
+      "title": "STIGA Villa HST original parts catalogue 2011/2012",
+      "document": "Villa HST, issue 2011-11",
+      "url": "https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "manufacturer-fr-2011",
+        "bs-2011-normal-fr",
+        "stiga-k46-2011-primary",
+        "fr-separate-panels-2011",
+        "fr-owner-manual-2011"
+      ]
+    },
+    {
+      "id": "sgarden-2727-14-engine",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2727-14 Engine parts list",
+      "document": "13-2727-14 engine assembly",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/130703/Engine",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "dealer-2010-engine-wm"
+      ]
+    },
+    {
+      "id": "diy-2729-14-k46-parts",
+      "tier": 2,
+      "title": "Stiga Villa 12 HST 13-2729-14 transaxle parts breakdown",
+      "document": "2010 13-2729-14 transmission assembly",
+      "url": "https://diyspareparts.com/parts/stiga/diagrams/ef210c92-4bd7-4f68-9185/b9c82e35-2c21-4769-a4a7",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "k46-2010-direct-part"
+      ]
+    },
+    {
+      "id": "sandby-2729-14-engine",
+      "tier": 2,
+      "title": "Sandby Smedie 13-2729-14 technical identification",
+      "document": "13-2729-14 2010",
+      "url": "https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "2010-expected-21r502"
+      ]
+    },
+    {
+      "id": "sandby-2729-15-engine",
+      "tier": 2,
+      "title": "Sandby Smedie 13-2729-15 technical identification",
+      "document": "13-2729-15 2011–2012",
+      "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "2011-expected-21r602"
+      ]
+    },
+    {
+      "id": "briggs-official-identification",
+      "tier": 1,
+      "title": "Briggs & Stratton – Locate Your Model Number",
+      "document": "B&S official manufacturer guide to Model / Type / Code",
+      "url": "https://www.briggsandstratton.com/en-us/support/need-help",
+      "scope": "engine_manufacturer",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": []
+    },
+    {
+      "id": "briggs-official-lookup",
+      "tier": 1,
+      "title": "Briggs & Stratton – Find Manual & Parts List",
+      "document": "B&S official engine manual locator",
+      "url": "https://www.briggsandstratton.com/en-us/support/manuals?hl=en_US",
+      "scope": "engine_manufacturer",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "briggs-lookup-needs-tag"
+      ]
+    },
+    {
+      "id": "briggs-engine-number-key",
+      "tier": 1,
+      "title": "Briggs & Stratton ENGINE MODEL NUMBER KEY 16-1",
+      "document": "MS4185 revised 2015-12",
+      "url": "https://www.briggsandstratton.com/content/dam/briggsandstratton/na/en_us/Files/FAQs/2016_MS4185.pdf",
+      "scope": "engine_manufacturer",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "briggs-type-code-rule"
+      ]
+    },
+    {
+      "id": "diy-fr-2011-engine",
+      "tier": 2,
+      "title": "13-2729-35 engine exploded diagram (fasteners/engine installation)",
+      "document": "FR 13-2729-35, Engine_0",
+      "url": "https://diyspareparts.com/parts/stiga/diagrams/5d48750b-f87b-4a49-9901/ef381743-aeb1-4b3e-aba6",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "fr-engine-assembly-not-code"
+      ]
+    },
+    {
+      "id": "diy-2729-15-transmission",
+      "tier": 2,
+      "title": "13-2729-15 transmission diagram",
+      "document": "13-2729-15 Transmission_0",
+      "url": "https://www.diyspareparts.com/parts/stiga/diagrams/79dc6baa-857f-459f-8861/97c910b4-245a-418f-924e/",
+      "scope": "supplementary",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "k46-2011-2729-15"
+      ]
+    },
+    {
+      "id": "stiga-original-2010-villa-hst",
+      "tier": 1,
+      "title": "STIGA Villa HST original reservdelskatalog 2010",
+      "document": "8211-3401-10, katalogutgåva 2010-11",
+      "url": "https://view.stiga-store.com/files/SSPL2010_20100208_Villa_HST.pdf",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "stiga-2010-ggp2727",
+        "stiga-2010-bs2729",
+        "stiga-2010-k46cj",
+        "stiga-2010-drivebelt"
+      ]
+    },
+    {
+      "id": "villa-85combi-install-manual-ed80",
+      "tier": 2,
+      "title": "STIGA Villa/Ready 85 Combi installation instructions – later manual edition",
+      "document": "8211-7000-80, Montage 3.1 (different revision than 8211-7000-10)",
+      "url": "https://www.manualslib.com/manual/1275367/Stiga-Park-85-Combi.html?page=32",
+      "scope": "cutting_deck",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "deck-mount-method-villa",
+        "deck-washer-older-only"
+      ]
+    },
+    {
+      "id": "stiga-villa-85-combi-manual-10",
+      "tier": 1,
+      "title": "STIGA Villa 85 Combi manual 8211-7000-10, mounting instructions",
+      "document": "8211-7000-10",
+      "url": "https://manualzz.com/doc/en/html/51842571/stiga-villa-85-combi-cutting-deck-instructions-for-use",
+      "scope": "cutting_deck",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "deck-10-vs80-fixed-install"
+      ]
+    },
+    {
+      "id": "tufftorq-k46cj-internal-oil",
+      "tier": 1,
+      "title": "Tuff Torq residential IHT internal reservoir oil maintenance",
+      "document": "Tuff Torq official technical bulletin, explicitly lists K46CJ",
+      "url": "https://www.tufftorq.com/tuff-torq-transaxle-oil-service/",
+      "scope": "transmission_manufacturer",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "k46cj-tufftorq-service-primary"
+      ]
+    },
+    {
+      "id": "tufftorq-faq-id",
+      "tier": 1,
+      "title": "Tuff Torq official FAQ – transaxle serial number and configuration caution",
+      "document": "Tuff Torq FAQ, serial-based identification and oil replacement",
+      "url": "https://www.tufftorq.com/faq/",
+      "scope": "transmission_manufacturer",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "k46-tufftorq-id-serial"
+      ]
+    },
+    {
+      "id": "stiga-2015-85combi-15",
+      "tier": 1,
+      "title": "STIGA Deck Villa 85 Combi 13-2960-15 original parts catalogue",
+      "document": "2014 issue 1, Season 2015",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_Deck_Villa_85_Combi_13-2960-15_14_SV-EN.pdf",
+      "scope": "cutting_deck",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "stiga-2015-deck-third-identity"
+      ]
+    },
+    {
+      "id": "retailer-85combi-2023-compatibility",
+      "tier": 2,
+      "title": "ReservdelarOnline complete later Stiga Villa 85 Combi deck compatibility",
+      "document": "387561538/0; replacement 2D2708511/S16, general Villa after 2005",
+      "url": "https://www.reservdelaronline.se/produkter/klippaggregat-villa-85-combi",
+      "scope": "cutting_deck",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "retailer-new-deck-villa-after-2005"
+      ]
+    },
+    {
+      "id": "hobbystore-villa-all-models",
+      "tier": 2,
+      "title": "Villa 12 HST machine PNC and year index",
+      "document": "Hobbystore original spare-part catalogue index, 2009–2012 including FR",
+      "url": "https://hobbystore.it/ricambi-trattorini-trattorini-piattofrontale-stiga-villa12",
+      "scope": "stiga_machine_or_catalog",
+      "usedBy": [
+        "stiga-villa-12-hst"
+      ],
+      "claimRefs": [
+        "villa-year-pnc-index-all-five"
+      ]
+    }
+  ]
+}
