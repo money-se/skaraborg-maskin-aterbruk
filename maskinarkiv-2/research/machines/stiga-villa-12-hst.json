@@ -137,6 +137,34 @@
       "title": "Sandby Smedie 13-2729-15 technical identification",
       "document": "13-2729-15 2011–2012",
       "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/"
+    },
+    {
+      "id": "briggs-official-identification",
+      "tier": 1,
+      "title": "Briggs & Stratton – Locate Your Model Number",
+      "document": "B&S official manufacturer guide to Model / Type / Code",
+      "url": "https://www.briggsandstratton.com/en-us/support/need-help"
+    },
+    {
+      "id": "briggs-official-lookup",
+      "tier": 1,
+      "title": "Briggs & Stratton – Find Manual & Parts List",
+      "document": "B&S official engine manual locator",
+      "url": "https://www.briggsandstratton.com/en-us/support/manuals?hl=en_US"
+    },
+    {
+      "id": "briggs-engine-number-key",
+      "tier": 1,
+      "title": "Briggs & Stratton ENGINE MODEL NUMBER KEY 16-1",
+      "document": "MS4185 revised 2015-12",
+      "url": "https://www.briggsandstratton.com/content/dam/briggsandstratton/na/en_us/Files/FAQs/2016_MS4185.pdf"
+    },
+    {
+      "id": "diy-fr-2011-engine",
+      "tier": 2,
+      "title": "13-2729-35 engine exploded diagram (fasteners/engine installation)",
+      "document": "FR 13-2729-35, Engine_0",
+      "url": "https://diyspareparts.com/parts/stiga/diagrams/5d48750b-f87b-4a49-9901/ef381743-aeb1-4b3e-aba6"
     }
   ],
   "topics": {
@@ -413,6 +441,33 @@
       "grade": "C",
       "sourceId": "sandby-2729-15-engine",
       "locator": "Tekniske informationer, Forventet model"
+    },
+    {
+      "id": "briggs-type-code-rule",
+      "topic": "C",
+      "statement": "Briggs & Stratton identifierar motorer med separata Model-, Type- och Code-fält. Type kan skilja mekanisk konfiguration och OEM-anpassning; därför räcker inte endast ett förväntat 21R502/21R602-modellnamn för att garantera rätt reservdelar eller serviceuppgifter.",
+      "variant": "Allmän Briggs & Stratton identifieringsmetod; ej unik Villa-konfiguration",
+      "grade": "A",
+      "sourceId": "briggs-engine-number-key",
+      "locator": "Engine Model Numbering System, TYPE and CODE explanations"
+    },
+    {
+      "id": "briggs-lookup-needs-tag",
+      "topic": "K",
+      "statement": "Briggs & Stratton rekommenderar motoridentifiering via motorns eget modellnummer innan manual och reservdelslista väljs.",
+      "variant": "Generell metod för Briggs & Stratton-motorer",
+      "grade": "A",
+      "sourceId": "briggs-official-lookup",
+      "locator": "Find Your Manual or Parts List – Locate your model number"
+    },
+    {
+      "id": "fr-engine-assembly-not-code",
+      "topic": "C",
+      "statement": "Den publicerade reservdelslistan för FR-varianten 13-2729-35 avser maskinens Engine_0 med installations- och kringdelar. Den redovisade listan ger inte i sig en fullständig Briggs Model/Type/Code.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "diy-fr-2011-engine",
+      "locator": "Engine_0 exploded diagram and parts table"
     }
   ],
   "gaps": [
@@ -429,6 +484,7 @@
     "Granska skillnader mellan franska 13-2729-35 (FR) och 13-2729-15 mot de enskilda delgrupperna: den märkta marknadsvarianten är inte belägg för samma komponenter.",
     "Verifiera 2010 års STIGA originalkatalog för 13-2727-14 och 13-2729-14 innan motorval och specifika reservdelar skrivs som A-fakta.",
     "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå.",
-    "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass."
+    "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass.",
+    "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning."
   ]
 }
