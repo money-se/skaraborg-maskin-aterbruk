@@ -84,3 +84,25 @@ I STIGA:s originalkatalog `SSPL2011_20110214_Villa_HST.pdf`, utgåva **2011-11**
 
 **Fortfarande öppet:** Briggs exakta modell-/typ-/kodidentifiering och varianternas skilda servicevärden samt `13-2729-14` från 2010. Ingen ändring på publika sidan innan fler kontroller.
 Källor: https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf och https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2012/villa-12-hst-13-2729-15/engine
+
+## Motoridentifiering – metodbeslut från Briggs & Stratton
+
+Tillverkarens egen identifieringsguide och numreringsnyckel klargör att **Model, Type och Code är skilda identifierare**. Type kan påverka motorutförande och OEM-specifika delar. En kataloguppgift om exempelvis 21R502 eller 21R602 innebär därmed inte att komplett motoridentitet eller rätt specifikt serviceintervall är belagt.
+
+Tillverkarens uppslag för reservdelslistor kräver motoridentifiering, normalt med modell-/typnummer direkt från motorns märkning. Fysisk märkningsposition varierar mellan motorfamiljer.
+
+För 13-2729-35 (FR) har jag också kontrollerat Engine_0 i en parts-diagramkatalog. Den synliga tabellen gäller huvudsakligen fästelement och motorrelaterade installationsdelar; **ingen komplett Briggs Model/Type/Code har därmed kunnat styrkas**.
+
+### Tillåtet i kommande webbversion
+* Berätta vilka modellfamiljer återförsäljarkataloger *uppger*, klart märkta som osäkra.
+* Förklara med STIGA-originalkatalogen vilka varianter som har B&S-motoravsnitt.
+* Visa köparen var motorns märkning används för att kontrollera rätt motorhandbok och reservdel.
+* **Inte** generalisera oljemängd, tändstift, filter eller ventilspel från ett förväntat modellnamn till alla Villa 12 HST.
+
+### Primärkällor
+- Briggs & Stratton Locate Your Model Number: https://www.briggsandstratton.com/en-us/support/need-help
+- Briggs & Stratton manual- och reservdelsuppslag: https://www.briggsandstratton.com/en-us/support/manuals?hl=en_US
+- Briggs & Stratton Engine Model Number Key 16-1 (rev. 2015-12): https://www.briggsandstratton.com/content/dam/briggsandstratton/na/en_us/Files/FAQs/2016_MS4185.pdf
+- Reservdelsdiagram FR 13-2729-35: https://diyspareparts.com/parts/stiga/diagrams/5d48750b-f87b-4a49-9901/ef381743-aeb1-4b3e-aba6
+
+**Resultat:** Vi har verifierat kravet på metod, men inte de saknade motorkoderna. Research-status förblir `needs_research`.
