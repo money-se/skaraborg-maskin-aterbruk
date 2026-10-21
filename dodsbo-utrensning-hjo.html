@@ -21,30 +21,602 @@
 <meta property="og:title" content="Dödsbo och utrensning i Hjo – maskiner och verktyg | Skaraborg Maskin &amp; Återbruk">
 <meta property="og:description" content="Behöver du sälja maskiner, verktyg eller garageinnehåll från ett dödsbo i Hjo? Vi bedömer relevanta objekt och partier utifrån bilder.">
 <meta property="og:url" content="https://skaraborgmaskin.se/dodsbo-utrensning-hjo.html"><meta property="og:type" content="website">
+<style id="hjo-static-shell-css">
+
+/* Gemensam header/sidfot på Hjo-sidorna – laddas före sidvisning */
+
+    .smar-site-header{
+      position:sticky;
+      top:0;
+      z-index:1000;
+      background:rgba(255,255,255,.97);
+      backdrop-filter:blur(12px);
+      -webkit-backdrop-filter:blur(12px);
+      border-bottom:1px solid #dfe6df;
+      font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    }
+
+    .smar-header-wrap{
+      width:min(100% - 40px,1220px);
+      min-height:76px;
+      margin-inline:auto;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:24px;
+    }
+
+    .smar-brand{
+      color:#142017;
+      text-decoration:none;
+      font-weight:950;
+      letter-spacing:.01em;
+      line-height:1.08;
+      white-space:nowrap;
+    }
+
+    .smar-brand-name{
+      display:block;
+      font-size:17px;
+    }
+
+    .smar-brand-sub{
+      display:block;
+      margin-top:5px;
+      color:#68766b;
+      font-size:11px;
+      font-weight:750;
+      letter-spacing:.045em;
+    }
+
+    .smar-nav{
+      display:flex;
+      align-items:center;
+      justify-content:flex-end;
+      gap:2px;
+    }
+
+    .smar-nav a{
+      position:relative;
+      padding:10px 9px;
+      border-radius:10px;
+      color:#1d2b20;
+      text-decoration:none;
+      font-size:13px;
+      font-weight:780;
+      white-space:nowrap;
+    }
+
+    .smar-nav a:hover,
+    .smar-nav a:focus-visible{
+      background:#eaf1ea;
+      outline:none;
+    }
+
+    .smar-nav a[aria-current="page"]{
+      background:#eaf1ea;
+      color:#142317;
+    }
+
+    .smar-nav .smar-dodsbo{
+      color:#6b4d12;
+    }
+
+    .smar-nav .smar-dack{
+      color:#73540d;
+    }
+
+    .smar-nav .smar-facebook{
+      color:#405c44;
+    }
+
+    .smar-nav .smar-contact{
+      margin-left:5px;
+      padding:10px 14px;
+      background:#142317;
+      color:#fff;
+    }
+
+    .smar-nav .smar-contact:hover,
+    .smar-nav .smar-contact:focus-visible,
+    .smar-nav .smar-contact[aria-current="page"]{
+      background:#2b4930;
+      color:#fff;
+    }
+
+    .smar-menu-toggle{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
+    }
+
+    .smar-menu-button{
+      display:none;
+      width:44px;
+      height:44px;
+      padding:0;
+      border:1px solid #d7dfd8;
+      border-radius:11px;
+      background:#fff;
+      color:#142017;
+      cursor:pointer;
+      font-size:23px;
+      line-height:1;
+      user-select:none;
+    }
+
+    .smar-menu-close{display:none}
+
+    .smar-menu-text{
+      position:absolute;
+      width:1px;
+      height:1px;
+      overflow:hidden;
+      clip:rect(0 0 0 0);
+      clip-path:inset(50%);
+      white-space:nowrap;
+    }
+
+    @media(max-width:1180px){
+      .smar-brand-name{font-size:16px}
+      .smar-nav a{padding-inline:7px;font-size:12px}
+    }
+
+    @media(max-width:1080px){
+      .smar-header-wrap{
+        position:relative;
+        min-height:70px;
+      }
+
+      .smar-menu-button{
+        display:grid;
+        place-items:center;
+      }
+
+      .smar-nav{
+        display:none;
+        position:absolute;
+        top:calc(100% + 1px);
+        left:-20px;
+        right:-20px;
+        max-height:calc(100vh - 72px);
+        overflow:auto;
+        padding:10px 20px 16px;
+        background:#fff;
+        border-bottom:1px solid #dfe6df;
+        box-shadow:0 16px 34px rgba(20,35,23,.12);
+        flex-direction:column;
+        align-items:stretch;
+      }
+
+      .smar-menu-toggle:checked ~ .smar-nav{display:flex}
+
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-open{display:none}
+      .smar-menu-toggle:checked + .smar-menu-button .smar-menu-close{display:inline}
+
+      .smar-menu-toggle:focus-visible + .smar-menu-button{
+        outline:3px solid rgba(20,35,23,.25);
+        outline-offset:3px;
+      }
+
+      .smar-nav a{
+        padding:10px 12px;
+        font-size:14px;
+      }
+
+      .smar-nav .smar-contact{
+        margin:6px 0 0;
+        text-align:center;
+      }
+    }
+
+    @media(max-width:520px){
+      .smar-header-wrap{
+        width:min(100% - 28px,1220px);
+      }
+
+      .smar-nav{
+        left:-14px;
+        right:-14px;
+        padding-inline:14px;
+      }
+
+      .smar-brand-name{font-size:14px}
+      .smar-brand-sub{font-size:9.5px}
+    }
+  
+
+  .site-footer{
+    margin-top:0;
+    background:#142317;
+    color:#eef4ee;
+    border-top:4px solid #d8a52e;
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+
+  .site-footer *{box-sizing:border-box}
+
+  .footer-inner{
+    width:min(100% - 40px,1220px);
+    margin:0 auto;
+    padding:60px 0 40px;
+    display:grid;
+    grid-template-columns:minmax(270px,1.35fr) repeat(3,minmax(170px,1fr));
+    gap:44px;
+  }
+
+  .footer-brand h2,
+  .footer-column h2{
+    margin:0 0 16px;
+    color:#fff;
+    font-size:18px;
+    line-height:1.25;
+  }
+
+  .footer-brand h2{
+    max-width:340px;
+    font-size:25px;
+    letter-spacing:-.025em;
+  }
+
+  .footer-brand p{
+    max-width:410px;
+    margin:0;
+    color:#c7d3c9;
+    font-size:15px;
+    line-height:1.75;
+  }
+
+  .footer-points{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:22px;
+  }
+
+  .footer-point{
+    display:inline-flex;
+    align-items:center;
+    padding:7px 10px;
+    border:1px solid rgba(255,255,255,.13);
+    border-radius:999px;
+    background:rgba(255,255,255,.055);
+    color:#e7eee8;
+    font-size:12px;
+    font-weight:750;
+  }
+
+  .footer-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:grid;
+    gap:10px;
+  }
+
+  .footer-list a,
+  .footer-contact a{
+    color:#c7d3c9;
+    text-decoration:none;
+    transition:color .15s ease;
+  }
+
+  .footer-list a:hover,
+  .footer-list a:focus-visible,
+  .footer-contact a:hover,
+  .footer-contact a:focus-visible{
+    color:#fff;
+    outline:none;
+  }
+
+  .footer-list a{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-size:14px;
+  }
+
+  .footer-list a::before{
+    content:"›";
+    color:#d8a52e;
+    font-weight:950;
+  }
+
+  .footer-contact{
+    display:grid;
+    gap:15px;
+  }
+
+  .footer-contact-item{
+    margin:0;
+    color:#c7d3c9;
+    font-size:14px;
+    line-height:1.55;
+  }
+
+  .footer-contact-item strong{
+    display:block;
+    margin-bottom:2px;
+    color:#fff;
+    font-size:13px;
+  }
+
+  .footer-socials{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-top:3px;
+  }
+
+  .footer-social-link{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    min-height:40px;
+    padding:9px 13px;
+    border:1px solid rgba(255,255,255,.16);
+    border-radius:10px;
+    background:rgba(255,255,255,.06);
+    color:#fff !important;
+    font-size:13px;
+    font-weight:850;
+  }
+
+  .footer-social-link:hover,
+  .footer-social-link:focus-visible{
+    background:rgba(255,255,255,.12);
+  }
+
+  .footer-bottom{
+    border-top:1px solid rgba(255,255,255,.11);
+  }
+
+  .footer-bottom-inner{
+    width:min(100% - 40px,1220px);
+    margin:0 auto;
+    padding:20px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    color:#9eaea1;
+    font-size:12px;
+  }
+
+  .footer-bottom-inner p{margin:0}
+
+  .footer-bottom-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+
+  .footer-bottom-links a{
+    color:#b9c6bb;
+    text-decoration:none;
+  }
+
+  .footer-bottom-links a:hover,
+  .footer-bottom-links a:focus-visible{
+    color:#fff;
+    outline:none;
+  }
+
+  @media(max-width:940px){
+    .footer-inner{
+      grid-template-columns:repeat(2,minmax(0,1fr));
+    }
+  }
+
+  @media(max-width:620px){
+    .footer-inner{
+      width:min(100% - 28px,1220px);
+      padding:46px 0 32px;
+      grid-template-columns:1fr;
+      gap:31px;
+    }
+
+    .footer-bottom-inner{
+      width:min(100% - 28px,1220px);
+      align-items:flex-start;
+      flex-direction:column;
+      gap:10px;
+    }
+  }
+
+#site-header{position:sticky;top:0;z-index:1000}
+#site-header .smar-site-header{position:relative;top:auto}
+#site-header a:focus-visible{outline:3px solid #d8a52e;outline-offset:3px}
+.hjo-photo-unavailable{display:block;min-height:110px;padding:32px 18px;background:#eef2ec;color:#395243;font-weight:650;text-align:center}
+
+
+/* Anpassning av långa Hjo-rubriker: hindrar överlappning med informationsrutan */
+main .hero-grid>*,main .split>*{min-width:0}
+main .hero h1{overflow-wrap:break-word;hyphens:auto}
+@media(max-width:860px){main .hero-grid,main .split{grid-template-columns:minmax(0,1fr)}}
+
+main .hero-grid,main .split{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}
+main .hero h1{font-size:clamp(2.3rem,4.7vw,3.65rem);line-height:1.12;max-width:100%}
+@media(min-width:861px) and (max-width:1100px){main .hero-grid{gap:26px}main .hero h1{font-size:clamp(2.2rem,4.1vw,3.25rem)}}
+@media(max-width:860px){main .hero-grid,main .split{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:560px){main .hero h1{font-size:clamp(2.05rem,8.6vw,2.75rem)}}
+
+</style>
 </head>
 
-<body><div id="site-header"></div><main>
+<body><div id="site-header">
+<header class="smar-site-header">
+  
+
+  <div class="smar-header-wrap">
+    <a class="smar-brand" href="index.html" aria-label="Skaraborg Maskin & &Aring;terbruk &#8211; startsida">
+      <span class="smar-brand-name">Skaraborg Maskin &amp; &Aring;terbruk</span>
+      <span class="smar-brand-sub">Vi k&ouml;per &#8226; h&auml;mtar &#8226; &aring;terbrukar</span>
+    </a>
+
+    <input
+      class="smar-menu-toggle"
+      type="checkbox"
+      id="smar-menu-toggle"
+      aria-label="&Ouml;ppna eller st&auml;ng meny">
+
+    <label
+      class="smar-menu-button"
+      for="smar-menu-toggle"
+      aria-controls="smar-main-nav">
+      <span class="smar-menu-open" aria-hidden="true">&#9776;</span>
+      <span class="smar-menu-close" aria-hidden="true">&#215;</span>
+      <span class="smar-menu-text">Meny</span>
+    </label>
+
+    <nav class="smar-nav" id="smar-main-nav" aria-label="Huvudmeny">
+      <a href="index.html">Hem</a>
+      <a href="kop-maskiner.html">Vi k&ouml;per</a>
+      <a href="aterbruk.html">&Aring;terbruk</a>
+      <a class="smar-dodsbo" href="dodsbo-utrensning.html">D&ouml;dsbo</a>
+      <a class="smar-dack" href="dack-hamtning.html">D&auml;ckh&auml;mtning</a>
+      <a href="skrot-hamtning.html">Skroth&auml;mtning</a>
+      <a href="sa-funkar-det.html">S&aring; fungerar det</a>
+      <a href="till-salu.html">Till salu</a>
+      <a href="foretag.html">F&ouml;retag</a>
+      <a href="om-oss.html">Om oss</a>
+      <a href="faq.html">FAQ</a>
+      <a class="smar-facebook"
+         href="https://www.facebook.com/profile.php?id=61588383880828"
+         target="_blank"
+         rel="noopener noreferrer">Facebook</a>
+      <a class="smar-contact" href="kontakt.html">Kontakta oss</a>
+    </nav>
+  </div>
+</header>
+</div><main>
 <section class="hero"><div class="wrap"><p class="crumb"><a href="/">Startsida</a> / <a href="/hjo.html">Hjo</a> / Dödsbo och utrensning</p><div class="hero-grid"><div><span class="eyebrow">Garage, verktyg och maskiner · Hjo</span><h1>Dödsbo och utrensning i Hjo</h1><p class="lead">När ett dödsbo ska hanteras finns ofta annat som behöver prioriteras än att värdera varje maskin och verktyg. Vi kan titta på relevanta objekt från garage, förråd, verkstäder och uthus.</p><div class="actions"><a class="btn primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skicka bilder via Facebook ↗</a><a class="btn outline" href="/kontakt.html">Andra kontaktvägar</a></div></div><aside class="hero-note"><h2>Enkelt att börja</h2><ol><li>Ta gärna översiktsbilder på garage, förråd eller verkstad.</li><li>Berätta att det gäller ett dödsbo och var det finns.</li><li>Vi bedömer om objekt eller partier passar vår verksamhet.</li></ol><p>Vi gör en individuell bedömning innan något bestäms.</p></aside></div></div></section>
 <section class="section white"><div class="wrap"><div class="intro"><span class="eyebrow">För dig som anhörig</span><h2>Du behöver inte inventera varje sak först</h2><p>Vår inriktning är maskiner, verktyg och återbruk – ofta det som blivit stående utanför själva bostaden. Visa hellre helheten med översiktsbilder.</p></div><div class="cards"><article><span class="num">01</span><h3>Garage och verkstad</h3><p>Handverktyg, elverktyg, kompressorer, svetsar, motorer och reservdelar.</p></article><article><span class="num">02</span><h3>Maskiner och redskap</h3><p>Åkgräsklippare, trädgårdsmaskiner, redskap och vissa trasiga eller äldre maskiner.</p></article><article><span class="num">03</span><h3>Förråd, uthus och partier</h3><p>Blandade verkstadsobjekt, maskindelar, metall och sådant som kan få en fortsatt användning.</p></article></div></div></section>
-<section class="photo-proof" aria-labelledby="photos-heading"><div class="photo-proof-wrap"><div class="photo-proof-head"><span class="eyebrow">Flera saker samtidigt</span><h2 id="photos-heading">Börja med en översiktsbild</h2><p>Exempel på ett blandat parti av maskiner och föremål. Bilden är inte dokumentation av en specifik dödsbohämtning.</p></div><div class="photo-proof-grid"><figure><img src="/bilder/hjo/parti-blandade-objekt.webp" width="1100" height="1467" loading="lazy" decoding="async" alt="Släpvagn med blandade maskiner, cyklar och andra föremål"><figcaption>Exempel på blandat parti</figcaption></figure></div></div></section>
+<section class="photo-proof" aria-labelledby="photos-heading"><div class="photo-proof-wrap"><div class="photo-proof-head"><span class="eyebrow">Flera saker samtidigt</span><h2 id="photos-heading">Börja med en översiktsbild</h2><p>Exempel på ett blandat parti av maskiner och föremål. Bilden är inte dokumentation av en specifik dödsbohämtning.</p></div><div class="photo-proof-grid"><figure><img src="/bilder/hjo/parti-blandade-objekt.webp?v=20261021b" data-fallback-src="https://raw.githubusercontent.com/money-se/skaraborg-maskin-aterbruk/main/bilder/hjo/parti-blandade-objekt.webp" width="1100" height="1467" loading="lazy" decoding="async" alt="Släpvagn med blandade maskiner, cyklar och andra föremål"><figcaption>Exempel på blandat parti</figcaption></figure></div></div></section>
 <section class="section soft"><div class="wrap split"><div><span class="eyebrow">Så går det till</span><h2>En första kontakt utan krånglig inventering</h2><p>Du behöver inte sortera varje skruv, motor och verktyg i förväg. Bilderna hjälper oss att avgöra om vi bör undersöka någon del av innehållet närmare.</p></div><div class="dark-panel"><h3>Fyra enkla steg</h3><ol><li>Ta gärna flera översiktsbilder över de relevanta utrymmena.</li><li>Skriv var dödsboet finns och ungefär vad det innehåller.</li><li>Vi ser över materialet och kan be om kompletterande bilder.</li><li>Vid intresse kommer vi överens om objekt och pris och ordnar hämtning av det som ingår.</li></ol><p>Alla villkor bestäms innan vi går vidare.</p></div></div></section>
 <section class="section white"><div class="wrap split"><div><span class="eyebrow">Bra att veta</span><h2>Det är ofta i garage och uthus vi hittar återbruksvärden</h2><p>Gamla maskiner eller lådor med reservdelar kan vara svåra att värdera för den som hanterar ett dödsbo. Vi kan undersöka om vissa objekt går att använda vidare eller sälja i stället för att direkt bli skrot.</p></div><div class="facts"><article><h3>Äldre verktyg</h3><p>Kan vara intressanta, särskilt som del av ett parti.</p></article><article><h3>Maskiner i okänt skick</h3><p>Vi kan göra en bedömning utifrån foton.</p></article><article><h3>Delar och motorer</h3><p>Reservdelar kan ibland ha fortsatt användning.</p></article><article><h3>Större partier</h3><p>Vi tittar gärna på översikten före en detaljerad genomgång.</p></article></div></div></section>
 <section class="section soft"><div class="wrap"><div class="intro"><span class="eyebrow">Individuell bedömning</span><h2>Vi köper relevanta objekt – inte hela bohaget per automatik</h2><p>Det är viktigt att skilja på uppköp och en fullständig dödsbotömning.</p></div><div class="terms"><article><h3>Uppköp</h3><p>Vi kan lämna förslag på maskiner, verktyg eller relevanta partier.</p></article><article><h3>Mottagning</h3><p>Om vissa objekt saknar inköpsvärde kan mottagning ibland diskuteras.</p></article><article><h3>Ingen generell bohagstömning</h3><p>Vi erbjuder inte automatiskt tömning av hela bostäder, flyttstädning eller allmän bortforsling.</p></article></div></div></section>
 <section class="section white"><div class="wrap faq"><span class="eyebrow">Vanliga frågor</span><h2>Det här undrar många</h2><details><summary>Måste vi värdera allt själva?</summary><p>Nej. Visa gärna helheten först så bedömer vi om något passar verksamheten.</p></details><details><summary>Tar ni hand om hela dödsboet?</summary><p>Inte generellt. Vår inriktning är maskiner, verktyg, redskap och relevanta partier.</p></details><details><summary>Kan vi skicka många bilder?</summary><p>Ja. Vid dödsbon är flera översiktsbilder ofta mer hjälpsamma än bilder på enstaka detaljer.</p></details><details><summary>Kan ni hämta sådant vi kommer överens om?</summary><p>Vi hämtar de maskiner, verktyg och andra objekt som ingår i vår överenskommelse.</p></details></div></section>
 <section class="section"><div class="wrap"><div class="cta"><div><span class="eyebrow" style="color:#f3d887">Vi finns i Hjo</span><h2>Behöver ni gå vidare med garage eller maskiner i ett dödsbo?</h2><p>Skicka gärna några översiktsbilder och ort så tar vi det därifrån.</p></div><a class="btn primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skicka din förfrågan ↗</a></div></div></section>
 <nav class="related wrap" aria-label="Fler Hjo-tjänster"><h2>Fler tjänster i Hjo</h2><ul><li><a href="/salja-maskin-hjo.html">Sälja maskiner →</a></li><li><a href="/salja-akgrasklippare-hjo.html">Sälja åkgräsklippare →</a></li><li><a href="/salja-grasklippare-hjo.html">Sälja gräsklippare →</a></li><li><a href="/skrot-hamtning-hjo.html">Skrothämtning →</a></li><li><a href="/verkstad-maskiner-hjo.html">Verkstadsmaskiner →</a></li><li><a href="/aterbruk-hjo.html">Återbruk →</a></li></ul><a href="/hjo.html">← Tillbaka till Hjo</a></nav>
-</main><div id="site-footer"></div>
+</main><div id="site-footer">
+<footer class="site-footer" aria-label="Sidfot">
+  <div class="footer-inner">
+    <section class="footer-brand" aria-labelledby="footer-company-title">
+      <h2 id="footer-company-title">Skaraborg Maskin &amp; Återbruk</h2>
+      <p>
+        Vi köper, hämtar och tar tillvara maskiner, verktyg, reservdelar och andra
+        relevanta objekt i hela Skaraborg. Vi köper även från dödsbon och större partier,
+        med extra intresse för garage, verkstäder, förråd, uthus och gårdar.
+      </p>
+
+      <div class="footer-points" aria-label="Fördelar">
+        <span class="footer-point">Snabb bedömning</span>
+        <span class="footer-point">Egen lastbil</span>
+        <span class="footer-point">Personlig kontakt</span>
+        <span class="footer-point">Köp från dödsbon</span>
+      </div>
+    </section>
+
+    <nav class="footer-column" aria-labelledby="footer-services-title">
+      <h2 id="footer-services-title">Tjänster</h2>
+      <ul class="footer-list">
+        <li><a href="kop-maskiner.html">Vi köper maskiner</a></li>
+        <li><a href="dodsbo-utrensning.html">Vi köper från dödsbon</a></li>
+        <li><a href="aterbruk.html">Återbruk</a></li>
+        <li><a href="dack-hamtning.html">Däckhämtning</a></li>
+        <li><a href="skrot-hamtning.html">Skrothämtning</a></li>
+        <li><a href="foretag.html">För företag</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-column" aria-labelledby="footer-links-title">
+      <h2 id="footer-links-title">Snabblänkar</h2>
+      <ul class="footer-list">
+        <li><a href="index.html">Startsida</a></li>
+        <li><a href="till-salu.html">Till salu</a></li>
+        <li><a href="veckan-hos-oss.html">Veckan hos oss – bloggen</a></li>
+        <li><a href="sa-funkar-det.html">Så fungerar det</a></li>
+        <li><a href="om-oss.html">Om oss</a></li>
+        <li><a href="faq.html">Vanliga frågor</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <section class="footer-column" aria-labelledby="footer-contact-title">
+      <h2 id="footer-contact-title">Kontakt</h2>
+
+      <div class="footer-contact">
+        <p class="footer-contact-item">
+          <strong>Verksamhetsområde</strong>
+          Hjo och hela Skaraborg
+        </p>
+
+        <p class="footer-contact-item">
+          <strong>Telefon</strong>
+          <a href="tel:+46727483256">072-748 32 56</a>
+        </p>
+
+        <p class="footer-contact-item">
+          <strong>Organisationsnummer</strong>
+          559426-7550
+        </p>
+
+        <div class="footer-socials" aria-label="Sociala kanaler">
+          <a class="footer-social-link"
+             href="https://www.facebook.com/profile.php?id=61588383880828"
+             target="_blank"
+             rel="noopener noreferrer">Facebook</a>
+          <a class="footer-social-link"
+             href="https://www.tradera.com/profile/items/5896660/skaraborg-maskin-och-aterbruk"
+             target="_blank"
+             rel="noopener noreferrer">Tradera</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-inner">
+      <p>© 2026 Skaraborg Maskin &amp; Återbruk. Alla rättigheter förbehållna.</p>
+      <div class="footer-bottom-links">
+        <a href="kontakt.html">Kontakt</a>
+        <a href="sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+
+
+
 
 <script>
-async function inject(id,url){
-  const el=document.getElementById(id);
-  if(!el) return;
-  const res=await fetch(url,{cache:"no-cache"});
-  el.innerHTML=await res.text();
-}
-inject("site-header","partials1/header.html");
-inject("site-footer","partials1/footer.html");
+(function(){
+  document.querySelectorAll('img[data-fallback-src]').forEach(function(img){
+    let triedFallback=false;
+    function recover(){
+      if(!triedFallback){
+        triedFallback=true;
+        img.src=img.dataset.fallbackSrc;
+      }else{
+        img.hidden=true;
+        if(!img.nextElementSibling || !img.nextElementSibling.classList.contains('hjo-photo-unavailable')){
+          const note=document.createElement('span');
+          note.className='hjo-photo-unavailable';
+          note.textContent='Bilden kunde inte laddas just nu.';
+          img.insertAdjacentElement('afterend',note);
+        }
+      }
+    }
+    img.addEventListener('error',recover);
+    if(img.loading!=='lazy' && img.complete && img.naturalWidth===0)recover();
+  });
+})();
 </script>
-
 </body>
 </html>
