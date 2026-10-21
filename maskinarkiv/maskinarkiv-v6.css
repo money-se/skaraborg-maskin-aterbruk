@@ -144,3 +144,11 @@ details{border-top:1px solid var(--line)}details:last-child{border-bottom:1px so
 .article .table-scroll th{font-weight:850;color:var(--green)}
 .article .table-scroll tr:last-child td{border-bottom:0}
 @media(max-width:620px){.article .facts>.row{grid-template-columns:1fr;gap:3px}}
+
+/* Villa 12 HST: versionskort; unika klasser för att inte påverka andra maskinsidor. */
+.article .villa-variant-card{display:grid;grid-template-columns:minmax(145px,185px) minmax(0,1fr);gap:20px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:14px 0;box-shadow:0 2px 7px rgba(23,41,28,.035)}
+.article .villa-variant-card>div{display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-width:0}
+.article .villa-variant-code{display:block;color:var(--green);font-size:17px;font-weight:850;letter-spacing:.005em;overflow-wrap:anywhere}
+.article .villa-variant-card small{display:block;color:var(--muted);font-size:13px;font-weight:650;line-height:1.4}
+.article .villa-variant-card>p{color:var(--ink);font-weight:400;font-size:16px;line-height:1.65;margin:0}
+@media(max-width:620px){.article .villa-variant-card{grid-template-columns:1fr;gap:10px;padding:16px}}
