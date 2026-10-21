@@ -199,7 +199,7 @@
     "A": {
       "name": "Identitet och produktversioner",
       "state": "gap",
-      "note": "Fem maskinproduktnummer identifierade; STIGA 2011 original belägger FR-utförande med separat fransk ägarmanual och särskild karossgrupp. Fullständig variant-/komponentmappning samt 2010-suffixkontroll återstår."
+      "note": "Fem maskinproduktnummer identifierade; STIGA 2011 original belägger FR-utförande med separat fransk ägarmanual och särskild karossgrupp. Fullständig variant-/komponentmappning samt 2010-suffixkontroll återstår. 2010 års ursprungskatalog har redan kontrollerats för grupperna 2727 och 2729, men komplett suffix-/revisionsbindning kvarstår."
     },
     "B": {
       "name": "Grundkonstruktion",
@@ -234,7 +234,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad."
+      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad. Manualutgåvorna -10 och -80 är jämförda; skillnaden i remkåpa/remstyrningssteg är dokumenterad och ska visas som editionsskillnad, inte behandlas som obesvarad jämförelse."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -699,7 +699,6 @@
     "Kontrollera exakt vilka Villa 12 HST-produktnummer som godkänner 85 Combi 13-2960-14, utöver att den separata originalkatalogen tillhör READY/VILLA-plattformen.",
     "Exakt B&S motorkod för 13-2729-35 kvarstår trots publicerade motor-sprängskisser; fästdelar i motorkapitlet bevisar inte modellkod.",
     "Granska skillnader mellan franska 13-2729-35 (FR) och 13-2729-15 mot de enskilda delgrupperna: den märkta marknadsvarianten är inte belägg för samma komponenter.",
-    "Verifiera 2010 års STIGA originalkatalog för 13-2727-14 och 13-2729-14 innan motorval och specifika reservdelar skrivs som A-fakta.",
     "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå.",
     "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass.",
     "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning.",
@@ -707,7 +706,6 @@
     "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används.",
     "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad.",
     "FR-variantens separata sidoskydd och manual är bekräftade. Kontrollera ytterligare eventuell skillnad i säkerhet, reglage och aggregatmontering innan FR-varianten betecknas funktionsidentisk med standardutförandet.",
-    "Jämför monteringsmanualernas revisionsnummer 8211-7000-10 respektive 8211-7000-80/91 och deras figurer innan monteringsanvisningar tilldelas en specifik Villa 12 HST + 85 Combi-kombination.",
     "Manualutgåvorna -10 och -80 får inte blandas ihop vid stegvis monteringsinstruktion: -80 beskriver bland annat lossa/remontera remkåpa och remstyrning, vilket inte står som samma monteringssekvens i -10. Kontrollera originaldokument och maskin-ID före praktisk monteringsguide."
   ]
 }
