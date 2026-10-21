@@ -114,6 +114,10 @@
         {
           "type": "html",
           "html": "\n"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Exempel på källspårade reservdelar</h3><div class=\"table-scroll\"><table><thead><tr><th>Exakt version</th><th>Reservdelskatalogen visar</th><th>Viktigt</th></tr></thead><tbody><tr><td>Rider 13 BioClip 953520901, 2003-11</td><td>K46-transmission 506986401, 90 cm aggregat</td><td>Kontrollera aktuell ersättningsbeteckning innan köp</td></tr><tr><td>Rider 13 R Special 953533001, 2003-09</td><td>97 cm aggregat, klippdäcksritning</td><td>Ritningen innehåller flera skilda kniv- och rempositioner; välj aldrig del enbart utifrån bredden</td></tr></tbody></table></div><p>Uppgifterna kommer från versionsbundna återförsäljarkataloger med sprängskisser. De verifierar dokumenterat kataloginnehåll, inte att en viss del fortfarande säljs eller passar en modifierad maskin.</p>"
         }
       ]
     },
@@ -150,6 +154,10 @@
         {
           "type": "html",
           "html": "<h3>Varför blir drivningen svag när den är varm?</h3><p>Det är ett symptom – inte en säker diagnos. En mekaniskt sliten drivrem eller felaktig frikoppling kan ge liknande upplevelse som en hydrostat med problem. Observera drivningen både kall och varm på säker plan mark, notera om framåt/back påverkas lika mycket och om problemet ökar vid belastning. Kontrollera synliga remskador och kylflänsarnas renhet först med motorn avstängd.</p><p>Husqvarnas verkstadshandbok har särskilda avsnitt för kontroll av transmissionsreglage, neutralläge, luftning och transmissionsunderhåll. Detta är arbete som förutsätter rätt version och verkstadskompetens. Ta inte oljemängd eller procedur från en annan Rider-generation.</p>"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Rider 13 BioClip, produktnummer 953520901</h3><p>Reservdelsritningen för versionen 2003-11 visar transmissionsenheten K46 (reservdelsnummer 506986401). Det är ett konkret exempel på varför kontroll av både produktnummer och katalogrevision behövs. Numret är inte en generell rekommendation om ersättningsdel till andra Rider 13.</p>"
         }
       ]
     },
@@ -161,7 +169,7 @@
       "blocks": [
         {
           "type": "html",
-          "html": "\n<p class=\"lead\">Klippaggregatet är en av de tydligaste ledtrådarna till vilken Rider 13 man har.</p>\n<table class=\"compare\">\n<thead><tr><th>Variant</th><th>Dokumenterat aggregat</th><th>Princip</th></tr></thead>\n<tbody>\n<tr><td>Rider 13</td><td>85 cm</td><td>Bakutkast</td></tr>\n<tr><td>Rider 13 Bio/BioClip</td><td>90 cm</td><td>BioClip</td></tr>\n<tr><td>Rider 13 R / R Special</td><td>Ej slutverifierad här</td><td>Kontrollera produktnummer och aggregatets reservdelskatalog</td></tr>\n<tr><td>Rider 13C</td><td>94 cm</td><td>Combi</td></tr>\n</tbody>\n</table>\n<h3>Rider 13C:s Combi-aggregat (dokumenterad version)</h3>\n<p>Husqvarnas senare Rider-manual beskriver Rider 13C med ett 3-knivars Combi-aggregat. Med BioClip-plugg finfördelas gräset för återföring till gräsmattan; utan pluggen arbetar aggregatet som bakutkast.</p>\n<div class=\"specs\">\n<div class=\"spec\"><b>Rider 13C</b><span>3-knivars Combi</span></div>\n<div class=\"spec\"><b>Klipphöjd 965094301</b><span>35–85 mm för Rider 13C, produktnummer 965094301 (officiell produktspecifikation); antal lägen kontrolleras i rätt manual</span></div>\n<div class=\"spec\"><b>Däcktryck</b><span>60 kPa / 0,6 bar</span></div>\n<div class=\"spec\"><b>Grundinställning</b><span>Bakkant ca 2–4 mm högre än framkant i förleveranskontrollen</span></div>\n</div>\n<div class=\"park-info\"><b>Varför klipphöjder kan skilja mellan dokument</b>Husqvarnas officiella produktspecifikation för 965094301 anger 35–85 mm. Andra manualrevisioner kan ange andra värden; tillämpa bara intervall och inställningsanvisningar som hör till din produktversion.</div>\n"
+          "html": "\n<p class=\"lead\">Klippaggregatet är en av de tydligaste ledtrådarna till vilken Rider 13 man har.</p>\n<table class=\"compare\">\n<thead><tr><th>Variant</th><th>Dokumenterat aggregat</th><th>Princip</th></tr></thead>\n<tbody>\n<tr><td>Rider 13</td><td>85 cm</td><td>Bakutkast</td></tr>\n<tr><td>Rider 13 Bio/BioClip</td><td>90 cm</td><td>BioClip</td></tr>\n<tr><td>Rider 13 R Special, 953533001 (IPL 2003-09)</td><td>97 cm</td><td>Verifierat i versionsspecifik sprängskiss; kontrollera infästning och artikelnummer</td></tr>\n<tr><td>Rider 13C</td><td>94 cm</td><td>Combi</td></tr>\n</tbody>\n</table>\n<h3>Rider 13C:s Combi-aggregat (dokumenterad version)</h3>\n<p>Husqvarnas senare Rider-manual beskriver Rider 13C med ett 3-knivars Combi-aggregat. Med BioClip-plugg finfördelas gräset för återföring till gräsmattan; utan pluggen arbetar aggregatet som bakutkast.</p>\n<div class=\"specs\">\n<div class=\"spec\"><b>Rider 13C</b><span>3-knivars Combi</span></div>\n<div class=\"spec\"><b>Klipphöjd 965094301</b><span>35–85 mm för Rider 13C, produktnummer 965094301 (officiell produktspecifikation); antal lägen kontrolleras i rätt manual</span></div>\n<div class=\"spec\"><b>Däcktryck</b><span>60 kPa / 0,6 bar</span></div>\n<div class=\"spec\"><b>Grundinställning</b><span>Bakkant ca 2–4 mm högre än framkant i förleveranskontrollen</span></div>\n</div>\n<div class=\"park-info\"><b>Varför klipphöjder kan skilja mellan dokument</b>Husqvarnas officiella produktspecifikation för 965094301 anger 35–85 mm. Andra manualrevisioner kan ange andra värden; tillämpa bara intervall och inställningsanvisningar som hör till din produktversion.</div>\n"
         },
         {
           "type": "html",
@@ -237,7 +245,7 @@
         },
         {
           "type": "html",
-          "html": "<div class=\"family\">\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 / 13 H</span><small>Äldre huvudgren</small></div><p>Hydrostatisk Rider-generation med frontaggregat. Äldre dokument använder även beteckningen Rider 13 H för hydrostatversionen. 85 cm bakutkast är dokumenterat för vanliga Rider 13.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 Bio</span><small>Dokumenterad från slutet av 1990-talet</small></div><p>BioClip-version med 90 cm aggregat. Den ska inte behandlas som en vanlig Rider 13 där endast klippbordet råkat bytas.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 BioClip</span><small>Exempel: 953520901</small></div><p>Senare dokumenterad BioClip-variant med egen produktidentitet. Produktnummer 953520901 förekommer i reservdelslistningar men kräver versionsmatchning i originalkatalog.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 R / R Special</span><small>Exempel: 953533001</small></div><p>Separat sidovariant för vilken 97 cm-uppgiften fortfarande behöver kontrolleras mot rätt originalkatalog. Den bör identifieras separat från vanliga 13.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13C</span><small>Senare generation</small></div><p>Nyare Rider-generation med 94 cm Combi-aggregat i officiell Husqvarna-dokumentation. Produktnummer 965070401 och 965094301 förekommer i senare material.</p></div>\n</div>"
+          "html": "<div class=\"family\">\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 / 13 H</span><small>Äldre huvudgren</small></div><p>Hydrostatisk Rider-generation med frontaggregat. Äldre dokument använder även beteckningen Rider 13 H för hydrostatversionen. 85 cm bakutkast är dokumenterat för vanliga Rider 13.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 Bio</span><small>Dokumenterad från slutet av 1990-talet</small></div><p>BioClip-version med 90 cm aggregat. Den ska inte behandlas som en vanlig Rider 13 där endast klippbordet råkat bytas.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 BioClip</span><small>Exempel: 953520901</small></div><p>Senare dokumenterad BioClip-variant med egen produktidentitet. Produktnummer 953520901 är dokumenterat i reservdelsritningar för 2003-11 med 90 cm aggregat och K46-transmission. Detta styrker endast den angivna revisionen.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13 R / R Special</span><small>Exempel: 953533001</small></div><p>Separat sidovariant där versionsspecifika reservdelsritningar (953533001, 2003-09) visar 97 cm klippaggregat. Den bör identifieras separat från vanliga 13.</p></div>\n<div class=\"variant\"><div><span class=\"variant-name\">Rider 13C</span><small>Senare generation</small></div><p>Nyare Rider-generation med 94 cm Combi-aggregat i officiell Husqvarna-dokumentation. Produktnummer 965070401 och 965094301 förekommer i senare material.</p></div>\n</div>"
         },
         {
           "type": "html",
@@ -450,6 +458,26 @@
       "title": "Husqvarna Rider 13C – supportsida och dokumentväljare",
       "description": "Välj maskinens artikelnummer för att visa tillhörande manualer, tillbehör och serviceuppgifter.",
       "url": "https://www.husqvarna.com/uk/support/ride-on-mower/rider-13c/"
+    },
+    {
+      "title": "Ceruti Center – IPL Rider 13 R Special 953533001 (2003-09)",
+      "description": "Illustrerad reservdelskatalog för produktnummer 953533001. 97 cm klippaggregat är särskilt dokumenterat; sekundär återgivning av delritningar.",
+      "url": "https://www.ceruticenter.it/en/content/37251-husqvarna-rider-13-r-special-2003-09-953533001-front-rider-spare-parts"
+    },
+    {
+      "title": "Ceruti Center – IPL Rider 13 BioClip 953520901 (2003-11)",
+      "description": "Illustrerad reservdelskatalog som identifierar BioClip 953520901 och 90 cm aggregat; sekundär återgivning.",
+      "url": "https://www.ceruticenter.it/en/content/37220-husqvarna-rider-13-bioclip-2003-11-953520901-front-rider-spare-parts"
+    },
+    {
+      "title": "sGarden – transmissionsritning Rider 13 BioClip 953520901 (2003-11)",
+      "description": "Katalogrevision med Tuff Torq K46-transmission, reservdelsreferens 506986401. Delnummer kan vara ersatt och måste kontrolleras före köp.",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/26283/TRANSMISSION"
+    },
+    {
+      "title": "sGarden – 97 cm aggregat Rider 13 R Special 953533001 (2003-09)",
+      "description": "Visar kniv-, rem- och lagerpositioner i den angivna katalogrevisionen. Ingen generell kompatibilitet med andra Rider-versioner.",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/26593/97CM_CUTTING_DECK"
     }
   ],
   "sourceHeading": "Källor och manualer",
