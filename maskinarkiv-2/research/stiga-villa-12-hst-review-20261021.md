@@ -29,3 +29,22 @@ Artikelns fyra katalognummer: 13-2727-13 (2009), 13-2727-14 (2010), 13-2729-14 (
 - Reservdelsöversikt, fem versioner: https://www.partsharp.com/spare-parts/stiga/villa/24d21ec5-b48b-49e6-a531/22eb499c-c519-4459-b929.aspx
 
 **Källtolkning:** manualens dokument-ID och avsnitt är bekräftade mot textåtergivning; originalets variant- och revisionsgiltighet måste kontrolleras mot maskinens typskylt. En återförsäljares reservdelsindex är kompletterande belägg, inte STIGA:s fabriksintyg.
+
+## Fortsatt versionskontroll: 13-2729-35
+
+Tre ytterligare artiklar har lokaliserats i återförsäljarens sprängskisser, alla **enbart verifierade mot produktnummer 13-2729-35**:
+
+| System | Beteckning | Artikelnummer | Källställe |
+|---|---|---|---|
+| Hydrostat/transaxel | K46 CJ | 1134-7766-01 | World of Mowers, Transmission, position 001 |
+| Styrning | Steering cable | 1134-9154-01 | World of Mowers, Steering, position 006 |
+| Remdrift | Drive belt | 1134-9079-01 | World of Mowers, Power Take-off, position 017 |
+
+Det är reservdelsidentifieringar, **inte** verifierade servicevärden, transmissionsoljerekommendationer eller garanti för kompatibilitet med övriga Villa 12 HST-versioner.
+
+Källor:
+- https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/transmission
+- https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/steering
+- https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/power-take-off
+
+**Grindstatus efter fortsatt kontroll:** `needs_research`. Även kategori A (variantöversikt) är markerad som kunskapslucka tills identifieringen är komplett. Nästa steg är original-IPL/motortypskylt för produktnummer 13-2729-35 och därefter motsvarande kontroll för återstående fyra.
