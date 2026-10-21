@@ -7,12 +7,12 @@
 | 13-2727-13 | 2009 | GGP WM 12,5 med bränslepump **A** | K46 CJ enligt äldre kataloger; behöver källkoppling | 85 Combi i årgångssortiment, ej individpassning | Original STIGA sortimentslista |
 | 13-2727-14 | 2010 | GGP WM 12,5 / 1134-9500-01 **B** | Uppges K46 CJ, verifiera separat IPL | Ej fastställt aggregat-ID | Reservdelslistans motorförteckning |
 | 13-2729-14 | 2010 | Briggs 21R502 **C**, endast förväntad motor | **K46 CJ, 1134-7766-01 (B)** | Ej fastställt aggregat-ID | Kontrollera motorns Model/Type/Code |
-| 13-2729-15 | 2011–2012 | Briggs & Stratton fabrikat **A**; 21R602 **C** | **K46 CJ, 1134-7766-01 (B)** | Ej fastställt aggregat-ID | Fabrikat i STIGA originalkatalog, modellkod osäker |
-| 13-2729-35 | 2011–2012 | FR-marknadsvariant **A**, B&S-avsnitt **A** | **K46 CJ, 1134-7766-01 (B)** | Ej fastställt aggregat-ID | FR betyder inte automatiskt annan motor |
+| 13-2729-15 | 2011–2012 | Briggs & Stratton fabrikat **A**; 21R602 **C** | **K46 CJ, 1134-7766-01 (A)** | Ej fastställt aggregat-ID | Fabrikat i STIGA originalkatalog, modellkod osäker |
+| 13-2729-35 | 2011–2012 | FR-marknadsvariant **A**, B&S-avsnitt **A** | **K46 CJ, 1134-7766-01 (A)** | Ej fastställt aggregat-ID | FR betyder inte automatiskt annan motor |
 
 Separata originalaggregat finns under **85 Combi 13-2960-13 (2009)** och **13-2960-14 (2011/2012)**. Deras förekomst i respektive års reservdelskatalog bevisar inte kompatibilitet med varje maskinprodukt-ID.
 
-Notera att K46 CJ med artikelnummer 1134-7766-01 nu har separat reservdelskatalogbelägg för **13-2729-14, 13-2729-15 och 13-2729-35**. Delnumret fastställer inte oljespecifikation, intern identitet eller generell passform för andra årsmodeller.
+Notera att K46 CJ med artikelnummer 1134-7766-01 är A-belagd i STIGA:s originalkatalog (transmissionsfigur 1157G, pos. 23) för **13-2729-15 och 13-2729-35**. För **13-2729-14** finns B-belägg i ett separat reservdelsschema. Delnumret fastställer inte oljespecifikation, intern identitet eller generell passform för andra årsmodeller.
 
 ## Säker formulering på webbplatsen
 ”STIGA Villa 12 HST finns med flera produktnummer och motorutföranden. Originalkatalogerna visar bland annat GGP WM 12,5 för 13-2727-13 samt Briggs & Stratton-motoravsnitt för 13-2729-15 och FR-varianten 13-2729-35. Exakt motorkod, remmar och reservdelar måste alltid kontrolleras mot maskinens, motorns och aggregatets egna identitetsuppgifter.”
