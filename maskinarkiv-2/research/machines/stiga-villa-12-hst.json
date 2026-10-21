@@ -53,13 +53,34 @@
       "title": "Partsharp produktversioner Villa 12 HST (fem kataloger)",
       "document": "Villa 12 HST product diagrams",
       "url": "https://www.partsharp.com/spare-parts/stiga/villa/24d21ec5-b48b-49e6-a531/22eb499c-c519-4459-b929.aspx"
+    },
+    {
+      "id": "worldofmowers-2729-35-transmission",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 transmission parts diagram",
+      "document": "13-2729-35 Transmission assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/transmission"
+    },
+    {
+      "id": "worldofmowers-2729-35-steering",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 steering parts diagram",
+      "document": "13-2729-35 Steering assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/steering"
+    },
+    {
+      "id": "worldofmowers-2729-35-pto",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 Power Take-off parts diagram",
+      "document": "13-2729-35 Power Take-off assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/power-take-off"
     }
   ],
   "topics": {
     "A": {
       "name": "Identitet och produktversioner",
-      "state": "verified",
-      "note": "Fyra katalogidentifierare finns, men produktnummer till faktisk motor/transmission är ännu inte spårade genom original-IPL."
+      "state": "gap",
+      "note": "Fem produktnummer hittade via återförsäljarindex. Primärkälla, samtliga motoridentiteter och revisionsgränser återstår."
     },
     "B": {
       "name": "Grundkonstruktion",
@@ -74,7 +95,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "K46 CJ har nu katalogbelägg för just 13-2729-35, men transmissionsspecifikationer för övriga fyra produktnummer återstår."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -109,7 +130,7 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Tre modellbundna reservdelsnummer noterade för 13-2729-35; reservdelarna får inte framställas som universella."
     },
     "L": {
       "name": "Begagnat och köpråd",
@@ -203,6 +224,33 @@
       "grade": "A",
       "sourceId": "stiga-villa-om",
       "locator": "Svenska avsnitt 8.10 Tändstift"
+    },
+    {
+      "id": "k46-2729-35",
+      "topic": "D",
+      "statement": "Reservdelskatalog för produktnummer 13-2729-35 listar transaxel 1134-7766-01 med beteckningen K46 CJ.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-35-transmission",
+      "locator": "Transmission assembly, parts list, ref 001"
+    },
+    {
+      "id": "steering-cable-2729-35",
+      "topic": "E",
+      "statement": "Reservdelskatalog för 13-2729-35 listar styrwire 1134-9154-01.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-35-steering",
+      "locator": "Steering assembly, ref 006"
+    },
+    {
+      "id": "pto-belt-2729-35",
+      "topic": "K",
+      "statement": "Reservdelskatalog för 13-2729-35 listar drivrem 1134-9079-01 i power take-off.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-35-pto",
+      "locator": "Power Take-off assembly, ref 017"
     }
   ],
   "gaps": [
@@ -212,6 +260,7 @@
     "Ta fram källposition för varje publicerad teknisk siffra, serviceintervall och reservdelsreferens.",
     "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem.",
     "Femte reservdelsvarianten 13-2729-35 behöver granskas för motor, drivning och aggregat innan versionskapitlet skrivs om.",
-    "Motoroljebyte 5/50 timmar, tändstift RC12YC och 0,75 mm finns i maskinmanualen men måste kopplas till korrekt motorvariant innan de presenteras universellt."
+    "Motoroljebyte 5/50 timmar, tändstift RC12YC och 0,75 mm finns i maskinmanualen men måste kopplas till korrekt motorvariant innan de presenteras universellt.",
+    "Kontrollera om transaxel 1134-7766-01 (K46 CJ), styrwire 1134-9154-01 och PTO-rem 1134-9079-01 också förekommer på andra produktnummer; dessa tre uppgifter är endast dokumenterade här för 13-2729-35."
   ]
 }
