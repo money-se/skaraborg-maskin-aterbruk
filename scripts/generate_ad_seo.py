@@ -53,7 +53,7 @@ def render(ad, url):
     ld_json = json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c")
     gallery = ('<div class="gallery"><img id="main-ad-image" class="main-image" src="' + safe(images[0]) + '" alt="' + safe(title) + ' – bild 1"><div class="thumbs">' + "".join(f'<button type="button" class="thumb" data-img="{safe(img)}" aria-label="Visa bild {i+1}"><img src="{safe(img)}" alt="Miniatyr {i+1}" loading="lazy"></button>' for i,img in enumerate(images)) + "</div></div>" if images else "")
     status = "Till salu" if available else "Reserverad / väntande"
-    contact = (f'<a class="cta" href="https://www.messenger.com/t/924620407412160/" target="_blank" rel="noopener noreferrer">Skriv till oss på Messenger</a><p>Berätta gärna vilken annons du frågar om: <strong>{safe(title)}</strong>. Messenger öppnas separat.</p>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>")
+    contact = (f'<a class="cta" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Besök vår Facebooksida</a><p>Berätta gärna vilken annons du frågar om: <strong>{safe(title)}</strong>. Klicka på Meddelande på vår Facebooksida för att kontakta oss.</p>' if available else "<p>Den här maskinen är för närvarande reserverad.</p>")
     return f"""<!doctype html>
 <html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{safe(page_title)}</title><meta name="description" content="{safe(summary)}">
