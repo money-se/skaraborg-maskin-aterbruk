@@ -165,6 +165,13 @@
       "title": "13-2729-35 engine exploded diagram (fasteners/engine installation)",
       "document": "FR 13-2729-35, Engine_0",
       "url": "https://diyspareparts.com/parts/stiga/diagrams/5d48750b-f87b-4a49-9901/ef381743-aeb1-4b3e-aba6"
+    },
+    {
+      "id": "diy-2729-15-transmission",
+      "tier": 2,
+      "title": "13-2729-15 transmission diagram",
+      "document": "13-2729-15 Transmission_0",
+      "url": "https://www.diyspareparts.com/parts/stiga/diagrams/79dc6baa-857f-459f-8861/97c910b4-245a-418f-924e/"
     }
   ],
   "topics": {
@@ -186,7 +193,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Sekundära reservdelsscheman kopplar K46 CJ, artikel 1134-7766-01, till 13-2729-14 och 13-2729-35; för övriga varianter kvarstår individuell bekräftelse."
+      "note": "K46 CJ artikel 1134-7766-01 nu katalogbelagd för 13-2729-14, 13-2729-15 och 13-2729-35. Övriga produktversioner kräver individuell kontroll. Servicedata för hydrostaten återstår."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -468,6 +475,15 @@
       "grade": "B",
       "sourceId": "diy-fr-2011-engine",
       "locator": "Engine_0 exploded diagram and parts table"
+    },
+    {
+      "id": "k46-2011-2729-15",
+      "topic": "D",
+      "statement": "Reservdelskatalogen för produktnummer 13-2729-15 listar transaxel K46 CJ, artikelnummer 1134-7766-01, position 23 i transmissionens sprängskiss.",
+      "variant": "13-2729-15 (2011–2012)",
+      "grade": "B",
+      "sourceId": "diy-2729-15-transmission",
+      "locator": "Transmission_0, position 23"
     }
   ],
   "gaps": [
@@ -485,6 +501,7 @@
     "Verifiera 2010 års STIGA originalkatalog för 13-2727-14 och 13-2729-14 innan motorval och specifika reservdelar skrivs som A-fakta.",
     "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå.",
     "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass.",
-    "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning."
+    "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning.",
+    "Fastställ hydrostatens exakta serviceanvisning genom originaltillverkarens instruktioner i stället för att härleda olja, volym eller avtappning från delnummer."
   ]
 }
