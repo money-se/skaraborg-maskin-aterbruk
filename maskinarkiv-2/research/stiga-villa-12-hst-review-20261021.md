@@ -127,3 +127,15 @@ Källa: https://manualzz.com/doc/sv/4520408/stiga-villa-12-hst-ride-on-mower-geb
 - Skriv tydligt att `1134-7766-01` har spårats för **tre** produkt-ID:n, inte fem.
 - För servicevärden från 8211-0038-90, ange alltid manualens räckvidd och hänvisa B&S-ägare till den identifierade motorns specifika instruktioner.
 - Behåll forskningsstatus `needs_research` tills kvarvarande motor- och aggregatverifikation är genomförd.
+
+## Källuppgradering: transmission via STIGA-original 2011/2012
+
+Direkt granskning av STIGA:s primärkatalog **SSPL2011_20110214_Villa_HST.pdf** visar under **TRANSMISSION, figur 1157G, position 23 (PDF s. 27)** artikel **1134-7766-01 Transaxle assy, Kanzaki K46CJ**. Tabellen är markerad **2729**. Omslaget omfattar Villa 12 HST **13-2729-15** och **13-2729-35 (FR)** i samma katalogårgång.
+
+**Källklass A** kan därför användas för denna specifika transaxelkoppling i dessa två 2011/2012-versioner; för 2010-varianten `13-2729-14` kvarstår separata sekundärbelägg (**B**). Tidigare års produktnummer `13-2727-13` och `13-2727-14` har ännu inte samma primärkällespårning.
+
+Samma originaltabell anger en transmissionsdrivrem `1134-9064-01` (position 17). Detta gäller **transmissionsdrivningen**, inte automatiskt kraftuttagets rem till klippaggregatet. Undvik att sammanblanda den med PTO-remmen `1134-9079-01` från en annan komponentgrupp.
+
+**Fortfarande öppet:** Exakt transmissionsservice (oljebyte, typ, mängd), motorernas Model/Type/Code och aggregratskompatibilitet per maskinversion. Originalreservdelskatalogens delnummer är inte i sig en underhållsinstruktion.
+
+Primärkälla: https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf (omslag och fig. 1157G, PDF s. 27).
