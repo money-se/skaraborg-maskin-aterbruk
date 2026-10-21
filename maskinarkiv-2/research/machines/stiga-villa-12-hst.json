@@ -186,6 +186,13 @@
       "title": "STIGA Villa/Ready 85 Combi installation instructions – later manual edition",
       "document": "8211-7000-80, Montage 3.1 (different revision than 8211-7000-10)",
       "url": "https://www.manualslib.com/manual/1275367/Stiga-Park-85-Combi.html?page=32"
+    },
+    {
+      "id": "stiga-villa-85-combi-manual-10",
+      "tier": 1,
+      "title": "STIGA Villa 85 Combi manual 8211-7000-10, mounting instructions",
+      "document": "8211-7000-10",
+      "url": "https://manualzz.com/doc/en/html/51842571/stiga-villa-85-combi-cutting-deck-instructions-for-use"
     }
   ],
   "topics": {
@@ -227,7 +234,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "Originalkatalog 13-2960-14 styrker aggregatets komponenter. En annan, senare utgåva av STIGA:s monteringsmanual beskriver Villa/Ready-fästen och remspänning, men dess exakta tillämplighet på 8211-7000-10 eller varje maskin-/aggregat-ID är ännu inte fastställd."
+      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -606,6 +613,15 @@
       "grade": "B",
       "sourceId": "villa-85combi-install-manual-ed80",
       "locator": "ManualsLib sida 32, §3.1 punkt 2, figur 3:D"
+    },
+    {
+      "id": "deck-10-vs80-fixed-install",
+      "topic": "H",
+      "statement": "Manualutgåvorna 8211-7000-10 och 8211-7000-80 visar båda fasta fästen för Villa/Ready, bricka 3:D endast till och med 2006, remspännare på insidan av remmen som drar mot vänster sett från förarplatsen, samt infästning mot redskapslyften. Montagesekvensen har dock olika steg för remkåpa och remstyrning och ska inte behandlas som identiska instruktioner.",
+      "variant": "Villa/Ready på aggregatplattformsnivå; inte bekräftad fullständig passform för alla Villa 12 HST-maskinnummer",
+      "grade": "B",
+      "sourceId": "stiga-villa-85-combi-manual-10",
+      "locator": "Engelskt avsnitt 3.1, tryckt sida 31, figurer 3, 5, 11, 13, 16; jämför 8211-7000-80 engelskt avsnitt 3.1 tryckt sida 32"
     }
   ],
   "gaps": [
@@ -628,6 +644,7 @@
     "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används.",
     "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad.",
     "FR-variantens separata sidoskydd och manual är bekräftade. Kontrollera ytterligare eventuell skillnad i säkerhet, reglage och aggregatmontering innan FR-varianten betecknas funktionsidentisk med standardutförandet.",
-    "Jämför monteringsmanualernas revisionsnummer 8211-7000-10 respektive 8211-7000-80/91 och deras figurer innan monteringsanvisningar tilldelas en specifik Villa 12 HST + 85 Combi-kombination."
+    "Jämför monteringsmanualernas revisionsnummer 8211-7000-10 respektive 8211-7000-80/91 och deras figurer innan monteringsanvisningar tilldelas en specifik Villa 12 HST + 85 Combi-kombination.",
+    "Manualutgåvorna -10 och -80 får inte blandas ihop vid stegvis monteringsinstruktion: -80 beskriver bland annat lossa/remontera remkåpa och remstyrning, vilket inte står som samma monteringssekvens i -10. Kontrollera originaldokument och maskin-ID före praktisk monteringsguide."
   ]
 }
