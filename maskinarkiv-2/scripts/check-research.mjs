@@ -52,6 +52,13 @@ for(const file of files){
     }
     for(const k of keys) assert.ok(claimTopics.has(k),d.slug+" topic "+k+" has no A/B evidence");
     assert.ok(d.gaps.length>0,d.slug+" scoped publication must preserve unresolved research questions");
+    const modelFile=d.scopedRelease.articleFile;
+    assert.ok(modelFile && fs.existsSync(modelFile),d.slug+" scoped article missing");
+    const article=JSON.parse(fs.readFileSync(modelFile,"utf8"));
+    assert.equal(article.slug,d.slug,d.slug+" article identity mismatch");
+    const articleText=article.chapters.flatMap(x=>(x.blocks||[]).map(b=>b.html||"")).join("\\n");
+    for(const phrase of d.scopedRelease.forbiddenArticleFragments||[]) assert.ok(!articleText.includes(phrase),d.slug+" forbidden unverified specification: "+phrase);
+    assert.ok(articleText.includes("13-2729-35"),d.slug+" missing FR variant");
     ready++;
   }else if(d.status==="ready"){
     assert.equal(d.gaps.length,0,d.slug+" cannot be ready with open gaps");
