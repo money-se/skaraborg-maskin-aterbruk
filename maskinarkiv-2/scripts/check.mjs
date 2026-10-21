@@ -53,6 +53,15 @@ for(const p of Object.values(guideCatalog.products)) {
   assert.ok(riderHtml.includes(p.url),"Missing Shopify product link: "+p.title);
 }
 assert.equal(rider.chapters.flatMap(ch=>ch.blocks).filter(b=>b.html?.includes('class="guide-promo"')).length,0,"Cards must not be duplicated in model source");
+const villaGuideHtml=fs.readFileSync("../_maskinarkiv-preview/maskinarkiv/stiga-villa-12-hst.html","utf8");
+assert.equal(guidePlacements["stiga-villa-12-hst"].length,3,"Villa must have exactly three relevant guide placements");
+assert.equal((villaGuideHtml.match(/class="guide-promo"/g)||[]).length,3,"Villa should render three central guide cards");
+for(const name of ["start","verkstad","kopguide"]){
+  const product=guideCatalog.products[name];
+  assert.ok(villaGuideHtml.includes(product.image),"Villa missing image "+name);
+  assert.ok(villaGuideHtml.includes(product.url),"Villa missing product URL "+name);
+}
+assert.ok(!villaGuideHtml.includes(guideCatalog.products.ordbok.url),"Villa should not advertise dictionary without matching chapter");
 console.log("MASKINARKIV_CENTRAL_GUIDES=PASS");
 console.log("MASKINARKIV_2_RIDER=PASS; chapters="+rider.chapters.length+"; sources="+rider.sources.length);
 
