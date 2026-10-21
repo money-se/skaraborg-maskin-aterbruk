@@ -223,8 +223,8 @@
     },
     "F": {
       "name": "Reglage",
-      "state": "verified",
-      "note": "Manuella reglage beskrivs i STIGA-manual 8211-0038-90."
+      "state": "gap",
+      "note": "STIGA:s originalmanual 8211-0038-90 har kapitel om reglage, men forskningsregistret saknar ännu versionsbundet A/B-påstående med granskat avsnitt. Tidigare status 'verified' var inte förenlig med release-kontrollens spårbarhetskrav."
     },
     "G": {
       "name": "Säkerhetssystem",
