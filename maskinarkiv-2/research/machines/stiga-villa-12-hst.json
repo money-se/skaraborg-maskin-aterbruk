@@ -193,7 +193,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "K46 CJ artikel 1134-7766-01 nu katalogbelagd för 13-2729-14, 13-2729-15 och 13-2729-35. Övriga produktversioner kräver individuell kontroll. Servicedata för hydrostaten återstår."
+      "note": "STIGA:s originalkatalog 2011/2012 ger A-belägg för transaxel K46CJ 1134-7766-01 i 2729-gruppen (13-2729-15 och FR 13-2729-35); kompletterande B-belägg finns för 13-2729-14. Tidigare GGP-versioner och faktisk hydrostatservice behöver separat kontroll."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -484,6 +484,15 @@
       "grade": "B",
       "sourceId": "diy-2729-15-transmission",
       "locator": "Transmission_0, position 23"
+    },
+    {
+      "id": "stiga-k46-2011-primary",
+      "topic": "D",
+      "statement": "STIGA:s originalreservdelskatalog för Villa HST 2011/2012 listar transaxel 1134-7766-01 som Kanzaki K46CJ i transmissionsdiagram 1157G för modellgrupp 2729, vilken omfattar produktnummer 13-2729-15 och FR-versionen 13-2729-35.",
+      "variant": "13-2729-15 och 13-2729-35, originalkatalog 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "PDF s. 27 (0-baserad P26), transmissionsförteckning figur 1157G, position 23; omslag PDF s. 1"
     }
   ],
   "gaps": [
