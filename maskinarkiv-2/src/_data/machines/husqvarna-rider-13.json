@@ -66,6 +66,10 @@
         {
           "type": "html",
           "html": "\n"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Så hittar du rätt originalmanual</h3><p>Husqvarnas supportsida för Rider 13C låter dig välja artikelnummer. Utgå från maskinens skylt, inte enbart årsmodell som säljaren uppgett. Skriv även av motorns Model, Type och Code. Ett klippaggregat kan ha bytts under maskinens livstid och måste därför identifieras separat.</p><div class=\"park-info\"><b>Fotografera fem saker</b>Maskinens typskylt, hela maskinen, motorns märkning, klippaggregatet med infästning och eventuellt transmissionsmärke. Ange också vad du vill reparera eller köpa.</div>"
         }
       ]
     },
@@ -142,6 +146,10 @@
         {
           "type": "html",
           "html": "\n<h3>Bogsering och frikoppling</h3>\n<p>Husqvarnas manual för hydrostatmaskiner anger att maskinen bara bör bogseras korta sträckor och i låg fart, eftersom transmissionen annars kan skadas. Drivningen ska frikopplas vid bogsering.</p>\n"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Varför blir drivningen svag när den är varm?</h3><p>Det är ett symptom – inte en säker diagnos. En mekaniskt sliten drivrem eller felaktig frikoppling kan ge liknande upplevelse som en hydrostat med problem. Observera drivningen både kall och varm på säker plan mark, notera om framåt/back påverkas lika mycket och om problemet ökar vid belastning. Kontrollera synliga remskador och kylflänsarnas renhet först med motorn avstängd.</p><p>Husqvarnas verkstadshandbok har särskilda avsnitt för kontroll av transmissionsreglage, neutralläge, luftning och transmissionsunderhåll. Detta är arbete som förutsätter rätt version och verkstadskompetens. Ta inte oljemängd eller procedur från en annan Rider-generation.</p>"
         }
       ]
     },
@@ -154,6 +162,10 @@
         {
           "type": "html",
           "html": "\n<p class=\"lead\">Klippaggregatet är en av de tydligaste ledtrådarna till vilken Rider 13 man har.</p>\n<table class=\"compare\">\n<thead><tr><th>Variant</th><th>Dokumenterat aggregat</th><th>Princip</th></tr></thead>\n<tbody>\n<tr><td>Rider 13</td><td>85 cm</td><td>Bakutkast</td></tr>\n<tr><td>Rider 13 Bio/BioClip</td><td>90 cm</td><td>BioClip</td></tr>\n<tr><td>Rider 13 R / R Special</td><td>Ej slutverifierad här</td><td>Kontrollera produktnummer och aggregatets reservdelskatalog</td></tr>\n<tr><td>Rider 13C</td><td>94 cm</td><td>Combi</td></tr>\n</tbody>\n</table>\n<h3>Rider 13C:s Combi-aggregat (dokumenterad version)</h3>\n<p>Husqvarnas senare Rider-manual beskriver Rider 13C med ett 3-knivars Combi-aggregat. Med BioClip-plugg finfördelas gräset för återföring till gräsmattan; utan pluggen arbetar aggregatet som bakutkast.</p>\n<div class=\"specs\">\n<div class=\"spec\"><b>Rider 13C</b><span>3-knivars Combi</span></div>\n<div class=\"spec\"><b>Klipphöjd 965094301</b><span>35–85 mm för Rider 13C, produktnummer 965094301 (officiell produktspecifikation); antal lägen kontrolleras i rätt manual</span></div>\n<div class=\"spec\"><b>Däcktryck</b><span>60 kPa / 0,6 bar</span></div>\n<div class=\"spec\"><b>Grundinställning</b><span>Bakkant ca 2–4 mm högre än framkant i förleveranskontrollen</span></div>\n</div>\n<div class=\"park-info\"><b>Varför klipphöjder kan skilja mellan dokument</b>Husqvarnas officiella produktspecifikation för 965094301 anger 35–85 mm. Andra manualrevisioner kan ange andra värden; tillämpa bara intervall och inställningsanvisningar som hör till din produktversion.</div>\n"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Ojämn klippning – tre olika typer av problem</h3><p><strong>Hela ena sidan blir lägre:</strong> börja med rekommenderat däcktryck och aggregatets parallellitet enligt manualen. <strong>Enstaka ränder:</strong> kontrollera om gräs fastnat och om någon kniv eller knivinfästning är skadad. <strong>Vibrationer och missljud:</strong> stoppa genast maskinen; låt knivarna stanna helt innan någon yttre kontroll. Husqvarnas verkstadshandbok skiljer på aggregatets marktryck, parallellitet, klipphöjd och knivarnas skick.</p><p>Klippbredd säger inte ensam vilken kniv eller rem som passar. Kontrollera även aggregatets modell och sprängskiss.</p>"
         }
       ]
     },
@@ -190,6 +202,10 @@
         {
           "type": "html",
           "html": "\n<p class=\"lead\">Ett uteblivet startförsök behöver inte automatiskt betyda att startmotor eller solenoid är trasig.</p>\n<p>Husqvarnas Rider-manualer beskriver flera säkerhetsbrytare och startvillkor. På senare Rider 13C kontrolleras bland annat parkeringsbroms, neutral-/pedalläge och aggregatets läge.</p>\n<div class=\"system-flow\">\n<div class=\"flow\"><strong>1. Aggregatläge</strong><br><span>Maskinen ska stå i korrekt startläge.</span></div>\n<div class=\"flow\"><strong>2. Hydrostat/pedaler</strong><br><span>Pedalerna ska inte begära fram- eller backdrift.</span></div>\n<div class=\"flow\"><strong>3. Parkeringsbroms</strong><br><span>Säkerhetssystemet använder bromsläget i startlogiken på dokumenterade versioner.</span></div>\n<div class=\"flow\"><strong>4. Sätesfunktion</strong><br><span>Sätets brytare ingår i säkerhetskedjan på dokumenterade Rider-versioner.</span></div>\n</div>\n<div class=\"park-note\"><b>Felsök smart – men koppla inte förbi systemet</b>Om startmotorn inte reagerar är det rimligt att först kontrollera att maskinen står i rätt startläge och att säkerhetsfunktionerna arbetar. Säkerhetsbrytare ska inte permanent förbikopplas.</div>\n"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Viktig säkerhet vid felsökning</h3><p>Startspärren och förarens säkerhetsfunktioner är till för att hindra farlig start eller rörelse. Om något av dem inte fungerar ska maskinen inte tas i bruk. Kontrollera att reglagen står rätt enligt instruktionsboken men brygga aldrig brytare, koppla inte ur skydd eller provkör med osäkrade roterande delar.</p><h3>Bogsering, lutningar och barn</h3><p>På hydrostatmodeller varnar Husqvarna för bogsering mer än korta sträckor och i hög fart eftersom transmissionen kan skadas. Följ den egna manualens sluttning- och körinstruktioner. Håll barn och andra personer borta från klippområdet.</p>"
         }
       ]
     },
@@ -202,6 +218,10 @@
         {
           "type": "html",
           "html": "\n<p class=\"lead\">Följande intervall är exempel ur Husqvarnas senare Rider-manualer, inte ett universellt serviceschema för alla Rider 13. Kontrollera maskinens produktnummer och motorns egen manual innan du använder intervallen.</p>\n<div class=\"use-list\">\n<div class=\"use\"><strong>Före användning</strong>motorolja, kylintag, bränslepumpens luftfilter, styrvajrar, broms, batteri och säkerhetssystem kontrolleras.</div>\n<div class=\"use\"><strong>25 timmar (senare manual)</strong>bland annat motorolja när manualens villkor kräver det, luftfiltrets förfilter, aggregat, däcktryck och smörjpunkter.</div>\n<div class=\"use\"><strong>50 timmar (senare manual)</strong>bland annat parkeringsbroms och gasvajer på dokumenterade C-versioner.</div>\n<div class=\"use\"><strong>100 timmar (senare manual)</strong>luftfilter, bränslefilter och tändstift i den senare manualens serviceschema.</div>\n<div class=\"use\"><strong>Årligen / verkstad</strong>vissa transmissions-, ventil- och bränslesystemkontroller anges som verkstadsarbete.</div>\n</div>\n<h3>Rengöring</h3>\n<p>Husqvarna rekommenderar rengöring direkt efter användning och avråder från högtryckstvätt och ångrengöring. Vattenstrålen ska inte riktas mot elektriska komponenter eller lager.</p>\n<h3>Transmissionens kylning</h3>\n<p>Vissa dokumenterade hydrostatversioner har kontroll av transmissionens kylflänsar och/eller oljenivå i underhållsplanen. Det betyder inte att varje hydrostat ska öppnas eller fyllas på. Gräs och smuts runt kylningen är därför inte bara kosmetiskt.</p>\n<h3>Styrvajrar</h3>\n<p>Vajrarna ska kontrolleras eftersom de kan slacka med tiden. Efter justering ska spänningen kontrolleras igen.</p>\n<div class=\"park-note\"><b>Servicehistorik spelar roll</b>Husqvarna skriver uttryckligen att en väl dokumenterad servicehistorik påverkar maskinens andrahandsvärde. På en äldre Rider är det därför relevant att fråga efter tidigare service och reparationer.</div>\n"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Vilken service ska jag göra först på en okänd begagnad maskin?</h3><p>Börja med modellidentifiering och en visuell säkerhetskontroll. Kontrollera sedan nivå och skick på motorolja, kylintag, luftfilter, bränslesystemets synliga skick, batterianslutningar, styrning, broms, remmar och knivarnas skydd. Serviceintervall, oljeviskositet, tändstift och oljemängd måste tas ur manualen för exakt motor och maskinversion.</p><h3>Förvaring och säsongsstart</h3><p>Originalmanualen har separata avsnitt om vinterförvaring och förberedelser. Rengör maskinen, kontrollera förvaringsråd för bränsle/batteri och gå igenom säkerhetssystem före första klippningen. Om maskinen har stått länge: byt inte blint delar förrän du noterat vad som fungerar.</p>"
         }
       ]
     },
@@ -266,6 +286,10 @@
         {
           "type": "html",
           "html": "\n<p class=\"lead\">Punkterna nedan är praktiska kontrollområden – inte en lista över dokumenterade typfel.</p>\n<p><strong>Identiteten:</strong> börja med att avgöra vilken Rider 13-version det faktiskt är. Det påverkar både värdering och reservdelssökning.</p>\n<p><strong>Hydrostaten:</strong> provkör både kall och varm. Kontrollera att maskinen driver jämnt framåt och bakåt och att den återgår normalt mot neutralläge.</p>\n<p><strong>Styrningen:</strong> kontrollera glapp, styrvajrar och rörelsen genom hela styrutslaget.</p>\n<p><strong>Mittleden:</strong> kontrollera onormalt glapp eller rörelse där maskinens två huvuddelar arbetar mot varandra.</p>\n<p><strong>Klippaggregatet:</strong> kontrollera remmar, knivar, lager, infästningar, stödhjul och tecken på kraftiga kollisioner eller svetsning.</p>\n<p><strong>Säkerhetssystem:</strong> brytare och säkerhetsfunktioner ska fungera – inte vara permanent förbikopplade.</p>\n<p><strong>Servicehistorik:</strong> oljebyten, filter, styrjustering och övrig dokumenterad skötsel är värdefull information på en äldre Rider.</p>\n<div class=\"park-note\"><b>En maskin kan vara “Rider 13” men ändå vara fel maskin för dina delar</b>Särskilt hydrostat och klippaggregat gör att versionsidentifieringen bör ske före köp av dyrare reservdelar.</div>\n"
+        },
+        {
+          "type": "html",
+          "html": "<h3>Provkörningsprotokoll för köpare</h3><div class=\"table-scroll\"><table><thead><tr><th>Kontroll</th><th>Vad du noterar</th></tr></thead><tbody><tr><td>Kallstart</td><td>Startvillkor, starttid, rök och ovanliga ljud</td></tr><tr><td>Varmkörning</td><td>Om motorn går jämnt och startar om normalt</td></tr><tr><td>Drivning</td><td>Framåt, bakåt, neutral och beteende efter uppvärmning</td></tr><tr><td>Styrning</td><td>Glapp, styrvajrar och midjeledens rörelse</td></tr><tr><td>Aggregat</td><td>Knivljud, remdrift, skador och jämnt klippresultat</td></tr><tr><td>Säkerhet</td><td>Att samtliga brytare och bromsar fungerar enligt manualen</td></tr><tr><td>Identitet</td><td>Produktnummer och motornummer stämmer med säljarens uppgifter</td></tr></tbody></table></div><p>Detta är praktiska kontrollpunkter och ingen garanti att en begagnad maskin är felfri.</p>"
         }
       ]
     },
@@ -416,6 +440,16 @@
       "title": "Reservdelshandlare – Rider 13 (kompletterande)",
       "description": "Sekundärkälla som visar olika katalogrevisioner och uppmanar till transmissionsidentifiering; ersätter inte originalkatalog.",
       "url": "https://www.xn--grsklipparbutiken-rqb.se/sv/gb/reservdelar-grasklippare/reservdelar-husqvarna-rider/reservdelar-rider-13"
+    },
+    {
+      "title": "Husqvarna – verkstadshandbok Rider 11/13/13 Bio/16",
+      "description": "Kompletterande verkstadsdokumentation för transmissionsreglage, styrvajrar, aggregatjustering, säkerhetssystem och reservdelsrelevanta kontroller. Riktar sig till verkstadspersonal; uppgifter måste versionsmatchas.",
+      "url": "https://www.manualslib.com/manual/716829/Husqvarna-Rider-13.html"
+    },
+    {
+      "title": "Husqvarna Rider 13C – supportsida och dokumentväljare",
+      "description": "Välj maskinens artikelnummer för att visa tillhörande manualer, tillbehör och serviceuppgifter.",
+      "url": "https://www.husqvarna.com/uk/support/ride-on-mower/rider-13c/"
     }
   ],
   "sourceHeading": "Källor och manualer",
