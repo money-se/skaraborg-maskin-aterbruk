@@ -223,8 +223,8 @@
     },
     "F": {
       "name": "Reglage",
-      "state": "gap",
-      "note": "STIGA:s originalmanual 8211-0038-90 har kapitel om reglage, men forskningsregistret saknar ännu versionsbundet A/B-påstående med granskat avsnitt. Tidigare status 'verified' var inte förenlig med release-kontrollens spårbarhetskrav."
+      "state": "verified",
+      "note": "Originalmanual 8211-0038-90 §§5.4.2–5.4.8 ger A-belägg för hydrostatpedal, broms, PTO och frikopplingsspak. Ingen extrapolering till avvikande reglageversioner."
     },
     "G": {
       "name": "Säkerhetssystem",
@@ -239,7 +239,7 @@
     "I": {
       "name": "Tillbehör och användning",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Manualen §6 ger A-belägg för användningskategorier samt draganordningens gränser i just denna manualutgåva. Exakta godkända fäst- och remkombinationer för fem produktnummer är fortfarande öppna."
     },
     "J": {
       "name": "Underhåll",
@@ -254,12 +254,12 @@
     "L": {
       "name": "Begagnat och köpråd",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Köpråd har nu A-källspår för kontrollpunkter från §7.3.1, men redaktionella värde-/prisbedömningar och variantfel måste skiljas från manualens säkerhetskontroller."
     },
     "M": {
       "name": "Vanliga frågor",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Två FAQ-svar har A-källspår till säkerhetsvillkor och PTO/transportläge (§§7.3.2, 5.4.7), men fullständig versionsbunden FAQ-granskning återstår."
     }
   },
   "claims": [
@@ -622,6 +622,69 @@
       "grade": "B",
       "sourceId": "stiga-villa-85-combi-manual-10",
       "locator": "Engelskt avsnitt 3.1, tryckt sida 31, figurer 3, 5, 11, 13, 16; jämför 8211-7000-80 engelskt avsnitt 3.1 tryckt sida 32"
+    },
+    {
+      "id": "controls-hydro-pedal-original-manual",
+      "topic": "F",
+      "statement": "Manual 8211-0038-90 beskriver drivning/färdbroms (8:D) som steglöst manövrerad med pedal framåt för framfart, bakåt för backning och återgång till obelastat läge för stopp; kopplings-/parkeringsbromspedal (8:B) och parkeringsbromsspärr (8:C) är separata reglage.",
+      "variant": "STIGA Villa 12 HST enligt bruksanvisning 8211-0038-90; kontrollera maskinversion och reglagemärkning",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 5.4.2–5.4.4, tryckt s. 11, fig. 8:B–D"
+    },
+    {
+      "id": "controls-pto-bypass-original-manual",
+      "topic": "F",
+      "statement": "Manualen skiljer mellan PTO-spak (9:E), som inte får kopplas in med frontredskap i transportläge, och transmissionens urkopplingsspak (10:K), som kan användas för handförflyttning utan motordrift; manualen avråder från snabb/lång bogsering.",
+      "variant": "STIGA Villa 12 HST enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 5.4.7–5.4.8, tryckt s. 12"
+    },
+    {
+      "id": "accessories-uses-list-manual",
+      "topic": "I",
+      "statement": "Originalmanualens användningsavsnitt nämner 85 C-klippaggregat, sopaggregat, snöblad, bogserade uppsamlare 30 eller 42 tum och Combi-transportkärra som exempel på STIGA-originaltillbehör. Listan visar produktkategorier men bekräftar inte fäst- eller remkompatibilitet för varje produktversion.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90; inte allversioners kompatibilitetsmatris",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 6 Användningsområden, tryckt s. 12"
+    },
+    {
+      "id": "accessories-draw-limits-manual",
+      "topic": "I",
+      "statement": "I avsnitt 6 anger manualen 100 N maximal vertikal belastning på draganordningen samt 500 N maximal påskjutskraft för bogserade tillbehör. Värdena är knutna till manualutgåvan och ska inte generaliseras utan maskinidentitet.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 6 Användningsområden, tryckt s. 12"
+    },
+    {
+      "id": "buyer-check-from-safety-inspection",
+      "topic": "L",
+      "statement": "Originalmanualens säkerhetskontroll före körning omfattar läckage i bränsle/olja, skadad elisolering, onormalt ljud/vibrationer och att drivpedalens släpp ger stopp. Dessa är källbelagda inspektionsmoment som kan föreslås vid provkörning av begagnad maskin; slutsatsen om köpduglighet är eget råd.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90; köpråd är redaktionell tillämpning",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 7.3.1 Allmän säkerhetskontroll, tryckt s. 13"
+    },
+    {
+      "id": "faq-no-start-pto-brake-conditions",
+      "topic": "M",
+      "statement": "Manualens elektriska säkerhetstabell beskriver att motorn inte ska starta när koppling/broms inte är nedtryckt eller när PTO är aktiverat. Detta stöder ett svar på FAQ-frågan 'Varför startar inte maskinen?' på kontrollnivå, utan att säkerhetsbrytare förbikopplas.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90; felsökning av startvillkor",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 7.3.2 Elektrisk säkerhetskontroll, tryckt s. 13"
+    },
+    {
+      "id": "faq-pto-transport-warning",
+      "topic": "M",
+      "statement": "Manualen förbjuder inkoppling av PTO när frontmonterat tillbehör är i transportläge eftersom remtransmissionen kan skadas. Detta är ett källbelagt svar på FAQ-frågan 'Kan jag starta klippaggregatet upplyft?'",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 5.4.7 Kraftuttag, tryckt s. 12"
     }
   ],
   "gaps": [
