@@ -74,6 +74,27 @@
       "title": "Villa 12 HST 13-2729-35 Power Take-off parts diagram",
       "document": "13-2729-35 Power Take-off assembly",
       "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/power-take-off"
+    },
+    {
+      "id": "stiga-original-85combi-2011",
+      "tier": 1,
+      "title": "STIGA original reservdelskatalog Villa mower deck 85 Combi 2011/2012",
+      "document": "13-2960-14; PDF 2011-11",
+      "url": "https://view.stiga-store.com/files/SSPL2011_20110214_Mower_deck_Villa_85C-2-.pdf"
+    },
+    {
+      "id": "worldofmowers-2729-14",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-14 2010 assembly catalog",
+      "document": "13-2729-14",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/front-mowers/base-machine/2010/villa-12-hst-13-2729-14"
+    },
+    {
+      "id": "worldofmowers-2729-15-engine",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-15 2012 engine assembly",
+      "document": "13-2729-15 engine",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2012/villa-12-hst-13-2729-15/engine"
     }
   ],
   "topics": {
@@ -251,6 +272,33 @@
       "grade": "B",
       "sourceId": "worldofmowers-2729-35-pto",
       "locator": "Power Take-off assembly, ref 017"
+    },
+    {
+      "id": "deck-2960-14",
+      "topic": "H",
+      "statement": "Originalreservdelskatalogen från STIGA identifierar klippaggregat 85 Combi som 13-2960-14 för modellår 2011/2012, separat från själva Villa-maskinens produktnummer.",
+      "variant": "Klippaggregat 13-2960-14 (2011/2012)",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Omslag samt ram-/reglagesidor; utgåva 2011-11, 85 COMBI 2960-14"
+    },
+    {
+      "id": "deck-manual-sku",
+      "topic": "H",
+      "statement": "STIGA:s reservdelskatalog listar 8211-7000-10 som bruksanvisning till det dokumenterade 85 Combi-aggregatet.",
+      "variant": "Klippaggregat 13-2960-14 (2011/2012)",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Ramdelsförteckning, position 99"
+    },
+    {
+      "id": "trans-diagram-2729-14",
+      "topic": "D",
+      "statement": "Reservdelskatalogen för Villa 12 HST 13-2729-14 har en särskild sprängskissesektion kallad Kanzaki Transaxle K46CJ.",
+      "variant": "13-2729-14",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-14",
+      "locator": "Assembly list, Kanzaki Transaxle K46Cj (S/N 0000001 - )"
     }
   ],
   "gaps": [
@@ -261,6 +309,8 @@
     "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem.",
     "Femte reservdelsvarianten 13-2729-35 behöver granskas för motor, drivning och aggregat innan versionskapitlet skrivs om.",
     "Motoroljebyte 5/50 timmar, tändstift RC12YC och 0,75 mm finns i maskinmanualen men måste kopplas till korrekt motorvariant innan de presenteras universellt.",
-    "Kontrollera om transaxel 1134-7766-01 (K46 CJ), styrwire 1134-9154-01 och PTO-rem 1134-9079-01 också förekommer på andra produktnummer; dessa tre uppgifter är endast dokumenterade här för 13-2729-35."
+    "Kontrollera om transaxel 1134-7766-01 (K46 CJ), styrwire 1134-9154-01 och PTO-rem 1134-9079-01 också förekommer på andra produktnummer; dessa tre uppgifter är endast dokumenterade här för 13-2729-35.",
+    "Kontrollera exakt vilka Villa 12 HST-produktnummer som godkänner 85 Combi 13-2960-14, utöver att den separata originalkatalogen tillhör READY/VILLA-plattformen.",
+    "Exakt B&S motorkod för 13-2729-35 kvarstår trots publicerade motor-sprängskisser; fästdelar i motorkapitlet bevisar inte modellkod."
   ]
 }
