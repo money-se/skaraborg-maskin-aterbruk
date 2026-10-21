@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "slug": "stiga-villa-12-hst",
-  "status": "needs_research",
+  "status": "scoped_ready",
   "reviewDate": "2026-10-21",
   "scope": "Forskningsstatus för befintlig Villa 12 HST-sida. Inte samma sak som designstatus.",
   "sources": [
@@ -46,28 +46,210 @@
       "title": "Villa 12 HST reservdelskatalog 13-2729-15",
       "document": "13-2729-15",
       "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/"
+    },
+    {
+      "id": "partsharp-villa-list",
+      "tier": 2,
+      "title": "Partsharp produktversioner Villa 12 HST (fem kataloger)",
+      "document": "Villa 12 HST product diagrams",
+      "url": "https://www.partsharp.com/spare-parts/stiga/villa/24d21ec5-b48b-49e6-a531/22eb499c-c519-4459-b929.aspx"
+    },
+    {
+      "id": "worldofmowers-2729-35-transmission",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 transmission parts diagram",
+      "document": "13-2729-35 Transmission assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/transmission"
+    },
+    {
+      "id": "worldofmowers-2729-35-steering",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 steering parts diagram",
+      "document": "13-2729-35 Steering assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/steering"
+    },
+    {
+      "id": "worldofmowers-2729-35-pto",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-35 Power Take-off parts diagram",
+      "document": "13-2729-35 Power Take-off assembly",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2011/villa-12-hst-13-2729-35/power-take-off"
+    },
+    {
+      "id": "stiga-original-85combi-2011",
+      "tier": 1,
+      "title": "STIGA original reservdelskatalog Villa mower deck 85 Combi 2011/2012",
+      "document": "13-2960-14; PDF 2011-11",
+      "url": "https://view.stiga-store.com/files/SSPL2011_20110214_Mower_deck_Villa_85C-2-.pdf"
+    },
+    {
+      "id": "worldofmowers-2729-14",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-14 2010 assembly catalog",
+      "document": "13-2729-14",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/front-mowers/base-machine/2010/villa-12-hst-13-2729-14"
+    },
+    {
+      "id": "worldofmowers-2729-15-engine",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2729-15 2012 engine assembly",
+      "document": "13-2729-15 engine",
+      "url": "https://www.worldofmowers.co.uk/stiga-spare-parts/stiga-front-mowers/base-machine/2012/villa-12-hst-13-2729-15/engine"
+    },
+    {
+      "id": "stiga-2009-front-original",
+      "tier": 1,
+      "title": "STIGA Frontklippare 2009 reservdelskatalog",
+      "document": "8211-3401-09, utgåva 2009-11",
+      "url": "https://ersatzteil-shop24.de/bilder/zeichnungen/ggp_o_st/Stiga/Aufsitzm%C3%A4her/Stiga%20Front%20Mowers%202009_Park.pdf"
+    },
+    {
+      "id": "stiga-2011-villa-hst-original",
+      "tier": 1,
+      "title": "STIGA Villa HST original parts catalogue 2011/2012",
+      "document": "Villa HST, issue 2011-11",
+      "url": "https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf"
+    },
+    {
+      "id": "sgarden-2727-14-engine",
+      "tier": 2,
+      "title": "Villa 12 HST 13-2727-14 Engine parts list",
+      "document": "13-2727-14 engine assembly",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/130703/Engine"
+    },
+    {
+      "id": "diy-2729-14-k46-parts",
+      "tier": 2,
+      "title": "Stiga Villa 12 HST 13-2729-14 transaxle parts breakdown",
+      "document": "2010 13-2729-14 transmission assembly",
+      "url": "https://diyspareparts.com/parts/stiga/diagrams/ef210c92-4bd7-4f68-9185/b9c82e35-2c21-4769-a4a7"
+    },
+    {
+      "id": "sandby-2729-14-engine",
+      "tier": 2,
+      "title": "Sandby Smedie 13-2729-14 technical identification",
+      "document": "13-2729-14 2010",
+      "url": "https://www.sandbysmeden.dk/13-2729-14-stiga-villa-12-hst-2010-2/"
+    },
+    {
+      "id": "sandby-2729-15-engine",
+      "tier": 2,
+      "title": "Sandby Smedie 13-2729-15 technical identification",
+      "document": "13-2729-15 2011–2012",
+      "url": "https://www.sandbysmeden.dk/13-2729-15-stiga-villa-12-hst-2011-2/"
+    },
+    {
+      "id": "briggs-official-identification",
+      "tier": 1,
+      "title": "Briggs & Stratton – Locate Your Model Number",
+      "document": "B&S official manufacturer guide to Model / Type / Code",
+      "url": "https://www.briggsandstratton.com/en-us/support/need-help"
+    },
+    {
+      "id": "briggs-official-lookup",
+      "tier": 1,
+      "title": "Briggs & Stratton – Find Manual & Parts List",
+      "document": "B&S official engine manual locator",
+      "url": "https://www.briggsandstratton.com/en-us/support/manuals?hl=en_US"
+    },
+    {
+      "id": "briggs-engine-number-key",
+      "tier": 1,
+      "title": "Briggs & Stratton ENGINE MODEL NUMBER KEY 16-1",
+      "document": "MS4185 revised 2015-12",
+      "url": "https://www.briggsandstratton.com/content/dam/briggsandstratton/na/en_us/Files/FAQs/2016_MS4185.pdf"
+    },
+    {
+      "id": "diy-fr-2011-engine",
+      "tier": 2,
+      "title": "13-2729-35 engine exploded diagram (fasteners/engine installation)",
+      "document": "FR 13-2729-35, Engine_0",
+      "url": "https://diyspareparts.com/parts/stiga/diagrams/5d48750b-f87b-4a49-9901/ef381743-aeb1-4b3e-aba6"
+    },
+    {
+      "id": "diy-2729-15-transmission",
+      "tier": 2,
+      "title": "13-2729-15 transmission diagram",
+      "document": "13-2729-15 Transmission_0",
+      "url": "https://www.diyspareparts.com/parts/stiga/diagrams/79dc6baa-857f-459f-8861/97c910b4-245a-418f-924e/"
+    },
+    {
+      "id": "stiga-original-2010-villa-hst",
+      "tier": 1,
+      "title": "STIGA Villa HST original reservdelskatalog 2010",
+      "document": "8211-3401-10, katalogutgåva 2010-11",
+      "url": "https://view.stiga-store.com/files/SSPL2010_20100208_Villa_HST.pdf"
+    },
+    {
+      "id": "villa-85combi-install-manual-ed80",
+      "tier": 2,
+      "title": "STIGA Villa/Ready 85 Combi installation instructions – later manual edition",
+      "document": "8211-7000-80, Montage 3.1 (different revision than 8211-7000-10)",
+      "url": "https://www.manualslib.com/manual/1275367/Stiga-Park-85-Combi.html?page=32"
+    },
+    {
+      "id": "stiga-villa-85-combi-manual-10",
+      "tier": 1,
+      "title": "STIGA Villa 85 Combi manual 8211-7000-10, mounting instructions",
+      "document": "8211-7000-10",
+      "url": "https://manualzz.com/doc/en/html/51842571/stiga-villa-85-combi-cutting-deck-instructions-for-use"
+    },
+    {
+      "id": "tufftorq-k46cj-internal-oil",
+      "tier": 1,
+      "title": "Tuff Torq residential IHT internal reservoir oil maintenance",
+      "document": "Tuff Torq official technical bulletin, explicitly lists K46CJ",
+      "url": "https://www.tufftorq.com/tuff-torq-transaxle-oil-service/"
+    },
+    {
+      "id": "tufftorq-faq-id",
+      "tier": 1,
+      "title": "Tuff Torq official FAQ – transaxle serial number and configuration caution",
+      "document": "Tuff Torq FAQ, serial-based identification and oil replacement",
+      "url": "https://www.tufftorq.com/faq/"
+    },
+    {
+      "id": "stiga-2015-85combi-15",
+      "tier": 1,
+      "title": "STIGA Deck Villa 85 Combi 13-2960-15 original parts catalogue",
+      "document": "2014 issue 1, Season 2015",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_Deck_Villa_85_Combi_13-2960-15_14_SV-EN.pdf"
+    },
+    {
+      "id": "retailer-85combi-2023-compatibility",
+      "tier": 2,
+      "title": "ReservdelarOnline complete later Stiga Villa 85 Combi deck compatibility",
+      "document": "387561538/0; replacement 2D2708511/S16, general Villa after 2005",
+      "url": "https://www.reservdelaronline.se/produkter/klippaggregat-villa-85-combi"
+    },
+    {
+      "id": "hobbystore-villa-all-models",
+      "tier": 2,
+      "title": "Villa 12 HST machine PNC and year index",
+      "document": "Hobbystore original spare-part catalogue index, 2009–2012 including FR",
+      "url": "https://hobbystore.it/ricambi-trattorini-trattorini-piattofrontale-stiga-villa12"
     }
   ],
   "topics": {
     "A": {
       "name": "Identitet och produktversioner",
-      "state": "verified",
-      "note": "Fyra katalogidentifierare finns, men produktnummer till faktisk motor/transmission är ännu inte spårade genom original-IPL."
+      "state": "gap",
+      "note": "Fem maskinproduktnummer identifierade; STIGA 2011 original belägger FR-utförande med separat fransk ägarmanual och särskild karossgrupp. Fullständig variant-/komponentmappning samt 2010-suffixkontroll återstår. 2010 års ursprungskatalog har redan kontrollerats för grupperna 2727 och 2729, men komplett suffix-/revisionsbindning kvarstår. En oberoende reservdelslista räknar upp samtliga fem maskin-PNC med år 2009–2012 (klass B)."
     },
     "B": {
       "name": "Grundkonstruktion",
       "state": "verified",
-      "note": "Maskinens konstruktion beskriven i STIGA-manual 8211-0038-90."
+      "note": "STIGA-originalkatalog 2011/12 dokumenterar egna FR-karossidor och fästen i figur 2819. Skillnaden styrker FR-marknadsutförandet, men motordata, hydrostatservice och samtliga komponenter ska inte förutsättas olika."
     },
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Primärkatalog 2010 (8211-3401-10) visar GGP WM 12,5 på kataloggrupp 2727 och B&S på grupp 2729; 2011 original visar B&S för senare grupper. Fullständiga Briggs Model/Type/Code saknas fortfarande."
     },
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "STIGA 2010/2011 A-belägger K46CJ 1134-7766-01 i angivna grupper. Tuff Torqs officiella interna-behållaranvisning namnger uttryckligen K46CJ och normalt livslång/ingen rutinservice, med oljeserviceinstruktion vid behov. OEM-konfiguration, etikett och servicegränser per maskin är fortfarande inte individuellt kontrollerade."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -77,7 +259,7 @@
     "F": {
       "name": "Reglage",
       "state": "verified",
-      "note": "Manuella reglage beskrivs i STIGA-manual 8211-0038-90."
+      "note": "Originalmanual 8211-0038-90 §§5.4.2–5.4.8 ger A-belägg för hydrostatpedal, broms, PTO och frikopplingsspak. Ingen extrapolering till avvikande reglageversioner."
     },
     "G": {
       "name": "Säkerhetssystem",
@@ -87,12 +269,12 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Jämförelse mellan manualutgåva -10 och -80 visar samma Villa/Ready-princip för fasta fästen och inre remspännare, men skiljer i arbetsgång för remkåpa och remstyrning. Specifik basmaskin-/aggregatkombination ej fortfarande verifierad. Manualutgåvorna -10 och -80 är jämförda; skillnaden i remkåpa/remstyrningssteg är dokumenterad och ska visas som editionsskillnad, inte behandlas som obesvarad jämförelse. Ny STIGA primärpartslista styrker även deck 13-2960-15 säsong 2015. Återförsäljare listar senare aggregat 387561538/0 till Villa efter 2005, men inga exakta kopplingar till alla fem äldre 13-27xx-revisioner eller monteringskit är originalverifierade. STIGA:s originalmaskinmanual §6 bekräftar 85 C som avsett klippaggregat på manualnivå, men inte vilket av aggregatens revisions-PNC som passar varje basmaskin."
     },
     "I": {
       "name": "Tillbehör och användning",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Manualen §6 ger A-belägg för användningskategorier samt draganordningens gränser i just denna manualutgåva. Exakta godkända fäst- och remkombinationer för fem produktnummer är fortfarande öppna."
     },
     "J": {
       "name": "Underhåll",
@@ -102,17 +284,17 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "STIGA-kataloger och aggregatkatalog styrker vissa reservdelsnummer. Tuff Torq rekommenderar att dess egen transaxelserie identifieras via enhetens serienummeretikett; den skrivna modelluppgiften i maskinmanualen räcker inte för individuell delbeställning."
     },
     "L": {
       "name": "Begagnat och köpråd",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Köpråd har nu A-källspår för kontrollpunkter från §7.3.1, men redaktionella värde-/prisbedömningar och variantfel måste skiljas från manualens säkerhetskontroller."
     },
     "M": {
       "name": "Vanliga frågor",
       "state": "gap",
-      "note": "Delvis behandlat på webbsidan men inte fullt verifierat för varianter, värden och artikelnummer i forskningsprotokollet."
+      "note": "Två FAQ-svar har A-källspår till säkerhetsvillkor och PTO/transportläge (§§7.3.2, 5.4.7), men fullständig versionsbunden FAQ-granskning återstår."
     }
   },
   "claims": [
@@ -133,6 +315,465 @@
       "sourceId": "stiga-combi-om",
       "locator": "Omslag och tabell för maskinplattformar",
       "topic": "H"
+    },
+    {
+      "id": "variant-35",
+      "topic": "A",
+      "statement": "Reservdelskatalog för Villa 12 HST 13-2729-35, 2011–2012, finns listad utöver de fyra versioner som artikeln tar upp.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "partsharp-villa-list",
+      "locator": "List of available diagrams, parts diagram 5"
+    },
+    {
+      "id": "slope-10",
+      "topic": "G",
+      "statement": "Bruksanvisningen anger maximal körlutning 10 grader med monterade originaltillbehör.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska säkerhetsföreskrifter avsnitt 2.3, även varningssymboler avsnitt 1.1"
+    },
+    {
+      "id": "safety-bypass",
+      "topic": "G",
+      "statement": "Säkerhetsanordningar får inte kopplas bort och ska kontrolleras före varje användning.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska säkerhetsföreskrifter avsnitt 2.3"
+    },
+    {
+      "id": "oil-service",
+      "topic": "J",
+      "statement": "Manualen anger motoroljebyte första gången efter 5 timmar, sedan var 50:e timme eller en gång per säsong, oftare vid hård belastning/hög temperatur.",
+      "variant": "Motorutförande omfattat av maskinmanual 8211-0038-90; verifiera motorns egen identitet",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.4 Byte av motorolja"
+    },
+    {
+      "id": "steering-check",
+      "topic": "E",
+      "statement": "Styrningen ska kontrolleras/justeras efter 5 timmars drift och var 25:e drifttimme.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.7 Styrning"
+    },
+    {
+      "id": "tire-pressure",
+      "topic": "B",
+      "statement": "Manualen anger 0,4 bar (6 psi) fram och 1,2 bar (17 psi) bak.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.3 Däcktryck"
+    },
+    {
+      "id": "spark-plug",
+      "topic": "C",
+      "statement": "Manualen anger Champion RC12YC eller likvärdigt med elektrodavstånd 0,75 mm; får inte förutsättas för andra motorutföranden.",
+      "variant": "Motorutförande omfattat av maskinmanual 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.10 Tändstift"
+    },
+    {
+      "id": "k46-2729-35",
+      "topic": "D",
+      "statement": "Reservdelskatalog för produktnummer 13-2729-35 listar transaxel 1134-7766-01 med beteckningen K46 CJ.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-35-transmission",
+      "locator": "Transmission assembly, parts list, ref 001"
+    },
+    {
+      "id": "steering-cable-2729-35",
+      "topic": "E",
+      "statement": "Reservdelskatalog för 13-2729-35 listar styrwire 1134-9154-01.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-35-steering",
+      "locator": "Steering assembly, ref 006"
+    },
+    {
+      "id": "pto-belt-2729-35",
+      "topic": "K",
+      "statement": "Reservdelskatalog för 13-2729-35 listar drivrem 1134-9079-01 i power take-off.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-35-pto",
+      "locator": "Power Take-off assembly, ref 017"
+    },
+    {
+      "id": "deck-2960-14",
+      "topic": "H",
+      "statement": "Originalreservdelskatalogen från STIGA identifierar klippaggregat 85 Combi som 13-2960-14 för modellår 2011/2012, separat från själva Villa-maskinens produktnummer.",
+      "variant": "Klippaggregat 13-2960-14 (2011/2012)",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Omslag samt ram-/reglagesidor; utgåva 2011-11, 85 COMBI 2960-14"
+    },
+    {
+      "id": "deck-manual-sku",
+      "topic": "H",
+      "statement": "STIGA:s reservdelskatalog listar 8211-7000-10 som bruksanvisning till det dokumenterade 85 Combi-aggregatet.",
+      "variant": "Klippaggregat 13-2960-14 (2011/2012)",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Ramdelsförteckning, position 99"
+    },
+    {
+      "id": "trans-diagram-2729-14",
+      "topic": "D",
+      "statement": "Reservdelskatalogen för Villa 12 HST 13-2729-14 har en särskild sprängskissesektion kallad Kanzaki Transaxle K46CJ.",
+      "variant": "13-2729-14",
+      "grade": "B",
+      "sourceId": "worldofmowers-2729-14",
+      "locator": "Assembly list, Kanzaki Transaxle K46Cj (S/N 0000001 - )"
+    },
+    {
+      "id": "manufacturer-2009-wm125",
+      "topic": "C",
+      "statement": "STIGA:s egen sortimentslista för 2009 anger 13-2727-13 Villa 12 HST med GGP WM 12,5 och bränslepump.",
+      "variant": "13-2727-13 (2009)",
+      "grade": "A",
+      "sourceId": "stiga-2009-front-original",
+      "locator": "F-3 produktöversikt, PDF sida 4 (index 3), rad 13-2727-13"
+    },
+    {
+      "id": "manufacturer-fr-2011",
+      "topic": "A",
+      "statement": "STIGA:s originalkatalog 2011/2012 identifierar 13-2729-35 uttryckligen som Villa 12 HST (FR), medan 13-2729-15 anges som Villa 12 HST.",
+      "variant": "13-2729-35 kontra 13-2729-15, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Omslag PDF sida 1, modellförteckningen"
+    },
+    {
+      "id": "manufacturer-2009-deck",
+      "topic": "H",
+      "statement": "STIGA:s sortiment 2009 omfattar aggregatet 85 Combi med produktnummer 13-2960-13 separat från maskinens 13-2727-13.",
+      "variant": "85 Combi 13-2960-13, sortiment 2009",
+      "grade": "A",
+      "sourceId": "stiga-2009-front-original",
+      "locator": "F-3 produktöversikt, PDF sida 4 (index 3), rad 13-2960-13"
+    },
+    {
+      "id": "dealer-2010-engine-wm",
+      "topic": "C",
+      "statement": "Motorsprängskiss för Villa 12 HST 13-2727-14 anger Engine Assembled GGP WM 12,5 med artikelnummer 1134-9500-01.",
+      "variant": "13-2727-14 (2010)",
+      "grade": "B",
+      "sourceId": "sgarden-2727-14-engine",
+      "locator": "Engine parts list, position 99"
+    },
+    {
+      "id": "bs-2011-normal-fr",
+      "topic": "C",
+      "statement": "STIGA:s originalreservdelskatalog grupperar både produktnummer 13-2729-15 och 13-2729-35 under motoravsnittet märkt B&S (Briggs & Stratton). Tabellen styrker fabrikatet, men inte fullständig Model/Type/Code.",
+      "variant": "13-2729-15 och 13-2729-35 (FR), 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Reservdelskatalog utgåva 2011-11, MOTOR / ENGINE (B&S), bildnummer 1651C, tryckt s. 24, PDF s. 23 (nollbaserat index 22)"
+    },
+    {
+      "id": "k46-2010-direct-part",
+      "topic": "D",
+      "statement": "Reservdelslistan för 13-2729-14 visar transaxel K46 CJ som artikel 1134-7766-01, vilket även finns registrerat för 13-2729-35. Gemensamt delnummer i katalog är inte bevis att alla delsystem och tillbehör är identiska.",
+      "variant": "13-2729-14 (2010)",
+      "grade": "B",
+      "sourceId": "diy-2729-14-k46-parts",
+      "locator": "Transmission parts diagram, position 1"
+    },
+    {
+      "id": "2010-expected-21r502",
+      "topic": "C",
+      "statement": "Återförsäljaren anger Briggs & Stratton Powerbuilt 3130 AVS 21R502 som förväntad motor för 13-2729-14; uppgiften är uttryckligen inte fabrikskodsverifiering.",
+      "variant": "13-2729-14 (2010)",
+      "grade": "C",
+      "sourceId": "sandby-2729-14-engine",
+      "locator": "Tekniske informationer, Forventet model"
+    },
+    {
+      "id": "2011-expected-21r602",
+      "topic": "C",
+      "statement": "Återförsäljaren anger Briggs & Stratton Powerbuilt 3135 AVS 21R602 som förväntad motor för 13-2729-15; uppgiften är uttryckligen inte fabrikskodsverifiering.",
+      "variant": "13-2729-15 (2011–2012)",
+      "grade": "C",
+      "sourceId": "sandby-2729-15-engine",
+      "locator": "Tekniske informationer, Forventet model"
+    },
+    {
+      "id": "briggs-type-code-rule",
+      "topic": "C",
+      "statement": "Briggs & Stratton identifierar motorer med separata Model-, Type- och Code-fält. Type kan skilja mekanisk konfiguration och OEM-anpassning; därför räcker inte endast ett förväntat 21R502/21R602-modellnamn för att garantera rätt reservdelar eller serviceuppgifter.",
+      "variant": "Allmän Briggs & Stratton identifieringsmetod; ej unik Villa-konfiguration",
+      "grade": "A",
+      "sourceId": "briggs-engine-number-key",
+      "locator": "Engine Model Numbering System, TYPE and CODE explanations"
+    },
+    {
+      "id": "briggs-lookup-needs-tag",
+      "topic": "K",
+      "statement": "Briggs & Stratton rekommenderar motoridentifiering via motorns eget modellnummer innan manual och reservdelslista väljs.",
+      "variant": "Generell metod för Briggs & Stratton-motorer",
+      "grade": "A",
+      "sourceId": "briggs-official-lookup",
+      "locator": "Find Your Manual or Parts List – Locate your model number"
+    },
+    {
+      "id": "fr-engine-assembly-not-code",
+      "topic": "C",
+      "statement": "Den publicerade reservdelslistan för FR-varianten 13-2729-35 avser maskinens Engine_0 med installations- och kringdelar. Den redovisade listan ger inte i sig en fullständig Briggs Model/Type/Code.",
+      "variant": "13-2729-35",
+      "grade": "B",
+      "sourceId": "diy-fr-2011-engine",
+      "locator": "Engine_0 exploded diagram and parts table"
+    },
+    {
+      "id": "k46-2011-2729-15",
+      "topic": "D",
+      "statement": "Reservdelskatalogen för produktnummer 13-2729-15 listar transaxel K46 CJ, artikelnummer 1134-7766-01, position 23 i transmissionens sprängskiss.",
+      "variant": "13-2729-15 (2011–2012)",
+      "grade": "B",
+      "sourceId": "diy-2729-15-transmission",
+      "locator": "Transmission_0, position 23"
+    },
+    {
+      "id": "stiga-k46-2011-primary",
+      "topic": "D",
+      "statement": "STIGA:s originalreservdelskatalog för Villa HST 2011/2012 listar transaxel 1134-7766-01 som Kanzaki K46CJ i transmissionsdiagram 1157G för modellgrupp 2729, vilken omfattar produktnummer 13-2729-15 och FR-versionen 13-2729-35.",
+      "variant": "13-2729-15 och 13-2729-35, originalkatalog 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "PDF s. 27 (0-baserad P26), transmissionsförteckning figur 1157G, position 23; omslag PDF s. 1"
+    },
+    {
+      "id": "stiga-2010-ggp2727",
+      "topic": "C",
+      "statement": "STIGA:s originalkatalog 2010 redovisar motoravsnitt MOTOR/ENGINE (GGP) för modellgrupp 2727, och listar motorassembly 118550439/0 som GGP WM 12,5. Kataloggruppen 2727 behöver knytas till fullständigt produktnummer vid reservdelsbeställning.",
+      "variant": "STIGA kataloggrupp 2727, Villa HST 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 21, nollbaserat index 20, MOTOR (GGP), figur 2519, position 99"
+    },
+    {
+      "id": "stiga-2010-bs2729",
+      "topic": "C",
+      "statement": "STIGA:s originalkatalog 2010 redovisar motoravsnitt märkt B&S för modellgrupp 2729. Detta styrker fabrikatskopplingen på gruppnivå men dokumenterar inte fullständigt Briggs Model/Type/Code.",
+      "variant": "STIGA kataloggrupp 2729, Villa HST 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 23, nollbaserat index 22, MOTOR (B&S), figur 1651B"
+    },
+    {
+      "id": "stiga-2010-k46cj",
+      "topic": "D",
+      "statement": "STIGA:s originalkatalog 2010 anger transaxel 1134-7766-01 som Kanzaki K46CJ för kataloggrupperna 2727 och 2729 i samma transmissionsavsnitt. Kontrollera ändå fullständigt maskin-ID innan reservdelsorder.",
+      "variant": "STIGA kataloggrupper 2727 och 2729, Villa HST 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 27, nollbaserat index 26, TRANSMISSION, figur 1157G, position 23"
+    },
+    {
+      "id": "stiga-2010-drivebelt",
+      "topic": "D",
+      "statement": "I 2010 års originalkatalog står transmissionsdrivrem 1134-9064-01 (alternativnummer 9585-0099-01) i transmissionsavsnittet, vilket inte får förväxlas med separat PTO-rem.",
+      "variant": "STIGA Villa HST transmissionsgrupp 2010",
+      "grade": "A",
+      "sourceId": "stiga-original-2010-villa-hst",
+      "locator": "PDF s. 27, nollbaserat index 26, TRANSMISSION figur 1157G, position 17"
+    },
+    {
+      "id": "85combi-2011-independent-blade-parts",
+      "topic": "H",
+      "statement": "STIGA:s originalkatalog för 85 Combi 13-2960-14 anger knivbalkssats 1134-9116-01, knivsats 1134-9119-01 och brytbultsats 1134-9054-01 i aggregatets egen transmissionsdel. Uppgifterna gäller aggregat-ID, inte valfri Villa 12 HST.",
+      "variant": "Klippaggregat 13-2960-14, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Original PDF s. 7, figur 2130A, positionerna 6–8"
+    },
+    {
+      "id": "85combi-2011-belt-parts",
+      "topic": "H",
+      "statement": "STIGA:s originalkatalog för 85 Combi 13-2960-14 anger kuggrem 9585-0161-01, aggregatdrivrem 1134-9109-01 (alternativt 9585-0160-01). Dessa avser klippaggregatets interna transmission, inte maskinens hydrostattransmission.",
+      "variant": "Klippaggregat 13-2960-14, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Original PDF s. 7, figur 2130A, positionerna 34 och 36"
+    },
+    {
+      "id": "85combi-2011-no-fit-assumption",
+      "topic": "K",
+      "statement": "Tillverkarens aggregatkatalog anger att korrekt reservdelslista måste motsvara maskinens tillverkningsår enligt märkplåten. 13-2960-14 är ett aggregatnummer och är inte samma identitet som en Villa 12 HST-basmaskin.",
+      "variant": "Aggregat 13-2960-14, 2011/2012",
+      "grade": "A",
+      "sourceId": "stiga-original-85combi-2011",
+      "locator": "Original PDF omslag, villkor och modellnummer"
+    },
+    {
+      "id": "fr-separate-panels-2011",
+      "topic": "B",
+      "statement": "STIGA har en separat karossritning för fransk marknadsvariant, med egna vänster/höger sidoskydd och fästdetaljer. Detta är en dokumenterad FR-skillnad, men visar inte på annorlunda motor eller hydrostat.",
+      "variant": "13-2729-35 (FR), 2011-katalog",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Originalkatalog PDF s. 7, KAROSS (Frankrike) figur 2819, positionerna 1, 5, 15–18"
+    },
+    {
+      "id": "fr-owner-manual-2011",
+      "topic": "A",
+      "statement": "2011 års STIGA-originalkatalog listar fransk bruksanvisning 8211-0049-10 separat från standardbruksanvisning 8211-0011-10. Detta är dokumentation för marknadsskillnad; inget bevis för skild motor.",
+      "variant": "Villa HST standard kontra FR, 2011",
+      "grade": "A",
+      "sourceId": "stiga-2011-villa-hst-original",
+      "locator": "Originalkatalog PDF s. 3, monteringsdetaljer fig. 2196A, position X 21"
+    },
+    {
+      "id": "deck-mount-method-villa",
+      "topic": "H",
+      "statement": "En senare utgåva av STIGA:s kombiaggregatmanual beskriver Villa/Ready med fasta aggregatfästen, låsring och brickor samt med remspännare på remmens insida. Monteringens utförande måste jämföras med just det aktuella aggregatets manual, eftersom editionsnummer och tidigare fästdetaljer skiljer.",
+      "variant": "Villa/Ready enligt senare aggregatmanual 8211-7000-80; ej visat giltigt för varje Villa 12 HST-produktnummer",
+      "grade": "B",
+      "sourceId": "villa-85combi-install-manual-ed80",
+      "locator": "ManualsLib sida 32, engelsk monteringsanvisning §3.1, figurer 3, 5–8, 11, 13 och 16"
+    },
+    {
+      "id": "deck-washer-older-only",
+      "topic": "H",
+      "statement": "I denna senare manual anges särskild bricka 3:D endast för maskiner till och med 2006, vilket visar att monteringstillbehör varierat genom åren.",
+      "variant": "Villa/Ready-fästen i senare STIGA-manual 8211-7000-80",
+      "grade": "B",
+      "sourceId": "villa-85combi-install-manual-ed80",
+      "locator": "ManualsLib sida 32, §3.1 punkt 2, figur 3:D"
+    },
+    {
+      "id": "deck-10-vs80-fixed-install",
+      "topic": "H",
+      "statement": "Manualutgåvorna 8211-7000-10 och 8211-7000-80 visar båda fasta fästen för Villa/Ready, bricka 3:D endast till och med 2006, remspännare på insidan av remmen som drar mot vänster sett från förarplatsen, samt infästning mot redskapslyften. Montagesekvensen har dock olika steg för remkåpa och remstyrning och ska inte behandlas som identiska instruktioner.",
+      "variant": "Villa/Ready på aggregatplattformsnivå; inte bekräftad fullständig passform för alla Villa 12 HST-maskinnummer",
+      "grade": "B",
+      "sourceId": "stiga-villa-85-combi-manual-10",
+      "locator": "Engelskt avsnitt 3.1, tryckt sida 31, figurer 3, 5, 11, 13, 16; jämför 8211-7000-80 engelskt avsnitt 3.1 tryckt sida 32"
+    },
+    {
+      "id": "controls-hydro-pedal-original-manual",
+      "topic": "F",
+      "statement": "Manual 8211-0038-90 beskriver drivning/färdbroms (8:D) som steglöst manövrerad med pedal framåt för framfart, bakåt för backning och återgång till obelastat läge för stopp; kopplings-/parkeringsbromspedal (8:B) och parkeringsbromsspärr (8:C) är separata reglage.",
+      "variant": "STIGA Villa 12 HST enligt bruksanvisning 8211-0038-90; kontrollera maskinversion och reglagemärkning",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 5.4.2–5.4.4, tryckt s. 11, fig. 8:B–D"
+    },
+    {
+      "id": "controls-pto-bypass-original-manual",
+      "topic": "F",
+      "statement": "Manualen skiljer mellan PTO-spak (9:E), som inte får kopplas in med frontredskap i transportläge, och transmissionens urkopplingsspak (10:K), som kan användas för handförflyttning utan motordrift; manualen avråder från snabb/lång bogsering.",
+      "variant": "STIGA Villa 12 HST enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 5.4.7–5.4.8, tryckt s. 12"
+    },
+    {
+      "id": "accessories-uses-list-manual",
+      "topic": "I",
+      "statement": "Originalmanualens användningsavsnitt nämner 85 C-klippaggregat, sopaggregat, snöblad, bogserade uppsamlare 30 eller 42 tum och Combi-transportkärra som exempel på STIGA-originaltillbehör. Listan visar produktkategorier men bekräftar inte fäst- eller remkompatibilitet för varje produktversion.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90; inte allversioners kompatibilitetsmatris",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 6 Användningsområden, tryckt s. 12"
+    },
+    {
+      "id": "accessories-draw-limits-manual",
+      "topic": "I",
+      "statement": "I avsnitt 6 anger manualen 100 N maximal vertikal belastning på draganordningen samt 500 N maximal påskjutskraft för bogserade tillbehör. Värdena är knutna till manualutgåvan och ska inte generaliseras utan maskinidentitet.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 6 Användningsområden, tryckt s. 12"
+    },
+    {
+      "id": "buyer-check-from-safety-inspection",
+      "topic": "L",
+      "statement": "Originalmanualens säkerhetskontroll före körning omfattar läckage i bränsle/olja, skadad elisolering, onormalt ljud/vibrationer och att drivpedalens släpp ger stopp. Dessa är källbelagda inspektionsmoment som kan föreslås vid provkörning av begagnad maskin; slutsatsen om köpduglighet är eget råd.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90; köpråd är redaktionell tillämpning",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 7.3.1 Allmän säkerhetskontroll, tryckt s. 13"
+    },
+    {
+      "id": "faq-no-start-pto-brake-conditions",
+      "topic": "M",
+      "statement": "Manualens elektriska säkerhetstabell beskriver att motorn inte ska starta när koppling/broms inte är nedtryckt eller när PTO är aktiverat. Detta stöder ett svar på FAQ-frågan 'Varför startar inte maskinen?' på kontrollnivå, utan att säkerhetsbrytare förbikopplas.",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90; felsökning av startvillkor",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 7.3.2 Elektrisk säkerhetskontroll, tryckt s. 13"
+    },
+    {
+      "id": "faq-pto-transport-warning",
+      "topic": "M",
+      "statement": "Manualen förbjuder inkoppling av PTO när frontmonterat tillbehör är i transportläge eftersom remtransmissionen kan skadas. Detta är ett källbelagt svar på FAQ-frågan 'Kan jag starta klippaggregatet upplyft?'",
+      "variant": "Villa 12 HST enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 5.4.7 Kraftuttag, tryckt s. 12"
+    },
+    {
+      "id": "k46cj-tufftorq-service-primary",
+      "topic": "D",
+      "statement": "Tuff Torqs tillverkaranvisning för K46-serien med intern oljebehållare nämner uttryckligen tillverkar-ID K46CJ. Normalt anges enheten som underhållsfri under fordonets livslängd; om oljeservice ändå görs beskriver tillverkaren särskild påfyllnings-/nivåkontrollmetod. Detta gäller endast om identifierad transaxel är just rätt internbehållarutförande och maskinens OEM-anvisning inte kräver annan hantering.",
+      "variant": "Kanzaki/Tuff Torq K46CJ, intern oljebehållare; ej automatiskt samtliga Villa-versioners monterade utförande",
+      "grade": "A",
+      "sourceId": "tufftorq-k46cj-internal-oil",
+      "locator": "Models covered K46CJ; oil maintenance procedure for internal reservoir tank"
+    },
+    {
+      "id": "k46-tufftorq-id-serial",
+      "topic": "K",
+      "statement": "Tuff Torq kräver identifiering via transaxelns egen serienummeretikett, inte enbart uppgift i maskinens manual, eftersom tillverkarkataloger kan ha felaktig modelluppgift.",
+      "variant": "Allmän tillverkaranvisning för identifikation av Tuff Torq/Kanzaki transaxel",
+      "grade": "A",
+      "sourceId": "tufftorq-faq-id",
+      "locator": "FAQ Where is the serial number located? / My owner's manual says that I have a (EX. K46HD)"
+    },
+    {
+      "id": "stiga-2015-deck-third-identity",
+      "topic": "H",
+      "statement": "STIGA har separat originalreservdelskatalog för Deck Villa 85 Combi med aggregatnummer 13-2960-15, säsong 2015. Detta är ett tredje dokumenterat aggregat-ID utöver 13-2960-13 och 13-2960-14 och bevisar inte retroaktiv kompatibilitet med Villa 12 HST 2009–2012.",
+      "variant": "Klippaggregat 13-2960-15, 2015",
+      "grade": "A",
+      "sourceId": "stiga-2015-85combi-15",
+      "locator": "Omslag PDF sida 1: Deck Villa 85 Combi, 13-2960-15, Season 2015; ©2014 Global Garden Products"
+    },
+    {
+      "id": "retailer-new-deck-villa-after-2005",
+      "topic": "H",
+      "statement": "En svensk reservdelssäljare anger att senare komplett 85 Combi 387561538/0, ersättningsnummer 2D2708511/S16, passar Stiga Villa efter 2005 samt Villa 12, men anger inte de fem kompletta gamla maskinproduktnumren eller verifierad installationssats.",
+      "variant": "Senare komplett 85 Combi 387561538/0, generell Villa 12/efter 2005",
+      "grade": "B",
+      "sourceId": "retailer-85combi-2023-compatibility",
+      "locator": "Produktinformation; avsnitt Passar till samt notering om fästen utanför hjulen"
+    },
+    {
+      "id": "villa-year-pnc-index-all-five",
+      "topic": "A",
+      "statement": "Ett separat reservdelsregister listar Villa 12 HST maskin-ID 13-2727-13 (2009), 13-2727-14 och 13-2729-14 (2010), 13-2729-15 (2011/2012), samt 13-2729-35 (2011 och FR 2012), vilket bekräftar att fem olika produktnummer måste behandlas individuellt. Årtal från återförsäljare förblir B, inte ett substitut för märkplåt.",
+      "variant": "Villa 12 HST 2009–2012 fem olika maskin-PNC, inklusive FR",
+      "grade": "B",
+      "sourceId": "hobbystore-villa-all-models",
+      "locator": "VILLA 12 index, underposter VILLA 12 HST för 2009, 2010, 2011, 2012"
+    },
+    {
+      "id": "stiga-manual-85c-application",
+      "topic": "H",
+      "statement": "STIGA:s Villa 12 HST-användarmanual 8211-0038-90 anger uttryckligen 'Med klippaggregat 85 C' som användningsområde för gräsklippning. Det styrker 85 C som manualavsedd aggregattyp för det maskinutförande manualen gäller, men styrker inte universell passform eller särskilt aggregat-PNC 13-2960-13/-14/-15 per basmaskinsrevision.",
+      "variant": "STIGA Villa 12 HST enligt maskinmanual 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svensk manual, avsnitt 6 ANVÄNDNINGSOMRÅDEN, tryckt s. 12, raden Gräsklippning / Med klippaggregat 85 C"
     }
   ],
   "gaps": [
@@ -140,6 +781,90 @@
     "Belägg transmissionsmodell/variant och eventuella nivå- eller oljevärden i primärkälla.",
     "Kartlägg varje klippaggregats kompatibilitet och eventuellt monteringskit per produktnummer.",
     "Ta fram källposition för varje publicerad teknisk siffra, serviceintervall och reservdelsreferens.",
-    "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem."
-  ]
+    "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem.",
+    "Femte reservdelsvarianten 13-2729-35 behöver granskas för motor, drivning och aggregat innan versionskapitlet skrivs om.",
+    "Motoroljebyte 5/50 timmar, tändstift RC12YC och 0,75 mm finns i maskinmanualen men måste kopplas till korrekt motorvariant innan de presenteras universellt.",
+    "Kontrollera om transaxel 1134-7766-01 (K46 CJ), styrwire 1134-9154-01 och PTO-rem 1134-9079-01 också förekommer på andra produktnummer; dessa tre uppgifter är endast dokumenterade här för 13-2729-35.",
+    "Kontrollera exakt vilka Villa 12 HST-produktnummer som godkänner 85 Combi 13-2960-14, utöver att den separata originalkatalogen tillhör READY/VILLA-plattformen.",
+    "Exakt B&S motorkod för 13-2729-35 kvarstår trots publicerade motor-sprängskisser; fästdelar i motorkapitlet bevisar inte modellkod.",
+    "Granska skillnader mellan franska 13-2729-35 (FR) och 13-2729-15 mot de enskilda delgrupperna: den märkta marknadsvarianten är inte belägg för samma komponenter.",
+    "Briggs & Stratton är fabrikatsbekräftat för 13-2729-15 och 13-2729-35 i STIGA-originalkatalog, men uppgifterna 21R602/21R502 har ännu inte originalverifierats på Model/Type/Code-nivå.",
+    "Kontrollera den exakta Briggs Model/Type/Code på maskinernas motormärkningar innan 21R502/21R602 lyfts från C-klass.",
+    "Efter kontroll mot Briggs egen motoridentifieringsguide har inga tillräckligt styrkta fullständiga Model/Type/Code-koder kopplats till produktnummer 13-2729-14, 13-2729-15 eller 13-2729-35. Använd motorns faktiska märkning eller explicit OEM-katalogbeteckning.",
+    "Fastställ hydrostatens exakta serviceanvisning genom originaltillverkarens instruktioner i stället för att härleda olja, volym eller avtappning från delnummer.",
+    "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används.",
+    "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad.",
+    "FR-variantens separata sidoskydd och manual är bekräftade. Kontrollera ytterligare eventuell skillnad i säkerhet, reglage och aggregatmontering innan FR-varianten betecknas funktionsidentisk med standardutförandet.",
+    "Manualutgåvorna -10 och -80 får inte blandas ihop vid stegvis monteringsinstruktion: -80 beskriver bland annat lossa/remontera remkåpa och remstyrning, vilket inte står som samma monteringssekvens i -10. Kontrollera originaldokument och maskin-ID före praktisk monteringsguide.",
+    "Det finns även aggregat-ID 13-2960-15 (2015) och senare komplett aggregat 387561538/0; kartlägg historisk och senare kompatibilitet per maskin-ID före generell köprekommendation."
+  ],
+  "scopedRelease": {
+    "reviewedBy": "AI-stödd källgranskning; publiceringsbeslut av webbplatsägaren i chatten 2026-10-21",
+    "reviewedAt": "2026-10-21",
+    "scope": "Publicera endast de påståenden som har dokumenterade original- eller starka reservdelskällor för uttryckligt angivna maskin- och aggregatvarianter. Kvarvarande forskningsluckor ska synas som begränsningar i artikeln och behållas i forskningsregistret.",
+    "exclusions": [
+      "Ingen exakt Briggs Model/Type/Code eller modellfamilj 21R502/21R602 markeras som originalstyrkt.",
+      "Ingen universell passform anges mellan 13-2960-13/-14/-15 och samtliga Villa 12 HST-PNC.",
+      "Inga oljemängder, tändstift eller bytesintervall används som universella för Briggs-motorvarianter.",
+      "Ingen generellt rekommenderad årlig K46CJ-oljeservice."
+    ],
+    "publishedClaims": [
+      "manual-identity",
+      "combi-manual",
+      "variant-35",
+      "slope-10",
+      "safety-bypass",
+      "oil-service",
+      "steering-check",
+      "tire-pressure",
+      "spark-plug",
+      "k46-2729-35",
+      "steering-cable-2729-35",
+      "pto-belt-2729-35",
+      "deck-2960-14",
+      "deck-manual-sku",
+      "trans-diagram-2729-14",
+      "manufacturer-2009-wm125",
+      "manufacturer-fr-2011",
+      "manufacturer-2009-deck",
+      "dealer-2010-engine-wm",
+      "bs-2011-normal-fr",
+      "k46-2010-direct-part",
+      "briggs-type-code-rule",
+      "briggs-lookup-needs-tag",
+      "fr-engine-assembly-not-code",
+      "k46-2011-2729-15",
+      "stiga-k46-2011-primary",
+      "stiga-2010-ggp2727",
+      "stiga-2010-bs2729",
+      "stiga-2010-k46cj",
+      "stiga-2010-drivebelt",
+      "85combi-2011-independent-blade-parts",
+      "85combi-2011-belt-parts",
+      "85combi-2011-no-fit-assumption",
+      "fr-separate-panels-2011",
+      "fr-owner-manual-2011",
+      "deck-mount-method-villa",
+      "deck-washer-older-only",
+      "deck-10-vs80-fixed-install",
+      "controls-hydro-pedal-original-manual",
+      "controls-pto-bypass-original-manual",
+      "accessories-uses-list-manual",
+      "accessories-draw-limits-manual",
+      "buyer-check-from-safety-inspection",
+      "faq-no-start-pto-brake-conditions",
+      "faq-pto-transport-warning",
+      "k46cj-tufftorq-service-primary",
+      "k46-tufftorq-id-serial",
+      "stiga-2015-deck-third-identity",
+      "retailer-new-deck-villa-after-2005",
+      "villa-year-pnc-index-all-five",
+      "stiga-manual-85c-application"
+    ],
+    "forbiddenArticleFragments": [
+      "21R502",
+      "21R602"
+    ],
+    "articleFile": "src/_data/machines/stiga-villa-12-hst.json"
+  }
 }
