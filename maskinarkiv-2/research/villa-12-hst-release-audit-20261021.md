@@ -55,3 +55,21 @@ Efter den första revisionen har originalmanualens **svenska innehåll** granska
 **Därmed undanröjs en tydlig spårbarhetsbrist:** alla A–M har nu minst ett A/B-påstående. Det betyder **inte** att alla är färdiggranskade: release-gaten blockerar fortfarande kvarvarande `gap`-markeringar och öppna frågor. Den tidigare tabellen ovan är en ögonblicksbild *före* denna etapp och ska inte läsas som nuvarande räkneläge.
 
 Primärkälla: https://manualzz.com/doc/sv/4520408/stiga-villa-12-hst-ride-on-mower-gebrauchsanweisung.
+
+## 2026-10-21 – produktnummer och 85 C: vad som nu kan avgränsas
+
+En separat reservdelsöversikt anger fem Villa 12 HST-maskin-PNC: `13-2727-13` (2009), `13-2727-14` och `13-2729-14` (2010), `13-2729-15` (2011–2012) och `13-2729-35` (2011; även uttryckligen FR 2012). Detta stärker **maskinernas identitetslista som källa B**, men det förklarar ännu inte varje motor- eller aggregatkonfiguration.
+
+Källa: https://hobbystore.it/ricambi-trattorini-trattorini-piattofrontale-stiga-villa12
+
+**Viktig primärkälleavgränsning:** STIGA:s Villa 12 HST-originalmanual `8211-0038-90` skriver i §6 uttryckligen att gräsklippning sker **med klippaggregat 85 C**. Vi kan alltså ange `85 C` som manualstödd avsedd aggregattyp för den manualens maskinutförande, *utan* att lova att aggregat-PNC `13-2960-13`, `-14` och `-15` är fysiskt utbytbara med varje enskilt maskin-PNC. **Aggregattyp** och **aggregatrevision** är olika nivåer. Källa: https://manualzz.com/doc/4520408/stiga-villa-12-hst-ride-on-mower-gebrauchsanweisung, §6.
+
+### Publiceringsbeslut att förbereda
+I artikelrevisionen bör vi skriva: ”Originalmanualen nämner 85 C som klippaggregat. För byte eller köp måste du ändå kontrollera aggregatets fullständiga produktnummer och rätt infästning/remdragning för din Villa-version.” En matris som utlovar full passform hos samtliga tre katalogutgåvor kan däremot **inte** föras in förrän separat STIGA-kompatibilitetsbevis finns.
+
+### Fortfarande blockerande
+- STIGA/Briggs som uttryckligen binder komplett motor `Model/Type/Code` till varje `13-2729-xx`.
+- STIGA-monteringsbevis för *exakta* maskin-PNC tillsammans med *exakta* aggregat-PNC.
+- Slutlig revisionskontroll av publicerade servicevärden.
+
+Inga av dessa blockerare får stängas enbart på grund av denna indexlista.
