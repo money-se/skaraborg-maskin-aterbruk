@@ -214,3 +214,16 @@ Utgåva **-80**: https://www.usermanuals.tech/d/lawn-mower-8211-7000-80-stiga-pa
 Det går nu att styrka **en gemensam monteringsprincip** för Villa/Ready-plattformen, men **inte en enda universell steg-för-steg-instruktion** för alla aggregat- och maskinårsmodeller. När vi skriver webbavsnittet ska remkåpa, remstyrning och fästdetaljer hänvisas till *det installerade aggregatets egen manualutgåva*. Vi bör aldrig ersätta den med en hopslagen monteringsguide från olika revisioner.
 
 Detta klargör en tidigare forskningslucka delvis. Individuell kompatibilitet mellan maskin-ID och aggregat-ID samt Briggs fullständiga Model/Type/Code återstår. Forskningsstatus: `needs_research`.
+
+## Tillverkarunderlag för K46CJ – Tuff Torq (2026-10-21)
+
+För första gången i denna forskningsserie finns nu en **servicekälla direkt från transmissionstillverkaren** som uttryckligen nämner `K46CJ`, inte bara K46-familjen.
+
+**Tillverkarkälla:** https://www.tufftorq.com/tuff-torq-transaxle-oil-service/  
+Avsnitt: *Residential IHT (w/ integrated reservoir tank) Oil Maintenance*, under *Models covered by this procedure* listas `K46CJ`. Tillverkaren anger att K46-transaxlar normalt inte kräver rutinservice under fordonets livslängd, men har en särskild metod för oljenivå och oljebyte när detta ändå är nödvändigt. Tillverkaren rekommenderar godkänd Tuff Tech-drivvätska i den beskrivna serviceproceduren. Detta är **inte** automatiskt en rekommendation att alla användare ska demontera sin växellåda eller genomföra ett schemalagt oljebyte.
+
+**Identitetskontroll:** https://www.tufftorq.com/faq/ under frågorna *Where is the serial number located?* och *My owner's manual says that I have a (EX. K46HD)* rekommenderar tillverkaren att transaxelns **egna serienummer** kontrolleras: man ska inte enbart lita på maskintillverkarens handbok eftersom modelluppgiften kan vara fel. Därför måste verklig transaxelvariant och relevant intern behållarkonfiguration säkerställas innan praktiska servicevärden anges.
+
+**Säker redaktionell slutsats:** Vi har nu A-belägg för en generell **K46CJ-serviceprincip**, men inte en individuellt verifierad serviceinstruktion för varje Villa 12 HST-basmaskin. Skriv i artikeln att den monterade transmissionen identifieras med enhetens märkning och att tillverkarens och STIGA:s relevanta serviceinstruktioner ska jämföras. Undvik att ange generella volymer/intervall utan den kontrollen.
+
+Därför kvarstår `D:gap` och det övergripande `needs_research`, trots att ett viktigt delproblem nu har ett originalbelagt svar.
