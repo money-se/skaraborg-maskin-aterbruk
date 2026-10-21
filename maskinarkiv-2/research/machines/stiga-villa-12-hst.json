@@ -179,6 +179,13 @@
       "title": "STIGA Villa HST original reservdelskatalog 2010",
       "document": "8211-3401-10, katalogutgåva 2010-11",
       "url": "https://view.stiga-store.com/files/SSPL2010_20100208_Villa_HST.pdf"
+    },
+    {
+      "id": "villa-85combi-install-manual-ed80",
+      "tier": 2,
+      "title": "STIGA Villa/Ready 85 Combi installation instructions – later manual edition",
+      "document": "8211-7000-80, Montage 3.1 (different revision than 8211-7000-10)",
+      "url": "https://www.manualslib.com/manual/1275367/Stiga-Park-85-Combi.html?page=32"
     }
   ],
   "topics": {
@@ -220,7 +227,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "Originalkatalog 13-2960-14 verifierar aggregatets egen identitet, knivsatser och kuggrem/drivrem per fig. 2130A. Däremot saknas belägg att alla fem Villa 12 HST basmaskiner kan använda just det aggregatutförandet."
+      "note": "Originalkatalog 13-2960-14 styrker aggregatets komponenter. En annan, senare utgåva av STIGA:s monteringsmanual beskriver Villa/Ready-fästen och remspänning, men dess exakta tillämplighet på 8211-7000-10 eller varje maskin-/aggregat-ID är ännu inte fastställd."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -581,6 +588,24 @@
       "grade": "A",
       "sourceId": "stiga-2011-villa-hst-original",
       "locator": "Originalkatalog PDF s. 3, monteringsdetaljer fig. 2196A, position X 21"
+    },
+    {
+      "id": "deck-mount-method-villa",
+      "topic": "H",
+      "statement": "En senare utgåva av STIGA:s kombiaggregatmanual beskriver Villa/Ready med fasta aggregatfästen, låsring och brickor samt med remspännare på remmens insida. Monteringens utförande måste jämföras med just det aktuella aggregatets manual, eftersom editionsnummer och tidigare fästdetaljer skiljer.",
+      "variant": "Villa/Ready enligt senare aggregatmanual 8211-7000-80; ej visat giltigt för varje Villa 12 HST-produktnummer",
+      "grade": "B",
+      "sourceId": "villa-85combi-install-manual-ed80",
+      "locator": "ManualsLib sida 32, engelsk monteringsanvisning §3.1, figurer 3, 5–8, 11, 13 och 16"
+    },
+    {
+      "id": "deck-washer-older-only",
+      "topic": "H",
+      "statement": "I denna senare manual anges särskild bricka 3:D endast för maskiner till och med 2006, vilket visar att monteringstillbehör varierat genom åren.",
+      "variant": "Villa/Ready-fästen i senare STIGA-manual 8211-7000-80",
+      "grade": "B",
+      "sourceId": "villa-85combi-install-manual-ed80",
+      "locator": "ManualsLib sida 32, §3.1 punkt 2, figur 3:D"
     }
   ],
   "gaps": [
@@ -602,6 +627,7 @@
     "Fastställ hydrostatens exakta serviceanvisning genom originaltillverkarens instruktioner i stället för att härleda olja, volym eller avtappning från delnummer.",
     "Verifiera om fullständiga produkt-ID och modellgrupperna 2727/2729 omfattar samtliga 2010-revisioner i originalkatalogens tabell innan universella kompatibilitetspåståenden används.",
     "Betrakta 85 Combi 13-2960-14 som separat artikel; styrk infästningssatser/remdragning per basmaskin och aggregatnummer innan kompatibilitet markeras som verifierad.",
-    "FR-variantens separata sidoskydd och manual är bekräftade. Kontrollera ytterligare eventuell skillnad i säkerhet, reglage och aggregatmontering innan FR-varianten betecknas funktionsidentisk med standardutförandet."
+    "FR-variantens separata sidoskydd och manual är bekräftade. Kontrollera ytterligare eventuell skillnad i säkerhet, reglage och aggregatmontering innan FR-varianten betecknas funktionsidentisk med standardutförandet.",
+    "Jämför monteringsmanualernas revisionsnummer 8211-7000-10 respektive 8211-7000-80/91 och deras figurer innan monteringsanvisningar tilldelas en specifik Villa 12 HST + 85 Combi-kombination."
   ]
 }
