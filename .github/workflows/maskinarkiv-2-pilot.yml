@@ -5,6 +5,7 @@ on:
     paths:
       - 'maskinarkiv-2/src/**'
       - 'maskinarkiv-2/scripts/**'
+      - 'maskinarkiv-2/research/**'
       - 'maskinarkiv-2/package.json'
       - 'maskinarkiv-2/package-lock.json'
       - 'partials1/header.html'
@@ -47,6 +48,12 @@ jobs:
       - name: Kontrollera SEO och länkar
         working-directory: maskinarkiv-2
         run: npm run audit
+      - name: Kontrollera forskningsregister
+        working-directory: maskinarkiv-2
+        run: npm run research:check
+      - name: Blockera ändrad modellsida utan godkänd forskning
+        working-directory: maskinarkiv-2
+        run: node scripts/check-changed-research.mjs
       - name: Bygg Rider 13 webbförhandsvisning
         working-directory: maskinarkiv-2
         run: node scripts/preview-rider13.mjs
