@@ -139,3 +139,15 @@ Samma originaltabell anger en transmissionsdrivrem `1134-9064-01` (position 17).
 **Fortfarande öppet:** Exakt transmissionsservice (oljebyte, typ, mängd), motorernas Model/Type/Code och aggregratskompatibilitet per maskinversion. Originalreservdelskatalogens delnummer är inte i sig en underhållsinstruktion.
 
 Primärkälla: https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST.pdf (omslag och fig. 1157G, PDF s. 27).
+
+## STIGA originalkatalog 2010 – motorfamiljer och K46 CJ
+
+Ny primärkälla: STIGA **8211-3401-10**, 2010-utgåva, https://view.stiga-store.com/files/SSPL2010_20100208_Villa_HST.pdf
+
+- **PDF s. 21 / nollbaserat index 20, figur 2519:** MOTOR (GGP), kataloggrupp **2727**. Position **99**, motorassembly **118550439/0 GGP WM 12,5**.
+- **PDF s. 23 / nollbaserat index 22, figur 1651B:** MOTOR (B&S), kataloggrupp **2729**. Här framgår Briggs & Stratton som motortillverkare, men inte motorernas fullständiga Model/Type/Code.
+- **PDF s. 27 / nollbaserat index 26, figur 1157G:** TRANSMISSION för bland annat kataloggrupperna **2727** och **2729**, med position **23**, transaxel **1134-7766-01 Kanzaki K46CJ**. Position **17** är transmissionsdrivrem **1134-9064-01**, likvärdigt delnummer **9585-0099-01** enligt katalogen.
+
+**Noggrann avgränsning:** STIGA-katalogen använder korta modellgruppsnummer 2727 respektive 2729. Gruppen är inte alltid samma detaljnivå som hela maskinens produkt-ID med revisionssuffix. För beställning eller service krävs fullständigt produktnummer, motormärkning och i förekommande fall delens egen kod. Katalogen innehåller inga generella serviceinstruktioner för oljeval i K46CJ.
+
+Denna primärkälla ersätter behovet av att enbart lita på återförsäljarnas uppgifter om motorfabrikat och transaxeltyp för **2010 års kataloggrupper**, men Briggs exakta motorkoder återstår.
