@@ -167,6 +167,42 @@
       "grade": "A",
       "sourceId": "stiga-villa-om",
       "locator": "Svenska säkerhetsföreskrifter avsnitt 2.3"
+    },
+    {
+      "id": "oil-service",
+      "topic": "J",
+      "statement": "Manualen anger motoroljebyte första gången efter 5 timmar, sedan var 50:e timme eller en gång per säsong, oftare vid hård belastning/hög temperatur.",
+      "variant": "Motorutförande omfattat av maskinmanual 8211-0038-90; verifiera motorns egen identitet",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.4 Byte av motorolja"
+    },
+    {
+      "id": "steering-check",
+      "topic": "E",
+      "statement": "Styrningen ska kontrolleras/justeras efter 5 timmars drift och var 25:e drifttimme.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.7 Styrning"
+    },
+    {
+      "id": "tire-pressure",
+      "topic": "B",
+      "statement": "Manualen anger 0,4 bar (6 psi) fram och 1,2 bar (17 psi) bak.",
+      "variant": "Maskin enligt bruksanvisning 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.3 Däcktryck"
+    },
+    {
+      "id": "spark-plug",
+      "topic": "C",
+      "statement": "Manualen anger Champion RC12YC eller likvärdigt med elektrodavstånd 0,75 mm; får inte förutsättas för andra motorutföranden.",
+      "variant": "Motorutförande omfattat av maskinmanual 8211-0038-90",
+      "grade": "A",
+      "sourceId": "stiga-villa-om",
+      "locator": "Svenska avsnitt 8.10 Tändstift"
     }
   ],
   "gaps": [
@@ -175,6 +211,7 @@
     "Kartlägg varje klippaggregats kompatibilitet och eventuellt monteringskit per produktnummer.",
     "Ta fram källposition för varje publicerad teknisk siffra, serviceintervall och reservdelsreferens.",
     "Verifikation av tillbehör, säkerhetsvillkor och eventuella varianter av styr-/reglagesystem.",
-    "Femte reservdelsvarianten 13-2729-35 behöver granskas för motor, drivning och aggregat innan versionskapitlet skrivs om."
+    "Femte reservdelsvarianten 13-2729-35 behöver granskas för motor, drivning och aggregat innan versionskapitlet skrivs om.",
+    "Motoroljebyte 5/50 timmar, tändstift RC12YC och 0,75 mm finns i maskinmanualen men måste kopplas till korrekt motorvariant innan de presenteras universellt."
   ]
 }
