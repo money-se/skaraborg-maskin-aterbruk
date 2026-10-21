@@ -13,7 +13,7 @@ for(const file of files){
   const d=JSON.parse(fs.readFileSync(path.join(dir,file),"utf8"));
   assert.equal(d.schemaVersion,1,file+" schema version");
   assert.equal(file,d.slug+".json","Filename must match machine slug");
-  assert.ok(["needs_research","ready"].includes(d.status),d.slug+" invalid status");
+  assert.ok(["needs_research","ready","scoped_ready"].includes(d.status),d.slug+" invalid status");
   assert.ok(d.reviewDate && /^\d{4}-\d{2}-\d{2}$/.test(d.reviewDate),d.slug+" review date");
   assert.deepEqual(Object.keys(d.topics).sort(),keys,d.slug+" must cover research topics A-M");
   for(const k of keys){
@@ -41,7 +41,19 @@ for(const file of files){
     assert.ok(!ids.has(c.id),d.slug+" duplicate claim ID");ids.add(c.id);
     if(["A","B"].includes(c.grade))claimTopics.add(c.topic);
   }
-  if(d.status==="ready"){
+  if(d.status==="scoped_ready"){
+    assert.ok(d.scopedRelease && d.scopedRelease.reviewedBy && d.scopedRelease.reviewedAt, d.slug+" scoped review missing");
+    assert.ok(d.scopedRelease.scope && d.scopedRelease.scope.length>80, d.slug+" scoped content policy missing");
+    assert.ok(Array.isArray(d.scopedRelease.exclusions) && d.scopedRelease.exclusions.length>=3,d.slug+" scoped exclusions missing");
+    assert.ok(Array.isArray(d.scopedRelease.publishedClaims) && d.scopedRelease.publishedClaims.length>=10,d.slug+" published claims missing");
+    for(const id of d.scopedRelease.publishedClaims){
+      const c=d.claims.find(x=>x.id===id);
+      assert.ok(c && ["A","B"].includes(c.grade),d.slug+" unverified published claim "+id);
+    }
+    for(const k of keys) assert.ok(claimTopics.has(k),d.slug+" topic "+k+" has no A/B evidence");
+    assert.ok(d.gaps.length>0,d.slug+" scoped publication must preserve unresolved research questions");
+    ready++;
+  }else if(d.status==="ready"){
     assert.equal(d.gaps.length,0,d.slug+" cannot be ready with open gaps");
     assert.ok(d.reviewedBy && d.reviewedAt,d.slug+" requires human research review");
     for(const k of keys){
@@ -54,4 +66,4 @@ for(const file of files){
   console.log("RESEARCH_RECORD="+d.slug+"; status="+d.status+"; claims="+d.claims.length+"; gaps="+d.gaps.length);
 }
 if(release)assert.ok(files.includes(target+".json"),"No research record for "+target);
-console.log("RESEARCH_GATE=PASS; ready="+ready+"; needs_research="+incomplete);
+console.log("RESEARCH_GATE=PASS; releasable="+ready+"; needs_research="+incomplete);
