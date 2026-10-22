@@ -130,10 +130,10 @@
     },
     {
       "id": "jonsered-lt2115a-96011000801-clutch-link",
-      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000801 visar kopplingslänk 532105710 vid DRIVE position 53. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "statement": "Wolfswinkels versionslista för LT2115A 96011000801 (2005-05) upptar kopplingslänk 532 19 96-52 i DRIVE-delarna. Tidigare registrerat 532 10 57-10 på position 53 saknar stöd i denna majlista och ska inte användas som fastställt majnummer utan kontroll av original-IPL.",
       "variant": "jonsered-lt2115a-96011000801",
-      "locator": "sGarden DRIVE list, row 53",
-      "sourceId": "jonsered-lt2115a-96011000801-may-drive",
+      "locator": "Wolfswinkel LT2115A 96011000801 2005-05, Drive component listing (532199652); ursprunglig position 53 ej bildverifierad",
+      "sourceId": "jonsered-lt2115a-96011000801-catalog",
       "grade": "C",
       "topic": "D",
       "verification": "needs_verification",
@@ -199,6 +199,7 @@
     "Utökning kräver sidvis originalkatalogkontroll av DRIVE, ENGINE, ELECTRICAL, MOWER och STEERING.",
     "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
     "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
-    "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL."
+    "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL.",
+    "KORRIGERING 2026-10-22: tidigare jämförelse angav samma kopplingslänk 532105710 för januari och maj 2005. Den dokumenterade maj-versionens Wolfswinkel DRIVE-lista upptar 532199652 och ger inte stöd för det äldre numret. Januari–maj-kompatibilitet måste avgöras med båda original-IPL-sidbilderna."
   ]
 }
