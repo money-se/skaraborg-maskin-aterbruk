@@ -62,7 +62,7 @@
     },
     "I": {
       "state": "gap",
-      "note": "Tryckvaktens 2–5 psi avser kontaktens omslag, inte normalt motoroljetryck. Komponentprov och maskinspecifik tolkning återstår."
+      "note": "Originalverkstadshandboken anger oljetryck minst 40 psi efter 90 sekunders tomgång i provbänkskontroll efter motoråtermontering, medan Oil Sentry-brytaren omslår vid 2–5 psi. Värdena har olika syften och får inte blandas samman; normalt drifttryck och maskin-/variantgränser kräver ytterligare belägg."
     },
     "J": {
       "state": "gap",
@@ -567,6 +567,24 @@
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "kohler-post-reassembly-oil-pressure-40psi",
+      "statement": "Kohler TP-2339-D Section 11 anger i provbänkskontroll efter fullständig återmontering: starta motorn med ansluten oljetrycksmätare, låt den gå på tomgång 90 sekunder och verifiera oljetryck 40 psi eller mer (cirka 2,76 bar). Därefter körs 5–10 minuter mellan tomgång och mellanvarv. Detta är manualens eftermonteringsprov, inte ett fritt generaliserbart normalt oljetrycksintervall.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 efter motoråtermontering på provbänk enligt TP-2339-D",
+      "locator": "Section 11 Reassembly, printed p. 11.23 (PDF page index 144), Testing the Engine, step 1",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-oil-pressure-test-access-ports",
+      "statement": "Kohler TP-2339-D beskriver oljetrycksmätning antingen genom att ta bort oljefiltret och montera provadaptern på filterytan, eller genom att ta bort Oil Sentry-tryckvakten/rörpluggen och skruva anslutningsslangen i den öppningen. Vald anslutning förutsätter rätt filteradapterutförande och provutrustning.",
+      "variant": "Kohler Command enligt TP-2339-D Section 6; faktisk Oil Sentry-port och filteradapter varierar",
+      "locator": "Section 6 Lubrication System, printed p. 6.5 (PDF page index 52), Testing Oil Pressure",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -588,6 +606,7 @@
     "Servicesatser 12 789 01-S och 12 789 02-S har olika ingående luftfilter i Kohlers originaltillbehörskatalog. Kontrollera Spec. No., luftfilterhus, komplett satsinnehåll och aktuella ersättningsnummer före beställning.",
     "Startsystem: verifiera elektrisk jordning och kabelhärva innan 25 435 08-S / 12 749 03-S används; 12 755 47-S fordrar specifik metallkåpa och installationskontroll.",
     "Oljestickor CH kontra CV och kortfilter 28 050 01-S kräver kontroll av respektive installation och teknisk passform; delarna får inte överföras mellan motorfamiljer utifrån katalogbild ensam.",
-    "Diagnosverktyg 25 761 06-S, 25 761 05-S och 25 455 01-S har tillverkarbelagda katalognummer men provförfarande och acceptansgränser måste hämtas från rätt servicemanual och motorvariant."
+    "Diagnosverktyg 25 761 06-S, 25 761 05-S och 25 455 01-S har tillverkarbelagda katalognummer men provförfarande och acceptansgränser måste hämtas från rätt servicemanual och motorvariant.",
+    "Oljetryck 40 psi i TP-2339-D p.11.23 avser specifikt återmonteringsprov efter 90 s tomgång. Utred separata originalgränser för normal drift och eventuell motorversionsskillnad före bred felsökningsrekommendation."
   ]
 }
