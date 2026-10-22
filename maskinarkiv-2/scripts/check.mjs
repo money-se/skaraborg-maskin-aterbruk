@@ -111,6 +111,12 @@ for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,14],["jonsered-lt
  const page=fs.readFileSync(file,"utf8");
  assert.equal(data.chapters.length,chapters);
  assert.equal(data.sources.length,sources);
+ if(slug==="stiga-villa-12-hst"){
+   assert.ok(!page.includes("[Källspår:"),"Villa internal research IDs leaked into public HTML");
+   assert.ok(page.includes("Reglagen enligt manualens figurer"),"Villa control table missing");
+   assert.ok(page.includes("Symtomguide: fem olika problem"),"Villa diagnostic table missing");
+ }
+
  const ids=[...page.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
  assert.equal(ids.length,new Set(ids).size,slug+" duplicate IDs");
  for(const [,anchor] of page.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(anchor),slug+" bad anchor "+anchor);
