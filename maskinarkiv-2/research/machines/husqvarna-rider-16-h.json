@@ -88,6 +88,34 @@
       "title": "Wolfswinkel Rider 16 H parts list 1999-02",
       "document": "Digital catalogue of 97cm and 103cm decks and updated parts",
       "url": "https://www.wolfswinkel.se/reservdelritningar/husqvarna/%C3%A5kgr%C3%A4sklippare/ryttare/bensin/i-annat-fall/ridare-16-h/ryttare-16-h-1999-02"
+    },
+    {
+      "id": "husqvarna-1999-engine-gearbox-index-i9901030",
+      "tier": 1,
+      "title": "Husqvarna 1999 Engines and Gear Boxes original parts index",
+      "document": "1999-03, I9901030; Rider16 H Briggs 28N707 Type1192 Trim E1 and European K55 21.6:1",
+      "url": "https://mymowerparts.com/pdf/Husqvarna-Parts-Manuals/I9901030.pdf"
+    },
+    {
+      "id": "briggs-28n700-oem-ms0148-2000-09",
+      "tier": 1,
+      "title": "Briggs & Stratton OEM IPL 28N700-28N799 MS-0148",
+      "document": "Original 2000-09 IPL expressly including Type 1192, Code-date restrictions",
+      "url": "https://www.mymowerparts.com/pdf/Briggs-%26-Stratton-Engine-Parts-Manuals-Parts-List/28n700-28n799%20ms0148%5B1%5D.pdf"
+    },
+    {
+      "id": "briggs-28n707-1192-e1-oem-2023",
+      "tier": 1,
+      "title": "Briggs original IPL 28N707-1192-E1 2023-11",
+      "document": "OEM parts list stamped 2023-11-03, mirrored by Manualsnet with component data",
+      "url": "https://manualsnet.com/briggs-stratton/28n707-1192-e1"
+    },
+    {
+      "id": "messicks-531005020-589534001",
+      "tier": 2,
+      "title": "Messicks Husqvarna 531005020 supersession",
+      "document": "531005020 replaced by 589534001; also reference 506925401",
+      "url": "https://www.messicks.com/parts/husqvarna/531005020"
     }
   ],
   "topics": {
@@ -630,6 +658,87 @@
       "sourceId": "wolfswinkel-rider16h-1999-parts",
       "grade": "B",
       "topic": "E"
+    },
+    {
+      "id": "r16h-batch59-1999-briggs-exact-type",
+      "statement": "Husqvarna 1999-03 originalkatalog över motorer och växellådor anger Rider 16 H med Briggs & Stratton 28N707, Type 1192, Trim E1. Detta är den historiska modellraden, inte garanti för att varje Rider 16 H tillverkades med samma motor Type eller Engine Code.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Original Husqvarna I9901030 1999-03 'ENGINES': Rider 16 H 28N707 / 1192 / E1",
+      "sourceId": "husqvarna-1999-engine-gearbox-index-i9901030",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-1999-k55-ratio",
+      "statement": "Husqvarna 1999-03 originalkatalog anger för Rider 16 H europeiskt Tuff Torq K55-utförande med utväxling 21,6:1. Den listar separat 970-15 H med 25,3:1 och US/CA-beteckning; modellerna ska inte likställas enbart på K55.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Original Husqvarna I9901030 GEAR BOXES: Rider16H K55 21,6:1 Europa; Rider970-15H K55 25,3:1 US/CA",
+      "sourceId": "husqvarna-1999-engine-gearbox-index-i9901030",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-briggs-series1192-oem",
+      "statement": "Briggs original-IPL MS-0148, utgåva 2Q 9/2000, omfattar modellserien 28N700–28N799 och inkluderar Type 1192 explicit. Detta möjliggör direkt reservdelsavstämning av 1999 års Husqvarna Rider 16 H motorvariant, med särskilda Type- och Code-villkor.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Briggs MS-0148-2Q-9/2000 PDF p1 list 'TYPE NUMBERS ... 1192'",
+      "sourceId": "briggs-28n700-oem-ms0148-2000-09",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-briggs-1192-type-note-method",
+      "statement": "Briggs MS-0148 anger metod: utgå från primärartikel om inte separat NOT-lista uttryckligen anger motor-Type; Code och Type-suffix efter fyrsiffrig Type kan ändra artikelval. Det är därför fel att okritiskt använda 28N707 annan Type såsom 1201 för historisk Rider16H med 1192.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Briggs MS-0148 cover p1 points A-F, Type 1192",
+      "sourceId": "briggs-28n700-oem-ms0148-2000-09",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-briggs-1192-2023-aircleaner",
+      "statement": "Briggs originallista 28N707-1192-E1 2023-11 anger luftfilterpatron 496894S (ref445), förfilter 272403S (ref967), ljuddämpare 498984S (ref300C). Detta gäller listat Type 1192-E1 och inte andra 28N707-Type utan kontroll.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Briggs 2023-11 IPL 28N707-1192-E1 p4 Air Cleaner Mufflers refs445,967,300C",
+      "sourceId": "briggs-28n707-1192-e1-oem-2023",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-briggs-1192-2023-electrical",
+      "statement": "Briggs originallista 28N707-1192-E1 2023-11 redovisar tändmodul 492341 (ref333), DC-generator 696578 samt alternativ generator 696459/696457/696458 för dual/tri/reglerat system. Faktisk installation måste identifieras före beställning.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Briggs 2023-11 IPL 28N707-1192-E1 p6 refs333,474 variants",
+      "sourceId": "briggs-28n707-1192-e1-oem-2023",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-briggs-1192-fuelpump",
+      "statement": "Briggs originallista 28N707-1192-E1 2023-11 redovisar bränslepump 808656 (ref387), med bränslefilter 298090S eller 394358S (ref240) som separata alternativ. Bränslefiltervarianten ska identifieras för fysisk motor.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Briggs 2023-11 IPL 28N707-1192-E1 p16 ref387, ref240 choices",
+      "sourceId": "briggs-28n707-1192-e1-oem-2023",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-briggs-1192-code-depends",
+      "statement": "Briggs 28N707-1192-E1 IPL 2023-11 listar motorberoende ändringar efter Code Date: insugspackning 272569S före 97100600 och 692137 efter 97100500; kolvsats har brytpunkt april 2001. Motor Code behövs även inom Type1192-E1.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Briggs 2023-11 IPL p10 ref51/51A; p20 ref25 Code Date 01041900",
+      "sourceId": "briggs-28n707-1192-e1-oem-2023",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch59-belt-second-supplier",
+      "statement": "Messicks bekräftar att Husqvarnas äldre rem 531005020 ersatts av 589534001 och listar 506925401 i samma reservdelsreferensfamilj. Samma par har verifierats hos PartsTree; OEM-bulletin saknas.",
+      "variant": "Husqvarna Rider16 H 1999 historical engine and K55 configuration; Briggs parts require Type/Code confirmation",
+      "locator": "Messicks part 531005020 > replaced by 589534001; product replaces 506925401",
+      "sourceId": "messicks-531005020-589534001",
+      "grade": "B",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -654,6 +763,9 @@
     "PDF W0001005 kunde indexläsas i tillverkaroriginalets spegel men webbsidbild nekades. Tekniska data och sida/positionsangivelser bör bildverifieras innan praktiska monteringsinstruktioner.",
     "Tuff Torq K55-husgeometri ger endast identifiering av modellfamiljen, inte exakt K55-variant eller Husqvarna artikelnummer; avläs serienummer och K55-produktetikett före reservdelsbeställning.",
     "Briggs original-IPLs för exakt Model/Type/Code saknas för specifik fysisk Rider. Innan förgasare, stift, packningar eller oljemängd väljs: avläs alla tre märkfälten, matcha IPL och kontrollera revisionsdatum.",
-    "Verify 531005020 to 589534001 and 531005017 to 589530601 against original OEM supersession documentation before a compatibility recommendation."
+    "Verify 531005020 to 589534001 and 531005017 to 589530601 against original OEM supersession documentation before a compatibility recommendation.",
+    "Fastställ vilka serienummerspann av Rider 16 H som omfattas av Husqvarnas 1999-motorkatalog 28N707 Type 1192 E1; 2001-OM ger endast modell 28N707.",
+    "Briggs 28N707-1192-E1 2023-IPL har både alternativa laddgeneratorer och Code-datumstyrda reservdelar: avläs verklig motor Code och installerat elsystem innan rekommendation.",
+    "Katalogen 1999 anger K55 21,6:1 Europa för Rider16H, men separat 970-15H US/CA 25,3:1; kartlägg Tuff Torq fabrikskod innan byte av transaxel."
   ]
 }
