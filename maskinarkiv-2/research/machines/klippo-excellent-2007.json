@@ -172,6 +172,13 @@
       "title": "Garmas: 310mm replacement Cross-Cut blade original-number equivalence",
       "document": "Krydskniv 310 mm, aftermarket NGP881710 replacing 5028817-10 and 5028817-01; center hole 14.5 mm",
       "url": "https://garmas.dk/butik/reservedele/plaeneklipperknive/krydskniv-klippo-310-mm-erstatter-5028817-10/"
+    },
+    {
+      "id": "aftermarket-rinab-mulcher-480mm",
+      "tier": 2,
+      "title": "RINAB after-market mulcher blade 480mm specifications",
+      "document": "Aftermarket 31-15-845-00 replacement for 5028813-10; 480 ×58 ×4mm; 14mm center hole",
+      "url": "https://www.rinab.nu/skog-och-tradgard/Grasklippare/Klippaggregatsdelar/Knivar/Klippo/Mulcherkniv-48-cm-19-klippbredd-Klippo-04.htm"
     }
   ],
   "topics": {
@@ -1101,6 +1108,60 @@
       "sourceId": "aftermarket-garmas-crosscut-supersession",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "ex2018-knife-bolt-torque",
+      "statement": "2018 års Husqvarna/KLIPPO originalmanual 848-001 anger åtdragningsmoment 70 Nm för knivbulten. Detta är en manualbunden instruktion för 2018-generationen, inte ett direkt momentvärde för varje äldre motor-/knivfästesrevision.",
+      "variant": "KLIPPO originalmanual 848-001 (2018)",
+      "locator": "SV s.12 (PDF index 11), Byta kniv, moment 9",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ex2018-knife-replace-fasteners",
+      "statement": "2018 originalmanual 848-001 anger att vid byte av kniv eller knivstöd ska även knivbult, fjäderbricka och friktionsbricka bytas, och motoraxeln kontrolleras för böjning.",
+      "variant": "KLIPPO originalmanual 848-001 (2018)",
+      "locator": "SV s.11-12 (PDF index 10-11), Byta kniv, punkt 3–4",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "ex2018-knife-install-order",
+      "statement": "2018 originalmanual 848-001 instruerar att friktionsbrickan och kniven placeras mot knivstödet, fjäderbrickan monteras före åtdragning, och knivens böjda ändar ska peka mot klippkåpan. Manualen visar ingen verifierad särskild monteringsordning för två separata Cross-Cut-blad i äldre maskiner.",
+      "variant": "KLIPPO originalmanual 848-001 (2018)",
+      "locator": "SV s.11–12 (PDF index 10–11), Byta kniv, punkterna 5–9",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ex2018-knife-check-balance",
+      "statement": "2018 originalmanual 848-001 rekommenderar balansering efter knivslipning och kontroll av skador, sprickor samt fri rotation efter montering.",
+      "variant": "KLIPPO originalmanual 848-001 (2018)",
+      "locator": "SV s.11–12 (PDF index 10–11), Kontrollera skärutrustningen och Byta kniv",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ex-aftermarket-mainblade-dimensions",
+      "statement": "RINAB:s eftermarknadskniv 31-15-845-00 uppges ersätta 5028813-10; dess egna mått anges 480 mm lång, 58 mm bred, 4 mm tjock, centrumhål 14 mm, medurs rotation. Detta är mått på eftermarknadsprodukten, inte tillverkaruppmätta mått på originalkniven.",
+      "variant": "Eftermarknadsersättare för angivet blad",
+      "locator": "Produktkort 31-15-845-00, tekniska uppgifter och ersätter originalnummer",
+      "sourceId": "aftermarket-rinab-mulcher-480mm",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ex-aftermarket-shortblade-dimensions",
+      "statement": "Garmas eftermarknadskniv NGP881710 anges vara 310 mm lång med centrumhål 14,5 mm och säljaruppgiven ersättning för både 5028817-01 och 5028817-10; inte bevis på identisk geometri hos originalknivarna.",
+      "variant": "Eftermarknadsersättare för angivet blad",
+      "locator": "Garmas produktkort NGP881710, Tekniske specifikationer och Erstatningsnumre",
+      "sourceId": "aftermarket-garmas-crosscut-supersession",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -1123,6 +1184,7 @@
     "Knivposition 11 i Excellent 965227602 skiljer sig: 502881701 i 2012-06 mot 502881710 i 2013-02. Verifiera original-IPL, mått och serienummer innan någon ersättningsrekommendation.",
     "Kontrollera OEM-IPL för Excellent handtag 5029075-02, bromsvajer 5854020-03 och framaxelhållare 5044638-01 samt serienummer, monteringshål och kabelmått.",
     "Cross-Cut-blad 502881710 dokumenteras som 31 cm och samverkande med 502881310 i leverantörslistor. Den tidigare listade 502881701 (2012) är inte belagd som samma 31cm-del och ska inte slås ihop utan original-IPL/ersättningstabell.",
-    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam."
+    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
+    "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma."
   ]
 }
