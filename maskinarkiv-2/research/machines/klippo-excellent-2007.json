@@ -205,6 +205,24 @@
       "sourceId": "husqvarna-excellent-se-9676070",
       "grade": "A",
       "topic": "M"
+    },
+    {
+      "id": "excellent-k05710-2006-table",
+      "statement": "KLIPPO:s modelltabell i originalmanual 000001 anger Excellent med identitetskoden K05710, Briggs & Stratton Quantum 60 ReadyStart, 190 cm³ och 48 cm klippbredd. Tabellen avser dokumentets 2006 års försäkran, inte senare artikelnummer.",
+      "variant": "Excellent K05710 enligt Klippo försäkran 2006 i manualutgåva 2007",
+      "locator": "PDF-sida 8 (index 7), försäkran om överensstämmelse, rad Excellent",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-gcv-k05720-table",
+      "statement": "KLIPPO:s tabell anger Excellent GCV med kod K05720, Honda GCV135, 135 cm³ och 48 cm klippbredd. Detta är inte samma artikelnummer som senare Excellent H.",
+      "variant": "Excellent GCV K05720, originaltabell från 2006 i manual 2007",
+      "locator": "PDF-sida 8 (index 7), försäkran om överensstämmelse, rad Excellent GCV",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -214,6 +232,7 @@
     "Kartlägg Excellent kontra Excellent GCV/Excellent S/SE/SH utan att sammanblanda motor och drivsystem.",
     "Kontrollera nya manualutgåvor samt originalservice för självgående modeller.",
     "Original-PDF:s sidbild gav cachefel vid skärmbildsgranskning; läst text och sidlocator är tillgängliga men figurer/bilder kräver ny visuell kontroll.",
-    "Husqvarna 967 60 74-01, 967 60 78-01 och 967 60 70-01 finns som särskilda produktvarianter; koppla inte 2007-manualens oljeintervall till dem utan utgåve- och motorverifiering."
+    "Husqvarna 967 60 74-01, 967 60 78-01 och 967 60 70-01 finns som särskilda produktvarianter; koppla inte 2007-manualens oljeintervall till dem utan utgåve- och motorverifiering.",
+    "Visuell PDF-screenshot misslyckades; kontrollera serienummerkoder och tabelllayout mot skannad original-PDF innan publicering."
   ]
 }
