@@ -617,6 +617,60 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p25-plug-seals-single-use",
+      "statement": "För åtkomst till kontrollpluggarna (position 24 och 25) måste pluggtätningarna (position 26) tas bort; Hydro-Gear kräver att borttagna pluggtätningar kasseras och ersätts.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 38, Check Plugs & Seals, figur 34; PDF-sida 40",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cylinder-block-inspection",
+      "statement": "Hydro-Gear kräver kontroll av cylinderblockens löpytor efter repor och skärskador (galling) samt kontroll av samtliga komponenter för slitage eller skada; skadade delar ersätts.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 38, Cylinder Blocks, figur 35; PDF-sida 40",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cylinder-block-reassembly-oil",
+      "statement": "Manualen instruerar att applicera ett tunt oljeskikt på cylinderblockets komponenter inför återmontering och att skydda kolv- och blockytorna vid isärtagning.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 38, Cylinder Blocks, text vid figur 35; PDF-sida 40",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-2800-3100-parts",
+      "statement": "ZT-2800 och ZT-3100 har i drivaxelns demonteringsbild låsring 90, drivaxel 94, lager 95 och läpptätning 96. Tätning 96 ska kasseras efter demontering; lager 95 tas bara av axeln vid skada eller slitage.",
+      "variant": "ZT-2800/ZT-3100, BLN-52441 P25",
+      "locator": "Tryckt s. 39, Axle Shaft (ZT-2800/ZT-3100), figur 36; PDF-sida 41",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-axle-3200-separate-design",
+      "statement": "ZT-3200 har utöver låsring 90, drivaxel 94, lager 95 och läpptätning 96 även distans 164 och axelrör 165; detta är ett separat utförande jämfört med ZT-2800/3100.",
+      "variant": "Endast ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 40, Axle Shaft (ZT-3200), figur 37; PDF-sida 42",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-axle-seal-spline-protection",
+      "statement": "Vid montering av drivaxelns läpptätning rekommenderar Hydro-Gear skydd över splines, vassa kanter och kilspår så att den nya tätningen inte skadas.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 39–40, Axle Shaft, monteringsnoter till figurer 36–37; PDF-sida 41–42",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -633,6 +687,7 @@
     "Felsökningsmatrisen är generisk: innan åtgärd på en konkret klippare krävs OEM:s däcktrycks-, reglage- och säkerhetsinstruktioner.",
     "RTN- och bromsjusteringar är variant- och säkerhetskritiska. Samla OEM-specifika reglage-, broms- och säkerhetsrutiner innan någon publik steg-för-steg-instruktion skapas.",
     "Slå upp modellkodskombinationerna för laddpumpens kåpor och laddpumps-kit i tillverkarens BOM-styrda sprängskiss innan reservdelar beställs; figur 24 ger riktning, inte ordernummer.",
-    "Verifiera faktisk modellkod, skruv-/kitnummer och OEM-säkerhetskrav före monteringsråd för bypass, svängskiva, bromskam eller mittsektion."
+    "Verifiera faktisk modellkod, skruv-/kitnummer och OEM-säkerhetskrav före monteringsråd för bypass, svängskiva, bromskam eller mittsektion.",
+    "Drivaxeldelar och tätningar: verifiera full Hydro-Gear BOM-/seriekod samt online-sprängskiss före beställning; ZT-3200 har annat axelutförande än ZT-2800/3100."
   ]
 }
