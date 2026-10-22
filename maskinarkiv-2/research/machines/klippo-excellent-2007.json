@@ -46,6 +46,20 @@
       "title": "KLIPPO Excellent illustrated parts list 2009-12",
       "document": "IPL KLIPPO Excellent 2009-12, 965 22 76-01 – Excellent 2010",
       "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000046861/doc000084668/IPL/ga-6B42iUchbL6MHSpLiSL3WLLc?httproute=True"
+    },
+    {
+      "id": "klippo-om-2008-502937301",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning och överensstämmelseförsäkran 2008",
+      "document": "Art.nr 502937301, Version 1:18, 2008-01",
+      "url": "https://www.norlett.no/file/standardmappe-uni/brukermanual-klippo-triumph.pdf"
+    },
+    {
+      "id": "wolfswinkel-excellent-gcv-2009",
+      "tier": 2,
+      "title": "Wolfswinkel KLIPPO Excellent GCV parts diagram",
+      "document": "Excellent GCV 9652277-01, 2009-12, parts diagram overview",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/zubeh%C3%B6r-und-werkzeuge/j-hebel-satz/ausgezeichneter-gcv/ausgezeichnet-gcv-9652277-01-2009-12?format=jpg&height=220&rmode=crop&width=250"
     }
   ],
   "topics": {
@@ -354,6 +368,24 @@
       "sourceId": "husqvarna-excellent-ipl-2010",
       "grade": "A",
       "topic": "G"
+    },
+    {
+      "id": "excellent-gcv-2008-article-confirm",
+      "statement": "KLIPPO originalmanual 502937301 version 1:18 visar Excellent GCV med artikelnummer 965227701, Honda GCV135, cylindervolym 135 cm³ och klippbredd 48 cm i försäkran om överensstämmelse.",
+      "variant": "Excellent GCV 965227701, manualutgåva 2008",
+      "locator": "Försäkran om överensstämmelse, tabellraden Excellent GCV",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-gcv-2009-parts-lead",
+      "statement": "En återförsäljares reservdelssida har en separat sprängskiss för Excellent GCV 9652277-01 med angiven utgåva 2009-12. Förteckningen nämner 502968901, 503249501 och 503259401 bland många nummer, men artikelroll och positionsnummer har inte verifierats mot KLIPPO-originalkatalog.",
+      "variant": "Excellent GCV 9652277-01, parts diagram 2009-12",
+      "locator": "Rubrik 'Excellent GCV, 9652277-01, 2009-12' och 'Vollständiges produkt' nummerlista",
+      "sourceId": "wolfswinkel-excellent-gcv-2009",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -365,6 +397,7 @@
     "Original-PDF:s sidbild gav cachefel vid skärmbildsgranskning; läst text och sidlocator är tillgängliga men figurer/bilder kräver ny visuell kontroll.",
     "Husqvarna 967 60 74-01, 967 60 78-01 och 967 60 70-01 finns som särskilda produktvarianter; koppla inte 2007-manualens oljeintervall till dem utan utgåve- och motorverifiering.",
     "Visuell PDF-screenshot misslyckades; kontrollera serienummerkoder och tabelllayout mot skannad original-PDF innan publicering.",
-    "Reservdelslistan 965 22 76-01 (2010) har identifierats via PDF-text, men skärmbildsfunktionen misslyckades; visuellt kontrollera särskilt position 41.1/41.2 och 42.1/42.2 innan man anger underspecifika detaljer."
+    "Reservdelslistan 965 22 76-01 (2010) har identifierats via PDF-text, men skärmbildsfunktionen misslyckades; visuellt kontrollera särskilt position 41.1/41.2 och 42.1/42.2 innan man anger underspecifika detaljer.",
+    "Verifiera reservdelarnas figurnummer i Excellent GCV 9652277-01 IPL: tredjepartslistan räcker inte för att påstå kniv- eller knivfästepassform."
   ]
 }
