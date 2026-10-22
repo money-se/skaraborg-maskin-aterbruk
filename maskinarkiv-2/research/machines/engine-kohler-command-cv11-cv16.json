@@ -69,7 +69,7 @@
     },
     "I": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Kohler har källbelagda mätmetoder för vevhusvakuum, oljetryck, Oil Sentry, läckagetest och tändning. 10,2 cm vattenmanometer, 2–5 psi Oil Sentry och minst 40 psi efter återmontering avser skilda prov; variant och mätvillkor måste särskiljas."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Kohler har källbelagda mätmetoder för vevhusvakuum, oljetryck, Oil Sentry, läckagetest och tändning. 10,2 cm vattenmanometer, 2–5 psi Oil Sentry och minst 40 psi efter återmontering avser skilda prov; variant och mätvillkor måste särskiljas.\nFollow-up 2026-10-22: Laddningsdiagnostik har separata originalprov för 15 A-regulator, 3 A/70 W-belysning och 3 A/70 W-bromsstator. Testvarvtal, ledningsfärger, AC/DC och gränsvärden får aldrig blandas."
     },
     "J": {
       "state": "gap",
@@ -1105,6 +1105,123 @@
       "topic": "J",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-charge-15a-test-3600",
+      "statement": "Kohler TP-2339-D kräver fulladdat batteri och obelastat motorvarvtal 3600 rpm vid mätningar av reglerat 15 A laddningssystem. Dessa provförhållanden får inte kopieras till 3 A-systemets tabell.",
+      "variant": "15 A regulated battery charging system enligt Section 8",
+      "locator": "Electrical System Section 8, printed p.8.16 (PDF page index 73), test heading",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-15a-good-voltage-range",
+      "statement": "Kohlers 15 A-regulatortest anger 13,8–14,7 V vid 3600 rpm; om laddströmmen ökar när minst 5 A belastning ansluts är laddsystemet normalt och batteriet var redan fulladdat. Under 13,8 V eller utebliven strömökning motiverar vidare statorprov.",
+      "variant": "15 A regulated system, fully charged battery at 3600 rpm no load",
+      "locator": "Section 8, p.8.16, No Charge to Battery test 1 and conclusion",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-15a-stator-28vac",
+      "statement": "I 15 A-laddsystemets originalprov ska växelspänningen mellan urkopplade statorledare vara minst 28 V AC vid 3600 rpm. Om värdet uppnås vid utebliven laddning pekar Kohler mot felaktig likriktare/regulator; vid lägre värde följer resistansprov.",
+      "variant": "15 A regulated charging system, stator leads disconnected from rectifier-regulator",
+      "locator": "Section 8, p.8.16, No Charge to Battery test 2",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-15a-stator-resistance",
+      "statement": "För 15 A-laddsystemet anger Kohler resistans 0,1–0,2 ohm mellan statorledningarna med avstängd motor. Oändlig resistans tyder på avbrott. Mellan respektive ledning och jord ska resistansen vara oändlig, annars jordfel.",
+      "variant": "15 A regulated charging stator according to TP-2339-D",
+      "locator": "Section 8, p.8.16, No Charge to Battery test 3a/3b",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-15a-overcharge",
+      "statement": "Vid för hög laddning anger Kohlers reglerade 15 A-system att mer än 14,7 V uppmätt under föreskrivet prov pekar på defekt regulator. Vid högst 14,7 V och dålig laddhållning undersöks batteriet i stället.",
+      "variant": "15 A regulated charging system, Kohler test conditions",
+      "locator": "Section 8, p.8.16, Battery Continually Charges at High Rate",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-3a70-light-test",
+      "statement": "Kohlers separata system med 3 A batteriladdning och 70 W belysning provas vid 3000 rpm utan last och fulladdat batteri. Där anger Kohler minst 20 V DC från lossad laddledning mot jord vid 3000 rpm för fungerande statorlindning.",
+      "variant": "3 A charging plus 70 W lighting stator according to Section 8",
+      "locator": "Section 8, p.8.11 (PDF index 68), No Charge to Battery tests 1–2",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-3a70-resistance",
+      "statement": "I 3 A-laddning/70 W-belysningssystemets prov anger Kohler omkring 0,5 ohm mellan statorsidan av laddningsdioden och jord. Belysningslindningen provas separat mot jord och ska vara omkring 0,2 ohm.",
+      "variant": "3 A charging and 70 W lighting stator, engine off and isolated test leads",
+      "locator": "Section 8, p.8.11 (PDF index 68), No Charge test 4 and No Lights test 3",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-3a70-light-ac",
+      "statement": "För det särskilda 3 A/70 W-belysningssystemet är minst 13 V AC från frånkopplad belysningsledning till jord vid 3000 rpm tecken på fungerande belysningsstator. Detta är inte samma gränsvärde som 15 A-regulatorprovet.",
+      "variant": "3 A charge and 70 W lighting, yellow light wire disconnected",
+      "locator": "Section 8, p.8.11 (PDF index 68), No Lights test 2",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-braking-3a70-dc-test",
+      "statement": "I Kohlers 3 A/70 W-stator med bromskrets utförs laddningstest vid 3400 rpm; minst 5 V DC från den frånkopplade svarta laddledningen till jord anges som fungerande laddlindning. Diodens ledning provas i båda riktningar.",
+      "variant": "3 A/70 W braking stator, black charging wire, test at 3400 rpm",
+      "locator": "Section 8, p.8.12 (PDF index 69), No Charge to Battery tests 2–3",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-braking-stator-resistance",
+      "statement": "För 3 A/70 W-bromsstatorn anger Kohler omkring 0,15 ohm från gul belysningsledning till jord och 0,2–0,4 ohm från grön bromsledning till jord med motorn avstängd. 0 ohm tyder på kortslutning, oändligt på avbrott.",
+      "variant": "3 A/70 W braking stator with yellow and green wires",
+      "locator": "Section 8, p.8.12–8.13 (PDF indices 69–70), resistance checks",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-braking-green-ac",
+      "statement": "Kohler anger minst 35 V AC från frånkopplad grön bromsledning till jord vid 3400 rpm vid kontroll av 3 A/70 W-bromsstatorns bromskrets. Detta får inte användas som nominell batteriladdningsspänning.",
+      "variant": "3 A/70 W braking stator, green braking wire disconnected, 3400 rpm",
+      "locator": "Section 8, p.8.13 (PDF index 70), No Lights or Battery Charging Braking System test 2",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-starter-10sec-60sec",
+      "statement": "Kohler TP-2339-D instruerar högst 10 sekunders startmotorkörning per försök och minst 60 sekunders avsvalning mellan försök. Efter falsk start måste motorn stanna helt innan startmotorn aktiveras igen.",
+      "variant": "Command engines with electric starter according to TP-2339-D",
+      "locator": "Section 8, p.8.17 (PDF index 74), Starting Motor Precautions",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-starter-minimum-battery-250cca",
+      "statement": "Kohlers felsökning av en elstartare som går långsamt anger att batteriet måste klara minst 250 kallstartampere (CCA) i den beskrivna servicekonfigurationen och att även borstslitage, anslutningar och transmissionens neutralväxel ska kontrolleras.",
+      "variant": "Command electric starter troubleshooting per TP-2339-D",
+      "locator": "Section 8, p.8.17 (PDF index 74), Starter Energizes but Turns Slowly",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1136,6 +1253,7 @@
     "Electrical/air intake batch: identifiera befintlig 15 A/25 A laddning, kontaktdon, drivmedelsutförande (LP/PRO) och 2,8/3,4-tums luftfilterhus via motor Spec. No. före köp eller montering. Artikelnummer är katalogbelagda, inte generella passningsgarantier.",
     "Vevhusvakuumprovets 10,2 cm är vattennivåskillnad i specificerad mätmetod och får inte jämställas med normalt oljetryck. Provets säkerhetsanvisningar och 3200–3750 rpm behöver följas.",
     "Regulator och maxvarv: 3750 rpm är endast generell maxrekommendation för de flesta motorer; faktisk maskin-OEM anger gränsen. Innan serviceartikel krävs exakt typ av reglagefäste, regulatorfjäder, Spec. No. och varvtalsmätning.",
-    "Förgasarkatalog: inga specifikationsbundna kompletta Walbro-/Nikki-förgasarnummer eller munstyckssatser har fastställts. Kontrollera förgasarfabrikat, chokeversion, emissionsbegränsning och Spec. No. före beställning eller demontering."
+    "Förgasarkatalog: inga specifikationsbundna kompletta Walbro-/Nikki-förgasarnummer eller munstyckssatser har fastställts. Kontrollera förgasarfabrikat, chokeversion, emissionsbegränsning och Spec. No. före beställning eller demontering.",
+    "Elfelsökning: laddningssystemets faktiska 15 A, 3 A/70 W eller bromsstatorutförande måste identifieras med motorns Spec. No., kablage och maskinschema innan provets spänning, varvtal eller resistansvärden används."
   ]
 }
