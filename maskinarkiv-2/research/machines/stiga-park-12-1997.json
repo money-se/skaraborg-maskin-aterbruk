@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1997",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Endast STIGA Park 12 produktnummer 13-1442-20, säsong 1997; andra Park 12-årgångar och Villa/ Park HST får inte automatiskt överföras.",
+  "sources": [
+    {
+      "id": "stiga-park12-1997-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 original reservdelskatalog",
+      "document": "13-1442-20; Season 1997; Issue 45 - 2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1442-20_96_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-park-2000-2007-workshop",
+      "tier": 1,
+      "title": "STIGA Park Workshop Manual 2000–2007 (endast avgränsningskälla, ej modellbevis för 1997)",
+      "document": "Workshop Manual, edition 2007-03-22",
+      "url": "https://view.stiga-store.com/files/Wsm-Park_EN_2000-2007.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Grundbelägg från STIGA:s originalreservdelskatalog insamlade, men modellbunden ägarmanual, verkstadsanvisningar och fullständig variant-/komponentkontroll saknas. Katalognummer måste kontrolleras mot maskinens märkplåt."
+    }
+  },
+  "claims": [
+    {
+      "id": "park12-1997-id",
+      "topic": "A",
+      "statement": "STIGA:s originalreservdelskatalog identifierar PARK 12 med produktnummer 13-1442-20 som Season 1997; katalogens utgåva anges som 45–2014.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 1 omslag; sida 3 kataloghuvud"
+    },
+    {
+      "id": "park12-1997-plate",
+      "topic": "A",
+      "statement": "STIGA:s katalog uppmanar reservdelsbeställare att kontrollera tillämplig årgång mot maskinens identifikationsplåt.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 1, förord"
+    },
+    {
+      "id": "park12-1997-frame",
+      "topic": "B",
+      "statement": "Originalkatalogen listar främre ram 1134-3411-03 och midjegaffel/ledaxel 1134-1757-07.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 3, Främre ram, position 1–2"
+    },
+    {
+      "id": "park12-1997-rear-frame",
+      "topic": "E",
+      "statement": "Bakre ramen listas som artikelnummer 1134-3412-01.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 5, Bakre ram, position 2"
+    },
+    {
+      "id": "park12-1997-drive-belt",
+      "topic": "D",
+      "statement": "Transmissionsgruppen listar kilrem 1134-9035-01 med hänvisning till 9585-0078-00.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 15, Transmission, position 10"
+    },
+    {
+      "id": "park12-1997-transaxle",
+      "topic": "D",
+      "statement": "Transmissionsgruppen listar transaxel 1134-3716-02; detta anger inte dess tillverkare eller interna modellkod.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 15, Transmission, position 18"
+    },
+    {
+      "id": "park12-1997-shifter",
+      "topic": "F",
+      "statement": "Transmissionsgruppen listar växelwire 1134-2031-02, kopplingswire 1134-2030-04 och växelspak 1134-2328-01.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 15 position 51, 62; sida 17 position 70"
+    },
+    {
+      "id": "park12-1997-tyres",
+      "topic": "B",
+      "statement": "Katalogen listar däck 9545-0116-00 med dimensionsangivelse 16 x 7.50–8 i främre ramens och transmissionens delar.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 3, Främre ram position 25; sida 15 Transmission position 39"
+    },
+    {
+      "id": "park12-1997-fuse",
+      "topic": "G",
+      "statement": "Elsystemets reservdelslista anger säkring 1134-3496-01, betecknad 10 A, med antal två i tabellen; detta bevisar inte individuella säkringskretsars funktion.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 19, Elsystem, position 17"
+    },
+    {
+      "id": "park12-1997-harness",
+      "topic": "K",
+      "statement": "Elsystemets tabell anger kabelstam 1134-3718-01 med anmärkningen 1442; en annan kabelstam 1134-3697-01 anges för 1168, 1171, 1172.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 19, Elsystem position 50"
+    },
+    {
+      "id": "park12-1997-ignition",
+      "topic": "K",
+      "statement": "Tändningslås anges med serviceartikelnummer 1134-1814-01.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 19, Elsystem position 44"
+    },
+    {
+      "id": "park12-1997-fuel",
+      "topic": "C",
+      "statement": "Motor/broms-gruppen listar bränsletank 1134-3593-01 och bränslekran 1134-3224-01 men identifierar därmed inte motorns fabrikat eller typ.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 7, Motor Broms position 37, 42"
+    },
+    {
+      "id": "park12-1997-drain",
+      "topic": "J",
+      "statement": "Motor/broms-gruppen listar oljeavtappningsrör 1134-2212-01; katalogen fastställer inte oljevolym eller intervall.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 7, Motor Broms position 13"
+    },
+    {
+      "id": "park12-1997-purchase-identification",
+      "topic": "L",
+      "statement": "Katalogens förord anger att reservdelslistan måste matcha maskinens tillverkningsår enligt identifikationsplåten, vilket är en nödvändig kontroll inför reservdelsval.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 1, förord och identifikationsplåt"
+    },
+    {
+      "id": "park12-1997-parts-warning",
+      "topic": "M",
+      "statement": "Katalogen varnar för att delar kan ändras genom produktförbättring och att ritningarna kan vara indikativa, så listningen ensam garanterar inte en reservdels aktuella utförande.",
+      "variant": "STIGA Park 12, 13-1442-20, season 1997",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "PDF sida 1, förord"
+    }
+  ],
+  "gaps": [
+    "Sök Park 12 13-1442-20 originalbruksanvisning med säkra serviceintervall, oljetyp och säkerhetsvillkor.",
+    "Identifiera motorns fullständiga tillverkare, Model/Type/Code och tillämpliga originalmotorhandböcker; motorinstallationsgrupp är inte intern motor-IPLs.",
+    "Identifiera transaxelns faktiska fabrikat och tillverkarbeteckning från transaxelmärkning och separat tillverkar-IPLs, inte endast STIGA-delnummer.",
+    "Jämför 13-1442-20 med 13-1442-19 och äldre 13-1218-varianter utan att anta gemensamma reservdelar.",
+    "Identifiera korrekt klippaggregat-PNC, knivar, remmar och monteringssats för detta basmaskins-PNC.",
+    "Verifiera elschema och säkerhetsspärrarnas funktion i modellbunden manual.",
+    "Visuell granskning av original-PDF:s ritningar kvarstår eftersom skärmbildsvisning inte fungerade vid källgranskningen 2026-10-22."
+  ]
+}
