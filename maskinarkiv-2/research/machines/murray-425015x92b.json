@@ -22,7 +22,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Modellens CHASSIS & HOOD, sida 2, dokumenterar motorhuv, grill, instrumentpanel, servicelucka och batteristöd utöver ramdelarna. Delrevisioner och passform ej jämförda."
     },
     "C": {
       "name": "Motor",
@@ -32,7 +32,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Transaxelmodell och drivrem ännu ej verifierade från den aktuella modellens katalog."
+      "note": "Exakt transmissionsfabrikat och submodell för just 425015X92B är fortfarande öppna. Identitet från 425015X92A eller 42516X92B får inte föras över."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -300,6 +300,127 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-steering-bearing",
+      "statement": "Reservdelskatalogen listar Styrlager 1001491.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 33",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-dash",
+      "statement": "Reservdelskatalogen listar Instrumentpanel 1001584E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 34",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-dash-access",
+      "statement": "Reservdelskatalogen listar Servicelucka 093007E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 36",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-rear-hanger",
+      "statement": "Reservdelskatalogen listar Bakre upphängningsstöd 1001270E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 38",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-seat-deck",
+      "statement": "Reservdelskatalogen listar Sitsplåt 1001558E245.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 19",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-hood",
+      "statement": "Reservdelskatalogen listar Motorhuv 1001797E245.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 25",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-grille",
+      "statement": "Reservdelskatalogen listar Frontgrill 1001798E245.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 26",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-headlamp-lens",
+      "statement": "Reservdelskatalogen listar Strålkastarlins 1001806.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 27",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-headlamp-housing",
+      "statement": "Reservdelskatalogen listar Strålkastarhus 1001805.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 28",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-battery-support",
+      "statement": "Reservdelskatalogen listar Batteristöd 690482E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 30",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-cup-holder",
+      "statement": "Reservdelskatalogen listar Mugghållare 1001542.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 70",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -309,6 +430,7 @@
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
-    "PDF-bildgranskning av Mower Housing misslyckades; uppgifterna har jämförts mot källans indexerade text."
+    "PDF-bildgranskning av Mower Housing misslyckades; uppgifterna har jämförts mot källans indexerade text.",
+    "För 425015X92B har transmissionsfabrikat och modellnummer inte kunnat styrkas ur verifierat Motion Drive-underlag; använd märkplåten och exakt modellmanual."
   ]
 }
