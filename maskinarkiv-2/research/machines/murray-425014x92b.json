@@ -25,6 +25,13 @@
       "title": "Murray 425014X92B illustrated repair parts steering table",
       "document": "F-050706L, STEERING printed page 43",
       "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=43"
+    },
+    {
+      "id": "murray-014b-engine-49",
+      "tier": 2,
+      "title": "Murray 425014X92B engine mount parts",
+      "document": "F-050706L p.49",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=49"
     }
   ],
   "topics": {
@@ -41,7 +48,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Engine Mount anger Briggs & Stratton samt komponenter för montage och avgassystem. Motorns exakta Model/Type/Code saknas."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -435,6 +442,149 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-engine-brand",
+      "statement": "Motorn anges som Briggs & Stratton, utan fullständig Model/Type/Code.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-tank",
+      "statement": "Bränsletank: 690280.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 2",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-fuel-cap",
+      "statement": "Tanklock: 092317.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 1",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-fuel-line",
+      "statement": "Bränsleledning: 7601033, kapas till rätt längd.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 4",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-throttle",
+      "statement": "Gasreglage: 092371.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 8",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-engine-plate",
+      "statement": "Motorplåt: 094006E700.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 7",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-muffler",
+      "statement": "Ljuddämpare: 1001717.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9a",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-muffler-gasket",
+      "statement": "Ljuddämparpackning: 091309.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9b",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-muffler-adapter",
+      "statement": "Ljuddämparadapter: 095207.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9c",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-pulley",
+      "statement": "Dubbel remskiva: 690439 Z.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 11",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-belt-guide",
+      "statement": "Remstyrning: 094384.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 21",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-belt-guide-secondary",
+      "statement": "Remstyrning: 094066.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 23",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-heat-shield",
+      "statement": "Värmesköld: 1001897.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 30",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -445,6 +595,7 @@
     "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
     "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
     "Katalogernas lika rem- och knivnummer för 425014X92B och 425015X92A belägger gemensamma katalognummer, inte universell montering eller ersättningsrevisioner. Kontrollera aggregatets märkning.",
-    "425014X92B styrningsritning visar avvikande suffixtal E245 för framaxel/styrspindlar jämfört med 425015X92A:s E701; kontrollera verklig revision och eventuella ersättningsnummer före beställning."
+    "425014X92B styrningsritning visar avvikande suffixtal E245 för framaxel/styrspindlar jämfört med 425015X92A:s E701; kontrollera verklig revision och eventuella ersättningsnummer före beställning.",
+    "Identifiera Briggs Model/Type/Code på motorn före koppling till motorspecifik servicemanual."
   ]
 }
