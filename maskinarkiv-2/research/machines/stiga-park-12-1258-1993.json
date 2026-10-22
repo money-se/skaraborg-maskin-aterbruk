@@ -420,6 +420,51 @@
       "grade": "A",
       "sourceId": "peerless-motion-drive-691218",
       "locator": "Form 691218, Chapter 5, printed p.30 (PDF p.32), General information"
+    },
+    {
+      "id": "p12-1258-93-bearing-needle-list",
+      "topic": "K",
+      "statement": "STIGA:s Peerless 846-lista anger tre separata nållagerartiklar: P000-7800-86 (2 st, pos 30), P000-7801-11 (1 st, pos 37) och P000-7801-12 (2 st, pos 43). De får inte ersättas av en generisk 800-serieartikel utan positionskontroll.",
+      "variant": "STIGA Park 12 13-1258-16; Peerless 846 transaxeloriginal, positionsbundet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Original STIGA IPL 13-1258-16, PDF s.13, Tecumseh Peerless Transaxel 846, pos. 30, 37, 43"
+    },
+    {
+      "id": "p12-1258-93-bearing-ball-list",
+      "topic": "K",
+      "statement": "I samma Peerless 846-originaldellista anges två kullager P000-7801-19 på position 39. Katalogpositionen ger inte belägg för vilket av Peerless handboks illustrationer A–D som är monterat.",
+      "variant": "STIGA Park 12 13-1258-16; Peerless 846 transaxeloriginal, positionsbundet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Original STIGA IPL 13-1258-16, PDF s.13, pos.39"
+    },
+    {
+      "id": "p12-1258-93-seal-ring-list",
+      "topic": "K",
+      "statement": "Peerless 846-katalogen listar två tätningsringar P000-7880-51 på pos.41 samt en O-ring P000-7920-01 på pos.42; den fastställer inte att dessa motsvarar 800-handbokens lagerutförande C.",
+      "variant": "STIGA Park 12 13-1258-16; Peerless 846 transaxeloriginal, positionsbundet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Original STIGA IPL 13-1258-16, PDF s.13, pos.41–42"
+    },
+    {
+      "id": "p12-1258-93-seal-other-list",
+      "topic": "K",
+      "statement": "Originaldelkatalogen anger ytterligare en tätning med exakt tryckt artikelbeteckning P000-780-69 (pos.72) och ringarna P000-7880-52 (pos.45, 1 st), P000-7880-53 (pos.46, 2 st). Katalogens P000-780-69 bevaras ordagrant tills nummerformatet kunnat korsverifieras.",
+      "variant": "STIGA Park 12 13-1258-16; Peerless 846 transaxeloriginal, positionsbundet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Original STIGA IPL 13-1258-16, PDF s.13, pos. 72,45,46"
+    },
+    {
+      "id": "p12-1258-93-bearing-variant-limit",
+      "topic": "K",
+      "statement": "STIGA:s 846-komponentlista anger lager- och tätningspositioner men saknar uttrycklig matchning till verkstadshandbokens 800-serielager A, B, C eller D. Ingen sådan matchning ska antas utan ytterligare originalunderlag.",
+      "variant": "STIGA Park 12 13-1258-16; Peerless 846 transaxeloriginal, positionsbundet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Original STIGA IPL 13-1258-16, PDF s.13, pos.30,37,39,41–43; jämför Peerless 691218 kap.5"
     }
   ],
   "gaps": [
@@ -432,6 +477,7 @@
     "STIGA 846-reservdelsposten anger Bentonite grease 0,9 kg; en servicemanual krävs för metod, eventuella påfyllnadsgränser och byte.",
     "Jämför STIGA 0,9 kg Bentonite grease-pos 90 med Peerless allmänna 800-seriens 30 oz/887 ml; dokumentera eventuell skillnad i netto/brutto och monteringsläge innan exakt påfyllnadsmängd anges.",
     "Verkstadsmanualens 800/801-procedurer är generiska; koppla lagerutförande A–D och O-ringstätningars dimensioner till exakt Peerless 846-serienummer före reservdelsbeställning.",
-    "Peerless 691218 illustrerar utförande B/C/D och nållagerdjup, men saknar här koppling till bestämt 846-serienummer; kontrollera etikett och intern utförandevariant innan lager-/tätningsbeställning."
+    "Peerless 691218 illustrerar utförande B/C/D och nållagerdjup, men saknar här koppling till bestämt 846-serienummer; kontrollera etikett och intern utförandevariant innan lager-/tätningsbeställning.",
+    "Tätning P000-780-69 i STIGA:s tryckta originaltabell har avvikande nummerlängd; kontrollera mot annan originalpartslista före beställning."
   ]
 }
