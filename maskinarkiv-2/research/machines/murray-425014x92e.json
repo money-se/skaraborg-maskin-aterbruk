@@ -62,7 +62,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Originalreservdelskatalog identifierar Briggs 282H07, men fullständigt Type/Code och exakt motorservicebok saknas."
+      "note": "Briggs 282H07 katalogförd; montagekomponenter som gas-/chokereglage och ljuddämparpackning belagda men fullständigt motor-Type/Code saknas fortfarande."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -82,7 +82,7 @@
     "G": {
       "name": "Säkerhetssystem",
       "state": "gap",
-      "note": "OEM elschema och reservdelslista identifierar säkring, sitsbrytare, interlock, tändningslås och ROS-modul; säkerhetssystemens exakta logik och revisioner behöver fördjupas."
+      "note": "OEM-elschema och komponentlista dokumenterar sits-/interlock-/ROS-komponenter, startsolenoid, backkörningskabel samt separata nominella belysnings- och laddningsutgångar. Mätmetodik, felgränser och individuella generatorvarianter återstår."
     },
     "H": {
       "name": "Klippaggregat och redskap",
@@ -555,6 +555,149 @@
       "topic": "K",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-throttle-170551",
+      "statement": "Gas-/chokereglaget Control, Throttle/Choke anges som 170551.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ENGINE tryckt s.41, pos 1",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-oil-drain-148456",
+      "statement": "Motorns oljeavtappningsrör Tube Drain Oil Easy anges som 148456.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ENGINE tryckt s.41, pos 14",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-clutch-cable-167994",
+      "statement": "Motormonteringslistan anger kopplingsvajer Clutch Cable Asm. 167994.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ENGINE tryckt s.41, pos 25",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-fuel-tank-187750",
+      "statement": "Bränsletanken anges som artikelnummer 187750.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ENGINE tryckt s.41, pos 31",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-fuel-cap-140527",
+      "statement": "Ventilerat tanklock anges som artikelnummer 140527.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ENGINE tryckt s.41, pos 32",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-fuel-line-137040",
+      "statement": "Bränsleledning Line, Fuel anges som artikelnummer 137040.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ENGINE tryckt s.41, pos 37",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-exhaust-gasket-165291",
+      "statement": "Ljuddämparpackning anges som artikelnummer 165291.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ENGINE tryckt s.41, pos 13",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-battery-163465",
+      "statement": "Elsystemets batteri anges som artikelnummer 163465.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ELECTRICAL tryckt s.33, pos 1",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-solenoid-192507",
+      "statement": "Startsolenoiden anges som artikelnummer 192507.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ELECTRICAL tryckt s.33, pos 43",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-reverse-harness-193465",
+      "statement": "Kabelhärvan Harness Pigtail Reverse Switch anges som artikelnummer 193465.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "ELECTRICAL tryckt s.33, pos 92",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lighting-source-separate",
+      "statement": "Elschemat anger att strålkastarna har en separat elektrisk källa och att ljusstyrkan därför varierar med motorvarvtalet.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "SCHEMATIC tryckt s.31, LIGHTING SYSTEM NOTE",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lighting-output-5amp",
+      "statement": "Elschemat anger belysningsutgång 5 A växelström vid 3600 r/min; detta är schemavärde, inte universell generatoruppgift för 282H07.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "SCHEMATIC tryckt s.31, LIGHTING SYSTEM OUTPUT",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-charging-output-3amp",
+      "statement": "Elschemat anger laddningsutgång 3 A likström vid 3600 r/min, som kopplingsschemaspecifik uppgift.",
+      "variant": "Murray 425014X92E / 96014000100; OEM-IPL 96014000100-e-rp",
+      "locator": "SCHEMATIC tryckt s.31, CHARGING SYSTEM OUTPUT",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -563,6 +706,7 @@
     "Drivrem och klipprem samt bladnummer katalogverifierade; kontrollera eventuella efterföljande ersättningsnummer och verklig passform mot maskinens ID.",
     "Fullständig elschemakontroll, interlocks och komponentkoder per revision.",
     "Flera Murray-modellfamiljer och europeiska varianter saknas ännu i forskningsbanken.",
-    "Inget publiceringsbeslut; samtliga ämnesområden A–M är ännu ofullständiga."
+    "Inget publiceringsbeslut; samtliga ämnesområden A–M är ännu ofullständiga.",
+    "Generatorns verkliga utförande och elsystemets testprotokoll måste kontrolleras mot fysisk maskin och motor-Type/Code; nominella schemasiffror är inte individuella mätvärden."
   ]
 }
