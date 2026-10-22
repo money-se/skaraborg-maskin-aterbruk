@@ -256,6 +256,13 @@
       "title": "Duab Husqvarna Group transmission kit 5851926-03",
       "document": "Seller item tagged maker number 5851926-03, Husqvarna Group, labelled Transmission Kit Mulch Klippo",
       "url": "https://duab.se/reservdelar/husqvarna-group/transmission-kit-mulch-klippo"
+    },
+    {
+      "id": "oem-klippo-driven-2009-115332210",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO driven mower manual 115332210 edition 2009-11",
+      "document": "2009 driven mowers technical data page 18, EC declaration page 19; variants Excellent S, Excellent S GCV, Comet and Pro S",
+      "url": "https://www.yumpu.com/no/document/view/23881380/om-klippo-drivna-2009-11-115332210/19"
     }
   ],
   "topics": {
@@ -1878,6 +1885,51 @@
       "sourceId": "retailer-585192603-husqvarna-part",
       "grade": "B",
       "topic": "D"
+    },
+    {
+      "id": "exs-2009-oem-serial-scope",
+      "statement": "Tillverkarens 2009-manual för självgående Klippo anger att EU-försäkran gäller maskiner från serienummer 09XXXXXXX och framåt. Den gäller uppräknade *drivna* varianter och inte äldre odrivna Excellent-modeller.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.19 EG-försäkran, serienummer 09XXXXXXX",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "exs-2009-oem-family-s",
+      "statement": "2009 års originalförsäkran räknar uttryckligen Excellent S och Excellent S GCV som separata modeller; drivna S-varianter får inte sammanblandas med odrivna Excellent eller Excellent GCV.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.19 EG-försäkran, modellnamn Excellent S och Excellent S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "exs-2009-oem-family-comet",
+      "statement": "2009 års originalförsäkran listar Comet S, Comet S GCV och Comet SE var för sig, trots att de ingår i samma övergripande drivna familj.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.19 EG-försäkran, modellförteckningen Comet",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "exs-2009-oem-ec-cert",
+      "statement": "2009 års tillverkardeklaration kopplar Excellent S till typintyg 17/901/017 och Excellent S GCV till 17/901/022. Koden är överensstämmelsecertifikat, inte artikelnummer.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.19 EG-försäkran, certificates Excellent S och Excellent S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "exs-2009-oem-standards",
+      "statement": "Originalförsäkran 2009 hänvisar till EN 836, ISO 11094 och EN 55012 samt maskindirektiv 2006/42/EG för de uppräknade självgående Klippo-modellerna.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.19 EG-försäkran, standarder och direktiv",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1907,6 +1959,7 @@
     "Klippo Excellent S 2012-06 anges 96522780208 i två återförsäljarlistor men ursprungligt IPL-omslag måste granskas innan PNC fastställs som OEM A. Växellåda 578266601 till 585192603 saknar dokumenterad tillverkarsupersession.",
     "VIKTIG KÄLLKONFLIKT: 2012 års original-IPL har växellådsdelarna 578771101, 503323201, 503328101 men Wolfswinkels aktuella 2012-06-lista anger 587235401, 503323002, 586467101; fastställ när och varför säljarlistan uppdaterats innan 2013 anges som faktisk konstruktionsändringsgräns.",
     "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
-    "Ny bekräftad säljaruppgiven supersession är 578266601→578266603 (samt 503329801→578266603), men 585192603 är separat numrerad transmissionssats. Fysisk/serienummerbunden kompatibilitet mellan 578266603 och 585192603 måste klarläggas via OEM."
+    "Ny bekräftad säljaruppgiven supersession är 578266601→578266603 (samt 503329801→578266603), men 585192603 är separat numrerad transmissionssats. Fysisk/serienummerbunden kompatibilitet mellan 578266603 och 585192603 måste klarläggas via OEM.",
+    "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod."
   ]
 }
