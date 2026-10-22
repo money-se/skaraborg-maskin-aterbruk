@@ -114,7 +114,11 @@ for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,14],["jonsered-lt
  const ids=[...page.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
  assert.equal(ids.length,new Set(ids).size,slug+" duplicate IDs");
  for(const [,anchor] of page.matchAll(/href="#([^"]+)"/g)) assert.ok(ids.includes(anchor),slug+" bad anchor "+anchor);
- for(const chapter of data.chapters)assert.ok(ids.includes(chapter.id),slug+" missing "+chapter.id);
+ for(const chapter of data.chapters){
+   assert.ok(ids.includes(chapter.id),slug+" missing "+chapter.id);
+   for(const block of chapter.blocks){if(slug==="stiga-villa-12-hst" && block.type==="html") assert.ok(!/<\/?section\b/i.test(block.html||""),slug+" section tags must be owned by the chapter template: "+chapter.id);}
+ }
+
  assert.equal((page.match(/<section\b/g)||[]).length,(page.match(/<\/section>/g)||[]).length,slug+" unbalanced sections");
  const reuse=page.indexOf('id="aterbruk"'),tradera=page.indexOf('id="tradera"'),source=page.indexOf('id="kallor"');
  assert.ok(reuse>=0&&reuse<tradera&&tradera<source,slug+" bad CTA order");
