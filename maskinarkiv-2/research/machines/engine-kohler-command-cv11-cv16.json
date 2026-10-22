@@ -61,7 +61,7 @@
     },
     "G": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Oil Sentry är tillval; elsystem, sensoradapter och stopp- kontra varningskoppling måste identifieras per maskin innan funktionsråd kan godkännas."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Oil Sentry är tillval; elsystem, sensoradapter och stopp- kontra varningskoppling måste identifieras per maskin innan funktionsråd kan godkännas.\nFollow-up: skilj mekanisk oljetrycksbegränsningsventil i smörjsystemet från valfri elektrisk Oil Sentry-tryckvakt."
     },
     "H": {
       "state": "gap",
@@ -1564,6 +1564,78 @@
       "topic": "H",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-relief-valve-early-five-piece",
+      "statement": "Kohler TP-2339-D skiljer äldre femdelad oljetrycksbegränsningsventil med ventilhus, kolv, fjäder, hållare och fästskruv från senare endelat utförande. Vid kontroll ska kolv och hus vara fria från grader och märken.",
+      "variant": "Command CV11–16/CV460–465/CV490–495, äldre femdelad tryckbegränsningsventil",
+      "locator": "Section 10, printed p.10.11, PDF index 120, Oil Pressure Relief Valve and Fig.10-11",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-relief-valve-early-spring-length",
+      "statement": "För äldre femdelad oljetrycksbegränsningsventil anger Kohler fjäderns fria längd som cirka 0,992 tum. Skadad, deformerad eller felmåttad fjäder ska bytas. Värdet gäller inte senare endelad ventil.",
+      "variant": "Command med äldre femdelad relief valve enligt TP-2339-D",
+      "locator": "Section 10, printed p.10.11, PDF index 120, Oil Pressure Relief Valve",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-relief-valve-later-staked",
+      "statement": "Kohlers senare endelade oljetrycksbegränsningsventil är faststukad i oljetrågets täckplatta och ska endast tas bort när den ska ersättas. Kontrollera att dess fjäderbelastade inre kolv rör sig fritt.",
+      "variant": "Command med senare endelad relief valve enligt TP-2339-D",
+      "locator": "Section 10, printed p.10.11, PDF index 120, Oil Pressure Relief Valve and Fig.10-12",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-relief-valve-later-install-staking",
+      "statement": "Vid montering av senare endelad oljetrycksbegränsningsventil anger Kohler att ventilen pressas/tappas ned helt i sitt säte och att gjutgodskanten stukas med körnslag på 3–4 ställen. Loctite får inte användas i denna montering.",
+      "variant": "Command med senare endelad relief valve enligt TP-2339-D",
+      "locator": "Section 11, printed p.11.6, PDF index 127, Figs.11-18/11-19",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-relief-valve-conversion-screw",
+      "statement": "Om den senare endelade oljetrycksbegränsningsventilen ersätter ett äldre femdelat utförande kräver Kohler att den gamla hållarens fästskruv återmonteras för att plugga hålet.",
+      "variant": "Command pressure relief conversion from early five-piece to later one-piece",
+      "locator": "Section 11, printed p.11.6, PDF index 127, Later One-Piece Style step 1",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-gear-removal-no-reuse",
+      "statement": "Kohler TP-2339-D anger att regulatorhjulets formsprutade låsflikar skadas när hjulet dras av regulatoraxeln. Ett demonterat regulatorhjul får därför inte återanvändas.",
+      "variant": "Command governor gear per TP-2339-D",
+      "locator": "Section 10, printed p.10.11, PDF index 120, Governor Gear and Shaft",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-shaft-removal-drift",
+      "statement": "Kohler beskriver att regulatoraxelns sprint drivs inåt från svänghjulssidan med drivdorn eller press; tång och skruvstyckstänger avråds eftersom vevhuset kan skadas.",
+      "variant": "Command governor shaft per TP-2339-D",
+      "locator": "Section 10, printed p.10.11, PDF index 120, Procedure to Remove Governor Shaft",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rod-undersize-replacement",
+      "statement": "Kohler TP-2339-D anger reservvevstakar både för standardstor vevtapp och för vevtapp som slipats ned 0,25 mm. Rätt stav väljs med specifikationsbunden reservdelsinformation och uppmätt vevtapp.",
+      "variant": "Command connecting rods per TP-2339-D, STD and 0.25 mm undersize crankpin",
+      "locator": "Section 10, printed p.10.11, PDF index 120, Connecting Rods",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1599,6 +1671,7 @@
     "Elfelsökning: laddningssystemets faktiska 15 A, 3 A/70 W eller bromsstatorutförande måste identifieras med motorns Spec. No., kablage och maskinschema innan provets spänning, varvtal eller resistansvärden används.",
     "Symptomtabeller och tändstiftsbilder i TP-2339-D är differentialdiagnostik, inte bevis för ett fel; bekräfta bränslesystem, tändsystem, kompression och aktuell maskins säkerhetskretsar innan åtgärd.",
     "Renoveringsmått i TP-2339-D behöver motorns modell/Spec. No., slitagemätning, mätverktyg och reservdelarnas faktiska tillämpning; skillnaden 87/90 mm samt ventil- och ringgrupper får inte sammanblandas.",
-    "Renoveringsvärden för vevaxel, vevstake och kamaxel kräver mätning enligt TP-2339-D, identifiering av vevstaksbultens profil och aktuell motor/Spec. No.; dessa får inte användas som generella momentspecifikationer."
+    "Renoveringsvärden för vevaxel, vevstake och kamaxel kräver mätning enligt TP-2339-D, identifiering av vevstaksbultens profil och aktuell motor/Spec. No.; dessa får inte användas som generella momentspecifikationer.",
+    "Oljetrycksbegränsningsventilen är inte Oil Sentry-kontaktvakten. Kontrollera äldre femdelad kontra senare endelad ventil i faktisk oljetrågs-/täcksplattvariant innan reservdel och monteringsmetod väljs."
   ]
 }
