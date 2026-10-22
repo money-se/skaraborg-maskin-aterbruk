@@ -52,7 +52,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-030768L s.8 anger lyftspak, lyftstag, vänster/höger aggregatupphängning, pivotfästen och PTO-reglage med positionsbundna katalognummer. Textkontroll gjord; PDF-bildkontroll ej möjlig."
     },
     "I": {
       "name": "Tillbehör",
@@ -586,6 +586,149 @@
       "topic": "G",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-handle",
+      "statement": "Katalogen anger PTO-handtag 094100 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-switch-pad",
+      "statement": "Katalogen anger PTO-brytarkudde 094022 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-lift-lever",
+      "statement": "Katalogen anger Lyftspak 690533.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 8",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-lever",
+      "statement": "Katalogen anger PTO-spak 094017 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-link",
+      "statement": "Katalogen anger PTO-länkage 094004 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 13",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-bracket",
+      "statement": "Katalogen anger PTO-fäste 094018E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 17",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-crank",
+      "statement": "Katalogen anger PTO-vev 690394E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 19",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-lift-link",
+      "statement": "Katalogen anger Lyftstag 690212E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 20",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-rear-suspension",
+      "statement": "Katalogen anger Bakre aggregatfäste 094055E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pivot-bracket",
+      "statement": "Katalogen anger Pivotfäste 094015E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-left-deck-hanger",
+      "statement": "Katalogen anger Vänster aggregatupphängning 094027E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 41",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-right-deck-hanger",
+      "statement": "Katalogen anger Höger aggregatupphängning 094026E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 42",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-hanger-rod",
+      "statement": "Katalogen anger Upphängningsstag 094158 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 43",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -596,6 +739,7 @@
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
     "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll.",
-    "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning."
+    "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning.",
+    "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform."
   ]
 }
