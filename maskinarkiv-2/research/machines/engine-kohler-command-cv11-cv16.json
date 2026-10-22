@@ -486,6 +486,33 @@
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "kohler-starter-solenoid-2543508s",
+      "statement": "Kohler originalkatalog 25 800 148 Rev. E listar internt jordat startrelä 25 435 08-S för CH/CV11–16/460–493. Det är ett katalogbundet tillämpningsområde; elsystem och Spec. No. på den enskilda maskinen måste kontrolleras.",
+      "variant": "CH/CV11–16/460–493, elektrisk installation ännu ej matchad",
+      "topic": "K",
+      "locator": "Starting > Starter Solenoids, printed p.6, PDF index 5",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-electric-start-kit-1274903s",
+      "statement": "Kohler 25 800 148 Rev. E anger elstartsats 12 749 03-S för CV11–16/460–493. Satsen exkluderar uttryckligen kabelhärva, som måste tillhandahållas separat med hänsyn till utrustningens variationer.",
+      "variant": "CV11–16/460–493; kabelhärva ej inkluderad",
+      "topic": "K",
+      "locator": "Starting > Electric Start Kits, printed p.6, PDF index 5",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-start-kit-1275547s",
+      "statement": "Kohler 25 800 148 Rev. E listar snörstartsats 12 755 47-S för CH/CV11–16/460–493, begränsad till motorkonfigurationer med fläktkåpa av metall.",
+      "variant": "CH/CV11–16/460–493 endast med metal blower housing",
+      "topic": "K",
+      "locator": "Starting > Recoil Start Kits, printed p.6, PDF index 5",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -504,6 +531,7 @@
     "Oil Sentry artikelnummer och sensoradapter per Kohler Spec. No. återstår att kontrollera; 6,8 Nm gäller vakten, inte en godtycklig oljeplugg.",
     "Oil Sentry 12 704 01-S: kontrollera specifikationsnummer, filteradapterns faktiska anslutning, kabelstam samt tillverkarens aktuella ersättningsnummer innan montering eller beställning.",
     "Kohler originalbränslefilter 25 050 21-S, 25 050 22-S och 25 050 07-S har katalogbelagda utföranden men kräver kontroll av matning, slanganslutning, filterplacering och motor- eller OEM-specifikation innan beställning.",
-    "Servicesatser 12 789 01-S och 12 789 02-S har olika ingående luftfilter i Kohlers originaltillbehörskatalog. Kontrollera Spec. No., luftfilterhus, komplett satsinnehåll och aktuella ersättningsnummer före beställning."
+    "Servicesatser 12 789 01-S och 12 789 02-S har olika ingående luftfilter i Kohlers originaltillbehörskatalog. Kontrollera Spec. No., luftfilterhus, komplett satsinnehåll och aktuella ersättningsnummer före beställning.",
+    "Startsystem: verifiera elektrisk jordning och kabelhärva innan 25 435 08-S / 12 749 03-S används; 12 755 47-S fordrar specifik metallkåpa och installationskontroll."
   ]
 }
