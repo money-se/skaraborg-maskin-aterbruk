@@ -205,6 +205,24 @@
       "sourceId": "tt-official-parts-portal",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "k46-oil-guide-explicit-ids",
+      "statement": "Tuff Torqs oljeserviceinstruktion avgränsas till uttryckligen listade K46 Manufacturing ID: K46AA, AC, AG, AW, BA, BC, BE, BL, BM, BN, BP, BR, BT, C, CJ, K4CR, CW, HD, V och Z. Modeller utanför listan täcks inte automatiskt.",
+      "variant": "Tuff Torq K46-serien; lista i tillverkarens publicerade oljeserviceinstruktion",
+      "locator": "Models covered by this procedure > K46 Series > Manufacturing ID",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-oil-guide-k57-and-t40-not-interchange",
+      "statement": "Samma oljeservicedokument omfattar även K57A, K57F, T40A och T40J, men det visar endast gemensam serviceinstruktionsräckvidd, inte mekanisk eller reservdelsmässig utbytbarhet.",
+      "variant": "Tuff Torq K57A/K57F och T40A/T40J – källrelation, ej passformsanspråk",
+      "locator": "Models covered by this procedure > K57 Series; T40A & T40J",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
