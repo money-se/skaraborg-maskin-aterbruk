@@ -109,6 +109,13 @@
       "title": "Husqvarna KLIPPO driven mower manual 115332210 edition 2009-11",
       "document": "2009 driven mower technical specifications page 18 and declarations page 19",
       "url": "https://www.yumpu.com/no/document/view/23881380/om-klippo-drivna-2009-11-115332210/18"
+    },
+    {
+      "id": "oem-klippo-product-brochure-2008",
+      "tier": 1,
+      "title": "KLIPPO 2008 manufacturer brochure – Pro 19 product family",
+      "document": "Klippo original 2008 English brochure, product pages Pro19GCV/Pro19S and technical descriptions",
+      "url": "https://www.zielonemaszyny.pl/pdf/klippo_2008_angielski.pdf"
     }
   ],
   "topics": {
@@ -633,6 +640,78 @@
       "sourceId": "oem-klippo-driven-2009-115332210",
       "grade": "A",
       "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-article",
+      "statement": "Klippos originalkatalog 2008 anger artikelnummer 965229301 för Pro 19 S med Briggs & Stratton DOV ReadyStart 160 cm³. Det är en annan variant än Pro 19 GCV 965229001.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Sida 37 (tryckt), Pro 19 S, Item no 965229301",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-frontdrive",
+      "statement": "Klippos originalkatalog 2008 beskriver Pro 19 S med framhjulsdrift; den funktionen får inte tillskrivas Pro 19 GCV utan S.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 19 S, front wheel drive",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-cut",
+      "statement": "Klippos originalkatalog 2008 anger klippbredd 48 cm och klipphöjd 30–60 mm för Pro 19 S.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 19 S, Cutting width/height",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-weight",
+      "statement": "Originalkatalogen 2008 anger Pro 19 S vikt 34 kg, vilket gäller den drivna Briggs-versionen och inte odrivna GCV-varianten.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 19 S, Weight 34 kg",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-21-s-gcv-separate",
+      "statement": "Klippos 2008 originalkatalog listar Pro 21 S GCV som separat självgående 53 cm-modell med Honda GCV160 (160 cm³), vikt 36 kg och artikelnummer 965230901; den får inte sammanblandas med Pro 19 GCV Honda GCV135.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 21 S GCV, item no 965230901",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-21-s-separate",
+      "statement": "Originalkatalogen 2008 beskriver Pro 21 S med Briggs & Stratton Intek Edge 190 cm³, 53 cm klippbredd, 38 kg, artikelnummer 965230801.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 21 S, item no 965230801",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-sideguard-professional",
+      "statement": "Originalkatalogen 2008 anger att Klippos yrkesmaskiner med undantag av Pro 17 har sidoskydd på fast avstånd från marken oavsett klipphöjd. Det är en konstruktionsegenskap för yrkesfamiljen, inte en garanti för alla historiska årsserier.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.7, professional machines side guards except Pro 17",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-2008-oem-wheel-material",
+      "statement": "Klippos 2008 originalkatalog beskriver underhållsfria hjullager, stålfälgar och breda gummidäck som Klippo-hjulens konstruktion; detta är en generell katalogbeskrivning och inte ett ersättningsnummer för Pro 19 GCV.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.7, wheels",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "B"
     }
   ],
   "gaps": [
@@ -651,6 +730,7 @@
     "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
     "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
     "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
-    "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod."
+    "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod.",
+    "2008 års broschyr visar tydliga modellgränser Pro 19 GCV/Pro 19 S/Pro 21 S; Pro 19 GCV original-IPL med positionsbundna hjul- och knivfästen saknas ännu."
   ]
 }
