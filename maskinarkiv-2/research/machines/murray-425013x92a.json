@@ -37,7 +37,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-030768L, Steering tryckt sida 6, ger individuella delnummer för ratt, styrväxel, framaxel, spindlar, styrstag och hjullager; observera suffixskillnader mot 425014X92B."
+      "note": "Originaldelslista F-030768L STEERING s.6 anger ratt, drev, styrspindlar, axel, båda styrstagen och framhjulsdelar med positionsnummer. PDF-sprängskissens visuella kontroll återstår."
     },
     "F": {
       "name": "Reglage",
@@ -894,6 +894,237 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-wheel",
+      "statement": "Ratt anges som reservdel 094134.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-post",
+      "statement": "Styrstång anges som reservdel 690625.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-retainer-clip",
+      "statement": "Låsclips anges som reservdel 094131.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-bearing",
+      "statement": "Styrlager anges som reservdel 094124.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 4",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-pinion-gear",
+      "statement": "Styrdrev anges som reservdel 690183.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 7",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-sector-gear",
+      "statement": "Styrsektor anges som reservdel 094121.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-sector-bearing",
+      "statement": "Sektorlager anges som reservdel 094123.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 10",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-plate",
+      "statement": "Styrplåt anges som reservdel 1001121E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-engine-plate",
+      "statement": "Motorplåt anges som reservdel 094006E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 13",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-hanger-bracket",
+      "statement": "Upphängningsfäste anges som reservdel 1001270E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 16",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-hanger-axle",
+      "statement": "Upphängningsaxel anges som reservdel 094007E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 17",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-axle-bearing",
+      "statement": "Axellager anges som reservdel 690150.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 20",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-left-link",
+      "statement": "Vänster styrstag anges som reservdel 095329E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-right-link",
+      "statement": "Höger styrstag anges som reservdel 095328E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel-bearing",
+      "statement": "Hjullager anges som reservdel 091334.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-tire-valve",
+      "statement": "Däckventil anges som reservdel 024373.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 32",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-front-tire",
+      "statement": "Framdäck anges som reservdel 091912.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 33",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-tire-tube",
+      "statement": "Slang anges som reservdel 407047.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position -",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel-assy",
+      "statement": "Komplett framhjul anges som reservdel 094579-601.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-hubcap",
+      "statement": "Navkapsel (tillval) anges som reservdel 094618.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 38",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-bellows",
+      "statement": "Styrbälg (tillval) anges som reservdel 092059.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 40",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -906,6 +1137,7 @@
     "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll.",
     "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning.",
     "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform.",
-    "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll."
+    "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll.",
+    "Murray 425013X92A STEERING s.6 kontrollerat via katalogtext. PDF-bildhämtning misslyckades, därför kvarstår sprängskissverifiering och fysiska ersättningsnummer."
   ]
 }
