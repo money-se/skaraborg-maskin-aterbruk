@@ -277,6 +277,13 @@
       "title": "Gräsklipparbutiken 48cm legacy mulcher blade 5029780-01",
       "document": "Retailer compatibility Excellent until 2007 and seller legacy code 6017",
       "url": "https://www.xn--grsklipparbutiken-rqb.se/sv/gb/mulcherkniv-48cm-19?Land=SE&Valuta_ID=SEK"
+    },
+    {
+      "id": "retailer-bladebracket-502871902-supersession",
+      "tier": 2,
+      "title": "ReservdelarOnline knivfäste 5028719-02 ersättnings- och PNC-lista",
+      "document": "Seller explicitly states replaces 5028719-01,5032583-01,5032599-01; year/PNC fitment",
+      "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
     }
   ],
   "topics": {
@@ -2007,6 +2014,42 @@
       "sourceId": "retailer-old-blade-502978001-6017",
       "grade": "B",
       "topic": "M"
+    },
+    {
+      "id": "excellent-bracket-supersession-503259901",
+      "statement": "För odrivna Excellent anger återförsäljaren knivfäste 502871902 som ersättare för 503259901. Detta är B-klassad återförsäljaruppgift och innebär inte att det avviker från Excellent S:s särskilda knivfäste.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Ersätter 503259901; Passar Excellent 965227602 2013-02",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-bracket-honda-2009-fitment",
+      "statement": "Knivfäste 502871902 listas uttryckligen för Excellent GCV 9652277-01 2009-12, vilket är en Honda-variant skild från Excellent S.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Passar Excellent GCV 9652277-01 2009-12",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-bracket-h-2012-fitment",
+      "statement": "Knivfäste 502871902 listas för Excellent H 966774701 2012-06 och 2013-02; motor- och knivsystemvarianten måste ändå verifieras för enskilt serienummer.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Passar Excellent H 966774701 2012-06 / 2013-02",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-bracket-2019-fitment",
+      "statement": "Knivfäste 502871902 listas även för Excellent H 967862701 2019-01; modellpassformen är säljaruppgift utan bevis för att äldre skärsystem generellt kan moderniseras.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Passar Excellent H 967862701 2019-01",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -2039,6 +2082,7 @@
     "Ny bekräftad säljaruppgiven supersession är 578266601→578266603 (samt 503329801→578266603), men 585192603 är separat numrerad transmissionssats. Fysisk/serienummerbunden kompatibilitet mellan 578266603 och 585192603 måste klarläggas via OEM.",
     "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod.",
     "Två säljare listar 5782666-03 för Pro19 S-family, men en annan leverantör listar även 5851926-03 för Pro19 SH; överlapp i modellnamn bevisar inte identisk växellåda. Kontrollera PNC-serie och infästningsrevision.",
-    "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem."
+    "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
+    "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår."
   ]
 }
