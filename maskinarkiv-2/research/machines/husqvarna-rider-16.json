@@ -2375,6 +2375,51 @@
       "sourceId": "husqvarna-rider16-2002-04-owner",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch42-2007-v2-identity",
+      "statement": "Originalreservdelskatalog Rider 16 PNC 965161601, 2007-06, märker Combi 103-aggregatets sprängskiss 'V2 965 07 84-01'. V2 är katalogens märkning för detta aggregat; den får inte likställas med BioClip 103 'version 2' utan explicit OEM-koppling.",
+      "variant": "Rider 16 PNC 965161601 original IPL 2007-06; Combi 103 V2 aggregat 965078401",
+      "locator": "2007-06 Rider 16 PNC 965161601, 103CM cutting deck illustration heading 'V2 965 07 84-01 COMBI 103 MOWER DECK'",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch42-2007-v2-shaft-housing",
+      "statement": "Den separata Rider 16-katalogen 2007-06 för Combi 103 V2 965078401 listar yttre komplett knivhus 544065901, mittre komplett knivhus 544065902 samt knivaxlar 544067902 (yttre) respektive 544067901 (mitt).",
+      "variant": "Rider 16 PNC 965161601 original IPL 2007-06; Combi 103 V2 aggregat 965078401",
+      "locator": "2007-06 Rider 16 PNC 965161601, 103CM CUTTING GROUP, positions 6–15 / artikelrader 544065901,544065902,544067902,544067901",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch42-2007-v2-blade",
+      "statement": "Rider 16 PNC 965161601, 2007-06 103 cm-ritning kopplar kniv 544103001, adapter 535504202 och knivplatta 506792301 till samma Combi 103 V2-aggregat 965078401.",
+      "variant": "Rider 16 PNC 965161601 original IPL 2007-06; Combi 103 V2 aggregat 965078401",
+      "locator": "2007-06 Rider 16, Combi 103 V2 positions 25–27, 535504202 / 544103001 / 506792301",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch42-2007-v2-belt",
+      "statement": "Rider 16 2007-06 Combi 103 V2-gruppen listar rem 506768501 i position 38 och separat remspännare 506540701 i position 29. Detta är originaldelars positionskoppling, inte officiell ersättning mot andra Combi 103-remmar.",
+      "variant": "Rider 16 PNC 965161601 original IPL 2007-06; Combi 103 V2 aggregat 965078401",
+      "locator": "2007-06 Rider 16, Combi 103 V2 positions 29 och 38, 506540701 / 506768501",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch42-2007-v2-housing-vs-complete",
+      "statement": "Originalreservdelskatalogen för Rider 16 2007-06 skiljer komplette Combi 103-aggregatet 965078401 från knivhusdelar 544065901/02 och komponenternas interna positioner. Beställning kräver precisering av aggregat eller del.",
+      "variant": "Rider 16 PNC 965161601 original IPL 2007-06; Combi 103 V2 aggregat 965078401",
+      "locator": "2007-06 Rider 16, V2 965078401 illustration and parts table positions 6–15",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -2470,6 +2515,7 @@
     "531008037→589531501 har fortfarande bara sekundärt stöd; undersök om Husqvarnas Genuine Parts-katalog uttryckligen anger 531008037 eller 506977301 för 589531501.",
     "Husqvarna workshop 2003-02 beskriver BioClip 90 som 'one belt' i knivsynkroniseringsavsnittet; separat drivrem finns i aggregatkonstruktionen. Håll alltid drivrem och tandrem åtskilda vid reservdelsval.",
     "Tre återförsäljare stöder 589531501:s hänvisningar till 531007526 och 506977301, två även 531008037. Fortfarande saknas tillverkarpublicerad ersättningskedja som anger alla tre originalnumren.",
-    "Verkstadshandbokens Combi 103 med en intern tandrem (2003-02) kan inte på grundval av namnet likställas med senare PNC 965078401 eller 965078601, vilka har separata remposter och konstruktionsfamiljer. Fastställ aggregatets exakta versionsmärkning."
+    "Verkstadshandbokens Combi 103 med en intern tandrem (2003-02) kan inte på grundval av namnet likställas med senare PNC 965078401 eller 965078601, vilka har separata remposter och konstruktionsfamiljer. Fastställ aggregatets exakta versionsmärkning.",
+    "Rider 16 IPL 2007-06 benämner Combi 103 965078401 'V2'. Fastställ om detta är intern aggregatversion, ritningsrevision eller produktkodsversion; likställ ej med BioClip 103 version 2 i äldre verkstadshandbok."
   ]
 }
