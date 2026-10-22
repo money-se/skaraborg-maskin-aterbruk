@@ -95,6 +95,13 @@
       "title": "F-040734L operating and upkeep tips",
       "document": "F-040734L maintenance pages",
       "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=19"
+    },
+    {
+      "id": "murray-015a-troubleshooting-p34",
+      "tier": 2,
+      "title": "Murray 425015X92A troubleshooting chart (original manual transcript)",
+      "document": "F-040734L, printed page 34",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=34"
     }
   ],
   "topics": {
@@ -161,7 +168,7 @@
     "M": {
       "name": "Vanliga frågor",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-040734L s.34 beskriver start-, motorgångs-, driv-, klippnings- och remsymtom med möjliga orsaker. Säkerhetsfunktioner får aldrig förbikopplas, exakta motorreparationer kräver motorspecifik servicehandbok."
     }
   },
   "claims": [
@@ -1042,6 +1049,270 @@
       "sourceId": "murray-015a-service-operation-p19",
       "grade": "B",
       "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-start-battery",
+      "statement": "Vid utebliven start på elstartmodell ska batteripoler rengöras och kablar dras åt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-start-fuel",
+      "statement": "Vid utebliven start rekommenderas kontroll av bränsletank, bränsleledning och bränslefilter.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-start-spark",
+      "statement": "Vid utebliven start rekommenderas kontroll eller byte av tändstift.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-charge",
+      "statement": "Om motorn inte går runt: kontrollera batteriet och laddningen på elstartmodell.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-fuse",
+      "statement": "Om motorn inte går runt: kontrollera säkringen.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-wire",
+      "statement": "Om motorn inte går runt: undersök kabelhärvan för skador och lösa förbindelser.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-solenoid",
+      "statement": "Om motorn inte går runt på elstartmodell anger felsökningstabellen startsolenoiden som möjlig felkälla.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-running-oil",
+      "statement": "Vid ojämn motorgång eller effektförlust: kontrollera oljan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-running-air",
+      "statement": "Vid ojämn motorgång eller effektförlust: rengör luftfiltret och luftgallret.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-running-gear",
+      "statement": "Vid motoreffektförlust på grund av hög belastning: använd lägre växel.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-blades-seat",
+      "statement": "Om motorn stannar när knivarna kopplas in: kontrollera att föraren sitter centrerat på sitsen.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-blades-wire",
+      "statement": "Om motorn stannar när knivarna kopplas in: kontrollera kabelhärvan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-vibration-blade",
+      "statement": "Vid onormala vibrationer: kontrollera om kniven behöver bytas.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-vibration-pulley",
+      "statement": "Vid onormala vibrationer: kontrollera om rem eller remskiva är skadad.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-discharge-clean",
+      "statement": "Vid dåligt gräsutkast: stäng av motorn och rengör klippaggregatet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-discharge-height",
+      "statement": "Vid dåligt gräsutkast: höj klipphöjden.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-discharge-speed",
+      "statement": "Vid dåligt gräsutkast: välj lägre färdhastighet och använd FAST på gasreglaget.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-cut-pressure",
+      "statement": "Vid ojämnt klippresultat: kontrollera däcktrycket.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-cut-level",
+      "statement": "Vid ojämnt klippresultat: kontrollera aggregatets vågräthet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-blade-belt",
+      "statement": "Om knivarna inte roterar: kontrollera eller byt klippaggregatets drivrem.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-motion-belt",
+      "statement": "Om maskinen inte driver trots inkopplad koppling: kontrollera drivremmens montering och skick.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-motion-clutch",
+      "statement": "Om maskinen inte driver eller driver långsamt: kontrollera kopplingsjusteringen.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-belt-noise",
+      "statement": "Vid ihållande remoljud efter att kopplingspedalen släppts: kontrollera remstyrningar och kopplingsjustering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-shift-stuck",
+      "statement": "Vid svårväxlad transaxel med motorn igång och pedalen nedtryckt: kontrollera att remmen stannar i neutral och att remstyrningar inte vidrör remskivan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
