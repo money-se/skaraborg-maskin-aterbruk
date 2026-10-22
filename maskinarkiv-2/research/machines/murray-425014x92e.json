@@ -95,6 +95,13 @@
       "title": "Murray 425014X92E Briggs engine installation OEM catalog",
       "document": "425014X92E (96014000100), ENGINE printed p.41",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/41"
+    },
+    {
+      "id": "murray-014e-drive-p37-original",
+      "tier": 2,
+      "title": "Murray 425014X92E Peerless 206-544C ground drive OEM list",
+      "document": "425014X92E GROUND DRIVE p.37",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/37"
     }
   ],
   "topics": {
@@ -116,7 +123,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Originalreservdelskatalog anger Peerless 206-544C, transaxelremskiva 123666X och drivrem 130801; individuell växellådsmärkning och interntransmissionsdelar kräver fortsatt kontroll."
+      "note": "Ground Drive p.37 innehåller Peerless 206-544C och drivrem 130801, motorremskiva 175410, växelreglage/bromslänkage, kopplingsvippa och remstyrningar. Interna Peerless-poster hänvisas uttryckligen till transmissionstillverkaren."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -2186,6 +2193,347 @@
       "sourceId": "murray-014e-engine-p41-oem",
       "grade": "B",
       "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-brake-return-spring",
+      "statement": "GROUND DRIVE anger komponentnummer 146682.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 2",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-transaxle-pulley",
+      "statement": "GROUND DRIVE anger komponentnummer 123666X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 3",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-torque-strap",
+      "statement": "GROUND DRIVE anger komponentnummer 121520X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 5",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-shift-rod",
+      "statement": "GROUND DRIVE anger komponentnummer 192706.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 8",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-shift-washer",
+      "statement": "GROUND DRIVE anger komponentnummer 105701X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 11",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-shift-knob",
+      "statement": "GROUND DRIVE anger komponentnummer 106933X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 21",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-brake-rod",
+      "statement": "GROUND DRIVE anger komponentnummer 130804.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 22",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-brake-spring",
+      "statement": "GROUND DRIVE anger komponentnummer 106888X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 25",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-parking-rod",
+      "statement": "GROUND DRIVE anger komponentnummer 175765.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 28",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-parking-cap",
+      "statement": "GROUND DRIVE anger komponentnummer 71673.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 29",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-transaxle-bracket",
+      "statement": "GROUND DRIVE anger komponentnummer 169592.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 30",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-pedal-shaft",
+      "statement": "GROUND DRIVE anger komponentnummer 175578.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 34",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-pedal-bearing",
+      "statement": "GROUND DRIVE anger komponentnummer 120183X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 35",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-flat-idler",
+      "statement": "GROUND DRIVE anger komponentnummer 179114.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 38",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-idler-keeper",
+      "statement": "GROUND DRIVE anger komponentnummer 175556.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 41",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-v-idler",
+      "statement": "GROUND DRIVE anger komponentnummer 127783.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 47",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-clutch-bellcrank",
+      "statement": "GROUND DRIVE anger komponentnummer 154407.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 48",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-belt-retainer",
+      "statement": "GROUND DRIVE anger komponentnummer 123205X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 49",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-clutch-link",
+      "statement": "GROUND DRIVE anger komponentnummer 105710X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 53",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-clutch-return",
+      "statement": "GROUND DRIVE anger komponentnummer 105709X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 55",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-drive-v-belt",
+      "statement": "GROUND DRIVE anger komponentnummer 130801.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 57",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-center-belt-keeper",
+      "statement": "GROUND DRIVE anger komponentnummer 169691.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 59",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-pedal-cover",
+      "statement": "GROUND DRIVE anger komponentnummer 8883R.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 62",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-engine-pulley",
+      "statement": "GROUND DRIVE anger komponentnummer 175410.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 63",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-engine-belt-keeper",
+      "statement": "GROUND DRIVE anger komponentnummer 154778.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 66",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-shift-arm",
+      "statement": "GROUND DRIVE anger komponentnummer 123583X.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 77",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-transaxle-link",
+      "statement": "GROUND DRIVE anger komponentnummer 165711.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 82",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-shift-console",
+      "statement": "GROUND DRIVE anger komponentnummer 192054X428.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 89",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-shift-bracket",
+      "statement": "GROUND DRIVE anger komponentnummer 183900.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 159",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-rear-belt-keeper",
+      "statement": "GROUND DRIVE anger komponentnummer 169613.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 197",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-drive-deep-shift-pivot-bracket",
+      "statement": "GROUND DRIVE anger komponentnummer 165623.",
+      "variant": "425014X92E (96014000100)",
+      "locator": "GROUND DRIVE p.37 key 165",
+      "sourceId": "murray-014e-drive-p37-original",
+      "grade": "B",
+      "topic": "D",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
