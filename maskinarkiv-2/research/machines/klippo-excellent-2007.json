@@ -74,6 +74,20 @@
       "title": "ReservdelarOnline knivfäste 5028719-02: ersättningsnummer och modellförteckning",
       "document": "Produktkort för original Husqvarna Group 5028719-02, med ersättningslista",
       "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
+    },
+    {
+      "id": "klippo-2014-original-catalog-586612101",
+      "tier": 1,
+      "title": "KLIPPO 60-årskatalog, originalproduktkatalog 2014",
+      "document": "Husqvarna/KLIPPO 2014, artikelnummer 5866121-01, produkttabeller s.8, copyright 2014",
+      "url": "https://img.bygghemma.se/pfiles/klippo-katalogpdf__b1728a74-17f9-44f8-b0ae-ded9c614a4b2.pdf"
+    },
+    {
+      "id": "klippo-original-om-2004-000001",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning september 2004 (återpublicerad textkopia)",
+      "document": "Originalinstruktion Art.nr 000001, Malmö september 2004; ursprungliga modelldeklaration 2004-09-22",
+      "url": "https://manualzz.com/doc/4635678/klippo-champion-instruction-manual"
     }
   ],
   "topics": {
@@ -472,6 +486,96 @@
       "sourceId": "klippo-om-2008-502937301",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "excellent-2004-k05610",
+      "statement": "2004 års originalmanual anger Excellent K05610 med Briggs & Stratton Quantum 50 (190 cm³/5,0 hk) och 48 cm klippbredd; detta är en äldre generation än Excellent K05710.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 modelltabell, Excellent K05610",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellentgcv-2004-k05650",
+      "statement": "2004 års originalmanual anger Excellent GCV K05650 med Honda GCV135 (135 cm³/4,5 hk) och 48 cm klippbredd. Det skiljer den från senare K05720.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 modelltabell, Excellent GCV K05650",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-selfstart-2004-k05620",
+      "statement": "2004 års originalmanual listar Exc Selfstart K05620 med Briggs & Stratton Quantum 50 TM, 190 cm³/5,0 hk, som en separat historisk modell. Självstartversionen får inte slås ihop med senare Excellent SE.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 överensstämmelseförsäkran, Exc Selfstart K05620",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-2014-675e",
+      "statement": "KLIPPO:s 2014 originalkatalog specificerar Excellent med Briggs & Stratton 675e, Cross-Cut-kniv, klippbredd 48 cm, klipphöjd 30–60 mm och ingen drivning.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, tabell Mulcherklippare, EXCELLENT",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-h-2014-gcv135",
+      "statement": "Originalkatalog 2014 beskriver Excellent H med Honda GCV135 OHC, Cross-Cut-kniv, 48 cm, 30–60 mm och utan drivning. Det gäller 2014 års namnutförande, inte automatiskt den senare Excellent H 967607801.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, EXCELLENT H",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-s-2014-fronthjul",
+      "statement": "Originalkatalogen 2014 anger Excellent S med Briggs & Stratton 675e, Cross-Cut 48 cm och framhjulsdrift. Denna S-variant är inte liktydig med odrivna Excellent.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, EXCELLENT S",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-sh-2014-honda140",
+      "statement": "Originalkatalogen 2014 anger Excellent SH med Honda GCV140 OHC, Cross-Cut 48 cm och framhjulsdrift. Det är en separat utförandekombination från Excellent H.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, EXCELLENT SH",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-se-2014-electro",
+      "statement": "Originalkatalogen 2014 marknadsför Excellent SE med elstart samt Briggs & Stratton 675e och framhjulsdrift i tabellen. Den får inte förväxlas med senare Excellent SE 967607001/InStart utan att jämföra produktnummer.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 5–7, 'Årets nyhet' samt tabell EXCELLENT SE",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-2014-area",
+      "statement": "2014 års originaltabell anger rekommenderad gräsyta 500–2 500 m² för Excellent, Excellent H, S, SH och SE; detta är en marknadsförd användningsyta, inte en hård gräns.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, 'Gräsyta' samtliga Excellent-rader",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "excellent-2014-aluminum",
+      "statement": "Tillverkarens 2014-katalog beskriver Excellent och Excellent H med helgjuten aluminiumkåpa, medan S och SH uttryckligen beskrivs som framhjulsdrivna.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 6, respektive Excellent modellpresentation",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "B"
     }
   ],
   "gaps": [
@@ -487,6 +591,7 @@
     "Verifiera reservdelarnas figurnummer i Excellent GCV 9652277-01 IPL: tredjepartslistan räcker inte för att påstå kniv- eller knivfästepassform.",
     "Även om position 28/29/47/48 finns på återförsäljarsidan behöver original-IPL för Excellent GCV 9652277-01 kontrolleras, särskilt knivfäste ref. 46 som maskinöversätts oklart.",
     "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll.",
-    "2008 års manual skiljer mellan generell kategoritext 'Mulcher' och tekniskt specificerad 'Mulcher Cross cut' för Excellent; verifiera exakt knivnummer per årsrevision och produktnummer innan kompatibilitetsråd."
+    "2008 års manual skiljer mellan generell kategoritext 'Mulcher' och tekniskt specificerad 'Mulcher Cross cut' för Excellent; verifiera exakt knivnummer per årsrevision och produktnummer innan kompatibilitetsråd.",
+    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget."
   ]
 }
