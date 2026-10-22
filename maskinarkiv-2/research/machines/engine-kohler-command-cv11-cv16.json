@@ -57,7 +57,7 @@
     },
     "F": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nUppföljning: Flera luftfilterhus samt valfritt kylluftsskum över snörstart beskrivs i TP-2339-D s.4.1–4.3; detta kylluftsskum är skilt från förfilter på pappersinsug."
     },
     "G": {
       "state": "gap",
@@ -2041,6 +2041,87 @@
       "topic": "D",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-airfilter-original-later-knob",
+      "statement": "Kohlers äldre luftfilterhus har separat lockvred som skruvas av helt, medan senare luftfilterlock har ett fastsittande vred som frigörs från pinnen genom moturs vridning.",
+      "variant": "Äldre respektive senare CV11–16/CV460–465/CV490–495 luftfilterhus",
+      "locator": "Section 4 p.4.2 (PDF index 25), cover knob comparison",
+      "topic": "F",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-base-metal-bushings",
+      "statement": "Luftfilterhusets bas och förgasaren delar infästning vid insugsporten. Kohler kräver att metallbussningarna finns i basens monteringshål för att undvika skada och bibehålla monteringsmoment.",
+      "variant": "CV11–16/CV460–465/CV490–495 luftfilterbas med bussningar",
+      "locator": "Section 4 p.4.2 (PDF index 25), Figure 4-3",
+      "topic": "F",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-base-nuts-9p9",
+      "statement": "Kohler anger 9,9 Nm för muttrarna som håller luftfilterbasen när denna återmonteras med packning mot förgasaren.",
+      "variant": "CV11–16/CV460–465/CV490–495, filterbasens monteringsmuttrar enligt Section 4",
+      "locator": "Section 4 p.4.3 (PDF index 26), Reassembly step 2",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-wingnut-half-one-turn",
+      "statement": "Kohler instruerar att luftfiltrets vingmutter dras tills den möter papperselementets metallkapsel och sedan ytterligare ett halvt till ett helt varv; momentet är inte specificerat i Nm.",
+      "variant": "CV11–16/CV460–465/CV490–495, pappersfilter med metallkapsel",
+      "locator": "Section 4 p.4.3 (PDF index 26), Reassembly step 5",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-breather-hose-route",
+      "statement": "Vid återmontering av luftfilterbasen ska vevhusventilationens slang anslutas både till luftfilterbas och ventilkåpa samt låsas med slangklämmor.",
+      "variant": "CV11–16/CV460–465/CV490–495 med denna vevhusventilationsdragning",
+      "locator": "Section 4 p.4.3 (PDF index 26), Reassembly step 3",
+      "topic": "F",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cooling-intake-optional-filter",
+      "statement": "Kohler beskriver ett särskilt valfritt skumfilter över snörstarten för starkt dammande användning, exempelvis golvpolermaskin. Detta filtrerar inkommande kylluft och är inte samma komponent som förfiltret runt pappersluftfiltret.",
+      "variant": "CV11–16/CV460–465/CV490–495 med särskilt kylluftsfilter ovanför snörstart",
+      "locator": "Section 4 p.4.3 (PDF index 26), Air Intake Filter (Optional)",
+      "topic": "F",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cooling-intake-filter-12-050-02s",
+      "statement": "Kohler TP-2339-D anger reservdel 12 050 02-S för det särskilda skum-kyluftsfiltret som sitter över snörstarten och hålls med kardborrefästen. Det är inte ett generellt pappersluftfilter.",
+      "variant": "CV11–16/CV460–465/CV490–495 med valbart cooling-air intake filter",
+      "locator": "Section 4 p.4.3 (PDF index 26), Air Intake Filter (Optional), spare filter",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cooling-intake-filter-daily",
+      "statement": "Det valfria kylluftsfiltret över snörstarten ska kontrolleras före varje start och flera gånger under drift i dammig miljö. Vax-/dammansamling kan blockera kylflödet och orsaka överhettning.",
+      "variant": "CV11–16/CV460–465/CV490–495 med extra intake cooling foam filter",
+      "locator": "Section 4 p.4.3 (PDF index 26), Air Intake Filter (Optional)",
+      "topic": "F",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cooling-intake-filter-wash",
+      "statement": "Kohler anger rengöring av det valfria kylluftsskummet med tvål och varmt vatten, sköljning, urpressning och lufttorkning samt tät anliggning mot fläktkåpan vid återmontering.",
+      "variant": "CV11–16/CV460–465/CV490–495 med extra intake cooling foam filter",
+      "locator": "Section 4 p.4.3 (PDF index 26), optional cooling intake filter service",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -2082,6 +2163,7 @@
     "Topplocks- och ventilprocedurer i TP-2339-D gäller olika vipparmsutföranden. Kontrollera exakt topplock, Spec. No., bultlängd, distans, hydraullyftare och gällande servicebulletiner före montering.",
     "SPX/Kohler verktygsnummer i historisk TP-2339-D visar dåtida originaltestverktyg, inte automatiskt dagens lagerstatus, ersättningsnummer eller kompatibilitet med annan generations motorer.",
     "Forskningsrevision 2026-10-22: områden D, E, L och M saknar ännu registrerade källbelagda claims. Status förblir needs_research; komplettera från originaldokument, inte genom att extrapolera andra ämnesområden.",
-    "Identifieringskod 21–32 för årsmodell 1991–2002 och modell-/startkoder har verifierats för TP-2339-D. Koderna ska inte extrapoleras till senare serienummer eller andra Kohler-familjer."
+    "Identifieringskod 21–32 för årsmodell 1991–2002 och modell-/startkoder har verifierats för TP-2339-D. Koderna ska inte extrapoleras till senare serienummer eller andra Kohler-familjer.",
+    "Luftfilterhus och valfritt skumfilter för kylluft: fastställ aktuellt filterhus, luftkanal, snörstart och Spec. No. innan 12 050 02-S eller infästningsdetaljer väljs."
   ]
 }
