@@ -1933,6 +1933,33 @@
       "locator": "Section 2 printed p.2.1, PDF index 16, RTV Silicone Sealant",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-tool-kit-ko3213-command-extension",
+      "statement": "Kohler TP-2339-D anger KO3213 som en verktygssats med kompletterande verktyg för Command-motorer, avsedd för Kohler-serviceverkstad som redan har bassatsen KO3211A.",
+      "variant": "Command-motorer enligt servicehandbokens verktygsprogram; satsens aktuella tillgänglighet ej fastställd",
+      "locator": "Section 2, printed p.2.1, PDF index 16, COMMAND Tool Kit No. KO3213",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-tool-kit-ko3214-command-only",
+      "statement": "Kohler TP-2339-D anger KO3214 som särskild verktygssats för ny Kohler-serviceverkstad som endast servar Command-motorer, till skillnad från kompletteringssatsen KO3213.",
+      "variant": "Command-motorer enligt originalmanualens verktygsprogram; satsens aktuella tillgänglighet ej fastställd",
+      "locator": "Section 2, printed p.2.1, PDF index 16, COMMAND Tool Kit No. KO3214",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-tool-analysis-kit-ko1000a",
+      "statement": "Kohlers TP-2339-D listar motoranalyssats KO1000A för provning av driftsförhållanden när Kohler-motorer används i maskiner. Tabellen anger inte specifika gränsvärden för verktygets provningar.",
+      "variant": "Kohler engine applications per Diagnostic and Repair Tools table; not a specific engine-part fitment",
+      "locator": "Section 2, printed p.2.2, PDF index 17, Engine Analysis Kit row",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -1972,6 +1999,7 @@
     "Oljetrycksbegränsningsventilen är inte Oil Sentry-kontaktvakten. Kontrollera äldre femdelad kontra senare endelad ventil i faktisk oljetrågs-/täcksplattvariant innan reservdel och monteringsmetod väljs.",
     "Kohler snörstart: komplett startapparat och spärrkloreparationssats kräver Spec. No. och originalreservdelskatalog för artikelnummer; fjädermomenten är säkerhetskritiska och full manualmetod ska följas.",
     "Topplocks- och ventilprocedurer i TP-2339-D gäller olika vipparmsutföranden. Kontrollera exakt topplock, Spec. No., bultlängd, distans, hydraullyftare och gällande servicebulletiner före montering.",
-    "SPX/Kohler verktygsnummer i historisk TP-2339-D visar dåtida originaltestverktyg, inte automatiskt dagens lagerstatus, ersättningsnummer eller kompatibilitet med annan generations motorer."
+    "SPX/Kohler verktygsnummer i historisk TP-2339-D visar dåtida originaltestverktyg, inte automatiskt dagens lagerstatus, ersättningsnummer eller kompatibilitet med annan generations motorer.",
+    "Forskningsrevision 2026-10-22: områden D, E, L och M saknar ännu registrerade källbelagda claims. Status förblir needs_research; komplettera från originaldokument, inte genom att extrapolera andra ämnesområden."
   ]
 }
