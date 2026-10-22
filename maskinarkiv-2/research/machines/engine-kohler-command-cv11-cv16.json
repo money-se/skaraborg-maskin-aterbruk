@@ -69,7 +69,7 @@
     },
     "I": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Kohler har källbelagda mätmetoder för vevhusvakuum, oljetryck, Oil Sentry, läckagetest och tändning. 10,2 cm vattenmanometer, 2–5 psi Oil Sentry och minst 40 psi efter återmontering avser skilda prov; variant och mätvillkor måste särskiljas.\nFollow-up 2026-10-22: Laddningsdiagnostik har separata originalprov för 15 A-regulator, 3 A/70 W-belysning och 3 A/70 W-bromsstator. Testvarvtal, ledningsfärger, AC/DC och gränsvärden får aldrig blandas."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Kohler har källbelagda mätmetoder för vevhusvakuum, oljetryck, Oil Sentry, läckagetest och tändning. 10,2 cm vattenmanometer, 2–5 psi Oil Sentry och minst 40 psi efter återmontering avser skilda prov; variant och mätvillkor måste särskiljas.\nFollow-up 2026-10-22: Laddningsdiagnostik har separata originalprov för 15 A-regulator, 3 A/70 W-belysning och 3 A/70 W-bromsstator. Testvarvtal, ledningsfärger, AC/DC och gränsvärden får aldrig blandas.\nFollow-up: Originalmanualens start-/gångsymptom och tändstiftsbilder stödjer felsökningsprioritering men är inte självständiga feldiagnoser."
     },
     "J": {
       "state": "gap",
@@ -1222,6 +1222,105 @@
       "topic": "I",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-symptom-cranks-no-start",
+      "statement": "Kohlers felsökningsguide skiljer startmotor som drar runt motorn utan start från startmotor som inte går runt. Vid runtdragning utan start ska bränslenivå/kran, vatten/smuts i bränslet, tilltäppt ledning, tändkabel, stoppbrytare, tändstift och tändmodul undersökas.",
+      "variant": "Command CV11–16/CV460–465/CV490–495, startmotor drar runt men motorn tänder ej",
+      "locator": "Section 3 p.3.1 (PDF index 20), Engine Cranks But Will Not Start",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-symptom-no-crank-interlocks",
+      "statement": "Kohler anger aktiv PTO, urladdat batteri, säkerhetsspärr, ledningsfel, nyckelbrytare och startmotor som möjliga orsaker när motorn inte dras runt. Ett no-crank-symptom bevisar alltså inte motorhaveri.",
+      "variant": "Command electric starter installation, PTO/safety interlocks depend on OEM",
+      "locator": "Section 3 p.3.1 (PDF index 20), Engine Will Not Crank",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-symptom-stalls-vent",
+      "statement": "Kohlers felsökningsguide listar blockerad tanklocksventilation som möjlig orsak när motorn startar men inte fortsätter gå; även föroreningar i bränsle, choke/gasreglage, kortsluten stoppledning, förgasare och topplockspackning anges.",
+      "variant": "Command gasoline variants according to manual; specific symptom not definitive diagnosis",
+      "locator": "Section 3 p.3.1 (PDF index 20), Engine Starts But Does Not Keep Running",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-symptom-hard-start-acr",
+      "statement": "Vid svårstart listar Kohler förutom bränsle och tändning även låg kompression och felaktig ACR-mekanism som möjliga orsaker; ACR-diagnos kräver mer än att byta startmotor eller batteri.",
+      "variant": "Command engines with automatic compression release, TP-2339-D",
+      "locator": "Section 3 p.3.1 (PDF index 20), Engine Starts Hard",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-symptom-misfire-killwire",
+      "statement": "Kohler anger att tillfällig jordning av tändmodulens stoppledning genom glappande kabel eller förbindelse kan orsaka misständning under gång; även förorenat bränsle, överhettning och felaktig tändmodul kan bidra.",
+      "variant": "Command ignition with kill-terminal connection as described in TP-2339-D",
+      "locator": "Section 3 p.3.1 (PDF index 20), Engine Runs But Misses",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-symptom-idle-cap-vent",
+      "statement": "Vid problem att hålla tomgång anger Kohler bland annat igensatt tanklocksventilation, smuts/vatten i bränsle, tändstift, tomgångsblandning, tomgångsstoppskruv, låg kompression och gammalt bränsle som kontrollpunkter. Justering är begränsad på emissionsförseglad förgasare.",
+      "variant": "Command gasoline carburetor variants; no universal adjustment advice",
+      "locator": "Section 3 p.3.1 (PDF index 20), Engine Will Not Idle",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-symptom-overheat-oillevel",
+      "statement": "Vid överhettning anger Kohler blockerad luftintags-/grässil och kylflänsar, för hög motorbelastning, för låg eller för hög oljenivå samt förgasarfel som möjliga orsaker. Därför ska även för hög oljenivå kontrolleras.",
+      "variant": "Command engine overheating, cause list is differential not confirmation",
+      "locator": "Section 3 p.3.1 (PDF index 20), Engine Overheats",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-plug-appearance-white-lean",
+      "statement": "Kohler beskriver kritvita tändstiftsavlagringar som överhettningstecken, ofta tillsammans med elektrodslitage, och nämner igensatta kylytor samt för mager förgasarblandning som möjliga orsaker. En sådan bild är inte ensamt bevis för specifikt fel.",
+      "variant": "Command spark plug appearance diagnostics per Section 8",
+      "locator": "Section 8 p.8.2 (PDF index 59), Chalky White Deposits",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-plug-appearance-sooty",
+      "statement": "Kohler beskriver mjuka sotiga svarta avlagringar på tändstift som ofullständig förbränning; möjliga orsaker innefattar för fet blandning, svag tändning eller låg kompression.",
+      "variant": "Command spark plug appearance diagnostics per Section 8",
+      "locator": "Section 8 p.8.2 (PDF index 59), Carbon Fouled",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-plug-wet-oil-fuel",
+      "statement": "Kohler skiljer vått tändstift genom överskottsbränsle eller olja i förbränningsrummet; för mycket choke/smutsigt luftfilter anges vid bränsle och slitna ringar eller ventilstyrningar vid olja. Enbart blött stift skiljer inte bränsle från olja.",
+      "variant": "Command spark plug appearance diagnostics per Section 8",
+      "locator": "Section 8 p.8.2 (PDF index 59), Wet Fouled",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-plug-worn-0254mm",
+      "statement": "Kohler anger att ett tändstift med avrundad mittelektrod och elektrodgap som eroderat minst 0,010 tum (0,254 mm) förbi korrekt gap ska bytas direkt.",
+      "variant": "Command spark plug inspection according to TP-2339-D",
+      "locator": "Section 8 p.8.2 (PDF index 59), Worn",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -1254,6 +1353,7 @@
     "Vevhusvakuumprovets 10,2 cm är vattennivåskillnad i specificerad mätmetod och får inte jämställas med normalt oljetryck. Provets säkerhetsanvisningar och 3200–3750 rpm behöver följas.",
     "Regulator och maxvarv: 3750 rpm är endast generell maxrekommendation för de flesta motorer; faktisk maskin-OEM anger gränsen. Innan serviceartikel krävs exakt typ av reglagefäste, regulatorfjäder, Spec. No. och varvtalsmätning.",
     "Förgasarkatalog: inga specifikationsbundna kompletta Walbro-/Nikki-förgasarnummer eller munstyckssatser har fastställts. Kontrollera förgasarfabrikat, chokeversion, emissionsbegränsning och Spec. No. före beställning eller demontering.",
-    "Elfelsökning: laddningssystemets faktiska 15 A, 3 A/70 W eller bromsstatorutförande måste identifieras med motorns Spec. No., kablage och maskinschema innan provets spänning, varvtal eller resistansvärden används."
+    "Elfelsökning: laddningssystemets faktiska 15 A, 3 A/70 W eller bromsstatorutförande måste identifieras med motorns Spec. No., kablage och maskinschema innan provets spänning, varvtal eller resistansvärden används.",
+    "Symptomtabeller och tändstiftsbilder i TP-2339-D är differentialdiagnostik, inte bevis för ett fel; bekräfta bränslesystem, tändsystem, kompression och aktuell maskins säkerhetskretsar innan åtgärd."
   ]
 }
