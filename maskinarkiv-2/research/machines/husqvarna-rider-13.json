@@ -32,6 +32,20 @@
       "title": "Rider 13 BioClip parts catalog 953520901",
       "document": "953520901 2003-11, 90 CM CUTTING GROUP",
       "url": "https://www.ceruticenter.it/en/content/37220-husqvarna-rider-13-bioclip-2003-11-953520901-front-rider-spare-parts"
+    },
+    {
+      "id": "husqvarna-rider13c-965094301-official",
+      "tier": 1,
+      "title": "Husqvarna Rider 13C official product specifications",
+      "document": "Rider 13 C 965 09 43-01",
+      "url": "https://www.husqvarna.com/uk/support/ride-on-front-mowers/rider-13c/"
+    },
+    {
+      "id": "husqvarna-rider13-2003-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 11/13/11 Bio/13 Bio operator's manual",
+      "document": "2003-08, pub000021448/doc000044020",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020"
     }
   ],
   "topics": {
@@ -142,6 +156,78 @@
       "sourceId": "husqvarna-rspecial-953533001",
       "grade": "B",
       "topic": "A"
+    },
+    {
+      "id": "rider13c-965094301-identity",
+      "statement": "Husqvarnas officiella supportsida anger Rider 13 C artikelnummer 965 09 43-01.",
+      "variant": "Rider 13C 965094301",
+      "locator": "Husqvarna specifications heading, Rider 13 C 965 09 43-01",
+      "sourceId": "husqvarna-rider13c-965094301-official",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider13c-965094301-engine",
+      "statement": "Rider 13C 965094301 har enligt Husqvarna Briggs & Stratton PowerBuilt AVS, 344 cm³, en cylinder, luftkylning och 6,7 kW nettoeffekt vid angivet varvtal.",
+      "variant": "Rider 13C 965094301",
+      "locator": "Specifications > Engine",
+      "sourceId": "husqvarna-rider13c-965094301-official",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider13c-965094301-deck",
+      "statement": "Rider 13C 965094301 anges ha 94 cm klippbredd och klipphöjd 35–85 mm.",
+      "variant": "Rider 13C 965094301",
+      "locator": "Specifications > Cutting deck",
+      "sourceId": "husqvarna-rider13c-965094301-official",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider13c-965094301-hydro",
+      "statement": "Rider 13C 965094301 anges med hydrostatisk transmission och tvåpedalsreglering; sidan identifierar inte transaxelns exakta fabrikat-/modellkod.",
+      "variant": "Rider 13C 965094301",
+      "locator": "Specifications > Drive system",
+      "sourceId": "husqvarna-rider13c-965094301-official",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider13c-965094301-speeds",
+      "statement": "Rider 13C 965094301 anges med maxhastighet 9 km/h framåt och 8 km/h bakåt.",
+      "variant": "Rider 13C 965094301",
+      "locator": "Specifications > Drive system",
+      "sourceId": "husqvarna-rider13c-965094301-official",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider13c-965094301-battery",
+      "statement": "Husqvarna anger 24 Ah blybatteri för Rider 13C 965094301.",
+      "variant": "Rider 13C 965094301",
+      "locator": "Specifications > Battery",
+      "sourceId": "husqvarna-rider13c-965094301-official",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider13-2003-shared-owner-manual",
+      "statement": "Husqvarnas ägarmanual från 2003-08 omfattar Rider 11, Rider 13, Rider 11 Bio och Rider 13 Bio.",
+      "variant": "Rider 11/13/11 Bio/13 Bio, manual 2003-08",
+      "locator": "Cover / contents page 1",
+      "sourceId": "husqvarna-rider13-2003-owner",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider13-2003-service-sections",
+      "statement": "Husqvarnas manual 2003-08 innehåller avsnitt om styrwire, säkerhetssystem, däcktryck, transmissionsoljenivå, BioClip 90 och felsökningsschema; enskilda värden ska kontrolleras i relevanta avsnitt innan publicering.",
+      "variant": "Manual 2003-08 Rider 11/13/11 Bio/13 Bio",
+      "locator": "Contents pp. 21–40",
+      "sourceId": "husqvarna-rider13-2003-owner",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -149,6 +235,8 @@
     "Motorernas exakta identiteter per produktnummer.",
     "Identifiering av alla transmissioner och variantövergångar.",
     "Klippaggregatens passform och rem-/knivdelar per revision.",
-    "Motorspecifik service, säkerhetsreglage och materialets övriga kapitel kvar att källgranska."
+    "Motorspecifik service, säkerhetsreglage och materialets övriga kapitel kvar att källgranska.",
+    "Rider 13C 965094301: officiell specifikation anger hydrostat men inte exakt transaxelkod; undersök IPL innan delbeställningsråd.",
+    "Rider 13/13 Bio originalmanual 2003-08: servicetabellens exakta värden och tillämplighet per utförande måste extraheras separat."
   ]
 }
