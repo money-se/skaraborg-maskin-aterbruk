@@ -67,6 +67,20 @@
       "title": "Murray 425014X92B original instruction book troubleshooting",
       "document": "F-050706L, Trouble Shooting Chart, printed p.35",
       "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=35"
+    },
+    {
+      "id": "murray-014b-maint-brake-clutch-p24",
+      "tier": 2,
+      "title": "Murray 425014X92B instruction book brake and clutch adjustment",
+      "document": "F-050706L MAINTENANCE printed p.24",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=24"
+    },
+    {
+      "id": "murray-014b-belt-install-p31",
+      "tier": 2,
+      "title": "Murray 425014X92B motion drive belt installation",
+      "document": "F-050706L MAINTENANCE printed p.31",
+      "url": "https://www.manualsdir.com/manuals/122988/murray-425014x92b.html?page=31"
     }
   ],
   "topics": {
@@ -118,7 +132,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: F-050706L s.21 ger dagliga, första 5 timmar och 25-timmars serviceintervall för maskin och aggregat; motorns oljetyp och motorspecifika servicepunkter hänvisas till motorhandbok."
+      "note": "F-050706L s.24 har konkreta broms-/kopplingsjusteringar, s.31 drivremmens läge mot övre motorremskivan samt löprullens plana sida. Hela säkerhetsproceduren ska följas."
     },
     "K": {
       "name": "Reservdelar",
@@ -1762,6 +1776,237 @@
       "sourceId": "murray-014b-troubleshoot-p35",
       "grade": "B",
       "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-neutral",
+      "statement": "Före drivbromsprov ska kopplings-/bromspedalen tryckas helt ned, parkeringsbromsen ansättas och växelspaken ställas i neutralläge.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-test",
+      "statement": "Om bakhjulen roterar när traktorn skjuts med parkeringsbromsen ilagd behöver bromsen justeras eller bromsbeläggen bytas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-location",
+      "statement": "Drivbromsen sitter på höger sida om växellådan.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-tighten",
+      "statement": "Med parkeringsbromsen i och växeln i N vrids bromsens sexkantsmutter medurs tills bakhjulen inte roterar vid skjutprov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-release",
+      "statement": "Efter att parkeringsbromsen frigjorts ska traktorn rulla; vid anliggande broms lossas sexkantsmuttern moturs.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-final",
+      "statement": "Efter bromsjustering ska parkeringsbromsen åter ansättas och skjutprov bekräfta låsta bakhjul.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-replace",
+      "statement": "Om drivbromsen inte kan justeras korrekt föreskriver manualen byte av bromsbelägg med auktoriserad servicehjälp.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-symptoms",
+      "statement": "Slirande koppling beskrivs vid backkörning i uppförsbacke, tung last eller utebliven framdrivning.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-wire",
+      "statement": "Tändstiftskabeln ska lossas innan kopplingskontroll och justering för att förebygga oavsiktlig motorstart.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-routing",
+      "statement": "Kontrollera att drivremmen är rätt dragen och ligger innanför samtliga remstyrningar före kopplingsjustering.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-parts",
+      "statement": "Vid kopplingsjustering avlägsnas saxpinne, bricka och bromsfjäder från justermuttern.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-lever",
+      "statement": "Justermuttern kopplas loss från bromsspakens montering och parkeringsbromsens spärr.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-pin",
+      "statement": "Bromsspakens hål riktas in mot ramens hål och låses tillfälligt med en 1/4-tums (6 mm) tapp eller bult.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-rod",
+      "statement": "Kopplingsstaget dras framåt tills sträckt och justermuttern skruvas till att passa bromsspakens hål.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-reassemble",
+      "statement": "Justermutter, parkeringsbromsspärr, bromsspak och bromsfjäder återmonteras med bricka och saxpinne; den tillfälliga tappen tas bort.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-slipbelt",
+      "statement": "Om remmen fortfarande slirar efter kopplingsjustering ska den slitna eller skadade drivremmen bytas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-upper",
+      "statement": "Vid montering av drivrem ska remmens V-sida ligga mot den övre motorremskivan.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-idler",
+      "statement": "Vid löprullen ska remmens plana sida ligga mot rullen och remmen får inte vara vriden.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-guides",
+      "statement": "Efter drivremmontering kontrolleras att remmen går innanför alla remstyrningar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-steering",
+      "statement": "Efter montering kontrolleras att styrstångsenheten ligger innanför drivremmens slinga enligt figur 36.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-clutchcheck",
+      "statement": "Efter byte av drivrem ska kopplingens justering kontrolleras innan traktorn används.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
