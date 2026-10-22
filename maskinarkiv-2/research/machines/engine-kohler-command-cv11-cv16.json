@@ -53,7 +53,7 @@
     },
     "E": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nOriginalbelagda LPG-komponenter, tankhantering och Emission Sentry-funktion från TP-2339-D s.5.11–5.13. Installation och reservdelstillhörighet ej fullständigt verifierad."
     },
     "F": {
       "state": "gap",
@@ -2122,6 +2122,177 @@
       "topic": "J",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-bowl-screw-torque-5p1-6p2",
+      "statement": "Kohler anger 5,1–6,2 Nm för förgasarskålens vanliga fästskruv vid återmontering. Gäller inte godtyckligt solenoidmoment.",
+      "variant": "Bensinförgasare med vanlig skålfästskruv",
+      "locator": "TP-2339-D printed p.5.10; PDF index 37; section 5",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-solenoid-minimum-7p3dc",
+      "statement": "Kohler anger minst 7,3 V DC för att aktivera den valbara bränsleavstängningssolenoiden. Kontrollera också jordledningen mellan förgasarkropp och luftfilterbasens monteringsbult.",
+      "variant": "Bensindriven motor med valbar avstängningssolenoid",
+      "locator": "TP-2339-D printed p.5.10; PDF index 37; section 5",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-solenoid-bench-12v",
+      "statement": "Kohlers bänkprov för valbar bränsleavstängningssolenoid sker med jordad solenoidkropp och 12 V DC på flatstiftet; kolven ska dras tillbaka, annars ska solenoiden bytas.",
+      "variant": "Bensindriven motor med valbar förgasarsolenoid, frånkopplad och säkrat bränsle",
+      "locator": "TP-2339-D printed p.5.11; PDF index 38; section 5",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-solenoid-new-bowl-gasket",
+      "statement": "Kohler kräver ny packning till förgasarskålen vid återmontering av bränsleavstängningssolenoiden.",
+      "variant": "Bensinförgasare med bränsleavstängningssolenoid",
+      "locator": "TP-2339-D printed p.5.11; PDF index 38; section 5",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-walbro-welch-install-ko1017",
+      "statement": "Kohler anger verktyg KO1017 vid montering av ny Welch-plugg i Walbro-förgasare. Pluggen ska planas ut utan att pressas under hålighetens yta och förseglas efteråt.",
+      "variant": "Walbro-förgasare med demonterade Welch-pluggar",
+      "locator": "TP-2339-D printed p.5.10; PDF index 37; section 5",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-high-altitude-1830m",
+      "statement": "Kohler TP-2339-D anger att särskilda huvudmunstyckssatser kan behövas vid 1830 m höjd och högre; satsens exakta nummer ska slås upp i motorns reservdelskatalog.",
+      "variant": "Förgasarmotor som körs på höga höjder enligt TP-2339-D",
+      "locator": "TP-2339-D printed p.5.10; PDF index 37; section 5",
+      "topic": "D",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-lpg-system-vapor-regulator",
+      "statement": "Kohlers LPG-systemschema visar gastank för gasfasuttag, torrgasfilter, vakuumstyrd automatisk avstängning, torrgasregulator samt LPG-förgasare. Vakuumledningens anslutning kan variera med installationen.",
+      "variant": "LPG-versioner med system enligt figur 5-15",
+      "locator": "TP-2339-D printed p.5.11; PDF index 38; section 5",
+      "topic": "E",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-lpg-tank-fill-80percent",
+      "statement": "Kohler TP-2339-D anger att LPG-tank får fyllas av behörig personal, högst 80 procent av total kapacitet, och ska tas bort från utrustningen före fyllning.",
+      "variant": "LPG-försörjning enligt manualens säkerhetsanvisning",
+      "locator": "TP-2339-D printed p.5.11; PDF index 38; section 5",
+      "topic": "E",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-lpg-vacuum-line-troubleshooting",
+      "statement": "Vid förgasningsproblem på LPG-motor ska Kohler först kontrollera luftfilter, vakuumledningens täthet/veck, gastankventil och tillräcklig gasmängd innan förgasaren justeras.",
+      "variant": "LPG-motor enligt manualens felsökning",
+      "locator": "TP-2339-D printed p.5.12; PDF index 39; section 5",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-lpg-carb-adjustable-2p25-2p5",
+      "statement": "Endast justerbar LPG-förgasare har Kohlers grundinställning för huvudbränsleskruv 2¼–2½ varv ut från lätt bottnat läge. Emission Sentry-förgasare har fast huvudmunstycke och ska inte ges denna inställning.",
+      "variant": "Justerbar LPG-förgasare, EJ Emission Sentry",
+      "locator": "TP-2339-D printed p.5.12; PDF index 39; section 5",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-emissionsentry-feedback-components",
+      "statement": "Kohler Emission Sentry använder lambdasond i avgaserna, elektronisk styrenhet, stegmotor och bränslemätventil för att reglera luft/bränsleblandningen samt trevägskatalysator för avgasrening.",
+      "variant": "Kohler Command LPG med Emission Sentry-system",
+      "locator": "TP-2339-D printed p.5.12–5.13; PDF index 37–40; section 5",
+      "topic": "E",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-emissionsentry-start-green-led",
+      "statement": "Emission Sentry-utförande kräver 12 V-batteri och integrerad elstart/laddning. Vid start tänds grön lysdiod och systemet behöver omkring 60 sekunder för lambdasondens uppvärmning och stabilisering.",
+      "variant": "Kohler Command utrustad med Emission Sentry",
+      "locator": "TP-2339-D printed p.5.13; PDF index 40; section 5",
+      "topic": "E",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-emissionsentry-red-led-shutdown",
+      "statement": "Vid förhöjd emissionsnivå övervakar Emission Sentry under ytterligare 45–60 sekunder; kvarstående fel leder till stopp genom jordning av tändkretsen samt röd LED. Systemet återställer sig efter cirka 2–3 minuter.",
+      "variant": "Kohler Command utrustad med Emission Sentry",
+      "locator": "TP-2339-D printed p.5.13; PDF index 40; section 5",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-emissionsentry-repeat-fault-causes",
+      "statement": "Vid upprepad utlösning av Emission Sentry pekar Kohler ut frånkopplade elkablar, stegmotor, kärvande bränsleinställningsskruv, lambdasond eller elektronisk styrenhet som felsökningsområden.",
+      "variant": "Kohler Command utrustad med Emission Sentry",
+      "locator": "TP-2339-D printed p.5.13; PDF index 40; section 5",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-gerotor-balance-shaft-drive",
+      "statement": "Kohlers fulltryckssmorda Command-motor har en Gerotor-oljepump i oljetråget som drivs av balansaxeln och matar även hydrauliska ventillyftare; mekanisk begränsningsventil begränsar högsta trycket.",
+      "variant": "CV11–16/CV460–465/CV490–495 med fulltryckssmörjning",
+      "locator": "TP-2339-D printed p.6.3; PDF index 50; section 6",
+      "topic": "G",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-pump-rotors-service-access",
+      "statement": "Kohler anger att oljepumpens rotorer kan servas genom täcklocket på oljetrågets PTO-sida utan att demontera oljetråget; oljeupptag och tryckbegränsningsventil kräver demonterat tråg.",
+      "variant": "Gerotoroljepump enligt Kohler TP-2339-D",
+      "locator": "TP-2339-D printed p.6.3; PDF index 50; section 6",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-filter-drainplug-torque",
+      "statement": "Kohler anger 7,3–9,0 Nm för oljeavtappningsplugg vid filteradaptern på utföranden som har separat filteravtappning.",
+      "variant": "Motorinstallation med avtappningsplugg vid oljefilteradapter",
+      "locator": "TP-2339-D printed p.6.3; PDF index 50; section 6",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-pump-cover-torque-new-used",
+      "statement": "Kohler anger 6,2 Nm för oljepumpkåpans skruvar i nytt gjuthål och 4,0 Nm i använt hål, med bearbetad sida mot O-ring.",
+      "variant": "Gerotor-oljepumpens tre kåpskruvar enligt Section 11",
+      "locator": "TP-2339-D printed p.11.8; PDF index 129; section 11",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-seal-install-special-tools",
+      "statement": "Kohler anger axelskydd KO1037 samt verktygshandtag KO1036 och tätningdrivare KO1027 vid installation av vevaxeltätningar; tätningsläpparna smörjs lätt.",
+      "variant": "Vevaxelns oljetätningar enligt Kohler Section 11",
+      "locator": "TP-2339-D printed p.11.8; PDF index 129; section 11",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -2164,6 +2335,7 @@
     "SPX/Kohler verktygsnummer i historisk TP-2339-D visar dåtida originaltestverktyg, inte automatiskt dagens lagerstatus, ersättningsnummer eller kompatibilitet med annan generations motorer.",
     "Forskningsrevision 2026-10-22: områden D, E, L och M saknar ännu registrerade källbelagda claims. Status förblir needs_research; komplettera från originaldokument, inte genom att extrapolera andra ämnesområden.",
     "Identifieringskod 21–32 för årsmodell 1991–2002 och modell-/startkoder har verifierats för TP-2339-D. Koderna ska inte extrapoleras till senare serienummer eller andra Kohler-familjer.",
-    "Luftfilterhus och valfritt skumfilter för kylluft: fastställ aktuellt filterhus, luftkanal, snörstart och Spec. No. innan 12 050 02-S eller infästningsdetaljer väljs."
+    "Luftfilterhus och valfritt skumfilter för kylluft: fastställ aktuellt filterhus, luftkanal, snörstart och Spec. No. innan 12 050 02-S eller infästningsdetaljer väljs.",
+    "LPG och Emission Sentry gäller bara särskilt utrustade Kohler Command och deras installationsspecifika bränsle-/emissionssystem; inga generella omställningsråd eller satskompatibiliteter utan Spec. No."
   ]
 }
