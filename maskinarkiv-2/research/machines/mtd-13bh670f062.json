@@ -403,6 +403,20 @@
       "title": "Briggs & Stratton Parts Manual 28T707-1154-E1",
       "document": "Original manufacturer parts manual, hosted/transcribed by Manualsnet, dated 2023-11-03; 26 pages with component and code-date conditions",
       "url": "https://manualsnet.com/briggs-stratton/28t707-1154-e1"
+    },
+    {
+      "id": "mtd-runnings-oem-7250267a-kit",
+      "tier": 2,
+      "title": "MTD Genuine Factory Parts ignition switch kit OEM-725-0267A",
+      "document": "Retailer manufacturer-labelled 1999–2004 tractor ignition switch kit, 3-position 5-prong, equivalent numbers 725/925-0267 variants",
+      "url": "https://www.runnings.com/mtd-genuine-factory-parts-ignition-switch-replaces-o-e-925-0267-925-0267a-925-0267b-725-0267-725-0267a-725-0267b.html"
+    },
+    {
+      "id": "briggs-official-ipl-selection-guidance",
+      "tier": 1,
+      "title": "Briggs & Stratton official IPL service number guidance",
+      "document": "Manufacturer help 2026: engine-specific illustrated parts list, model identity and distinction between illustration reference number and service part numbers",
+      "url": "https://www.briggsandstratton.com/en-us/support/faqs/find-part-number"
     }
   ],
   "topics": {
@@ -416,7 +430,7 @@
     },
     "C": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter.\nFollow-up research: MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter. Originalkorsreferensens sökindex för 2000 upprepar B&S 28T707-1154-E1 som 2001 års källa; full original-PDF gav 403, därför B och ingen generalisering till fysisk maskin. PartsTrees 2001-listning har eldiagram för flera motorfamiljer; dessa är familje-/portaldokument och styrker inte att Kohler eller Tecumseh monterades i den specifika MTD-kundmodellen. Motorbeteckningen 28T707-1154-E1 är oförändrad i MTD 2000/2001 XREF trots skillnader i övriga konfigurationen. Exakt 28T707-1154-E1-IPL ger filter 496894S/272403S, tändstift 802592S, bränslefilter 298090S, förgasar- och startmotoralternativ samt kolv-brytpunkt vid motorcode 01060700. Detta är motor-IPL, inte MTD-chassits fabriksrevisionsbevis. Ytterligare specificerade villkor: förgasare 498027/698171/694941 beroende LMT/Nikki och bränslematning; oljetätning 391086S magneto mot 291675S PTO; vevhustätningar .005/.009/.015 tum."
+      "note": "MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter.\nFollow-up research: MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter. Originalkorsreferensens sökindex för 2000 upprepar B&S 28T707-1154-E1 som 2001 års källa; full original-PDF gav 403, därför B och ingen generalisering till fysisk maskin. PartsTrees 2001-listning har eldiagram för flera motorfamiljer; dessa är familje-/portaldokument och styrker inte att Kohler eller Tecumseh monterades i den specifika MTD-kundmodellen. Motorbeteckningen 28T707-1154-E1 är oförändrad i MTD 2000/2001 XREF trots skillnader i övriga konfigurationen. Exakt 28T707-1154-E1-IPL ger filter 496894S/272403S, tändstift 802592S, bränslefilter 298090S, förgasar- och startmotoralternativ samt kolv-brytpunkt vid motorcode 01060700. Detta är motor-IPL, inte MTD-chassits fabriksrevisionsbevis. Ytterligare specificerade villkor: förgasare 498027/698171/694941 beroende LMT/Nikki och bränslematning; oljetätning 391086S magneto mot 291675S PTO; vevhustätningar .005/.009/.015 tum. Briggs officiella IPL-hjälp bekräftar att ritningens referensnummer skiljer sig från servicereservdelsnumret; motor code/date- och utrustningsvillkor måste följas."
     },
     "D": {
       "state": "gap",
@@ -440,7 +454,7 @@
     },
     "I": {
       "state": "gap",
-      "note": "Godkända tillbehör och användningsgränser saknar modellbunden källa. Familjemanual 770-10115A anger särskild säkerhetsledning under transmissionskåpan som friläggs vid bakre rembyte. Exakt Briggs-delbok listar dual-circuit alternator 696459, kablage 691237 och stoppledning 690799 samt svänghjulsuppgift 693557 för stålkuggkrans, men startmotorerna har ringdrevsvillkor."
+      "note": "Godkända tillbehör och användningsgränser saknar modellbunden källa. Familjemanual 770-10115A anger särskild säkerhetsledning under transmissionskåpan som friläggs vid bakre rembyte. Exakt Briggs-delbok listar dual-circuit alternator 696459, kablage 691237 och stoppledning 690799 samt svänghjulsuppgift 693557 för stålkuggkrans, men startmotorerna har ringdrevsvillkor. 2000-elsystemets modellindex blandar 629-0301E, 629-0207 och 929-0302E kabelstammar med skilda optioner. Femstiftslås 925-0267B, solenoid 925-1426A och lamp-/amperemeteroptioner kan inte sammanfogas till universellt elschema utan befintliga kontaktdon. MTD OEM-725-0267A kit korsrefererar 725/925-0267 familjen."
     },
     "J": {
       "state": "gap",
@@ -2187,6 +2201,51 @@
       "grade": "B",
       "sourceId": "briggs-28t707-1154e1-specific-ipl",
       "variant": "Exakt Briggs 28T707-1154-E1 originalkatalog, varianter kräver motorns CODE och faktisk konfiguration"
+    },
+    {
+      "id": "mtd-2000-electrical-multiple-harnesses",
+      "statement": "I",
+      "sourceId": "eReplacementParts årsavgränsade index 13BH670F062/2000 listar minst tre skilda kabelstammar: 629-0301E utan lampor/amperemeter/brytare, 629-0207 med övervakningsfunktion, samt 929-0302E med lampor/amperemeter/brytare. Katalogträffarna bevisar inte vilken stam som fabriksmonterades; pinout och kontaktdon måste identifieras.",
+      "locator": "ereplacementparts-2000-mtd",
+      "grade": "Electrical components, 629-0301E Wire Harness w/o Lt./Amp./Sw.; 629-0207 w/Monitor; 929-0302E w/Lt./Amp./Sw.",
+      "topic": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
+    },
+    {
+      "id": "mtd-2000-electrical-ignition-and-solenoid-catalog",
+      "statement": "I",
+      "sourceId": "Samma årsavgränsade eldelindex för 13BH670F062 visar femstifts tändningslås 925-0267B, startrelä/solenoid 925-1426A, strålkastarbrytare 925-0634 och amperemeter 925-0925. Elkomponenternas samtidiga katalogförekomst fastställer inte att alla extrautrustningsdelar monterats på en enskild maskin.",
+      "locator": "ereplacementparts-2000-mtd",
+      "grade": "Electrical listing: 925-0267B 5-pin switch, 925-1426A solenoid, 925-0634 headlamp switch, 925-0925 ammeter",
+      "topic": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
+    },
+    {
+      "id": "mtd-2000-electrical-safety-switch-variant-warning",
+      "statement": "I",
+      "sourceId": "Samma 2000-katalog listar säkerhetsbrytare 925-1657A under en generell benämning knuten till snöslungstillbehör, samt fjäderbrytare 725-1643. Det ska inte automatiskt tolkas som en bekräftad kopplingsfunktion i traktorns sits-, kopplings- eller PTO-spärrkrets; faktiskt elschema krävs.",
+      "locator": "ereplacementparts-2000-mtd",
+      "grade": "Electrical and accessory group: 925-1657A Snow Blower Safety Switch; 725-1643 Switch-spring",
+      "topic": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
+    },
+    {
+      "id": "mtd-1999-2004-ignition-kit-alternative-identification",
+      "statement": "I",
+      "sourceId": "MTD-märkt Genuine Factory Parts-kit OEM-725-0267A beskrivs av återförsäljaren som treläges, femstifts tändningslås med två nycklar och korsreferenser till äldre 725-/925-0267, 0267A och 0267B. Det är en nummer-/kitreferens för perioden 1999–2004, inte verifierad elektrisk kontaktfunktion i just 13BH670F062.",
+      "locator": "mtd-runnings-oem-7250267a-kit",
+      "grade": "Runnings MTD Genuine Factory Parts OEM-725-0267A, Product Details: fits 1999–2004, 3-position 5-prong, replaces 925/725-0267 variants",
+      "topic": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
+    },
+    {
+      "id": "mtd-briggs-ipl-ref-number-not-order-number",
+      "statement": "C",
+      "sourceId": "Briggs & Strattons egna hjälptext skiljer referensnummer bredvid IPL-illustrationerna från de faktiska servicereservdelsnumren. Vid 28T707-1154-E1 måste mekanikern utgå från motorns skylt, rätt IPL och positionsrad med eventuella koddatumsvillkor; ett ritningspositionsnummer är inte beställningsnumret.",
+      "locator": "briggs-official-ipl-selection-guidance",
+      "grade": "Official FAQ updated 2026-01-13, Locating Engine Service Part Numbers on Illustrated Parts List, Reference Numbers vs service numbers",
+      "topic": "A",
+      "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
     }
   ],
   "gaps": [
@@ -2237,6 +2296,7 @@
     "Förklara med OEM-revisionsmeddelande, serienummerintervall eller korrigerad originaltabell varför 2000 XREF anger G/42 för 13BH670F062 trots F=38 enligt MTD:s modellkod och 2001 XREF. Spåra samtidigt de skilda 2000/2001-dekalerna, hjulen och sätena.",
     "Historisk MTD-modellkodguide med 1995-exempel bekräftar äldre engineering/lot-position; återstår att dokumentera en faktisk komplett typskylt och eventuell revisionsförändring för 13BH670F062 runt 2000–2001.",
     "För 13BH670F062: avgör vilken reservdelssidas ritningsuppsättning som är modellårsspecifik och vilken som är familjeövergripande. G- och H-träffar i odaterad Sears/AppliancePartsPros-portal får inte ses som fabriksutrustningsbevis.",
-    "Verifiera faktiskt motormodell/type/code på ett 13BH670F062-exemplar och original-/ersättningsförgasare samt startmotorns ringdrev innan motorreservdelar rekommenderas; Briggs 28T707-1154-E1 har koddatums- och utförandespecifika delar."
+    "Verifiera faktiskt motormodell/type/code på ett 13BH670F062-exemplar och original-/ersättningsförgasare samt startmotorns ringdrev innan motorreservdelar rekommenderas; Briggs 28T707-1154-E1 har koddatums- och utförandespecifika delar.",
+    "Identifiera vilket av de minst tre kabelstamsutförandena 629-0301E, 629-0207 eller 929-0302E som faktiskt satt i 13BH670F062 med relevant serienummer, och erhåll originalkopplingsschema inklusive säkerhetskrets före elektriska felsökningsråd."
   ]
 }
