@@ -32,6 +32,20 @@
       "title": "CyberCat-STIGA printed parts list for Tecumseh Peerless Transaxle 846",
       "document": "Stiga 1992 Gearboxes: TECUMSEH PEERLESS TRANSAXLE 846, position 72",
       "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1992%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+846.pdf"
+    },
+    {
+      "id": "stiga-cybercat-peerless-846-801046-1991",
+      "tier": 2,
+      "title": "CyberCat STIGA 1991 Tecumseh Peerless 846 / 801-046 component comparison",
+      "document": "Original STIGA parts data, year 1991 gearbox section, separate 846 and 801-046 columns",
+      "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1991%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+846%2C+801-046.pdf"
+    },
+    {
+      "id": "peerless-reference-guide-2026",
+      "tier": 2,
+      "title": "Peerless Transmissions reference guide, distributor catalog",
+      "document": "RBI Reference Guide, transmission service parts listing, p. 166",
+      "url": "https://legacy.rbicorp.com/ReferenceGuide.pdf"
     }
   ],
   "topics": {
@@ -497,6 +511,51 @@
       "grade": "B",
       "sourceId": "stiga-cybercat-peerless-846-1992",
       "locator": "STIGA CyberCat, Peerless 846, pos.72; jämför båda modell-IPLs pos.72"
+    },
+    {
+      "id": "p12-1258-93-needle-30-variant",
+      "topic": "K",
+      "statement": "Jämförelselistan för 846 och 801-046 anger P000-7800-86 i 846-kolumnen vid pos.30, medan P000-7801-22 står i 801-046-kolumnen. Det är en modellskillnad, inte fritt utbytbara lager.",
+      "variant": "Original STIGA Peerless 846 kontra 801-046; extern Peerless nummerserie endast som separat corroboration",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-peerless-846-801046-1991",
+      "locator": "CyberCat 1991, pos.30, två modellkolumner"
+    },
+    {
+      "id": "p12-1258-93-needle-37-variant",
+      "topic": "K",
+      "statement": "Jämförelselistan anger 846-lagret P000-7801-11 respektive 801-046-lagret P000-7801-21 på pos.37, alltså två separata modellbundna nållager.",
+      "variant": "Original STIGA Peerless 846 kontra 801-046; extern Peerless nummerserie endast som separat corroboration",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-peerless-846-801046-1991",
+      "locator": "CyberCat 1991, pos.37, två modellkolumner"
+    },
+    {
+      "id": "p12-1258-93-oring-42-variant",
+      "topic": "K",
+      "statement": "Jämförelselistan för 1991 skiljer tätningen på pos.42: 846 använder P000-7920-01 O-ring; 801-046 använder P000-7880-57 ring. Användning över modellgränsen stöds inte av källan.",
+      "variant": "Original STIGA Peerless 846 kontra 801-046; extern Peerless nummerserie endast som separat corroboration",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-peerless-846-801046-1991",
+      "locator": "CyberCat 1991, pos.42, kolumner 846 och 801-046"
+    },
+    {
+      "id": "p12-1258-93-cover-47-variant",
+      "topic": "K",
+      "statement": "På pos.47 anges Peerless 846-kåpa P007-7207-8A och Peerless 801-046-kåpa P000-7720-82. Artiklarna är modellbundna trots gemensam positionsreferens.",
+      "variant": "Original STIGA Peerless 846 kontra 801-046; extern Peerless nummerserie endast som separat corroboration",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-peerless-846-801046-1991",
+      "locator": "CyberCat 1991, pos.47, 846/801-046"
+    },
+    {
+      "id": "p12-1258-93-external-seal-788069",
+      "topic": "K",
+      "statement": "Separat Peerless-referenskatalog identifierar basnumret 788069 som 'seal'. Detta stöder att 788069 existerar som reservdelsnummer men verifierar inte i sig placering på position 72 i 846 eller att CyberCat-numret P000-7880-69 är säkert att beställa.",
+      "variant": "Original STIGA Peerless 846 kontra 801-046; extern Peerless nummerserie endast som separat corroboration",
+      "grade": "B",
+      "sourceId": "peerless-reference-guide-2026",
+      "locator": "RBI Peerless Reference Guide, p.166, Part # 788069"
     }
   ],
   "gaps": [
@@ -512,6 +571,7 @@
     "Peerless 691218 illustrerar utförande B/C/D och nållagerdjup, men saknar här koppling till bestämt 846-serienummer; kontrollera etikett och intern utförandevariant innan lager-/tätningsbeställning.",
     "Tätning P000-780-69 i STIGA:s tryckta originaltabell har avvikande nummerlängd; kontrollera mot annan originalpartslista före beställning.",
     "Två STIGA-kataloger upprepar P000-780-69 på 846 pos.72. Hitta Tecumseh/Peerless-original 846 delarlista eller leverantörskorsreferens som verifierar faktiskt beställningsnummer; förväxla inte med 780069 från annan modell.",
-    "Bekräfta P000-7880-69 (CyberCat) mot oberoende Tecumseh/Peerless fabrikantlistning och fysisk tätning; två STIGA modell-IPLs anger P000-780-69. Inget nummer ska deklareras som slutligt beställningssäkert ännu."
+    "Bekräfta P000-7880-69 (CyberCat) mot oberoende Tecumseh/Peerless fabrikantlistning och fysisk tätning; två STIGA modell-IPLs anger P000-780-69. Inget nummer ska deklareras som slutligt beställningssäkert ännu.",
+    "Verifiera tätningsnummer 788069/P000-7880-69 på exakt Peerless 846 via fristående 846 tillverkarlista; RBI-guidens delnummer saknar 846-/positionsspecifik koppling."
   ]
 }
