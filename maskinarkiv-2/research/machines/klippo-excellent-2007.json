@@ -39,6 +39,13 @@
       "title": "ReservdelarOnline – äldre Klippo-nummer och Husqvarna-nummer",
       "document": "Översättningstabell äldre maskinkoder till PNC (odaterad webbversion)",
       "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
+    },
+    {
+      "id": "husqvarna-excellent-ipl-2010",
+      "tier": 1,
+      "title": "KLIPPO Excellent illustrated parts list 2009-12",
+      "document": "IPL KLIPPO Excellent 2009-12, 965 22 76-01 – Excellent 2010",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000046861/doc000084668/IPL/ga-6B42iUchbL6MHSpLiSL3WLLc?httproute=True"
     }
   ],
   "topics": {
@@ -248,6 +255,105 @@
       "sourceId": "retailer-klippo-crosswalk",
       "grade": "B",
       "topic": "M"
+    },
+    {
+      "id": "excellent-2010-ipl-identity",
+      "statement": "Husqvarnas original-IPL daterad 2009-12 omfattar Excellent 2010 artikelnummer 965 22 76-01.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, dokumentrubrik, produktnummer 965 22 76-01",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-2010-ipl-engine",
+      "statement": "Original-IPL anger motor 5029130-01, Briggs & Stratton Quantum XRQ 60 ReadyStart med motorkod 12H8021706B1.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, översta raden 'Motor'",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-2010-crosscut",
+      "statement": "Original-IPL anger kniv CROSS CUT 48, artikelnummer 5029689-01 (äldre Klippo-kod 6008), position 41.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 41",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-blade-bracket",
+      "statement": "Original-IPL anger knivfäste BLADE BRACKET 5032583-01 (Klippo-kod 0301), position 24.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 24",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-fiber-washer",
+      "statement": "Original-IPL anger FIBRE WASHER 5032594-01 (Klippo-kod 0323) på position 25.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 25",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-woodruff-wedge",
+      "statement": "Original-IPL anger WOODRUF WEDGE 5044605-01 (Klippo-kod 7075) på position 26.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 26",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-knife-hardware",
+      "statement": "Original-IPL anger SCREW AND CUP SPRING 5032727-01 (Klippo-kod 0908), position 42.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 42",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-bracket-kit",
+      "statement": "Original-IPL anger satsen BLADE BRACKET 5029322-01 (Klippo-kod 0924), bestående av position 24, 25, 26, 42.1 och 42.2.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, KITS nederst",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-mulcher-wall",
+      "statement": "Original-IPL anger MULCHER WALL 48, artikelnummer 5032430-01 (Klippo-kod 7437), position 18.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 18",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-2010-height-adjust",
+      "statement": "Original-IPL anger HEIGHT ADJUST BAR 48, RED, artikelnummer 5032495-01 (Klippo-kod 0228), position 9.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 9",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "excellent-2010-brake-wire",
+      "statement": "Original-IPL anger BRAKE WIRE 5032999-01 (Klippo-kod 1318), position 36.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 36",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "G"
     }
   ],
   "gaps": [
@@ -258,6 +364,7 @@
     "Kontrollera nya manualutgåvor samt originalservice för självgående modeller.",
     "Original-PDF:s sidbild gav cachefel vid skärmbildsgranskning; läst text och sidlocator är tillgängliga men figurer/bilder kräver ny visuell kontroll.",
     "Husqvarna 967 60 74-01, 967 60 78-01 och 967 60 70-01 finns som särskilda produktvarianter; koppla inte 2007-manualens oljeintervall till dem utan utgåve- och motorverifiering.",
-    "Visuell PDF-screenshot misslyckades; kontrollera serienummerkoder och tabelllayout mot skannad original-PDF innan publicering."
+    "Visuell PDF-screenshot misslyckades; kontrollera serienummerkoder och tabelllayout mot skannad original-PDF innan publicering.",
+    "Reservdelslistan 965 22 76-01 (2010) har identifierats via PDF-text, men skärmbildsfunktionen misslyckades; visuellt kontrollera särskilt position 41.1/41.2 och 42.1/42.2 innan man anger underspecifika detaljer."
   ]
 }
