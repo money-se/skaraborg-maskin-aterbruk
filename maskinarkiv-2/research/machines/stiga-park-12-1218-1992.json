@@ -18,6 +18,13 @@
       "title": "Partsharp STIGA Park 12 version index",
       "document": "Park 12 model/year diagram index",
       "url": "https://www.partsharp.com/spare-parts/stiga/park-compact/85b0721e-422f-47ea-af78/f6901295-017e-4d23-83ea.aspx"
+    },
+    {
+      "id": "sandby-1218-1992-overview",
+      "tier": 2,
+      "title": "Sandby Smedie Park 12 13-1218-15 1992 model overview",
+      "document": "Technical information – model/type and decks; retailer-sourced",
+      "url": "https://www.sandbysmeden.dk/13-1218-15-stiga-park-12-1992/"
     }
   ],
   "topics": {
@@ -132,6 +139,33 @@
       "grade": "B",
       "sourceId": "diy-1218-1992",
       "locator": "Electrical System_0, position 40"
+    },
+    {
+      "id": "p12-1218-1992-engine-lead",
+      "topic": "C",
+      "statement": "Återförsäljaren anger Briggs & Stratton Model/Type 286707-0141 för Park 12 13-1218-15 (1992); uppgiften är inte identifierad från ett individuellt motorblock.",
+      "variant": "STIGA Park 12 13-1218-15 (1992), preliminär återförsäljaruppgift",
+      "grade": "C",
+      "sourceId": "sandby-1218-1992-overview",
+      "locator": "Tekniske informationer > Motor > Model/Type"
+    },
+    {
+      "id": "p12-1218-1992-transaxle-lead",
+      "topic": "D",
+      "statement": "Återförsäljaren anger transmission Tecumseh 846 för produktnummer 13-1218-15; saknar fabrikens transaxelskylt och modellbunden tillverkar-IPL.",
+      "variant": "STIGA Park 12 13-1218-15 (1992), preliminär återförsäljaruppgift",
+      "grade": "C",
+      "sourceId": "sandby-1218-1992-overview",
+      "locator": "Tekniske informationer > Transmission"
+    },
+    {
+      "id": "p12-1218-1992-deck-lead",
+      "topic": "H",
+      "statement": "Återförsäljaren anger klippaggregatfamiljerna 100B och 100M för 13-1218-15; aggregatens exakta PNC och passform är inte tillverkarbekräftade.",
+      "variant": "STIGA Park 12 13-1218-15 (1992), preliminär återförsäljaruppgift",
+      "grade": "C",
+      "sourceId": "sandby-1218-1992-overview",
+      "locator": "Tekniske informationer > Brugte klippeborde"
     }
   ],
   "gaps": [
@@ -139,6 +173,7 @@
     "Verifiera motor Model/Type/Code och motorhandbok från originalkälla.",
     "Verifiera transaxelmodell och etikett mot original och individmärkning.",
     "Kontrollera originalservice, säkerhetskretsar och ägarmanual.",
-    "Verifiera tillåtna klippaggregat och deras egna PNC, remmar och knivar."
+    "Verifiera tillåtna klippaggregat och deras egna PNC, remmar och knivar.",
+    "Skaffa STIGA- eller Tecumseh-originalbelägg för uppgiften om 846 samt verifiera växellådsmärkplåten."
   ]
 }
