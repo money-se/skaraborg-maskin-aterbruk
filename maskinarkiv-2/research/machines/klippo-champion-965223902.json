@@ -116,6 +116,13 @@
       "title": "Wolfswinkel Champion 9652239-01 2009-12 parts overview",
       "document": "Complete model-specific parts list for Klippo Champion 9652239-01, December 2009; parts present but diagram position not inferred",
       "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/push-mowers/champion/champion-9652239-01-2009-12"
+    },
+    {
+      "id": "retailer-bladebracket-502871902-supersession",
+      "tier": 2,
+      "title": "ReservdelarOnline knivfäste 5028719-02 ersättnings- och PNC-lista",
+      "document": "Seller explicitly states replaces 5028719-01,5032583-01,5032599-01; year/PNC fitment",
+      "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
     }
   ],
   "topics": {
@@ -982,6 +989,42 @@
       "sourceId": "wolfswinkel-champion-2009-965223901",
       "grade": "B",
       "topic": "E"
+    },
+    {
+      "id": "champion-bracket-supersession-503259901",
+      "statement": "Återförsäljaren anger uttryckligen att knivfäste 5028719-02 (502871902) ersätter 5032599-01 (503259901). Eftersom 2012 Champion 965223902 listar 503259901 på motorgrupp ref 8 utgör detta ett säljarbelagt ersättningsspår, inte tillverkarbekräftad fästsats.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Passar till Champion 965223902 2013-01 samt Ersätter 503259901",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "champion-bracket-supersession-503258301",
+      "statement": "Samma produktkort anger knivfäste 502871902 som ersättare för 5032583-01/503258301. Exakt års-/seriekoppling för Champion 965223902 är inte dokumenterad av denna uppgift.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Ersätter 503 25 83-01",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "champion-bracket-supersession-502871901",
+      "statement": "Samma återförsäljarlista uppger 502871902 som ersättare för tidigare 502871901, utan att klargöra separat OEM-supersessionsdatum.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Ersätter 5028719-01",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "champion-bracket-2013-fitment",
+      "statement": "Knivfäste 502871902 listas uttryckligen för Champion PNC 965223902, version 2013-01, och äldre 9652239-01 2009-12 samt 967607501 2015-12; detta är en återförsäljarlista, inte allmänt årsspann.",
+      "variant": "Klippo knivfäste 5028719-02, säljarbelagd modell-/års- och ersättningslista",
+      "locator": "Passar till Champion 965223902 2013-01; 9652239-01 2009-12; 967607501 2015-12",
+      "sourceId": "retailer-bladebracket-502871902-supersession",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -1000,6 +1043,7 @@
     "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma.",
     "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
     "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
-    "Champion 2009 PNC 9652239-01 listad med kniv 502978001 och knivfäste 502871902; senare 2012 PNC 965223902 listar 502881310/579228401. Kontrollera bult-/fästmått, OEM IPL och seriegränser innan äldre knivsystem föreslås för 2012."
+    "Champion 2009 PNC 9652239-01 listad med kniv 502978001 och knivfäste 502871902; senare 2012 PNC 965223902 listar 502881310/579228401. Kontrollera bult-/fästmått, OEM IPL och seriegränser innan äldre knivsystem föreslås för 2012.",
+    "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår."
   ]
 }
