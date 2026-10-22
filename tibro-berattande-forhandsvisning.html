@@ -180,6 +180,15 @@ main .cta .btn{background:#e9b840;color:#152a1a;border:2px solid #e9b840}
 main .photo-proof{background:#edf3ec;padding-bottom:36px}
 main .related{padding-top:38px;padding-bottom:45px}
 @media(max-width:600px){main .section{padding-top:34px;padding-bottom:34px}main .hero .btn,main .hero .btn-light,main .hero .btn-outline{width:100%;text-align:center}main .hero .buttons,main .hero .actions{gap:12px}}
+
+/* Tibro: tydligt avgränsat kontaktkort, utan fullbreddsband */
+main .section .split > .tibro-contact-card{box-sizing:border-box;align-self:start;width:100%;max-width:425px;justify-self:end;padding:clamp(24px,2.6vw,34px);border:1px solid #3e6245;border-radius:22px;background:linear-gradient(145deg,#294c32,#1c3826);box-shadow:0 12px 30px rgba(21,46,27,.14)}
+main .section .tibro-contact-card h3{margin:0 0 14px;font-size:clamp(1.35rem,2.3vw,1.65rem);line-height:1.2;color:white}
+main .section .tibro-contact-card p{margin:0;max-width:35ch;color:#eff7ef;line-height:1.65}
+main .section .tibro-contact-card p+p{margin-top:13px}
+main .section .tibro-contact-card a.btn.btn-light{margin-top:23px;min-height:48px;gap:10px;border-radius:11px;padding:11px 19px}
+@media(max-width:860px){main .section .split > .tibro-contact-card{justify-self:start;max-width:480px}}
+@media(max-width:560px){main .section .split > .tibro-contact-card{max-width:none;padding:24px}main .section .tibro-contact-card a.btn.btn-light{width:100%}}
 </style>
 <meta name="robots" content="noindex,follow">
 </head>
@@ -215,7 +224,7 @@ main .related{padding-top:38px;padding-bottom:45px}
       </div>
     </section>
 
-    <section class="section white"><div class="wrap split"><div><span class="eyebrow">Något du känner igen?</span><h2>Börja där sakerna står</h2><p>En gräsklippare längst in i garaget. Ett redskap bakom ladan. Kanske finns det flera maskiner som du funderat på att sälja men aldrig riktigt kommit till skott. Hos oss behöver du inte välja rätt tjänst innan du hör av dig. Skicka bilder så ser vi om det handlar om ett möjligt köp, återbruk eller något vi inte kan hjälpa till med.</p><h3>En kontakt för flera olika sorters maskiner</h3><p>Härifrån kan du läsa vidare om åkgräsklippare, mindre gräsklippare, verkstadsmaskiner och maskinskrot. Vi finns i Hjo, men tar emot förfrågningar från Tibro. Vi lämnar inget löfte om betalning eller hämtning innan vi har sett vad det gäller.</p><p><strong>Visa det du har – även om det inte är en enda komplett maskin.</strong></p></div><div class="dark-panel"><h3>Börja med några bilder</h3><p>Skicka gärna 1–3 bilder, ange ort och vad du vet om skicket. Vi utgår från Hjo och tar emot förfrågningar från Tibro. Pris, mottagning och eventuell hämtning diskuteras först efter vår bedömning.</p><a class="btn btn-light" href="/kontakt.html">Kontakta oss →</a></div></div></section>
+    <section class="section white"><div class="wrap split"><div><span class="eyebrow">Något du känner igen?</span><h2>Börja där sakerna står</h2><p>En gräsklippare längst in i garaget. Ett redskap bakom ladan. Kanske finns det flera maskiner som du funderat på att sälja men aldrig riktigt kommit till skott. Hos oss behöver du inte välja rätt tjänst innan du hör av dig. Skicka bilder så ser vi om det handlar om ett möjligt köp, återbruk eller något vi inte kan hjälpa till med.</p><h3>En kontakt för flera olika sorters maskiner</h3><p>Härifrån kan du läsa vidare om åkgräsklippare, mindre gräsklippare, verkstadsmaskiner och maskinskrot. Vi finns i Hjo, men tar emot förfrågningar från Tibro. Vi lämnar inget löfte om betalning eller hämtning innan vi har sett vad det gäller.</p><p><strong>Visa det du har – även om det inte är en enda komplett maskin.</strong></p></div><aside class="dark-panel tibro-contact-card"><h3>Börja med några bilder</h3><p>Ta 1–3 bilder där sakerna står. Berätta vad du vet om skicket och att de finns i Tibro.</p><p>Vi tittar på om vi kan hjälpa till. Du bestämmer själv om du vill gå vidare.</p><a class="btn btn-light" href="/kontakt.html">Kontakta oss <span aria-hidden="true">→</span></a></aside></div></section>
 <section>
       <div class="wrap">
         <div class="section-head">
