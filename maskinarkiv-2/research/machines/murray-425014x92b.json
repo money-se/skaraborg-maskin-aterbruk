@@ -109,6 +109,13 @@
       "title": "Murray 425014x92B mower housing OEM repair parts",
       "document": "F-050706L printed p.47, keys 1–62",
       "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=47"
+    },
+    {
+      "id": "murray-014b-shift-adjust-battery-p25",
+      "tier": 2,
+      "title": "Murray 425014X92B shift lever and battery maintenance",
+      "document": "F-050706L maintenance printed p.25",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=25"
     }
   ],
   "topics": {
@@ -130,7 +137,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "F-050706L MOTION DRIVE tryckt s.41 kompletterad med modellbundna kopplings-, växel-, broms-, rem- och Dana-transaxelrelaterade delar. Exakt Dana-modellkod fortfarande ej angiven. Tolka inte delnummer som generella mellan modeller."
+      "note": "F-050706L MOTION DRIVE tryckt s.41 kompletterad med modellbundna kopplings-, växel-, broms-, rem- och Dana-transaxelrelaterade delar. Exakt Dana-modellkod fortfarande ej angiven. Tolka inte delnummer som generella mellan modeller. Service s.25 beskriver säker neutraljustering och funktionsprov genom rullning, vilket kompletterar Dana-delstabellen."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -3047,6 +3054,127 @@
       "sourceId": "murray-014b-deck-oem-p47-20261022",
       "grade": "B",
       "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-symptom",
+      "statement": "När växelspakens N-läge inte motsvarar transaxelns neutralläge föreskriver manualen justering av växelstagets mutter.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-off",
+      "statement": "Stäng av motorn före justering av växelspakens neutralläge.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-unhook",
+      "statement": "Lossa justermuttern från växelfästet före kontroll av transaxelns neutralläge.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-neutral",
+      "statement": "Ställ växelspaken på N och skjut traktorn för att säkerställa att själva transaxeln är i neutral.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-turn",
+      "statement": "Skruva justermuttern tills den passar i växelfästets hål utan att neutraljusteringen påverkas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-reconnect",
+      "statement": "Sätt tillbaka justermuttern i fästet och verifiera att växelspakens N överensstämmer med växellådans neutral.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-negative",
+      "statement": "Vid batteriets demontering ska svart minusledning lossas före röd plusledning för att minska risken för gnistor.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-positive",
+      "statement": "När batteriet återmonteras ansluts röd plusledning före svart minusledning.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-clean",
+      "statement": "Manualen anger rengöring av anslutningar med stålborste efter säker demontering av batteriet.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-acid",
+      "statement": "Manualen varnar för batteriets svavelsyra och risk för hud-, ögon- och klädskador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-charge",
+      "statement": "Manualen anger 12 V-laddare, 6 A i 1 timme för det angivna underhållsfria originalbatteriet; detta är inte generell rekommendation för andra batterityper.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
