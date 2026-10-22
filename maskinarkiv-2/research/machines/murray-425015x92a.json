@@ -32,6 +32,13 @@
       "title": "Murray 425015x92A illustrated parts manual text, Chassis & Hood",
       "document": "F-040734L p.37",
       "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=37"
+    },
+    {
+      "id": "murray-015a-steering",
+      "tier": 2,
+      "title": "Murray 425015X92A repair parts steering list",
+      "document": "F-040734L printed page 41",
+      "url": "https://www.somanuals.com/html/12/Murray-Lawn-Mower-425015x92A-User-Manual.html"
     }
   ],
   "topics": {
@@ -58,7 +65,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Styrningskatalogen identifierar ratt, styrstång, pinjong, sektor, framaxel, spindlar, styrstag och hjullager. Delarnas kompatibilitet med andra versioner återstår."
     },
     "F": {
       "name": "Reglage",
@@ -220,6 +227,116 @@
       "locator": "ENGINE MOUNT s.12, pos 9",
       "sourceId": "murray-murray-425015x92a-pdf",
       "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-steering-wheel",
+      "statement": "Reservdelskatalogen listar Ratt 094134.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 1",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-steering-post",
+      "statement": "Reservdelskatalogen listar Styrstång 690625.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 2",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-steering-pinion",
+      "statement": "Reservdelskatalogen listar Styrpinjong 690183.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 7",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-steering-sector",
+      "statement": "Reservdelskatalogen listar Styrsektor 094121.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 9",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-front-axle",
+      "statement": "Reservdelskatalogen listar Framaxel 1001460E701.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 26",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-left-spindle",
+      "statement": "Reservdelskatalogen listar Vänster styrspindel 094576E701.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 19",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-right-spindle",
+      "statement": "Reservdelskatalogen listar Höger styrspindel 094575E701.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 28",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-left-link",
+      "statement": "Reservdelskatalogen listar Vänster styrstag 095329E701.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 27",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-right-link",
+      "statement": "Reservdelskatalogen listar Höger styrstag 095328E701.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 29",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-wheel-bearing",
+      "statement": "Reservdelskatalogen listar Hjullager 091334.",
+      "variant": "425015X92A",
+      "locator": "STEERING, tryckt sida 41, pos 32",
+      "sourceId": "murray-015a-steering",
+      "grade": "B",
+      "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
