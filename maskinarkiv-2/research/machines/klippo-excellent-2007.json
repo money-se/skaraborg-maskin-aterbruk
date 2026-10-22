@@ -228,6 +228,13 @@
       "title": "Klippo Excellent S original IPL 2013-02, PNC 965227802",
       "document": "Manufacturer-authored 2013-02 spare parts list indexed at Yumpu, engine, gear box, handle, mower deck",
       "url": "https://www.yumpu.com/en/document/view/23881426/ipl-excellent-s-965227802-2013-02-klippo"
+    },
+    {
+      "id": "wolfswinkel-excellent-s-2012-96522780208-live",
+      "tier": 2,
+      "title": "Wolfswinkel KLIPPO Excellent S 96522780208 (2012-06), live model-specific listing",
+      "document": "2012-06 seller listing with gearbox positions 1,3,6,8,10,31 and chassis positions 21-22; possibly updated replacement entries",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/push-mowers/excellent-s/excellent-s-96522780208-2012-06"
     }
   ],
   "topics": {
@@ -1607,6 +1614,60 @@
       "sourceId": "yumpu-excellent-s-2013-original-ipl",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "exs12-live-gear-pulley",
+      "statement": "2012-06 Wolfswinkel-versionen för 96522780208 listar redan remskiva 587235401 på växellådsref 6; originalkatalogen 2012 anger 578771101. Detta är en källkonflikt inom samma märkta årsversion och styrker inte byte exakt 2013.",
+      "variant": "Excellent S 96522780208 2012-06: tillverkarförfattad katalog kontra aktuell återförsäljardellista",
+      "locator": "Gearbox ref 6: 2012 tillverkar-IPL 578771101; 2012 Wolfswinkel 587235401",
+      "sourceId": "wolfswinkel-excellent-s-2012-96522780208-live",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs12-live-gear-pulley-assembly",
+      "statement": "2012-06 Wolfswinkels aktuella reservdelslista anger 503323002 på växellådsref 8, medan tillverkarens 2012-katalog anger 503323201; därför kan 2013-förändringens exakta tidpunkt inte fastställas från dessa dokument.",
+      "variant": "Excellent S 96522780208 2012-06: tillverkarförfattad katalog kontra aktuell återförsäljardellista",
+      "locator": "Gearbox ref 8: 2012 OEM 503323201 kontra 2012 återförsäljare 503323002",
+      "sourceId": "wolfswinkel-excellent-s-2012-96522780208-live",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs12-live-gear-worm",
+      "statement": "2012-06 Wolfswinkels lista har redan snäckväxelenhet 586467101 på ref 31, jämfört med 503328101 i 2012 originalkatalog; årsgräns och eventuell ersättningskedja är obekräftade.",
+      "variant": "Excellent S 96522780208 2012-06: tillverkarförfattad katalog kontra aktuell återförsäljardellista",
+      "locator": "Gearbox ref 31: 2012 originalkatalog 503328101 kontra 2012 säljarlista 586467101",
+      "sourceId": "wolfswinkel-excellent-s-2012-96522780208-live",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs12-live-gear-same-assembly",
+      "statement": "2012-06 Wolfswinkel listar växellådssats 578266601 på chassi ref 22 och växellåda ref 1, i samstämmighet med 2012 originalkatalog. 2013-02 säljarlistan anger istället 585192603; saknar fortfarande bevisad OEM-supersession.",
+      "variant": "Excellent S 96522780208 2012-06: tillverkarförfattad katalog kontra aktuell återförsäljardellista",
+      "locator": "Chassi ref 22 och Gearbox ref 1 (2012) jämfört med 2013 ref 22/ref 1",
+      "sourceId": "wolfswinkel-excellent-s-2012-96522780208-live",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs12-live-gear-cover-same",
+      "statement": "2012-06 Wolfswinkel anger växellådskåpa 578265501 ref 3 och växelhus 578342801 ref 10, samma som 2012 originalkatalog, medan 2013-02 har 578265502 och 578342802.",
+      "variant": "Excellent S 96522780208 2012-06: tillverkarförfattad katalog kontra aktuell återförsäljardellista",
+      "locator": "Gearbox ref 3/ref 10 i 2012 original-IPL, 2012 seller och 2013 seller",
+      "sourceId": "wolfswinkel-excellent-s-2012-96522780208-live",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs12-live-model-identity",
+      "statement": "Wolfswinkels modellbundna 2012-06-sida anger Explicit Excellent S med nummer 96522780208. Det stärker identifieringen på återförsäljarnivå men ersätter inte maskinskylt eller 2012-katalogens originalomslag.",
+      "variant": "Excellent S 96522780208 2012-06: tillverkarförfattad katalog kontra aktuell återförsäljardellista",
+      "locator": "Sidhuvud Typ Excellent S, Jahr 2012 Jun, Zusatzinformationen 96522780208",
+      "sourceId": "wolfswinkel-excellent-s-2012-96522780208-live",
+      "grade": "B",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -1633,6 +1694,7 @@
     "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma.",
     "Excellent S originalreservdelskatalog 2012 är textavläst men sprängskissens bildkontroll misslyckades; PNC/serienummer saknas i extraherad omslagsinformation. Koppla inte monteringsdetaljerna direkt till Excellent 965227602 utan originalkontroll.",
     "Excellent S 2013 reservdelsrevisionsjämförelse indikerar nya växellådsdelar, chassivariant med/utan remskydd och ändrat knivstöd, men 2012-originalkatalogens PNC och fysiska kompatibilitetsgränser måste verifieras innan någon ersättningsmatris får godkännas.",
-    "Klippo Excellent S 2012-06 anges 96522780208 i två återförsäljarlistor men ursprungligt IPL-omslag måste granskas innan PNC fastställs som OEM A. Växellåda 578266601 till 585192603 saknar dokumenterad tillverkarsupersession."
+    "Klippo Excellent S 2012-06 anges 96522780208 i två återförsäljarlistor men ursprungligt IPL-omslag måste granskas innan PNC fastställs som OEM A. Växellåda 578266601 till 585192603 saknar dokumenterad tillverkarsupersession.",
+    "VIKTIG KÄLLKONFLIKT: 2012 års original-IPL har växellådsdelarna 578771101, 503323201, 503328101 men Wolfswinkels aktuella 2012-06-lista anger 587235401, 503323002, 586467101; fastställ när och varför säljarlistan uppdaterats innan 2013 anges som faktisk konstruktionsändringsgräns."
   ]
 }
