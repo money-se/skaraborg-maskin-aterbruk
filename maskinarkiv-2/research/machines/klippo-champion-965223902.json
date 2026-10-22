@@ -123,6 +123,13 @@
       "title": "ReservdelarOnline knivfäste 5028719-02 ersättnings- och PNC-lista",
       "document": "Seller explicitly states replaces 5028719-01,5032583-01,5032599-01; year/PNC fitment",
       "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
+    },
+    {
+      "id": "retailer-klippo-oldpart-conversion",
+      "tier": 2,
+      "title": "ReservdelarOnline gamla Klippo artikelnummer till Husqvarna tabell",
+      "document": "Legacy 0354=503259901 knivbussning 26.5; 0301=503258301 knivfäste Cobra Ø25 mm",
+      "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
     }
   ],
   "topics": {
@@ -1025,6 +1032,24 @@
       "sourceId": "retailer-bladebracket-502871902-supersession",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "champion-503259901-bushing-not-full-bracket",
+      "statement": "Klippos äldre kod 0354 motsvarar enligt säljarens korslista artikel 503259901 och benämningen 'Knivbussning 26,5'. Detta kan förklara att Champion 2012/2013-listan visar 503259901 i motorgruppen bredvid separat knivfäste, och förhindrar att de två räknas som två kompletta fästen.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Tabell 0354 / 503259901 / Knivbussning 26.5",
+      "sourceId": "retailer-klippo-oldpart-conversion",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "champion-503258301-25mm",
+      "statement": "Korslistan anger gamla koden 0301 för 503258301, 'Knivfäste Cobra Ø25mm'. Ett sådant gammalt artikelnummer kan förekomma i säljarens ersättningskedja utan att alla Cobra och Champion automatiskt får samma axelmått.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Tabell 0301 / 503258301 / Knivfäste Cobra Ø25mm",
+      "sourceId": "retailer-klippo-oldpart-conversion",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -1044,6 +1069,7 @@
     "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
     "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
     "Champion 2009 PNC 9652239-01 listad med kniv 502978001 och knivfäste 502871902; senare 2012 PNC 965223902 listar 502881310/579228401. Kontrollera bult-/fästmått, OEM IPL och seriegränser innan äldre knivsystem föreslås för 2012.",
-    "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår."
+    "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår.",
+    "Särskilj knivfäste från knivbussning: korslistan kallar 503259901 knivbussning 26,5 mm. Tidigare generisk återförsäljartext och implicit komplettering av monteringssats behöver kontrolleras mot OEM-figurer."
   ]
 }
