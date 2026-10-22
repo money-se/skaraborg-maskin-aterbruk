@@ -72,7 +72,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Reservdelskatalogens styrnings- och chassigrupper identifierade men komponentnummer ännu inte fullt extraherade."
+      "note": "Styrningssektionens originalreservdelslista på tryckt sida 39 identifierar ratt, axel, styrspindlar, styrstag, tvärstag, smörjnippel och rattadapter. Fysisk identitets- och efterträdande reservdelskontroll återstår."
     },
     "F": {
       "name": "Reglage",
@@ -698,6 +698,116 @@
       "topic": "G",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-steering-wheel",
+      "statement": "Ratten har reservdelsnummer 186780.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 1",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-front-axle",
+      "statement": "Framaxeln är listad som 175131.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 2",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-left-spindle",
+      "statement": "Vänster styrspindel listas som 169840.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 3",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-right-spindle",
+      "statement": "Höger styrspindel listas som 169839.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 4",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-steering-draglink",
+      "statement": "Styrstaget Draglink listas som 175121.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 10",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-steering-shaft",
+      "statement": "Styrstången Shaft, Steering listas som 190753.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 17",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-tie-rod",
+      "statement": "Tvärstaget Rod, Tie listas som 192757.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 32",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-grease-fitting",
+      "statement": "Smörjnippeln Fitting Grease listas som 183226.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 47",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-steering-assembly",
+      "statement": "Komplett Steering Asm listas som 175146.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 71",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-steering-wheel-adaptor",
+      "statement": "Rattadaptern Adaptor, Steering Wheel listas som 186737.",
+      "variant": "Murray 425014X92E / 96014000100, IPL-revision 96014000100-e-rp",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 41",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -707,6 +817,7 @@
     "Fullständig elschemakontroll, interlocks och komponentkoder per revision.",
     "Flera Murray-modellfamiljer och europeiska varianter saknas ännu i forskningsbanken.",
     "Inget publiceringsbeslut; samtliga ämnesområden A–M är ännu ofullständiga.",
-    "Generatorns verkliga utförande och elsystemets testprotokoll måste kontrolleras mot fysisk maskin och motor-Type/Code; nominella schemasiffror är inte individuella mätvärden."
+    "Generatorns verkliga utförande och elsystemets testprotokoll måste kontrolleras mot fysisk maskin och motor-Type/Code; nominella schemasiffror är inte individuella mätvärden.",
+    "425014X92E: Steering Assembly-pos. 1–97 har delvis extraherats. Ingen styrdelskompatibilitet mot A/B/425015 får antas utan egna katalogbelägg."
   ]
 }
