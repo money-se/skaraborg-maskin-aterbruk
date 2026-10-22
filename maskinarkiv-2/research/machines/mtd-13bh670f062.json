@@ -326,6 +326,27 @@
       "title": "PartsTree MTD 734-0973 Deck Wheel",
       "document": "Dealer catalog showing superseded to MTD 734-06265",
       "url": "https://www.partstree.com/parts/mtd-734-0973/"
+    },
+    {
+      "id": "partstree-6180162-to-91804091a",
+      "tier": 2,
+      "title": "PartsTree MTD 618-0162 Differential Assembly",
+      "document": "Original 618-0162 superseded to 918-04091A",
+      "url": "https://www.partstree.com/parts/mtd-618-0162/"
+    },
+    {
+      "id": "appliance-91804091a-supersession",
+      "tier": 2,
+      "title": "AppliancePartsPros OEM MTD 918-04091A differential",
+      "document": "Cross-reference listing 618-0162, 618-0162A, 618-04091, 618-04091A, 918-0162, 918-04091 replaced by 918-04091A",
+      "url": "https://www.appliancepartspros.com/mtd-differential-asm-918-04091a-ap6151468.html"
+    },
+    {
+      "id": "lawnmowerpros-91804091a-crossref",
+      "tier": 2,
+      "title": "Lawnmower Pros MTD 918-04091A differential cross-reference",
+      "document": "Authorized MTD dealer replacement list includes 618-0162, 618-0162A, 618-04091, 618-04091A, 918-0162 and 918-04091",
+      "url": "https://www.lawnmowerpros.com/detail.asp?id=918-04091A"
     }
   ],
   "topics": {
@@ -343,7 +364,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062.\nFollow-up research: Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden. Sidofynd: MTD B 155 13AP678G678 använder också husdel 719-0367; det ger en korsmodellrelation för komponenten, inte bevis för samma växellådsenhet. MTD:s ursprungliga 770-10116D (2002) redovisar differential 618-0162, bromskomponenter och hus 719-0367/719-0313B på familjenivå. Exakt OEM-komplett transaxel-ID för 13BH670F062 saknas. Sears 13BH670F062:s egen modellindexgrupp Driveshaft anger differential 618-0162. Annan MTD B/130 har komplett transmission 618-0166D och gemensam husdel 719-0367; komplett transmissionsnummer kan INTE överföras mellan modeller. VIKTIGT NYTT MODELLSPECIFIKT FYND: eReplacementParts listar 'Transmission Complete' 918-0163D direkt under 13BH670F062/2000. Detta ersätter tidigare status 'inget komplett katalognummer känt', men är inte fastställd fysisk serienummerpassform eller växellådans externa fabrikat. Samma index listar Differential Asm 918-04091A vid sidan av tidigare noterade 618-0162; revisionsvillkor öppet. MTD Technical Handbook 770-10579 benämner 600-seriens single-speed R.H. transaxel som modell 618-0163 (fig 6-2), 1997 års 600-variant 618-0163A. Detta stöder OEM-familjen bakom katalogens 918-0163D men inte individuellt serienummer. Handboken varnar för att 600-seriens differential från 1996 säljs som komplett, ej servicebar enhet, trots sprängskisser över äldre interna delar. 2000-diagramindex skiljer 'Speed Selector Lever Assembly (7 Speed)' från 'Transmission Assembly'; sju väljarlägen betyder inte sju interna växlar i transaxeln. Historisk MTD-guide beskriver 4–7 som VariSpeed-lägesbeteckningar, vilket stöder tydlig åtskillnad mellan reglageläget 7 och transaxelns invändiga konstruktion."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062.\nFollow-up research: Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden. Sidofynd: MTD B 155 13AP678G678 använder också husdel 719-0367; det ger en korsmodellrelation för komponenten, inte bevis för samma växellådsenhet. MTD:s ursprungliga 770-10116D (2002) redovisar differential 618-0162, bromskomponenter och hus 719-0367/719-0313B på familjenivå. Exakt OEM-komplett transaxel-ID för 13BH670F062 saknas. Sears 13BH670F062:s egen modellindexgrupp Driveshaft anger differential 618-0162. Annan MTD B/130 har komplett transmission 618-0166D och gemensam husdel 719-0367; komplett transmissionsnummer kan INTE överföras mellan modeller. VIKTIGT NYTT MODELLSPECIFIKT FYND: eReplacementParts listar 'Transmission Complete' 918-0163D direkt under 13BH670F062/2000. Detta ersätter tidigare status 'inget komplett katalognummer känt', men är inte fastställd fysisk serienummerpassform eller växellådans externa fabrikat. Samma index listar Differential Asm 918-04091A vid sidan av tidigare noterade 618-0162; revisionsvillkor öppet. MTD Technical Handbook 770-10579 benämner 600-seriens single-speed R.H. transaxel som modell 618-0163 (fig 6-2), 1997 års 600-variant 618-0163A. Detta stöder OEM-familjen bakom katalogens 918-0163D men inte individuellt serienummer. Handboken varnar för att 600-seriens differential från 1996 säljs som komplett, ej servicebar enhet, trots sprängskisser över äldre interna delar. 2000-diagramindex skiljer 'Speed Selector Lever Assembly (7 Speed)' från 'Transmission Assembly'; sju väljarlägen betyder inte sju interna växlar i transaxeln. Historisk MTD-guide beskriver 4–7 som VariSpeed-lägesbeteckningar, vilket stöder tydlig åtskillnad mellan reglageläget 7 och transaxelns invändiga konstruktion. Oberoende reservdelssäljare bekräftar 618-0162 → 918-04091A och utvidgad kedja inklusive 618-0162A/618-04091; detta förklarar katalogernas differentialnummer men inte faktisk fabriksversion."
     },
     "E": {
       "state": "gap",
@@ -1786,6 +1807,33 @@
       "grade": "B",
       "sourceId": "partstree-7340973-supersession",
       "locator": "Part 734-0973, 'Superseded to MTD 734-06265'"
+    },
+    {
+      "id": "mtd-differential-6180162-to-91804091a",
+      "topic": "D",
+      "statement": "PartsTree anger uttryckligen att den äldre MTD-differentialen 618-0162 har ersatts av 918-04091A. Detta förklarar att två modellregister visar olika nummer utan att det bevisar vilken revision som monterades på ett enskilt 13BH670F062-exemplar.",
+      "sourceId": "partstree-6180162-to-91804091a",
+      "locator": "Product 618-0162, 'Superseded to MTD 918-04091A'",
+      "variant": "MTD differentialreservdelsfamilj; ersättningskedja styrkt men ej monterad serie-/årsversion",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-differential-91804091a-expanded-crossreference",
+      "topic": "D",
+      "statement": "AppliancePartsPros korsreferens för 918-04091A listar 618-0162, 618-0162A, 618-04091, 618-04091A, 918-0162 och 918-04091 som äldre nummer. Numren dokumenterar reservdelsersättning, inte samtidiga fabriksmonterade utföranden.",
+      "sourceId": "appliance-91804091a-supersession",
+      "locator": "Cross Reference Information, 918-04091A replacement number list",
+      "variant": "MTD differentialreservdelsfamilj; ersättningskedja styrkt men ej monterad serie-/årsversion",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-differential-91804091a-authorized-dealer-check",
+      "topic": "D",
+      "statement": "MTD-återförsäljaren Lawnmower Pros redovisar en självständig ersättningslista där 918-04091A ersätter de äldre differentialnumren 618-0162 och 618-0162A samt 618-04091-familjen. Det ger ytterligare stöd för att katalogskillnaden är en artikelnummerkedja.",
+      "sourceId": "lawnmowerpros-91804091a-crossref",
+      "locator": "Product 918-04091A, THIS PART REPLACES list",
+      "variant": "MTD differentialreservdelsfamilj; ersättningskedja styrkt men ej monterad serie-/årsversion",
+      "grade": "B"
     }
   ],
   "gaps": [
@@ -1821,7 +1869,6 @@
     "Fastställ komplett växellådsenhet/transaxel för 13BH670F062 via tillverkarens positionsnummer på transaxelritning eller märkning på faktiskt exemplar; jämförelsemodellen B/130 med 618-0166D ger inte tillräckligt identitetsbevis.",
     "Kontrollera om komplett växellådsenhet 618-0166D eller dess ersättningskedja överhuvudtaget är listad i en tillverkarspecifik källa för 13BH670F062, inte enbart jämförelsemodeller.",
     "Verifiera MTD original-IPLs och serienummervillkor för komplett transmissionsenhet 918-0163D för 13BH670F062/2000, inklusive eventuell OEM supersession och växellådans faktiska tillverkare.",
-    "Klargör varför eReplacementParts listar differential 918-04091A samtidigt som Sears och MTD-familjekatalogen listar 618-0162. Fastställ om de representerar olika revisioner eller ersättningskedja.",
     "Sök MTD:s egen partsöksida eller original-IPLs som visar att komplett 918-0163D gäller specifikt års-/serienummervarianten 13BH670F062; fastställ även växellådans externa fabrikat.",
     "Slutkontroll av MTD Technical Handbook 770-10579: original-PDF översteg webbläsarens storleksgräns, varför endast sökindexerat textlager kunde verifieras. Hämta och granska relevanta sidor visuellt och identifiera vilket 13BH670F062-serienummerspann som använder 618-0163-serien.",
     "Bekräfta 1996-ändringens effekt på 13BH670F062/2000 innan någon invändig differentialreparation rekommenderas; MTD:s handbok anger att den nyare enheten inte är servicebar.",
