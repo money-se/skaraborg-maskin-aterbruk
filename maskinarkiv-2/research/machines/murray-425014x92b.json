@@ -95,6 +95,13 @@
       "title": "Murray 425014X92B original steering parts table",
       "document": "F-050706L STEERING p.43",
       "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=43"
+    },
+    {
+      "id": "murray-014b-motion-drive-p41",
+      "tier": 2,
+      "title": "Murray 425014X92B original MOTION DRIVE parts table",
+      "document": "F-050706L printed p.41",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=41"
     }
   ],
   "topics": {
@@ -116,7 +123,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "DANA transaxel framgår av separat Motion Drive-lista; exakt Dana-transaxelkod saknas. Motion Drive-rem 037x87 är katalogbelagd, ej generellt kompatibilitetsbevis."
+      "note": "F-050706L MOTION DRIVE tryckt s.41 kompletterad med modellbundna kopplings-, växel-, broms-, rem- och Dana-transaxelrelaterade delar. Exakt Dana-modellkod fortfarande ej angiven. Tolka inte delnummer som generella mellan modeller."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -2483,6 +2490,336 @@
       "sourceId": "murray-014b-steering-p43-verified",
       "grade": "B",
       "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-idler-arm",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 690173 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 690173 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-clutch-rod",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094041 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094041 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-gear-shift-lever",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094043 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094043 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-gear-shift-link",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094044 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094044 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-adjuster-nut",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 021920 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 021920 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-parking-rod",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1001245 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1001245 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-brake-adjuster",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094815 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094815 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-shift-pivot",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1001303 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1001303 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spring-mount",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094042 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094042 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spring-bolt",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 009x54.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 009x54",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spring-clip",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 165x116.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 165x116",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-parking-latch",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094045 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094045 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-pedal",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 021544.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 021544",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-brake-clutch-lever",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094038E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094038E700",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-shift-yoke",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094031 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094031 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-transaxle-bracket",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094008E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094008E701",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-transaxle-support",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094433E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094433E700",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-rear-wheel-tire",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 092290-601.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 092290-601",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spacer",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1401103 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1401103 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-tire",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 091923.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 091923",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-tire-tube",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 407049.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 407049",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-valve",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 024373.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 024373",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-drive-pulley",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 095094.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 095094",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-woodruff-key",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 020697.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 020697",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-idler-spring",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 165x115.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 165x115",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-extension-spring",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 165x92.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 165x92",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-wheel-hubcap",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094618.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094618",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-belt-guide",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 093349.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 093349",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-belt-guide-hairpin",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 0031x4.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 0031x4",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-right-shifter-bracket",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1001978E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1001978E701",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
