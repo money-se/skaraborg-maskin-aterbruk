@@ -22,3 +22,15 @@
 3. Lägg hit endast ny relation/pekare som gör andra maskiner lättare att hitta, inte en andra kopia av tekniska påståenden.
 4. Sidofynd utan eget register får finnas här som **researchuppslag**, aldrig som verifierat tekniskt underlag eller publiceringsbeslut.
 5. Varje ny artikel måste separat uppfylla projektets research-grind och granskningsregler.
+
+## Motorforskning – tillverkaroriginal som väntar på maskinbunden koppling (2026-10-22)
+
+Dessa är **källpekare/identifieringsuppslag**, inte motorpåståenden som får användas i maskinartiklar innan rätt motormärkning och maskinvariant har styrkts.
+
+| Motorfamilj | Originalkälla | Nästa verifieringssteg |
+|---|---|---|
+| Briggs & Stratton | [Briggs motoridentifiering](https://www.briggsandstratton.com/sv-se/support/faqs/engine-codes-model-numbers), [manualer/IPL](https://www.briggsandstratton.com/sv-se/support/manuals) | Utgå från exakt Model/Type/Code för monterad motor; första maskinbundna claim finns i [Rider 13-registret](machines/husqvarna-rider-13.json) (`rider13c-briggs-identification-procedure`) |
+| Honda allmänna småmotorer | [Honda Engine Type Identification](https://engines.honda.com/support-and-service/engine-type-identification), [ägarmanualer](https://engines.honda.com/support-and-service/owners-manuals/), [verkstads-/reservdelsmanualer](https://engines.honda.com/support-and-service/shop-manuals) | Identifiera motormodell, Type Code och serienummer och kontrollera tillämplig europeisk dokumentutgåva innan maskinbundet claim skapas |
+| Kohler äldre Magnum/Command | [Kohler Magnum M8–M16 originalverkstadshandbok TP-2203-A](https://resources.kohler.com/power/kohler/enginesUS/pdf/tp_2203_a.pdf), [Kohler Command CV11–CV16 originalverkstadshandbok TP-2339-D](https://resources.kohler.com/power/kohler/enginesUS/pdf/tp_2339_d.pdf) | Identifiera motorns modell, specifikationsnummer och serienummer; jämför relevant manualrevision och maskinkoppling, inte bara hästkraftsnamn |
+
+Originalmanualernas exakta serviceuppgifter läggs i kanoniska maskinregister först när variant/motorpar är verifierat. Kohler-PDF:ernas identifieringsfigurer behöver separat visuell genomgång före detaljerade claims.
