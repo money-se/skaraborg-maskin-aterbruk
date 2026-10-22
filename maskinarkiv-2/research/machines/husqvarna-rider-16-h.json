@@ -218,6 +218,69 @@
       "sourceId": "husqvarna-rider16h-2001-10-owner",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "r16h-2000-bioclip90-blade",
+      "statement": "Original-IPLn för Rider 16 H 2000-02 anger kniv 531 00 75-25 i gruppen 90CM CUTTING DECK. Antalet enskilda knivpositioner kräver kontroll av sprängskissen.",
+      "variant": "Rider 16 H, katalog 2000-02, separat aggregat-PNC ej fastställt",
+      "locator": "PDF-sida 41 (P40), 90CM CUTTING DECK, 531 00 75-25 BLADE",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2000-bioclip90-shell",
+      "statement": "Original-IPLn för Rider 16 H 2000-02 anger klippaggregatskal 506 97 72-01 och rem 506 97 73-01 i 90CM CUTTING DECK-gruppen. Dessa får inte användas som bevis för andra revisioners passform.",
+      "variant": "Rider 16 H, katalog 2000-02, separat aggregat-PNC ej fastställt",
+      "locator": "PDF-sida 41 (P40), 90CM CUTTING DECK, 506 97 72-01 DECK SHELL och 506 97 73-01 BELT",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2000-103-shell",
+      "statement": "Rider 16 H original-IPLn 2000-02 anger 506 93 06-03 DECK SHELL ASSY i 103CM CUTTING DECK-gruppen, ej ett komplett aggregats produktnummer.",
+      "variant": "Rider 16 H, katalog 2000-02, separat aggregat-PNC ej fastställt",
+      "locator": "PDF-sida 39 (P38), 103CM CUTTING DECK, 506 93 06-03",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2000-103-blade-refs",
+      "statement": "Rider 16 H original-IPLn 2000-02 anger 506 96 61-01 BLADE och 531 00 75-24 BLADE i 103CM CUTTING DECK-gruppen; bladens funktion och eventuell revision behöver visuellt positionsbestämmas.",
+      "variant": "Rider 16 H, katalog 2000-02, separat aggregat-PNC ej fastställt",
+      "locator": "PDF-sida 39 (P38), 103CM CUTTING DECK, 506 96 61-01 samt 531 00 75-24",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2000-103-spindle",
+      "statement": "Rider 16 H original-IPLn 2000-02 anger 506 75 11-06 BLADE HOUSING ASSY med beteckning MITTEN och 506 75 11-07 med beteckning YTTRE. Katalogtextens generiska QTY är inte underlag för verkligt monteringsantal.",
+      "variant": "Rider 16 H, katalog 2000-02, separat aggregat-PNC ej fastställt",
+      "locator": "PDF-sida 39 (P38), 103CM CUTTING DECK, 506 75 11-06 / 506 75 11-07",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2000-103-belts",
+      "statement": "Rider 16 H original-IPLn 2000-02 anger 531 00 50-17 BELT samt 531 00 50-80 BELT i två separata katalograder i 103CM CUTTING DECK-gruppen; det senare är inte utan vidare en generell reservrem för BioClip 103-version 1.",
+      "variant": "Rider 16 H, katalog 2000-02, separat aggregat-PNC ej fastställt",
+      "locator": "PDF-sida 39 (P38), 103CM CUTTING DECK, 531 00 50-17 och 531 00 50-80 (två förekomster)",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-2000-103-driveparts",
+      "statement": "Rider 16 H original-IPLn 2000-02 anger tandremskiva 506 93 09-01 och excenter 506 96 04-01 i 103CM CUTTING DECK-gruppen; serviceanvisning måste bindas till korrekt aggregatrevision.",
+      "variant": "Rider 16 H, katalog 2000-02, separat aggregat-PNC ej fastställt",
+      "locator": "PDF-sida 39 (P38), 103CM CUTTING DECK, 506 93 09-01 KUGGREMSKIVA, 506 96 04-01 ECCENTRIC",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -228,6 +291,9 @@
     "Undvik att överföra 16 H-uppgifter om K55 till 16-modeller med K46.",
     "Koppla Rider 16 H manual 2001-10 till exakt maskin-PNC och katalogen 2000-02 innan universella reservdelsråd ges.",
     "Identifiera BioClip 103:s separata aggregat-PNC för Rider 16 H; 2001-manualen beskriver två tandremmar men säkerställer inte andra BioClip 103-versioners passform.",
-    "Källans PDF-text är granskad; skärmbildsanrop gav fel och tekniska figurer kräver efterföljande visuell kontroll."
+    "Källans PDF-text är granskad; skärmbildsanrop gav fel och tekniska figurer kräver efterföljande visuell kontroll.",
+    "Original-IPLn 2000-02 anger olika 103 cm-reservdelsnummer men ingen separat komplett aggregat-PNC; undvik att kalla kataloggruppen identifierad BioClip 103 version 1 eller 2 utan ytterligare belägg.",
+    "PDF-figurer kunde inte kontrolleras visuellt (cachefel). Kontrollera faktisk positionsplacering och antal innan beställning eller praktiska reparationsanvisningar.",
+    "Verifiera om 531 00 75-25 är ersatt av 531 00 75-86 för 90 cm-aggregat via Husqvarnas egen ersättningskedja; inga ersättningspåståenden i nuläget."
   ]
 }
