@@ -1343,9 +1343,9 @@
     },
     {
       "id": "rider16-bio90-589531501-official-product",
-      "statement": "Husqvarna anger artikelnummer 589 53 15-01 som en 'Cutting deck belt' med längd 2 158 mm på sin officiella reservdelssida. Denna sida bekräftar artikelnumrets existens och produktklass men inte dess tillämplighet på Rider 16 BioClip 90 eller någon ersättningskedja från äldre nummer.",
+      "statement": "Husqvarnas officiella reservdelssida listar artikel 589 53 15-01 som Cutting deck belt med längden 1 256 mm. Artikel 589 53 16-01, en separat artikelrad, har längden 2 158 mm. Husqvarnas listvy bekräftar inte att 589531501 ersätter 531007526, eller att den passar ett visst Rider 16-aggregat utan PNC-kontroll.",
       "variant": "Tillverkarprodukt 589531501, ingen maskin-/aggregat-PNC bunden",
-      "locator": "Husqvarna UK, 'Cutting deck belt', Product variants, Art no: 589 53 15-01 och Product data, Length 2,158 mm",
+      "locator": "Husqvarna UK 'Belt', 'Product Information > Specifications', kolumn Art no 589 53 15-01: Length 1,256 mm; intilliggande kolumn Art no 589 53 16-01: 2,158 mm",
       "sourceId": "husqvarna-official-belt-589531501",
       "grade": "A",
       "topic": "E"
@@ -1404,6 +1404,7 @@
     "Rider 1030 BioClip 1997-05 har separat originalkatalog med 103 cm-komponenter, men är ett SIDOFYND och dess komponenter får inte överföras till Rider 16 utan versionsbelägg.",
     "Sök en Husqvarna-publicerad officiell ersättningskedja för BioClip 90-remmar 531007526 / 506977301 / 531008037 → 589531501. AHUPD, sGarden och Wolfswinkel styrker detta på återförsäljarnivå, inte tillverkarnivå.",
     "PIX-katalogens OEM-korsreferenser visar samma modellgrupp men inte motsvarande OE-artikelersättning. Undvik att hävda kompatibilitet utan PNC och korrekt aggregatutförande.",
-    "Husqvarna bekräftar produkt 589531501 och längd 2158 mm, men officiell webbsida visar inte 531007526/506977301/531008037 som ersatta nummer eller Rider 16 PNC. En officiell parts-lookup med maskin-/aggregat-PNC krävs."
+    "Husqvarna bekräftar artikel 589531501 och längd 1256 mm (korrigerat; 2158 mm avser artikel 589531601). Officiell ersättningsrelation för 531007526 saknas fortfarande; PNC-kontroll krävs.",
+    "Kvalitetskontroll: tidigare claim angav felaktigt 2158 mm för 589531501 genom sammanblandning med närliggande artikel 589531601. Korrigerat till 1256 mm enligt tillverkarens specifikationstabell."
   ]
 }
