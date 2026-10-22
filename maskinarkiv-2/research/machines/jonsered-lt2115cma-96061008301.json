@@ -670,6 +670,17 @@
       "topic": "D",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-filter-assembly-supersession",
+      "statement": "Hydro-Gear 321-0510 IPL anger uttryckligen att key 45 (Filter 532 17 03-97) och key 46 (Base, Filter 532 17 03-98) ersätts av key 125 (Filter Assembly 532 17 04-45). Detta är en dokumenterad katalogersättning på transaxelmodellnivå, inte bekräftad passform utan transaxelidentifikation på individnivå.",
+      "variant": "Hydro-Gear 321-0510, kopplad till LT2115CMA 96061008301 2006-06",
+      "locator": "Hydro-Gear 321-0510 illustrated parts breakdown, 2001-01-25, parts key 45–46 och katalogens anmärkning om ersättning med key 125, PDF page 3",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -681,6 +692,7 @@
     "De tolv utökade ELECTRICAL-komponentposterna är kontrollerade mot den textutdragna originalkatalogen på PDF-sida 6. Extern web-PDF-skärmbild kunde inte hämtas; visuell och praktisk identifieringskontroll återstår före final verifiering.",
     "Systematisk MOWER-jämförelse 2004-06 mot 2006-06 visar skilda katalognummer på positionerna 22, 26, 32, 33, 34, 35, 55 och 68. Sidorna är textgranskade, men web-PDF-bildvisning misslyckades; ersättningsnummer och faktisk utbytbarhet kräver separat granskning.",
     "2004-06 och 2006-06 delar enligt DRIVE Hydro-Gear 321-0510, Noram 532 18 03-54 och rem 532 17 01-40 men katalogför skilda reglagestänger och kopplingslänkar. Bildkontroll och passformsanalys återstår.",
-    "Hydro-Gear 321-0510-reservdelslista daterad 2001 anger 20W-50 OIL 72.8 oz som katalogpost (key 57), men styrker inte automatisk oljebytesrekommendation, aktuell oljespecifikation, serviceintervall eller exakt transaxelrevision installerad i varje Jonsered-maskin. Servicemanual för 310-0510 gäller annan modellbeteckning och får inte ärvas utan uttrycklig modelltäckning."
+    "Hydro-Gear 321-0510-reservdelslista daterad 2001 anger 20W-50 OIL 72.8 oz som katalogpost (key 57), men styrker inte automatisk oljebytesrekommendation, aktuell oljespecifikation, serviceintervall eller exakt transaxelrevision installerad i varje Jonsered-maskin. Servicemanual för 310-0510 gäller annan modellbeteckning och får inte ärvas utan uttrycklig modelltäckning.",
+    "Servicemanualen BLN-51260 täcker uttryckligen 310-0510/-0610/-0710 och har inte styrkts för Hydro-Gear 321-0510. Oljebytesprocedur, luftning, serviceintervall och åtdragningsmoment kan därför inte övertas från den manualen. Kontrollera modell/serienummer på aktuell transaxel och begär korrekt tillverkarunderlag."
   ]
 }
