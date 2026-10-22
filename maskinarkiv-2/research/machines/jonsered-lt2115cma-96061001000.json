@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061001000",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Versionsavgränsad kontroll av 2005-01 reservdelskatalog för äldre LT2115CMA; original-PDF indexerad men bildsidor gick ej att visa i webbverktyget. Ej fullständig verkstads- eller servicekontroll.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cma-2005-01-ipl",
+      "tier": 2,
+      "title": "Jonsered original illustrated parts list för LT2115CMA, återpublicerad",
+      "document": "544 02 35-01; LT2115CMA / 96061001000 / 954 13 02-24, 2005-01",
+      "url": "https://www.ersatzteil-shop24.de/bilder/zeichnungen/jonsered/JIPL2005_5440235-01.pdf"
+    },
+    {
+      "id": "jonsered-lt2115cma-2005-sgarden",
+      "tier": 2,
+      "title": "Modellbunden avskrift av CHASSIS AND ENCLOSURES",
+      "document": "LT 2115 CMA 96061001000 954130224 2005-01, CHASSIS",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/75643/CHASSIS__ENCLOSURES?SelectedCode=532178862"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Endast utvalda katalogpositioner och identitet har kontrollerats; full dokumentgranskning och specifika serviceuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061001000-identity",
+      "statement": "Jonsereds reservdelskatalog anger LT2115CMA med MODEL NO. 96061001000 och PRODUCT NO. 954 13 02-24.",
+      "variant": "LT2115CMA / 96061001000 / 954130224 (2005-01)",
+      "locator": "PDF inledande identitetsrubrik, REPAIR PARTS",
+      "sourceId": "jonsered-lt2115cma-2005-01-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001000-transaxle",
+      "statement": "DRIVE avsnittet listar Transaxle Hydro Gear 321-0510 och anger att reservdelar till transaxeln beställs från tillverkaren.",
+      "variant": "LT2115CMA / 96061001000 / 954130224 (2005-01)",
+      "locator": "PDF DRIVE, position 1",
+      "sourceId": "jonsered-lt2115cma-2005-01-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001000-bypass",
+      "statement": "Hydrostatens bypassreglage anges som 532 17 00-15 Control Asm Bypass Hydro.",
+      "variant": "LT2115CMA / 96061001000 / 954130224 (2005-01)",
+      "locator": "PDF DRIVE, position 95",
+      "sourceId": "jonsered-lt2115cma-2005-01-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001000-transaxle-link",
+      "statement": "Transaxellänk anges som 532 17 00-07 Link, Transaxle.",
+      "variant": "LT2115CMA / 96061001000 / 954130224 (2005-01)",
+      "locator": "PDF DRIVE, position 84",
+      "sourceId": "jonsered-lt2115cma-2005-01-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001000-clutch",
+      "statement": "Katalogens DRIVE-avsnitt listar kopplingsenheten 532 18 03-54 Clutch Asm Noram.",
+      "variant": "LT2115CMA / 96061001000 / 954130224 (2005-01)",
+      "locator": "PDF DRIVE, position 9",
+      "sourceId": "jonsered-lt2115cma-2005-01-ipl",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001000-frame",
+      "statement": "CHASSIS AND ENCLOSURES listar chassi 532 17 46-20.",
+      "variant": "LT2115CMA / 96061001000 / 954130224 (2005-01)",
+      "locator": "PDF CHASSIS AND ENCLOSURES, position 1",
+      "sourceId": "jonsered-lt2115cma-2005-01-ipl",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Motoridentitet och motorleverantörens originalservice återstår.",
+    "MOWER, elsystem, hjul, övriga remmar samt alla knivpositioner återstår att detaljkontrollera.",
+    "Samma Hydro-Gear-identifiering i två revisioner innebär inte generell intern komponent- eller rempassform.",
+    "Original-PDF:s bildsidor kunde inte öppnas för skärmbildskontroll; positioner verifierade mot indexerad text och behöver visuell kontroll inför publicering.",
+    "Övriga CMA-produktrevisioner från 2004–2006 kräver individuella register eller minst egen dokumentkontroll."
+  ]
+}
