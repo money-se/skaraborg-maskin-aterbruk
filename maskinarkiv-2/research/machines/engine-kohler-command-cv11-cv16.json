@@ -49,7 +49,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nVerifierat i TP-2339-D p.1.4: LPG-oljerekommendation och bensinens minsta oktan samt maximala etanol- och MTBE-inblandning; kvarstår som gap i avvaktan på variantspecifik bränslesystemdokumentation."
     },
     "E": {
       "state": "gap",
@@ -1960,6 +1960,87 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "kohler-id-version-s-electric",
+      "statement": "Kohlers modellkod har suffix S för elstart.",
+      "variant": "CV11–16 samt CV460–465/CV490–495 enligt modellkodens identifikationsdiagram",
+      "locator": "Section 1 printed p.1.3, PDF index 4, Figure 1-2",
+      "topic": "B",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-id-version-t-recoil",
+      "statement": "Kohlers modellkod har suffix T för snörstart (Retractable Start).",
+      "variant": "CV11–16 samt CV460–465/CV490–495 enligt modellkodens identifikationsdiagram",
+      "locator": "Section 1 printed p.1.3, PDF index 4, Figure 1-2",
+      "topic": "B",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-id-version-st-dual",
+      "statement": "Kohlers modellkod har suffix ST för motor med både elstart och snörstart.",
+      "variant": "CV11–16 samt CV460–465/CV490–495 enligt modellkodens identifikationsdiagram",
+      "locator": "Section 1 printed p.1.3, PDF index 4, Figure 1-2",
+      "topic": "B",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-id-spec-codes-family",
+      "statement": "Kohlers specifikationsnummer använder motormodellkod 11 för CV11, 12 för CV12.5, 22 för CV13, 14 för CV14, 41 för CV15, 43 för CV16, 265 för CV460–465 samt 275 för CV490–495; de återstående siffrorna i Spec. No. anger variation av basmotorn.",
+      "variant": "Identifiering av Kohler Command CV-familjer i TP-2339-D",
+      "locator": "Section 1 printed p.1.3, PDF index 4, Figure 1-2, Spec. No.",
+      "topic": "A",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-id-serial-year-1991-2002",
+      "statement": "Enligt Kohlers identifieringstabell i TP-2339-D betyder de två första siffrorna i serienumret produktionsår: kod 21=1991, 22=1992 och så vidare till kod 32=2002. Kodtabellen gäller manualens identifieringssystem och ska inte extrapoleras till senare motorer.",
+      "variant": "Kohler Command-motorer med den serienummerkodning som visas i TP-2339-D",
+      "locator": "Section 1 printed p.1.3, PDF index 4, Figure 1-2, Serial No.",
+      "topic": "A",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-lpg-synthetic",
+      "statement": "Kohler rekommenderar syntetolja för gasol-/LPG-drivna motorer eftersom den minskar oxidation, förtjockning och avlagringar på insugsventilerna. Rekommendationen gäller LPG, inte en specifik bensinviskositet.",
+      "variant": "Kohler Command LPG-fueled versions in TP-2339-D",
+      "locator": "Section 1 printed p.1.4, PDF index 5, Oil Recommendations",
+      "topic": "D",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-mtbe-max15",
+      "statement": "Kohler TP-2339-D godkänner blyfri bensin blandad med högst 15 volymprocent MTBE; andra bensin-/eterblandningar uppges inte vara godkända i denna manual.",
+      "variant": "CV11–16/CV460–465/CV490–495, bränslegodkännande enligt TP-2339-D",
+      "locator": "Section 1 printed p.1.4, PDF index 5, Gasoline/Ether blends",
+      "topic": "D",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-min-octane-rm87",
+      "statement": "Kohler TP-2339-D anger minst 87 oktan med pumpens (R+M)/2-metod, alternativt minst 90 oktan i länder som använder Research-metoden (RON); metoderna får inte förväxlas.",
+      "variant": "CV11–16/CV460–465/CV490–495 enligt TP-2339-D, bensindrift",
+      "locator": "Section 1 printed p.1.4, PDF index 5, Fuel Type",
+      "topic": "D",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-ethanol-e10",
+      "statement": "Kohler TP-2339-D godkänner bensin med upp till 10 volymprocent etanol och 90 procent blyfri bensin; andra bensin-/alkoholblandningar är inte godkända i denna manual.",
+      "variant": "CV11–16/CV460–465/CV490–495, bensindrift enligt TP-2339-D",
+      "locator": "Section 1 printed p.1.4, PDF index 5, Gasoline/Alcohol blends",
+      "topic": "D",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -2000,6 +2081,7 @@
     "Kohler snörstart: komplett startapparat och spärrkloreparationssats kräver Spec. No. och originalreservdelskatalog för artikelnummer; fjädermomenten är säkerhetskritiska och full manualmetod ska följas.",
     "Topplocks- och ventilprocedurer i TP-2339-D gäller olika vipparmsutföranden. Kontrollera exakt topplock, Spec. No., bultlängd, distans, hydraullyftare och gällande servicebulletiner före montering.",
     "SPX/Kohler verktygsnummer i historisk TP-2339-D visar dåtida originaltestverktyg, inte automatiskt dagens lagerstatus, ersättningsnummer eller kompatibilitet med annan generations motorer.",
-    "Forskningsrevision 2026-10-22: områden D, E, L och M saknar ännu registrerade källbelagda claims. Status förblir needs_research; komplettera från originaldokument, inte genom att extrapolera andra ämnesområden."
+    "Forskningsrevision 2026-10-22: områden D, E, L och M saknar ännu registrerade källbelagda claims. Status förblir needs_research; komplettera från originaldokument, inte genom att extrapolera andra ämnesområden.",
+    "Identifieringskod 21–32 för årsmodell 1991–2002 och modell-/startkoder har verifierats för TP-2339-D. Koderna ska inte extrapoleras till senare serienummer eller andra Kohler-familjer."
   ]
 }
