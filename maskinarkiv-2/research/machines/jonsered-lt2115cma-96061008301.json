@@ -190,12 +190,101 @@
       "topic": "G",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-engine-sv470",
+      "statement": "Jonsereds originalkatalog anger Kohler Model SV470 som motor och hänvisar motorns reservdelar till motortillverkaren.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 3",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-muffler",
+      "statement": "Motoravsnittet listar ljuddämparen som 532 18 86-55.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 4",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-oil-drain",
+      "statement": "Motoravsnittet listar oljetömningsrör 532 14 84-56 och avtappningsplugg 532 18 16-54.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 14 och 38",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-fuel-tank",
+      "statement": "Motoravsnittet listar bränsletank 532 18 55-34 och tanklock 532 19 77-25.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 31–32",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-front-tire",
+      "statement": "Hjulavsnittet listar framdäck 532 10 62-22 i storlek 15 x 6.0-6.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 4 (PDF-index 3), WHEELS & TIRES position 3",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-rear-tire",
+      "statement": "Hjulavsnittet listar bakdäck 532 12 20-82 i storlek 20 x 10-8.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 4 (PDF-index 3), WHEELS & TIRES position 9",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-steering-assembly",
+      "statement": "Styravsnittet listar Steering Asm. 532 17 51-46 på position 71.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 12 (PDF-index 11), STEERING ASSEMBLY position 71",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-operator-manual",
+      "statement": "Dekalavsnittets listade europeiska förarmanual har artikelnummer 532 19 82-18.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 4 (PDF-index 3), DECALS, post Manual Operator's (Euro)",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
-    "Motorfabrikat, motorns exakta Model/Type/Code, oljekapacitet och serviceintervall kräver separat motormanual och identitetskontroll.",
+    "Kohler SV470 har nu identifierats enligt ENGINE position 3; individuell Kohler Specification och serienummer, oljekapacitet och exakt maskinbunden service återstår.",
     "El-, rem- och knivnummer ska kontrolleras mot enskilt produktnummer och vid behov serienummer. Ingen generell passform inom LT2115-familjen är fastställd.",
     "Förarmanual, reservdelsersättningar, fullständigt elschema och underhållsschema återstår att primärkällgranska.",
-    "Original-PDF:ernas bildsidor kunde inte kontrolleras med webbläsarens skärmbildsverktyg. Angivna positioner är verifierade i PDF:s extraherade text och kräver visuell dubbelkontroll innan publicering."
+    "Original-PDF:ernas bildsidor kunde inte kontrolleras med webbläsarens skärmbildsverktyg. Angivna positioner är verifierade i PDF:s extraherade text och kräver visuell dubbelkontroll innan publicering.",
+    "En äldre LT2115CMA-katalog, IPL 544 02 35-01, anger 96061001000 / 954 13 02-24. Detta är en separat revision och måste jämföras innan passform mellan CMA-versioner antas."
   ]
 }
