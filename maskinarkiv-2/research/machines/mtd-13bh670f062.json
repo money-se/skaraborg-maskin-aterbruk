@@ -274,7 +274,7 @@
     },
     "F": {
       "state": "gap",
-      "note": "MTD:s 2000-reservdelslista anger bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705. Separata delar är katalogbelagda men exakt serienummerpassform och funktionstest återstår."
+      "note": "MTD:s 2000-reservdelslista anger bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705. Separata delar är katalogbelagda men exakt serienummerpassform och funktionstest återstår. Originalritning för transaxel 618-0163B varnar för släpande broms; exakt modellbundet justermått återstår."
     },
     "G": {
       "state": "gap",
@@ -1223,6 +1223,15 @@
       "grade": "B",
       "sourceId": "mtd-technical-handbook-77010579",
       "locator": "Section 6, PDF text printed page 6-15, passage '14 oz. of Shell Durina #O grease is used in this transaxle' versus section 6-1.3 '10 ounces'"
+    },
+    {
+      "id": "mtd-brake-6180163b-no-drag",
+      "topic": "F",
+      "statement": "På MTD:s originalritning för transaxel 618-0163B anges att bromsen inte ska dras åt för hårt eller ligga an. Ritningen ger inget fastställt justermått för maskin 13BH670F062.",
+      "variant": "MTD 618-0163B, familjeunderlag utan serienummerkoppling",
+      "grade": "B",
+      "sourceId": "white-6180163b-manual-visual",
+      "locator": "PDF-sida 48, bromsnotis vid ritningens nedre vänstra del"
     }
   ],
   "gaps": [
