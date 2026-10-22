@@ -322,6 +322,72 @@
       "topic": "D",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-battery",
+      "statement": "Elsystemets reservdelslista anger batteri 532 14 49-27.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 1",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-electrical-switch-16",
+      "statement": "Elsystemets reservdelslista anger brytare 532 17 61-38 (INTERRUPTEUR).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 16",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-electrical-harness",
+      "statement": "Elsystemets reservdelslista anger kabelstam 532 18 37-59 (HARNAIS).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 21",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-electrical-fuse",
+      "statement": "Elsystemets reservdelslista anger säkring 532 17 51-58 (FUSIBLE). Säkringens amperetal framgår inte av denna reservdelsrad.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 26",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-ignition-lock",
+      "statement": "Elsystemets reservdelslista anger tändningslås 532 17 55-66 (SERRURE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 30",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "F",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-steering-box",
+      "statement": "Styrningslistan anger styrväxel 532 17 51-46 (BOITIER DE DIRECTION).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 11, DIRECTION, position 71",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -329,6 +395,7 @@
     "Samma reservdelsnummer på olika revisioner kan indikera gemensam katalogreferens men innebär inte att hela aggregatet är utbytbart.",
     "Aggregatets reservdelslista på PDF-sida 5 är bildgranskad; övriga sidor, sprängskisser och maskinens individuella komponentnummer behöver ytterligare visuell kontroll.",
     "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger.",
-    "2005-05-katalogens ENTRAINEMENT-sida 15 saknar utpekat fabrikat/modell för transaxeln; kräv separat transmissionens märkskylt eller originalsprängskiss för säker identifiering."
+    "2005-05-katalogens ENTRAINEMENT-sida 15 saknar utpekat fabrikat/modell för transaxeln; kräv separat transmissionens märkskylt eller originalsprängskiss för säker identifiering.",
+    "Elsystemets och styrningens nya katalogpositioner är textgranskade men behöver visuell sidkontroll. Säkringsvärde, kopplingsschema och säkerhetsbrytarnas funktion ska inte utläsas enbart ur reservdelsnamnen."
   ]
 }
