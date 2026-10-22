@@ -200,6 +200,27 @@
       "title": "Stokker MTD 618-0166D transmission replacement catalog",
       "document": "Supplier listing: assembly 618-0166D interchange with 618-0077, 618-0166A, 618-0166B",
       "url": "https://www.stokker.com/en/spare-parts/618-0166D%26MTD/mtd-transmission"
+    },
+    {
+      "id": "partstree-6180163-9180163d",
+      "tier": 2,
+      "title": "PartsTree MTD 618-0163 transaxle supersession",
+      "document": "Transaxle Assembly, Single Speed; superseded to MTD 918-0163D",
+      "url": "https://www.partstree.com/parts/mtd-618-0163/"
+    },
+    {
+      "id": "powermowersales-6180163-chain",
+      "tier": 2,
+      "title": "Power Mower Sales 618-0163 parts cross-reference",
+      "document": "Single-speed transmission; catalog additional part numbers 618-0073, 618-0163, 618-0163A/B/BP/D, 918-0163B/D",
+      "url": "https://powermowersales.com/mtd-618-0163"
+    },
+    {
+      "id": "appliancepartspros-9180163d-chain",
+      "tier": 2,
+      "title": "AppliancePartsPros MTD 918-0163D OEM cross-reference",
+      "document": "Manufacturer's Part Number 918-0163D, cross-reference 618-0073, 618-0163, 618-0163A/B/BP/D and 918-0163B",
+      "url": "https://www.appliancepartspros.com/mtd-trans-asm-single-918-0163d-ap6139596.html"
     }
   ],
   "topics": {
@@ -245,7 +266,7 @@
     },
     "K": {
       "state": "gap",
-      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår. Viktig nummeravvikelse: MTD-original 770-10116D anger 717-1362/717-1363, 711-1003 och 721-0338 medan återförsäljarindex använder 917-1362/917-1363, 911-1003 och 921-0338. Ingen ersättningskedja styrkt. Uppföljande källkontroll bekräftar artikelnummerersättningar 717-1362→917-1362, 717-1363→917-1363, 711-1003→911-1003 och MTD:s egen 721-0338→921-0338. Detta löser nummerseriernas ersättningsrelation men inte maskinspecifik kompatibilitet. För jämförelsemodellen B/130 anger en separat leverantörskatalog att komplett transaxel 618-0166D ersätter 618-0077/618-0166A/618-0166B. Denna kedja får inte användas för 13BH670F062 utan OEM-modellbevis."
+      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår. Viktig nummeravvikelse: MTD-original 770-10116D anger 717-1362/717-1363, 711-1003 och 721-0338 medan återförsäljarindex använder 917-1362/917-1363, 911-1003 och 921-0338. Ingen ersättningskedja styrkt. Uppföljande källkontroll bekräftar artikelnummerersättningar 717-1362→917-1362, 717-1363→917-1363, 711-1003→911-1003 och MTD:s egen 721-0338→921-0338. Detta löser nummerseriernas ersättningsrelation men inte maskinspecifik kompatibilitet. För jämförelsemodellen B/130 anger en separat leverantörskatalog att komplett transaxel 618-0166D ersätter 618-0077/618-0166A/618-0166B. Denna kedja får inte användas för 13BH670F062 utan OEM-modellbevis. Oberoende kataloger styrker att 618-0163, 618-0163A/B/BP/D, 618-0073 och 918-0163B förs till 918-0163D som komplett enkelväxlad transaxel. Detta stärker nummeridentiteten för det modellspecifika 2000-fyndet, men inte fysisk passform per serienummer."
     },
     "L": {
       "state": "gap",
@@ -1057,6 +1078,33 @@
       "sourceId": "ereplacementparts-2000-mtd",
       "locator": "Transmission parts list, 'Differential Asm', Part Number 918-04091A, HTML lines 4473–4476",
       "topic": "D"
+    },
+    {
+      "id": "mtd-6180163-to-9180163d",
+      "statement": "PartsTree anger att MTD 618-0163, en enkelväxlad transaxel (Transaxle Assembly, Single Speed), har ersatts av MTD 918-0163D. Detta dokumenterar en ersättningsrelation för komplett reservdelsenhet, inte säkert passform för varje fysisk 13BH670F062.",
+      "sourceId": "partstree-6180163-9180163d",
+      "locator": "Title 'MTD 618-0163 Transaxle Assembly, Single Speed'; 'Superseded to MTD 918-0163D'",
+      "variant": "MTD komplett enkelväxlad transaxel 918-0163D; kopplad till 13BH670F062/2000 genom separat modellspecifikt katalogfynd, men serienummerspann och extern tillverkare oklara",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-6180163-family-numbers",
+      "statement": "Power Mower Sales katalog för MTD 618-0163 visar artikelnummergruppen 618-0073, 618-0163, 618-0163A, 618-0163B, 618-0163BP, 618-0163D, 918-0163B och 918-0163D, samt att 618-0163 ersatts av 918-0163D. Gruppen är en katalogiserad nummerrelation och säger inte vilken intern transmissionstillverkare som producerade växellådan.",
+      "sourceId": "powermowersales-6180163-chain",
+      "locator": "Information: '618-0163 Superseded to 918-0163D'; Additional Part Numbers section",
+      "variant": "MTD komplett enkelväxlad transaxel 918-0163D; kopplad till 13BH670F062/2000 genom separat modellspecifikt katalogfynd, men serienummerspann och extern tillverkare oklara",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-9180163d-crosssource-confirmation",
+      "statement": "AppliancePartsPros verifierar oberoende samma MTD-komplettnummer 918-0163D och ersättningsreferenserna 618-0073, 618-0163, 618-0163A/B/BP/D och 918-0163B. Denna fristående återförsäljarkälla stödjer nummerersättningen men inte en fabriksgaranterad års-/serienummerpassning.",
+      "sourceId": "appliancepartspros-9180163d-chain",
+      "locator": "Product Details: Manufacturer's Part Number 918-0163D; Cross Reference Information",
+      "variant": "MTD komplett enkelväxlad transaxel 918-0163D; kopplad till 13BH670F062/2000 genom separat modellspecifikt katalogfynd, men serienummerspann och extern tillverkare oklara",
+      "grade": "B",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -1092,6 +1140,7 @@
     "Fastställ komplett växellådsenhet/transaxel för 13BH670F062 via tillverkarens positionsnummer på transaxelritning eller märkning på faktiskt exemplar; jämförelsemodellen B/130 med 618-0166D ger inte tillräckligt identitetsbevis.",
     "Kontrollera om komplett växellådsenhet 618-0166D eller dess ersättningskedja överhuvudtaget är listad i en tillverkarspecifik källa för 13BH670F062, inte enbart jämförelsemodeller.",
     "Verifiera MTD original-IPLs och serienummervillkor för komplett transmissionsenhet 918-0163D för 13BH670F062/2000, inklusive eventuell OEM supersession och växellådans faktiska tillverkare.",
-    "Klargör varför eReplacementParts listar differential 918-04091A samtidigt som Sears och MTD-familjekatalogen listar 618-0162. Fastställ om de representerar olika revisioner eller ersättningskedja."
+    "Klargör varför eReplacementParts listar differential 918-04091A samtidigt som Sears och MTD-familjekatalogen listar 618-0162. Fastställ om de representerar olika revisioner eller ersättningskedja.",
+    "Sök MTD:s egen partsöksida eller original-IPLs som visar att komplett 918-0163D gäller specifikt års-/serienummervarianten 13BH670F062; fastställ även växellådans externa fabrikat."
   ]
 }
