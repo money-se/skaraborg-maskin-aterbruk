@@ -248,6 +248,39 @@
       "topic": "A",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-peerless",
+      "statement": "Original IPL 544 46 78-01 för LT2115CM 96061008101 visar Peerless 206-546 på DRIVE position 1 och hänvisar interna delar till transmissionstillverkaren.",
+      "variant": "LT2115CM 96061008101 / 2006-05",
+      "locator": "IPL 544 46 78-01, DRIVE pos.1",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-belt-57",
+      "statement": "Original IPL för 96061008101 anger 532 16 56-31 som markdrivningsrem, skild från aggregatrem 532 40 20-08.",
+      "variant": "LT2115CM 96061008101 / 2006-05",
+      "locator": "IPL 544 46 78-01, DRIVE pos.57; cover belt panel",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-shift-8",
+      "statement": "Original IPL för 96061008101 visar växelreglagestång 532 19 27-06, DRIVE position 8. Äldre 2004-01-version har ett annat reglagenummer.",
+      "variant": "LT2115CM 96061008101 / 2006-05",
+      "locator": "IPL 544 46 78-01, DRIVE pos.8",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -256,6 +289,7 @@
     "Ingen generell reservdelspassform mellan LT2115, LT2115A, LT2115CM och LT2115CMA får antas.",
     "PDF-skärmbildskontrollen misslyckades; positioner och katalogtext bör bildverifieras före artikelpublicering.",
     "Motorns individuella Kohler Specification och Serial Number saknas; manualens generella SV470-intervall behöver stämmas av med den installerade motorns utförande.",
-    "Luftfilterschemats 25- respektive 100-timmarsrader har bevarats enligt originalmanualen. Den individuella SV470-motorns filterutförande ska fastställas före praktiskt servicelöfte."
+    "Luftfilterschemats 25- respektive 100-timmarsrader har bevarats enligt originalmanualen. Den individuella SV470-motorns filterutförande ska fastställas före praktiskt servicelöfte.",
+    "Originalkataloger från 2004-01 och 2006-05 anger båda Peerless 206-546 samt markdrivningsrem 532165631 för LT2115CM, men åtminstone shift rod pos 8 är olika (2004: 532165619; 2006: 532192706). Intern passform och senare ersättningslistor återstår."
   ]
 }
