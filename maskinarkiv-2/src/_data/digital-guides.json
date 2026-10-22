@@ -1,14 +1,14 @@
 {
   "collectionUrl": "https://skaraborgmerch.se/collections/digitala-guider",
-  "lastVerified": "2026-10-21",
-  "note": "Snapshot från ansluten Shopify. Kontrollera pris, status och omslag igen vid ändringar i butiken.",
+  "lastVerified": "2026-10-22",
+  "note": "Produktbeskrivningar och aktiva priser kontrollerade i Shopify 2026-10-22. Full PDF genomläst för startguiden; källfil för ordboken läst. Övriga produktbeskrivningar är inte likvärdiga med slutlig PDF-verifiering.",
   "products": {
     "start": {
       "title": "Gräsklipparen startar inte – praktisk felsökningsguide",
       "priceSek": 99,
       "url": "https://skaraborgmerch.se/products/grasklipparen-startar-inte",
       "image": "https://cdn.shopify.com/s/files/1/1066/5947/9886/files/ChatGPTImage20aug.202622_08_54.png?v=1787256583",
-      "description": "Praktisk PDF-guide för att förstå vanliga startproblem.",
+      "description": "Stegvis felsökning av startproblem: batteri, bränsle, choke, tändning och startmotor. Med symtomtabell och felsökningslogg.",
       "active": true
     },
     "verkstad": {
@@ -16,7 +16,7 @@
       "priceSek": 99,
       "url": "https://skaraborgmerch.se/products/verkstadshandboken-akgrasklippare",
       "image": "https://cdn.shopify.com/s/files/1/1066/5947/9886/files/ChatGPTImage20aug.202622_00_48.png?v=1787256059",
-      "description": "Fördjupning om motor, drivning och andra vanliga verkstadsproblem.",
+      "description": "Bredare verkstadshandbok om motor, el, hydrostat, remdrift och klippaggregat. Även verktyg, mätning och verkstadsordlista ingår.",
       "active": true
     },
     "ordbok": {
@@ -24,7 +24,7 @@
       "priceSek": 49,
       "url": "https://skaraborgmerch.se/products/verkstadsordbok-maskiner-motorer",
       "image": "https://cdn.shopify.com/s/files/1/1066/5947/9886/files/ChatGPTImage21aug.202620_26_54.png?v=1787336827",
-      "description": "En förklaring av ord och uttryck som förekommer när man skruvar.",
+      "description": "Slå upp maskindelar och verkstadsord A–Ö, svenska och engelska reservdelsnamn, förkortningar och vanliga söktermer.",
       "active": true
     },
     "kopguide": {
@@ -32,7 +32,7 @@
       "priceSek": 99,
       "url": "https://skaraborgmerch.se/products/digital-product-kopa-begagnad-akgrasklippare-guide",
       "image": "https://cdn.shopify.com/s/files/1/1066/5947/9886/files/ChatGPT_Image_16_aug._2026_21_22_47.png?v=1786908177",
-      "description": "Checklista inför köp av begagnad åkgräsklippare.",
+      "description": "34-sidig köpguide med kontroller av motor, hydrostat och klippaggregat samt separat tvåsidig checklista inför visningen.",
       "active": true
     }
   }
