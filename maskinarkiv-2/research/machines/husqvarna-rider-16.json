@@ -256,6 +256,20 @@
       "title": "Husqvarna Rider Pro 18 AWD 965095001 2007-03 original IPL",
       "document": "Official illustrated parts list, 2007-03, Combi 103/112/94 groups",
       "url": "https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-pr18awd.pdf"
+    },
+    {
+      "id": "husqvarna-rider13bio-2002-02-original-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 13 Bio 2002-02 original illustrated parts catalogue",
+      "document": "RIDER 13 BIO, 2002-02, Swedish parts list, 90 cm deck assembly section",
+      "url": "https://www.gplshop.co.uk/dokument/bibliotek/Image/Akgrasklippare/R13-Bio/RIDER-13-BIO%2C-2002-02.pdf"
+    },
+    {
+      "id": "rider16-wolfswinkel-2002-02-bio90-assembly",
+      "tier": 2,
+      "title": "Wolfswinkel – Rider 16 2002-02 BioClip 90 catalog",
+      "document": "Rider 16 2002-02 90 cm deck group, current seller crossreferences",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/husqvarna/aufsitzrasenm%C3%A4her/reiter/benzin/ansonsten/rider-16/reiter-16-2002-02"
     }
   ],
   "topics": {
@@ -1662,6 +1676,87 @@
       "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-complete-shell-separate",
+      "statement": "I Rider 13 Bio original-IPLn 2002-02 skiljs komplett BioClip 90-aggregat 506970907 från enbart klippkåpa 506977201. Komponentnummer 506977201 ska inte beskrivas som komplett aggregat. Husqvarnas Genuine Parts-katalog ger separat modellkorsreferens för 506970907 till Rider 16 och 16 H.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "RIDER 13 BIO 2002-02 > 90 cm deck, 506970907 KLIPPAGGREGAT BIO90, 506977201 KLIPPKÅPA",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-spindle-middle",
+      "statement": "Rider 13 Bio original-IPL 2002-02 anger i sin 90 cm-grupp mittre knivhus 535410601 och tillhörande axel 535410701. Detta är historiska komponentpositioner, inte automatiskt godkänd passform på Rider 16.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "90 cm grupp, 535410601 KNIVHUS KPL, 535410701 AXEL",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-spindle-outer",
+      "statement": "Rider 13 Bio original-IPL 2002-02 anger yttre knivhus 535410602 och tillhörande axel 535410702 i 90 cm-gruppen. Gruppen är inte ett bevis att äldre Rider 16 H hade samma knivhusrevision.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "90 cm grupp, 535410602 KNIVHUS KPL, 535410702 AXEL",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-blade-friction-parts",
+      "statement": "Rider 13 Bio original-IPL 2002-02 listar 90 cm kniv 531007586 tillsammans med 535411001 (kopp), 535410801 (adapter) och 535410901 (tapp). Delarnas placering i samma grupp styrker katalogsamband men inte modern reservdelsersättning.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "90 cm grupp, 531007586 KNIV; 535411001 KOPP; 535410801 ADAPTER; 535410901 TAPP",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-belt-original",
+      "statement": "Rider 13 Bio original-IPL 2002-02 listar originalrem 531007526 i 90 cm-gruppen för komplett BioClip 90-aggregat 506970907. Detta bekräftar historiskt nummer och gruppkoppling, inte en officiell supersession till 589531501.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "90 cm grupp, 531007526 REM; 506970907 KLIPPAGGREGAT",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-pulleys",
+      "statement": "Rider 13 Bio original-IPL 2002-02 listar remskivor 506977401 och 535413501 i BioClip 90-gruppen samt excenter 506960401 för remsystemet.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "90 cm grupp, 506977401 REMSKIVA, 535413501 REMSKIVA, 506960401 ECCENTRIC",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-covers",
+      "statement": "Rider 13 Bio original-IPL 2002-02 anger remkåpa 506977502 och dammskydd 506518701 i BioClip 90-gruppen; delarna är separata från klippkåpan 506977201.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "90 cm grupp, 506977502 REMKÅPA, 506518701 DAMMSKYDD, 506977201 KLIPPKÅPA",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch34-bio90-2002-fastening-kit",
+      "statement": "Rider 13 Bio original-IPL 2002-02 listar skruv 506675402 och kullager 738220419 som egna 90 cm-aggregatdelar. Deras förekomst är inte i sig ett universellt reservdels- eller vridmomentbesked för Rider 16.",
+      "variant": "Jämförelse Husqvarna Rider 13 Bio 2002-02 med OEM-korsreferens till Rider 16; historiskt aggregat, PNC/serienummer ej verifierat",
+      "locator": "90 cm grupp, 506675402 SKRUV EHHFM, 738220419 KULLAGER",
+      "sourceId": "husqvarna-rider13bio-2002-02-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch34-bio90-rider16-2002-dealer-assembly-crosscheck",
+      "statement": "Wolfswinkels reservdelsvy för Rider 16 2002-02 listar komplett BioClip 90 506970907 i 90 cm-gruppen jämte kniv 531007586 och aktuell rem 589531501. Det är en oberoende sekundär korsreferens; den senare remmen kan vara en uppdaterad katalogartikel.",
+      "variant": "Rider 16 återförsäljarindex 2002-02, PNC okänt",
+      "locator": "Wolfswinkel Rider 16 2002-02 > 90 cm mähdeck, positionslista 506970907 / 531007586 / 589531501",
+      "sourceId": "rider16-wolfswinkel-2002-02-bio90-assembly",
+      "grade": "B",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -1735,6 +1830,8 @@
     "Wolfswinkels 965078401-referenser listar 953524701 men inte äldre Combi 103 953523701. Hitta Husqvarna-parts bulletin eller PNC-bunden ersättningskedja innan relation mellan 2003 och 2006 påstås.",
     "Komplett BioClip 90 506970907 listas av Husqvarna för Rider 16 och Rider 16 H. Fastställ PNC/serienummerspann för specifik fysisk maskin och utred varför äldre knivsatslistor är olika.",
     "Original IPL Rider Pro 18 AWD 2007-03 listar 965078401 och 965078601 i parallella 103 cm-avsnitt med olika knivar. Utred revisions-/kompatibilitetsinformation innan någon av dem kallas generell ersättare.",
-    "OEM Genuine Parts PDF-katalog är för stor för webbens direktöppning, och sprängskiss-screenshot för IPL gav cachefel. Artikelnr har kontrollerats i sökindexerat katalogtextlager och i 2007-IPL:s sidnumrerade textlager; visuell kontroll återstår."
+    "OEM Genuine Parts PDF-katalog är för stor för webbens direktöppning, och sprängskiss-screenshot för IPL gav cachefel. Artikelnr har kontrollerats i sökindexerat katalogtextlager och i 2007-IPL:s sidnumrerade textlager; visuell kontroll återstår.",
+    "OEM-katalog Rider 13 Bio 2002-02 separerar kompletta aggregat 506970907 från enbart skal 506977201. Originalfiguren behöver visuell kontroll innan positionsantal eller monteringsanvisning publiceras.",
+    "Rider 16 2002-02 återförsäljarvy listar 589531501 i historisk 90 cm-grupp där originalkatalogen 2002-02 för Rider 13 Bio anger 531007526. Detta är förenligt med möjlig ersättning men den direkta tillverkarens supersession saknas."
   ]
 }
