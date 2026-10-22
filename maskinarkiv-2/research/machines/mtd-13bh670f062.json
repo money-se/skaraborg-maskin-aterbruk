@@ -396,6 +396,13 @@
       "title": "Sears PartsDirect Pivot Bar 683-0128A replacement",
       "document": "Manufacturer substitution 683-0128A to 683-0128B-0637",
       "url": "https://www.searspartsdirect.com/product/4eoa4dmkvq-0071-247/id-683-0128a"
+    },
+    {
+      "id": "briggs-28t707-1154e1-specific-ipl",
+      "tier": 2,
+      "title": "Briggs & Stratton Parts Manual 28T707-1154-E1",
+      "document": "Original manufacturer parts manual, hosted/transcribed by Manualsnet, dated 2023-11-03; 26 pages with component and code-date conditions",
+      "url": "https://manualsnet.com/briggs-stratton/28t707-1154-e1"
     }
   ],
   "topics": {
@@ -409,7 +416,7 @@
     },
     "C": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter.\nFollow-up research: MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter. Originalkorsreferensens sökindex för 2000 upprepar B&S 28T707-1154-E1 som 2001 års källa; full original-PDF gav 403, därför B och ingen generalisering till fysisk maskin. PartsTrees 2001-listning har eldiagram för flera motorfamiljer; dessa är familje-/portaldokument och styrker inte att Kohler eller Tecumseh monterades i den specifika MTD-kundmodellen. Motorbeteckningen 28T707-1154-E1 är oförändrad i MTD 2000/2001 XREF trots skillnader i övriga konfigurationen."
+      "note": "MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter.\nFollow-up research: MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter. Originalkorsreferensens sökindex för 2000 upprepar B&S 28T707-1154-E1 som 2001 års källa; full original-PDF gav 403, därför B och ingen generalisering till fysisk maskin. PartsTrees 2001-listning har eldiagram för flera motorfamiljer; dessa är familje-/portaldokument och styrker inte att Kohler eller Tecumseh monterades i den specifika MTD-kundmodellen. Motorbeteckningen 28T707-1154-E1 är oförändrad i MTD 2000/2001 XREF trots skillnader i övriga konfigurationen. Exakt 28T707-1154-E1-IPL ger filter 496894S/272403S, tändstift 802592S, bränslefilter 298090S, förgasar- och startmotoralternativ samt kolv-brytpunkt vid motorcode 01060700. Detta är motor-IPL, inte MTD-chassits fabriksrevisionsbevis."
     },
     "D": {
       "state": "gap",
@@ -2072,6 +2079,69 @@
       "variant": "MTD Transmatic 660–679 770-10115A familjemanual eller exakta Lowes 062 korsreferenser; faktisk revision kräver märkplåt",
       "grade": "B",
       "sourceId": "mtd-2000-xref-independent-mirror"
+    },
+    {
+      "id": "mtd-exact-briggs-28t707-air-filter-and-precleaner",
+      "topic": "C",
+      "statement": "Briggs & Strattons reservdelskatalog för exakt motorn 28T707-1154-E1 listar luftfilterinsats 496894S och förfilter 272403S. Detta är motorintern katalogpassform, inte bevis för att alla bevarade maskiner fortfarande har originalmotorn.",
+      "locator": "Page 4, Air Cleaner / Controls / Springs / Intake; ref 445 FILTER-A/C CARTRIDGE 496894S, ref 967 FILTER-PRE CLEANER 272403S",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
+    },
+    {
+      "id": "mtd-exact-briggs-28t707-sparkplug",
+      "topic": "C",
+      "statement": "Samma motorkatalog anger tändstift 802592S i referens 337 och tändstiftsanslutning 493880S i referens 851. Specifikationen för elektrodgap och servicemoment har inte verifierats i denna reservdelslista.",
+      "locator": "Page 16, Cylinder/Piston/Crankshaft/Sump, ref 337 PLUG Spark 802592S; page 6 ref 851 TERMINAL-SPARK PLUG 493880S",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
+    },
+    {
+      "id": "mtd-exact-briggs-28t707-fuel-filter",
+      "topic": "C",
+      "statement": "Briggs-katalogen för 28T707-1154-E1 anger bränslefilter 298090S som referens 240. Detta är delnummer för motorvarianten i listan och ger inte bekräftat byteintervall eller anslutningsmått.",
+      "locator": "Page 12, Carburetors/Gaskets, ref 240 FILTER Fuel 298090S",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
+    },
+    {
+      "id": "mtd-exact-briggs-28t707-carburetor-variants",
+      "topic": "C",
+      "statement": "Exakt Briggs 28T707-1154-E1-lista har flera justersatser för olika Walbro/LMT-förgasarutföranden (bland annat ref 94 498030 respektive 94A 494383). Det visar att modell/type-beteckningen inte ensam avgör varje förgasardetalj och att förgasarens egen identifiering behövs.",
+      "locator": "Page 10, Carburetors/Gaskets, refs 94/94A, different LMT number group conditions",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
+    },
+    {
+      "id": "mtd-exact-briggs-28t707-piston-codedate-change",
+      "topic": "C",
+      "statement": "Briggs 28T707-1154-E1-reservdelskatalog anger olika standardkolvar före respektive efter motorkoddatum 01060700: 499284 före och 696397 efter; flera kolvringsalternativ följer samma brytpunkt. Detta är en dokumenterad koddatumsgräns för motordelar, inte ändringsbevis för traktorchassit 13BH670F062.",
+      "locator": "Page 14, Cylinder/Piston..., ref 25 standard piston 499284 before Code Date 01060700 and 696397 after 01060600; ref 26 ring sets",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
+    },
+    {
+      "id": "mtd-exact-briggs-28t707-starter-ringgear-options",
+      "topic": "C",
+      "statement": "Briggs-katalogen för exakt motortyp 28T707-1154-E1 listar flera olika startmotorer med villkor för ringdrev i stål, aluminium eller plast samt startmotorhusets längd. Man får därför inte välja startmotor enbart från 13BH670F062-modellnumret utan att kontrollera svänghjulets ringdrev.",
+      "locator": "Page 20, Electric Starters ref 309: 499521/693054 aluminum, 693551 steel, 497401/497595 plastic ring gear",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
+    },
+    {
+      "id": "mtd-exact-briggs-28t707-emissions-code-variants",
+      "topic": "C",
+      "statement": "Briggs motorkatalog listar flera emissionsetiketter med tillverkningskodvillkor, bland annat 499362 före 99010400, 694325 under perioden efter 99010300 och före 99100100. Årtalsgränser i motorns egen kodning stödjer behovet av att särskilja motorcode från traktorns modellår.",
+      "locator": "Pages 6–8, Blower Housing/Magneto, ref 1036 emissions label code date boundaries",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
     }
   ],
   "gaps": [
@@ -2121,6 +2191,7 @@
     "Verifiera via chassifästen och tillverkarens supersessionskedja om de europeiska Deck F-aggregaten 683-0119A/813-04244637 kan ersätta Lowes aggregat 753-0694-0637 eller 983-0129A-0637; enskilda gemensamma komponenter räcker inte.",
     "Förklara med OEM-revisionsmeddelande, serienummerintervall eller korrigerad originaltabell varför 2000 XREF anger G/42 för 13BH670F062 trots F=38 enligt MTD:s modellkod och 2001 XREF. Spåra samtidigt de skilda 2000/2001-dekalerna, hjulen och sätena.",
     "Historisk MTD-modellkodguide med 1995-exempel bekräftar äldre engineering/lot-position; återstår att dokumentera en faktisk komplett typskylt och eventuell revisionsförändring för 13BH670F062 runt 2000–2001.",
-    "För 13BH670F062: avgör vilken reservdelssidas ritningsuppsättning som är modellårsspecifik och vilken som är familjeövergripande. G- och H-träffar i odaterad Sears/AppliancePartsPros-portal får inte ses som fabriksutrustningsbevis."
+    "För 13BH670F062: avgör vilken reservdelssidas ritningsuppsättning som är modellårsspecifik och vilken som är familjeövergripande. G- och H-träffar i odaterad Sears/AppliancePartsPros-portal får inte ses som fabriksutrustningsbevis.",
+    "Verifiera faktiskt motormodell/type/code på ett 13BH670F062-exemplar och original-/ersättningsförgasare samt startmotorns ringdrev innan motorreservdelar rekommenderas; Briggs 28T707-1154-E1 har koddatums- och utförandespecifika delar."
   ]
 }
