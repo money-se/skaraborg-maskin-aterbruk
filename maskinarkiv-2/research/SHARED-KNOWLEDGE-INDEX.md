@@ -11,8 +11,8 @@
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
-| Husqvarna Rider 11 | Gemensam Husqvarna-manual för Rider 11/13 med Bio-versioner | https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020 | Eget produktnummer, kapiteltäckning och claims |
-| Husqvarna Rider 11 Bio | Samma originalmanual | https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020 | Egen version och komponentkontroll |
+| Husqvarna Rider 11 | Gemensam Husqvarna-manual för Rider 11/13 med Bio-versioner | [Rider 13-registret](machines/husqvarna-rider-13.json) (claim `rider13-2003-shared-owner-manual`) | Eget produktnummer och variantbundet innehåll |
+| Husqvarna Rider 11 Bio | Samma originalmanual | [Rider 13-registret](machines/husqvarna-rider-13.json) (claim `rider13-2003-shared-owner-manual`) | Egen version och komponentkontroll |
 | Husqvarna Rider 16 | Verkstadshandbok som omfattar flera Rider-familjer | https://www.manualslib.com/manual/716829/Husqvarna-Rider-13.html | Exakt utförande och vilka avsnitt som avser det |
 | K46 i Rider 13 Bio | Versionsspecifik reservdelsritning | [Rider 13-registret](machines/husqvarna-rider-13.json) (claim `bio-2003-k46`) | Inga slutsatser om andra maskiners K46-varianter utan egna belägg |
 
