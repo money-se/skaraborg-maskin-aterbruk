@@ -235,6 +235,13 @@
       "title": "AppliancePartsPros 13BH670F062 2000 diagrams",
       "document": "Model-specific diagram index shows Deck Assembly F",
       "url": "https://www.appliancepartspros.com/parts-for-yard-machines-13bh670f062-2000.html"
+    },
+    {
+      "id": "mtd-gfp-7370300a-supersession",
+      "tier": 1,
+      "title": "Genuine Factory Parts 737-0300A Benalene Grease 920",
+      "document": "Manufacturer parts page, explicit replaces 737-0148; 8 oz tube",
+      "url": "https://www.genuinefactoryparts.com/en_US/oil-lubricants-and-fuel-additives/benalene-grease-920-8-oz/737-0300A.html"
     }
   ],
   "topics": {
@@ -280,7 +287,7 @@
     },
     "K": {
       "state": "gap",
-      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår. Viktig nummeravvikelse: MTD-original 770-10116D anger 717-1362/717-1363, 711-1003 och 721-0338 medan återförsäljarindex använder 917-1362/917-1363, 911-1003 och 921-0338. Ingen ersättningskedja styrkt. Uppföljande källkontroll bekräftar artikelnummerersättningar 717-1362→917-1362, 717-1363→917-1363, 711-1003→911-1003 och MTD:s egen 721-0338→921-0338. Detta löser nummerseriernas ersättningsrelation men inte maskinspecifik kompatibilitet. För jämförelsemodellen B/130 anger en separat leverantörskatalog att komplett transaxel 618-0166D ersätter 618-0077/618-0166A/618-0166B. Denna kedja får inte användas för 13BH670F062 utan OEM-modellbevis. Oberoende kataloger styrker att 618-0163, 618-0163A/B/BP/D, 618-0073 och 918-0163B förs till 918-0163D som komplett enkelväxlad transaxel. Detta stärker nummeridentiteten för det modellspecifika 2000-fyndet, men inte fysisk passform per serienummer. 1991 års handboksrevision skiljer kilad respektive splinesad ingående axel och varnar för utbytbarhet utan rätt remskiva."
+      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår. Viktig nummeravvikelse: MTD-original 770-10116D anger 717-1362/717-1363, 711-1003 och 721-0338 medan återförsäljarindex använder 917-1362/917-1363, 911-1003 och 921-0338. Ingen ersättningskedja styrkt. Uppföljande källkontroll bekräftar artikelnummerersättningar 717-1362→917-1362, 717-1363→917-1363, 711-1003→911-1003 och MTD:s egen 721-0338→921-0338. Detta löser nummerseriernas ersättningsrelation men inte maskinspecifik kompatibilitet. För jämförelsemodellen B/130 anger en separat leverantörskatalog att komplett transaxel 618-0166D ersätter 618-0077/618-0166A/618-0166B. Denna kedja får inte användas för 13BH670F062 utan OEM-modellbevis. Oberoende kataloger styrker att 618-0163, 618-0163A/B/BP/D, 618-0073 och 918-0163B förs till 918-0163D som komplett enkelväxlad transaxel. Detta stärker nummeridentiteten för det modellspecifika 2000-fyndet, men inte fysisk passform per serienummer. 1991 års handboksrevision skiljer kilad respektive splinesad ingående axel och varnar för utbytbarhet utan rätt remskiva. OEM-katalogen Genuine Factory Parts anger 737-0300A som ersättning för 737-0148; 8 oz avser förpackningsvolym, inte automatisk servicemängd."
     },
     "L": {
       "state": "gap",
@@ -1182,6 +1189,15 @@
       "grade": "B",
       "sourceId": "appliance-model-2000-deck-f",
       "locator": "Parts and Diagrams, Deck Assembly F Parts"
+    },
+    {
+      "id": "mtd-oem-grease-7370148-7370300a",
+      "statement": "Tillverkarens reservdelskanal Genuine Factory Parts anger att Benalene Grease 920, 8 oz, artikel 737-0300A ersätter det äldre smörjmedelsnumret 737-0148. Detta bekräftar artikelnummerersättningen men fastställer inte servicemängd eller fysisk 13BH670F062-passform.",
+      "variant": "MTD smörjmedelskatalog, generell OEM-ersättningsrelation; ej individuell modellrevision",
+      "grade": "A",
+      "sourceId": "mtd-gfp-7370300a-supersession",
+      "locator": "737-0300A product page, 'This part replaces' 737-0148, specification Volume 8 oz",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -1220,6 +1236,7 @@
     "Klargör varför eReplacementParts listar differential 918-04091A samtidigt som Sears och MTD-familjekatalogen listar 618-0162. Fastställ om de representerar olika revisioner eller ersättningskedja.",
     "Sök MTD:s egen partsöksida eller original-IPLs som visar att komplett 918-0163D gäller specifikt års-/serienummervarianten 13BH670F062; fastställ även växellådans externa fabrikat.",
     "Slutkontroll av MTD Technical Handbook 770-10579: original-PDF översteg webbläsarens storleksgräns, varför endast sökindexerat textlager kunde verifieras. Hämta och granska relevanta sidor visuellt och identifiera vilket 13BH670F062-serienummerspann som använder 618-0163-serien.",
-    "Bekräfta 1996-ändringens effekt på 13BH670F062/2000 innan någon invändig differentialreparation rekommenderas; MTD:s handbok anger att den nyare enheten inte är servicebar."
+    "Bekräfta 1996-ändringens effekt på 13BH670F062/2000 innan någon invändig differentialreparation rekommenderas; MTD:s handbok anger att den nyare enheten inte är servicebar.",
+    "Undersök om äldre handbokens Shell Durina 737-0148 och nuvarande Benalene 920 737-0300A gäller samma transaxelrevision samt korrekt mängd för 13BH670F062 innan någon smörjningsprocedur publiceras."
   ]
 }
