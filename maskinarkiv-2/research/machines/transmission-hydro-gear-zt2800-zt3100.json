@@ -1133,6 +1133,51 @@
       "sourceId": "hg-schematic-71370-p64-2020",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-ghn-ee-71561",
+      "statement": "Mittsektionssats pos.201 artikel 71561, RH CHRG, används enligt P64 när tecken 3=G/H/N, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 G,H,N; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-j-ee-71562",
+      "statement": "Mittsektionssats pos.201 artikel 71562, RH, används enligt P64 när tecken 3=J, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 J; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-klp-ee-71563",
+      "statement": "Mittsektionssats pos.201 artikel 71563, LH CHRG, används enligt P64 när tecken 3=K/L/P, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 K,L,P; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-m-ee-71564",
+      "statement": "Mittsektionssats pos.201 artikel 71564, LH, används enligt P64 när tecken 3=M, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 M; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-kit-not-universal",
+      "statement": "Mittsektionskatalogen (pos.201) i P64 specificerar kodvillkor separat för char 7, 3, 5 och 6. Den omfattar både höger- och vänsterversioner samt varianter med/utan laddpump och de får inte förväxlas.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; Övergripande metod",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1159,6 +1204,7 @@
     "En fullständig BOM-modellkod identifierar attribut men artikelnummer måste fortfarande hämtas från enhetens online service schematic; de 14 kodtecknen är inte en lista med reservdelsnummer.",
     "CAD-konfiguratorns reglagearmnummer 51631 och 51841 är attributalternativ; verifiera orderbarhet, BOM-kompatibilitet och eventuella ersättningsnummer via Hydro-Gears service schematic.",
     "För valen chockventil A–F, bromskod S/9 och axeländarnas mått krävs faktisk BOM-specifik service schematic och fysisk märkplåt innan delar beställs.",
-    "Verifiera om originalschemat 71370 P64 (2020-12-29) är tillämpligt på aktuell transaxel med modellkod och serienummer och om Hydro-Gear har senare ersättningsnummer för 52149/52148/52344/52109/52110/52341/52342/52343, innan reservdel rekommenderas."
+    "Verifiera om originalschemat 71370 P64 (2020-12-29) är tillämpligt på aktuell transaxel med modellkod och serienummer och om Hydro-Gear har senare ersättningsnummer för 52149/52148/52344/52109/52110/52341/52342/52343, innan reservdel rekommenderas.",
+    "För mittsektionssats pos.201 måste samtliga char 3/5/6/7 och källrevision kontrolleras mot etikett; artikel 71561–71564 är uttryckliga P64-rader, inte generell passform."
   ]
 }
