@@ -180,6 +180,51 @@
       "sourceId": "hg-bln52441-2023-manual-index",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "bln52441-oil-20w50-text",
+      "statement": "I Hydro-Gears BLN-52441 anges 20W50 motorolja som fabriksfyllning och rekommendation för normala driftsförhållanden; den fullständiga utgåvans sidbild behöver fortfarande jämföras med textutdraget.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 (2023), ej OEM-specifik avvikelse",
+      "locator": "Service and Maintenance > Fluids, tryckt sida 9 (textutdrag från tillverkar-PDF, ej bildkontrollerat)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-fill-key-7-13",
+      "statement": "BLN-52441:s oljemängdstabell styr val av volym via modellkodens sjunde och trettonde tecken (Z*-****-X***-***X*). Utan dessa kan en korrekt volym inte väljas.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 (2023)",
+      "locator": "Service and Maintenance > Fluid Volume and Level, tryckt sida 9, modellkodtabell (textutdrag, ej bildkontrollerat)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-fill-key-values",
+      "statement": "Den publicerade 2023-tabellens text anger kombinationer för tre transaxelvolymer: 2079 ml, 2126 ml och 1674 ml. Värdena omfattar inte oljan i expansionskärl/slang och är villkorade av exakt kodkombination; tabellens radspännvidder återstår att kontrollera visuellt före en exakt tillämpningsmatris.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 2023, modellberoende",
+      "locator": "Service and Maintenance > ZT-2800/ZT-3100/ZT-3200 > Oil Volume Table, tryckt sida 9 (textutdrag, ej bildkontrollerat)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-external-prechecks",
+      "statement": "Hydro-Gears lista för externt underhåll innefattar kontroll av maskinens godkända belastning, drivrem och spännrullar, kontrollänkage samt bypassfunktion före djupare felsökning.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 (2023)",
+      "locator": "Service and Maintenance > External Maintenance, tryckt sida 9 (textutdrag, ej bildkontrollerat)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "bln52441-purge-after-change",
+      "statement": "Hydro-Gears BLN-52441 kräver avluftning efter oljebyte och hänvisar till särskilt PURGING-avsnitt; följ den aktuella manualens process och fordonets säkerhetsanvisningar.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 (2023)",
+      "locator": "Service and Maintenance > Fluid Volume and Level, tryckt sida 9, hänvisning till Purging Procedures sida 12 (textutdrag)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -187,6 +232,7 @@
     "BLN-52441 (2023) är identifierad men för stor för webbsidvisning här; verifiera olja, filter, mängder och avluftning visuellt innan sådana fakta läggs till.",
     "Hämta BOM-specifika sprängskisser och faktiska reservdels- och filterbeställningsnummer.",
     "Jämför utgåvorna från 2015, 2021 och 2023 för att undvika att serviceintervall överförs mellan editioner.",
-    "Kontrollera separat vilka års-/OEM-modeller som verkligen har ZT-2800 och ZT-3100."
+    "Kontrollera separat vilka års-/OEM-modeller som verkligen har ZT-2800 och ZT-3100.",
+    "Kontrollera sidbilden för 2023 års BLN-52441 oljemängdstabell innan tecken 7 och 13 kopplas till exakta volymer; PDF är större än webbverktygets sidvisningsgräns."
   ]
 }
