@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "slug": "klippo-champion-965223902",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Artikelnummerbunden grundforskning om Klippo Champion 965 22 39-02 utifrån Husqvarnas officiella supportsida, kompletterad med historisk Klippo-originalmanual 2007. Service från 2007 får inte utan kontroll tilldelas denna specifika produktversion.",
+  "sources": [
+    {
+      "id": "husqvarna-champion-support",
+      "tier": 1,
+      "title": "Husqvarna Sverige – KLIPPO Champion support och specifikationer",
+      "document": "KLIPPO Champion 965 22 39-02",
+      "url": "https://www.husqvarna.com/se/support/klippo-champion/"
+    },
+    {
+      "id": "klippo-om-2007",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning Champion/Excellent/Pro19 m.fl.",
+      "document": "000001 version 1:17 2007-01",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000035498/doc000066874"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Tillverkarsidan identifierar 965 22 39-02; serienummer och andra generationer saknas."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Chassi och tillverkningsgeneration behöver sprängskiss."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Briggs & Stratton bekräftat som märke, men Model/Type/Code saknas."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Drivning är ännu inte specifikt dokumenterad för artikelnumret."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Kåpa och hjulupphängning behöver originalkatalog."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Reglage och höjdinställning måste verifieras för artikelnummer."
+    },
+    "G": {
+      "state": "gap",
+      "note": "BBC-uppgift finns från tillverkare, men fullständigt säkerhetssystem saknas."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Äldre mulcherinformation gäller historisk manualfamilj och måste versionsbindas."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Historiska manualintervall kan inte automatiskt gälla 965 22 39-02."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Kniv-, knivfäste- och hjulnummer saknas."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Modellbunden felsökning saknas."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Officiell support visar manual från 2018; dokumentets exakta revision behövs."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Generationer, passformer och motorbyte måste kontrolleras."
+    }
+  },
+  "claims": [
+    {
+      "id": "champion-965223902-identity",
+      "statement": "Husqvarnas supportsida identifierar KLIPPO Champion med artikelnummer 965 22 39-02.",
+      "variant": "KLIPPO Champion 965 22 39-02",
+      "locator": "Specifikationer > kolumnrubrik för produktversion",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "champion-965223902-briggs",
+      "statement": "Motorfabrikat för KLIPPO Champion 965 22 39-02 anges av Husqvarna som Briggs & Stratton; enskild motorserie och motorkod saknas i denna översikt.",
+      "variant": "KLIPPO Champion 965 22 39-02",
+      "locator": "Specifikationer > Motor > Varumärke motor",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-965223902-no-bbc",
+      "statement": "Husqvarnas supportsida anger 'Nej' för bladbromskoppling (BBC) på KLIPPO Champion 965 22 39-02.",
+      "variant": "KLIPPO Champion 965 22 39-02",
+      "locator": "Specifikationer > Utrustning > Bladbromskoppling (BBC)",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "champion-2018-manual",
+      "statement": "Husqvarnas supportsida listar en svensk/dansk/estnisk/finsk bruksanvisning publicerad 2018-01-01 för Champion; enbart supportsidan bevisar inte att den täcker varje äldre Champion-generation.",
+      "variant": "KLIPPO Champion supportmodell, officiell sida; utgåva ännu inte nedladdad och jämförd",
+      "locator": "Supportinnehåll > Handböcker och dokument > Bruksanvisning publicerat 2018-01-01",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "champion-2007-family",
+      "statement": "Klippos originalmanual 2007 inkluderar Champion och anger att mulcherinsatsen levereras monterad på Champion i just denna manualfamilj. Ingen automatisk reservdelskompatibilitet med 965 22 39-02 följer av detta.",
+      "variant": "KLIPPO Champion historisk manualfamilj 2007, produktnummer ej identifierat",
+      "locator": "Svensk del, 'Modeller' och 'Mulcherinsats för Excellent-, Champion- och Pro 19-modeller', bild 12",
+      "sourceId": "klippo-om-2007",
+      "grade": "A",
+      "topic": "H"
+    }
+  ],
+  "gaps": [
+    "Fastställ motor Model/Type/Code för artikelnummer 965 22 39-02 via IPL och fysisk motormärkning.",
+    "Hämta officiella reservdelssprängskisser och knivnummer för just 965 22 39-02.",
+    "Verifiera höjdinställning, transmissionsutförande, motoroljetyp och serviceintervall mot rätt årsutgåva.",
+    "Jämför 2007 och 2018 års manualer och dokumentera versionsskillnader.",
+    "Hitta andra Champion-artikelnummer utan att sammanblanda deras komponenter."
+  ]
+}
