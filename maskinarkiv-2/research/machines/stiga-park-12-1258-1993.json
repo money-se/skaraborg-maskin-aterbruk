@@ -16,8 +16,8 @@
       "id": "peerless-motion-drive-691218",
       "tier": 1,
       "title": "Tecumseh/Peerless Motion Drive System – Technician's Handbook",
-      "document": "Service manual 691218, 1996; chapter 1 lubrication and identification, chapter 3 800/801 series",
-      "url": "https://www.mymowerparts.com/pdf/Tecumseh-Peerless-Transmissions-Transaxles-Differentials-Gear-Boxs/00_TECUMSEH%20PEERLESS%20Transmissions_Transaxles%20REPAIR%20MANUAL%20691218.pdf"
+      "document": "Technician's Handbook Form 691218 R 3/02, Chapter 5: 800/801 series (printed pp. 30–36)",
+      "url": "https://mymowerparts.com/pdf/Tecumseh-Service-and-Repair-Manuals/TECUMSEH-PEERLESS-TRANSMISSION-TRANSAXLES-DIFFERENTIALS-SERVICE--REPAIR-MANUAL-691218.pdf"
     }
   ],
   "topics": {
@@ -384,6 +384,42 @@
       "grade": "A",
       "sourceId": "peerless-motion-drive-691218",
       "locator": "Kapitel 3, avsnitt 3 E punkt 2, PDF s. 31, tryckt s. 30"
+    },
+    {
+      "id": "p12-1258-93-peerless-bearing-b-seal",
+      "topic": "K",
+      "statement": "Peerless 800-seriens lagerutförande B kräver tätning på lagrets utsida. Detta är en lagerutförandeanvisning, inte ett artikelnummer för en specifik 846-individ.",
+      "variant": "Peerless original handbok 691218, generisk 800/801; exakt 846-delutformning måste kontrolleras",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Form 691218, Chapter 5, printed p.32 (PDF p.34), bearing illustrations A–D"
+    },
+    {
+      "id": "p12-1258-93-peerless-bearing-c-rings",
+      "topic": "K",
+      "statement": "Peerless 800-seriens lagerutförande C kräver fyrkantskuren O-ring på vardera sidan om lagret; B/C/D anges utbytbara medan A är en äldre, mindre nållagertyp.",
+      "variant": "Peerless original handbok 691218, generisk 800/801; exakt 846-delutformning måste kontrolleras",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Form 691218, Chapter 5, printed p.32 (PDF p.34), bearing illustrations A–D"
+    },
+    {
+      "id": "p12-1258-93-peerless-input-shaft-bearing",
+      "topic": "K",
+      "statement": "Vid demontering av 800/801-ingående axel ska tätningen ersättas om den tas bort; Peerless anger verktyg 670251 för nållager och ett monteringsdjup om 3,43–3,82 mm under kanten på innersidans nållager.",
+      "variant": "Peerless original handbok 691218, generisk 800/801; exakt 846-delutformning måste kontrolleras",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Form 691218, Chapter 5, printed p.32 (PDF p.34), input shaft instruction 13"
+    },
+    {
+      "id": "p12-1258-93-peerless-transaxle-v-variation",
+      "topic": "D",
+      "statement": "Peerless handbok upplyser att det beskrivna 800/801-exemplet har fem framåtväxlar och en backväxel, men att ingående axelns placering och differentialens rotationsriktning varierar efter OEM-konfiguration; detta får inte användas som exakt 846-specifikation.",
+      "variant": "Peerless original handbok 691218, generisk 800/801; exakt 846-delutformning måste kontrolleras",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Form 691218, Chapter 5, printed p.30 (PDF p.32), General information"
     }
   ],
   "gaps": [
@@ -395,6 +431,7 @@
     "STIGA-original-PDF kan textgranskas men PDF-skärmbilder returnerade fel vid granskningen 2026-10-22; figurkontroll återstår.",
     "STIGA 846-reservdelsposten anger Bentonite grease 0,9 kg; en servicemanual krävs för metod, eventuella påfyllnadsgränser och byte.",
     "Jämför STIGA 0,9 kg Bentonite grease-pos 90 med Peerless allmänna 800-seriens 30 oz/887 ml; dokumentera eventuell skillnad i netto/brutto och monteringsläge innan exakt påfyllnadsmängd anges.",
-    "Verkstadsmanualens 800/801-procedurer är generiska; koppla lagerutförande A–D och O-ringstätningars dimensioner till exakt Peerless 846-serienummer före reservdelsbeställning."
+    "Verkstadsmanualens 800/801-procedurer är generiska; koppla lagerutförande A–D och O-ringstätningars dimensioner till exakt Peerless 846-serienummer före reservdelsbeställning.",
+    "Peerless 691218 illustrerar utförande B/C/D och nållagerdjup, men saknar här koppling till bestämt 846-serienummer; kontrollera etikett och intern utförandevariant innan lager-/tätningsbeställning."
   ]
 }
