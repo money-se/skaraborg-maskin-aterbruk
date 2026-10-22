@@ -74,6 +74,20 @@
       "title": "STIGA Park Classic 1999, återpublicerad reservdelsförteckning av Sandby Smedie",
       "document": "Parts catalogue 13-1258-22, datummärkt 2024-06-01, transmission item 18; anger Peerless MST205-529C där 2014-originalet anger D",
       "url": "https://www.sandbysmeden.dk/wp-content/uploads/2024/06/13-1258-22-Stiga-Park-Classic-1999.pdf"
+    },
+    {
+      "id": "stiga-parkclassic-1442-1998-ipl",
+      "tier": 1,
+      "title": "STIGA Park Classic 13-1442-21 original parts catalogue",
+      "document": "Season 1998; Issue 46–2014; Transmission p.15 and MST205-529C internal list p.27",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_CLASSIC_13-1442-21_97_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-parkclassic-1442-1999-ipl",
+      "tier": 1,
+      "title": "STIGA Park Classic 13-1442-22 original parts catalogue",
+      "document": "Season 1999; Issue 46–2014; internal transaxle parts p.11 and transmission p.29",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_CLASSIC_13-1442-22_98_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -1331,6 +1345,51 @@
       "grade": "B",
       "sourceId": "stiga-cybercat-1999-mst529d",
       "locator": "MST205-529D pos.71 och 71B"
+    },
+    {
+      "id": "p12-1997-mst-1442-1998-repeated-pnc",
+      "topic": "D",
+      "statement": "STIGA Park Classic 13-1442-21 (1998) visar 1134-3716-02 som komplett transaxel i basmaskinens transmissionstabell pos.18, men 1134-3716-01 som komplett enhet på pos.0 i en MST205-529C-rubricerad internlista. Samma katalogmönster finns i Park 12 13-1442-20 (1997). Källan säger inte att -01 ersätter -02.",
+      "variant": "Tvärårsmodelljämförelse 1997 Park 12 och 1998/1999 Park Classic 13-1442, inte bevis för reservdelsersättning",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1442-1998-ipl",
+      "locator": "1998 katalog PDF s.15 transmission pos.18; PDF s.27 internlista pos.0"
+    },
+    {
+      "id": "p12-1997-mst-1442-1999-repeated-pnc",
+      "topic": "D",
+      "statement": "STIGA Park Classic 13-1442-22 (1999) anger i samma katalog 1134-3716-02 på basmaskinens transmission pos.18 men 1134-3716-01 i interna transaxeldellistan pos.0. Det ger en tredje årsmodell med samma dubbla kodning, men ingen utfärdad ersättningsrelation.",
+      "variant": "Tvärårsmodelljämförelse 1997 Park 12 och 1998/1999 Park Classic 13-1442, inte bevis för reservdelsersättning",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1442-1999-ipl",
+      "locator": "1999 katalog PDF s.29 pos.18; PDF s.11 pos.0"
+    },
+    {
+      "id": "p12-1997-mst-1442-1998-c-table",
+      "topic": "D",
+      "statement": "1998 års Park Classic 13-1442-21 rubricerar internförteckningen Peerless MST205-529C och anger både kåpa 772144 och 772148 på pos.1, hus 770128 pos.3 samt kugghjulen 778364, 778365 och 778369 på tre katalograder vid pos.6. Dessa rader specificerar inte automatiskt vilket alternativ som monterades.",
+      "variant": "Tvärårsmodelljämförelse 1997 Park 12 och 1998/1999 Park Classic 13-1442, inte bevis för reservdelsersättning",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1442-1998-ipl",
+      "locator": "1998 katalog PDF s.27, MST205-529C pos.1,3,6"
+    },
+    {
+      "id": "p12-1997-mst-1442-1998-index",
+      "topic": "D",
+      "statement": "1998 års originalkatalog 13-1442-21 har båda kompletta transaxelnumren i artikelindex: 1134-3716-01 hänvisar till internlistans pos.0 och 1134-3716-02 till basmaskinens pos.18. De är två separata indexposter, inte märkta som ersättningsnummer.",
+      "variant": "Tvärårsmodelljämförelse 1997 Park 12 och 1998/1999 Park Classic 13-1442, inte bevis för reservdelsersättning",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1442-1998-ipl",
+      "locator": "1998 katalog artikelindex tryckt s.38, 1134-3716-01/-02"
+    },
+    {
+      "id": "p12-1997-mst-1442-1999-index",
+      "topic": "D",
+      "statement": "1999 års originalkatalog 13-1442-22 indexerar 1134-3716-01 vid internlistans pos.0 sida 11 och 1134-3716-02 vid basmaskinens pos.18 sida 29, vilket visar att båda beteckningarna förekommer som separata katalogposter även där.",
+      "variant": "Tvärårsmodelljämförelse 1997 Park 12 och 1998/1999 Park Classic 13-1442, inte bevis för reservdelsersättning",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1442-1999-ipl",
+      "locator": "1999 katalog artikelindex tryckt s.40, 1134-3716-01/-02"
     }
   ],
   "gaps": [
@@ -1352,6 +1411,7 @@
     "STIGA Park Classic 1999 13-1258-22 motsäger sig självt: basmaskin pos.18 säger MST205-529D men interna delgruppens rubrik säger MST205-529C. Hitta separat D-specifik BOM/teknisk bulletin; utgå inte från att C-internals gäller D.",
     "STIGA:s separata D-rubricerade reservdelsförteckning 1999 klargör vilka artikelval som dokumenteras för MST205-529D, men inte varför Park Classic 1999 använder C-rubrik på sina interna sidor. Undersök tillverkarens revisionsbulletin och maskinens transaxel-ID innan retrofit.",
     "Kontrollera ursprung/revisionslogg till Sandby Smedies 2024-utgåva av Park Classic 13-1258-22, vilken anger C där STIGA:s 2014-original anger D på transmission pos.18. Kräver fysisk transaxelmärkning för aktuell maskin.",
-    "Verifiera fysisk funktion och mått hos MST205-529D-plugg 792154, tätningarna 788088/788089 och startbrytaren 786182 mot fristående Peerless tillverkarhandling; CyberCat är reservdelskatalog, inte verkstadshandbok."
+    "Verifiera fysisk funktion och mått hos MST205-529D-plugg 792154, tätningarna 788088/788089 och startbrytaren 786182 mot fristående Peerless tillverkarhandling; CyberCat är reservdelskatalog, inte verkstadshandbok.",
+    "Katalogernas dubbla numrering 1134-3716-02 (basmaskin) respektive 1134-3716-01 (intern transaxellista) kvarstår i 13-1442-20, 13-1442-21 och 13-1442-22. Hitta STIGA:s dokumenterade artikelnummersynonym, fabriks-BOM eller servicebulletin innan de klassas som utbytbara."
   ]
 }
