@@ -317,6 +317,24 @@
       "sourceId": "kohler-owners-1259001",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "kohler-owner-carb-low-idle-1200-application",
+      "statement": "Kohler 12 590 01 anger 1200 ±75 rpm som rekommenderad grundtomgång vid justering, men framhåller att faktiskt tomgångsvarvtal beror på maskintillämpningen och att utrustningstillverkarens anvisning ska följas. Värdet får inte användas som universell inställning för en viss åkgräsklippare.",
+      "variant": "Kohler Command CV11–CV16/CV460–CV493, Walbro/Nikki enligt ägarmanual, maskinspecifik tillämpning okänd",
+      "locator": "Carburetor Adjustment, printed page 13 (PDF index 12), Low Idle Speed Setting step 3 and footnote",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "kohler-owner-carb-high-altitude-1525m",
+      "statement": "Kohler 12 590 01 varnar för att motordrift över 1525 meter kan kräva särskild höghöjdsmunstyckssats installerad av auktoriserad Kohler-återförsäljare. Efter sådan ändring ska originalmunstycke återmonteras före drift på låg höjd för att undvika överhettning/motorskada. Inget satsnummer anges.",
+      "variant": "Kohler Command CV11–CV16/CV460–CV493 enligt manual 12 590 01, förgasarutförande ej identifierat",
+      "locator": "Carburetor, printed page 12 (PDF index 11), note regarding altitude above 1525 metres",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -329,6 +347,7 @@
     "Kohler luftfilter: artiklar i originalmanual 12 590 01 måste kontrolleras mot faktiskt filterhus/Spec. No. och senare supersession innan beställningsråd.",
     "Kohler bränslefilter: identifiera OEM-specifikt inlinefilter och eventuellt artikelnummer per motor-/utrustningsutförande innan beställningsråd.",
     "Kohler Walbro/Nikki: förgasarutförande per Spec No. och respektive reparationssats/packningsnummer återstår att belägga.",
-    "Oljefilter 52 050 02-S anges i Kohler 12 590 01 men ersättningsartikel, aktuell tillgång och exakt passform per Spec. No. och filteradapter återstår att verifiera."
+    "Oljefilter 52 050 02-S anges i Kohler 12 590 01 men ersättningsartikel, aktuell tillgång och exakt passform per Spec. No. och filteradapter återstår att verifiera.",
+    "Kohler Walbro/Nikki: rekommenderad grundtomgång 1200 ±75 rpm är inte automatiskt godkänd maskintomgång; kräver utrustningstillverkarens anvisning och exakt utförande."
   ]
 }
