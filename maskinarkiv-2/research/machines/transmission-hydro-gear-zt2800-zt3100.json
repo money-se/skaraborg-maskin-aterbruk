@@ -419,6 +419,60 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "p25-rtn-safe-identification",
+      "statement": "Manualen beskriver Return To Neutral (RTN) som en mekanism som ska återföra riktningsreglaget till neutralläge när föraren släpper kontrollen; justering förutsätter att bypass är frånkopplad och drivhjulen säkert lyfts för fri rotation.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 med RTN enligt BLN-52441 P25",
+      "locator": "Tryckt s. 13, RETURN TO NEUTRAL SETTING, steg 1 och inledning; PDF-sida 15",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "p25-rtn-adjustment-warning",
+      "statement": "Hydro-Gears RTN-justering beskriver axelriktning och små reglageförskjutningar i 5-graderssteg, men varnar särskilt för arbete med motorn igång. Endast kvalificerad tekniker bör utföra testsekvensen under tillämplig OEM-säkerhetsrutin.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 med RTN enligt BLN-52441 P25",
+      "locator": "Tryckt s. 13, RETURN TO NEUTRAL SETTING, steg 3–6, Figure 7; PDF-sida 15",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-kit-211",
+      "statement": "RTN-enhetens demonteringsfigur anger position 211 som RTN Control Arm Kit; fjäder pos. 147, skruv pos. 46, saxarm pos. 145 och arm pos. 44. Positionsnummer är inte automatiskt beställningsnummer.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 med RTN, BLN-52441 P25",
+      "locator": "Tryckt s. 14, Figure 8 Return To Neutral Assembly; PDF-sida 16",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-rtn-seal-41-excluded",
+      "statement": "Manualen anger att tätning pos. 41 inte ingår i RTN-sats pos. 211 och att den endast ska avlägsnas om skadad/sliten; separat tätning identifieras i Seal Kit.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 RTN, BLN-52441 P25",
+      "locator": "Tryckt s. 14, NOTE under Disassembly, Figure 8; PDF-sida 16",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-control-arm-disposable-fasteners",
+      "statement": "Vid demontering av Control Arm Assembly föreskriver originalmanualen kassering av låsmutter pos. 47 och bricka pos. 45 före återmontering; referens till åtdragningsmoment finns i tabell tryckt s. 22.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 15, CONTROL ARM ASSEMBLY, Figure 9; PDF-sida 17",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-brake-adjustment-code7",
+      "statement": "Bromsjustering med omläggning av bromsarmens splineposition i manualen gäller endast ZT-2800/3100 med tecken 7 i fullständigt modellnummer lika med 1 eller 2. Efter justering krävs funktionstest enligt OEM-krav och kontroll av att bromsen inte ligger på under drift.",
+      "variant": "ZT-2800/ZT-3100, Character #7=1 or 2, BLN-52441 P25",
+      "locator": "Tryckt s. 16, PARKING BRAKE ADJUSTMENT (Code 1 or 2), Figure 10–11, PDF-sida 18",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -432,6 +486,7 @@
     "Kontrollera felaktigt återgivna momentomräkningar i tredjepartstranskriptioner (t.ex. 120 in-lb anges även som 20,3 Nm, vilket matematiskt inte stämmer); förlita dig på verifierad källbild och korrekt enhet.",
     "P25 tryckt sida 11 har inkonsekvent momentvärde för top-port-plugg: 120 in-lb anges ihop med 20,3 Nm, men korrekt omräkning är cirka 13,56 Nm. Inhämta tillverkarförtydligande före verkstadstillämpning.",
     "Slå upp ytterligare faktiska kitartikelnummer i Hydro-Gears modellkodstyrda online service schematics innan 200/201/202/203/207/210/211/212/215 rekommenderas.",
-    "Felsökningsmatrisen är generisk: innan åtgärd på en konkret klippare krävs OEM:s däcktrycks-, reglage- och säkerhetsinstruktioner."
+    "Felsökningsmatrisen är generisk: innan åtgärd på en konkret klippare krävs OEM:s däcktrycks-, reglage- och säkerhetsinstruktioner.",
+    "RTN- och bromsjusteringar är variant- och säkerhetskritiska. Samla OEM-specifika reglage-, broms- och säkerhetsrutiner innan någon publik steg-för-steg-instruktion skapas."
   ]
 }
