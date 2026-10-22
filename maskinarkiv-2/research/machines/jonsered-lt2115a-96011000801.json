@@ -25,6 +25,13 @@
       "title": "LT2115A May 2005 dealer MOWER",
       "document": "LT2115A May 2005 dealer MOWER",
       "url": "https://www.sgarden.cz/SpareParts/PartList/75155/MOWER_DECK__CUTTING_DECK"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-ipl-2005-05",
+      "tier": 2,
+      "title": "Jonsered LT2115A 96011000801, illustrated parts list original text reprint",
+      "document": "LT2115A 96011000801 PRODUCT NO. 954130222, 2005-05, IPL PDF",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20A%2096011000801%202005-05/LT2115-A-96011000801-2005-05.pdf"
     }
   ],
   "topics": {
@@ -193,6 +200,50 @@
       "topic": "H",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-manual-euro",
+      "statement": "IPL:s DECALS-sektion listar europeisk förarmanual, artikel 532 19 48-74.",
+      "variant": "LT2115A 96011000801 / 2005-05",
+      "locator": "DECALS, onumrerad post Manual Operator's (Euro.)",
+      "sourceId": "jonsered-lt2115a-96011000801-ipl-2005-05",
+      "grade": "B",
+      "topic": "K",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-manual-scan",
+      "statement": "IPL:s DECALS-sektion listar skandinavisk förarmanual, artikel 532 19 48-75.",
+      "variant": "LT2115A 96011000801 / 2005-05",
+      "locator": "DECALS, onumrerad post Manual Operator's (Scan.)",
+      "sourceId": "jonsered-lt2115a-96011000801-ipl-2005-05",
+      "grade": "B",
+      "topic": "K",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-front-tire",
+      "statement": "IPL:s WHEELS & TIRES-sektion listar framdäck artikel 532 10 62-22 i storlek 15 x 6.0-6.",
+      "variant": "LT2115A 96011000801 / 2005-05",
+      "locator": "WHEELS & TIRES, key 3",
+      "sourceId": "jonsered-lt2115a-96011000801-ipl-2005-05",
+      "grade": "B",
+      "topic": "B",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-rear-tire",
+      "statement": "IPL:s WHEELS & TIRES-sektion listar bakdäck artikel 532 10 62-68 i storlek 18 x 9.5-8.",
+      "variant": "LT2115A 96011000801 / 2005-05",
+      "locator": "WHEELS & TIRES, key 9",
+      "sourceId": "jonsered-lt2115a-96011000801-ipl-2005-05",
+      "grade": "B",
+      "topic": "B",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -200,6 +251,7 @@
     "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
     "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
     "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL.",
-    "KORRIGERING 2026-10-22: tidigare jämförelse angav samma kopplingslänk 532105710 för januari och maj 2005. Den dokumenterade maj-versionens Wolfswinkel DRIVE-lista upptar 532199652 och ger inte stöd för det äldre numret. Januari–maj-kompatibilitet måste avgöras med båda original-IPL-sidbilderna."
+    "KORRIGERING 2026-10-22: tidigare jämförelse angav samma kopplingslänk 532105710 för januari och maj 2005. Den dokumenterade maj-versionens Wolfswinkel DRIVE-lista upptar 532199652 och ger inte stöd för det äldre numret. Januari–maj-kompatibilitet måste avgöras med båda original-IPL-sidbilderna.",
+    "2005-05 original IPL dokumenterar förarmanualernas artikelnummer (Euro och Scan) och däckdimensioner. Original-PDF textutdrag läsbart men sidbilder har cachemiss och kräver bildverifiering; däcken kan ha bytts på använda exemplar."
   ]
 }
