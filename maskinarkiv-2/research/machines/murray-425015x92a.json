@@ -167,7 +167,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "F-040734L s.47 identifierar Briggs & Stratton som motorfabrikat, men inte fullständig Model/Type/Code; avgränsade montage-, bränsle-, avgas- och värmesköldsdelar finns positionsbelagda. Motorns interna service kräver dess egen manual."
+      "note": "F-040734L s.47 identifierar Briggs & Stratton som motorfabrikat, men inte fullständig Model/Type/Code; avgränsade montage-, bränsle-, avgas- och värmesköldsdelar finns positionsbelagda. Motorns interna service kräver dess egen manual. KÄLLKONFLIKT: ENGINE MOUNT s.47 har motorplåt 094006E700 medan STEERING s.41 har motorplåt 094006E701; beslut om ersättningsdel kräver OEM-granskning."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -1926,6 +1926,7 @@
     "F-040734L sida 45 visar flera identiska reservdelsnummer som F-050706L för 425014X92B; jämför fästpunkter, revisioner och ersättningsnummer separat innan fysisk utbytbarhet hävdas.",
     "Närliggande handlarlistningar av '42515X92B' får inte användas som identitetsbevis för 425015X92B utan modellnummer- och katalogkontroll.",
     "F-040734L s.47 anger Briggs & Stratton som fabrikat men motorns exakta Model/Type/Code saknas och kan inte härledas från aggregatets modellnummer.",
-    "Motorns monteringskatalog F-040734L s.47 visar endast BRIGGS & STRATTON utan Model/Type/Code. Även om liknande maskiner använder samma monteringsdelar är motorspecifik service ej bekräftad."
+    "Motorns monteringskatalog F-040734L s.47 visar endast BRIGGS & STRATTON utan Model/Type/Code. Även om liknande maskiner använder samma monteringsdelar är motorspecifik service ej bekräftad.",
+    "F-040734L listar olika motorplåtsnummer inom samma 425015X92A-katalog: ENGINE MOUNT s.47 pos7 anger 094006E700, STEERING s.41 pos13 anger 094006E701. Nummerkonflikten får inte lösas genom antagen passform; kontrollera sprängskisser och tillverkningsrevision."
   ]
 }
