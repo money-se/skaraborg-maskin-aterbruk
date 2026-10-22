@@ -621,7 +621,9 @@
     .area-box h2{font-size:34px}
     .area-box p{color:var(--muted)}
     .places{display:flex;flex-wrap:wrap;gap:9px;align-content:flex-start}
-    .place{padding:9px 12px;border-radius:999px;background:var(--brand-soft);color:var(--brand);font-weight:800;font-size:13px}
+    .place{display:inline-block;text-decoration:none;padding:9px 12px;border-radius:999px;background:var(--brand-soft);color:var(--brand);font-weight:800;font-size:13px}
+
+    .place:hover,.place:focus-visible{outline:2px solid var(--brand);outline-offset:2px;text-decoration:underline}
 
     /* FAQ */
     .faq-list{display:grid;gap:10px}
@@ -949,19 +951,19 @@
             <a class="btn btn-outline" href="salja-maskin-skaraborg.html">Läs guiden för Skaraborg</a>
           </div>
           <div class="places" aria-label="Orter i verksamhetsområdet">
-            <span class="place">Hjo</span>
-            <span class="place">Skövde</span>
-            <span class="place">Tibro</span>
-            <span class="place">Karlsborg</span>
-            <span class="place">Mariestad</span>
-            <span class="place">Tidaholm</span>
-            <span class="place">Skara</span>
-            <span class="place">Falköping</span>
-            <span class="place">Töreboda</span>
-            <span class="place">Lidköping</span>
-            <span class="place">Götene</span>
-            <span class="place">Vara</span>
-            <span class="place">Grästorp</span>
+            <a class="place" href="hjo.html">Hjo</a>
+            <a class="place" href="skovde.html">Skövde</a>
+            <a class="place" href="tibro.html">Tibro</a>
+            <a class="place" href="karlsborg.html">Karlsborg</a>
+            <a class="place" href="mariestad.html">Mariestad</a>
+            <a class="place" href="tidaholm.html">Tidaholm</a>
+            <a class="place" href="skara.html">Skara</a>
+            <a class="place" href="falkoping.html">Falköping</a>
+            <a class="place" href="toreboda.html">Töreboda</a>
+            <a class="place" href="lidkoping.html">Lidköping</a>
+            <a class="place" href="gotene.html">Götene</a>
+            <a class="place" href="vara.html">Vara</a>
+            <a class="place" href="grastorp.html">Grästorp</a>
             
             <span class="place">Övriga Skaraborg</span>
           </div>
