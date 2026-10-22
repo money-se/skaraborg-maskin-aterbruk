@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "murray-425014x92b",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Avgränsad jämförande Murray-research: modellens dokumenterade parts list, fokus på drivlina och identifiering; ej godkänd artikel eller fullständig kompatibilitetsmatris.",
+  "sources": [
+    {
+      "id": "murray-425014x92b-parts-pdf",
+      "tier": 2,
+      "title": "Murray 425014X92B original illustrated repair-parts list mirrored by retailer",
+      "document": "Murray 425014x92B Repair Parts, F-050706L, tryckta s.38–52",
+      "url": "https://www.lawnmowerpros.com/pdfs/murray/F050706L_1.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Variantens egen parts list har identifierats med modellrubrik och dokumenthänvisning; fullständigt produktnummer samt tillverkningsserier återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Ramdelar identifierade i modellens egen katalog; jämförelse visar olika nummer mellan A- och B-versionerna, vilket förhindrar generell delöversättning."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "DANA transaxel framgår av separat Motion Drive-lista; exakt Dana-transaxelkod saknas. Motion Drive-rem 037x87 är katalogbelagd, ej generellt kompatibilitetsbevis."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+    }
+  },
+  "claims": [
+    {
+      "id": "425014x92b-identity",
+      "statement": "Reservdelskatalogen identifierar Murray 425014x92B som separat modellversion.",
+      "variant": "425014X92B",
+      "locator": "PDF s.1, rubrik MODEL 425014x92B",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-manual-reference",
+      "statement": "Katalogen hänvisar till Instruction Book & Parts List F-050706L.",
+      "variant": "425014X92B",
+      "locator": "PDF s.2, Chassis & Hood, sista raden",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-transaxle",
+      "statement": "Motion Drive-listan anger växellåda från DANA men inte exakt Dana-modellkod.",
+      "variant": "425014X92B",
+      "locator": "PDF s.4, tryckt sida 41, position 36",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-belt",
+      "statement": "Motion Drive-remmen har artikelnummer 037x87.",
+      "variant": "425014X92B",
+      "locator": "PDF s.4, tryckt sida 41, position 30",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-shift-lever",
+      "statement": "Växelspaken är artikelnummer 094043 Z.",
+      "variant": "425014X92B",
+      "locator": "PDF s.4, tryckt sida 41, position 9",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-right-shifter-bracket",
+      "statement": "Höger växelfäste är artikelnummer 1001978E701.",
+      "variant": "425014X92B",
+      "locator": "PDF s.4, tryckt sida 41, position 22",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-frame-right",
+      "statement": "Höger ramdel anges som 1001928E701, till skillnad från A-versionens 1001268E701.",
+      "variant": "425014X92B",
+      "locator": "PDF s.4, tryckt sida 41, position 23",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-frame-left",
+      "statement": "Vänster ramdel anges som 1001927E701, till skillnad från A-versionens 1001269E701.",
+      "variant": "425014X92B",
+      "locator": "PDF s.4, tryckt sida 41, position 25",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-transaxle-pulley",
+      "statement": "Transaxelremskivan är artikelnummer 690409.",
+      "variant": "425014X92B",
+      "locator": "PDF s.4, tryckt sida 41, position 41",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-seat",
+      "statement": "Sitsen listas som artikelnummer 690566.",
+      "variant": "425014X92B",
+      "locator": "PDF s.2, tryckt sida 39, position 1",
+      "sourceId": "murray-425014x92b-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Exakt Dana-transaxelmodell och individuellt serienummer saknas; identifiera märkskylten innan interna reservdelar väljs.",
+    "Motorfamilj, Model/Type/Code och motorspecifikt serviceunderlag återstår.",
+    "Klippaggregat, kniv- och remnummer behöver granskas i detalj för varje version.",
+    "Ingen dokumenterad generell passform mellan A, B och E; jämför endast partnummer vid samma assemblies och efter versionskontroll.",
+    "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
+    "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering."
+  ]
+}
