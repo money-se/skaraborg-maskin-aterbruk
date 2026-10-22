@@ -375,6 +375,34 @@
       "title": "Ceruti – genuine Husqvarna belt 589531501",
       "document": "Dealer replacement references for 506977301, 531007526, 531008037",
       "url": "https://www.ceruticenter.it/en/husqvarna-genuine-parts/98084-belt-589531501-husqvarna-genuine-part-7391736278423.html"
+    },
+    {
+      "id": "r16-combi103-messicks-506768501-supersession",
+      "tier": 2,
+      "title": "Messicks Husqvarna 506768501 supersession",
+      "document": "506768501 BELT replaced by 589530601, older 531005017 reference",
+      "url": "https://www.messicks.com/parts/husqvarna/506768501"
+    },
+    {
+      "id": "r16-combi103-partstree-506768501-supersession",
+      "tier": 2,
+      "title": "PartsTree Husqvarna 506768501",
+      "document": "506768501 Belt superseded to 589530601",
+      "url": "https://www.partstree.com/parts/husqvarna-506768501/"
+    },
+    {
+      "id": "r16-combi103-partstree-544103001-supersession",
+      "tier": 2,
+      "title": "PartsTree Jonsered 544103001 mower blade",
+      "document": "544103001 superseded to 504188210",
+      "url": "https://www.partstree.com/parts/jonsered-544103001/"
+    },
+    {
+      "id": "r16-combi103-partselect-504188210-supersession",
+      "tier": 2,
+      "title": "PartSelect Husqvarna 504188210",
+      "document": "504188210 replaces 504188201 and 544103001",
+      "url": "https://www.partselect.com/PS11822431-Husqvarna-504188210-Blade.htm"
     }
   ],
   "topics": {
@@ -2510,6 +2538,42 @@
       "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch44-blade-2007-2010-supported",
+      "statement": "PartsTree och PartSelect anger att kniv 544103001 har ersatts av 504188210. Detta förklarar att Rider 16 PNC 965161601:s Combi 103 965078401 har 544103001 i 2007-06 års original-IPL men 504188210 i 2010-07. Ersättningsrelationen har återförsäljarstöd, inte separat publicerad Husqvarna-bulletin.",
+      "variant": "Rider 16 965161601 Combi103 965078401; 2007-06 vs 2010-07, sekundär ersättningsuppgift",
+      "locator": "PartsTree 544103001 > superseded to 504188210; PartSelect 504188210 > replaces 544103001",
+      "sourceId": "r16-combi103-partstree-544103001-supersession",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch44-belt-2007-2010-supported",
+      "statement": "Messicks och PartsTree anger att Husqvarna-rem 506768501 har ersatts av 589530601. Det motsvarar skillnaden mellan Rider 16 Combi 103 965078401:s originalkataloger 2007-06 och 2010-07. Använd inte ersättningsuppgiften för andra rempositioner utan delnummerkontroll.",
+      "variant": "Rider 16 965161601 Combi103 965078401; 2007-06 vs 2010-07, sekundär ersättningsuppgift",
+      "locator": "Messicks 506768501 > replaced by 589530601; PartsTree 506768501 > superseded to 589530601",
+      "sourceId": "r16-combi103-messicks-506768501-supersession",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch44-belt-three-code-family",
+      "statement": "Messicks anger att aktuell rem 589530601 ersätter både 506768501 och 531005017. Detta är en återförsäljardokumenterad nummerserie för remmen och inte ett belägg för alla liknande Combi 103-remmar.",
+      "variant": "Rider 16 965161601 Combi103 965078401; 2007-06 vs 2010-07, sekundär ersättningsuppgift",
+      "locator": "Messicks 589530601 > Product replaces 506768501, 531005017",
+      "sourceId": "r16-combi103-messicks-506768501-supersession",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch44-blade-three-code-family",
+      "statement": "PartSelect listar 504188210 som ersättare för 504188201 och 544103001. Detta är en sekundär originalreservdelsbutiksuppgift och bekräftar inte passform till ett aggregat vars originalkniv har annat nummer.",
+      "variant": "Rider 16 965161601 Combi103 965078401; 2007-06 vs 2010-07, sekundär ersättningsuppgift",
+      "locator": "PartSelect 504188210 > Part# replaces 504188201, 544103001",
+      "sourceId": "r16-combi103-partselect-504188210-supersession",
+      "grade": "B",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -2609,6 +2673,7 @@
     "Rider 16 IPL 2007-06 benämner Combi 103 965078401 'V2'. Fastställ om detta är intern aggregatversion, ritningsrevision eller produktkodsversion; likställ ej med BioClip 103 version 2 i äldre verkstadshandbok.",
     "Rider 16 PNC 965161601 IPL 2010-07 listar kompletta aggregat 965078401 och 965078501; kartlägg vilken klippbredd varje PNC avser med tillverkarens tillbehörskatalog och märkplåt innan användning.",
     "Samma aggregat 965078401 har 2007-06 listat rem 506768501 och kniv 544103001, men 2010-07 listar 589530601 respektive 504188210; sök OEM-supersession för dessa delar och notera katalogrevision.",
-    "2010 års original-IPL:s sprängskiss-screenshot gav cachefel; PDF-textlager och sidnumrering stöder artikelraderna, men kopplingen mellan de två kompletta aggregaten och följande delar behöver visuell kontroll mot originalfigurer."
+    "2010 års original-IPL:s sprängskiss-screenshot gav cachefel; PDF-textlager och sidnumrering stöder artikelraderna, men kopplingen mellan de två kompletta aggregaten och följande delar behöver visuell kontroll mot originalfigurer.",
+    "Rider 16 Combi 103 965078401: återförsäljare stöder 544103001→504188210 och 506768501→589530601. En direkt OEM-ersättningsbulletin saknas. Kontrollera också vad som gäller för andra Combi 103 PNC."
   ]
 }
