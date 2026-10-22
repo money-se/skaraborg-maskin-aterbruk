@@ -137,6 +137,20 @@
       "title": "Husqvarna Service Bulletin B0201901 – BioClip 103 blade components",
       "document": "B0201901, 2002-05, three-page Husqvarna bulletin for Rider 16 / Rider 15 / Rider ProFlex 21",
       "url": "https://mymowerparts.com/pdf/Husqvarna-Service-Bulletins/B0201901.pdf"
+    },
+    {
+      "id": "rider16-bioclip90-blade-sgarden-crossref",
+      "tier": 2,
+      "title": "sGarden – BioClip 90 blade 531007586 and machine applicability",
+      "document": "BLADE 531007586; compatible machines listing (retailer)",
+      "url": "https://www.sgarden.cz/SpareParts/531007586/BLADE"
+    },
+    {
+      "id": "rider16-bioclip90-belt-retailer-supersession",
+      "tier": 3,
+      "title": "ReservdelarOnline – claimed BioClip 90 belt replacement",
+      "document": "5895315-01 claims replacement of 5310075-26; retailer only",
+      "url": "https://www.reservdelaronline.se/produkter/kuggrem-rider-11-13-bioclip-5895315-01"
     }
   ],
   "topics": {
@@ -1246,6 +1260,24 @@
       "sourceId": "husqvarna-service-bulletin-b0201901-2002",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-bio90-531007586-retailer-crossref",
+      "statement": "sGarden listar 531007586 som BioClip 90-kniv och anger Rider 16 2001-01, 2002-02 och 2003-01 i sin maskinlista. Uppgiften är återförsäljarbaserad korskontroll av befintligt katalogfynd och styrker inte ett separat aggregat-PNC.",
+      "variant": "Rider 16 katalogrevisioner 2001-01, 2002-02 och 2003-01, aggregat-PNC ej fastställt",
+      "locator": "Product 531007586 > Product description BioClip 90; Part of following machines > RIDER 16",
+      "sourceId": "rider16-bioclip90-blade-sgarden-crossref",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-bio90-589531501-replacement-lead",
+      "statement": "En reservdelshandlare påstår att tandrem 5895315-01 ersätter 5310075-26 och listar Rider 16 2001-01, 2002-02 och 2003-01. Detta är en OBESTYRKT ersättningsledtråd (needs_verification), inte en Husqvarna-verifierad ersättningsrelation.",
+      "variant": "BioClip 90, Rider 16 2001-01/2002-02/2003-01 enligt återförsäljare; PNC ej fastställt",
+      "locator": "Produktbeskrivning 5895315-01 > Ersätter: 5310075-26 samt kompatibilitetslista",
+      "sourceId": "rider16-bioclip90-belt-retailer-supersession",
+      "grade": "C",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1295,6 +1327,9 @@
     "Undersök om Husqvarnas BioClip 103-revisioner som kallas version 1/2 i bruksanvisningen sammanfaller med de båda konstruktionerna i B0201901; dessa får inte likställas utan bevis.",
     "PDF-skärmbilder av B0201901 kunde inte laddas (cache miss). Textlagrets referenser och sidnumrerade ritningsnummer är kontrollerade; visuell positionsgranskning återstår.",
     "BioClip 103: två separata revisionsaxlar är nu dokumenterade (1/2 tandremmar respektive äldre/nyare knivinfästningar). Källorna visar inte om de sammanfaller; ingen automatisk mappning tillåten.",
-    "B0201901 anger spännbrickornas olika inner-/ytterdiametrar. Kontrollera alltid faktisk knivaxel, knivhus, bricka och brytpinne samt PNC före kompatibilitet eller ersättningsråd."
+    "B0201901 anger spännbrickornas olika inner-/ytterdiametrar. Kontrollera alltid faktisk knivaxel, knivhus, bricka och brytpinne samt PNC före kompatibilitet eller ersättningsråd.",
+    "Ledtråd (ej verifierad): återförsäljare anger 5895315-01 som ersättare för 5310075-26 BioClip 90. Kräv Husqvarnas officiella supersession/parts lookup före passformsråd.",
+    "Undersök om 531007586-knivlistan täcker samma fysiska BioClip 90-aggregatrevision i Rider 16 2001–2003, och fastställ komplett aggregat-PNC.",
+    "Rider 1030 BioClip 1997-05 har separat originalkatalog med 103 cm-komponenter, men är ett SIDOFYND och dess komponenter får inte överföras till Rider 16 utan versionsbelägg."
   ]
 }
