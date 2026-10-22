@@ -513,6 +513,33 @@
       "locator": "Starting > Recoil Start Kits, printed p.6, PDF index 5",
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A"
+    },
+    {
+      "id": "kohler-dipstick-cv-1203802s",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar rak oljesticka 12 038 02-S för CV11–16/460–493. Passning och oljenivåmarkering måste kontrolleras på faktiskt oljepåfyllningsrör och specifikationsutförande.",
+      "variant": "CV11–16/460–493, rak oljesticka",
+      "locator": "Lubrication > Yellow Accessories, printed page 3 (PDF index 2)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-dipsticks-ch-1203810-14",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar 12 038 10-S som böjd och 12 038 14-S som rak oljesticka för CH11–15. Dessa CH-artiklar får inte ogrundat överföras till CV-utförandet.",
+      "variant": "CH11–15, böjd respektive rak oljesticka",
+      "locator": "Lubrication > Yellow Accessories, printed page 3 (PDF index 2)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-short-oil-filter-2805001s",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar kort oljefilter 28 050 01-S med höjd 2,32 tum vid utrymmesproblem och anger cirka 15 procent lägre filterkapacitet. Katalogen anger inte allmän passform för specifikt Kohler Spec. No.",
+      "variant": "Oljeinstallation med verifierat filtergänga, tätning och frigång; modell-/specifikationspassning ej fastställd",
+      "locator": "Lubrication > Oil Filters, printed page 4 (PDF index 3)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -532,6 +559,7 @@
     "Oil Sentry 12 704 01-S: kontrollera specifikationsnummer, filteradapterns faktiska anslutning, kabelstam samt tillverkarens aktuella ersättningsnummer innan montering eller beställning.",
     "Kohler originalbränslefilter 25 050 21-S, 25 050 22-S och 25 050 07-S har katalogbelagda utföranden men kräver kontroll av matning, slanganslutning, filterplacering och motor- eller OEM-specifikation innan beställning.",
     "Servicesatser 12 789 01-S och 12 789 02-S har olika ingående luftfilter i Kohlers originaltillbehörskatalog. Kontrollera Spec. No., luftfilterhus, komplett satsinnehåll och aktuella ersättningsnummer före beställning.",
-    "Startsystem: verifiera elektrisk jordning och kabelhärva innan 25 435 08-S / 12 749 03-S används; 12 755 47-S fordrar specifik metallkåpa och installationskontroll."
+    "Startsystem: verifiera elektrisk jordning och kabelhärva innan 25 435 08-S / 12 749 03-S används; 12 755 47-S fordrar specifik metallkåpa och installationskontroll.",
+    "Oljestickor CH kontra CV och kortfilter 28 050 01-S kräver kontroll av respektive installation och teknisk passform; delarna får inte överföras mellan motorfamiljer utifrån katalogbild ensam."
   ]
 }
