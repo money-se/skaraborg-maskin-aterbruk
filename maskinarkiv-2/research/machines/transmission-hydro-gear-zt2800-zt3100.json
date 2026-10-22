@@ -671,6 +671,69 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-sealant-loctite5900",
+      "statement": "Originalmanualens reservdelsförteckning anger Loctite 5900 som tätningsmedel, position 13. Det är en materialspecifikation, inte generell tätningsmedelskompatibilitet för andra enheter.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.45, Transaxle Parts List, position 13; PDF-sida 47",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-sealant-bead-path",
+      "statement": "Efter total demontering ska gammalt tätningsmedel avlägsnas. Hydro-Gear visar särskilda strängdragningar runt huvudhuset och mittsektionen i figur 38 och anger en jämn sträng på cirka 1/16–1/8 tum (1,6–3,2 mm); använd sparsamt.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.41, Assembly After A Complete Tear Down, punkt 7 och figur 38; PDF-sida 43",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-reassembly-sequence",
+      "statement": "Manualens ordning vid fullständig återmontering är drivaxel, hydraulkomponenter, bypass, ingående axel, laddpump, reduktions-/pinjong-/bull gear, tätning och sidokåpa, RTN samt slutligen filter/olja och avluftning efter installation.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.41, Assembly After A Complete Tear Down, punkt 1–11; PDF-sida 43",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-side-cover-sequence",
+      "statement": "Sidokåpans 16 skruvpositioner ska enligt figur 39 dras i nummerordning 1–16, inte runt kanten i valfri ordning.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.42, Figure 39 Screw tightening sequence diagram; PDF-sida 44",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-side-cover-torque",
+      "statement": "Sidokåpans skruvar, position 7 (1/4-20 × 1,25 tum), har 105–155 lb-in (11,87–17,52 Nm) åtdragningsmoment. Manualen rekommenderar som allmän regel den nedre delen av intervallet.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.22 Torque table, pos 7, samt s.42 Figure 39; PDF-sidor 24 och 44",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-section-screws-torque",
+      "statement": "Momenttabellen anger 450–550 lb-in (50,8–62,1 Nm) för mittsektionens skruvar, position 27, sexkant 3/8-16 × 1,5 tum. Får inte användas för sidokåpsskruvar.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.22, Required Torque Values, pos 27; PDF-sida 24",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-breather-and-charge-screws",
+      "statement": "Momenttabellen anger 180–240 lb-in (20,3–27,1 Nm) för avluftningsanslutning position 111 och 100–130 lb-in (11,3–14,7 Nm) för laddpumpens lockskruvar position 134.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.22, Required Torque Values, pos 111 och 134; PDF-sida 24",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -688,6 +751,7 @@
     "RTN- och bromsjusteringar är variant- och säkerhetskritiska. Samla OEM-specifika reglage-, broms- och säkerhetsrutiner innan någon publik steg-för-steg-instruktion skapas.",
     "Slå upp modellkodskombinationerna för laddpumpens kåpor och laddpumps-kit i tillverkarens BOM-styrda sprängskiss innan reservdelar beställs; figur 24 ger riktning, inte ordernummer.",
     "Verifiera faktisk modellkod, skruv-/kitnummer och OEM-säkerhetskrav före monteringsråd för bypass, svängskiva, bromskam eller mittsektion.",
-    "Drivaxeldelar och tätningar: verifiera full Hydro-Gear BOM-/seriekod samt online-sprängskiss före beställning; ZT-3200 har annat axelutförande än ZT-2800/3100."
+    "Drivaxeldelar och tätningar: verifiera full Hydro-Gear BOM-/seriekod samt online-sprängskiss före beställning; ZT-3200 har annat axelutförande än ZT-2800/3100.",
+    "Gör riktad jämförelse mellan P23/P24/P25 för sidokåpsmoment och tätning innan generella verkstadsinstruktioner publiceras; nu verifierade värden gäller uttryckligen P25."
   ]
 }
