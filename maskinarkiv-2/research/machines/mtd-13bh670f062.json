@@ -417,6 +417,27 @@
       "title": "Briggs & Stratton official IPL service number guidance",
       "document": "Manufacturer help 2026: engine-specific illustrated parts list, model identity and distinction between illustration reference number and service part numbers",
       "url": "https://www.briggsandstratton.com/en-us/support/faqs/find-part-number"
+    },
+    {
+      "id": "troybilt-oem-9180142c-spindle",
+      "tier": 1,
+      "title": "Troy-Bilt OEM Spindle Assembly 918-0142C",
+      "document": "OEM replacement chain 618-0142/A/C, 918-0142/A to 918-0142C, with manufacturer 42-inch deck and star shaft designation",
+      "url": "https://www.troybilt.com/en_US/spindles/spindle-assembly---5.75inch-dia.-pulley/918-0142C.html"
+    },
+    {
+      "id": "reliable-mtd-38-42-spindle-crossmodel",
+      "tier": 2,
+      "title": "Reliable Aftermarket MTD 38/42 spindle fitment",
+      "document": "Aftermarket spindle catalog list exact model 13BH670F062, six-point star, no pulley, and lists different pulleys for 38 and 42 inch decks",
+      "url": "https://www.reliableaftermarketparts.com/products/mom70-0109-spindle-assembly"
+    },
+    {
+      "id": "sten-ariens-9180142c-pulley-guide",
+      "tier": 2,
+      "title": "Stens 285-119 spindle specification via Ariens Nordic",
+      "document": "2026 dealer item sheet specifies 918-0142C spindle family, 38-inch pulley Stens 275-515 and 42-inch 275-519 and six-point star shaft",
+      "url": "https://www.ariens.se/product-pdf/create?products=17773"
     }
   ],
   "topics": {
@@ -450,7 +471,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning.\nFollow-up research: Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår. Sex tydligt avgränsade delar i 2000-års modellspecifika 38-tumsdäcklista: komplett 753-0694-0637, enhet 983-0129A-0637, rem 954-0329A, kniv 942-0610A, remskydd 783-0343A-0637 och stödhjul 734-06265. Tre oberoende kataloger anger Deck F men MTD:s XREF 2000 G kvarstår. Europeisk B/130 Deck F-delgrupp har överlapp i rem 754-0329A, kniv 742-0610, remskydd 783-0343A och aggregatbroms 783-0342. Komplett aggregat har däremot andra artikelnummer än Lowes 2000-index och får inte antas utbytbart. MTD:s egen modellkodguide anger F=38 och G=42 tum, vilket stämmer med 2001 XREF och modellspecifika IPL men inte med 2000 XREF som anger 42 Deck G. Katalogskillnaden påverkar dessutom hjul, säte och etiketter. 2024 guide ID 5513 beskriver åttonde tecknet som däckkod och äldre typ F 38 tum / G 42 tum; dagens bokstäver kan ha fler konstruktioner. Historisk modellkodguide F=38 tum G=42 tum från 1997 och framåt; 2000-XREF:s Deck G för F-modell är kvarstående motstridig tillverkaruppgift. Modellsökning utan år från Sears och AppliancePartsPros visar samtidigt F 38/G 42/H 46, vilket kan vara ett överinkluderande familjeregister; enskilda träffar är inte utförandebevis. MTD originaltillbehörsguide skiljer 38-tums 742-0610 två knivar 19-9/32 tum mot 42-tums 742-0616 två knivar 21-3/64 tum. Repair Clinic 2000 bekräftar separat 942-0610A som 19,38 tum 3-i-1 stjärncentrum och listar stödhjul 734-0973, där annat katalogindex anger 734-06265. Stödhjulsrelation okänd. OEM Cub Cadet bekräftar att 734-06265 ersätter 734-0973, oberoende bestyrkt av PartsTree; tidigare oklara nummerkedjan är utredd men monteringsvariant per serienummer fortsatt okänd. 46-tumsvarianten har särskild tvåremsprocedur, skild från 38-tums Deck F. 2000 och 2001 original-XREF kunde nu öppnas som PDF-text med exakta rader, men sidbilderna misslyckades fortfarande."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning.\nFollow-up research: Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår. Sex tydligt avgränsade delar i 2000-års modellspecifika 38-tumsdäcklista: komplett 753-0694-0637, enhet 983-0129A-0637, rem 954-0329A, kniv 942-0610A, remskydd 783-0343A-0637 och stödhjul 734-06265. Tre oberoende kataloger anger Deck F men MTD:s XREF 2000 G kvarstår. Europeisk B/130 Deck F-delgrupp har överlapp i rem 754-0329A, kniv 742-0610, remskydd 783-0343A och aggregatbroms 783-0342. Komplett aggregat har däremot andra artikelnummer än Lowes 2000-index och får inte antas utbytbart. MTD:s egen modellkodguide anger F=38 och G=42 tum, vilket stämmer med 2001 XREF och modellspecifika IPL men inte med 2000 XREF som anger 42 Deck G. Katalogskillnaden påverkar dessutom hjul, säte och etiketter. 2024 guide ID 5513 beskriver åttonde tecknet som däckkod och äldre typ F 38 tum / G 42 tum; dagens bokstäver kan ha fler konstruktioner. Historisk modellkodguide F=38 tum G=42 tum från 1997 och framåt; 2000-XREF:s Deck G för F-modell är kvarstående motstridig tillverkaruppgift. Modellsökning utan år från Sears och AppliancePartsPros visar samtidigt F 38/G 42/H 46, vilket kan vara ett överinkluderande familjeregister; enskilda träffar är inte utförandebevis. MTD originaltillbehörsguide skiljer 38-tums 742-0610 två knivar 19-9/32 tum mot 42-tums 742-0616 två knivar 21-3/64 tum. Repair Clinic 2000 bekräftar separat 942-0610A som 19,38 tum 3-i-1 stjärncentrum och listar stödhjul 734-0973, där annat katalogindex anger 734-06265. Stödhjulsrelation okänd. OEM Cub Cadet bekräftar att 734-06265 ersätter 734-0973, oberoende bestyrkt av PartsTree; tidigare oklara nummerkedjan är utredd men monteringsvariant per serienummer fortsatt okänd. 46-tumsvarianten har särskild tvåremsprocedur, skild från 38-tums Deck F. 2000 och 2001 original-XREF kunde nu öppnas som PDF-text med exakta rader, men sidbilderna misslyckades fortfarande. Tillverkaren anger spindel 918-0142C som ersättare för äldre 618-0142-varianter, produktpost 42 tum. Eftermarknad listar 13BH670F062 och 38/42 tum men separata remskivor för olika bredder; ingen universell monteringsgaranti."
     },
     "I": {
       "state": "gap",
@@ -2246,6 +2267,33 @@
       "grade": "A",
       "topic": "C",
       "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
+    },
+    {
+      "id": "mtd-spindle-oem-6180142-to-9180142c",
+      "topic": "H",
+      "statement": "Troy-Bilts originalreservdelssida anger att spindelenheten 918-0142C ersätter 618-0142, 618-0142A, 618-0142C, 918-0142 och 918-0142A. Tillverkarens aktuella produktpost anger 42-tumsaggregat och stjärnformad knivaxel; den bevisar inte ensam passform på den äldre Lowes-modellens 38-tums Deck F.",
+      "sourceId": "troybilt-oem-9180142c-spindle",
+      "locator": "Product 918-0142C, This part replaces entries and Specs: Deck Cutting Width 42 in; Spindle Shaft Pattern Star",
+      "grade": "A",
+      "variant": "Spindelfamilj för 600-series; OEM-lista specificerar 42 tum medan eftermarknad inkluderar 38-tums varianter, faktisk fysisk passform okänd"
+    },
+    {
+      "id": "mtd-spindle-aftermarket-exact-model-crossfit",
+      "topic": "H",
+      "statement": "Eftermarknadskatalogen Reliable Aftermarket Parts listar 13BH670F062 bland modellerna som en universell sexstjärnig spindelkropp (ersättningar i 618-0138 och 618-0142-familjerna) avses passa; spindeln säljs utan remskiva och har sex tum totalhöjd. En lista från eftermarknad är en potentiell ersättningsledtråd, inte fabriksidentifiering.",
+      "sourceId": "reliable-mtd-38-42-spindle-crossmodel",
+      "locator": "Models This Part Fits: 13BH670F062; Tech Info: 6 inch overall height, 6-point star, pulley not included",
+      "grade": "B",
+      "variant": "Spindelfamilj för 600-series; OEM-lista specificerar 42 tum medan eftermarknad inkluderar 38-tums varianter, faktisk fysisk passform okänd"
+    },
+    {
+      "id": "mtd-spindle-38-versus-42-pulley-requirement",
+      "topic": "H",
+      "statement": "Stens återförsäljarunderlag för spindelfamilj 918-0142C anger olika remskiveprodukter för 38-tumsdäck (Stens 275-515) och 42-tumsdäck (Stens 275-519). Detta visar varför en spindel utan rätt remskiva inte kan rekommenderas som komplett däckmontering oavsett att sexstjärnig knivanslutning är gemensam.",
+      "sourceId": "sten-ariens-9180142c-pulley-guide",
+      "locator": "Stens 285-119, 918-0142C, note 38-inch uses 275-515 spindle pulley and 42-inch uses 275-519, shaft six-point star",
+      "grade": "B",
+      "variant": "Spindelfamilj för 600-series; OEM-lista specificerar 42 tum medan eftermarknad inkluderar 38-tums varianter, faktisk fysisk passform okänd"
     }
   ],
   "gaps": [
@@ -2297,6 +2345,7 @@
     "Historisk MTD-modellkodguide med 1995-exempel bekräftar äldre engineering/lot-position; återstår att dokumentera en faktisk komplett typskylt och eventuell revisionsförändring för 13BH670F062 runt 2000–2001.",
     "För 13BH670F062: avgör vilken reservdelssidas ritningsuppsättning som är modellårsspecifik och vilken som är familjeövergripande. G- och H-träffar i odaterad Sears/AppliancePartsPros-portal får inte ses som fabriksutrustningsbevis.",
     "Verifiera faktiskt motormodell/type/code på ett 13BH670F062-exemplar och original-/ersättningsförgasare samt startmotorns ringdrev innan motorreservdelar rekommenderas; Briggs 28T707-1154-E1 har koddatums- och utförandespecifika delar.",
-    "Identifiera vilket av de minst tre kabelstamsutförandena 629-0301E, 629-0207 eller 929-0302E som faktiskt satt i 13BH670F062 med relevant serienummer, och erhåll originalkopplingsschema inklusive säkerhetskrets före elektriska felsökningsråd."
+    "Identifiera vilket av de minst tre kabelstamsutförandena 629-0301E, 629-0207 eller 929-0302E som faktiskt satt i 13BH670F062 med relevant serienummer, och erhåll originalkopplingsschema inklusive säkerhetskrets före elektriska felsökningsråd.",
+    "Fastställ fabriksmonterat spindelnummer och remskivans diameter/fästmått på 13BH670F062:s faktiska Deck F eller G; skilj tillverkarens 42-tums 918-0142C-utförande från eftermarknadslistor som omfattar 38/42 tum."
   ]
 }
