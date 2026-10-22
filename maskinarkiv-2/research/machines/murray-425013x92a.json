@@ -37,7 +37,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-030768L, Steering tryckt sida 6, ger individuella delnummer för ratt, styrväxel, framaxel, spindlar, styrstag och hjullager; observera suffixskillnader mot 425014X92B."
     },
     "F": {
       "name": "Reglage",
@@ -201,6 +201,138 @@
       "grade": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel",
+      "statement": "Katalogen listar Ratt 094134.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-post",
+      "statement": "Katalogen listar Styrstång 690625.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-pinion",
+      "statement": "Katalogen listar Styrpinjong 690183.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 7",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-sector",
+      "statement": "Katalogen listar Styrsektor 094121.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-plate",
+      "statement": "Katalogen listar Styrplåt 1001121E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-left-spindle",
+      "statement": "Katalogen listar Vänster styrspindel 094576E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 21",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-front-axle",
+      "statement": "Katalogen listar Framaxel 1001460E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 26",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-left-drag",
+      "statement": "Katalogen listar Vänster styrstag 095329E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-right-spindle",
+      "statement": "Katalogen listar Höger styrspindel 094575E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-right-drag",
+      "statement": "Katalogen listar Höger styrstag 095328E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-bearing",
+      "statement": "Katalogen listar Hjullager 091334.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel-assembly",
+      "statement": "Katalogen listar Hjul-/däckenhet 094579-601.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -209,6 +341,7 @@
     "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
-    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
+    "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll."
   ]
 }
