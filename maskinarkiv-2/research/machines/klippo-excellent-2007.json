@@ -340,6 +340,20 @@
       "url": "https://www.reservdelaronline.se/produkter/woodruffkil-5044605-01-25mm-axel",
       "document": "ReservdelarOnline 5044605-01 key 25mm shaft",
       "tier": 2
+    },
+    {
+      "id": "oem-excellent-s-2013-2015-ipl",
+      "tier": 1,
+      "title": "KLIPPO EXCELLENT S Reservdelskatalog 2013–2015",
+      "document": "Manufacturer-authored ten-page Excellent S parts catalogue, engine p4, gearbox p6, chassis p8, handle p10",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Grasklippare/Excellent-S/Excellent-S-20132015.pdf"
+    },
+    {
+      "id": "oem-klippo-driven-2013-04-om",
+      "tier": 1,
+      "title": "KLIPPO 2013-04 operator manual Excellent SH/S, Comet S/SH/SE, Pro19 SH",
+      "document": "Manufacturer Swedish original operating manual, presentation pp3-5, blade maintenance sections",
+      "url": "https://cdn.toolpal.se/catalog/66db00eef4255a378bae3f17/sv/Bruksanvisning-Klippo-ExcellentSH-Grasklippare.pdf"
     }
   ],
   "topics": {
@@ -2277,6 +2291,141 @@
       "topic": "J",
       "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
       "grade": "B"
+    },
+    {
+      "id": "exs1315-ipl-gearbox-585192601",
+      "statement": "Originalkatalogen märkt Excellent S 2013–2015 anger komplett transmissionssats 585192601 som växellådsref 1 (överordnad sats, antal 0) samt chassisref 22 (antal 1). Återförsäljarens 2013-02-lista anger 585192603, och något fabrikantbesked om utbytbarhet saknas.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL, gearbox s6 ref1 och chassis s8 ref22",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "exs1315-ipl-gearbox-cover",
+      "statement": "Originalkatalog 2013–2015 anger växellådskåpa 578265502 i position 3 och växelhus 578342802 i position 10.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL, gearbox s6 refs3,10",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "exs1315-ipl-gearbox-pulley",
+      "statement": "Originalkatalog 2013–2015 anger remskiva 578771101 ref 6 samt remskiveenhet 503323002 ref 8; 578771101 skiljer sig från säljarlistans 587235401.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL gearbox s6 refs6,8",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "exs1315-ipl-gearbox-worm",
+      "statement": "Originalkatalog 2013–2015 anger snäckväxelenhet 503328105 ref 31 samt remskivesats 585514402 ref 32. Katalogen styrker inte direkt ersättning till säljarlistans 586467101.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL gearbox s6 refs31–32",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "exs1315-ipl-gearbox-belt",
+      "statement": "Originalkatalog 2013–2015 anger växellådsrem 589571001 ref19, kit 5254799-01. Den hålls åtskild från motorgruppens rem 589571101.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL gearbox s6 ref19 och motor s4 ref6",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "exs1315-ipl-engine-drive",
+      "statement": "Originalkatalog 2013–2015 listar Briggs & Stratton-motor B&S 126T026706H1 ref3, rem 589571101 ref6 samt knivfäste 502872201 ref8; motorkoden gäller dokumentets angivna utförande.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL engine s4 refs3,6,8",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "exs1315-ipl-two-blades",
+      "statement": "Originalkatalog 2013–2015 listar mulcherkniv 502881310 ref11 och Cross-Cut-kniv 502881710 ref12, antal ett vardera.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL engine s4 refs11–12",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "exs1315-ipl-engine-blade-bolt",
+      "statement": "Originalkatalog 2013–2015 anger fiberbricka 503259401 ref10, fjäderbricka 503332501 ref13 och knivbult 504456402 ref14. Katalogtexten fastställer inte fysisk ordning mellan knivarna.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL engine s4 refs10,13,14",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "exs1315-ipl-belt-guard-kit",
+      "statement": "Originalkatalog 2013–2015 listar motorgruppens remkåpa 586944101 ref16 med fyra fästskruvar 502435201 ref17.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL engine s4 refs16–17",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "exs1315-ipl-two-decks",
+      "statement": "Originalkatalog 2013–2015 har två alternativa chassin på ref21: 505438701 utan hål för remskydd, 505438704 med hål. Detta är två utföranden, inte två chassin per maskin.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL chassis s8 ref21, villkor med/utan hål",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "exs1315-ipl-handle-cable",
+      "statement": "Originalkatalog 2013–2015 anger övre handtag 502907403 ref5, handtagsbussning 503320901 ref3 och kabel 585402004 ref9.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL handle s10 refs3,5,9",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "exs1315-ipl-front-axle",
+      "statement": "Originalkatalog 2013–2015 anger framaxel 503269201 ref40, drivaxel 502873801 ref41 och två främre fästen 504463801 ref37.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013–2015 OEM IPL chassis s8 refs37,40,41",
+      "sourceId": "oem-excellent-s-2013-2015-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "exs2013-om-crosscut-model-bound",
+      "statement": "Klippos originalbruksanvisning för 2013 anger Cross-Cut för Excellent S, Excellent SH, Comet S/SH/SE. Samma manual beskriver Pro 19 SH separat med mulcherkniv men inte Cross-Cut.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013-04 OM sv s3, presentation egenskaper; s4–5 figurlegender",
+      "sourceId": "oem-klippo-driven-2013-04-om",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "exs2013-om-crosscut-legend",
+      "statement": "Klippos originalmanual visar i presentationsfigurens legend knivfäste som del 18, knivbult 19, mulcherkniv 20 och Cross-Cut-kniv 22. Detta är maskinens översiktsfigur och inte ett bevis på fysisk monteringsordning.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013-04 OM sv s4, figurlegend punkter 18–22",
+      "sourceId": "oem-klippo-driven-2013-04-om",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "exs2013-om-pro19sh-difference",
+      "statement": "I samma 2013-originalmanual listas Pro 19 SH med separat figurlegend: knivfäste punkt 20, knivbult 21 och mulcherkniv 22. Manualen är därför stöd för familjeskillnad, inte för samma skärutrustning.",
+      "variant": "KLIPPO Excellent S 2013–2015 OEM IPL / Klippo 2013-04 OEM bruksanvisning (specificerade modeller)",
+      "locator": "2013-04 OM sv s5, Pro 19 SH figurlegend",
+      "sourceId": "oem-klippo-driven-2013-04-om",
+      "grade": "A",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -2312,6 +2461,7 @@
     "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
     "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår.",
     "Särskilj knivfäste från knivbussning: korslistan kallar 503259901 knivbussning 26,5 mm. Tidigare generisk återförsäljartext och implicit komplettering av monteringssats behöver kontrolleras mot OEM-figurer.",
-    "Separata Ø22 mm och Ø25 mm-knivfästen och olika 3/8 UNF/M10-bultsatser dokumenterade av återförsäljare. Kontrollera exakt motoraxel, kilspår, infästningsdjup och knivstapel på individ/PNC innan rekommendation."
+    "Separata Ø22 mm och Ø25 mm-knivfästen och olika 3/8 UNF/M10-bultsatser dokumenterade av återförsäljare. Kontrollera exakt motoraxel, kilspår, infästningsdjup och knivstapel på individ/PNC innan rekommendation.",
+    "NY ORIGINALKÄLLKONFLIKT: 2013–2015 OEM-IPL anger transmission 585192601, remskiva 578771101, snäckväxel 503328105 och handtagsbussning 503320901; återförsäljarens 2013-02-lista anger 585192603, 587235401, 586467101 och 503320902. Klarlägg dokumentets giltighets-/revisionsdatum och PNC/serienummer före rekommendation."
   ]
 }
