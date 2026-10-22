@@ -53,6 +53,13 @@
       "title": "STIGA Villa 12 HST 2010 13-2729-14 illustrated parts listing",
       "document": "STIGA 13-2729-14, machine-specific parts list; 46 pages, compiled August 2022",
       "url": "https://www.sandbysmeden.dk/wp-content/uploads/2022/08/13-2729-14-Stiga-Villa-12-HST-2010.pdf"
+    },
+    {
+      "id": "tt-external-expansion-oil",
+      "tier": 1,
+      "title": "Tuff Torq Tech Tips – Residential IHT with External Expansion Tank Oil Maintenance",
+      "document": "Tuff Torq K46 oil maintenance, external expansion tank variant, manufacturer's online instructions",
+      "url": "https://www.tufftorq.com/tuff-torq-k46-oil-maintenance/"
     }
   ],
   "topics": {
@@ -361,6 +368,42 @@
       "sourceId": "stiga-villa12-2010-k46cj-ipl",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "k46-external-tank-distinct-procedure",
+      "statement": "Tuff Torq publicerar en separat oljeserviceanvisning för Residential IHT med EXTERN expansionstank; den ska inte sammanblandas med guiden för interna reservoarer eller tillskrivas K46CJ utan kontroll av aktuell enhets konstruktion.",
+      "variant": "Tuff Torq Residential IHT (K46) med extern expansionstank, ej fastställt för STIGA K46CJ",
+      "locator": "Sidtitel och 'Maintenance Overview', stycke 1–2",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-external-tank-heavy-duty-interval",
+      "statement": "För K46 med extern expansionstank anger Tuff Torq vid hård användning oljebyte efter första 50 drifttimmarna och därefter var 200:e drifttimme. Intervallet får inte tillämpas på andra K46-utföranden utan belägg.",
+      "variant": "Tuff Torq Residential IHT med extern expansionstank och hård användning",
+      "locator": "Maintenance Overview, stycke om 'In heavy usage applications'",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-external-tank-filter-caveat",
+      "statement": "I anvisningen för extern expansionstank anges att filtret normalt inte behöver bytas om transaxeln inte demonterats och öppnats för reparation; detta gäller den anvisningens konstruktion.",
+      "variant": "Tuff Torq Residential IHT med extern expansionstank",
+      "locator": "Maintenance Overview, samma stycke om filterbyte",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-external-tank-purge-recheck",
+      "statement": "Tuff Torq instruerar för extern expansionstank att systemet avluftas efter återmontering och att oljevolymen efterjusteras via tanköppningen till nivå enligt figur 2; figurbunden nivå är inte angiven som generellt K46CJ-värde.",
+      "variant": "Tuff Torq Residential IHT med extern expansionstank",
+      "locator": "Maintenance Overview, sista stycket och Figure #2",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -370,6 +413,7 @@
     "Skilj K46CJ i STIGA Villa från andra K46-varianter och gör ingen universell passformsbedömning.",
     "Föreslagna artikelnummer i ospecificerade K46-parts-listor får inte överföras till K46CJ innan Ordertree ger exakt Manufacturing ID/serial match.",
     "STIGA:s interna K46CJ-reservdelsnummer från 13-2729-15 behöver kontroll mot transmissionsetikett/serienummer, senare artikelersättningar och maskinens identifieringsskylt före beställning.",
-    "Kontrollera om STIGA:s senare servicekod 9585-0212-01 ersätter, kompletterar eller bara är alternativ till originalkatalogens 9585-0099-01 innan köpguide rekommenderar någon av dem."
+    "Kontrollera om STIGA:s senare servicekod 9585-0212-01 ersätter, kompletterar eller bara är alternativ till originalkatalogens 9585-0099-01 innan köpguide rekommenderar någon av dem.",
+    "Fastställ med original-ID och visuell identifikation om aktuell STIGA K46CJ har intern behållare eller extern expansionstank innan något serviceintervall från extern-tank-guiden används."
   ]
 }
