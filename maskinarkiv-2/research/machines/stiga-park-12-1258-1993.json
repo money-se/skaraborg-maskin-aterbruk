@@ -29,8 +29,8 @@
     {
       "id": "stiga-cybercat-peerless-846-1992",
       "tier": 2,
-      "title": "CyberCat-STIGA printed parts list for Tecumseh Peerless Transaxle 846",
-      "document": "Stiga 1992 Gearboxes: TECUMSEH PEERLESS TRANSAXLE 846, position 72",
+      "title": "Äldre CyberCat-STIGA-katalog för Peerless 846 – tidigare felaktigt tolkat källspår",
+      "document": "Tidigare angiven 1992-url kunde ej återverifieras (404); får inte användas som belägg för P000-7880-69 på 846 pos.72.",
       "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1992%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+846.pdf"
     },
     {
@@ -506,11 +506,11 @@
     {
       "id": "p12-1258-93-seal-72-cybercat-variant",
       "topic": "K",
-      "statement": "En separat publicerad CyberCat-STIGA parts list för Tecumseh Peerless 846 anger på position 72 tätning P000-7880-69. Två STIGA-modelldelkataloger anger i stället P000-780-69 på samma position. P000-7880-69 är därför en stark kandidat till korrekt kod, men skillnaden i tryckt artikelnummer kvarstår och köp måste föregås av oberoende leverantörsbekräftelse.",
+      "statement": "Tidigare tolkning av CyberCat-STIGA som direkt belägg för tätning P000-7880-69 på Peerless 846 position 72 är INTE säkerställd. Den granskade 1991-katalogen för 846/801-046 listar i stället fäste P000-7860-86 på position 72, medan STIGA 1993-katalogen för Park 12 13-1258-16 listar tätning P000-780-69 på position 72. Positionsnummer är katalogspecifika, så likställ inte posterna. Peerless basnummer 788069 existerar som tätning i andra modeller, men tillämplighet för 846 är inte styrkt.",
       "variant": "Peerless 846 STIGA 1992 parts listing jämfört med STIGA Park 12 13-1258-16 och Park 12HST 13-1358-15 katalogutgåvor 2014",
-      "grade": "B",
+      "grade": "C",
       "sourceId": "stiga-cybercat-peerless-846-1992",
-      "locator": "STIGA CyberCat, Peerless 846, pos.72; jämför båda modell-IPLs pos.72"
+      "locator": "1991 CyberCat 846/801-046 PDF sida 3 position 72 (Bracket P000-7860-86); jämför STIGA 13-1258-16 1993 PDF s.13 pos.72 (Seal P000-780-69)"
     },
     {
       "id": "p12-1258-93-needle-30-variant",
@@ -556,6 +556,15 @@
       "grade": "B",
       "sourceId": "peerless-reference-guide-2026",
       "locator": "RBI Peerless Reference Guide, p.166, Part # 788069"
+    },
+    {
+      "id": "p12-1258-93-seal-pos72-cross-edition-correction",
+      "topic": "K",
+      "statement": "År 1991:s STIGA CyberCat-samkatalog Peerless 846/801-046 listar position 72 som 'Bracket' P000-7860-86 för båda modellerna. STIGA:s modellbundna Park 12 1993-katalog listar däremot position 72 som 'Seal' P000-780-69. Därför är position 72 inte konstant mellan katalogutgåvorna och kan inte användas för artikelkorsning utan explicit modell och källversion.",
+      "variant": "Dokumenterad katalogskillnad, Peerless 846 1991 kontra Park 12 1993; inte beställnings- eller ersättningsrekommendation",
+      "grade": "A",
+      "sourceId": "stiga-cybercat-peerless-846-801046-1991",
+      "locator": "CyberCat 1991 sid 3 pos 72; STIGA Park 12 13-1258-16 1993 sid 13 pos 72"
     }
   ],
   "gaps": [
@@ -572,6 +581,7 @@
     "Tätning P000-780-69 i STIGA:s tryckta originaltabell har avvikande nummerlängd; kontrollera mot annan originalpartslista före beställning.",
     "Två STIGA-kataloger upprepar P000-780-69 på 846 pos.72. Hitta Tecumseh/Peerless-original 846 delarlista eller leverantörskorsreferens som verifierar faktiskt beställningsnummer; förväxla inte med 780069 från annan modell.",
     "Bekräfta P000-7880-69 (CyberCat) mot oberoende Tecumseh/Peerless fabrikantlistning och fysisk tätning; två STIGA modell-IPLs anger P000-780-69. Inget nummer ska deklareras som slutligt beställningssäkert ännu.",
-    "Verifiera tätningsnummer 788069/P000-7880-69 på exakt Peerless 846 via fristående 846 tillverkarlista; RBI-guidens delnummer saknar 846-/positionsspecifik koppling."
+    "Verifiera tätningsnummer 788069/P000-7880-69 på exakt Peerless 846 via fristående 846 tillverkarlista; RBI-guidens delnummer saknar 846-/positionsspecifik koppling.",
+    "KORRIGERING: Från 1991 års Peerless 846/801-046-katalog är pos.72 fäste P000-7860-86, inte en tätning. Fastställ tätningens artikelnummer i en OBEROENDE 846-delversion med samma års-/versionsidentitet; tidigare P000-7880-69-tolkning är inte bekräftad."
   ]
 }
