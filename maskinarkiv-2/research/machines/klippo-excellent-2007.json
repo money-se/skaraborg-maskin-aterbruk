@@ -1668,6 +1668,96 @@
       "sourceId": "wolfswinkel-excellent-s-2012-96522780208-live",
       "grade": "B",
       "topic": "A"
+    },
+    {
+      "id": "ex-om08-crosscut-system",
+      "statement": "2008 års KLIPPO-originalmanual skiljer Excellent från Champion/Pro 19 genom att ange mulcherkniv tillsammans med Cross-Cut-kniv för Excellent-modellerna (bild 6).",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivsystem, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "ex-om08-mulcher-delivery",
+      "statement": "Originalmanualen 2008 anger att mulcherinsatsen levereras monterad på Excellent.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Mulcherinsats, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "ex-om08-mulcher-fastening",
+      "statement": "Originalmanualen 2008 anger två skruvar från klippkåpans övre bakkant vid demontering/montering av mulcherinsats på Excellent.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Mulcherinsats, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ex-om08-crosscut-flywheel",
+      "statement": "2008-originalmanualen anger att kniven även fungerar som svänghjul och kan ge ojämn motorgång, svårstart eller baktändning om den slirar; detta är en tillverkarbeskriven symptomkoppling.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivbyte, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "ex-om08-blade-alignment",
+      "statement": "2008-originalmanualen anger markering på knivfästet mot knivens sida för att motverka vibrationer och beskriver fjäderbricka/friktionsbricka.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivsystem/knivbyte, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ex-om08-plug-gap",
+      "statement": "2008-originalmanualen anger 0,7–0,8 mm som kontrollmått för tändstiftets elektrodavstånd vid startproblem i omfattade Excellent-motorer.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Felsökning, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "ex-om08-airfilter-quantum",
+      "statement": "Briggs Quantum-luftfilter enligt 2008 KLIPPO-originalmanual: rengör med knackning var tredje månad/25 timmar, oftare i damm, ingen olja eller tryckluft; avser Quantum-varianter, inte Honda.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Luftrenarservice Quantum, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ex-om08-honda-airfilter",
+      "statement": "För Honda GCV135 Excellent GCV anger 2008 års originalmanual luftfilterkontroll var tredje månad/25 arbetstimmar samt rengöring med försiktig knackning, utan oljning eller tryckluft.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Luftrenarservice Honda GCV135, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ex-om08-oil-frequency",
+      "statement": "2008-originalmanualen föreskriver första oljebyte efter 5 drifttimmar och senare efter 25; omfattning måste bindas till motorversion innan nutida servicebesked.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Inkörning och första oljebytet, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ex-om08-height",
+      "statement": "2008 års manual anger gemensam justering av hjulen med en spak och 3–6 cm klipphöjd i den normala Excellent-modellgruppen.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Inställning av klipphöjden, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1695,6 +1785,7 @@
     "Excellent S originalreservdelskatalog 2012 är textavläst men sprängskissens bildkontroll misslyckades; PNC/serienummer saknas i extraherad omslagsinformation. Koppla inte monteringsdetaljerna direkt till Excellent 965227602 utan originalkontroll.",
     "Excellent S 2013 reservdelsrevisionsjämförelse indikerar nya växellådsdelar, chassivariant med/utan remskydd och ändrat knivstöd, men 2012-originalkatalogens PNC och fysiska kompatibilitetsgränser måste verifieras innan någon ersättningsmatris får godkännas.",
     "Klippo Excellent S 2012-06 anges 96522780208 i två återförsäljarlistor men ursprungligt IPL-omslag måste granskas innan PNC fastställs som OEM A. Växellåda 578266601 till 585192603 saknar dokumenterad tillverkarsupersession.",
-    "VIKTIG KÄLLKONFLIKT: 2012 års original-IPL har växellådsdelarna 578771101, 503323201, 503328101 men Wolfswinkels aktuella 2012-06-lista anger 587235401, 503323002, 586467101; fastställ när och varför säljarlistan uppdaterats innan 2013 anges som faktisk konstruktionsändringsgräns."
+    "VIKTIG KÄLLKONFLIKT: 2012 års original-IPL har växellådsdelarna 578771101, 503323201, 503328101 men Wolfswinkels aktuella 2012-06-lista anger 587235401, 503323002, 586467101; fastställ när och varför säljarlistan uppdaterats innan 2013 anges som faktisk konstruktionsändringsgräns.",
+    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd."
   ]
 }
