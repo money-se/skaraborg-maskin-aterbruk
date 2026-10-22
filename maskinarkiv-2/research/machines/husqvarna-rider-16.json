@@ -200,6 +200,20 @@
       "title": "Husqvarna Rider 16 Operator's Manual 2000-11 (English)",
       "document": "101 91 33-95, 2000-11, Husqvarna original operator manual",
       "url": "https://content.tdr.dss.husqvarnagroup.net/pub000015162/doc000034757"
+    },
+    {
+      "id": "rider16-2002-wolfswinkel-103-deck",
+      "tier": 2,
+      "title": "Wolfswinkel – Rider 16 2002-02 103 cm parts group",
+      "document": "RIDER 16 2002-02, 103 cm mower deck parts listing (live retailer diagram)",
+      "url": "https://www.wolfswinkel.at/ersatzteil-zeichnungen/husqvarna/aufsitzrasenm%C3%A4her/reiter/benzin/ansonsten/rider-16/reiter-16-2002-02"
+    },
+    {
+      "id": "rider16-bio103-589533701-seller",
+      "tier": 3,
+      "title": "Motorsågsbutiken – 5895337-01 BioClip 103 belt reference",
+      "document": "Kuggrem 103cm Bioclip 5895337-01, marketed as replaces 5310075-87, 2000 x 25 mm",
+      "url": "https://www.xn--motorsgsbutiken-mlb.se/sv/mb/kuggrem-103cm-bioclip"
     }
   ],
   "topics": {
@@ -1417,6 +1431,24 @@
       "sourceId": "husqvarna-rider16-2000-11-owner-english",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "rider16-2002-103-deck-parts-crossreference",
+      "statement": "Wolfswinkels katalogvy för Rider 16 revision 2002-02 placerar 535410602 (yttre knivhus), 535410601 (mittre knivhus), 531007585 (knivsats) och 589533701 (tandrem) i samma 103 cm-reservdelsgrupp. Den nutida vyn kan innehålla ersättningsartiklar och är inte bevis för att numren samtliga fanns vid tillverkningen 2002.",
+      "variant": "Rider 16 återförsäljarkatalog 2002-02, 103 cm-aggregat, PNC saknas",
+      "locator": "Wolfswinkel RIDER 16 2002 Feb > 103 cm mähdeck > parts list 535410602, 535410601, 531007585, 589533701",
+      "sourceId": "rider16-2002-wolfswinkel-103-deck",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-bio103-belt-589533701-retailer-lead",
+      "statement": "Återförsäljare säljer 589533701 som 103 cm BioClip-tandrem (uppgivet mått 2000 × 25 mm) och uppger att den ersätter 531007587, med Rider 16 2001-01, 2002-02 och 2003-01 i passformslistan. Detta är en sekundär ersättningsledtråd, inte ett bekräftat Husqvarna-besked eller universell passform.",
+      "variant": "BioClip 103, 2001–2003 enligt återförsäljare, exakt aggregat-PNC ej identifierat",
+      "locator": "Motorsågsbutiken 'Kuggrem 103cm Bioclip' > Artnr 5895337-01; Längd 2000 mm; Bredd 25 mm; Ersätter 5310075-87; Passar bl.a. RIDER 16 2001–2003",
+      "sourceId": "rider16-bio103-589533701-seller",
+      "grade": "C",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1477,6 +1509,8 @@
     "Husqvarna Genuine Parts-katalogen styrker två skilda knivsatser för BioClip 90: Rider 16 531007586, Rider 16 H 531007525; fråga om kompatibilitet, ersättning och aggregat-PNC kvarstår.",
     "Originalkatalogens PDF är stor och webbsidan kunde inte öppnas för skärmbild. Maskin-/knivuppgifter har kontrollerats mot Husqvarnas sökindexerade tabell, men sidbild/figurer kräver separat visuell kontroll.",
     "2000-11 Rider 16 OM dokumenterar BioClip 103 med två synkroniserande remmar; senare 2002 OM benämner tvåremsutförandet version 2. Koppla inte enstaka produktionsår eller knivhusrevisioner till en viss remversion utan komplett PNC.",
-    "Rider 16-manualerna 2000 och 2002 ger serviceinstruktioner men inte ett komplett separat aggregat-PNC. Originalritning och produktetikett krävs för precis passform."
+    "Rider 16-manualerna 2000 och 2002 ger serviceinstruktioner men inte ett komplett separat aggregat-PNC. Originalritning och produktetikett krävs för precis passform.",
+    "Wolfswinkels 2002-02 reservdelsvy kan visa aktuella supersession-artikelnummer i en gammal kataloggrupp. Kontrollera originalutgåvans nummer för 535410602, 535410601, 531007585 och 589533701.",
+    "Ersättningsrelationen 531007587 → 589533701 för BioClip 103 är endast återförsäljarstödd. Verifiera med Husqvarnas officiella artikelhistorik och aggregat-PNC innan praktiskt råd."
   ]
 }
