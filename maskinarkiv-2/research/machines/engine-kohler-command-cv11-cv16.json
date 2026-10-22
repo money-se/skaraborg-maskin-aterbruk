@@ -65,7 +65,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up 2026-10-22: Originalmått för 87/90 mm cylindergrupper, ringspel och ventilspel finns men de är verkstadsmått med angiven grupp och mätmetod, inte en generell reparationsorder."
     },
     "I": {
       "state": "gap",
@@ -1321,6 +1321,141 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "kohler-bore-new-small-87mm",
+      "statement": "Kohler TP-2339-D anger ny cylinderdiameter 87,000–87,025 mm för CV11–14/CV460–465. Detta är motorgruppens nominella cylinderlopp vid verkstadskontroll, inte samma mått som CV15–16.",
+      "variant": "CV11–14 och CV460–465",
+      "locator": "Section 1, printed p.1.9, PDF index 10, Cylinder Bore I.D. New",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-bore-new-large-90mm",
+      "statement": "Kohler TP-2339-D anger ny cylinderdiameter 90,000–90,025 mm för CV15–16/CV490–495; detta skiljer sig från 87 mm-gruppen.",
+      "variant": "CV15–16 och CV490–495",
+      "locator": "Section 1, printed p.1.9, PDF index 10, Cylinder Bore I.D. New",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-bore-wear-limit-small",
+      "statement": "Kohler TP-2339-D anger maximal tillåten cylinderdiameter vid slitage 87,063 mm för CV11–14/CV460–465. Över gränsen krävs bedömning av cylinderrenovering enligt Section 10.",
+      "variant": "CV11–14 och CV460–465",
+      "locator": "Section 1, printed p.1.9, PDF index 10, Cylinder Bore Max. Wear Limit",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-bore-wear-limit-large",
+      "statement": "Kohler TP-2339-D anger maximal tillåten cylinderdiameter vid slitage 90,063 mm för CV15–16/CV490–495.",
+      "variant": "CV15–16 och CV490–495",
+      "locator": "Section 1, printed p.1.9, PDF index 10, Cylinder Bore Max. Wear Limit",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-bore-max-taper-round",
+      "statement": "Kohler TP-2339-D anger maximal ovalitet i cylinderlopp 0,12 mm och maximal konicitet 0,05 mm. Måtten är separata från gräns för total diameter och måste mätas i flera riktningar.",
+      "variant": "CV11–16/CV460–465/CV490–495 enligt cylinderborrningstabell",
+      "locator": "Section 1, printed p.1.9, PDF index 10, Max. Out-of-Round / Max. Taper",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cylinder-oversizes-008-025-050",
+      "statement": "Kohler TP-2339-D beskriver renoveringsöverdimensionerna +0,08 mm, +0,25 mm och +0,50 mm med tillhörande kolv-/kolvringsutföranden; val görs först efter cylinderuppmätning.",
+      "variant": "CV11–16/CV460–465/CV490–495 efter behov av cylinderbearbetning",
+      "locator": "Section 10, printed p.10.3, PDF index 112, Inspection and Service",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cylinder-hone-crosshatch-23-33",
+      "statement": "Kohler TP-2339-D anger att korrekt honingskryss bör skära cirka 23–33 grader från horisontalplanet och att cylindermått kontrolleras under arbetet; fel vinkel kan påverka kolvringsslitage och oljeförbrukning.",
+      "variant": "CV11–16/CV460–465/CV490–495, honingsprocedur",
+      "locator": "Section 10, printed p.10.3, PDF index 112, Honing",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-ring-endgap-new-used",
+      "statement": "Kohler TP-2339-D anger ändgap för de två övre kolvringarna 0,30–0,50 mm i nytt cylinderlopp och maximalt 0,77 mm i använt cylinderlopp. Ringarna ska provas på sin löpyta före montage.",
+      "variant": "CV11–16/CV460–465/CV490–495, två övre kolvringar",
+      "locator": "Section 10, printed p.10.10, PDF index 119, piston ring end gap",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-top-ring-side-clearance-small",
+      "statement": "Kohler TP-2339-D anger sidospel för översta kompressionsringens spår 0,034–0,100 mm för CV11–14/CV460–465.",
+      "variant": "CV11–14/CV460–465",
+      "locator": "Section 10, printed p.10.10, PDF index 119, Top Compression Ring-to-Groove Side Clearance",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-top-ring-side-clearance-large",
+      "statement": "Kohler TP-2339-D anger sidospel för översta kompressionsringens spår 0,060–0,105 mm för CV15–16/CV490–495.",
+      "variant": "CV15–16/CV490–495",
+      "locator": "Section 10, printed p.10.10, PDF index 119, Top Compression Ring-to-Groove Side Clearance",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-middle-ring-side-clearance-sizes",
+      "statement": "Kohler TP-2339-D anger sidospel för mellersta kompressionsringen 0,040–0,080 mm på CV11–14/CV460–465 och 0,040–0,085 mm på CV15–16/CV490–495. Värdena är inte samma som för översta ringen.",
+      "variant": "CV11–14/CV460–465 respektive CV15–16/CV490–495",
+      "locator": "Section 10, printed p.10.10, PDF index 119, Middle Compression Ring-to-Groove Side Clearance",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-guide-intake-clearance",
+      "statement": "Kohler TP-2339-D anger löpspel mellan insugsventilstam och styrning 0,038–0,076 mm samt maximal invändig styrningsdiameter 7,134 mm. Måtten gäller insug, inte avgas.",
+      "variant": "CV11–16/CV460–465/CV490–495, insugsventilstyrning",
+      "locator": "Section 10, printed p.10.8, PDF index 117, Valve Guides",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-guide-exhaust-clearance",
+      "statement": "Kohler TP-2339-D anger löpspel mellan avgasventilstam och styrning 0,050–0,088 mm samt maximal invändig styrningsdiameter 7,159 mm. Måtten skiljer sig från insugsventilens.",
+      "variant": "CV11–16/CV460–465/CV490–495, avgasventilstyrning",
+      "locator": "Section 10, printed p.10.8, PDF index 117, Valve Guides",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-guide-oversize-ko1026",
+      "statement": "Kohler TP-2339-D anger att de fast monterade ventilstyrningarna kan brotschas +0,25 mm med verktyg KO1026, varefter ventiler med +0,25 mm överdimensionerade stammar måste användas. Guiden tas inte ur cylinderhuvudet.",
+      "variant": "CV11–16/CV460–465/CV490–495, ventilstyrningsrenovering",
+      "locator": "Section 10, printed p.10.8, PDF index 117, Valve Guides",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-stem-seal-replacement",
+      "statement": "Kohler TP-2339-D anger tätning på insugsventilstammen och ibland även avgasventilen, beroende på motorutförande. Gamla tätningar ska inte återanvändas när ventiler demonterats.",
+      "variant": "CV11–16/CV460–465/CV490–495, avgasventilens tätning kan saknas",
+      "locator": "Section 10, printed p.10.8, PDF index 117, Valve Stem Seals",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1354,6 +1489,7 @@
     "Regulator och maxvarv: 3750 rpm är endast generell maxrekommendation för de flesta motorer; faktisk maskin-OEM anger gränsen. Innan serviceartikel krävs exakt typ av reglagefäste, regulatorfjäder, Spec. No. och varvtalsmätning.",
     "Förgasarkatalog: inga specifikationsbundna kompletta Walbro-/Nikki-förgasarnummer eller munstyckssatser har fastställts. Kontrollera förgasarfabrikat, chokeversion, emissionsbegränsning och Spec. No. före beställning eller demontering.",
     "Elfelsökning: laddningssystemets faktiska 15 A, 3 A/70 W eller bromsstatorutförande måste identifieras med motorns Spec. No., kablage och maskinschema innan provets spänning, varvtal eller resistansvärden används.",
-    "Symptomtabeller och tändstiftsbilder i TP-2339-D är differentialdiagnostik, inte bevis för ett fel; bekräfta bränslesystem, tändsystem, kompression och aktuell maskins säkerhetskretsar innan åtgärd."
+    "Symptomtabeller och tändstiftsbilder i TP-2339-D är differentialdiagnostik, inte bevis för ett fel; bekräfta bränslesystem, tändsystem, kompression och aktuell maskins säkerhetskretsar innan åtgärd.",
+    "Renoveringsmått i TP-2339-D behöver motorns modell/Spec. No., slitagemätning, mätverktyg och reservdelarnas faktiska tillämpning; skillnaden 87/90 mm samt ventil- och ringgrupper får inte sammanblandas."
   ]
 }
