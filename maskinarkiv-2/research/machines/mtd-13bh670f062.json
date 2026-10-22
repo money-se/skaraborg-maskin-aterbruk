@@ -2206,8 +2206,8 @@
       "id": "mtd-2000-electrical-multiple-harnesses",
       "statement": "eReplacementParts årsavgränsade index 13BH670F062/2000 listar minst tre skilda kabelstammar: 629-0301E utan lampor/amperemeter/brytare, 629-0207 med övervakningsfunktion, samt 929-0302E med lampor/amperemeter/brytare. Katalogträffarna bevisar inte vilken stam som fabriksmonterades; pinout och kontaktdon måste identifieras.",
       "sourceId": "ereplacementparts-2000-mtd",
-      "locator": "B",
-      "grade": "Electrical components, 629-0301E Wire Harness w/o Lt./Amp./Sw.; 629-0207 w/Monitor; 929-0302E w/Lt./Amp./Sw.",
+      "locator": "Electrical components, 629-0301E Wire Harness w/o Lt./Amp./Sw.; 629-0207 w/Monitor; 929-0302E w/Lt./Amp./Sw.",
+      "grade": "B",
       "topic": "I",
       "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
     },
@@ -2215,8 +2215,8 @@
       "id": "mtd-2000-electrical-ignition-and-solenoid-catalog",
       "statement": "Samma årsavgränsade eldelindex för 13BH670F062 visar femstifts tändningslås 925-0267B, startrelä/solenoid 925-1426A, strålkastarbrytare 925-0634 och amperemeter 925-0925. Elkomponenternas samtidiga katalogförekomst fastställer inte att alla extrautrustningsdelar monterats på en enskild maskin.",
       "sourceId": "ereplacementparts-2000-mtd",
-      "locator": "B",
-      "grade": "Electrical listing: 925-0267B 5-pin switch, 925-1426A solenoid, 925-0634 headlamp switch, 925-0925 ammeter",
+      "locator": "Electrical listing: 925-0267B 5-pin switch, 925-1426A solenoid, 925-0634 headlamp switch, 925-0925 ammeter",
+      "grade": "B",
       "topic": "I",
       "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
     },
@@ -2224,8 +2224,8 @@
       "id": "mtd-2000-electrical-safety-switch-variant-warning",
       "statement": "Samma 2000-katalog listar säkerhetsbrytare 925-1657A under en generell benämning knuten till snöslungstillbehör, samt fjäderbrytare 725-1643. Det ska inte automatiskt tolkas som en bekräftad kopplingsfunktion i traktorns sits-, kopplings- eller PTO-spärrkrets; faktiskt elschema krävs.",
       "sourceId": "ereplacementparts-2000-mtd",
-      "locator": "B",
-      "grade": "Electrical and accessory group: 925-1657A Snow Blower Safety Switch; 725-1643 Switch-spring",
+      "locator": "Electrical and accessory group: 925-1657A Snow Blower Safety Switch; 725-1643 Switch-spring",
+      "grade": "B",
       "topic": "I",
       "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
     },
@@ -2233,8 +2233,8 @@
       "id": "mtd-1999-2004-ignition-kit-alternative-identification",
       "statement": "MTD-märkt Genuine Factory Parts-kit OEM-725-0267A beskrivs av återförsäljaren som treläges, femstifts tändningslås med två nycklar och korsreferenser till äldre 725-/925-0267, 0267A och 0267B. Det är en nummer-/kitreferens för perioden 1999–2004, inte verifierad elektrisk kontaktfunktion i just 13BH670F062.",
       "sourceId": "mtd-runnings-oem-7250267a-kit",
-      "locator": "B",
-      "grade": "Runnings MTD Genuine Factory Parts OEM-725-0267A, Product Details: fits 1999–2004, 3-position 5-prong, replaces 925/725-0267 variants",
+      "locator": "Runnings MTD Genuine Factory Parts OEM-725-0267A, Product Details: fits 1999–2004, 3-position 5-prong, replaces 925/725-0267 variants",
+      "grade": "B",
       "topic": "I",
       "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
     },
@@ -2242,8 +2242,8 @@
       "id": "mtd-briggs-ipl-ref-number-not-order-number",
       "statement": "Briggs & Strattons egna hjälptext skiljer referensnummer bredvid IPL-illustrationerna från de faktiska servicereservdelsnumren. Vid 28T707-1154-E1 måste mekanikern utgå från motorns skylt, rätt IPL och positionsrad med eventuella koddatumsvillkor; ett ritningspositionsnummer är inte beställningsnumret.",
       "sourceId": "briggs-official-ipl-selection-guidance",
-      "locator": "A",
-      "grade": "Official FAQ updated 2026-01-13, Locating Engine Service Part Numbers on Illustrated Parts List, Reference Numbers vs service numbers",
+      "locator": "Official FAQ updated 2026-01-13, Locating Engine Service Part Numbers on Illustrated Parts List, Reference Numbers vs service numbers",
+      "grade": "A",
       "topic": "C",
       "variant": "MTD 13BH670F062 katalogår 2000 eller motortillverkarens allmänna IPL-instruktion, ej serienummerbundet kopplingsschema"
     }
