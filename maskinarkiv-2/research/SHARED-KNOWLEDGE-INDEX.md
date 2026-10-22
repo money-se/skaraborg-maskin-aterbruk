@@ -36,6 +36,10 @@
 | Jonsered LT2115CMA (2005-04) / 96061001001 | [jonsered-lt2115cma-96061001001.json](machines/jonsered-lt2115cma-96061001001.json) | `needs_research`: dokumentidentitet hittad, PDF-granskning återstår |
 | Jonsered LT2115CMA (2006-01) / 96061001003 | [jonsered-lt2115cma-96061001003.json](machines/jonsered-lt2115cma-96061001003.json) | `needs_research`: dokumentidentitet hittad, PDF-granskning återstår |
 
+| Jonsered LT2115CMA (2006-03) / 96061008201 | [jonsered-lt2115cma-96061008201.json](machines/jonsered-lt2115cma-96061008201.json) | `needs_research`: originalkatalog utdrag, transmission och drivrem |
+| Jonsered LT2115CMA (2006-04) / 96061008300 | [jonsered-lt2115cma-96061008300.json](machines/jonsered-lt2115cma-96061008300.json) | `needs_research`: sekundärt versionsregister; originalkatalog återstår |
+| Jonsered LT2115CMA (2006-05) / 96061008200 | [jonsered-lt2115cma-96061008200.json](machines/jonsered-lt2115cma-96061008200.json) | `needs_research`: sekundärt versionsregister; originalkatalog återstår |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
