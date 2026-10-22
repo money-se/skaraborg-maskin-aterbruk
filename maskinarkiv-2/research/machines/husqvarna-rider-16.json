@@ -18,6 +18,13 @@
       "title": "Husqvarna official Spare Parts Shop – Rider 16 IPL",
       "document": "RIDER 16, 953521401, 2006-01",
       "url": "https://shop-pa-v9.husqvarna.com/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcCategory=Riders&epcProduct=RIDER+16&epcVariantName=RIDER+16%2C+953521401%2C+2006-01&langId=-1&modelId=Husqvarna-Riders_RIDER+16&storeId=11251"
+    },
+    {
+      "id": "husqvarna-rider16-2006-oem-pdf",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 original illustrated parts list PDF",
+      "document": "IPL Rider 16 953 52 14-01; 2006-01; 544 31 83-01; I0600008",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000030494/doc000058593/IPL/epGNFrDZggfGF2FOt6RDq6RzldM?httproute=True"
     }
   ],
   "topics": {
@@ -245,6 +252,78 @@
       "sourceId": "husqvarna-rider16-953521401-2006-ipl",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-2006-ipl-cover",
+      "statement": "Husqvarnas originalreservdelskatalog har dokumentnummer 544 31 83-01, revisionsbeteckning I0600008 och avser Rider 16 953 52 14-01, 2006-01.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 1 (0-baserat P0), omslag",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2006-ipl-transaxle",
+      "statement": "Originalsprängskiss H visar transmission 506 98 63-01, uttryckligen märkt K46 EUR.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6 (0-baserat P5), figur H, markering 506 98 63-01 (K46 EUR)",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-fan",
+      "statement": "Sprängskiss H visar transmissionskylfläkt 506 98 68-01 ovanför K46 EUR-växellådan.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering 506 98 68-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-pulley",
+      "statement": "Sprängskiss H visar transmissionsremskiva 506 98 67-01 på K46-enheten.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering 506 98 67-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-expansion-tank",
+      "statement": "Sprängskiss H visar separat expansionsbehållare 506 98 90-01 med lock 506 98 80-01 och slangkoppling 506 98 69-01.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markeringar 506 98 90-01, 506 98 80-01, 506 98 69-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-control-link",
+      "statement": "Sprängskiss H visar komplett styrstag 506 98 75-01 som del av transmissionsreglaget.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering compl 506 98 75-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-return-spring",
+      "statement": "Sprängskiss H visar fjäder 506 83 43-01 vid transmissionsreglaget; funktion och revision behöver verifieras separat innan diagnosråd.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering 506 83 43-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-belt-controller",
+      "statement": "Sprängskiss L visar rem 506 55 47-01 i reglage-/remdriftsgruppen. Identifierar katalogposition, inte generell passform eller om det är den primära drivremmen.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 8, figur L, markering 506 55 47-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -256,6 +335,8 @@
     "Verifiera aggregatens modellnummer, remmar, knivar och faktisk kompatibilitet via versionsspecifik IPL.",
     "Originalmanualens uppgifter om bränsle/olja är historiska; identifiera eventuella senare tillverkarrevisioner.",
     "Katalogen för 953521401 (2006-01) måste detaljgranskas per sprängskiss/positionsnummer innan specifika reservdelsnummer eller kompatibilitet registreras.",
-    "Rider 16C 966830601 har separat Husqvarna-IPL 2008-04; behandla som sidofynd och blanda inte in dess reservdelar i Rider 16."
+    "Rider 16C 966830601 har separat Husqvarna-IPL 2008-04; behandla som sidofynd och blanda inte in dess reservdelar i Rider 16.",
+    "Identifiera positionsbundna transmissionsremmar, knivar och aggregatdelar direkt från respektive originalfigur före passformsråd.",
+    "Fastställ om 506 98 63-01 K46 EUR ersatts av något nyare Husqvarna-delnummer; listan från 2006 räcker inte för aktuellt ersättningsnummer."
   ]
 }
