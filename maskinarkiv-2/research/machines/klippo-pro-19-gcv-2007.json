@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "slug": "klippo-pro-19-gcv-2007",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Historisk Klippo Pro 19 GCV, originalmanual 2007 med försäkran 2006. Senare Pro 19 SH 967 60 79-01 registreras endast som separat variant och får inte jämställas med GCV-originalet.",
+  "sources": [
+    {
+      "id": "klippo-2007-oem",
+      "tier": 1,
+      "title": "KLIPPO original instructions and conformity declaration",
+      "document": "Art.nr 000001, Version 1:17, 2007-01; conformity Malmö 2006-11-04",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000035498/doc000066874"
+    },
+    {
+      "id": "husqvarna-pro19sh-support",
+      "tier": 1,
+      "title": "Husqvarna official KLIPPO Pro 19 SH support",
+      "document": "Pro 19 SH 967 60 79-01",
+      "url": "https://www.husqvarna.com/se/support/klippo-pro-19sh/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "OEM table identifies historical Pro 19 GCV; verify code text from PDF image; further source binding needed before release."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Construction requires model specific IPL; further source binding needed before release."
+    },
+    "C": {
+      "state": "gap",
+      "note": "GCV135 in 2006 original, newer SH has GCV160; do not conflate; further source binding needed before release."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Drive mechanism not bound to exact unit; further source binding needed before release."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Chassis requires drawings; further source binding needed before release."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Control variants require manual comparison; further source binding needed before release."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Safety brake arrangements need exact edition mapping; further source binding needed before release."
+    },
+    "H": {
+      "state": "gap",
+      "note": "OEM lists mulcher and 48 cm width; further source binding needed before release."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Oil and intervals require engine edition; further source binding needed before release."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Blade reference and bolt number unverified; further source binding needed before release."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Specific diagnostics outstanding; further source binding needed before release."
+    },
+    "L": {
+      "state": "gap",
+      "note": "2007 official manual and later 2018 support available; further source binding needed before release."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Year, serial and changeover questions unresolved; further source binding needed before release."
+    }
+  },
+  "claims": [
+    {
+      "id": "pro19gcv-family-inclusion",
+      "statement": "Klippos originalbruksanvisning 000001 version 1:17 listar Pro 19 GCV som en separat modell tillsammans med Champion, Excellent och Excellent GCV.",
+      "variant": "KLIPPO Pro 19 GCV, 2007 års utgåva",
+      "locator": "PDF-sida 5 (index 4), 'Modeller' samt PDF-sida 1 omslag",
+      "sourceId": "klippo-2007-oem",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "pro19gcv-original-engine-2006",
+      "statement": "Tillverkarens modelltabell anger Pro 19 GCV med Honda GCV135, 135 cm³ och mulcherkniv samt klippbredd 48 cm; tabellen gäller 2006 års försäkran och ska inte extrapoleras till Pro 19 SH.",
+      "variant": "KLIPPO Pro 19 GCV i försäkran 2006, publicerad i manual 2007",
+      "locator": "PDF-sida 8 (index 7), tabell 'Försäkran om överensstämmelse', rad Pro 19 GCV",
+      "sourceId": "klippo-2007-oem",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "pro19gcv-height-2007",
+      "statement": "Den ursprungliga Pro 19 GCV-specifikationen anger klipphöjd 3–6 cm och central höjdreglering i sex lägen.",
+      "variant": "Pro 19 GCV, originalmanual 2007, teknisk specifikation",
+      "locator": "PDF-sida 8 (index 7), 'TEKNISK SPECIFIKATION' tabell Pro 19 GCV",
+      "sourceId": "klippo-2007-oem",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "pro19gcv-wheel-weight-2007",
+      "statement": "I manualens Pro 19 GCV-specifikation anges stålhjul med dubbla tätade kullager och naturgummidäck samt 31 kg vikt.",
+      "variant": "Pro 19 GCV, originalmanual 2007",
+      "locator": "PDF-sida 8 (index 7), 'TEKNISK SPECIFIKATION', hjul och vikt",
+      "sourceId": "klippo-2007-oem",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro19sh-later-article",
+      "statement": "Husqvarna identifierar senare Pro 19 SH som artikelnummer 967 60 79-01 med 48 cm mulching och Honda GCV160. Det är inte bevis för att dess motor eller reservdelar passar på äldre Pro 19 GCV.",
+      "variant": "KLIPPO Pro 19 SH 967 60 79-01, annan modellgeneration",
+      "locator": "Support > Specifikationer > produktbenämning",
+      "sourceId": "husqvarna-pro19sh-support",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sh-bbc",
+      "statement": "Husqvarnas produktbundna specifikation anger att bladbromskoppling (BBC) saknas på Pro 19 SH artikelnummer 967 60 79-01.",
+      "variant": "KLIPPO Pro 19 SH 967 60 79-01, ej Pro 19 GCV",
+      "locator": "Support > Specifikationer > Utrustning > Bladbromskoppling (BBC)",
+      "sourceId": "husqvarna-pro19sh-support",
+      "grade": "A",
+      "topic": "G"
+    }
+  ],
+  "gaps": [
+    "Visuell screenshot av original-PDF misslyckades; bokstavssekvens för historisk Pro 19 GCV identifieringskod ska omkontrolleras mot originalbild.",
+    "Bestäm motortyp och motorns serienummer per exemplar; 2006 GCV135 får inte ersättas med senare SH GCV160 i registret.",
+    "Reservdelskatalog, mulcherkniv, knivbult, växelhölje och passform behöver källor.",
+    "Kontrollera äldre Pro 19 GCV jämfört med senare Pro 19 SH/Pro 19 S H inklusive självgående system.",
+    "Knyt servicedata till separat Honda GCV135 originalserviceanvisning."
+  ]
+}
