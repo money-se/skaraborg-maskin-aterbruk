@@ -249,6 +249,13 @@
       "title": "Wolfswinkel Combi 103 965078401 historical cross references",
       "document": "965078401 aftermarket seller references 544112801, 544112903, 953524701, but not 953523701",
       "url": "https://www.wolfswinkel.shop/husqvarna-parts-parts/965078401/husqvarna-mowing-deck-combi-103-cm-2006"
+    },
+    {
+      "id": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider Pro 18 AWD 965095001 2007-03 original IPL",
+      "document": "Official illustrated parts list, 2007-03, Combi 103/112/94 groups",
+      "url": "https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-pr18awd.pdf"
     }
   ],
   "topics": {
@@ -1592,6 +1599,69 @@
       "sourceId": "rider16-combi103-wolfswinkel-953524701-lead",
       "grade": "B",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch33-bio90-oem-complete-assembly",
+      "statement": "Husqvarnas Genuine Parts-katalog listar komplett 'CUTTING DECK BIO90 KPL.' med artikelnummer 506970907 och listar bland andra RIDER 16 samt RIDER 16 H i 'MODELS TO FIT'. Detta är en katalogmässig modellkorsreferens, inte bevis att samtliga serienummer och aggregatrevisioner har identiska monteringsdelar.",
+      "variant": "Genuine Parts tillverkarens modellkorsreferens, inte serienummerbunden",
+      "locator": "Genuine Parts katalog 'Cutting decks' / Ride On, ART. NO 506970907, DESCRIPTION CUTTING DECK BIO90 KPL., MODELS TO FIT RIDER 16; RIDER 16 H",
+      "sourceId": "husqvarna-genuine-parts-catalog-rider-blades",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch33-bio90-oem-cross-model-not-blade",
+      "statement": "Tillverkarens kompletta BioClip 90-aggregat 506970907 listas för både Rider 16 och Rider 16 H, samtidigt som originalkatalogens äldre knivsatsrader anger olika knivsatser 531007586 respektive 531007525. En gemensam komplett aggregat-korsreferens får därför inte användas för att likställa alla ingående historiska knivkomponenter.",
+      "variant": "Genuine Parts tillverkarens modellkorsreferens, inte serienummerbunden",
+      "locator": "Genuine Parts 'Cutting decks' 506970907, jämför 'Rider Blades' 531007586 / 531007525",
+      "sourceId": "husqvarna-genuine-parts-catalog-rider-blades",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch33-rpro18-2007-combi103-965078401",
+      "statement": "Husqvarnas original-IPLn för Rider Pro 18 AWD PNC 965095001, 2007-03 innehåller komplett Combi 103-aggregat 965078401. Detta är ett separat primärbelägg att artikeln användes i ett annat modellregister än Rider 16 2006.",
+      "variant": "Jämförelse från Rider Pro 18 AWD 965095001 2007-03; inte direkt Rider 16-passform",
+      "locator": "Rider Pro 18 AWD 2007-03 IPL, 103CM CUTTING DECK, PDF P45, 965 07 84-01 CUTTING DECK",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch33-rpro18-2007-combi103-965078601",
+      "statement": "Samma Husqvarna 2007-03-IPLs andra 103CM CUTTING DECK-avsnitt listar 965078601 som ett separat komplett aggregat. Därmed förekommer 965078401 och 965078601 inom samma katalogutgåva; katalogen ensam anger inte att den ena ersätter den andra.",
+      "variant": "Jämförelse från Rider Pro 18 AWD 965095001 2007-03; inte direkt Rider 16-passform",
+      "locator": "Rider Pro 18 AWD 2007-03 IPL, andra 103CM CUTTING DECK, PDF P57, 965 07 86-01 CUTTING DECK; jämför P45 965 07 84-01",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch33-rpro18-2007-combi103-original-blades",
+      "statement": "Original-IPLn för 2007-03 anger tre knivar 544103001 i aggregatgruppen 965078401, medan aggregatgruppen 965078601 anger tre knivar 544102801. Även inom samma katalog kan samma aggregatstorlek rymma skilda komponentfamiljer; tillskriv inte utbytbarhet.",
+      "variant": "Jämförelse från Rider Pro 18 AWD 965095001 2007-03; inte direkt Rider 16-passform",
+      "locator": "PDF P45, 103CM CUTTING DECK 965078401 / 544103001 qty 3; PDF P57, 103CM CUTTING DECK 965078601 / 544102801 qty 3",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch33-rpro18-2007-combi103-housings-965078401",
+      "statement": "Husqvarnas katalog 2007-03 listar tre knivhusuppställningar för 965078401: 544065901 (yttre, i flera katalograder) och 544065902 (mitten). Katalogen måste läsas med ritningen för exakta positioner och tillämpning.",
+      "variant": "Jämförelse från Rider Pro 18 AWD 965095001 2007-03; inte direkt Rider 16-passform",
+      "locator": "PDF P45, Rider Pro 18 AWD, 103CM CUTTING DECK, 544 06 59-01 och 544 06 59-02 BLADE HOUSING ASSY",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch33-rpro18-2007-combi103-parts-contrast",
+      "statement": "I Husqvarnas Rider Pro 18 AWD 2007-03-IPLn skiljer 103 cm-aggregaten 965078401 respektive 965078601 i knivnummer (544103001 kontra 544102801). Detta visar en verifierad komponentavvikelse men inte själva orsaken eller ersättningsordningen.",
+      "variant": "Jämförelse från Rider Pro 18 AWD 965095001 2007-03; inte direkt Rider 16-passform",
+      "locator": "PDF P45 965078401/544103001, PDF P57 965078601/544102801",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1662,6 +1732,9 @@
     "Original IPL 2003-01 fastställer komplett Combi 103 aggregat 953523701 och historisk rem 531007587. Fastställ monterings-/ersättningshistorik till Combi 103 965078401 och rem 589533701 via officiell Husqvarna-EPC innan kompatibilitetsråd.",
     "BioClip 90 för Rider 16 har separat 90CM CUTTING DECK-grupp utan komplett aggregat-PNC i 2003-01-listans tillgängliga textrader. Identifiera om äldre aggregat såldes som självständig 953-/965-produkt.",
     "965078401 → 965078601 är styrkt av två reservdelshandlare, däribland auktoriserad Husqvarna-handlare, men är ännu inte tillverkarpublicerat eller universellt PNC-validerat.",
-    "Wolfswinkels 965078401-referenser listar 953524701 men inte äldre Combi 103 953523701. Hitta Husqvarna-parts bulletin eller PNC-bunden ersättningskedja innan relation mellan 2003 och 2006 påstås."
+    "Wolfswinkels 965078401-referenser listar 953524701 men inte äldre Combi 103 953523701. Hitta Husqvarna-parts bulletin eller PNC-bunden ersättningskedja innan relation mellan 2003 och 2006 påstås.",
+    "Komplett BioClip 90 506970907 listas av Husqvarna för Rider 16 och Rider 16 H. Fastställ PNC/serienummerspann för specifik fysisk maskin och utred varför äldre knivsatslistor är olika.",
+    "Original IPL Rider Pro 18 AWD 2007-03 listar 965078401 och 965078601 i parallella 103 cm-avsnitt med olika knivar. Utred revisions-/kompatibilitetsinformation innan någon av dem kallas generell ersättare.",
+    "OEM Genuine Parts PDF-katalog är för stor för webbens direktöppning, och sprängskiss-screenshot för IPL gav cachefel. Artikelnr har kontrollerats i sökindexerat katalogtextlager och i 2007-IPL:s sidnumrerade textlager; visuell kontroll återstår."
   ]
 }
