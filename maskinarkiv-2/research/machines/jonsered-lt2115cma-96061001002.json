@@ -190,12 +190,67 @@
       "topic": "I",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-belt-guide",
+      "statement": "Klippaggregatets remstyrning (GUIDE DE COURROIE) listas som artikel 532 15 60-85.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 84",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-spindle-bearing",
+      "statement": "Klippaggregatets lager (ROULEMENT) listas som artikel 532 11 04-85.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 15",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-pulley-32",
+      "statement": "Klippaggregatets remskiva (POULIE) listas som artikel 532 15 35-31.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 32",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-pulley-36",
+      "statement": "Klippaggregatets remskiva (POULIE) listas som artikel 532 14 67-63.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 36",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-belt-spring",
+      "statement": "Klippaggregatets fjäder (RESSORT) listas som artikel 532 16 59-45.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 61",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
     "Motorfabrikat, motor-spec/serial, transmission och serviceintervall för just 96061001002 återstår att verifiera.",
     "Samma reservdelsnummer på olika revisioner kan indikera gemensam katalogreferens men innebär inte att hela aggregatet är utbytbart.",
-    "Visuell kontroll av PDF-sidan med klippaggregatslistan är utförd. Andra sidor och sprängbilder behöver ytterligare visuell granskning innan artikelpublicering.",
+    "Aggregatets reservdelslista på PDF-sida 5 är bildgranskad; övriga sidor, sprängskisser och maskinens individuella komponentnummer behöver ytterligare visuell kontroll.",
     "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger."
   ]
 }
