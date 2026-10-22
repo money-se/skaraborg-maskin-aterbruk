@@ -319,6 +319,13 @@
       "title": "Husqvarna Rider 13 BioClip original IPL 2003-11",
       "document": "I0400002, PNC 953520901, illustration T Bio 90",
       "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000024179/doc000048270/IPL/Wy6neW-DlohiTfPw7ZItIA-BK-I?httproute=True"
+    },
+    {
+      "id": "husqvarna-fr2111m-2005-03-ipl-953535801",
+      "tier": 1,
+      "title": "Husqvarna FR2111 M original IPL 2005-03",
+      "document": "PNC 953535801, 90CM CUTTING DECK",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Akgrasklippare/FR2111M/IPL.-FR2111-M%2C-953535801%2C-2005-03_wm.pdf"
     }
   ],
   "topics": {
@@ -2130,6 +2137,51 @@
       "sourceId": "husqvarna-rider13bio-2003-11-ipl-953520901",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch38-fr2111-complete",
+      "statement": "FR2111 M PNC 953535801 originalkatalog 2005-03 anger komplett BioClip 90-aggregat 506970908.",
+      "variant": "Jämförelsekatalog FR2111 M 953535801 2005-03; ej bekräftad Rider 16-passform",
+      "locator": "90CM CUTTING DECK, 506970908 CUTTING DECK BIO90",
+      "sourceId": "husqvarna-fr2111m-2005-03-ipl-953535801",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch38-fr2111-belts",
+      "statement": "FR2111 M 2005-03 BioClip 90-grupp anger separat rem 531008025 och rem 531008037. De är inte belagda som samma position eller utbytbara.",
+      "variant": "Jämförelsekatalog FR2111 M 953535801 2005-03; ej bekräftad Rider 16-passform",
+      "locator": "90CM CUTTING DECK, 531008025 och 531008037 BELT",
+      "sourceId": "husqvarna-fr2111m-2005-03-ipl-953535801",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch38-fr2111-blade",
+      "statement": "FR2111 M 2005-03 BioClip 90-grupp listar kniv 531008026, till skillnad från Rider 13 BioClip 2003-11:s 531007586.",
+      "variant": "Jämförelsekatalog FR2111 M 953535801 2005-03; ej bekräftad Rider 16-passform",
+      "locator": "90CM CUTTING DECK, 531008026 BLADE",
+      "sourceId": "husqvarna-fr2111m-2005-03-ipl-953535801",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch38-fr2111-shell",
+      "statement": "FR2111 M 2005-03 listar separat klippkåpa 506977202 och remkåpa 506977503 vid komplett aggregat 506970908.",
+      "variant": "Jämförelsekatalog FR2111 M 953535801 2005-03; ej bekräftad Rider 16-passform",
+      "locator": "90CM CUTTING DECK, 506977202 DECK SHELL / 506977503 BELT COVER",
+      "sourceId": "husqvarna-fr2111m-2005-03-ipl-953535801",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch38-fr2111-housing",
+      "statement": "FR2111 M 2005-03 delar knivhusnummer 535410601 och 535410602 med äldre BioClip 90, vilket inte i sig fastställer att hela aggregaten är identiska.",
+      "variant": "Jämförelsekatalog FR2111 M 953535801 2005-03; ej bekräftad Rider 16-passform",
+      "locator": "90CM CUTTING DECK, 535410601/02 BLADE HOUSING ASSY",
+      "sourceId": "husqvarna-fr2111m-2005-03-ipl-953535801",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -2218,6 +2270,7 @@
     "FR2113 MA 2004-01 original-IPLn anger komplett BioClip 90 506970908 och rem 531008025; Rider 16 2002/03 har andra remnummer. Verifiera PNC/aggregatrevision innan rembyte mellan modeller.",
     "sGarden korsrefererar skal 506977201 och 506977202 men markerar dem som DECK SHELL; aggregat 506970907/908 är kompletta. Ersättningsordning och vilka komponenter som medföljer kräver officiell Husqvarna-katalog.",
     "FR2113 MA 2004-01 PDF-sidbild kunde inte laddas; positionsuppgifter kommer från indexerat OEM-katalogtextlager och behöver visuell ritningskontroll.",
-    "Kontrollera om Rider 16:s PNC-specifika BioClip 90 använder samma 531007526-tandrem som Rider 13 BioClip 2003-11; analog sprängskiss ensam ger inte passform."
+    "Kontrollera om Rider 16:s PNC-specifika BioClip 90 använder samma 531007526-tandrem som Rider 13 BioClip 2003-11; analog sprängskiss ensam ger inte passform.",
+    "FR2111 M 2005-03 har komplett BioClip 90 506970908, remmar 531008025 och 531008037 samt kniv 531008026. Originalkatalogen fastställer ingen ersättningskedja till 506970907."
   ]
 }
