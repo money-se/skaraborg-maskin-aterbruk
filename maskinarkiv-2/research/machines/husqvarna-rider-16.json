@@ -1,0 +1,940 @@
+{
+  "schemaVersion": 1,
+  "slug": "husqvarna-rider-16",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Ny Husqvarna Rider 16-forskningspost baserad på originalmanual 2005-01. Inga antaganden om Rider 16 H eller Rider 16 C/AWD, ingen artikelpublicering.",
+  "sources": [
+    {
+      "id": "husqvarna-rider16-2005-01-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 Operator's Manual",
+      "document": "OM Rider 16 2005-01; pub000027426/doc000053788",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000027426/doc000053788"
+    },
+    {
+      "id": "husqvarna-rider16-953521401-2006-ipl",
+      "tier": 1,
+      "title": "Husqvarna official Spare Parts Shop – Rider 16 IPL",
+      "document": "RIDER 16, 953521401, 2006-01",
+      "url": "https://shop-pa-v9.husqvarna.com/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcCategory=Riders&epcProduct=RIDER+16&epcVariantName=RIDER+16%2C+953521401%2C+2006-01&langId=-1&modelId=Husqvarna-Riders_RIDER+16&storeId=11251"
+    },
+    {
+      "id": "husqvarna-rider16-2006-oem-pdf",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 original illustrated parts list PDF",
+      "document": "IPL Rider 16 953 52 14-01; 2006-01; 544 31 83-01; I0600008",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000030494/doc000058593/IPL/epGNFrDZggfGF2FOt6RDq6RzldM?httproute=True"
+    },
+    {
+      "id": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "tier": 2,
+      "title": "sGarden spare parts list Rider 16 953521401 103CM CUTTING DECK",
+      "document": "Rider 16 953521401 2006-01 103CM CUTTING DECK",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/28701/103CM_CUTTING_DECK"
+    },
+    {
+      "id": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "tier": 2,
+      "title": "sGarden spare parts list Rider 16 953521401 44/112CM CUTTING DECK",
+      "document": "Rider 16 953521401 2006-01 44/112CM CUTTING DECK",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/28702/44112CM_CUTTING_DECK"
+    },
+    {
+      "id": "husqvarna-rider16-2006-original-ipl-fr",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 953521401 2006-01 original illustrated parts list (French edition)",
+      "document": "SPARE PARTS LIST – RIDERS RIDER 16, 953521401, 2006-01; 37 PDF-sidor med positionslistor och antal",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Husqvarna/RIDERS/RIDER%2016/RIDER%2016%20953521401%202006-01/rider-16-953521401-2006-01.pdf"
+    },
+    {
+      "id": "husqvarna-rider16-965161601-2010-07-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 965161601 2010-07 illustrated parts list",
+      "document": "SPARE PARTS LIST RIDER 16, 965161601, 2010-07 (55-page PDF)",
+      "url": "https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-rider16.pdf"
+    },
+    {
+      "id": "husqvarna-rider16-965161601-2007-06-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 965161601 2007-06 original parts list",
+      "document": "SPARE PARTS LIST RIDERS RIDER 16 965161601 2007-06",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Husqvarna/RIDERS/RIDER%2016/RIDER%2016%20965161601%202007-06/rider-16-965161601-2007-06.pdf"
+    },
+    {
+      "id": "wolfswinkel-rider16-2007-ipl",
+      "tier": 2,
+      "title": "Wolfswinkel Rider 16 965161601 2007-06 parts diagrams",
+      "document": "Rider 16 PNC 965161601 IPL 2007-06, Engine and Transmission exploded list",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/husqvarna/ride-on-mowers/riders/gasoline/otherwise/rider-16/rider-16-965161601-2007-06"
+    },
+    {
+      "id": "husqvarna-rider16-2002-04-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 operator's manual April 2002",
+      "document": "OM Rider 16 2002-04; pub000018715/doc000039438",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000018715/doc000039438"
+    },
+    {
+      "id": "husqvarna-rider16-2000-11-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 operator's manual November 2000",
+      "document": "OM Rider 16 2000-11; 101 91 33-26; pub000015162/doc000034675",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000015162/doc000034675"
+    },
+    {
+      "id": "husqvarna-rider16-2003-01-original-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 2003-01 original spare parts list",
+      "document": "SPARE PARTS LIST RIDERS RIDER 16, 2003-01; 46-page manufacturer-authored parts catalog (retailer archive)",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/husqvarna/tracteurs-tondeuse-rider/rider%2016/tracteur_tondeuse_husqvarna_rider_rider16_liste-des-pieces_2003-01.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    }
+  },
+  "claims": [
+    {
+      "id": "rider16-2005-identity",
+      "statement": "Manualen är uttryckligen för Husqvarna Rider 16 (utgåva 2005-01).",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Omslag, PDF-sida 1",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2005-serial",
+      "statement": "Typskylten finns under sätet framtill till vänster och anger typbeteckning, tillverkarens typnummer och maskinens serienummer.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Tryckt sida 3, PDF-sida 5",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "rider16-2005-engine-identification",
+      "statement": "Motorns Model/Type/Code identifieras enligt manualen på ventilkåpan; dessa nummer ska användas för exakt motorreservdelsidentifiering.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Tryckt sida 3, PDF-sida 5",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2005-transmission-identification",
+      "statement": "Hydrostatens identifikationsdekal finns på transmissionshuset vid vänster drivaxel och anger K-typbeteckning, s/n och p/n.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Tryckt sida 3, PDF-sida 5",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2005-engine-2005",
+      "statement": "Tekniska data för Rider 16 anger Briggs & Stratton motor 282H070110E1 och cylindervolym 465,7 cm³; detta gäller manualutgåvan och är inte en universell årsmodellstabell.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2005-engine-oil-2005",
+      "statement": "Tekniska data anger motorolja SAE 5W/30 eller SAE 10W/30 klass SJ-CF och oljemängd 1,4 liter.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2005-transmission-2005",
+      "statement": "Tekniska data anger Tuff Torq K46 och transmissionsolja SAE 10W/30 klass SF-CC; exakt transaxelundervariant måste identifieras på märkningen.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2005-electrical-2005",
+      "statement": "Tekniska data anger 12 V system med negativ jord, 12 V 24 Ah batteri samt Champion QC12YC med elektrodavstånd 0,75 mm.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider16-2005-fuel-2005",
+      "statement": "Tekniska data anger bränsletank på 7 liter och blyfri bensin minst 85 oktan enligt manualens specifikation; kontrollera bränslekvalitet mot aktuella rekommendationer innan användning.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2005-deck-2005",
+      "statement": "Tekniska data anger tvåknivars BioClip 900 mm samt treknivars Combi 1030/1120 mm som klippaggregattyper. Uppgiften verifierar inte reservdels- eller monteringspassform över revisioner.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2005-cut-height-2005",
+      "statement": "Tekniska data anger nio klipphöjdslägen, 40–90 mm respektive 45–95 mm (BioClip).",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2005-tyres-2005",
+      "statement": "Tekniska data anger däck 16 x 6.50 x 8 och lufttryck 60 kPa (0,6 bar) fram och bak.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2005-slope-2005",
+      "statement": "Säkerhetsanvisningarna anger att maskinen inte ska användas på lutningar större än 15° och att klippning ska ske uppför/nedför, inte på tvären.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Driving on slopes, tryckt sida 7, PDF-sida 9",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "rider16-2005-towing-2005",
+      "statement": "Hydrostatutrustad Rider 16 ska enligt manualen vid behov endast bogseras kort sträcka och med låg hastighet för att undvika transmissionsskada.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Introduction > Towing, tryckt sida 2, PDF-sida 4",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "rider16-2005-pre-delivery-deck-2005",
+      "statement": "Leveransservice anger 12–15 kg marktryck via lyftfjädrar för BioClip samt att aggregatets bakkant ska vara omkring 2–4 mm högre än framkanten; kontroll kräver rätt aggregatversion.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Service journal > Pre-delivery service, tryckt sida 44, PDF-sida 46",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2005-transmission-maintenance-2005",
+      "statement": "Manualen innehåller en särskild kontroll av transmissionens oljenivå på tryckt sida 39; detta verifierar inte ett generellt bytesintervall.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Contents: Checking transmission oil level, tryckt sida 39 (PDF-sida 41)",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2006-953521401-identity",
+      "statement": "Husqvarnas officiella reservdelstjänst identifierar RIDER 16 produktnummer 953521401 med revisionsdatum 2006-01.",
+      "variant": "Rider 16 produktnummer 953521401, IPL-revision 2006-01",
+      "locator": "Original Husqvarna EPC > Rider 16 > IPL variant heading / illustrated parts list group labels",
+      "sourceId": "husqvarna-rider16-953521401-2006-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2006-ipl-assemblies",
+      "statement": "Husqvarnas IPL för 953521401 listar bl.a. ENGINE, TRANSMISSION, ELECTRICAL, STEERING COLUMN och CONTROLS som separata ritningsgrupper; positionsbundna delnummer kräver fortsatt granskning av respektive ritning.",
+      "variant": "Rider 16 produktnummer 953521401, IPL-revision 2006-01",
+      "locator": "Original Husqvarna EPC > Rider 16 > IPL variant heading / illustrated parts list group labels",
+      "sourceId": "husqvarna-rider16-953521401-2006-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "rider16-2006-deck-groups",
+      "statement": "Husqvarnas IPL för 953521401 listar 103CM CUTTING DECK och 44/112CM CUTTING DECK; detta dokumenterar kataloggrupperna, inte kompatibilitet för alla Rider 16-år.",
+      "variant": "Rider 16 produktnummer 953521401, IPL-revision 2006-01",
+      "locator": "Original Husqvarna EPC > Rider 16 > IPL variant heading / illustrated parts list group labels",
+      "sourceId": "husqvarna-rider16-953521401-2006-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-ipl-cover",
+      "statement": "Husqvarnas originalreservdelskatalog har dokumentnummer 544 31 83-01, revisionsbeteckning I0600008 och avser Rider 16 953 52 14-01, 2006-01.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 1 (0-baserat P0), omslag",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2006-ipl-transaxle",
+      "statement": "Originalsprängskiss H visar transmission 506 98 63-01, uttryckligen märkt K46 EUR.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6 (0-baserat P5), figur H, markering 506 98 63-01 (K46 EUR)",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-fan",
+      "statement": "Sprängskiss H visar transmissionskylfläkt 506 98 68-01 ovanför K46 EUR-växellådan.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering 506 98 68-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-pulley",
+      "statement": "Sprängskiss H visar transmissionsremskiva 506 98 67-01 på K46-enheten.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering 506 98 67-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-expansion-tank",
+      "statement": "Sprängskiss H visar separat expansionsbehållare 506 98 90-01 med lock 506 98 80-01 och slangkoppling 506 98 69-01.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markeringar 506 98 90-01, 506 98 80-01, 506 98 69-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-control-link",
+      "statement": "Sprängskiss H visar komplett styrstag 506 98 75-01 som del av transmissionsreglaget.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering compl 506 98 75-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2006-ipl-trans-return-spring",
+      "statement": "Sprängskiss H visar fjäder 506 83 43-01 vid transmissionsreglaget; funktion och revision behöver verifieras separat innan diagnosråd.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 6, figur H, markering 506 83 43-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2006-ipl-belt-controller",
+      "statement": "Sprängskiss L visar rem 506 55 47-01 i reglage-/remdriftsgruppen. Identifierar katalogposition, inte generell passform eller om det är den primära drivremmen.",
+      "variant": "Rider 16 PNC 953 52 14-01; original IPL 2006-01",
+      "locator": "PDF-sida 8, figur L, markering 506 55 47-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-steering-chain",
+      "statement": "Rider 16 953521401-katalogens motor-/styrsystemlista anger 506 55 46-01 som CHAIN (kedja), antal 1; 506 55 47-01 anges som SUPPORT (stöd), antal 2. Tidigare uppgift att 506 55 47-01 är styrkedja var fel och har korrigerats.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "Rider 16 953521401 2006-01, franskspråkig originalreservdelskatalog, PDF-sida 7 (P6), MOTEUR tabell, 506 55 46-01 CHAIN 1 och 506 55 47-01 SUPPORT 2",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2006-steering-wheel",
+      "statement": "Figur C listar ratt 506 59 20-01 och rattaxel 506 86 33-01.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 3, figur C, 506 59 20-01 samt 506 86 33-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2006-combi-deck-belt",
+      "statement": "Figur D märker artikel 531 00 60-96 med 'Combi 103, Combi 112' i rem-/kraftöverföringsritningen; detta innebär inte generell passform för alla aggregatrevisioner.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 3, figur D, 531 00 60-96, etikett Combi 103/112",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-combi-pulleys",
+      "statement": "Figur D visar artiklarna 531 00 75-72 (rem enligt den längre 2006-katalogens CHASSIS/CADRE-lista) och 535 48 22-01 (remskiva); artiklarna får inte beskrivas generellt som två remskivor.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "Rider 16 953521401 fransk katalog PDF-sida 9 (P8), CHASSIS/CADRE: 531 00 75-72 COURROIE samt 535 48 22-01 POULIE",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-battery-number",
+      "statement": "Figur N visar batteri med Husqvarna-katalognummer 506 78 88-01; detta är katalogens historiska delnummer och garanterar inte dagens ersättningsnummer.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 9, figur N, batteri 506 78 88-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider16-2006-engine-label",
+      "statement": "Figur P innehåller Briggs & Stratton-märket under artikelnummer 506 96 13-01; märkdekalen ger inte ensam motorns exakta Model/Type/Code.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 9, figur P, märket 506 96 13-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2006-combi103-deck-pnc",
+      "statement": "Combi 103 anges med aggregatets produktnummer 965078401 i 103CM CUTTING DECK-listan.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > CUTTING DECK COMBI 103 965078401",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-deck-pnc",
+      "statement": "Combi 112 anges med aggregatets produktnummer 965071001 i 44/112CM CUTTING DECK-listan.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > CUTTING DECK COMBI 112 965071001",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-blade",
+      "statement": "103 cm-aggregatlistan benämner artikel 544103001 som BLADE; antal och ersättningsnummer ska kontrolleras i originalfiguren.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > BLADE 544103001",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-blade",
+      "statement": "112 cm-aggregatlistan benämner artikel 544102801 som BLADE; detta skiljer sig från 103 cm-katalogens bladnummer.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BLADE 544102801",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-belt",
+      "statement": "103 cm-listan anger BELT 544113201 samt BELT 531006096 som separata artiklar; respektive rems funktion måste knytas till figurposition före serviceinstruktion.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > BELT 544113201 / BELT 531006096",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-belt",
+      "statement": "112 cm-listan anger BELT 531006096; någon slutsats om att 544113201 från 103 cm-listan passar 112 cm kan inte dras.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BELT 531006096",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-blade-housings",
+      "statement": "103 cm-listan skiljer på BLADE HOUSING ASSY 544065901 och 544065902 och listar dessutom BEARING HOUSING 544067801.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > BLADE HOUSING ASSY 544065901 / 544065902; BEARING HOUSING 544067801",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-blade-housings",
+      "statement": "112 cm-listan skiljer uttryckligen BLADE HOUSING ASSY 544065901 (YTTRE) från 544065902 (MITTEN), och listar BEARING HOUSING 544067801.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BLADE HOUSING ASSY 544065901 YTTRE, 544065902 MITTEN",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi-shafts",
+      "statement": "Båda 2006-listorna innehåller SHAFT 544067901 och 544067902; gemensam katalogförekomst visar inte att varje monteringsposition eller senare revision är identisk.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > SHAFT 544067901 / 544067902",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi-cover-difference",
+      "statement": "103 cm-listan anger BELT COVER 544096101 medan 112 cm-listan anger BELT COVER 544096201.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BELT COVER 544096201; jämför 103CM CUTTING DECK 544096101",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-blade-quantity",
+      "statement": "Rider 16 953521401 originalkatalog 2006-01 anger 3 knivar 544 10 30-01 för 103 cm Combi-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), UNITÉ DE COUPE DE 103 CM, 544 10 30-01 COUTEAU 3",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-blade-quantity",
+      "statement": "Rider 16 953521401 originalkatalog 2006-01 anger 3 knivar 544 10 28-01 för 112 cm Combi-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 37 (P36), UNITÉ DE COUPE DE 112 CM, 544 10 28-01 RIDE ON BLADE 3",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-inner-belt",
+      "statement": "103 cm-aggregatet har rem 544 11 32-01, antal 1, enligt versionsbunden originalreservdelslista.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), 544 11 32-01 COURROIE 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-combi103-112-drivebelt",
+      "statement": "Båda klippaggregatlistorna i 2006-katalogen upptar 531 00 60-96 som rem; detta bekräftar katalogförekomst men inte nutida ersättningsnummer.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32) 103 CM 531 00 60-96 COURROIE 1; PDF-sida 37 (P36) 112 CM 531 00 60-96 COURROIE 1, dubblerad i textutdrag",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-combi103-spindles-quantity",
+      "statement": "103 cm-listan anger 544 06 59-01 med noteringen YTTRE och antal 2 samt 544 06 59-02 med noteringen MITTEN och antal 1.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), 544 06 59-01 PALIER DE LAME COMPLET YTTRE 2; 544 06 59-02 MITTEN 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-spindles-quantity",
+      "statement": "112 cm-listan anger 544 06 59-01 med noteringen YTTRE och antal 2 samt 544 06 59-02 med noteringen MITTEN och antal 1.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 37 (P36), 544 06 59-01 YTTRE 2; 544 06 59-02 MITTEN 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-cover",
+      "statement": "Originalkatalogen 2006-01 anger remskydd 544 09 61-01 för 103 cm-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), 544 09 61-01 CARTER DE COURROIE 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-cover",
+      "statement": "Originalkatalogen 2006-01 anger remskydd 544 09 62-01 för 112 cm-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 37 (P36), 544 09 62-01 CARTER DE COURROIE 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-engine-ipl-number",
+      "statement": "Husqvarna originalreservdelslista för Rider 16 953521401 2006-01 innehåller motorartikel 535 44 10-01 betecknad MOTEUR; detta är maskinkatalogens motorpositionsnummer, inte Briggs Model/Type/Code.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 13 (P12), MOTEUR 535 44 10-01, antal 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2010-identity",
+      "statement": "2010-07 originalreservdelskatalog gäller Rider 16 med produktnummer 965161601.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 1, omslag",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2010-engine",
+      "statement": "I ENGINE-listan står motorenhet 544 45 28-01, antal 1. Reservdelsnumret identifierar maskinkatalogens motorenhet, inte motorns tillverkarpräglade Model/Type/Code.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 21 (nollbaserad sida 20), ENGINE, Ref 1",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2010-exhaust",
+      "statement": "I ENGINE-listan står avgassystemrör 535 50 06-02, ljuddämparenhet 544 33 57-01 och värmeskydd 544 24 83-01.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 21 (P20), ENGINE, Ref 6, 9, 12",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2010-three-belts",
+      "statement": "I 2010 års TRANSMISSION-ritningslista står tre separata BELT-poster 589 53 12-01, 589 53 04-01 och 594 97 80-01, vardera antal 1. Det krävs positionskontroll före benämning av remmens funktion.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 19 (P18), TRANSMISSION, Ref 1–3",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2010-trans-tensioner",
+      "statement": "I TRANSMISSION-listan anges BELT TENSIONER ASSY 535 48 44-01, PULLEY 535 48 22-01 och BELT GUIDE 544 40 53-01.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 19 (P18), TRANSMISSION, Ref 11, 16, 18",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2010-rear-spindle",
+      "statement": "CHASSIS REAR listar SPINDLE 506 98 58-03 och SWING AXLE 506 98 59-01. Dessa är chassidelar och ska inte förväxlas med klippaggregatets knivspindlar.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 23 (P22), CHASSIS REAR, Ref 1 och 6",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2010-deck-lift-chain",
+      "statement": "MOWER LIFT / DECK LIFT anger CHAIN 506 55 46-07, LINKAGE 506 55 47-01 och CHAIN STOP 506 90 59-01, samtliga antal 1 i 2010-katalogen.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 15 (P14), MOWER LIFT / DECK LIFT, Ref 17–19",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2010-tank",
+      "statement": "FUEL SYSTEM anger bränsletank 535 50 13-01, tanklock 506 67 33-01 samt slang 504 80 00-07.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 5 (P4), FUEL SYSTEM, Ref 1, 5, 6",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2010-2006-engine-different",
+      "statement": "2010 års produktvariant 965161601 anger motorenhet 544 45 28-01, vilket avviker från motorartikel 535 44 10-01 i Rider 16 953521401 2006-01. Katalogskillnaden bevisar inte att motortypen ändrats eller att numret är en officiell ersättare.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "2010-07 IPL, ENGINE Ref 1, PDF-sida 21; jämfört med 2006-01 IPL, MOTEUR, PDF-sida 13",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2007-pnc-identity",
+      "statement": "Originalreservdelskatalogens omslagsidentitet anger RIDER 16, produktnummer 965161601, revision 2007-06; detta skiljer revisionsdatumet från 2010-07 års katalog för samma produktnummer.",
+      "variant": "Rider 16 PNC 965161601, IPL 2007-06",
+      "locator": "SPARE PARTS LIST, omslag/titel",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-comparison-2007-k46-eu",
+      "statement": "Katalogens transmissionsritning K för Rider 16 965161601 (2007-06) betecknar hydrostaten HYDROSTAT K46 EU. Underlaget anger inte här K46-undervariantens interna Tuff Torq-kod.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "Rider 16 965161601 2007-06, figur K TRANSMISSION, text HYDROSTAT K46 EU",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-comparison-2007-2010-k46-part",
+      "statement": "Återförsäljarens 2007-06-reservdelslista anger 506986301 HYDROSTAT K46; samma Husqvarna-nummer förekommer i listan för 2010-07. Detta belägger delnummerförekomst, men inte intern versionsidentitet.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2007-06 > Transmission, 506986301 Hydrostat K46; jämförelse mot 2010-07 samma produktnummer",
+      "sourceId": "wolfswinkel-rider16-2007-ipl",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-comparison-2007-engine-part",
+      "statement": "Reservdelsritningens Engine-grupp för Rider 16 965161601 2007-06 anger motorenhet 544452801. Även 2010-07-listan har 544 45 28-01; detta innebär inte att Briggs Model/Type/Code är säkert identifierat.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2007-06 > Engine > Ref 1 544452801 Engine; jämförelse 2010-07 ENGINE Ref 1",
+      "sourceId": "wolfswinkel-rider16-2007-ipl",
+      "grade": "B",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-comparison-2010-transmission-physical",
+      "statement": "2010-07 IPL visar i flera separata TRANSMISSION-grupper remdrift, hydrostat och bakaxelkomponenter; tre BELT-poster i en grupp betyder inte att alla tre avser samma funktion eller samtidigt passar alla aggregat.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2010-07 PDF P18, TRANSMISSION Ref 1–3; separata senare TRANSMISSION-grupper",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-comparison-2007-steering-chain",
+      "statement": "2007-06 års Rider 16 styrdelsskiss anger CHAIN 506554601 och LINKAGE 506554701; numren bör inte sammanblandas med 2010-07 års klippaggregatlyftkedja 506554607.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2007-06 STEERING ref 26 CHAIN 506554601 och ref 27 LINKAGE 506554701",
+      "sourceId": "wolfswinkel-rider16-2007-ipl",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-early-2002-manual",
+      "statement": "Originalmanualen är märkt Rider 16, utgåva 2002-04; manualutgåva är inte bevis för exakt maskintillverkningsår eller PNC.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Original-PDF sida 1, omslag",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-early-2002-engine",
+      "statement": "Tekniska data i Rider 16-manualen 2002-04 anger Briggs & Stratton 28N707, 465 cm³, 11,4 kW/15,5 hk.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Engine",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-early-2002-engine-oil",
+      "statement": "Originalmanual 2002-04 anger motorolja SAE 30 eller SAE 10W/30, klass SF-CC, och oljemängd 1,2 liter. Detta får inte överföras till 2005 års motorversion utan motorkontroll.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Engine",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-early-2002-transmission",
+      "statement": "Originalmanual 2002-04 anger transmission Tuff Torq K46 och transmissionsolja SAE 10W/30 klass SF-CC; exakt K46-suffix är ej angivet.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Transmission",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-early-2002-electrical",
+      "statement": "Originalmanual 2002-04 anger elsystem 12 V minusjord, batteri 12 V 24 Ah samt Champion CJ8 eller J8, elektrodavstånd 0,7–0,8 mm.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Electrical system",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider16-early-2002-decks",
+      "statement": "Manualens tekniska data 2002-04 listar bland annat tvåknivars BioClip 90 cm och treknivarsaggregat med 97, 103 eller 112 cm klippbredd; den ger inte aggregatens PNC eller generell passform.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Cutting unit",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-early-2002-identification",
+      "statement": "Manualen för 2002-04 anger maskintypskylt under sätet framtill till vänster, motor Model/Type/Code på fläktkåpans skylt och hydrostatens K-typ, s/n och p/n på transmissionshuset vid vänster drivaxel.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 3, PDF-sida 5, Serial number / Engine / Transmission",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "rider16-early-2000-document-exists",
+      "statement": "Husqvarnas originalmanual för Rider 16 med dokumentnummer 101 91 33-26 finns i utgåva 2000-11; dokumentet identifierar ännu inte någon fastställd produktnummerlista.",
+      "variant": "Rider 16 OM 2000-11, produktnummer ej identifierat",
+      "locator": "2000-11 manualens omslag, PDF-sida 1",
+      "sourceId": "husqvarna-rider16-2000-11-owner",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2003-identity",
+      "statement": "Original reservdelskatalog har titel RIDER 16, 2003-01, men anger inget fastställt maskin-PNC i omslagets identifiering.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 1 (P0), omslag",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2003-k46",
+      "statement": "I transmissionslistan anges artikel 506 98 64-01, betecknad TRANSMISSION K46, antal 1.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 36 (P35), TRANSMISSION, 506 98 64-01",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2003-pulley",
+      "statement": "I samma transmissionslista anges remskiva 506 98 67-01 och fläkt 506 98 68-01.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 36 (P35), TRANSMISSION, 506 98 67-01 POULIE; 506 98 68-01 VENTILATEUR",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2003-engine",
+      "statement": "Motorlistan anger motorenhet 535 44 10-01, antal 1. Detta är inte Briggs motorns Model/Type/Code.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 22 (P21), MOTEUR, 535 44 10-01 MOTEUR",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2003-fuel-tank",
+      "statement": "Chassi-/ramlistan anger bränsletank 506 76 96-01 och tanklock 506 67 33-01.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 9 (P8), CHASSIS/CADRE, 506 76 96-01 RÉSERVOIR À ESSENCE; 506 67 33-01 BOUCHON DE RÉSERVOIR COMPLET",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2003-steering",
+      "statement": "Styrningslistan anger kedja 506 55 46-01 och stöd 506 55 47-01, en av vardera.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 18 (P17), DIRECTION, 506 55 46-01 CHAÎNE; 506 55 47-01 SUPPORT",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2003-belts",
+      "statement": "Chassi-/ramlistan innehåller remnummer 531 00 50-14, 531 00 50-17 och 531 00 75-72; dubbletter i listan kan representera olika ritningspositioner och bekräftar inte deras inbördes utbytbarhet.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 9 (P8), CHASSIS/CADRE, COURROIE",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2003-deck-groups",
+      "statement": "2003-01 originalkatalogen innehåller separata aggregatgrupper för 90, 97, 103 och 112 cm och dessa ska granskas separat för knivar och remmar.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sidor 38–46 (P37–P45), deck group headings; jämför produktöversikten",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2003-2003-2006-k46",
+      "statement": "2003 års RIDER 16 IPL anger K46 506 98 64-01 medan identifierad 2006 IPL för PNC 953521401 anger K46 EUR 506 98 63-01. Detta belägger skilda Husqvarna-nummer, inte automatisk ersättningsrelation.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "2003-01 PDF P35 TRANSMISSION jämfört 2006-01 953521401 PDF P5 figur H",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "D"
+    }
+  ],
+  "gaps": [
+    "Fastställ Husqvarnas exakta produktnummer och serienummerintervall som hör till manualutgåvan 2005-01.",
+    "Kontrollera motor Model/Type/Code på identifierad fysisk version innan reservdelsnummer anges.",
+    "Identifiera fullständig Tuff Torq K46-undervariant samt Husqvarna-original-IPLs och reservdelsnummer.",
+    "Separera Rider 16, Rider 16 H, Rider 16 C och Rider 16 C AWD i egna versionsbundna fakta.",
+    "Kontrollera originalillustrationer, underhållstabeller och exakta serviceintervall före reparationsråd.",
+    "Verifiera aggregatens modellnummer, remmar, knivar och faktisk kompatibilitet via versionsspecifik IPL.",
+    "Originalmanualens uppgifter om bränsle/olja är historiska; identifiera eventuella senare tillverkarrevisioner.",
+    "Katalogen för 953521401 (2006-01) måste detaljgranskas per sprängskiss/positionsnummer innan specifika reservdelsnummer eller kompatibilitet registreras.",
+    "Rider 16C 966830601 har separat Husqvarna-IPL 2008-04; behandla som sidofynd och blanda inte in dess reservdelar i Rider 16.",
+    "Identifiera positionsbundna transmissionsremmar, knivar och aggregatdelar direkt från respektive originalfigur före passformsråd.",
+    "Fastställ om 506 98 63-01 K46 EUR ersatts av något nyare Husqvarna-delnummer; listan från 2006 räcker inte för aktuellt ersättningsnummer.",
+    "Kontrollera sprängskissens övriga Combi-aggregatnummer och separat aggregat-PNC innan exakt kniv- eller reservdelskompatibilitet anges.",
+    "Undersök senare ersättningsnummer för batteri, drivrem och styrkedja från tillverkare innan inköpsråd.",
+    "Koppla Combi 103 965078401 respektive Combi 112 965071001 till egna original-IPLs, kontrollera antal knivar, infästning och eventuella ersättningsnummer.",
+    "Kontrollera rem 544113201 och 531006096 per exakt aggregatfigur och funktionsposition innan rembytesanvisningar.",
+    "Skillnaden mellan knivhus/spindel 544065901 (yttre) och 544065902 (mitten) ska verifieras i tillverkarens ritning för varje aggregatversion.",
+    "Tidigare felaktig 506 55 47-01-kedjebeteckning rättades 2026-10-22 mot Husqvarnas 37-sidiga IPL; verifiera eventuella andra kategorirubriker där originalet maskinöversatts.",
+    "Kontrollera om senare reservdelslistor ersätter 544103001/544102801, 544096101/544096201 eller 535441001; katalogen 2006 gäller som historisk baseline.",
+    "37-sidig IPL har textverifierade artikelnummer och antal, men PDF-skärmbildstjänsten gav fel vid denna genomgång; visuella ritningspositioner ska därför fortfarande kontrolleras vid praktisk demontering.",
+    "Jämför positionsnumren för 2007-06 mot 2010-07 för PNC 965161601 innan någon artikel markeras som ersatt; 2007 års PDF-figurer kunde inte öppnas visuellt i denna körning.",
+    "Utred om 2010 års motornummer 544452801 skiljer sig från 2006 års 535441001 genom en verklig motorvariant eller endast katalogrevision.",
+    "Skärmbildsgranskning av 2010 års PDF blockerades av cachefel; nya uppgifter är textkontrollerade mot positionslistor men ritningarnas visuella positionsplacering måste följas upp.",
+    "Identifiera Tuff Torq-kod för 965161601 direkt i respektive transmissionsritning eller på maskinens serienummerskylt, inte från 953521401.",
+    "Verifiera med original-IPLs och fabrikantens ersättningskedja om 506986301 är samma K46 EUR-enhet utan ändrad intern Tuff Torq-specifikation mellan 2006, 2007 och 2010.",
+    "Bekräfta Briggs Model/Type/Code för Rider 16 965161601 2007 och 2010, då samma Husqvarna motorartikel 544452801 inte ensam räcker.",
+    "Identifiera om 2007-06 och 2010-07 års remnummer skiljer sig genom tillverkarrevision, eftermarknadsersättning eller kataloguppdatering; inte dra passformsslutsatser från återförsäljardata.",
+    "Fastställ exakt PNC för 2000-11 och 2002-04 manualversioner; manualutgåvans datum är inte automatiskt maskinens årsmodell.",
+    "Kontrollera specifikationstabellen i 2000-11 originalmanual visuellt; skärmbildstjänsten returnerade cachefel och värden får därför inte föras in som verifierade.",
+    "Kartlägg 2001 och 2003 original-IPLs, särskilt tidiga aggregat (90/97/103/112 cm) och K46-undervarianter.",
+    "Katalog 2003-01 saknar identifierat Rider 16-maskin-PNC i omslaget; koppla enheten till exakt produktnummer innan passform hävdas.",
+    "Undersök skillnaden mellan K46 506986401 (2003) och K46 EUR 506986301 (2006) från tillverkardokument och transaxelmärkning.",
+    "Identifiera 2001-01 och 2002-02 års Rider 16-original-IPLs samt exakta äldre motor- och aggregatpositionsnummer.",
+    "PDF-skärmbild för 2003-katalogen kunde inte visas i aktuell webbläsartjänst; textlistor genomgångna men figurer återstår visuell validering."
+  ]
+}
