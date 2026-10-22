@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 1,
+  "slug": "klippo-excellent-2007",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Första källbundna forskningspaketet för KLIPPO Excellent ur Klippo AB:s gemensamma originalmanual art.nr 000001, version 1:17, 2007-01. Familjerelationer bevaras som sidofynd; teknisk fakta om andra modeller ska få egna register. Inga produktnummer eller årsmodeller är individuellt bekräftade.",
+  "sources": [
+    {
+      "id": "klippo-om-2007-000001",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning – Champion, Pro 19 GCV, Excellent, Excellent GCV, Pro 17 och Triumph",
+      "document": "Art.nr 000001; Version 1:17; 2007-01",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000035498/doc000066874"
+    },
+    {
+      "id": "husqvarna-support-excellent",
+      "tier": 1,
+      "title": "Husqvarna – Delar, bruksanvisningar och support för KLIPPO Excellent",
+      "document": "KLIPPO Excellent support och artikelnummerurval",
+      "url": "https://www.husqvarna.com/se/support/klippo-excellent/"
+    },
+    {
+      "id": "husqvarna-excellent-h-9676078",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO Excellent H product support",
+      "document": "Excellent H LAWN MOWER 48CM MULCH HONDA GCV160, 967 60 78-01",
+      "url": "https://www.husqvarna.com/se/support/klippo-excellent-h/"
+    },
+    {
+      "id": "husqvarna-excellent-se-9676070",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO Excellent SE product support",
+      "document": "Excellent SE LAWN MOWER 48CM MULCH B&S675EXI InStart, 967 60 70-01",
+      "url": "https://www.husqvarna.com/se/support/klippo-excellent-se/"
+    },
+    {
+      "id": "retailer-klippo-crosswalk",
+      "tier": 2,
+      "title": "ReservdelarOnline – äldre Klippo-nummer och Husqvarna-nummer",
+      "document": "Översättningstabell äldre maskinkoder till PNC (odaterad webbversion)",
+      "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
+    },
+    {
+      "id": "husqvarna-excellent-ipl-2010",
+      "tier": 1,
+      "title": "KLIPPO Excellent illustrated parts list 2009-12",
+      "document": "IPL KLIPPO Excellent 2009-12, 965 22 76-01 – Excellent 2010",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000046861/doc000084668/IPL/ga-6B42iUchbL6MHSpLiSL3WLLc?httproute=True"
+    },
+    {
+      "id": "klippo-om-2008-502937301",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning och överensstämmelseförsäkran 2008",
+      "document": "Art.nr 502937301, Version 1:18, 2008-01",
+      "url": "https://www.norlett.no/file/standardmappe-uni/brukermanual-klippo-triumph.pdf"
+    },
+    {
+      "id": "wolfswinkel-excellent-gcv-2009",
+      "tier": 2,
+      "title": "Wolfswinkel KLIPPO Excellent GCV parts diagram",
+      "document": "Excellent GCV 9652277-01, 2009-12, parts diagram overview",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/zubeh%C3%B6r-und-werkzeuge/j-hebel-satz/ausgezeichneter-gcv/ausgezeichnet-gcv-9652277-01-2009-12?format=jpg&height=220&rmode=crop&width=250"
+    },
+    {
+      "id": "wolfswinkel-excellent-gcv-parts-detailed",
+      "tier": 2,
+      "title": "Wolfswinkel complete illustrated parts list – Klippo Excellent GCV",
+      "document": "Excellent GCV 9652277-01, 2009-12, positional list refs 1–48",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/accessories-and-tools/j-lever-set/excellent-gcv/excellent-gcv-9652277-01-2009-12"
+    },
+    {
+      "id": "retailer-bracket-502871902",
+      "tier": 2,
+      "title": "ReservdelarOnline knivfäste 5028719-02: ersättningsnummer och modellförteckning",
+      "document": "Produktkort för original Husqvarna Group 5028719-02, med ersättningslista",
+      "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
+    },
+    {
+      "id": "klippo-2014-original-catalog-586612101",
+      "tier": 1,
+      "title": "KLIPPO 60-årskatalog, originalproduktkatalog 2014",
+      "document": "Husqvarna/KLIPPO 2014, artikelnummer 5866121-01, produkttabeller s.8, copyright 2014",
+      "url": "https://img.bygghemma.se/pfiles/klippo-katalogpdf__b1728a74-17f9-44f8-b0ae-ded9c614a4b2.pdf"
+    },
+    {
+      "id": "klippo-original-om-2004-000001",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning september 2004 (återpublicerad textkopia)",
+      "document": "Originalinstruktion Art.nr 000001, Malmö september 2004; ursprungliga modelldeklaration 2004-09-22",
+      "url": "https://manualzz.com/doc/4635678/klippo-champion-instruction-manual"
+    },
+    {
+      "id": "retailer-handlebar-503284301-crossyear",
+      "tier": 2,
+      "title": "ReservdelarOnline: underdel styrhandtag 5032843-01 cross-model fitment",
+      "document": "Klippo 5032843-01; seller cross-reference table 2009–2016",
+      "url": "https://www.reservdelaronline.se/produkter/underdel-styrhandtag-champion-excellent-5032843-01"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Modellidentifiering: Originalmanual omfattar namngivna modeller men produktnummer och alla årsvarianter saknas."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Grundkonstruktion: Konstruktion och kåpvarianter behöver knytas till specifika produktnummer."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Motor: Manualen nämner motorfamiljer men exakta motorkoder måste kontrolleras per individ."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Drivning: Drivsystem och självgående varianter är inte kartlagda per produktnummer."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Chassi och reglage: Chassi, handtag och höjdinställning behöver kompletteras med reservdelssprängskisser."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Manövrering: En del grundreglage kan beläggas i originalmanualen, men utföranden varierar."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Säkerhet: Originalmanualen ger säkerhetsanvisningar men alla specifika säkerhetsfunktioner är ännu inte kartlagda."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Kniv och klippsystem: Originalmanualen beskriver klipphöjd och mulcherinsats på namngivna varianter; knivnummer saknas."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Underhåll: Originalmanualen har underhållsuppgifter för dokumentets generation, inte som universella intervall."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Reservdelar: Originalkataloger, knivnummer och skruvdetaljer saknas för varje produktnummer."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Felsökning: Säkra användarkontroller finns; modellbunden symptomdiagnostik återstår."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Dokumentation: Primärmanual 2007 har identifierats; äldre och nyare utgåvor behöver jämföras."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Varianter och öppna frågor: Exakta modellår, artikelnummer och skillnader mellan Champion/Excellent/Pro behöver kartläggas."
+    }
+  },
+  "claims": [
+    {
+      "id": "excellent-2007-manual-inclusion",
+      "statement": "KLIPPO:s originalmanual från 2007 räknar upp Excellent som en av sex namngivna gräsklipparmodeller, tillsammans med Triumph, Champion, Excellent GCV, Pro 17 och Pro 19 GCV.",
+      "variant": "KLIPPO Excellent i den gemensamma manualutgåvan 2007; inte en identifierad produktnummerrevision",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Modeller'; omslag PDF-sida 1",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-2007-engine-family-warning",
+      "statement": "Manualen namnger Briggs & Stratton Sprint XT 45, Quantum XLS 50 och Quantum 60 ReadyStart samt Honda GCV 135 4,5 som motorer i den samlade manualens modellgrupp. Listan fastställer inte vilken motor som satt på ett enskilt Excellent-produktnummer.",
+      "variant": "Gemensam KLIPPO-manual 2007, ej maskinindivid eller säker motorvariant",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), rubriken 'Motorer'",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-2007-mulcher",
+      "statement": "Manualen anger att mulcherinsatsen levereras monterad på Excellent och Champion och beskriver demontering/montering med två skruvar från kåpans ovansida baktill. Tändkabeln ska lossas före ingrepp.",
+      "variant": "KLIPPO Excellent i manualutgåva 2007, inte senare Excellent-revisioner",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Mulcherinsats för Excellent-, Champion- och Pro 19-modeller', bild 12",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-2007-oil-inspection",
+      "statement": "Manualen anger kontroll av oljenivån före start och efter varje femte driftstimme. Följ även medföljande motorinstruktionsbok; uppgiften är inte belagd som ett universellt schema för alla senare Excellent.",
+      "variant": "KLIPPO Excellent inom manualfamilj 2007",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Oljekontroll', bild 3",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "excellent-2007-oil-change",
+      "statement": "Den gemensamma KLIPPO-manualen anger första oljebytet efter fem driftstimmar och därefter var tjugofemte driftstimme. Motorvariantens egen manual måste också kontrolleras.",
+      "variant": "KLIPPO Excellent inom manualfamilj 2007, ej senare motorrevisioner",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Inkörning och första oljebytet'",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "excellent-2007-height",
+      "statement": "Manualens klipphöjdsavsnitt anger 3–6 cm som generellt spakintervall, med uttryckliga undantag för Triumph och Pro 17; höjdinställningen ändrar alla hjulen samtidigt.",
+      "variant": "KLIPPO Excellent i manualfamilj 2007, inga produktnummerrevisioner fastställda",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Inställning av klipphöjden', bild 2",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-2007-blade-safety",
+      "statement": "Originalmanualen instruerar användaren att avlägsna tändkabeln från tändstiftet före beröring av kniven och att inte använda maskinen med skadade skydd eller säkerhetsanordningar.",
+      "variant": "KLIPPO Excellent i manualfamilj 2007",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Säkerhetsföreskrifter', punkterna 2 och 12",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "excellent-support-article-selection",
+      "statement": "Husqvarnas support för KLIPPO Excellent erbjuder val efter artikelnummer och har avsnitt för dokument, reservdelar, specifikationer och felsökning. Exakt artikelnummer måste identifieras innan data binds till ett individuellt exemplar.",
+      "variant": "KLIPPO Excellent, fabrikantens supportportal, inte definierat årsutförande",
+      "locator": "Supportsidan 'Välj artikelnummer' samt 'Supportinnehåll'",
+      "sourceId": "husqvarna-support-excellent",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "excellent-967607401",
+      "statement": "Husqvarnas officiella support kopplar KLIPPO Excellent artikelnummer 967 60 74-01 till motorfabrikat Briggs & Stratton. Fullständigt motortypnummer framgår inte av detta stöd.",
+      "variant": "KLIPPO Excellent 967 60 74-01",
+      "locator": "Support > Specifikationer > Motor > Varumärke motor",
+      "sourceId": "husqvarna-support-excellent",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-967607401-engine",
+      "statement": "Motorfabrikat för KLIPPO Excellent 967 60 74-01 anges som Briggs & Stratton.",
+      "variant": "KLIPPO Excellent 967 60 74-01",
+      "locator": "Specifikationer > Motor > Varumärke motor",
+      "sourceId": "husqvarna-support-excellent",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-h-967607801-identity",
+      "statement": "Husqvarnas supportsida anger separat modell Excellent H, artikelnummer 967 60 78-01, med 48 cm klippbredd, mulching och Honda GCV160 enligt produktbenämningen.",
+      "variant": "KLIPPO Excellent H 967 60 78-01; separat variant, ej det äldre Excellent 2007-exemplaret",
+      "locator": "Specifikationer > produktbenämning 'Excellent H LAWN MOWER 48CM,MULCH,HONDA GCV160'",
+      "sourceId": "husqvarna-excellent-h-9676078",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-h-967607801-bbc",
+      "statement": "Husqvarnas modellbundna specifikation för Excellent H 967 60 78-01 anger att bladbromskoppling (BBC) saknas.",
+      "variant": "KLIPPO Excellent H 967 60 78-01",
+      "locator": "Specifikationer > Utrustning > Bladbromskoppling (BBC): Nej",
+      "sourceId": "husqvarna-excellent-h-9676078",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "excellent-se-967607001-identity",
+      "statement": "Husqvarnas officiella support namnger Excellent SE artikelnummer 967 60 70-01 som 48 cm mulchingmodell med Briggs & Stratton 675EXI InStart i produktbenämningen.",
+      "variant": "KLIPPO Excellent SE 967 60 70-01, separat modellvariant",
+      "locator": "Specifikationer > produktbenämning 'Excellent SE LAWN MOWER 48CM, MULCH, B&S675EXI InStart'",
+      "sourceId": "husqvarna-excellent-se-9676070",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-k05710-2006-table",
+      "statement": "KLIPPO:s modelltabell i originalmanual 000001 anger Excellent med identitetskoden K05710, Briggs & Stratton Quantum 60 ReadyStart, 190 cm³ och 48 cm klippbredd. Tabellen avser dokumentets 2006 års försäkran, inte senare artikelnummer.",
+      "variant": "Excellent K05710 enligt Klippo försäkran 2006 i manualutgåva 2007",
+      "locator": "PDF-sida 8 (index 7), försäkran om överensstämmelse, rad Excellent",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-gcv-k05720-table",
+      "statement": "KLIPPO:s tabell anger Excellent GCV med kod K05720, Honda GCV135, 135 cm³ och 48 cm klippbredd. Detta är inte samma artikelnummer som senare Excellent H.",
+      "variant": "Excellent GCV K05720, originaltabell från 2006 i manual 2007",
+      "locator": "PDF-sida 8 (index 7), försäkran om överensstämmelse, rad Excellent GCV",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-crosswalk-k05710",
+      "statement": "Återförsäljarens korsreferens listar K05710 som Excellent med motsvarande 965227601. Tabellen är klass B och belägger inte kniv- eller motorkompatibilitet med senare Excellent 967607401.",
+      "variant": "Klippo Excellent K05710, historisk modellkod; separat från senare 967607401",
+      "locator": "Översättningstabell, rad K05710 – 965227601 – Excellent",
+      "sourceId": "retailer-klippo-crosswalk",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-gcv-crosswalk-k05720",
+      "statement": "Återförsäljarens korsreferens listar K05720 som Excellent GCV med artikelnummer 965227701. Detta är inte belägg för att senare Excellent H har identiska delar.",
+      "variant": "Klippo Excellent GCV K05720",
+      "locator": "Översättningstabell, rad K05720 – 965227701 – Excellent GCV",
+      "sourceId": "retailer-klippo-crosswalk",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-2010-ipl-identity",
+      "statement": "Husqvarnas original-IPL daterad 2009-12 omfattar Excellent 2010 artikelnummer 965 22 76-01.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, dokumentrubrik, produktnummer 965 22 76-01",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-2010-ipl-engine",
+      "statement": "Original-IPL anger motor 5029130-01, Briggs & Stratton Quantum XRQ 60 ReadyStart med motorkod 12H8021706B1.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, översta raden 'Motor'",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-2010-crosscut",
+      "statement": "Original-IPL anger kniv CROSS CUT 48, artikelnummer 5029689-01 (äldre Klippo-kod 6008), position 41.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 41",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-blade-bracket",
+      "statement": "Original-IPL anger knivfäste BLADE BRACKET 5032583-01 (Klippo-kod 0301), position 24.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 24",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-fiber-washer",
+      "statement": "Original-IPL anger FIBRE WASHER 5032594-01 (Klippo-kod 0323) på position 25.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 25",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-woodruff-wedge",
+      "statement": "Original-IPL anger WOODRUF WEDGE 5044605-01 (Klippo-kod 7075) på position 26.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 26",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-knife-hardware",
+      "statement": "Original-IPL anger SCREW AND CUP SPRING 5032727-01 (Klippo-kod 0908), position 42.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 42",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-bracket-kit",
+      "statement": "Original-IPL anger satsen BLADE BRACKET 5029322-01 (Klippo-kod 0924), bestående av position 24, 25, 26, 42.1 och 42.2.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, KITS nederst",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2010-mulcher-wall",
+      "statement": "Original-IPL anger MULCHER WALL 48, artikelnummer 5032430-01 (Klippo-kod 7437), position 18.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 18",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-2010-height-adjust",
+      "statement": "Original-IPL anger HEIGHT ADJUST BAR 48, RED, artikelnummer 5032495-01 (Klippo-kod 0228), position 9.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 9",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "excellent-2010-brake-wire",
+      "statement": "Original-IPL anger BRAKE WIRE 5032999-01 (Klippo-kod 1318), position 36.",
+      "variant": "KLIPPO Excellent 965 22 76-01, årsutförande 2010 enligt original-IPL 2009-12",
+      "locator": "PDF sida 1, parts list pos 36",
+      "sourceId": "husqvarna-excellent-ipl-2010",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "excellent-gcv-2008-article-confirm",
+      "statement": "KLIPPO originalmanual 502937301 version 1:18 visar Excellent GCV med artikelnummer 965227701, Honda GCV135, cylindervolym 135 cm³ och klippbredd 48 cm i försäkran om överensstämmelse.",
+      "variant": "Excellent GCV 965227701, manualutgåva 2008",
+      "locator": "Försäkran om överensstämmelse, tabellraden Excellent GCV",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-gcv-2009-parts-lead",
+      "statement": "En återförsäljares reservdelssida har en separat sprängskiss för Excellent GCV 9652277-01 med angiven utgåva 2009-12. Förteckningen nämner 502968901, 503249501 och 503259401 bland många nummer, men artikelroll och positionsnummer har inte verifierats mot KLIPPO-originalkatalog.",
+      "variant": "Excellent GCV 9652277-01, parts diagram 2009-12",
+      "locator": "Rubrik 'Excellent GCV, 9652277-01, 2009-12' och 'Vollständiges produkt' nummerlista",
+      "sourceId": "wolfswinkel-excellent-gcv-2009",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-blade",
+      "statement": "Katalogen för Excellent GCV 9652277-01 (2009-12) listar 502968901 som klippkniv 48 cm (äldre Klippo 6008), ref. 28.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 28, mower blade 48 cm 6008",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-blade-bolt",
+      "statement": "Katalogen anger knivbult 503272701 (äldre Klippo 0908) på ref. 29 för Excellent GCV 9652277-01 (2009-12).",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 29, blade bolt 908",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-fibre",
+      "statement": "Katalogen anger fiberbricka 503259401 (äldre Klippo 0323) på ref. 47 för Excellent GCV 9652277-01.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 47, fiber ring 323",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-key",
+      "statement": "Katalogen anger kil 504460501 (äldre Klippo 7075) på ref. 48 för Excellent GCV 9652277-01.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 48, spie 7075",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-height-bar",
+      "statement": "Katalogen listar höjdinställningsstång 503249501 (äldre Klippo 0228) på ref. 9.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 9, rod assy 228",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "excellent-gcv-2009-mulch",
+      "statement": "Katalogen listar mulchingring 503243001 (äldre Klippo 7437) på ref. 18.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 18, mulch ring 48 cm mower deck 7437",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-gcv-bracket-502871902-retailer",
+      "statement": "ReservdelarOnline listar knivfäste 5028719-02 som ersättare för 5028719-01, 5032583-01, 503259901 och 5032599-01 och anger passform till Excellent GCV 9652277-01 (2009-12). Påståendet är återförsäljarbelagt, inte bekräftat genom original-IPL eller serienummer.",
+      "variant": "Excellent GCV 9652277-01 (2009-12); sekundär partscompatibility",
+      "locator": "Produktinformation, 'Ersätter' och 'Passar till', Excellent GCV 9652277-01",
+      "sourceId": "retailer-bracket-502871902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2008-crosscut-versus-declaration",
+      "statement": "KLIPPO originalmanual 502937301 (1:18, 2008-01) använder den generiska benämningen 'Mulcher' i överensstämmelsetabellen för Excellent och Excellent GCV, men specificerar i bruksanvisningens knivsystemsavsnitt samt tekniska specifikation 'Mulcher Cross cut' för Excellent-modellerna. 'Mulcher' i deklarationen får därför inte ensamt tolkas som samma standardkniv som Pro 19 GCV.",
+      "variant": "Klippo Excellent 965227601 och Excellent GCV 965227701, originalmanual 2008",
+      "locator": "PDF-sida med svensk rubrik 'KNIVSYSTEM' (PDF index 4); engelsk 'Cutter blade system' (PDF index 12); teknisk specifikation i slutet (PDF index 24), mot överensstämmelsetabell",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-2004-k05610",
+      "statement": "2004 års originalmanual anger Excellent K05610 med Briggs & Stratton Quantum 50 (190 cm³/5,0 hk) och 48 cm klippbredd; detta är en äldre generation än Excellent K05710.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 modelltabell, Excellent K05610",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellentgcv-2004-k05650",
+      "statement": "2004 års originalmanual anger Excellent GCV K05650 med Honda GCV135 (135 cm³/4,5 hk) och 48 cm klippbredd. Det skiljer den från senare K05720.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 modelltabell, Excellent GCV K05650",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-selfstart-2004-k05620",
+      "statement": "2004 års originalmanual listar Exc Selfstart K05620 med Briggs & Stratton Quantum 50 TM, 190 cm³/5,0 hk, som en separat historisk modell. Självstartversionen får inte slås ihop med senare Excellent SE.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 överensstämmelseförsäkran, Exc Selfstart K05620",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-2014-675e",
+      "statement": "KLIPPO:s 2014 originalkatalog specificerar Excellent med Briggs & Stratton 675e, Cross-Cut-kniv, klippbredd 48 cm, klipphöjd 30–60 mm och ingen drivning.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, tabell Mulcherklippare, EXCELLENT",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-h-2014-gcv135",
+      "statement": "Originalkatalog 2014 beskriver Excellent H med Honda GCV135 OHC, Cross-Cut-kniv, 48 cm, 30–60 mm och utan drivning. Det gäller 2014 års namnutförande, inte automatiskt den senare Excellent H 967607801.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, EXCELLENT H",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-s-2014-fronthjul",
+      "statement": "Originalkatalogen 2014 anger Excellent S med Briggs & Stratton 675e, Cross-Cut 48 cm och framhjulsdrift. Denna S-variant är inte liktydig med odrivna Excellent.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, EXCELLENT S",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-sh-2014-honda140",
+      "statement": "Originalkatalogen 2014 anger Excellent SH med Honda GCV140 OHC, Cross-Cut 48 cm och framhjulsdrift. Det är en separat utförandekombination från Excellent H.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, EXCELLENT SH",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-se-2014-electro",
+      "statement": "Originalkatalogen 2014 marknadsför Excellent SE med elstart samt Briggs & Stratton 675e och framhjulsdrift i tabellen. Den får inte förväxlas med senare Excellent SE 967607001/InStart utan att jämföra produktnummer.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 5–7, 'Årets nyhet' samt tabell EXCELLENT SE",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-2014-area",
+      "statement": "2014 års originaltabell anger rekommenderad gräsyta 500–2 500 m² för Excellent, Excellent H, S, SH och SE; detta är en marknadsförd användningsyta, inte en hård gräns.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, 'Gräsyta' samtliga Excellent-rader",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "excellent-2014-aluminum",
+      "statement": "Tillverkarens 2014-katalog beskriver Excellent och Excellent H med helgjuten aluminiumkåpa, medan S och SH uttryckligen beskrivs som framhjulsdrivna.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 6, respektive Excellent modellpresentation",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "excellent-handle-2009",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent 9652276-01 2009-12. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent 9652276-01 2009-12",
+      "locator": "Produktinformation > Passar till > Excellent 9652276-01 2009-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-handle-2012",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent 965227602 2012-06. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent 965227602 2012-06",
+      "locator": "Produktinformation > Passar till > Excellent 965227602 2012-06",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-handle-2013",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent 965227602 2013-02. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent 965227602 2013-02",
+      "locator": "Produktinformation > Passar till > Excellent 965227602 2013-02",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-handle-2015",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent 967607401 2015-12. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent 967607401 2015-12",
+      "locator": "Produktinformation > Passar till > Excellent 967607401 2015-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-gcv-handle-2009",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent GCV 9652277-01 2009-12. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent GCV 9652277-01 2009-12",
+      "locator": "Produktinformation > Passar till > Excellent GCV 9652277-01 2009-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-h-handle-2014",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent H 967257801 2014-02. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent H 967257801 2014-02",
+      "locator": "Produktinformation > Passar till > Excellent H 967257801 2014-02",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-h-handle-2015",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent H 967607801 2015-12. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent H 967607801 2015-12",
+      "locator": "Produktinformation > Passar till > Excellent H 967607801 2015-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-s-handle-2016",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent S 967607101 2016-01. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent S 967607101 2016-01",
+      "locator": "Produktinformation > Passar till > Excellent S 967607101 2016-01",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-sh-handle-2016",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent SH 967607701 2016-01. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent SH 967607701 2016-01",
+      "locator": "Produktinformation > Passar till > Excellent SH 967607701 2016-01",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-se-handle-2016",
+      "statement": "ReservdelarOnline listar underdel styrhandtag 5032843-01 för KLIPPO Excellent SE 967607001 2016-01. Uppgiften är återförsäljarens modell- och versionsbundna passformslista; ingen motorsystem-/knivkompatibilitet härleds.",
+      "variant": "KLIPPO Excellent SE 967607001 2016-01",
+      "locator": "Produktinformation > Passar till > Excellent SE 967607001 2016-01",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    }
+  ],
+  "gaps": [
+    "Identifiera Excellent-produktnummer och årskopplingar via Husqvarna/Klippo partsportal; inget artikelnummer får härledas enbart från namn.",
+    "Sök primära reservdelskataloger för Excellent-varianter, inklusive kniv, knivfäste, handtag och höjdinställning.",
+    "Bind exakt Briggs/Honda motormodell, Type/Code och servicevärden till respektive produktnummer; manualen är familjegemensam.",
+    "Kartlägg Excellent kontra Excellent GCV/Excellent S/SE/SH utan att sammanblanda motor och drivsystem.",
+    "Kontrollera nya manualutgåvor samt originalservice för självgående modeller.",
+    "Original-PDF:s sidbild gav cachefel vid skärmbildsgranskning; läst text och sidlocator är tillgängliga men figurer/bilder kräver ny visuell kontroll.",
+    "Husqvarna 967 60 74-01, 967 60 78-01 och 967 60 70-01 finns som särskilda produktvarianter; koppla inte 2007-manualens oljeintervall till dem utan utgåve- och motorverifiering.",
+    "Visuell PDF-screenshot misslyckades; kontrollera serienummerkoder och tabelllayout mot skannad original-PDF innan publicering.",
+    "Reservdelslistan 965 22 76-01 (2010) har identifierats via PDF-text, men skärmbildsfunktionen misslyckades; visuellt kontrollera särskilt position 41.1/41.2 och 42.1/42.2 innan man anger underspecifika detaljer.",
+    "Verifiera reservdelarnas figurnummer i Excellent GCV 9652277-01 IPL: tredjepartslistan räcker inte för att påstå kniv- eller knivfästepassform.",
+    "Även om position 28/29/47/48 finns på återförsäljarsidan behöver original-IPL för Excellent GCV 9652277-01 kontrolleras, särskilt knivfäste ref. 46 som maskinöversätts oklart.",
+    "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll.",
+    "2008 års manual skiljer mellan generell kategoritext 'Mulcher' och tekniskt specificerad 'Mulcher Cross cut' för Excellent; verifiera exakt knivnummer per årsrevision och produktnummer innan kompatibilitetsråd.",
+    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
+    "Återförsäljarens 5032843-01-korslista omfattar flera Excellent-motor-/drivningsvarianter. Kontrollera original-IPL och handtagets fästhål innan slutlig passform fastslås."
+  ]
+}
