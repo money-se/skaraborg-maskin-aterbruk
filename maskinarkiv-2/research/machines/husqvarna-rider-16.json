@@ -60,6 +60,13 @@
       "title": "Husqvarna Rider 16 965161601 2007-06 original parts list",
       "document": "SPARE PARTS LIST RIDERS RIDER 16 965161601 2007-06",
       "url": "https://easyconcept-motoculture.com/vues_eclatees/Husqvarna/RIDERS/RIDER%2016/RIDER%2016%20965161601%202007-06/rider-16-965161601-2007-06.pdf"
+    },
+    {
+      "id": "wolfswinkel-rider16-2007-ipl",
+      "tier": 2,
+      "title": "Wolfswinkel Rider 16 965161601 2007-06 parts diagrams",
+      "document": "Rider 16 PNC 965161601 IPL 2007-06, Engine and Transmission exploded list",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/husqvarna/ride-on-mowers/riders/gasoline/otherwise/rider-16/rider-16-965161601-2007-06"
     }
   ],
   "topics": {
@@ -674,6 +681,51 @@
       "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "rider16-comparison-2007-k46-eu",
+      "statement": "Katalogens transmissionsritning K för Rider 16 965161601 (2007-06) betecknar hydrostaten HYDROSTAT K46 EU. Underlaget anger inte här K46-undervariantens interna Tuff Torq-kod.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "Rider 16 965161601 2007-06, figur K TRANSMISSION, text HYDROSTAT K46 EU",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-comparison-2007-2010-k46-part",
+      "statement": "Återförsäljarens 2007-06-reservdelslista anger 506986301 HYDROSTAT K46; samma Husqvarna-nummer förekommer i listan för 2010-07. Detta belägger delnummerförekomst, men inte intern versionsidentitet.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2007-06 > Transmission, 506986301 Hydrostat K46; jämförelse mot 2010-07 samma produktnummer",
+      "sourceId": "wolfswinkel-rider16-2007-ipl",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-comparison-2007-engine-part",
+      "statement": "Reservdelsritningens Engine-grupp för Rider 16 965161601 2007-06 anger motorenhet 544452801. Även 2010-07-listan har 544 45 28-01; detta innebär inte att Briggs Model/Type/Code är säkert identifierat.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2007-06 > Engine > Ref 1 544452801 Engine; jämförelse 2010-07 ENGINE Ref 1",
+      "sourceId": "wolfswinkel-rider16-2007-ipl",
+      "grade": "B",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-comparison-2010-transmission-physical",
+      "statement": "2010-07 IPL visar i flera separata TRANSMISSION-grupper remdrift, hydrostat och bakaxelkomponenter; tre BELT-poster i en grupp betyder inte att alla tre avser samma funktion eller samtidigt passar alla aggregat.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2010-07 PDF P18, TRANSMISSION Ref 1–3; separata senare TRANSMISSION-grupper",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-comparison-2007-steering-chain",
+      "statement": "2007-06 års Rider 16 styrdelsskiss anger CHAIN 506554601 och LINKAGE 506554701; numren bör inte sammanblandas med 2010-07 års klippaggregatlyftkedja 506554607.",
+      "variant": "Rider 16, PNC 965161601 (2007-06 / 2010-07); exakt avgränsning enligt locator",
+      "locator": "2007-06 STEERING ref 26 CHAIN 506554601 och ref 27 LINKAGE 506554701",
+      "sourceId": "wolfswinkel-rider16-2007-ipl",
+      "grade": "B",
+      "topic": "F"
     }
   ],
   "gaps": [
@@ -699,6 +751,9 @@
     "Jämför positionsnumren för 2007-06 mot 2010-07 för PNC 965161601 innan någon artikel markeras som ersatt; 2007 års PDF-figurer kunde inte öppnas visuellt i denna körning.",
     "Utred om 2010 års motornummer 544452801 skiljer sig från 2006 års 535441001 genom en verklig motorvariant eller endast katalogrevision.",
     "Skärmbildsgranskning av 2010 års PDF blockerades av cachefel; nya uppgifter är textkontrollerade mot positionslistor men ritningarnas visuella positionsplacering måste följas upp.",
-    "Identifiera Tuff Torq-kod för 965161601 direkt i respektive transmissionsritning eller på maskinens serienummerskylt, inte från 953521401."
+    "Identifiera Tuff Torq-kod för 965161601 direkt i respektive transmissionsritning eller på maskinens serienummerskylt, inte från 953521401.",
+    "Verifiera med original-IPLs och fabrikantens ersättningskedja om 506986301 är samma K46 EUR-enhet utan ändrad intern Tuff Torq-specifikation mellan 2006, 2007 och 2010.",
+    "Bekräfta Briggs Model/Type/Code för Rider 16 965161601 2007 och 2010, då samma Husqvarna motorartikel 544452801 inte ensam räcker.",
+    "Identifiera om 2007-06 och 2010-07 års remnummer skiljer sig genom tillverkarrevision, eftermarknadsersättning eller kataloguppdatering; inte dra passformsslutsatser från återförsäljardata."
   ]
 }
