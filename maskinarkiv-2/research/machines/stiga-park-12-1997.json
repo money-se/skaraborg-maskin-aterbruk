@@ -32,6 +32,13 @@
       "title": "STIGA PARK 102M original parts catalogue",
       "document": "13-2913-20 Season 1997; Issue 45-2014",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_102M_13-2913-20_96_SV-EN.pdf"
+    },
+    {
+      "id": "briggs-official-manual-lookup-2026",
+      "tier": 1,
+      "title": "Briggs & Stratton Sverige – Hitta manual och reservdelslista",
+      "document": "Officiell modell-/typ-/kodidentifiering och manualsökning",
+      "url": "https://www.briggsandstratton.com/sv-se/support/manuals"
     }
   ],
   "topics": {
@@ -443,6 +450,42 @@
       "grade": "A",
       "sourceId": "stiga-park-102m-1997-ipl",
       "locator": "Knivar, PDF sida 7 pos. 32 och 49; tabellen visuellt granskad"
+    },
+    {
+      "id": "p12-1997-briggs-identification-method",
+      "topic": "C",
+      "statement": "Briggs & Stratton anger att motorernas manualer och reservdelslistor ska väljas med rätt modellnummer och typnummer, samt vid behov kod; en återförsäljaruppgift 28D707-0133 är därmed inte ensam säker individidentifiering.",
+      "variant": "Park 12 1997 forskningssammanhang; originalbelägg gäller Briggs identifieringsmetod respektive PARK 102M 13-2913-20, utan bekräftad passform på basmaskin",
+      "grade": "A",
+      "sourceId": "briggs-official-manual-lookup-2026",
+      "locator": "Sök efter modellnummer; Engine: XXXXXX-XXXX(-XX)"
+    },
+    {
+      "id": "p12-1997-102m-blade-bearings",
+      "topic": "K",
+      "statement": "STIGA:s 102M 13-2913-20 knivgrupp listar två olika kompletta lagerboxar 1134-3696-01 och 1134-3696-02, med axlar 1134-3695-01 respektive 1134-3695-02. Höger/vänster måste väljas efter katalogposition och aggregatvariant.",
+      "variant": "Park 12 1997 forskningssammanhang; originalbelägg gäller Briggs identifieringsmetod respektive PARK 102M 13-2913-20, utan bekräftad passform på basmaskin",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Knivar, tryckt sida 7, pos 4, 8, 12, 16"
+    },
+    {
+      "id": "p12-1997-102m-height-adjust",
+      "topic": "H",
+      "statement": "STIGA:s 102M 13-2913-20 reglagegrupp listar höjdinställningsspak 1134-3039-01 och låssegment 1134-3010-01.",
+      "variant": "Park 12 1997 forskningssammanhang; originalbelägg gäller Briggs identifieringsmetod respektive PARK 102M 13-2913-20, utan bekräftad passform på basmaskin",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Reglage, tryckt sida 5, pos 4 och 8"
+    },
+    {
+      "id": "p12-1997-102m-adjust-pivot",
+      "topic": "K",
+      "statement": "Aggregat 102M 13-2913-20 listar parallellaxel 1134-3605-02 samt två pivotplattor 1134-2907-03 i reglagegruppen.",
+      "variant": "Park 12 1997 forskningssammanhang; originalbelägg gäller Briggs identifieringsmetod respektive PARK 102M 13-2913-20, utan bekräftad passform på basmaskin",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Reglage, tryckt sida 5, pos 25 och 30"
     }
   ],
   "gaps": [
@@ -455,6 +498,7 @@
     "Visuell granskning av original-PDF:s ritningar kvarstår eftersom skärmbildsvisning inte fungerade vid källgranskningen 2026-10-22.",
     "STIGA 1997 IPL listar basmaskin-transaxel 1134-3716-02 men separat MST 205-529A IPL komplett 1134-3716-01: klargör fabrikskoder, revisionsrelation och kompatibilitet innan internreparationsråd.",
     "Kraftuttagsrem 1134-9012-01 är dokumenterad för basmaskinens PTO; fullständigt aggregat-PNC, aggregatrem och knivnummer kräver separat katalog samt monteringskontroll.",
-    "STIGA original-IPL för 100B 13-2919-20 och 102M 13-2913-20 finns, men deras passform och monteringskombination med Park 12 13-1442-20 är ännu inte bekräftad i originalmanual. Välj inte aggregatdelar enbart från basmaskinens PNC."
+    "STIGA original-IPL för 100B 13-2919-20 och 102M 13-2913-20 finns, men deras passform och monteringskombination med Park 12 13-1442-20 är ännu inte bekräftad i originalmanual. Välj inte aggregatdelar enbart från basmaskinens PNC.",
+    "102M-katalogens lagerboxar och höjdreglage är dokumenterade för aggregat 13-2913-20; faktisk individ och rätt reservdelsrevision måste kontrolleras. Briggs modell-/typ-/kodetikett krävs för motorspecifik service."
   ]
 }
