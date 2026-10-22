@@ -52,7 +52,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-040745L Mower Housing listar rem, kniv, spindelhus, lyftstag och komplett aggregat med positionsnummer. Bildgranskning och ersättningsrevisioner återstår."
     },
     "I": {
       "name": "Tillbehör",
@@ -157,6 +157,149 @@
       "grade": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-jackshaft",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094199 på position 1.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 1",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-belt",
+      "statement": "MOWER HOUSING-reservdelslistan anger 037x88 på position 3.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 3",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-idler",
+      "statement": "MOWER HOUSING-reservdelslistan anger 690387 på position 4.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 4",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-lift-link",
+      "statement": "MOWER HOUSING-reservdelslistan anger 690212E701 på position 8.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 8",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-mandrel",
+      "statement": "MOWER HOUSING-reservdelslistan anger 1001200 på position 34.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 34",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-adapter",
+      "statement": "MOWER HOUSING-reservdelslistan anger 690411 på position 36.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 36",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-blade",
+      "statement": "MOWER HOUSING-reservdelslistan anger 095100E701 på position 37.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 37",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-deflector",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094707SE på position 44.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 44",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-front-hanger",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094190E701 på position 46.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 46",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-gauge-wheel",
+      "statement": "MOWER HOUSING-reservdelslistan anger 092683 på position 53.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 53",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-left-brake",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094049E701 på position 12.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 12",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-right-brake",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094047E701 på position 27.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 27",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-deck-assembly",
+      "statement": "MOWER HOUSING-reservdelslistan anger 7601032 på position 1–61.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 1–61",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -165,6 +308,7 @@
     "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
-    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
+    "PDF-bildgranskning av Mower Housing misslyckades; uppgifterna har jämförts mot källans indexerade text."
   ]
 }
