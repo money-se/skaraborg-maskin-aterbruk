@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061008300",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Förstudie med återförsäljarens versionsregister; ingen tillverkarverifierad specifikation eller passform.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cma-96061008300-source",
+      "tier": 2,
+      "title": "Jonsered LT2115CMA parts register hos återförsäljare",
+      "document": "LT2115CMA / 96061008300 / 2006-04",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/jonsered/aufsitzrasenm%C3%A4her/gartentraktoren/lt/lt-2115-cma"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061008300-identity",
+      "statement": "Reservdelsregistrets variantlista upptar LT2115CMA 96061008300 med familje-/produktnummer 960610083 och revisionsmärkning 2006-04.",
+      "variant": "LT2115CMA / 96061008300 / 2006-04",
+      "locator": "Återförsäljarens LT2115CMA-variantlista, rad 96061008300",
+      "sourceId": "jonsered-lt2115cma-96061008300-source",
+      "grade": "C",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Full visuell granskning av originalkatalog saknas; sidnumrering och bilden bakom katalogpositionerna måste kontrolleras innan publicering.",
+    "Motor, knivnummer, transmissionens individuella etikett, elsystem och service behöver versionsbunden dokumentation.",
+    "Gemensam produktfamilj eller artikelnummer i en katalog är inte automatiskt en komplett passformsgaranti."
+  ]
+}
