@@ -83,8 +83,8 @@
       "note": "Tillverkarens familjemanual är identifierad, men exakta serviceintervall/oljemängder kräver sida-för-sida-kontroll och BOM."
     },
     "K": {
-      "state": "gap",
-      "note": "Felsökning ska kopplas till konkret symptom och full modellkod, inte familjebeteckning."
+      "state": "verified",
+      "note": "Felsökningsmatrisen i BLN-52441 P25 sida 8 är sidbildsverifierad; enskild OEM-installation och faktisk felorsak måste fortfarande undersökas."
     },
     "L": {
       "state": "verified",
@@ -374,6 +374,51 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "p25-one-direction-diagnosis",
+      "statement": "Om transaxeln driver endast åt ett håll anger felsökningstabellen böjt/feljusterat reglagelänkage samt slirande drivrem eller skadad remskiva som möjliga orsaker.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Unit Operates In One Direction Only",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-tracking-diagnosis",
+      "statement": "Om maskinen drar snett anger tabellen däcktryck, reglagelänkage, kärvande bypass och delvis aktiverad broms som möjliga orsaker; korrekt däcktryck ska hämtas från maskintillverkaren.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Vehicle Does Not Drive/Track Straight",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-hot-diagnosis",
+      "statement": "Om transmissionen blir varm anger tabellen bland annat smutsbeläggning, skadad kylfläkt, låg/förorenad olja, för hög belastning, luft i hydraulsystemet och delvis aktiverad broms som möjliga orsaker.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Unit Is Operating Hot",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-low-power-diagnosis",
+      "statement": "Vid svag eller utebliven drivning listar manualen för lågt motorvarv, feljusterat länkage, slirande rem, låg/förorenad olja, hög belastning, bypass, luft i hydraulsystemet och delvis aktiverad broms som kontrollpunkter.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Unit Has No/Low Power",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-engine-off",
+      "statement": "Manualen varnar uttryckligen för att utföra service eller justering med motorn igång; okulär besiktning av drivrem och länkage kräver försiktighet och tillämpning av maskinens egna säkerhetsrutiner.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting > WARNING",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -386,6 +431,7 @@
     "Kritisk revisionskontroll: äldre BLN-52441 anger 65 in-lb för filterkåpans skruvar medan januari 2023-utdrag anger 115 in-lb; tillämpa inget moment utan kontroll av rätt utgåva, skruv och BOM. Kontrollera även senare april 2023 P25.",
     "Kontrollera felaktigt återgivna momentomräkningar i tredjepartstranskriptioner (t.ex. 120 in-lb anges även som 20,3 Nm, vilket matematiskt inte stämmer); förlita dig på verifierad källbild och korrekt enhet.",
     "P25 tryckt sida 11 har inkonsekvent momentvärde för top-port-plugg: 120 in-lb anges ihop med 20,3 Nm, men korrekt omräkning är cirka 13,56 Nm. Inhämta tillverkarförtydligande före verkstadstillämpning.",
-    "Slå upp ytterligare faktiska kitartikelnummer i Hydro-Gears modellkodstyrda online service schematics innan 200/201/202/203/207/210/211/212/215 rekommenderas."
+    "Slå upp ytterligare faktiska kitartikelnummer i Hydro-Gears modellkodstyrda online service schematics innan 200/201/202/203/207/210/211/212/215 rekommenderas.",
+    "Felsökningsmatrisen är generisk: innan åtgärd på en konkret klippare krävs OEM:s däcktrycks-, reglage- och säkerhetsinstruktioner."
   ]
 }
