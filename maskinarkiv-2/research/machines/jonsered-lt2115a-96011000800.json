@@ -25,6 +25,13 @@
       "title": "LT2115A Jan 2005 dealer MOWER",
       "document": "LT2115A Jan 2005 dealer MOWER",
       "url": "https://www.sgarden.cz/NahradniDily/Rozkresy/75165/KRYT_SECENI__ZACI_USTROJI"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "tier": 2,
+      "title": "Jonsered LT2115A 96011000800 2005-01 24-page illustrated parts list",
+      "document": "Original IPL facsimile, DRIVE p.12 / key53",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115a/tracteur_tondeuse_jonsered_lt2115a_vue-eclate-liste-des-pieces_2005-01.pdf"
     }
   ],
   "topics": {
@@ -130,11 +137,11 @@
     },
     {
       "id": "jonsered-lt2115a-96011000800-clutch-link",
-      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar kopplingslänk 532105710 vid DRIVE position 53. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "statement": "2005-01 originalförteckning DRIVE pos53 listar kopplingslänk 532 10 57-10. En senare återförsäljarkatalog för samma versionsnummer listar i stället 532 19 96-52; relationen mellan numren är ännu inte OEM-bekräftad.",
       "variant": "jonsered-lt2115a-96011000800",
-      "locator": "sGarden DRIVE list, row 53",
-      "sourceId": "jonsered-lt2115a-96011000800-jan-drive",
-      "grade": "C",
+      "locator": "Jonsered LT2115A 2005-01 24-sidig IPL, PDF sida 13 (index 12), DRIVE key53; jämför Wolfswinkel Drive",
+      "sourceId": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "grade": "B",
       "topic": "D",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
@@ -199,6 +206,7 @@
     "Utökning kräver sidvis originalkatalogkontroll av DRIVE, ENGINE, ELECTRICAL, MOWER och STEERING.",
     "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
     "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
-    "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL."
+    "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL.",
+    "Äldre 2005-01 OEM-förteckning visar DRIVE key53=532105710 medan nyare Wolfswinkel för samma 2005-01 anger 532199652. Det finns inga fastställda OEM-dokument för att detta är en ersättningskedja."
   ]
 }
