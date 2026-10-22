@@ -32,6 +32,13 @@
       "title": "KLIPPO originalbruksanvisning och överensstämmelseförsäkran 2008",
       "document": "Art.nr 502937301, Version 1:18, 2008-01",
       "url": "https://www.norlett.no/file/standardmappe-uni/brukermanual-klippo-triumph.pdf"
+    },
+    {
+      "id": "retailer-bracket-502871902",
+      "tier": 2,
+      "title": "ReservdelarOnline knivfäste 5028719-02: ersättningsnummer och modellförteckning",
+      "document": "Produktkort för original Husqvarna Group 5028719-02, med ersättningslista",
+      "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
     }
   ],
   "topics": {
@@ -160,6 +167,15 @@
       "sourceId": "klippo-om-2008-502937301",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "pro19gcv-bracket-502871902-retailer",
+      "statement": "ReservdelarOnline listar knivfäste 5028719-02 till Pro 19 GCV artikelnummer 9652290-01 (2009-12) och anger att delen ersätter 5028719-01 samt 5032583-01. Detta är en sekundär kompatibilitetsuppgift, inte en verifierad ursprungsposition i original-IPL.",
+      "variant": "Pro 19 GCV 9652290-01 (2009-12); sekundär katalog",
+      "locator": "Produktinformation, 'Ersätter' och 'Passar till', Pro 19 GCV 9652290-01",
+      "sourceId": "retailer-bracket-502871902",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -168,6 +184,7 @@
     "Reservdelskatalog, mulcherkniv, knivbult, växelhölje och passform behöver källor.",
     "Kontrollera äldre Pro 19 GCV jämfört med senare Pro 19 SH/Pro 19 S H inklusive självgående system.",
     "Knyt servicedata till separat Honda GCV135 originalserviceanvisning.",
-    "Sök original IPL för Pro 19 GCV med artikelnummer 965229001/K06730 och fastställ kniv och knivfäste efter serienummer."
+    "Sök original IPL för Pro 19 GCV med artikelnummer 965229001/K06730 och fastställ kniv och knivfäste efter serienummer.",
+    "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll."
   ]
 }
