@@ -37,3 +37,15 @@
 3. Lägg hit endast ny relation/pekare som gör andra maskiner lättare att hitta, inte en andra kopia av tekniska påståenden.
 4. Sidofynd utan eget register får finnas här som **researchuppslag**, aldrig som verifierat tekniskt underlag eller publiceringsbeslut.
 5. Varje ny artikel måste separat uppfylla projektets research-grind och granskningsregler.
+
+## Motorforskning – tillverkaroriginal som väntar på maskinbunden koppling (2026-10-22)
+
+Dessa är **källpekare/identifieringsuppslag**, inte motorpåståenden som får användas i maskinartiklar innan rätt motormärkning och maskinvariant har styrkts.
+
+| Motorfamilj | Originalkälla | Nästa verifieringssteg |
+|---|---|---|
+| Briggs & Stratton | [Briggs motoridentifiering](https://www.briggsandstratton.com/en-us/support/faqs/engine-codes-model-numbers), [manualer/IPL](https://www.briggsandstratton.com/en-gb/support/manuals) | Utgå från exakt Model/Type/Code för monterad motor; första maskinbundna claim finns i [Rider 13-registret](machines/husqvarna-rider-13.json) (`rider13c-briggs-identification-procedure`) |
+| [Honda GX160](machines/engine-honda-gx160.json) (`gx160-manual-gcack-range`) | [Honda Engine Type Identification](https://engines.honda.com/support-and-service/engine-type-identification), [ägarmanualer](https://engines.honda.com/support-and-service/owners-manuals/), [verkstads-/reservdelsmanualer](https://engines.honda.com/support-and-service/shop-manuals) | Identifiera exakt Type Code och serienummer; kontrollera europeisk dokumentutgåva innan maskinbundet claim skapas |
+| [Kohler Command CV11–CV16](machines/engine-kohler-command-cv11-cv16.json) (`kohler-identification-trio`) | [Kohler Magnum M8–M16 originalverkstadshandbok TP-2203-A](https://resources.kohler.com/power/kohler/enginesUS/pdf/tp_2203_a.pdf), [Kohler Command CV11–CV16 originalverkstadshandbok TP-2339-D](https://resources.kohler.com/power/kohler/enginesUS/pdf/tp_2339_d.pdf) | Identifiera motorns modell, specifikationsnummer och serienummer; jämför relevant manualrevision och maskinkoppling, inte bara hästkraftsnamn |
+
+Originalmanualernas exakta serviceuppgifter läggs i kanoniska maskinregister först när variant/motorpar är verifierat. Kohlers identifieringsfigurer har behandlats i det kanoniska komponentregistret; kontrollera alltid aktuellt specifikationsnummer och källans revision. Briggs kodnyckel (revision 2/06) är visuellt kontrollerad på [originalets PDF-sida 1](https://www.briggsandstratton.com/hubfs/Briggs%20and%20Stratton/EMEA/FAQs/pdfs/Numerical_Designation_System.pdf) och tillhör [Rider 13-registret](machines/husqvarna-rider-13.json), claim `rider13c-briggs-type-code-meaning`.
