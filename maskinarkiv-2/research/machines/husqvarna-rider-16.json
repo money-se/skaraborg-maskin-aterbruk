@@ -123,6 +123,13 @@
       "title": "sGarden Rider 16 2001-01 electrical parts",
       "document": "Rider 16 2001-01 ELECTRICAL",
       "url": "https://www.sgarden.cz/SpareParts/PartList/28767/ELECTRICAL?SelectedCode=506916401"
+    },
+    {
+      "id": "husqvarna-rider16-workshop-2003-02",
+      "tier": 1,
+      "title": "Husqvarna Workshop Manual Rider 11 / Rider 13 / Rider 16",
+      "document": "Workshop Manual 2003-02 (72-page English PDF)",
+      "url": "https://www.mymowerparts.com/pdf/Husqvarna-Service-Repair-Manuals/W0301001.pdf"
     }
   ],
   "topics": {
@@ -989,6 +996,60 @@
       "sourceId": "rider16-2001-sgarden-electrical",
       "grade": "B",
       "topic": "G"
+    },
+    {
+      "id": "rider16-2003-workshop-engine-generations",
+      "statement": "Verkstadshandbokens Rider 16-tabell skiljer B&S 28N707 (-2002) från 282H070110E1 (2003-); denna uppgift beskriver handbokens generationsindelning men är inte en PNC-verifierad motoridentitet.",
+      "variant": "Husqvarna Rider 16 enligt verkstadshandbok 2003-02; PNC ej angivet",
+      "locator": "PDF-sida 7 (index P6), Technical data, Engine: Model -2002 och Model 2003-",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2003-workshop-oil-discrepancy",
+      "statement": "Verkstadshandboken 2003-02 anger 1,4 liter motorolja för Rider 16, medan ägarmanualen 2002-04 i tidigare claim anger 1,2 liter. Källorna måste hållas isär tills motorns variant och mätmetod fastställts.",
+      "variant": "Husqvarna Rider 16 enligt verkstadshandbok 2003-02; PNC ej angivet",
+      "locator": "PDF-sida 7 (P6), Technical data, Engine: Oil capacity 1,4 litres; jämför 2002-04 OM tryckt s.42",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2003-workshop-gearbox-oil-capacity",
+      "statement": "Rider 16-tabellen i Husqvarnas verkstadshandbok anger K46, SAE 10W/30 klass SF-CC och oljekapacitet 2,2 liter; uppgiften är inte ett generellt servicebytesmått för alla K46-varianter.",
+      "variant": "Husqvarna Rider 16 enligt verkstadshandbok 2003-02; PNC ej angivet",
+      "locator": "PDF-sida 7 (P6), Technical data, Gearbox: Oil capacity 2,2 litres",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2003-workshop-electrical-generations",
+      "statement": "Verkstadshandboken anger Champion CJ8 eller J8 till och med 2002 och Champion QC12YC från 2003, samt huvudsäkring 15 A för Rider 16 i sin specifikationstabell.",
+      "variant": "Husqvarna Rider 16 enligt verkstadshandbok 2003-02; PNC ej angivet",
+      "locator": "PDF-sida 7 (P6), Technical data, Electrical system",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider16-2003-workshop-deck-comparison",
+      "statement": "Verkstadshandbokens tekniska data skiljer Bio 90 (900 mm, 480 mm knivlängd), Bio 103 (1030 mm, 410 mm) och Combi 103 (1030 mm, 410 mm); den redovisar även BioClip 112 och Combi 112 (420 mm knivlängd).",
+      "variant": "Husqvarna Rider 16 enligt verkstadshandbok 2003-02; PNC ej angivet",
+      "locator": "PDF-sida 7 (P6), Technical data, Mowing deck, båda tabellerna",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2003-workshop-special-tools",
+      "statement": "Husqvarnas verkstadshandbok listar verktyg 506 66 48-01 motorremskiveavdragare, 506 89 92-01 mothåll för motorremskiva och 506 89 93-01 verktyg för led-/artikulationsfjäder.",
+      "variant": "Husqvarna Rider 16 enligt verkstadshandbok 2003-02; PNC ej angivet",
+      "locator": "PDF-sida 5 (P4), Special tools",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -1027,6 +1088,8 @@
     "PDF-skärmbild för 2003-katalogen kunde inte visas i aktuell webbläsartjänst; textlistor genomgångna men figurer återstår visuell validering.",
     "Original-IPLs för Rider 16 revision 2001-01 och 2002-02 behöver granskas visuellt mot sprängskiss och katalogomslag. De återfunna reservdelslistorna är sekundärkällor.",
     "Bekräfta om tidig motorartikel 506959101, senare 535441001 och 544452801 representerar motorbyten eller omnumrering; ingen ersättningskedja är verifierad.",
-    "Fastställ separata aggregat-PNC, antal 90-cm-knivar och eventuella ersättningsnummer via Husqvarnas originalkataloger."
+    "Fastställ separata aggregat-PNC, antal 90-cm-knivar och eventuella ersättningsnummer via Husqvarnas originalkataloger.",
+    "Källkonflikt: Rider 16 bruksanvisning 2002-04 1,2 l motorolja medan verkstadshandbok 2003-02 anger 1,4 l; mätmetod, motorutförande och servicebulletiner kräver kontroll.",
+    "Identifiera Rider 16:s exakta produktnummer i verkstadshandbokens generationsöversikt innan generella service- eller reservdelsråd ges."
   ]
 }
