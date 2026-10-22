@@ -74,6 +74,13 @@
       "title": "Hydro-Gear model-specific service schematic ZJ-GMEB-5LDB-2DXX",
       "document": "71370-P72, three-page OEM service schematic republished by ManualsPlus",
       "url": "https://manuals.plus/m/3fa8c3b3ee23268c804b52cd2a8d877161930d29c8a4efc2ad37440c7d98a0cb.pdf"
+    },
+    {
+      "id": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "tier": 2,
+      "title": "Hydro-Gear model-specific Service Schematic ZK-KHEE-3BDC-3DLX",
+      "document": "71370 P72, individual three-page OEM parts list (reproduced at ManualsPlus)",
+      "url": "https://manuals.plus/m/0fe0deec0f8ff51e4a67c5c5a07f29577c507daa75b2a6978ec32a2f30aa72ce.pdf"
     }
   ],
   "topics": {
@@ -2542,6 +2549,240 @@
       "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
       "grade": "B",
       "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-pinion",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger pinjong 14 tänder, position 72: 52109. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-reduction",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger reduktionskugghjul 45 tänder, position 81: 52110. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-jackgear",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger mellanaxelkugghjul 11 tänder, position 82: 52583. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-bullgear",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger slutkugghjul 54 tänder, position 91: 52108. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-center",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger mittsektionssats lh chrg, position 201: 71563. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-rtn",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger dubbelriktad rtn-sats, position 211: 71592. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-brake",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger invändig bromsaxel, position 101: 52651. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-brake-kit",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger bromssats för höger rotation b/vänster rotation a, position 215: 72756. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-neutral",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger vänster neutralarm, position 141: 51946. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-guard",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger oljefilterskyddssats, position 106: 71854. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-breather",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger ventilationsanslutningssats, position 111: 71393. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-hub",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger fyrbultsnavsats, position 97: 71405. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-axle-kit",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger drivaxelsats, position 212: 71570. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-axle-tube",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger axelrör, position 186: 53496. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-input-shaft-kit",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger ingående axelsats, position 210: 73047. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-filter",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger oljefilter, position 23: 52114. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-seal-kit",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger tätningssats, position 200: 73107. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-charge",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger laddpumpssats, position 203: 72274. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-charge-relief",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger laddtrycksventilsats, position 202: 71436. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-charge-rotor",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger laddpumpens gerotor 1,9 cc, position 131: 50273. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-bypass",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger bypassarm, position 34: 52370. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-motor",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger cylinderblock, motor 16 cc, position 64: 72882. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-input-seal",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger hnbr-tätning för ingående axel, position 56: 55486. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-shaft-motor",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger motoraxel, position 73: 52150. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-oil",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger 20w50 olja, positionsnummer 14; ritningens mängd: 70,3 oz. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 2/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-zk-khee-hub-puller",
+      "statement": "Hydro-Gears modellbundna P72-lista för ZK-KHEE-3BDC-3DLX anger navavdragarsats, position 209: 72320. Uppgiften är en BOM-koppling, inte en universell passforms- eller ersättningsuppgift.",
+      "variant": "Exakt modellkod ZK-KHEE-3BDC-3DLX, service schematic 71370 P72",
+      "locator": "PDF sida 3/3, parts list; originalsidbild kontrollerad 2026-10-22",
+      "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
+      "grade": "B",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -2576,6 +2817,7 @@
     "P39 och P72 är två olika fullständiga modeller. Skillnader mellan deras artikelnummer är INTE bevis på ersättningskedjor. Undersök BOM-identisk utgåvehistorik för supersessionsverifiering.",
     "HISTORIK 2026-10-22: P72 var tidigare oåtkomlig och 20 uppgifter spärrades; den har nu återfunnits och sidgranskats, och dessa 20 poster återklassats B. Framtida ersättningsnummer och tillämpning utanför exakt BOM är fortfarande oklara.",
     "Återfunnen P72 bekräftar delar för exakt ZJ-GMEB-5LDB-2DXX men inte ersättningskedjor mellan P39/P72 eller kompatibilitet med annan modellkod. Beställning ska föregås av kontroll av faktisk etikett, serienummer och aktuell återförsäljares supersessionuppgifter.",
-    "P72:s första två BOM-rader saknar direkt artikelnummer för komplett ersättningsenhet och hänvisar till distributör. Kräv fysisk skylt med modell och serienummer samt distributionsverifierat aktuellt artikelnummer innan köp."
+    "P72:s första två BOM-rader saknar direkt artikelnummer för komplett ersättningsenhet och hänvisar till distributör. Kräv fysisk skylt med modell och serienummer samt distributionsverifierat aktuellt artikelnummer innan köp.",
+    "ZK-KHEE-3BDC-3DLX och ZJ-GMEB-5LDB-2DXX har båda P72 på schemat men skilda reservdelskombinationer; verifiera alltid full modellkod, inte endast P72 eller ZT-serie, före beställning."
   ]
 }
