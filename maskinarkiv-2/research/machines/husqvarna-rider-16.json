@@ -25,6 +25,20 @@
       "title": "Husqvarna Rider 16 original illustrated parts list PDF",
       "document": "IPL Rider 16 953 52 14-01; 2006-01; 544 31 83-01; I0600008",
       "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000030494/doc000058593/IPL/epGNFrDZggfGF2FOt6RDq6RzldM?httproute=True"
+    },
+    {
+      "id": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "tier": 2,
+      "title": "sGarden spare parts list Rider 16 953521401 103CM CUTTING DECK",
+      "document": "Rider 16 953521401 2006-01 103CM CUTTING DECK",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/28701/103CM_CUTTING_DECK"
+    },
+    {
+      "id": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "tier": 2,
+      "title": "sGarden spare parts list Rider 16 953521401 44/112CM CUTTING DECK",
+      "document": "Rider 16 953521401 2006-01 44/112CM CUTTING DECK",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/28702/44112CM_CUTTING_DECK"
     }
   ],
   "topics": {
@@ -378,6 +392,96 @@
       "sourceId": "husqvarna-rider16-2006-oem-pdf",
       "grade": "A",
       "topic": "C"
+    },
+    {
+      "id": "rider16-2006-combi103-deck-pnc",
+      "statement": "Combi 103 anges med aggregatets produktnummer 965078401 i 103CM CUTTING DECK-listan.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > CUTTING DECK COMBI 103 965078401",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-deck-pnc",
+      "statement": "Combi 112 anges med aggregatets produktnummer 965071001 i 44/112CM CUTTING DECK-listan.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > CUTTING DECK COMBI 112 965071001",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-blade",
+      "statement": "103 cm-aggregatlistan benämner artikel 544103001 som BLADE; antal och ersättningsnummer ska kontrolleras i originalfiguren.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > BLADE 544103001",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-blade",
+      "statement": "112 cm-aggregatlistan benämner artikel 544102801 som BLADE; detta skiljer sig från 103 cm-katalogens bladnummer.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BLADE 544102801",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-belt",
+      "statement": "103 cm-listan anger BELT 544113201 samt BELT 531006096 som separata artiklar; respektive rems funktion måste knytas till figurposition före serviceinstruktion.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > BELT 544113201 / BELT 531006096",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-belt",
+      "statement": "112 cm-listan anger BELT 531006096; någon slutsats om att 544113201 från 103 cm-listan passar 112 cm kan inte dras.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BELT 531006096",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-blade-housings",
+      "statement": "103 cm-listan skiljer på BLADE HOUSING ASSY 544065901 och 544065902 och listar dessutom BEARING HOUSING 544067801.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > BLADE HOUSING ASSY 544065901 / 544065902; BEARING HOUSING 544067801",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-blade-housings",
+      "statement": "112 cm-listan skiljer uttryckligen BLADE HOUSING ASSY 544065901 (YTTRE) från 544065902 (MITTEN), och listar BEARING HOUSING 544067801.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BLADE HOUSING ASSY 544065901 YTTRE, 544065902 MITTEN",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi-shafts",
+      "statement": "Båda 2006-listorna innehåller SHAFT 544067901 och 544067902; gemensam katalogförekomst visar inte att varje monteringsposition eller senare revision är identisk.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "103CM CUTTING DECK > SHAFT 544067901 / 544067902",
+      "sourceId": "husqvarna-rider16-2006-combi103-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi-cover-difference",
+      "statement": "103 cm-listan anger BELT COVER 544096101 medan 112 cm-listan anger BELT COVER 544096201.",
+      "variant": "Rider 16 produktnummer 953521401, aggregatlista 2006-01",
+      "locator": "44/112CM CUTTING DECK > BELT COVER 544096201; jämför 103CM CUTTING DECK 544096101",
+      "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
+      "grade": "B",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -393,6 +497,9 @@
     "Identifiera positionsbundna transmissionsremmar, knivar och aggregatdelar direkt från respektive originalfigur före passformsråd.",
     "Fastställ om 506 98 63-01 K46 EUR ersatts av något nyare Husqvarna-delnummer; listan från 2006 räcker inte för aktuellt ersättningsnummer.",
     "Kontrollera sprängskissens övriga Combi-aggregatnummer och separat aggregat-PNC innan exakt kniv- eller reservdelskompatibilitet anges.",
-    "Undersök senare ersättningsnummer för batteri, drivrem och styrkedja från tillverkare innan inköpsråd."
+    "Undersök senare ersättningsnummer för batteri, drivrem och styrkedja från tillverkare innan inköpsråd.",
+    "Koppla Combi 103 965078401 respektive Combi 112 965071001 till egna original-IPLs, kontrollera antal knivar, infästning och eventuella ersättningsnummer.",
+    "Kontrollera rem 544113201 och 531006096 per exakt aggregatfigur och funktionsposition innan rembytesanvisningar.",
+    "Skillnaden mellan knivhus/spindel 544065901 (yttre) och 544065902 (mitten) ska verifieras i tillverkarens ritning för varje aggregatversion."
   ]
 }
