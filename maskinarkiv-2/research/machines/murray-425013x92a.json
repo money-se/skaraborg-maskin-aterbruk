@@ -22,7 +22,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-030768L s.2 kartlägger sits, huv 094322E663, grill 094087E700, vänster/höger lamplins, panel 1001593E701, sidopaneler och batterifästen. Nummer skiljer från 425014X92A:s huv/dashrevision."
     },
     "C": {
       "name": "Motor",
@@ -1125,6 +1125,314 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001028 för katalogposition 1.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-support",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094154E701 för katalogposition 8.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 8",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-pivot",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094156 Z för katalogposition 9.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-bracket",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001648E700 för katalogposition 10.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 10",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-deck",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001555E663 för katalogposition 19.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 19",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-detent-plate",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094194E700 för katalogposition 21.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 21",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-floor-mat-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094383 för katalogposition 23.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 23",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-floor-mat-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094382 för katalogposition 24.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 24",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-hood",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094322E663 för katalogposition 25.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 25",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-grille",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094087E700 för katalogposition 26.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 26",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-lens-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094093 för katalogposition 27.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-bezel-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094089 Z för katalogposition 28.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-lens-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094092 för katalogposition 29.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-bezel-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094088 Z för katalogposition 30.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-steering-bearing",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001491 för katalogposition 33.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 33",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-dashboard",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001593E701 för katalogposition 34.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-access-panel",
+      "statement": "CHASSIS & HOOD listar artikelnummer 093007E701 för katalogposition 36.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 36",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-dash-support",
+      "statement": "CHASSIS & HOOD listar artikelnummer 095318E701 för katalogposition 37.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 37",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-hanger-bracket",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001270E701 för katalogposition 38.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 38",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-battery-box",
+      "statement": "CHASSIS & HOOD listar artikelnummer 690424 för katalogposition 45.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 45",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-hitch-plate",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001002E701 för katalogposition 46.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 46",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-rear-plate",
+      "statement": "CHASSIS & HOOD listar artikelnummer 690218E701 för katalogposition 47.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 47",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-detent-cover",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094680 för katalogposition 48.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 48",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-side-panel-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 095218E700 för katalogposition 49.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 49",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-side-panel-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 095217E700 för katalogposition 50.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 50",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-battery-support",
+      "statement": "CHASSIS & HOOD listar artikelnummer 690482E701 för katalogposition 51.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 51",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-plenum",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001486E701 för katalogposition 62.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 62",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-beverage-holder",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001542 för katalogposition 70.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 70",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1138,6 +1446,7 @@
     "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning.",
     "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform.",
     "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll.",
-    "Murray 425013X92A STEERING s.6 kontrollerat via katalogtext. PDF-bildhämtning misslyckades, därför kvarstår sprängskissverifiering och fysiska ersättningsnummer."
+    "Murray 425013X92A STEERING s.6 kontrollerat via katalogtext. PDF-bildhämtning misslyckades, därför kvarstår sprängskissverifiering och fysiska ersättningsnummer.",
+    "425013X92A CHASSIS & HOOD s.2 baserat på katalogens indexerade text, inte bildgranskad sprängskiss; artikelnummer anger inte garanterad passform mot andra Murray-versioner."
   ]
 }
