@@ -137,7 +137,7 @@
     },
     "E": {
       "state": "gap",
-      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision."
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår."
     },
     "F": {
       "state": "gap",
@@ -149,7 +149,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår."
     },
     "I": {
       "state": "gap",
@@ -541,6 +541,33 @@
       "sourceId": "sears-mtd-13bh670f062-index",
       "locator": "SELECT DIAGRAM, Over head valve / Tecumseh wiring / single cylinder Briggs & Stratton",
       "topic": "A"
+    },
+    {
+      "id": "mtd-2000-parts-both-front-wheel-types",
+      "topic": "E",
+      "statement": "PartsTree:s 2000-katalog för 13BH670F062 listar både 634-0056A (15x6 round shoulder) och 634-0105A (15x6 square shoulder) som alternativa framhjul i den breda sprängskisslistan; förekomsten av båda bekräftar inte vilken variant en enskild maskin har.",
+      "variant": "13BH670F062, PartsTree 2000-katalog med flera hjulalternativ",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "All Parts → Axle, Front, Steering Assembly, Wheels Front → 634-0056A samt 634-0105A"
+    },
+    {
+      "id": "mtd-2000-parts-deck-f",
+      "topic": "H",
+      "statement": "PartsTree:s 2000-reservdelsindex namnger aggregatgruppen Deck Assembly F för 13BH670F062. Det är en kataloggrupp, inte belägg för vilket aggregat som faktiskt satt på varje exemplar.",
+      "variant": "13BH670F062, PartsTree 2000 Lowes",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "All Diagrams (12) → Deck Assembly F"
+    },
+    {
+      "id": "mtd-2001-primary-direct-text-audit",
+      "topic": "A",
+      "statement": "Originaldokumentet MTD 770-2001XREF anger på Lowes 062-sidan att 13BH670F062 har 38 tum Style F och Briggs & Stratton 28T707-1154-E1; den länkade 56-sidors PDF:ens textlager kan kontrolleras, men visuell sidbild kunde inte öppnas i forskningsomgången.",
+      "variant": "13BH670F062 i MTD 2001 Customer Cross Reference, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22, PDF sida 22 (nollindex 21), rad 13BH670F062"
     }
   ],
   "gaps": [
@@ -557,6 +584,7 @@
     "Dayco anger fyra remapplikationer utan att ange vilken av 2000/2001 års 42-/38-tums däck som de olika TO DECK-remmarna tillhör. Kräv original-IPLs före användningsråd.",
     "Dayco 2021-PDF kunde inte skärmbildskontrolleras i webbläsningen (cache miss); källans textlager ger tillverkarens eftermarknadstabell men ingen MTD-OEM-konfirmation.",
     "Konflikt inom katalogår 2000: MTD original XREF säger 42 tum G, medan PartsTree och eReplacementParts för 2000 listar 38 tum F. Säkerställ modellens verkliga dekkskylt/serienummer och exakt original IPL innan reservdelar rekommenderas.",
-    "Kontrollera kniv 742-0610 i exakt 2001 Deck Assembly F-sprängskiss och identifiera knivantal; föreslå den inte som universaldel."
+    "Kontrollera kniv 742-0610 i exakt 2001 Deck Assembly F-sprängskiss och identifiera knivantal; föreslå den inte som universaldel.",
+    "Kontrollera tillverkarens originaldelritning för exakt deck F/G och avgränsa 2000 års alternativa hjul 634-0056A/634-0105A med tillverkningsetikett, decknummer eller serienummer."
   ]
 }
