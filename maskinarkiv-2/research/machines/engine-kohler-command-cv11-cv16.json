@@ -73,7 +73,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "Dokumenterade olje- och bränsledata är motorfamiljsbundna. Originalmanualerna TP-2339-D och 12 590 01 motsäger varandra om tändstiftsmoment; allmän rekommendation är spärrad tills rätt revision och utförande klarlagts."
+      "note": "Regulatorns moment och fjäderhål är källbundna till TP-2339-D och aktuell mekanik. 3750 rpm är inte universellt OEM-varvtal; dessutom är tändstiftsmomentet motstridigt i originalmanualerna. Generella moment- eller varvtalsråd spärrade tills variant identifieras."
     },
     "K": {
       "state": "gap",
@@ -916,6 +916,87 @@
       "topic": "K",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-governor-crossshaft-initial-9p9",
+      "statement": "Efter att regulatorarmen lossats ska den förinställas med gaslänkaget inkopplat: för armen mot förgasaren till fullgas, vrid regulatoraxeln moturs till stopp och dra armens mutter till 9,9 Nm. Detta är en förinställning, inte en föreskrift att höja maxvarvtalet.",
+      "variant": "CV11–16/CV460–465/CV490–495, regulatorarmen lossad",
+      "locator": "Section 5, p.5.15, Fig.5-18, PDF page index 42",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-max-high-idle-3750-conditional",
+      "statement": "TP-2339-D anger 3750 rpm som rekommenderad högsta obelastade högvarvstomgång för de flesta motorerna, men det faktiska värdet bestäms av utrustningstillverkaren. Ingen generell inställning på 3750 rpm får göras utan maskinspecifik specifikation.",
+      "variant": "CV11–16/CV460–465/CV490–495, högvarv utan last; OEM-beroende",
+      "locator": "Section 5, p.5.16, High Idle Speed Adjustment, PDF index 43",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-bracket-new-hole-10p7",
+      "statement": "Kohler anger moment 10,7 Nm på hastighetsreglagets fästskruvar vid montering i nytt, obearbetat gjuthål. Skilj från 7,3 Nm i tidigare använt hål.",
+      "variant": "CV11–16/CV460–465/CV490–495 med kombinerad choke/gas-reglagehållare, nytt monteringshål",
+      "locator": "Section 5, p.5.16, High Idle Speed Adjustment step 5, PDF index 43",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-bracket-used-hole-7p3",
+      "statement": "Kohler anger moment 7,3 Nm på hastighetsreglagets fästskruvar i tidigare använt monteringshål, skilt från 10,7 Nm för nytt hål.",
+      "variant": "CV11–16/CV460–465/CV490–495 med kombinerad choke/gas-reglagehållare, tidigare använt hål",
+      "locator": "Section 5, p.5.16, High Idle Speed Adjustment step 5, PDF index 43",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-spring-hole-3600",
+      "statement": "För regulatorarmens fjäderläge anger TP-2339-D hål 2 räknat utåt från regulatoraxeln vid högvarv utan last högst 3600 rpm; hål 3 när högvarvet är över 3600 rpm. Detta är manualens grundläge, inte tillstånd att öka motorvarvet.",
+      "variant": "CV11–16/CV460–465/CV490–495 med regulatorarm enligt Figur 5-23",
+      "locator": "Section 5, p.5.17, Sensitivity Adjustment, Fig.5-23, PDF index 44",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-surging-sensitivity",
+      "statement": "Kohler TP-2339-D beskriver att rusande/pendlande varvtal när lasten ändras kan tyda på alltför hög regulatorkänslighet och att stort varvtalsfall vid normal belastning kan kräva högre känslighet. Justeringen görs med regulatorfjäderns placering på avsett utförande.",
+      "variant": "CV11–16/CV460–465/CV490–495, mekanisk regulator enligt TP-2339-D",
+      "locator": "Section 5, p.5.17, Sensitivity Adjustment, PDF index 44",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-choke-adjust-follows-high-idle",
+      "statement": "För kombinerat gas-/chokereglage anger TP-2339-D att chokejustering görs först efter korrekt högvarvsinställning; choken ska inte börja röra sig inom normalt gasreglageområde och ska stänga helt i chokeläget.",
+      "variant": "CV11–16/CV460–465/CV490–495, unitized throttle and choke control",
+      "locator": "Section 5, p.5.17, Choke Adjustment, PDF index 44",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governed-idle-900-1000-exception",
+      "statement": "På vissa encylindriga CV-motorer med separat reglerad tomgång anger Kohler grundinställning 900–1000 rpm med regulatorarmen hållen så att spjället vilar mot tomgångsstoppskruven. Därefter justeras verklig reglerad tomgång enligt maskintillverkarens specifikation. Detta gäller inte alla CV-motorer.",
+      "variant": "Endast CV Single Cylinder med Governed Idle Control enligt TP-2339-D",
+      "locator": "Section 5, p.5.19, Governed Idle Adjustment, PDF index 46",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-choke-stop-no-partial",
+      "statement": "Vid separata choke- och gasvajrar kräver TP-2339-D att chokelänkaget frigörs helt i läget choke av, annars riskerar motorn att fortsätta gå på delvis choke.",
+      "variant": "CV Command med separata choke- och gasvajrar",
+      "locator": "Section 5, p.5.18, Separate Control Cables, PDF index 45",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -945,6 +1026,7 @@
     "Tändsystemens olika KO1046/KO1047-prov och resistansintervall måste knytas till motorens faktiska Spec. No. innan felsökningsinstruktion publiceras; verifiera också artikelnummer för respektive tändmodul.",
     "Kohler tändmoduler 12 584 04-S, 12 584 05-S, 12 584 12-S och 12 584 17-S är identifierade i tillverkarens snabbguide; exakt reservdel kräver fortfarande motorns Spec. No. och aktuell Kohler Parts Lookup.",
     "Electrical/air intake batch: identifiera befintlig 15 A/25 A laddning, kontaktdon, drivmedelsutförande (LP/PRO) och 2,8/3,4-tums luftfilterhus via motor Spec. No. före köp eller montering. Artikelnummer är katalogbelagda, inte generella passningsgarantier.",
-    "Vevhusvakuumprovets 10,2 cm är vattennivåskillnad i specificerad mätmetod och får inte jämställas med normalt oljetryck. Provets säkerhetsanvisningar och 3200–3750 rpm behöver följas."
+    "Vevhusvakuumprovets 10,2 cm är vattennivåskillnad i specificerad mätmetod och får inte jämställas med normalt oljetryck. Provets säkerhetsanvisningar och 3200–3750 rpm behöver följas.",
+    "Regulator och maxvarv: 3750 rpm är endast generell maxrekommendation för de flesta motorer; faktisk maskin-OEM anger gränsen. Innan serviceartikel krävs exakt typ av reglagefäste, regulatorfjäder, Spec. No. och varvtalsmätning."
   ]
 }
