@@ -67,6 +67,13 @@
       "title": "Hydro-Gear ZT-3400 ZT-3600 ZT-3800 Service and Repair Manual",
       "document": "BLN-0108 January 2023, original manufacturer PDF",
       "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-0108_3400_3600_3800.pdf"
+    },
+    {
+      "id": "hg-1710-1076l-bom-p6",
+      "tier": 2,
+      "title": "Hydro-Gear ZT-4400 BOM-specific service schematic 1710-1076L",
+      "document": "OEM ZT-4400 service schematic 73045 P6, model 1710-1076L, 3 pages, hosted by ManualsPlus",
+      "url": "https://manuals.plus/m/250ef70b8d14bc66d149ec675dbcb4b5a3113d374ec7c42da572556effcbb0a8.pdf"
     }
   ],
   "claims": [
@@ -1131,6 +1138,240 @@
       "locator": "Tryckt s.34, Assembly After Complete Teardown steg 1",
       "topic": "J",
       "grade": "A"
+    },
+    {
+      "id": "bom1710-1076l-housing-main",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar huvudhus vänster (pos 1) som Hydro-Gear artikel 72518. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 1; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-housing-side",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar sidokåpa vänster (pos 2) som Hydro-Gear artikel 72520. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 2; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-shock",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar chockventilsats (pos 10 och 11, samma partnummer) som Hydro-Gear artikel 72569. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 10; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-center",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar mittsektionssats vänster (pos 20) som Hydro-Gear artikel 72570. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 20; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-motor-shaft",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar motoraxel (pos 22) som Hydro-Gear artikel 54053. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 22; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-motor-block",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar motorblock 16 cc (pos 23) som Hydro-Gear artikel 72897. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 23; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-pump-block",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar pumpblock 12 cc (pos 49) som Hydro-Gear artikel 71971. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 49; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-motor-thrust",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar axiallager motor 35×70×21,6 (pos 27) som Hydro-Gear artikel 52991. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 27; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-swash",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar svängskiva maskinbearbetad 16 cc (pos 40) som Hydro-Gear artikel 52972. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 40; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-charge-relief",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar laddtrycksventilsats (pos 54) som Hydro-Gear artikel 72527. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 54; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-charge-pump",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar laddpumpssats (pos 57) som Hydro-Gear artikel 72526. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 57; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-input-shaft",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar ingående axelsats (pos 61) som Hydro-Gear artikel 72523. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 61; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-gear-kit",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar kugghjulssats (pos 71) som Hydro-Gear artikel 72522. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 71; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-brake-left",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar bromssats vänster (pos 91) som Hydro-Gear artikel 72524. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 91; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-filter",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar filtersats (pos 100) som Hydro-Gear artikel 72537. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 100; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-filter-cap",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar filterlockssats (pos 102) som Hydro-Gear artikel 72536. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 102; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-axle",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar drivaxel (pos 112) som Hydro-Gear artikel 54275. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 112; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-outer-bearing",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar yttre axellager 35×80×21 (pos 114) som Hydro-Gear artikel 53007. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 114; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-hub",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar fembultsnavsats (pos 118) som Hydro-Gear artikel 72473. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 118; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-bypass",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar bypassstång (pos 126) som Hydro-Gear artikel 54306. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 126; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-fan",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar fläkt/remskivesats (pos 136) som Hydro-Gear artikel 72475. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 136; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-control-left",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar reglagearm vänster (pos 154) som Hydro-Gear artikel 51842. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 154; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-neutral-left",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar neutralarm vänster (pos 159) som Hydro-Gear artikel 51946. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 159; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-rtn-assembly",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar rtn dubbelriktad enhet (pos 162) som Hydro-Gear artikel 52432. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 162; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-rtn-kit",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar rtn dubbelriktad reparationssats (pos 201) som Hydro-Gear artikel 71592. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 201; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-seal-kit",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar tätningssats (pos 200) som Hydro-Gear artikel 72528. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 200; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1142,7 +1383,8 @@
     "Tillverkarens familjeprestanda får inte misstolkas som uppmätta data för maskininstallation.",
     "ZT-4400 BLN-0081 tryckt s.15 har ett uppenbart orimligt ft-lb/Nm-par för hub castle nut pos120 (275–350 ft-lb respektive 31,1–39,54 Nm). Kontrollera aktuell Hydro-Gear servicebulletin innan slutlig åtdragning.",
     "Hydro-Gears aktuella oljesatssida beskriver 72750 som ZT-2800–3800 i rubriken men i beställningstext ZT-2800–3600. Bekräfta ZT-3800 med distributör före beställning.",
-    "BLN-0108 P January 2023 page 11 has conflicting units for side port 11 (120 in-lb / 20.3 Nm); hold metric torque until later OEM revision confirms."
+    "BLN-0108 P January 2023 page 11 has conflicting units for side port 11 (120 in-lb / 20.3 Nm); hold metric torque until later OEM revision confirms.",
+    "De 26 BOM-bundna numren för ZT-4400 1710-1076L gäller inte andra 1710-enheter utan specifik tabellkontroll och aktuell dealer supersession."
   ],
   "topics": {
     "A": {
