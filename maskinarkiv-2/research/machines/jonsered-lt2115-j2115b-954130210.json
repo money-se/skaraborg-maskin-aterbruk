@@ -168,11 +168,67 @@
       "topic": "G",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-drive-transaxle",
+      "statement": "Originalkatalogens DRIVE position 1 anger Peerless 206-545C; interna delar ska beställas från transmissionstillverkaren. Gäller endast denna exakt angivna version.",
+      "variant": "jonsered-lt2115-j2115b-954130210",
+      "locator": "Original IPL PDF s.8 (index 7), DRIVE pos.1",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-drive-belt",
+      "statement": "Originalkatalogens DRIVE position 57 anger markdrivningsrem 532 13 08-01.",
+      "variant": "jonsered-lt2115-j2115b-954130210",
+      "locator": "Original IPL PDF s.8 (index 7), DRIVE pos.57",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-mower-1",
+      "statement": "MOWER DECK position 1 listar Mower deck assembly, artikel 532 17 45-95.",
+      "variant": "jonsered-lt2115-j2115b-954130210",
+      "locator": "Original IPL PDF s.16 (index 15), MOWER DECK pos.1",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-mower-11",
+      "statement": "MOWER DECK position 11 listar klippkniv, artikel 532 13 84-96.",
+      "variant": "jonsered-lt2115-j2115b-954130210",
+      "locator": "Original IPL PDF s.16 (index 15), MOWER DECK pos.11",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-mower-13",
+      "statement": "MOWER DECK position 13 listar spindelaxel, artikel 532 13 76-45.",
+      "variant": "jonsered-lt2115-j2115b-954130210",
+      "locator": "Original IPL PDF s.16 (index 15), MOWER DECK pos.13",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
     "Webbverktygets PDF-skärmbild misslyckades; positionerna stöds av indexerad originalkatalogtext och kräver slutlig sidbildskontroll.",
     "Saknar fortsatt motorns exakta modell och spec, transmissionens produkt-ID, serviceintervall och fullständiga klippaggregatuppgifter.",
-    "Liknande artikelnummer mellan år eller modeller bevisar inte kompatibilitet."
+    "Liknande artikelnummer mellan år eller modeller bevisar inte kompatibilitet.",
+    "Specifik transmissionsidentifiering i äldre LT2115-familjen: Peerless 206-545C på jonsered-lt2115-j2115b-954130210. Blandning av delar med den andra familjens transaxel eller senare revisioner får inte antas. Katalogens modell- och produktnummer måste överensstämma med märkskylten."
   ]
 }
