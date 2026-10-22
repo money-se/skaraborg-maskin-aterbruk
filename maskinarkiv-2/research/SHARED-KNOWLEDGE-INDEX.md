@@ -8,6 +8,8 @@
 | STIGA Villa 12 HST | [stiga-villa-12-hst.json](machines/stiga-villa-12-hst.json) | `scoped_ready`: 53 claims och kvarvarande forskningsluckor |
 | Husqvarna Rider 13 | [husqvarna-rider-13.json](machines/husqvarna-rider-13.json) | `needs_research`: påbörjat, inte publiceringsgodkänt för nya ändringar |
 | Murray 425014X92E | [murray-425014x92e.json](machines/murray-425014x92e.json) | `needs_research`: första källbundna forskningspaketet, ingen publiceringsstatus |
+| Murray 425014X92A | [murray-425014x92a.json](machines/murray-425014x92a.json) | `needs_research`: Dana-transmission och ramdelar, versionsbundet |
+| Murray 425014X92B | [murray-425014x92b.json](machines/murray-425014x92b.json) | `needs_research`: Dana-transmission och ramdelar, versionsbundet |
 
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
