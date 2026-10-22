@@ -3,7 +3,7 @@
   "slug": "transmission-hydro-gear-zt2800-zt3100",
   "status": "needs_research",
   "reviewDate": "2026-10-22",
-  "scope": "Komponentbunden kartläggning av Hydro-Gear ZT-2800 och ZT-3100, inte OEM-maskinservice eller publiceringsklar modellguide. Endast källbundna familjeegenskaper anges; reservdelar och servicevärden kräver full BOM/serial.",
+  "scope": "Komponentbunden kartläggning av Hydro-Gear ZT-2800 och ZT-3100, inte OEM-maskinservice eller publiceringsklar modellguide. Endast källbundna familjeegenskaper anges; reservdelar och servicevärden kräver full BOM/serial. 2026-10-22: P25 originalsidbilder 9 och 11 verifierade, tidigare oljevolym 1674 ml korrigerad till 1875 ml samt P25 Nm-motsägelse registrerad.",
   "sources": [
     {
       "id": "hg-zt2800-original-product",
@@ -197,29 +197,29 @@
     },
     {
       "id": "bln52441-oil-20w50-text",
-      "statement": "I Hydro-Gears BLN-52441 anges 20W50 motorolja som fabriksfyllning och rekommendation för normala driftsförhållanden; den fullständiga utgåvans sidbild behöver fortfarande jämföras med textutdraget.",
+      "statement": "Hydro-Gear BLN-52441 P25 anger 20W50 motorolja som rekommenderad vätska vid normal drift.",
       "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 (2023), ej OEM-specifik avvikelse",
-      "locator": "Service and Maintenance > Fluids, tryckt sida 9 (textutdrag från tillverkar-PDF, ej bildkontrollerat)",
-      "sourceId": "hg-bln52441-2023-manual-index",
-      "grade": "B",
+      "locator": "Tryckt sida 9, Fluids / Fluid Description; PDF-sida 11 (index 10)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
       "topic": "J"
     },
     {
       "id": "bln52441-fill-key-7-13",
-      "statement": "BLN-52441:s oljemängdstabell styr val av volym via modellkodens sjunde och trettonde tecken (Z*-****-X***-***X*). Utan dessa kan en korrekt volym inte väljas.",
+      "statement": "BLN-52441 P25 anger att oljemängden avgörs av tecken 7 och 13 i Hydro-Gears fullständiga modellnummer; specifik mängd ska väljas enligt tabellen, inte transmissionsfamiljen.",
       "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 (2023)",
-      "locator": "Service and Maintenance > Fluid Volume and Level, tryckt sida 9, modellkodtabell (textutdrag, ej bildkontrollerat)",
-      "sourceId": "hg-bln52441-2023-manual-index",
-      "grade": "B",
+      "locator": "Tryckt sida 9, Oil Volume Table; PDF-sida 11 (index 10)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
       "topic": "J"
     },
     {
       "id": "bln52441-fill-key-values",
-      "statement": "Den publicerade 2023-tabellens text anger kombinationer för tre transaxelvolymer: 2079 ml, 2126 ml och 1674 ml. Värdena omfattar inte oljan i expansionskärl/slang och är villkorade av exakt kodkombination; tabellens radspännvidder återstår att kontrollera visuellt före en exakt tillämpningsmatris.",
+      "statement": "BLN-52441 P25 anger 2079 ml för char7 3/4/5/6/7/8/A/E och char13 L/R/X; 2126 ml för char7 9/B/D/K och char13 L/R/X; samt 1875 ml för char7 S/T/U/W och char13 T. Slang/expansionstank ingår inte. Tidigare 1674 ml var felaktigt.",
       "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 2023, modellberoende",
-      "locator": "Service and Maintenance > ZT-2800/ZT-3100/ZT-3200 > Oil Volume Table, tryckt sida 9 (textutdrag, ej bildkontrollerat)",
-      "sourceId": "hg-bln52441-2023-manual-index",
-      "grade": "B",
+      "locator": "Tryckt sida 9, Fluid Volume and Level / Oil Volume Table; PDF-sida 11 (index 10)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
       "topic": "J"
     },
     {
@@ -242,20 +242,20 @@
     },
     {
       "id": "bln52441-service-interval",
-      "statement": "Tillverkarens BLN-52441 rekommenderar ett första byte av olja och externt filter vid 75–100 drifttimmar, därefter var 400:e drifttimme, för de transmissioner som omfattas av 2023 års manual.",
+      "statement": "Hydro-Gear BLN-52441 P25 rekommenderar första olje-/filterbyte efter 75–100 timmar och därefter var 400:e timme inom manualens angivna transmissionsfamiljer.",
       "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, ej OEM-specifik maskin",
-      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, inledningsstycke",
-      "sourceId": "hg-bln52441-2023-manual-index",
-      "grade": "B",
+      "locator": "Tryckt sida 11, Fluid Change Procedure, inledning; PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
       "topic": "J"
     },
     {
       "id": "bln52441-filter-52114",
-      "statement": "I 2023 års FLUID CHANGE PROCEDURE anges Hydro-Gear artikelnummer 52114 som ersättningsoljefilter. Kontroll av konkret OEM-modellkod och eventuell senare artikelersättning krävs före beställning.",
+      "statement": "Hydro-Gear BLN-52441 P25 anger Hydro-Gear part number 52114 för nytt oljefilter i oljebytesproceduren; exakt enhetsidentitet och eventuella ersättningsnummer ska kontrolleras.",
       "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, oljebytesprocedur",
-      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, steg 3",
-      "sourceId": "hg-bln52441-2023-manual-index",
-      "grade": "B",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 3; PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
       "topic": "L"
     },
     {
@@ -278,11 +278,11 @@
     },
     {
       "id": "bln52441-filter-guard",
-      "statement": "BLN-52441 anger åtdragningsmoment 115 in-lb (12,99 Nm) för filterkåpans 1/4-tumsskruvar; värdet gäller just dessa fästelement, inte andra skruvar.",
+      "statement": "Hydro-Gear BLN-52441 P25 anger 115 in-lb (12,99 Nm) för de 1/4-tumsskruvar som fäster oljefiltrets skydd.",
       "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441",
-      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE steg 5",
-      "sourceId": "hg-bln52441-2023-manual-index",
-      "grade": "B",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 5; PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
       "topic": "J"
     },
     {
@@ -320,6 +320,15 @@
       "sourceId": "hg-bln52441-2021",
       "grade": "B",
       "topic": "A"
+    },
+    {
+      "id": "bln52441-p25-top-port-torque-conflict",
+      "statement": "BLN-52441 P25 tryckt sida 11 anger top-port-plug-moment 120 in-lb men skriver inom parentes 20,3 Nm. Enhetsomräkning ger 13,56 Nm för 120 in-lb; manualens parvärden är inbördes motstridiga och får inte citeras som korrekt Nm-värde utan tillverkarförtydligande.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 april 2023",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 11, PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -328,9 +337,9 @@
     "Hämta BOM-specifika sprängskisser och faktiska reservdels- och filterbeställningsnummer.",
     "Jämför utgåvorna från 2015, 2021 och 2023 för att undvika att serviceintervall överförs mellan editioner.",
     "Kontrollera separat vilka års-/OEM-modeller som verkligen har ZT-2800 och ZT-3100.",
-    "Kontrollera sidbilden för 2023 års BLN-52441 oljemängdstabell innan tecken 7 och 13 kopplas till exakta volymer; PDF är större än webbverktygets sidvisningsgräns.",
     "Filter 52114 anges i BLN-52441:s allmänna oljebytesinstruktion; bekräfta konkret OEM BOM-kod, eventuella ersättningsnummer samt källdokumentets sidbild innan reservdelen rekommenderas.",
     "Kritisk revisionskontroll: äldre BLN-52441 anger 65 in-lb för filterkåpans skruvar medan januari 2023-utdrag anger 115 in-lb; tillämpa inget moment utan kontroll av rätt utgåva, skruv och BOM. Kontrollera även senare april 2023 P25.",
-    "Kontrollera felaktigt återgivna momentomräkningar i tredjepartstranskriptioner (t.ex. 120 in-lb anges även som 20,3 Nm, vilket matematiskt inte stämmer); förlita dig på verifierad källbild och korrekt enhet."
+    "Kontrollera felaktigt återgivna momentomräkningar i tredjepartstranskriptioner (t.ex. 120 in-lb anges även som 20,3 Nm, vilket matematiskt inte stämmer); förlita dig på verifierad källbild och korrekt enhet.",
+    "P25 tryckt sida 11 har inkonsekvent momentvärde för top-port-plugg: 120 in-lb anges ihop med 20,3 Nm, men korrekt omräkning är cirka 13,56 Nm. Inhämta tillverkarförtydligande före verkstadstillämpning."
   ]
 }
