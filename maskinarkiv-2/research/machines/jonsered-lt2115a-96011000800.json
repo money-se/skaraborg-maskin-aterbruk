@@ -200,6 +200,72 @@
       "topic": "H",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-electrical-battery-1",
+      "statement": "ELECTRIQUE position 1 listar batteri 532 14 49-27.",
+      "variant": "LT2115A 96011000800 / 2005-01",
+      "locator": "PDF s.11 (index 10), ELECTRIQUE key 1",
+      "sourceId": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-electrical-harness-21",
+      "statement": "ELECTRIQUE position 21 listar kabelstam 532 18 37-59.",
+      "variant": "LT2115A 96011000800 / 2005-01",
+      "locator": "PDF s.11 (index 10), ELECTRIQUE key 21",
+      "sourceId": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-electrical-seat-switch-29",
+      "statement": "ELECTRIQUE position 29 listar brytare 532 12 13-05.",
+      "variant": "LT2115A 96011000800 / 2005-01",
+      "locator": "PDF s.11 (index 10), ELECTRIQUE key 29",
+      "sourceId": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-steering-gear-71",
+      "statement": "DIRECTION position 71 listar styrväxel 532 17 51-46.",
+      "variant": "LT2115A 96011000800 / 2005-01",
+      "locator": "PDF s.9 (index 8), DIRECTION key 71",
+      "sourceId": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-steering-shaft-2",
+      "statement": "DIRECTION position 2 listar styraxel 532 17 51-31.",
+      "variant": "LT2115A 96011000800 / 2005-01",
+      "locator": "PDF s.9 (index 8), DIRECTION key 2",
+      "sourceId": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-deck-housing-replace",
+      "statement": "MOWER position 1 listar kåpa 532 17 45-95 med kataloganmärkning NPCREMP532178901 (angiven ersättningsrelation till 532 17 89-01). Relationens aktuella tillämplighet är inte OEM-bekräftad.",
+      "variant": "LT2115A 96011000800 / 2005-01",
+      "locator": "PDF s.3 (index 2), CARTER DE TONDEUSE key 1",
+      "sourceId": "jonsered-lt2115a-96011000800-2005-01-foretjardin-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
