@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "slug": "engine-honda-gx160",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentregister för Honda GX160, byggt på Hondas amerikanska tillverkardokument. Ingen europeisk maskinpassning fastställd.",
+  "sources": [
+    {
+      "id": "honda-type-identification",
+      "tier": 1,
+      "title": "Honda Engines: Engine Type Identification",
+      "document": "Honda Engines official engine model/type/serial identification",
+      "url": "https://engines.honda.com/support-and-service/engine-type-identification"
+    },
+    {
+      "id": "honda-gx160-owners",
+      "tier": 1,
+      "title": "Honda Engines: GX160 Owner's Manual selector",
+      "document": "GX160 manual selector by serial-number prefix and range; U.S. market",
+      "url": "https://engines.honda.com/support-and-service/owners-manuals/gx160"
+    },
+    {
+      "id": "honda-gx160-tuneup-pdf",
+      "tier": 1,
+      "title": "Honda GX160/GX200 Owner's Manual – Tune-up specifications",
+      "document": "Honda 00X37-ZEE-6000, Tune-up Specifications GX160/200",
+      "url": "https://cdn.powerequipment.honda.com/engines/pdf/manuals/00X37ZEE6000.pdf"
+    },
+    {
+      "id": "honda-ipl-10z2f01ap",
+      "title": "Honda GX160K1 General Purpose Engine Parts Catalog",
+      "document": "Honda publication 10Z2F01AP; GCAAK 1000001–9999999; specified type list",
+      "url": "https://publications.powerequipment.honda.com/details/10Z2F01AP",
+      "tier": 1
+    },
+    {
+      "id": "honda-ipl-10z4j601dp",
+      "title": "Honda GX160U1 General Purpose Engine Parts Catalog",
+      "document": "Honda publication 10Z4J601DP; GCACK 1000001–9999999; specified type list",
+      "url": "https://publications.powerequipment.honda.com/details/10Z4J601DP",
+      "tier": 1
+    },
+    {
+      "id": "honda-ipl-10z4m601cp",
+      "title": "Honda GX160UT1 / UT2 / UT2X General Purpose Engine Parts Catalog",
+      "document": "Honda publication 10Z4M601CP; GCAFT and GCBPT ranges with explicit type codes",
+      "url": "https://publications.powerequipment.honda.com/details/10Z4M601CP",
+      "tier": 1
+    },
+    {
+      "id": "honda-ipl-10z2f01bp",
+      "title": "Honda GX160K1 General Purpose Engine Parts Catalog",
+      "document": "Honda publication 10Z2F01BP; GCAAK 1000001–9999999; alternate type group",
+      "url": "https://publications.powerequipment.honda.com/details/10Z2F01BP",
+      "tier": 1
+    },
+    {
+      "id": "honda-ipl-10z4j601ap",
+      "title": "Honda GX160U1 General Purpose Engine Parts Catalog",
+      "document": "Honda publication 10Z4J601AP; GCACK 1000001–9999999; alternate type group",
+      "url": "https://publications.powerequipment.honda.com/details/10Z4J601AP",
+      "tier": 1
+    },
+    {
+      "id": "honda-ipl-10z4m601dp",
+      "title": "Honda GX160UT1 / UT2 / UT2X General Purpose Engine Parts Catalog",
+      "document": "Honda publication 10Z4M601DP; GCAFT/GCBPT, alternate type group",
+      "url": "https://publications.powerequipment.honda.com/details/10Z4M601DP",
+      "tier": 1
+    },
+    {
+      "id": "honda-ipl-gc02-10zh801ap",
+      "tier": 1,
+      "title": "Honda GX160K1 Parts Catalog 10ZH801AP",
+      "document": "10ZH801AP, GC02-2000001–8669999, listed engine types",
+      "url": "https://publications.powerequipment.honda.com/details/10ZH801AP"
+    },
+    {
+      "id": "honda-ipl-gc02-10zk801ap",
+      "tier": 1,
+      "title": "Honda GX160K1 Parts Catalog 10ZK801AP",
+      "document": "10ZK801AP, GC02-8670001–9099999 and GDAA-2010001–9999999 Type VXP",
+      "url": "https://publications.powerequipment.honda.com/details/10ZK801AP"
+    },
+    {
+      "id": "honda-official-publications-faq",
+      "tier": 1,
+      "title": "Honda Power Products Support Publications FAQ",
+      "document": "American Honda: original publications and US parts lookup scope",
+      "url": "https://publications.powerequipment.honda.com/faq"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Belagda delfynd finns i claims; området förblir gap tills alla relevanta varianter och maskinkopplingar kontrollerats."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Belagda delfynd finns i claims; området förblir gap tills alla relevanta varianter och maskinkopplingar kontrollerats."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    }
+  },
+  "claims": [
+    {
+      "id": "gx160-honda-type-code",
+      "statement": "Honda anger att motorns Type Code är instansad nära serienumret och kan innehålla upp till fyra tecken. Kortare koder kan ha asterisker som platshållare.",
+      "variant": "Honda GX160 familj, generell identifikation, USA-tillverkarstöd",
+      "locator": "Finding the Engine Type Code",
+      "sourceId": "honda-type-identification",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "gx160-serial-form",
+      "statement": "Honda anger att motorns serienummer är instansat i motorn och består av ett prefix på fyra eller fem bokstäver följt av sju siffror; faktisk märkning avgör dokumentval.",
+      "variant": "Honda GX160 familj, generell identifikation, USA-tillverkarstöd",
+      "locator": "Finding the Engine Serial Number",
+      "sourceId": "honda-type-identification",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "gx160-manual-gcack-range",
+      "statement": "Hondas GX160-manualväljare skiljer på serienummerprefix GCACK i tre efterföljande intervall: 1000001–1125014, 1125015–1253941 och 1253942–9999999. Urvalet avser manualrevision, inte automatisk reservdelspassning.",
+      "variant": "Honda GX160, GCACK-serie, amerikanskt manualregister",
+      "locator": "GX160 Manuals > English, French & Spanish language manual > GCACK rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-manual-gc02-split",
+      "statement": "Honda visar GC02 1000001–1156170 som separat engelsk GX160-manualgrupp och GC02 1156171–9999999 i ett annat manualurval.",
+      "variant": "Honda GX160, GC02-serie, amerikanskt manualregister",
+      "locator": "GX160 Manuals > English / English, French & Spanish language manual > GC02 rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-spark-gap-zee6000",
+      "statement": "I Hondas GX160/GX200-manual 00X37-ZEE-6000 anges elektrodavstånd 0,7–0,8 mm. Detta är manualbundna värden och får inte automatiskt överföras till alla äldre GX160-utföranden.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Tune-up Specifications GX160/200, Spark plug gap; references page 12",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "gx160-valve-clearance-zee6000",
+      "statement": "Manual 00X37-ZEE-6000 anger för GX160 ventilspel vid kall motor: insug 0,08 ± 0,02 mm och avgas 0,10 ± 0,02 mm; arbetet hänvisas till auktoriserad Honda-verkstad.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Tune-up Specifications GX160/200, Valve clearance (cold)",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "gx160-plug-types-zee6000",
+      "statement": "Honda 00X37-ZEE-6000 listar NGK BPR6ES eller DENSO W20EPR-U som tändstift i manualens snabbreferens; kontrollera mot precis motorvariant innan reservdel rekommenderas.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Quick Reference Information > Spark plug",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160-initial-oil-zee6000",
+      "statement": "Hondas manual 00X37-ZEE-6000 anger första motoroljebytet efter 20 driftstimmar; oljekontroll före varje användning. Gäller manualens avsedda GX160/GX200-varianter.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Quick Reference Information > Maintenance; references pages 7–9",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-oil-sae-10w30",
+      "statement": "Honda 00X37-ZEE-6000 anger SAE 10W-30, API SJ eller senare som motorolja för allmänt bruk; temperatur och motortyp avgör praktiskt val.",
+      "variant": "Honda GX160/GX200 enligt 00X37-ZEE-6000; ej individidentifierad",
+      "locator": "Quick Reference Information, Engine oil, printed p. 19",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-idle-speed",
+      "statement": "Honda 00X37-ZEE-6000 anger tomgångsvarvtal 1 400 rpm med tolerans +200/-150 rpm för specificerade GX160/GX200-utgåvor.",
+      "variant": "Honda GX160/GX200 enligt 00X37-ZEE-6000",
+      "locator": "Tune-up Specifications, Idle speed, printed p. 19",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "gx160-manual-gcaft-serial-split",
+      "statement": "Honda GX160:s officiella amerikanska manualregister delar prefixet GCAFT i serienummerintervallen 1000001–1706983 respektive 1706984–9999999. Det är två separata urvalsposter och är inte bevis för vilka konstruktionsändringar som gjorts.",
+      "variant": "Honda GX160, prefix GCAFT, Honda Engines USA manualväljare",
+      "locator": "GX160 Manuals > English, French & Spanish language manual > GCAFT rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-manual-other-prefixes",
+      "statement": "Hondas GX160-manualväljare anger även fulla intervall 1000001–9999999 för prefixen GCAAH, GCAAK, GCABT, GCAHD, GCBCH, GCBPT och GCBUT. Prefixen är olika identiteter och ska inte kombineras vid service- eller reservdelsval.",
+      "variant": "Honda GX160, manuallista Honda Engines USA (prefixbunden)",
+      "locator": "GX160 Manuals > English, French & Spanish language manual > prefix rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "gx160k1-gcaak-hx2b-ipl",
+      "statement": "GX160K1 katalog 10Z2F01AP anger serienummer GCAAK-1000001 till 9999999 och omfattar bland annat motortyp HX2/B. Detta identifierar katalogens tillämpningsområde, inte en enskild reservdels passform.",
+      "variant": "GX160K1, GCAAK 1000001–9999999, Type HX2/B",
+      "sourceId": "honda-ipl-10z2f01ap",
+      "topic": "K",
+      "grade": "A",
+      "locator": "Honda Power Products Support Publications > publication details > engine serial number and engine types"
+    },
+    {
+      "id": "gx160u1-gcack-qx2-ipl",
+      "statement": "Honda GX160U1 katalog 10Z4J601DP omfattar GCACK-1000001 till 9999999 och innehåller bland annat typ QX2; andra GX160U1-typer kan hänvisas till andra originalkataloger.",
+      "variant": "GX160U1 GCACK 1000001–9999999, Type QX2",
+      "sourceId": "honda-ipl-10z4j601dp",
+      "topic": "K",
+      "grade": "A",
+      "locator": "Honda Power Products Support Publications > publication details > engine serial number and engine types"
+    },
+    {
+      "id": "gx160ut-gcaft-gcbpt-type-ipl",
+      "statement": "Honda katalog 10Z4M601CP omfattar GX160UT1 typ QX2 för prefix GCAFT-1000001–9999999 och GX160UT2 typ QX2 för GCBPT-1000001–3999999 samt GX160UT2X typ QX2 för GCBPT-4000001–9999999. Katalogomfång betyder inte att alla ingående delar är likadana.",
+      "variant": "GX160UT1 GCAFT; GX160UT2/UT2X GCBPT, Type QX2, angivna intervall",
+      "sourceId": "honda-ipl-10z4m601cp",
+      "topic": "K",
+      "grade": "A",
+      "locator": "Honda Power Products Support Publications > publication details > engine serial number and engine types"
+    },
+    {
+      "id": "gx160k1-gcaak-qx2b-alternate-ipl",
+      "statement": "Hondas GX160K1-katalog 10Z2F01BP avser bland annat Type QX2/B inom prefix GCAAK-1000001–9999999. Den finns separat från 10Z2F01AP (bland annat HX2/B), alltså räcker inte GCAAK-numret ensamt för att välja IPL.",
+      "variant": "GX160K1 GCAAK, Type QX2/B",
+      "locator": "Honda official publication detail > engine types and engine serial number",
+      "sourceId": "honda-ipl-10z2f01bp",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160u1-gcack-hx2-alternate-ipl",
+      "statement": "Honda 10Z4J601AP täcker GX160U1 GCACK-1000001–9999999 med bland annat Type HX2, medan 10Z4J601DP täcker bland annat Type QX2. Serienummerprefix och modellgeneration ensamma bestämmer inte korrekt katalog.",
+      "variant": "GX160U1 GCACK, Type HX2",
+      "locator": "Honda official publication detail > engine types and engine serial number",
+      "sourceId": "honda-ipl-10z4j601ap",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160ut-gcaft-rh2-alternate-ipl",
+      "statement": "Honda 10Z4M601DP täcker GX160UT1 med prefix GCAFT-1000001–9999999 och bland annat Type RH2, separat från 10Z4M601CP som bland annat täcker QX2. Därför måste Type granskas vid katalogval.",
+      "variant": "GX160UT1 GCAFT, Type RH2",
+      "locator": "Honda official publication detail > engine types and engine serial number",
+      "sourceId": "honda-ipl-10z4m601dp",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160k1-gc02-two-catalog-ranges",
+      "statement": "Hondas originalkatalog 10ZH801AP omfattar GX160K1 med GC02-2000001–8669999 och angivna typkoder, medan 10ZK801AP omfattar GC02-8670001–9099999 (och GDAA-2010001–9999999 typ VXP). Det går inte att välja någon av dem enbart utifrån beteckningen GX160K1.",
+      "variant": "GX160K1 med prefix GC02 och respektive katalogs typkod; Honda USA:s katalogregister",
+      "locator": "Publication details > engine serial number and engine types",
+      "sourceId": "honda-ipl-gc02-10zh801ap",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160k1-gc02-later-catalog",
+      "statement": "Hondas 10ZK801AP listar bland annat GX160K1 GC02-8670001–9099999 med specifika motortyper. Katalogen har annat intervall än 10ZH801AP; typkod ska kontrolleras mot respektive katalog innan artikelnummer efterforskas.",
+      "variant": "GX160K1 GC02-8670001–9099999; typberoende",
+      "locator": "Publication details > engine serial number and engine types",
+      "sourceId": "honda-ipl-gc02-10zk801ap",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160-american-honda-original-publications",
+      "statement": "American Honda uppger att publikationerna i deras supportkatalog är original och att deras officiella reservdelsportal täcker de flesta aktuella allmänna motorer från 2004 och framåt; det bevisar inte tillgång eller passform för äldre eller europeiska motortyper.",
+      "variant": "Honda allmänna motorer, amerikansk publikations- och reservdelstjänst; GX160 ej individidentifierad",
+      "locator": "FAQ > Is this item original or a copy?; Parts availability and purchasing parts",
+      "sourceId": "honda-official-publications-faq",
+      "grade": "A",
+      "topic": "K"
+    }
+  ],
+  "gaps": [
+    "GX160: europeiska manualrevisioner och maskinbunden användning måste verifieras separat; Honda USA anger att supportsidans uppgifter gäller amerikanska produkter.",
+    "Exakta oljevolymer, ventilspel, tändstift, artikelnummer och PTO-axelkonfiguration kräver specificerat Type/Serial-intervall.",
+    "Originalmanualens innehåll och versionsskillnader per GCACK-serie återstår att läsa i tillhörande PDF-utgåvor.",
+    "Honda GX160: den amerikanska tillverkarens manualväljare bevisar inte reservdelsnummer; tillämplig original-IPL och fullständigt Type Code saknas.",
+    "GX160: Honda-katalogernas tillämpningsomfång är originalbekräftade, men interna artikelnummer och sprängskisser i de tryckta katalogerna är inte inspekterade; inga specifika delar har ännu härletts.",
+    "Samma GX160-motorfamilj och serienummerprefix kan kräva olika Honda-IPLs beroende på Type; de sex katalogernas interna artikelnummer måste läsas och kontrolleras mot fullständig motormärkning.",
+    "GX160K1 med prefix GC02: skilj katalog 10ZH801AP och 10ZK801AP via serienummerintervall och typkod; kontrollera även alternativa GC02-kataloger innan exakt reservdelsval."
+  ]
+}
