@@ -1757,6 +1757,114 @@
       "sourceId": "rider16-wolfswinkel-2002-02-bio90-assembly",
       "grade": "B",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2003-combi103-secondary-belt",
+      "statement": "Rider 16 original-IPL 2003-01 listar både rem 531005017 och rem 531007587 i samma 103 cm-aggregatgrupp, med komplett aggregat 953523701. Det ena numret ska inte beskrivas som generellt substitut för det andra.",
+      "variant": "Rider 16 IPL 2003-01, Combi 103 komplett 953523701",
+      "locator": "P37, 103CM CUTTING DECK, L799 531005017 och L801 531007587; L841 komplett 953523701",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch35-2003-combi103-tensioner-pair",
+      "statement": "2003 Rider 16 IPL för aggregat 953523701 listar två olika kompletta remspännare: 535410201 och 535410301; förekomst i samma grupp bevisar inte identiska funktioner eller passform.",
+      "variant": "Rider 16 IPL 2003-01, Combi 103 komplett 953523701",
+      "locator": "P37 L804–L805, 535410201 respektive 535410301",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2003-combi103-breakpin-adapter",
+      "statement": "Rider 16 2003-01 original-IPLn för 103 cm/953523701 listar adapter 535410801, brytpinne 535410901 och skål/bricka 535411001. Dessa är revisionsbundna och ska inte överföras till andra 103 cm-aggregat utan kontroll.",
+      "variant": "Rider 16 IPL 2003-01, Combi 103 komplett 953523701",
+      "locator": "P37 L812–L815, 535410801; 535410901; 535411001",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2003-combi103-housing-shafts",
+      "statement": "2003-01 kataloggruppen för Rider 16:s 103 cm-aggregat 953523701 anger mittre knivhus 535410601, yttre 535410602 (två förekomster) och knivaxlarna 535410701 respektive 535410702.",
+      "variant": "Rider 16 IPL 2003-01, Combi 103 komplett 953523701",
+      "locator": "P37 L807–L811; 535410601/02 och 535410701/02",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2007-deck401-two-belts",
+      "statement": "Rider Pro 18 AWD original-IPLn 2007-03 listar i 103 cm-aggregatgruppen 965078401 rem 506768501 och rem 594978001 som separata katalograder. Ingen av dessa katalograder anger att remmen ersätter äldre 531007587.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P45 L708 506768501 och L740 594978001; komplett 965078401 L754",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch35-2007-deck401-knives-three",
+      "statement": "Rider Pro 18 AWD 2007-03, 103 cm-grupp 965078401 listar tre knivar 544103001, tre knivplattor 506792301 och tre adaptrar 535504202; uppgifterna är bundna till den angivna katalogutgåvan.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P45 L711 506792301 QTY3, L720 535504202 QTY3, L734 544103001 QTY3",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2007-deck401-shell-cover",
+      "statement": "Rider Pro 18 AWD 2007-03, grupp 965078401, listar separat aggregatskal 544112901 och remkåpa 544096101. De ska inte förväxlas med numret för det kompletta aggregatet 965078401.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P45 L733 544096101 BELT COVER, L735 544112901 CUTTING DECK, L754 965078401 CUTTING DECK",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2007-deck601-two-belts",
+      "statement": "Rider Pro 18 AWD original-IPLn 2007-03 listar remmarna 544113201 och 589514601 i aggregatgruppen 965078601; det är andra katalognummer än 506768501 och 594978001 för 965078401.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P57 L1027 544113201 BELT, L1029 589514601 BELT; jämför P45 L708, L740",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch35-2007-deck601-knives-three",
+      "statement": "2007-03 Rider Pro 18 AWD, aggregat 965078601, listar tre knivar 544102901, tre knivplattor 506792302 och tre adaptrar 535504201. Dessa skiljer sig från kataloggrupp 965078401:s 544103001, 506792301 och 535504202.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P57 L999 506792302 QTY3; L1023 535504201 QTY3; L1025 544102901 QTY3; jämför P45",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2007-deck601-spindle-parts",
+      "statement": "2007-03 kataloggruppen 965078601 anger lagringshus 535503401 och mandrlar 535503501/535503502, medan 965078401 redovisar knivhusenheter 544065901/544065902. Detta är en dokumenterad konstruktionsskillnad på reservdelsnivå.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P57 L1016–L1022, jämför P45 L721–L729",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2007-deck601-shell-cover",
+      "statement": "Rider Pro 18 AWD 2007-03 listar i 965078601-gruppen separat aggregatskal 544112901 och remkåpa 544096101. Att vissa komponentnummer delas med 965078401 bevisar inte att kniv-/lagringssystemet är utbytbart.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P57 L1024 och L1026, jämför P45 L733 och L735",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch35-2007-parallel-decks-no-supersession",
+      "statement": "Original-IPLn Rider Pro 18 AWD 965095001 2007-03 listar båda kompletta 103 cm-aggregaten 965078401 och 965078601 i separata grupper inom samma katalog. Den anger inte vilken eventuell ersättningskedja som gäller, medan återförsäljare anger 965078401→965078601.",
+      "variant": "Jämförande OEM-katalog Rider Pro 18 AWD 965095001 2007-03; inte direkt belägg för Rider 16-montering",
+      "locator": "P45 L754, P57 L1044; två 103CM CUTTING DECK-grupper i samma 2007-03 IPL",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1832,6 +1940,9 @@
     "Original IPL Rider Pro 18 AWD 2007-03 listar 965078401 och 965078601 i parallella 103 cm-avsnitt med olika knivar. Utred revisions-/kompatibilitetsinformation innan någon av dem kallas generell ersättare.",
     "OEM Genuine Parts PDF-katalog är för stor för webbens direktöppning, och sprängskiss-screenshot för IPL gav cachefel. Artikelnr har kontrollerats i sökindexerat katalogtextlager och i 2007-IPL:s sidnumrerade textlager; visuell kontroll återstår.",
     "OEM-katalog Rider 13 Bio 2002-02 separerar kompletta aggregat 506970907 från enbart skal 506977201. Originalfiguren behöver visuell kontroll innan positionsantal eller monteringsanvisning publiceras.",
-    "Rider 16 2002-02 återförsäljarvy listar 589531501 i historisk 90 cm-grupp där originalkatalogen 2002-02 för Rider 13 Bio anger 531007526. Detta är förenligt med möjlig ersättning men den direkta tillverkarens supersession saknas."
+    "Rider 16 2002-02 återförsäljarvy listar 589531501 i historisk 90 cm-grupp där originalkatalogen 2002-02 för Rider 13 Bio anger 531007526. Detta är förenligt med möjlig ersättning men den direkta tillverkarens supersession saknas.",
+    "Rider Pro 18 AWD 2007-03 skiljer 965078401 och 965078601 genom olika knivar, knivplattor, adaptrar och remsystem. Undersök Husqvarnas monterings-/ersättningsbulletin före slutsats om utbytbarhet.",
+    "2003 953523701 har historiskt rem 531005017 och 531007587. Fastställ deras respektive funktion/position i ritning och om ersättare har utgivits.",
+    "Samma 2007 IPL delar skal 544112901 och remkåpa 544096101 mellan två kompletta aggregat; delade komponenter innebär inte universell monteringskompatibilitet."
   ]
 }
