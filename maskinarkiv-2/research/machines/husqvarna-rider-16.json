@@ -270,6 +270,34 @@
       "title": "Wolfswinkel – Rider 16 2002-02 BioClip 90 catalog",
       "document": "Rider 16 2002-02 90 cm deck group, current seller crossreferences",
       "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/husqvarna/aufsitzrasenm%C3%A4her/reiter/benzin/ansonsten/rider-16/reiter-16-2002-02"
+    },
+    {
+      "id": "bio90-sgarden-506970908",
+      "tier": 2,
+      "title": "sGarden complete BioClip 90 deck 506970908",
+      "document": "506970908 CUTTING DECK BIO90 KPL., references 506970907",
+      "url": "https://www.sgarden.cz/SpareParts/506970908/CUTTING_DECKBIO_90"
+    },
+    {
+      "id": "bio90-sgarden-506970907",
+      "tier": 2,
+      "title": "sGarden complete BioClip 90 deck 506970907",
+      "document": "506970907 CUTTING DECK BIO90 KPL., references 506970908",
+      "url": "https://www.sgarden.cz/SpareParts/506970907/CUTTING_DECK"
+    },
+    {
+      "id": "bio90-wolfswinkel-conflicting-ref",
+      "tier": 2,
+      "title": "Wolfswinkel BioClip 90 deck 506970907 seller reference list",
+      "document": "506970907 references 506970908, 506977201, 506977202",
+      "url": "https://www.wolfswinkel.shop/husqvarna-parts-parts/506970907/husqvarna-mowing-deck-90-bio-for-rider-1311"
+    },
+    {
+      "id": "bio90-duab-breakpin-506966201",
+      "tier": 2,
+      "title": "Duab pre-2001 BioClip break pin cross-reference",
+      "document": "506966201 Brytpinne Husqvarna BioClip fram till 2001, Rider 16 H 1999/2000",
+      "url": "https://duab.se/skog-tradgard/grasklippare/akgrasklippare/service-slitdelar-akgrasklippare/brytpinne-husqvarna-bioclip"
     }
   ],
   "topics": {
@@ -1955,6 +1983,51 @@
       "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rev-506970907-08-crossref",
+      "statement": "sGarden korsrefererar kompletta BioClip 90-aggregat 506970907 och 506970908 i båda riktningarna och beskriver båda som 'CUTTING DECK BIO90 KPL.'. Korskopplingen är sekundär kataloginformation; ingen entydig tillverkarpublicerad revisionsordning framgår.",
+      "variant": "BioClip 90, komplett aggregat; exakt revisions-PNC okänt",
+      "locator": "506970908 > Other product codes 506970907; 506970907 > Other product codes 506970908",
+      "sourceId": "bio90-sgarden-506970908",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rev-506970907-package",
+      "statement": "sGarden anger för 506970907 EAN 7391883289679, deklarerad paketvikt 52000 g och paketmått 900 × 1800 × 450 mm. Detta är logistikdata, inte fysisk aggregatvikt eller montagepassform.",
+      "variant": "BioClip 90 506970907",
+      "locator": "506970907 > GTIN-13/EAN; Product final weight, width/length/height of package",
+      "sourceId": "bio90-sgarden-506970907",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rev-506970908-package",
+      "statement": "sGarden anger för 506970908 EAN 7392930064584, deklarerad paketvikt 43000 g och paketmått 910 × 1350 × 300 mm. Skillnaderna i logistikdata får inte tolkas som bekräftad konstruktionsskillnad.",
+      "variant": "BioClip 90 506970908",
+      "locator": "506970908 > GTIN-13/EAN; Product final weight, width/length/height of package",
+      "sourceId": "bio90-sgarden-506970908",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rev-complete-versus-shell-warning",
+      "statement": "Wolfswinkel beskriver 506970907 som komplett BioClip 90-aggregat men inkluderar 506977201 och 506977202 i en generell 'successor/replacement'-referenslista. Original-IPLn skiljer komplett aggregat 506970907 från separat klippkåpa 506977201. Därför får säljarens referensfält inte ensamt användas som bevis att komplett aggregat och separat kåpa är tekniskt samma reservdel.",
+      "variant": "BioClip 90 katalog- och beställningsidentifiering",
+      "locator": "Wolfswinkel 506970907 > References 506970908, 506977201, 506977202; kontroll mot Rider 13 Bio OEM IPL 2002-02",
+      "sourceId": "bio90-wolfswinkel-conflicting-ref",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rev-old-bioclip-breakpin-applicability",
+      "statement": "Reservdelshandlaren Duab listar brytpinne 506966201 som äldre BioClip-del fram till 2001 och nämner Rider 16 H 1999-02, 2000-02 samt 2000-02 USA i sin maskinlista. Detta är återförsäljarens modellkorsreferens, inte bevis att alla Rider 16 och 16 H-versioner delar brytpinne.",
+      "variant": "Rider 16 H katalog 1999/2000, äldre BioClip-infästning",
+      "locator": "Duab > Brytpinne Husqvarna Bioclip, Tillverkarnummer 5069662-01, Passar följande modeller",
+      "sourceId": "bio90-duab-breakpin-506966201",
+      "grade": "B",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -2036,6 +2109,9 @@
     "Samma 2007 IPL delar skal 544112901 och remkåpa 544096101 mellan två kompletta aggregat; delade komponenter innebär inte universell monteringskompatibilitet.",
     "Korrigering efter original-IPL 2007-03 P57: 103 cm-aggregat 965078601 har kniv 544102901, inte tidigare felaktigt angivna 544102801. Obs: 544102801 kvarstår separat som 112 cm-kniv i 2006 års Rider 16-katalog.",
     "Original-IPL 2007-03 har separata 103 cm-grupper för 965078401 och 965078601 med skilda knivplattor, adaptrar, remmar och axlar. Ingen OEM-supersession mellan kompletta aggregat hittades i katalogen.",
-    "Webbens PDF-sidbild kunde inte hämtas; artikelraderna är verifierade i tillverkarens PDF-textlager men sprängskissens positionsgeometri och monteringsanvisningar är fortfarande inte granskade."
+    "Webbens PDF-sidbild kunde inte hämtas; artikelraderna är verifierade i tillverkarens PDF-textlager men sprängskissens positionsgeometri och monteringsanvisningar är fortfarande inte granskade.",
+    "506970907 och 506970908 korsrefereras av sGarden men har skilda EAN och förpackningsuppgifter. Identifiera tillverkarens officiella revisionsordning och fysisk aggregatkonstruktion innan de benämns utbytbara.",
+    "Wolfswinkel korsrefererar 506977201/202 (historiska komponentnummer) mot komplett aggregat 506970907. Undvik att tolka detta som en verifierad komplett-aggregat-ersättning; jämför original-IPLs positionsfigurer.",
+    "Äldre brytpinne 506966201 anges av Duab för Rider 16 H 1999/2000; identifiera knivhusutförande och bulletin B0201901 innan passform hävdas."
   ]
 }
