@@ -1456,6 +1456,114 @@
       "topic": "J",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-rod-bolt-6mm-torque",
+      "statement": "TP-2339-D anger 11,3 Nm, stegvis åtdragning, för 6 mm vevstaksbult med rak skaftprofil; annan bultprofil har annat moment.",
+      "variant": "Command enligt TP-2339-D, 6 mm straight-shank rod bolts",
+      "locator": "Section 11 p.11.4 PDF index 125 Fig.11-10",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rod-bolt-8mm-step-torque",
+      "statement": "TP-2339-D anger 14,7 Nm, stegvis åtdragning, för 8 mm vevstaksbult med avsmalnat skaft, inte för rak 8 mm-bult.",
+      "variant": "Command enligt TP-2339-D, 8 mm step-down rod bolts",
+      "locator": "Section 11 p.11.4 PDF index 125 Fig.11-10",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rod-bolt-8mm-straight-torque",
+      "statement": "TP-2339-D anger 22,7 Nm, stegvis åtdragning, för 8 mm vevstaksbult med rakt skaft; bulttypen måste identifieras.",
+      "variant": "Command enligt TP-2339-D, 8 mm straight-shank rod bolts",
+      "locator": "Section 11 p.11.4 PDF index 125 Fig.11-10",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rod-crankpin-clearance",
+      "statement": "TP-2339-D anger nytt radialt lagerspel mellan vevstake och vevtapp 0,030–0,055 mm vid 21 °C och maximalt slitagegränsvärde 0,07 mm.",
+      "variant": "Command motor enligt TP-2339-D, vevstaksstorända, 21 °C",
+      "locator": "Section 1 p.1.8 PDF index 9, Connecting Rod-to-Crankpin",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rod-crankpin-side",
+      "statement": "TP-2339-D anger axiellt sidospel mellan vevstake och vevtapp 0,18–0,41 mm, ett annat mått än radialt lagerspel.",
+      "variant": "Command motor enligt TP-2339-D, connecting rod-to-crankpin",
+      "locator": "Section 1 p.1.8 PDF index 9, Connecting Rod-to-Crankpin Side Clearance",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rod-pistonpin-clearance",
+      "statement": "TP-2339-D anger vevstakens lagerspel mot kolvbult 0,015–0,028 mm vid 21 °C och ny kolvbultsända invändig diameter 19,015–19,023 mm.",
+      "variant": "Command enligt TP-2339-D, connecting rod-to-piston pin, 21 °C",
+      "locator": "Section 1 p.1.8 PDF index 9, Connecting Rod-to-Piston Pin",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-camshaft-endplay-shims",
+      "statement": "TP-2339-D anger kamaxelns axiala spel 0,076–0,127 mm med justerbrickor; fritt spel anges separat som 0,088–0,393 mm. Brickor förekommer inte i alla utföranden.",
+      "variant": "Command enligt TP-2339-D, kamaxel med eventuella shims",
+      "locator": "Section 1 p.1.8 PDF index 9, Camshaft End Play",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-camshaft-bearing-clearance",
+      "statement": "TP-2339-D anger nytt kamaxellagerspel 0,025–0,105 mm och ny lagerborrning 20,000–20,025 mm; lagerytans nya ytterdiameter 19,962–19,975 mm.",
+      "variant": "Command enligt TP-2339-D, camshaft bearing",
+      "locator": "Section 1 p.1.8 PDF index 9, Camshaft Bearing Surface",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crank-endplay-free",
+      "statement": "TP-2339-D anger vevaxelns fria axialspel 0,0575–0,4925 mm, skilt från utförandet med trycklager och shims som har 0,050–0,530 mm.",
+      "variant": "Command enligt TP-2339-D, free versus thrust bearing with shims",
+      "locator": "Section 1 p.1.9 PDF index 10, Crankshaft End Play",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-main-bearing-clearance",
+      "statement": "TP-2339-D anger nytt vevaxellagerspel i vevhuset 0,030–0,077 mm, medan nytt lagerspel mot oljetråget anges 0,030–0,088 mm. De två lagringslägena får inte förväxlas.",
+      "variant": "Command enligt TP-2339-D, crankcase versus oil pan main bearing",
+      "locator": "Section 1 p.1.9 PDF index 10, Crankshaft Bore Running Clearance",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crank-main-journal-wear",
+      "statement": "TP-2339-D anger vevaxelns nya svänghjulsändes lagertappdiameter 44,913–44,935 mm med slitgräns 44,84 mm; oljetrågsändan är 41,915–41,935 mm ny med slitgräns 41,86 mm.",
+      "variant": "Command enligt TP-2339-D, crankshaft end-specific journals",
+      "locator": "Section 1 p.1.9 PDF index 10, main bearing journals",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crank-tir-runout",
+      "statement": "TP-2339-D anger vevaxelns maximala kast som 0,30 mm mätt vid PTO-änden med axeln monterad i motorn, respektive 0,10 mm för hela axeln på V-block.",
+      "variant": "Command enligt TP-2339-D, olika mätuppställningar",
+      "locator": "Section 1 p.1.9 PDF index 10, Crankshaft T.I.R.",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1490,6 +1598,7 @@
     "Förgasarkatalog: inga specifikationsbundna kompletta Walbro-/Nikki-förgasarnummer eller munstyckssatser har fastställts. Kontrollera förgasarfabrikat, chokeversion, emissionsbegränsning och Spec. No. före beställning eller demontering.",
     "Elfelsökning: laddningssystemets faktiska 15 A, 3 A/70 W eller bromsstatorutförande måste identifieras med motorns Spec. No., kablage och maskinschema innan provets spänning, varvtal eller resistansvärden används.",
     "Symptomtabeller och tändstiftsbilder i TP-2339-D är differentialdiagnostik, inte bevis för ett fel; bekräfta bränslesystem, tändsystem, kompression och aktuell maskins säkerhetskretsar innan åtgärd.",
-    "Renoveringsmått i TP-2339-D behöver motorns modell/Spec. No., slitagemätning, mätverktyg och reservdelarnas faktiska tillämpning; skillnaden 87/90 mm samt ventil- och ringgrupper får inte sammanblandas."
+    "Renoveringsmått i TP-2339-D behöver motorns modell/Spec. No., slitagemätning, mätverktyg och reservdelarnas faktiska tillämpning; skillnaden 87/90 mm samt ventil- och ringgrupper får inte sammanblandas.",
+    "Renoveringsvärden för vevaxel, vevstake och kamaxel kräver mätning enligt TP-2339-D, identifiering av vevstaksbultens profil och aktuell motor/Spec. No.; dessa får inte användas som generella momentspecifikationer."
   ]
 }
