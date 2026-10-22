@@ -46,6 +46,20 @@
       "title": "Husqvarna Rider 16 953521401 2006-01 original illustrated parts list (French edition)",
       "document": "SPARE PARTS LIST – RIDERS RIDER 16, 953521401, 2006-01; 37 PDF-sidor med positionslistor och antal",
       "url": "https://easyconcept-motoculture.com/vues_eclatees/Husqvarna/RIDERS/RIDER%2016/RIDER%2016%20953521401%202006-01/rider-16-953521401-2006-01.pdf"
+    },
+    {
+      "id": "husqvarna-rider16-965161601-2010-07-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 965161601 2010-07 illustrated parts list",
+      "document": "SPARE PARTS LIST RIDER 16, 965161601, 2010-07 (55-page PDF)",
+      "url": "https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-rider16.pdf"
+    },
+    {
+      "id": "husqvarna-rider16-965161601-2007-06-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 965161601 2007-06 original parts list",
+      "document": "SPARE PARTS LIST RIDERS RIDER 16 965161601 2007-06",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Husqvarna/RIDERS/RIDER%2016/RIDER%2016%20965161601%202007-06/rider-16-965161601-2007-06.pdf"
     }
   ],
   "topics": {
@@ -570,6 +584,96 @@
       "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
       "grade": "A",
       "topic": "C"
+    },
+    {
+      "id": "rider16-2010-identity",
+      "statement": "2010-07 originalreservdelskatalog gäller Rider 16 med produktnummer 965161601.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 1, omslag",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2010-engine",
+      "statement": "I ENGINE-listan står motorenhet 544 45 28-01, antal 1. Reservdelsnumret identifierar maskinkatalogens motorenhet, inte motorns tillverkarpräglade Model/Type/Code.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 21 (nollbaserad sida 20), ENGINE, Ref 1",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2010-exhaust",
+      "statement": "I ENGINE-listan står avgassystemrör 535 50 06-02, ljuddämparenhet 544 33 57-01 och värmeskydd 544 24 83-01.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 21 (P20), ENGINE, Ref 6, 9, 12",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2010-three-belts",
+      "statement": "I 2010 års TRANSMISSION-ritningslista står tre separata BELT-poster 589 53 12-01, 589 53 04-01 och 594 97 80-01, vardera antal 1. Det krävs positionskontroll före benämning av remmens funktion.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 19 (P18), TRANSMISSION, Ref 1–3",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2010-trans-tensioner",
+      "statement": "I TRANSMISSION-listan anges BELT TENSIONER ASSY 535 48 44-01, PULLEY 535 48 22-01 och BELT GUIDE 544 40 53-01.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 19 (P18), TRANSMISSION, Ref 11, 16, 18",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2010-rear-spindle",
+      "statement": "CHASSIS REAR listar SPINDLE 506 98 58-03 och SWING AXLE 506 98 59-01. Dessa är chassidelar och ska inte förväxlas med klippaggregatets knivspindlar.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 23 (P22), CHASSIS REAR, Ref 1 och 6",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2010-deck-lift-chain",
+      "statement": "MOWER LIFT / DECK LIFT anger CHAIN 506 55 46-07, LINKAGE 506 55 47-01 och CHAIN STOP 506 90 59-01, samtliga antal 1 i 2010-katalogen.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 15 (P14), MOWER LIFT / DECK LIFT, Ref 17–19",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2010-tank",
+      "statement": "FUEL SYSTEM anger bränsletank 535 50 13-01, tanklock 506 67 33-01 samt slang 504 80 00-07.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "PDF-sida 5 (P4), FUEL SYSTEM, Ref 1, 5, 6",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2010-2006-engine-different",
+      "statement": "2010 års produktvariant 965161601 anger motorenhet 544 45 28-01, vilket avviker från motorartikel 535 44 10-01 i Rider 16 953521401 2006-01. Katalogskillnaden bevisar inte att motortypen ändrats eller att numret är en officiell ersättare.",
+      "variant": "Husqvarna Rider 16, PNC 965161601, reservdelsutgåva 2010-07",
+      "locator": "2010-07 IPL, ENGINE Ref 1, PDF-sida 21; jämfört med 2006-01 IPL, MOTEUR, PDF-sida 13",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2007-pnc-identity",
+      "statement": "Originalreservdelskatalogens omslagsidentitet anger RIDER 16, produktnummer 965161601, revision 2007-06; detta skiljer revisionsdatumet från 2010-07 års katalog för samma produktnummer.",
+      "variant": "Rider 16 PNC 965161601, IPL 2007-06",
+      "locator": "SPARE PARTS LIST, omslag/titel",
+      "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -591,6 +695,10 @@
     "Skillnaden mellan knivhus/spindel 544065901 (yttre) och 544065902 (mitten) ska verifieras i tillverkarens ritning för varje aggregatversion.",
     "Tidigare felaktig 506 55 47-01-kedjebeteckning rättades 2026-10-22 mot Husqvarnas 37-sidiga IPL; verifiera eventuella andra kategorirubriker där originalet maskinöversatts.",
     "Kontrollera om senare reservdelslistor ersätter 544103001/544102801, 544096101/544096201 eller 535441001; katalogen 2006 gäller som historisk baseline.",
-    "37-sidig IPL har textverifierade artikelnummer och antal, men PDF-skärmbildstjänsten gav fel vid denna genomgång; visuella ritningspositioner ska därför fortfarande kontrolleras vid praktisk demontering."
+    "37-sidig IPL har textverifierade artikelnummer och antal, men PDF-skärmbildstjänsten gav fel vid denna genomgång; visuella ritningspositioner ska därför fortfarande kontrolleras vid praktisk demontering.",
+    "Jämför positionsnumren för 2007-06 mot 2010-07 för PNC 965161601 innan någon artikel markeras som ersatt; 2007 års PDF-figurer kunde inte öppnas visuellt i denna körning.",
+    "Utred om 2010 års motornummer 544452801 skiljer sig från 2006 års 535441001 genom en verklig motorvariant eller endast katalogrevision.",
+    "Skärmbildsgranskning av 2010 års PDF blockerades av cachefel; nya uppgifter är textkontrollerade mot positionslistor men ritningarnas visuella positionsplacering måste följas upp.",
+    "Identifiera Tuff Torq-kod för 965161601 direkt i respektive transmissionsritning eller på maskinens serienummerskylt, inte från 953521401."
   ]
 }
