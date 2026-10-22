@@ -468,6 +468,24 @@
       "locator": "Lubrication > Remote Oil Filter, printed p.4, PDF index 3",
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A"
+    },
+    {
+      "id": "kohler-maintenance-kit-1278901s",
+      "statement": "Kohler Parts and Accessories 25 800 148 Rev. E lists maintenance kit 12 789 01-S for CV11–15 and specifies contained air filter 12 083 05-S. The catalog does not establish applicability to every Spec. No. or later supersession.",
+      "variant": "Kohler CV11–15 as listed in accessories guide Rev. E; air-cleaner and Spec. No. to be checked",
+      "locator": "Special Items > MAINTENANCE KITS, printed p. 9 (PDF page index 8), row 12 789 01-S",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-maintenance-kit-1278902s",
+      "statement": "Kohler Parts and Accessories 25 800 148 Rev. E lists maintenance kit 12 789 02-S for CV11–15 and 460–493 PRO, specifying contained air filter 12 083 10-S. This is distinct from kit 12 789 01-S and does not prove universal interchangeability.",
+      "variant": "Kohler CV11–15, 460–493 PRO as listed in accessories guide Rev. E; verify air-cleaner assembly and Spec. No.",
+      "locator": "Special Items > MAINTENANCE KITS, printed p. 9 (PDF page index 8), row 12 789 02-S",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -485,6 +503,7 @@
     "Oil Sentry måste bekräftas på enskild motorkonfiguration och i maskinens kopplingsschema; brytområde 2–5 psi är inte en specifikation för normalt arbetstryck.",
     "Oil Sentry artikelnummer och sensoradapter per Kohler Spec. No. återstår att kontrollera; 6,8 Nm gäller vakten, inte en godtycklig oljeplugg.",
     "Oil Sentry 12 704 01-S: kontrollera specifikationsnummer, filteradapterns faktiska anslutning, kabelstam samt tillverkarens aktuella ersättningsnummer innan montering eller beställning.",
-    "Kohler originalbränslefilter 25 050 21-S, 25 050 22-S och 25 050 07-S har katalogbelagda utföranden men kräver kontroll av matning, slanganslutning, filterplacering och motor- eller OEM-specifikation innan beställning."
+    "Kohler originalbränslefilter 25 050 21-S, 25 050 22-S och 25 050 07-S har katalogbelagda utföranden men kräver kontroll av matning, slanganslutning, filterplacering och motor- eller OEM-specifikation innan beställning.",
+    "Servicesatser 12 789 01-S och 12 789 02-S har olika ingående luftfilter i Kohlers originaltillbehörskatalog. Kontrollera Spec. No., luftfilterhus, komplett satsinnehåll och aktuella ersättningsnummer före beställning."
   ]
 }
