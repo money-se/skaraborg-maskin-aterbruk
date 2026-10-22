@@ -585,6 +585,42 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "kohler-tp2339-acr-compression-leakdown",
+      "statement": "Kohler TP-2339-D anger att automatisk kompressionslättnad (ACR) försvårar tillförlitlig vanlig kompressionsmätning; cylinderläckagetest rekommenderas som alternativ för att bedöma läckage via ventiler eller kolvringar.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 enligt TP-2339-D",
+      "locator": "Section 3, printed p.3.4 (PDF index 23), Compression Test/Cylinder Leakdown Test",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-pump-new-hole-torque",
+      "statement": "Kohler TP-2339-D anger 9,0 Nm för mekaniska bränslepumpens flänsskruvar vid montering i ett nytt, obearbetat gjuthål; detta moment ska inte överföras till redan använda hål.",
+      "variant": "Command med mekanisk nylonbränslepump enligt TP-2339-D, nytt as-cast monteringshål",
+      "locator": "Section 5, printed p.5.3 (PDF index 30), Installation step 3",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-pump-used-hole-torque",
+      "statement": "Kohler TP-2339-D anger 4,2–5,1 Nm för mekaniska bränslepumpens flänsskruvar vid montering i tidigare använt hål; värdet skiljer sig från ett nytt gjuthål.",
+      "variant": "Command med mekanisk nylonbränslepump enligt TP-2339-D, begagnat monteringshål",
+      "locator": "Section 5, printed p.5.3 (PDF index 30), Installation step 3",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-pump-arm-orientation",
+      "statement": "TP-2339-D kräver att den mekaniska bränslepumpens hävarm placeras till höger om kamaxeln sett från pumpens monteringsyta; fel placering kan orsaka allvarlig motor- och pumpskada. Nylonpumparna är inte reparerbara utan byts som enhet.",
+      "variant": "Command med mekanisk nylonbränslepump enligt TP-2339-D",
+      "locator": "Section 5, printed p.5.3 (PDF index 30), Repair and Installation step 2 warning",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -607,6 +643,7 @@
     "Startsystem: verifiera elektrisk jordning och kabelhärva innan 25 435 08-S / 12 749 03-S används; 12 755 47-S fordrar specifik metallkåpa och installationskontroll.",
     "Oljestickor CH kontra CV och kortfilter 28 050 01-S kräver kontroll av respektive installation och teknisk passform; delarna får inte överföras mellan motorfamiljer utifrån katalogbild ensam.",
     "Diagnosverktyg 25 761 06-S, 25 761 05-S och 25 455 01-S har tillverkarbelagda katalognummer men provförfarande och acceptansgränser måste hämtas från rätt servicemanual och motorvariant.",
-    "Oljetryck 40 psi i TP-2339-D p.11.23 avser specifikt återmonteringsprov efter 90 s tomgång. Utred separata originalgränser för normal drift och eventuell motorversionsskillnad före bred felsökningsrekommendation."
+    "Oljetryck 40 psi i TP-2339-D p.11.23 avser specifikt återmonteringsprov efter 90 s tomgång. Utred separata originalgränser för normal drift och eventuell motorversionsskillnad före bred felsökningsrekommendation.",
+    "Kohler mekanisk bränslepump: komponentnummer, exakt Spec. No.-passning och eventuella ändrade monteringsprocedurer i senare revisionsmanualer är inte verifierade."
   ]
 }
