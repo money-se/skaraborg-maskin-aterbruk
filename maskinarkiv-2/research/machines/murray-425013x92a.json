@@ -27,7 +27,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: ENGINE MOUNT ASSEMBLY i F-030768L s.12 visar tank 690289, avgasrör 690541/690542, ljuddämpare 093259, choke 690401, gasreglage 093165 och värmesköld 1001456–701. Exakt motormodell finns inte i denna tabell."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -37,7 +37,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-030768L, Steering tryckt sida 6, ger individuella delnummer för ratt, styrväxel, framaxel, spindlar, styrstag och hjullager; observera suffixskillnader mot 425014X92B."
     },
     "F": {
       "name": "Reglage",
@@ -52,7 +52,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-030768L s.10 beskriver klippaggregatets rem 037x88, kniv 095100E701, spindelhus 1001200, komplett aggregat 7601032 samt bromsbelägg, remstyrning, hjul och upphängningsfästen. Reservdelars överförbarhet till andra Murray-varianter ej verifierad."
     },
     "I": {
       "name": "Tillbehör",
@@ -201,6 +201,699 @@
       "grade": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel",
+      "statement": "Katalogen listar Ratt 094134.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-post",
+      "statement": "Katalogen listar Styrstång 690625.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-pinion",
+      "statement": "Katalogen listar Styrpinjong 690183.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 7",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-sector",
+      "statement": "Katalogen listar Styrsektor 094121.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-plate",
+      "statement": "Katalogen listar Styrplåt 1001121E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-left-spindle",
+      "statement": "Katalogen listar Vänster styrspindel 094576E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 21",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-front-axle",
+      "statement": "Katalogen listar Framaxel 1001460E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 26",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-left-drag",
+      "statement": "Katalogen listar Vänster styrstag 095329E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-right-spindle",
+      "statement": "Katalogen listar Höger styrspindel 094575E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-right-drag",
+      "statement": "Katalogen listar Höger styrstag 095328E701.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-bearing",
+      "statement": "Katalogen listar Hjullager 091334.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel-assembly",
+      "statement": "Katalogen listar Hjul-/däckenhet 094579-601.",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "STEERING, tryckt sida 6, pos 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-cap",
+      "statement": "Tanklock anges med artikelnummer 092317.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-tank",
+      "statement": "Bränsletank anges med artikelnummer 690289.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-line",
+      "statement": "Bränsleledning, 18 tum anges med artikelnummer 7601033.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 15",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-clamp",
+      "statement": "Slangklämma anges med artikelnummer 095197.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 16",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-oil-drain-pipe",
+      "statement": "Oljeavtappningsrör anges med artikelnummer 092279.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 18",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-oil-drain-cap",
+      "statement": "Lock till oljeavtappning anges med artikelnummer 021651.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 19",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-stack-pulley",
+      "statement": "Dubbelremskiva anges med artikelnummer 690439 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 22",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-exhaust-right",
+      "statement": "Höger avgasrör anges med artikelnummer 690541.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-exhaust-left",
+      "statement": "Vänster avgasrör anges med artikelnummer 690542.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-muffler-mount",
+      "statement": "Ljuddämparfäste anges med artikelnummer 690537E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-muffler",
+      "statement": "Ljuddämpare anges med artikelnummer 093259.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 32",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-muffler-bracket",
+      "statement": "Ljuddämparstag anges med artikelnummer 690538E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 33",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-choke",
+      "statement": "Chokereglage anges med artikelnummer 690401.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-throttle",
+      "statement": "Gasreglage anges med artikelnummer 093165.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 37",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-heat-shield",
+      "statement": "Värmesköldsenhet anges med artikelnummer 1001456–701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 38",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-harness",
+      "statement": "Elsystemet listar 250x117.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-ignition",
+      "statement": "Elsystemet listar 092556.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-limit",
+      "statement": "Elsystemet listar 094136.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 4",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-fuse",
+      "statement": "Elsystemet listar 302031.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 5",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-solenoid",
+      "statement": "Elsystemet listar 094613.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 6",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-seat-switch",
+      "statement": "Elsystemet listar 094159.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 10",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-seat-harness",
+      "statement": "Elsystemet listar 250x67.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-electric-light-harness",
+      "statement": "Elsystemet listar 250x92.",
+      "variant": "425013X92A",
+      "locator": "ELECTRICAL SYSTEM s.14 pos 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-handle",
+      "statement": "Katalogen anger PTO-handtag 094100 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-switch-pad",
+      "statement": "Katalogen anger PTO-brytarkudde 094022 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-lift-lever",
+      "statement": "Katalogen anger Lyftspak 690533.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 8",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-lever",
+      "statement": "Katalogen anger PTO-spak 094017 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-link",
+      "statement": "Katalogen anger PTO-länkage 094004 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 13",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-bracket",
+      "statement": "Katalogen anger PTO-fäste 094018E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 17",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pto-crank",
+      "statement": "Katalogen anger PTO-vev 690394E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 19",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-lift-link",
+      "statement": "Katalogen anger Lyftstag 690212E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 20",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-rear-suspension",
+      "statement": "Katalogen anger Bakre aggregatfäste 094055E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-pivot-bracket",
+      "statement": "Katalogen anger Pivotfäste 094015E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-left-deck-hanger",
+      "statement": "Katalogen anger Vänster aggregatupphängning 094027E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 41",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-right-deck-hanger",
+      "statement": "Katalogen anger Höger aggregatupphängning 094026E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 42",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-susp-hanger-rod",
+      "statement": "Katalogen anger Upphängningsstag 094158 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING SUSPENSION tryckt s.8 pos 43",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-belt",
+      "statement": "Katalogen anger Klipprem 037x88.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-blade",
+      "statement": "Katalogen anger Klippkniv 095100E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 37",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-mandrel",
+      "statement": "Katalogen anger Spindelhus 1001200.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-blade-adapter",
+      "statement": "Katalogen anger Knivadapter 690411.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 36",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-complete",
+      "statement": "Katalogen anger Komplett klippaggregat 7601032.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 1-61",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-idler-pulley",
+      "statement": "Katalogen anger Löprulle 690387.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 4",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-left-brake",
+      "statement": "Katalogen anger Vänster bromsbeläggsenhet 094049E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-right-brake",
+      "statement": "Katalogen anger Höger bromsbeläggsenhet 094047E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-belt-guide",
+      "statement": "Katalogen anger Remstyrning 094781.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 48",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deflector",
+      "statement": "Katalogen anger Utkastskydd 094707SE.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 44",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-gauge-wheel",
+      "statement": "Katalogen anger Stödhjul 092683.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 53",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-front-hanger",
+      "statement": "Katalogen anger Främre upphängningsfäste 094190E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 46",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-left-wheel-bracket",
+      "statement": "Katalogen anger Vänster stödhjulsfäste 092423E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 55",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-right-wheel-bracket",
+      "statement": "Katalogen anger Höger stödhjulsfäste 1001260E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 54",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-blade-housing",
+      "statement": "Katalogen anger Knivhus 094814E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 59",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -209,6 +902,10 @@
     "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
-    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
+    "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll.",
+    "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning.",
+    "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform.",
+    "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll."
   ]
 }
