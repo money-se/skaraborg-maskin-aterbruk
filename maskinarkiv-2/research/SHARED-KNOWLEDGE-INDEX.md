@@ -33,6 +33,9 @@
 
 | Jonsered LT2115CMA (2005-05) / 96061001002 | [jonsered-lt2115cma-96061001002.json](machines/jonsered-lt2115cma-96061001002.json) | `needs_research`: 2005-05 klippaggregat, knivar och chassi; separat från 2006-06 |
 
+| Jonsered LT2115CMA (2005-04) / 96061001001 | [jonsered-lt2115cma-96061001001.json](machines/jonsered-lt2115cma-96061001001.json) | `needs_research`: dokumentidentitet hittad, PDF-granskning återstår |
+| Jonsered LT2115CMA (2006-01) / 96061001003 | [jonsered-lt2115cma-96061001003.json](machines/jonsered-lt2115cma-96061001003.json) | `needs_research`: dokumentidentitet hittad, PDF-granskning återstår |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
