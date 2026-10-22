@@ -47,7 +47,7 @@
     "G": {
       "name": "Säkerhetssystem",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Originalkatalogens ELECTRICAL SYSTEM-lista anger modellbundna elkomponenter, däribland chassikabelhärva 250x117, tändningslås 092556, solenoid 094613, säkring 302031 och sitsbrytare 094159. Kretsfunktion, kopplingsschema och multimetervärden ännu ej styrkta."
     },
     "H": {
       "name": "Klippaggregat",
@@ -575,6 +575,171 @@
       "topic": "D",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-light-harness",
+      "statement": "Modellens originalreservdelskatalog anger Belysningskabelhärva 250x92.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 1",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-light-socket",
+      "statement": "Modellens originalreservdelskatalog anger Lamphållare 1001716.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 1 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-light-bulb",
+      "statement": "Modellens originalreservdelskatalog anger Glödlampa 090084.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 1 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-chassis-harness",
+      "statement": "Modellens originalreservdelskatalog anger Chassikabelhärva 250x117.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 2",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-ignition-switch",
+      "statement": "Modellens originalreservdelskatalog anger Tändningslås 092556.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 3",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-ignition-key",
+      "statement": "Modellens originalreservdelskatalog anger Tändningsnyckel 020729.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 3 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-limit-switch",
+      "statement": "Modellens originalreservdelskatalog anger Gränslägesbrytare 094136.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 4",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-fuse",
+      "statement": "Modellens originalreservdelskatalog anger Säkring 302031.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 5",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-fuse-holder",
+      "statement": "Modellens originalreservdelskatalog anger Säkringshållare 407078.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 5 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-solenoid",
+      "statement": "Modellens originalreservdelskatalog anger Startsolenoid 094613.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 6",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-ground-cable",
+      "statement": "Modellens originalreservdelskatalog anger Batteriets jordkabel 024x32.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 7",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-battery",
+      "statement": "Modellens originalreservdelskatalog anger Batteri 021075.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 8",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-seat-harness",
+      "statement": "Modellens originalreservdelskatalog anger Sitsbrytarens kabelhärva 250x67.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 9",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-seat-switch",
+      "statement": "Modellens originalreservdelskatalog anger Sitsgivarbrytare 094159.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 10",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-electric-cable",
+      "statement": "Modellens originalreservdelskatalog anger Kabel 024x31.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 11",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -584,6 +749,7 @@
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
     "PDF-bildgranskning av Mower Housing misslyckades; uppgifterna har jämförts mot källans indexerade text.",
-    "PEERLESS fastställt som fabrikat i modellens TRANSMISSION-tabell, men exakt intern modell-/ID-kod och serviceoljespecifikation kräver transaxelns märkskylt samt motsvarande Peerless-servicehandling."
+    "PEERLESS fastställt som fabrikat i modellens TRANSMISSION-tabell, men exakt intern modell-/ID-kod och serviceoljespecifikation kräver transaxelns märkskylt samt motsvarande Peerless-servicehandling.",
+    "ELECTRICAL SYSTEM är textverifierad men inte bildgranskad (PDF-cache miss). Kontrollera fysisk kontaktkonfiguration och elektriskt schema före kompatibilitetsanspråk."
   ]
 }
