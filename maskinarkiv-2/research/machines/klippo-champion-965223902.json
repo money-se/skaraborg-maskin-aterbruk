@@ -88,6 +88,13 @@
       "title": "Husqvarna KLIPPO original owner manual 829-002 2018-10",
       "document": "KLIPPO Champion S, Champion XL S etc, SV technical data p.19",
       "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000074207/doc000127132/OM/gtww2dNLvKOAgbtQe970sljntbk"
+    },
+    {
+      "id": "aftermarket-rinab-mulcher-480mm",
+      "tier": 2,
+      "title": "RINAB after-market mulcher blade 480mm specifications",
+      "document": "Aftermarket 31-15-845-00 and listed Champion PNC 965223902; 480 ×58 ×4mm; 14mm center hole",
+      "url": "https://www.rinab.nu/skog-och-tradgard/Grasklippare/Klippaggregatsdelar/Knivar/Klippo/Mulcherkniv-48-cm-19-klippbredd-Klippo-04.htm"
     }
   ],
   "topics": {
@@ -666,6 +673,42 @@
       "sourceId": "oem-klippo-2018-manual-848-001",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "ch2018-knife-torque",
+      "statement": "Husqvarna/KLIPPO 2018 originalmanual 848-001 anger 70 Nm för knivbulten för de i manualen behandlade modellerna, där Champion ingår. Års- och motorvariant måste kontrolleras för äldre Champion 965223902.",
+      "variant": "KLIPPO originalmanual 848-001 (2018)",
+      "locator": "SV s.12, Byta kniv, punkt 9",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ch2018-knife-replacement-hardware",
+      "statement": "2018 originalmanual anger byte av knivbult, fjäderbricka och friktionsbricka samtidigt som kniv eller knivstöd byts, samt kontroll av böjd motoraxel.",
+      "variant": "KLIPPO originalmanual 848-001 (2018)",
+      "locator": "SV s.11–12, Byta kniv, punkt 3–4",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "ch2018-knife-install-facing",
+      "statement": "2018 originalmanual kräver att knivens böjda ändar pekar mot klippkåpan, att kniven centreras mot motoraxeln och kontrolleras för fri rotation efter åtdragning.",
+      "variant": "KLIPPO originalmanual 848-001 (2018)",
+      "locator": "SV s.11–12, Byta kniv, punkt 5–10",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ch-aftermarket-480mm-fitment",
+      "statement": "RINAB:s reservdelskatalog anger sin kniv 31-15-845-00 som eftermarknadsersättare för original 5028813-10 och listar Champion 965223902; specificerar eftermarknadsknivens 480×58×4mm, 14mm centrumhål och medurs rotation. Inte OEM-verifierad originalmått eller alla serienummer.",
+      "variant": "Eftermarknadsersättare för angivet blad",
+      "locator": "RINAB artikel 31-15-845-00, Passar till Champion 965223902 och tekniska mått",
+      "sourceId": "aftermarket-rinab-mulcher-480mm",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -680,6 +723,7 @@
     "Champion 965223902 2012-06 visar två separata knivfästespositioner 7 och 8 (579228401 respektive 503259901) samt motorangivelse med katalogtext TBD; utred om det är alternativ/reservdelsrevisioner, inte två obligatoriska fästen.",
     "Kontrollera om 5032843-01 behåller samma dimensioner och fästhål för samtliga angivna Champion-årgångar; återförsäljarens passformslista är inte original-IPL.",
     "Klippo Champion PNC 965223902 2012-06 och 2013-01 har fyra olika motorgruppsdelnummer (ref 1,2,4,7); kontrollera ursprungliga IPL-bilder och komponentfunktion innan byte. 2013 års motorgrupp saknar kil-ref 6 i återförsäljarens lista; dra ingen slutsats om fysisk frånvaro.",
-    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam."
+    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
+    "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma."
   ]
 }
