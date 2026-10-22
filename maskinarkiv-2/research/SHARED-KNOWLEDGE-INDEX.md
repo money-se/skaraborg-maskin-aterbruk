@@ -23,6 +23,9 @@
 | Murray 425015X92A | [murray-425015x92a.json](machines/murray-425015x92a.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
 | Murray 425015X92B | [murray-425015x92b.json](machines/murray-425015x92b.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
 
+| Jonsered LT2115 / 96011018100 | [jonsered-lt2115-96011018100.json](machines/jonsered-lt2115-96011018100.json) | `needs_research`: IPL 2006-05, produktnummerkonflikt identifierad |
+| Jonsered LT2115CMA / 96061008301 | [jonsered-lt2115cma-96061008301.json](machines/jonsered-lt2115cma-96061008301.json) | `needs_research`: IPL 2006-06, Hydro-Gear och 92 CRD dokumenterat |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
