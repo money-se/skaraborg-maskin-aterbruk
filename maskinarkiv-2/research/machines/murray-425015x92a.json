@@ -94,7 +94,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-040734L s.45 anger klippaggregatets rem/kniv/spindelhus samt upphängning, bromsbelägg, remstyrning, utkastskydd och stödhjul. Gemensamma katalognummer med andra Murray-maskiner innebär inte fullständig aggregatkompatibilitet."
     },
     "I": {
       "name": "Tillbehör",
@@ -430,6 +430,138 @@
       "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-blade-adapter",
+      "statement": "Knivadaptern har artikelnummer 690411.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 36",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-idler",
+      "statement": "Klippaggregatets löprulle har artikelnummer 690387.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 4",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-jackshaft",
+      "statement": "Mellandrevsremskivan har artikelnummer 094199.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 1",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-left-brake",
+      "statement": "Vänster bromsbeläggsenhet har artikelnummer 094049E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 12",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-right-brake",
+      "statement": "Höger bromsbeläggsenhet har artikelnummer 094047E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 27",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-idler-arm",
+      "statement": "Löprullearmen har artikelnummer 690408E700.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 25",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-lift-link",
+      "statement": "Lyftstaget har artikelnummer 690212E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 8",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-gauge-wheel",
+      "statement": "Klippaggregatets stödhjul har artikelnummer 092683.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 53",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-deflector",
+      "statement": "Utkastskyddsenheten har artikelnummer 094707SE.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 44",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-front-hanger",
+      "statement": "Främre aggregatupphängningsfästet har artikelnummer 094190E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 46",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-rear-bracket",
+      "statement": "Bakre upphängningsfästet har artikelnummer 094055E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 11",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-belt-guide",
+      "statement": "Remstyrningen har artikelnummer 094781.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 48",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -438,6 +570,7 @@
     "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
-    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
+    "F-040734L sida 45 visar flera identiska reservdelsnummer som F-050706L för 425014X92B; jämför fästpunkter, revisioner och ersättningsnummer separat innan fysisk utbytbarhet hävdas."
   ]
 }
