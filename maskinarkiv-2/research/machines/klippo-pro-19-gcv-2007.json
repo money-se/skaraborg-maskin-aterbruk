@@ -299,6 +299,51 @@
       "sourceId": "mknorth-grip-576641901-2009",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "pro19gcv-position-blade",
+      "statement": "Kniv 48 cm av mulcher-typ, artikelnummer 502978001, anges som referensposition 43 i den Pro 19 GCV-bundna reservdelsförteckningen.",
+      "variant": "Pro 19 GCV enligt Wolfswinkels odaterade modellförteckning; artikelnummer 965229001 styrks separat, års-/serieintervall ej verifierat",
+      "locator": "Ref. 43, 502978001, Mähmesser mulch 48cm / 19",
+      "sourceId": "wolfswinkel-pro19gcv-parts-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-position-bolt",
+      "statement": "Knivbult 503272701 anges som referensposition 44 i Pro 19 GCV-förteckningen.",
+      "variant": "Pro 19 GCV enligt Wolfswinkels odaterade modellförteckning; artikelnummer 965229001 styrks separat, års-/serieintervall ej verifierat",
+      "locator": "Ref. 44, 503272701, Messerbolzen",
+      "sourceId": "wolfswinkel-pro19gcv-parts-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-position-bracket",
+      "statement": "Knivfäste 502871902 förekommer som referensposition 51, med katalogbeskrivningen 'Buchhilfe 301'. Funktionstolkningen bygger även på separat återförsäljarkälla för knivfästet.",
+      "variant": "Pro 19 GCV enligt Wolfswinkels odaterade modellförteckning; artikelnummer 965229001 styrks separat, års-/serieintervall ej verifierat",
+      "locator": "Ref. 51, 502871902, Buchhilfe 301",
+      "sourceId": "wolfswinkel-pro19gcv-parts-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-position-washer",
+      "statement": "Fiberbricka 503259401 anges som referensposition 52 i Pro 19 GCV-förteckningen.",
+      "variant": "Pro 19 GCV enligt Wolfswinkels odaterade modellförteckning; artikelnummer 965229001 styrks separat, års-/serieintervall ej verifierat",
+      "locator": "Ref. 52, 503259401, Faserring 323",
+      "sourceId": "wolfswinkel-pro19gcv-parts-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-position-key",
+      "statement": "Kil 504460501 anges som referensposition 53 i Pro 19 GCV-förteckningen.",
+      "variant": "Pro 19 GCV enligt Wolfswinkels odaterade modellförteckning; artikelnummer 965229001 styrks separat, års-/serieintervall ej verifierat",
+      "locator": "Ref. 53, 504460501, Spie 7075",
+      "sourceId": "wolfswinkel-pro19gcv-parts-index",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -312,6 +357,7 @@
     "Pro 19 S GCV har egen drivrem-/mellanremsdokumentation, men original IPL för odrivna Pro 19 GCV 965229001 måste fortsatt kontrolleras för knivsystem.",
     "Wolfswinkels Pro 19 GCV-index listar kandidaterna 502978001, 503272701 och 502871902, men det krävs original-IPL med positionsnummer och giltigt serienummerintervall innan definitiv reservdelskoppling.",
     "Originalproduktkatalogen 2008 bekräftar Pro 19 GCV 965229001 som 48 cm mulcherkniv och separat kniv 502978001, men den binder inte kniven med IPL-positionsnummer, variantserienummer och monteringskombination; behåll detta som öppen slutsats.",
-    "Wolfswinkels separata nederländska register för 965229001 bekräftar modellbindningen av artikelnummerlistan; fortfarande saknas original-IPL och verifierade sprängskisspositioner."
+    "Wolfswinkels separata nederländska register för 965229001 bekräftar modellbindningen av artikelnummerlistan; fortfarande saknas original-IPL och verifierade sprängskisspositioner.",
+    "Katalogpositionerna 43–44 och 51–53 är nu sekundärt källbundna. Original KLIPPO/Husqvarna IPL och exakt serienummerintervall saknas fortfarande."
   ]
 }
