@@ -23,6 +23,37 @@
 | Murray 425015X92A | [murray-425015x92a.json](machines/murray-425015x92a.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
 | Murray 425015X92B | [murray-425015x92b.json](machines/murray-425015x92b.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
 
+| klippo-champion-965223902 | [klippo-champion-965223902.json](machines/klippo-champion-965223902.json) | `needs_research`: ej publiceringsklart |
+| klippo-excellent-2007 | [klippo-excellent-2007.json](machines/klippo-excellent-2007.json) | `needs_research`: ej publiceringsklart |
+| klippo-pro-19-gcv-2007 | [klippo-pro-19-gcv-2007.json](machines/klippo-pro-19-gcv-2007.json) | `needs_research`: ej publiceringsklart |
+| transmission-hydro-gear-zt2800-zt3100 | [transmission-hydro-gear-zt2800-zt3100.json](machines/transmission-hydro-gear-zt2800-zt3100.json) | `needs_research`: ej publiceringsklart |
+| husqvarna-rider-16-h | [husqvarna-rider-16-h.json](machines/husqvarna-rider-16-h.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1218-1992 | [stiga-park-12-1218-1992.json](machines/stiga-park-12-1218-1992.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1258-1992 | [stiga-park-12-1258-1992.json](machines/stiga-park-12-1258-1992.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1218-1991 | [stiga-park-12-1218-1991.json](machines/stiga-park-12-1218-1991.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1258-1991 | [stiga-park-12-1258-1991.json](machines/stiga-park-12-1258-1991.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1258-1990 | [stiga-park-12-1258-1990.json](machines/stiga-park-12-1258-1990.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1218-1990 | [stiga-park-12-1218-1990.json](machines/stiga-park-12-1218-1990.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1258-1993 | [stiga-park-12-1258-1993.json](machines/stiga-park-12-1258-1993.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1442-1995 | [stiga-park-12-1442-1995.json](machines/stiga-park-12-1442-1995.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1168-1995 | [stiga-park-12-1168-1995.json](machines/stiga-park-12-1168-1995.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1168-1996 | [stiga-park-12-1168-1996.json](machines/stiga-park-12-1168-1996.json) | `needs_research`: ej publiceringsklart |
+| stiga-park-12-1168-1997 | [stiga-park-12-1168-1997.json](machines/stiga-park-12-1168-1997.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115-96011018100 | [jonsered-lt2115-96011018100.json](machines/jonsered-lt2115-96011018100.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115a-96011018200 | [jonsered-lt2115a-96011018200.json](machines/jonsered-lt2115a-96011018200.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cm-96061008101 | [jonsered-lt2115cm-96061008101.json](machines/jonsered-lt2115cm-96061008101.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061001000 | [jonsered-lt2115cma-96061001000.json](machines/jonsered-lt2115cma-96061001000.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061001001 | [jonsered-lt2115cma-96061001001.json](machines/jonsered-lt2115cma-96061001001.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061001002 | [jonsered-lt2115cma-96061001002.json](machines/jonsered-lt2115cma-96061001002.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061001003 | [jonsered-lt2115cma-96061001003.json](machines/jonsered-lt2115cma-96061001003.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061008200 | [jonsered-lt2115cma-96061008200.json](machines/jonsered-lt2115cma-96061008200.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061008201 | [jonsered-lt2115cma-96061008201.json](machines/jonsered-lt2115cma-96061008201.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061008300 | [jonsered-lt2115cma-96061008300.json](machines/jonsered-lt2115cma-96061008300.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-96061008301 | [jonsered-lt2115cma-96061008301.json](machines/jonsered-lt2115cma-96061008301.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-j2115cmaa | [jonsered-lt2115cma-j2115cmaa.json](machines/jonsered-lt2115cma-j2115cmaa.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-j2115cmab | [jonsered-lt2115cma-j2115cmab.json](machines/jonsered-lt2115cma-j2115cmab.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cma-j2115cmac | [jonsered-lt2115cma-j2115cmac.json](machines/jonsered-lt2115cma-j2115cmac.json) | `needs_research`: ej publiceringsklart |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
