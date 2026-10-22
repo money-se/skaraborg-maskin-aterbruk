@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "slug": "husqvarna-rider-13",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Avgränsad källgranskning av tre identifierade Husqvarna Rider 13-reservdelsutgåvor, inte godkännande av hela Rider-artikeln.",
+  "sources": [
+    {
+      "id": "husqvarna-bio-2003-01",
+      "tier": 2,
+      "title": "Husqvarna Rider 13 Bio spare parts list 2003-01",
+      "document": "Rider 13 Bio 2003-01 transmission",
+      "url": "https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-rider13bio.pdf"
+    },
+    {
+      "id": "husqvarna-bioclip-953520901",
+      "tier": 2,
+      "title": "Rider 13 BioClip transmission parts 953520901 2003-11",
+      "document": "953520901 transmission 2003-11",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/26283/TRANSMISSION"
+    },
+    {
+      "id": "husqvarna-rspecial-953533001",
+      "tier": 2,
+      "title": "Rider 13 R Special parts catalog 953533001",
+      "document": "953533001 2003-09",
+      "url": "https://www.ceruticenter.it/en/content/37251-husqvarna-rider-13-r-special-2003-09-953533001-front-rider-spare-parts"
+    },
+    {
+      "id": "husqvarna-bioclip-catalog",
+      "tier": 2,
+      "title": "Rider 13 BioClip parts catalog 953520901",
+      "document": "953520901 2003-11, 90 CM CUTTING GROUP",
+      "url": "https://www.ceruticenter.it/en/content/37220-husqvarna-rider-13-bioclip-2003-11-953520901-front-rider-spare-parts"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "verified",
+      "note": "Tre uttryckligen versionsbundna reservdelsutgåvor har dokumenterats; fullständig familjematris kvarstår."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "D": {
+      "state": "verified",
+      "note": "K46 belagd för angivna Bio- och BioClip-utgåvor; får inte överföras till andra Rider."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "H": {
+      "state": "verified",
+      "note": "BioClip 90 cm och R Special 97 cm förekommer i respektive reservdelslista."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Detta område är ännu inte fullständigt källgranskat per exakt produktversion."
+    }
+  },
+  "claims": [
+    {
+      "id": "bio-2003-k46",
+      "statement": "Rider 13 Bio reservdelslista från 2003-01 anger K46 transmission 506 98 64-01.",
+      "variant": "Rider 13 Bio, 2003-01",
+      "locator": "TRANSMISSION, 506 98 64-01",
+      "sourceId": "husqvarna-bio-2003-01",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "bioclip-2003-k46",
+      "statement": "Transmissionsritningen för 953520901 från 2003-11 anger K46.",
+      "variant": "953520901, 2003-11",
+      "locator": "TRANSMISSION 506986401",
+      "sourceId": "husqvarna-bioclip-953520901",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "bioclip-2003-90cm",
+      "statement": "BioClip reservdelsöversikt 953520901 visar 90 cm aggregat.",
+      "variant": "953520901, 2003-11",
+      "locator": "90 CM CUTTING GROUP",
+      "sourceId": "husqvarna-bioclip-catalog",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rspecial-2003-97cm",
+      "statement": "Rider 13 R Special 953533001 har separat 97 cm klippaggregat i reservdelskatalogen.",
+      "variant": "953533001, 2003-09",
+      "locator": "CUTTING GROUP 97 CM",
+      "sourceId": "husqvarna-rspecial-953533001",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "bioclip-identity",
+      "statement": "953520901 avser Rider 13 BioClip version 2003-11.",
+      "variant": "953520901, 2003-11",
+      "locator": "Model and revision heading",
+      "sourceId": "husqvarna-bioclip-953520901",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "rspecial-identity",
+      "statement": "953533001 avser Rider 13 R Special version 2003-09.",
+      "variant": "953533001, 2003-09",
+      "locator": "Model and revision heading",
+      "sourceId": "husqvarna-rspecial-953533001",
+      "grade": "B",
+      "topic": "A"
+    }
+  ],
+  "gaps": [
+    "Komplett produktnummerlista och Husqvarnas original-IPLs för varje Rider 13-generation.",
+    "Motorernas exakta identiteter per produktnummer.",
+    "Identifiering av alla transmissioner och variantövergångar.",
+    "Klippaggregatens passform och rem-/knivdelar per revision.",
+    "Motorspecifik service, säkerhetsreglage och materialets övriga kapitel kvar att källgranska."
+  ]
+}
