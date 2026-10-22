@@ -18,6 +18,13 @@
       "title": "Kohler Command CV11–CV16, CV460–CV493 Owner's Manual",
       "document": "12 590 01; Specifications, printed p.6, PDF page index 5",
       "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/12_590_01.pdf"
+    },
+    {
+      "id": "kohler-accessories-25800148-reve",
+      "tier": 1,
+      "title": "Kohler Engines – Parts and Accessories",
+      "document": "25 800 148 Rev. E; printed page 5 (PDF page index 4), Oil Pressure Switch (Oil Sentry)",
+      "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/25_800_148_Accessories%20Guide.pdf"
     }
   ],
   "topics": {
@@ -407,6 +414,24 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "kohler-oil-sentry-kit-1270401s",
+      "statement": "Kohlers originaltillbehörskatalog 25 800 148 Rev. E listar Oil Sentry-sats 12 704 01-S för CH/CV11–16/460–493, normalt sluten kontakt och 2–5 psi aktivering. Fotnot anger att satsen omfattar tryckvakt, övriga delar och instruktioner. Satsen anges endast för motorer med elektrisk start och innebär inte att varje filteradapter eller maskinkabelstam är kompatibel.",
+      "variant": "Kohler CH/CV11–16/460–493 med elektrisk start; exakt Spec. No. och adapter ej kontrollerade",
+      "locator": "Lubrication > Oil Pressure Switch (Oil Sentry), printed p. 5 (PDF index 4), first row and footnotes",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-oil-sentry-other-family-not-interchangeable",
+      "statement": "Kohler 25 800 148 Rev. E listar 52 704 01-S för CH/CV17–26/730–745 och LV625–680 separat från 12 704 01-S för CH/CV11–16/460–493. Samma 2–5 psi klass och normalt slutna krets innebär inte att satserna är utbytbara.",
+      "variant": "Kohler Oil Sentry originaltillbehörskatalog Rev. E; olika familjer",
+      "locator": "Lubrication > Oil Pressure Switch, printed p. 5 (PDF index 4), first two rows",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -422,6 +447,7 @@
     "Oljefilter 52 050 02-S anges i Kohler 12 590 01 men ersättningsartikel, aktuell tillgång och exakt passform per Spec. No. och filteradapter återstår att verifiera.",
     "Kohler Walbro/Nikki: rekommenderad grundtomgång 1200 ±75 rpm är inte automatiskt godkänd maskintomgång; kräver utrustningstillverkarens anvisning och exakt utförande.",
     "Oil Sentry måste bekräftas på enskild motorkonfiguration och i maskinens kopplingsschema; brytområde 2–5 psi är inte en specifikation för normalt arbetstryck.",
-    "Oil Sentry artikelnummer och sensoradapter per Kohler Spec. No. återstår att kontrollera; 6,8 Nm gäller vakten, inte en godtycklig oljeplugg."
+    "Oil Sentry artikelnummer och sensoradapter per Kohler Spec. No. återstår att kontrollera; 6,8 Nm gäller vakten, inte en godtycklig oljeplugg.",
+    "Oil Sentry 12 704 01-S: kontrollera specifikationsnummer, filteradapterns faktiska anslutning, kabelstam samt tillverkarens aktuella ersättningsnummer innan montering eller beställning."
   ]
 }
