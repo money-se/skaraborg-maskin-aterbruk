@@ -81,6 +81,20 @@
       "title": "MKnorth – Klippo handtagsgrepp 5766419-01 och modellbunden kompatibilitetslista",
       "document": "Klippo Håndtags greb, artikelnummer 5766419-01; Pro 19 GCV 9652290-01 2009-12",
       "url": "https://www.mknorth.dk/have/plaeneklippare-og-tilbehor/plaeneklipper/service-og-reservedele-til-plaeneklippere/klippo-handtags-greb"
+    },
+    {
+      "id": "klippo-2014-original-catalog-586612101",
+      "tier": 1,
+      "title": "KLIPPO 60-årskatalog, originalproduktkatalog 2014",
+      "document": "Husqvarna/KLIPPO 2014, artikelnummer 5866121-01, produkttabeller s.8, copyright 2014",
+      "url": "https://img.bygghemma.se/pfiles/klippo-katalogpdf__b1728a74-17f9-44f8-b0ae-ded9c614a4b2.pdf"
+    },
+    {
+      "id": "klippo-original-om-2004-000001",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning september 2004 (återpublicerad textkopia)",
+      "document": "Originalinstruktion Art.nr 000001, Malmö september 2004; ursprungliga modelldeklaration 2004-09-22",
+      "url": "https://manualzz.com/doc/4635678/klippo-champion-instruction-manual"
     }
   ],
   "topics": {
@@ -353,6 +367,60 @@
       "sourceId": "klippo-2008-oem-catalog",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "pro19gcv-2004-k06730-early",
+      "statement": "KLIPPO:s 2004 originalmanual listar Pro 19 GCV med historisk kod återgiven som KO6730 i textutdrag; tecknet O/0 är oklart och kräver visuell kontroll innan exakt maskinkod låses.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 överensstämmelseförsäkran, rad Pro 19 GCV KO6730",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19gcv-2004-3_3kw",
+      "statement": "I 2004 års tekniska tabell specificeras Pro 19 GCV med Honda GCV135, 135 cm³ och 3,3 kW. Effekten hör endast till denna ursprungsversion.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004 originalmanual, svensk Teknisk specifikation under Pro 19 GCV, motor/effekt",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "pro19gcv-2004-consumption",
+      "statement": "2004 års svenska tekniska specifikation anger 455 g/kWh bränsleförbrukning vid 50 % belastning för Honda GCV135-utrustade Pro 19 GCV; detta är ett dokumentvärde, inte en uppmätt förbrukning för en enskild maskin.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004 originalmanual, Teknisk specifikation, 'Specifik bränsleförbr vid 50% belastn'",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "pro19gcv-2004-wheel-rollers",
+      "statement": "2004 års Pro 19 GCV-manual anger stålhjul med dubbla tätade kullager och naturgummidäck i den gemensamma Pro 17/Pro 19-modelltabellen.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004 originalmanual, teknisk specifikation, raden Hjul",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro19sh-2014-honda140",
+      "statement": "2014 års KLIPPO originalkatalog anger den *andra modellen* Pro 19 SH med Honda GCV140 OHC, framhjulsdrift, mulcherkniv 48 cm och klipphöjd 30–60 mm. Den får inte likställas med Pro 19 GCV K06730/965229001.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, professionella mulcherklippare rad PRO 19 SH",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sh-2014-area",
+      "statement": "KLIPPO:s 2014 originalkatalog anger rekommenderad gräsyta 1 000–2 000 m² för Pro 19 SH; uppgiften gäller bara 2014-katalogvarianten och inte äldre Pro 19 GCV.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, tabell PRO 19 SH, 'Gräsyta'",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -367,6 +435,7 @@
     "Wolfswinkels Pro 19 GCV-index listar kandidaterna 502978001, 503272701 och 502871902, men det krävs original-IPL med positionsnummer och giltigt serienummerintervall innan definitiv reservdelskoppling.",
     "Originalproduktkatalogen 2008 bekräftar Pro 19 GCV 965229001 som 48 cm mulcherkniv och separat kniv 502978001, men den binder inte kniven med IPL-positionsnummer, variantserienummer och monteringskombination; behåll detta som öppen slutsats.",
     "Wolfswinkels separata nederländska register för 965229001 bekräftar modellbindningen av artikelnummerlistan; fortfarande saknas original-IPL och verifierade sprängskisspositioner.",
-    "Katalogpositionerna 43–44 och 51–53 är nu sekundärt källbundna. Original KLIPPO/Husqvarna IPL och exakt serienummerintervall saknas fortfarande."
+    "Katalogpositionerna 43–44 och 51–53 är nu sekundärt källbundna. Original KLIPPO/Husqvarna IPL och exakt serienummerintervall saknas fortfarande.",
+    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget."
   ]
 }
