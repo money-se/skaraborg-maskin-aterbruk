@@ -73,7 +73,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Regulatorns moment och fjäderhål är källbundna till TP-2339-D och aktuell mekanik. 3750 rpm är inte universellt OEM-varvtal; dessutom är tändstiftsmomentet motstridigt i originalmanualerna. Generella moment- eller varvtalsråd spärrade tills variant identifieras."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Regulatorns moment och fjäderhål är källbundna till TP-2339-D och aktuell mekanik. 3750 rpm är inte universellt OEM-varvtal; dessutom är tändstiftsmomentet motstridigt i originalmanualerna. Generella moment- eller varvtalsråd spärrade tills variant identifieras.\nUppföljning: justerbart respektive icke justerbart ventilspel och topplock med vipparmsbrygga kräver skilda originalprocedurer; tändstiftsmomentkonflikten mellan manualer kvarstår."
     },
     "K": {
       "state": "gap",
@@ -1708,6 +1708,114 @@
       "topic": "J",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-head-valvetrain-three-arrangements",
+      "statement": "Kohler TP-2339-D figur 11-37 visar tre separata ventilmekanismer: vipparmsbrygga, separata vipparmsfästen utan speljustering och separata fästen med justering. Före montering måste rätt topplocksversion identifieras.",
+      "variant": "CV11–16/CV460–465/CV490–495, topplock med respektive mekanism",
+      "locator": "Section 11 p.11.12, PDF index 133, Figure 11-37",
+      "topic": "C",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rocker-bridge-torque-11p3",
+      "statement": "Kohler TP-2339-D anger att vipparmsbryggans två M6 insexskruvar dras till 11,3 Nm, med bryggans lilla försänkta hål riktat mot avgasporten.",
+      "variant": "Topplock med rocker bridge enligt Kohler TP-2339-D",
+      "locator": "Section 11 p.11.12, PDF index 133, Reassemble Cylinder Head step 1",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-head-no-exhaust-rotator-retrofit",
+      "statement": "Kohler TP-2339-D uppger att avgasventilrotatorer har utgått och att de inte får eftermonteras när ett nytt topplock sätts dit eller om motorn ursprungligen saknade sådan.",
+      "variant": "CV11–16/CV460–465/CV490–495, topplocksmontering med eventuell äldre rotator",
+      "locator": "Section 11 p.11.12, PDF index 133, Exhaust Valve Rotator Note",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rocker-adjustable-pivot-studs-11p3",
+      "statement": "För topplock med justerbart ventilspel anger Kohler att de två vipparmsfästenas pinnbultar monteras med styrplåtens formade läpp nedåt och dras till 11,3 Nm. Gäller inte typen med fast ventilspel.",
+      "variant": "Topplock med separate pivots and adjustable valve lash",
+      "locator": "Section 11 p.11.13, PDF index 134, Adjustable Valve Lash Configuration",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-head-breather-reed-torque",
+      "statement": "Kohler anger moment 6,2 Nm för vevhusventilationens M5 hållarskruv i nytt gjuthål och 3,9 Nm i tidigare använt hål, vid topplocksmontering.",
+      "variant": "CV11–16/CV460–465/CV490–495, breather reed retainer screw",
+      "locator": "Section 11 p.11.14, PDF index 135, step 5",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-head-bolts-two-pass-20-40p7",
+      "statement": "Kohler anger ny topplockspackning och fem bultar som dras i illustrerad ordning först 20 Nm och därefter 40,7 Nm i samma ordning. Bultlängd och distans på position 5 måste väljas enligt topplocksversion.",
+      "variant": "CV11–16/CV460–465/CV490–495, cylinder head bolt sequence Fig.11-44",
+      "locator": "Section 11 p.11.14, PDF index 135, Install Cylinder Head step 2f Figure 11-44",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-head-bolt-position5-spacer",
+      "statement": "Kohler anger 90 mm topplocksbult på position 5 om distansen är 27 mm och 81 mm bult om distansen är 17 mm; pos. 3 och 4 använder även särskilt gängtätningsmedel enligt manualen. Längd kan inte avgöras från motorfamilj ensam.",
+      "variant": "CV11–16/CV460–465/CV490–495, cylinder head bolt position 5 with spacer",
+      "locator": "Section 11 p.11.14, PDF index 135, Install Cylinder Head steps 2b–2d",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-nonadjustable-rocker-bolt-11p3",
+      "statement": "Topplock med separata vipparmar utan justerbart ventilspel monteras med stötstängerna i läge och vipparmsbultarna dragna till 11,3 Nm. Man ska inte göra ventilspelsinställningen avsedd för justerbar variant.",
+      "variant": "Topplock med separate pivots and non-adjustable valve lash",
+      "locator": "Section 11 p.11.15, PDF index 136, Non-Adjustable Valve Lash Configuration",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-adjustable-lash-0p07-0p12",
+      "statement": "Kohler anger ventilspel 0,07–0,12 mm på justerbar vipparmsvariant med hydrauliska lyftare nedpressade i botten under mätningen. Låsskruven dras till 7,3 Nm och spelet kontrolleras igen. Värdet får inte tillämpas på icke justerbart utförande.",
+      "variant": "Endast topplock med Adjustable Valve Lash Configuration och hydrauliska lyftare",
+      "locator": "Section 11 p.11.15, PDF index 136, Figure 11-46/11-47",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-cover-rtv-5min",
+      "statement": "Kohler anger 1/16 tum RTV-sträng enligt figur 11-55 på ventilkåpans tätningsyta och att kåpan monteras inom högst fem minuter efter applicering.",
+      "variant": "CV11–16/CV460–465/CV490–495, valve cover sealed with RTV per Fig.11-55",
+      "locator": "Section 11 p.11.18, PDF index 139, steps 2–3",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-valve-cover-bolts-new-used",
+      "statement": "Kohler anger ventilkåpans skruvmoment 10,7 Nm i nya gjuthål och 7,3 Nm i använda hål, enligt fempunktsordningen i figur 11-57.",
+      "variant": "CV11–16/CV460–465/CV490–495, five valve-cover screws, RTV type",
+      "locator": "Section 11 p.11.18, PDF index 139, step 4 Figure 11-57",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-fill-tube-orings",
+      "statement": "Kohler kräver kontroll av två O-ringar på förlängt oljepåfyllningsrör och en O-ring i oljepåfyllningslocket före montering, för utföranden med detta rör.",
+      "variant": "CV11–16/CV460–465/CV490–495, extended oil fill tube only",
+      "locator": "Section 11 p.11.18, PDF index 139, Install Extended Oil Fill Tube",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1745,6 +1853,7 @@
     "Renoveringsmått i TP-2339-D behöver motorns modell/Spec. No., slitagemätning, mätverktyg och reservdelarnas faktiska tillämpning; skillnaden 87/90 mm samt ventil- och ringgrupper får inte sammanblandas.",
     "Renoveringsvärden för vevaxel, vevstake och kamaxel kräver mätning enligt TP-2339-D, identifiering av vevstaksbultens profil och aktuell motor/Spec. No.; dessa får inte användas som generella momentspecifikationer.",
     "Oljetrycksbegränsningsventilen är inte Oil Sentry-kontaktvakten. Kontrollera äldre femdelad kontra senare endelad ventil i faktisk oljetrågs-/täcksplattvariant innan reservdel och monteringsmetod väljs.",
-    "Kohler snörstart: komplett startapparat och spärrkloreparationssats kräver Spec. No. och originalreservdelskatalog för artikelnummer; fjädermomenten är säkerhetskritiska och full manualmetod ska följas."
+    "Kohler snörstart: komplett startapparat och spärrkloreparationssats kräver Spec. No. och originalreservdelskatalog för artikelnummer; fjädermomenten är säkerhetskritiska och full manualmetod ska följas.",
+    "Topplocks- och ventilprocedurer i TP-2339-D gäller olika vipparmsutföranden. Kontrollera exakt topplock, Spec. No., bultlängd, distans, hydraullyftare och gällande servicebulletiner före montering."
   ]
 }
