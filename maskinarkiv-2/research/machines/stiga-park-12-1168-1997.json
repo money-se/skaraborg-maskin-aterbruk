@@ -18,6 +18,13 @@
       "title": "Sandby Smedie Park 12 13-1168-20 model overview",
       "document": "Park 12 reservedelstegning 1997",
       "url": "https://www.sandbysmeden.dk/13-1168-20-stiga-park-12-1997/"
+    },
+    {
+      "id": "stiga-1442-1997-cross-ipl",
+      "tier": 1,
+      "title": "STIGA Park 12 13-1442-20 original parts catalogue, parallel MST205-529A table",
+      "document": "Season 1997; Issue 45-2014; printed pp.27 and 29",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1442-20_96_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -420,6 +427,96 @@
       "grade": "A",
       "sourceId": "stiga-1168-1997-ipl",
       "locator": "PDF tryckt s.27 pos.47–48"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-identity",
+      "topic": "D",
+      "statement": "Två separata Park 12-produktkataloger för 1997 (13-1168-20 och 13-1442-20) innehåller en intern MST205-529A-delgrupp som båda anger 1134-3716-01 som komplett transaxelenhet på pos.0. Det är en dubbelkatalogisering, inte ett separat passningsintyg.",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.27, MST205-529A pos.0"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-housing",
+      "topic": "K",
+      "statement": "Båda Park 12-katalogernas MST205-529A-tabeller anger kåpa 772144 (pos.1), nållager 780086 (2 st pos.2) och hus 770128 (pos.3).",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.27, pos.1–3"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-shaft",
+      "topic": "D",
+      "statement": "Båda katalogernas MST205-529A-tabeller anger växelförare 784378 (pos.10), ingående axel 776394 (pos.66), bromsaxel 776396 (pos.67), hjulaxlar 774895/774896 (pos.47/48).",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.27 pos.10,47–48 och s.29 pos.66–67"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-brake",
+      "topic": "G",
+      "statement": "Båda 1997-katalogerna anger samma interna MST205-529A-bromsnummer: 790075 bromsskiva, 790007 tryckplatta, 799021 bromsbelägg (2 st), 790008 bromsarm och 790025 beläggshållare.",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.27, pos.36–38,41,44"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-seal",
+      "topic": "K",
+      "statement": "Båda 1997-katalogernas MST205-529A-listor anger 788092 O-ring och 788069 tätning i två rader vid pos.71, 788091 O-ring vid pos.72, 788089 tätning vid pos.87 och två 788088 tätningar vid pos.157. Samma positionsnummer kan ha flera rader, så kod och typ måste följas.",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.29, pos.71–72,87,157"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-oil",
+      "topic": "J",
+      "statement": "Båda originalkatalogerna för 1997 anger olja 730229 märkt 80W90 i MST205-529A-gruppen på pos.180. Reservdelskatalogens antal 1 är inte en påfyllnadsvolym i liter.",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.29 pos.180"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-gear-set",
+      "topic": "D",
+      "statement": "Båda Park 12 1997-originaltabeller listar i MST205-529A-kugghjulsdelen pos.49–53 samma följd 778356 (29T), 778354 (23T), 778352 (19T), 778350 (16T) och 778346 (15T).",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.27 pos.49 och s.29 pos.50–53"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-gear-row-ambiguity",
+      "topic": "D",
+      "statement": "Båda MST205-529A-originaltabellerna för 1997 listar 778364 (38T) och 778365 (15T) på varsin rad vid pos.6 och det ovanliga '307 + 13T' för 778363 pos.82; dessa noteringar är tryckta källdata, inte automatiska ersättningsval eller verifierade utväxlingar.",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.27 pos.6 och s.29 pos.82"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-serial-limitation",
+      "topic": "D",
+      "statement": "Att identiska MST205-529A-deltabeller förekommer i två produktnummer för år 1997 betyder inte att samtliga maskiners verkliga transmissionsrevision är identisk. Originalkatalogernas omslag kräver katalog anpassad till maskinens tillverkningsår enligt märkskylten.",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna PDF sid 1, märkplåtsvarning samt tryckt s.27–29"
+    },
+    {
+      "id": "p12-1168-97-cross-second-ipl-replacement-limitation",
+      "topic": "K",
+      "statement": "Två identiska MST205-529A-reservdelsförteckningar fastställer inte att alla dessa delar är kompatibla med MST205-529C eller MST205-529D. Ingen tillverkarbulletin för övergång A/C/D finns i de jämförda katalogerna.",
+      "variant": "Korskontroll två STIGA Park 12-originalkataloger 1997, endast Peerless MST205-529A-dellista; inte C/D-godkännande",
+      "grade": "A",
+      "sourceId": "stiga-1442-1997-cross-ipl",
+      "locator": "Båda IPL:erna tryckt s.27–29; avgränsning för enbart katalogernas MST205-529A-tabeller"
     }
   ],
   "gaps": [
@@ -429,6 +526,7 @@
     "Motorns och transmissionens serviceintervall, smörjmedel och metoder kräver separat tillverkarunderlag.",
     "Jämför den här versionen med 13-1442-20 via fullständig originaldelstabell, inte bara modellnamn.",
     "Visuell kontroll av originalkatalogens ritningar återstår: PDF-screenshot gav cache miss 2026-10-22.",
-    "MST205-529A katalogen för 13-1168-20 anger 80W90 växellådsolja 730229 som reservdelspost men ingen volym eller intervall; tillverkarverkstadshandbok krävs för servicemetod."
+    "MST205-529A katalogen för 13-1168-20 anger 80W90 växellådsolja 730229 som reservdelspost men ingen volym eller intervall; tillverkarverkstadshandbok krävs för servicemetod.",
+    "Verifiera MST205-529C/D internt mot fabrikens egen BOM och eventuella ersättningsbulletiner; parallella A-tabeller 1997 räcker inte för C/D-passform."
   ]
 }
