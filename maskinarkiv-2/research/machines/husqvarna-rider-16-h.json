@@ -81,6 +81,13 @@
       "title": "Briggs & Stratton official engine model numbering reference",
       "document": "MS4185 revised 2015-12, Model/Type/Code meanings",
       "url": "https://www.briggsandstratton.com/content/dam/briggsandstratton/na/en_us/Files/FAQs/2016_MS4185.pdf"
+    },
+    {
+      "id": "wolfswinkel-rider16h-1999-parts",
+      "tier": 2,
+      "title": "Wolfswinkel Rider 16 H parts list 1999-02",
+      "document": "Digital catalogue of 97cm and 103cm decks and updated parts",
+      "url": "https://www.wolfswinkel.se/reservdelritningar/husqvarna/%C3%A5kgr%C3%A4sklippare/ryttare/bensin/i-annat-fall/ridare-16-h/ryttare-16-h-1999-02"
     }
   ],
   "topics": {
@@ -587,6 +594,42 @@
       "sourceId": "briggs-official-engine-part-number-guidance",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "r16h-batch58-97belt",
+      "statement": "Wolfswinkel lists earlier 531005020 under current 589534001 for Rider 16 H 1999-02 97 cm deck.",
+      "variant": "Rider 16 H 1999-02 seller catalogue, cross-reference grade B",
+      "locator": "97 cm group, ref 531 00 50-20 shown with 589534001",
+      "sourceId": "wolfswinkel-rider16h-1999-parts",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch58-chassisbelt",
+      "statement": "Wolfswinkel lists earlier 531005017 under current 589530601 in Rider 16 H 1999-02 chassis section; application to other belt positions is not established.",
+      "variant": "Rider 16 H 1999-02 seller catalogue, cross-reference grade B",
+      "locator": "Chassis group ref 531 00 50-17 shown with 589530601",
+      "sourceId": "wolfswinkel-rider16h-1999-parts",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch58-housings",
+      "statement": "Rider 16 H 1999-02 retailer diagrams list 506751101 and 506751104 in 97 cm group, while 103 cm group lists 506751107 and 506751106; do not interchange based on model name.",
+      "variant": "Rider 16 H 1999-02 seller catalogue, cross-reference grade B",
+      "locator": "97cm vs 103cm housing groups",
+      "sourceId": "wolfswinkel-rider16h-1999-parts",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch58-97drawings",
+      "statement": "Rider 16 H 1999-02 online catalogue contains two 97 cm deck illustrations with differing parts references; confirm exact version before recommending.",
+      "variant": "Rider 16 H 1999-02 seller catalogue, cross-reference grade B",
+      "locator": "97cm deck diagram alternatives",
+      "sourceId": "wolfswinkel-rider16h-1999-parts",
+      "grade": "B",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -610,6 +653,7 @@
     "W0001005 2000-06 uppger lagerenheter 506751105/104 för 16H medan IPL 2000-02 103 cm anger 506751107/106. Aggregatgruppen måste identifieras innan komponenter tolkas som utbytbara.",
     "PDF W0001005 kunde indexläsas i tillverkaroriginalets spegel men webbsidbild nekades. Tekniska data och sida/positionsangivelser bör bildverifieras innan praktiska monteringsinstruktioner.",
     "Tuff Torq K55-husgeometri ger endast identifiering av modellfamiljen, inte exakt K55-variant eller Husqvarna artikelnummer; avläs serienummer och K55-produktetikett före reservdelsbeställning.",
-    "Briggs original-IPLs för exakt Model/Type/Code saknas för specifik fysisk Rider. Innan förgasare, stift, packningar eller oljemängd väljs: avläs alla tre märkfälten, matcha IPL och kontrollera revisionsdatum."
+    "Briggs original-IPLs för exakt Model/Type/Code saknas för specifik fysisk Rider. Innan förgasare, stift, packningar eller oljemängd väljs: avläs alla tre märkfälten, matcha IPL och kontrollera revisionsdatum.",
+    "Verify 531005020 to 589534001 and 531005017 to 589530601 against original OEM supersession documentation before a compatibility recommendation."
   ]
 }
