@@ -18,6 +18,13 @@
       "title": "Tecumseh/Peerless Motion Drive System – Technician's Handbook",
       "document": "Technician's Handbook Form 691218 R 3/02, Chapter 5: 800/801 series (printed pp. 30–36)",
       "url": "https://mymowerparts.com/pdf/Tecumseh-Service-and-Repair-Manuals/TECUMSEH-PEERLESS-TRANSMISSION-TRANSAXLES-DIFFERENTIALS-SERVICE--REPAIR-MANUAL-691218.pdf"
+    },
+    {
+      "id": "stiga-park12hst-1358-1993-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12HST original parts catalogue",
+      "document": "13-1358-15 Season 1993 Issue 37–2014, Tecumseh Peerless Transaxle 846",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1358-15_92_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -465,6 +472,15 @@
       "grade": "A",
       "sourceId": "stiga-park12-1258-1993-ipl",
       "locator": "Original STIGA IPL 13-1258-16, PDF s.13, pos.30,37,39,41–43; jämför Peerless 691218 kap.5"
+    },
+    {
+      "id": "p12-1258-93-seal-72-crosscheck",
+      "topic": "K",
+      "statement": "STIGA:s separata Park 12HST 13-1358-15 originalkatalog för säsong 1993 återger också artikelnummer P000-780-69 som Seal vid Peerless 846 position 72. Detta verifierar att samma tryckta kod förekommer i två kataloger, men inte att den är korrekt beställningsnummer. Ingen tyst normalisering till 780069 eller annan sifferföljd får göras.",
+      "variant": "Källjämförelse Park 12 13-1258-16 och Park 12HST 13-1358-15; endast reservdelspost Peerless 846",
+      "grade": "A",
+      "sourceId": "stiga-park12hst-1358-1993-ipl",
+      "locator": "PDF tryckt sida 3, Tecumseh Peerless Transaxle 846, pos.72; jämför Park 12 13-1258-16 tryckt sida 13 pos.72"
     }
   ],
   "gaps": [
@@ -478,6 +494,7 @@
     "Jämför STIGA 0,9 kg Bentonite grease-pos 90 med Peerless allmänna 800-seriens 30 oz/887 ml; dokumentera eventuell skillnad i netto/brutto och monteringsläge innan exakt påfyllnadsmängd anges.",
     "Verkstadsmanualens 800/801-procedurer är generiska; koppla lagerutförande A–D och O-ringstätningars dimensioner till exakt Peerless 846-serienummer före reservdelsbeställning.",
     "Peerless 691218 illustrerar utförande B/C/D och nållagerdjup, men saknar här koppling till bestämt 846-serienummer; kontrollera etikett och intern utförandevariant innan lager-/tätningsbeställning.",
-    "Tätning P000-780-69 i STIGA:s tryckta originaltabell har avvikande nummerlängd; kontrollera mot annan originalpartslista före beställning."
+    "Tätning P000-780-69 i STIGA:s tryckta originaltabell har avvikande nummerlängd; kontrollera mot annan originalpartslista före beställning.",
+    "Två STIGA-kataloger upprepar P000-780-69 på 846 pos.72. Hitta Tecumseh/Peerless-original 846 delarlista eller leverantörskorsreferens som verifierar faktiskt beställningsnummer; förväxla inte med 780069 från annan modell."
   ]
 }
