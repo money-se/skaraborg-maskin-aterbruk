@@ -536,6 +536,87 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-bypass-arm-components",
+      "statement": "Figur 26 anger bypassarm position 34, stång 32, låsring 33, clipsring 31, läpptätning 30 och påtryckbar låsring 35. Det är sprängskisspositioner och inte beställningsnummer.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 32, Figur 26, PDF-sida 34 (index 33)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bypass-replace-push-ring",
+      "statement": "Vid demontering ska bypassarmens påtryckbara låsring position 35 kasseras och en ny monteras vid återmontering; läpptätning position 30 ska också bytas.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 32, Bypass Arm, Disassembly steg 2 och 5, Assembly steg 1 och 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-bypass-rod-burr-inspection",
+      "statement": "Hydro-Gear instruerar att bypassstång position 32 kontrolleras för slitage och grader som kan skada den nya gummiläpptätningen. Clipsring 31 behöver bara tas bort från stången om den är skadad eller sliten.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 32, Bypass Arm, Note och Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-swashplate-kit-positions",
+      "statement": "Figur 28 anger svängskiva position 40, trycklager position 65 och pumpcylinderblock position 69; svängskiva och cylinderblock demonteras först tillsammans, sedan separeras trycklagret.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 33, Swashplate, Figur 27–28 och Disassembly steg 2–3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-swashplate-bearing-orientation",
+      "statement": "Vid montering av svängskivans trycklager position 65 ska lagrets tjocka löpbana vara vänd utåt, mot kolvarna i pumpcylinderblocket. Det framgår uttryckligen av figur 28.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 33, Swashplate, Assembly steg 3–4 och Figur 28",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-section-components",
+      "statement": "Mittsektionens demonteringsfigur 29 visar skruvar position 27, motoraxel 73, motorcylinderblock 64, motortrycklager 60 och bromsaxel 101. Detta är positions-ID, inte ordernummer.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 34, Center Section, Figur 29, PDF-sida 36 (index 35)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-center-bypass-puck-note",
+      "statement": "Hydro-Gear påpekar att en bypass-puck sitter under motorcylinderblocket och hänvisar till position 22 på sidan 38. Den ska beaktas när mittsektionen demonteras.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 34, Center Section, not efter Disassembly steg 5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-bearing-inspection",
+      "statement": "Mittsektionens anliggningsytor ska kontrolleras efter repor, motoraxel och trycklagrets löpbanor efter slitage eller skador samt motorcylinderblocket enligt detaljavsnittet på sidan 37.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 34, Center Section, Inspection steg 1–4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-brake-cam-code7-1-2",
+      "statement": "Figur 30 för bromskamaxel position 101, bromspuck position 100 och O-ringar position 10 gäller ZT-2800/3100 där modellkodens sjunde tecken är 1 eller 2. O-ringarna ska bytas vid demontering.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 35, Brake Assembly (Code 1 or 2), Figur 30, PDF-sida 37 (index 36)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -551,6 +632,7 @@
     "Slå upp ytterligare faktiska kitartikelnummer i Hydro-Gears modellkodstyrda online service schematics innan 200/201/202/203/207/210/211/212/215 rekommenderas.",
     "Felsökningsmatrisen är generisk: innan åtgärd på en konkret klippare krävs OEM:s däcktrycks-, reglage- och säkerhetsinstruktioner.",
     "RTN- och bromsjusteringar är variant- och säkerhetskritiska. Samla OEM-specifika reglage-, broms- och säkerhetsrutiner innan någon publik steg-för-steg-instruktion skapas.",
-    "Slå upp modellkodskombinationerna för laddpumpens kåpor och laddpumps-kit i tillverkarens BOM-styrda sprängskiss innan reservdelar beställs; figur 24 ger riktning, inte ordernummer."
+    "Slå upp modellkodskombinationerna för laddpumpens kåpor och laddpumps-kit i tillverkarens BOM-styrda sprängskiss innan reservdelar beställs; figur 24 ger riktning, inte ordernummer.",
+    "Verifiera faktisk modellkod, skruv-/kitnummer och OEM-säkerhetskrav före monteringsråd för bypass, svängskiva, bromskam eller mittsektion."
   ]
 }
