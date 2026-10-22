@@ -417,7 +417,7 @@
     },
     "E": {
       "state": "gap",
-      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår.\nFollow-up research: Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering. Familjemanualen anger toe-in 1/16–5/16 tum endast för justerbar styrstång. 2000-katalog listar justerbart 747-0753 och icke justerbart 747-0861 parallellstag. 2001 tillverkarkorsreferens anger framhjul 634-0105A, som katalogen beskriver som Square Shoulder. Fyra dokumenterade referenser från OEM/dealer visar 683-0128A→683-0128B(-0637), 634-0105A→634-0105B och 711-1107→911-1107. Relationen mellan alternativa stål-/gjutjärnsframaxlar och olika hjulskuldror är inte fastställd för individuella exemplar."
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår.\nFollow-up research: Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering. Familjemanualen anger toe-in 1/16–5/16 tum endast för justerbar styrstång. 2000-katalog listar justerbart 747-0753 och icke justerbart 747-0861 parallellstag. 2001 tillverkarkorsreferens anger framhjul 634-0105A, som katalogen beskriver som Square Shoulder. Fyra dokumenterade referenser från OEM/dealer visar 683-0128A→683-0128B(-0637), 634-0105A→634-0105B och 711-1107→911-1107. Relationen mellan alternativa stål-/gjutjärnsframaxlar och olika hjulskuldror är inte fastställd för individuella exemplar. Sex ytterligare katalogkorsningar för rattkåpa, styrarm, framaxellager, styrled, runt framhjul och främre navkapsel är nu dokumenterade med gammalt/nytt nummer. Alla katalogalternativ får inte samtidigt antas monterade."
     },
     "F": {
       "state": "gap",
@@ -1964,6 +1964,60 @@
       "locator": "Product 711-1107 Steering Drag Link, 'Superseded to 911-1107'",
       "grade": "B",
       "variant": "13BH670F062 2000/2001 jämfört med dokumenterad OEM-reservdelsersättning; faktiskt exemplar och framaxelutförande kräver märkning"
+    },
+    {
+      "id": "mtd-2000-steering-wheelcap-7310220-to-9310220",
+      "topic": "E",
+      "statement": "PartsTrees katalog för 13BH670F062/2000 anger styrhjulskåpa 731-0220, ersatt med 931-0220. Samma diagram visar alternativa rattutföranden, varför bara verifierad ratt/kåpa får ligga till grund för beställning.",
+      "locator": "Model 2000 parts list, 731-0220 Steering Wheel Cap, superseded to 931-0220",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "grade": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 hos PartsTree; reservdelsnummerrelation, inte fastställd fysisk passform"
+    },
+    {
+      "id": "mtd-2000-steering-arm-16481a-to-9830055",
+      "topic": "E",
+      "statement": "PartsTrees modellårskatalog visar styrarm 16481A som ersatt av 983-0055-0637. Detta är en positions-/reservdelskedja inom frontstyrningsdiagrammet, inte garanti för alla alternativa framaxelutföranden.",
+      "locator": "Model 2000 front axle and steering, 16481A Steering Arm Front Axle, superseded to 983-0055-0637",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "grade": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 hos PartsTree; reservdelsnummerrelation, inte fastställd fysisk passform"
+    },
+    {
+      "id": "mtd-2000-front-bearing-7410659-to-9410659",
+      "topic": "E",
+      "statement": "Framaxeldiagrammet för 13BH670F062/2000 anger flänslager 741-0659 ersatt med 941-0659, med angiven innermåttsbeskrivning 0,632 tum. Lager och axelutformning måste fortfarande kontrolleras fysiskt.",
+      "locator": "Model 2000 Front Steering, 741-0659 Hex Flg. Brg. .632 I.D., superseded to 941-0659",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "grade": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 hos PartsTree; reservdelsnummerrelation, inte fastställd fysisk passform"
+    },
+    {
+      "id": "mtd-2000-balljoint-7233018-to-9233018",
+      "topic": "E",
+      "statement": "Modellkatalogen för 2000 listar styrled 723-3018 som ersatt av 923-3018 och anger gängmått 3/8-24 för den äldre leden. Det får inte förväxlas med andra leder som katalogens allmänna sökning också visar.",
+      "locator": "Model 2000 front steering, 723-3018 Ball Joint 3/8-24 Thd., superseded to 923-3018",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "grade": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 hos PartsTree; reservdelsnummerrelation, inte fastställd fysisk passform"
+    },
+    {
+      "id": "mtd-2000-front-wheel-round-6340056a-to-b",
+      "topic": "E",
+      "statement": "PartsTrees 2000-katalog listar alternativt framhjul 634-0056A med rund skuldra, ersatt av 634-0056B-0911. Detta är en annan hjulfamilj än 2001-XREF:s fyrkantskuldra 634-0105A och kan därför inte behandlas som samma hjul.",
+      "locator": "Model 2000 Front Wheel Chart, 634-0056A 15 x 6 Round Shoulder, superseded to 634-0056B-0911",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "grade": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 hos PartsTree; reservdelsnummerrelation, inte fastställd fysisk passform"
+    },
+    {
+      "id": "mtd-2000-steering-hubcap-7310484a-to-9310484a",
+      "topic": "E",
+      "statement": "MTD-katalogen för 13BH670F062/2000 anger navkapsel fram 731-0484A, ersatt med 931-0484A. Det ursprungliga numret anges även i både 2000 och 2001 års MTD-korsreferenser för modellen.",
+      "locator": "Model 2000 Front Wheel Chart, 731-0484A Hub Cap, superseded to 931-0484A",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "grade": "B",
+      "variant": "MTD 13BH670F062 katalogår 2000 hos PartsTree; reservdelsnummerrelation, inte fastställd fysisk passform"
     }
   ],
   "gaps": [
