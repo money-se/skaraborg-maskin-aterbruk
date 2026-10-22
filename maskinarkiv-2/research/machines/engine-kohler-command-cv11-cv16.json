@@ -540,6 +540,33 @@
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "kohler-tool-oil-pressure-kit-2576106s",
+      "statement": "Kohler originaltillbehörskatalog 25 800 148 Rev. E listar 25 761 06-S som Oil Pressure Test Kit för motorer med trycksmörjning. Verktyget används för diagnostik av faktiskt oljetryck, inte som Oil Sentry-brytarens kontaktprov eller som bevis för ett visst normalt oljetryck.",
+      "variant": "Kohler Command med trycksmörjning; testanslutning och arbetsmetod måste väljas enligt relevant servicemanual",
+      "locator": "Meters, Testers, and Special Tools, printed p.7, PDF page index 6, item 14",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-tool-leakdown-2576105s",
+      "statement": "Kohler originaltillbehörskatalog 25 800 148 Rev. E listar 25 761 05-S som Cylinder Leakdown Tester med angiven tillämplighet All; katalogen ger inte i sig läckagegränser för en viss Command-motor.",
+      "variant": "Kohler motorer generellt enligt katalogens 'All', inklusive berörd Command-familj",
+      "locator": "Meters, Testers, and Special Tools, printed p.7, PDF page index 6, item 13",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-tool-ignition-output-2545501s",
+      "statement": "Kohler originaltillbehörskatalog 25 800 148 Rev. E listar Ignition Output Tester 25 455 01-S för encylindriga motorer, utom tändsystem av kapacitiv urladdningstyp. Testverktygets användning kräver kontroll av faktiskt tändsystem.",
+      "variant": "Kohler encylindriga motorer, ej capacitive discharge ignition enligt katalog",
+      "locator": "Meters, Testers, and Special Tools, printed p.7, PDF page index 6, item 7",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -560,6 +587,7 @@
     "Kohler originalbränslefilter 25 050 21-S, 25 050 22-S och 25 050 07-S har katalogbelagda utföranden men kräver kontroll av matning, slanganslutning, filterplacering och motor- eller OEM-specifikation innan beställning.",
     "Servicesatser 12 789 01-S och 12 789 02-S har olika ingående luftfilter i Kohlers originaltillbehörskatalog. Kontrollera Spec. No., luftfilterhus, komplett satsinnehåll och aktuella ersättningsnummer före beställning.",
     "Startsystem: verifiera elektrisk jordning och kabelhärva innan 25 435 08-S / 12 749 03-S används; 12 755 47-S fordrar specifik metallkåpa och installationskontroll.",
-    "Oljestickor CH kontra CV och kortfilter 28 050 01-S kräver kontroll av respektive installation och teknisk passform; delarna får inte överföras mellan motorfamiljer utifrån katalogbild ensam."
+    "Oljestickor CH kontra CV och kortfilter 28 050 01-S kräver kontroll av respektive installation och teknisk passform; delarna får inte överföras mellan motorfamiljer utifrån katalogbild ensam.",
+    "Diagnosverktyg 25 761 06-S, 25 761 05-S och 25 455 01-S har tillverkarbelagda katalognummer men provförfarande och acceptansgränser måste hämtas från rätt servicemanual och motorvariant."
   ]
 }
