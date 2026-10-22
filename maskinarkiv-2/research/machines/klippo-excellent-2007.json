@@ -60,6 +60,13 @@
       "title": "Wolfswinkel KLIPPO Excellent GCV parts diagram",
       "document": "Excellent GCV 9652277-01, 2009-12, parts diagram overview",
       "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/zubeh%C3%B6r-und-werkzeuge/j-hebel-satz/ausgezeichneter-gcv/ausgezeichnet-gcv-9652277-01-2009-12?format=jpg&height=220&rmode=crop&width=250"
+    },
+    {
+      "id": "wolfswinkel-excellent-gcv-parts-detailed",
+      "tier": 2,
+      "title": "Wolfswinkel complete illustrated parts list – Klippo Excellent GCV",
+      "document": "Excellent GCV 9652277-01, 2009-12, positional list refs 1–48",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/accessories-and-tools/j-lever-set/excellent-gcv/excellent-gcv-9652277-01-2009-12"
     }
   ],
   "topics": {
@@ -386,6 +393,60 @@
       "sourceId": "wolfswinkel-excellent-gcv-2009",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-blade",
+      "statement": "Katalogen för Excellent GCV 9652277-01 (2009-12) listar 502968901 som klippkniv 48 cm (äldre Klippo 6008), ref. 28.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 28, mower blade 48 cm 6008",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-blade-bolt",
+      "statement": "Katalogen anger knivbult 503272701 (äldre Klippo 0908) på ref. 29 för Excellent GCV 9652277-01 (2009-12).",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 29, blade bolt 908",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-fibre",
+      "statement": "Katalogen anger fiberbricka 503259401 (äldre Klippo 0323) på ref. 47 för Excellent GCV 9652277-01.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 47, fiber ring 323",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-key",
+      "statement": "Katalogen anger kil 504460501 (äldre Klippo 7075) på ref. 48 för Excellent GCV 9652277-01.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 48, spie 7075",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-gcv-2009-height-bar",
+      "statement": "Katalogen listar höjdinställningsstång 503249501 (äldre Klippo 0228) på ref. 9.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 9, rod assy 228",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "excellent-gcv-2009-mulch",
+      "statement": "Katalogen listar mulchingring 503243001 (äldre Klippo 7437) på ref. 18.",
+      "variant": "Klippo Excellent GCV 9652277-01, reservdelsskiss 2009-12 (återförsäljare)",
+      "locator": "Ref. 18, mulch ring 48 cm mower deck 7437",
+      "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
+      "grade": "B",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -398,6 +459,7 @@
     "Husqvarna 967 60 74-01, 967 60 78-01 och 967 60 70-01 finns som särskilda produktvarianter; koppla inte 2007-manualens oljeintervall till dem utan utgåve- och motorverifiering.",
     "Visuell PDF-screenshot misslyckades; kontrollera serienummerkoder och tabelllayout mot skannad original-PDF innan publicering.",
     "Reservdelslistan 965 22 76-01 (2010) har identifierats via PDF-text, men skärmbildsfunktionen misslyckades; visuellt kontrollera särskilt position 41.1/41.2 och 42.1/42.2 innan man anger underspecifika detaljer.",
-    "Verifiera reservdelarnas figurnummer i Excellent GCV 9652277-01 IPL: tredjepartslistan räcker inte för att påstå kniv- eller knivfästepassform."
+    "Verifiera reservdelarnas figurnummer i Excellent GCV 9652277-01 IPL: tredjepartslistan räcker inte för att påstå kniv- eller knivfästepassform.",
+    "Även om position 28/29/47/48 finns på återförsäljarsidan behöver original-IPL för Excellent GCV 9652277-01 kontrolleras, särskilt knivfäste ref. 46 som maskinöversätts oklart."
   ]
 }
