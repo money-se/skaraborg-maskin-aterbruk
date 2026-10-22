@@ -53,6 +53,34 @@
       "title": "Tuff Torq official FAQ K50 vs K55 identification",
       "document": "Tuff Torq manufacturer FAQ, K50/K55 case housing and serial identification",
       "url": "https://www.tufftorq.com/faq/"
+    },
+    {
+      "id": "briggs-official-2026-model-type-code",
+      "tier": 1,
+      "title": "Briggs & Stratton official engine model type code identification",
+      "document": "Briggs support FAQs revised 2026, identification and stamp locations",
+      "url": "https://www.briggsandstratton.com/en-us/support/faqs/engine-codes-model-numbers"
+    },
+    {
+      "id": "briggs-official-2026-manufacture-date",
+      "tier": 1,
+      "title": "Briggs & Stratton official engine manufacture date decoding",
+      "document": "Briggs support engine manufacture date FAQ 2026",
+      "url": "https://www.briggsandstratton.com/en-us/support/faqs/engine-manufacture-date"
+    },
+    {
+      "id": "briggs-official-engine-part-number-guidance",
+      "tier": 1,
+      "title": "Briggs & Stratton official engine service IPL part number guide",
+      "document": "Engine Parts guide: use Model Type Code and IPL reference table, not callout as part number",
+      "url": "https://www.briggsandstratton.com/en-us/support/faqs/engine-parts"
+    },
+    {
+      "id": "briggs-official-model-key-ms4185",
+      "tier": 1,
+      "title": "Briggs & Stratton official engine model numbering reference",
+      "document": "MS4185 revised 2015-12, Model/Type/Code meanings",
+      "url": "https://www.briggsandstratton.com/content/dam/briggsandstratton/na/en_us/Files/FAQs/2016_MS4185.pdf"
     }
   ],
   "topics": {
@@ -523,6 +551,42 @@
       "sourceId": "tufftorq-official-faq-k55-housing-identification",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "r16h-batch54-briggs-code-date",
+      "statement": "Briggs & Strattons motor-Code på moderna motorer kodar tillverkningsdatum med YYMMDD följt av två tecken för fabrik/monteringslinje. Exempel 99011556 avser 1999-01-15. Koden daterar motorn, inte säkert Husqvarna-maskinens montering.",
+      "variant": "Briggs Rider16 H 28N707, verklig motoridentitet krävs",
+      "locator": "Briggs official FAQ 2026 'What year was my small engine manufactured?', example 99011556",
+      "sourceId": "briggs-official-2026-manufacture-date",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch54-briggs-type-significance",
+      "statement": "Briggs & Strattons dokument om modellbeteckningar anger att Type-numret specificerar bland annat motorutförande, mekaniska delar, varvtalsreglering och OEM-konfiguration. Reservdelar kan därför skilja mellan motorer med samma grundmodell.",
+      "variant": "Briggs Rider16 H 28N707, verklig motoridentitet krävs",
+      "locator": "Official MS4185 2015-12, 'TYPE 1234-01' identifies engine mechanical parts, paint, decals, governed speed and OEM",
+      "sourceId": "briggs-official-model-key-ms4185",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch54-briggs-stamp-location",
+      "statement": "Briggs anger att Model/Type/Code kan finnas stämplat på fläkthus, ljuddämparsköld, vid tändstift eller motorblock beroende på utförande. Emissionsetikettens nummer ersätter inte dessa identifieringsnummer.",
+      "variant": "Briggs Rider16 H 28N707, verklig motoridentitet krävs",
+      "locator": "Briggs official 'Engine Serial / Model Number, Type & Trim', engine stamping locations and emissions label caution",
+      "sourceId": "briggs-official-2026-model-type-code",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch54-briggs-ipl-lookup",
+      "statement": "Briggs anvisar att serviceartikeln ska hämtas från artikelnumret i tillämplig motor-IPLs reservdelstabell med hänsyn till Model/Type/Code och eventuella koddatum; illustrationsnumret ensamt är inte reservdelens beställningsnummer.",
+      "variant": "Briggs Rider16 H 28N707, verklig motoridentitet krävs",
+      "locator": "Briggs official 'Where Can I Purchase OEM Small Engine Parts', step 2 IPL reference vs service part number",
+      "sourceId": "briggs-official-engine-part-number-guidance",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -545,6 +609,7 @@
     "W0001005 2000-06 anger Rider16H 18×6.50-8 men OM 2001-10 har 16×6.50-8 i tidigare register. Kontrollera faktisk sidtabell och eventuella marknadsversioner; markera katalogkonflikt tills utredd.",
     "W0001005 2000-06 uppger lagerenheter 506751105/104 för 16H medan IPL 2000-02 103 cm anger 506751107/106. Aggregatgruppen måste identifieras innan komponenter tolkas som utbytbara.",
     "PDF W0001005 kunde indexläsas i tillverkaroriginalets spegel men webbsidbild nekades. Tekniska data och sida/positionsangivelser bör bildverifieras innan praktiska monteringsinstruktioner.",
-    "Tuff Torq K55-husgeometri ger endast identifiering av modellfamiljen, inte exakt K55-variant eller Husqvarna artikelnummer; avläs serienummer och K55-produktetikett före reservdelsbeställning."
+    "Tuff Torq K55-husgeometri ger endast identifiering av modellfamiljen, inte exakt K55-variant eller Husqvarna artikelnummer; avläs serienummer och K55-produktetikett före reservdelsbeställning.",
+    "Briggs original-IPLs för exakt Model/Type/Code saknas för specifik fysisk Rider. Innan förgasare, stift, packningar eller oljemängd väljs: avläs alla tre märkfälten, matcha IPL och kontrollera revisionsdatum."
   ]
 }
