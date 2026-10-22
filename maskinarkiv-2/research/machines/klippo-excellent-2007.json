@@ -284,6 +284,20 @@
       "title": "ReservdelarOnline knivfäste 5028719-02 ersättnings- och PNC-lista",
       "document": "Seller explicitly states replaces 5028719-01,5032583-01,5032599-01; year/PNC fitment",
       "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
+    },
+    {
+      "id": "retailer-588824001-old-numbers",
+      "tier": 2,
+      "title": "Rembutiken 5888240-01 cross-reference and 2016 machine fitment",
+      "document": "Blade bracket replacement number list 0312,502872201,503259201,588824001; model versions 2016 PNC",
+      "url": "https://www.rembutiken.se/skog-och-tradgard/grasklippare/klippaggregatsdelar/knivfasten/klippo/knivfaste-klippo-husqvarna-5888240-01/"
+    },
+    {
+      "id": "retailer-klippo-oldpart-conversion",
+      "tier": 2,
+      "title": "ReservdelarOnline gamla Klippo artikelnummer till Husqvarna tabell",
+      "document": "Legacy 0354=503259901 knivbussning 26.5; 0312=503259201 knivfäste Ø25mm kort; 0356=503261001 knivbussning 30.7",
+      "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
     }
   ],
   "topics": {
@@ -2050,6 +2064,69 @@
       "sourceId": "retailer-bladebracket-502871902-supersession",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "exs-bracket-588824001-alt-502872201",
+      "statement": "Rembutiken anger att del 588824001 har samma originalnummerrad som 502872201 (knivfäste). Det är säljarens nummerkorsning för produkten, inte OEM-verifierad fysisk kompatibilitet för 2012 Excellent S.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Originalnummer 5028722-01 och 5888240-01",
+      "sourceId": "retailer-588824001-old-numbers",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs-bracket-588824001-alt-503259201",
+      "statement": "Samma produktkort anger 503259201, äldre kod 0312, som alternativt originalnummer för knivfäste 588824001.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Originalnummer 0312, 5032592-01",
+      "sourceId": "retailer-588824001-old-numbers",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs-bracket-588824001-fit-2016",
+      "statement": "Rembutiken listar 588824001 för Excellent S 967607101, Excellent SH 967607701 och Excellent SE 967607001, alla märkta 2016-01.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Passar till 2016-01 Excellent S/SH/SE med produktnummer",
+      "sourceId": "retailer-588824001-old-numbers",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-bracket-588824001-pro19sh-2016",
+      "statement": "Rembutiken listar 588824001 också för Pro 19 SH 967607901 2016-01, men det styrker inte passform för odriven Pro 19 GCV.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Passar till Pro 19 SH 967607901, 2016-01",
+      "sourceId": "retailer-588824001-old-numbers",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-bushing-503259901-classification",
+      "statement": "Äldre Klippo-översättningstabell anger kod 0354, artikel 503259901, som knivbussning 26,5 mm. Denna mer precisa term motsäger att delen utan förbehåll kallas ett komplett knivfäste i vissa återförsäljarkataloger.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Rad 0354 / 503259901 / Knivbussning 26.5",
+      "sourceId": "retailer-klippo-oldpart-conversion",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs-bushing-503261001-classification",
+      "statement": "Äldre Klippo-översättningstabell anger kod 0356, artikel 503261001, som knivbussning 30,7 mm; inte ett komplett knivfäste.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Rad 0356 / 503261001 / Knivbussning 30.7",
+      "sourceId": "retailer-klippo-oldpart-conversion",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs-bracket-503259201-25mm",
+      "statement": "Äldre Klippo-översättningstabell anger kod 0312, artikel 503259201, som kort knivfäste med 25 mm diameter. Måttet är för den listade äldre deltypen och får inte antas för alla andra adaptrar.",
+      "variant": "KLIPPO äldre reservdelssystem och senare listade motsvarigheter, endast säljarbelagd identitet",
+      "locator": "Rad 0312 / 503259201 / Knivfäste Ø25 mm kort",
+      "sourceId": "retailer-klippo-oldpart-conversion",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -2083,6 +2160,7 @@
     "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod.",
     "Två säljare listar 5782666-03 för Pro19 S-family, men en annan leverantör listar även 5851926-03 för Pro19 SH; överlapp i modellnamn bevisar inte identisk växellåda. Kontrollera PNC-serie och infästningsrevision.",
     "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
-    "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår."
+    "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår.",
+    "Särskilj knivfäste från knivbussning: korslistan kallar 503259901 knivbussning 26,5 mm. Tidigare generisk återförsäljartext och implicit komplettering av monteringssats behöver kontrolleras mot OEM-figurer."
   ]
 }
