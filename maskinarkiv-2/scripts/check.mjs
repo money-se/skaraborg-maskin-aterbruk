@@ -115,6 +115,9 @@ for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,14],["jonsered-lt
    assert.ok(!page.includes("[Källspår:"),"Villa internal research IDs leaked into public HTML");
    assert.ok(page.includes("Reglagen enligt manualens figurer"),"Villa control table missing");
    assert.ok(page.includes("Symtomguide: fem olika problem"),"Villa diagnostic table missing");
+   assert.equal((page.match(/Beställ rätt del i fem steg/g)||[]).length,1,"Villa spare-parts ordering guide duplicated");
+   assert.equal((page.match(/Utökad kontroll före köp/g)||[]).length,1,"Villa buyer checklist duplicated");
+   assert.ok(page.includes("Gör en servicejournal som går att använda nästa år"),"Villa service journal missing");
  }
 
  const ids=[...page.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
