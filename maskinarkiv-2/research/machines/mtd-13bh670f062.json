@@ -163,7 +163,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin."
     },
     "I": {
       "state": "gap",
@@ -645,6 +645,24 @@
       "sourceId": "mtd-factory-serial-decode",
       "grade": "A",
       "locator": "PRODUCT CATEGORY MODEL NUMBER PREFIX, row Riding Lawn tractor 13"
+    },
+    {
+      "id": "mtd-sears-42g-blade-not-proven-fit",
+      "topic": "H",
+      "statement": "Sears PartsDirect visar även sprängskissegruppen 42-inch deck G och kniv 742-0616 (ersätts enligt katalogen med 942-0616A) på modellens samlade reservdelssida. Eftersom denna portal också listar flera andra aggregat och motorfamiljer är posten endast en katalogledtråd; 42-tumsaggregatets faktiska förekomst och knivpassform på 13BH670F062 förblir obekräftad.",
+      "variant": "13BH670F062, Sears PartsDirect samlingsindex, ingen specificerad tillverkningsrevision",
+      "grade": "B",
+      "sourceId": "sears-mtd-13bh670f062-index",
+      "locator": "Browse Parts → 42-inch deck G diagram → Lawn Tractor Blade, 742-0616 replaced by 942-0616A"
+    },
+    {
+      "id": "mtd-sears-mixed-deck-groups",
+      "topic": "H",
+      "statement": "Sears modellindex innehåller också gruppen 46-inch deck H med artikelnummer 983-0120A samtidigt som 38- och 42-tumskällor förekommer på andra kataloger för samma fabrikmodellnummer. Förekomsten av 46-tumsgruppen på samlingssidan är inte belägg för att 13BH670F062 tillverkades med detta aggregat.",
+      "variant": "13BH670F062, Sears PartsDirect generiskt modellindex",
+      "grade": "B",
+      "sourceId": "sears-mtd-13bh670f062-index",
+      "locator": "Browse Parts, pagination page 42–43 → 46-inch deck H / 983-0120A"
     }
   ],
   "gaps": [
@@ -665,6 +683,7 @@
     "Kontrollera tillverkarens originaldelritning för exakt deck F/G och avgränsa 2000 års alternativa hjul 634-0056A/634-0105A med tillverkningsetikett, decknummer eller serienummer.",
     "Kontrollera om MTD 2004 tillbehörskatalogens uttryckliga modellfamilj 13A*66*/67*/69* omfattar fabriksnumret 13BH670F062, innan remnummer görs maskinspecifika.",
     "MTD 2004 originalkatalog är 20 MB och webbläsningens PDF-öppning misslyckades; textbaserat sökresultat är granskat men full PDF och sida/figur inte verifierade.",
-    "Avläs modell- och serienummerskylt för ett konkret 13BH670F062-exemplar. MTD:s datumkod använder en årskod som kan återkomma över flera årtionden, så tillverkningsår ska inte härledas ur endast ett tecken."
+    "Avläs modell- och serienummerskylt för ett konkret 13BH670F062-exemplar. MTD:s datumkod använder en årskod som kan återkomma över flera årtionden, så tillverkningsår ska inte härledas ur endast ett tecken.",
+    "Avgränsa Sears samlingsindex mot originalmodellens tillverkningsår innan 42-tums kniv 742-0616 eller 46-tums Deck H behandlas som möjliga inköp; index kan innehålla gemensamma familjediagram."
   ]
 }
