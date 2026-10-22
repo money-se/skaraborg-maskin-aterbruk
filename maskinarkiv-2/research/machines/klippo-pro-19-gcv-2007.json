@@ -74,6 +74,13 @@
       "title": "Wolfswinkel Pro 19 GCV product-number-specific parts diagram index",
       "document": "Klippo Pro 19 GCV, artikelnummer 965229001, model parts listing",
       "url": "https://www.wolfswinkel.nl/onderdeeltekeningen/klippo/duwmaaiers/pro-19-gcv/pro-19gcv"
+    },
+    {
+      "id": "mknorth-grip-576641901-2009",
+      "tier": 2,
+      "title": "MKnorth – Klippo handtagsgrepp 5766419-01 och modellbunden kompatibilitetslista",
+      "document": "Klippo Håndtags greb, artikelnummer 5766419-01; Pro 19 GCV 9652290-01 2009-12",
+      "url": "https://www.mknorth.dk/have/plaeneklippare-og-tilbehor/plaeneklipper/service-og-reservedele-til-plaeneklippere/klippo-handtags-greb"
     }
   ],
   "topics": {
@@ -281,6 +288,15 @@
       "variant": "KLIPPO Pro 19 GCV 965229001, Wolfswinkel fullständig produktlista (odaterad)",
       "locator": "Rubrik/Artikelnummer 965229001 och 'Compleet systeem' artikelnummerlista",
       "sourceId": "wolfswinkel-pro19gcv-965229001",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-grip-576641901-2009-retailer",
+      "statement": "MKnorth listar handtagsgrepp 5766419-01 som kompatibelt med Klippo Pro 19 GCV, artikelnummer 9652290-01, 2009-12. Detta är en återförsäljares passformsuppgift, inte en original-IPL-position eller garanti för andra årsrevisioner.",
+      "variant": "KLIPPO Pro 19 GCV 9652290-01, 2009-12; sekundär reservdelslista",
+      "locator": "Produktbeskrivelse, 'Artikelnummer 5766419-01', kompatibilitetsrad 'Pro 19 GCV, 9652290-01, 2009-12'",
+      "sourceId": "mknorth-grip-576641901-2009",
       "grade": "B",
       "topic": "J"
     }
