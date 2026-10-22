@@ -88,6 +88,41 @@
       "title": "Husqvarna Rider 16 2003-01 original spare parts list",
       "document": "SPARE PARTS LIST RIDERS RIDER 16, 2003-01; 46-page manufacturer-authored parts catalog (retailer archive)",
       "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/husqvarna/tracteurs-tondeuse-rider/rider%2016/tracteur_tondeuse_husqvarna_rider_rider16_liste-des-pieces_2003-01.pdf"
+    },
+    {
+      "id": "rider16-2001-sgarden-transmission",
+      "tier": 2,
+      "title": "sGarden Rider 16 2001-01 transmission catalog group",
+      "document": "Rider 16 2001-01 PŘEVODY",
+      "url": "https://www.sgarden.cz/NahradniDily/Rozkresy/28777/PREVODY?SelectedCode=535402830"
+    },
+    {
+      "id": "rider16-2002-sgarden-transmission",
+      "tier": 2,
+      "title": "sGarden Rider 16 2002-02 transmission catalog group",
+      "document": "Rider 16 2002-02 PŘEVODY",
+      "url": "https://www.sgarden.cz/NahradniDily/Rozkresy/28757/PREVODY?SelectedCode=535402830"
+    },
+    {
+      "id": "rider16-2001-sgarden-engine",
+      "tier": 2,
+      "title": "sGarden Rider 16 2001-01 engine catalog group",
+      "document": "Rider 16 2001-01 MOTOR",
+      "url": "https://www.sgarden.cz/NahradniDily/Rozkresy/28770/MOTOR?SelectedCode=506908701"
+    },
+    {
+      "id": "rider16-2001-sgarden-deck90",
+      "tier": 2,
+      "title": "sGarden Rider 16 2001-01 90cm deck parts",
+      "document": "Rider 16 2001-01 90CM CUTTING DECK",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/28764/90CM_CUTTING_DECK"
+    },
+    {
+      "id": "rider16-2001-sgarden-electrical",
+      "tier": 2,
+      "title": "sGarden Rider 16 2001-01 electrical parts",
+      "document": "Rider 16 2001-01 ELECTRICAL",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/28767/ELECTRICAL?SelectedCode=506916401"
     }
   ],
   "topics": {
@@ -900,6 +935,60 @@
       "sourceId": "husqvarna-rider16-2003-01-original-ipl",
       "grade": "A",
       "topic": "D"
+    },
+    {
+      "id": "rider16-early-ipl-2001-transmission-eu",
+      "statement": "2001-01 reservdelsgrupp listar 506986401 som K46 transmission och 506986402 separat som K46 (USA); regional etikett betyder inte bekräftad intern utbytbarhet.",
+      "variant": "Rider 16 katalogrevision 2001-01, maskinens PNC ej fastställt",
+      "locator": "Rider 16 2001-01 > PŘEVODY > 506986401 / 506986402",
+      "sourceId": "rider16-2001-sgarden-transmission",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-early-ipl-2002-transmission",
+      "statement": "2002-02 transmissionsgruppen listar 506986401 som K46; samma lista har 506986701 remskiva, 506986801 fläkt och 506989001 expansionstank.",
+      "variant": "Rider 16 katalogrevision 2002-02, maskinens PNC ej fastställt",
+      "locator": "Rider 16 2002-02 > PŘEVODY > 506986401, 506986701, 506986801, 506989001",
+      "sourceId": "rider16-2002-sgarden-transmission",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-early-ipl-2001-engine-part",
+      "statement": "2001-01 motordelsgruppen anger Husqvarna motorartikel 506959101 (MOTOR), avgassystem 506960601 och ljuddämpare 535400801. Motorartikelnummer är inte Briggs Model/Type/Code.",
+      "variant": "Rider 16 katalogrevision 2001-01, maskinens PNC ej fastställt",
+      "locator": "Rider 16 2001-01 > MOTOR > 506959101, 506960601, 535400801",
+      "sourceId": "rider16-2001-sgarden-engine",
+      "grade": "B",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-early-ipl-2001-deck90-blade",
+      "statement": "2001-01 reservdelsgruppen för 90 cm aggregat listar kniv 531007586 och rem 531007526. Exakta knivantal och motsvarande aggregat-PNC kan inte bestämmas från denna listvy.",
+      "variant": "Rider 16 katalogrevision 2001-01, maskinens PNC ej fastställt",
+      "locator": "Rider 16 2001-01 > 90CM CUTTING DECK > 531007586 BLADE, 531007526 BELT",
+      "sourceId": "rider16-2001-sgarden-deck90",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-early-ipl-2001-deck90-housings",
+      "statement": "2001-01 reservdelsgruppen för 90 cm aggregat skiljer på knivhusenheter 535410601 och 535410602 och axlar 535410701 och 535410702; antal och positionspassning kräver originalfigur.",
+      "variant": "Rider 16 katalogrevision 2001-01, maskinens PNC ej fastställt",
+      "locator": "Rider 16 2001-01 > 90CM CUTTING DECK > 535410601/02 och 535410701/02",
+      "sourceId": "rider16-2001-sgarden-deck90",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-early-ipl-2001-electrics",
+      "statement": "2001-01 elsystemlista innehåller batteri 506788801, startrelä 506558601, mikrobrytare 506916401 och tändningslås 506917102; listan ensam verifierar inte säkerhetskretsarnas kopplingsschema.",
+      "variant": "Rider 16 katalogrevision 2001-01, maskinens PNC ej fastställt",
+      "locator": "Rider 16 2001-01 > ELECTRICAL > 506788801, 506558601, 506916401, 506917102",
+      "sourceId": "rider16-2001-sgarden-electrical",
+      "grade": "B",
+      "topic": "G"
     }
   ],
   "gaps": [
@@ -935,6 +1024,9 @@
     "Katalog 2003-01 saknar identifierat Rider 16-maskin-PNC i omslaget; koppla enheten till exakt produktnummer innan passform hävdas.",
     "Undersök skillnaden mellan K46 506986401 (2003) och K46 EUR 506986301 (2006) från tillverkardokument och transaxelmärkning.",
     "Identifiera 2001-01 och 2002-02 års Rider 16-original-IPLs samt exakta äldre motor- och aggregatpositionsnummer.",
-    "PDF-skärmbild för 2003-katalogen kunde inte visas i aktuell webbläsartjänst; textlistor genomgångna men figurer återstår visuell validering."
+    "PDF-skärmbild för 2003-katalogen kunde inte visas i aktuell webbläsartjänst; textlistor genomgångna men figurer återstår visuell validering.",
+    "Original-IPLs för Rider 16 revision 2001-01 och 2002-02 behöver granskas visuellt mot sprängskiss och katalogomslag. De återfunna reservdelslistorna är sekundärkällor.",
+    "Bekräfta om tidig motorartikel 506959101, senare 535441001 och 544452801 representerar motorbyten eller omnumrering; ingen ersättningskedja är verifierad.",
+    "Fastställ separata aggregat-PNC, antal 90-cm-knivar och eventuella ersättningsnummer via Husqvarnas originalkataloger."
   ]
 }
