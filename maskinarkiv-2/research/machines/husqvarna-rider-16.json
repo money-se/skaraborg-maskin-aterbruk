@@ -403,6 +403,41 @@
       "title": "PartSelect Husqvarna 504188210",
       "document": "504188210 replaces 504188201 and 544103001",
       "url": "https://www.partselect.com/PS11822431-Husqvarna-504188210-Blade.htm"
+    },
+    {
+      "id": "r16-combi112-messicks-504188110",
+      "tier": 2,
+      "title": "Messicks 504188110 Combi 112 blade replacement",
+      "document": "Blade 504188110 replaces 504188101 and 544102801",
+      "url": "https://www.messicks.com/parts/husqvarna/504188110"
+    },
+    {
+      "id": "r16-combi112-wolfswinkel-504188110",
+      "tier": 2,
+      "title": "Wolfswinkel 504188110 Combi112 blade references",
+      "document": "112 cm Combi blade and older blade numbers",
+      "url": "https://www.wolfswinkel.shop/husqvarna-parts-parts/504188110/husqvarna-cutting-blade-combi-2006-112-cm"
+    },
+    {
+      "id": "r16-combi112-ahupd-535411901",
+      "tier": 2,
+      "title": "AHUPD 535411901 belt supersession",
+      "document": "535411901 replaced by 585034501",
+      "url": "https://www.ahupd.com/husqvarna-535411901"
+    },
+    {
+      "id": "r16-combi112-messicks-594978001",
+      "tier": 2,
+      "title": "Messicks 594978001 belt supersession",
+      "document": "594978001 replaces 531006096, 535411901, 585034501, 589514601",
+      "url": "https://www.messicks.com/parts/husqvarna/594978001"
+    },
+    {
+      "id": "r16-combi112-partstree-585034501",
+      "tier": 2,
+      "title": "PartsTree 585034501 belt supersession",
+      "document": "585034501 superseded to 594978001",
+      "url": "https://www.partstree.com/parts/husqvarna-585034501/"
     }
   ],
   "topics": {
@@ -2574,6 +2609,51 @@
       "sourceId": "r16-combi103-partselect-504188210-supersession",
       "grade": "B",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch45-blade-replacement",
+      "statement": "Messicks och Wolfswinkel anger att äldre 112 cm Combi-kniv 544102801 ersatts av 504188110. Rider 16 2010-07 IPL anger 504188110 för 965078501; reservdelsrelationen är återförsäljarstyrkt (B), inte självständigt bekräftad i en tillverkarbulletin.",
+      "variant": "Rider 16 Combi 112 komplett PNC 965078501, 2010-07 OEM IPL och efterföljande säljkatalogers ersättningsreferenser",
+      "locator": "Messicks 504188110 > Product replaces 544102801; Wolfswinkel 504188110 > references 544102801",
+      "sourceId": "r16-combi112-messicks-504188110",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch45-belt-step1",
+      "statement": "AHUPD, auktoriserad Husqvarna-handlare, anger att äldre aggregatrem 535411901 ersatts av 585034501. Denna intermediära ersättningsrelation har källgrad B.",
+      "variant": "Rider 16 Combi 112 komplett PNC 965078501, 2010-07 OEM IPL och efterföljande säljkatalogers ersättningsreferenser",
+      "locator": "AHUPD 535411901 > replaced, New Part #585034501",
+      "sourceId": "r16-combi112-ahupd-535411901",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch45-belt-step2",
+      "statement": "PartsTree anger att rem 585034501 i sin tur ersatts av 594978001. Messicks anger dessutom 535411901 och 585034501 som ersatta artikelnummer under 594978001. Kedjan är återförsäljarstyrkt, inte OEM-bulletin.",
+      "variant": "Rider 16 Combi 112 komplett PNC 965078501, 2010-07 OEM IPL och efterföljande säljkatalogers ersättningsreferenser",
+      "locator": "PartsTree 585034501 > Superseded to 594978001; Messicks 594978001 > Product replaces 535411901,585034501",
+      "sourceId": "r16-combi112-partstree-585034501",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch45-belt-direct",
+      "statement": "Messicks anger direkt att 594978001 ersätter 535411901, 585034501, 589514601 och 531006096. Detta är en reservdelsfamilj, inte belägg för att 594978001 passar varje remposition på en Rider 16.",
+      "variant": "Rider 16 Combi 112 komplett PNC 965078501, 2010-07 OEM IPL och efterföljande säljkatalogers ersättningsreferenser",
+      "locator": "Messicks 594978001 > Product replaces 531006096,535411901,585034501,589514601",
+      "sourceId": "r16-combi112-messicks-594978001",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch45-blade-physical-check",
+      "statement": "Wolfswinkel beskriver Combi 112-kniv 504188110 med nominell längd 420 mm och anger EAN 7393080485618. Dimensionen är återförsäljardata; verifiera borrningsbild och aggregat-PNC före beställning.",
+      "variant": "Rider 16 Combi 112 komplett PNC 965078501, 2010-07 OEM IPL och efterföljande säljkatalogers ersättningsreferenser",
+      "locator": "Wolfswinkel 504188110 > Description 420mm, EAN 7393080485618",
+      "sourceId": "r16-combi112-wolfswinkel-504188110",
+      "grade": "B",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -2674,6 +2754,8 @@
     "Rider 16 PNC 965161601 IPL 2010-07 listar kompletta aggregat 965078401 och 965078501; kartlägg vilken klippbredd varje PNC avser med tillverkarens tillbehörskatalog och märkplåt innan användning.",
     "Samma aggregat 965078401 har 2007-06 listat rem 506768501 och kniv 544103001, men 2010-07 listar 589530601 respektive 504188210; sök OEM-supersession för dessa delar och notera katalogrevision.",
     "2010 års original-IPL:s sprängskiss-screenshot gav cachefel; PDF-textlager och sidnumrering stöder artikelraderna, men kopplingen mellan de två kompletta aggregaten och följande delar behöver visuell kontroll mot originalfigurer.",
-    "Rider 16 Combi 103 965078401: återförsäljare stöder 544103001→504188210 och 506768501→589530601. En direkt OEM-ersättningsbulletin saknas. Kontrollera också vad som gäller för andra Combi 103 PNC."
+    "Rider 16 Combi 103 965078401: återförsäljare stöder 544103001→504188210 och 506768501→589530601. En direkt OEM-ersättningsbulletin saknas. Kontrollera också vad som gäller för andra Combi 103 PNC.",
+    "Combi 112 965078501: kedjan 535411901→585034501→594978001 stöds av AHUPD, PartsTree och Messicks men inte av direkt tillverkarbulletin. Bekräfta att det är samma remposition i Rider 16:s specifika aggregat.",
+    "Kniv 544102801→504188110 anges av flera reservdelshandlare för Combi 112; tillverkarpublicerat ersättningsbesked och måttsatt originalritning saknas."
   ]
 }
