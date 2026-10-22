@@ -498,6 +498,61 @@
       "topic": "H",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-8",
+      "statement": "Katalogens DRIVE-lista anger växelreglagestång 532 19 27-06 på position 8. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 8",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-53",
+      "statement": "Katalogens DRIVE-lista anger kopplingslänk 532 19 96-52 på position 53. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 53",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-55",
+      "statement": "Katalogens DRIVE-lista anger returfjäder 532 10 57-09 på position 55. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 55",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-183",
+      "statement": "Katalogens DRIVE-lista anger V-spännrulle 532 19 95-32 på position 183. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 183",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-185",
+      "statement": "Katalogens DRIVE-lista anger växellänk 532 17 00-08 på position 185. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 185",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -507,6 +562,7 @@
     "Original-PDF:ernas bildsidor kunde inte kontrolleras med webbläsarens skärmbildsverktyg. Angivna positioner är verifierade i PDF:s extraherade text och kräver visuell dubbelkontroll innan publicering.",
     "En äldre LT2115CMA-katalog, IPL 544 02 35-01, anger 96061001000 / 954 13 02-24. Detta är en separat revision och måste jämföras innan passform mellan CMA-versioner antas.",
     "De tolv utökade ELECTRICAL-komponentposterna är kontrollerade mot den textutdragna originalkatalogen på PDF-sida 6. Extern web-PDF-skärmbild kunde inte hämtas; visuell och praktisk identifieringskontroll återstår före final verifiering.",
-    "Systematisk MOWER-jämförelse 2004-06 mot 2006-06 visar skilda katalognummer på positionerna 22, 26, 32, 33, 34, 35, 55 och 68. Sidorna är textgranskade, men web-PDF-bildvisning misslyckades; ersättningsnummer och faktisk utbytbarhet kräver separat granskning."
+    "Systematisk MOWER-jämförelse 2004-06 mot 2006-06 visar skilda katalognummer på positionerna 22, 26, 32, 33, 34, 35, 55 och 68. Sidorna är textgranskade, men web-PDF-bildvisning misslyckades; ersättningsnummer och faktisk utbytbarhet kräver separat granskning.",
+    "2004-06 och 2006-06 delar enligt DRIVE Hydro-Gear 321-0510, Noram 532 18 03-54 och rem 532 17 01-40 men katalogför skilda reglagestänger och kopplingslänkar. Bildkontroll och passformsanalys återstår."
   ]
 }
