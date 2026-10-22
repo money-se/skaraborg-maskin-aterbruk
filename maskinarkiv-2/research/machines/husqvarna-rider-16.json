@@ -221,6 +221,13 @@
       "title": "PartsTree Husqvarna 531007587 deck belt supersession",
       "document": "Husqvarna 531007587 41-inch deck belt: unavailable, superseded to 589533701",
       "url": "https://www.partstree.com/parts/husqvarna-531007587/"
+    },
+    {
+      "id": "husqvarna-official-epc-rider16-model-index",
+      "tier": 1,
+      "title": "Husqvarna Spare Parts Shop – Rider 16 separate EPC model index",
+      "document": "Official Rider 16 IPL group listing, model level",
+      "url": "https://shop-pa-v9.husqvarna.com/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcProduct=RIDER+16"
     }
   ],
   "topics": {
@@ -1465,6 +1472,15 @@
       "sourceId": "rider16-bioclip103-partstree-supersession",
       "grade": "B",
       "topic": "E"
+    },
+    {
+      "id": "rider16-epc-deck-group-model-level",
+      "statement": "Husqvarnas officiella reservdelsportal har en separat RIDER 16-modellpost med grupperna 90CM CUTTING DECK, 97CM CUTTING DECK och 103CM CUTTING DECK. Gruppnamnen i en aggregerad modellvy ger inte komplett klippaggregat-PNC, revision eller specifika ersättningsnummer.",
+      "variant": "Rider 16 (modellindex i EPC; ej enskild PNC)",
+      "locator": "RIDER 16 > Illustrated parts list (IPL) > 90CM CUTTING DECK; 97CM CUTTING DECK; 103CM CUTTING DECK",
+      "sourceId": "husqvarna-official-epc-rider16-model-index",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -1528,6 +1544,7 @@
     "Rider 16-manualerna 2000 och 2002 ger serviceinstruktioner men inte ett komplett separat aggregat-PNC. Originalritning och produktetikett krävs för precis passform.",
     "Wolfswinkels 2002-02 reservdelsvy kan visa aktuella supersession-artikelnummer i en gammal kataloggrupp. Kontrollera originalutgåvans nummer för 535410602, 535410601, 531007585 och 589533701.",
     "Ersättningsrelationen 531007587 → 589533701 för BioClip 103 är endast återförsäljarstödd. Verifiera med Husqvarnas officiella artikelhistorik och aggregat-PNC innan praktiskt råd.",
-    "PartsTree bekräftar på återförsäljarnivå 531007587 → 589533701 för 103 cm; leta efter Husqvarnas egen revisions-/supersession-post med fullständigt aggregat-PNC."
+    "PartsTree bekräftar på återförsäljarnivå 531007587 → 589533701 för 103 cm; leta efter Husqvarnas egen revisions-/supersession-post med fullständigt aggregat-PNC.",
+    "Husqvarna EPC ger Rider 16:s aggregatgrupper på modellnivå, men saknar synligt belägg för vilket exakt BioClip 103-aggregat (PNC/revision) som passar en specifik maskin. Identifiera maskinens märkplåt och välj rätt EPC-variant."
   ]
 }
