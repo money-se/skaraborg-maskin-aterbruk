@@ -1,13 +1,24 @@
-# Gemensamt forskningsindex – Maskinarkivet 3.0
+# Gemensamt käll- och relationsindex – Maskinarkivet 3.0
 
-Indexet visar **sidofynd** som kan vara relevanta för kommande maskinartiklar. Ett omnämnande i en källa är inte en garanti för samma delar eller motor.
+**Index – inte faktadatabas.** Allt källbelagt tekniskt innehåll lagras i befintliga forskningsregister enligt STIGA Villa 12 HST-schemat: `research/machines/<slug>.json`. Här finns bara länkar och upptäckta samband, inklusive sådant som behöver egen research. Läs [huvudregeln](../knowledge/GEMENSAM-KUNSKAPSBAS-POLICY.md).
 
-| Modell/område | Fynd | Källa | Status |
+## Aktiva maskinregister
+| Maskin | Kanoniskt forskningsregister | Status |
+|---|---|---|
+| STIGA Villa 12 HST | [stiga-villa-12-hst.json](machines/stiga-villa-12-hst.json) | `scoped_ready`: 53 claims och kvarvarande forskningsluckor |
+| Husqvarna Rider 13 | [husqvarna-rider-13.json](machines/husqvarna-rider-13.json) | `needs_research`: påbörjat, inte publiceringsgodkänt för nya ändringar |
+
+## Sidofynd att koppla till egna maskinregister
+| Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
-| Husqvarna Rider 11 | Husqvarna-originalmanualen för Rider 13 (2003-08) omfattar även Rider 11 | https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020 | Källdokument identifierat; detaljer per variant återstår |
-| Husqvarna Rider 11 Bio | Samma originalmanual omfattar Rider 11 Bio | https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020 | Källdokument identifierat; detaljer per variant återstår |
-| Husqvarna Rider 16 | Verkstadsmaterial som även behandlar Rider 13 omfattar Rider 16-varianter | https://www.manualslib.com/manual/716829/Husqvarna-Rider-13.html | Sidofynd; kontrollera exakt version och kapiteltäckning |
-| Hydrostat K46 | Dokumenterad i en Rider 13 Bio-ritning; kan vara relevant vid sökning efter andra maskiner med **samma exakt identifierade transaxel** | https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-rider13bio.pdf | Källbundet, ingen generell kompatibilitet |
+| Husqvarna Rider 11 | Gemensam Husqvarna-manual för Rider 11/13 med Bio-versioner | https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020 | Eget produktnummer, kapiteltäckning och claims |
+| Husqvarna Rider 11 Bio | Samma originalmanual | https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020 | Egen version och komponentkontroll |
+| Husqvarna Rider 16 | Verkstadshandbok som omfattar flera Rider-familjer | https://www.manualslib.com/manual/716829/Husqvarna-Rider-13.html | Exakt utförande och vilka avsnitt som avser det |
+| K46 i Rider 13 Bio | Versionsspecifik reservdelsritning | [Rider 13-registret](machines/husqvarna-rider-13.json) (claim `bio-2003-k46`) | Inga slutsatser om andra maskiners K46-varianter utan egna belägg |
 
-## När fler uppgifter hittas
-Spara maskinidentitet, ursprungskälla, exakt figur/sida, belägg, begränsning och forskningsstatus här. Skapa sedan respektive `research/machines/<slug>.json` innan en ny artikel redigeras. Se `../knowledge/GEMENSAM-KUNSKAPSBAS-POLICY.md`.
+## När nytt material hittas
+1. Sök först i `research/machines/` och återanvänd redan registrerade originaldokument.
+2. Registrera claim, relevant produktnummer, source-ID, locator, kvalitetsgrad och osäkerheter i **den berörda maskinens JSON-register**.
+3. Lägg hit endast ny relation/pekare som gör andra maskiner lättare att hitta, inte en andra kopia av tekniska påståenden.
+4. Sidofynd utan eget register får finnas här som **researchuppslag**, aldrig som verifierat tekniskt underlag eller publiceringsbeslut.
+5. Varje ny artikel måste separat uppfylla projektets research-grind och granskningsregler.
