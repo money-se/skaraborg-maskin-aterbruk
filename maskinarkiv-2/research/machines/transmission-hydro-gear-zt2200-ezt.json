@@ -46,6 +46,20 @@
       "title": "Hydro-Gear Cross Reference Guide",
       "document": "Hydro-Gear model prefix to transaxle-series cross-reference",
       "url": "https://www.hydro-gear.com/cross-reference-guide/"
+    },
+    {
+      "id": "hg-user-support-identification",
+      "tier": 1,
+      "title": "Hydro-Gear User Support – Model Identification",
+      "document": "Manufacturer user support: label model and serial identifiers",
+      "url": "https://www.hydro-gear.com/user-support/"
+    },
+    {
+      "id": "hg-support-kits",
+      "tier": 1,
+      "title": "Hydro-Gear Support – Oil Change Guide and Service Kits",
+      "document": "Manufacturer support landing page, general oil service kit program",
+      "url": "https://www.hydro-gear.com/Support/"
     }
   ],
   "topics": {
@@ -390,6 +404,33 @@
       "sourceId": "hg-zt2100-zt2200-2023-revision",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "hg-label-model-and-serial-required",
+      "statement": "Hydro-Gear anger uttryckligen att transmissionsetikettens modellnummer och serienummer behövs när användaren efterfrågar specifik service- eller reparationshjälp.",
+      "variant": "Hydro-Gear-transaxlar; identifikation innan OEM-specifik reparationsrådgivning",
+      "locator": "User Support > Model Identification",
+      "sourceId": "hg-user-support-identification",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-oil-service-kits-two-options",
+      "statement": "Tillverkarens supportsida beskriver två olika Hydro-Gear-transaxeloljeservicesatser. Uppgiften styrker inte att någon av satserna passar en viss EZT utan exakt modellidentifikation.",
+      "variant": "Hydro-Gear allmän support, ingen EZT-specifik orderkod",
+      "locator": "Support > Oil Change guide",
+      "sourceId": "hg-support-kits",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "hg-support-manual-not-oem-part-lookup",
+      "statement": "Hydro-Gears support hänvisar till service- och reparationsmanualer med scheman, reservdelslistor och felsökning men kräver modell-/serienummer för specifik hjälp; en manualfamilj är inte bevis för en unik beställningsbar reservdel.",
+      "variant": "Hydro-Gear servicebibliotek och användarstöd",
+      "locator": "Support > SERVICE & REPAIR MANUALS; User Support > Model Identification",
+      "sourceId": "hg-user-support-identification",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -399,6 +440,7 @@
     "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer.",
     "Jämförelse av 2018/2023-utgåvor har bekräftat oljemängder och avluftning, men övriga serviceprocedurer och komponentlistor är ännu inte fullständigt jämförda.",
     "För reservdelsbeställning behövs tillverkarspecifik BOM/lista som mappar exakt Hydro-Gear-modell- och serienummer till orderbara kitnummer; BLN-52622 ger figurpositioner men inte sådan universal orderlista.",
-    "Pos. 209 i Figure 26 (KIT, HUB PULLER) är ett verktyg, inte en vanligt förbrukad reparationsdel; bevaka att positioner inte felklassas i framtida köpguider."
+    "Pos. 209 i Figure 26 (KIT, HUB PULLER) är ett verktyg, inte en vanligt förbrukad reparationsdel; bevaka att positioner inte felklassas i framtida köpguider.",
+    "Konkret Hydro-Gear ZT-2200 BOM-nummer och matchande reservdelskatalog behövs innan beställningsbara kitnummer kan kvalitetssäkras; tillverkarens allmänna två oljesatser är inte universell EZT-passform."
   ]
 }
