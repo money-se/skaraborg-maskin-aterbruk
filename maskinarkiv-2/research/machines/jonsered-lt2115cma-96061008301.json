@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061008301",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Avgränsad dokumentresearch om exakt Jonsered-variant enligt tillverkarens illustrerade reservdelslista; ej fullständig verkstadshandbok, ej artikelgranskning eller publiceringsgodkännande. PDF-bildgranskning återstår då skärmbildstjänsten misslyckades.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cma-2006-06-ipl",
+      "tier": 1,
+      "title": "Jonsered IPL LT2115CMA, original illustrated parts list återpublicerad",
+      "document": "544 88 89-01, LT2115CMA, 2006-06",
+      "url": "https://ersatzteil-shop24.de/bilder/zeichnungen/jonsered/JIPL2006_5448889-01.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Avgränsade delar av reservdelskatalogen granskade. Komplett originalmanual, variantberoende service och komponentkontroll återstår för godkänd artikel."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061008301-identity",
+      "statement": "Originalkatalog IPL 544 88 89-01, 2006-06 identifierar LT2115CMA med MFG ID NO. 96061008301 och PRODUCT NO. 960 61 00-83.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF omslag och s. 2, identitetsruta",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro",
+      "statement": "DRIVE-listans position 1 anger Hydro-Gear 321-0510 som transaxel; interna delar hänvisas till transmissionstillverkaren.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 10, DRIVE pos. 1",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-ground-belt",
+      "statement": "Markdrivningsrem listas som 532 17 01-40, betecknad V-Belt Kev 112 inch 0650 CRD.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 10, DRIVE pos. 57",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro-bypass",
+      "statement": "Hydrostatens bypassreglage listas som 532 17 00-15 Control Asm Bypass Hydro.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 10, DRIVE pos. 95",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-deck-housing",
+      "statement": "Klippaggregatets kåpa listas som 532 40 01-08 Housing Asm. Mower 92 CRD.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 18, MOWER pos. 1",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-deck-belt",
+      "statement": "Aggregatrem är 532 40 20-08 Hex-Belt 92 Mower.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 18, MOWER pos. 68",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-deck-replacement",
+      "statement": "Komplett ersättningsaggregat anges som 532 40 03-09, med notering att stödhjulskomponenter pos. 116–119 beställs separat.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 18, MOWER servicepost utan positionsnummer",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-fuse",
+      "statement": "Elschemat visar 15 A säkring och separata kretsar för förarnärvaro, aggregatkoppling och uppsamlarsäkerhet.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 3, SCHEMATIC",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-bagger",
+      "statement": "Elschemat visar en bagger interlock-funktion relaterad till saknad uppsamlare, utkastkanal eller plugg; elschemats tillämplighet ska kontrolleras mot den faktiska maskinen.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 3, SCHEMATIC, BAGGER INTERLOCK",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-ignition",
+      "statement": "Elschemat redovisar lägena OFF, RUN, RUN/OVERRIDE och START för tändningslåset.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 3, SCHEMATIC, IGNITION SWITCH",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-engine-sv470",
+      "statement": "Jonsereds originalkatalog anger Kohler Model SV470 som motor och hänvisar motorns reservdelar till motortillverkaren.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 3",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-muffler",
+      "statement": "Motoravsnittet listar ljuddämparen som 532 18 86-55.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 4",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-oil-drain",
+      "statement": "Motoravsnittet listar oljetömningsrör 532 14 84-56 och avtappningsplugg 532 18 16-54.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 14 och 38",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-fuel-tank",
+      "statement": "Motoravsnittet listar bränsletank 532 18 55-34 och tanklock 532 19 77-25.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 14 (PDF-index 13), ENGINE position 31–32",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-front-tire",
+      "statement": "Hjulavsnittet listar framdäck 532 10 62-22 i storlek 15 x 6.0-6.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 4 (PDF-index 3), WHEELS & TIRES position 3",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-rear-tire",
+      "statement": "Hjulavsnittet listar bakdäck 532 12 20-82 i storlek 20 x 10-8.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 4 (PDF-index 3), WHEELS & TIRES position 9",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-steering-assembly",
+      "statement": "Styravsnittet listar Steering Asm. 532 17 51-46 på position 71.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 12 (PDF-index 11), STEERING ASSEMBLY position 71",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-operator-manual",
+      "statement": "Dekalavsnittets listade europeiska förarmanual har artikelnummer 532 19 82-18.",
+      "variant": "LT2115CMA / 96061008301",
+      "locator": "PDF s. 4 (PDF-index 3), DECALS, post Manual Operator's (Euro)",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Kohler SV470 har nu identifierats enligt ENGINE position 3; individuell Kohler Specification och serienummer, oljekapacitet och exakt maskinbunden service återstår.",
+    "El-, rem- och knivnummer ska kontrolleras mot enskilt produktnummer och vid behov serienummer. Ingen generell passform inom LT2115-familjen är fastställd.",
+    "Förarmanual, reservdelsersättningar, fullständigt elschema och underhållsschema återstår att primärkällgranska.",
+    "Original-PDF:ernas bildsidor kunde inte kontrolleras med webbläsarens skärmbildsverktyg. Angivna positioner är verifierade i PDF:s extraherade text och kräver visuell dubbelkontroll innan publicering.",
+    "En äldre LT2115CMA-katalog, IPL 544 02 35-01, anger 96061001000 / 954 13 02-24. Detta är en separat revision och måste jämföras innan passform mellan CMA-versioner antas."
+  ]
+}
