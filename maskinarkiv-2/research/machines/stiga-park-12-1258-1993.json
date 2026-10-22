@@ -215,6 +215,60 @@
       "grade": "A",
       "sourceId": "stiga-park12-1258-1993-ipl",
       "locator": "Transmission, tryckt sida 27 pos. 34"
+    },
+    {
+      "id": "p12-1258-93-grease",
+      "topic": "J",
+      "statement": "STIGA:s 1993-katalog anger för Peerless 846 post 90 smörjmedel P007-8806-7B, Bentonite grease, 0,9 kg. Angivelsen är en reservdelspost, inte en instruktion att fylla på just denna mängd vid service.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993; 846-internkomponent enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF sida 15, Peerless Transaxel 846, pos. 90"
+    },
+    {
+      "id": "p12-1258-93-gearcase",
+      "topic": "K",
+      "statement": "Peerless 846-gruppen anger växellådshus P007-7007-1A (pos. 1) och kåpa P007-7207-8A (pos. 47).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993; 846-internkomponent enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF sida 15, pos. 1 och 47"
+    },
+    {
+      "id": "p12-1258-93-brakeinternals",
+      "topic": "K",
+      "statement": "Peerless 846 anges ha bromsskiva P000-7900-03 (pos.21), två bromsbelägg P000-7900-06 (pos.52) och tryckplatta P000-7900-07 (pos.51).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993; 846-internkomponent enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF sida 13, pos.21, 52 och 51"
+    },
+    {
+      "id": "p12-1258-93-axles",
+      "topic": "D",
+      "statement": "Peerless 846-listan specificerar axlar P000-7748-10 (368 mm, pos.68) och P000-7748-11 (320 mm, pos.69).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993; 846-internkomponent enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF sida 13, pos.68–69"
+    },
+    {
+      "id": "p12-1258-93-gearratios",
+      "topic": "D",
+      "statement": "Peerless 846-gruppen anger separat kugghjul P007-7812-6A (20T, pos.3), P007-7812-7A (25T, pos.4) och P007-7812-9A (30T, pos.5). Antal kuggar i delposterna är inte en verifierad total utväxling.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993; 846-internkomponent enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF sida 15, pos.3–5"
+    },
+    {
+      "id": "p12-1258-93-chain",
+      "topic": "D",
+      "statement": "Peerless 846-originalförteckningen anger kedja P000-7860-81 (pos.28) och två kedjehjul P000-7860-82 (9T, pos.15) respektive P000-7860-83 (18T, pos.14).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993; 846-internkomponent enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF sida 13, pos.14,15,28"
     }
   ],
   "gaps": [
@@ -223,6 +277,7 @@
     "Verifiera fullständig ägarmanual, rätt serviceintervall och smörjmedel; IPL ger inte sådana instruktioner.",
     "Verifiera aggregat-PNC och montering för Park 12 13-1258-16 innan aggregatdelar rekommenderas.",
     "Verifiera säkerhetskretsarnas funktion samt elschema separat från reservdelslistan.",
-    "STIGA-original-PDF kan textgranskas men PDF-skärmbilder returnerade fel vid granskningen 2026-10-22; figurkontroll återstår."
+    "STIGA-original-PDF kan textgranskas men PDF-skärmbilder returnerade fel vid granskningen 2026-10-22; figurkontroll återstår.",
+    "STIGA 846-reservdelsposten anger Bentonite grease 0,9 kg; en servicemanual krävs för metod, eventuella påfyllnadsgränser och byte."
   ]
 }
