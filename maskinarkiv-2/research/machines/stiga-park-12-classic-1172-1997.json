@@ -260,12 +260,67 @@
       "grade": "A",
       "sourceId": "stiga-park-12-classic-1172-1997-ipl",
       "locator": "PDF s.29 pos.180"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-harness-model-key",
+      "topic": "I",
+      "statement": "STIGA:s elavsnitt anger kablage 1134-3697-01 för varianterna 1168/1171/1172 på pos.50, medan 1442 har 1134-3718-01. Dessa är modellbundna alternativ och ska inte blandas ihop.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.19 (nollindex 18), el pos.50"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-ignition-switch",
+      "topic": "I",
+      "statement": "STIGA:s elavsnitt anger start-/tändningslås 1134-1814-01 (pos.44) samt två katalogiserade tändningsnycklar 1134-2848-01 och 1134-3368-01 (pos.47–48). Ingen nyckelutbytbarhet antas.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.19, el pos.44,47–48"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-headlamp",
+      "topic": "I",
+      "statement": "STIGA:s elsystemtabell anger strålkastarenhet 1134-1466-01 (pos.67) och lampa 9400-0075-00 (pos.68). Lampans effekt och sockel är inte verifierad separat.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.19, el pos.67–68"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-front-attachment",
+      "topic": "H",
+      "statement": "Främre ramens katalog anger två fästen för tillbehör 1134-3710-01 (pos.48). Förekomst av dessa fästen visar inte kompatibilitet med ett visst klippaggregat utan dess monteringsinstruktion.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.3, främre ram pos.48"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-seat-variants",
+      "topic": "B",
+      "statement": "Främre ramens katalog anger två olika sitskonsoler 1134-3252-02 och 1134-3800-01 på pos.7. Ingen produktionsgräns eller generell ersättningsrelation anges i denna tabell.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.3, främre ram pos.7"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-bearing-pin-wheel",
+      "topic": "E",
+      "statement": "Främre ramens katalog anger två framaxeltappar 1134-0075-01 (pos.20) och två fjäder-/spännstift 9595-0258-00 (pos.21), skilda från fälg och däck.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.3, främre ram pos.20–22"
     }
   ],
   "gaps": [
     "Motor Model/Type/Code ska kontrolleras på individens motor innan service.",
     "Klippaggregatkompatibilitet saknar modellbunden originalmonteringsmanual.",
     "MST205-529A-reservdelsförteckningen anger inte oljebytesintervall eller fyllvolym.",
-    "Ingen utbytbarhet med MST205-529C/D eller 1134-3716-02 styrkt."
+    "Ingen utbytbarhet med MST205-529C/D eller 1134-3716-02 styrkt.",
+    "STIGA:s elavsnitt listar alternativa kablage 1168/1171/1172 och 1442 samt dubbla sitskonsolnummer. Tillverkarens serienummergräns och godkänd ersättningsrelation saknas."
   ]
 }
