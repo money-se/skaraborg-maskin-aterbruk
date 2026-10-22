@@ -61,6 +61,20 @@
 
 **Tolkning:** Skillnaden mellan OEM-katalogens 2012-artikel och aktuell säljarlista märkt 2012 kan bero på senare redaktionell uppdatering eller ersättningsdelar. Orsak och datum är inte styrkta. Formulera därför de tre raderna för remskiva, remskiveenhet och snäckväxelenhet som **'olika kataloguppgifter'**, inte **'konstruktionen ändrades 2013'**. Inte heller byte av hel växellåda är OEM-godkänt.
 
+## 4B. Nytt ersättningsspår: två olika kompletta växellådor
+
+En [återförsäljare anger uttryckligen](https://www.reservdelaronline.se/produkter/vaexellada-komplett-comet-s-excellent-s-5782666-03) att **5782666-03** (utan bindestreck `578266603`) *ersätter* **5782666-01** (`578266601`) och **5033298-01** (`503329801`). Den beskrivs som en vinkelväxellåda för nyare Klippo med växellådan på höger sida, med Comet S, Excellent S och Pro 19 S som uppräknade modellfamiljer. Detta är **B-klassad säljaruppgiven originaldelsersättning**, inte OEM-styrkt passform för ett specifikt PNC eller serienummer.
+
+| Identitet | Nummer | Vad källan faktiskt styrker |
+|---|---|---|
+| Excellent S 2012 OEM-katalog | `578266601` | Listad växellådssats |
+| Återförsäljarens uttryckliga ersättare | **`578266603`** | **Säljaren anger att den ersätter `578266601`** |
+| Excellent S 2013-02 katalog | **`585192603`** | Annan komplett transmissionssats listad i 2013 års modellkatalog |
+| [5851926-03 som reservdel](https://www.entreprenadbutiken.se/sv/eb/transmission-kit-mulch-klippo) | `585192603` | Återförsäljaren listar senare Pro 19 SH, Pro 21 SH Classic, LB448S, LB453S, LB548Se |
+| [Duab 5851926-03](https://duab.se/reservdelar/husqvarna-group/transmission-kit-mulch-klippo) | `585192603` | Husqvarna Group anges som varumärke/tillverkarnummer |
+
+**VARNING:** `578266603` är **inte** `585192603`. Det saknas belagd relation som fastställer att dessa två nyare enheter kan ersätta varandra. Inte heller ska 'passar Excellent S' tolkas som godkänd passform till varje enskild Excellent S utan PNC-/serienummerkontroll.
+
 ## 5. Rekommenderad identifiering före beställning
 
 1. Läs hela modell-/produktnumret från maskinskylten och notera eventuellt serienummer; skilj Excellent S från Excellent, Excellent H och SH.
