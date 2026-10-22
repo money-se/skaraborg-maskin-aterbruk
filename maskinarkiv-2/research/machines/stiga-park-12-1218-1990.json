@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1218-1990",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA PARK 12 13-1218-13 Season 1990, STIGA originalreservdelskatalog Issue 39–2014. Ingen överföring till andra PNC utan särskilda belägg.",
+  "sources": [
+    {
+      "id": "stiga-1218-1990-ipl",
+      "tier": 1,
+      "title": "STIGA Park 12 original parts catalogue",
+      "document": "13-1218-13 Season 1990, Issue 39–2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1218-13_89_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Tillverkarens originalreservdelslista styrker enskilda komponenter men motorns fulla identitet, komplett transaxelbeteckning, originalmanualens service- och säkerhetskrav och aggregatpassform är inte färdigkontrollerade."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-1218-90-identity",
+      "topic": "A",
+      "statement": "STIGA:s originalreservdelskatalog identifierar PARK 12 13-1218-13 som Season 1990, katalogutgåva 39–2014.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "Omslag PDF sida 1 och katalogsida 3"
+    },
+    {
+      "id": "p12-1218-90-plate",
+      "topic": "L",
+      "statement": "STIGA uppmanar användaren att kontrollera tillverkningsåret på maskinens identifikationsplåt innan reservdelskatalog väljs.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "Omslag PDF sida 1, reservdelsinstruktion"
+    },
+    {
+      "id": "p12-1218-90-transaxle",
+      "topic": "D",
+      "statement": "Transmissionens reservdelstabell anger komplett transaxel 1134-2469-01 utan att specificera tillverkarens interna modellbeteckning.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 9, Transmission, pos.33"
+    },
+    {
+      "id": "p12-1218-90-drive-belt",
+      "topic": "D",
+      "statement": "Transmissionens kilrem anges som 1134-9013-01 med referens 9585-0057-00.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 9, Transmission, pos.13"
+    },
+    {
+      "id": "p12-1218-90-pto-belt-1",
+      "topic": "H",
+      "statement": "Kraftuttagsgruppen listar kilrem 1134-9012-01 (referens 9585-0056-00), som inte ska förväxlas med transmissionsremmen.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 5, Power Take-Off, pos.57"
+    },
+    {
+      "id": "p12-1218-90-pto-belt-2",
+      "topic": "H",
+      "statement": "Kraftuttagsgruppen listar även en annan kilrem 1134-9011-01 med referens 9585-0054-00 på position 58; dessa remmar har separata positioner.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 5, Power Take-Off, pos.58"
+    },
+    {
+      "id": "p12-1218-90-pto-cable",
+      "topic": "F",
+      "statement": "Kraftuttagswire 1134-3573-01 och urkopplingsspak 1134-1972-01 anges i kraftuttagsgruppen.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 5, Power Take-Off, pos.9 och 10"
+    },
+    {
+      "id": "p12-1218-90-pto-control",
+      "topic": "F",
+      "statement": "Kraftuttagsgruppen listar reglagespak 1134-0027-01 på position 8.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 5, Power Take-Off, pos.8"
+    },
+    {
+      "id": "p12-1218-90-pto-tension",
+      "topic": "H",
+      "statement": "STIGA:s PTO-lista anger svart spännrulle 1134-9027-01 och komplett spännhjul 1134-1770-01 som skilda positioner.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 5, Power Take-Off, pos.30 och 48"
+    },
+    {
+      "id": "p12-1218-90-clutch",
+      "topic": "F",
+      "statement": "Transmissionens kopplingswire anges som 1134-2030-04.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 9, Transmission, pos.28"
+    },
+    {
+      "id": "p12-1218-90-shifter",
+      "topic": "F",
+      "statement": "Transmissionens växelwire anges som 1134-2031-02.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 9, Transmission, pos.29"
+    },
+    {
+      "id": "p12-1218-90-throttle",
+      "topic": "C",
+      "statement": "Motor-/bromsgruppen listar gasreglage 1134-1975-09, men katalogen ger inte därmed motorns fullständiga identifieringskod.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 3, Engine-Brake System, pos.30"
+    },
+    {
+      "id": "p12-1218-90-brake-wire",
+      "topic": "G",
+      "statement": "Motor-/bromsgruppen listar motorbromswire 1134-3573-02; reservdelslistan verifierar inte bromsens justeringsprocedur.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 3, Engine-Brake System, pos.40"
+    },
+    {
+      "id": "p12-1218-90-exhaust",
+      "topic": "C",
+      "statement": "Motor-/bromsgruppen listar avgasrör 1134-2013-01 och ljuddämpare 1134-3243-01; det är installationsdelar och inget fullständigt motor-ID.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 3, Engine-Brake System, pos.6 och 13"
+    },
+    {
+      "id": "p12-1218-90-ignition",
+      "topic": "K",
+      "statement": "Elsystemet listar tändningslås 1134-1814-01, utan att fastställa startspärrens funktionslogik.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 13, Electrical System, pos.8"
+    },
+    {
+      "id": "p12-1218-90-variants",
+      "topic": "B",
+      "statement": "Transmissionen anger däckdelar 9545-0116-00 med notering Frankrike (F) och andra poster vid samma position; utförandemärkning måste kontrolleras individuellt.",
+      "variant": "STIGA PARK 12 13-1218-13 Season 1990",
+      "grade": "A",
+      "sourceId": "stiga-1218-1990-ipl",
+      "locator": "PDF sida 9, Transmission, pos.34"
+    }
+  ],
+  "gaps": [
+    "Identifiera fabrikat och intern modell för komplett transaxel 1134-2469-01 via tillverkar-/transaxelmärkning; katalogen anger endast transaxelns maskinartikelnummer.",
+    "Verifiera motorns fullständiga Model/Type/Code och använd tillämplig motororiginalmanual för olja, tändstift och servicevärden.",
+    "Hitta originalbruksanvisning och kontrollera säkerhetskretsar, funktion och serviceintervall för exakt 13-1218-13.",
+    "Verifiera korrekt klippaggregat-PNC och monteringskit för 1990 års maskin; basmaskinens PTO-rem är inte aggregatets alla remmar.",
+    "Kontrollera skillnader mot separat 13-1218-83 (F), 13-1258-13 och andra 1990-marknadsvarianter innan reservdelar delas.",
+    "STIGA PDF-tabellerna kontrollerade textmässigt; originalritningarna behöver visuell granskning eftersom skärmbildstjänsten gav cache miss."
+  ]
+}
