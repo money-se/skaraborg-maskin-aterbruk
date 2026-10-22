@@ -94,6 +94,51 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "kohler-service-oil-100h",
+      "statement": "Kohler TP-2339-D anger motoroljebyte var 100:e driftstimme och tätare vid mycket dammiga/smutsiga förhållanden.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D; individuell Spec No. ej identifierad",
+      "locator": "Section 1, printed p. 1.5, Periodic Maintenance > Every 100 Hours",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-service-filter-200h",
+      "statement": "Kohler TP-2339-D anger byte av oljefilter var 200:e driftstimme och kontroll av tändstiftets skick/elektrodavstånd samtidigt.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D; individuell Spec No. ej identifierad",
+      "locator": "Section 1, printed p. 1.5, Periodic Maintenance > Every 200 Hours",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-service-precleaner-25h",
+      "statement": "Kohler TP-2339-D anger service av luftfiltrets förfilter var 25:e driftstimme och kontroll av motoroljenivå och kylluft före varje start.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D; individuell Spec No. ej identifierad",
+      "locator": "Section 1, printed p. 1.5, Periodic Maintenance > Daily and Every 25 Hours",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-spark-gap-cv16",
+      "statement": "Kohler TP-2339-D anger tändstiftsgap 0,76 mm för CV16 och CV11–CV14 LP men 1,02 mm för CV11–CV15, CV460–465 och CV490–495 i övriga angivna utföranden. Modellspecifik åtskillnad krävs.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D; individuell Spec No. ej identifierad",
+      "locator": "Section 8, printed p. 8.1, Spark Plug > Gap",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "kohler-spark-partnumber",
+      "statement": "Kohler TP-2339-D listar standardtändstift Champion RC12YC med Kohler delnummer 12 132 02-S och Pro Series-alternativ Champion Premium Gold 2071 / 12 132 06-S. Kontroll mot motorns Spec No. krävs före beställning.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D; individuell Spec No. ej identifierad",
+      "locator": "Section 8, printed p. 8.1, Spark Plug > Type",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
