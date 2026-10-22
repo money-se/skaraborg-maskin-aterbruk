@@ -46,6 +46,21 @@
 | Cross-Cut eftermarknadskniv `NGP881710` | Originalnummer `5028817-01` och `5028817-10` | **Eftermarknadstillverkarens/säljarens relation**, inte intygad tillverkarsupersession; 310 mm och 14,5 mm är eftermarknadsdelens mått |
 | Växellåda `585192603` | **Ingen bekräftad ersättningsrelation** för `578266601` | **Får inte säljas som garanterad direkt ersättare** på föreliggande underlag |
 
+## 4A. Källkonflikt: aktuell 2012-lista innehåller senare artikelnummer
+
+**Ny kontroll 2026-10-22:** Wolfswinkels modellbundna [2012-06-lista för Excellent S 96522780208](https://www.wolfswinkel.shop/spare-parts-drawings/klippo/push-mowers/excellent-s/excellent-s-96522780208-2012-06) visar redan några av de artikelnummer som också finns i säljarens 2013-lista. Detta ändrar **inte** vad 2012 års ursprungliga tillverkarförfattade PDF tryckte, men **gör det osäkert när förändringarna infördes**.
+
+| Position | Original-IPL 2012 (A) | Aktuell Wolfswinkel-lista märkt 2012-06 (B) | Wolfswinkel 2013-02 (B) |
+|---|---|---|---|
+| Växellåda ref 1 / chassi ref 22 | `578266601` | `578266601` | `585192603` |
+| Remskiva ref 6 | `578771101` | `587235401` | `587235401` |
+| Remskiveenhet ref 8 | `503323201` | `503323002` | `503323002` |
+| Snäckväxelenhet ref 31 | `503328101` | `586467101` | `586467101` |
+| Växellådskåpa ref 3 | `578265501` | `578265501` | `578265502` |
+| Växelhus ref 10 | `578342801` | `578342801` | `578342802` |
+
+**Tolkning:** Skillnaden mellan OEM-katalogens 2012-artikel och aktuell säljarlista märkt 2012 kan bero på senare redaktionell uppdatering eller ersättningsdelar. Orsak och datum är inte styrkta. Formulera därför de tre raderna för remskiva, remskiveenhet och snäckväxelenhet som **'olika kataloguppgifter'**, inte **'konstruktionen ändrades 2013'**. Inte heller byte av hel växellåda är OEM-godkänt.
+
 ## 5. Rekommenderad identifiering före beställning
 
 1. Läs hela modell-/produktnumret från maskinskylten och notera eventuellt serienummer; skilj Excellent S från Excellent, Excellent H och SH.
