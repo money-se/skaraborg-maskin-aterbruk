@@ -110,12 +110,12 @@
     },
     {
       "id": "p12-96-peerless-assembly",
-      "statement": "För Tecumseh Peerless Transaxle 930-022 anger originalkatalogen komplett transaxelaggregat 1134-3278-01 på position 0.",
+      "statement": "STIGA:s Peerless 930-022-katalogdel anger komplett transaxel 1134-3278-01, men maskinens transmissionsgrupp avgränsar samma artikel till serienummer t.o.m. 960401; från 960402 anger den 1134-3716-01. Peerless 930-022-internaldelarna får därför inte antas gälla senare serienummer.",
       "variant": "STIGA PARK 12 13-1442-19, Season 1996",
       "sourceId": "stiga-park12-1996-ipl",
       "grade": "A",
       "topic": "D",
-      "locator": "PDF-sida 13, position 0"
+      "locator": "PDF tryckt sida 13 pos. 0 (intern Peerless-grupp); tryckt sida 29 pos. 18 (serienummersnitt)"
     },
     {
       "id": "p12-96-peerless-housing",
@@ -233,6 +233,33 @@
       "grade": "A",
       "topic": "C",
       "locator": "PDF-sida 7, position 1 och 18"
+    },
+    {
+      "id": "p12-96-transaxle-serial-change",
+      "topic": "D",
+      "statement": "1996 års maskinkatalogs transmission position 18 anger 1134-3278-01 till och med 960401 och 1134-3716-01 från 960402; detta är en dokumenterad komponentövergång inom samma säsong.",
+      "locator": "Tryckt katalogsida 29, Transmission, pos. 18",
+      "sourceId": "stiga-park12-1996-ipl",
+      "variant": "STIGA Park 12 13-1442-19, säsong 1996, serienummer enligt respektive claim",
+      "grade": "A"
+    },
+    {
+      "id": "p12-96-transaxle-later-unresolved",
+      "topic": "K",
+      "statement": "Reservdelskatalogen beskriver detaljerna för Peerless 930-022, men denna grupp kan inte utan ytterligare belägg identifiera alla interna delar i maskiner med senare transaxel 1134-3716-01.",
+      "locator": "Tryckt katalogsida 13 pos. 0 jämfört med sida 29 pos. 18",
+      "sourceId": "stiga-park12-1996-ipl",
+      "variant": "STIGA Park 12 13-1442-19, säsong 1996, serienummer enligt respektive claim",
+      "grade": "A"
+    },
+    {
+      "id": "p12-96-transaxle-chain-limit",
+      "topic": "D",
+      "statement": "Kedja 786081 och kedjehjul 786082/786123 anges i internkatalogen Peerless 930-022; katalogen bevisar inte deras tillämplighet för senare komplett transaxel 1134-3716-01.",
+      "locator": "Tryckt katalogsida 15 pos. 60–62 jämfört med sida 29 pos. 18",
+      "sourceId": "stiga-park12-1996-ipl",
+      "variant": "STIGA Park 12 13-1442-19, säsong 1996, serienummer enligt respektive claim",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -242,6 +269,7 @@
     "Verifiera ägarmanual, säkerhetsreglage, serviceintervall, smörjmedel och fyllnadsnivåer.",
     "Bekräfta tillhörande aggregat-PNC, tillåtna rem- och knivkoder och monteringskit.",
     "Verifiera elschema och respektive brytares funktion mot modellbunden elritning.",
-    "Original-PDF:s ritningssidor bör visuellt granskas innan reparationssteg; webbens skärmbildstjänst gav cache miss 2026-10-22."
+    "Original-PDF:s ritningssidor bör visuellt granskas innan reparationssteg; webbens skärmbildstjänst gav cache miss 2026-10-22.",
+    "Identifiera senare transaxel 1134-3716-01 från och med 960402 och kontrollera fabrikat/interna delar i separat IPL; använd inte Peerless 930-022-detaljer utan verifiering."
   ]
 }
