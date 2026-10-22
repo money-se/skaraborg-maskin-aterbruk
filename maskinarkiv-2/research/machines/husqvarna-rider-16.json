@@ -130,6 +130,13 @@
       "title": "Husqvarna Workshop Manual Rider 11 / Rider 13 / Rider 16",
       "document": "Workshop Manual 2003-02 (72-page English PDF)",
       "url": "https://www.mymowerparts.com/pdf/Husqvarna-Service-Repair-Manuals/W0301001.pdf"
+    },
+    {
+      "id": "husqvarna-service-bulletin-b0201901-2002",
+      "tier": 1,
+      "title": "Husqvarna Service Bulletin B0201901 – BioClip 103 blade components",
+      "document": "B0201901, 2002-05, three-page Husqvarna bulletin for Rider 16 / Rider 15 / Rider ProFlex 21",
+      "url": "https://mymowerparts.com/pdf/Husqvarna-Service-Bulletins/B0201901.pdf"
     }
   ],
   "topics": {
@@ -1149,6 +1156,69 @@
       "sourceId": "husqvarna-rider16-workshop-2003-02",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "rider16-b0201901-bulletin-scope",
+      "statement": "Husqvarnas servicebulletin B0201901 från 2002-05 gäller 41-tums/BioClip 103-aggregat på Rider 16, Rider 15 och Rider ProFlex 21 och varnar uttryckligen för omkonstruktion av vissa komponenter mellan modellår 2000 och 2001.",
+      "variant": "BioClip 103, 2000–2001 kontra 2001 och nyare, enligt B0201901; tillämpligt på Rider 16 men maskin-/aggregat-PNC ej angivet",
+      "locator": "PDF-sida 1, ingress, 'Models Involved' / 'Subject'",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-b0201901-old-blade-kit",
+      "statement": "Bulletinen märker äldre 2000–2001 BioClip 103 knivsats 531 00 75-24, spännbricka 506 96 64-01 och brytpinne 506 96 62-01; komplett sats får inte blandas med nyare utförande utan konstruktionskontroll.",
+      "variant": "BioClip 103, 2000–2001 kontra 2001 och nyare, enligt B0201901; tillämpligt på Rider 16 men maskin-/aggregat-PNC ej angivet",
+      "locator": "PDF-sida 1, jämförelse '2000–2001 41 inch Mulch (Bio 103)'",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-b0201901-new-blade-kit",
+      "statement": "Bulletinen märker 2001 och nyare BioClip 103 knivsats 531 00 75-85, spännbricka 535 41 10-01 och brytpinne 535 41 09-01; årtalen överlappar och kräver identifiering av aggregatkonstruktionen.",
+      "variant": "BioClip 103, 2000–2001 kontra 2001 och nyare, enligt B0201901; tillämpligt på Rider 16 men maskin-/aggregat-PNC ej angivet",
+      "locator": "PDF-sida 1, jämförelse '2001 and Newer 41 inch Mulch (Bio 103)'",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-b0201901-torque",
+      "statement": "Servicebulletin B0201901 rekommenderar åtdragningsmoment 45–50 Nm (35 ft-lbs enligt bulletinen) för knivbultarna vid service av den berörda BioClip 103-konstruktionen.",
+      "variant": "BioClip 103, 2000–2001 kontra 2001 och nyare, enligt B0201901; tillämpligt på Rider 16 men maskin-/aggregat-PNC ej angivet",
+      "locator": "PDF-sida 1, 'Blade Bolt Torque', 45–50 Nm",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-b0201901-replace-washer-pin",
+      "statement": "Husqvarna rekommenderar nya spännbrickor och brytpinnar vid bladservice i BioClip 103; använda spännbrickor kan ha förlorat sin spännkraft och öka risken för att brytpinnar går sönder.",
+      "variant": "BioClip 103, 2000–2001 kontra 2001 och nyare, enligt B0201901; tillämpligt på Rider 16 men maskin-/aggregat-PNC ej angivet",
+      "locator": "PDF-sida 1, andra stycket under ämnesbeskrivning",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "rider16-b0201901-old-housing",
+      "statement": "Bulletinens äldre 2000–2001 BioClip 103 sprängskiss skiljer 506 75 11-07 (yttre) från 506 75 11-06 (mitten) knivhusenheter.",
+      "variant": "BioClip 103, 2000–2001 kontra 2001 och nyare, enligt B0201901; tillämpligt på Rider 16 men maskin-/aggregat-PNC ej angivet",
+      "locator": "PDF-sida 2, figuren '2000–2001 41 inch Mulch Deck', 'compl' 506 75 11-07/06",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-b0201901-new-housing",
+      "statement": "Bulletinens 2001 och nyare BioClip 103-skiss anger yttre knivhus 535 41 06-02 och mittre knivhus 535 41 06-01, vilket skiljer sig från 2000–2001-utförandet.",
+      "variant": "BioClip 103, 2000–2001 kontra 2001 och nyare, enligt B0201901; tillämpligt på Rider 16 men maskin-/aggregat-PNC ej angivet",
+      "locator": "PDF-sida 3, '2001 and Newer 41 inch Mulch Deck', 'compl' 535 41 06-02/01",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -1193,6 +1263,9 @@
     "Oljevolym 1,2 l (2002 OM) kontra 1,4 l (2003 verkstadshandbok) kvarstår som källskillnad; kontrollera specifikt motortyp 28N707 respektive 282H070110E1 och fabrikantspecifika motorinstruktioner innan den får anses löst.",
     "Bio 103 aggregat version 1 kontra version 2 skiljer i remspänningsmetod; identifiera revisionsbundna aggregat-PNC och remtyper före praktisk serviceinstruktion.",
     "Identifiera BioClip 103 version 1 respektive version 2 med originalaggregatets produkt-/serienummer och parts catalog; tandremsantal styr inte ensam passform för ersättningsrem.",
-    "Se till att BioClip 90 med 8 mm/7 N inte förväxlas med BioClip 103 version 2 med 7 mm/10 N vid service."
+    "Se till att BioClip 90 med 8 mm/7 N inte förväxlas med BioClip 103 version 2 med 7 mm/10 N vid service.",
+    "B0201901 använder överlappande tidsperioder 2000–2001 och 2001+; bestäm faktisk knivhus-/brick-/brytpinnedesign från aggregat innan passform påstås.",
+    "Undersök om Husqvarnas BioClip 103-revisioner som kallas version 1/2 i bruksanvisningen sammanfaller med de båda konstruktionerna i B0201901; dessa får inte likställas utan bevis.",
+    "PDF-skärmbilder av B0201901 kunde inte laddas (cache miss). Textlagrets referenser och sidnumrerade ritningsnummer är kontrollerade; visuell positionsgranskning återstår."
   ]
 }
