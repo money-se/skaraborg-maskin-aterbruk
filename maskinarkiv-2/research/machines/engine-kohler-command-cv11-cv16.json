@@ -299,6 +299,24 @@
       "sourceId": "kohler-owners-1259001",
       "grade": "A",
       "topic": "C"
+    },
+    {
+      "id": "kohler-owner-oil-filter-5205002s",
+      "statement": "Kohler ägarmanual 12 590 01 anger Kohler originaloljefilter 52 050 02-S vid oljefilterbyte. Uppgiften är knuten till manualens CV11–CV16/CV460–CV493-omfång och innebär inte att samtliga Spec. No., senare artikelersättningar eller filteradaptrar är kontrollerade.",
+      "variant": "Command CV11–CV16/CV460–CV493 enligt Kohler 12 590 01; exakt Spec. No. ej verifierat",
+      "locator": "Change Oil Filter, tryckt sida 10, PDF sidindex 9, första stycket",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-service-oil-filter-installation",
+      "statement": "Kohler 12 590 01 föreskriver att oljefiltrets gummipackning oljas och att filtret efter packningskontakt dras ytterligare 2/3 till 1 varv. Proceduren får endast användas för berört filter-/adapterutförande.",
+      "variant": "Command CV11–CV16/CV460–CV493 enligt Kohler 12 590 01",
+      "locator": "Change Oil Filter, tryckt sida 10, PDF sidindex 9, steg 5–6",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -310,6 +328,7 @@
     "Kohler tändstiftsmoment: originalmanual 12 590 01 anger 38,0–43,4 Nm medan TP-2339-D anger 24,4–29,8 Nm; lös skillnaden per manualrevision och exakt motor/specifikation innan serviceinstruktion publiceras.",
     "Kohler luftfilter: artiklar i originalmanual 12 590 01 måste kontrolleras mot faktiskt filterhus/Spec. No. och senare supersession innan beställningsråd.",
     "Kohler bränslefilter: identifiera OEM-specifikt inlinefilter och eventuellt artikelnummer per motor-/utrustningsutförande innan beställningsråd.",
-    "Kohler Walbro/Nikki: förgasarutförande per Spec No. och respektive reparationssats/packningsnummer återstår att belägga."
+    "Kohler Walbro/Nikki: förgasarutförande per Spec No. och respektive reparationssats/packningsnummer återstår att belägga.",
+    "Oljefilter 52 050 02-S anges i Kohler 12 590 01 men ersättningsartikel, aktuell tillgång och exakt passform per Spec. No. och filteradapter återstår att verifiera."
   ]
 }
