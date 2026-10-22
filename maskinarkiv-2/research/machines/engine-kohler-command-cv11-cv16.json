@@ -81,7 +81,7 @@
     },
     "L": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nOEM originalspecifikationer p.1.7 anger intermittent/max kontinuerlig driftlutning och motorns ungefärliga vikt. OEM-maskinens egna säkerhetsbegränsningar kan vara striktare."
     },
     "M": {
       "state": "gap",
@@ -2293,6 +2293,258 @@
       "topic": "K",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-rating-cv11",
+      "statement": "Kohler anger CV11 8,2 kW (11 hk) vid 3600 rpm enligt SAE J1995 och maximalt 27,4 Nm vid 2000 rpm.",
+      "variant": "CV11",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-rating-cv125",
+      "statement": "Kohler anger CV12.5 9,33 kW (12,5 hk) vid 3600 rpm enligt SAE J1995 och maximalt 27,8 Nm vid 2500 rpm.",
+      "variant": "CV12.5",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-rating-cv13",
+      "statement": "Kohler anger CV13 9,75 kW (13 hk) vid 3600 rpm enligt SAE J1995 och maximalt 27,8 Nm vid 2500 rpm.",
+      "variant": "CV13",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-rating-cv14",
+      "statement": "Kohler anger CV14 10,5 kW (14 hk) vid 3600 rpm enligt SAE J1995 och maximalt 28,9 Nm vid 2500 rpm.",
+      "variant": "CV14",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-rating-cv15",
+      "statement": "Kohler anger CV15 11,19 kW (15 hk) vid 3600 rpm enligt SAE J1995 och maximalt 33,2 Nm vid 2400 rpm.",
+      "variant": "CV15",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-rating-cv16",
+      "statement": "Kohler anger CV16 11,9 kW (16 hk) vid 3600 rpm enligt SAE J1995 och maximalt 35,3 Nm vid 2400 rpm.",
+      "variant": "CV16",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-rating-cv460-465",
+      "statement": "Kohler anger effekt 11,9–13,0 kW (16–16,5 hk) vid 3600 rpm enligt SAE J1995 och maximalt vridmoment 36,3 Nm vid 2400 rpm.",
+      "variant": "CV460–CV465",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-rating-cv490-495",
+      "statement": "Kohler anger effekt 12,7–13,4 kW (17–18 hk) vid 3600 rpm enligt SAE J1995 och maximalt vridmoment 37,8–38,1 Nm vid 2400 rpm.",
+      "variant": "CV490–CV495",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-operation-intermittent-35deg",
+      "statement": "Kohler anger maximal intermittent driftlutning 35 grader i alla riktningar endast vid korrekt full oljenivå. Maskintillverkarens lutningsgränser kan vara snävare.",
+      "variant": "CV11–16/CV460–465/CV490–495 med oljenivå full",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "kohler-operation-continuous-20deg",
+      "statement": "Kohler anger maximal kontinuerlig driftlutning 20 grader i alla riktningar vid korrekt full oljenivå. Detta är skilt från 35 graders intermittentgräns.",
+      "variant": "CV11–16/CV460–465/CV490–495 med oljenivå full",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "kohler-weight-cv11-16",
+      "statement": "Kohler anger ungefärlig motorvikt 39,54 kg (87 lb) för CV11–CV16; vikten är motorfamiljens angivna approximativa vikt, inte total maskinvikt.",
+      "variant": "CV11–CV16",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "kohler-weight-cv460-495",
+      "statement": "Kohler anger ungefärlig motorvikt 41,9 kg (90 lb) för CV460–CV465 samt CV490–CV495.",
+      "variant": "CV460–CV465/CV490–CV495",
+      "locator": "TP-2339-D Section 1, printed p.1.7 (PDF page index 8), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "kohler-starter-thru-ute-eaton-4p5-5p7",
+      "statement": "Kohler anger 4,5–5,7 Nm för startmotorns genomgående skruvar på UTE/Johnson Electric och Eaton med tröghetsdrev.",
+      "variant": "UTE/Johnson Electric eller Eaton inertia drive electric starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-thru-nipp-4p5-7p5",
+      "statement": "Kohler anger 4,5–7,5 Nm för startmotorns genomgående skruvar på Nippondenso med solenoiddrivet drev.",
+      "variant": "Nippondenso solenoid-shift electric starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-thru-delco-5p6-9",
+      "statement": "Kohler anger 5,6–9,0 Nm för startmotorns genomgående skruvar på Delco-Remy med solenoiddrivet drev.",
+      "variant": "Delco-Remy solenoid-shift starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-mount-all-15p3",
+      "statement": "Kohler anger 15,3 Nm för startmotorns fästskruvar till motorn, men genomgående skruvar och solenoidens infästning har andra moment.",
+      "variant": "Electric starters listed in TP-2339-D",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-solenoid-nipp-6-9",
+      "statement": "Kohler anger 6,0–9,0 Nm för solenoidens monteringsdetaljer (mutter/skruv) på Nippondenso-startmotor.",
+      "variant": "Nippondenso solenoid-shift starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-solenoid-delco-4-6",
+      "statement": "Kohler anger 4,0–6,0 Nm för solenoidens monteringsdetaljer på Delco-Remy-startmotor.",
+      "variant": "Delco-Remy solenoid-shift starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-brush-holder-delco-2p5-3p3",
+      "statement": "Kohler anger 2,5–3,3 Nm för Delco-Remy-startmotorns skruv till borsthållaren.",
+      "variant": "Delco-Remy starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-brush-positive-nipp-8-12",
+      "statement": "Kohler anger 8,0–12,0 Nm för muttern på Nippondenso-startmotorns positiva borstkabel.",
+      "variant": "Nippondenso starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-starter-brush-positive-delco-6-9",
+      "statement": "Kohler anger 6,0–9,0 Nm för muttern på Delco-Remy-startmotorns positiva borstkabel.",
+      "variant": "Delco-Remy starter",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-flywheel-fan-9p9",
+      "statement": "Kohler anger 9,9 Nm för kylfläktens fästelement på svänghjulet.",
+      "variant": "Fan/Flywheel assembly according to TP-2339-D",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-flywheel-retainer-66p4",
+      "statement": "Kohler anger 66,4 Nm för svänghjulets centrala fästskruv, en annan infästning än kylfläktens fästelement.",
+      "variant": "Flywheel retaining screw per TP-2339-D",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-head-max-out-of-flatness-0p076",
+      "statement": "Kohler anger högst 0,076 mm planhetsavvikelse på topplockets anliggningsyta i verkstadsmåtttabellen.",
+      "variant": "Cylinder head of CV11–16/CV460–465/CV490–495",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-governor-cross-running-clearance",
+      "statement": "Kohler anger nytt lagerspel för regulatorns tvära axel mot vevhuset 0,025–0,075 mm, nytt axel-ytterdiameter 5,975–6,000 mm och slitagegräns 5,962 mm.",
+      "variant": "Governor cross shaft on CV engine per TP-2339-D",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-governor-gear-shaft-clearance",
+      "statement": "Kohler anger nytt lagerspel mellan regulatorhjul och dess axel 0,050–0,160 mm samt nytt axelmått 5,990–6,000 mm och slitgräns 5,977 mm.",
+      "variant": "Governor gear shaft on CV engine per TP-2339-D",
+      "locator": "TP-2339-D Section 1, printed p.1.10 (PDF page index 11), General Specifications",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-balance-shaft-endplay",
+      "statement": "Kohler anger balansaxelns axialspel 0,0575–0,3625 mm och nytt radialt lagerspel 0,025–0,152 mm.",
+      "variant": "Balance shaft CV11–16/CV460–465/CV490–495",
+      "locator": "TP-2339-D Section 1, printed p.1.8 (PDF page index 9), Balance Shaft",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-balance-shaft-bearing-wear",
+      "statement": "Kohler anger ny balansaxellagerborrning 20,000–20,025 mm och slitagegräns 20,038 mm; balansaxelns lageryta är ny 19,962–19,975 mm och slitgräns 19,959 mm.",
+      "variant": "Balance shaft bearing CV engine",
+      "locator": "TP-2339-D Section 1, printed p.1.8 (PDF page index 9), Balance Shaft",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -2336,6 +2588,8 @@
     "Forskningsrevision 2026-10-22: områden D, E, L och M saknar ännu registrerade källbelagda claims. Status förblir needs_research; komplettera från originaldokument, inte genom att extrapolera andra ämnesområden.",
     "Identifieringskod 21–32 för årsmodell 1991–2002 och modell-/startkoder har verifierats för TP-2339-D. Koderna ska inte extrapoleras till senare serienummer eller andra Kohler-familjer.",
     "Luftfilterhus och valfritt skumfilter för kylluft: fastställ aktuellt filterhus, luftkanal, snörstart och Spec. No. innan 12 050 02-S eller infästningsdetaljer väljs.",
-    "LPG och Emission Sentry gäller bara särskilt utrustade Kohler Command och deras installationsspecifika bränsle-/emissionssystem; inga generella omställningsråd eller satskompatibiliteter utan Spec. No."
+    "LPG och Emission Sentry gäller bara särskilt utrustade Kohler Command och deras installationsspecifika bränsle-/emissionssystem; inga generella omställningsråd eller satskompatibiliteter utan Spec. No.",
+    "Effekt och vridmoment: märkdata är laboratorieklassade vid angivna varvtal och SAE J1995, inte utlovad effekt i installerad begagnad åkgräsklippare.",
+    "Elstartmoment från TP-2339-D är tillverkarspecifika (UTE/Johnson/Eaton, Nippondenso, Delco-Remy); identifiera faktisk startmotor före åtdragning."
   ]
 }
