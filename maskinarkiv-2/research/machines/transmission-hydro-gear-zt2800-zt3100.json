@@ -46,6 +46,13 @@
       "title": "Hydro-Gear ZT-3200 official product specification",
       "document": "ZT-3200 manufacturer product page, Product Specs, accessed 2026-10-22",
       "url": "https://www.hydro-gear.com/product/zt-3200/"
+    },
+    {
+      "id": "hg-cadenas-official-configurator",
+      "tier": 1,
+      "title": "Hydro-Gear PartCommunity integrated transaxle CAD product configurator",
+      "document": "ZT-2800/ZT-3100/ZT-3200 parameterized assembly configuration, BOM model ZH-MAAA-SA0A-1XLX",
+      "url": "https://hydrogear-embedded.partcommunity.com/3d-cad-models/?info=hydrogear%2Fzt-2800%2Fzt-2800_asmtab.prj"
     }
   ],
   "topics": {
@@ -948,6 +955,60 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "cad-bom-example",
+      "statement": "Hydro-Gears CAD-konfigurator visar BOM och Model Code ZH-MAAA-SA0A-1XLX som ett konfigurerat exempel. Exemplet är inte bevis för att en specifik kundmaskin bär samma transmission.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Product configuration header, lines 25–42",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cad-series-selector",
+      "statement": "Samma tillverkaranslutna konfigurator omfattar ZT-2800, ZT-3100 och ZT-3200 och tillåter val mellan 20,69, 24,74 och 27,23 slututväxling samt olika pinjongmaterial.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Product Series / Overall Reduction Ratio / Pinion Material, lines 39–58",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "cad-shock-valve-options",
+      "statement": "CAD-konfiguratorn skiljer på backventilalternativ utan chockventil (.000, .027, .044 bleed) respektive med 220 bar chockventil; dessa är valbara utföranden, inte garanterat monterade på alla familjemodeller.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Check Valve Axle Rot.A/B and CW Input Axis, lines 78–92",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-bypass-options",
+      "statement": "Bypassarmens konfigurationsalternativ är ingen sprint, sprint upp eller sprint ned (No Pin, Pin UP, Pin DOWN); därför räcker inte modellfamiljen för att bestämma rätt bypassarm.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Bypass Arm options, lines 129–134",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-control-arm-component-candidates",
+      "statement": "Hydro-Gears CAD-konfigurator listar reglagearmalternativen A=51631 och B=51841 (RH-OB, LH-IB). Numren är visade val i konfiguratorn, men en unik BOM-kod måste kontrolleras innan något av dem rekommenderas som reservdel.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Control Arm selector, lines 125–128",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-breather-options",
+      "statement": "Konfiguratorn skiljer mellan Breather Fitting, Plug och IET Breather; även denna komponent varierar med det konfigurerade utförandet.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Breather Fitting / Plug selector, lines 151–159",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -971,6 +1032,7 @@
     "Fastställ om konkret ZT-2800 är charged eller uncharged via komplett Hydro-Gear BOM och OEM-dokument före diagnos, laddpumpsbeställning eller användning av hydrauliskt schema.",
     "Jämför aktuellt ZT-2800-produktblad (3000 rpm) med P24 servicehandbok (3000 rpm non-charge, 3600 rpm charged) mot fullständigt BOM och vid behov fråga Hydro-Gear vilket ingångsvarvtal som gäller den aktuella enheten.",
     "Identifiera fullständig ZT-3200 BOM-kod innan laddpump, performance package, navände eller axelsats väljs; produktbladet listar tillval snarare än garanterad montering.",
-    "En fullständig BOM-modellkod identifierar attribut men artikelnummer måste fortfarande hämtas från enhetens online service schematic; de 14 kodtecknen är inte en lista med reservdelsnummer."
+    "En fullständig BOM-modellkod identifierar attribut men artikelnummer måste fortfarande hämtas från enhetens online service schematic; de 14 kodtecknen är inte en lista med reservdelsnummer.",
+    "CAD-konfiguratorns reglagearmnummer 51631 och 51841 är attributalternativ; verifiera orderbarhet, BOM-kompatibilitet och eventuella ersättningsnummer via Hydro-Gears service schematic."
   ]
 }
