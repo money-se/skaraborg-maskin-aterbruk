@@ -22,7 +22,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Modellens CHASSIS & HOOD, sida 2, dokumenterar motorhuv, grill, instrumentpanel, servicelucka och batteristöd utöver ramdelarna. Delrevisioner och passform ej jämförda."
+      "note": "F-040745L CHASSIS & HOOD s.2 har nu kartlagda huv-/grillinsatser, golvmattor, sitsdetaljer, fästen och ram, katalogpositioner och modellbunden proveniens. Bildgranskning och revisionshistorik öppna."
     },
     "C": {
       "name": "Motor",
@@ -738,6 +738,226 @@
       "sourceId": "murray-murray-425015x92b-pdf",
       "grade": "B",
       "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-support",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094154E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 8",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-pivot-rod",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094156 Z.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 9",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-pivot-bracket",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001648E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 10",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-index-plate",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094151E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 21",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-floor-mat-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094999.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 23",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-floor-mat-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094998.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 24",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-lower-pivot",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001799E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 29",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-dash-support",
+      "statement": "CHASSIS & HOOD listar komponentnummer 095318E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 37",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-support-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094083E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 39",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-hanger-axle",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094007E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 40",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-support-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094082E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 41",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-rear-panel",
+      "statement": "CHASSIS & HOOD listar komponentnummer 690434E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 47",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-detent-cover",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094610.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 48",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-insert-center",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001802.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 53",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-insert-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001803.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 54",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-insert-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001804.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 55",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-hood-insert-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001800.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 56",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-hood-insert-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001801.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 57",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-parking-brake-grommet",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001755.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 59",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-support-bracket",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001879.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 60",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
