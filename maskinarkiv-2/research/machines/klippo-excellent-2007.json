@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "slug": "klippo-excellent-2007",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Första källbundna forskningspaketet för KLIPPO Excellent ur Klippo AB:s gemensamma originalmanual art.nr 000001, version 1:17, 2007-01. Familjerelationer bevaras som sidofynd; teknisk fakta om andra modeller ska få egna register. Inga produktnummer eller årsmodeller är individuellt bekräftade.",
+  "sources": [
+    {
+      "id": "klippo-om-2007-000001",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning – Champion, Pro 19 GCV, Excellent, Excellent GCV, Pro 17 och Triumph",
+      "document": "Art.nr 000001; Version 1:17; 2007-01",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000035498/doc000066874"
+    },
+    {
+      "id": "husqvarna-support-excellent",
+      "tier": 1,
+      "title": "Husqvarna – Delar, bruksanvisningar och support för KLIPPO Excellent",
+      "document": "KLIPPO Excellent support och artikelnummerurval",
+      "url": "https://www.husqvarna.com/se/support/klippo-excellent/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Modellidentifiering: Originalmanual omfattar namngivna modeller men produktnummer och alla årsvarianter saknas."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Grundkonstruktion: Konstruktion och kåpvarianter behöver knytas till specifika produktnummer."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Motor: Manualen nämner motorfamiljer men exakta motorkoder måste kontrolleras per individ."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Drivning: Drivsystem och självgående varianter är inte kartlagda per produktnummer."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Chassi och reglage: Chassi, handtag och höjdinställning behöver kompletteras med reservdelssprängskisser."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Manövrering: En del grundreglage kan beläggas i originalmanualen, men utföranden varierar."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Säkerhet: Originalmanualen ger säkerhetsanvisningar men alla specifika säkerhetsfunktioner är ännu inte kartlagda."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Kniv och klippsystem: Originalmanualen beskriver klipphöjd och mulcherinsats på namngivna varianter; knivnummer saknas."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Underhåll: Originalmanualen har underhållsuppgifter för dokumentets generation, inte som universella intervall."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Reservdelar: Originalkataloger, knivnummer och skruvdetaljer saknas för varje produktnummer."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Felsökning: Säkra användarkontroller finns; modellbunden symptomdiagnostik återstår."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Dokumentation: Primärmanual 2007 har identifierats; äldre och nyare utgåvor behöver jämföras."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Varianter och öppna frågor: Exakta modellår, artikelnummer och skillnader mellan Champion/Excellent/Pro behöver kartläggas."
+    }
+  },
+  "claims": [
+    {
+      "id": "excellent-2007-manual-inclusion",
+      "statement": "KLIPPO:s originalmanual från 2007 räknar upp Excellent som en av sex namngivna gräsklipparmodeller, tillsammans med Triumph, Champion, Excellent GCV, Pro 17 och Pro 19 GCV.",
+      "variant": "KLIPPO Excellent i den gemensamma manualutgåvan 2007; inte en identifierad produktnummerrevision",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Modeller'; omslag PDF-sida 1",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-2007-engine-family-warning",
+      "statement": "Manualen namnger Briggs & Stratton Sprint XT 45, Quantum XLS 50 och Quantum 60 ReadyStart samt Honda GCV 135 4,5 som motorer i den samlade manualens modellgrupp. Listan fastställer inte vilken motor som satt på ett enskilt Excellent-produktnummer.",
+      "variant": "Gemensam KLIPPO-manual 2007, ej maskinindivid eller säker motorvariant",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), rubriken 'Motorer'",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-2007-mulcher",
+      "statement": "Manualen anger att mulcherinsatsen levereras monterad på Excellent och Champion och beskriver demontering/montering med två skruvar från kåpans ovansida baktill. Tändkabeln ska lossas före ingrepp.",
+      "variant": "KLIPPO Excellent i manualutgåva 2007, inte senare Excellent-revisioner",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Mulcherinsats för Excellent-, Champion- och Pro 19-modeller', bild 12",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-2007-oil-inspection",
+      "statement": "Manualen anger kontroll av oljenivån före start och efter varje femte driftstimme. Följ även medföljande motorinstruktionsbok; uppgiften är inte belagd som ett universellt schema för alla senare Excellent.",
+      "variant": "KLIPPO Excellent inom manualfamilj 2007",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Oljekontroll', bild 3",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "excellent-2007-oil-change",
+      "statement": "Den gemensamma KLIPPO-manualen anger första oljebytet efter fem driftstimmar och därefter var tjugofemte driftstimme. Motorvariantens egen manual måste också kontrolleras.",
+      "variant": "KLIPPO Excellent inom manualfamilj 2007, ej senare motorrevisioner",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Inkörning och första oljebytet'",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "excellent-2007-height",
+      "statement": "Manualens klipphöjdsavsnitt anger 3–6 cm som generellt spakintervall, med uttryckliga undantag för Triumph och Pro 17; höjdinställningen ändrar alla hjulen samtidigt.",
+      "variant": "KLIPPO Excellent i manualfamilj 2007, inga produktnummerrevisioner fastställda",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Inställning av klipphöjden', bild 2",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "excellent-2007-blade-safety",
+      "statement": "Originalmanualen instruerar användaren att avlägsna tändkabeln från tändstiftet före beröring av kniven och att inte använda maskinen med skadade skydd eller säkerhetsanordningar.",
+      "variant": "KLIPPO Excellent i manualfamilj 2007",
+      "locator": "PDF-sida 5 (tryckt svensk sida 1), 'Säkerhetsföreskrifter', punkterna 2 och 12",
+      "sourceId": "klippo-om-2007-000001",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "excellent-support-article-selection",
+      "statement": "Husqvarnas support för KLIPPO Excellent erbjuder val efter artikelnummer och har avsnitt för dokument, reservdelar, specifikationer och felsökning. Exakt artikelnummer måste identifieras innan data binds till ett individuellt exemplar.",
+      "variant": "KLIPPO Excellent, fabrikantens supportportal, inte definierat årsutförande",
+      "locator": "Supportsidan 'Välj artikelnummer' samt 'Supportinnehåll'",
+      "sourceId": "husqvarna-support-excellent",
+      "grade": "A",
+      "topic": "L"
+    }
+  ],
+  "gaps": [
+    "Identifiera Excellent-produktnummer och årskopplingar via Husqvarna/Klippo partsportal; inget artikelnummer får härledas enbart från namn.",
+    "Sök primära reservdelskataloger för Excellent-varianter, inklusive kniv, knivfäste, handtag och höjdinställning.",
+    "Bind exakt Briggs/Honda motormodell, Type/Code och servicevärden till respektive produktnummer; manualen är familjegemensam.",
+    "Kartlägg Excellent kontra Excellent GCV/Excellent S/SE/SH utan att sammanblanda motor och drivsystem.",
+    "Kontrollera nya manualutgåvor samt originalservice för självgående modeller.",
+    "Original-PDF:s sidbild gav cachefel vid skärmbildsgranskning; läst text och sidlocator är tillgängliga men figurer/bilder kräver ny visuell kontroll."
+  ]
+}
