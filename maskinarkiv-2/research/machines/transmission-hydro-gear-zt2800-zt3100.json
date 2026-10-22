@@ -734,6 +734,33 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-filterguard-step-vs-torque-range",
+      "statement": "I P25 är oljefilterkåpans serviceinstruktion steg 5 (115 in-lb, 12,99 Nm) förenlig med momenttabellens 100–130 lb-in för position 105. Detta är ingen intern motsägelse.",
+      "variant": "BLN-52441 P25 (april 2023), filter guard fastener item 105",
+      "locator": "Tryckt s. 11 steg 5, och s. 22 Required Torque Values rad 105 (PDF sidor 13 och 24)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-torque-distinct-filters",
+      "statement": "P25:s momenttabell skiljer uttryckligen mellan själva oljefiltret pos. 23 (70–90 lb-in) och filterkåpans fästskruvar pos. 105 (100–130 lb-in). Dessa moment kan inte bytas mellan komponenterna.",
+      "variant": "BLN-52441 P25; item 23 versus item 105",
+      "locator": "Tryckt s. 22, Required Torque Values, rader 23 och 105 (PDF sida 24)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p23-filterguard-115",
+      "statement": "Tillverkarens P23-manual (april 2021) anger i oljebytesproceduren 115 in-lb (12,99 Nm) för oljefilterskyddets 1/4-tumsskruvar. Äldre uppgifter om 65 in-lb får därför inte utan precisering tillskrivas P23.",
+      "variant": "BLN-52441 P23 (april 2021), ZT-2800/3100/3200/3400",
+      "locator": "Fluid Change Procedure, tryckt s. 11, steg 5, officiell PDF:s textlager (sidbild ej kontrollerad)",
+      "sourceId": "hg-bln52441-2021",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -752,6 +779,7 @@
     "Slå upp modellkodskombinationerna för laddpumpens kåpor och laddpumps-kit i tillverkarens BOM-styrda sprängskiss innan reservdelar beställs; figur 24 ger riktning, inte ordernummer.",
     "Verifiera faktisk modellkod, skruv-/kitnummer och OEM-säkerhetskrav före monteringsråd för bypass, svängskiva, bromskam eller mittsektion.",
     "Drivaxeldelar och tätningar: verifiera full Hydro-Gear BOM-/seriekod samt online-sprängskiss före beställning; ZT-3200 har annat axelutförande än ZT-2800/3100.",
-    "Gör riktad jämförelse mellan P23/P24/P25 för sidokåpsmoment och tätning innan generella verkstadsinstruktioner publiceras; nu verifierade värden gäller uttryckligen P25."
+    "Gör riktad jämförelse mellan P23/P24/P25 för sidokåpsmoment och tätning innan generella verkstadsinstruktioner publiceras; nu verifierade värden gäller uttryckligen P25.",
+    "Äldre manualversion med 65 in-lb för filterkåpans skruvar behöver identifieras med exakt publiceringsdatum/dokumentrevision; tillgänglig P23 (april 2021) anger 115 in-lb. Förväxla inte med P25:s separata position 23 oljefilter, 70–90 lb-in."
   ]
 }
