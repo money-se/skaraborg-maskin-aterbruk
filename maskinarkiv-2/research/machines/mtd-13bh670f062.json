@@ -263,6 +263,13 @@
       "title": "MTD Transmatic lawn tractors 660 thru 679 operator manual",
       "document": "MTD Products FORM NO. 770-10115A (10/99), 28-page PDF via Sears PartsDirect",
       "url": "https://c.searspartsdirect.com/doc/L0403120"
+    },
+    {
+      "id": "rbi-belt-application-13bh670f",
+      "tier": 2,
+      "title": "Rotary / RBI mower belt reference application table",
+      "document": "Belt application listing MTD 13BH660F and 13BH670F; OEM 754-0329A 38 inch deck and 754-0280A engine-to-variable-speed",
+      "url": "https://www.motion-products.ru/upload/iblock/9ad/9adce945ffa8e4f73d32c30b6217875b.pdf"
     }
   ],
   "topics": {
@@ -292,7 +299,7 @@
     },
     "G": {
       "state": "gap",
-      "note": "Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell.\nFollow-up research: Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell. Originalmanualen anger att rembyte inte kräver att maskinen tippas trots hur figurerna ritats."
+      "note": "Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell.\nFollow-up research: Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell. Originalmanualen anger att rembyte inte kräver att maskinen tippas trots hur figurerna ritats. Extern remtabell preciserar 13BH660F/670F: 754-0329A motor till 38-tumsaggregat och 754-0280A motor till variabelhastighetsenhet, vilket stöder men inte avgör modellens verkliga däck."
     },
     "H": {
       "state": "gap",
@@ -1498,6 +1505,24 @@
       "grade": "B",
       "sourceId": "partstree-mtd-2000-13bh670f062",
       "locator": "PartsTree 2000 Front Wheel chart: 634-0105A 15x6 Square Shoulder; 634-0056A 15x6 Round Shoulder"
+    },
+    {
+      "id": "mtd-rbi-13bh670f-38deck-belt-7540329a",
+      "topic": "G",
+      "statement": "En fristående eftermarknadstabell grupperar 13BH660F och 13BH670F och anger OEM-numret 754-0329A för rem mellan motor och 38-tumsaggregat, med eftermarknadsbeteckning 6630BR. Tabellen är familjeprefix-bunden och utgör inte bevis för att varje 13BH670F062 haft 38-tumsaggregat.",
+      "locator": "Belts for Riding Mowers, row 13BH660F; 13BH670F, Eng. To Deck; W/38 inch Deck, OEM 7540329A, belt 6630BR",
+      "variant": "MTD 13BH670F familjeprefix i eftermarknadskatalog, inte individuellt serienummer",
+      "grade": "B",
+      "sourceId": "rbi-belt-application-13bh670f"
+    },
+    {
+      "id": "mtd-rbi-13bh670f-variable-belt-7540280a",
+      "topic": "G",
+      "statement": "Samma eftermarknadstabell anger OEM-rem 754-0280A från motor till variabelhastighetsenheten för 13BH660F/13BH670F, med eftermarknadsbeteckning 6447BR. Detta stödjer remmens drivlinefunktion men garanterar inte passform utan kontroll av chassi och revisionsutförande.",
+      "locator": "Belts for Riding Mowers, row 13BH660F; 13BH670F, Eng. To V.S., OEM 7540280A, belt 6447BR",
+      "variant": "MTD 13BH670F familjeprefix i eftermarknadskatalog, inte individuellt serienummer",
+      "grade": "B",
+      "sourceId": "rbi-belt-application-13bh670f"
     }
   ],
   "gaps": [
@@ -1543,6 +1568,7 @@
     "Fastställ uppgiften om 19 oz och 2 oz Unirex N3 till den senare MTD 769-01641C-konstruktionen och förhindra att den sammanblandas med transaxel 618-0163/918-0163D.",
     "Jämför fysisk dekal- och hjulkonfiguration med MTD 2001 XREF för 13BH670F062 och original 2000 XREF samt försök fånga bild av PDF index 21, där originalservern gav cache miss.",
     "Lös varför tillverkarkorsreferens 2000 klassar 13BH670F062 som Deck G trots tre separata 2000-IPL-återförsäljarindex på Deck F; använd fabriksdekalskylt och fysisk aggregatidentifiering innan rem/kniv beställs.",
-    "Bekräfta faktisk 13BH670F062-styrstång och hjulskuldra före toe-in-justering eller hjulbeställning; återförsäljarportalen listar flera utföranden."
+    "Bekräfta faktisk 13BH670F062-styrstång och hjulskuldra före toe-in-justering eller hjulbeställning; återförsäljarportalen listar flera utföranden.",
+    "Validera eftermarknadstabellens två remapplikationer mot exakt maskin med eventuell G-aggregatrevision och slitna eller ändrade remskivor innan beställning."
   ]
 }
