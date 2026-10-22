@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1168-1995",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA Park 12 basmaskin 13-1168-18 (Season 1995), exakt originalkatalog. Detta register får inte överföra komponenter till 1996 eller 1997 utan separat kontroll.",
+  "sources": [
+    {
+      "id": "stiga-park12-1168-1995-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 original reservdelskatalog",
+      "document": "13-1168-18 Season 1995, Issue 44 - 2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1168-18_94_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "STIGA:s original-IPLs ger versionsbundna reservdelsuppgifter men komplett motoridentifiering, individuella serienummer, dokumenterad aggregatpassform, elschema och servicevärden återstår att granska."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-95-id",
+      "topic": "A",
+      "statement": "STIGA:s originalkatalog identifierar Park 12 produktnummer 13-1168-18 som Season 1995, Issue 44-2014.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 1 och 3"
+    },
+    {
+      "id": "p12-95-plate",
+      "topic": "L",
+      "statement": "STIGA instruerar reservdelsbeställare att säkerställa maskinens tillverkningsår från identifikationsplåten vid val av IPL.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 1, förord"
+    },
+    {
+      "id": "p12-95-carb",
+      "topic": "C",
+      "statement": "Förgasargruppen listar förgasarenhet 496592 och startsystemets startmotor 497595, men ger inte full motoridentitet.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 3, pos 125 och 309"
+    },
+    {
+      "id": "p12-95-spark",
+      "topic": "C",
+      "statement": "Katalogen listar Champion J19LM under två reservdelsreferenser 1111-9028-02 och 9400-0225-00; tillämplighet måste verifieras mot individens motor.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 9, pos 337"
+    },
+    {
+      "id": "p12-95-cylinder",
+      "topic": "C",
+      "statement": "Motorns interna delgrupp listar cylinder 496413, topplock 494240 och vevhusdel 494238.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 7, pos 1, 5, 18"
+    },
+    {
+      "id": "p12-95-pto-variant",
+      "topic": "F",
+      "statement": "PTO-reglagespak 1134-0027-01 har variantnotering 1168/1358/1458, medan alternativ 1134-1396-02 anges för 1441/1442/1443.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 23, pos 8"
+    },
+    {
+      "id": "p12-95-pto-wire",
+      "topic": "F",
+      "statement": "Katalogen listar PTO-wire 1134-3573-01 och urkopplingsspak 1134-1972-01.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 23 pos 9–10"
+    },
+    {
+      "id": "p12-95-pto-belt",
+      "topic": "H",
+      "statement": "Katalogens PTO-rem är 1134-9012-01, med referens till 9585-0056-00; det är inte transmissionsremmen.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 23 pos 57"
+    },
+    {
+      "id": "p12-95-drive-belt",
+      "topic": "D",
+      "statement": "Transmissionsrem 1134-9035-01 listas med referens 9585-0078-00.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 27 pos 10"
+    },
+    {
+      "id": "p12-95-transaxle-cutover",
+      "topic": "D",
+      "statement": "Transaxel 1134-3278-01, Peerless 930-022, är angiven för serienummer till och med 960401; från 960402 listas 1134-3716-01. En säsongsangivelse ensam avgör alltså inte komponenten.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 27 pos 18 med serienummernotering"
+    },
+    {
+      "id": "p12-95-peerless-internals",
+      "topic": "K",
+      "statement": "Peerless 930-022 internförteckning listar kåpa 772108, hus 770102 och växelförare 784345.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 13 pos 1, 3, 10"
+    },
+    {
+      "id": "p12-95-peerless-brake",
+      "topic": "K",
+      "statement": "Peerless 930-022 internförteckning listar bromsskiva 790003 och beläggsats 799021 (två belägg). Gäller den katalogidentifierade 930-022-enheten, inte den senare transaxeln utan separat kontroll.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 13 pos 36 och 38"
+    },
+    {
+      "id": "p12-95-shifter",
+      "topic": "F",
+      "statement": "Transmissionsgruppen listar växelwire 1134-2031-02 och växelspak 1134-2328-01.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 27 pos 51 och sida 29 pos 70"
+    },
+    {
+      "id": "p12-95-clutch",
+      "topic": "F",
+      "statement": "Katalogen anger kopplingswire 1134-2030-04.",
+      "variant": "STIGA Park 12 13-1168-18 Season 1995; serienummeravgränsning enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF sida 29 pos 62"
+    }
+  ],
+  "gaps": [
+    "Full motor Model/Type/Code saknas; STIGA:s interna motordelar ersätter inte Briggs-instansat motor-ID.",
+    "Dokumentera serienummer och vilken transaxel som verkligen sitter på varje individ; originalet visar byte vid 960401/960402 även i Season 1995 katalogrevision.",
+    "Exakta godkända aggregat-/kniv-PNC och monteringskit är okända.",
+    "Kontrollera ägar-/verkstadshandbok för säkerhetsprov, elschema och modellbunden service.",
+    "Tillämpning av senare 1134-3716-01 på 1995-maskiner måste utredas via individmärkskylt och revisionshistorik.",
+    "Original-PDF:s ritningar kunde inte visuellt kontrolleras med webbscreenshot (cache miss 2026-10-22); katalogens texttabeller är belästa."
+  ]
+}
