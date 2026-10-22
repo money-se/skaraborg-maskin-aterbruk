@@ -123,12 +123,19 @@
       "title": "MTD 2004 Equipment Parts, Accessories & Attachments – belt application guide",
       "document": "2004 MTD equipment parts & accessories catalog, 600 Series (2002 & Prior) belt application table",
       "url": "https://www.brentchalmers.com/Manuals/2004_MTD_EQUIPMENT_PARTS_ACCESSORIES_ATTACHMENTS.pdf"
+    },
+    {
+      "id": "mtd-factory-serial-decode",
+      "tier": 1,
+      "title": "MTD Model & Serial Number Example",
+      "document": "MTD support article 000034810, factory serial and model code examples",
+      "url": "https://support.mtdproducts.com/articles/en_US/FAQ/253-1"
     }
   ],
   "topics": {
     "A": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat."
+      "note": "MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat. Tillverkarens officiella serienummerguide visar att position 2–5 kodar datum, men ensamt års-tecken 0 är inte unikt för ett årtionde. Identifiera hela märkningen före års-/deckval."
     },
     "B": {
       "state": "gap",
@@ -611,6 +618,33 @@
       "sourceId": "mtd-2004-belt-application-guide",
       "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
       "topic": "H"
+    },
+    {
+      "id": "mtd-serial-date-characters",
+      "topic": "A",
+      "statement": "MTD förklarar att teckenposition 2–5 i fabrikens serienummer kodar tillverkningsdatum; exempel 1L080B50230 avser dag 08, månad L=december och årskod 0, vilken kan representera 2000 eller 2010 beroende på era.",
+      "variant": "MTD fabrikstillverkade åkgräsklippare, generell identifieringsprincip; exakt serienummer för 13BH670F062 ännu okänt",
+      "sourceId": "mtd-factory-serial-decode",
+      "grade": "A",
+      "locator": "Example SERIAL NUMBER 1 L080 B50230; paragraph 'second, third, fourth and fifth characters'"
+    },
+    {
+      "id": "mtd-serial-year-not-unique",
+      "topic": "A",
+      "statement": "En ensam MTD-årskod i serienumret kan inte entydigt bevisa kalenderåret; MTD:s eget exempel visar att 0 kan betyda 2000 eller 2010.",
+      "variant": "MTD fabrikstillverkade åkgräsklippare, generell identifieringsprincip; exakt serienummer för 13BH670F062 ännu okänt",
+      "sourceId": "mtd-factory-serial-decode",
+      "grade": "A",
+      "locator": "Example serial number, explanatory note '2000 or 2010'"
+    },
+    {
+      "id": "mtd-prefix-13-family",
+      "topic": "A",
+      "statement": "MTD:s tabell över fabrikmodellnummer anger att de två första tecknen 13 identifierar produktkategorin Riding Lawn Tractor; detta kodar kategori, inte en enskild motorspecifikation eller klippaggregatversion.",
+      "variant": "MTD fabrikstillverkade åkgräsklippare, generell identifieringsprincip; exakt serienummer för 13BH670F062 ännu okänt",
+      "sourceId": "mtd-factory-serial-decode",
+      "grade": "A",
+      "locator": "PRODUCT CATEGORY MODEL NUMBER PREFIX, row Riding Lawn tractor 13"
     }
   ],
   "gaps": [
@@ -630,6 +664,7 @@
     "Kontrollera kniv 742-0610 i exakt 2001 Deck Assembly F-sprängskiss och identifiera knivantal; föreslå den inte som universaldel.",
     "Kontrollera tillverkarens originaldelritning för exakt deck F/G och avgränsa 2000 års alternativa hjul 634-0056A/634-0105A med tillverkningsetikett, decknummer eller serienummer.",
     "Kontrollera om MTD 2004 tillbehörskatalogens uttryckliga modellfamilj 13A*66*/67*/69* omfattar fabriksnumret 13BH670F062, innan remnummer görs maskinspecifika.",
-    "MTD 2004 originalkatalog är 20 MB och webbläsningens PDF-öppning misslyckades; textbaserat sökresultat är granskat men full PDF och sida/figur inte verifierade."
+    "MTD 2004 originalkatalog är 20 MB och webbläsningens PDF-öppning misslyckades; textbaserat sökresultat är granskat men full PDF och sida/figur inte verifierade.",
+    "Avläs modell- och serienummerskylt för ett konkret 13BH670F062-exemplar. MTD:s datumkod använder en årskod som kan återkomma över flera årtionden, så tillverkningsår ska inte härledas ur endast ett tecken."
   ]
 }
