@@ -486,6 +486,60 @@
       "grade": "A",
       "sourceId": "stiga-park-102m-1997-ipl",
       "locator": "Reglage, tryckt sida 5, pos 25 och 30"
+    },
+    {
+      "id": "p12-97-100b-blade-kit",
+      "topic": "K",
+      "statement": "STIGA Park 100B aggregat 13-2919-20 listar knivsats 1134-9001-01 (sats om 3 knivar), pos 17.",
+      "variant": "STIGA PARK 100B 13-2919-20 Season 1997, basmaskinpassform ej styrkt",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Knivar, tryckt sida 7, position 17"
+    },
+    {
+      "id": "p12-97-100b-belt-34",
+      "topic": "K",
+      "statement": "Park 100B 13-2919-20 listar kilrem 1134-9006-01 med katalogreferens 9585-0108-00, pos 34.",
+      "variant": "STIGA PARK 100B 13-2919-20 Season 1997, basmaskinpassform ej styrkt",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Knivar, tryckt sida 7, position 34"
+    },
+    {
+      "id": "p12-97-100b-belt-45",
+      "topic": "K",
+      "statement": "Park 100B 13-2919-20 listar även kilrem 1134-9011-01 med katalogreferens 9585-0054-00, pos 45; remmarna fyller skilda katalogpositioner.",
+      "variant": "STIGA PARK 100B 13-2919-20 Season 1997, basmaskinpassform ej styrkt",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Knivar, tryckt sida 7, position 45"
+    },
+    {
+      "id": "p12-97-100b-bearing-variant",
+      "topic": "K",
+      "statement": "Park 100B 13-2919-20 listar lagerboxarna 1134-0428-01 pos 1 och 1134-0430-01 pos 7 samt knivaxlarna 1134-0397-01 pos 5 och 1134-0397-02 pos 11.",
+      "variant": "STIGA PARK 100B 13-2919-20 Season 1997, basmaskinpassform ej styrkt",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Knivar, tryckt sida 7, position 1, 5, 7 och 11"
+    },
+    {
+      "id": "p12-97-100b-height-control",
+      "topic": "H",
+      "statement": "Park 100B 13-2919-20 listar höjdinställningshandtag 1134-1069-01 pos 1 och höjdsegment 1134-0457-04 pos 15.",
+      "variant": "STIGA PARK 100B 13-2919-20 Season 1997, basmaskinpassform ej styrkt",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Reglage, tryckt sida 5, position 1 och 15"
+    },
+    {
+      "id": "p12-97-102m-toothed-belt-quantity",
+      "topic": "K",
+      "statement": "Park 102M 13-2913-20 listar två stycken kuggremmar 9585-0087-00 på position 49. Antalet två gäller den dokumenterade aggregatlistan, ej basmaskinen.",
+      "variant": "STIGA PARK 102M 13-2913-20 Season 1997, basmaskinpassform ej styrkt",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Knivar, tryckt sida 7 position 49; visuellt kontrollerad 2026-10-22"
     }
   ],
   "gaps": [
@@ -499,6 +553,7 @@
     "STIGA 1997 IPL listar basmaskin-transaxel 1134-3716-02 men separat MST 205-529A IPL komplett 1134-3716-01: klargör fabrikskoder, revisionsrelation och kompatibilitet innan internreparationsråd.",
     "Kraftuttagsrem 1134-9012-01 är dokumenterad för basmaskinens PTO; fullständigt aggregat-PNC, aggregatrem och knivnummer kräver separat katalog samt monteringskontroll.",
     "STIGA original-IPL för 100B 13-2919-20 och 102M 13-2913-20 finns, men deras passform och monteringskombination med Park 12 13-1442-20 är ännu inte bekräftad i originalmanual. Välj inte aggregatdelar enbart från basmaskinens PNC.",
-    "102M-katalogens lagerboxar och höjdreglage är dokumenterade för aggregat 13-2913-20; faktisk individ och rätt reservdelsrevision måste kontrolleras. Briggs modell-/typ-/kodetikett krävs för motorspecifik service."
+    "102M-katalogens lagerboxar och höjdreglage är dokumenterade för aggregat 13-2913-20; faktisk individ och rätt reservdelsrevision måste kontrolleras. Briggs modell-/typ-/kodetikett krävs för motorspecifik service.",
+    "Park 100B har två skilda kilremspositioner och treknivssats; identifiera motorn/aggregatets individuella PNC och passform till Park 12 före delbeställning. 1996 aggregat-IPLs är ännu inte källverifierade."
   ]
 }
