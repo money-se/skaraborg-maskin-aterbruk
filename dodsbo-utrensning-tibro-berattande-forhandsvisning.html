@@ -40,6 +40,26 @@ section{padding:68px 0}.white{background:#fff}.soft{background:var(--soft)}.dark
 .cta{padding:32px;border-radius:22px;background:linear-gradient(135deg,#102118,#315d3b);color:#fff;display:flex;justify-content:space-between;gap:24px;align-items:center}.cta h2{color:#fff}.cta p{color:#d7e3d9;margin:0;max-width:680px}
 @media(max-width:900px){.hero-grid,.local{grid-template-columns:1fr}.card{grid-column:span 6}.steps{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.wrap{width:min(100% - 28px,var(--max))}section{padding:50px 0}.hero{padding:54px 0 48px}.card{grid-column:1/-1}.steps{grid-template-columns:1fr}.actions,.cta{flex-direction:column;align-items:stretch}.btn{width:100%}}
+
+/* Tibro: jämnare färgrytm, mindre luft och tydliga kontaktknappar */
+main .section{padding-top:clamp(38px,4.5vw,58px);padding-bottom:clamp(38px,4.5vw,58px)}
+main .section.white{background:#f0f4ee}main .section.soft{background:#e2ebe0}
+main .section.white:nth-of-type(even){background:#f7f8f4}
+main .section .eyebrow{color:#5e712f;background:transparent;border:0;padding:0}
+main .section .split{align-items:start}
+main .section .dark-panel{background:#24452c;color:#fff}
+main .section .dark-panel a{color:#fff!important;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
+main .section .dark-panel p,main .section .dark-panel li{color:#edf5ec}
+main .hero .btn.primary,main .hero .btn-light,main .hero .btn-outline,main .hero .btn.btn-outline{font-size:1.01rem;font-weight:850;min-height:52px;box-shadow:0 5px 17px rgba(0,0,0,.16)}
+main .hero .btn.primary,main .hero .btn-light{background:#e9b840;color:#132717;border:2px solid #e9b840}
+main .hero .btn.outline,main .hero .btn.btn-outline{background:#fff;color:#173521;border:2px solid #fff}
+main .hero .btn.primary:hover,main .hero .btn-light:hover{background:#ffd56b;border-color:#ffd56b}
+main .hero .btn.outline:hover,main .hero .btn.btn-outline:hover{background:#e6f2e6;border-color:#e6f2e6}
+main a:focus-visible{outline:3px solid #e9b840;outline-offset:3px}
+main .cta .btn{background:#e9b840;color:#152a1a;border:2px solid #e9b840}
+main .photo-proof{background:#edf3ec;padding-bottom:36px}
+main .related{padding-top:38px;padding-bottom:45px}
+@media(max-width:600px){main .section{padding-top:34px;padding-bottom:34px}main .hero .btn,main .hero .btn-light,main .hero .btn-outline{width:100%;text-align:center}main .hero .buttons,main .hero .actions{gap:12px}}
 </style>
 <meta name="robots" content="noindex,follow">
 </head>
