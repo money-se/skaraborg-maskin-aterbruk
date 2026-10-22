@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115-j2115b-954130210",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Separat originalkatalogundersökning av LT2115 (J2115B), 954130210, 2004-06; begränsad till dokumentidentitet och elektriska komponentpositioner.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-ipl",
+      "tier": 2,
+      "title": "Jonsered LT2115 (J2115B) IPL, mirror",
+      "document": "106 31 62-62, 2004-06, produkt 954130210",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20J2115B%20954130210%202004-06/LT2115-J2115B-954130210-2004-06.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-identity",
+      "statement": "IPL 106 31 62-62 från 2004-06 visar LT2115 (J2115B) och produktnummer 954130210.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "PDF omslag s.1 och modellrubrik s.2",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-electrical-16",
+      "statement": "ELECTRICAL-listan anger interlock-brytare, artikel 532 17 61-38, position 16, för LT2115 (J2115B) 2004-06.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "IPL 106 31 62-62 PDF s.4 (index 3), ELECTRICAL position 16",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-electrical-21",
+      "statement": "ELECTRICAL-listan anger ljuskabelstam, artikel 532 17 56-88, position 21, för LT2115 (J2115B) 2004-06.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "IPL 106 31 62-62 PDF s.4 (index 3), ELECTRICAL position 21",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-electrical-26",
+      "statement": "ELECTRICAL-listan anger 20 A säkring, artikel 532 17 51-58, position 26, för LT2115 (J2115B) 2004-06.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "IPL 106 31 62-62 PDF s.4 (index 3), ELECTRICAL position 26",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-electrical-29",
+      "statement": "ELECTRICAL-listan anger tryckbrytare, artikel 532 12 13-05, position 29, för LT2115 (J2115B) 2004-06.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "IPL 106 31 62-62 PDF s.4 (index 3), ELECTRICAL position 29",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-electrical-30",
+      "statement": "ELECTRICAL-listan anger tändningslås, artikel 532 17 55-66, position 30, för LT2115 (J2115B) 2004-06.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "IPL 106 31 62-62 PDF s.4 (index 3), ELECTRICAL position 30",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "F",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-electrical-40",
+      "statement": "ELECTRICAL-listan anger tändningskablage, artikel 532 17 97-20, position 40, för LT2115 (J2115B) 2004-06.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "IPL 106 31 62-62 PDF s.4 (index 3), ELECTRICAL position 40",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-electrical-43",
+      "statement": "ELECTRICAL-listan anger solenoid, artikel 532 17 88-61, position 43, för LT2115 (J2115B) 2004-06.",
+      "variant": "LT2115 (J2115B) / 954130210",
+      "locator": "IPL 106 31 62-62 PDF s.4 (index 3), ELECTRICAL position 43",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Webbverktygets PDF-skärmbild misslyckades; positionerna stöds av indexerad originalkatalogtext och kräver slutlig sidbildskontroll.",
+    "Saknar fortsatt motorns exakta modell och spec, transmissionens produkt-ID, serviceintervall och fullständiga klippaggregatuppgifter.",
+    "Liknande artikelnummer mellan år eller modeller bevisar inte kompatibilitet."
+  ]
+}
