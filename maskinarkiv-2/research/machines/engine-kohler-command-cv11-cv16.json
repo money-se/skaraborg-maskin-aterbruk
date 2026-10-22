@@ -69,7 +69,7 @@
     },
     "I": {
       "state": "gap",
-      "note": "CV11–15/CV460–465/CV490–495 använder manualens magnettändningsprov (KO1047, 7900–18400 ohm), medan CV16 Smart Spark kräver särskilda KO1046- och SAM-kontroller. Oil Sentry 2–5 psi avser kontakten; oljetryck 40 psi gäller återmonteringsprov."
+      "note": "Kohler har källbelagda mätmetoder för vevhusvakuum, oljetryck, Oil Sentry, läckagetest och tändning. 10,2 cm vattenmanometer, 2–5 psi Oil Sentry och minst 40 psi efter återmontering avser skilda prov; variant och mätvillkor måste särskiljas."
     },
     "J": {
       "state": "gap",
@@ -853,6 +853,69 @@
       "locator": "Kohler Parts and Accessories Rev. E, printed p.28, PDF page index 27",
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-vacuum-10p2cm",
+      "statement": "TP-2339-D anger provning av vevhusundertryck med vattenmanometer vid 3200–3750 varv/min utan last och varm motor. På motorns sida ska vätskenivån ligga minst 10,2 cm ovanför den öppna sidan. Nivåskillnaden gäller vattenmanometer, inte oljetryck.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 enligt Kohlers vevhusvakuumprov",
+      "locator": "Section 3, printed p.3.3, PDF page index 22, Crankcase Vacuum Test steps 1–3",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-pressure-leak-causes",
+      "statement": "TP-2339-D beskriver att blockerat eller felmonterat vevhusventilationssystem kan orsaka vevhustryck som pressar ut olja genom tätningar och packningar. Kontrollera ventilation före antagande om enbart defekt packbox.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 enligt Section 3",
+      "locator": "Section 3, printed p.3.3, PDF page index 22, Crankcase Vacuum Test introduction",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-vacuum-troubleshoot-four",
+      "statement": "När vevhusvakuum saknas eller övertryck råder anger Kohler fyra felsökningsgrupper: blockerad ventilation, läckande tätningar/lösa fästen, förbränningsgasläckage via ringar eller ventiler, samt avgassystemets mottryck. Läckageprov kan verifiera ringar eller ventiler.",
+      "variant": "Command CV11–16/CV460–465/CV490–495; avvikande vevhusvakuum i rätt prov",
+      "locator": "Section 3, printed p.3.3, PDF index 22, Incorrect Vacuum in Crankcase table",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-manometer-clamp-stop",
+      "statement": "TP-2339-D föreskriver att manometerkranen/slangklämman ska stängas innan motorn stoppas efter vevhusvakuummätning. Provmetoden använder oljepåfyllningens hål med tätande propp och atmosfäröppet jämförelserör.",
+      "variant": "Command CV11–16/CV460–465/CV490–495; vattenmanometertest enligt Kohler",
+      "locator": "Section 3, printed p.3.3, PDF index 22, Crankcase Vacuum Test steps 1–4",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-original-later-design",
+      "statement": "Kohler TP-2339-D beskriver två konstruktioner av luftfilterhus: äldre med luftkanal från fläktkåpa och yttre öppning, senare med plan botten och kåpa. Filterhusets utförande måste identifieras innan komponenter och tätningar väljs.",
+      "variant": "Command CV11–16/CV460–465/CV490–495; äldre respektive senare luftfilterkonfiguration",
+      "locator": "Section 4, printed p.4.1, PDF index 24, Figures 4-1 and 4-2",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-dont-wash-blow",
+      "statement": "Kohler TP-2339-D förbjuder tvätt och tryckluftsblåsning av pappersluftfilter och beskriver försiktig knackning samt byte vid böjda, skadade eller smutsiga element. Separat förfilter kan tvättas och oljas enligt annat intervall.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 med pappersfilter",
+      "locator": "Section 4, printed p.4.2, PDF index 25, Paper Element Service",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-filter-stud-seal",
+      "statement": "TP-2339-D anger att gummitätningen runt luftfilterhusets fästpinne ska granskas vid pappersfilterservice och bytas om den är sliten eller skadad; en ny tätning medföljer aktuellt originalersättningselement i manualens utförande.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 med beskrivet luftfilterhus",
+      "locator": "Section 4, printed p.4.2, PDF index 25, Paper Element Service steps 4–5",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -881,6 +944,7 @@
     "CV16 Smart Spark-mätvärden och KO1046 får inte överföras till Kohlers magnetotändning utan SAM; kontrollera rätt tändsystem och motorns specifikationsnummer.",
     "Tändsystemens olika KO1046/KO1047-prov och resistansintervall måste knytas till motorens faktiska Spec. No. innan felsökningsinstruktion publiceras; verifiera också artikelnummer för respektive tändmodul.",
     "Kohler tändmoduler 12 584 04-S, 12 584 05-S, 12 584 12-S och 12 584 17-S är identifierade i tillverkarens snabbguide; exakt reservdel kräver fortfarande motorns Spec. No. och aktuell Kohler Parts Lookup.",
-    "Electrical/air intake batch: identifiera befintlig 15 A/25 A laddning, kontaktdon, drivmedelsutförande (LP/PRO) och 2,8/3,4-tums luftfilterhus via motor Spec. No. före köp eller montering. Artikelnummer är katalogbelagda, inte generella passningsgarantier."
+    "Electrical/air intake batch: identifiera befintlig 15 A/25 A laddning, kontaktdon, drivmedelsutförande (LP/PRO) och 2,8/3,4-tums luftfilterhus via motor Spec. No. före köp eller montering. Artikelnummer är katalogbelagda, inte generella passningsgarantier.",
+    "Vevhusvakuumprovets 10,2 cm är vattennivåskillnad i specificerad mätmetod och får inte jämställas med normalt oljetryck. Provets säkerhetsanvisningar och 3200–3750 rpm behöver följas."
   ]
 }
