@@ -74,7 +74,7 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "PartsTree 425014X92A visar åtta uttryckliga 'Superseded to' för katalogposter i aggregatupphängningen; dessa är handlaruppgifter, inte egen tillverkarverifiering eller generell kompatibilitetsgaranti."
     },
     "L": {
       "name": "Begagnatköp",
@@ -1275,6 +1275,94 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-pto-grip",
+      "statement": "PartsTree anger att reservdel 092698MA är ersatt (Superseded to) av 1753233YP för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 1, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-lift-grip",
+      "statement": "PartsTree anger att reservdel 092697MA är ersatt (Superseded to) av 1753233YP för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 5, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-cotter-pin",
+      "statement": "PartsTree anger att reservdel 030X20MA är ersatt (Superseded to) av 703312 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 11, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-flange-nut",
+      "statement": "PartsTree anger att reservdel 015X84MA är ersatt (Superseded to) av 703893 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 14, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-lift-link",
+      "statement": "PartsTree anger att reservdel 690122E701MA är ersatt (Superseded to) av 7300877ZMA för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 21, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-hair-pin",
+      "statement": "PartsTree anger att reservdel 0031X4MA är ersatt (Superseded to) av 703300 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 24, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-lift-pin",
+      "statement": "PartsTree anger att reservdel 094067MA är ersatt (Superseded to) av 704054 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 30, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-flange-nut-small",
+      "statement": "PartsTree anger att reservdel 015X68MA är ersatt (Superseded to) av 703333 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 39, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1285,6 +1373,7 @@
     "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
     "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
     "Styrningens A-artikelnummer får inte överföras till 425014X92B, där bl.a. ratt, styrdrev och framaxelsuffix skiljer sig. Kontrollera maskinens exakta modellmärkning.",
-    "F-040721L MOTION DRIVE s.4 textverifierad, men bildvisning av sprängskissen misslyckades. Dana-typnummer, fysisk kompatibilitet och ersättningsnummer kvarstår."
+    "F-040721L MOTION DRIVE s.4 textverifierad, men bildvisning av sprängskissen misslyckades. Dana-typnummer, fysisk kompatibilitet och ersättningsnummer kvarstår.",
+    "Åtta PartsTree-Superseded-to-kedjor behöver kontrolleras mot Murray/Briggs egna delnummerrevisioner och fysisk maskin innan beställningsrekommendation."
   ]
 }
