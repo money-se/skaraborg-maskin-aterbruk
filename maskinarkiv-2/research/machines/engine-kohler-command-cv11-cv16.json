@@ -648,6 +648,33 @@
       "topic": "I",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-cv16-smartspark-ko1046",
+      "statement": "Kohler TP-2339-D kräver tändningstestare KO1046 för gnistprov på CV16 Smart Spark/CD-tändning; annan provare kan ge felaktig diagnos. SAM kräver minst 7,2 V DC från maskinens elsystem.",
+      "variant": "CV16 Smart Spark med SAM enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.7, PDF page index 64, Testing of Smart Spark Ignition Systems",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cv16-smartspark-resistance",
+      "statement": "Kohler TP-2339-D anger CV16 Smart Spark-modulens resistans vid cirka 21 °C: brun ledning mot lamellpaket 145–160 ohm, gul ledning mot lamellpaket 900–1000 ohm och tändkabelterminal mot lamellpaket 3800–4400 ohm. Värdena är inte generella för andra tändsystem.",
+      "variant": "CV16 Smart Spark tändmodul enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.8, PDF page index 65, troubleshooting step 6a–c",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cv16-smartspark-air-gap",
+      "statement": "Kohler TP-2339-D anger luftgap mellan tändmodul och svänghjul 0,203–0,305 mm för CV16 Smart Spark-systemets felsökning; exakt variant och monteringsmetod måste beaktas.",
+      "variant": "CV16 Smart Spark enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.7, PDF page index 64, Specifications Required",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -672,6 +699,7 @@
     "Diagnosverktyg 25 761 06-S, 25 761 05-S och 25 455 01-S har tillverkarbelagda katalognummer men provförfarande och acceptansgränser måste hämtas från rätt servicemanual och motorvariant.",
     "Oljetryck 40 psi i TP-2339-D p.11.23 avser specifikt återmonteringsprov efter 90 s tomgång. Utred separata originalgränser för normal drift och eventuell motorversionsskillnad före bred felsökningsrekommendation.",
     "Kohler mekanisk bränslepump: komponentnummer, exakt Spec. No.-passning och eventuella ändrade monteringsprocedurer i senare revisionsmanualer är inte verifierade.",
-    "Bränsle- och cylinderläckagetest måste utföras enligt fullständig säkerhets- och instrumentanvisning; Kohlers grönt/gult/rött avser specifik läckagetestare och inga generella läckageprocent har verifierats."
+    "Bränsle- och cylinderläckagetest måste utföras enligt fullständig säkerhets- och instrumentanvisning; Kohlers grönt/gult/rött avser specifik läckagetestare och inga generella läckageprocent har verifierats.",
+    "CV16 Smart Spark-mätvärden och KO1046 får inte överföras till Kohlers magnetotändning utan SAM; kontrollera rätt tändsystem och motorns specifikationsnummer."
   ]
 }
