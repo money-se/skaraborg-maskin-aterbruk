@@ -249,6 +249,13 @@
       "title": "MTD White manual, RH single speed transaxle 618-0163B",
       "document": "Illustrated original transaxle diagram: page 48, Shell Darina 15 oz 426 ml, 737-0148",
       "url": "https://web.ncf.ca/da229/smallengine/mtd-white-manual-OGRM-5002_L145g-l160g-winnie.pdf"
+    },
+    {
+      "id": "mtd-parts-76901641c-modern-transaxle",
+      "tier": 1,
+      "title": "MTD illustrated parts list 769-01641C",
+      "document": "Illustrated transaxle variant 618-04041A and housing 719-04017, 719-04018; 19 oz 737-0148, 2 oz Unirex N3 737-0289 upper housing note",
+      "url": "https://apps.mtdproducts.com/manuals/769-01641c.pdf"
     }
   ],
   "topics": {
@@ -274,7 +281,7 @@
     },
     "F": {
       "state": "gap",
-      "note": "MTD:s 2000-reservdelslista anger bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705. Separata delar är katalogbelagda men exakt serienummerpassform och funktionstest återstår. Originalritning för transaxel 618-0163B varnar för släpande broms; exakt modellbundet justermått återstår."
+      "note": "MTD:s 2000-reservdelslista anger bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705. Separata delar är katalogbelagda men exakt serienummerpassform och funktionstest återstår. Originalritning för transaxel 618-0163B varnar för släpande broms; exakt modellbundet justermått återstår. Operatörsmanualen anger neutraljusteringsmoment 13 ft-lb, motor av vid bromsjustering och familjespecifik hastighetsreglagejustering enligt figur 17."
     },
     "G": {
       "state": "gap",
@@ -282,7 +289,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G."
     },
     "I": {
       "state": "gap",
@@ -290,7 +297,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept. Bildgranskad MTD/White originalillustration för 618-0163B anger 15 oz (426 ml) Shell Darina 737-0148, medan tidigare teknisk handbok anger 10 oz för sin angivna version. Servicemängd är därmed versionsspecifik och kan inte extrapoleras till varje 13BH670F062. Ytterligare textavsnitt i samma MTD-handbok (6-15) anger 14 oz Shell Durina #0 vid återmontering, utöver handbokens 10 oz och originalritningens 15 oz för 618-0163B. Exakt avsnitt/variant kräver sidbild och modellbindning."
+      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept. Bildgranskad MTD/White originalillustration för 618-0163B anger 15 oz (426 ml) Shell Darina 737-0148, medan tidigare teknisk handbok anger 10 oz för sin angivna version. Servicemängd är därmed versionsspecifik och kan inte extrapoleras till varje 13BH670F062. Ytterligare textavsnitt i samma MTD-handbok (6-15) anger 14 oz Shell Durina #0 vid återmontering, utöver handbokens 10 oz och originalritningens 15 oz för 618-0163B. Exakt avsnitt/variant kräver sidbild och modellbindning. Senare MTD-IPL 769-01641C redovisar 19 oz 737-0148 med helt andra hus- och differentialnummer samt separat 2 oz Unirex N3 i ingående axelns hålrum. Inte tillämplig på 13BH670F062 utan bevis."
     },
     "K": {
       "state": "gap",
@@ -1232,6 +1239,60 @@
       "grade": "B",
       "sourceId": "white-6180163b-manual-visual",
       "locator": "PDF-sida 48, bromsnotis vid ritningens nedre vänstra del"
+    },
+    {
+      "id": "mtd-om-neutral-adjustment-13ftlb",
+      "topic": "F",
+      "statement": "Originalmanualen för Transmatic 660–679 beskriver neutraljustering: med transaxeln i neutral ska maskinen kunna rullas fritt med parkeringsbromsen lossad; växelspakens länk justeras i neutralläget och fästbulten dras till 13 ft-lb. Utgör en familjeinstruktion, inte identifiering av en viss årsrevision.",
+      "variant": "MTD Transmatic 660–679, operatörsmanual 770-10115A, inte serienummerbunden",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Manual page 16, Neutral Adjustment, Fig. 15: tighten bolt to 13 foot pounds"
+    },
+    {
+      "id": "mtd-om-brake-engine-off",
+      "topic": "F",
+      "statement": "Originalmanualen för Transmatic 660–679 varnar uttryckligen för att motorn inte får vara igång under bromsjustering. Manualen anger att bromsen sitter vid höger bakhjul inne i ramen.",
+      "variant": "MTD Transmatic 660–679, operatörsmanual 770-10115A, inte serienummerbunden",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Manual page 16, Brake Adjustment, Fig. 16: 'Do not have the engine running when you adjust the brake'"
+    },
+    {
+      "id": "mtd-om-speed-control-ferrule",
+      "topic": "F",
+      "statement": "Originalmanualens hastighetsjustering utgår från att kopplings-/bromspedalen pressas mot stoppstången och hålls där; reglage i parkeringsbromsläge, sprint och planbricka tas bort och gaffellänken (ferrule) ställs vid spårets bakre ände och förlängs ett varv. Denna detaljerade metod är familjebunden och fordrar rätt reglageutförande.",
+      "variant": "MTD Transmatic 660–679, operatörsmanual 770-10115A, inte serienummerbunden",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Manual page 17, Speed Control Adjustment, Fig. 17"
+    },
+    {
+      "id": "mtd-om-deck-belt-disengagement-check",
+      "topic": "H",
+      "statement": "I originalmanualen för Transmatic 660–679 anges kontroll av knivremmens frikoppling genom att lyftreglaget placeras i BLADES STOP; klippaggregatet ska röra sig uppåt och framåt så remmen lossnar. Denna kontroll gäller familjemanualens utförande och identifierar inte 38- eller 42-tumsdäck på ett exemplar.",
+      "variant": "MTD Transmatic 660–679, operatörsmanual 770-10115A, inte serienummerbunden",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Manual page 15–16, Check adjustment by placing lift lever in BLADES STOP, Fig. 14"
+    },
+    {
+      "id": "mtd-2005-ipl-19oz-different-transaxle",
+      "topic": "J",
+      "statement": "MTD:s senare reservdelslista 769-01641C redovisar en annan transaxelkonstruktion med differential 618-04041A, hus 719-04017/719-04018 och smörjmedelsrad 737-0148 med 19 oz; dessa delar är inte fastställda för 13BH670F062 och 19 oz får inte överföras till den äldre 618-0163-familjen.",
+      "variant": "MTD senare delboksvariant 769-01641C, inte styrkt för 13BH670F062",
+      "grade": "B",
+      "sourceId": "mtd-parts-76901641c-modern-transaxle",
+      "locator": "Transaxle IPL parts list: Ref 6 upper housing 719-04017, Ref 13 differential 618-04041A, Ref 23 lower housing 719-04018, Grease (19 oz.)"
+    },
+    {
+      "id": "mtd-2005-ipl-upper-housing-unirex",
+      "topic": "J",
+      "statement": "Samma MTD-delbok anger att vid ombyggnad av övre transmissionshuset ska 2 oz Unirex N3, nummer 737-0289, läggas i ingående axelns hålrum. Detta gäller enhetens egna hus- och axelnummer och är inte en extra doseringsinstruktion för 13BH670F062.",
+      "variant": "MTD senare delboksvariant 769-01641C, inte styrkt för 13BH670F062",
+      "grade": "B",
+      "sourceId": "mtd-parts-76901641c-modern-transaxle",
+      "locator": "Transaxle IPL note: 'If rebuilding the upper housing, include two ounces (2 oz.) of Unirex N3 grease (Part No. 737-0289) in the input shaft cavity'"
     }
   ],
   "gaps": [
@@ -1273,6 +1334,7 @@
     "Bekräfta 1996-ändringens effekt på 13BH670F062/2000 innan någon invändig differentialreparation rekommenderas; MTD:s handbok anger att den nyare enheten inte är servicebar.",
     "Undersök om äldre handbokens Shell Durina 737-0148 och nuvarande Benalene 920 737-0300A gäller samma transaxelrevision samt korrekt mängd för 13BH670F062 innan någon smörjningsprocedur publiceras.",
     "Fastställ om 13BH670F062 faktiskt har transaxelrevision 618-0163B eller annan 918-0163D-familjevariant före val av fettmängd; bildgranskade 15 oz får inte ersätta handbokens 10 oz generellt.",
-    "Jämför handbok 770-10579:s avsnitt 6-1.3 (10 oz) med reparationssektion sida 6-15 (14 oz) och sprängskiss 618-0163B (15 oz): identifiera teknisk revisionsskillnad, konstruktion och OEM-instruktion före publicering av smörjmängd."
+    "Jämför handbok 770-10579:s avsnitt 6-1.3 (10 oz) med reparationssektion sida 6-15 (14 oz) och sprängskiss 618-0163B (15 oz): identifiera teknisk revisionsskillnad, konstruktion och OEM-instruktion före publicering av smörjmängd.",
+    "Fastställ uppgiften om 19 oz och 2 oz Unirex N3 till den senare MTD 769-01641C-konstruktionen och förhindra att den sammanblandas med transaxel 618-0163/918-0163D."
   ]
 }
