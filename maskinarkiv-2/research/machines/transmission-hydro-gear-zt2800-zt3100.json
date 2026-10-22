@@ -1259,6 +1259,222 @@
       "sourceId": "hg-schematic-71370-p64-2020",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p64-bypass-arm-four",
+      "statement": "Bypassarm position 34 är artikel 51629 vid char11=1, 51910 vid 2, 52370 vid 3 och 52742 vid 4.",
+      "variant": "char11=1/2/3/4",
+      "locator": "PDF sida 6/17 (index 5), BYPASS ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-gerotor",
+      "statement": "Gerotor position 131 har artikelnummer 50273 och beskrivs 1,9 cc/varv i laddpumpsdelarnas tabell.",
+      "variant": "char3=G,H,K,L,N,P",
+      "locator": "PDF sida 6/17 (index 5), CHARGE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-cover-rh-lh",
+      "statement": "Laddpumpslock position 133 skiljer 53738 för char3 G/H/K/L och 53737 för N/P.",
+      "variant": "char3 G,H,K,L respektive N,P",
+      "locator": "PDF sida 6/17 (index 5), CHARGE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-connectors",
+      "statement": "Laddpumpens anslutningsrör pos130 har artikel 54501 (två exemplar), O-ring pos132 artikel 55204 och gerotortätning pos157 artikel 72291 i P64.",
+      "variant": "char3=G,H,K,L,N,P",
+      "locator": "PDF sida 6/17 (index 5), CHARGE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-input-charge-kits",
+      "statement": "Laddpumpssats pos203 är 72274 vid char3 G/H/K/L och 72274 vid N/P; den innehåller 131–134. Ingående axelsats pos210 anges som 73047 för båda dessa grupper.",
+      "variant": "char3=G,H,K,L,N,P",
+      "locator": "PDF sida 6/17 (index 5), INPUT SHAFT AND CHARGE KITS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-input-kit-without",
+      "statement": "För char3 J/M anger P64 ingående axelsats pos210 artikel 73040, med ingående komponenter 52,53,54,124.",
+      "variant": "char3=J,M",
+      "locator": "PDF sida 6/17 (index 5), INPUT SHAFT AND CHARGE KITS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-arm-1-2",
+      "statement": "För char7=1/2 listas bromsarm pos102 som artikel 52501 vid char7=1 respektive 52499 vid char7=2.",
+      "variant": "char7=1 respektive 2",
+      "locator": "PDF sida 7/17 (index 6), BRAKE ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-handle-rh-lh",
+      "statement": "P64 anger bromshandtag pos102 artikel 53973 för de i tabellen specificerade char7 3/6/7/E/D/S/U/W med char8 och char14 enligt respektive rad; för vissa char7=5/T anges bromsarmskit 71957 höger och 71958 vänster beroende på char3.",
+      "variant": "Villkor styrs av char7, char8, char14, ibland char3",
+      "locator": "PDF sida 7/17 (index 6), BRAKE ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-shaft-select",
+      "statement": "Bromsaxel pos101 kan vara artikel 52651, 55480 (inboard) eller 55479 (outboard), och väljs enligt kodtecken 7 och 8 i tabellen.",
+      "variant": "char7/char8 enligt BRAKE SHAFT",
+      "locator": "PDF sida 7/17 (index 6), BRAKE SHAFT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-pad-common",
+      "statement": "Bromspuck pos100 är artikel 52766 i bromskomponenttabellerna för ett flertal bromsvarianter; antalet kompletterande tätningar varierar med char7.",
+      "variant": "char7 enligt BRAKE COMPONENTS; ej universal",
+      "locator": "PDF sida 7/17 (index 6), BRAKE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-shaft-72753-56",
+      "statement": "Bromsaxelsats pos215 för char7=3/5/6/7/8/E fördelas enligt char3 och char8 på artiklarna 72753, 72754, 72755 och 72756; välj från full trekolumnsmatris.",
+      "variant": "char7=3,5,6,7,8,E; char3/char8 avgör",
+      "locator": "PDF sida 7/17 (index 6), BRAKE SHAFT KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-shaft-73118-21",
+      "statement": "Bromsaxelsats pos215 för char7=9/D/S/T/U/W fördelas enligt char3 och char8 på artiklarna 73118, 73119, 73120 och 73121; satserna visar andra innehåll än 72753–72756.",
+      "variant": "char7=9,D,S,T,U,W; char3/char8 avgör",
+      "locator": "PDF sida 7/17 (index 6), BRAKE SHAFT KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-a-b-components",
+      "statement": "P64:s externa bromskomponentlista för char7=A/B listar tätningssats pos160 artikel 70719, bromsrotor pos171 artikel 53989, bromspuck pos170 artikel 44132 (2 st) och brake-yoke-kit pos214 artikel 70633.",
+      "variant": "char7=A/B",
+      "locator": "PDF sida 8/17 (index 7), BRAKE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-a-b-arm",
+      "statement": "Bromsarmen pos102 är artikel 53326 vid char7=A och char8=1, alternativt artikel 54440 vid char7=B och char8=2.",
+      "variant": "char7=A + char8=1; eller char7=B + char8=2",
+      "locator": "PDF sida 8/17 (index 7), BRAKE ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-breather-fittings",
+      "statement": "P64:s breather-tabell anger pos111 artikel 71393 för viss char7/char5/char13-kombination, samt separat pos194 artikel 55734 för interna expansionsutföranden. Samma anslutning får inte antas passa alla konfigurationer.",
+      "variant": "char7/char5/char13 samt char3 enligt BREATHER FITTINGS",
+      "locator": "PDF sida 9/17 (index 8), BREATHER FITTINGS AND PLUGS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-expansion-tank-number",
+      "statement": "Intern expansionstank, pos195, listas som artikel 55071 (RH) eller 55072 (LH), bestämt av char3 i kombination med char7/char13.",
+      "variant": "char3 G,H,J,N -> 55071, K,L,M,P -> 55072, inom särskilda char7/char13-villkor",
+      "locator": "PDF sida 9/17 (index 8), BREATHER FITTINGS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-oil-codes-volume",
+      "statement": "P64:s oljetabell anger 70,3 US fl oz för char7 3/4/5/6/7/8/A/E + char13 L/R/X, 71,9 US fl oz för char7 9/B/D/K + char13 L/R/X och 56,6 US fl oz för char7 S/T/U/W + char13 T.",
+      "variant": "Modellkodsvillkor enligt P64, inte expansionsslangvolym",
+      "locator": "PDF sida 9/17 (index 8), OIL",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-fan-kit-0-9",
+      "statement": "I P64 fan/pulley-tabell finns pos207 satserna 72986, 72885, 72984, 72974, 72981, 73110, 72980, 72982 och 72971 för char12 0,1,2,3,4,5,6,7,9, med särskilda char3-villkor.",
+      "variant": "char12=0,1,2,3,4,5,6,7,9; char3 enligt tabellen",
+      "locator": "PDF sida 10/17 (index 9), FAN & PULLEY KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-fan-kit-a-j",
+      "statement": "För char12 A–J listar P64 fläkt-/remskivesatser pos207 72972, 72975, 72975, 72976, 72973, 72972/71833, 72977, 72974/72979, (ej H), 72983 i olika char3-undergrupper; den tryckta matrisen måste väljas radvis.",
+      "variant": "char12=A–J; char3 enligt tabellen",
+      "locator": "PDF sida 11/17 (index 10), FAN & PULLEY KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-fan-kit-m-y",
+      "statement": "För char12 M,N,P,T,U,W,Y listar P64 fläkt-/remskivesatser pos207 72972,72973,72979,73976,72978,72977,72976; char12=X anges som N/A.",
+      "variant": "char12=M,N,P,T,U,W,X,Y och char3 enligt tabellen",
+      "locator": "PDF sida 12/17 (index 11), FAN & PULLEY KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-main-housing-varies",
+      "statement": "P64 MAIN HOUSING KITS visar att komplett hus pos1 har skilda artikelnummer med beroenden på char4, char7, char5, char3 och char9; exempelvis 71412 (RH charge) och 71420 (LH charge) inom översta specifika kodgruppen.",
+      "variant": "char4 A–K,L–P; char7 1/3/5/6/7/8/9/E; char5 A–G; char3 och char9 specificerade i tabellen",
+      "locator": "PDF sida 13/17 (index 12), MAIN HOUSING KITS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-seal-kit-contents",
+      "statement": "P64 pos200 tätningkit artikel 73107 visas som övergripande tätningkit; skissens markeringar och items-inkludering styr vilka enskilda tätningar/sprintar som medföljer.",
+      "variant": "P64, seal kit 73107, edition-bound",
+      "locator": "PDF sida 1/17 (index 0), exploded schematic footer",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-spring-options",
+      "statement": "RTN-fjäder pos147 skiljs på char9: 52401 för 2/3/4/7/8/9, 51833 för A–F, 51605 för G/H/J/K/L/M/Y och 54402 för U; char10 måste samtidigt vara B/C/F/G.",
+      "variant": "char9 och char10 i SPRING-table",
+      "locator": "PDF sida 2/17 (index 1), SPRING",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-neutral-arm-u",
+      "statement": "Neutralarm pos141 är sats 72431 RH om char9=U + char10=B och 72432 LH om char9=U + char10=C.",
+      "variant": "char9=U, char10=B/C",
+      "locator": "PDF sida 2/17 (index 1), NEUTRAL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1287,6 +1503,7 @@
     "För valen chockventil A–F, bromskod S/9 och axeländarnas mått krävs faktisk BOM-specifik service schematic och fysisk märkplåt innan delar beställs.",
     "Verifiera om originalschemat 71370 P64 (2020-12-29) är tillämpligt på aktuell transaxel med modellkod och serienummer och om Hydro-Gear har senare ersättningsnummer för 52149/52148/52344/52109/52110/52341/52342/52343, innan reservdel rekommenderas.",
     "För mittsektionssats pos.201 måste samtliga char 3/5/6/7 och källrevision kontrolleras mot etikett; artikel 71561–71564 är uttryckliga P64-rader, inte generell passform.",
-    "Kontrollera schemarevision efter P64 samt komplett 14-teckens Hydro-Gear-modellkod/serienummer före beställning av axelsats 71569/71570, navsats eller RTN-sats."
+    "Kontrollera schemarevision efter P64 samt komplett 14-teckens Hydro-Gear-modellkod/serienummer före beställning av axelsats 71569/71570, navsats eller RTN-sats.",
+    "Större P64-paket sidbildsverifierat 2026-10-22; samtliga artikelnummer gäller 71370 P64 2020-12-29. Senare ersättningsnummer och faktisk kund-BOM/serienummer återstår. Ingen generell kompatibilitet får utlovas."
   ]
 }
