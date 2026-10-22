@@ -11,6 +11,27 @@
       "title": "Kohler Command CV11–16, CV460–465, CV490–495 Service Manual",
       "document": "TP-2339-D, Section 1, Figure 1-1 and Figure 1-2, printed page 1.3 (PDF p. 5)",
       "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/tp_2339_d.pdf"
+    },
+    {
+      "id": "kohler-owners-1259001",
+      "tier": 1,
+      "title": "Kohler Command CV11–CV16, CV460–CV493 Owner's Manual",
+      "document": "12 590 01; Specifications, printed p.6, PDF page index 5",
+      "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/12_590_01.pdf"
+    },
+    {
+      "id": "kohler-accessories-25800148-reve",
+      "tier": 1,
+      "title": "Kohler Engines – Parts and Accessories",
+      "document": "25 800 148 Rev. E; printed page 5 (PDF page index 4), Oil Pressure Switch (Oil Sentry)",
+      "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/25_800_148_Accessories%20Guide.pdf"
+    },
+    {
+      "id": "kohler-fast-moving-parts-guide",
+      "tier": 1,
+      "title": "Kohler Engines Fast Moving Parts Quick Reference Guide",
+      "document": "IGNITION – Electronic Ignition Modules, printed page 34, PDF page index 33; warning on printed page 2",
+      "url": "https://www.steam-brite.com/equipment/Kohler%20engine%20Quick-Reference-Parts-Guide.pdf"
     }
   ],
   "topics": {
@@ -24,7 +45,7 @@
     },
     "C": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Originalservicehandboken skiljer Walbro och Nikki genom tomgångsreglage, pressat respektive gängat huvudmunstycke och begränsningar för emissionsutföranden. Exakt förgasar- och munstycksnummer per Spec. No. återstår."
     },
     "D": {
       "state": "gap",
@@ -40,7 +61,7 @@
     },
     "G": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Oil Sentry är tillval; elsystem, sensoradapter och stopp- kontra varningskoppling måste identifieras per maskin innan funktionsråd kan godkännas."
     },
     "H": {
       "state": "gap",
@@ -48,15 +69,15 @@
     },
     "I": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Kohler har källbelagda mätmetoder för vevhusvakuum, oljetryck, Oil Sentry, läckagetest och tändning. 10,2 cm vattenmanometer, 2–5 psi Oil Sentry och minst 40 psi efter återmontering avser skilda prov; variant och mätvillkor måste särskiljas."
     },
     "J": {
       "state": "gap",
-      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade.\nFollow-up research: Regulatorns moment och fjäderhål är källbundna till TP-2339-D och aktuell mekanik. 3750 rpm är inte universellt OEM-varvtal; dessutom är tändstiftsmomentet motstridigt i originalmanualerna. Generella moment- eller varvtalsråd spärrade tills variant identifieras."
     },
     "K": {
       "state": "gap",
-      "note": "Belagda delfynd finns i claims; området förblir gap tills alla relevanta varianter och maskinkopplingar kontrollerats."
+      "note": "Belagda delfynd finns i claims; området förblir gap tills alla relevanta varianter och maskinkopplingar kontrollerats.\nFollow-up research: Originalnumren täcker tändsystem, 15/25 A-laddning, bränsle-/oljefilter, luftsats, elstarter och Oil Sentry. Val av exakt del är spärrat tills Spec. No., systemstorlek, filterhus och eventuella ersättningsnummer kontrollerats."
     },
     "L": {
       "state": "gap",
@@ -193,12 +214,928 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "kohler-owners-cv11-cv14-398",
+      "statement": "Kohler owner manual 12 590 01 lists 398 cm³ for CV11, CV12.5, CV13 and CV14.",
+      "variant": "CV11, CV12.5, CV13, CV14",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "kohler-owners-cv15-cv16-426",
+      "statement": "Kohler owner manual 12 590 01 lists 426 cm³ for CV15 and CV16.",
+      "variant": "CV15, CV16",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "kohler-owners-cv460-cv490-cc",
+      "statement": "Kohler owner manual 12 590 01 lists 460 cm³ for CV460 and 490 cm³ for CV490–CV493.",
+      "variant": "CV460 and CV490–CV493",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "kohler-owners-oil-with-filter-1p9",
+      "statement": "Kohler owner manual 12 590 01 lists oil capacity with filter of 1.9 litres for the listed CV11–CV16, CV460 and CV490–CV493.",
+      "variant": "CV11–CV16, CV460 and CV490–CV493 as specified in manual",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-owners-pressure-lube",
+      "statement": "Kohler owner manual 12 590 01 specifies full pressure lubrication with full flow filter for the listed CV11–CV16, CV460 and CV490–CV493.",
+      "variant": "CV11–CV16, CV460 and CV490–CV493 as specified in manual",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "kohler-owner-air-precleaner-pn",
+      "statement": "Ägarmanual 12 590 01 listar förfilter: 12 083 08-S standard för CV11–CV16 och 12 083 12-S extra capacity för CV11–CV16 samt CV460–CV493. Tabellen är ett dokumentbundet katalogfynd, inte ett universellt passningsbesked.",
+      "variant": "CV11–CV16 / CV460–CV493, relevant luftfilterkonfiguration",
+      "topic": "K",
+      "locator": "Air Cleaner > Service Precleaner, printed p.11 PDF index 10",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-owner-paper-filter-pn",
+      "statement": "Ägarmanual 12 590 01 listar pappersfilter 12 083 05-S standard (71 mm), 12 083 09-S U.L. approved (71 mm) och 12 083 10-S extra capacity (84 mm) för CV11–CV16; extra capacity 12 083 10-S för CV460–CV493.",
+      "variant": "CV11–CV16 / CV460–CV493, specifikt filterhus/konfiguration måste kontrolleras",
+      "topic": "K",
+      "locator": "Air Cleaner > Service Paper Element, printed p.11 PDF index 10",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-owner-spark-torque-difference",
+      "statement": "Ägarmanual 12 590 01 anger tändstiftsmoment 38,0–43,4 Nm, vilket avviker från den tidigare registrerade verkstadshandbokens 24,4–29,8 Nm. Ingen entydig tillämpningsregel är ännu fastställd; värdena får inte publiceras som generellt servicevärde.",
+      "variant": "CV11–CV16 / CV460–CV493 enligt ägarmanual 12 590 01",
+      "topic": "G",
+      "locator": "Check Spark Plug > installation step 4, printed p.12 PDF index 11",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-owner-oil-drain-plug-torque",
+      "statement": "Ägarmanual 12 590 01 anger åtdragningsmoment 13,6 Nm för oljeavtappningspluggen vid oljebyte.",
+      "variant": "CV11–CV16 / CV460–CV493 enligt 12 590 01; aktuell avtappningsplugg måste identifieras",
+      "topic": "J",
+      "locator": "Change Oil, step 3, printed p.9 PDF index 8",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-owner-inline-fuel-filter-200h",
+      "statement": "Kohler ägarmanual 12 590 01 anger att motorer som har inline-bränslefilter ska få filtret kontrollerat regelbundet och bytt med Kohler-filter var 200:e drifttimme. Detta är ett serviceintervall, inte ett specifikt artikelnummers passform.",
+      "variant": "CV11–CV16 och CV460–CV493 enligt 12 590 01, endast motor med inline-bränslefilter",
+      "locator": "Fuel Filter, printed page 12, PDF page index 11",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-owner-walbro-nikki-carburetors",
+      "statement": "Kohler ägarmanual 12 590 01 beskriver Walbro- och Nikki-förgasare som två förekommande utföranden med fast huvudmunstycke, och anger att deras tomgångsreglage skiljer sig. Vilken förgasare som sitter på ett enskilt motorexemplar måste identifieras före reservdelsval och justeringsråd.",
+      "variant": "CV11–CV16 och CV460–CV493 inom manualens omfattning; ej specifikationsbunden förgasaridentitet",
+      "locator": "Carburetor Troubleshooting and Adjustments; Figure 11, printed page 12, PDF page index 11",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "kohler-owner-oil-filter-5205002s",
+      "statement": "Kohler ägarmanual 12 590 01 anger Kohler originaloljefilter 52 050 02-S vid oljefilterbyte. Uppgiften är knuten till manualens CV11–CV16/CV460–CV493-omfång och innebär inte att samtliga Spec. No., senare artikelersättningar eller filteradaptrar är kontrollerade.",
+      "variant": "Command CV11–CV16/CV460–CV493 enligt Kohler 12 590 01; exakt Spec. No. ej verifierat",
+      "locator": "Change Oil Filter, tryckt sida 10, PDF sidindex 9, första stycket",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-service-oil-filter-installation",
+      "statement": "Kohler 12 590 01 föreskriver att oljefiltrets gummipackning oljas och att filtret efter packningskontakt dras ytterligare 2/3 till 1 varv. Proceduren får endast användas för berört filter-/adapterutförande.",
+      "variant": "Command CV11–CV16/CV460–CV493 enligt Kohler 12 590 01",
+      "locator": "Change Oil Filter, tryckt sida 10, PDF sidindex 9, steg 5–6",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-owner-carb-low-idle-1200-application",
+      "statement": "Kohler 12 590 01 anger 1200 ±75 rpm som rekommenderad grundtomgång vid justering, men framhåller att faktiskt tomgångsvarvtal beror på maskintillämpningen och att utrustningstillverkarens anvisning ska följas. Värdet får inte användas som universell inställning för en viss åkgräsklippare.",
+      "variant": "Kohler Command CV11–CV16/CV460–CV493, Walbro/Nikki enligt ägarmanual, maskinspecifik tillämpning okänd",
+      "locator": "Carburetor Adjustment, printed page 13 (PDF index 12), Low Idle Speed Setting step 3 and footnote",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "kohler-owner-carb-high-altitude-1525m",
+      "statement": "Kohler 12 590 01 varnar för att motordrift över 1525 meter kan kräva särskild höghöjdsmunstyckssats installerad av auktoriserad Kohler-återförsäljare. Efter sådan ändring ska originalmunstycke återmonteras före drift på låg höjd för att undvika överhettning/motorskada. Inget satsnummer anges.",
+      "variant": "Kohler Command CV11–CV16/CV460–CV493 enligt manual 12 590 01, förgasarutförande ej identifierat",
+      "locator": "Carburetor, printed page 12 (PDF index 11), note regarding altitude above 1525 metres",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "kohler-owner-fuel-ethanol-max10",
+      "statement": "Kohlers ägarmanual 12 590 01 godkänner bensin med högst 10 volymprocent etanol och avråder från andra bensin/alkoholblandningar; uppgiften gäller den motorgeneration som manualen omfattar och ersätter inte senare bränslerekommendationer.",
+      "variant": "Kohler Command CV11–CV16, CV460–CV493 enligt ägarmanual 12 590 01",
+      "locator": "Tryckt sida 5 (PDF sidindex 4), Fuel Recommendations > Gasoline/Alcohol blends",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-owner-oil-api-sg-up",
+      "statement": "Kohlers ägarmanual 12 590 01 föreskriver rengörande motorolja med API-klass SG, SH, SJ eller högre samt val av SAE-viskositet efter omgivningstemperatur. Manualen anger även att syntetisk 5W-20/5W-30 kan användas vid högst 4 °C enligt oljetabellens anmärkning.",
+      "variant": "Kohler Command CV11–CV16, CV460–CV493 enligt ägarmanual 12 590 01",
+      "locator": "Tryckt sida 4 (PDF sidindex 3), Oil Recommendations > Oil Type och Figure 2",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-tp2339-oil-sentry-optional",
+      "statement": "Kohler TP-2339-D beskriver Oil Sentry som en valfri oljetrycksvakt. Vid lågt oljetryck kan utrustningens inkoppling ge motorstopp eller varningssignal; det går inte att förutsätta Oil Sentry på varje Command-motor.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D; faktisk Oil Sentry-konfiguration ej fastställd",
+      "locator": "Section 6, printed p. 6.4, Oil Sentry, PDF page index 51, Figure 6-9 adjacent",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "kohler-tp2339-oil-sentry-switch-psi",
+      "statement": "TP-2339-D anger att Oil Sentry-tryckvaktens kontakter öppnar vid ökande oljetryck och sluter vid sjunkande oljetryck, omkring 2–5 psi (ungefär 0,14–0,34 bar). Detta är brytarens växlingsområde, inte normalt oljetryck eller oljepumpens tryckspecifikation.",
+      "variant": "Command-motor utrustad med Oil Sentry enligt TP-2339-D",
+      "locator": "Section 6, printed p. 6.4, Oil Sentry > Operation, PDF page index 51",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-tp2339-oil-sentry-application",
+      "statement": "TP-2339-D beskriver att Oil Sentry i stationära eller obemannade tillämpningar kan jordsluta tändsystemet för stopp, medan fordonstillämpningar som gräsklippare kan använda sensorn till oljetrycksvarningslampa. Funktion beror på maskinens kopplingsschema.",
+      "variant": "Kohler Command med Oil Sentry, maskinspecifik inkoppling ej identifierad",
+      "locator": "Section 6, printed p. 6.4, Oil Sentry > Operation, PDF page index 51",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "kohler-oil-sentry-switch-torque-6p8",
+      "statement": "TP-2339-D anger åtdragningsmoment 6,8 Nm vid montering av Oil Sentry-tryckvakten i det gängade hålet i oljefilteradaptern. Gäller endast utföranden där denna tryckvakt och adapter finns.",
+      "variant": "Kohler Command enligt TP-2339-D, motor med installerbar Oil Sentry-vakt",
+      "locator": "Section 6, printed p.6.5, PDF page index 52, installation step 2 and Fig.6-10",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-oil-sentry-no-sensor-1-8nptf",
+      "statement": "TP-2339-D anger att anslutningen på motor utan Oil Sentry kan vara försluten med 1/8-27 N.P.T.F.-plugg, men noterar att vissa filteradaptrar helt saknar möjlighet för vakten. En igenpluggad anslutning bevisar inte stöd på samtliga adaptrar.",
+      "variant": "Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D, adaptervarianter",
+      "locator": "Section 6, printed p.6.5, PDF index 52, Installation and Fig.6-10 note",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "kohler-oil-sentry-test-contact",
+      "statement": "Vid Kohlers originalprov för Oil Sentry ska kontakten vara sluten vid nolltryck, öppna inom 2–5 psi när trycket höjs och sluta inom motsvarande intervall när det sänks. Testet kräver tryckreglerad luft, manometer och kontinuitetsmätare; 90 psi i manualen avser testets högsta tryck och är inte motorns normala oljetryck.",
+      "variant": "Command med Oil Sentry-tryckvakt enligt TP-2339-D",
+      "locator": "Section 6, printed p.6.5, PDF index 52, Testing the Oil Sentry Switch",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-oil-sentry-kit-1270401s",
+      "statement": "Kohlers originaltillbehörskatalog 25 800 148 Rev. E listar Oil Sentry-sats 12 704 01-S för CH/CV11–16/460–493, normalt sluten kontakt och 2–5 psi aktivering. Fotnot anger att satsen omfattar tryckvakt, övriga delar och instruktioner. Satsen anges endast för motorer med elektrisk start och innebär inte att varje filteradapter eller maskinkabelstam är kompatibel.",
+      "variant": "Kohler CH/CV11–16/460–493 med elektrisk start; exakt Spec. No. och adapter ej kontrollerade",
+      "locator": "Lubrication > Oil Pressure Switch (Oil Sentry), printed p. 5 (PDF index 4), first row and footnotes",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-oil-sentry-other-family-not-interchangeable",
+      "statement": "Kohler 25 800 148 Rev. E listar 52 704 01-S för CH/CV17–26/730–745 och LV625–680 separat från 12 704 01-S för CH/CV11–16/460–493. Samma 2–5 psi klass och normalt slutna krets innebär inte att satserna är utbytbara.",
+      "variant": "Kohler Oil Sentry originaltillbehörskatalog Rev. E; olika familjer",
+      "locator": "Lubrication > Oil Pressure Switch, printed p. 5 (PDF index 4), first two rows",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-fuel-filter-2505021s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar bränslefilter 25 050 21-S, 75 mikron, anslutning för 1/4-tums slang och 2,13-tums huslängd, standard för CH/CV11–15/493. Exakt maskins bränslesystem måste identifieras.",
+      "variant": "CH/CV11–15/493 enligt accessory guide Rev. E",
+      "topic": "K",
+      "locator": "Fuel > Fuel Filters, printed p.20, PDF index 19",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-filter-2505022s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar bränslefilter 25 050 22-S, 51 mikron, 1/4-tums anslutning och 2,13-tums huslängd för CH/CV11–15/493 med pumpmatat bränsle. Ej generellt utbytbart mot gravitationsfilter.",
+      "variant": "CH/CV11–15/493, pumpmatat bränslesystem",
+      "topic": "K",
+      "locator": "Fuel > Fuel Filters, printed p.20, PDF index 19",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-filter-2505007s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar filter 25 050 07-S, 75 mikron, slangdimension 3/16 eller 1/4 tum och cirka 1-tums huslängd för bland annat CH/CV11–16/460–492. Katalogens utförande-/installationsbegränsningar kräver kontroll.",
+      "variant": "CH/CV11–16/460–492 enligt accessories guide Rev. E",
+      "topic": "K",
+      "locator": "Fuel > Fuel Filters, printed p.20, PDF index 19",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-remote-oil-filter-2470202s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar fjärrmonterad oljefiltersats 24 702 02-S, 23-tums oljeledningar, för bland annat CH/CV11–16/460–493 och anger att satsen innehåller filter 12 050 01-S. Montering förutsätter plats och kompatibel anslutning.",
+      "variant": "CH/CV11–16/460–493 och övriga uppräknade tillämpningar; installation ej maskinverifierad",
+      "topic": "K",
+      "locator": "Lubrication > Remote Oil Filter, printed p.4, PDF index 3",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-maintenance-kit-1278901s",
+      "statement": "Kohler Parts and Accessories 25 800 148 Rev. E lists maintenance kit 12 789 01-S for CV11–15 and specifies contained air filter 12 083 05-S. The catalog does not establish applicability to every Spec. No. or later supersession.",
+      "variant": "Kohler CV11–15 as listed in accessories guide Rev. E; air-cleaner and Spec. No. to be checked",
+      "locator": "Special Items > MAINTENANCE KITS, printed p. 9 (PDF page index 8), row 12 789 01-S",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-maintenance-kit-1278902s",
+      "statement": "Kohler Parts and Accessories 25 800 148 Rev. E lists maintenance kit 12 789 02-S for CV11–15 and 460–493 PRO, specifying contained air filter 12 083 10-S. This is distinct from kit 12 789 01-S and does not prove universal interchangeability.",
+      "variant": "Kohler CV11–15, 460–493 PRO as listed in accessories guide Rev. E; verify air-cleaner assembly and Spec. No.",
+      "locator": "Special Items > MAINTENANCE KITS, printed p. 9 (PDF page index 8), row 12 789 02-S",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-starter-solenoid-2543508s",
+      "statement": "Kohler originalkatalog 25 800 148 Rev. E listar internt jordat startrelä 25 435 08-S för CH/CV11–16/460–493. Det är ett katalogbundet tillämpningsområde; elsystem och Spec. No. på den enskilda maskinen måste kontrolleras.",
+      "variant": "CH/CV11–16/460–493, elektrisk installation ännu ej matchad",
+      "topic": "K",
+      "locator": "Starting > Starter Solenoids, printed p.6, PDF index 5",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-electric-start-kit-1274903s",
+      "statement": "Kohler 25 800 148 Rev. E anger elstartsats 12 749 03-S för CV11–16/460–493. Satsen exkluderar uttryckligen kabelhärva, som måste tillhandahållas separat med hänsyn till utrustningens variationer.",
+      "variant": "CV11–16/460–493; kabelhärva ej inkluderad",
+      "topic": "K",
+      "locator": "Starting > Electric Start Kits, printed p.6, PDF index 5",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-start-kit-1275547s",
+      "statement": "Kohler 25 800 148 Rev. E listar snörstartsats 12 755 47-S för CH/CV11–16/460–493, begränsad till motorkonfigurationer med fläktkåpa av metall.",
+      "variant": "CH/CV11–16/460–493 endast med metal blower housing",
+      "topic": "K",
+      "locator": "Starting > Recoil Start Kits, printed p.6, PDF index 5",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-dipstick-cv-1203802s",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar rak oljesticka 12 038 02-S för CV11–16/460–493. Passning och oljenivåmarkering måste kontrolleras på faktiskt oljepåfyllningsrör och specifikationsutförande.",
+      "variant": "CV11–16/460–493, rak oljesticka",
+      "locator": "Lubrication > Yellow Accessories, printed page 3 (PDF index 2)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-dipsticks-ch-1203810-14",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar 12 038 10-S som böjd och 12 038 14-S som rak oljesticka för CH11–15. Dessa CH-artiklar får inte ogrundat överföras till CV-utförandet.",
+      "variant": "CH11–15, böjd respektive rak oljesticka",
+      "locator": "Lubrication > Yellow Accessories, printed page 3 (PDF index 2)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-short-oil-filter-2805001s",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar kort oljefilter 28 050 01-S med höjd 2,32 tum vid utrymmesproblem och anger cirka 15 procent lägre filterkapacitet. Katalogen anger inte allmän passform för specifikt Kohler Spec. No.",
+      "variant": "Oljeinstallation med verifierat filtergänga, tätning och frigång; modell-/specifikationspassning ej fastställd",
+      "locator": "Lubrication > Oil Filters, printed page 4 (PDF index 3)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-tool-oil-pressure-kit-2576106s",
+      "statement": "Kohler originaltillbehörskatalog 25 800 148 Rev. E listar 25 761 06-S som Oil Pressure Test Kit för motorer med trycksmörjning. Verktyget används för diagnostik av faktiskt oljetryck, inte som Oil Sentry-brytarens kontaktprov eller som bevis för ett visst normalt oljetryck.",
+      "variant": "Kohler Command med trycksmörjning; testanslutning och arbetsmetod måste väljas enligt relevant servicemanual",
+      "locator": "Meters, Testers, and Special Tools, printed p.7, PDF page index 6, item 14",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-tool-leakdown-2576105s",
+      "statement": "Kohler originaltillbehörskatalog 25 800 148 Rev. E listar 25 761 05-S som Cylinder Leakdown Tester med angiven tillämplighet All; katalogen ger inte i sig läckagegränser för en viss Command-motor.",
+      "variant": "Kohler motorer generellt enligt katalogens 'All', inklusive berörd Command-familj",
+      "locator": "Meters, Testers, and Special Tools, printed p.7, PDF page index 6, item 13",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-tool-ignition-output-2545501s",
+      "statement": "Kohler originaltillbehörskatalog 25 800 148 Rev. E listar Ignition Output Tester 25 455 01-S för encylindriga motorer, utom tändsystem av kapacitiv urladdningstyp. Testverktygets användning kräver kontroll av faktiskt tändsystem.",
+      "variant": "Kohler encylindriga motorer, ej capacitive discharge ignition enligt katalog",
+      "locator": "Meters, Testers, and Special Tools, printed p.7, PDF page index 6, item 7",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-post-reassembly-oil-pressure-40psi",
+      "statement": "Kohler TP-2339-D Section 11 anger i provbänkskontroll efter fullständig återmontering: starta motorn med ansluten oljetrycksmätare, låt den gå på tomgång 90 sekunder och verifiera oljetryck 40 psi eller mer (cirka 2,76 bar). Därefter körs 5–10 minuter mellan tomgång och mellanvarv. Detta är manualens eftermonteringsprov, inte ett fritt generaliserbart normalt oljetrycksintervall.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 efter motoråtermontering på provbänk enligt TP-2339-D",
+      "locator": "Section 11 Reassembly, printed p. 11.23 (PDF page index 144), Testing the Engine, step 1",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-oil-pressure-test-access-ports",
+      "statement": "Kohler TP-2339-D beskriver oljetrycksmätning antingen genom att ta bort oljefiltret och montera provadaptern på filterytan, eller genom att ta bort Oil Sentry-tryckvakten/rörpluggen och skruva anslutningsslangen i den öppningen. Vald anslutning förutsätter rätt filteradapterutförande och provutrustning.",
+      "variant": "Kohler Command enligt TP-2339-D Section 6; faktisk Oil Sentry-port och filteradapter varierar",
+      "locator": "Section 6 Lubrication System, printed p. 6.5 (PDF page index 52), Testing Oil Pressure",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-tp2339-acr-compression-leakdown",
+      "statement": "Kohler TP-2339-D anger att automatisk kompressionslättnad (ACR) försvårar tillförlitlig vanlig kompressionsmätning; cylinderläckagetest rekommenderas som alternativ för att bedöma läckage via ventiler eller kolvringar.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 enligt TP-2339-D",
+      "locator": "Section 3, printed p.3.4 (PDF index 23), Compression Test/Cylinder Leakdown Test",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-pump-new-hole-torque",
+      "statement": "Kohler TP-2339-D anger 9,0 Nm för mekaniska bränslepumpens flänsskruvar vid montering i ett nytt, obearbetat gjuthål; detta moment ska inte överföras till redan använda hål.",
+      "variant": "Command med mekanisk nylonbränslepump enligt TP-2339-D, nytt as-cast monteringshål",
+      "locator": "Section 5, printed p.5.3 (PDF index 30), Installation step 3",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-pump-used-hole-torque",
+      "statement": "Kohler TP-2339-D anger 4,2–5,1 Nm för mekaniska bränslepumpens flänsskruvar vid montering i tidigare använt hål; värdet skiljer sig från ett nytt gjuthål.",
+      "variant": "Command med mekanisk nylonbränslepump enligt TP-2339-D, begagnat monteringshål",
+      "locator": "Section 5, printed p.5.3 (PDF index 30), Installation step 3",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-pump-arm-orientation",
+      "statement": "TP-2339-D kräver att den mekaniska bränslepumpens hävarm placeras till höger om kamaxeln sett från pumpens monteringsyta; fel placering kan orsaka allvarlig motor- och pumpskada. Nylonpumparna är inte reparerbara utan byts som enhet.",
+      "variant": "Command med mekanisk nylonbränslepump enligt TP-2339-D",
+      "locator": "Section 5, printed p.5.3 (PDF index 30), Repair and Installation step 2 warning",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-flow-diagnostic",
+      "statement": "Kohler TP-2339-D anger felsökningskedjan för motor med mekanisk bränslepump: kontrollera tankventilation och bränslekran, bränsleflöde fram till pumpens inlopp, därefter flöde vid förgasarens inlopp under startmotorkörning. Bristande flöde från tanken leder till kontroll av tankvent, sugsil, kran och slang; saknat pumpflöde efter kontroll av slang leder till pumpbyte.",
+      "variant": "CV11–CV16/CV460–465/CV490–495 med mekanisk bränslepump, enligt TP-2339-D",
+      "locator": "Section 5 Fuel System Troubleshooting Guide (Gasoline), printed p.5.2, PDF page index 29",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-leakdown-leak-origin",
+      "statement": "Kohler TP-2339-D:s cylinderläckagetest anger att hörbart luftläckage vid vevhusventilation pekar mot kolvringar/cylindervägg, vid avgassystem mot avgasventil och vid förgasarintag mot insugsventil. Testet utförs med kolven i övre dödläget på kompressionstakten och vevaxeln säkrad mot rotation.",
+      "variant": "CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D, cylinderläckagetest",
+      "locator": "Section 3 Cylinder Leakdown Test and Leakdown Test Results, printed p.3.4, PDF page index 23",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-leakdown-color-bands",
+      "statement": "Kohler TP-2339-D tolkar läckagetestarens gröna low-område som gott skick, gult moderate som användbar motor med visst slitage och rött high som betydande slitage på ringar och/eller cylinder. Färgzonerna avser det instrument som manualen beskriver, inte generella procentsatser för alla läckagetestare.",
+      "variant": "CV11–CV16/CV460–465/CV490–495, Kohler leakdown-tester enligt TP-2339-D",
+      "locator": "Section 3 Leakdown Test Results, printed p.3.4, PDF page index 23",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cv16-smartspark-ko1046",
+      "statement": "Kohler TP-2339-D kräver tändningstestare KO1046 för gnistprov på CV16 Smart Spark/CD-tändning; annan provare kan ge felaktig diagnos. SAM kräver minst 7,2 V DC från maskinens elsystem.",
+      "variant": "CV16 Smart Spark med SAM enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.7, PDF page index 64, Testing of Smart Spark Ignition Systems",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cv16-smartspark-resistance",
+      "statement": "Kohler TP-2339-D anger CV16 Smart Spark-modulens resistans vid cirka 21 °C: brun ledning mot lamellpaket 145–160 ohm, gul ledning mot lamellpaket 900–1000 ohm och tändkabelterminal mot lamellpaket 3800–4400 ohm. Värdena är inte generella för andra tändsystem.",
+      "variant": "CV16 Smart Spark tändmodul enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.8, PDF page index 65, troubleshooting step 6a–c",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cv16-smartspark-air-gap",
+      "statement": "Kohler TP-2339-D anger luftgap mellan tändmodul och svänghjul 0,203–0,305 mm för CV16 Smart Spark-systemets felsökning; exakt variant och monteringsmetod måste beaktas.",
+      "variant": "CV16 Smart Spark enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.7, PDF page index 64, Specifications Required",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-magneto-families-airgap",
+      "statement": "Kohler TP-2339-D beskriver vanlig elektronisk magnettändning för CV11–15/CV460–465/CV490–495, med luftgap 0,2–0,3 mm mellan tändmodul och svänghjul. Tändtidpunkten regleras internt av modulen och kan inte manuellt justeras.",
+      "variant": "CV11–15/CV460–465/CV490–495 magnettändning enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.3, Figure 8-2, PDF page index 60",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-magneto-ko1047-spark-test",
+      "statement": "TP-2339-D anger gnistprovare KO1047 för felsökning av elektronisk magnettändning på CV11–15/CV460–465/CV490–495; tändstiftet ska sitta kvar vid startmotorkörning för normalt startvarvtal. Detta får inte förväxlas med KO1046 för CV16 Smart Spark.",
+      "variant": "CV11–15/CV460–465/CV490–495 konventionell magnettändning",
+      "locator": "Section 8, printed p.8.4, Magneto Ignition System Troubleshooting Guide, Figure 8-3, PDF page index 61",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-magneto-secondary-ohms",
+      "statement": "TP-2339-D anger 7900–18400 ohm för tändmodulens sekundärlindning vid prov mellan lamellpaket och tändkabelns tändstiftsanslutning. Kohler noterar att mätningen förutsätter att modulen har avfyrats minst en gång. Värdet gäller magnettändningen och inte CV16 Smart Spark.",
+      "variant": "CV11–15/CV460–465/CV490–495 konventionell magnettändning enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.4, Magneto Ignition System Troubleshooting Guide, test 4, PDF page index 61",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-ignition-module-electric-1258404s",
+      "statement": "Kohler originalsnabbguide listar tändmodul 12 584 04-S för Command CH11–15/CH410–450 och CV11–15/CV430–493 med elstart; artikelnumret är katalogreferens och exakt specifikationsnummer måste kontrolleras.",
+      "variant": "CH11–15/CH410–450; CV11–15/CV430–493, elstart",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-ignition-module-recoil-1258405s",
+      "statement": "Kohler originalsnabbguide listar tändmodul 12 584 05-S för Command CH11–15/CH410–450 och CV11–15/CV430–493 med snörstart, separat från elstartmodulen 12 584 04-S.",
+      "variant": "CH11–15/CH410–450; CV11–15/CV430–493, snörstart",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-smart-spark-sam-1258412s",
+      "statement": "Kohler originalsnabbguide listar tändförställningsmodul Speed Advance Module 12 584 12-S för Command CH16 och CV16. Detta är en separat enhet från motorernas tändmodul.",
+      "variant": "CH16/CV16 Smart Spark according to Kohler quick reference",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-smart-spark-ignition-1258417s",
+      "statement": "Kohler originalsnabbguide listar tändmodul 12 584 17-S för Command CH16 och CV16, separat från SAM 12 584 12-S. Exakt Spec. No. måste verifieras före reservdelsbeställning.",
+      "variant": "CH16/CV16 Smart Spark according to Kohler quick reference",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-charge-stator-15amp-237878",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar statorsats 237878-S för 15 A laddningssystem på CH/CV11–16/460–493 samt andra uppräknade motorfamiljer. Faktisk installation och Spec. No. måste identifieras.",
+      "variant": "CH/CV11–16/460–493, endast befintligt 15 A-system",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-stator-25amp-2808602",
+      "statement": "Originalkatalogen listar statorsats 28 085 02-S för 25 A-laddningssystem, bland annat CH/CV11–16/460–493. Del får inte väljas enbart från motormodellen utan verifierad laddningskonfiguration.",
+      "variant": "CH/CV11–16/460–493, endast tillämpligt 25 A-system",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-regulator-15amp-4140310",
+      "statement": "Originalkatalogen listar likriktare/regulator 41 403 10-S för 15 A-system under Charging Systems. Katalogen specificerar inte därmed att varje CH/CV11–16 har just detta system.",
+      "variant": "15 A-laddningssystem, identifierat på enskild motor",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-kit-25amp-5475503",
+      "statement": "Originalkatalogen listar stator-/regulatorsats 54 755 03-S för 25 A-konfiguration, bland annat CH/CV11–16/460–493, med specificerade motorfamiljer. Detta är inte universell ersättning för 15 A-komponenter.",
+      "variant": "CH/CV11–16/460–493, enligt katalogens 25 A-systemrad",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-15to25-24755144",
+      "statement": "Kohler originalkatalog listar konverteringssats 24 755 144-S för uppgradering från 15 A till 25 A likriktare/regulator. Kräver kontroll av befintlig regulator och kompatibelt elsystem innan användning.",
+      "variant": "15 A-system enligt tillbehörskatalogen; motortyp och kablage måste verifieras",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-plug-pro-chcv-2513212",
+      "statement": "Kohler originalkatalog listar tändstift 25 132 12-S för CH/CV11–15/493 PRO. PRO-beteckning kräver kontroll; delen får inte automatiskt tillskrivas vanliga CH/CV-varianter.",
+      "variant": "CH/CV11–15/493 PRO enligt katalogen",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-plug-lp-2513208",
+      "statement": "Kohler originalkatalog listar tändstift 25 132 08-S för CH/CV11–15 LP. LP-bränsleutförandet gör att artikelnumret inte kan generaliseras till bensinmotorer.",
+      "variant": "CH/CV11–15 LP enligt katalogen",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-wiring-harness-2517602",
+      "statement": "Kohler originalkatalog listar kabelhärva 25 176 02-S med sex ledare och längsta ledning 75 tum för C11–16/460–493 samt utvalda andra familjer, med extra utrustningsjordledning mellan nyckelbrytare och motorblock.",
+      "variant": "C11–16/460–493 enligt katalogens kabelhärverad; kontaktdon och installation kontrolleras",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.11, PDF page index 10",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-diode-kits-2575531-40",
+      "statement": "Kohler originalkatalog listar diodsatserna 25 755 31-S (6 A, 1000 PIV) och 25 755 40-S (6 A, 800 PIV), där den senare anges för skydd mot transienter från elektrisk koppling. Märkdata och inkoppling skiljer sig; inte likvärdig automatisk ersättning.",
+      "variant": "Kohler diodtillbehör med relevant elkoppling, specifik motor ännu ej fastställd",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-sealed-fuse-harness-5475513",
+      "statement": "Kohler originalkatalog listar 54 755 13-S som konvertering från standardsäkringshållare till förseglat utförande, för att förhindra fukt och smuts; satsen innefattar en 30 A-säkring. Detta är inte bevis för att en CV11–16 ska ha 30 A huvudskydd.",
+      "variant": "Kohler elsystem där denna säkringshållarkonvertering är godkänd; ej motorfamiljsspecifik",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.12, PDF page index 11",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-air-filter-standard-128305",
+      "statement": "Kohler originalkatalog listar luftfilterelement 12 083 05-S (även UL-ekvivalent 12 083 09-S) och förfilter 12 083 08-S för CV11–16/460–493 med standardhögt 2,8-tums filterhus.",
+      "variant": "CV11–16/460–493, standard 2,8 tum filterkonfiguration",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.28, PDF page index 27",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-air-filter-tall-128310",
+      "statement": "Kohler originalkatalog listar luftfilterelement 12 083 10-S (UL-ekvivalent 12 083 13-S) samt förfilter 12 083 12-S för CV11–16/460–493 med högt 3,4-tums filterhus.",
+      "variant": "CV11–16/460–493, tall 3,4 tum filterkonfiguration",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.28, PDF page index 27",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-vacuum-10p2cm",
+      "statement": "TP-2339-D anger provning av vevhusundertryck med vattenmanometer vid 3200–3750 varv/min utan last och varm motor. På motorns sida ska vätskenivån ligga minst 10,2 cm ovanför den öppna sidan. Nivåskillnaden gäller vattenmanometer, inte oljetryck.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 enligt Kohlers vevhusvakuumprov",
+      "locator": "Section 3, printed p.3.3, PDF page index 22, Crankcase Vacuum Test steps 1–3",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-pressure-leak-causes",
+      "statement": "TP-2339-D beskriver att blockerat eller felmonterat vevhusventilationssystem kan orsaka vevhustryck som pressar ut olja genom tätningar och packningar. Kontrollera ventilation före antagande om enbart defekt packbox.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 enligt Section 3",
+      "locator": "Section 3, printed p.3.3, PDF page index 22, Crankcase Vacuum Test introduction",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-vacuum-troubleshoot-four",
+      "statement": "När vevhusvakuum saknas eller övertryck råder anger Kohler fyra felsökningsgrupper: blockerad ventilation, läckande tätningar/lösa fästen, förbränningsgasläckage via ringar eller ventiler, samt avgassystemets mottryck. Läckageprov kan verifiera ringar eller ventiler.",
+      "variant": "Command CV11–16/CV460–465/CV490–495; avvikande vevhusvakuum i rätt prov",
+      "locator": "Section 3, printed p.3.3, PDF index 22, Incorrect Vacuum in Crankcase table",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-manometer-clamp-stop",
+      "statement": "TP-2339-D föreskriver att manometerkranen/slangklämman ska stängas innan motorn stoppas efter vevhusvakuummätning. Provmetoden använder oljepåfyllningens hål med tätande propp och atmosfäröppet jämförelserör.",
+      "variant": "Command CV11–16/CV460–465/CV490–495; vattenmanometertest enligt Kohler",
+      "locator": "Section 3, printed p.3.3, PDF index 22, Crankcase Vacuum Test steps 1–4",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-original-later-design",
+      "statement": "Kohler TP-2339-D beskriver två konstruktioner av luftfilterhus: äldre med luftkanal från fläktkåpa och yttre öppning, senare med plan botten och kåpa. Filterhusets utförande måste identifieras innan komponenter och tätningar väljs.",
+      "variant": "Command CV11–16/CV460–465/CV490–495; äldre respektive senare luftfilterkonfiguration",
+      "locator": "Section 4, printed p.4.1, PDF index 24, Figures 4-1 and 4-2",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-dont-wash-blow",
+      "statement": "Kohler TP-2339-D förbjuder tvätt och tryckluftsblåsning av pappersluftfilter och beskriver försiktig knackning samt byte vid böjda, skadade eller smutsiga element. Separat förfilter kan tvättas och oljas enligt annat intervall.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 med pappersfilter",
+      "locator": "Section 4, printed p.4.2, PDF index 25, Paper Element Service",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-aircleaner-filter-stud-seal",
+      "statement": "TP-2339-D anger att gummitätningen runt luftfilterhusets fästpinne ska granskas vid pappersfilterservice och bytas om den är sliten eller skadad; en ny tätning medföljer aktuellt originalersättningselement i manualens utförande.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 med beskrivet luftfilterhus",
+      "locator": "Section 4, printed p.4.2, PDF index 25, Paper Element Service steps 4–5",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-crossshaft-initial-9p9",
+      "statement": "Efter att regulatorarmen lossats ska den förinställas med gaslänkaget inkopplat: för armen mot förgasaren till fullgas, vrid regulatoraxeln moturs till stopp och dra armens mutter till 9,9 Nm. Detta är en förinställning, inte en föreskrift att höja maxvarvtalet.",
+      "variant": "CV11–16/CV460–465/CV490–495, regulatorarmen lossad",
+      "locator": "Section 5, p.5.15, Fig.5-18, PDF page index 42",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-max-high-idle-3750-conditional",
+      "statement": "TP-2339-D anger 3750 rpm som rekommenderad högsta obelastade högvarvstomgång för de flesta motorerna, men det faktiska värdet bestäms av utrustningstillverkaren. Ingen generell inställning på 3750 rpm får göras utan maskinspecifik specifikation.",
+      "variant": "CV11–16/CV460–465/CV490–495, högvarv utan last; OEM-beroende",
+      "locator": "Section 5, p.5.16, High Idle Speed Adjustment, PDF index 43",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-bracket-new-hole-10p7",
+      "statement": "Kohler anger moment 10,7 Nm på hastighetsreglagets fästskruvar vid montering i nytt, obearbetat gjuthål. Skilj från 7,3 Nm i tidigare använt hål.",
+      "variant": "CV11–16/CV460–465/CV490–495 med kombinerad choke/gas-reglagehållare, nytt monteringshål",
+      "locator": "Section 5, p.5.16, High Idle Speed Adjustment step 5, PDF index 43",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-bracket-used-hole-7p3",
+      "statement": "Kohler anger moment 7,3 Nm på hastighetsreglagets fästskruvar i tidigare använt monteringshål, skilt från 10,7 Nm för nytt hål.",
+      "variant": "CV11–16/CV460–465/CV490–495 med kombinerad choke/gas-reglagehållare, tidigare använt hål",
+      "locator": "Section 5, p.5.16, High Idle Speed Adjustment step 5, PDF index 43",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-spring-hole-3600",
+      "statement": "För regulatorarmens fjäderläge anger TP-2339-D hål 2 räknat utåt från regulatoraxeln vid högvarv utan last högst 3600 rpm; hål 3 när högvarvet är över 3600 rpm. Detta är manualens grundläge, inte tillstånd att öka motorvarvet.",
+      "variant": "CV11–16/CV460–465/CV490–495 med regulatorarm enligt Figur 5-23",
+      "locator": "Section 5, p.5.17, Sensitivity Adjustment, Fig.5-23, PDF index 44",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-surging-sensitivity",
+      "statement": "Kohler TP-2339-D beskriver att rusande/pendlande varvtal när lasten ändras kan tyda på alltför hög regulatorkänslighet och att stort varvtalsfall vid normal belastning kan kräva högre känslighet. Justeringen görs med regulatorfjäderns placering på avsett utförande.",
+      "variant": "CV11–16/CV460–465/CV490–495, mekanisk regulator enligt TP-2339-D",
+      "locator": "Section 5, p.5.17, Sensitivity Adjustment, PDF index 44",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-choke-adjust-follows-high-idle",
+      "statement": "För kombinerat gas-/chokereglage anger TP-2339-D att chokejustering görs först efter korrekt högvarvsinställning; choken ska inte börja röra sig inom normalt gasreglageområde och ska stänga helt i chokeläget.",
+      "variant": "CV11–16/CV460–465/CV490–495, unitized throttle and choke control",
+      "locator": "Section 5, p.5.17, Choke Adjustment, PDF index 44",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governed-idle-900-1000-exception",
+      "statement": "På vissa encylindriga CV-motorer med separat reglerad tomgång anger Kohler grundinställning 900–1000 rpm med regulatorarmen hållen så att spjället vilar mot tomgångsstoppskruven. Därefter justeras verklig reglerad tomgång enligt maskintillverkarens specifikation. Detta gäller inte alla CV-motorer.",
+      "variant": "Endast CV Single Cylinder med Governed Idle Control enligt TP-2339-D",
+      "locator": "Section 5, p.5.19, Governed Idle Adjustment, PDF index 46",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-choke-stop-no-partial",
+      "statement": "Vid separata choke- och gasvajrar kräver TP-2339-D att chokelänkaget frigörs helt i läget choke av, annars riskerar motorn att fortsätta gå på delvis choke.",
+      "variant": "CV Command med separata choke- och gasvajrar",
+      "locator": "Section 5, p.5.18, Separate Control Cables, PDF index 45",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-walbro-nikki-control-identification",
+      "statement": "Kohler visar att Walbro har skruv för låg tomgång och blandningsnål, medan Nikki i beskrivet fast huvudmunstycke-utförande endast har tomgångsskruv; emissionscertifierat Walbro-utförande kan ha fast blandning eller begränsarhatt.",
+      "variant": "CV11–16/CV460–465/CV490–495; Walbro respektive Nikki utförande",
+      "locator": "Section 5 p.5.3, PDF index 30, Fig. 5-3",
+      "topic": "C",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-walbro-idle-limiter-do-not-force",
+      "statement": "Kohler varnar för att Walbro-förgasare med emissionsbegränsare på tomgångsblandningsnålen endast får justeras inom begränsarens medgivna område och att nålen inte ska demonteras om begränsarhatt finns.",
+      "variant": "Walbro fixed-main-jet carburetor med emissionsbegränsning",
+      "locator": "Section 5 p.5.5–5.6, PDF indices 32–33",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-nikki-factory-sealed-idle",
+      "statement": "Nikki-förgasare på emissionscertifierade motorer har förinställd och fabriksförseglad tomgångsblandning; manualen anger att blandningen inte kan justeras.",
+      "variant": "Nikki carburetor på emissionscertifierad motor enligt TP-2339-D",
+      "locator": "Section 5 p.5.5, PDF index 32, Nikki Carburetor Adjustment",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-warm-before-adjust",
+      "statement": "Kohlers anvisning om förgasarjustering för Walbro/Nikki förutsätter uppvärmning 5–10 minuter vid halvgas före den aktuella inställningen; motor- och maskintillverkarens varvtalsgränser gäller.",
+      "variant": "Walbro/Nikki enligt service manual; justerbart utförande",
+      "locator": "Section 5 p.5.5, PDF index 32, Adjustment",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-walbro-main-jet-pressed",
+      "statement": "Walbro-huvudmunstycket är pressat i förgasarkroppens torn. Kohler avråder från demontering annat än vid installation av särskild höghöjdssats enligt satsens instruktioner.",
+      "variant": "Walbro fixed-main-jet carburetor enligt Section 5",
+      "locator": "Section 5 p.5.7, PDF index 34, Main Fuel Jet Removal",
+      "topic": "C",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-nikki-main-jet-threaded-solenoid",
+      "statement": "Nikki-huvudmunstycket är gängat i spetsen på bränsleavstängningssolenoiden och kan demonteras för kontroll/rengöring enligt servicehandboken; uppgiften kan inte överföras till Walbro.",
+      "variant": "Nikki fixed-main-jet carburetor enligt Section 5",
+      "locator": "Section 5 p.5.7, PDF index 34, Main Fuel Jet Removal",
+      "topic": "C",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-inlet-seat-not-remove",
+      "statement": "Bränslenålens säte är pressat i förgasarkroppen; Kohler förbjuder demonteringsförsök och rekommenderar rengöring på plats med förgasarrengöring vid behov.",
+      "variant": "Walbro/Nikki carburetor according to Section 5",
+      "locator": "Section 5 p.5.7, PDF index 34, Fuel Inlet Seat Removal",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-welch-tool-ko1018",
+      "statement": "Vid Walbro-förgasare anger Kohler verktyg KO1018 för demontering av Welch-plugg vid rengöring av tomgångskanaler. Verktygsspetsen får inte slå i förgasarkroppen.",
+      "variant": "Walbro carburetor with removable Welch plugs",
+      "locator": "Section 5 p.5.6–5.7, PDF indices 33–34, Figure 5-7",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-self-relieving-choke-kit-1275711s",
+      "statement": "Kohler anger chokereparationssats 12 757 11-S för förgasare med självavlastande choke. Satsen gäller denna specifika chokekonstruktion och är inte generellt chokeset för alla CV-motorer.",
+      "variant": "Walbro/Nikki carburetor equipped with self-relieving choke",
+      "locator": "Section 5 p.5.7, PDF index 34, Choke Shaft Removal (Self-Relieving)",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-throttle-shaft-no-repair-kit",
+      "statement": "Kohler anger att spjällaxeln normalt inte ska demonteras eftersom reparationssatser saknas och slitage vanligen påverkar förgasarkroppen; vid utsliten axel bör hela förgasaren bytas.",
+      "variant": "Carburetor with worn throttle shaft described in Section 5",
+      "locator": "Section 5 p.5.8, PDF index 35, Throttle Shaft Removal",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-solvent-seal-compatibility",
+      "statement": "Kohler varnar för nedsänkning av förgasare i rengöringsmedel när packningar eller tätningar av fiber, gummi eller skum är monterade; lösningsmedlet kan skada dem.",
+      "variant": "Walbro/Nikki carburetors with installed nonmetallic seals",
+      "locator": "Section 5 p.5.8, PDF index 35, Cleaning",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-choke-plate-alignment-reassembly",
+      "statement": "Vid återmontering av självavlastande choke anger Kohler justering av chokeplattan med 0,010-tums bladmått, låsning med Loctite 609 på skruvarna och kontroll av fri rörelse; metoden gäller endast denna chokevariant.",
+      "variant": "Self-relieving choke with repair kit per TP-2339-D",
+      "locator": "Section 5 p.5.9, PDF index 36, Figure 5-12",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
     "Kohler Command: motoridentitet (Model, Spec, Serial) per installerad åkgräsklippare saknas.",
     "Exakt motorolja, oljefilter, tändstift, åtdragningsmoment och serviceintervall måste kopplas till relevant specifikationsnummer/revision.",
     "Reservdelar och maskinpassning får inte härledas från enbart modellens hästkraftsbeteckning.",
-    "Den ursprungliga Kohler-kodtabellen i TP-2339-D täcker tillverkningsår 1991–2002; senare serienummer måste få en separat verifierad kodkälla."
+    "Den ursprungliga Kohler-kodtabellen i TP-2339-D täcker tillverkningsår 1991–2002; senare serienummer måste få en separat verifierad kodkälla.",
+    "Kohler 12 590 01 table covers a defined engine family; verify exact model/specification/serial before applying oil quantity to a machine.",
+    "Kohler tändstiftsmoment: originalmanual 12 590 01 anger 38,0–43,4 Nm medan TP-2339-D anger 24,4–29,8 Nm; lös skillnaden per manualrevision och exakt motor/specifikation innan serviceinstruktion publiceras.",
+    "Kohler luftfilter: artiklar i originalmanual 12 590 01 måste kontrolleras mot faktiskt filterhus/Spec. No. och senare supersession innan beställningsråd.",
+    "Kohler bränslefilter: identifiera OEM-specifikt inlinefilter och eventuellt artikelnummer per motor-/utrustningsutförande innan beställningsråd.",
+    "Kohler Walbro/Nikki: förgasarutförande per Spec No. och respektive reparationssats/packningsnummer återstår att belägga.",
+    "Oljefilter 52 050 02-S anges i Kohler 12 590 01 men ersättningsartikel, aktuell tillgång och exakt passform per Spec. No. och filteradapter återstår att verifiera.",
+    "Kohler Walbro/Nikki: rekommenderad grundtomgång 1200 ±75 rpm är inte automatiskt godkänd maskintomgång; kräver utrustningstillverkarens anvisning och exakt utförande.",
+    "Oil Sentry måste bekräftas på enskild motorkonfiguration och i maskinens kopplingsschema; brytområde 2–5 psi är inte en specifikation för normalt arbetstryck.",
+    "Oil Sentry artikelnummer och sensoradapter per Kohler Spec. No. återstår att kontrollera; 6,8 Nm gäller vakten, inte en godtycklig oljeplugg.",
+    "Oil Sentry 12 704 01-S: kontrollera specifikationsnummer, filteradapterns faktiska anslutning, kabelstam samt tillverkarens aktuella ersättningsnummer innan montering eller beställning.",
+    "Kohler originalbränslefilter 25 050 21-S, 25 050 22-S och 25 050 07-S har katalogbelagda utföranden men kräver kontroll av matning, slanganslutning, filterplacering och motor- eller OEM-specifikation innan beställning.",
+    "Servicesatser 12 789 01-S och 12 789 02-S har olika ingående luftfilter i Kohlers originaltillbehörskatalog. Kontrollera Spec. No., luftfilterhus, komplett satsinnehåll och aktuella ersättningsnummer före beställning.",
+    "Startsystem: verifiera elektrisk jordning och kabelhärva innan 25 435 08-S / 12 749 03-S används; 12 755 47-S fordrar specifik metallkåpa och installationskontroll.",
+    "Oljestickor CH kontra CV och kortfilter 28 050 01-S kräver kontroll av respektive installation och teknisk passform; delarna får inte överföras mellan motorfamiljer utifrån katalogbild ensam.",
+    "Diagnosverktyg 25 761 06-S, 25 761 05-S och 25 455 01-S har tillverkarbelagda katalognummer men provförfarande och acceptansgränser måste hämtas från rätt servicemanual och motorvariant.",
+    "Oljetryck 40 psi i TP-2339-D p.11.23 avser specifikt återmonteringsprov efter 90 s tomgång. Utred separata originalgränser för normal drift och eventuell motorversionsskillnad före bred felsökningsrekommendation.",
+    "Kohler mekanisk bränslepump: komponentnummer, exakt Spec. No.-passning och eventuella ändrade monteringsprocedurer i senare revisionsmanualer är inte verifierade.",
+    "Bränsle- och cylinderläckagetest måste utföras enligt fullständig säkerhets- och instrumentanvisning; Kohlers grönt/gult/rött avser specifik läckagetestare och inga generella läckageprocent har verifierats.",
+    "CV16 Smart Spark-mätvärden och KO1046 får inte överföras till Kohlers magnetotändning utan SAM; kontrollera rätt tändsystem och motorns specifikationsnummer.",
+    "Tändsystemens olika KO1046/KO1047-prov och resistansintervall måste knytas till motorens faktiska Spec. No. innan felsökningsinstruktion publiceras; verifiera också artikelnummer för respektive tändmodul.",
+    "Kohler tändmoduler 12 584 04-S, 12 584 05-S, 12 584 12-S och 12 584 17-S är identifierade i tillverkarens snabbguide; exakt reservdel kräver fortfarande motorns Spec. No. och aktuell Kohler Parts Lookup.",
+    "Electrical/air intake batch: identifiera befintlig 15 A/25 A laddning, kontaktdon, drivmedelsutförande (LP/PRO) och 2,8/3,4-tums luftfilterhus via motor Spec. No. före köp eller montering. Artikelnummer är katalogbelagda, inte generella passningsgarantier.",
+    "Vevhusvakuumprovets 10,2 cm är vattennivåskillnad i specificerad mätmetod och får inte jämställas med normalt oljetryck. Provets säkerhetsanvisningar och 3200–3750 rpm behöver följas.",
+    "Regulator och maxvarv: 3750 rpm är endast generell maxrekommendation för de flesta motorer; faktisk maskin-OEM anger gränsen. Innan serviceartikel krävs exakt typ av reglagefäste, regulatorfjäder, Spec. No. och varvtalsmätning.",
+    "Förgasarkatalog: inga specifikationsbundna kompletta Walbro-/Nikki-förgasarnummer eller munstyckssatser har fastställts. Kontrollera förgasarfabrikat, chokeversion, emissionsbegränsning och Spec. No. före beställning eller demontering."
   ]
 }
