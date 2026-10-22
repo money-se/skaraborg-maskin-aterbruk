@@ -18,6 +18,13 @@
       "title": "Husqvarna official KLIPPO Pro 19 SH support",
       "document": "Pro 19 SH 967 60 79-01",
       "url": "https://www.husqvarna.com/se/support/klippo-pro-19sh/"
+    },
+    {
+      "id": "retailer-klippo-crosswalk",
+      "tier": 2,
+      "title": "ReservdelarOnline – äldre Klippo-nummer till nya Husqvarna artikelnummer",
+      "document": "Översättningstabell äldre Klippo-maskinkoder (odaterad)",
+      "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
     }
   ],
   "topics": {
@@ -128,6 +135,15 @@
       "sourceId": "husqvarna-pro19sh-support",
       "grade": "A",
       "topic": "G"
+    },
+    {
+      "id": "pro19gcv-crosswalk-k06730",
+      "statement": "Återförsäljarens korsreferens anger koden K06730 för Pro 19 GCV och artikelnummer 965229001. Detta gör K06730 till ett forskningsspår att kontrollera i primär IPL, inte en verifierad kniv-/motorpassform för andra utföranden.",
+      "variant": "Pro 19 GCV K06730, historisk korsreferens",
+      "locator": "Översättningstabell, rad K06730 – 965229001 – Pro 19 GCV",
+      "sourceId": "retailer-klippo-crosswalk",
+      "grade": "B",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -135,6 +151,7 @@
     "Bestäm motortyp och motorns serienummer per exemplar; 2006 GCV135 får inte ersättas med senare SH GCV160 i registret.",
     "Reservdelskatalog, mulcherkniv, knivbult, växelhölje och passform behöver källor.",
     "Kontrollera äldre Pro 19 GCV jämfört med senare Pro 19 SH/Pro 19 S H inklusive självgående system.",
-    "Knyt servicedata till separat Honda GCV135 originalserviceanvisning."
+    "Knyt servicedata till separat Honda GCV135 originalserviceanvisning.",
+    "Sök original IPL för Pro 19 GCV med artikelnummer 965229001/K06730 och fastställ kniv och knivfäste efter serienummer."
   ]
 }
