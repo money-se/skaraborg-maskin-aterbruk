@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061001002",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Avgränsad Jonsered LT2115CMA 2005-05 research med direkt granskad reservdels-PDF; jämförelse mot 2006-06 gäller dokumenterade artikelnummer, inte fastställd fysisk utbytbarhet.",
+  "sources": [
+    {
+      "id": "lt2115cma-2005-05-parts",
+      "tier": 2,
+      "title": "Jonsered LT 2115 CMA illustrated spare parts list, French mirror",
+      "document": "LT2115 CMA / 96061001002 / 954130224 / 2005-05 (24 sidor)",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cma/tracteur_tondeuse_jonsered_lt2115cma_vue-eclate-liste-des-pieces_2005-05.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061001002-identity",
+      "statement": "Katalogens omslag identifierar LT 2115 CMA / 96061001002 / 954130224 / 2005-05.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 1, titel",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-deck-shell",
+      "statement": "Aggregatkåpa (CARTER) står som artikelnummer 532 16 55-52.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 1",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-deck-belt",
+      "statement": "Klippaggregatets rem (COURROIE) står som 532 18 02-17.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 68",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-385",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-85 är listad på position 11.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 11",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-386",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-86 är listad på position 16.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 16",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-387",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-87 är listad på position 161.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 161",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-388",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-88 är listad på position 163.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 163",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-spindle",
+      "statement": "Spindelaxeln (ARBRE) listas som 532 13 76-45.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 13",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis",
+      "statement": "Chassi anges som 532 17 46-20.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 7 (index 6), CHASSIS & BOITIER pos. 1",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-bag",
+      "statement": "Uppsamlarsäcken (SAC) står som 532 18 08-80.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 3 (index 2), BAC DE RAMASSAGE pos. 21",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Motorfabrikat, motor-spec/serial, transmission och serviceintervall för just 96061001002 återstår att verifiera.",
+    "Samma reservdelsnummer på olika revisioner kan indikera gemensam katalogreferens men innebär inte att hela aggregatet är utbytbart.",
+    "Visuell kontroll av PDF-sidan med klippaggregatslistan är utförd. Andra sidor och sprängbilder behöver ytterligare visuell granskning innan artikelpublicering.",
+    "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger."
+  ]
+}
