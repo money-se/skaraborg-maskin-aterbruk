@@ -179,6 +179,13 @@
       "title": "RINAB after-market mulcher blade 480mm specifications",
       "document": "Aftermarket 31-15-845-00 replacement for 5028813-10; 480 ×58 ×4mm; 14mm center hole",
       "url": "https://www.rinab.nu/skog-och-tradgard/Grasklippare/Klippaggregatsdelar/Knivar/Klippo/Mulcherkniv-48-cm-19-klippbredd-Klippo-04.htm"
+    },
+    {
+      "id": "klippo-excellent-s-2012-primary-ipl",
+      "tier": 1,
+      "title": "KLIPPO EXCELLENT S – RESERVDELSKATALOG 2012",
+      "document": "Original-style illustrated parts catalogue, 10-page PDF, sections chassis, gearbox, handle, engine; machine PNC not independently visible in extracted text",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Grasklippare/Excellent-S/Excellent-S-2012.pdf"
     }
   ],
   "topics": {
@@ -1162,6 +1169,150 @@
       "sourceId": "aftermarket-garmas-crosscut-supersession",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "excellent-s2012-chassis",
+      "statement": "Excellent S-katalogens chassisektion listar chassi 505438701 i position 21.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.4 (index 3), chassis ref 21 505438701",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "excellent-s2012-transmission",
+      "statement": "Excellent S-katalogens chassisektion listar växellådssats 578266601 i position 22.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.4 (index 3), chassis ref 22 578266601",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-s2012-belt-cover",
+      "statement": "Excellent S-katalogen listar remskydd 522546301 i position 24 på chassiskissen.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.4 (index 3), chassis ref 24 522546301",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-s2012-frontaxle",
+      "statement": "Excellent S-katalogen listar framaxel 503269201 på chassis ref 40.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.4 (index 3), chassis ref 40 503269201",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "excellent-s2012-driveaxle",
+      "statement": "Excellent S-katalogens chassidel anger drivaxel 502873801 i position 41.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.4 (index 3), chassis ref 41 502873801",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-s2012-front-bracket",
+      "statement": "Excellent S-katalogens chassidel anger två fästen 504463801 på position 37.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.4 (index 3), chassis ref 37 504463801, antal 2",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "excellent-s2012-gearbox-belt",
+      "statement": "Excellent S-katalogens särskilda växellådsskiss listar rem 589571001 på position 19 med kitreferens 5254799-01 (belt with shell).",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.6 (index 5), gearbox ref 19 589571001, kit 5254799-01",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-s2012-gearbox-worm",
+      "statement": "Excellent S-katalogens växellådsskiss anger snäckväxel-enhet 503328101 på ref 31.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.6 (index 5), gearbox ref 31 503328101",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-s2012-gearbox-housing",
+      "statement": "Excellent S-katalogen listar växelhus-enhet 578342801 på växellådans position 10.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.6 (index 5), gearbox ref 10 578342801",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-s2012-control-cable",
+      "statement": "Excellent S-katalogen listar kabel 503314001 som position 9 under handtagsdelen. Dess exakta reglagefunktion anges inte i listtexten.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.8 (index 7), handle ref 9 503314001",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-s2012-lower-handle",
+      "statement": "Excellent S-katalogens handtagsdel anger handtagsenhet 503284301 på ref 15.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.8 (index 7), handle ref 15 503284301",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-s2012-handle-grip",
+      "statement": "Excellent S-katalogen anger gummigrepp 576641901 på handtagsdelens ref 4.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.8 (index 7), handle ref 4 576641901",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "excellent-s2012-engine-drive-belt",
+      "statement": "Excellent S-katalogens motorgrupp listar rem 589571101 på ref 6, kit 5254800-01, skild från rem 589571001 på växellådsskissens ref 19.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.10 (index 9), engine ref 6 589571101, jämfört med gearbox ref 19 589571001",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "excellent-s2012-engine-blade-holder",
+      "statement": "Excellent S-katalogens motorgrupp listar knivfäste 502872201 på ref 8 och knivbussning 503261001 på ref 9, inte samma nummer/positioner som odriven Excellent 965227602 i återförsäljarkatalogen.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.10 (index 9), engine refs 8-9",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-s2012-engine-two-blades",
+      "statement": "Excellent S-katalogen anger kniv 502881310 på motorgrupp ref 11 och en separat kniv 502881701 på ref 12 (antal 1 vardera). Detta är en modellbunden kataloguppgift, inte en visuellt verifierad monteringsordning.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.10 (index 9), engine refs 11-12, kvantitet 1 vardera",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-s2012-engine-key",
+      "statement": "Excellent S-katalogens motorgrupp listar woodruff-kil 504460501 på ref 7, knivbricka 503259401 på ref 10, fjäderdel 503332501 på ref 13 och skruv 504456402 på ref 14.",
+      "variant": "KLIPPO Excellent S, originalreservdelskatalog märkt 2012; PNC ej bekräftat genom omslagets maskinkod",
+      "locator": "PDF s.10 (index 9), engine refs 7,10,13,14",
+      "sourceId": "klippo-excellent-s-2012-primary-ipl",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -1185,6 +1336,7 @@
     "Kontrollera OEM-IPL för Excellent handtag 5029075-02, bromsvajer 5854020-03 och framaxelhållare 5044638-01 samt serienummer, monteringshål och kabelmått.",
     "Cross-Cut-blad 502881710 dokumenteras som 31 cm och samverkande med 502881310 i leverantörslistor. Den tidigare listade 502881701 (2012) är inte belagd som samma 31cm-del och ska inte slås ihop utan original-IPL/ersättningstabell.",
     "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
-    "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma."
+    "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma.",
+    "Excellent S originalreservdelskatalog 2012 är textavläst men sprängskissens bildkontroll misslyckades; PNC/serienummer saknas i extraherad omslagsinformation. Koppla inte monteringsdetaljerna direkt till Excellent 965227602 utan originalkontroll."
   ]
 }
