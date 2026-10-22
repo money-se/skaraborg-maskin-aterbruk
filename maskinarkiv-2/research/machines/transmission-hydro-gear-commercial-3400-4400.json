@@ -60,6 +60,13 @@
       "title": "Hydro-Gear Commercial Transaxle Oil Service Kits",
       "document": "Official manufacturer's service kit information, accessed 2026-10-22",
       "url": "https://www.hydro-gear.com/oil/"
+    },
+    {
+      "id": "hg-bln0108-2023",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-3400 ZT-3600 ZT-3800 Service and Repair Manual",
+      "document": "BLN-0108 January 2023, original manufacturer PDF",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-0108_3400_3600_3800.pdf"
     }
   ],
   "claims": [
@@ -656,6 +663,168 @@
       "locator": "Printed page 6, Figure 2 Configuration Label",
       "topic": "A",
       "grade": "A"
+    },
+    {
+      "id": "bln0108-change-interval",
+      "statement": "Tillverkaren rekommenderar första olje- och filterbyte efter 75–100 timmar, därefter var 400:e drifttimme.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, FLUID CHANGE PROCEDURE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-cold-iet",
+      "statement": "För transmission med intern expansionstank måste oljan svalna under 100 °F före oljebyte för att undvika överfyllning och skada på avluftningen.",
+      "variant": "ZT-3400/3600/3800 med intern expansionstank",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, CAUTION",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-service-oil-filter",
+      "statement": "Vid vätskebyte anges originalfilter Hydro-Gear 52114 eller motsvarande, med tunn oljefilm på packningen.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-filter-handturn",
+      "statement": "Nytt filter dras för hand 3/4–1 helt varv efter att filterpackningen berört filterbasen.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-both-transaxles",
+      "statement": "Vid oljebyte föreskriver manualen att proceduren upprepas för den motsatta sidans transmission.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 6",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-oil-fill-sideport",
+      "statement": "Vid fyllning används SAE 20W50-motorolja tills oljenivån når underkanten av sidoport 11, vilket manualen ungefär anger som 2 US quarts per transaxel; den exakta mängden beror på installation och utförande.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 8–10",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-exttank-cold",
+      "statement": "För utförande med extern expansionstank fylls också tanken till Full Cold-markeringen. OEM-fordonets manual avgör den separata tankens volym.",
+      "variant": "ZT-3400/3600/3800 med extern expansionstank",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 9–13",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-noext-topplug",
+      "statement": "För utförande utan extern expansionstank hanteras toppens fyllplugg position 5 i stället för stegen för separat expansionstank.",
+      "variant": "ZT-3400/3600/3800 utan extern tank",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, NOTE före steg 10 och efter steg 11",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-port-torque-conflict",
+      "statement": "BLN-0108 tryckt sida 11 anger 120 in-lb för sidoportplugg 11 samtidigt som 20,3 Nm anges. 120 in-lb motsvarar cirka 13,56 Nm: de tryckta enheterna är motsägelsefulla och ska verifieras mot aktuell tillverkarrevision innan åtdragning.",
+      "variant": "ZT-3400/3600/3800, 2023 BLN-0108",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 11",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-purge-required",
+      "statement": "Oljeserviceproceduren avslutas med hänvisning till separat avluftningsprocedur på tryckt sida 12.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 14",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-filter-service-tool",
+      "statement": "Vid filterbyte rekommenderas hylsformad filteravdragare; band-/remnyckel kan deformera filterburken om tätningen fastnat efter upprepade temperaturcykler.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 10, FILTER AND FILTER GUARD",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-internal-service-filter",
+      "statement": "Hydro-Gear anger att filtret alltid ska bytas vid invändigt underhåll på transmissionen.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 10, NOTE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-fill-port-choice",
+      "statement": "Filterservicen skiljer mellan metallplugg pos.5 och anslutning pos.111 beroende på aktuell enhets utförande.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 10, figur 4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-interval",
+      "statement": "Hydro-Gear rekommenderar initialt olje- och filterbyte efter 100 timmar på ZT-4400, därefter vid 400-timmarsintervall eller årligen, vilket som inträffar först.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, FLUID CHANGE PROCEDURE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-volume",
+      "statement": "ZT-4400-servicemanualen anger 3450–3550 ml, motsvarande 117–120 US fl oz, som oljemängd för transaxeln; expansionsslang och expansionstank ingår uttryckligen inte.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, figur 3 och Note",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-filter-cover-seal",
+      "statement": "Vid ZT-4400-oljebyte ska O-ringen i filterkåpan kasseras och ersättas tillsammans med nytt filter före kåpans återmontering.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, steg 1–3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-oil-type",
+      "statement": "ZT-4400 fylls med 20W50-motorolja via expansions-/fyllport och expansionssystemet fylls till fordonets angivna nivå.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, steg 4–5",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-purge-after",
+      "statement": "ZT-4400-serviceinstruktionen kräver fortsatt avluftning efter oljebytet enligt tryckt sida 11.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, steg 7",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -666,7 +835,8 @@
     "Motsvarande originalmanualer för övriga transmissionsfamiljer (ZT-5400, ZT-2400/2600, T-serien, äldre 310-serien) granskas separat.",
     "Tillverkarens familjeprestanda får inte misstolkas som uppmätta data för maskininstallation.",
     "ZT-4400 BLN-0081 tryckt s.15 har ett uppenbart orimligt ft-lb/Nm-par för hub castle nut pos120 (275–350 ft-lb respektive 31,1–39,54 Nm). Kontrollera aktuell Hydro-Gear servicebulletin innan slutlig åtdragning.",
-    "Hydro-Gears aktuella oljesatssida beskriver 72750 som ZT-2800–3800 i rubriken men i beställningstext ZT-2800–3600. Bekräfta ZT-3800 med distributör före beställning."
+    "Hydro-Gears aktuella oljesatssida beskriver 72750 som ZT-2800–3800 i rubriken men i beställningstext ZT-2800–3600. Bekräfta ZT-3800 med distributör före beställning.",
+    "BLN-0108 P January 2023 page 11 has conflicting units for side port 11 (120 in-lb / 20.3 Nm); hold metric torque until later OEM revision confirms."
   ],
   "topics": {
     "A": {
