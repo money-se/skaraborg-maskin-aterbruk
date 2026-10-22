@@ -3094,6 +3094,33 @@
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "kohler-fuel-pump-pad-cover-new-hole-torque",
+      "statement": "Kohler TP-2339-D anger 10,7 Nm för bränslepumpens blind-/täckplattas fästskruvar i nya, gjutna skruvhål. Detta är täckplattans moment och inte den mekaniska bränslepumpens fästmoment.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 med fuel pump pad cover, nya skruvhål",
+      "locator": "Section 1, printed p.1.10, PDF page index 11, Fuel Pump Pad Cover Fastener Torque",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-fuel-pump-pad-cover-used-hole-torque",
+      "statement": "Kohler TP-2339-D anger 7,3 Nm för bränslepumpens blind-/täckplattas fästskruvar i tidigare använda skruvhål; momentet skiljer sig från det för nya hål.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 med fuel pump pad cover, använda skruvhål",
+      "locator": "Section 1, printed p.1.10, PDF page index 11, Fuel Pump Pad Cover Fastener Torque",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-carb-preliminary-idle-needle-one-turn",
+      "statement": "Kohlers specifikationstabell ger en preliminär grundinställning om ett varv för förgasarens justerbara lågvarvsbränslenål. Detta får inte användas på Nikki eller emissionsförseglade förgasare utan justerbar nål; fininställning styrs av avsnitt 5 och faktisk variant.",
+      "variant": "Command CV-förgasare med justerbar preliminary low idle fuel needle; inte fast/emissionsförseglat utförande",
+      "locator": "Section 1, printed p.1.8, PDF page index 9, Carburetor Preliminary Low Idle Fuel Needle Setting",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -3145,6 +3172,7 @@
     "Kohler olje-/ljuddämparmoment och RTV-monteringssekvens är källbundna till TP-2339-D, utförande och aktuell filter-/dämparfästning; komplett bulletin 252 och modellbunden reservdelskatalog återstår.",
     "Kohler reservdelsfynd kataloger 25 800 148 Rev. E och Fast Moving Parts: katalogfamilj och serienummergräns kan begränsa tillämplighet; bekräfta alltid Spec. No., monteringsutförande och eventuella ersättningsnummer i Kohler Parts Lookup före faktisk beställning.",
     "Bränslepumpar: 12 559 02-S mekanisk pump och 25 559 01-S elektrisk tillbehörssats är separata utföranden; exakt Spec. No., pumpdrivning, fästen, slangdragning och eventuellt ersättningsnummer måste verifieras i aktuell Kohler-lookup.",
-    "Kohler tillbehörskatalogens 25 761-verktyg och 25 357/52 357-smörjmedel är originalkatalognummer, men ersättningskedjor från äldre KO-verktyg och nuvarande leveransstatus är inte fastställda."
+    "Kohler tillbehörskatalogens 25 761-verktyg och 25 357/52 357-smörjmedel är originalkatalognummer, men ersättningskedjor från äldre KO-verktyg och nuvarande leveransstatus är inte fastställda.",
+    "Kohler p.1.8 preliminär förgasarnålinställning ett varv avser justerbart utförande; blanda inte med emissionsförseglad Walbro/Nikki eller slutjustering enligt avsnitt 5."
   ]
 }
