@@ -151,6 +151,34 @@
       "title": "ReservdelarOnline – claimed BioClip 90 belt replacement",
       "document": "5895315-01 claims replacement of 5310075-26; retailer only",
       "url": "https://www.reservdelaronline.se/produkter/kuggrem-rider-11-13-bioclip-5895315-01"
+    },
+    {
+      "id": "rider16-bio90-authorized-dealer-supersession",
+      "tier": 2,
+      "title": "AHUPD authorized Husqvarna dealer – 531007526 superseded to 589531501",
+      "document": "Husqvarna 531007526 BELT, replacement notice",
+      "url": "https://www.ahupd.com/husqvarna-531007526"
+    },
+    {
+      "id": "rider16-bio90-sgarden-part-crossreferences",
+      "tier": 2,
+      "title": "sGarden 531007526 cross-reference listing",
+      "document": "531007526 BELT: Other product codes 506977301, 531008037, 589531501",
+      "url": "https://www.sgarden.cz/SpareParts/531007526/BELT"
+    },
+    {
+      "id": "rider16-bio90-wolfswinkel-supersession",
+      "tier": 2,
+      "title": "Wolfswinkel 589531501 original replacement crossrefs",
+      "document": "589531501, replaces 506977301, 531007526, 531008037",
+      "url": "https://www.wolfswinkel.shop/husqvarna-parts-parts/589531501/f-string-with-toothing"
+    },
+    {
+      "id": "rider16-bio90-pix-crossref",
+      "tier": 3,
+      "title": "PIX Lawn & Garden replacement belt cross-reference",
+      "document": "PIX Lawn & Garden Belts catalog: Husqvarna 531007526, 589531501, 506977301",
+      "url": "https://curea.ro/storage/userfiles/products/documents/e759f8498917fe9102e8b2099cd3df53.pdf"
     }
   ],
   "topics": {
@@ -1278,6 +1306,33 @@
       "sourceId": "rider16-bioclip90-belt-retailer-supersession",
       "grade": "C",
       "topic": "E"
+    },
+    {
+      "id": "rider16-bio90-authorized-replacement",
+      "statement": "Auktoriserad Husqvarna-reservdelshandlare AHUPD anger att 531007526 BELT inte längre säljs och har ersatts av nytt reservdelsnummer 589531501. Detta är stark sekundär verifiering, inte Husqvarnas egna publicerade supersession-dokument.",
+      "variant": "BioClip 90 äldre remartikel 531007526; maskin- och aggregat-PNC måste kontrolleras separat",
+      "locator": "Produkt 531007526, note 'replaced, New Part # 589531501' / 'No Longer Available'",
+      "sourceId": "rider16-bio90-authorized-dealer-supersession",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-bio90-three-references",
+      "statement": "sGarden korsrefererar 531007526 med 506977301, 531008037 och 589531501. Wolfswinkel uppger separat att originaldel 589531501 är efterföljare till samma tre nummer. Detta stöder kedjan men bekräftar inte en universell passformsregel.",
+      "variant": "BioClip 90 remfamilj, reservdelslistor utan full PNC-verifiering",
+      "locator": "sGarden 531007526 > Other product codes; kontrollkälla Wolfswinkel 589531501 > References",
+      "sourceId": "rider16-bio90-sgarden-part-crossreferences",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-bio90-pix-separate-crossreference",
+      "statement": "Remtillverkaren PIX listar 531007526, 589531501 och 506977301 som tre Husqvarna OEM-partnummer med samma rider-modell-/90 cm-aggregattillämpning, men ger tre separata PIX-artiklar; detta bevisar inte i sig inbördes OE-ersättning.",
+      "variant": "Eftermarknadskatalog för Rider 16 90 cm aggregat, ej PNC-bunden",
+      "locator": "PIX Lawn & Garden Belts, HUSQVARNA table, OEM Part No. rows 531007526, 589531501, 506977301",
+      "sourceId": "rider16-bio90-pix-crossref",
+      "grade": "C",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1330,6 +1385,8 @@
     "B0201901 anger spännbrickornas olika inner-/ytterdiametrar. Kontrollera alltid faktisk knivaxel, knivhus, bricka och brytpinne samt PNC före kompatibilitet eller ersättningsråd.",
     "Ledtråd (ej verifierad): återförsäljare anger 5895315-01 som ersättare för 5310075-26 BioClip 90. Kräv Husqvarnas officiella supersession/parts lookup före passformsråd.",
     "Undersök om 531007586-knivlistan täcker samma fysiska BioClip 90-aggregatrevision i Rider 16 2001–2003, och fastställ komplett aggregat-PNC.",
-    "Rider 1030 BioClip 1997-05 har separat originalkatalog med 103 cm-komponenter, men är ett SIDOFYND och dess komponenter får inte överföras till Rider 16 utan versionsbelägg."
+    "Rider 1030 BioClip 1997-05 har separat originalkatalog med 103 cm-komponenter, men är ett SIDOFYND och dess komponenter får inte överföras till Rider 16 utan versionsbelägg.",
+    "Sök en Husqvarna-publicerad officiell ersättningskedja för BioClip 90-remmar 531007526 / 506977301 / 531008037 → 589531501. AHUPD, sGarden och Wolfswinkel styrker detta på återförsäljarnivå, inte tillverkarnivå.",
+    "PIX-katalogens OEM-korsreferenser visar samma modellgrupp men inte motsvarande OE-artikelersättning. Undvik att hävda kompatibilitet utan PNC och korrekt aggregatutförande."
   ]
 }
