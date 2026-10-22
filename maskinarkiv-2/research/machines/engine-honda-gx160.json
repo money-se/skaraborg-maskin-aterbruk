@@ -153,6 +153,24 @@
       "sourceId": "honda-gx160-tuneup-pdf",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "gx160-oil-sae-10w30",
+      "statement": "Honda 00X37-ZEE-6000 anger SAE 10W-30, API SJ eller senare som motorolja för allmänt bruk; temperatur och motortyp avgör praktiskt val.",
+      "variant": "Honda GX160/GX200 enligt 00X37-ZEE-6000; ej individidentifierad",
+      "locator": "Quick Reference Information, Engine oil, printed p. 19",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-idle-speed",
+      "statement": "Honda 00X37-ZEE-6000 anger tomgångsvarvtal 1 400 rpm med tolerans +200/-150 rpm för specificerade GX160/GX200-utgåvor.",
+      "variant": "Honda GX160/GX200 enligt 00X37-ZEE-6000",
+      "locator": "Tune-up Specifications, Idle speed, printed p. 19",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
