@@ -22,7 +22,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Ramdelar identifierade i modellens egen katalog; jämförelse visar olika nummer mellan A- och B-versionerna, vilket förhindrar generell delöversättning."
+      "note": "F-040721L s.2 kartlägger chassi, huven, sitsupphängning, panel, elsystemhållare, grill och fästen. Även identiska nummer i andra modeller bevisar inte full reservdelskompatibilitet."
     },
     "C": {
       "name": "Motor",
@@ -683,6 +683,292 @@
       "sourceId": "murray-425014x92a-parts-pdf",
       "grade": "B",
       "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-support",
+      "statement": "CHASSIS & HOOD anger delnummer 094154E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 8",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-pivot-rod",
+      "statement": "CHASSIS & HOOD anger delnummer 094156 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 9",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-pivot-bracket",
+      "statement": "CHASSIS & HOOD anger delnummer 1001648E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 10",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-deck",
+      "statement": "CHASSIS & HOOD anger delnummer 1001558E245.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 19",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-index-plate",
+      "statement": "CHASSIS & HOOD anger delnummer 094151E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 21",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-left-mat",
+      "statement": "CHASSIS & HOOD anger delnummer 094999.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 23",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-right-mat",
+      "statement": "CHASSIS & HOOD anger delnummer 094998.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 24",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-hood",
+      "statement": "CHASSIS & HOOD anger delnummer 1001797E245.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 25",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-grille",
+      "statement": "CHASSIS & HOOD anger delnummer 1001798E245.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 26",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-headlamp-lens",
+      "statement": "CHASSIS & HOOD anger delnummer 1001806.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 27",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-headlamp-housing",
+      "statement": "CHASSIS & HOOD anger delnummer 1001805.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 28",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-lower-pivot",
+      "statement": "CHASSIS & HOOD anger delnummer 1001799E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 29",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-battery-support",
+      "statement": "CHASSIS & HOOD anger delnummer 690482E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 30",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-steering-bearing",
+      "statement": "CHASSIS & HOOD anger delnummer 1001491.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 33",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-dash",
+      "statement": "CHASSIS & HOOD anger delnummer 1001584E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 34",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-access-panel",
+      "statement": "CHASSIS & HOOD anger delnummer 093007E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 36",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-dash-support",
+      "statement": "CHASSIS & HOOD anger delnummer 095318E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 37",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-rear-hanger",
+      "statement": "CHASSIS & HOOD anger delnummer 1001270E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 38",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-left-grille-support",
+      "statement": "CHASSIS & HOOD anger delnummer 094083E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 39",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-right-grille-support",
+      "statement": "CHASSIS & HOOD anger delnummer 094082E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 41",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-battery-box",
+      "statement": "CHASSIS & HOOD anger delnummer 690424.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 45",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-hitch-plate",
+      "statement": "CHASSIS & HOOD anger delnummer 1001002E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 46",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-rear-panel",
+      "statement": "CHASSIS & HOOD anger delnummer 690434E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 47",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-detent-cover",
+      "statement": "CHASSIS & HOOD anger delnummer 094610.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 48",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-parking-grommet",
+      "statement": "CHASSIS & HOOD anger delnummer 1001755.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 59",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-cup-holder",
+      "statement": "CHASSIS & HOOD anger delnummer 1001542.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 70",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "I",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
