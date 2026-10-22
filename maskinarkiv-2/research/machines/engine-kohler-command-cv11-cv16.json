@@ -11,6 +11,13 @@
       "title": "Kohler Command CV11–16, CV460–465, CV490–495 Service Manual",
       "document": "TP-2339-D, Section 1, Figure 1-1 and Figure 1-2, printed page 1.3 (PDF p. 5)",
       "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/tp_2339_d.pdf"
+    },
+    {
+      "id": "kohler-owners-1259001",
+      "tier": 1,
+      "title": "Kohler Command CV11–CV16, CV460–CV493 Owner's Manual",
+      "document": "12 590 01; Specifications, printed p.6, PDF page index 5",
+      "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/12_590_01.pdf"
     }
   ],
   "topics": {
@@ -193,12 +200,58 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "kohler-owners-cv11-cv14-398",
+      "statement": "Kohler owner manual 12 590 01 lists 398 cm³ for CV11, CV12.5, CV13 and CV14.",
+      "variant": "CV11, CV12.5, CV13, CV14",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "kohler-owners-cv15-cv16-426",
+      "statement": "Kohler owner manual 12 590 01 lists 426 cm³ for CV15 and CV16.",
+      "variant": "CV15, CV16",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "kohler-owners-cv460-cv490-cc",
+      "statement": "Kohler owner manual 12 590 01 lists 460 cm³ for CV460 and 490 cm³ for CV490–CV493.",
+      "variant": "CV460 and CV490–CV493",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "kohler-owners-oil-with-filter-1p9",
+      "statement": "Kohler owner manual 12 590 01 lists oil capacity with filter of 1.9 litres for the listed CV11–CV16, CV460 and CV490–CV493.",
+      "variant": "CV11–CV16, CV460 and CV490–CV493 as specified in manual",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-owners-pressure-lube",
+      "statement": "Kohler owner manual 12 590 01 specifies full pressure lubrication with full flow filter for the listed CV11–CV16, CV460 and CV490–CV493.",
+      "variant": "CV11–CV16, CV460 and CV490–CV493 as specified in manual",
+      "locator": "Specifications, printed page 6 (PDF page index 5), relevant specification row",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "B"
     }
   ],
   "gaps": [
     "Kohler Command: motoridentitet (Model, Spec, Serial) per installerad åkgräsklippare saknas.",
     "Exakt motorolja, oljefilter, tändstift, åtdragningsmoment och serviceintervall måste kopplas till relevant specifikationsnummer/revision.",
     "Reservdelar och maskinpassning får inte härledas från enbart modellens hästkraftsbeteckning.",
-    "Den ursprungliga Kohler-kodtabellen i TP-2339-D täcker tillverkningsår 1991–2002; senare serienummer måste få en separat verifierad kodkälla."
+    "Den ursprungliga Kohler-kodtabellen i TP-2339-D täcker tillverkningsår 1991–2002; senare serienummer måste få en separat verifierad kodkälla.",
+    "Kohler 12 590 01 table covers a defined engine family; verify exact model/specification/serial before applying oil quantity to a machine."
   ]
 }
