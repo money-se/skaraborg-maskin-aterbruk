@@ -388,6 +388,39 @@
       "topic": "E",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-shaft-81",
+      "statement": "Drivlinekatalogens ENTRAINEMENT-lista anger AXLE (axel) 532 17 00-06 på position 81; katalograden anger inte transaxelfabrikat.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT pos. 81",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-spring-55",
+      "statement": "ENTRAINEMENT-listan anger fjäder RESSORT 532 10 57-09 på position 55.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT pos. 55",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-pedal-rubber-62",
+      "statement": "ENTRAINEMENT-listan anger pedalens gummidel CAOUTCHOUC DE PÉDALE 532 12 48-72 på position 62.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT pos. 62",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -396,6 +429,7 @@
     "Aggregatets reservdelslista på PDF-sida 5 är bildgranskad; övriga sidor, sprängskisser och maskinens individuella komponentnummer behöver ytterligare visuell kontroll.",
     "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger.",
     "2005-05-katalogens ENTRAINEMENT-sida 15 saknar utpekat fabrikat/modell för transaxeln; kräv separat transmissionens märkskylt eller originalsprängskiss för säker identifiering.",
-    "Elsystemets och styrningens nya katalogpositioner är textgranskade men behöver visuell sidkontroll. Säkringsvärde, kopplingsschema och säkerhetsbrytarnas funktion ska inte utläsas enbart ur reservdelsnamnen."
+    "Elsystemets och styrningens nya katalogpositioner är textgranskade men behöver visuell sidkontroll. Säkringsvärde, kopplingsschema och säkerhetsbrytarnas funktion ska inte utläsas enbart ur reservdelsnamnen.",
+    "Växellådantillverkaren och växellådans modellnummer kan inte styrkas från ENTRAINEMENT-listans generiska AXLE/MAILLON-poster; märkplåt eller särskild originalkatalog behövs."
   ]
 }
