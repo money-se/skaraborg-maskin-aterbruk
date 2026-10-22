@@ -421,6 +421,61 @@
       "topic": "F",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-shaft-28",
+      "statement": "Drivlineavsnittet listar axel 532 17 57-65 (ARBRE) på position 28; det visar inte transaxelns identitet.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 28",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-bearing-35",
+      "statement": "Drivlineavsnittet listar lager 532 12 01-83 (ROULEMENT) på position 35.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 35",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-pulley-38",
+      "statement": "Drivlineavsnittet listar remskiva 532 16 59-36 (POULIE) på position 38.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 38",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-spring-25",
+      "statement": "Drivlineavsnittet listar fjäder 532 19 20-36 (RESSORT) på position 25.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 25",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-lever-159",
+      "statement": "Drivlineavsnittet listar reglagearm 532 18 39-00 (LEVIER) på position 159, utan närmare funktionsspecifikation.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 159",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -430,6 +485,7 @@
     "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger.",
     "2005-05-katalogens ENTRAINEMENT-sida 15 saknar utpekat fabrikat/modell för transaxeln; kräv separat transmissionens märkskylt eller originalsprängskiss för säker identifiering.",
     "Elsystemets och styrningens nya katalogpositioner är textgranskade men behöver visuell sidkontroll. Säkringsvärde, kopplingsschema och säkerhetsbrytarnas funktion ska inte utläsas enbart ur reservdelsnamnen.",
-    "Växellådantillverkaren och växellådans modellnummer kan inte styrkas från ENTRAINEMENT-listans generiska AXLE/MAILLON-poster; märkplåt eller särskild originalkatalog behövs."
+    "Växellådantillverkaren och växellådans modellnummer kan inte styrkas från ENTRAINEMENT-listans generiska AXLE/MAILLON-poster; märkplåt eller särskild originalkatalog behövs.",
+    "Katalogpositionerna i ENTRAINEMENT bevisar endast katalogförda delar; exakt transmissionstyp och delarnas fysiska kompatibilitet med andra revisioner är inte belagda."
   ]
 }
