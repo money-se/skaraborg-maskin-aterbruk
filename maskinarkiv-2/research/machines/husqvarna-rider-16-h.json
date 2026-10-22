@@ -32,6 +32,13 @@
       "title": "Husqvarna Rider 16 H IPL 1999-02",
       "document": "I9901010, 106 25 74-61, illustrated original parts list, 15 pages",
       "url": "https://mymowerparts.com/pdf/Husqvarna-Parts-Manuals/I9901010.pdf"
+    },
+    {
+      "id": "husqvarna-official-epc-rider16h-model-index",
+      "tier": 1,
+      "title": "Husqvarna Spare Parts Shop – Rider 16 H separate EPC model index",
+      "document": "Official Rider 16 H IPL group listing, model level",
+      "url": "https://shop-pa-v9.husqvarna.com/webapp/wcs/stores/servlet/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcProduct=RIDER+16+H"
     }
   ],
   "topics": {
@@ -349,6 +356,15 @@
       "sourceId": "husqvarna-rider16h-1999-02-ipl",
       "grade": "A",
       "topic": "C"
+    },
+    {
+      "id": "r16h-epc-deck-group-model-level",
+      "statement": "Husqvarnas officiella reservdelsportal har separat RIDER 16 H-modellpost med grupperna 90CM CUTTING DECK, 97CM CUTTING DECK och 103CM CUTTING DECK. Det finns en separat modellvy för RIDER 16 utan H. Gruppförekomst är inte belägg för identiska aggregat eller utbytbara delar.",
+      "variant": "Rider 16 H (modellindex i Husqvarna EPC, ej PNC)",
+      "locator": "RIDER 16 H > Illustrated parts list > 90CM CUTTING DECK; 97CM CUTTING DECK; 103CM CUTTING DECK",
+      "sourceId": "husqvarna-official-epc-rider16h-model-index",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -365,6 +381,7 @@
     "Verifiera om 531 00 75-25 är ersatt av 531 00 75-86 för 90 cm-aggregat via Husqvarnas egen ersättningskedja; inga ersättningspåståenden i nuläget.",
     "Genuine Parts-katalogen listar 531007525 för Rider 16 H och 531007586 för Rider 16, men ger inte exakta PNC eller ersättningsrelationer. Verifiera konstruktion och aggregat-ID innan knivval.",
     "Jämför ritningspositioner och ändringsmarkeringar i Rider 16 H original-IPLs 1999-02 och 2000-02; 1999-års PDF-text verifierad, skärmbildsanrop misslyckades.",
-    "Fastställ om historiska katalognummer från 1999 och 2000 är obrutna revisionskedjor eller sammanfaller av andra skäl; inga utbytbarhetspåståenden görs."
+    "Fastställ om historiska katalognummer från 1999 och 2000 är obrutna revisionskedjor eller sammanfaller av andra skäl; inga utbytbarhetspåståenden görs.",
+    "Separata officiella EPC-modellposter visar RIDER 16 och RIDER 16 H, båda med 90/103 cm-grupper men inte med identifierad fullständig aggregat-PNC. Fastställ märkplåtsdata före kompatibilitetsbesked."
   ]
 }
