@@ -542,6 +542,96 @@
       "grade": "A",
       "sourceId": "peerless-691218-930-mst",
       "locator": "Kapitel 11 tryckt s.69, PDF s.70, REASSEMBLY"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-cover",
+      "topic": "K",
+      "statement": "Peerless 930-022:s originalförteckning anger kåpa 772140 (pos.1) och hus 770102 (pos.3).",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.13 pos.1,3"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-shaft",
+      "topic": "D",
+      "statement": "Peerless 930-022 listar axel 776260 (pos.4), axel med pinjong 776219 (pos.5) och växelförare 784345 (pos.10).",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.13 pos.4,5,10"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-ratio-components",
+      "topic": "D",
+      "statement": "Peerless 930-022 anger drev 778139 med 35 tänder (pos.6), drev 778136 med 15 tänder (pos.7) och koniskt drev 778137 med 42 tänder (pos.11). Tandantal är inte totalutväxling.",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.13 pos.6,7,11"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-axles",
+      "topic": "D",
+      "statement": "930-022 anger hjulaxlar 774895 på 286 mm (pos.47) och 774896 på 403 mm (pos.48); samma koder kan förekomma i andra transaxlar men det bevisar inte enheternas utbytbarhet.",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.13 pos.47–48"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-brake",
+      "topic": "G",
+      "statement": "930-022 anger bromsskiva 790003 (pos.36), bromstryckplatta 790007 (pos.37) och två bromsbelägg 799021 (pos.38).",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.13 pos.36–38"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-seals",
+      "topic": "K",
+      "statement": "930-022 anger två tätningsringar 788061 på pos.23, O-ring 792001 på pos.32 och tätning 788051 på pos.33. Det är positionsbundna delar.",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.13 pos.23,32–33"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-needle",
+      "topic": "K",
+      "statement": "930-022 anger två nållager 780086 (pos.2) och två nållager 780140 (pos.73), vilket visar två olika katalogpositioner för nållager.",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.13 pos.2; PDF s.15 pos.73"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-chain",
+      "topic": "D",
+      "statement": "930-022 innehåller kedja 786081 (pos.60) och kedjehjul 786082 9T (pos.61), 786123 18T (pos.62).",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.15 pos.60–62"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-selection",
+      "topic": "D",
+      "statement": "Basmaskinens transmissionstabell skiljer komplett transaxel 1134-3278-01, Peerless 930-022 till och med 960401, från 1134-3716-01 från 960402.",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.29 pos.18"
+    },
+    {
+      "id": "p12-1996-peerless-ipl-930-gearset",
+      "topic": "D",
+      "statement": "930-022 listar kugghjul 778122 (22T pos.52), 778121 (20T pos.53), 778128 (28T pos.57) och 778129 (30T pos.58).",
+      "variant": "STIGA Park 12 13-1442-19, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "STIGA IPL 13-1442-19, PDF s.15 pos.52–53,57–58"
     }
   ],
   "gaps": [
@@ -555,6 +645,7 @@
     "Identifiera senare transaxel 1134-3716-01 från och med 960402 och kontrollera fabrikat/interna delar i separat IPL; använd inte Peerless 930-022-detaljer utan verifiering.",
     "PTO-systemets maskinrem är dokumenterad men rätt klippaggregat-PNC, aggregatremmar och knivar är fortfarande okända.",
     "Sandby anger Briggs Model/Type 28D707-0133 och aggregat 100B/102M: verifiera mot STIGA-original, motorns instansade märkning och aggregatets eget PNC innan uppgifterna används för delbeställning.",
-    "Tillverkarens 930/MST200-service gäller transaxelfamiljen; kontrollera verklig axel/dekal och maskinens serienummer före smörjning, växellådsöppning eller bromsjustering. Ingen delpassform härledd ur servicehandbok."
+    "Tillverkarens 930/MST200-service gäller transaxelfamiljen; kontrollera verklig axel/dekal och maskinens serienummer före smörjning, växellådsöppning eller bromsjustering. Ingen delpassform härledd ur servicehandbok.",
+    "930-022 och senare transaxel 1134-3716-01 måste särskiljas via maskinserienummer 960401/960402 och individuell transaxelmärkning."
   ]
 }
