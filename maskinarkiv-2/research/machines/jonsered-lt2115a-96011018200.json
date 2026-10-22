@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115a-96011018200",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Källbunden delundersökning av Jonsereds specifika modellversion i illustrerad reservdelslista. Ej artikel, publiceringsbeslut eller komplett reservdels-/servicematris.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115a-96011018200-ipl",
+      "tier": 2,
+      "title": "Jonsered LT2115A illustrerad reservdelskatalog, återpublicerad",
+      "document": "544 40 90-01 / IPL 2006-03",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20A%2096011018200%202006-03/LT2115-A-96011018200-2006-03.pdf"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-verified-ipl-mirror",
+      "tier": 2,
+      "title": "Jonsered original IPL, dokumentets text verifierad via PDF",
+      "document": "544 40 90-01 / IPL 2006-03",
+      "url": "https://usermanual.wiki/Jonsered/JonseredLt2115AUsersManual161427.1178001802.pdf"
+    },
+    {
+      "id": "kohler-sv470-sv620-official-sm",
+      "tier": 1,
+      "title": "Kohler Courage SV470–SV620 official service manual",
+      "document": "20 690 01 Rev. J",
+      "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/20_690_01_EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115a-96011018200-identity",
+      "statement": "Original-IPL identifierar LT2115A med modellnummer 96011018200 och produktnummer 960 11 01-82.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 1–2, omslag och Illustrated Parts List",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-transaxle",
+      "statement": "DRIVE-listans position 1 anger Hydro Gr 322-0510 som transaxel, med interna delar beställda från transmissionstillverkaren.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 10, DRIVE, pos. 1",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-deck-housing",
+      "statement": "MOWER DECK-listans position 1 anger 42-tums aggregatkåpa 532 16 58-92.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 18, MOWER DECK, pos. 1",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-deck-blade",
+      "statement": "MOWER DECK-listans position 11 anger klippkniv 532 13 41-49, benämnd Blade Mower 42 inch.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 18, MOWER DECK, pos. 11",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-mandrel",
+      "statement": "MOWER DECK-listans position 13 anger spindelaxel 532 13 76-45 med nedre lager.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 18, MOWER DECK, pos. 13",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-front-tire",
+      "statement": "WHEELS & TIRES-listan anger framdäck 532 10 62-22 i dimension 15 x 6.0-6.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 4, WHEELS & TIRES, pos. 3",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-rear-tire",
+      "statement": "WHEELS & TIRES-listan anger bakdäck 532 10 62-68 i dimension 18 x 9.5-8.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 4, WHEELS & TIRES, pos. 9",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-seat-switch",
+      "statement": "Elschemat innehåller en sitsbrytare för obemannad sits samt brytare för koppling/broms och aggregatkoppling.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF s. 3, SCHEMATIC",
+      "sourceId": "jonsered-lt2115a-96011018200-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-sv470",
+      "statement": "Jonsereds reservdelskatalog anger Kohler SV470 på motorposition 3. Exakt motorns spec- och serienummer framgår inte av maskinens IPL.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "PDF sid. 14 (PDF-index 13), ENGINE, position 3",
+      "sourceId": "jonsered-lt2115a-96011018200-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-oil-service",
+      "statement": "Kohler Courage SV470–SV620 servicemanual anger byte av olja och oljefilter efter 100 timmar eller årligen vid normal service; 300 timmar är endast tillåtet med både särskild KOHLER PRO 10W-50 olja och KOHLER PRO Extended Life-filter.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "Kohler manual s. 3–4, MAINTENANCE SCHEDULE och OIL RECOMMENDATIONS",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-air-service",
+      "statement": "Kohlers SV470–SV620-verkstadshandbok, rev. J, listar vid 25 timmar eller årligen både service/byte av lågprofil-förfilter och byte av luftfilterelement om förfilter saknas. Samma handbok listar dessutom byte av luftfilterelement (om förfilter saknas) vid 100 timmar eller årligen. Originalets dubbla rader återges utan att ett maskinspecifikt filterutförande antas.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "Kohler 20 690 01 Rev. J, tryckt s. 3 (PDF-sida 3, index 2), MAINTENANCE SCHEDULE, Every 25 Hours or Annually och Every 100 Hours or Annually",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-fuel-filter-service",
+      "statement": "Kohler-manualen anger bränslefilterbyte var 100:e drifttimme.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "Kohler manual s. 3, MAINTENANCE SCHEDULE",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011018200-engine-id",
+      "statement": "Kohler kräver motoridentitet via modell-, specification- och serienummer vid reservdelsbeställning; modellnamnet SV470 ensam identifierar inte den individuella motorns alla reservdelar.",
+      "variant": "LT2115A / 96011018200",
+      "locator": "Kohler manual s. 6, ENGINE IDENTIFICATION NUMBERS",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Motoridentitet och motorservice måste verifieras mot maskinens märkning och motorleverantörens originalmanual.",
+    "Förarmanual, serviceintervall, oljespecifikation och fullständig transmissionsbeteckning behöver komplett kontroll.",
+    "Ingen generell reservdelspassform mellan LT2115, LT2115A, LT2115CM och LT2115CMA får antas.",
+    "PDF-skärmbildskontrollen misslyckades; positioner och katalogtext bör bildverifieras före artikelpublicering.",
+    "Motorns individuella Kohler Specification och Serial Number saknas; manualens generella SV470-intervall behöver stämmas av med den installerade motorns utförande.",
+    "Luftfilterschemats 25- respektive 100-timmarsrader har bevarats enligt originalmanualen. Den individuella SV470-motorns filterutförande ska fastställas före praktiskt servicelöfte."
+  ]
+}

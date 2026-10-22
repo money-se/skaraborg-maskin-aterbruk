@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061001002",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Avgränsad Jonsered LT2115CMA 2005-05 research med direkt granskad reservdels-PDF; jämförelse mot 2006-06 gäller dokumenterade artikelnummer, inte fastställd fysisk utbytbarhet.",
+  "sources": [
+    {
+      "id": "lt2115cma-2005-05-parts",
+      "tier": 2,
+      "title": "Jonsered LT 2115 CMA illustrated spare parts list, French mirror",
+      "document": "LT2115 CMA / 96061001002 / 954130224 / 2005-05 (24 sidor)",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cma/tracteur_tondeuse_jonsered_lt2115cma_vue-eclate-liste-des-pieces_2005-05.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Utvalda listposter från exakt produktrevision kontrollerade. Övriga konstruktioner, motoridentitet, service och passformsbesked kräver separat dokumentgranskning."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061001002-identity",
+      "statement": "Katalogens omslag identifierar LT 2115 CMA / 96061001002 / 954130224 / 2005-05.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 1, titel",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-deck-shell",
+      "statement": "Aggregatkåpa (CARTER) står som artikelnummer 532 16 55-52.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 1",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-deck-belt",
+      "statement": "Klippaggregatets rem (COURROIE) står som 532 18 02-17.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 68",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-385",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-85 är listad på position 11.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 11",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-386",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-86 är listad på position 16.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 16",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-387",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-87 är listad på position 161.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 161",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-blade-388",
+      "statement": "Kniv (RIDE ON BLADE) 532 18 63-88 är listad på position 163.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 163",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-spindle",
+      "statement": "Spindelaxeln (ARBRE) listas som 532 13 76-45.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 5 (index 4), CARTER DE TONDEUSE pos. 13",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis",
+      "statement": "Chassi anges som 532 17 46-20.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 7 (index 6), CHASSIS & BOITIER pos. 1",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-bag",
+      "statement": "Uppsamlarsäcken (SAC) står som 532 18 08-80.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 3 (index 2), BAC DE RAMASSAGE pos. 21",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-belt-guide",
+      "statement": "Klippaggregatets remstyrning (GUIDE DE COURROIE) listas som artikel 532 15 60-85.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 84",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-spindle-bearing",
+      "statement": "Klippaggregatets lager (ROULEMENT) listas som artikel 532 11 04-85.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 15",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-pulley-32",
+      "statement": "Klippaggregatets remskiva (POULIE) listas som artikel 532 15 35-31.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 32",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-pulley-36",
+      "statement": "Klippaggregatets remskiva (POULIE) listas som artikel 532 14 67-63.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 36",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-belt-spring",
+      "statement": "Klippaggregatets fjäder (RESSORT) listas som artikel 532 16 59-45.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF sid. 5 (PDF-index 4), CARTER DE TONDEUSE pos. 61",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-belt",
+      "statement": "Markdrivningsremmen i ENTRAINEMENT är 532 17 01-40 (COURROIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 57",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-clutch-assembly",
+      "statement": "Kopplingsenhet i ENTRAINEMENT är 532 18 03-54 (EMBRAYAGE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 9",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-tensioner",
+      "statement": "Drivremmens spännare listas som 532 15 47-78 (TENDEUR DE COURROIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 66",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-idler",
+      "statement": "Drivningens remskiva listas som 532 12 77-83 (POULIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 47",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-link",
+      "statement": "Drivlänk listas som 532 17 00-07 (MAILLON).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 84",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-bypass-link",
+      "statement": "Drivlänk listas som 532 17 00-15 (MAILLON); dess exakta funktion som hydrostat-bypass är inte belagd av just denna kataloglista.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 95",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-guide",
+      "statement": "Drivremstyrning listas som 532 12 32-05 (GUIDE DE COURROIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 49",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-battery",
+      "statement": "Elsystemets reservdelslista anger batteri 532 14 49-27.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 1",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-electrical-switch-16",
+      "statement": "Elsystemets reservdelslista anger brytare 532 17 61-38 (INTERRUPTEUR).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 16",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-electrical-harness",
+      "statement": "Elsystemets reservdelslista anger kabelstam 532 18 37-59 (HARNAIS).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 21",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-electrical-fuse",
+      "statement": "Elsystemets reservdelslista anger säkring 532 17 51-58 (FUSIBLE). Säkringens amperetal framgår inte av denna reservdelsrad.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 26",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-ignition-lock",
+      "statement": "Elsystemets reservdelslista anger tändningslås 532 17 55-66 (SERRURE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 13, ELECTRIQUE, position 30",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "F",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-steering-box",
+      "statement": "Styrningslistan anger styrväxel 532 17 51-46 (BOITIER DE DIRECTION).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 11, DIRECTION, position 71",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-shaft-81",
+      "statement": "Drivlinekatalogens ENTRAINEMENT-lista anger AXLE (axel) 532 17 00-06 på position 81; katalograden anger inte transaxelfabrikat.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT pos. 81",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-spring-55",
+      "statement": "ENTRAINEMENT-listan anger fjäder RESSORT 532 10 57-09 på position 55.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT pos. 55",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-pedal-rubber-62",
+      "statement": "ENTRAINEMENT-listan anger pedalens gummidel CAOUTCHOUC DE PÉDALE 532 12 48-72 på position 62.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT pos. 62",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-shaft-28",
+      "statement": "Drivlineavsnittet listar axel 532 17 57-65 (ARBRE) på position 28; det visar inte transaxelns identitet.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 28",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-bearing-35",
+      "statement": "Drivlineavsnittet listar lager 532 12 01-83 (ROULEMENT) på position 35.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 35",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-pulley-38",
+      "statement": "Drivlineavsnittet listar remskiva 532 16 59-36 (POULIE) på position 38.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 38",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-spring-25",
+      "statement": "Drivlineavsnittet listar fjäder 532 19 20-36 (RESSORT) på position 25.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 25",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-lever-159",
+      "statement": "Drivlineavsnittet listar reglagearm 532 18 39-00 (LEVIER) på position 159, utan närmare funktionsspecifikation.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15 (PDF-index 14), ENTRAINEMENT pos. 159",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-bag-support-12",
+      "statement": "Uppsamlaravsnittet BAC DE RAMASSAGE listar stöd 532 18 88-48 på position 12.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 3 (index 2), BAC DE RAMASSAGE pos.12",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "I",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-bag-support-20",
+      "statement": "Uppsamlaravsnittet listar stöd 532 18 88-47 på position 20.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 3 (index 2), BAC DE RAMASSAGE pos.20",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "I",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-9",
+      "statement": "Katalogens CHASSIS & BOITIER listar PLAQUE med artikelnummer 532 19 46-88 på position 9. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 9",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-17",
+      "statement": "Katalogens CHASSIS & BOITIER listar CAPOT med artikelnummer 532 19 47-57 på position 17. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 17",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-28",
+      "statement": "Katalogens CHASSIS & BOITIER listar CAPOT med artikelnummer 532 19 29-15 på position 28. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 28",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-30",
+      "statement": "Katalogens CHASSIS & BOITIER listar PROTECTEUR med artikelnummer 532 19 73-44 på position 30. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 30",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-58",
+      "statement": "Katalogens CHASSIS & BOITIER listar CONDUIT med artikelnummer 532 18 43-22 på position 58. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 58",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-89",
+      "statement": "Katalogens CHASSIS & BOITIER listar SUPPORT med artikelnummer 532 19 73-66 på position 89. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 89",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Motorfabrikat, motor-spec/serial, transmission och serviceintervall för just 96061001002 återstår att verifiera.",
+    "Samma reservdelsnummer på olika revisioner kan indikera gemensam katalogreferens men innebär inte att hela aggregatet är utbytbart.",
+    "Aggregatets reservdelslista på PDF-sida 5 är bildgranskad; övriga sidor, sprängskisser och maskinens individuella komponentnummer behöver ytterligare visuell kontroll.",
+    "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger.",
+    "2005-05-katalogens ENTRAINEMENT-sida 15 saknar utpekat fabrikat/modell för transaxeln; kräv separat transmissionens märkskylt eller originalsprängskiss för säker identifiering.",
+    "Elsystemets och styrningens nya katalogpositioner är textgranskade men behöver visuell sidkontroll. Säkringsvärde, kopplingsschema och säkerhetsbrytarnas funktion ska inte utläsas enbart ur reservdelsnamnen.",
+    "Växellådantillverkaren och växellådans modellnummer kan inte styrkas från ENTRAINEMENT-listans generiska AXLE/MAILLON-poster; märkplåt eller särskild originalkatalog behövs.",
+    "Katalogpositionerna i ENTRAINEMENT bevisar endast katalogförda delar; exakt transmissionstyp och delarnas fysiska kompatibilitet med andra revisioner är inte belagda.",
+    "Jämför kabelstam ELECTRIQUE pos. 21 (532 18 37-59 enligt PDF-text) med 2004-06-versionerna J2115CMAB/J2115CMAC (532 17 56-88 enligt PDF-text). Skilda nummer är endast katalogskillnad, inte bevisad icke-passform; full bild-/elskema-kontroll återstår.",
+    "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2004-06-revision J2115CMAB. Full bildgranskning och utbytbarhetsbelägg återstår.",
+    "Jämförelse 2004-06 mot 2005-05 visar skilda CHASSIS & BOITIER-nummer på positionerna 9, 17, 28, 30, 58 och 89. Katalogtexten kontrollerad men PDF-bildvisning misslyckades; kontroll av bilder, eventuella ersättningsnummer och faktisk passform återstår."
+  ]
+}

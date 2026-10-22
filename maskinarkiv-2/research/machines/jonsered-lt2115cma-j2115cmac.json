@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-j2115cmac",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Versionsbunden forskningssammanställning ur Jonsered originalreservdelslista speglad av återförsäljare. CMAA:s aggregatsida bildkontrollerad; juni-katalogerna endast textgranskade, med visuell dubbelkontroll kvar.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-parts",
+      "tier": 2,
+      "title": "Jonsered LT 2115 CMA 2004-06 original spare parts list, mirrored",
+      "document": "LT 2115 CMA, J2115CMAC, 954130216, 2004-06, 24-page PDF",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cma/tracteur_tondeuse_jonsered_lt2115cma_vue-eclate-liste-des-pieces_2004-06.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Endast identifierings- och utvalda katalogpositioner undersökta; fullständig motor-, transmissions-, säkerhets- och servicedokumentation återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-identity",
+      "statement": "Katalogens omslag anger LT2115CMA J2115CMAC, produktnummer 954130216, versionsdatum 2004-06.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 1, titel",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-bag",
+      "statement": "Uppsamlarsäck listas som 532 18 08-80.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 3, BAC DE RAMASSAGE pos. 21",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "I",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-deck-housing",
+      "statement": "Klippaggregatets kåpa listas som 532 16 55-52.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE pos. 1",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-deck-belt",
+      "statement": "Klippaggregatets drivrem listas som 532 18 02-17.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE pos. 68",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-blade-385",
+      "statement": "Klippkniv listas som 532 18 63-85.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE pos. 11",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-blade-386",
+      "statement": "Klippkniv listas som 532 18 63-86.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE pos. 16",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-blade-387",
+      "statement": "Klippkniv listas som 532 18 63-87.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE pos. 161",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-blade-388",
+      "statement": "Klippkniv listas som 532 18 63-88.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE pos. 163",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-spindle",
+      "statement": "Spindelaxel listas som 532 13 76-45.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE pos. 13",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "K",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-chassis",
+      "statement": "Chassidel listas som 532 17 46-20.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 7, CHASSIS & BOITIER pos. 1",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "B",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-electrical-harness-21",
+      "statement": "Elsystemets katalogavsnitt ELECTRIQUE anger kabelstam (HARNAIS) 532 17 56-88 på position 21. Uppgiften är revisionsbunden och utgör inget generellt passformsbesked.",
+      "variant": "LT2115CMA J2115CMAC / 954130216 / 2004-06",
+      "locator": "PDF s. 13 (PDF-index 12), ELECTRIQUE position 21",
+      "sourceId": "jonsered-lt2115cma-j2115cmac-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Motormodell, motor-specifikation och serviceintervall återstår med korrekt maskin-/motorkälla.",
+    "DRIVE, WHEELS & TIRES samt ELECTRICAL behöver fullständig granskning för denna produktrevision.",
+    "Gemensamma reservdelsnummer i katalogerna är inte bevis för identiska hela aggregat eller generellt utbytbara komponenter.",
+    "PDF-skärmbild misslyckades, och angivna katalogpositioner ska bildverifieras före publicering.",
+    "Kabelstam pos. 21 har återkontrollerats mot PDF:ens indexerade text; originalets sidbild kunde inte visas (cache miss). Separat bild-/elfelschemakontroll krävs före godkänd passform och slutlig verifikation.",
+    "Kabelstam 532 17 56-88 i 2004-06-katalogens ELECTRIQUE pos. 21 skiljer sig från katalogposten 532 18 37-59 i 2005-05-revision 96061001002. Båda måste bildkontrolleras innan reservdelskompatibilitet bedöms."
+  ]
+}

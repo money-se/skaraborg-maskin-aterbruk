@@ -23,6 +23,27 @@
 | Murray 425015X92A | [murray-425015x92a.json](machines/murray-425015x92a.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
 | Murray 425015X92B | [murray-425015x92b.json](machines/murray-425015x92b.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
 
+| Jonsered LT2115 / 96011018100 | [jonsered-lt2115-96011018100.json](machines/jonsered-lt2115-96011018100.json) | `needs_research`: IPL 2006-05, produktnummerkonflikt identifierad |
+| Jonsered LT2115CMA / 96061008301 | [jonsered-lt2115cma-96061008301.json](machines/jonsered-lt2115cma-96061008301.json) | `needs_research`: IPL 2006-06, Hydro-Gear och 92 CRD dokumenterat |
+
+| Jonsered LT2115A / 96011018200 | [jonsered-lt2115a-96011018200.json](machines/jonsered-lt2115a-96011018200.json) | `needs_research`: IPL 2006-03, Hydro Gr 322-0510, 42-tums klippbord |
+| Jonsered LT2115CM / 96061008101 | [jonsered-lt2115cm-96061008101.json](machines/jonsered-lt2115cm-96061008101.json) | `needs_research`: reservdelslista 2006-05, aggregat/knivar och elsystem |
+
+| Jonsered LT2115CMA (2005-01) / 96061001000 | [jonsered-lt2115cma-96061001000.json](machines/jonsered-lt2115cma-96061001000.json) | `needs_research`: äldre IPL, Hydro-Gear 321-0510, vidare revisionskontroll krävs |
+
+| Jonsered LT2115CMA (2005-05) / 96061001002 | [jonsered-lt2115cma-96061001002.json](machines/jonsered-lt2115cma-96061001002.json) | `needs_research`: 2005-05 klippaggregat, knivar och chassi; separat från 2006-06 |
+
+| Jonsered LT2115CMA (2005-04) / 96061001001 | [jonsered-lt2115cma-96061001001.json](machines/jonsered-lt2115cma-96061001001.json) | `needs_research`: dokumentidentitet hittad, PDF-granskning återstår |
+| Jonsered LT2115CMA (2006-01) / 96061001003 | [jonsered-lt2115cma-96061001003.json](machines/jonsered-lt2115cma-96061001003.json) | `needs_research`: dokumentidentitet hittad, PDF-granskning återstår |
+
+| Jonsered LT2115CMA (2006-03) / 96061008201 | [jonsered-lt2115cma-96061008201.json](machines/jonsered-lt2115cma-96061008201.json) | `needs_research`: originalkatalog utdrag, transmission och drivrem |
+| Jonsered LT2115CMA (2006-04) / 96061008300 | [jonsered-lt2115cma-96061008300.json](machines/jonsered-lt2115cma-96061008300.json) | `needs_research`: sekundärt versionsregister; originalkatalog återstår |
+| Jonsered LT2115CMA (2006-05) / 96061008200 | [jonsered-lt2115cma-96061008200.json](machines/jonsered-lt2115cma-96061008200.json) | `needs_research`: sekundärt versionsregister; originalkatalog återstår |
+
+| Jonsered LT2115CMA J2115CMAA (2004-01) / 954130216 | [jonsered-lt2115cma-j2115cmaa.json](machines/jonsered-lt2115cma-j2115cmaa.json) | `needs_research`: versionsbunden IPL med aggregat och reservdelar |
+| Jonsered LT2115CMA J2115CMAB (2004-06) / 954130093 | [jonsered-lt2115cma-j2115cmab.json](machines/jonsered-lt2115cma-j2115cmab.json) | `needs_research`: versionsbunden IPL med aggregat och reservdelar |
+| Jonsered LT2115CMA J2115CMAC (2004-06) / 954130216 | [jonsered-lt2115cma-j2115cmac.json](machines/jonsered-lt2115cma-j2115cmac.json) | `needs_research`: versionsbunden IPL med aggregat och reservdelar |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|

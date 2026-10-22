@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061001001",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Försiktigt versionsregister baserat på dokumentrubrik i indexerad Jonsered-reservdelskatalog; ingen fullständig PDF-granskning eller artikelpublicering.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cma-96061001001-pdf-index",
+      "tier": 2,
+      "title": "Jonsered LT2115CMA illustrated parts list, 2005-04 (återpublicerad PDF)",
+      "document": "LT 2115 CMA / 96061001001 / 954130224 / 2005-04",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cma/tracteur_tondeuse_jonsered_lt2115cma_vue-eclate-liste-des-pieces_2005-04.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Endast dokumentidentitet belagd genom indexerad katalogtext. Den fullständiga PDF-filen kunde inte öppnas för kontroll av reservdelar och specifikationer."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061001001-identity",
+      "statement": "Katalogrubriken identifierar Jonsered LT2115CMA, modellnummer 96061001001, produktnummer 954 13 02-24 och katalogversion 2005-04.",
+      "variant": "LT2115CMA / 96061001001 / 954130224 / 2005-04",
+      "locator": "Indexerad PDF-rubrik före ENGINE-sprängskiss; original-PDF behöver senare kontrolleras visuellt.",
+      "sourceId": "jonsered-lt2115cma-96061001001-pdf-index",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Katalog-PDF kunde inte öppnas fullständigt med webbverktyget; sidnummer, motornamn, reservdelslistor och detaljpositioner är inte verifierade.",
+    "Motortyp, transmission, remmar, klippaggregat, elsystem och service återstår.",
+    "Ingen passform med andra LT2115CMA-revisioner kan härledas från samma produktfamilj."
+  ]
+}
