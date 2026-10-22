@@ -245,12 +245,90 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-motion-belt",
+      "statement": "Markdrivningsremmen i ENTRAINEMENT är 532 17 01-40 (COURROIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 57",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-clutch-assembly",
+      "statement": "Kopplingsenhet i ENTRAINEMENT är 532 18 03-54 (EMBRAYAGE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 9",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-tensioner",
+      "statement": "Drivremmens spännare listas som 532 15 47-78 (TENDEUR DE COURROIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 66",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-idler",
+      "statement": "Drivningens remskiva listas som 532 12 77-83 (POULIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 47",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-link",
+      "statement": "Drivlänk listas som 532 17 00-07 (MAILLON).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 84",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-bypass-link",
+      "statement": "Drivlänk listas som 532 17 00-15 (MAILLON); dess exakta funktion som hydrostat-bypass är inte belagd av just denna kataloglista.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 95",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-drive-guide",
+      "statement": "Drivremstyrning listas som 532 12 32-05 (GUIDE DE COURROIE).",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 15, ENTRAINEMENT position 49",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
     "Motorfabrikat, motor-spec/serial, transmission och serviceintervall för just 96061001002 återstår att verifiera.",
     "Samma reservdelsnummer på olika revisioner kan indikera gemensam katalogreferens men innebär inte att hela aggregatet är utbytbart.",
     "Aggregatets reservdelslista på PDF-sida 5 är bildgranskad; övriga sidor, sprängskisser och maskinens individuella komponentnummer behöver ytterligare visuell kontroll.",
-    "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger."
+    "Fler CMA-revisioner 2004–2006 är identifierade i återförsäljarregister men ännu inte fullt belagda genom egna originalkataloger.",
+    "2005-05-katalogens ENTRAINEMENT-sida 15 saknar utpekat fabrikat/modell för transaxeln; kräv separat transmissionens märkskylt eller originalsprängskiss för säker identifiering."
   ]
 }
