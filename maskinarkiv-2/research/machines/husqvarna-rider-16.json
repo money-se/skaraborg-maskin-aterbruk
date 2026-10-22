@@ -179,6 +179,13 @@
       "title": "PIX Lawn & Garden replacement belt cross-reference",
       "document": "PIX Lawn & Garden Belts catalog: Husqvarna 531007526, 589531501, 506977301",
       "url": "https://curea.ro/storage/userfiles/products/documents/e759f8498917fe9102e8b2099cd3df53.pdf"
+    },
+    {
+      "id": "husqvarna-official-belt-589531501",
+      "tier": 1,
+      "title": "Husqvarna UK – official cutting deck belt product variants",
+      "document": "Husqvarna Cutting deck belt, variant article 589 53 15-01",
+      "url": "https://www.husqvarna.com/uk/maintenance-and-spare-parts/belt/?article=593806401"
     }
   ],
   "topics": {
@@ -1333,6 +1340,15 @@
       "sourceId": "rider16-bio90-pix-crossref",
       "grade": "C",
       "topic": "E"
+    },
+    {
+      "id": "rider16-bio90-589531501-official-product",
+      "statement": "Husqvarna anger artikelnummer 589 53 15-01 som en 'Cutting deck belt' med längd 2 158 mm på sin officiella reservdelssida. Denna sida bekräftar artikelnumrets existens och produktklass men inte dess tillämplighet på Rider 16 BioClip 90 eller någon ersättningskedja från äldre nummer.",
+      "variant": "Tillverkarprodukt 589531501, ingen maskin-/aggregat-PNC bunden",
+      "locator": "Husqvarna UK, 'Cutting deck belt', Product variants, Art no: 589 53 15-01 och Product data, Length 2,158 mm",
+      "sourceId": "husqvarna-official-belt-589531501",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1387,6 +1403,7 @@
     "Undersök om 531007586-knivlistan täcker samma fysiska BioClip 90-aggregatrevision i Rider 16 2001–2003, och fastställ komplett aggregat-PNC.",
     "Rider 1030 BioClip 1997-05 har separat originalkatalog med 103 cm-komponenter, men är ett SIDOFYND och dess komponenter får inte överföras till Rider 16 utan versionsbelägg.",
     "Sök en Husqvarna-publicerad officiell ersättningskedja för BioClip 90-remmar 531007526 / 506977301 / 531008037 → 589531501. AHUPD, sGarden och Wolfswinkel styrker detta på återförsäljarnivå, inte tillverkarnivå.",
-    "PIX-katalogens OEM-korsreferenser visar samma modellgrupp men inte motsvarande OE-artikelersättning. Undvik att hävda kompatibilitet utan PNC och korrekt aggregatutförande."
+    "PIX-katalogens OEM-korsreferenser visar samma modellgrupp men inte motsvarande OE-artikelersättning. Undvik att hävda kompatibilitet utan PNC och korrekt aggregatutförande.",
+    "Husqvarna bekräftar produkt 589531501 och längd 2158 mm, men officiell webbsida visar inte 531007526/506977301/531008037 som ersatta nummer eller Rider 16 PNC. En officiell parts-lookup med maskin-/aggregat-PNC krävs."
   ]
 }
