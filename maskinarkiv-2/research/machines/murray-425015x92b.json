@@ -22,7 +22,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-040745L CHASSIS & HOOD s.2 har nu kartlagda huv-/grillinsatser, golvmattor, sitsdetaljer, fästen och ram, katalogpositioner och modellbunden proveniens. Bildgranskning och revisionshistorik öppna."
     },
     "C": {
       "name": "Motor",
@@ -32,7 +32,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Transaxelmodell och drivrem ännu ej verifierade från den aktuella modellens katalog."
+      "note": "Transaxelmodell och drivrem ännu ej verifierade från den aktuella modellens katalog.\nFollow-up: Modellens egen TRANSMISSION-lista i F-040745L s.4 anger PEERLESS på pos 36, drivrem 037x87 samt remskiva, fästen och broms-/växelkomponenter. Peerless-exaktmodell saknas och måste styrkas från fysisk transaxelmärkning/egen Peerless-katalog."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -47,12 +47,12 @@
     "G": {
       "name": "Säkerhetssystem",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: Originalkatalogens ELECTRICAL SYSTEM-lista anger modellbundna elkomponenter, däribland chassikabelhärva 250x117, tändningslås 092556, solenoid 094613, säkring 302031 och sitsbrytare 094159. Kretsfunktion, kopplingsschema och multimetervärden ännu ej styrkta."
     },
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-040745L Mower Housing listar rem, kniv, spindelhus, lyftstag och komplett aggregat med positionsnummer. Bildgranskning och ersättningsrevisioner återstår."
     },
     "I": {
       "name": "Tillbehör",
@@ -157,6 +157,809 @@
       "grade": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-jackshaft",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094199 på position 1.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 1",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-belt",
+      "statement": "MOWER HOUSING-reservdelslistan anger 037x88 på position 3.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 3",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-idler",
+      "statement": "MOWER HOUSING-reservdelslistan anger 690387 på position 4.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 4",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-lift-link",
+      "statement": "MOWER HOUSING-reservdelslistan anger 690212E701 på position 8.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 8",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-mandrel",
+      "statement": "MOWER HOUSING-reservdelslistan anger 1001200 på position 34.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 34",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-adapter",
+      "statement": "MOWER HOUSING-reservdelslistan anger 690411 på position 36.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 36",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-blade",
+      "statement": "MOWER HOUSING-reservdelslistan anger 095100E701 på position 37.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 37",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-deflector",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094707SE på position 44.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 44",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-front-hanger",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094190E701 på position 46.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 46",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-gauge-wheel",
+      "statement": "MOWER HOUSING-reservdelslistan anger 092683 på position 53.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 53",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-left-brake",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094049E701 på position 12.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 12",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-right-brake",
+      "statement": "MOWER HOUSING-reservdelslistan anger 094047E701 på position 27.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 27",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-mower-deck-assembly",
+      "statement": "MOWER HOUSING-reservdelslistan anger 7601032 på position 1–61.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING pos 1–61",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-steering-bearing",
+      "statement": "Reservdelskatalogen listar Styrlager 1001491.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 33",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-dash",
+      "statement": "Reservdelskatalogen listar Instrumentpanel 1001584E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 34",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-dash-access",
+      "statement": "Reservdelskatalogen listar Servicelucka 093007E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 36",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-rear-hanger",
+      "statement": "Reservdelskatalogen listar Bakre upphängningsstöd 1001270E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 38",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-seat-deck",
+      "statement": "Reservdelskatalogen listar Sitsplåt 1001558E245.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 19",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-hood",
+      "statement": "Reservdelskatalogen listar Motorhuv 1001797E245.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 25",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-grille",
+      "statement": "Reservdelskatalogen listar Frontgrill 1001798E245.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 26",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-headlamp-lens",
+      "statement": "Reservdelskatalogen listar Strålkastarlins 1001806.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 27",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-headlamp-housing",
+      "statement": "Reservdelskatalogen listar Strålkastarhus 1001805.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 28",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-battery-support",
+      "statement": "Reservdelskatalogen listar Batteristöd 690482E701.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 30",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-chassis-cup-holder",
+      "statement": "Reservdelskatalogen listar Mugghållare 1001542.",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 70",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-transaxle-brand",
+      "statement": "Transaxeln identifieras som PEERLESS. Den exakta Peerless-modellkoden anges inte i tabellen.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 36",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-motion-belt",
+      "statement": "Drivremmen Belt, Motion Drive har artikelnummer 037x87.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 30",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-transaxle-pulley",
+      "statement": "Transaxelremskivan anges som 690409.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 41",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-transaxle-bracket",
+      "statement": "Transaxelfästet anges som 094008E701.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 40",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-transaxle-support",
+      "statement": "Transaxelstödet anges som 094433E701.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 42",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-clutch-rod",
+      "statement": "Kopplingsstaget anges som 094041 Z.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 4",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-shift-lever",
+      "statement": "Växelspaken anges som 094043 Z.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 9",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-shift-link",
+      "statement": "Växellänkaget anges som 094044 Z.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 11",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-parking-brake-rod",
+      "statement": "Parkeringsbromsstaget anges som 1001245 Z.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 14",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-shift-pivot",
+      "statement": "Växelspakens pivotfäste anges som 1001303 Z.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 16",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-parking-brake-latch",
+      "statement": "Parkeringsbromsens spärr anges som 094045 Z.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 26",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-shift-yoke",
+      "statement": "Växelgaffeln anges som 094031 Z.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 31",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-drive-pulley",
+      "statement": "Drivremskivan anges som 095094.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 44",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-belt-guide",
+      "statement": "Remstyrningen anges som 093349.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "TRANSMISSION, tryckt sida 4, position 54",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-light-harness",
+      "statement": "Modellens originalreservdelskatalog anger Belysningskabelhärva 250x92.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 1",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-light-socket",
+      "statement": "Modellens originalreservdelskatalog anger Lamphållare 1001716.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 1 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-light-bulb",
+      "statement": "Modellens originalreservdelskatalog anger Glödlampa 090084.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 1 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-chassis-harness",
+      "statement": "Modellens originalreservdelskatalog anger Chassikabelhärva 250x117.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 2",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-ignition-switch",
+      "statement": "Modellens originalreservdelskatalog anger Tändningslås 092556.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 3",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-ignition-key",
+      "statement": "Modellens originalreservdelskatalog anger Tändningsnyckel 020729.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 3 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-limit-switch",
+      "statement": "Modellens originalreservdelskatalog anger Gränslägesbrytare 094136.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 4",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-fuse",
+      "statement": "Modellens originalreservdelskatalog anger Säkring 302031.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 5",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-fuse-holder",
+      "statement": "Modellens originalreservdelskatalog anger Säkringshållare 407078.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 5 (underpost)",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-solenoid",
+      "statement": "Modellens originalreservdelskatalog anger Startsolenoid 094613.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 6",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-ground-cable",
+      "statement": "Modellens originalreservdelskatalog anger Batteriets jordkabel 024x32.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 7",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-battery",
+      "statement": "Modellens originalreservdelskatalog anger Batteri 021075.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 8",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-seat-harness",
+      "statement": "Modellens originalreservdelskatalog anger Sitsbrytarens kabelhärva 250x67.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 9",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-seat-switch",
+      "statement": "Modellens originalreservdelskatalog anger Sitsgivarbrytare 094159.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 10",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-electrical-electric-cable",
+      "statement": "Modellens originalreservdelskatalog anger Kabel 024x31.",
+      "variant": "425015X92B, F-040745L",
+      "locator": "ELECTRICAL SYSTEM, position 11",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-support",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094154E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 8",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-pivot-rod",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094156 Z.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 9",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-pivot-bracket",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001648E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 10",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-seat-index-plate",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094151E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 21",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-floor-mat-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094999.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 23",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-floor-mat-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094998.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 24",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-lower-pivot",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001799E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 29",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-dash-support",
+      "statement": "CHASSIS & HOOD listar komponentnummer 095318E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 37",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-support-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094083E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 39",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-hanger-axle",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094007E701.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 40",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-support-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094082E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 41",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-rear-panel",
+      "statement": "CHASSIS & HOOD listar komponentnummer 690434E700.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 47",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-detent-cover",
+      "statement": "CHASSIS & HOOD listar komponentnummer 094610.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 48",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-insert-center",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001802.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 53",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-insert-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001803.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 54",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-grille-insert-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001804.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 55",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-hood-insert-left",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001800.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 56",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-hood-insert-right",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001801.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 57",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-parking-brake-grommet",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001755.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 59",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-chassis-extension-support-bracket",
+      "statement": "CHASSIS & HOOD listar komponentnummer 1001879.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, position 60",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -165,6 +968,9 @@
     "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
-    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
+    "PDF-bildgranskning av Mower Housing misslyckades; uppgifterna har jämförts mot källans indexerade text.",
+    "PEERLESS fastställt som fabrikat i modellens TRANSMISSION-tabell, men exakt intern modell-/ID-kod och serviceoljespecifikation kräver transaxelns märkskylt samt motsvarande Peerless-servicehandling.",
+    "ELECTRICAL SYSTEM är textverifierad men inte bildgranskad (PDF-cache miss). Kontrollera fysisk kontaktkonfiguration och elektriskt schema före kompatibilitetsanspråk."
   ]
 }
