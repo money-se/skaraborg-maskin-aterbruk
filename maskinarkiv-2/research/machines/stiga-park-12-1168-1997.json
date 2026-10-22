@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1168-1997",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Park 12 PNC 13-1168-20 säsong 1997; STIGA original IPL. Ska hållas isär från 13-1442-20 och 1996-varianterna.",
+  "sources": [
+    {
+      "id": "stiga-1168-1997-ipl",
+      "tier": 1,
+      "title": "STIGA Park 12 original parts catalogue",
+      "document": "13-1168-20 Season 1997, Issue 45–2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1168-20_96_SV-EN.pdf"
+    },
+    {
+      "id": "sandby-1168-1997",
+      "tier": 2,
+      "title": "Sandby Smedie Park 12 13-1168-20 model overview",
+      "document": "Park 12 reservedelstegning 1997",
+      "url": "https://www.sandbysmeden.dk/13-1168-20-stiga-park-12-1997/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-1168-97-identity",
+      "topic": "A",
+      "statement": "Originalkatalogen gäller Park 12 PNC 13-1168-20 säsong 1997, utgåva 45-2014.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Omslag PDF s. 1; katalogsida 3"
+    },
+    {
+      "id": "p12-1168-97-idplate",
+      "topic": "A",
+      "statement": "STIGA anger att reservdelslistan ska matchas mot tillverkningsår på maskinens identifieringsplåt.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Omslag PDF s. 1"
+    },
+    {
+      "id": "p12-1168-97-frontframe",
+      "topic": "B",
+      "statement": "Främre ram anges 1134-3411-03 och midjegaffel 1134-1757-07.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Främre Ram, tryckt s. 3, pos. 1–2"
+    },
+    {
+      "id": "p12-1168-97-rearframe",
+      "topic": "E",
+      "statement": "Bakre ram 1134-3412-01 och ledlager 9547-0001-00 anges.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Bakre Ram, tryckt s. 5, pos. 2–3"
+    },
+    {
+      "id": "p12-1168-97-muffler",
+      "topic": "C",
+      "statement": "Maskinens motorinstallationsgrupp listar avgasrör 1134-3738-01 och ljuddämpare 1134-3244-01, utan komplett motor-ID.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Motor Broms, tryckt s. 7, pos. 4 och 9"
+    },
+    {
+      "id": "p12-1168-97-fuel",
+      "topic": "C",
+      "statement": "Bränsletank 1134-3593-01, bensinkran 1134-3224-01 och bensinslang 1134-2975-06 listas.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Motor Broms, tryckt s. 7, pos. 37, 42, 44"
+    },
+    {
+      "id": "p12-1168-97-throttle",
+      "topic": "F",
+      "statement": "Gasreglage 1134-1975-11 och motorbromswire 1134-3410-02 listas.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Motor Broms, tryckt s. 7, pos. 59, 74"
+    },
+    {
+      "id": "p12-1168-97-pto-controls",
+      "topic": "F",
+      "statement": "PTO-listan innehåller både 1134-1396-02 med gruppnotering 1442/1443/1446 och 1134-0027-01 som reglagespak; detta är inte bevis att bägge passar 1168.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Power Take Off, tryckt s. 9, pos. 8"
+    },
+    {
+      "id": "p12-1168-97-pto-cable",
+      "topic": "H",
+      "statement": "Kraftuttagswire 1134-3573-01 och urkopplingsspak 1134-1972-01 finns i PTO-gruppen.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Power Take Off, tryckt s. 9, pos. 9–10"
+    },
+    {
+      "id": "p12-1168-97-pto-belt",
+      "topic": "K",
+      "statement": "PTO-rem 1134-9012-01 anges med referens 9585-0056-00.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Power Take Off, tryckt s. 9, pos. 57"
+    },
+    {
+      "id": "p12-1168-97-pto-brake",
+      "topic": "G",
+      "statement": "Reservdelskatalogen listar kraftuttagsbroms 1134-2524-01; bromsens funktion eller inställning är inte verifierad.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Kraftuttagsbroms, tryckt s. 13, pos. 12"
+    },
+    {
+      "id": "p12-1168-97-transaxle",
+      "topic": "D",
+      "statement": "Originalkatalogen identifierar komplett transaxel 1134-3716-01 som Peerless MST205-529A.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Transmission, tryckt s. 15, pos. 18"
+    },
+    {
+      "id": "p12-1168-97-transmissionbelt",
+      "topic": "D",
+      "statement": "Transmissionens kilrem 1134-9035-01 har referensen 9585-0078-00; inte samma som PTO-remmen.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Transmission, tryckt s. 15, pos. 10"
+    },
+    {
+      "id": "p12-1168-97-cables",
+      "topic": "F",
+      "statement": "Växelwire 1134-2031-02 och kopplingswire 1134-2030-04 listas separat.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Transmission, tryckt s. 15, pos. 51, 62"
+    },
+    {
+      "id": "p12-1168-97-wheels",
+      "topic": "B",
+      "statement": "Katalogen listar däck 16 x 7.50-8 med artikelnummer 9545-0116-00.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (STIGA-originalkatalog)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1997-ipl",
+      "locator": "Främre Ram tryckt s. 3 pos. 25; Transmission tryckt s. 15 pos. 39"
+    },
+    {
+      "id": "p12-1168-97-retailer-engine",
+      "topic": "C",
+      "statement": "Återförsäljare anger Briggs & Stratton 28D707-0133 som förväntad motor, ej bekräftad på individuell motor.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (återförsäljarspår)",
+      "grade": "C",
+      "sourceId": "sandby-1168-1997",
+      "locator": "Tekniske informationer > Model/Type"
+    },
+    {
+      "id": "p12-1168-97-retailer-decks",
+      "topic": "H",
+      "statement": "Återförsäljare listar 100B och 102M som använda klippbord; rätt aggregat-PNC och fysisk passform är inte bekräftade i originalmanual.",
+      "variant": "Park 12 13-1168-20 säsong 1997 (återförsäljarspår)",
+      "grade": "C",
+      "sourceId": "sandby-1168-1997",
+      "locator": "Tekniske informationer > Brugte klippeborde"
+    }
+  ],
+  "gaps": [
+    "Kontrollera motor Model/Type/Code direkt från motorns stansning och Briggs-original innan motorservice anges.",
+    "Verifiera klippaggregat 100B/102M från original tillbehörs-/monteringsmanual och exakt aggregat-PNC.",
+    "Identifiera elschema och säkerhetskrets med originalmanual; reservdelslistan ensam beskriver inte funktion.",
+    "Motorns och transmissionens serviceintervall, smörjmedel och metoder kräver separat tillverkarunderlag.",
+    "Jämför den här versionen med 13-1442-20 via fullständig originaldelstabell, inte bara modellnamn.",
+    "Visuell kontroll av originalkatalogens ritningar återstår: PDF-screenshot gav cache miss 2026-10-22."
+  ]
+}
