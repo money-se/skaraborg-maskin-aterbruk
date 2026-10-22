@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cm-96061008101",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Källbunden delundersökning av Jonsereds specifika modellversion i illustrerad reservdelslista. Ej artikel, publiceringsbeslut eller komplett reservdels-/servicematris.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cm-96061008101-ipl",
+      "tier": 2,
+      "title": "Jonsered LT2115CM illustrerad reservdelskatalog, återpublicerad",
+      "document": "LT 2115 CM 2006-05, illustrated parts list (franskspråkig återpublicering)",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cm/tracteur_tondeuse_jonsered_lt2115cm_vue-eclate-liste-des-pieces_2006-05.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cm-96061008101-identity",
+      "statement": "Reservdelslistans rubrik identifierar LT2115CM, nummer 96061008101, revision 2006-05.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 1, modellrubrik",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-deck-housing",
+      "statement": "Aggregatkåpa finns som 532 40 01-08 i avsnittet Carter de tondeuse.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE, pos. 1",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-blade-385",
+      "statement": "Klippkniv 532 18 63-85 listas på position 11.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE, pos. 11",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-blade-386",
+      "statement": "Klippkniv 532 18 63-86 listas på position 16 och får inte antas vara utbytbar med position 11.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE, pos. 16",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-deck-belt",
+      "statement": "Aggregatrem 532 40 20-08 listas på position 68.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 5, CARTER DE TONDEUSE, pos. 68",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-battery",
+      "statement": "Elsystemets reservdelslista anger batteri 532 14 49-27.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 13, ELECTRIQUE, pos. 1",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-fuse",
+      "statement": "Elsystemets reservdelslista anger säkringsartikel 532 17 51-58.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 13, ELECTRIQUE, pos. 26",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-steering",
+      "statement": "Styrväxeln i styrningslistan är artikel 532 17 51-46.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 11, DIRECTION, pos. 71",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-bag-assembly",
+      "statement": "Uppsamlingssektionen innehåller uppsamlarsäck 532 19 38-38.",
+      "variant": "LT2115CM / 96061008101",
+      "locator": "PDF s. 3, BAC DE RAMASSAGE, pos. 21",
+      "sourceId": "jonsered-lt2115cm-96061008101-ipl",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Motoridentitet och motorservice måste verifieras mot maskinens märkning och motorleverantörens originalmanual.",
+    "Förarmanual, serviceintervall, oljespecifikation och fullständig transmissionsbeteckning behöver komplett kontroll.",
+    "Ingen generell reservdelspassform mellan LT2115, LT2115A, LT2115CM och LT2115CMA får antas.",
+    "PDF-skärmbildskontrollen misslyckades; positioner och katalogtext bör bildverifieras före artikelpublicering."
+  ]
+}
