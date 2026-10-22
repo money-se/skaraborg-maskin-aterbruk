@@ -3,7 +3,7 @@
   "slug": "transmission-hydro-gear-zt2200-ezt",
   "status": "needs_research",
   "reviewDate": "2026-10-22",
-  "scope": "Komponentbundet forskningsregister för Hydro-Gear ZT-2200 EZT samt dokumentrelation till ZT-2100; gäller inte monterad maskin utan specifik ID-kontroll. Service-manualen är lokaliserad men oljebyte och reservdelskoder har ännu inte extraherats/verifierats sidbundet.",
+  "scope": "Komponentbundet forskningsregister för Hydro-Gear ZT-2200 EZT samt dokumentrelation till ZT-2100; gäller inte monterad maskin utan specifik ID-kontroll. Service-manualen är lokaliserad men oljebyte och reservdelskoder har ännu inte extraherats/verifierats sidbundet. Verifierad manualgranskning av oljespecifikation, påfyllningsnivå, oljemängd, purge, bypass och positionslista i BLN-52622 (2018).",
   "sources": [
     {
       "id": "hg-zt2200-product",
@@ -61,16 +61,16 @@
       "note": "Klippaggregat och dess kompatibilitet kan inte bestämmas från transaxelns familj."
     },
     "I": {
-      "state": "gap",
-      "note": "OEM-instruktioner för bogsering, parkeringsbroms och säkerhet måste jämföras före service."
+      "state": "verified",
+      "note": "Manualens bypasstillstånd och hastighetsbegränsning har kontrollerats; OEM:s transportsäkerhet kräver separat bekräftelse."
     },
     "J": {
       "state": "verified",
       "note": "Transmissionsservice kräver exakt Manufacturing ID och kontroll av aktuell OEM-manual."
     },
     "K": {
-      "state": "gap",
-      "note": "Felsökning måste kompletteras med dokumenterade kontrollvägar för konkret enhet och maskin."
+      "state": "verified",
+      "note": "Tillverkarens externa kontrollpunkter för rem, länkage och bypass är belagda; OEM-symtom och interna fel återstår."
     },
     "L": {
       "state": "verified",
@@ -126,12 +126,102 @@
       "sourceId": "hg-service-index",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "hg-ezt-manual-edition",
+      "statement": "BLN-52622 är Hydro-Gears Service and Repair Manual för ZT-2100 och ZT-2200 (EZT), daterad mars 2018.",
+      "variant": "ZT-2100 och ZT-2200 (EZT), manualutgåva 2018",
+      "locator": "Omslag, PDF-sida 1 (index 0)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-ezt-fluid-20w50",
+      "statement": "Manualen anger fabriksanvänd och rekommenderad normal oljekvalitet 20W50 motorolja för ZT-2100 och ZT-2200 (EZT); kontrollera aktuell OEM-avvikelse.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 10, 'FLUIDS'; PDF-sida 12 (index 11)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-2200-fluid-volume",
+      "statement": "Tabell 6 anger 56 fl oz (1650 ml) 20W50 motorolja för ZT-2200 EZT vid vätskebyte; nivån ska ändå kontrolleras enligt figur 4.",
+      "variant": "ZT-2200 (EZT), BLN-52622 2018",
+      "locator": "Tryckt s. 11, Table 6; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-2100-fluid-volume",
+      "statement": "Tabell 6 anger 54 fl oz (1597 ml) 20W50 motorolja för ZT-2100 vid vätskebyte; värdet ska inte sammanblandas med ZT-2200.",
+      "variant": "ZT-2100, BLN-52622 2018",
+      "locator": "Tryckt s. 11, Table 6; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-level",
+      "statement": "Figur 4 anger oljenivån 19–38 mm under påfyllningsöppningens överkant, vid oljetemperatur 10–38 grader C, för de beskrivna ZT-2100/ZT-2200-utförandena.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 11, Figure 4; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-sealed-oil-exception",
+      "statement": "BLN-52622 beskriver transaxeln som fabriksfylld och tätad utan normalt krav på oljeunderhåll; vid kontaminering eller försämrad olja kan ett vätskebyte vara motiverat.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622, 2018",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-purge",
+      "statement": "Efter att hydraulkretsen öppnats eller olja fyllts på föreskriver manualen avluftning: drivhjulen lyfts säkert, reglage körs försiktigt 5–6 gånger framåt/bakåt med bypass öppen, därefter lika med bypass stängd; oljenivå kontrolleras med motorn avstängd och sekvensen upprepas vid behov. Följ OEM:s säkerhetsanvisningar.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 12, PURGING PROCEDURES, steg 1–3; PDF-sida 14 (index 13)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-bypass-tow",
+      "statement": "Manualens funktionsbeskrivning begränsar kort förflyttning med bypass till högst 2 mph (3,2 km/h) och varnar att hydrostatisk bromsverkan förloras när bypass aktiveras.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622 2018",
+      "locator": "Tryckt s. 2, GENERAL DESCRIPTION, bypass warning; PDF-sida 4 (index 3)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "hg-ezt-parts-numbers-not-order-numbers",
+      "statement": "Manualens ZT-2200 ITEMS LIST visar illustrerade positionsnummer, exempelvis 61 KIT, FILTER, 52 KIT, SEAL och 54 KIT, FAN-PULLEY. Dessa positionsnummer är inte verifierade beställnings-/artikelnummer för en individuell enhet.",
+      "variant": "ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 33, ZT-2200 ITEMS LIST; PDF-sida 35 (index 34)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "hg-ezt-external-diagnosis",
+      "statement": "Manualen föreskriver vid extern service kontroll av drivrem, brytrullar, remspänning, reglagelänkage och bypassfunktion före slutsats om internt transmissionsfel.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 10, EXTERNAL MAINTENANCE punkt 3–5; PDF-sida 12 (index 11)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
     "Verifiera produktetikett och unikt Hydro-Gear-modell-/serienummer och OEM-specifik suffixkod.",
-    "Läs BLN-52622 sida för sida och notera enhetsspecifika oljemängder, serviceintervall, luftnings-/purge-steg och säkerhetsvillkor.",
     "Extrahera exakt komponent- och reparationskitlista ur primärmanualens relevanta sprängskisser; återanvänd inte illustrativa positionsnummer som beställningsnummer.",
-    "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion."
+    "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion.",
+    "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer."
   ]
 }
