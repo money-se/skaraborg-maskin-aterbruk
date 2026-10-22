@@ -277,12 +277,19 @@
       "title": "Motoruf MTD B/130 deck F European model comparison",
       "document": "MTD B/130 13AA478F678 (2001), 38-inch Deck F illustrated retailer parts catalog",
       "url": "https://www.motoruf.com/n/partslists.html?id=553472"
+    },
+    {
+      "id": "mtd-2024-model-serial-breakdown-5513",
+      "tier": 2,
+      "title": "MTD Model Serial Breakdown ID 5513",
+      "document": "Manufacturer-formatted model and serial guide, dated 2024-03-15; independent PDF mirror",
+      "url": "https://device.report/m/8c7ca121257e0d9e4204a775db880ca22452052011c7db808f78618db3b2cfdb.pdf"
     }
   ],
   "topics": {
     "A": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat.\nFollow-up research: MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat. Tillverkarens officiella serienummerguide visar att position 2–5 kodar datum, men ensamt års-tecken 0 är inte unikt för ett årtionde. Identifiera hela märkningen före års-/deckval. I äldre MTD 600-seriehandbok anges identifiering via fyra axelspår (400 två, 300/500 inga), men detta gäller historiska revisioner och får inte användas för säker datering av 2000-exemplar. MTD-originalmanual 770-10115A instruerar att modell- och serienummerskylt finns under framfällt säte vid sätesfästet. 2001 XREF anger exakt hjulnummer, dekalnummer för 13BH670F062 och tillåter kontroll mot märkning vid renoverat exemplar. Original-XREF 2000/2001 skiljer på ram- och huvdekaler, fram-/bakhjul och sätesnummer trots exakt samma 13BH670F062; märkplåt, etiketter och tillverkningskod behövs för att skilja exemplar."
+      "note": "MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat.\nFollow-up research: MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat. Tillverkarens officiella serienummerguide visar att position 2–5 kodar datum, men ensamt års-tecken 0 är inte unikt för ett årtionde. Identifiera hela märkningen före års-/deckval. I äldre MTD 600-seriehandbok anges identifiering via fyra axelspår (400 två, 300/500 inga), men detta gäller historiska revisioner och får inte användas för säker datering av 2000-exemplar. MTD-originalmanual 770-10115A instruerar att modell- och serienummerskylt finns under framfällt säte vid sätesfästet. 2001 XREF anger exakt hjulnummer, dekalnummer för 13BH670F062 och tillåter kontroll mot märkning vid renoverat exemplar. Original-XREF 2000/2001 skiljer på ram- och huvdekaler, fram-/bakhjul och sätesnummer trots exakt samma 13BH670F062; märkplåt, etiketter och tillverkningskod behövs för att skilja exemplar. MTD-formaterad 2024 guide ID 5513 anger första serietecknet som engineering/lot level, men äldre tillämpning för 13BH670F062 behöver separat styrkas."
     },
     "B": {
       "state": "gap",
@@ -310,7 +317,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning.\nFollow-up research: Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår. Sex tydligt avgränsade delar i 2000-års modellspecifika 38-tumsdäcklista: komplett 753-0694-0637, enhet 983-0129A-0637, rem 954-0329A, kniv 942-0610A, remskydd 783-0343A-0637 och stödhjul 734-06265. Tre oberoende kataloger anger Deck F men MTD:s XREF 2000 G kvarstår. Europeisk B/130 Deck F-delgrupp har överlapp i rem 754-0329A, kniv 742-0610, remskydd 783-0343A och aggregatbroms 783-0342. Komplett aggregat har däremot andra artikelnummer än Lowes 2000-index och får inte antas utbytbart. MTD:s egen modellkodguide anger F=38 och G=42 tum, vilket stämmer med 2001 XREF och modellspecifika IPL men inte med 2000 XREF som anger 42 Deck G. Katalogskillnaden påverkar dessutom hjul, säte och etiketter."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning.\nFollow-up research: Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår. Sex tydligt avgränsade delar i 2000-års modellspecifika 38-tumsdäcklista: komplett 753-0694-0637, enhet 983-0129A-0637, rem 954-0329A, kniv 942-0610A, remskydd 783-0343A-0637 och stödhjul 734-06265. Tre oberoende kataloger anger Deck F men MTD:s XREF 2000 G kvarstår. Europeisk B/130 Deck F-delgrupp har överlapp i rem 754-0329A, kniv 742-0610, remskydd 783-0343A och aggregatbroms 783-0342. Komplett aggregat har däremot andra artikelnummer än Lowes 2000-index och får inte antas utbytbart. MTD:s egen modellkodguide anger F=38 och G=42 tum, vilket stämmer med 2001 XREF och modellspecifika IPL men inte med 2000 XREF som anger 42 Deck G. Katalogskillnaden påverkar dessutom hjul, säte och etiketter. 2024 guide ID 5513 beskriver åttonde tecknet som däckkod och äldre typ F 38 tum / G 42 tum; dagens bokstäver kan ha fler konstruktioner."
     },
     "I": {
       "state": "gap",
@@ -1602,6 +1609,33 @@
       "locator": "MTD Model Number Guide, Model Number System 1997 to Date: Deck Identification F=38 in, G=42 in; compare 2000/2001 XREF",
       "grade": "B",
       "variant": "13BH670F062 originalkorsreferens 2000 kontra 2001, katalogbaserad identitet utan fastställd serienummerperiod"
+    },
+    {
+      "id": "mtd-2024-serial-engineering-lot-position",
+      "topic": "A",
+      "statement": "MTD:s modell-/serienummerguide ID 5513 (2024) visar en elvateckens-serienummerstruktur och märker det första tecknet som lot/engineering level, som enligt guiden ska ändras vid större reservdelsförändringar. Detta är en vägledning för att samla revisionsdata, inte verifiering av 2000/2001 års 13BH670F062-kodning.",
+      "variant": "MTD generell modell-/seriekodguide daterad 2024, ej dokumenterat retroaktivt tillämplig på 13BH670F062 årsserierna 2000/2001",
+      "grade": "B",
+      "sourceId": "mtd-2024-model-serial-breakdown-5513",
+      "locator": "PDF page 1, diagram MTD SERIAL NUMBER BREAKDOWN, first character lot / engineering level"
+    },
+    {
+      "id": "mtd-2024-model-deck-eighth-character",
+      "topic": "H",
+      "statement": "MTD:s kodguide ID 5513 (2024) anger att det åttonde tecknet i ett tillämpligt ride-on modellnummer anger aggregattyp. För gruppen med äldre stämplade flytande aggregat anges F = 38 tum sidoutkast med två knivar, G = 42 tum sidoutkast med två knivar. Eftersom guiden också beskriver många senare års kodbetydelser får man inte förutsätta att varje modern F-variant är samma konstruktion.",
+      "variant": "MTD generell modell-/seriekodguide daterad 2024, ej dokumenterat retroaktivt tillämplig på 13BH670F062 årsserierna 2000/2001",
+      "grade": "B",
+      "sourceId": "mtd-2024-model-serial-breakdown-5513",
+      "locator": "PDF page 3, Deck Designation note and historic F 38 inch / G 42 inch definitions"
+    },
+    {
+      "id": "mtd-2024-serial-revision-proof-limit",
+      "topic": "A",
+      "statement": "MTD:s guide visar återkommande årssiffror (0 kan avse 2000, 2010 eller 2020) samt skilda teckenpositioner för tillverkningsdatum och engineering level. Därför kan varken katalogår eller en fristående årssiffra verifiera fabriksversionen av ett 13BH670F062-exemplar utan komplett typskylt och relevant periodtolkning.",
+      "variant": "MTD generell modell-/seriekodguide daterad 2024, ej dokumenterat retroaktivt tillämplig på 13BH670F062 årsserierna 2000/2001",
+      "grade": "B",
+      "sourceId": "mtd-2024-model-serial-breakdown-5513",
+      "locator": "PDF page 1, MTD SERIAL NUMBER BREAKDOWN and Year Designation repeated decade codes"
     }
   ],
   "gaps": [
@@ -1650,6 +1684,7 @@
     "Bekräfta faktisk 13BH670F062-styrstång och hjulskuldra före toe-in-justering eller hjulbeställning; återförsäljarportalen listar flera utföranden.",
     "Validera eftermarknadstabellens två remapplikationer mot exakt maskin med eventuell G-aggregatrevision och slitna eller ändrade remskivor innan beställning.",
     "Verifiera via chassifästen och tillverkarens supersessionskedja om de europeiska Deck F-aggregaten 683-0119A/813-04244637 kan ersätta Lowes aggregat 753-0694-0637 eller 983-0129A-0637; enskilda gemensamma komponenter räcker inte.",
-    "Förklara med OEM-revisionsmeddelande, serienummerintervall eller korrigerad originaltabell varför 2000 XREF anger G/42 för 13BH670F062 trots F=38 enligt MTD:s modellkod och 2001 XREF. Spåra samtidigt de skilda 2000/2001-dekalerna, hjulen och sätena."
+    "Förklara med OEM-revisionsmeddelande, serienummerintervall eller korrigerad originaltabell varför 2000 XREF anger G/42 för 13BH670F062 trots F=38 enligt MTD:s modellkod och 2001 XREF. Spåra samtidigt de skilda 2000/2001-dekalerna, hjulen och sätena.",
+    "Kontrollera med MTD-arkiv eller historisk seriekodguide om 2024 års 'engineering/lot level' på första teckenpositionen användes oförändrat för 13BH670F062 kring 2000–2001; hitta faktiska 11-teckens serienummer före revisionsslutsats."
   ]
 }
