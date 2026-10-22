@@ -825,6 +825,168 @@
       "locator": "Tryckt sida 10, steg 7",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "3400-purge-conditions",
+      "statement": "ZT-3400/3600/3800 manual BLN-0108 recommends purging after opening hydraulic system or changing oil. Symptoms of trapped air include noise, loss of drive, high temperature and excessive oil expansion.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, PURGING PROCEDURES, symptoms",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-lift",
+      "statement": "Purge procedure is best conducted with drive wheels raised clear of ground, then repeated in normal conditions; if impossible choose open area clear of bystanders and objects.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, PURGING PROCEDURES, right column",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-bypass-open",
+      "statement": "With brake released and bypass valve open, engine running, move forward/reverse control slowly 5–6 times as initial purge cycle.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, steps 1–2",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-bypass-shut",
+      "statement": "With bypass closed and engine running, cycle direction control forward/reverse slowly 5–6 times; stop engine prior to oil level inspection/top-up.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, step 3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-endpoint",
+      "statement": "Purge cycles can be repeated until the transaxle moves smoothly in both directions at normal speeds and operating noise normalizes.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, step 4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-preconditions",
+      "statement": "For neutral setting disengage bypass, safely lift drive wheels and disconnect OEM linkage at directional arm before checking for unintended axle rotation.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.13, RTN steps 1–4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-five-degree",
+      "statement": "If axle rotates in neutral, stop engine and loosen RTN screw; move arm in 5-degree increments opposite axle rotation, tighten, then repeat controlled rotation check.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.13, RTN step 6",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-wheel-vs-hub",
+      "statement": "For access to RTN linkage only wheel lug nuts may be removed; manufacturer explicitly says not to remove axle/hub nut.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.13, RTN note",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-bolt-discard",
+      "statement": "During RTN assembly removal the Torx screw item 46 must be discarded and replaced; associated RTN scissor arm parts 145/146 and spring 147 are distinguished.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.14, RTN ASSEMBLY steps 2–3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-control-washer-nut-discard",
+      "statement": "For control arm assembly item 45 washer and item 47 locknut are explicitly discard-on-removal items and should be replaced at reassembly.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.15, CONTROL ARM ASSEMBLY steps 2 and Assembly",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-seal41-kit-only",
+      "statement": "Trunnion seal item 41 should be removed only if worn or damaged; it is not included in RTN kit 211 and is serviced by appropriate seal kit.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.14, RTN ASSEMBLY note",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-when",
+      "statement": "ZT-4400 BLN-0081 requires purging after hydraulic circuit is opened or additional oil is added; air can cause noise, reduced drive and high operating temperature.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, PURGING PROCEDURE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-open",
+      "statement": "With wheels secured off ground, bypass opened and engine running, slowly cycle controls through forward and reverse 5–6 times.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, step 1",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-closed",
+      "statement": "With bypass closed and engine running, repeat 5–6 forward/reverse cycles; stop engine before checking or topping up oil.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, step 2",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-complete",
+      "statement": "Repeat purge sequence as required; service is complete when forward and reverse are smooth at normal speed.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, step 3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-rtn-safety",
+      "statement": "ZT-4400 RTN adjustment requires bypass disengaged, drive wheels raised, and OEM directional linkage disconnected from control arm.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.12, RTN steps 1–2",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-rtn-five",
+      "statement": "If axle rotates in neutral, turn engine off, loosen lock-down screw item 61, rotate arm item 54 opposite wheel rotation five degrees, tighten and repeat verification.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.12, RTN step 6",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-rtn-no-hub-unfasten",
+      "statement": "ZT-4400 manual permits removing the drive tire to reach the neutral adjustment mechanism but never calls for removal of the axle hub to adjust RTN.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.12, RTN step 1 note",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
