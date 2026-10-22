@@ -1,0 +1,635 @@
+{
+  "schemaVersion": 1,
+  "slug": "mtd-13bh670f062",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Första MTD-forskningspaketet: officiellt verifierad fabrikmodellidentitet och identifierings-/felsökningsprinciper. Ingen annan konstruktion, motor, transmission eller reservdel antas tillhöra 13BH670F062 utan separat belägg.",
+  "sources": [
+    {
+      "id": "mtd-model-number-formats",
+      "tier": 1,
+      "title": "MTD Model Number Formats",
+      "document": "MTD support article 000036584 (2025-06-05)",
+      "url": "https://support.mtdproducts.com/s/article/9924-1"
+    },
+    {
+      "id": "mtd-model-number-examples",
+      "tier": 1,
+      "title": "MTD Model & Serial Number Example",
+      "document": "MTD support article 000034810",
+      "url": "https://support.mtdproducts.com/articles/en_US/FAQ/253-1"
+    },
+    {
+      "id": "mtd-serial-tag-location",
+      "tier": 1,
+      "title": "MTD Model & Serial Number Tag Location",
+      "document": "MTD support article 000036101",
+      "url": "https://support.mtdproducts.com/articles/en_US/FAQ/28-1"
+    },
+    {
+      "id": "mtd-unidentified-model",
+      "tier": 1,
+      "title": "MTD Unable to Identify Model Number or Serial Number",
+      "document": "MTD support article 000035390",
+      "url": "https://support.mtdproducts.com/articles/en_US/FAQ/155-1"
+    },
+    {
+      "id": "mtd-uphill-troubleshooting",
+      "tier": 1,
+      "title": "MTD Reduced Uphill Ground Speed - Riding Mower",
+      "document": "MTD support article 000035647 (2025-06-05)",
+      "url": "https://support.mtdproducts.com/s/article/458-1"
+    },
+    {
+      "id": "mtd-parts-lookup",
+      "tier": 1,
+      "title": "MTD Parts Online - Part Search",
+      "document": "MTD PartsOnline manufacturer catalog entry",
+      "url": "https://apps.mtdproducts.com/PartsOnline/partSearch.do"
+    },
+    {
+      "id": "mtd-2001-customer-cross-reference",
+      "tier": 2,
+      "title": "MTD PRODUCTS INC. 2001 Customer Cross Reference",
+      "document": "FORM NO. 770-2001XREF, 2001, Lowes customer 062",
+      "url": "https://www.m-and-d.com/pdfs/MTD/MTD_2001_XREF.pdf"
+    },
+    {
+      "id": "partstree-mtd-2000-13bh670f062",
+      "tier": 2,
+      "title": "PartsTree: Yard Machines 13BH670F062 (2000) exploded parts diagrams",
+      "document": "13BH670F062 (2000), 12 assembly diagrams",
+      "url": "https://www.partstree.com/models/13bh670f062-yard-machines-lawn-tractor-2000-lowes/"
+    },
+    {
+      "id": "partstree-mtd-2001-13bh670f062",
+      "tier": 2,
+      "title": "PartsTree: Yard Machines 13BH670F062 (2001) exploded parts diagrams",
+      "document": "13BH670F062 (2001), 20 assembly diagrams",
+      "url": "https://www.partstree.com/models/13bh670f062-yard-machines-lawn-tractor-2001-lowes/"
+    },
+    {
+      "id": "mtd-2000-customer-cross-reference",
+      "tier": 2,
+      "title": "MTD Products Inc. 2000 Customer Cross Reference Book",
+      "document": "MTD_2000_XREF, customer Lowes 062, model 13BH670F062",
+      "url": "https://www.m-and-d.com/pdfs/MTD/MTD_2000_XREF.pdf"
+    },
+    {
+      "id": "mtd-transmatic-660-679-om",
+      "tier": 2,
+      "title": "MTD original Transmatic Lawn Tractors operator manual, model series 660–679",
+      "document": "MTD form 770-10115A (10/99), 28 pages",
+      "url": "https://manualsfile.com/product/k2l00rznlsg.html"
+    },
+    {
+      "id": "mtd-2000-transmission-ipl-retailer",
+      "tier": 2,
+      "title": "eReplacementParts MTD 13BH670F062 (2000) model parts diagrams",
+      "document": "13BH670F062 (2000) transmission parts section",
+      "url": "https://www.ereplacementparts.com/models/lawn-tractor/mtd/id633092/13bh670f062-2000/"
+    },
+    {
+      "id": "dayco-2021-offhighway-belts",
+      "tier": 1,
+      "title": "Dayco Off Highway Belt Catalog 2021",
+      "document": "Dayco OFF HIGHWAY 2021, MTD Lawn Tractor application table, PDF page 14 (index 13)",
+      "url": "https://www.dayco.com/wp-content/uploads/2025/03/OFFHWY-BLT-CAT-0911-Off-Highway-Catalog.pdf"
+    },
+    {
+      "id": "ereplacementparts-2000-mtd",
+      "tier": 2,
+      "title": "eReplacementParts MTD 13BH670F062 2000 OEM parts index",
+      "document": "MTD 13BH670F062 (2000) components listing, deck and drive entries",
+      "url": "https://www.ereplacementparts.com/models/lawn-tractor/mtd/id633092/13bh670f062-2000/"
+    },
+    {
+      "id": "partstree-mtd-2001-blade",
+      "tier": 2,
+      "title": "PartsTree 13BH670F062 2001 – recommended mower blade",
+      "document": "2001 Lowes model 13BH670F062 parts catalog landing page",
+      "url": "https://www.partstree.com/models/13bh670f062-yard-machines-lawn-tractor-2001-lowes/"
+    },
+    {
+      "id": "sears-mtd-13bh670f062-index",
+      "tier": 2,
+      "title": "Sears PartsDirect MTD 13BH670F062 diagrams",
+      "document": "MTD 13BH670F062 lawn tractor model parts and diagram navigation",
+      "url": "https://www.searspartsdirect.com/model/2ybivl2baq-000736/mtd-13bh670f062-front-engine-lawn-tractor-parts"
+    },
+    {
+      "id": "mtd-2004-belt-application-guide",
+      "tier": 2,
+      "title": "MTD 2004 Equipment Parts, Accessories & Attachments – belt application guide",
+      "document": "2004 MTD equipment parts & accessories catalog, 600 Series (2002 & Prior) belt application table",
+      "url": "https://www.brentchalmers.com/Manuals/2004_MTD_EQUIPMENT_PARTS_ACCESSORIES_ATTACHMENTS.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Konstruktion, chassi och modellens utförande saknar versionsbundet underlag."
+    },
+    "C": {
+      "state": "gap",
+      "note": "MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Reglagetyper och funktioner måste verifieras mot rätt operatörsmanual."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Godkända tillbehör och användningsgränser saknar modellbunden källa."
+    },
+    "J": {
+      "state": "gap",
+      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår."
+    },
+    "K": {
+      "state": "gap",
+      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Begagnatkontroller kan kompletteras när modellens exakta komponenter är kända."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Felsökningens generiska tillverkarråd är dokumenterade men modellens reparationsinstruktioner återstår. Transmatic manual 770-10115A ger felsökningsmetod för hastighetsreglagets justering (figur 17), som endast ska användas när exakt maskin och rätt manual har identifierats."
+    }
+  },
+  "claims": [
+    {
+      "id": "mtd-factory-model-example",
+      "statement": "MTD anger 13BH670F062 som ett exempel på sitt fabrikstilldelade modellnummer för åkgräsklippare (Rider).",
+      "variant": "MTD fabriksmodell 13BH670F062, maskinversion och årsmodell ännu ej fastställda",
+      "grade": "A",
+      "sourceId": "mtd-model-number-formats",
+      "locator": "Model Number Formats, tabell Brand / Rider / Walk Behind, rad MTD",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-rider-category-prefix",
+      "statement": "I MTD:s egen nummersystemguide anger prefix 13 kategorin Riding Lawn Tractor; prefix 14 används för Riding Garden Tractor och 17 för Residential Zero-Turn.",
+      "variant": "MTD:s generella fabrikskodsystem, inte en specifik komponent hos 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-model-number-examples",
+      "locator": "PRODUCT CATEGORY MODEL NUMBER PREFIX, raderna 13, 14, 17",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-factory-vs-retail",
+      "statement": "MTD instruerar att fabrikens modellnummer ska användas vid sökning efter reservdelar.",
+      "variant": "MTD fabrikmodellnummer, inkluderar 13BH670F062 som exempel",
+      "grade": "A",
+      "sourceId": "mtd-model-number-formats",
+      "locator": "Ingressen direkt ovanför modellnummertabellen",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-tag-seat",
+      "statement": "MTD uppger att identifikationsetiketten för åkgräsklippare vanligen finns på undersidan av sätet och att placeringen kan variera mellan konstruktioner.",
+      "variant": "MTD Riding Mowers generellt; placeringen på 13BH670F062 inte individuellt kontrollerad",
+      "grade": "A",
+      "sourceId": "mtd-serial-tag-location",
+      "locator": "Locations of ID tag per equipment type: Riding Mowers",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-missing-tag-data",
+      "statement": "MTD begär bland annat motorns tillverkare och kod, växellådans typ, antal hastigheter samt klippdäckets bredd och knivantal vid efterforskning av en åkgräsklippare utan läsbar identifikationsskylt.",
+      "variant": "MTD Riding Mowers generellt, identifieringsmetod vid saknad märkning",
+      "grade": "A",
+      "sourceId": "mtd-unidentified-model",
+      "locator": "Riding Mowers, frågor 1–15",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-serial-recovery-limitation",
+      "statement": "MTD uppger att fabrikens produktmodell kan återidentifieras ur äldre tillverkningsuppgifter i vissa fall, men att maskinens individuella serienummer inte kan återskapas på samma sätt.",
+      "variant": "MTD utrustning med saknad eller oläslig produktetikett",
+      "grade": "A",
+      "sourceId": "mtd-unidentified-model",
+      "locator": "Solution, inledning och stycket NOTE",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-uphill-belt-check",
+      "statement": "MTD:s allmänna felsökningsanvisning vid onormalt låg hastighet i uppförsbacke är att kontrollera transaxelns drivrem för slitage eller blank/glaserad yta och därefter remspännare och spännfjäder.",
+      "variant": "MTD åkgräsklippare generellt; inte verifierat tillämpligt på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-uphill-troubleshooting",
+      "locator": "Solution, stycke 1–3",
+      "topic": "M"
+    },
+    {
+      "id": "mtd-hydrostatic-only",
+      "statement": "MTD:s separata anmärkning om justering eller byte av friktionsbrickor vid återgång mot neutralläge gäller enbart vissa hydrostatiska modeller, och kräver modellbunden instruktion med rätt spänning.",
+      "variant": "MTD HYDROSTATIC TRANSMISSION MODELS ONLY; 13BH670F062 ej fastställd som hydrostat",
+      "grade": "A",
+      "sourceId": "mtd-uphill-troubleshooting",
+      "locator": "Solution, avsnitt HYDROSTATIC TRANSMISSION MODELS ONLY",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-manufacturer-parts-search",
+      "statement": "MTD tillhandahåller en egen PartsOnline-sökfunktion med fält för bland annat artikelnummer och artikelbeskrivning.",
+      "variant": "MTD:s reservdelssystem, ännu ej bindning till en särskild del för 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-parts-lookup",
+      "locator": "Part Search-formulär, Part Number / Part Description",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2001-brand",
+      "statement": "MTD:s 2001-korsreferens anger märket Yard Machines och återförsäljaren Lowes för modellnummer 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-2001-engine",
+      "statement": "MTD:s 2001-korsreferens anger Briggs & Stratton 13,0 hk, motorkod 28T707-1154-E1 för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "C"
+    },
+    {
+      "id": "mtd-2001-deck",
+      "statement": "MTD:s 2001-korsreferens anger ett 38-tums klippaggregat av Style F för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "H"
+    },
+    {
+      "id": "mtd-2001-seat",
+      "statement": "MTD:s 2001-korsreferens anger sätesenhet 757-0378A för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2001-wheel-front",
+      "statement": "MTD:s 2001-korsreferens anger främre hjulenhet 634-0105A för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "E"
+    },
+    {
+      "id": "mtd-2001-wheel-rear",
+      "statement": "MTD:s 2001-korsreferens anger bakre hjulenhet 634-0104 för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "E"
+    },
+    {
+      "id": "mtd-2001-cap-front",
+      "statement": "MTD:s 2001-korsreferens anger främre navkapsel 731-0484A för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2001-frame-label",
+      "statement": "MTD:s 2001-korsreferens anger ramdekal 777D04874 för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2001-hood-labels",
+      "statement": "MTD:s 2001-korsreferens anger motorhuvsdekaler höger 777D06870 och vänster 777D04871 för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2001-style-color",
+      "statement": "MTD:s 2001-korsreferens anger färgkod Black Jack 0691 och plåtutförande Style 0 för 13BH670F062.",
+      "variant": "MTD/Yard Machines 13BH670F062, 2001 års MTD-korsreferens, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22 (PDF sida 22, nollindex 21), Customer Lowes / 062, rad 13BH670F062",
+      "topic": "B"
+    },
+    {
+      "id": "mtd-2000-7speed-assembly",
+      "statement": "Reservdelsindex för 2000 års 13BH670F062 omfattar gruppen Speed Selector Lever Assembly (7 Speed) och separat Transmission Assembly; transmissionens exakta fabrikat är inte angivet där.",
+      "variant": "13BH670F062, PartsTree 2000 Lowes katalogversion",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "All Diagrams, Speed Selector Lever Assembly (7 Speed), Transmission Assembly",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2001-7speed-assembly",
+      "statement": "Reservdelsindex för 2001 års 13BH670F062 omfattar gruppen Gear Selector Assembly (7 Speed) och separat Transmission Assembly, med fler motor-elgrupper än 2000 års index.",
+      "variant": "13BH670F062, PartsTree 2001 Lowes katalogversion",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2001-13bh670f062",
+      "locator": "Parts Diagrams, Gear Selector Assembly (7 Speed), Transmission Assembly, Electrical variants",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-deck-g",
+      "statement": "MTD 2000-korsreferens anger 42-tums Deck G, medan den tidigare registrerade 2001-korsreferensen anger 38-tums Style F; dessa revisionsdata ska inte blandas ihop.",
+      "variant": "MTD 13BH670F062, Lowes 062; jämförelse 2000 mot 2001",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Deck Assembly:42”, Deck G",
+      "topic": "H",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-front-wheel",
+      "statement": "MTD 2000-korsreferens anger främre hjulenhet 634-0056A och bakre 734-1675 för samma modellnummer, skilt från MTD:s 2001-korsreferens.",
+      "variant": "MTD 13BH670F062, Lowes 062, 2000 katalogversion",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Wheel Ass'y Front/Rear",
+      "topic": "E",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-seat",
+      "statement": "MTD 2000-korsreferens anger sätesenhet 757-0378 för modellen, till skillnad från 2001-referensens 757-0378A.",
+      "variant": "MTD 13BH670F062, Lowes 062, 2000 katalogversion",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Seat assembly",
+      "topic": "K",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-labels",
+      "statement": "MTD 2000-korsreferens anger ramdekal 777D04137 samt motorhuvsdekaler höger 777D04138 och vänster 777D04139.",
+      "variant": "MTD 13BH670F062, Lowes 062, 2000 katalogversion",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Label Frame Side/Hoodside",
+      "topic": "K",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-manual-family",
+      "statement": "MTD:s bruksanvisning 770-10115A utgåva 10/99 gäller Transmatic Lawn Tractors modellserie 660 till 679; listningen kopplar dokumentet till 13BH670F062 men manualen identifierar inte det exakta fabriksmodellnumret på omslaget.",
+      "variant": "MTD Transmatic 660–679; dokumentförteckning för 13BH670F062",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Omslag, 'Model Series 660 thru 679', 'FORM NO. 770-10115A (10/99)'",
+      "topic": "A",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-gear-components",
+      "statement": "Reservdelslistan för 2000 års 13BH670F062 visar transmissionsdelarna övre hus 719-0367, ingående axel 711-1109 och 14-tands ingående pinjong 717-1464; dessa är kataloguppgifter och ingen verifierad universell reservdelspassform.",
+      "variant": "MTD 13BH670F062 (2000) reservdelskatalog hos eReplacementParts",
+      "sourceId": "mtd-2000-transmission-ipl-retailer",
+      "locator": "Transmission assembly, Upper Housing / Input Shaft / Pinion Input 14T",
+      "topic": "D",
+      "grade": "B"
+    },
+    {
+      "id": "dayco-mtd-blade-belt",
+      "statement": "Dayco katalogiserar rem L499 under BLADE för MTD 13BH670F062; detta är Daycos eget remnummer, inte ett verifierat MTD-OEM-artikelnummer.",
+      "variant": "Dayco applikationslista MTD 13BH670F062; årsmodell och aggregatvariant ej specificerade",
+      "sourceId": "dayco-2021-offhighway-belts",
+      "locator": "PDF sid 14 (0-index 13), MTD / LAWN TRACTOR / 13BH670F062",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "dayco-mtd-engine-deck-belt",
+      "statement": "Dayco katalogiserar rem L560 under ENG. TO DECK för MTD 13BH670F062; detta är ett eftermarknadsnummer utan fastställd årsrevisionsbindning.",
+      "variant": "Dayco applikationslista MTD 13BH670F062; årsmodell och aggregatvariant ej specificerade",
+      "sourceId": "dayco-2021-offhighway-belts",
+      "locator": "PDF sid 14 (0-index 13), MTD / LAWN TRACTOR / 13BH670F062",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "dayco-mtd-deck-belts",
+      "statement": "Dayco listar både L569 och L574 under TO DECK för MTD 13BH670F062, utan att på samma rad avgränsa respektive rem till 38- eller 42-tums aggregat.",
+      "variant": "Dayco applikationslista MTD 13BH670F062; årsmodell och aggregatvariant ej specificerade",
+      "sourceId": "dayco-2021-offhighway-belts",
+      "locator": "PDF sid 14 (0-index 13), MTD / LAWN TRACTOR / 13BH670F062",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "mtd-2000-deckbelt-9540329a",
+      "statement": "Reservdelsåterförsäljaren eReplacementParts listar Deck Belt 954-0329A i 2000 års 13BH670F062-delregister; placering för respektive 38/42-tumsutförande kräver kontroll av sprängskiss.",
+      "variant": "MTD 13BH670F062 katalogversion 2000 hos eReplacementParts",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model parts listing, sök artikelnummer 9540329a",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2000-variable-belt-9540280a",
+      "statement": "eReplacementParts listar Variable-Speed Belt 954-0280A i 2000 års 13BH670F062-delregister; exakt drivlineplacering och maskinrevision är ännu inte bekräftad av MTD-original.",
+      "variant": "MTD 13BH670F062 katalogversion 2000 hos eReplacementParts",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model parts listing, sök artikelnummer 9540280a",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-belt-9540370",
+      "statement": "eReplacementParts listar rem 954-0370 med beteckning Belt-v .715 X 48.5 i 2000 års 13BH670F062-delregister, men tillämpning och korrekt aggregatrevision är ej originalverifierade.",
+      "variant": "MTD 13BH670F062 katalogversion 2000 hos eReplacementParts",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model parts listing, sök artikelnummer 9540370",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2000-parts-index-deck-f-conflict",
+      "topic": "H",
+      "statement": "PartsTree katalogiserar 13BH670F062 årsangivelse 2000 med gruppen Deck Assembly F, medan MTD:s separata 2000-korsreferens listar 42 tum Deck G. De två katalogerna motsäger varandra och ingen enskild maskins aggregat kan fastställas härifrån.",
+      "variant": "13BH670F062, PartsTree 2000 Lowes kontra MTD 2000 Lowes korsreferens",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "All Diagrams (12), Deck Assembly F"
+    },
+    {
+      "id": "mtd-2000-retailer-38in-parts",
+      "topic": "H",
+      "statement": "eReplacementParts katalogiserar både komplett 38-tumsaggregat 753-0694-0637 och deck assembly 983-0129A-0637 för 13BH670F062/2000. Detta stöder ett 38-tumskatalogspår men löser inte konflikten med MTD:s 2000-korsreferens.",
+      "variant": "13BH670F062 katalogversion 2000, eReplacementParts",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "Model part list, 38In. Deck Assembly Comp. / Deck Asm-38"
+    },
+    {
+      "id": "mtd-transmatic-manual-brake-adjustment",
+      "topic": "J",
+      "statement": "Manualen 770-10115A beskriver en bromsjusteringskontroll där bromsen ska börja ta när bromsarmen är 1/4–5/16 tum från axelhuset. Kontroll gäller manualfamiljen 660–679, inte automatiskt varje revision av 13BH670F062.",
+      "variant": "MTD Transmatic model series 660–679, manual form 770-10115A",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Tryckt sida 16, Figure 16, Brake Adjustment"
+    },
+    {
+      "id": "mtd-transmatic-manual-speed-control",
+      "topic": "M",
+      "statement": "Manualen 770-10115A uppger att högsta två hastigheterna initialt kan ligga nära varandra tills drivremmarna körts in och beskriver justering av speed-control-länkaget om hela hastighetsområdet inte erhålls.",
+      "variant": "MTD Transmatic model series 660–679, manual form 770-10115A",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Tryckt sida 16, Figure 17, Speed Control Adjustment"
+    },
+    {
+      "id": "mtd-transmatic-manual-two-drive-belts",
+      "topic": "D",
+      "statement": "Manualens drivremsskifte skiljer mellan front drive belt och rear drive belt, och visar variabelhastighetsremskiva; exakta artikelnummer måste verifieras i maskinens partslista.",
+      "variant": "MTD Transmatic model series 660–679, manual form 770-10115A",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Tryckt sida 22, Figures 26–27, Front Drive Belt"
+    },
+    {
+      "id": "mtd-2001-partstree-blade-7420610",
+      "statement": "PartsTree rekommenderar kniv 742-0610, beskrivning 19.38 tum, 3-function star mulching, för 2001 års katalogversion av 13BH670F062. Uppgiften fastställer inte passform för alla aggregatrevisioner.",
+      "variant": "13BH670F062, PartsTree 2001 Lowes katalogversion",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2001-blade",
+      "locator": "Recommended Parts: 742-0610 Mower Blade 19.38 in",
+      "topic": "H"
+    },
+    {
+      "id": "mtd-2001-multiple-engine-diagrams",
+      "statement": "PartsTree 2001 listar flera generiska elsystem- och motortillbehörsgrupper (Intek Twin, Kohler, OHV, singelcylinder Briggs, Tecumseh, twin Briggs); dessa gruppnamn bevisar inte att samtliga motoralternativ faktiskt installerades på 13BH670F062.",
+      "variant": "13BH670F062, PartsTree 2001 Lowes registerstruktur",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2001-blade",
+      "locator": "Parts Diagrams (20), Electrical and Engine Accessories headings",
+      "topic": "C"
+    },
+    {
+      "id": "mtd-sears-unscoped-diagrams",
+      "statement": "Sears PartsDirect listar 13BH670F062 under flera motor- och elrelaterade sprängskissegrupper utan att gruppindexet i sig identifierar ett individuellt maskinexemplars motor.",
+      "variant": "MTD 13BH670F062 i Sears PartsDirect modellindex",
+      "grade": "B",
+      "sourceId": "sears-mtd-13bh670f062-index",
+      "locator": "SELECT DIAGRAM, Over head valve / Tecumseh wiring / single cylinder Briggs & Stratton",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-2000-parts-both-front-wheel-types",
+      "topic": "E",
+      "statement": "PartsTree:s 2000-katalog för 13BH670F062 listar både 634-0056A (15x6 round shoulder) och 634-0105A (15x6 square shoulder) som alternativa framhjul i den breda sprängskisslistan; förekomsten av båda bekräftar inte vilken variant en enskild maskin har.",
+      "variant": "13BH670F062, PartsTree 2000-katalog med flera hjulalternativ",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "All Parts → Axle, Front, Steering Assembly, Wheels Front → 634-0056A samt 634-0105A"
+    },
+    {
+      "id": "mtd-2000-parts-deck-f",
+      "topic": "H",
+      "statement": "PartsTree:s 2000-reservdelsindex namnger aggregatgruppen Deck Assembly F för 13BH670F062. Det är en kataloggrupp, inte belägg för vilket aggregat som faktiskt satt på varje exemplar.",
+      "variant": "13BH670F062, PartsTree 2000 Lowes",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "All Diagrams (12) → Deck Assembly F"
+    },
+    {
+      "id": "mtd-2001-primary-direct-text-audit",
+      "topic": "A",
+      "statement": "Originaldokumentet MTD 770-2001XREF anger på Lowes 062-sidan att 13BH670F062 har 38 tum Style F och Briggs & Stratton 28T707-1154-E1; den länkade 56-sidors PDF:ens textlager kan kontrolleras, men visuell sidbild kunde inte öppnas i forskningsomgången.",
+      "variant": "13BH670F062 i MTD 2001 Customer Cross Reference, Lowes 062",
+      "grade": "B",
+      "sourceId": "mtd-2001-customer-cross-reference",
+      "locator": "Tryckt sida 22, PDF sida 22 (nollindex 21), rad 13BH670F062"
+    },
+    {
+      "id": "mtd-600-pre2003-front-variable-belt",
+      "statement": "MTD:s 2004 tillbehörskatalog anger för familjen 600 Series (2002 & Prior), 13A*66*/67*/69*, rem 754-0280A mellan motorremskiva och variabelhastighetsremskiva.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-600-pre2003-rear-variable-belt",
+      "statement": "Samma MTD-katalog anger för den definierade 600-seriefamiljen rem 754-0370 mellan variabelhastighetsremskiva och transmissionsremskiva.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-600-pre2003-38deck-belt",
+      "statement": "MTD-katalogens familjetabell anger rem 754-0329A mellan motorremskiva och 38-tumsaggregat.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "H"
+    },
+    {
+      "id": "mtd-600-pre2003-42deck-belt",
+      "statement": "MTD-katalogens familjetabell anger rem 754-0371A mellan motorremskiva och 42-tumsaggregat.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "H"
+    }
+  ],
+  "gaps": [
+    "Hitta rätt MTD-operatörsmanual och IPL direkt för 13BH670F062; generella MTD-manualer får inte automatiskt knytas till modellen.",
+    "Bekräfta årsmodell, marknad, serienummerspann och eventuell revision för 13BH670F062.",
+    "Verifiera komplett motormärkning, motormanual och serviceintervall per utförande.",
+    "Verifiera transmissionens fabrikat/modell, drivremmens artikelnummer och servicegränser från originalhandlingar.",
+    "Verifiera klippaggregatets bredd, knivnummer, remmar, sprängskisser, broms- och elsystem.",
+    "Utred europeiska MTD-utföranden med egna fabrikskoder innan utvidgning till fler maskiner.",
+    "Verifiera MTD 2001 Customer Cross Reference visuellt mot PDF sida 22; textlagret är läst, men fjärrskärmbilden gick inte att hämta och källan är därför grad B.",
+    "2000/2001 årsdelningar i reservdelsindex: utred revisionsskillnader innan delnummer extrapoleras.",
+    "Kontrollera 2000 års MTD-korsreferens direkt i original-PDF med visuell sida; fjärrvisning ger 403, endast sökindexets PDF-text tillgänglig.",
+    "Verifiera om 2000/2001-deckdifferensen beror på katalogrevision, faktiskt modellutförande eller datakvalitet innan knivar/remmar rekommenderas.",
+    "Dayco anger fyra remapplikationer utan att ange vilken av 2000/2001 års 42-/38-tums däck som de olika TO DECK-remmarna tillhör. Kräv original-IPLs före användningsråd.",
+    "Dayco 2021-PDF kunde inte skärmbildskontrolleras i webbläsningen (cache miss); källans textlager ger tillverkarens eftermarknadstabell men ingen MTD-OEM-konfirmation.",
+    "Konflikt inom katalogår 2000: MTD original XREF säger 42 tum G, medan PartsTree och eReplacementParts för 2000 listar 38 tum F. Säkerställ modellens verkliga dekkskylt/serienummer och exakt original IPL innan reservdelar rekommenderas.",
+    "Kontrollera kniv 742-0610 i exakt 2001 Deck Assembly F-sprängskiss och identifiera knivantal; föreslå den inte som universaldel.",
+    "Kontrollera tillverkarens originaldelritning för exakt deck F/G och avgränsa 2000 års alternativa hjul 634-0056A/634-0105A med tillverkningsetikett, decknummer eller serienummer.",
+    "Kontrollera om MTD 2004 tillbehörskatalogens uttryckliga modellfamilj 13A*66*/67*/69* omfattar fabriksnumret 13BH670F062, innan remnummer görs maskinspecifika.",
+    "MTD 2004 originalkatalog är 20 MB och webbläsningens PDF-öppning misslyckades; textbaserat sökresultat är granskat men full PDF och sida/figur inte verifierade."
+  ]
+}
