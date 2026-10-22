@@ -620,5 +620,17 @@ main .hero h1{font-size:clamp(2.3rem,4.7vw,3.65rem);line-height:1.12;max-width:1
   });
 })();
 </script>
+<script>
+/* De faktiska gemensamma komponenterna laddas in; statisk kopia ligger kvar som reserv om anropet misslyckas. */
+(function(){
+  [['site-header','partials1/header.html'],['site-footer','partials1/footer.html']].forEach(function(entry){
+    var host=document.getElementById(entry[0]);
+    if(!host)return;
+    fetch(entry[1],{cache:'no-cache'}).then(function(res){if(!res.ok)throw new Error('HTTP '+res.status);return res.text()})
+    .then(function(markup){if(markup.trim())host.innerHTML=markup;})
+    .catch(function(){ /* statisk header/sidfot förblir synlig */ });
+  });
+})();
+</script>
 </body>
 </html>
