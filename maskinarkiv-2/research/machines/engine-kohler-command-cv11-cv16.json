@@ -2797,6 +2797,60 @@
       "topic": "B",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-ignition-module-fastener-new-used",
+      "statement": "Originalmanualens tändmodulskruvar dras till 6,2 Nm i ett nytt gjutet hål och 4,0 Nm i ett tidigare använt hål; gäller inte tändstift eller magnetgap.",
+      "variant": "CV11–16/CV460–465/CV490–495, ignition module screw",
+      "locator": "Section 1, printed p.1.11, PDF index 12",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-muffler-retainer-nut-24p4",
+      "statement": "Kohlers originaltabell anger 24,4 Nm för ljuddämparens fästmuttrar. Monteringssätt och avgasutförande ska identifieras före service.",
+      "variant": "Command CV family, muffler retaining nuts",
+      "locator": "Section 1, printed p.1.11, PDF index 12",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oil-filter-torque-10p4-12p7",
+      "statement": "Kohlers originalspecifikationstabell anger 10,4–12,7 Nm för oljefiltret. Detta är en angiven momentuppgift i verkstadshandboken; praktisk filtermontering beskrivs separat, och anvisning för aktuellt filter ska kontrolleras.",
+      "variant": "CV11–16/CV460–465/CV490–495, original full-flow oil filter mounting",
+      "locator": "Section 1, printed p.1.11, PDF index 12",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-piston-oilring-groove-side-0p036-0p186",
+      "statement": "Originaltabellen anger 0,036–0,186 mm sidospel mellan oljekontrollring och kolvringsspår för både CV11–14/CV460–465 och CV15–16/CV490–495.",
+      "variant": "87 och 90 mm cylindergrupp, oil control ring-to-groove",
+      "locator": "Section 1, printed p.1.11, PDF index 12",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oilpan-rtv-seal-sequence-24p4",
+      "statement": "Kohler anger rengjorda tätningsytor enligt servicebulletin 252, färsk RTV-tätmassa i mönstret i figur 11-21, tolv skruvar handåtdragna och därefter 24,4 Nm i figur 11-22:s specificerade sekvens. Anliggningsytor ska inte brytas upp med mejsel eftersom de kan skadas.",
+      "variant": "CV11–16/CV460–465/CV490–495, oil pan/case RTV seal variant",
+      "locator": "Section 11, printed p.11.7, PDF index 128, Figs. 11-21/11-22",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-flywheel-fan-spacers-version",
+      "statement": "Kohler beskriver fyra fläktskruvar med distanser på äldre svänghjul, medan senare motorer har skulderskruvar utan distanser. Delarna är versionsbundna och ska inte automatiskt blandas.",
+      "variant": "Older versus later Command flywheel-fan assemblies",
+      "locator": "Section 9, printed p.9.10, PDF index 103, Fig. 9-34",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -2844,6 +2898,7 @@
     "Effekt och vridmoment: märkdata är laboratorieklassade vid angivna varvtal och SAE J1995, inte utlovad effekt i installerad begagnad åkgräsklippare.",
     "Elstartmoment från TP-2339-D är tillverkarspecifika (UTE/Johnson/Eaton, Nippondenso, Delco-Remy); identifiera faktisk startmotor före åtdragning.",
     "Forskningskorrigering: tidigare sammanfattat ändgap för två översta kolvringar ersatt med sex specifikationsbundna separata mätvärden från tabellen p.1.11–1.12.",
-    "Källa TP-2339-D p.1.9 visar 38.958/30.970 mm för vevstakstappens nya diameter, vilket ser ut som tryckfel. Registrera inte nominellt nyvärde förrän oberoende Kohler-originalbekräftelse finns."
+    "Källa TP-2339-D p.1.9 visar 38.958/30.970 mm för vevstakstappens nya diameter, vilket ser ut som tryckfel. Registrera inte nominellt nyvärde förrän oberoende Kohler-originalbekräftelse finns.",
+    "Kohler olje-/ljuddämparmoment och RTV-monteringssekvens är källbundna till TP-2339-D, utförande och aktuell filter-/dämparfästning; komplett bulletin 252 och modellbunden reservdelskatalog återstår."
   ]
 }
