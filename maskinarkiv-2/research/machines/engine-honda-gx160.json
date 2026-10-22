@@ -67,6 +67,27 @@
       "document": "Honda publication 10Z4M601DP; GCAFT/GCBPT, alternate type group",
       "url": "https://publications.powerequipment.honda.com/details/10Z4M601DP",
       "tier": 1
+    },
+    {
+      "id": "honda-ipl-gc02-10zh801ap",
+      "tier": 1,
+      "title": "Honda GX160K1 Parts Catalog 10ZH801AP",
+      "document": "10ZH801AP, GC02-2000001–8669999, listed engine types",
+      "url": "https://publications.powerequipment.honda.com/details/10ZH801AP"
+    },
+    {
+      "id": "honda-ipl-gc02-10zk801ap",
+      "tier": 1,
+      "title": "Honda GX160K1 Parts Catalog 10ZK801AP",
+      "document": "10ZK801AP, GC02-8670001–9099999 and GDAA-2010001–9999999 Type VXP",
+      "url": "https://publications.powerequipment.honda.com/details/10ZK801AP"
+    },
+    {
+      "id": "honda-official-publications-faq",
+      "tier": 1,
+      "title": "Honda Power Products Support Publications FAQ",
+      "document": "American Honda: original publications and US parts lookup scope",
+      "url": "https://publications.powerequipment.honda.com/faq"
     }
   ],
   "topics": {
@@ -285,6 +306,33 @@
       "sourceId": "honda-ipl-10z4m601dp",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "gx160k1-gc02-two-catalog-ranges",
+      "statement": "Hondas originalkatalog 10ZH801AP omfattar GX160K1 med GC02-2000001–8669999 och angivna typkoder, medan 10ZK801AP omfattar GC02-8670001–9099999 (och GDAA-2010001–9999999 typ VXP). Det går inte att välja någon av dem enbart utifrån beteckningen GX160K1.",
+      "variant": "GX160K1 med prefix GC02 och respektive katalogs typkod; Honda USA:s katalogregister",
+      "locator": "Publication details > engine serial number and engine types",
+      "sourceId": "honda-ipl-gc02-10zh801ap",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160k1-gc02-later-catalog",
+      "statement": "Hondas 10ZK801AP listar bland annat GX160K1 GC02-8670001–9099999 med specifika motortyper. Katalogen har annat intervall än 10ZH801AP; typkod ska kontrolleras mot respektive katalog innan artikelnummer efterforskas.",
+      "variant": "GX160K1 GC02-8670001–9099999; typberoende",
+      "locator": "Publication details > engine serial number and engine types",
+      "sourceId": "honda-ipl-gc02-10zk801ap",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160-american-honda-original-publications",
+      "statement": "American Honda uppger att publikationerna i deras supportkatalog är original och att deras officiella reservdelsportal täcker de flesta aktuella allmänna motorer från 2004 och framåt; det bevisar inte tillgång eller passform för äldre eller europeiska motortyper.",
+      "variant": "Honda allmänna motorer, amerikansk publikations- och reservdelstjänst; GX160 ej individidentifierad",
+      "locator": "FAQ > Is this item original or a copy?; Parts availability and purchasing parts",
+      "sourceId": "honda-official-publications-faq",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -293,6 +341,7 @@
     "Originalmanualens innehåll och versionsskillnader per GCACK-serie återstår att läsa i tillhörande PDF-utgåvor.",
     "Honda GX160: den amerikanska tillverkarens manualväljare bevisar inte reservdelsnummer; tillämplig original-IPL och fullständigt Type Code saknas.",
     "GX160: Honda-katalogernas tillämpningsomfång är originalbekräftade, men interna artikelnummer och sprängskisser i de tryckta katalogerna är inte inspekterade; inga specifika delar har ännu härletts.",
-    "Samma GX160-motorfamilj och serienummerprefix kan kräva olika Honda-IPLs beroende på Type; de sex katalogernas interna artikelnummer måste läsas och kontrolleras mot fullständig motormärkning."
+    "Samma GX160-motorfamilj och serienummerprefix kan kräva olika Honda-IPLs beroende på Type; de sex katalogernas interna artikelnummer måste läsas och kontrolleras mot fullständig motormärkning.",
+    "GX160K1 med prefix GC02: skilj katalog 10ZH801AP och 10ZK801AP via serienummerintervall och typkod; kontrollera även alternativa GC02-kataloger innan exakt reservdelsval."
   ]
 }
