@@ -214,6 +214,13 @@
       "title": "Motorsågsbutiken – 5895337-01 BioClip 103 belt reference",
       "document": "Kuggrem 103cm Bioclip 5895337-01, marketed as replaces 5310075-87, 2000 x 25 mm",
       "url": "https://www.xn--motorsgsbutiken-mlb.se/sv/mb/kuggrem-103cm-bioclip"
+    },
+    {
+      "id": "rider16-bioclip103-partstree-supersession",
+      "tier": 2,
+      "title": "PartsTree Husqvarna 531007587 deck belt supersession",
+      "document": "Husqvarna 531007587 41-inch deck belt: unavailable, superseded to 589533701",
+      "url": "https://www.partstree.com/parts/husqvarna-531007587/"
     }
   ],
   "topics": {
@@ -1449,6 +1456,15 @@
       "sourceId": "rider16-bio103-589533701-seller",
       "grade": "C",
       "topic": "E"
+    },
+    {
+      "id": "rider16-bio103-partstree-531007587-to-589533701",
+      "statement": "Reservdelshandlaren PartsTree anger att Husqvarna 531007587 (41-tums aggregatrem) är utgången och 'Superseded to Husqvarna 589533701'. Rider 16 katalogrevision 2003-01 nämns bland tillämpningarna. Detta är en återförsäljarverifierad ersättningsuppgift, inte en tillverkarpublicerad supersession eller generell BioClip 103-passform.",
+      "variant": "Rider 16, 103CM CUTTING DECK, 2003-01 enligt PartsTree; exakt aggregat-PNC ej verifierat",
+      "locator": "PartsTree Husqvarna Repair Part 531007587, 'Unavailable / Superseded to Husqvarna 589533701', Compatibility > R 16 (2003-01)",
+      "sourceId": "rider16-bioclip103-partstree-supersession",
+      "grade": "B",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1511,6 +1527,7 @@
     "2000-11 Rider 16 OM dokumenterar BioClip 103 med två synkroniserande remmar; senare 2002 OM benämner tvåremsutförandet version 2. Koppla inte enstaka produktionsår eller knivhusrevisioner till en viss remversion utan komplett PNC.",
     "Rider 16-manualerna 2000 och 2002 ger serviceinstruktioner men inte ett komplett separat aggregat-PNC. Originalritning och produktetikett krävs för precis passform.",
     "Wolfswinkels 2002-02 reservdelsvy kan visa aktuella supersession-artikelnummer i en gammal kataloggrupp. Kontrollera originalutgåvans nummer för 535410602, 535410601, 531007585 och 589533701.",
-    "Ersättningsrelationen 531007587 → 589533701 för BioClip 103 är endast återförsäljarstödd. Verifiera med Husqvarnas officiella artikelhistorik och aggregat-PNC innan praktiskt råd."
+    "Ersättningsrelationen 531007587 → 589533701 för BioClip 103 är endast återförsäljarstödd. Verifiera med Husqvarnas officiella artikelhistorik och aggregat-PNC innan praktiskt råd.",
+    "PartsTree bekräftar på återförsäljarnivå 531007587 → 589533701 för 103 cm; leta efter Husqvarnas egen revisions-/supersession-post med fullständigt aggregat-PNC."
   ]
 }
