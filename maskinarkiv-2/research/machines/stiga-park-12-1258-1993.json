@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1258-1993",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA PARK 12 basmaskin PNC 13-1258-16, Season 1993, STIGA originalreservdelskatalog Issue 37–2014. Ej kompatibilitetsbevis för tidigare eller senare Park 12-produktnummer.",
+  "sources": [
+    {
+      "id": "stiga-park12-1258-1993-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 originalreservdelskatalog",
+      "document": "13-1258-16 Season 1993, Issue 37–2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1258-16_92_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "STIGA-originalets reservdelstabeller ger visst källstöd men ägarmanual, individuellt motor-ID, tillverkarservice, elschema, säkerhetslogik och godkända aggregatkombinationer är fortfarande öppna."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-1258-93-identity",
+      "topic": "A",
+      "statement": "STIGA originalreservdelskatalog identifierar Park 12 produktnummer 13-1258-16 som Season 1993, Issue 37–2014.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Omslag PDF-sida 1 och utgåveuppgift PDF-sida 3"
+    },
+    {
+      "id": "p12-1258-93-plate",
+      "topic": "L",
+      "statement": "Tillverkaren anger att reservdelskatalogens version ska matcha tillverkningsåret på maskinens identifikationsplåt.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF-sida 1, manufacturer instructions"
+    },
+    {
+      "id": "p12-1258-93-engine-variants",
+      "topic": "C",
+      "statement": "STIGA:s originaldellista anger Briggs-noteringarna 286707-0141 och 283707-0217 på skilda komponentrader; katalogen bevisar inte vilken motor som sitter på en enskild maskin.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Cylinder Vevhus tryckt s. 7–11 och Förgasare Luftfilter s. 3–5"
+    },
+    {
+      "id": "p12-1258-93-starter-variant",
+      "topic": "C",
+      "statement": "Förgasar-/luftfiltergruppen listar startmotor 394805 med notering 283707-0217, medan startmotor 399169 listas separat utan samma notering.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Förgasare Luftfilter, tryckt sida 3 pos. 309 och sida 5 pos. 309"
+    },
+    {
+      "id": "p12-1258-93-engine-cyl",
+      "topic": "C",
+      "statement": "Katalogens motorgrupp anger cylinder 490450 och vevhusdel 494238 med noteringen 286707-0141; det är parts-list notes, inte motor-ID för varje exemplar.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Cylinder Vevhus, tryckt sida 9, pos. 1 och 18"
+    },
+    {
+      "id": "p12-1258-93-spark-plug",
+      "topic": "C",
+      "statement": "Katalogens motordelsgrupp anger Champion J19LM för noterad 286707-0141 på tändstiftsposition 337; detta får inte överföras till en annan motorkod.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Cylinder Vevhus, tryckt sida 11 pos. 337"
+    },
+    {
+      "id": "p12-1258-93-peerless-846",
+      "topic": "D",
+      "statement": "STIGA:s transmissionstabell listar komplett transaxel 1134-2469-01 med anmärkning Peerless 846, pos. 33.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Transmission, tryckt sida 27 pos. 33"
+    },
+    {
+      "id": "p12-1258-93-trans-belt",
+      "topic": "D",
+      "statement": "Transmissionstabellen listar kilrem 1134-9013-01 med referens 9585-0057-00 på pos. 13, vilket skiljer sig från remkoder i senare Park 12-kataloger.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Transmission, tryckt sida 27 pos. 13"
+    },
+    {
+      "id": "p12-1258-93-clutch-wire",
+      "topic": "F",
+      "statement": "Transmissionen listar kopplingswire 1134-2030-04 position 28.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Transmission, tryckt sida 27 pos. 28"
+    },
+    {
+      "id": "p12-1258-93-shift-wire",
+      "topic": "F",
+      "statement": "Transmissionen listar växelwire 1134-2031-02 position 29.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Transmission, tryckt sida 27 pos. 29"
+    },
+    {
+      "id": "p12-1258-93-pto-belt",
+      "topic": "H",
+      "statement": "Kraftuttagsgruppen listar kilrem 1134-9012-01 med referens 9585-0056-00 på position 57; ej samma som transmissionens 1134-9013-01.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Power Take-Off, tryckt sida 23 pos. 57"
+    },
+    {
+      "id": "p12-1258-93-pto-lever",
+      "topic": "F",
+      "statement": "Kraftuttagsgruppen listar reglagespak 1134-0027-01 position 8.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Power Take-Off, tryckt sida 23 pos. 8"
+    },
+    {
+      "id": "p12-1258-93-pto-cable",
+      "topic": "F",
+      "statement": "Kraftuttagsgruppen listar kraftuttagswire 1134-3573-01 position 9 och urkopplingsspak 1134-1972-01 position 10.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Power Take-Off, tryckt sida 23 pos. 9–10"
+    },
+    {
+      "id": "p12-1258-93-ignition",
+      "topic": "K",
+      "statement": "Elsystemet listar tändningslås 1134-1814-01 på position 8; denna deluppgift fastställer inte startspärrens funktion.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Elsystem, tryckt sida 31 pos. 8"
+    },
+    {
+      "id": "p12-1258-93-tires",
+      "topic": "B",
+      "statement": "Transmissionstabellen visar däckalternativ 9545-0116-00 och 9545-0120-00 med storleken 16 x 7.50–8 i position 34.",
+      "variant": "STIGA Park 12 PNC 13-1258-16 Season 1993, underkomponent enligt claim",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "Transmission, tryckt sida 27 pos. 34"
+    }
+  ],
+  "gaps": [
+    "Briggs-katalogen anger bland annat 286707-0141 och 283707-0217 som versionsnoteringar: verifiera aktuell motors stansade Model/Type/Code innan motorspecifika råd.",
+    "Hitta tillverkarspecifik Peerless 846 parts/manual och kontrollera märkskylten på transaxeln.",
+    "Verifiera fullständig ägarmanual, rätt serviceintervall och smörjmedel; IPL ger inte sådana instruktioner.",
+    "Verifiera aggregat-PNC och montering för Park 12 13-1258-16 innan aggregatdelar rekommenderas.",
+    "Verifiera säkerhetskretsarnas funktion samt elschema separat från reservdelslistan.",
+    "STIGA-original-PDF kan textgranskas men PDF-skärmbilder returnerade fel vid granskningen 2026-10-22; figurkontroll återstår."
+  ]
+}
