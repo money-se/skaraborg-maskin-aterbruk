@@ -18,6 +18,13 @@
       "title": "Partsharp STIGA Park 12 version index",
       "document": "Park 12 model/year diagram index",
       "url": "https://www.partsharp.com/spare-parts/stiga/park-compact/85b0721e-422f-47ea-af78/f6901295-017e-4d23-83ea.aspx"
+    },
+    {
+      "id": "stiga-peerless-846-1992",
+      "tier": 1,
+      "title": "CyberCat STIGA 1992 Peerless 846 parts catalog",
+      "document": "1992 gearbox parts: TECUMSEH PEERLESS TRANSAXLE 846",
+      "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1992%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+846.pdf"
     }
   ],
   "topics": {
@@ -132,6 +139,15 @@
       "grade": "B",
       "sourceId": "diy-1258-1992",
       "locator": "Transmission_0, position 34"
+    },
+    {
+      "id": "p12-1258-92-peerless-846-source",
+      "topic": "D",
+      "statement": "STIGA:s separata transaxelkatalog i 1992 års arkiv anger Peerless 846 som Park-transaxel med STIGA artikel 1134-2469-01. Källan bevisar inte att en enskild 13-1258-15 använder den.",
+      "variant": "Generisk Park-del, 1992, ej PNC-specifik",
+      "grade": "A",
+      "sourceId": "stiga-peerless-846-1992",
+      "locator": "Position 0, Transaxle assy, Park"
     }
   ],
   "gaps": [
@@ -139,6 +155,7 @@
     "Verifiera motor Model/Type/Code och motorhandbok från originalkälla.",
     "Verifiera transaxelmodell och etikett mot original och individmärkning.",
     "Kontrollera originalservice, säkerhetskretsar och ägarmanual.",
-    "Verifiera tillåtna klippaggregat och deras egna PNC, remmar och knivar."
+    "Verifiera tillåtna klippaggregat och deras egna PNC, remmar och knivar.",
+    "Kontrollera växellådsidentifiering på 13-1258-15 innan generiska Peerless 846-data tillämpas."
   ]
 }
