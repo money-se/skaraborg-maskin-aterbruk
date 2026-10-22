@@ -3215,6 +3215,96 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-iet-char13-t",
+      "statement": "Intern expansionstank (IET) position 195 identifieras uttryckligen av bokstaven T i modellkodens trettonde tecken. Varken expansionsutförande eller serviceprocedur bör gissas utifrån bara ZT-familjen.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 28, INTERNAL EXPANSION TANK (IET), första stycket",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-iet-riser-valve",
+      "statement": "IET är konstruerad med stigrör och tvåvägsventil i botten; systemet använder denna ventil i stället för en traditionell hävertslang.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 28, IET beskrivning",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-iet-pressure-1-2psi",
+      "statement": "Vid uppvärmning pressas olja ut ur huvudhusets stigrör och ungefär 1–2 psi övertryck öppnar paraplyventilen så att olja kan flöda till den interna expansionstanken. Värdet är en funktionsbeskrivning, inte angivet serviceprovmoment.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 28, IET tryck och ventil",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-iet-cooling-vacuum",
+      "statement": "När transaxeln svalnar uppstår ett svagt undertryck som genom tvåvägsventilen suger olja från den interna expansionstanken tillbaka till huvudkåpan; varm olja lämnar stigrörets topp och svalare olja återförs från tankens botten.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 28, IET returolja",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-iet-no-remove-service",
+      "statement": "Tillverkaren anger att intern expansionstank position 195 och avluftningsventil position 194 normalt inte behöver demonteras vid service eller reparation av enheten.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 28, sista textstycket och figur 22",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-iet-three-distinct-parts",
+      "statement": "Figur 22 skiljer tre separata positioner: intern expansionstank 195, breather vent 194 och top port plug 5; vid oljeservice får dessa inte blandas ihop.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 28, figur 22",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-charge-conditional-connectors",
+      "statement": "Vid demontering av laddpumpens kåpa, gerotor och O-ring ska anslutningsrör position 130 och läpptätning position 157 demonteras endast om mittsektionen också ska tas ur; en vanlig laddpumpservice kräver inte automatiskt demontering av dessa.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 29, CHARGE PUMP Disassembly steg 2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-gerotor-inspection",
+      "statement": "Laddpumpens gerotor position 131 ska granskas efter slitage och skada och bytas om det behövs; delen är en separat kontrollpunkt från laddpumpens kåpa position 133.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 29, Inspection steg 1",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-low-end-torque",
+      "statement": "Vid återmontering av laddpumpens fästelement hänvisar manualen till momenttabellen på tryckt sida 22 och tillägger att den låga änden av tabellens momentintervall i regel används vid återmontering.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 29, Assembly steg 3 och NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-orientation-six-code",
+      "statement": "Laddpumpsorienteringen illustreras separat för modellkodens tredje tecken L, K, P, N, G och H med både hus och kåpa i figur 24; riktningen får därför inte återställas från en annan kodvariant.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25, April 2023; IET endast modellkod char13=T, laddpump enligt char3 och enhetens exakta utförande",
+      "locator": "Manual tryckt sida 30, figur 24, kodtecken 3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -3251,6 +3341,7 @@
     "Återfunnen P72 bekräftar delar för exakt ZJ-GMEB-5LDB-2DXX men inte ersättningskedjor mellan P39/P72 eller kompatibilitet med annan modellkod. Beställning ska föregås av kontroll av faktisk etikett, serienummer och aktuell återförsäljares supersessionuppgifter.",
     "P72:s första två BOM-rader saknar direkt artikelnummer för komplett ersättningsenhet och hänvisar till distributör. Kräv fysisk skylt med modell och serienummer samt distributionsverifierat aktuellt artikelnummer innan köp.",
     "ZK-KHEE-3BDC-3DLX och ZJ-GMEB-5LDB-2DXX har båda P72 på schemat men skilda reservdelskombinationer; verifiera alltid full modellkod, inte endast P72 eller ZT-serie, före beställning.",
-    "Service P25 sid 11 har internt motsägelsefullt åtdragningsvärde för övre portplugg: 120 in-lb motsvarar ca 13,56 Nm, men trycket anger 20,3 Nm. Använd inte angiven metrisk omräkning utan kontroll av nyare tillverkarrevision/servicebulletin."
+    "Service P25 sid 11 har internt motsägelsefullt åtdragningsvärde för övre portplugg: 120 in-lb motsvarar ca 13,56 Nm, men trycket anger 20,3 Nm. Använd inte angiven metrisk omräkning utan kontroll av nyare tillverkarrevision/servicebulletin.",
+    "IET:s 1–2 psi är tillverkarens funktionsbeskrivning, inte verifierat fältprovsprocedur eller generellt tryckprovsvärde. Vid byte/demontering ska komplett modellkod och OEM-procedur kontrolleras."
   ]
 }
