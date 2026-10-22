@@ -32,7 +32,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "DANA transaxel framgår av separat Motion Drive-lista; exakt Dana-transaxelkod saknas. Motion Drive-rem 037x87 är katalogbelagd, ej generellt kompatibilitetsbevis."
+      "note": "F-040721L tryckt s.4 katalogför Dana-transaxel (exakt modell saknas) och 037x87 drivrem, löprullearm, kopplings-/växellänkage, parkeringsbroms och transaxelfästen. Avvikande 1401103 Z distans måste särskiljas från andra varianter."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -542,6 +542,149 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-idler-arm",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 690173 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-clutch-rod",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094041 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 4",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-link",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094044 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 11",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-parking-rod",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1001245 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 14",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-pivot",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1001303 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 16",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-bracket",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1001302E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 22",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-parking-latch",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094045 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 26",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-yoke",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094031 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 31",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-transaxle-bracket",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094008E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 40",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-transaxle-support",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094433E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 42",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-drive-pulley",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 095094.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 44",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-transaxle-spacer",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1401103 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 47",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-belt-guide",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 093349.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 54",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -551,6 +694,7 @@
     "Ingen dokumenterad generell passform mellan A, B och E; jämför endast partnummer vid samma assemblies och efter versionskontroll.",
     "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
     "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
-    "Styrningens A-artikelnummer får inte överföras till 425014X92B, där bl.a. ratt, styrdrev och framaxelsuffix skiljer sig. Kontrollera maskinens exakta modellmärkning."
+    "Styrningens A-artikelnummer får inte överföras till 425014X92B, där bl.a. ratt, styrdrev och framaxelsuffix skiljer sig. Kontrollera maskinens exakta modellmärkning.",
+    "F-040721L MOTION DRIVE s.4 textverifierad, men bildvisning av sprängskissen misslyckades. Dana-typnummer, fysisk kompatibilitet och ersättningsnummer kvarstår."
   ]
 }
