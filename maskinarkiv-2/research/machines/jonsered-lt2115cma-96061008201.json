@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061008201",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Avgränsad källforskning med indexerat utdrag ur Jonsered original-IPL; PDF-öppning misslyckades och exakt sidnummer/bildverifikation återstår.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cma-96061008201-source",
+      "tier": 1,
+      "title": "Jonsered original IPL LT2115CMA 2006-03, speglad PDF",
+      "document": "LT2115CMA / 96061008201 / 2006-03",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT2115%20CMA%2096061008201%202006-03/LT2115-CMA-96061008201-2006-03.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061008201-identity",
+      "statement": "Reservdelskatalogens rubrik anger Jonsered LT2115CMA med maskinmodell 96061008201 och produktnummer 960 61 00-82.",
+      "variant": "LT2115CMA / 96061008201 / 2006-03",
+      "locator": "PDF REPAIR PARTS, TRACTOR MODEL NO. över DRIVE",
+      "sourceId": "jonsered-lt2115cma-96061008201-source",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008201-transaxle",
+      "statement": "DRIVE listar Hydro-Gear 321-0510 som transaxel och hänvisar interna delar till transmissionstillverkaren.",
+      "variant": "LT2115CMA / 96061008201 / 2006-03",
+      "locator": "PDF DRIVE, position 1",
+      "sourceId": "jonsered-lt2115cma-96061008201-source",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008201-clutch",
+      "statement": "DRIVE listar Noram kopplingsenhet 532 18 03-54.",
+      "variant": "LT2115CMA / 96061008201 / 2006-03",
+      "locator": "PDF DRIVE, position 9",
+      "sourceId": "jonsered-lt2115cma-96061008201-source",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008201-ground-belt",
+      "statement": "DRIVE listar drivrem 532 17 01-40, beskriven V-Belt Kev 112 inch 0650 CRD.",
+      "variant": "LT2115CMA / 96061008201 / 2006-03",
+      "locator": "PDF DRIVE, position 57",
+      "sourceId": "jonsered-lt2115cma-96061008201-source",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008201-transaxle-link",
+      "statement": "DRIVE listar transaxellänk 532 17 00-07.",
+      "variant": "LT2115CMA / 96061008201 / 2006-03",
+      "locator": "PDF DRIVE, position 84",
+      "sourceId": "jonsered-lt2115cma-96061008201-source",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008201-bypass",
+      "statement": "DRIVE listar bypassreglage för hydrostat 532 17 00-15.",
+      "variant": "LT2115CMA / 96061008201 / 2006-03",
+      "locator": "PDF DRIVE, position 95",
+      "sourceId": "jonsered-lt2115cma-96061008201-source",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Full visuell granskning av originalkatalog saknas; sidnumrering och bilden bakom katalogpositionerna måste kontrolleras innan publicering.",
+    "Motor, knivnummer, transmissionens individuella etikett, elsystem och service behöver versionsbunden dokumentation.",
+    "Gemensam produktfamilj eller artikelnummer i en katalog är inte automatiskt en komplett passformsgaranti."
+  ]
+}
