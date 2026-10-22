@@ -46,6 +46,20 @@
       "title": "Husqvarna Rider 11/13/11 Bio/13 Bio operator's manual",
       "document": "2003-08, pub000021448/doc000044020",
       "url": "https://content.tdr.dss.husqvarnagroup.net/pub000021448/doc000044020"
+    },
+    {
+      "id": "husqvarna-rider13-2003-swedish-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 11, Rider 13, Rider 11 Bio, Rider 13 Bio bruksanvisning (svenska)",
+      "document": "2003-08, pub000021448/doc000044401",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000021448/doc000044401/OM/eOtTIwzkNNHWYvAfa52PZIKlhAw?httproute=True"
+    },
+    {
+      "id": "husqvarna-rider13c-2006-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 11, 11C, 13C, 13 AWD, 15C operator manual",
+      "document": "2006-01, pub000030814/doc000059133",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000030814/doc000059133/OM/yLOwXMr_DiFtQ-2ZrK2Vw_RAKWM?httproute=True"
     }
   ],
   "topics": {
@@ -228,6 +242,69 @@
       "sourceId": "husqvarna-rider13-2003-owner",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "rider13-2003-tyre-pressure",
+      "statement": "Rider 13/13 Bio-manualen 2003-08 anger 60 kPa (0,6 bar) runt om. Bakdäcken kan minskas till 40 kPa för förbättrad framkomlighet; max anges till 100 kPa.",
+      "variant": "Rider 11/13/11 Bio/13 Bio enligt manual 2003-08",
+      "locator": "Kontroll av däckens lufttryck, tryckt manual-sida 30, PDF-sida 32",
+      "sourceId": "husqvarna-rider13-2003-swedish-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider13-2003-fuse",
+      "statement": "Manualen 2003-08 beskriver en flatsäkring på 15 A vid batterilådan och varnar för återkommande kortslutning om den löser ut igen.",
+      "variant": "Rider 11/13/11 Bio/13 Bio enligt manual 2003-08",
+      "locator": "Huvudsäkring, tryckt manual-sida 30, PDF-sida 32",
+      "sourceId": "husqvarna-rider13-2003-swedish-owner",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider13-2003-cooling",
+      "statement": "Originalmanualen varnar för att blockerat kylluftintag kan hindra motorns kylning och skada motorn.",
+      "variant": "Rider 11/13/11 Bio/13 Bio enligt manual 2003-08",
+      "locator": "Kontroll av motorns kylluftintag, tryckt manual-sida 30, PDF-sida 32",
+      "sourceId": "husqvarna-rider13-2003-swedish-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider13-2003-towing",
+      "statement": "Bruksanvisningen 2003-08 anger att hydrostatutrustad maskin vid behov bara bör bogseras mycket kort sträcka och låg hastighet för att undvika skada.",
+      "variant": "Hydrostatutrustade Rider 13/13 Bio i manual 2003-08",
+      "locator": "Introduktion > Bogsering, tryckt manual-sida 2, PDF-sida 4",
+      "sourceId": "husqvarna-rider13-2003-swedish-owner",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "rider13c-2006-tyre-pressure",
+      "statement": "Husqvarnas manual för bl.a. Rider 13C 2006-01 anger 60 kPa (8,5 psi) för däcktryckskontroll.",
+      "variant": "Rider 13C enligt manual 2006-01",
+      "locator": "Maintenance schedule > Check tyre pressures, tryckt sida 23; se även Checking tyre pressure, sida 35",
+      "sourceId": "husqvarna-rider13c-2006-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider13c-2006-oil-first",
+      "statement": "Husqvarnas serviceöversikt för 2006 års Rider 13C-manual anger första motoroljebytet efter 5 timmar och tätare byte vid tung belastning eller hög temperatur; exakta senare intervall måste läsas mot tabell och motormodell.",
+      "variant": "Rider 13C enligt manual 2006-01",
+      "locator": "Maintenance schedule footnote 1, tryckt sida 23",
+      "sourceId": "husqvarna-rider13c-2006-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider13c-2006-transmission-oil-check",
+      "statement": "2006 års originalmanual omfattar kontroll av transmissionens oljenivå för Rider 13C, 13 AWD och 15C; detta är inte bevis för oljetyp eller lämplig bytesmetod i andra Rider-generationer.",
+      "variant": "Rider 13C / 13 AWD / 15C enligt manual 2006-01",
+      "locator": "Maintenance schedule tryckt sida 23 och Checking transmission oil level sida 43",
+      "sourceId": "husqvarna-rider13c-2006-owner",
+      "grade": "A",
+      "topic": "D"
     }
   ],
   "gaps": [
@@ -237,6 +314,7 @@
     "Klippaggregatens passform och rem-/knivdelar per revision.",
     "Motorspecifik service, säkerhetsreglage och materialets övriga kapitel kvar att källgranska.",
     "Rider 13C 965094301: officiell specifikation anger hydrostat men inte exakt transaxelkod; undersök IPL innan delbeställningsråd.",
-    "Rider 13/13 Bio originalmanual 2003-08: servicetabellens exakta värden och tillämplighet per utförande måste extraheras separat."
+    "Rider 13/13 Bio originalmanual 2003-08: servicetabellens exakta värden och tillämplighet per utförande måste extraheras separat.",
+    "Visuell granskning av aktuella Husqvarna-PDF:er kunde inte slutföras på grund av PDF-skärmbildscachefel. Textbaserade manualavsnitt identifierade; läs originalens figurer manuellt före exakta reparationssteg."
   ]
 }
