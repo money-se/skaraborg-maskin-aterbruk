@@ -88,6 +88,13 @@
       "title": "STIGA Park Classic 13-1442-22 original parts catalogue",
       "document": "Season 1999; Issue 46–2014; internal transaxle parts p.11 and transmission p.29",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_CLASSIC_13-1442-22_98_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-cybercat-classic-1998-two-column-transmission",
+      "tier": 2,
+      "title": "STIGA/CyberCat Park Classic 1998 Transmission 1258/1442",
+      "document": "1998 årskatalog, två maskinkolumner 1258 och 1442, transaxel position 18",
+      "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1998%2FAufsitzm%C3%A4her%2FPARK+CLASSIC+TRANSMISSION+1258%2C+1442.pdf"
     }
   ],
   "topics": {
@@ -1390,6 +1397,33 @@
       "grade": "A",
       "sourceId": "stiga-parkclassic-1442-1999-ipl",
       "locator": "1999 katalog artikelindex tryckt s.40, 1134-3716-01/-02"
+    },
+    {
+      "id": "p12-1997-crosscatalog-1998-two-columns-critical",
+      "topic": "D",
+      "statement": "STIGA/CyberCat:s kombinerade Park Classic Transmission 1258/1442 för 1998 har separata maskinkolumner. På position 18 anges 1134-3716-01 ('Transaxle assy', Peerless MST205-529) i den första kolumnen, medan 1134-3716-02 ('Transaxle assy') anges i den andra. Det är alltså två parallella modellvariantsposter, inte en text om att -02 ersätter -01.",
+      "variant": "Historisk STIGA/CyberCat Park Classic 1998, jämförelse till 1997 Park 12 13-1442-20; inte substitution eller retrofit",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-classic-1998-two-column-transmission",
+      "locator": "CyberCat 1998 PARK CLASSIC TRANSMISSION 1258,1442, pos.18, skilda antalskolumner"
+    },
+    {
+      "id": "p12-1997-crosscatalog-1998-variant-pnc-distinction",
+      "topic": "D",
+      "statement": "Kombinerade originalnära reservdelslistan särskiljer Park Classic 1258 och 1442 på transaxel pos.18 och visar -01 respektive -02; denna variantuppdelning erbjuder en möjlig förklaring till nummerdifferensen i enskilda STIGA-kataloger. Ingen automatisk ersättningsrelation eller fysisk komplett kompatibilitet följer av tabellen.",
+      "variant": "Historisk STIGA/CyberCat Park Classic 1998, jämförelse till 1997 Park 12 13-1442-20; inte substitution eller retrofit",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-classic-1998-two-column-transmission",
+      "locator": "CyberCat 1998 Transmission 1258,1442, pos.18 och kolumnerna för vardera variant"
+    },
+    {
+      "id": "p12-1997-crosscatalog-1998-1998-common-belt",
+      "topic": "D",
+      "statement": "STIGA/CyberCat:s tvåkolumnstabell för Park Classic 1998 anger identisk motor-/transmissionskomponent som fästdetalj 1134-1849-01 remskiva på pos.15 i båda maskinkolumner, trots att komplett transaxel skiljer mellan 1258 och 1442.",
+      "variant": "Historisk STIGA/CyberCat Park Classic 1998, jämförelse till 1997 Park 12 13-1442-20; inte substitution eller retrofit",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-classic-1998-two-column-transmission",
+      "locator": "CyberCat 1998 Transmission 1258,1442, pos.15 och 18"
     }
   ],
   "gaps": [
@@ -1412,6 +1446,7 @@
     "STIGA:s separata D-rubricerade reservdelsförteckning 1999 klargör vilka artikelval som dokumenteras för MST205-529D, men inte varför Park Classic 1999 använder C-rubrik på sina interna sidor. Undersök tillverkarens revisionsbulletin och maskinens transaxel-ID innan retrofit.",
     "Kontrollera ursprung/revisionslogg till Sandby Smedies 2024-utgåva av Park Classic 13-1258-22, vilken anger C där STIGA:s 2014-original anger D på transmission pos.18. Kräver fysisk transaxelmärkning för aktuell maskin.",
     "Verifiera fysisk funktion och mått hos MST205-529D-plugg 792154, tätningarna 788088/788089 och startbrytaren 786182 mot fristående Peerless tillverkarhandling; CyberCat är reservdelskatalog, inte verkstadshandbok.",
-    "Katalogernas dubbla numrering 1134-3716-02 (basmaskin) respektive 1134-3716-01 (intern transaxellista) kvarstår i 13-1442-20, 13-1442-21 och 13-1442-22. Hitta STIGA:s dokumenterade artikelnummersynonym, fabriks-BOM eller servicebulletin innan de klassas som utbytbara."
+    "Katalogernas dubbla numrering 1134-3716-02 (basmaskin) respektive 1134-3716-01 (intern transaxellista) kvarstår i 13-1442-20, 13-1442-21 och 13-1442-22. Hitta STIGA:s dokumenterade artikelnummersynonym, fabriks-BOM eller servicebulletin innan de klassas som utbytbara.",
+    "CyberCat STIGA Park Classic 1998 tvåkolumnstabell placerar -01 i 1258-kolumn och -02 i 1442-kolumn. Kontrollera mot fullständiga artikel-/produktlistor och tillverkarens ersättningshistorik; modellskillnaden ger inte bevis att -01 och -02 kan bytas."
   ]
 }
