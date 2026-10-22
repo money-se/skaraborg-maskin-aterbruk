@@ -137,6 +137,20 @@
       "title": "Briggs & Stratton service engine conversion table 282H00 series",
       "document": "MS-5667-4/06 pp.1–2, 282H07 Type-specific conversion and short blocks",
       "url": "https://mymowerparts.com/pdf/Briggs-%26-Stratton-Replacement-Engine-Information/282H00-MS5667-0406.pdf"
+    },
+    {
+      "id": "peerless-206544c-sears-internal-catalog",
+      "tier": 2,
+      "title": "Sears PartsDirect Peerless 206-544C internal transaxle diagram",
+      "document": "206-544C transaxle schematic and parts catalog, pages 1,2,8",
+      "url": "https://www.searspartsdirect.com/model/4z59ycy2kk-000796/peerless-206-544c-front-engine-lawn-tractor-parts"
+    },
+    {
+      "id": "briggs-ms5448-series-282h00",
+      "tier": 1,
+      "title": "Briggs & Stratton illustrated parts list model series 282H00",
+      "document": "MS-5448, 2007-04-19, Type 0105 through 0600",
+      "url": "https://www.lawnmowerpros.com/pdfs/BRIGGS/282H00.pdf"
     }
   ],
   "topics": {
@@ -158,7 +172,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Ground Drive p.37 innehåller Peerless 206-544C och drivrem 130801, motorremskiva 175410, växelreglage/bromslänkage, kopplingsvippa och remstyrningar. Interna Peerless-poster hänvisas uttryckligen till transmissionstillverkaren."
+      "note": "Ground Drive p.37 innehåller Peerless 206-544C och drivrem 130801, motorremskiva 175410, växelreglage/bromslänkage, kopplingsvippa och remstyrningar. Interna Peerless-poster hänvisas uttryckligen till transmissionstillverkaren. Separat 206-544C-internkatalog identifierad: bromsskiva 790075, belägg 799021, växelkil 792180 (återförsäljarersättning 792180A), lager och transaxelhus. Ingen generalisering till 205-544C."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -3484,6 +3498,204 @@
       "topic": "K",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-brake-pad",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Bromsbelägg anges som 799021. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 38",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-brake-disc",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Bromsskiva anges som 790075. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 36",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-brake-plate",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Bromsplatta anges som 790007. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 37",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-brake-holder",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Bromshållare anges som 790025. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 44",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-shift-key",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Växelkil anges som 792180. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 8",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-shift-key-sub",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Ersättningsnummer till växelkil 792180 anges som 792180A. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 8",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-needle-bearing",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Nållager anges som 780086A. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 2",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-needle-bearing-sub",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Ersättningsnummer till nållager 780086A anges som 780086. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 2",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-housing",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Transaxelhus anges som 770128. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 3",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-housing-sub",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Ersättningsnummer till transaxelhus 770128 anges som 770148A. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 3",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-return-spring",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Fjäder anges som 792144. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 79",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-inspection-plug",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Plugg anges som 792154. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 85",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-washer",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Bricka anges som 780072. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 29",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-steel-ball",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Kula anges som 792077A. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 20",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-spacer",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Distans anges som 786187. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 70",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-bearing-screw",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Skruv anges som 792085A. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 42A",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-peerless-internal-bevel-gear",
+      "statement": "Peerless 206-544C, intern reservdelskatalog: Koniskt kugghjul anges som 778309. Kataloguppgift; fysisk passform och nuvarande substitution kontrolleras separat.",
+      "variant": "425014X92E / Peerless 206-544C",
+      "locator": "Sears PartsDirect, transaxle illustration key 12",
+      "sourceId": "peerless-206544c-sears-internal-catalog",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5448-series-type-range",
+      "statement": "Briggs MS-5448 är illustrerad reservdelskatalog för motorserie 282H00 och Type 0105–0600; delval för enskild 282H07 förutsätter motorns faktiska Type/Code.",
+      "variant": "425014X92E / Briggs 282H07",
+      "locator": "MS-5448 cover and contents (19 April 2007)",
+      "sourceId": "briggs-ms5448-series-282h00",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -3498,6 +3710,7 @@
     "Sits- och lyftkomponenter för 425014X92E kräver fortsatt kontroll av ersättningsnummer och fysisk maskin innan köp; katalogposter visar inte generell kompatibilitet.",
     "425014X92E STEERING ASSEMBLY s.39 artikelnummer är positionsverifierade i katalogtext; sprängskissens bildvisning och fysisk passform ej kontrollerade.",
     "För att fastställa 282H07:s Type/Code krävs foto av stämpling på den verkliga maskinens motor. OEM-katalogen räcker inte för intern Briggs-delidentifiering.",
-    "282H07 MS-5667 anger typberoende serviceersättare och notkoder (kabelhärva, fjäder, ljuddämpare etc), men maskinens Type/Code okända; tabellen har PDF-textgranskats men bildhämtning gav cache miss. Ingen beställningsrekommendation förrän fysisk motorkod och nuvarande OEM-delstatus verifierats."
+    "282H07 MS-5667 anger typberoende serviceersättare och notkoder (kabelhärva, fjäder, ljuddämpare etc), men maskinens Type/Code okända; tabellen har PDF-textgranskats men bildhämtning gav cache miss. Ingen beställningsrekommendation förrän fysisk motorkod och nuvarande OEM-delstatus verifierats.",
+    "Sears 206-544C webbplatsens indexerade katalog visar interna delar men fullständig sprängskiss kunde inte öppnas (cache miss); uppgifter har stöd av indexerade beskrivningar, inte direkt bildgranskning. Märkbricka samt aktuell ersättningskedja krävs."
   ]
 }
