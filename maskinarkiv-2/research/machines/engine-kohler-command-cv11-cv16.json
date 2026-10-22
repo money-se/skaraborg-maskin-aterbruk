@@ -432,6 +432,42 @@
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "kohler-fuel-filter-2505021s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar bränslefilter 25 050 21-S, 75 mikron, anslutning för 1/4-tums slang och 2,13-tums huslängd, standard för CH/CV11–15/493. Exakt maskins bränslesystem måste identifieras.",
+      "variant": "CH/CV11–15/493 enligt accessory guide Rev. E",
+      "topic": "K",
+      "locator": "Fuel > Fuel Filters, printed p.20, PDF index 19",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-filter-2505022s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar bränslefilter 25 050 22-S, 51 mikron, 1/4-tums anslutning och 2,13-tums huslängd för CH/CV11–15/493 med pumpmatat bränsle. Ej generellt utbytbart mot gravitationsfilter.",
+      "variant": "CH/CV11–15/493, pumpmatat bränslesystem",
+      "topic": "K",
+      "locator": "Fuel > Fuel Filters, printed p.20, PDF index 19",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-filter-2505007s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar filter 25 050 07-S, 75 mikron, slangdimension 3/16 eller 1/4 tum och cirka 1-tums huslängd för bland annat CH/CV11–16/460–492. Katalogens utförande-/installationsbegränsningar kräver kontroll.",
+      "variant": "CH/CV11–16/460–492 enligt accessories guide Rev. E",
+      "topic": "K",
+      "locator": "Fuel > Fuel Filters, printed p.20, PDF index 19",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-remote-oil-filter-2470202s",
+      "statement": "Originalkatalog 25 800 148 Rev. E listar fjärrmonterad oljefiltersats 24 702 02-S, 23-tums oljeledningar, för bland annat CH/CV11–16/460–493 och anger att satsen innehåller filter 12 050 01-S. Montering förutsätter plats och kompatibel anslutning.",
+      "variant": "CH/CV11–16/460–493 och övriga uppräknade tillämpningar; installation ej maskinverifierad",
+      "topic": "K",
+      "locator": "Lubrication > Remote Oil Filter, printed p.4, PDF index 3",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -448,6 +484,7 @@
     "Kohler Walbro/Nikki: rekommenderad grundtomgång 1200 ±75 rpm är inte automatiskt godkänd maskintomgång; kräver utrustningstillverkarens anvisning och exakt utförande.",
     "Oil Sentry måste bekräftas på enskild motorkonfiguration och i maskinens kopplingsschema; brytområde 2–5 psi är inte en specifikation för normalt arbetstryck.",
     "Oil Sentry artikelnummer och sensoradapter per Kohler Spec. No. återstår att kontrollera; 6,8 Nm gäller vakten, inte en godtycklig oljeplugg.",
-    "Oil Sentry 12 704 01-S: kontrollera specifikationsnummer, filteradapterns faktiska anslutning, kabelstam samt tillverkarens aktuella ersättningsnummer innan montering eller beställning."
+    "Oil Sentry 12 704 01-S: kontrollera specifikationsnummer, filteradapterns faktiska anslutning, kabelstam samt tillverkarens aktuella ersättningsnummer innan montering eller beställning.",
+    "Kohler originalbränslefilter 25 050 21-S, 25 050 22-S och 25 050 07-S har katalogbelagda utföranden men kräver kontroll av matning, slanganslutning, filterplacering och motor- eller OEM-specifikation innan beställning."
   ]
 }
