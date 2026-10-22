@@ -681,6 +681,17 @@
       "topic": "D",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-complete-unit-correction-900",
+      "statement": "Hydro-Gear 321-0510-katalogens position 900 anger 'Transaxle, complete' med artikel 532 17 16-13 men avslutas av en separat rad 'Correction: 532 17 00-61'. Exakt relation mellan numren är ännu inte styrkt; det får inte beskrivas som en bekräftad ersättningskedja.",
+      "variant": "Hydro-Gear 321-0510, Jonsered jonsered-lt2115cma-96061008301",
+      "locator": "Hydro-Gear 321-0510 IPL daterad 2001-01-25, PDF sida 3, key 900 och sista korrigeringsraden",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -693,6 +704,7 @@
     "Systematisk MOWER-jämförelse 2004-06 mot 2006-06 visar skilda katalognummer på positionerna 22, 26, 32, 33, 34, 35, 55 och 68. Sidorna är textgranskade, men web-PDF-bildvisning misslyckades; ersättningsnummer och faktisk utbytbarhet kräver separat granskning.",
     "2004-06 och 2006-06 delar enligt DRIVE Hydro-Gear 321-0510, Noram 532 18 03-54 och rem 532 17 01-40 men katalogför skilda reglagestänger och kopplingslänkar. Bildkontroll och passformsanalys återstår.",
     "Hydro-Gear 321-0510-reservdelslista daterad 2001 anger 20W-50 OIL 72.8 oz som katalogpost (key 57), men styrker inte automatisk oljebytesrekommendation, aktuell oljespecifikation, serviceintervall eller exakt transaxelrevision installerad i varje Jonsered-maskin. Servicemanual för 310-0510 gäller annan modellbeteckning och får inte ärvas utan uttrycklig modelltäckning.",
-    "Servicemanualen BLN-51260 täcker uttryckligen 310-0510/-0610/-0710 och har inte styrkts för Hydro-Gear 321-0510. Oljebytesprocedur, luftning, serviceintervall och åtdragningsmoment kan därför inte övertas från den manualen. Kontrollera modell/serienummer på aktuell transaxel och begär korrekt tillverkarunderlag."
+    "Servicemanualen BLN-51260 täcker uttryckligen 310-0510/-0610/-0710 och har inte styrkts för Hydro-Gear 321-0510. Oljebytesprocedur, luftning, serviceintervall och åtdragningsmoment kan därför inte övertas från den manualen. Kontrollera modell/serienummer på aktuell transaxel och begär korrekt tillverkarunderlag.",
+    "Hydro-Gear 321-0510 IPL:s key 900 anger 532171613 medan efterföljande 'Correction' anger 532170061. Denna korrigeringsrad får inte automatiskt tolkas som en ersättningskedja; kontroll mot originalbild, utgåvenummer och Hydro-Gear/Husqvarna OEM krävs. Aktuell serviceprocedur för 321-0510 fortsatt obekräftad."
   ]
 }
