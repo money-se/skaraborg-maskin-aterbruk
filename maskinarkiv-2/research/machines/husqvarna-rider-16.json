@@ -354,6 +354,27 @@
       "title": "Skogsverktyg 531008037 blade timing belt crossreferences",
       "document": "531008037, 531007526, 506977301 replacement claim",
       "url": "https://www.skogsverktyg.se/reservdelar-maskiner/reservdelar-husqvarna/husqvarna-akgraesklippare/rider-13-modeller/kuggrem-husqvarna-rider-13-akgraesklippare.html"
+    },
+    {
+      "id": "bio90-gplshop-589531501-crossref",
+      "tier": 2,
+      "title": "GPLshop – BioClip 90 timing belt 589531501",
+      "document": "Dealer application and replacement references",
+      "url": "https://www.gplshop.se/sv/kuggrem-rider-11-bio-13-bio-16-pro-15-pro-18-15v2"
+    },
+    {
+      "id": "bio90-wolfswinkel-589531501-crossref",
+      "tier": 2,
+      "title": "Wolfswinkel – Husqvarna timing belt 589531501",
+      "document": "Dealer replacement references for 506977301, 531007526, 531008037",
+      "url": "https://www.wolfswinkel.shop/husqvarna-parts-parts/589531501/f-string-with-toothing"
+    },
+    {
+      "id": "bio90-ceruticenter-589531501-crossref",
+      "tier": 2,
+      "title": "Ceruti – genuine Husqvarna belt 589531501",
+      "document": "Dealer replacement references for 506977301, 531007526, 531008037",
+      "url": "https://www.ceruticenter.it/en/husqvarna-genuine-parts/98084-belt-589531501-husqvarna-genuine-part-7391736278423.html"
     }
   ],
   "topics": {
@@ -2255,6 +2276,60 @@
       "sourceId": "husqvarna-rider13bio-2003-11-ipl-953520901",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch40-service-one-internal-belt",
+      "statement": "Husqvarnas verkstadshandbok 2003-02 anger att BioClip 90 har en tandrem i knivsynkroniseringens system, med korrekt nedböjning 8 mm vid 7 N. Formuleringen 'only has 1 belt' förekommer i avsnittet om intern rem under aggregatskyddet och utesluter inte separat extern drivrem.",
+      "variant": "Husqvarna originalservice 2003-02 eller återförsäljarkorsreferens; kontrollera aggregatversion och maskin-PNC",
+      "locator": "Husqvarna Workshop Manual 2003-02, tryckt s.54, PDF P55, avsnitt Belt replacement on BioClip 90",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch40-service-blade-angle",
+      "statement": "Husqvarnas verkstadshandbok 2003-02 varnar för att BioClip 90 och samtliga 103 cm-aggregat ska ha knivarna 90 grader i förhållande till varandra, annars kan knivkollision orsaka allvarliga aggregatskador.",
+      "variant": "Husqvarna originalservice 2003-02 eller återförsäljarkorsreferens; kontrollera aggregatversion och maskin-PNC",
+      "locator": "Husqvarna Workshop Manual 2003-02, tryckt s.54, PDF P55, IMPORTANT INFORMATION",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch40-service-breakpin-washer",
+      "statement": "Husqvarnas verkstadshandbok 2003-02 kräver ny kupad fjädrande friktionsbricka när brytpinnen byts på BioClip 90, BioClip 103 och Combi 103, med konkava sidan mot kniven och knivbult 45–50 Nm.",
+      "variant": "Husqvarna originalservice 2003-02 eller återförsäljarkorsreferens; kontrollera aggregatversion och maskin-PNC",
+      "locator": "Husqvarna Workshop Manual 2003-02, tryckt s.55, PDF P56, Replacing break-pin",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch40-retailer-589531501-crossref",
+      "statement": "GPLshop anger att original Husqvarna-kuggrem 589531501 ersätter 531007526 och 506977301, och listar Rider 16 2001-01, 2002-02 och 2003-01 som katalogtillämpningar. Detta är återförsäljarens tillämpningslista och inte komplett PNC-verifiering.",
+      "variant": "Husqvarna originalservice 2003-02 eller återförsäljarkorsreferens; kontrollera aggregatversion och maskin-PNC",
+      "locator": "GPLshop 589531501, Ersätter: 531007526 / 506977301; Passar: RIDER 16 2001-01/2002-02/2003-01",
+      "sourceId": "bio90-gplshop-589531501-crossref",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch40-retailer-third-belt-number",
+      "statement": "Wolfswinkel och Ceruti anger 531008037 utöver 531007526 och 506977301 som äldre referenser för Husqvarnas tandrem 589531501. Ersättningskedjan är därmed stödd av två oberoende säljkataloger, inte bekräftad i en OEM-ersättningsbulletin.",
+      "variant": "Husqvarna originalservice 2003-02 eller återförsäljarkorsreferens; kontrollera aggregatversion och maskin-PNC",
+      "locator": "Wolfswinkel 589531501 References; Ceruti 589531501 Sostituisce: 506977301, 531007526, 531008037",
+      "sourceId": "bio90-wolfswinkel-589531501-crossref",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch40-service-combi103-v1-v2",
+      "statement": "Husqvarnas verkstadshandbok 2003-02 skiljer BioClip 103 version 1 (en tandrem med fjäderspänning) från version 2 (två tandremmar med excenterjustering). Denna indelning identifierar inte automatiskt en viss Combi 103-produktkod.",
+      "variant": "Husqvarna originalservice 2003-02 eller återförsäljarkorsreferens; kontrollera aggregatversion och maskin-PNC",
+      "locator": "Husqvarna Workshop Manual 2003-02, tryckt s.53–54, PDF P54–P55",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -2347,6 +2422,8 @@
     "FR2111 M 2005-03 har komplett BioClip 90 506970908, remmar 531008025 och 531008037 samt kniv 531008026. Originalkatalogen fastställer ingen ersättningskedja till 506970907.",
     "Husqvarna Genuine Parts dokumenterar 589532201 som kit med 506982901 och 1725 mm. Separat originalbelägg krävs för 531008025→589532201 och hela 531007553-kedjan.",
     "BioClip 90: drivrem (mittremskiva till aggregat) och tandrem (mellan knivarna) ska modelleras som olika funktioner även när katalogen använder generell beteckning 'BELT'. Fastställ respektive position från exakta PNC.",
-    "531008037→589531501 har fortfarande bara sekundärt stöd; undersök om Husqvarnas Genuine Parts-katalog uttryckligen anger 531008037 eller 506977301 för 589531501."
+    "531008037→589531501 har fortfarande bara sekundärt stöd; undersök om Husqvarnas Genuine Parts-katalog uttryckligen anger 531008037 eller 506977301 för 589531501.",
+    "Husqvarna workshop 2003-02 beskriver BioClip 90 som 'one belt' i knivsynkroniseringsavsnittet; separat drivrem finns i aggregatkonstruktionen. Håll alltid drivrem och tandrem åtskilda vid reservdelsval.",
+    "Tre återförsäljare stöder 589531501:s hänvisningar till 531007526 och 506977301, två även 531008037. Fortfarande saknas tillverkarpublicerad ersättningskedja som anger alla tre originalnumren."
   ]
 }
