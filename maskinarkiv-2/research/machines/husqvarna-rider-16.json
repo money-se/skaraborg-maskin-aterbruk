@@ -1517,6 +1517,42 @@
       "sourceId": "husqvarna-rider16-workshop-2003-02",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-2003-combi103-complete-pnc",
+      "statement": "Husqvarnas originalreservdelskatalog RIDER 16 2003-01 listar komplett 103 cm klippaggregat 'CUTTING DECK' 953 52 37-01 i 103CM CUTTING DECK-gruppen; detta identifierar katalogens Combi 103, men bekräftar inte identisk passform på alla Rider 16 eller Rider 16 H.",
+      "variant": "Husqvarna Rider 16 IPL 2003-01, komplett Combi 103 aggregat 953523701; maskinens PNC ej angivet",
+      "locator": "PDF-index P37, 103CM CUTTING DECK, sista artikelraden '953 52 37-01 CUTTING DECK' (rad L841)",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2003-combi103-oem-belt",
+      "statement": "Originalkatalogen 2003-01 anger tandrem 531 00 75-87 i 103CM CUTTING DECK-gruppen som även listar komplett aggregat 953 52 37-01. Denna historiska katalogpost är inte liktydig med en officiell ersättningskedja till 589 53 37-01.",
+      "variant": "Husqvarna Rider 16 IPL 2003-01, komplett Combi 103 aggregat 953523701; maskinens PNC ej angivet",
+      "locator": "PDF-index P37, 103CM CUTTING DECK, '531 00 75-87' och '953 52 37-01'",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2003-combi103-spindle-variants",
+      "statement": "Originalkatalogen 2003-01 listar 535 41 06-01 som mittre knivhus och 535 41 06-02 som yttre knivhus i 103 cm-aggregatgruppen med komplett aggregat 953 52 37-01; knivhusartiklar är inte hela aggregatets PNC.",
+      "variant": "Husqvarna Rider 16 IPL 2003-01, komplett Combi 103 aggregat 953523701; maskinens PNC ej angivet",
+      "locator": "PDF-index P37, rader L807–L809 (mittre/yttre) samt L841 (aggregat)",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2003-bioclip90-distinct-group",
+      "statement": "Samma Rider 16-katalog 2003-01 placerar BioClip 90:s kniv 531 00 75-86 och rem 531 00 75-26 i den separata 90CM CUTTING DECK-gruppen, inte i Combi 103:s PNC 953 52 37-01-grupp.",
+      "variant": "Husqvarna Rider 16 IPL 2003-01, komplett Combi 103 aggregat 953523701; maskinens PNC ej angivet",
+      "locator": "PDF-index P41, rader L919–L920, 90CM CUTTING DECK, jämför P37 103CM CUTTING DECK",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -1583,6 +1619,8 @@
     "PartsTree bekräftar på återförsäljarnivå 531007587 → 589533701 för 103 cm; leta efter Husqvarnas egen revisions-/supersession-post med fullständigt aggregat-PNC.",
     "Husqvarna EPC ger Rider 16:s aggregatgrupper på modellnivå, men saknar synligt belägg för vilket exakt BioClip 103-aggregat (PNC/revision) som passar en specifik maskin. Identifiera maskinens märkplåt och välj rätt EPC-variant.",
     "För att fastställa Rider 16:s exakta reservdelsrevision: läs maskinplåten framtill vänster under sitsen (modell/typ/serienummer), motorns Briggs Model/Type/Code och transaxelns K-/s/n-/p/n-streckkodsetikett separat; därefter kontrollera tillämplig Husqvarna EPC-katalog.",
-    "Separat BioClip 90/103 aggregat-PNC kunde inte bekräftas från verkstadshandbokens modell- och märkplåtsbeskrivning; ingen årsmodell får ensamt definiera aggregatets passform."
+    "Separat BioClip 90/103 aggregat-PNC kunde inte bekräftas från verkstadshandbokens modell- och märkplåtsbeskrivning; ingen årsmodell får ensamt definiera aggregatets passform.",
+    "Original IPL 2003-01 fastställer komplett Combi 103 aggregat 953523701 och historisk rem 531007587. Fastställ monterings-/ersättningshistorik till Combi 103 965078401 och rem 589533701 via officiell Husqvarna-EPC innan kompatibilitetsråd.",
+    "BioClip 90 för Rider 16 har separat 90CM CUTTING DECK-grupp utan komplett aggregat-PNC i 2003-01-listans tillgängliga textrader. Identifiera om äldre aggregat såldes som självständig 953-/965-produkt."
   ]
 }
