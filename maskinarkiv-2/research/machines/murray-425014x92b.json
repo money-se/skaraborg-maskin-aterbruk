@@ -11,6 +11,62 @@
       "title": "Murray 425014X92B original illustrated repair-parts list mirrored by retailer",
       "document": "Murray 425014x92B Repair Parts, F-050706L, tryckta s.38–52",
       "url": "https://www.lawnmowerpros.com/pdfs/murray/F050706L_1.pdf"
+    },
+    {
+      "id": "murray-014b-mower-p47",
+      "tier": 2,
+      "title": "Murray 425014X92B instruction book mower housing replacement parts",
+      "document": "F-050706L, printed page 47, MOWER HOUSING",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=47"
+    },
+    {
+      "id": "murray-014b-steering-43-html",
+      "tier": 2,
+      "title": "Murray 425014X92B illustrated repair parts steering table",
+      "document": "F-050706L, STEERING printed page 43",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=43"
+    },
+    {
+      "id": "murray-014b-engine-49",
+      "tier": 2,
+      "title": "Murray 425014X92B engine mount parts",
+      "document": "F-050706L p.49",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=49"
+    },
+    {
+      "id": "murray-014b-electrical-f050706l",
+      "tier": 2,
+      "title": "Murray 425014X92B original repair parts electrical system",
+      "document": "F-050706L printed page 51",
+      "url": "https://www.lawnmowerpros.com/pdfs/murray/F050706L_1.pdf"
+    },
+    {
+      "id": "murray-014b-suspension-p45",
+      "tier": 2,
+      "title": "Murray 425014X92B Mower Housing Suspension original parts transcription",
+      "document": "F-050706L, MOWER HOUSING SUSPENSION printed p.45",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=45"
+    },
+    {
+      "id": "murray-014b-chassis-page39",
+      "tier": 2,
+      "title": "425014X92B chassis original part table",
+      "document": "F-050706L printed page 39",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=39"
+    },
+    {
+      "id": "murray-014b-maint-p21",
+      "tier": 2,
+      "title": "Murray 425014X92B maintenance chart and general recommendations",
+      "document": "F-050706L p.21",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=21"
+    },
+    {
+      "id": "murray-014b-troubleshoot-p35",
+      "tier": 2,
+      "title": "Murray 425014X92B original instruction book troubleshooting",
+      "document": "F-050706L, Trouble Shooting Chart, printed p.35",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=35"
     }
   ],
   "topics": {
@@ -22,12 +78,12 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Ramdelar identifierade i modellens egen katalog; jämförelse visar olika nummer mellan A- och B-versionerna, vilket förhindrar generell delöversättning."
+      "note": "Ramdelar identifierade i modellens egen katalog; jämförelse visar olika nummer mellan A- och B-versionerna, vilket förhindrar generell delöversättning.\nFollow-up: Motstridiga ramnummer i F-050706L: CHASSIS & HOOD s.39 position 43/44 1001268E701/1001269E701; MOTION DRIVE s.41 position 23/25 1001928E701/1001927E701. Ingen av tabellerna får ensamt uppfattas som universell versionsidentitet."
     },
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Engine Mount anger Briggs & Stratton samt komponenter för montage och avgassystem. Motorns exakta Model/Type/Code saknas."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -37,7 +93,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Styrningskatalogen F-050706L s.43 identifierar ratt, styrstång, pinjong, sektor, framaxel, spindlar, styrstag och hjullager. Flera artikelnummer skiljer sig från 425015X92A trots snarlik konstruktionsgrupp; passform får inte antas."
     },
     "F": {
       "name": "Reglage",
@@ -47,12 +103,12 @@
     "G": {
       "name": "Säkerhet",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: F-050706L sida 51 listar kabelhärvor, tändningslås, PTO-brytare, startsolenoid, batteri, sitsbrytare och väljare för backväxel/kopplingsbroms. Funktionstest och elschema är inte verifierade i detta paket."
     },
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Originalkatalog F-050706L p.45 dokumenterar PTO, lyftmekanism, hanger rods och separata E701/E700 fästen med positionsnummer. Motorsystem och fysisk passform ej härledd."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -62,7 +118,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: F-050706L s.21 ger dagliga, första 5 timmar och 25-timmars serviceintervall för maskin och aggregat; motorns oljetyp och motorspecifika servicepunkter hänvisas till motorhandbok."
     },
     "K": {
       "name": "Reservdelar",
@@ -77,7 +133,7 @@
     "M": {
       "name": "FAQ",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: F-050706L s.35 innehåller symptomorienterad felsökning av startproblem, solenoid, sits-/backspärr, ojämn klippning, remdrivning och motorbelastning. Säkerhetsfunktioner får inte förbikopplas; kontrollera alltid full procedur."
     }
   },
   "claims": [
@@ -190,6 +246,1524 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-belt",
+      "statement": "Klippaggregatets drivrem listas som 037x88.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 3",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-blade",
+      "statement": "Klippkniven listas som 095100E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 37",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-mandrel",
+      "statement": "Knivspindelns hus listas som 1001200.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 34",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-blade-adapter",
+      "statement": "Knivadaptern listas som 690411.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 36",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-jackshaft-pulley",
+      "statement": "Mellandrevets remskiva listas som 094199.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 1",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-idler-pulley",
+      "statement": "Löprullen listas som 690387.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 4",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-link",
+      "statement": "Lyftstaget listas som 690212E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 8",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-wheel",
+      "statement": "Aggregatets stödhjul listas som 092683.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 53",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-complete",
+      "statement": "Komplett klippaggregatenhet för positionerna 1–61 anges som 7601032.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 1–61",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-deflector",
+      "statement": "Utkastskyddets enhet listas som 094707SE.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 44",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-wheel",
+      "statement": "Ratten anges som artikelnummer 1001980.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 1",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-post",
+      "statement": "Styrstången anges som artikelnummer 690625.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 2",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-pinion",
+      "statement": "Styrpinjongen anges som artikelnummer 1001893.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 7",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-sector",
+      "statement": "Styrsektorn anges som artikelnummer 094121.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 9",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-left-spindle",
+      "statement": "Vänster styrspindel anges som artikelnummer 094576E245.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 21",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-right-spindle",
+      "statement": "Höger styrspindel anges som artikelnummer 094575E245.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 28",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-axle",
+      "statement": "Framaxelenheten anges som artikelnummer 1001460E245.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 26",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-left-link",
+      "statement": "Vänster styrstag anges som artikelnummer 095329E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 27",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-right-link",
+      "statement": "Höger styrstag anges som artikelnummer 095328E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 29",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-wheel-bearing",
+      "statement": "Hjullager anges som artikelnummer 091334.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 31",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-wheel-assembly",
+      "statement": "Hjul- och däcksenhet anges som artikelnummer 1001840-601.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 34",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-engine-brand",
+      "statement": "Motorn anges som Briggs & Stratton, utan fullständig Model/Type/Code.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-tank",
+      "statement": "Bränsletank: 690280.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 2",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-fuel-cap",
+      "statement": "Tanklock: 092317.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 1",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-fuel-line",
+      "statement": "Bränsleledning: 7601033, kapas till rätt längd.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 4",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-throttle",
+      "statement": "Gasreglage: 092371.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 8",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-engine-plate",
+      "statement": "Motorplåt: 094006E700.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 7",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-muffler",
+      "statement": "Ljuddämpare: 1001717.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9a",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-muffler-gasket",
+      "statement": "Ljuddämparpackning: 091309.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9b",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-muffler-adapter",
+      "statement": "Ljuddämparadapter: 095207.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 9c",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-pulley",
+      "statement": "Dubbel remskiva: 690439 Z.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 11",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-belt-guide",
+      "statement": "Remstyrning: 094384.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 21",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-belt-guide-secondary",
+      "statement": "Remstyrning: 094066.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 23",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-eng-heat-shield",
+      "statement": "Värmesköld: 1001897.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "ENGINE MOUNT s.49 pos 30",
+      "sourceId": "murray-014b-engine-49",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-light-harness",
+      "statement": "Reservdelskatalogen anger Belysningskabelhärva 250x92.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 1",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-chassis-harness",
+      "statement": "Reservdelskatalogen anger Chassikabelhärva 250x138.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 2",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-ignition-switch",
+      "statement": "Reservdelskatalogen anger Tändningslås 1001993.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 3",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-pto-switch",
+      "statement": "Reservdelskatalogen anger PTO-gränslägesbrytare 094136.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 4",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-fuse",
+      "statement": "Reservdelskatalogen anger Säkring 302031.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 5",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-solenoid",
+      "statement": "Reservdelskatalogen anger Startsolenoid 1002004.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 6",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-battery",
+      "statement": "Reservdelskatalogen anger Batteri 021075.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 8",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-seat-harness",
+      "statement": "Reservdelskatalogen anger Sitsbrytarens kabelhärva 250x139.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 9",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-seat-switch",
+      "statement": "Reservdelskatalogen anger Sitsgivarbrytare 094159.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 10",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-reverse-brake-switch",
+      "statement": "Reservdelskatalogen anger Väljare för backväxel/kopplingsbroms 1001575.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 12",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-grip",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 092698.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 1",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-handle",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094157 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 2",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-pad",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094022 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 3",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lifter-grip",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 092697.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 5",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-lever",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690533.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 8",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-lever",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094017 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 9",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-link",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094004 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 13",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094018E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 17",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-crank",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690394E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 19",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-link",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690212E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 20",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-handle-link",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690122E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 21",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-assembly",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 1001111E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 27",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-pin",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094067.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 30",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-rear-susp-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094055E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 31",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lifter-spacer",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690151.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 32",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pivot-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094015E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 34",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-second-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094005E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 40",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-left-hanger",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094027E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 41",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-right-hanger",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094026E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 42",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-hanger-rod",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094158 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 43",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-suspension-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690539E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 44",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-stiffening-plate",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 1001098E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 45",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-frame-right",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001268E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 43",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-frame-left",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001269E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 44",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-hood",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001797E245.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 25",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-grille",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001798E245.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 26",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-seat-deck",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001558E245.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 19",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-dash",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001584E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 34",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-battery-box",
+      "statement": "CHASSIS & HOOD anger artikelnummer 690424.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 45",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-hitch",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001002E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 46",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-left-floor-mat",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094999.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 23",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-right-floor-mat",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094998.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 24",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-steering-bearing",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001491.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 33",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-evidence-front-lens",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001806.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 27",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-seat-support",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094154E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 8",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-pivot-rod",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094156 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 9",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-pivot-bracket",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001648E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 10",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-index-plate",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094151E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 21",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-lamp-housing",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001805.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 28",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-lower-pivot",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001799E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 29",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-battery-support",
+      "statement": "CHASSIS & HOOD anger artikelnummer 690482E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 30",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-access-panel",
+      "statement": "CHASSIS & HOOD anger artikelnummer 093007E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 36",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-dash-support",
+      "statement": "CHASSIS & HOOD anger artikelnummer 095318E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 37",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-rear-hanger",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001270E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 38",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-left-grille-support",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094083E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 39",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-right-grille-support",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094082E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 41",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-rear-panel",
+      "statement": "CHASSIS & HOOD anger artikelnummer 690434E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 47",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-detent-cover",
+      "statement": "CHASSIS & HOOD anger artikelnummer 094610.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 48",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-brake-grommet",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001755.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 59",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-chassis-add-cup-holder",
+      "statement": "CHASSIS & HOOD anger artikelnummer 1001542.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "CHASSIS & HOOD s.39 pos 70",
+      "sourceId": "murray-014b-chassis-page39",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-engine-daily",
+      "statement": "Före varje användning ska motorn underhållas enligt motorns separata handbok.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-blades-daily",
+      "statement": "Före varje användning ska knivarna kontrolleras för sprickor, slitage och allvarliga skador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-debris-daily",
+      "statement": "Före varje användning ska skräp från maskin och klippområde avlägsnas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-moving-daily",
+      "statement": "Före varje användning ska roterande och glidande delar undersökas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-tires-daily",
+      "statement": "Före varje användning ska däcktrycket kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-deck-level-daily",
+      "statement": "Före varje användning ska klippaggregatets vågräthet kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-belts-daily",
+      "statement": "Före varje användning ska kilremmar kontrolleras för sprickor, slitage och skador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-brake-daily",
+      "statement": "Före varje användning ska bromsens funktion kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-oil-5h",
+      "statement": "Motoroljan ska bytas efter de första fem drifttimmarna enligt motorhandboken.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-engine-25h",
+      "statement": "Efter 25 timmar föreskrivs motorunderhåll enligt separat motorhandbok.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-blade-25h",
+      "statement": "Efter 25 timmar föreskrivs demontering, granskning, slipning och balansering av knivar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-control-25h",
+      "statement": "Efter 25 timmar ska klippknivarnas inkopplingsreglage kontrolleras och justeras vid behov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-brake-25h",
+      "statement": "Efter 25 timmar ska bromsjustering kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-clutch-25h",
+      "statement": "Efter 25 timmar ska kopplingsjustering kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-steering-25h",
+      "statement": "Efter 25 timmar ska styrjustering kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-lubrication-25h",
+      "statement": "Efter 25 timmar anges smörjning av chassi och klippaggregat.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-spark-disconnect",
+      "statement": "Vid kontroll, justering eller reparation ska tändstiftskabeln kopplas loss för att hindra oavsiktlig start.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-annual-air-cleaner",
+      "statement": "Allmänna rekommendationer anger årlig rengöring av luftfilter, med motorns egna instruktioner som styrande källa.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-annual-spark",
+      "statement": "Allmänna rekommendationer anger årlig kontroll av tändstift.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-annual-fasteners",
+      "statement": "Fästelement ska kontrolleras så att de är åtdragna.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-procedure",
+      "statement": "Vid startfel: kontrollera att handbokens startprocedur följs.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-battery",
+      "statement": "Vid startfel på elstartmodell: rengör batteripoler och dra åt kablar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-fuel",
+      "statement": "Vid startfel anger felsökningstablån tömning av bränsletank, rengöring av ledning och byte av bränslefilter.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-plug",
+      "statement": "Vid startfel anger felsökningstablån kontroll och eventuellt byte av tändstift.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-battery",
+      "statement": "Om motorn inte drar runt: kontrollera batteriets laddning och tillstånd på elstartmodell.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-fuse",
+      "statement": "Om motorn inte drar runt: kontrollera eller byt säkring.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-harness",
+      "statement": "Om motorn inte drar runt: kontrollera kabelhärva för lösa anslutningar och skador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-solenoid",
+      "statement": "Om motorn inte drar runt: anges solenoidbyte som möjlig åtgärd på elstartmodell efter grundkontroller.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-blade-stops-seat",
+      "statement": "Stannar motorn när klippknivarna kopplas in: kontrollera att föraren sitter korrekt på sitsgivaren.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-blade-stops-wire",
+      "statement": "Stannar motorn vid inkoppling av knivar: undersök kabelhärva och anslutningar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-blade-stops-reverse",
+      "statement": "Vid motorstopp när knivar kopplas in: kontrollera om transmissionen står i backläge och följ handbokens säkerhetsförfarande.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-motion-belt-route",
+      "statement": "Vid utebliven drivning med kopplingen inkopplad: kontrollera att drivremmen ligger korrekt.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-motion-clutch",
+      "statement": "Vid utebliven drivning: kontrollera kopplingens justering.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-motion-belt-replace",
+      "statement": "Vid utebliven drivning: handboken anger byte av drivrem vid behov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-slow-motion-clutch",
+      "statement": "Vid långsam eller upphörd framdrivning: justera kopplingen enligt handboken.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-slow-motion-belt",
+      "statement": "Vid långsam eller upphörd framdrivning: kontrollera om drivremmen behöver bytas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-mower-blade-belt",
+      "statement": "Om klippknivarna inte roterar: kontrollera att klippaggregatets rem ligger korrekt och byt vid behov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-cut-level-pressure",
+      "statement": "Vid ojämn klipphöjd: kontrollera däcktrycket.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-cut-level-deck",
+      "statement": "Vid ojämn klipphöjd: kontrollera och justera klippaggregatets nivå.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-belt-noise-route",
+      "statement": "Vid ihållande remoljud efter kopplingspedalens uppsläppning: kontrollera remdragning och remstyrningar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-belt-noise-clutch",
+      "statement": "Vid ihållande remoljud: kontrollera kopplingens justering.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-engine-power-air",
+      "statement": "Vid ojämn motorgång eller effektförlust: kontrollera och rengör luftfiltret.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-engine-power-oil",
+      "statement": "Vid ojämn motorgång eller effektförlust: kontrollera oljenivån.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-engine-power-load",
+      "statement": "Vid överbelastning och effektförlust: välj lägre växel enligt felsökningstablån.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -198,6 +1772,11 @@
     "Klippaggregat, kniv- och remnummer behöver granskas i detalj för varje version.",
     "Ingen dokumenterad generell passform mellan A, B och E; jämför endast partnummer vid samma assemblies och efter versionskontroll.",
     "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
-    "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering."
+    "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
+    "Katalogernas lika rem- och knivnummer för 425014X92B och 425015X92A belägger gemensamma katalognummer, inte universell montering eller ersättningsrevisioner. Kontrollera aggregatets märkning.",
+    "425014X92B styrningsritning visar avvikande suffixtal E245 för framaxel/styrspindlar jämfört med 425015X92A:s E701; kontrollera verklig revision och eventuella ersättningsnummer före beställning.",
+    "Identifiera Briggs Model/Type/Code på motorn före koppling till motorspecifik servicemanual.",
+    "425014X92B elsystemets kabelhärvor och startkomponenter skiljer sig från A-registret. Kontrollera fysisk variant och kopplingsschema före byte; endast reservdelsidentitet är katalogbelagd.",
+    "Katalogkonflikt för 425014X92B höger/vänster ram mellan avsnitten CHASSIS & HOOD respektive MOTION DRIVE. Begär maskinens märkning och kontrollera dokumentrevision före reservdelsråd."
   ]
 }
