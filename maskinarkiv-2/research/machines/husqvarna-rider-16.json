@@ -186,6 +186,13 @@
       "title": "Husqvarna UK – official cutting deck belt product variants",
       "document": "Husqvarna Cutting deck belt, variant article 589 53 15-01",
       "url": "https://www.husqvarna.com/uk/maintenance-and-spare-parts/belt/?article=593806401"
+    },
+    {
+      "id": "husqvarna-genuine-parts-catalog-rider-blades",
+      "tier": 1,
+      "title": "Husqvarna Genuine Parts - Rider Blades (OEM catalogue)",
+      "document": "Husqvarna Genuine Parts, Rider Blades table, printed p.57",
+      "url": "https://www-static-nw.husqvarna.com/-/files/aprimo/husqvarna/maintenance/documents/brochure-and-catalogue/wu-055415.pdf?v=7b542591"
     }
   ],
   "topics": {
@@ -1349,6 +1356,24 @@
       "sourceId": "husqvarna-official-belt-589531501",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-oem-genuine-blade-531007586",
+      "statement": "Husqvarnas egen Genuine Parts-katalog listar knivsats 531007586 (BLADE-KIT BIO 90) för Rider 16, men anger 531007525 för Rider 16 H. Varianterna får därför inte sammanblandas utan maskin- och aggregatidentifiering.",
+      "variant": "Husqvarna Rider 16, BioClip 90, enligt tillverkarens modellkorsreferens",
+      "locator": "Husqvarna Genuine Parts, tryckt s.57, Rider Blades-tabell, ART. NO 531007586 respektive 531007525, MODELS TO FIT",
+      "sourceId": "husqvarna-genuine-parts-catalog-rider-blades",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-oem-bio90-blade-dimensions",
+      "statement": "Husqvarnas Genuine Parts-tabell anger för Bio 90-knivsats 531007586 mått A=480 mm, B=24 mm, C=8,1 mm och D=48 mm. Liknande mått för 531007525 bevisar inte delarnas utbytbarhet.",
+      "variant": "Rider 16 BioClip 90 kniv 531007586, Husqvarna OEM-tabell",
+      "locator": "Husqvarna Genuine Parts, tryckt s.57, Rider Blades, 531007586, DIMENSIONS A–D",
+      "sourceId": "husqvarna-genuine-parts-catalog-rider-blades",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -1405,6 +1430,8 @@
     "Sök en Husqvarna-publicerad officiell ersättningskedja för BioClip 90-remmar 531007526 / 506977301 / 531008037 → 589531501. AHUPD, sGarden och Wolfswinkel styrker detta på återförsäljarnivå, inte tillverkarnivå.",
     "PIX-katalogens OEM-korsreferenser visar samma modellgrupp men inte motsvarande OE-artikelersättning. Undvik att hävda kompatibilitet utan PNC och korrekt aggregatutförande.",
     "Husqvarna bekräftar artikel 589531501 och längd 1256 mm (korrigerat; 2158 mm avser artikel 589531601). Officiell ersättningsrelation för 531007526 saknas fortfarande; PNC-kontroll krävs.",
-    "Kvalitetskontroll: tidigare claim angav felaktigt 2158 mm för 589531501 genom sammanblandning med närliggande artikel 589531601. Korrigerat till 1256 mm enligt tillverkarens specifikationstabell."
+    "Kvalitetskontroll: tidigare claim angav felaktigt 2158 mm för 589531501 genom sammanblandning med närliggande artikel 589531601. Korrigerat till 1256 mm enligt tillverkarens specifikationstabell.",
+    "Husqvarna Genuine Parts-katalogen styrker två skilda knivsatser för BioClip 90: Rider 16 531007586, Rider 16 H 531007525; fråga om kompatibilitet, ersättning och aggregat-PNC kvarstår.",
+    "Originalkatalogens PDF är stor och webbsidan kunde inte öppnas för skärmbild. Maskin-/knivuppgifter har kontrollerats mot Husqvarnas sökindexerade tabell, men sidbild/figurer kräver separat visuell kontroll."
   ]
 }
