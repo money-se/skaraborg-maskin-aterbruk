@@ -53,6 +53,13 @@
       "title": "Hydro-Gear PartCommunity integrated transaxle CAD product configurator",
       "document": "ZT-2800/ZT-3100/ZT-3200 parameterized assembly configuration, BOM model ZH-MAAA-SA0A-1XLX",
       "url": "https://hydrogear-embedded.partcommunity.com/3d-cad-models/?info=hydrogear%2Fzt-2800%2Fzt-2800_asmtab.prj"
+    },
+    {
+      "id": "hg-schematic-71370-p64-2020",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800 ZT-3100 ZT-3200 Service Schematic 71370 P64",
+      "document": "Service schematic 71370 P64, revision printed 2020-12-29; original Hydro-Gear drawing hosted by WorldLawn",
+      "url": "https://worldlawn.com/wp-content/uploads/2021/03/ZT-2800-ZT-3100-ZT-3200.pdf"
     }
   ],
   "topics": {
@@ -1054,6 +1061,78 @@
       "sourceId": "hg-cadenas-official-configurator",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p64-ratio-h",
+      "statement": "I Hydro-Gear service schematic 71370 P64 styr modellkodens andra tecken H pinjong pos.72 artikel 52149, 16 tänder, samt reduktionskugghjul pos.81 artikel 52148, 43 tänder.",
+      "variant": "Tecken 2=H, 71370 P64 2020-12-29",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio tabell, rad H",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-j",
+      "statement": "I P64 styr kodtecken 2=J pinjong pos.72 artikel 52344, stål 16 tänder, och reduktionskugghjul pos.81 artikel 52148, 43 tänder.",
+      "variant": "Tecken 2=J, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad J",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-k",
+      "statement": "I P64 styr kodtecken 2=K pinjong pos.72 artikel 52109, 14 tänder, och reduktionskugghjul pos.81 artikel 52110, 45 tänder.",
+      "variant": "Tecken 2=K, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad K",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-l",
+      "statement": "I P64 styr kodtecken 2=L pinjong pos.72 artikel 52341, stål 14 tänder, och reduktionskugghjul pos.81 artikel 52110, 45 tänder.",
+      "variant": "Tecken 2=L, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad L",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-m",
+      "statement": "I P64 styr kodtecken 2=M pinjong pos.72 artikel 52342, stål 13 tänder, och reduktionskugghjul pos.81 artikel 52343, 46 tänder.",
+      "variant": "Tecken 2=M, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad M",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-common-service-parts",
+      "statement": "Hydro-Gear P64:s gemensamma dellista anger bypassplatta pos.22 artikel 51448, pluggtätning pos.26 artikel 52162, svängskivans tapp pos.40 artikel 51048 samt tätingssats pos.200 artikel 73107. Angiven common parts-tabell gäller denna schemarevision, inte alla framtida BOM-utgåvor.",
+      "variant": "ZT-2800/3100/3200 inom 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Common Parts tabell",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-motor-block-bom",
+      "statement": "71370 P64 skiljer motorblockets kitsats pos.64: modellkodtecken 7=1/2 med tecken 14=X anges kit 72158; andra angivna kombinationer av tecken 7 och 14 anges kit 72882. Vilken sats som gäller måste slås upp i exakt BOM.",
+      "variant": "ZT-2800/3100/3200, schema 71370 P64, char7+char14 villkor",
+      "locator": "PDF-sida 3 (index 2), Block Kit tabell",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-relief-kit",
+      "statement": "71370 P64 anger laddtrycksventilsats pos.202 artikel 71436 för tredje kodtecken G/H/K/L/N/P, med delpositionerna 135,136 och 137 inkluderade.",
+      "variant": "ZT-2800/3100/3200 71370 P64, tecken 3=G/H/K/L/N/P",
+      "locator": "PDF-sida 3 (index 2), Charge Relief Kit tabell",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1079,6 +1158,7 @@
     "Identifiera fullständig ZT-3200 BOM-kod innan laddpump, performance package, navände eller axelsats väljs; produktbladet listar tillval snarare än garanterad montering.",
     "En fullständig BOM-modellkod identifierar attribut men artikelnummer måste fortfarande hämtas från enhetens online service schematic; de 14 kodtecknen är inte en lista med reservdelsnummer.",
     "CAD-konfiguratorns reglagearmnummer 51631 och 51841 är attributalternativ; verifiera orderbarhet, BOM-kompatibilitet och eventuella ersättningsnummer via Hydro-Gears service schematic.",
-    "För valen chockventil A–F, bromskod S/9 och axeländarnas mått krävs faktisk BOM-specifik service schematic och fysisk märkplåt innan delar beställs."
+    "För valen chockventil A–F, bromskod S/9 och axeländarnas mått krävs faktisk BOM-specifik service schematic och fysisk märkplåt innan delar beställs.",
+    "Verifiera om originalschemat 71370 P64 (2020-12-29) är tillämpligt på aktuell transaxel med modellkod och serienummer och om Hydro-Gear har senare ersättningsnummer för 52149/52148/52344/52109/52110/52341/52342/52343, innan reservdel rekommenderas."
   ]
 }
