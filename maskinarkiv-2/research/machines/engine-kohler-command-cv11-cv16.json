@@ -1636,6 +1636,78 @@
       "topic": "K",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-five-fasteners",
+      "statement": "Kohler TP-2339-D beskriver snörstarten som monterad med fem flänsskruvar på fläktkåpan. Vid återmontering lämnas skruvarna först lösa; startgreppet dras tills spärrklorna griper startkoppen innan skruvarna dras åt.",
+      "variant": "CV11–16/CV460–465/CV490–495 med snörstart",
+      "locator": "Section 7, p.7.1, PDF page index 54, To Install Starter, Fig.7-2",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-rope-without-full-teardown",
+      "statement": "Kohler TP-2339-D anger att startlinan kan bytas utan fullständig demontering av snörstarten; en tillfällig glidknut hindrar oavsiktlig indragning medan fjäderspänningen avlastas kontrollerat.",
+      "variant": "CV11–16/CV460–465/CV490–495 med snörstart",
+      "locator": "Section 7, p.7.2, PDF index 55, Rope Replacement steps 1–5",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-pulley-six-turns",
+      "statement": "Vid ny startlina anger Kohler cirka sex moturs varv av linhjulet sett från spärrklornas sida för att spänna returfjädern. Detta är specifikt för manualens startapparat, inte alla startmotorer.",
+      "variant": "CV11–16/CV460–465/CV490–495 med beskrivet snörstartutförande",
+      "locator": "Section 7, p.7.2, PDF index 55, Rope Replacement step 7",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-pawls-kit-contents",
+      "statement": "Kohler TP-2339-D visar reparationssats för startspärrklor med en hållare, en centrumskruv, två klorfjädrar, en bromsfjäder, två startklor, en bromsbricka och en bricka. Något verifierat satsartikelnummer framgår inte av tabellen.",
+      "variant": "CV11–16/CV460–465/CV490–495 med beskrivet snörstartutförande",
+      "locator": "Section 7, p.7.2, PDF index 55, Pawl Repair Kit table",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-spring-safety",
+      "statement": "Kohler förbjuder demontering av snörstartens centrumskruv innan returfjäderns spänning har avlastats och föreskriver skyddsglasögon. Fjädern kan annars frigöras plötsligt och orsaka skador.",
+      "variant": "CV11–16/CV460–465/CV490–495 med snörstart",
+      "locator": "Section 7, p.7.3, PDF index 56, Disassembly warning",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-spring-no-rewind",
+      "statement": "Om snörstartens fjäder har lämnat fjäderhållaren anger Kohler att den inte ska lindas in igen; ny fjäder med hållarenhet ska användas.",
+      "variant": "CV11–16/CV460–465/CV490–495 med beskrivet snörstartutförande",
+      "locator": "Section 7, p.7.4, PDF index 57, Inspection and Service step 3",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-center-screw-torque",
+      "statement": "Kohler TP-2339-D anger att snörstartens centrumskruv monteras med liten mängd Loctite 271 på ren och torr gänga och dras till 7,4–8,5 Nm. Gäller snörstartens centrumskruv, inte svänghjulets fästskruv.",
+      "variant": "CV11–16/CV460–465/CV490–495, snörstart enligt Section 7",
+      "locator": "Section 7, p.7.4, PDF index 57, Reassembly step 6",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-recoil-grease-keep-thread-dry",
+      "statement": "Kohler instruerar att smörja returfjäder och centrumaxel med lagerfett, men hålla centrumaxelns skruvgängor fria från olja och fett inför gänglåsningen.",
+      "variant": "CV11–16/CV460–465/CV490–495, snörstart enligt Section 7",
+      "locator": "Section 7, p.7.4, PDF index 57, Inspection and Service/Reassembly steps 4–6",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1672,6 +1744,7 @@
     "Symptomtabeller och tändstiftsbilder i TP-2339-D är differentialdiagnostik, inte bevis för ett fel; bekräfta bränslesystem, tändsystem, kompression och aktuell maskins säkerhetskretsar innan åtgärd.",
     "Renoveringsmått i TP-2339-D behöver motorns modell/Spec. No., slitagemätning, mätverktyg och reservdelarnas faktiska tillämpning; skillnaden 87/90 mm samt ventil- och ringgrupper får inte sammanblandas.",
     "Renoveringsvärden för vevaxel, vevstake och kamaxel kräver mätning enligt TP-2339-D, identifiering av vevstaksbultens profil och aktuell motor/Spec. No.; dessa får inte användas som generella momentspecifikationer.",
-    "Oljetrycksbegränsningsventilen är inte Oil Sentry-kontaktvakten. Kontrollera äldre femdelad kontra senare endelad ventil i faktisk oljetrågs-/täcksplattvariant innan reservdel och monteringsmetod väljs."
+    "Oljetrycksbegränsningsventilen är inte Oil Sentry-kontaktvakten. Kontrollera äldre femdelad kontra senare endelad ventil i faktisk oljetrågs-/täcksplattvariant innan reservdel och monteringsmetod väljs.",
+    "Kohler snörstart: komplett startapparat och spärrkloreparationssats kräver Spec. No. och originalreservdelskatalog för artikelnummer; fjädermomenten är säkerhetskritiska och full manualmetod ska följas."
   ]
 }
