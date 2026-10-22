@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "slug": "murray-425013x92a",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Forskningspaket 4. Avgränsat dokumentstudium av reservdelskatalog, utan webbpublicering, universella passformsantaganden eller godkännande av komplett modellartikel.",
+  "sources": [
+    {
+      "id": "murray-murray-425013x92a-pdf",
+      "tier": 2,
+      "title": "Murray 425013X92A original-form illustrated parts list mirrored by retailer",
+      "document": "Murray 425013x92A REPAIR PARTS F-030768L",
+      "url": "https://www.lawnmowerpros.com/pdfs/murray/425013x92a.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Modellrubrik och dokumentidentifiering dokumenterade. Serienummergränser och övriga varianter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Transaxelmodell och drivrem ännu ej verifierade från den aktuella modellens katalog."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "I": {
+      "name": "Tillbehör",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "murray-425013x92a-identity",
+      "statement": "Reservdelskatalogens modellrubrik identifierar Murray 425013x92A.",
+      "topic": "A",
+      "variant": "425013X92A",
+      "locator": "PDF, STEERING, rubrik MODEL 425013x92A",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425013x92a-manual-code",
+      "statement": "Murray-reservdelskatalogen är märkt F-030768L.",
+      "topic": "A",
+      "variant": "425013X92A",
+      "locator": "PDF, STEERING, dokumentfot F-030768L",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "PDF-sökutdraget belägger modellbeteckning och dokumentkod men inte transaxel, motor eller reservdelsnummer på tillförlitlig nivå.",
+    "Motorns fullständiga Model/Type/Code och rätt motorservicehandbok saknas.",
+    "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
+    "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
+    "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+  ]
+}
