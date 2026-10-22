@@ -68,3 +68,6 @@
 3. Lägg hit endast ny relation/pekare som gör andra maskiner lättare att hitta, inte en andra kopia av tekniska påståenden.
 4. Sidofynd utan eget register får finnas här som **researchuppslag**, aldrig som verifierat tekniskt underlag eller publiceringsbeslut.
 5. Varje ny artikel måste separat uppfylla projektets research-grind och granskningsregler.
+
+| jonsered-lt2115-j2115b-954130210 | [jonsered-lt2115-j2115b-954130210.json](machines/jonsered-lt2115-j2115b-954130210.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115a-j2115aa-954130211 | [jonsered-lt2115a-j2115aa-954130211.json](machines/jonsered-lt2115a-j2115aa-954130211.json) | `needs_research`: ej publiceringsklart |
