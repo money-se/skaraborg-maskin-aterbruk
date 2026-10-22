@@ -2981,6 +2981,123 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "p25-filter-socket-wrench",
+      "statement": "Hydro-Gear rekommenderar hylsformad oljefilteravdragare. Band- eller remnyckel kan vrida filterburken när packningen fastnat efter många temperaturcykler.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 10, FILTER AND FILTER GUARD, Disassembly steg 2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-filter-internal-change",
+      "statement": "Vid allt invändigt underhåll av transmissionen ska oljefiltret alltid bytas, inte återmonteras.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 10, FILTER AND FILTER GUARD, NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-filter-plug-5-or-fitting-111",
+      "statement": "Vid filterservice skiljer manualen mellan fyllplugg position 5 och anslutning position 111; endast den del som faktiskt finns på enheten avlägsnas för tömning.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 10, FILTER AND FILTER GUARD steg 3, fig 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-maintenance-belt-idler-spring",
+      "statement": "Extern underhållskontroll omfattar fordonets drivrem, spännrullar och spännarfjädrar; remslirning kan ge för lågt varvtal på transaxelns ingående axel.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 9, External Maintenance punkt 3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-maintenance-control-trunnion",
+      "statement": "Extern underhållskontroll omfattar att reglagelänkaget är korrekt anslutet och att reglagearmen är ordentligt monterad på transmissionens trunnionaxel.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 9, External Maintenance punkt 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-maintenance-bypass-both-ends",
+      "statement": "Extern underhållskontroll omfattar kontroll att bypassmekanism och fordonslänkage både aktiveras och återgår fullt.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 9, External Maintenance punkt 5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-oil-drain-cool-internal-expansion",
+      "statement": "Enheter med intern expansionstank måste kylas till under 100°F (ca 38°C) före oljebyte eftersom varm olja expanderar och kan orsaka överfyllning och skada på avluftningsenheten.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 11, CAUTION och efterföljande Note",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-oil-pan-eight-quarts",
+      "statement": "Tillverkaren rekommenderar ett uppsamlingskärl under filtret med diameter minst 12 tum och kapacitet minst 8 US quarts före avtappning.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-oil-filter-seal-prime",
+      "statement": "Efter avtappning rengörs filterbasen och den nya filterpackningen smörjs med tunn oljefilm före montering av Hydro-Gear filter 52114.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-oil-filter-hand-tightening",
+      "statement": "Nytt oljefilter monteras för hand och dras 3/4 till ett helt varv efter att filterpackningen först fått kontakt med filterbasen.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-oil-expand-external-only",
+      "statement": "För utföranden med extern expansionstank fylls respektive transmission till botten av dess övre port, därefter fylls expansionstanken till Full Cold-markeringen. Tankvolym/slangvolym bestäms av fordonstillverkaren.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 10–13 och sida 9 not",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-oil-internal-expansion-distinction",
+      "statement": "För enhet utan extern expansionstank återmonteras fyllportpluggen på toppen av huset och proceduren fortsätter direkt till avluftning. Den separata externa tankens Full Cold-metod gäller inte detta utförande.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 11, Fluid Change Procedure not efter steg 11",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-oil-filterguards-two-three",
+      "statement": "Manualen anger alternativa filterkåpor med två respektive tre 1/4-tumsskruvar, så skruvantalet får kontrolleras på den aktuella enheten i stället för att antas från annan BOM.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200, BLN-52441 P25, april 2023; kontrollera variant enligt modellkod/extern eller intern expansionstank",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 1 och figurerna 5–6",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -3016,6 +3133,7 @@
     "HISTORIK 2026-10-22: P72 var tidigare oåtkomlig och 20 uppgifter spärrades; den har nu återfunnits och sidgranskats, och dessa 20 poster återklassats B. Framtida ersättningsnummer och tillämpning utanför exakt BOM är fortfarande oklara.",
     "Återfunnen P72 bekräftar delar för exakt ZJ-GMEB-5LDB-2DXX men inte ersättningskedjor mellan P39/P72 eller kompatibilitet med annan modellkod. Beställning ska föregås av kontroll av faktisk etikett, serienummer och aktuell återförsäljares supersessionuppgifter.",
     "P72:s första två BOM-rader saknar direkt artikelnummer för komplett ersättningsenhet och hänvisar till distributör. Kräv fysisk skylt med modell och serienummer samt distributionsverifierat aktuellt artikelnummer innan köp.",
-    "ZK-KHEE-3BDC-3DLX och ZJ-GMEB-5LDB-2DXX har båda P72 på schemat men skilda reservdelskombinationer; verifiera alltid full modellkod, inte endast P72 eller ZT-serie, före beställning."
+    "ZK-KHEE-3BDC-3DLX och ZJ-GMEB-5LDB-2DXX har båda P72 på schemat men skilda reservdelskombinationer; verifiera alltid full modellkod, inte endast P72 eller ZT-serie, före beställning.",
+    "Service P25 sid 11 har internt motsägelsefullt åtdragningsvärde för övre portplugg: 120 in-lb motsvarar ca 13,56 Nm, men trycket anger 20,3 Nm. Använd inte angiven metrisk omräkning utan kontroll av nyare tillverkarrevision/servicebulletin."
   ]
 }
