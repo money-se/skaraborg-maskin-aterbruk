@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-hydro-gear-zt2800-zt3100",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbunden kartläggning av Hydro-Gear ZT-2800 och ZT-3100, inte OEM-maskinservice eller publiceringsklar modellguide. Endast källbundna familjeegenskaper anges; reservdelar och servicevärden kräver full BOM/serial.",
+  "sources": [
+    {
+      "id": "hg-zt2800-original-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800 official product specifications",
+      "document": "ZT-2800 product page, Product Specs",
+      "url": "https://www.hydro-gear.com/product/zt-2800/"
+    },
+    {
+      "id": "hg-zt3100-original-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-3100 official product specifications",
+      "document": "ZT-3100 product page, Product Specs",
+      "url": "https://www.hydro-gear.com/product/zt-3100/"
+    },
+    {
+      "id": "hg-bln52441-2023-manual-index",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800 ZT-3100 ZT-3200 Service and Repair Manual",
+      "document": "BLN-52441 January 2023 official PDF; detailed values pending PDF visual inspection",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-52441_ZT2800_3100_3200_P24.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "verified",
+      "note": "Tillverkarens familjebeteckningar styrkta, men individuellt OEM BOM-/serienummer är ännu okänt."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motor kräver separat maskinspecifikt register och kontrollerat drivsystem."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Intern hydraulisk konstruktion styrkt på familjenivå; exakt revision kan avvika."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Pump/motor och utväxling från originalproduktsidorna är belagda, men inte en konkret maskininstallation."
+    },
+    "E": {
+      "state": "gap",
+      "note": "OEM-reglage, bromsvajrar och rem-/motorinfästning återstår att identifiera per maskin."
+    },
+    "F": {
+      "state": "verified",
+      "note": "Familjegränser på produktsidorna är inte maskinens uppmätta prestanda."
+    },
+    "G": {
+      "state": "gap",
+      "note": "OEM-elsystem och säkerhetskretsar omfattas inte av denna komponentpost."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Klippaggregatets identitet kräver tillverkarens separata maskin- och aggregatkatalog."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Maskinens instruktioner för bogsering/bypass och transport måste granskas separat."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Tillverkarens familjemanual är identifierad, men exakta serviceintervall/oljemängder kräver sida-för-sida-kontroll och BOM."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Felsökning ska kopplas till konkret symptom och full modellkod, inte familjebeteckning."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Delar, filter och reparationssatser kräver full modellkod och serienummer, inte enbart ZT-2800 eller ZT-3100."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Köpråd och kompatibilitet måste verifieras mot aktuell maskins OEM-nummer."
+    }
+  },
+  "claims": [
+    {
+      "id": "zt2800-motor-pump",
+      "statement": "Hydro-Gear anger för ZT-2800-familjen 10,2 cm³/varv pump och 16 cm³/varv hydraulmotor.",
+      "variant": "ZT-2800 produktfamilj, utan unik OEM BOM-kod",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt2800-ratios",
+      "statement": "Hydro-Gear listar för ZT-2800 familjeutföranden 20,69:1, 24,74:1 och 27,23:1 som slututväxling. Ingen viss maskin tilldelas något av alternativen utan identifikation.",
+      "variant": "ZT-2800 familj, alternativa utföranden ZH/ZJ, ZK/ZL, ZM",
+      "locator": "Product Specs > Transmission Model / Overall Transaxle Reduction",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt2800-filter",
+      "statement": "Tillverkaren anger externt oljefilter som ZT-2800-familjens serviceegenskap och expansionsbehållare inbyggd som tillval.",
+      "variant": "ZT-2800 produktfamilj, egenskaper kan variera",
+      "locator": "Features > External oil filter; Optional internal expansion tank",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt2800-vehicle-limit",
+      "statement": "Hydro-Gears produktsida anger upp till 1 000 lbs (453 kg) total maskinvikt för ZT-2800, vilket är tillverkarens komponentkataloggräns och inte lastkapacitet för en OEM-maskin.",
+      "variant": "ZT-2800 familj; transaxelproduktens gränsspecifikation",
+      "locator": "Product Specs > Gross Vehicle Weight",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt2800-shaft-options",
+      "statement": "ZT-2800-produktfamiljen anges med 25,4 mm axeldiameter och alternativen konisk axel, fyrbultfläns samt fembultfläns; detta är inte universal passform.",
+      "variant": "ZT-2800 familj, flera axeländutföranden",
+      "locator": "Product Specs > Axle Shaft Diameter / Axle Shaft End Options",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "zt3100-motor-pump",
+      "statement": "Hydro-Gear anger för ZT-3100-familjen 10,2 cm³/varv pump och 16 cm³/varv hydraulmotor.",
+      "variant": "ZT-3100 produktfamilj, utan unik OEM BOM-kod",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3100-ratios",
+      "statement": "Hydro-Gear listar för ZT-3100 familjeutföranden 20,69:1, 24,74:1 och 27,23:1 som slututväxling, beroende av transaxelmodell.",
+      "variant": "ZT-3100 familj; ZJ/ZL/ZM",
+      "locator": "Product Specs > Transmission Model / Overall Transaxle Reduction",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3100-weight",
+      "statement": "Hydro-Gears produktsida anger upp till 1 200 lbs (544 kg) total maskinvikt för ZT-3100, inte en universell rekommendation om last eller dragvikt.",
+      "variant": "ZT-3100 familj",
+      "locator": "Product Specs > Gross Vehicle Weight",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt3100-filter",
+      "statement": "Hydro-Gear beskriver ZT-3100 med externt oljefilter och intern expansionstank som tillval; prestandapaket har ytterligare valbara komponenter och ska inte förutsättas på OEM-enhet.",
+      "variant": "ZT-3100 produktfamilj",
+      "locator": "Features > Included shock valves; External oil filter; Optional internal expansion tank; Performance package",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3100-shaft-options",
+      "statement": "ZT-3100-familjen har 25,4 mm axeldiameter med alternativa koniska/fyrbults-/fembultsaxeländar, varför enbart modellfamilj inte garanterar hjulnavspassform.",
+      "variant": "ZT-3100 produktfamilj",
+      "locator": "Product Specs > Axle Shaft Diameter / Axle Shaft End Options",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "bln52441-manual-2023",
+      "statement": "Hydro-Gear publicerar en Service and Repair Manual BLN-52441 med omslag January 2023 för ZT-2800, ZT-3100 och ZT-3200; tidigare manualutgåvor har annan familjeomfattning, så exakta servicevärden måste kopplas till rätt utgåva.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 januari 2023",
+      "locator": "Tillverkarens publicerade PDF, omslag, januari 2023; tabeller/figurer ännu inte sidverifierade",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "A"
+    }
+  ],
+  "gaps": [
+    "Avläs full Hydro-Gear BOM-modellkod och serienummer före OEM-anpassade råd.",
+    "BLN-52441 (2023) är identifierad men för stor för webbsidvisning här; verifiera olja, filter, mängder och avluftning visuellt innan sådana fakta läggs till.",
+    "Hämta BOM-specifika sprängskisser och faktiska reservdels- och filterbeställningsnummer.",
+    "Jämför utgåvorna från 2015, 2021 och 2023 för att undvika att serviceintervall överförs mellan editioner.",
+    "Kontrollera separat vilka års-/OEM-modeller som verkligen har ZT-2800 och ZT-3100."
+  ]
+}
