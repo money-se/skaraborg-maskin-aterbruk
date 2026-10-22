@@ -296,7 +296,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår. Sex tydligt avgränsade delar i 2000-års modellspecifika 38-tumsdäcklista: komplett 753-0694-0637, enhet 983-0129A-0637, rem 954-0329A, kniv 942-0610A, remskydd 783-0343A-0637 och stödhjul 734-06265. Tre oberoende kataloger anger Deck F men MTD:s XREF 2000 G kvarstår."
     },
     "I": {
       "state": "gap",
@@ -1408,6 +1408,60 @@
       "grade": "B",
       "sourceId": "mtd-2001-customer-cross-reference",
       "locator": "PDF index 21, original page 22, consecutive Lowes 062 rows 13BH670F062 and 13BK608G062"
+    },
+    {
+      "id": "mtd-2000-deck-assembly-7530694",
+      "statement": "Katalogen för 13BH670F062/2000 listar komplett 38-tumsaggregat som 753-0694-0637.",
+      "locator": "Deck parts, 38In. Deck Assembly. Comp., 753-0694-0637",
+      "topic": "H",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000, Deck Assembly F; fysisk revision osäker",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-deck-shell-9830129a",
+      "statement": "Samma modellspecifika katalog listar 38-tumsaggregatenheten 983-0129A-0637 separat från komplett aggregat 753-0694-0637; inga likhetstecken ska sättas mellan posterna.",
+      "locator": "Deck parts, Deck Asm-38, 983-0129A-0637",
+      "topic": "H",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000, Deck Assembly F; fysisk revision osäker",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-deck-belt-9540329a",
+      "statement": "Samma modellkatalog anger Deck Belt 954-0329A i 38-tumsaggregatets artikelgrupp, vilket är katalogkoppling och inte en fysisk remverifiering för maskin med okänd variant.",
+      "locator": "Deck parts, Deck Belt, 954-0329A",
+      "topic": "H",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000, Deck Assembly F; fysisk revision osäker",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-deck-blade-9420610a",
+      "statement": "Samma 38-tumsdäcklista visar Blade 3-In-1 942-0610A; innan inköp måste faktisk knivlängd, centrumprofil och däcktyp kontrolleras.",
+      "locator": "Deck parts, Blade, 3-In-1, 942-0610A",
+      "topic": "H",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000, Deck Assembly F; fysisk revision osäker",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-deck-guard-7830343a",
+      "statement": "Samma katalog anger Belt Guard Deck 783-0343A-0637 för den listade 38-tumsdäckgruppen.",
+      "locator": "Deck parts, Belt Guard Deck, 783-0343A-0637",
+      "topic": "H",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000, Deck Assembly F; fysisk revision osäker",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-deck-wheel-73406265",
+      "statement": "Katalogens 38-tumsdäckgrupp anger plaststödhjul 734-06265; det är en kataloguppgift och ingen bekräftelse att alla exemplar har detta stödhjul.",
+      "locator": "Deck parts, WHEEL-PLASTIC DECK, 734-06265",
+      "topic": "H",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000, Deck Assembly F; fysisk revision osäker",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
     }
   ],
   "gaps": [
@@ -1451,6 +1505,7 @@
     "Fastställ om 13BH670F062 faktiskt har transaxelrevision 618-0163B eller annan 918-0163D-familjevariant före val av fettmängd; bildgranskade 15 oz får inte ersätta handbokens 10 oz generellt.",
     "Jämför handbok 770-10579:s avsnitt 6-1.3 (10 oz) med reparationssektion sida 6-15 (14 oz) och sprängskiss 618-0163B (15 oz): identifiera teknisk revisionsskillnad, konstruktion och OEM-instruktion före publicering av smörjmängd.",
     "Fastställ uppgiften om 19 oz och 2 oz Unirex N3 till den senare MTD 769-01641C-konstruktionen och förhindra att den sammanblandas med transaxel 618-0163/918-0163D.",
-    "Jämför fysisk dekal- och hjulkonfiguration med MTD 2001 XREF för 13BH670F062 och original 2000 XREF samt försök fånga bild av PDF index 21, där originalservern gav cache miss."
+    "Jämför fysisk dekal- och hjulkonfiguration med MTD 2001 XREF för 13BH670F062 och original 2000 XREF samt försök fånga bild av PDF index 21, där originalservern gav cache miss.",
+    "Lös varför tillverkarkorsreferens 2000 klassar 13BH670F062 som Deck G trots tre separata 2000-IPL-återförsäljarindex på Deck F; använd fabriksdekalskylt och fysisk aggregatidentifiering innan rem/kniv beställs."
   ]
 }
