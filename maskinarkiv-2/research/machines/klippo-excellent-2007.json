@@ -235,6 +235,27 @@
       "title": "Wolfswinkel KLIPPO Excellent S 96522780208 (2012-06), live model-specific listing",
       "document": "2012-06 seller listing with gearbox positions 1,3,6,8,10,31 and chassis positions 21-22; possibly updated replacement entries",
       "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/push-mowers/excellent-s/excellent-s-96522780208-2012-06"
+    },
+    {
+      "id": "retailer-578266603-explicit-replacement",
+      "tier": 2,
+      "title": "ReservdelarOnline 5782666-03 gearbox explicit supersessions",
+      "document": "Husqvarna gear box right-side angle drive, replaces 5782666-01 and 5033298-01; sold for Excellent S/Comet S/Pro 19 S",
+      "url": "https://www.reservdelaronline.se/produkter/vaexellada-komplett-comet-s-excellent-s-5782666-03"
+    },
+    {
+      "id": "retailer-585192603-transmission-kit",
+      "tier": 2,
+      "title": "Entreprenadbutiken transmission kit 5851926-03 model-specific fitment",
+      "document": "Husqvarna transmission kit 5851926-03; newer Pro 19 SH/Pro 21 SH and LB448S etc",
+      "url": "https://www.entreprenadbutiken.se/sv/eb/transmission-kit-mulch-klippo"
+    },
+    {
+      "id": "retailer-585192603-husqvarna-part",
+      "tier": 2,
+      "title": "Duab Husqvarna Group transmission kit 5851926-03",
+      "document": "Seller item tagged maker number 5851926-03, Husqvarna Group, labelled Transmission Kit Mulch Klippo",
+      "url": "https://duab.se/reservdelar/husqvarna-group/transmission-kit-mulch-klippo"
     }
   ],
   "topics": {
@@ -1758,6 +1779,105 @@
       "sourceId": "klippo-om-2008-502937301",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "exs-gearbox-578266603-supersedes-old",
+      "statement": "ReservdelarOnline anger explicit att original Husqvarna växellåda 5782666-03 ersätter 5782666-01/578266601. Detta är en B-klassad återförsäljaruppgift om ersättning; ingen maskin-/serienummerbunden originalbekräftelse finns här.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5782666-03 Produktinformation > Ersätter 578266601, 5782666-01",
+      "sourceId": "retailer-578266603-explicit-replacement",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs-gearbox-578266603-supersedes-5033298",
+      "statement": "Samma säljare anger 5782666-03 som ersättare även för tidigare växellådsnummer 5033298-01/503329801. Individuell monteringspassform kräver kontroll.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5782666-03 Produktinformation > Ersätter 503329801,5033298-01",
+      "sourceId": "retailer-578266603-explicit-replacement",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs-gearbox-578266603-right-side-angle",
+      "statement": "Säljaren beskriver 5782666-03 som komplett vinkelväxellåda för nyare Klippo med växellådan på maskinens högra sida. Det är ett relevant visuellt identifieringskriterium, inte en universell passformsgaranti.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5782666-03 Produktinformation > höger sida, vinkelväxel",
+      "sourceId": "retailer-578266603-explicit-replacement",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs-gearbox-578266603-family-fitment",
+      "statement": "Säljaren namnger Comet S, Excellent S och Pro 19 S som modellfamiljer för 5782666-03, utan exakta PNC/serienummer. Därmed ska uppgiften inte extrapoleras till Pro 19 GCV utan S.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5782666-03 Produktinformation > Passar till Klippo Comet S, Excellent S, Pro 19 S",
+      "sourceId": "retailer-578266603-explicit-replacement",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-gearbox-585192603-distinct",
+      "statement": "Entreprenadbutiken anger tillverkarartikel 5851926-03 (585192603) som en annan namngiven Husqvarna-transmissionssats med separat modellpassningslista. Den har INTE samma artikelnummer som 5782666-03 (578266603) och någon säljaruppgift om att dessa två är direkt utbytbara ges inte i denna produktinformation.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5851926-03 Produktinformation och Specifikationer; jämfört 5782666-03 produktsida",
+      "sourceId": "retailer-585192603-transmission-kit",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs-gearbox-585192603-pro19sh",
+      "statement": "Entreprenadbutiken anger 5851926-03 som lämplig bland annat för Klippo Pro 19 SH, en självgående modell som inte får likställas med äldre Pro 19 GCV.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5851926-03 Passar till > Husqvarna Klippo Pro 19 SH",
+      "sourceId": "retailer-585192603-transmission-kit",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-gearbox-585192603-pro21sh",
+      "statement": "Entreprenadbutiken listar 5851926-03 för Klippo Pro 21 SH Classic, utan att styrka samma originaltransmission för äldre Excellent S.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5851926-03 Passar till > Pro 21 SH Classic",
+      "sourceId": "retailer-585192603-transmission-kit",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-gearbox-585192603-lb448s",
+      "statement": "Entreprenadbutiken listar 5851926-03 för Husqvarna LB448S inklusive identifierarna 967256801 och 967622101. Dessa korsmodelluppgifter visar senare transmissionsfamilj, inte automatisk passform till Excellent S 2012.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5851926-03 Passar till > LB448S KLIPPO (967256801,967622101)",
+      "sourceId": "retailer-585192603-transmission-kit",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-gearbox-585192603-lb453s",
+      "statement": "Entreprenadbutiken listar även 5851926-03 för Husqvarna LB453S KLIPPO.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5851926-03 Passar till > LB453S KLIPPO",
+      "sourceId": "retailer-585192603-transmission-kit",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-gearbox-585192603-lb548se",
+      "statement": "Entreprenadbutiken listar 5851926-03 för Husqvarna LB548Se med angivet nummer 967256901.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "5851926-03 Passar till > LB548Se (967256901)",
+      "sourceId": "retailer-585192603-transmission-kit",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "exs-gearbox-585192603-duab-manufacturer",
+      "statement": "Duab anger 5851926-03 som Husqvarna Group-tillverkarnummer för en namngiven transmissionssats, men produktkortet ger inte stöd för supersession till 5782666-01 eller 5782666-03.",
+      "variant": "Klippo växellådsersättningar 2012–2016; specifika säljaruppgifter (ej original-IPL-supersession)",
+      "locator": "Duab Produktbeskrivning > Tillverkarnummer 5851926-03",
+      "sourceId": "retailer-585192603-husqvarna-part",
+      "grade": "B",
+      "topic": "D"
     }
   ],
   "gaps": [
@@ -1786,6 +1906,7 @@
     "Excellent S 2013 reservdelsrevisionsjämförelse indikerar nya växellådsdelar, chassivariant med/utan remskydd och ändrat knivstöd, men 2012-originalkatalogens PNC och fysiska kompatibilitetsgränser måste verifieras innan någon ersättningsmatris får godkännas.",
     "Klippo Excellent S 2012-06 anges 96522780208 i två återförsäljarlistor men ursprungligt IPL-omslag måste granskas innan PNC fastställs som OEM A. Växellåda 578266601 till 585192603 saknar dokumenterad tillverkarsupersession.",
     "VIKTIG KÄLLKONFLIKT: 2012 års original-IPL har växellådsdelarna 578771101, 503323201, 503328101 men Wolfswinkels aktuella 2012-06-lista anger 587235401, 503323002, 586467101; fastställ när och varför säljarlistan uppdaterats innan 2013 anges som faktisk konstruktionsändringsgräns.",
-    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd."
+    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
+    "Ny bekräftad säljaruppgiven supersession är 578266601→578266603 (samt 503329801→578266603), men 585192603 är separat numrerad transmissionssats. Fysisk/serienummerbunden kompatibilitet mellan 578266603 och 585192603 måste klarläggas via OEM."
   ]
 }
