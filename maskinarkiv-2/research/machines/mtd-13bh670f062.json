@@ -416,7 +416,7 @@
     },
     "C": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter.\nFollow-up research: MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter. Originalkorsreferensens sökindex för 2000 upprepar B&S 28T707-1154-E1 som 2001 års källa; full original-PDF gav 403, därför B och ingen generalisering till fysisk maskin. PartsTrees 2001-listning har eldiagram för flera motorfamiljer; dessa är familje-/portaldokument och styrker inte att Kohler eller Tecumseh monterades i den specifika MTD-kundmodellen. Motorbeteckningen 28T707-1154-E1 är oförändrad i MTD 2000/2001 XREF trots skillnader i övriga konfigurationen. Exakt 28T707-1154-E1-IPL ger filter 496894S/272403S, tändstift 802592S, bränslefilter 298090S, förgasar- och startmotoralternativ samt kolv-brytpunkt vid motorcode 01060700. Detta är motor-IPL, inte MTD-chassits fabriksrevisionsbevis."
+      "note": "MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter.\nFollow-up research: MTD:s 2001-korsreferens binder B&S 28T707-1154-E1 / 13 hp till en katalogversion. Motorplåt, motorns exakta serienummer och Briggs servicemanual ska bekräftas separat. Generiska motordiagramrubriker i återförsäljarindex får inte misstas för faktiskt levererade motorvarianter. Originalkorsreferensens sökindex för 2000 upprepar B&S 28T707-1154-E1 som 2001 års källa; full original-PDF gav 403, därför B och ingen generalisering till fysisk maskin. PartsTrees 2001-listning har eldiagram för flera motorfamiljer; dessa är familje-/portaldokument och styrker inte att Kohler eller Tecumseh monterades i den specifika MTD-kundmodellen. Motorbeteckningen 28T707-1154-E1 är oförändrad i MTD 2000/2001 XREF trots skillnader i övriga konfigurationen. Exakt 28T707-1154-E1-IPL ger filter 496894S/272403S, tändstift 802592S, bränslefilter 298090S, förgasar- och startmotoralternativ samt kolv-brytpunkt vid motorcode 01060700. Detta är motor-IPL, inte MTD-chassits fabriksrevisionsbevis. Ytterligare specificerade villkor: förgasare 498027/698171/694941 beroende LMT/Nikki och bränslematning; oljetätning 391086S magneto mot 291675S PTO; vevhustätningar .005/.009/.015 tum."
     },
     "D": {
       "state": "gap",
@@ -440,7 +440,7 @@
     },
     "I": {
       "state": "gap",
-      "note": "Godkända tillbehör och användningsgränser saknar modellbunden källa. Familjemanual 770-10115A anger särskild säkerhetsledning under transmissionskåpan som friläggs vid bakre rembyte."
+      "note": "Godkända tillbehör och användningsgränser saknar modellbunden källa. Familjemanual 770-10115A anger särskild säkerhetsledning under transmissionskåpan som friläggs vid bakre rembyte. Exakt Briggs-delbok listar dual-circuit alternator 696459, kablage 691237 och stoppledning 690799 samt svänghjulsuppgift 693557 för stålkuggkrans, men startmotorerna har ringdrevsvillkor."
     },
     "J": {
       "state": "gap",
@@ -2142,6 +2142,51 @@
       "grade": "B",
       "sourceId": "briggs-28t707-1154e1-specific-ipl",
       "variant": "Exakt B&S 28T707-1154-E1 enligt MTD 2000/2001 XREF; monterad motor måste kontrolleras på fysisk skylt"
+    },
+    {
+      "id": "mtd-briggs-28t707-carb-fuel-supply-options",
+      "topic": "C",
+      "statement": "Motorkatalog för 28T707-1154-E1 anger förgasare 498027 för flera LMT-varianter med självtrycksmatning, medan 698171 avser andra angivna förgasarmodeller och 694941 avser Nikki-förgasare. Dessa tre val är utförandealternativ, inte universellt utbytbara delar.",
+      "locator": "Briggs engine parts manual, page 10, Carburetors/Gaskets ref 125 and 125A, LMT groups and Nikki",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt Briggs 28T707-1154-E1 originalkatalog, varianter kräver motorns CODE och faktisk konfiguration"
+    },
+    {
+      "id": "mtd-briggs-28t707-alternator-dualcircuit",
+      "topic": "I",
+      "statement": "Briggs 28T707-1154-E1:s motorspecifika delbok listar dual-circuit generator/alternator 696459 (ref 474A), laddkablage 691237 (ref 878) och stoppledning 690799 (ref 356). En fullständig traktorelschemaanalys kräver dessutom modellens egen kabelstam och inkoppling.",
+      "locator": "Briggs manual page 6, Blower Housing Alternator Flywheel Magneto refs 474A/878/356",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt Briggs 28T707-1154-E1 originalkatalog, varianter kräver motorns CODE och faktisk konfiguration"
+    },
+    {
+      "id": "mtd-briggs-28t707-oilseal-two-ends",
+      "topic": "C",
+      "statement": "Den motorspecifika Briggs-katalogen anger två skilda oljeaxeltätningar: 391086S på magnet-/svänghjulssidan och 291675S på PTO-/kraftuttagsidan. Delarna har olika position och ska inte behandlas som samma packbox.",
+      "locator": "Briggs manual page 14, Cylinder/Piston/Sump, ref 3 oil seal magneto side 391086S and ref 20 oil seal PTO side 291675S",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt Briggs 28T707-1154-E1 originalkatalog, varianter kräver motorns CODE och faktisk konfiguration"
+    },
+    {
+      "id": "mtd-briggs-28t707-crankcase-gasket-thickness",
+      "topic": "C",
+      "statement": "Briggs 28T707-1154-E1-delbok anger vevhustätning i tre nominella tjocklekar: 692406 (0,005 tum), 692405 (0,009 tum), 692226 (0,015 tum, standard). Dessa varianter är villkorade verkstadsdelar och tunnare tätning får inte rekommenderas utan kontroll av axelspel och fabriksprocedur.",
+      "locator": "Briggs manual page 14, ref 12 Gasket Crankcase .005/.009/.015 standard",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt Briggs 28T707-1154-E1 originalkatalog, varianter kräver motorns CODE och faktisk konfiguration"
+    },
+    {
+      "id": "mtd-briggs-28t707-steel-ring-flywheel",
+      "topic": "I",
+      "statement": "Briggs 28T707-1154-E1:s originaldelbok listar svänghjul 693557 med stålkuggkrans, men listar samtidigt separata startmotorvarianter för ringdrev av stål, aluminium och plast. Det är därför nödvändigt att identifiera faktisk ringkrans innan startmotor eller drivdrev väljs.",
+      "locator": "Briggs manual page 6 ref 23 flywheel 693557 steel ring gear; page 20 ref 309 starter ring gear alternatives",
+      "grade": "B",
+      "sourceId": "briggs-28t707-1154e1-specific-ipl",
+      "variant": "Exakt Briggs 28T707-1154-E1 originalkatalog, varianter kräver motorns CODE och faktisk konfiguration"
     }
   ],
   "gaps": [
