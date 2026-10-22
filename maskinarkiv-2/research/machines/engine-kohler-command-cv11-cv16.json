@@ -166,11 +166,39 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "G"
+    },
+    {
+      "id": "kohler-serial-year-codes-1991-2002",
+      "statement": "Kohlers identifikationsfigur i TP-2339-D anger tillverkningsårskod 21–32 för 1991–2002, exempelvis 21=1991, 30=2000 och 32=2002. Detta är dokumentets äldre kodtabell och får inte okritiskt användas på nyare motorer.",
+      "variant": "Kohler Command inom äldre TP-2339-D-kodsystemet; motorns faktiska serienummer ej identifierat",
+      "locator": "Section 1, printed p. 1.3, Figure 1-2, C. Serial No. / Year Manufactured Code",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "kohler-prestart-safety-disconnect",
+      "statement": "TP-2339-D anger att tändstiftskabeln kopplas loss och batteriets minuskabel lossas för att förhindra oavsiktlig start före motorservice.",
+      "variant": "Kohler Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D",
+      "locator": "Section 1, printed p. 1.5, Maintenance Schedule > WARNING Accidental Starts",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "kohler-500h-bendix-solenoid",
+      "statement": "TP-2339-D anger årlig service eller var 500:e drifttimme för Bendix-startdrev respektive rengöring av solenoidens startväxeldrev, med not att detta arbete ska göras av Kohler-verkstad och inte behövs på Delco-starter.",
+      "variant": "Kohler Command enligt TP-2339-D, beroende på startmotorutförande",
+      "locator": "Section 1, printed p. 1.5, Maintenance Schedule > Annually or Every 500 Hours, footnote 2",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
     "Kohler Command: motoridentitet (Model, Spec, Serial) per installerad åkgräsklippare saknas.",
     "Exakt motorolja, oljefilter, tändstift, åtdragningsmoment och serviceintervall måste kopplas till relevant specifikationsnummer/revision.",
-    "Reservdelar och maskinpassning får inte härledas från enbart modellens hästkraftsbeteckning."
+    "Reservdelar och maskinpassning får inte härledas från enbart modellens hästkraftsbeteckning.",
+    "Den ursprungliga Kohler-kodtabellen i TP-2339-D täcker tillverkningsår 1991–2002; senare serienummer måste få en separat verifierad kodkälla."
   ]
 }
