@@ -123,6 +123,13 @@
       "title": "Briggs & Stratton official Model Type Code identification",
       "document": "Official FAQ updated 2026-01-15",
       "url": "https://www.briggsandstratton.com/en-us/support/faqs/engine-codes-model-numbers"
+    },
+    {
+      "id": "murray-014e-deck-p47-original",
+      "tier": 2,
+      "title": "425014X92E MOWER DECK 42 inch original parts list",
+      "document": "425014X92E / 96014000100 MOWER DECK printed p.47",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/47"
     }
   ],
   "topics": {
@@ -164,7 +171,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "LIFT ASSEMBLY s.45 specificerar vänster/höger stag 139865/139866, lyftaxel 159471, främre stag 173288 och bakre arm 139868. Detta är inte samma konstruktion som 425014X92A/B."
+      "note": "42-tums klippaggregat 165892; hi-lift 138971, standard mulching 134149, premium 139775; V-rem 144959, knivspindelhus 128774 och remskiva 153535 (MOWER DECK s.47). Andra A/B-klippdelar får inte antas passa."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -2962,6 +2969,237 @@
       "sourceId": "murray-014e-engine-p41-oem",
       "grade": "B",
       "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-complete-housing",
+      "statement": "MOWER DECK specificerar 165892 för complete housing.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 1",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-sway-bar-bracket",
+      "statement": "MOWER DECK specificerar 138017 för sway bar bracket.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 3",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-sway-bar",
+      "statement": "MOWER DECK specificerar 178024 för sway bar.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 6",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-blade-hi-lift",
+      "statement": "MOWER DECK specificerar 138971 för blade hi lift.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 11",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-blade-mulch-std",
+      "statement": "MOWER DECK specificerar 134149 för blade mulch std.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key -",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-blade-mulch-premium",
+      "statement": "MOWER DECK specificerar 139775 för blade mulch premium.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key -",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-mandrel-shaft",
+      "statement": "MOWER DECK specificerar 137645 för mandrel shaft.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 13",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-mandrel-housing",
+      "statement": "MOWER DECK specificerar 128774 för mandrel housing.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 14",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-mandrel-bearing",
+      "statement": "MOWER DECK specificerar 110485X för mandrel bearing.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 15",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-deck-stripper",
+      "statement": "MOWER DECK specificerar 174493 för deck stripper.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 16",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-vortex-baffle",
+      "statement": "MOWER DECK specificerar 159770 för vortex baffle.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 20",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-deflector-bracket",
+      "statement": "MOWER DECK specificerar 177563 för deflector bracket.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 23",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-deflector-spring",
+      "statement": "MOWER DECK specificerar 110452X för deflector spring.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 26",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-deflector-shield",
+      "statement": "MOWER DECK specificerar 130968X428 för deflector shield.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 27",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-hinge-rod",
+      "statement": "MOWER DECK specificerar 131491 för hinge rod.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 29",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-mandrel-pulley",
+      "statement": "MOWER DECK specificerar 153535 för mandrel pulley.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 32",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-deck-idler-pulley",
+      "statement": "MOWER DECK specificerar 131494 för deck idler pulley.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 36",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-brake-pad-arm",
+      "statement": "MOWER DECK specificerar 184907 för brake pad arm.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 53",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-idler-arm",
+      "statement": "MOWER DECK specificerar 155046 för idler arm.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 55",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-v-belt",
+      "statement": "MOWER DECK specificerar 144959 för v belt.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 68",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-deck-deep-clutch-cable",
+      "statement": "MOWER DECK specificerar 169676 för clutch cable.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt p.47, key 152",
+      "sourceId": "murray-014e-deck-p47-original",
+      "grade": "B",
+      "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
