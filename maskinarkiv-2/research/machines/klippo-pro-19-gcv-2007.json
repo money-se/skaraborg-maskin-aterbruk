@@ -95,6 +95,13 @@
       "title": "KLIPPO originalbruksanvisning september 2004 (återpublicerad textkopia)",
       "document": "Originalinstruktion Art.nr 000001, Malmö september 2004; ursprungliga modelldeklaration 2004-09-22",
       "url": "https://manualzz.com/doc/4635678/klippo-champion-instruction-manual"
+    },
+    {
+      "id": "oem-klippo-2018-manual-829-002",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO original owner manual 829-002 2018-10",
+      "document": "Pro 19 SH technical data printed pp.22-23; different model than Pro 19 GCV 2007",
+      "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000074207/doc000127132/OM/gtww2dNLvKOAgbtQe970sljntbk"
     }
   ],
   "topics": {
@@ -421,6 +428,24 @@
       "sourceId": "klippo-2014-original-catalog-586612101",
       "grade": "A",
       "topic": "M"
+    },
+    {
+      "id": "pro19sh-2018-oem-mulcher",
+      "statement": "Originalmanualen 829-002 (2018) anger kniv 5028813-10, 48 cm mulcher, för Pro 19SH. Detta är ett sidofynd för den senare SH-varianten och inte ett passformsbevis för äldre Pro 19 GCV.",
+      "variant": "Pro 19SH enligt 2018 originalmanual, inte Pro 19 GCV 965229001",
+      "locator": "Tryckt sida 22, Skärutrustning > Mulcher – 48 cm, PDF index 21",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sh-2018-oem-engine",
+      "statement": "Originalmanualen 829-002 (2018) anger Honda-motor, 166 cm³, oljetank 0,5 liter och oljespecifikation SAE 10W-30 för Pro 19SH. Uppgifterna får inte kopieras till äldre Pro 19 GCV/Honda GCV135.",
+      "variant": "Pro 19SH, 2018 originalmanual, inte historisk Pro 19 GCV",
+      "locator": "Tryckt sida 22, Teknisk data Motor och Bränsle-/smörjsystem, PDF index 21",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -436,6 +461,7 @@
     "Originalproduktkatalogen 2008 bekräftar Pro 19 GCV 965229001 som 48 cm mulcherkniv och separat kniv 502978001, men den binder inte kniven med IPL-positionsnummer, variantserienummer och monteringskombination; behåll detta som öppen slutsats.",
     "Wolfswinkels separata nederländska register för 965229001 bekräftar modellbindningen av artikelnummerlistan; fortfarande saknas original-IPL och verifierade sprängskisspositioner.",
     "Katalogpositionerna 43–44 och 51–53 är nu sekundärt källbundna. Original KLIPPO/Husqvarna IPL och exakt serienummerintervall saknas fortfarande.",
-    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget."
+    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
+    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam."
   ]
 }
