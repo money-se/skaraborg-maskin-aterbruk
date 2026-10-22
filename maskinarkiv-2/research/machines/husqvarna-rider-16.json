@@ -2998,6 +2998,60 @@
       "sourceId": "tufftorq-official-faq-k46-k55-identity",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch53-2005-briggs-avs-oil",
+      "statement": "Husqvarnas Rider16-ägarmanual 2005-01 anger Briggs & Stratton 282H070110E1 (465,7 cm3) med motoroljevolym 1,4 liter. 2002-04 manualens 1,2 liter avser en tidigare dokumentutgåva/motorspecifikation; fyllmängd ska väljas från faktisk motormärkning.",
+      "variant": "Rider 16 originalbruksanvisning 2005-01; motor 282H070110E1, PNC måste avläsas",
+      "locator": "OM Rider 16 2005-01, printed p42, PDF index43, Engine Model / Oil volume",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch53-2005-combi112-1120",
+      "statement": "Husqvarnas Rider16-ägarmanual 2005-01 anger Combi 112:s klippbredd som 1120 mm, treknivsaggregat och knivdiameter 420 mm. Äldre 2003-verkstadshandboks avvikande 1220 mm ska hållas som källkonflikt tills tryckfel/revision klarlagts.",
+      "variant": "Rider 16 originalbruksanvisning 2005-01; motor 282H070110E1, PNC måste avläsas",
+      "locator": "OM Rider 16 2005-01, printed p42, PDF index43, Cutting unit",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch53-2005-deck-bioclip-dimensions",
+      "statement": "2005-01 originalmanual Rider16 skiljer BioClip 90 (900 mm, två knivar, knivdiameter 440 mm) från Combi 103 (1030 mm) och Combi112 (1120 mm), båda med tre knivar. Antalet och bredden identifierar inte ensamt aggregatets PNC.",
+      "variant": "Rider 16 originalbruksanvisning 2005-01; motor 282H070110E1, PNC måste avläsas",
+      "locator": "OM Rider 16 2005-01 printed p42, PDF index43, Cutting unit type/width/blade diameter",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch53-2005-identification-plates",
+      "statement": "2005-01 ägarmanual visar att Rider16:s maskinplåt sitter framtill till vänster under sitsen; motorns Model/Type/Code anges på ventilkåpan och K46-transmissionens egen streckkodetikett sitter framtill på transmissionshuset vid vänster drivaxel, med K-typ, s/n och p/n.",
+      "variant": "Rider 16 originalbruksanvisning 2005-01; motor 282H070110E1, PNC måste avläsas",
+      "locator": "OM Rider 16 2005-01 printed p3, PDF index4, Serial number identification",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch53-2005-tyres-chassis",
+      "statement": "Husqvarna Rider16 OM 2005-01 specificerar däck 16×6.50×8, 60 kPa fram och bak, hjulbas 855 mm samt servicemassa 247–260 kg med aggregat. Dessa mått har annan mätbas än tidigare verkstadstabellers maskinvikt utan uppgivet aggregat.",
+      "variant": "Rider 16 originalbruksanvisning 2005-01; motor 282H070110E1, PNC måste avläsas",
+      "locator": "OM Rider 16 2005-01 printed p42 PDF index43 Dimensions",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch53-2005-plug-fuel",
+      "statement": "2005-01 Rider16 originalmanual anger tändstift Champion QC12YC med gap 0,75 mm, 7 liters tank och blyfri bensin minst 85 oktan enligt manualens specifikation (ej rekommendation av svensk bensinkvalitet).",
+      "variant": "Rider 16 originalbruksanvisning 2005-01; motor 282H070110E1, PNC måste avläsas",
+      "locator": "OM Rider 16 2005-01 printed p42 PDF index43 engine/electrical",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -3111,6 +3165,8 @@
     "Husqvarna FAQ uppdaterad 2015 anger 10W-30 icke-syntetisk för svenska Rider 16(H) och auktoriserat verkstadsbyte. Jämför K46/K55 exakt modellnummer och senare servicebulletiner före modern generell oljerekommendation.",
     "Tuff Torq anger för K46 olika underhållsintervall (50/200 extern tank, 50/250 FAQ, mot Husqvarna Rider16 50/300 äldre verkstad). Fastställ Rider16-enhetens tillverkningskod/reservoarsystem och tillämplig prioriterad OEM-instruktion.",
     "Tuff Torqs senare serviceinformation rekommenderar Tuff Tech, Husqvarna äldre verkstad och svensk Rider-FAQ anger 10W/30. Utred servicepolicy per K46-ID och produktens tillverkningsperiod, utgå inte från universell olja.",
-    "Tuff Torq förbjuder generell utbytbarhet mellan K46-undermodeller. Kartlägg Husqvarnas artikelnummer K46 mot Tuff Torq originaletikett P/N och serienummer före ersättningsköp."
+    "Tuff Torq förbjuder generell utbytbarhet mellan K46-undermodeller. Kartlägg Husqvarnas artikelnummer K46 mot Tuff Torq originaletikett P/N och serienummer före ersättningsköp.",
+    "2005-01 Rider16 OM på originalets tekniska sida anger Combi112=1120 mm medan äldre verkstadstabell anger 1220 mm; behandla 1220 som avvikande tills konstruktions-/tryckfelsförklaring hittas.",
+    "Rider16 motoroljevolym 2002 OM 1,2 L kontra 2005 OM 1,4 L; 2005 hänför värdet till Briggs 282H070110E1, men utan motorns Model/Type/Code ska universell fyllmängd inte publiceras."
   ]
 }
