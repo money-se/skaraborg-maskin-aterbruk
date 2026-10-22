@@ -903,6 +903,51 @@
       "sourceId": "hg-zt3200-original-product",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-1-4",
+      "statement": "I Hydro-Gears 14-teckens kod (bindestreck räknas ej) betecknar tecken 1 transmissionsserie, 2 reduktionsförhållande och pinjongmaterial, 3 axelsida/laddpumpens rotationsriktning och 4 axelände, hjulbultar samt längd.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, How To Use Service Schematic, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-5-8",
+      "statement": "Tecken 5 anger backventil A:s rotationsriktning och ingångsaxeln; tecken 6 backventil B:s rotationsriktning; tecken 7 bromsarm och bromstyp; tecken 8 bromsarmens sida, rotationsriktning och position.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-9-12",
+      "statement": "Tecken 9 i Hydro-Gear-modellnumret kodar reglagesida och reglagetyp, tecken 10 reglagearm, tecken 11 bypassarm och tecken 12 fläkt-/remskivesats.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-13-14",
+      "statement": "Tecken 13 i Hydro-Gears modellkod betecknar avluftningsanslutningar (Breather Fittings), medan tecken 14 är reserverat. Oljemängdstabellens koppling till tecken 13 får inte omtolkas som en universell komponentmängd.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-14-symbol-caution",
+      "statement": "Tillverkarens exempel ZH-HCEE-3JDB-2BLX består av 14 egentliga kodtecken i fyra grupper (2-4-4-4); bindestrecken ingår inte i numreringen. Ett kodvärde får inte flyttas en position vid reservdelsuppslagning.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -925,6 +970,7 @@
     "Äldre manualversion med 65 in-lb för filterkåpans skruvar behöver identifieras med exakt publiceringsdatum/dokumentrevision; tillgänglig P23 (april 2021) anger 115 in-lb. Förväxla inte med P25:s separata position 23 oljefilter, 70–90 lb-in.",
     "Fastställ om konkret ZT-2800 är charged eller uncharged via komplett Hydro-Gear BOM och OEM-dokument före diagnos, laddpumpsbeställning eller användning av hydrauliskt schema.",
     "Jämför aktuellt ZT-2800-produktblad (3000 rpm) med P24 servicehandbok (3000 rpm non-charge, 3600 rpm charged) mot fullständigt BOM och vid behov fråga Hydro-Gear vilket ingångsvarvtal som gäller den aktuella enheten.",
-    "Identifiera fullständig ZT-3200 BOM-kod innan laddpump, performance package, navände eller axelsats väljs; produktbladet listar tillval snarare än garanterad montering."
+    "Identifiera fullständig ZT-3200 BOM-kod innan laddpump, performance package, navände eller axelsats väljs; produktbladet listar tillval snarare än garanterad montering.",
+    "En fullständig BOM-modellkod identifierar attribut men artikelnummer måste fortfarande hämtas från enhetens online service schematic; de 14 kodtecknen är inte en lista med reservdelsnummer."
   ]
 }
