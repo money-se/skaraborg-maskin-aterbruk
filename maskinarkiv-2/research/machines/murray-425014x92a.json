@@ -245,6 +245,50 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-fuel-cap",
+      "statement": "Tanklock 092317",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 1",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-fuel-tank",
+      "statement": "Bränsletank 690280",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 2",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-throttle",
+      "statement": "Gasreglage 092371",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 8",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-heat-shield",
+      "statement": "Värmesköld 1001713",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 30",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
