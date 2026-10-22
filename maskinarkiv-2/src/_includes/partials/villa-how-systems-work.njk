@@ -1,0 +1,27 @@
+{# Mekaniska principer: pedagogiska förklaringar, inte modellspecifika sprängskisser. #}
+{% if chapter.id == "drivning" %}
+<h3>Hur fungerar hydrostaten inuti?</h3>
+<p>En hydrostatisk drivning överför kraft med hydraulolja i ett slutet system. Motorn driver en hydraulisk pump, och oljeflödet driver en hydraulmotor som i sin tur får hjulen att rotera. När föraren ändrar drivpedalens läge ändras drivningens hastighet och riktning utan att man behöver lägga i vanliga mekaniska växlar.</p>
+<div class="park-note"><strong>Kraftens väg</strong><p>Motor → remdrift → hydrostatens pump → hydraulmotor → drivaxel → framhjul.</p></div>
+<p>Detta är en förenklad förklaring av hydrostatisk kraftöverföring. På Villa 12 HST visar STIGA:s reservdelskataloger en Kanzaki K46CJ i de angivna maskinfamiljerna. För reservdelar och service används alltid märkningen på den monterade enheten. {# Research claim-ID: stiga-2010-k46cj, stiga-k46-2011-primary, k46-tufftorq-id-serial #}</p>
+<h3>Varför behöver man skilja mellan två olika remdrifter?</h3>
+<p>En rem kan överföra motorkraft till maskinens framdrivning, medan en annan del av remsystemet driver det frontmonterade redskapet. Det innebär att en maskin kan köra normalt men ändå ha problem med klippningen – eller tvärtom. Börja därför med att avgöra om felet gäller <strong>hjulens rörelse</strong> eller <strong>klippaggregatets rörelse</strong>, innan du letar efter rätt rem. {# Research claim-ID: stiga-2010-drivebelt, controls-pto-bypass-original-manual #}</p>
+{% elif chapter.id == "aggregat" %}
+<h3>Från motor till roterande knivar</h3>
+<p>Kraftuttaget (PTO) används för att driva frontredskapet. På ett remdrivet klippaggregat överför remskivor och remmar kraften vidare till knivsystemet. Det är därför viktigt att hålla isär maskinens PTO-rem, aggregatets drivrem och aggregatets eventuella kuggrem.</p>
+<p>I reservdelskatalogen för <strong>85 Combi 13-2960-14</strong> finns både en aggregatdrivrem (1134-9109-01) och en kuggrem (9585-0161-01). Delnumren är användbara när du identifierat just det aggregatet. {# Research claim-ID: 85combi-2011-belt-parts #}</p>
+<h3>Vad innebär synkroniserade knivar?</h3>
+<p>Synkronisering betyder att knivarnas inbördes läge hålls samordnat när de roterar. På ett sådant aggregat behöver remdrivning och knivsystem fungera tillsammans. Ett skadat drev, en rem som hamnat fel eller en kraftig kollision kan därför göra att knivarnas läge behöver kontrolleras enligt aggregatets manual.</p>
+<p>För det dokumenterade 85 Combi-aggregatet finns särskilda kniv-, knivbalks- och brytdelar i STIGA:s reservdelskatalog. Arbeta inte med knivsystemet förrän motorn är avstängd, nyckeln urtagen och alla delar stannat. {# Research claim-ID: 85combi-2011-independent-blade-parts, combi-manual #}</p>
+<h3>Tre saker att kontrollera vid dåligt klippresultat</h3>
+<ol><li><strong>Inställningen:</strong> följ aggregatets manual för klipphöjd och grundinställning.</li><li><strong>Knivarna:</strong> kontrollera synliga skador eller deformationer när maskinen är helt avstängd.</li><li><strong>Drivningen:</strong> kontrollera remsystem och rätt reservdelsritning för aggregatets produktnummer.</li></ol>
+{% elif chapter.id == "versioner" %}
+<h3>Hur samverkar motorns start-, bränsle- och tändsystem?</h3>
+<p>En bensinmotor behöver tre grundläggande förutsättningar för att starta: den måste kunna dras runt, få en fungerande blandning av luft och bränsle och få tändning vid rätt tillfälle. Startmotorn sätter vevaxeln i rörelse. Förgasaren blandar bränsle med luft, och tändsystemet skapar gnistan som antänder blandningen inne i cylindern.</p>
+<table class="service"><thead><tr><th>System</th><th>Vad det gör</th><th>Relevant symtom</th></tr></thead><tbody>
+<tr><td>Startsystem</td><td>Drar runt motorn vid startförsök.</td><td>Startmotorn reagerar inte eller orkar inte dra runt.</td></tr>
+<tr><td>Bränsle och luft</td><td>Förser motorn med brännbar blandning.</td><td>Motorn dras runt men startar inte eller går ojämnt.</td></tr>
+<tr><td>Tändsystem</td><td>Antänder blandningen med tändstiftet.</td><td>Motorn dras runt men startar inte eller misständer.</td></tr>
+</tbody></table>
+<p>Det här är <strong>allmän bensinmotorteknik</strong>, inte en lista över konstaterade fel på Villa 12 HST. Vilka komponenter som sitter på just din motor och hur de ska kontrolleras framgår av dess egen motorhandbok. STIGA:s kataloger omfattar både GGP WM 12,5 och Briggs &amp; Stratton, beroende på maskinversion. {# Research claim-ID: stiga-2010-ggp2727, stiga-2010-bs2729, briggs-type-code-rule #}</p>
+{% endif %}
