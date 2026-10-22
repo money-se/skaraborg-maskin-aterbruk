@@ -172,6 +172,13 @@
       "title": "Peerless 206-545C different variant exploded view and indexed parts (not 206-544C)",
       "document": "Motoruf 206-206-545C 3p, visually checked pp.1–2, reference only",
       "url": "https://www.motoruf.de/mo/ersatzteillisten/Peerless/206%20Serie/206-206-545C.PDF"
+    },
+    {
+      "id": "sears-oil-730229b-206544c-fitlist",
+      "tier": 2,
+      "title": "Sears 730229B transmission gear oil application list includes 206-544C",
+      "document": "Sears PartsDirect 730229B part catalog, model application index",
+      "url": "https://www.searspartsdirect.com/product/695sr9d70l-0071-143/id-730229B"
     }
   ],
   "topics": {
@@ -223,7 +230,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Original service s.23 anger bromsens 1,5-tums inställningsmått och fem fots stoppsträcka under fastställda provvillkor; knivremmens dragning och aggregatdemontering. Detta får inte appliceras på A/B-utföranden."
+      "note": "Original service s.23 anger bromsens 1,5-tums inställningsmått och fem fots stoppsträcka under fastställda provvillkor; knivremmens dragning och aggregatdemontering. Detta får inte appliceras på A/B-utföranden. Nytt modellbundet stöd: Sears listar 730229B växellådsolja för 206-544C. Ingen uppgift om påfyllnadsmängd eller oljeunderhållsintervall kan härledas därifrån."
     },
     "K": {
       "name": "Reservdelar",
@@ -4034,6 +4041,39 @@
       "sourceId": "peerless-206545c-neighbor-visual-confirm",
       "grade": "B",
       "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-oil-730229b-listed-206544c",
+      "statement": "Sears PartsDirect listar Peerless 206-544C bland modeller som använder transmissionsolja 730229B. Detta är modellbunden leverantörsdata, inte en uppgift om korrekt fyllmängd.",
+      "variant": "Peerless 206-544C / Sears lubricant catalog",
+      "locator": "730229B product page; Popular Models Using 730229B",
+      "sourceId": "sears-oil-730229b-206544c-fitlist",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-oil-730229b-not-fill-quantity",
+      "statement": "Sears katalogpost för 730229B anger ingen verifierad originalfyllmängd för 206-544C; mängden förblir olöst trots modellträffen.",
+      "variant": "Peerless 206-544C / Sears lubricant catalog",
+      "locator": "730229B product page; Popular Models Using 730229B",
+      "sourceId": "sears-oil-730229b-206544c-fitlist",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-oil-730229b-distinct-545c",
+      "statement": "Samma leverantörslista nämner både 206-544C och 206-545C separat; den separata förekomsten ger inget stöd för att kompletta växellådor är utbytbara.",
+      "variant": "Peerless 206-544C / Sears lubricant catalog",
+      "locator": "730229B product page; Popular Models Using 730229B",
+      "sourceId": "sears-oil-730229b-206544c-fitlist",
+      "grade": "B",
+      "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
