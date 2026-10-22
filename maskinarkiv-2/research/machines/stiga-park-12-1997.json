@@ -727,6 +727,96 @@
       "grade": "A",
       "sourceId": "peerless-691218-930-mst",
       "locator": "Kapitel 11 tryckt s.69, PDF s.70, REASSEMBLY"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-identity-conflict",
+      "topic": "D",
+      "statement": "För samma 13-1442-20-katalog anger basmaskinens transmissionstabell komplett transaxel 1134-3716-02 på pos.18, medan MST205-529A:s interna delförteckning anger komplett enhet 1134-3716-01 på pos.0. Källan ger inte ersättningsförklaring eller godkänd utbytbarhet.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.15 pos.18 och s.27 pos.0"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-case",
+      "topic": "K",
+      "statement": "STIGA:s interna MST205-529A-lista anger kåpa 772144 (pos.1), hus 770128 (pos.3) och två nållager 780086 (pos.2).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.1–3"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-shaft",
+      "topic": "D",
+      "statement": "MST205-529A-listan anger axlar 776406 (pos.4), 776409 (pos.5), ingående axel 776394 (pos.66) och bromsaxel 776396 (pos.67).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.4–5 och s.29 pos.66–67"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-shift",
+      "topic": "F",
+      "statement": "MST205-529A-listan anger växelförare 784378 (pos.10), medan 930-022-listan för 1996 anger 784345 på samma interna position; ingen utbytbarhet får antas.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20 PDF s.27 pos.10; 13-1442-19 s.13 pos.10"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-gears",
+      "topic": "D",
+      "statement": "MST205-529A:s tabell anger drev 778364 med 38T och alternativ rad 778365 med 15T vid position 6; utan monteringsnotering ska de inte presenteras som ett generellt valbart drev.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.6"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-drive-gears",
+      "topic": "D",
+      "statement": "MST205-529A listar drev 778356 (29T, pos.49), 778354 (23T, pos.50), 778352 (19T, pos.51) och 778350 (16T, pos.52).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.49 och s.29 pos.50–52"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-drive-gears-2",
+      "topic": "D",
+      "statement": "MST205-529A listar drev 778346 (15T, pos.53), 778355 (11T, pos.56), 778353 (17T, pos.57), 778351 (21T, pos.58) samt 778349 (24T, pos.59).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.29 pos.53,56–59"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-drive-gears-3",
+      "topic": "D",
+      "statement": "MST205-529A listar drev 778345 (25T pos.60), 778363 med katalognotation '307 + 13T' (pos.82) och 778338 med 27T (pos.83); notationen 307 + 13T är inte tolkad som utväxling.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.29 pos.60,82–83"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-seal",
+      "topic": "K",
+      "statement": "MST205-529A:s lista innehåller O-ring 788092 (pos.71), tätning 788069 på en andra rad vid pos.71, O-ring 788091 (pos.72) samt tätning 788089 (pos.87). Position och kod måste följas per katalog.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.29 pos.71–72,87"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-axle-common",
+      "topic": "D",
+      "statement": "STIGA:s 1997 MST205-529A-lista anger hjulaxel 774895 på 286 mm (pos.47) och 774896 på 403 mm (pos.48); samma koder förekommer i 1996 års 930-022-lista trots att växellådshusen skiljer.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.47–48; 13-1442-19 PDF s.13 pos.47–48"
     }
   ],
   "gaps": [
@@ -742,6 +832,7 @@
     "STIGA original-IPL för 100B 13-2919-20 och 102M 13-2913-20 finns, men deras passform och monteringskombination med Park 12 13-1442-20 är ännu inte bekräftad i originalmanual. Välj inte aggregatdelar enbart från basmaskinens PNC.",
     "102M-katalogens lagerboxar och höjdreglage är dokumenterade för aggregat 13-2913-20; faktisk individ och rätt reservdelsrevision måste kontrolleras. Briggs modell-/typ-/kodetikett krävs för motorspecifik service.",
     "Park 100B har två skilda kilremspositioner och treknivssats; identifiera motorn/aggregatets individuella PNC och passform till Park 12 före delbeställning. 1996 aggregat-IPLs är ännu inte källverifierade.",
-    "Tillverkarens 930/MST200-service gäller transaxelfamiljen; kontrollera verklig axel/dekal och maskinens serienummer före smörjning, växellådsöppning eller bromsjustering. Ingen delpassform härledd ur servicehandbok."
+    "Tillverkarens 930/MST200-service gäller transaxelfamiljen; kontrollera verklig axel/dekal och maskinens serienummer före smörjning, växellådsöppning eller bromsjustering. Ingen delpassform härledd ur servicehandbok.",
+    "Utred varför basmaskin 13-1442-20 anger 1134-3716-02 men separat MST205-529A-lista anger 1134-3716-01; godkänn ingen ersättning utan STIGA-bulletin."
   ]
 }
