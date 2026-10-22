@@ -2218,6 +2218,186 @@
       "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
       "grade": "B",
       "topic": "L"
+    },
+    {
+      "id": "p72-bom-replacement-unit-distributor",
+      "statement": "P72 listar varken orderbart partnummer för komplett enhet pos.1 eller för täckhus pos.2, utan instruerar att kontakta distributören för komplett ersättningsenhet.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, första två rader",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-plug-54730",
+      "statement": "Extern sexkantsplugg pos.11 är artikel 54730, kvantitet 1.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.11",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-bypass-plate-51448",
+      "statement": "Bypassplatta pos.22 är artikel 51448, kvantitet 1.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-filter-52114",
+      "statement": "Oljefilter pos.23 är artikel 52114, kvantitet 1.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.23",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-bypass-retainers",
+      "statement": "Bypassstång pos.32 artikel 52136, intern låsring pos.33 artikel 51627 och extern låsring pos.35 artikel 51630 hör till just denna P72-konfiguration.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.32–35",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-swash-seal-51140",
+      "statement": "Svängskivans tätningsring pos.41 är artikel 51140 med dimension 18×32×7 mm, kvantitet 1.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.41",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-motor-block-16cc",
+      "statement": "Motorcylinderblock pos.64 är sats 72882 med 16 cc motorförskjutning enligt denna specifika BOM.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.64",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-pump-piston-block-70723",
+      "statement": "Pumpens 7-kolvsblock pos.69 är artikel 70723, kvantitet 1, separat från 16 cc-motorblocket pos.64.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.69",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-motor-shaft-52150",
+      "statement": "Motoraxel pos.73 är artikel 52150, kvantitet 1.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.73",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-jackshaft-55710",
+      "statement": "Mellanaxel/jackshaft pos.83 är artikel 55710, kvantitet 1.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.83",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-bearing-kit-72749",
+      "statement": "Lagersats pos.93 är artikel 72749, kvantitet 1, separat från kullager pos.95 artikel 53656.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.93,95",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-wheel-spacer-53336",
+      "statement": "Distansring vid drivhjul pos.92 är artikel 53336 med tryckta måtten 0.75 × 1.32 × 0.257 tum.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.92",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-wheel-locknut-53768",
+      "statement": "Hjulnavets låsmutter pos.99 är artikel 53768, gänga 3/4-16.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.99",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-brake-ring-53019",
+      "statement": "Bromskomponentens externa låsring pos.103 är artikel 53019, kvantitet 1.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 3/3, pos.103",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-spacer-54315",
+      "statement": "Reglagekomponentens distansbricka pos.140 är artikel 54315, 0.320 tum ID × 1.005 tum OD × 0.1495 tum tjock.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 3/3, pos.140",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-spring-51833",
+      "statement": "Reglagets dragfjäder pos.147 är artikel 51833, längd 2.05 tum enligt P72-listans beskrivning.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 3/3, pos.147",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-axle-cap-53501",
+      "statement": "Axelkåpa pos.158 är artikel 53501, kvantitet 1; modellbunden och ej generell kapsats.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 3/3, pos.158",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-torsion-spring-53429",
+      "statement": "Torsionsfjäder pos.159 är artikel 53429 och den tryckta dimensionsbeskrivningen är 1.01×1.17 tum.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 3/3, pos.159",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-input-oil-quantity",
+      "statement": "P72 anger olja SAE 20W50 i mängden 70.3 US fluid ounces för ZJ-GMEB-5LDB-2DXX i pos.14; värdet gäller inte godtycklig familjemedlem.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 2/3, pos.14",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p72-bom-rtm-bidirectional",
+      "statement": "Pos.211 artikel 71588 anges uttryckligen som KIT, RTN, BIDIRECTIONAL, vilket identifierar en reglageåtergångssats och inte generell styrarm.",
+      "variant": "Endast Hydro-Gear ZJ-GMEB-5LDB-2DXX, 71370 P72",
+      "locator": "PDF sida 3/3, pos.211",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -2251,6 +2431,7 @@
     "P64 supports precise BOM-code lookup for additional control arms, RTN kits, axle/hub variants, shaft gears and tools; confirm replacement supersessions and exact serial number before a purchase recommendation.",
     "P39 och P72 är två olika fullständiga modeller. Skillnader mellan deras artikelnummer är INTE bevis på ersättningskedjor. Undersök BOM-identisk utgåvehistorik för supersessionsverifiering.",
     "HISTORIK 2026-10-22: P72 var tidigare oåtkomlig och 20 uppgifter spärrades; den har nu återfunnits och sidgranskats, och dessa 20 poster återklassats B. Framtida ersättningsnummer och tillämpning utanför exakt BOM är fortfarande oklara.",
-    "Återfunnen P72 bekräftar delar för exakt ZJ-GMEB-5LDB-2DXX men inte ersättningskedjor mellan P39/P72 eller kompatibilitet med annan modellkod. Beställning ska föregås av kontroll av faktisk etikett, serienummer och aktuell återförsäljares supersessionuppgifter."
+    "Återfunnen P72 bekräftar delar för exakt ZJ-GMEB-5LDB-2DXX men inte ersättningskedjor mellan P39/P72 eller kompatibilitet med annan modellkod. Beställning ska föregås av kontroll av faktisk etikett, serienummer och aktuell återförsäljares supersessionuppgifter.",
+    "P72:s första två BOM-rader saknar direkt artikelnummer för komplett ersättningsenhet och hänvisar till distributör. Kräv fysisk skylt med modell och serienummer samt distributionsverifierat aktuellt artikelnummer innan köp."
   ]
 }
