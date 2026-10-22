@@ -266,6 +266,42 @@
       "sourceId": "hg-official-service-library",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "ezt-2023-modelcode-drain",
+      "statement": "BLN-52622 mars 2023 anger att ZT-2200 med E eller F i tredje positionen av modellkoden (t.ex. ZC-Exxx-xxx-xxx) har en avtappningsplugg; andra utföranden hänvisas till proceduren utan avtappningsport.",
+      "variant": "ZT-2200 EZT, kodad modellvariant enligt BLN-52622 2023",
+      "locator": "Tryckt s. 11–12, FLUID CHANGE PROCEDURE – MODELS WITH/WITHOUT A FLUID DRAIN PORT; PDF-sidor 13–14 (index 12–13)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-2023-drain-temp",
+      "statement": "För avtappning kräver manualen att oljan är under 100°F (ca 38°C), och varnar att kvarhållen expanderad olja annars kan ge överfyllning vid återfyllning.",
+      "variant": "ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Tryckt s. 11–12, Note before draining oil; PDF-sidor 13–14",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-2023-oil-capacities-confirmed",
+      "statement": "2023 års Tabell 6 anger 20W50-motorolja, 1597 ml för ZT-2100 och 1650 ml för ZT-2200 (EZT), samma värden som 2018-utgåvan i registerposterna hg-ezt-2100-fluid-volume och hg-ezt-2200-fluid-volume.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622 mars 2023",
+      "locator": "Tryckt s. 11, Table 6 Fluid Volumes for the EZT; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-2023-purge-confirmed",
+      "statement": "2023-utgåvan föreskriver avluftning efter att hydraulsystemet öppnats eller vätska tillsatts, med drivhjul säkert upplyfta och riktningsreglage framåt/bakåt 5–6 gånger med bypass öppet och därefter stängt.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622 mars 2023",
+      "locator": "Tryckt s. 13, PURGING PROCEDURES; PDF-sida 15 (index 14)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -273,6 +309,6 @@
     "Extrahera exakt komponent- och reparationskitlista ur primärmanualens relevanta sprängskisser; återanvänd inte illustrativa positionsnummer som beställningsnummer.",
     "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion.",
     "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer.",
-    "Jämför 2018- och 2023-versionen av BLN-52622 för ändrade oljevärden, oljebytesprocedur och eventuella tekniska rättelser; tidigare claims kommer från 2018."
+    "Jämförelse av 2018/2023-utgåvor har bekräftat oljemängder och avluftning, men övriga serviceprocedurer och komponentlistor är ännu inte fullständigt jämförda."
   ]
 }
