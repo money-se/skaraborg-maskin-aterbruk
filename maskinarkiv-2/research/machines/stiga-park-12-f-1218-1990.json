@@ -18,6 +18,13 @@
       "title": "STIGA Park 2002 original parts catalogue – Peerless 846 / 801-046 variant-coded",
       "document": "13-1218-12 Season 1989 Issue 32–2014, transaxle pp.37–41",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_2002_13-1218-12_88_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-park2002-sf-1238-1989-ipl",
+      "tier": 1,
+      "title": "STIGA Park 2002 (SF) 13-1238-12 original illustrated parts list",
+      "document": "Season 1989 Issue 32–2014, transaxle p.21–27, variant 846/801-046",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_2002_-SF-_13-1238-12_88_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -312,6 +319,69 @@
       "grade": "A",
       "sourceId": "stiga-park2002-1218-1989-variant-ipl",
       "locator": "Park 2002 1989 original IPL PDF s.37 pos.61"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cross-sf-1989-complete-unit-mapping",
+      "topic": "D",
+      "statement": "STIGA Park 2002 (SF) 13-1238-12:s originaltransaxellista 1989 anger 1132-0001-02 '1236G-TRM107' uttryckligen för 801-046 och 1134-2469-01 'Park 2002' uttryckligen för 846. Detta är ett transmissionsbundet originalbelägg, inte bevis för vilken version som är monterad i Park 12 1990.",
+      "variant": "Original STIGA Park 2002 SF 13-1238-12 1989 transaxeldelar; överför endast variantmärkta uppgifter som jämförelse till Park 12 1990, ej installation/utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park2002-sf-1238-1989-ipl",
+      "locator": "Park 2002 SF 1989 PDF s.23 pos.0, variantnoteringarna 801-046 och 846"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cross-sf-1989-shaft-16-49-pairs",
+      "topic": "D",
+      "statement": "STIGA Park 2002 (SF) original-IPLs anger axlar P000-7761-81 (pos.16) och P000-7761-35 (pos.49) för 846, men P000-7762-04 (pos.16) och P000-7762-26 (pos.49) för 801-046. Likhet i katalogposition innebär alltså inte samma reservdel.",
+      "variant": "Original STIGA Park 2002 SF 13-1238-12 1989 transaxeldelar; överför endast variantmärkta uppgifter som jämförelse till Park 12 1990, ej installation/utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park2002-sf-1238-1989-ipl",
+      "locator": "Park 2002 SF 1989 PDF s.23 pos.16,49 och variantnoteringar"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cross-sf-1989-brake-56",
+      "topic": "G",
+      "statement": "STIGA Park 2002 (SF) skiljer bromsarmarna P000-7900-08 (846) och P000-7900-31 (801-046) på samma pos.56. Endast varianten, inte positionen, är giltig grund för delval.",
+      "variant": "Original STIGA Park 2002 SF 13-1238-12 1989 transaxeldelar; överför endast variantmärkta uppgifter som jämförelse till Park 12 1990, ej installation/utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park2002-sf-1238-1989-ipl",
+      "locator": "Park 2002 SF 1989 PDF s.25 pos.56"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cross-sf-1989-needle30",
+      "topic": "K",
+      "statement": "STIGA Park 2002 (SF) markerar två nållager P000-7800-86 vid pos.30 med 846. Äldre blandade Park 12-1990-kataloger har även P000-7801-22 på samma pos.30; detta korsbelägg gäller endast 846-alternativet.",
+      "variant": "Original STIGA Park 2002 SF 13-1238-12 1989 transaxeldelar; överför endast variantmärkta uppgifter som jämförelse till Park 12 1990, ej installation/utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park2002-sf-1238-1989-ipl",
+      "locator": "Park 2002 SF 1989 PDF s.25 pos.30"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cross-sf-1989-gear-19t-31t",
+      "topic": "D",
+      "statement": "Park 2002 (SF) 1989 originalkatalogen anger för 801-046 bland annat P000-7781-62 som 19-tandat drev på pos.6 och P000-7781-63 som 31-tandat drev på pos.5; dessa är modellmärkta reservdelar, inte totalutväxling.",
+      "variant": "Original STIGA Park 2002 SF 13-1238-12 1989 transaxeldelar; överför endast variantmärkta uppgifter som jämförelse till Park 12 1990, ej installation/utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park2002-sf-1238-1989-ipl",
+      "locator": "Park 2002 SF 1989 PDF s.23 pos.5–6, 801-046"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cross-sf-1989-plug-71",
+      "topic": "K",
+      "statement": "Originalkatalogen anger P000-7920-74, plugg, position 71 för 801-046. Den ska inte blandas ihop med tätningar eller O-ringar som i andra katalogutgåvor får liknande positionsnummer.",
+      "variant": "Original STIGA Park 2002 SF 13-1238-12 1989 transaxeldelar; överför endast variantmärkta uppgifter som jämförelse till Park 12 1990, ej installation/utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park2002-sf-1238-1989-ipl",
+      "locator": "Park 2002 SF 1989 PDF s.25 pos.71"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cross-sf-1989-snapring-77",
+      "topic": "K",
+      "statement": "STIGA Park 2002 (SF) listar två låsringar P000-7921-25 på pos.77 med noteringen 846, medan 801-046 har två brickor P000-7800-14 på pos.77; de är konstruktionsmässigt skilda komponenttyper.",
+      "variant": "Original STIGA Park 2002 SF 13-1238-12 1989 transaxeldelar; överför endast variantmärkta uppgifter som jämförelse till Park 12 1990, ej installation/utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park2002-sf-1238-1989-ipl",
+      "locator": "Park 2002 SF 1989 PDF s.25 pos.77"
     }
   ],
   "gaps": [
@@ -319,6 +389,7 @@
     "Briggs Model/Type/Code och monterad motor ska fastställas på individmotor före motorspecifik service.",
     "Originalbruksanvisning och klippaggregatets PNC samt dess monteringsmanual saknas.",
     "PDF-söktext läst, men webbläsarens PDF-skärmbildsfunktion returnerade fel vid visuell ritningskontroll.",
-    "Separat STIGA Park 2002-originalkatalog 1989 identifierar många 846- respektive 801-046-bundna komponenter, men säger inte vilken av dessa växellådor som monterades på varje Park 12 individ 1990. Kräver faktisk transaxelmärkning och relevant maskinkatalog."
+    "Separat STIGA Park 2002-originalkatalog 1989 identifierar många 846- respektive 801-046-bundna komponenter, men säger inte vilken av dessa växellådor som monterades på varje Park 12 individ 1990. Kräver faktisk transaxelmärkning och relevant maskinkatalog.",
+    "STIGA Park 2002 (SF) 1989 skiljer uttryckligen 1132-0001-02 (801-046) och 1134-2469-01 (846) men fastställer inte vilken transaxel som monterats på Park 12 1990-individer. Kräver faktisk märkning och produktbundet monteringsbelägg."
   ]
 }
