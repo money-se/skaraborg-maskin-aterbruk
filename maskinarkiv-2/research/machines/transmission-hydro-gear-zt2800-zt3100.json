@@ -761,6 +761,60 @@
       "sourceId": "hg-bln52441-2021",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "p25-zt2800-charged-vs-uncharged",
+      "statement": "Hydro-Gear BLN-52441 P25 anger uttryckligen att ZT-2800 finns både med och utan laddpump. ZT-3100 och ZT-3200 beskrivs med laddpump. Interna laddpumpsreparationer gäller därför inte automatiskt en ZT-2800 utan laddpump.",
+      "variant": "ZT-2800 charged/uncharged; ZT-3100 och ZT-3200 charged",
+      "locator": "Tryckt s.2, Description and Operation, högerkolumn; PDF-sida 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-uncharged-filtration",
+      "statement": "I ZT-2800 utan laddpump drivs oljan genom filtret av expansionskärlets vätskepelare i kombination med undertrycket vid huvudpumpens inlopp; det finns ingen separat gerotorladdpump i det schemat.",
+      "variant": "ZT-2800 utan laddpump",
+      "locator": "Tryckt s.2, högerkolumn samt s.3 Figure 3 Hydraulic Schematic Without Charge Pump; PDF-sidor 4–5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-charged-relief-path",
+      "statement": "I ZT-3100 och ZT-3200 drar gerotorladdpumpen olja genom filtret; överskottsflöde som inte tillförs lågtryckssidan går via laddtrycksbegränsningsventilen tillbaka till transmissionshuset.",
+      "variant": "ZT-3100/ZT-3200 laddpumpversion enligt manualen",
+      "locator": "Tryckt s.2, högerkolumn samt s.3 Figure 2 Hydraulic Schematic With Charge Pump; PDF-sidor 4–5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-bypass-max-speed",
+      "statement": "Tillverkaren begränsar kortvarig förflyttning med öppen bypass och avstängd motor till högst 2 mph (3,2 km/h); bromsen ska frigöras innan bypass aktiveras.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt P25",
+      "locator": "Tryckt s.2, stycket om cam style bypass; PDF-sida 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "p25-bypass-braking-loss",
+      "statement": "Hydro-Gear varnar att bypassaktivering tar bort hydrostatisk bromsverkan. Maskinen ska vara stillastående, på plan mark och i neutralläge när bypass aktiveras.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt P25",
+      "locator": "Tryckt s.2, WARNING under bypass-avsnittet; PDF-sida 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "p25-charged-two-schematics",
+      "statement": "P25 figur 2 är schemat med laddpump, filter, laddtrycksbegränsning och systembackventiler; figur 3 är schemat för ZT-2800 utan laddpump. De får inte blandas vid diagnostik.",
+      "variant": "ZT-2800 utan laddpump kontra laddpumpförsedd version",
+      "locator": "Tryckt s.3, Figures 2–3 Hydraulic Schematic; PDF-sida 5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -780,6 +834,7 @@
     "Verifiera faktisk modellkod, skruv-/kitnummer och OEM-säkerhetskrav före monteringsråd för bypass, svängskiva, bromskam eller mittsektion.",
     "Drivaxeldelar och tätningar: verifiera full Hydro-Gear BOM-/seriekod samt online-sprängskiss före beställning; ZT-3200 har annat axelutförande än ZT-2800/3100.",
     "Gör riktad jämförelse mellan P23/P24/P25 för sidokåpsmoment och tätning innan generella verkstadsinstruktioner publiceras; nu verifierade värden gäller uttryckligen P25.",
-    "Äldre manualversion med 65 in-lb för filterkåpans skruvar behöver identifieras med exakt publiceringsdatum/dokumentrevision; tillgänglig P23 (april 2021) anger 115 in-lb. Förväxla inte med P25:s separata position 23 oljefilter, 70–90 lb-in."
+    "Äldre manualversion med 65 in-lb för filterkåpans skruvar behöver identifieras med exakt publiceringsdatum/dokumentrevision; tillgänglig P23 (april 2021) anger 115 in-lb. Förväxla inte med P25:s separata position 23 oljefilter, 70–90 lb-in.",
+    "Fastställ om konkret ZT-2800 är charged eller uncharged via komplett Hydro-Gear BOM och OEM-dokument före diagnos, laddpumpsbeställning eller användning av hydrauliskt schema."
   ]
 }
