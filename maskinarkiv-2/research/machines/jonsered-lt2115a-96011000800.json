@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115a-96011000800",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Variantbunden forskningsstart LT2115A 96011000800, 2005-01. Endast katalogidentitet och källkartläggning; övrig teknisk forskning återstår.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115a-96011000800-catalog",
+      "tier": 2,
+      "title": "Jonsered LT2115A 2005-01 parts catalogue",
+      "document": "96011000800, alternate product 954130222, 2005-01",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/jonsered/ride-on-mowers/garden-tractors/lt/lt-2115-a/lt-2115-a-96011000800-954130222-2005-01"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115a-96011000800-catalog-identity",
+      "statement": "Reservdelskatalogen identifierar LT2115A, maskinnummer 96011000800, äldre produktnummer 954130222, revisionsdatum 2005-01. Den anger inte ensam motorns exakta spec, transmissionens interna revision eller komponenternas nuvarande passform.",
+      "variant": "LT2115A 96011000800 / 2005-01",
+      "locator": "Catalog heading/model identity and dated parts index",
+      "sourceId": "jonsered-lt2115a-96011000800-catalog",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Utökning kräver sidvis originalkatalogkontroll av DRIVE, ENGINE, ELECTRICAL, MOWER och STEERING.",
+    "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
+    "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL."
+  ]
+}
