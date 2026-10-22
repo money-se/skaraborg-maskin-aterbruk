@@ -25,6 +25,13 @@
       "title": "Husqvarna Genuine Parts - Rider Blades (OEM catalogue)",
       "document": "Husqvarna Genuine Parts, Rider Blades table, printed p.57",
       "url": "https://www-static-nw.husqvarna.com/-/files/aprimo/husqvarna/maintenance/documents/brochure-and-catalogue/wu-055415.pdf?v=7b542591"
+    },
+    {
+      "id": "husqvarna-rider16h-1999-02-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 H IPL 1999-02",
+      "document": "I9901010, 106 25 74-61, illustrated original parts list, 15 pages",
+      "url": "https://mymowerparts.com/pdf/Husqvarna-Parts-Manuals/I9901010.pdf"
     }
   ],
   "topics": {
@@ -297,6 +304,51 @@
       "sourceId": "husqvarna-genuine-parts-catalog-rider-blades",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "r16h-1999-identity",
+      "statement": "Originalreservdelskatalog I9901010 avser Husqvarna Rider 16 H och är daterad 1999-02; denna utgåva har 15 sidor och ska hållas separat från 2000-02-katalogen.",
+      "variant": "Rider 16 H, IPL 1999-02, maskin-PNC ej fastställt",
+      "locator": "PDF-sida 1 (P0), omslag 'IPL, Rider 16 H, 1999-02, 106 25 74-61'",
+      "sourceId": "husqvarna-rider16h-1999-02-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "r16h-1999-transmission",
+      "statement": "Originalkatalogen Rider 16 H 1999-02 anger K55 med artikel 506 95 36-01 i transmissionsritningen. Det är inte belägg för att vanlig Rider 16 har K55.",
+      "variant": "Rider 16 H, IPL 1999-02, maskin-PNC ej fastställt",
+      "locator": "PDF-sida 5 (P4), transmission, 506 95 36-01 (K55)",
+      "sourceId": "husqvarna-rider16h-1999-02-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "r16h-1999-bioclip90",
+      "statement": "Originalkatalogen Rider 16 H 1999-02 listar BioClip 90-kniv 531 00 75-25, tandrem 506 97 73-01 och aggregatskal 506 97 72-01.",
+      "variant": "Rider 16 H, IPL 1999-02, maskin-PNC ej fastställt",
+      "locator": "PDF-sida 15 (P14), Y BioClip 90, artikelmarkeringarna 531007525, 506977301, 506977201",
+      "sourceId": "husqvarna-rider16h-1999-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-1999-bioclip103",
+      "statement": "Originalkatalogen Rider 16 H 1999-02 listar BioClip 103 knivsats 531 00 75-24, två förekomster av rem 531 00 50-80 och knivhusenheter yttre 506 75 11-07, mitten 506 75 11-06. Ingen komplett aggregat-PNC anges.",
+      "variant": "Rider 16 H, IPL 1999-02, maskin-PNC ej fastställt",
+      "locator": "PDF-sida 14 (P13), S BioClip 103, samt förklaringar (a) Outer och (b) Center",
+      "sourceId": "husqvarna-rider16h-1999-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-1999-engine",
+      "statement": "Rider 16 H IPL 1999-02 anger motorenhet 506 95 91-01 och texten '15,5 hp B & S Diamond plus'; det är en katalogbeteckning, inte en bekräftad fullständig Briggs Model/Type/Code.",
+      "variant": "Rider 16 H, IPL 1999-02, maskin-PNC ej fastställt",
+      "locator": "PDF-sida 3 (P2), D engine, 506 95 91-01 / 15,5 hp B & S Diamond plus",
+      "sourceId": "husqvarna-rider16h-1999-02-ipl",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -311,6 +363,8 @@
     "Original-IPLn 2000-02 anger olika 103 cm-reservdelsnummer men ingen separat komplett aggregat-PNC; undvik att kalla kataloggruppen identifierad BioClip 103 version 1 eller 2 utan ytterligare belägg.",
     "PDF-figurer kunde inte kontrolleras visuellt (cachefel). Kontrollera faktisk positionsplacering och antal innan beställning eller praktiska reparationsanvisningar.",
     "Verifiera om 531 00 75-25 är ersatt av 531 00 75-86 för 90 cm-aggregat via Husqvarnas egen ersättningskedja; inga ersättningspåståenden i nuläget.",
-    "Genuine Parts-katalogen listar 531007525 för Rider 16 H och 531007586 för Rider 16, men ger inte exakta PNC eller ersättningsrelationer. Verifiera konstruktion och aggregat-ID innan knivval."
+    "Genuine Parts-katalogen listar 531007525 för Rider 16 H och 531007586 för Rider 16, men ger inte exakta PNC eller ersättningsrelationer. Verifiera konstruktion och aggregat-ID innan knivval.",
+    "Jämför ritningspositioner och ändringsmarkeringar i Rider 16 H original-IPLs 1999-02 och 2000-02; 1999-års PDF-text verifierad, skärmbildsanrop misslyckades.",
+    "Fastställ om historiska katalognummer från 1999 och 2000 är obrutna revisionskedjor eller sammanfaller av andra skäl; inga utbytbarhetspåståenden görs."
   ]
 }
