@@ -278,6 +278,28 @@
       "topic": "J",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-deck-belt-68",
+      "statement": "MOWER DECK key 68 listar aggregatrem 532 18 02-13. Den ska skiljas från markdrivningsremmen och kan inte generaliseras till senare LT2115-varianter.",
+      "variant": "jonsered-lt2115-j2115b-954130210",
+      "locator": "Original IPL PDF s.16 (index 15), MOWER DECK key 68",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-j2115b-954130210-replacement-complete-mower",
+      "statement": "MOWER DECK:s omarkerade reservdelsrad anger komplett ersättningsaggregat 532 18 13-76. Det är en katalogpost och inte en aktuell lager- eller universalkompatibilitetsuppgift.",
+      "variant": "jonsered-lt2115-j2115b-954130210",
+      "locator": "Original IPL PDF s.16 (index 15), MOWER DECK unnumbered replacement mower line",
+      "sourceId": "jonsered-lt2115-j2115b-954130210-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
