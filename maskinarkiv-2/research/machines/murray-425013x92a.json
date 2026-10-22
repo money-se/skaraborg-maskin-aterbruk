@@ -52,7 +52,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "F-030768L s.8 anger lyftspak, lyftstag, vänster/höger aggregatupphängning, pivotfästen och PTO-reglage med positionsbundna katalognummer. Textkontroll gjord; PDF-bildkontroll ej möjlig."
+      "note": "F-030768L s.10 beskriver klippaggregatets rem 037x88, kniv 095100E701, spindelhus 1001200, komplett aggregat 7601032 samt bromsbelägg, remstyrning, hjul och upphängningsfästen. Reservdelars överförbarhet till andra Murray-varianter ej verifierad."
     },
     "I": {
       "name": "Tillbehör",
@@ -729,6 +729,171 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-belt",
+      "statement": "Katalogen anger Klipprem 037x88.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-blade",
+      "statement": "Katalogen anger Klippkniv 095100E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 37",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-mandrel",
+      "statement": "Katalogen anger Spindelhus 1001200.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-blade-adapter",
+      "statement": "Katalogen anger Knivadapter 690411.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 36",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deck-complete",
+      "statement": "Katalogen anger Komplett klippaggregat 7601032.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 1-61",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-idler-pulley",
+      "statement": "Katalogen anger Löprulle 690387.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 4",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-left-brake",
+      "statement": "Katalogen anger Vänster bromsbeläggsenhet 094049E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-right-brake",
+      "statement": "Katalogen anger Höger bromsbeläggsenhet 094047E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-belt-guide",
+      "statement": "Katalogen anger Remstyrning 094781.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 48",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-deflector",
+      "statement": "Katalogen anger Utkastskydd 094707SE.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 44",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-gauge-wheel",
+      "statement": "Katalogen anger Stödhjul 092683.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 53",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-front-hanger",
+      "statement": "Katalogen anger Främre upphängningsfäste 094190E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 46",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-left-wheel-bracket",
+      "statement": "Katalogen anger Vänster stödhjulsfäste 092423E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 55",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-right-wheel-bracket",
+      "statement": "Katalogen anger Höger stödhjulsfäste 1001260E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 54",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-deck-blade-housing",
+      "statement": "Katalogen anger Knivhus 094814E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 59",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -740,6 +905,7 @@
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
     "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll.",
     "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning.",
-    "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform."
+    "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform.",
+    "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll."
   ]
 }
