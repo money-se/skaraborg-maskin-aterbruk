@@ -81,6 +81,13 @@
       "title": "Murray 425014X92B motion drive belt installation",
       "document": "F-050706L MAINTENANCE printed p.31",
       "url": "https://www.manualsdir.com/manuals/122988/murray-425014x92b.html?page=31"
+    },
+    {
+      "id": "murray-014b-engine-p49-detailed",
+      "tier": 2,
+      "title": "Murray 425014X92B original repair parts ENGINE MOUNT",
+      "document": "F-050706L printed p.49, model 425014X92B",
+      "url": "https://somanuals.com/html/12/Murray-Lawn-Mower-425014x92B-User-Manual.html"
     }
   ],
   "topics": {
@@ -97,7 +104,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Engine Mount anger Briggs & Stratton samt komponenter för montage och avgassystem. Motorns exakta Model/Type/Code saknas."
+      "note": "F-050706L Engine Mount s.49 kompletterad med positionsbundna bränsle-, avgas-, rem- och motorfästdelar. Motorn kallas Briggs & Stratton men ingen verifierad Model/Type/Code anges; katalogen hänvisar till tillverkaren för motorns reservdelar."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -2007,6 +2014,248 @@
       "sourceId": "murray-014b-belt-install-p31",
       "grade": "B",
       "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-fuel-cap",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 092317.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 1",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-tank",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 690280.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 2",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-hose-clamp-in",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 095197.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 3",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-fuel-line",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 7601033.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 4",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-hose-clamp-out",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 095197.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 5",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-tank-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x201.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 6",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-throttle",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 092371.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 8",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-adapter-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 06x103.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 9d",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-muffler-bolt",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 009x59.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 9e",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-muffler-lock",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 092378.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 9f",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-engine-mount-bolt",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 0025x7.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 10",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-stack-pulley",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 690439 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 11",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-lockwasher",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 019x35.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 12",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-hex-bolt",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 01x140.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 13",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-washer",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 17x170.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 14",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-engine-mount-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x249.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 15",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-belt-guide-primary",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 094384.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 21",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-belt-guide-nut",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 015x79 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 22",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-belt-guide-secondary",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 094066.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 23",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-guard-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x253.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 26",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-heat-shield-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x263.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 30",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-shield-end-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 06x104.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 32",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
