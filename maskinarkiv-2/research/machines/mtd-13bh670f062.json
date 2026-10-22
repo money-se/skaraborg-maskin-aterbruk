@@ -147,11 +147,11 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden."
     },
     "E": {
       "state": "gap",
-      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår."
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering."
     },
     "F": {
       "state": "gap",
@@ -744,6 +744,24 @@
       "sourceId": "mtd-2000-transmission-ipl-retailer",
       "locator": "Transmission parts list, 911-1003",
       "topic": "D"
+    },
+    {
+      "id": "mtd-2000-alternative-v-pulley-6560005",
+      "topic": "D",
+      "statement": "I eReplacementParts katalog för 13BH670F062/2000 anges V-remskiva 656-0005 med kvalifikationen 'Used w/18-inch Wheels or 46-inch Deck'. Denna villkorade katalogpost styrker inte att maskinen levererades med 46-tumsaggregat eller 18-tumshjul.",
+      "variant": "13BH670F062, eReplacementParts 2000 års gemensamma reservdelsförteckning; faktisk konfiguration obekräftad",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "Drive, Rear Wheels – V-Pulley (Used w/18-inch Wheels or 46-inch Deck), 656-0005"
+    },
+    {
+      "id": "mtd-2000-front-axle-alternatives",
+      "topic": "E",
+      "statement": "PartsTrees reservdelsindex för 13BH670F062 katalogår 2000 listar både 683-0128A (frontpivot stål) och 719-0342A (frontpivot gjutjärn), vilket är alternativ i katalogen och inte ett säkert komponentval för en fysisk maskin.",
+      "variant": "13BH670F062, PartsTree Lowes 2000, gemensamt axel-/styrningsdiagram",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "Axle, Front, Steering Assembly – Pivot Bar Ass'y (Steel) 683-0128A; (Cast Iron) 719-0342A"
     }
   ],
   "gaps": [
@@ -767,6 +785,7 @@
     "Avläs modell- och serienummerskylt för ett konkret 13BH670F062-exemplar. MTD:s datumkod använder en årskod som kan återkomma över flera årtionden, så tillverkningsår ska inte härledas ur endast ett tecken.",
     "Avgränsa Sears samlingsindex mot originalmodellens tillverkningsår innan 42-tums kniv 742-0616 eller 46-tums Deck H behandlas som möjliga inköp; index kan innehålla gemensamma familjediagram.",
     "Identifiera den faktiska transaxelns tillverkare och typskylt; delar 656-0004/17629A-0637 i åkgräsklipparens chassi räcker inte för intern växellådsidentifiering.",
-    "Identifiera transmissionshuset och tillverkarens interna dokument innan 2000-katalogens drev 917-1362/1363 och tätning 921-0338 används som reparationsunderlag."
+    "Identifiera transmissionshuset och tillverkarens interna dokument innan 2000-katalogens drev 917-1362/1363 och tätning 921-0338 används som reparationsunderlag.",
+    "Kontrollera faktisk remskivekonfiguration innan villkorade 656-0005 eller alternativa pivotaxlar 683-0128A/719-0342A anges som kompatibla med ett konkret serienummer."
   ]
 }
