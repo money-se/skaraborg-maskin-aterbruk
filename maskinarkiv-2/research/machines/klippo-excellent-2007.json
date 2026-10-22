@@ -263,6 +263,13 @@
       "title": "Husqvarna KLIPPO driven mower manual 115332210 edition 2009-11",
       "document": "2009 driven mowers technical data page 18, EC declaration page 19; variants Excellent S, Excellent S GCV, Comet and Pro S",
       "url": "https://www.yumpu.com/no/document/view/23881380/om-klippo-drivna-2009-11-115332210/19"
+    },
+    {
+      "id": "gplshop-578266603-gearbox-kit-fitments",
+      "tier": 2,
+      "title": "GPLshop 5782666-03 Gearbox Kit manufacturer part + model fitment",
+      "document": "Seller OEM-labelled kit 5782666-03, fitment Pro 19 S, Pro 19 SH, Pro 21 S, verified separate from 5851926-03",
+      "url": "https://www.gplshop.co.uk/en/5782666-03"
     }
   ],
   "topics": {
@@ -1930,6 +1937,42 @@
       "sourceId": "oem-klippo-driven-2009-115332210",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "exs-gpl-gear-578266603-pro19s",
+      "statement": "GPLshop anger Husqvarna växellådssats 5782666-03 som lämplig för Klippo Pro 19 S. Det ger oberoende återförsäljarstöd för driven Pro 19 S-familj men inte odriven Pro 19 GCV.",
+      "variant": "Klippo driven mower gearbox families – seller-listed model fitment",
+      "locator": "Compatible with: Klippo Pro 19 S",
+      "sourceId": "gplshop-578266603-gearbox-kit-fitments",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs-gpl-gear-578266603-pro19sh",
+      "statement": "GPLshop listar växellådssats 5782666-03 som kompatibel med Klippo Pro 19 SH. Inget exakt PNC eller serienummer ges i produktkortet.",
+      "variant": "Klippo driven mower gearbox families – seller-listed model fitment",
+      "locator": "Compatible with: Klippo Pro 19 SH",
+      "sourceId": "gplshop-578266603-gearbox-kit-fitments",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs-gpl-gear-578266603-pro21s",
+      "statement": "GPLshop listar växellådssats 5782666-03 som kompatibel med Klippo Pro 21 S. Detta är inte tillräckligt för andra Pro 21-motorvarianter utan dokumentkontroll.",
+      "variant": "Klippo driven mower gearbox families – seller-listed model fitment",
+      "locator": "Compatible with: Klippo Pro 21 S",
+      "sourceId": "gplshop-578266603-gearbox-kit-fitments",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs-gpl-gear-578266603-manufacturer-id",
+      "statement": "GPLshop redovisar 578 26 66-03/578266603 som tillverkarartikelnummer för växellådssatsen. Denna identifiering styrker numret men inte en direkt ersättningsrelation till transmissionskit 585192603.",
+      "variant": "Klippo driven mower gearbox families – seller-listed model fitment",
+      "locator": "Specifications: Manufacturer's part number 578 26 66-03",
+      "sourceId": "gplshop-578266603-gearbox-kit-fitments",
+      "grade": "B",
+      "topic": "D"
     }
   ],
   "gaps": [
@@ -1960,6 +2003,7 @@
     "VIKTIG KÄLLKONFLIKT: 2012 års original-IPL har växellådsdelarna 578771101, 503323201, 503328101 men Wolfswinkels aktuella 2012-06-lista anger 587235401, 503323002, 586467101; fastställ när och varför säljarlistan uppdaterats innan 2013 anges som faktisk konstruktionsändringsgräns.",
     "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
     "Ny bekräftad säljaruppgiven supersession är 578266601→578266603 (samt 503329801→578266603), men 585192603 är separat numrerad transmissionssats. Fysisk/serienummerbunden kompatibilitet mellan 578266603 och 585192603 måste klarläggas via OEM.",
-    "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod."
+    "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod.",
+    "Två säljare listar 5782666-03 för Pro19 S-family, men en annan leverantör listar även 5851926-03 för Pro19 SH; överlapp i modellnamn bevisar inte identisk växellåda. Kontrollera PNC-serie och infästningsrevision."
   ]
 }
