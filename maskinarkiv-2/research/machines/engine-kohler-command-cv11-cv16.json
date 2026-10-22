@@ -25,6 +25,13 @@
       "title": "Kohler Engines – Parts and Accessories",
       "document": "25 800 148 Rev. E; printed page 5 (PDF page index 4), Oil Pressure Switch (Oil Sentry)",
       "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/25_800_148_Accessories%20Guide.pdf"
+    },
+    {
+      "id": "kohler-fast-moving-parts-guide",
+      "tier": 1,
+      "title": "Kohler Engines Fast Moving Parts Quick Reference Guide",
+      "document": "IGNITION – Electronic Ignition Modules, printed page 34, PDF page index 33; warning on printed page 2",
+      "url": "https://www.steam-brite.com/equipment/Kohler%20engine%20Quick-Reference-Parts-Guide.pdf"
     }
   ],
   "topics": {
@@ -702,6 +709,42 @@
       "topic": "I",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-ignition-module-electric-1258404s",
+      "statement": "Kohler originalsnabbguide listar tändmodul 12 584 04-S för Command CH11–15/CH410–450 och CV11–15/CV430–493 med elstart; artikelnumret är katalogreferens och exakt specifikationsnummer måste kontrolleras.",
+      "variant": "CH11–15/CH410–450; CV11–15/CV430–493, elstart",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-ignition-module-recoil-1258405s",
+      "statement": "Kohler originalsnabbguide listar tändmodul 12 584 05-S för Command CH11–15/CH410–450 och CV11–15/CV430–493 med snörstart, separat från elstartmodulen 12 584 04-S.",
+      "variant": "CH11–15/CH410–450; CV11–15/CV430–493, snörstart",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-smart-spark-sam-1258412s",
+      "statement": "Kohler originalsnabbguide listar tändförställningsmodul Speed Advance Module 12 584 12-S för Command CH16 och CV16. Detta är en separat enhet från motorernas tändmodul.",
+      "variant": "CH16/CV16 Smart Spark according to Kohler quick reference",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-smart-spark-ignition-1258417s",
+      "statement": "Kohler originalsnabbguide listar tändmodul 12 584 17-S för Command CH16 och CV16, separat från SAM 12 584 12-S. Exakt Spec. No. måste verifieras före reservdelsbeställning.",
+      "variant": "CH16/CV16 Smart Spark according to Kohler quick reference",
+      "locator": "IGNITION – Electronic Ignition Modules, printed p.34, PDF page index 33",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -728,6 +771,7 @@
     "Kohler mekanisk bränslepump: komponentnummer, exakt Spec. No.-passning och eventuella ändrade monteringsprocedurer i senare revisionsmanualer är inte verifierade.",
     "Bränsle- och cylinderläckagetest måste utföras enligt fullständig säkerhets- och instrumentanvisning; Kohlers grönt/gult/rött avser specifik läckagetestare och inga generella läckageprocent har verifierats.",
     "CV16 Smart Spark-mätvärden och KO1046 får inte överföras till Kohlers magnetotändning utan SAM; kontrollera rätt tändsystem och motorns specifikationsnummer.",
-    "Tändsystemens olika KO1046/KO1047-prov och resistansintervall måste knytas till motorens faktiska Spec. No. innan felsökningsinstruktion publiceras; verifiera också artikelnummer för respektive tändmodul."
+    "Tändsystemens olika KO1046/KO1047-prov och resistansintervall måste knytas till motorens faktiska Spec. No. innan felsökningsinstruktion publiceras; verifiera också artikelnummer för respektive tändmodul.",
+    "Kohler tändmoduler 12 584 04-S, 12 584 05-S, 12 584 12-S och 12 584 17-S är identifierade i tillverkarens snabbguide; exakt reservdel kräver fortfarande motorns Spec. No. och aktuell Kohler Parts Lookup."
   ]
 }
