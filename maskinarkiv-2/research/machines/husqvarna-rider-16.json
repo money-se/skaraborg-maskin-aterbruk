@@ -1050,6 +1050,51 @@
       "sourceId": "husqvarna-rider16-workshop-2003-02",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "rider16-2002-oil-change-interval",
+      "statement": "Rider 16-manualen 2002-04 anger första motoroljebytet efter 5 timmar och därefter var 25:e timme. Gäller manualens maskinversion, inte andra motorutföranden.",
+      "variant": "Rider 16 2002-04 manualutgåva, PNC ej fastställt",
+      "locator": "Rider 16 OM 2002-04, tryckt s.38, PDF-sida 40, 'Changing the oil'",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2002-oil-measurement",
+      "statement": "Rider 16-manualen 2002-04 instruerar att nivåstickan skruvas ned helt vid avläsning och att oljan fylls till FULL-markeringen. Kapacitetsvärdet 1,2 l är inte en ersättning för nivåkontrollen.",
+      "variant": "Rider 16 2002-04 manualutgåva, PNC ej fastställt",
+      "locator": "Rider 16 OM 2002-04, tryckt s.38, PDF-sida 40, 'Check the engine's oil level'",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-workshop-oil-after-2003",
+      "statement": "Verkstadshandboken särskiljer oljekvalitet: till och med 2002 SAE 30 eller 10W/30, från 2003 i första hand syntetisk SJ-CF 5W/30 eller 10W/30, alternativt mineral SAE 30 SF-CC. Volymuppgiften 1,4 l står i ett avsnitt som särskilt markerar Rider 16 2003 model.",
+      "variant": "Rider 16 enligt 2003-02 verkstadshandbok, PNC ej fastställt",
+      "locator": "Workshop Manual 2003-02, tryckt s.12, PDF-sida 14, 'Rider 16, 2003 model'",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-workshop-deck-tension",
+      "statement": "Verkstadshandboken 2003-02 skiljer remspänning mellan Bio 103 version 1/Combi 103 (automatisk justering), Bio 103 version 2 (7 mm nedtryckning vid 10 N) och Bio 90 (8 mm nedtryckning vid 7 N). Versioner får inte sammanblandas.",
+      "variant": "Rider 16 enligt 2003-02 verkstadshandbok, PNC ej fastställt",
+      "locator": "Workshop Manual 2003-02, tryckt s.6, PDF-sida 8, 'Control points'",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-workshop-security-interlocks",
+      "statement": "Verkstadshandbokens kontrollkörning kräver att startmotorn inte går när någon hydrostatpedal påverkas samt att motorn stannar om föraren lämnar sätet med hydrostatpedal nedtryckt; kontrollen gäller Rider 13 och Rider 16 enligt beskrivningen.",
+      "variant": "Rider 16 enligt 2003-02 verkstadshandbok, PNC ej fastställt",
+      "locator": "Workshop Manual 2003-02, tryckt s.14, PDF-sida 16, 'Test running'",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -1090,6 +1135,8 @@
     "Bekräfta om tidig motorartikel 506959101, senare 535441001 och 544452801 representerar motorbyten eller omnumrering; ingen ersättningskedja är verifierad.",
     "Fastställ separata aggregat-PNC, antal 90-cm-knivar och eventuella ersättningsnummer via Husqvarnas originalkataloger.",
     "Källkonflikt: Rider 16 bruksanvisning 2002-04 1,2 l motorolja medan verkstadshandbok 2003-02 anger 1,4 l; mätmetod, motorutförande och servicebulletiner kräver kontroll.",
-    "Identifiera Rider 16:s exakta produktnummer i verkstadshandbokens generationsöversikt innan generella service- eller reservdelsråd ges."
+    "Identifiera Rider 16:s exakta produktnummer i verkstadshandbokens generationsöversikt innan generella service- eller reservdelsråd ges.",
+    "Oljevolym 1,2 l (2002 OM) kontra 1,4 l (2003 verkstadshandbok) kvarstår som källskillnad; kontrollera specifikt motortyp 28N707 respektive 282H070110E1 och fabrikantspecifika motorinstruktioner innan den får anses löst.",
+    "Bio 103 aggregat version 1 kontra version 2 skiljer i remspänningsmetod; identifiera revisionsbundna aggregat-PNC och remtyper före praktisk serviceinstruktion."
   ]
 }
