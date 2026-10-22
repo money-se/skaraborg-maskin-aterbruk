@@ -2851,6 +2851,42 @@
       "topic": "K",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-safety-cover-operation",
+      "statement": "Kohler anger att motor och kylning endast ska användas med avsedda kåpor och skydd monterade.",
+      "variant": "CV11–16/CV460–465/CV490–495",
+      "locator": "Section 1, p.1.1, PDF index 2",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-safety-hot-components",
+      "statement": "Kohler anger att varma motordelar ska svalna innan kontroll och att värmeskydd ska vara monterade vid drift.",
+      "variant": "CV11–16/CV460–465/CV490–495",
+      "locator": "Section 1, p.1.1, PDF index 2",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-safety-fuel-refill",
+      "statement": "Kohler anger att bränslepåfyllning görs med motorn avstängd och avsvalnad, och att spill måste åtgärdas före start.",
+      "variant": "CV-familjens bensinversioner",
+      "locator": "Section 1, p.1.2, PDF index 3",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-safety-battery-ventilation",
+      "statement": "Kohler kräver välventilerad plats vid batteriladdning och att brytarna är avstängda innan minuskabeln lossas.",
+      "variant": "CV med batteri",
+      "locator": "Section 1, p.1.2, PDF index 3",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
