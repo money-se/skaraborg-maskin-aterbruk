@@ -151,6 +151,27 @@
       "title": "Newgarden – 5028817-10 kniv modell- och versionslista",
       "document": "Klippo Cross-Cut 31cm med 5028813-10; detaljlista Excellent 965227602 2013-02 och andra versionsbundna maskiner",
       "url": "https://www.newgarden.se/klippo-comet-sh-knivblad-blackcross-cut-31cm-19357"
+    },
+    {
+      "id": "oem-klippo-2018-manual-848-001",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO original owner manual 848-001 2018-10",
+      "document": "KLIPPO Triumph, Champion, Pro17H, Excellent, Excellent H; SV technical data printed pp.15-16; serial scope from 2018xxxxxxx",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000074208/doc000127133/OM/UjVWDz43_w9gbg36gkgFvsb8PSY"
+    },
+    {
+      "id": "oem-klippo-2018-manual-829-002",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO original owner manual 829-002 2018-10",
+      "document": "KLIPPO Champion S, Excellent S, Excellent SH, Excellent SE; SV technical data printed p.20",
+      "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000074207/doc000127132/OM/gtww2dNLvKOAgbtQe970sljntbk"
+    },
+    {
+      "id": "aftermarket-garmas-crosscut-supersession",
+      "tier": 2,
+      "title": "Garmas: 310mm replacement Cross-Cut blade original-number equivalence",
+      "document": "Krydskniv 310 mm, aftermarket NGP881710 replacing 5028817-10 and 5028817-01; center hole 14.5 mm",
+      "url": "https://garmas.dk/butik/reservedele/plaeneklipperknive/krydskniv-klippo-310-mm-erstatter-5028817-10/"
     }
   ],
   "topics": {
@@ -1026,6 +1047,60 @@
       "sourceId": "retailer-crosscut-502881710-models",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "excellent-2018-oem-crosscut",
+      "statement": "Husqvarnas 2018 originalmanual 848-001 anger 5028817-10 som Cross-Cut-kniv för Excellent och Excellent H. Detta gäller dokumentets 2018-generation, inte som direkt bevis för 2012 års kniv 502881701.",
+      "variant": "Excellent och Excellent H, 2018 manual",
+      "locator": "Tryckt sida 15–16, Teknisk data > Skärutrustning > Cross cut; PDF index 14–15",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2018-oem-mulcher",
+      "statement": "Samma 2018-manual anger 5028813-10 som mulcherkniv 48 cm i Excellent/Excellent H-generationens skärutrustning.",
+      "variant": "Excellent och Excellent H, 2018 manual",
+      "locator": "Tryckt sida 15–16, Artikelnummer – kniv > Mulcher – 48 cm; PDF index 14–15",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-driven-2018-oem-crosscut",
+      "statement": "Husqvarnas 2018 originalmanual 829-002 listar Cross-Cut 5028817-10 för Excellent S, Excellent SH och Excellent SE.",
+      "variant": "Excellent S, Excellent SH och Excellent SE, 2018",
+      "locator": "Tryckt sida 20, Teknisk data > Skärutrustning > Cross cut; PDF index 19",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-driven-2018-oem-mulcher",
+      "statement": "Husqvarnas 2018 manual 829-002 anger mulcherkniv 48 cm med nummer 5028813-10 för Excellent S/SH/SE-klippsystemet.",
+      "variant": "Excellent S/SH/SE, 2018",
+      "locator": "Tryckt sida 20, Skärutrustning > Mulcher – 48 cm; PDF index 19",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-2018-sh-honda-displacement",
+      "statement": "2018-manualen skiljer Excellent SH:s Honda-motor (145 cm³) från Excellent S/SE:s Briggs & Stratton (163 cm³); gäller just de redovisade modellvarianterna.",
+      "variant": "Excellent S, SH, SE, 2018",
+      "locator": "Tryckt sida 19, Teknisk data > Motor > Slagvolym; PDF index 18",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-crosscut-aftermarket-legacy",
+      "statement": "Garmas säljer en eftermarknadskniv NGP881710, längd 310 mm och centrumhål 14,5 mm, och anger att den ersätter både OEM 5028817-01/502881701 och 5028817-10/502881710. Detta styrker en säljaruppgiven ersättningsrelation, inte en tillverkarverifierad originalrevision eller maskinpassform.",
+      "variant": "Aftermarket 310mm Cross-Cut NGP881710, säljaruppgiven ekvivalens",
+      "locator": "Produktbeskrivning, Erstatningsnumre samt Tekniske specifikationer",
+      "sourceId": "aftermarket-garmas-crosscut-supersession",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -1047,6 +1122,7 @@
     "Excellent 965227602 2012-06 och 2013-02 visar identiskt revisonsmönster som Champion 965223902, men orsak/serienummergräns och varför två knivposter förekommer måste utredas i original-IPL.",
     "Knivposition 11 i Excellent 965227602 skiljer sig: 502881701 i 2012-06 mot 502881710 i 2013-02. Verifiera original-IPL, mått och serienummer innan någon ersättningsrekommendation.",
     "Kontrollera OEM-IPL för Excellent handtag 5029075-02, bromsvajer 5854020-03 och framaxelhållare 5044638-01 samt serienummer, monteringshål och kabelmått.",
-    "Cross-Cut-blad 502881710 dokumenteras som 31 cm och samverkande med 502881310 i leverantörslistor. Den tidigare listade 502881701 (2012) är inte belagd som samma 31cm-del och ska inte slås ihop utan original-IPL/ersättningstabell."
+    "Cross-Cut-blad 502881710 dokumenteras som 31 cm och samverkande med 502881310 i leverantörslistor. Den tidigare listade 502881701 (2012) är inte belagd som samma 31cm-del och ska inte slås ihop utan original-IPL/ersättningstabell.",
+    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam."
   ]
 }
