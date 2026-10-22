@@ -645,11 +645,11 @@
       "id": "jonsered-lt2115cma-j2115cmac-hydro321-ipl-127",
       "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 127: Seal - O-ring Kit, artikel 532 17 04-47. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
       "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA J2115CMAC 2004-06)",
-      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 127",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 127; visuell original-PDF sidbild bekräftad 2026-10-22",
       "sourceId": "hydro-gear-3210510-20010125-ipl",
       "grade": "B",
       "topic": "D",
-      "verification": "needs_verification",
+      "verification": "verified",
       "checkedAt": "2026-10-22"
     },
     {
@@ -667,22 +667,22 @@
       "id": "jonsered-lt2115cma-j2115cmac-hydro321-filter-assembly-supersession",
       "statement": "Hydro-Gear 321-0510 IPL anger uttryckligen att key 45 (Filter 532 17 03-97) och key 46 (Base, Filter 532 17 03-98) ersätts av key 125 (Filter Assembly 532 17 04-45). Detta är en dokumenterad katalogersättning på transaxelmodellnivå, inte bekräftad passform utan transaxelidentifikation på individnivå.",
       "variant": "Hydro-Gear 321-0510, kopplad till LT2115CMA J2115CMAC 2004-06",
-      "locator": "Hydro-Gear 321-0510 illustrated parts breakdown, 2001-01-25, parts key 45–46 och katalogens anmärkning om ersättning med key 125, PDF page 3",
+      "locator": "Hydro-Gear 321-0510 illustrated parts breakdown, 2001-01-25, parts key 45–46 och katalogens anmärkning om ersättning med key 125, PDF page 3; visuell original-PDF sidbild bekräftad 2026-10-22",
       "sourceId": "hydro-gear-3210510-20010125-ipl",
       "grade": "B",
       "topic": "D",
-      "verification": "needs_verification",
+      "verification": "verified",
       "checkedAt": "2026-10-22"
     },
     {
       "id": "jonsered-lt2115cma-j2115cmac-hydro321-complete-unit-correction-900",
       "statement": "Hydro-Gear 321-0510-katalogens position 900 anger 'Transaxle, complete' med artikel 532 17 16-13 men avslutas av en separat rad 'Correction: 532 17 00-61'. Exakt relation mellan numren är ännu inte styrkt; det får inte beskrivas som en bekräftad ersättningskedja.",
       "variant": "Hydro-Gear 321-0510, Jonsered jonsered-lt2115cma-j2115cmac",
-      "locator": "Hydro-Gear 321-0510 IPL daterad 2001-01-25, PDF sida 3, key 900 och sista korrigeringsraden",
+      "locator": "Hydro-Gear 321-0510 IPL daterad 2001-01-25, PDF sida 3, key 900 och sista korrigeringsraden; visuell original-PDF sidbild bekräftad 2026-10-22",
       "sourceId": "hydro-gear-3210510-20010125-ipl",
       "grade": "B",
       "topic": "D",
-      "verification": "needs_verification",
+      "verification": "verified",
       "checkedAt": "2026-10-22"
     },
     {
@@ -706,6 +706,17 @@
       "topic": "D",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmac-hydro321-ipl-2001-seals-selected",
+      "statement": "I Hydro-Gear 321-0510 IPL 2001-01-25 listas separata tätningar på key 13 (532 17 03-61, lip seal .67 x 1.58 x .276), key 17 (532 17 03-63, lip seal 18 x 32 x 7), key 34 (532 17 03-90, axeltätning), key 51 (532 17 04-03, lip seal .741 x .250 x .250) och key 74 (532 17 04-19, oljetätning .625 x 1.0 x .25). Katalogen ger inte mått för alla tätningar eller allmän garanti för utbytbarhet.",
+      "variant": "Hydro-Gear 321-0510, Jonsered LT2115CMA jonsered-lt2115cma-j2115cmac",
+      "locator": "Original IPL 2001-01-25, PDF sida 3 (index 2), key 13,17,34,51,74; sidbild granskad 2026-10-22",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -721,6 +732,7 @@
     "Hydro-Gear 321-0510-reservdelslista daterad 2001 anger 20W-50 OIL 72.8 oz som katalogpost (key 57), men styrker inte automatisk oljebytesrekommendation, aktuell oljespecifikation, serviceintervall eller exakt transaxelrevision installerad i varje Jonsered-maskin. Servicemanual för 310-0510 gäller annan modellbeteckning och får inte ärvas utan uttrycklig modelltäckning.",
     "Servicemanualen BLN-51260 täcker uttryckligen 310-0510/-0610/-0710 och har inte styrkts för Hydro-Gear 321-0510. Oljebytesprocedur, luftning, serviceintervall och åtdragningsmoment kan därför inte övertas från den manualen. Kontrollera modell/serienummer på aktuell transaxel och begär korrekt tillverkarunderlag.",
     "Hydro-Gear 321-0510 IPL:s key 900 anger 532171613 medan efterföljande 'Correction' anger 532170061. Denna korrigeringsrad får inte automatiskt tolkas som en ersättningskedja; kontroll mot originalbild, utgåvenummer och Hydro-Gear/Husqvarna OEM krävs. Aktuell serviceprocedur för 321-0510 fortsatt obekräftad.",
-    "Senare 2001-03-lista hos sGarden stöder katalognumret 532170061 för komplett 321-0510 (key 900) och 532170445 för filterpositionerna 45/46/125, men utgör inte en original OEM-ersättningsbulletin. Kontrollera mot fysisk transaxelplåt och tillverkarens aktuella reservdelssupport före beställning."
+    "Senare 2001-03-lista hos sGarden stöder katalognumret 532170061 för komplett 321-0510 (key 900) och 532170445 för filterpositionerna 45/46/125, men utgör inte en original OEM-ersättningsbulletin. Kontrollera mot fysisk transaxelplåt och tillverkarens aktuella reservdelssupport före beställning.",
+    "Andra 321-0510-märkta handlarlistor under dokumentgrupp 548448122 visar en annan intern numrering (bl.a. filter key 34 532142951 och tätningar key 53/54). Det kan röra annat utförande/undergrupp, men identiteten har inte styrkts; dessa delar får INTE tillskrivas Jonsereds FHP 170061 utan förtydligande från OEM och transaxelplåt."
   ]
 }
