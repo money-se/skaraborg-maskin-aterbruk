@@ -144,6 +144,13 @@
       "title": "Murray 425015X92A engine mount OEM parts table transcription",
       "document": "F-040734L ENGINE MOUNT printed page 47",
       "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/47"
+    },
+    {
+      "id": "murray-015a-steering-p41-html",
+      "tier": 2,
+      "title": "Murray 425015X92A steering original parts list",
+      "document": "F-040734L STEERING printed page 41",
+      "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/41"
     }
   ],
   "topics": {
@@ -170,7 +177,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Styrningskatalogen identifierar ratt, styrstång, pinjong, sektor, framaxel, spindlar, styrstag och hjullager. Delarnas kompatibilitet med andra versioner återstår."
+      "note": "F-040734L s.41 ger modellbunden styrdelstabell med spindlar, styrlager, frontdäck, styrbälg och motorplåt 094006E701. B-versionens delnummer och passform behöver kontrolleras separat."
     },
     "F": {
       "name": "Reglage",
@@ -1729,6 +1736,182 @@
       "sourceId": "murray-015a-engine-mount-p47",
       "grade": "B",
       "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-retainer-clip",
+      "statement": "Låsclips anges med artikelnummer 094131 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 3",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-bearing",
+      "statement": "Styrlager anges med artikelnummer 094124 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 4",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-pinion-snapring",
+      "statement": "Låsring till styrpinjong anges med artikelnummer 011x25 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 8",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-sector-bearing",
+      "statement": "Sektorlager anges med artikelnummer 094123 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 10",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-plate",
+      "statement": "Styrplåt anges med artikelnummer 1001121E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 12",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-engine-mount-plate",
+      "statement": "Motorplåt enligt styrningsavsnittet anges med artikelnummer 094006E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 13",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-hanger-bracket",
+      "statement": "Upphängningsfäste anges med artikelnummer 1001270E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 16",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-hanger-axle",
+      "statement": "Upphängningsaxel anges med artikelnummer 094007E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 17",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-axle-bearing",
+      "statement": "Axellager anges med artikelnummer 690150 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 20",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-wheel-valve",
+      "statement": "Ventil anges med artikelnummer 024373 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 32",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-front-tire",
+      "statement": "Framdäck anges med artikelnummer 091912 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 33",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-inner-tube",
+      "statement": "Innerslang anges med artikelnummer 407047 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position unnumbered",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-front-wheel-assembly",
+      "statement": "Komplett framhjul anges med artikelnummer 094579-601 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 34",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-front-hub-cap",
+      "statement": "Navkapsel, tillval anges med artikelnummer 094618 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 38",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-bellows",
+      "statement": "Styrbälg anges med artikelnummer 092059 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 40",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-shaft-bolt",
+      "statement": "Bult, skulder anges med artikelnummer 009x57 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 6",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
