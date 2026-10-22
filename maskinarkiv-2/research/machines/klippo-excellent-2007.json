@@ -193,6 +193,41 @@
       "title": "Wolfswinkel Excellent S 965227802 2013-02 model-specific parts lists",
       "document": "2013-02 deck, handle, engine and gearbox parts list with drawing positions",
       "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/push-mowers/excellent-s/excellent-s-965227802-2013-02"
+    },
+    {
+      "id": "remlagret-excellent-s-drive-belt-pnc",
+      "tier": 2,
+      "title": "Remlagret Excellent S aftermarket drive belt model revision list",
+      "document": "Drive belt aftermarket listing, fitment 9652278-01 2009-12, 96522780208 2012-06, 965227802 2013-02, 967607101 2016-01",
+      "url": "https://www.remlagret.se/products/drivrem-klippo-excellent-s-grasklippare"
+    },
+    {
+      "id": "resdelaronline-excellent-s-brake-585402004",
+      "tier": 2,
+      "title": "ReservdelarOnline original-labelled Klippo motorbrake cable 5854020-04",
+      "document": "1190 mm Z-end motor brake cable, supersedes 5033134-04 and 1363; Excellent S 965227802 2013-02 and SH model crosswalk",
+      "url": "https://www.reservdelaronline.se/produkter/motorbromsvajer-excellent-s-excellent-sh-comet-s-lb448-5854020-04"
+    },
+    {
+      "id": "skoterdelen-excellent-s-upper-handle-502907403",
+      "tier": 2,
+      "title": "Skoterdelen upper handle 5029074-03 cross-reference",
+      "document": "5029074-03, alternative 5029074-01, 5033158-01, year/PNC listing Excellent S 9652278-01 and other models",
+      "url": "https://www.skoterdelen.com/skog-tradgard/grasklippare/klippo/chassiedelar-8/ovrigt-141"
+    },
+    {
+      "id": "maskinklippet-excellent-s-frontaxle-bracket-504463801",
+      "tier": 2,
+      "title": "Maskinklippet Klippo front axle bracket 5044638-01 year/PNC fitment",
+      "document": "Double-mount front axle bracket for Excellent S 96522780208 2012-06 and 965227802 2013-02",
+      "url": "https://www.maskinklippet.se/tradgard/grasklippare-tillbehor/service-slitdelar-grasklippare/klippo-framaxelhallare"
+    },
+    {
+      "id": "yumpu-excellent-s-2013-original-ipl",
+      "tier": 1,
+      "title": "Klippo Excellent S original IPL 2013-02, PNC 965227802",
+      "document": "Manufacturer-authored 2013-02 spare parts list indexed at Yumpu, engine, gear box, handle, mower deck",
+      "url": "https://www.yumpu.com/en/document/view/23881426/ipl-excellent-s-965227802-2013-02-klippo"
     }
   ],
   "topics": {
@@ -1455,6 +1490,123 @@
       "sourceId": "wolfswinkel-excellent-s-2013-965227802",
       "grade": "B",
       "topic": "F"
+    },
+    {
+      "id": "exs-2012-pnc-crosswalk",
+      "statement": "Remlagret anger Excellent S-versionen 2012-06 som 96522780208, skild från 2013-02 års 965227802; detta är en återförsäljarlista, inte ett verifierat exakt serienummerintervall.",
+      "variant": "Excellent S 2012-06; 2013-02",
+      "locator": "Passar/Serienummer: 96522780208 (2012-06), 965227802 (2013-02)",
+      "sourceId": "remlagret-excellent-s-drive-belt-pnc",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "exs-2009-pnc-crosswalk",
+      "statement": "Remlagret listar äldre Excellent S som 9652278-01 vid katalogdatum 2009-12. Artikelnumret får inte sammanblandas med 2012/2013 års PNC.",
+      "variant": "Excellent S 9652278-01 2009-12",
+      "locator": "Passar > Serienummer 9652278-01 (2009-12)",
+      "sourceId": "remlagret-excellent-s-drive-belt-pnc",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "exs-2016-pnc-crosswalk",
+      "statement": "Remlagret anger Excellent S 967607101 2016-01 som en senare variant i sin eftermarknadsremlista, utan att ange originalremmens exakta artikelnummer i samma uppgift.",
+      "variant": "Excellent S 967607101 2016-01",
+      "locator": "Passar > Serienummer 967607101 (2016-01)",
+      "sourceId": "remlagret-excellent-s-drive-belt-pnc",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "exs-2013-brake-exact",
+      "statement": "ReservdelarOnline listar motorbromsvajer 5854020-04 som passande Excellent S 965227802, 2013-02; det är säljarens versionsbundna passformsuppgift.",
+      "variant": "Excellent S 965227802 2013-02",
+      "locator": "Produktinformation > Passar till > Excellent S 965227802",
+      "sourceId": "resdelaronline-excellent-s-brake-585402004",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "exs-2013-brake-dimensions",
+      "statement": "Motorbromsvajer 5854020-04 anges ha längd 1190 mm med Z-infästning i båda ändar. Måttuppgiften gäller reservdelsprodukten, inte alla tidigare vajrar.",
+      "variant": "Excellent S 2013-02 säljarpassform, produkt 5854020-04",
+      "locator": "Produktinformation > Längd 1190mm; z-infästningar",
+      "sourceId": "resdelaronline-excellent-s-brake-585402004",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "exs-2013-brake-supersession",
+      "statement": "ReservdelarOnline uppger att artikel 5854020-04 ersätter 5033134-04 och gammal kod 1363. Detta är återförsäljarens ersättningsuppgift, inte original-IPL-bevis.",
+      "variant": "Excellent S och säljarens övriga listade modellvarianter",
+      "locator": "Produktinformation > Ersätter 1363, 5033134-04",
+      "sourceId": "resdelaronline-excellent-s-brake-585402004",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs-sh-2013-brake-fitment",
+      "statement": "Samma motorbromsvajer 5854020-04 listas för Excellent SH 966774801 med katalogdatum 2013-02, trots att Excellent S och SH har skilda modellbeteckningar.",
+      "variant": "Excellent SH 966774801 2013-02",
+      "locator": "Passar till > Excellent SH 966774801 2013-02",
+      "sourceId": "resdelaronline-excellent-s-brake-585402004",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "exs-sh-2016-brake-fitment",
+      "statement": "Samma motorbromsvajer 5854020-04 listas för senare Excellent SH 967607701 2016-01.",
+      "variant": "Excellent SH 967607701 2016-01",
+      "locator": "Passar till > Excellent SH 967607701 2016-01",
+      "sourceId": "resdelaronline-excellent-s-brake-585402004",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "exs-handle-legacy-fitment",
+      "statement": "Skoterdelen listar övre handtag 5029074-03 för Excellent S 9652278-01 med katalogdatum 2009-12. Katalogkoppling för denna version är säljaruppgift.",
+      "variant": "Excellent S 9652278-01 2009-12",
+      "locator": "Handtag Klippo 5029074-03 > Klippo > Excellent S 9652278-01",
+      "sourceId": "skoterdelen-excellent-s-upper-handle-502907403",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "exs-handle-legacy-supersession",
+      "statement": "Skoterdelen anger att övre handtag 5029074-03 ersätter 5029074-01 och 5033158-01, vilket är en säljaruppgiven ersättningskedja.",
+      "variant": "Övre handtag Excellent S-familjen",
+      "locator": "Handtag Klippo 5029074-03 > Ersätter originalnummer",
+      "sourceId": "skoterdelen-excellent-s-upper-handle-502907403",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs-frontbracket-2012-pnc",
+      "statement": "Maskinklippet listar framaxelhållare 5044638-01 för Excellent S PNC 96522780208, katalogdatum 2012-06, med dubbel infästning.",
+      "variant": "Excellent S 96522780208 2012-06",
+      "locator": "Produktbeskrivning > Passar följande modeller > Excellent S 96522780208",
+      "sourceId": "maskinklippet-excellent-s-frontaxle-bracket-504463801",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "exs-frontbracket-2013-pnc",
+      "statement": "Maskinklippet listar framaxelhållare 5044638-01 för Excellent S PNC 965227802, katalogdatum 2013-02, med dubbel infästning.",
+      "variant": "Excellent S 965227802 2013-02",
+      "locator": "Produktbeskrivning > Passar följande modeller > Excellent S 965227802",
+      "sourceId": "maskinklippet-excellent-s-frontaxle-bracket-504463801",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "exs-ipl-2013-oem-model-id",
+      "statement": "En manufacturer-authored Klippo-reservdelsförteckning med rubriken 'SPARE PARTS LIST LAWN MOWERS Excellent S, 965227802, 2013-02' finns identifierad, med separata grupper Engine, Gear Box, Handle och Mower Deck. Detta stärker 2013-versionens PNC-identifiering men utgör inte fysisk passformskontroll av 2012-delar.",
+      "variant": "Excellent S 965227802, 2013-02",
+      "locator": "Original IPL förhandsvisning omslag samt sidgrupper pp.2-9",
+      "sourceId": "yumpu-excellent-s-2013-original-ipl",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -1480,6 +1632,7 @@
     "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
     "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma.",
     "Excellent S originalreservdelskatalog 2012 är textavläst men sprängskissens bildkontroll misslyckades; PNC/serienummer saknas i extraherad omslagsinformation. Koppla inte monteringsdetaljerna direkt till Excellent 965227602 utan originalkontroll.",
-    "Excellent S 2013 reservdelsrevisionsjämförelse indikerar nya växellådsdelar, chassivariant med/utan remskydd och ändrat knivstöd, men 2012-originalkatalogens PNC och fysiska kompatibilitetsgränser måste verifieras innan någon ersättningsmatris får godkännas."
+    "Excellent S 2013 reservdelsrevisionsjämförelse indikerar nya växellådsdelar, chassivariant med/utan remskydd och ändrat knivstöd, men 2012-originalkatalogens PNC och fysiska kompatibilitetsgränser måste verifieras innan någon ersättningsmatris får godkännas.",
+    "Klippo Excellent S 2012-06 anges 96522780208 i två återförsäljarlistor men ursprungligt IPL-omslag måste granskas innan PNC fastställs som OEM A. Växellåda 578266601 till 585192603 saknar dokumenterad tillverkarsupersession."
   ]
 }
