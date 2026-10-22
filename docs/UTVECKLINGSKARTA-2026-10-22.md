@@ -57,6 +57,12 @@ Masterstrukturen delar webbplatsen i A. **Sälja/ge/kontakta**, B. **Maskinkunsk
 7. **Header/footer:** `partials1/header.html` och `partials1/footer.html` finns. Godkända Hjo-sidor har identiska inbäddade kopior efter tidigare visningsfix. Framtida lösning bör byggas och testas samlat, inte tillbaka till skör JS-injektion utan fallback.
 8. **Ingen bred SEO-masspublicering** av de 134 filerna utanför sitemap. Det krävs per-sida-beslut om värde, ägarskap och mål.
 
+## 4A. Fördjupning: maskinuppköp och lokala undersidor
+Den första ämnesgranskningen är klar:
+- [Strategi för maskinuppköp](MASKINUPPKOP-STRATEGI-2026-10-22.md): regional huvudtjänst, stödguider, Hjo som kvalitetsreferens, Tibro som möjlig pilot, överlapp och tekniska canonical-brister.
+- [Inventering av 66 uppköpsnära undersidor](MASKINUPPKOP-UNDERSSIDOR-2026-10-22.csv): preliminär kategorisering för sex sidfamiljer. Endast tre av dessa finns i de fyra sitemaps enligt granskningen.
+- **Inga massändringar föreslås.** Utred Search Console före sammanslagning/omdirigering. PR #56 är ett separat utkast med vägval mellan Köp och Ge till återbruk, inte del av denna dokumentations-PR.
+
 ## 5. Föreslagen arbetsordning och stoppunkter
 **Etapp 0 – Nu: besluta arkitekturen (enbart dokument).**
 - Godkänn fyra huvudben, sida som ansvarar för varje avsikt och val av befintliga hubbar.
