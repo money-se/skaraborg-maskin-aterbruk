@@ -119,6 +119,15 @@
       "sourceId": "klippo-om-2007",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "champion-k02310-2006",
+      "statement": "KLIPPO:s originaltabell från 2006 anger Champion med identifieringskod K02310, Briggs & Stratton Quantum 50, 190 cm³ och klippbredd 48 cm. Den äldre koden ska inte likställas med Husqvarnas senare artikelnummer 965 22 39-02.",
+      "variant": "Champion K02310, originalförsäkran 2006 i manual 2007",
+      "locator": "PDF-sida 8 (index 7), 'Försäkran om överensstämmelse', modelltabell rad Champion",
+      "sourceId": "klippo-om-2007",
+      "grade": "A",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -126,6 +135,7 @@
     "Hämta officiella reservdelssprängskisser och knivnummer för just 965 22 39-02.",
     "Verifiera höjdinställning, transmissionsutförande, motoroljetyp och serviceintervall mot rätt årsutgåva.",
     "Jämför 2007 och 2018 års manualer och dokumentera versionsskillnader.",
-    "Hitta andra Champion-artikelnummer utan att sammanblanda deras komponenter."
+    "Hitta andra Champion-artikelnummer utan att sammanblanda deras komponenter.",
+    "Jämför den äldre koden K02310 och senare artikelnummer 965 22 39-02 i IPL innan eventuell delkompatibilitet påstås."
   ]
 }
