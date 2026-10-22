@@ -81,6 +81,13 @@
       "title": "Murray 425014X92E original operator manual brake and mower drive belt maintenance",
       "document": "425014X92E, service p.23, TO CHECK AND ADJUST BRAKE; TO REPLACE MOWER BLADE DRIVE BELT",
       "url": "https://murray.manymanuals-pt.com/lawnmowers/425014x92e/specifications-49848/23"
+    },
+    {
+      "id": "murray-014e-chassis-p35-original",
+      "tier": 2,
+      "title": "Murray 425014X92E chassis and enclosures OEM parts table",
+      "document": "425014X92E (96014000100), CHASSIS AND ENCLOSURES printed p.35",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/35"
     }
   ],
   "topics": {
@@ -92,7 +99,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Traktorklass och separat aggregat redovisas; chassi och produktfamilj kräver ytterligare dokumentkontroll."
+      "note": "OEM CHASSIS AND ENCLOSURES sida 35 kartlägger 21 nyckelpositioner, inkl chassi 174619, huv 187559X505, stänkskärm 192526X505 och fotstöd. Avviker tydligt från X92A/B-seriernas konstruktion."
     },
     "C": {
       "name": "Motor",
@@ -1754,6 +1761,237 @@
       "sourceId": "murray-014e-brake-belt-p23",
       "grade": "B",
       "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-chassis",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 174619.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 1",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-drawbar",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 176554.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 2",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-hood-bumper",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 155272.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 5",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-dash",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 193510X010.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 9",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-dash-left",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 174996.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 11",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-dash-right",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 172105X010.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 13",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-hood",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 187559X505.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 17",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-hood-big-bumper",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 184921.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 18",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-grille-lens",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 187598.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 28",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-lens",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 187567X599.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 29",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-fender",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 192526X505.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 30",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-fender-bracket",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 136619.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 31",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-footrest-left",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 179716X505.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 33",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-footrest-right",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 179717X505.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 34",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-mower-rear-pivot",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 175710.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 38",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-pivot-bracket",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 187568.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 39",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-dash-lower",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 154798.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 64",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-belt-keeper",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 158112.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 114",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-reinforcement",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 175702.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 142",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-hood-pivot-rod",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 156524.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 145",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-chassis-deep-lens-reflector",
+      "statement": "425014X92E CHASSIS AND ENCLOSURES anger artikelnummer 187569.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CHASSIS AND ENCLOSURES, printed p.35, key 212",
+      "sourceId": "murray-014e-chassis-p35-original",
+      "grade": "B",
+      "topic": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
