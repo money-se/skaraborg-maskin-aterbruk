@@ -2689,6 +2689,114 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "kohler-cam-bore-max-wear-20p038",
+      "statement": "Kamaxelns lagerborrning har högsta slitgräns 20,038 mm enligt originalspecifikationstabellen.",
+      "variant": "Kohler Command CV11–16/CV460–465/CV490–495, camshaft bore",
+      "locator": "TP-2339-D, Section 1, printed p.1.8, PDF index 9, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-cam-bearing-od-wear-19p959",
+      "statement": "Kamaxelns lageryta har lägsta tillåtna ytterdiameter 19,959 mm enligt Kohlers slitmått.",
+      "variant": "Kohler Command CV11–16/CV460–465/CV490–495, camshaft bearing journal",
+      "locator": "TP-2339-D, Section 1, printed p.1.8, PDF index 9, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rod-pin-end-wear-19p036",
+      "statement": "Vevstakens kolvbultsända har maximal slitagegräns för innerdiameter 19,036 mm.",
+      "variant": "Kohler Command enligt TP-2339-D, connecting rod piston pin end",
+      "locator": "TP-2339-D, Section 1, printed p.1.8, PDF index 9, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-governor-cross-bore-wear-6p063",
+      "statement": "Regulatorns tvära axels lagerborrning i vevhuset är 6,025–6,050 mm ny, med maximal slitagegräns 6,063 mm.",
+      "variant": "Kohler Command enligt TP-2339-D, governor cross-shaft bore",
+      "locator": "TP-2339-D, Section 1, printed p.1.8, PDF index 9, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-crankcase-main-bore-wear",
+      "statement": "Vevhusets huvudlagerborrning är 44,965–44,990 mm ny och har angiven maximal slitagegräns 44,9758–45,0012 mm enligt originaltabellen; intervallet måste tolkas exakt, inte reduceras till ett generellt maximum.",
+      "variant": "Kohler Command, crankcase main bearing bore",
+      "locator": "TP-2339-D, Section 1, printed p.1.9, PDF index 10, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-oilpan-main-bore-wear",
+      "statement": "Oljetrågets huvudlagerborrning är 41,965–42,003 mm ny och originaltabellen anger slitagegräns 41,9760–42,0141 mm; detta är skilt från vevhusets lager.",
+      "variant": "Kohler Command, oil-pan main bearing bore",
+      "locator": "TP-2339-D, Section 1, printed p.1.9, PDF index 10, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-journal-flywheel-taper-round",
+      "statement": "Vevaxelns lagertapp vid svänghjulsänden tillåter maximalt 0,022 mm konicitet och 0,025 mm ovalitet.",
+      "variant": "Kohler Command, flywheel-end main bearing journal",
+      "locator": "TP-2339-D, Section 1, printed p.1.9, PDF index 10, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-journal-oilpan-taper-round",
+      "statement": "Vevaxelns lagertapp vid oljetrågsänden tillåter maximalt 0,020 mm konicitet och 0,025 mm ovalitet.",
+      "variant": "Kohler Command, oil-pan-end main bearing journal",
+      "locator": "TP-2339-D, Section 1, printed p.1.9, PDF index 10, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-journal-rod-taper-round",
+      "statement": "Vevstakens vevtapp tillåter maximalt 0,012 mm konicitet och 0,025 mm ovalitet i Kohlers originaltabell.",
+      "variant": "Kohler Command, connecting-rod crankpin journal",
+      "locator": "TP-2339-D, Section 1, printed p.1.9, PDF index 10, general specifications",
+      "topic": "H",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-airfilter-wingnut-1p5nm",
+      "statement": "Kohlers originalspecifikationstabell anger 1,5 Nm för luftfiltrets vingmutter. Vid praktisk återmontering beskriver manualen också handåtdragning; kontrollera tillämplig filterhusversion innan specifik metod anges.",
+      "variant": "Kohler Command air cleaner with wing nut, according to TP-2339-D",
+      "locator": "TP-2339-D, Section 1, printed p.1.7, PDF index 8, general specifications",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-engine-compression-ratio-8p5",
+      "statement": "Kohlers tabell anger nominellt kompressionsförhållande 8,5:1 för de omfattade Command CV-motorerna. Detta är ett konstruktionsförhållande och inte ett mätvärde från kompressionsprov.",
+      "variant": "CV11–16/CV460–465/CV490–495, enligt modellfamiljens generella specifikationstabell",
+      "locator": "TP-2339-D, Section 1, printed p.1.7, PDF index 8, general specifications",
+      "topic": "B",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-engine-stroke-67-77",
+      "statement": "Kohler anger slaglängd 67 mm för CV11–16 men 77 mm för CV460–465 och CV490–495; detta är viktigt eftersom samma borrning inte innebär samma cylindervolym.",
+      "variant": "CV11–16 kontra CV460–465/CV490–495",
+      "locator": "TP-2339-D, Section 1, printed p.1.7, PDF index 8, general specifications",
+      "topic": "B",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -2735,6 +2843,7 @@
     "LPG och Emission Sentry gäller bara särskilt utrustade Kohler Command och deras installationsspecifika bränsle-/emissionssystem; inga generella omställningsråd eller satskompatibiliteter utan Spec. No.",
     "Effekt och vridmoment: märkdata är laboratorieklassade vid angivna varvtal och SAE J1995, inte utlovad effekt i installerad begagnad åkgräsklippare.",
     "Elstartmoment från TP-2339-D är tillverkarspecifika (UTE/Johnson/Eaton, Nippondenso, Delco-Remy); identifiera faktisk startmotor före åtdragning.",
-    "Forskningskorrigering: tidigare sammanfattat ändgap för två översta kolvringar ersatt med sex specifikationsbundna separata mätvärden från tabellen p.1.11–1.12."
+    "Forskningskorrigering: tidigare sammanfattat ändgap för två översta kolvringar ersatt med sex specifikationsbundna separata mätvärden från tabellen p.1.11–1.12.",
+    "Källa TP-2339-D p.1.9 visar 38.958/30.970 mm för vevstakstappens nya diameter, vilket ser ut som tryckfel. Registrera inte nominellt nyvärde förrän oberoende Kohler-originalbekräftelse finns."
   ]
 }
