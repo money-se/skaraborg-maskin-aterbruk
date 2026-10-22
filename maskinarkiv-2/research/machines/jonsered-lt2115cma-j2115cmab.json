@@ -322,6 +322,7 @@
     "Kabelstam 532 17 56-88 i 2004-06-katalogens ELECTRIQUE pos. 21 skiljer sig från katalogposten 532 18 37-59 i 2005-05-revision 96061001002. Båda måste bildkontrolleras innan reservdelskompatibilitet bedöms.",
     "Drivfjädern på pos.25 har olika katalognummer 2004-06 kontra 2005-05. Originalsidbilderna och reviderade OEM-delslistor måste granskas före kompatibilitetsslutsats.",
     "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2005-05-revision 96061001002. Full bildgranskning och utbytbarhetsbelägg återstår.",
-    "Jämförelse 2004-06 mot 2005-05 visar skilda CHASSIS & BOITIER-nummer på positionerna 9, 17, 28, 30, 58 och 89. Katalogtexten kontrollerad men PDF-bildvisning misslyckades; kontroll av bilder, eventuella ersättningsnummer och faktisk passform återstår."
+    "Jämförelse 2004-06 mot 2005-05 visar skilda CHASSIS & BOITIER-nummer på positionerna 9, 17, 28, 30, 58 och 89. Katalogtexten kontrollerad men PDF-bildvisning misslyckades; kontroll av bilder, eventuella ersättningsnummer och faktisk passform återstår.",
+    "Källkvalitet: 2004-06-PDF för J2115CMAB anger LT2115CMA på omslag och avsnittshuvuden men minst en sprängbildsrubrik anges som LT2117CMA (J2117CMAB). Orsaken till denna interna identitetskonflikt måste utredas mot annan OEM-kopia innan specifika komponenter publiceras."
   ]
 }
