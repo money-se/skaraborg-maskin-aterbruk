@@ -32,6 +32,13 @@
       "title": "Jonsered LT2115A 96011000801, illustrated parts list original text reprint",
       "document": "LT2115A 96011000801 PRODUCT NO. 954130222, 2005-05, IPL PDF",
       "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20A%2096011000801%202005-05/LT2115-A-96011000801-2005-05.pdf"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-original-engine-2005-05",
+      "tier": 2,
+      "title": "Jonsered IPL LT2115A 96011000801 2005-05 engine original reprint",
+      "document": "LT2115A 96011000801 PRODUCT 954130222 2005-05 ENGINE",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20A%2096011000801%202005-05/LT2115-A-96011000801-2005-05.pdf"
     }
   ],
   "topics": {
@@ -244,6 +251,72 @@
       "topic": "B",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-engine-sv470",
+      "statement": "LT2115A 2005-05 original-IPLs motorsektion: ENGINE key 3 anger Kohler SV470, med motorreservdelar hos motortillverkaren; exakt Kohler-specification-ID måste avläsas från motorn.",
+      "variant": "LT2115A 96011000801 954130222 2005-05",
+      "locator": "ENGINE key3",
+      "sourceId": "jonsered-lt2115a-96011000801-original-engine-2005-05",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-muffler-4",
+      "statement": "LT2115A 2005-05 original-IPLs motorsektion: ENGINE key4 anger ljuddämpare 532 18 86-55.",
+      "variant": "LT2115A 96011000801 954130222 2005-05",
+      "locator": "ENGINE key4",
+      "sourceId": "jonsered-lt2115a-96011000801-original-engine-2005-05",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-gasket-13",
+      "statement": "LT2115A 2005-05 original-IPLs motorsektion: ENGINE key13 anger avgaspackning 532 18 59-09.",
+      "variant": "LT2115A 96011000801 954130222 2005-05",
+      "locator": "ENGINE key13",
+      "sourceId": "jonsered-lt2115a-96011000801-original-engine-2005-05",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-oil-drain-14",
+      "statement": "LT2115A 2005-05 original-IPLs motorsektion: ENGINE key14 anger avtappningsrör 532 14 84-56, ingen servicespecifikation.",
+      "variant": "LT2115A 96011000801 954130222 2005-05",
+      "locator": "ENGINE key14",
+      "sourceId": "jonsered-lt2115a-96011000801-original-engine-2005-05",
+      "grade": "B",
+      "topic": "J",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-fuel-tank-31",
+      "statement": "LT2115A 2005-05 original-IPLs motorsektion: ENGINE key31 anger tank 532 18 77-50.",
+      "variant": "LT2115A 96011000801 954130222 2005-05",
+      "locator": "ENGINE key31",
+      "sourceId": "jonsered-lt2115a-96011000801-original-engine-2005-05",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000801-fuel-cap-32",
+      "statement": "LT2115A 2005-05 original-IPLs motorsektion: ENGINE key32 anger tanklock 532 14 05-27.",
+      "variant": "LT2115A 96011000801 954130222 2005-05",
+      "locator": "ENGINE key32",
+      "sourceId": "jonsered-lt2115a-96011000801-original-engine-2005-05",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -253,6 +326,7 @@
     "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL.",
     "KORRIGERING 2026-10-22: tidigare jämförelse angav samma kopplingslänk 532105710 för januari och maj 2005. Den dokumenterade maj-versionens Wolfswinkel DRIVE-lista upptar 532199652 och ger inte stöd för det äldre numret. Januari–maj-kompatibilitet måste avgöras med båda original-IPL-sidbilderna.",
     "2005-05 original IPL dokumenterar förarmanualernas artikelnummer (Euro och Scan) och däckdimensioner. Original-PDF textutdrag läsbart men sidbilder har cachemiss och kräver bildverifiering; däcken kan ha bytts på använda exemplar.",
-    "Januari 2005:s historiska original-IPL anger key53 532105710, men Wolfswinkel visar 532199652 på både januari- och majlistan. En tidigare tolkning som årsmånadsändring var för stark; aktuell katalogsynkronisering/ersättning kräver separat OEM-stöd."
+    "Januari 2005:s historiska original-IPL anger key53 532105710, men Wolfswinkel visar 532199652 på både januari- och majlistan. En tidigare tolkning som årsmånadsändring var för stark; aktuell katalogsynkronisering/ersättning kräver separat OEM-stöd.",
+    "Motoravsnitt i de två original-IPL:erna 2005-01 och 2005-05 anger båda Kohler SV470 och samma angivna ljuddämpar-/tankdelar; däremot finns ingen verifierad komplett motor-specifikation eller garanti för identisk varje fysisk maskin."
   ]
 }
