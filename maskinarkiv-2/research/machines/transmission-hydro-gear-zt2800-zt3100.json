@@ -2783,6 +2783,87 @@
       "sourceId": "hg-bom-zk-khee-3bdc-3dlx-p72",
       "grade": "B",
       "topic": "L"
+    },
+    {
+      "id": "p24-hub-removal-scope",
+      "statement": "Manualens navdemontageprocedur avser flänsnav på koniska drivaxlar för åtkomst till yttre lager, bussningar och tätningar. Den får inte förväxlas med demontering av drivhjulet; det demonteras med hjulmuttrarna.",
+      "variant": "ZT-2800/3100/3200; endast koniska flänsnav",
+      "locator": "Manual BLN-52441 P24, tryckt sida 20, HUB REMOVAL",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-hub-discard-replace",
+      "statement": "Vid demontering av flänsnav eller dess centrala axelmutter föreskriver Hydro-Gear att den demonterade delen kasseras och ersätts med ny; återanvändning ska därför inte rekommenderas.",
+      "variant": "ZT-2800/3100/3200, navdemontage på konisk drivaxel",
+      "locator": "Manual BLN-52441 P24, tryckt sida 20, HUB REMOVAL, NOTE",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-hub-puller-anti-seize",
+      "statement": "Före första användningen av tillämplig navavdragare anger manualen ett tunt skikt anti-seize på dragbultens gängor och att bulten först skruvas in och ur avdragaren.",
+      "variant": "ZT-2800/3100/3200, specificerad navavdragare",
+      "locator": "Manual BLN-52441 P24, tryckt sida 20, HUB REMOVAL",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-hub-puller-lug-nut-torque",
+      "statement": "Navavdragarens hjulmuttrar monteras jämnt och dras i navavdragningsmomentet till 100 lb-in (11,3 Nm). Detta är inte slutligt hjulmutteråtdragningsmoment; för hjulmonteringen hänvisas till fordonstillverkarens manual.",
+      "variant": "ZT-2800/3100/3200, avdragningsverktyg på flänsnav",
+      "locator": "Manual BLN-52441 P24, tryckt sida 20, HUB REMOVAL steg 4 och 8",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-hub-retaining-nut-thread",
+      "statement": "Vid navavdragning anges centrumaxelns låsmutter ha 3/4-16-gänga; demontering ska göras med säkrat fordon, hjulklossar och motor avstängd.",
+      "variant": "ZT-2800/3100/3200, specifikt navutförande",
+      "locator": "Manual BLN-52441 P24, tryckt sida 20, HUB REMOVAL steg 1–2",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-hub-puller-socket",
+      "statement": "Navavdragarens centrala dragbult hanteras med 1-1/8-tums hylsa och dras jämnt och långsamt för att separera det koniska navet från axeln.",
+      "variant": "ZT-2800/3100/3200 med relevant navavdragare",
+      "locator": "Manual BLN-52441 P24, tryckt sida 20, HUB REMOVAL steg 3–5",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-brake-reindex-one-tooth",
+      "statement": "Vid otillräckligt hållmoment och endast bromskod 1/2 (modellkodens tecken 7) beskriver Hydro-Gear justering genom omindexering av bromshandtaget (102) ett splinesteg motsatt aktiveringsriktningen, efter referensmärkning mot axel (101).",
+      "variant": "ZT-2800/3100; char7=1 eller 2",
+      "locator": "Manual BLN-52441 P24, tryckt sida 16, PARKING BRAKE ADJUSTMENT",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-brake-after-check-roll",
+      "statement": "Efter justering av kod 1/2-broms kräver manualen funktionstest enligt fordonstillverkarens parkeringsbromsspecifikationer och kontroll att bromsen inte släpar i körläge: plan mark, motor av, broms lossad, bypass aktiverad, fordonet ska gå att skjuta med rimlig kraft.",
+      "variant": "ZT-2800/3100; char7=1 eller 2",
+      "locator": "Manual BLN-52441 P24, tryckt sida 16, PARKING BRAKE ADJUSTMENT",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p24-brake-wheel-chocks",
+      "statement": "Hydro-Gear varnar för rörelse och allvarlig skaderisk vid bromsservice på lutande mark och kräver klossning av hjulen.",
+      "variant": "ZT-2800/3100; bromsservice",
+      "locator": "Manual BLN-52441 P24, tryckt sida 16, WARNING",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
