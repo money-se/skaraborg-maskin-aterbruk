@@ -2864,6 +2864,123 @@
       "sourceId": "hg-bln52441-2023-manual-index",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p25-diagnostic-one-direction-belt",
+      "statement": "Vid drift i endast en riktning anger felsökningsmatrisen två första externa kontroller: böjt/feljusterat reglage samt slirande drivrem/skadad remskiva.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Operates In One Direction Only",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-track-tires",
+      "statement": "Om maskinen inte går rakt anger manualen felaktigt däcktryck som en möjlig orsak. Rekommenderat tryck ska hämtas från fordonstillverkaren, inte från Hydro-Gears familjemanual.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Vehicle Does Not Drive/Track Straight",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-track-brake-spring",
+      "statement": "Snedgång kan orsakas av delvis ansatt broms; kontrollera friläggningen samt trasig eller saknad bromsåtergångsfjäder innan hydrostatfel antas.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Vehicle Does Not Drive/Track Straight",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-noise-air",
+      "statement": "Oljefört luft i hydraulsystemet listas som möjlig orsak till missljud; manualen hänvisar till avluftningsproceduren på tryckt sida 12.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Is Noisy",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-noise-looseparts",
+      "statement": "Lösa komponenter och för hög belastning anges som möjliga orsaker till missljud, utöver oljenivå, bypass, luft och bromsdragning.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Is Noisy",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-nopower-rpm",
+      "statement": "Låg motorvarvtal är en uttrycklig möjlig orsak till ingen/låg transmissionskraft. Korrekt motorinställning kontrolleras innan intern hydraulreparation.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Has No/Low Power",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-nopower-bypass",
+      "statement": "Vid ingen/låg kraft anger tabellen kärvande bypass, luft i systemet och broms som ligger på som separata möjliga felorsaker; åtgärderna är länkkontroll, avluftning respektive bromsfrigöring.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Has No/Low Power",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-hot-fan",
+      "statement": "Överhettning kan bero på skadad kylfläkt. Manualen hänvisar då till reparation eller byte på tryckta sidor 23–25.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Is Operating Hot",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-hot-debris",
+      "statement": "Ansamlat skräp runt transaxeln listas som möjlig överhettningsorsak; tabellen hänvisar till rengöring på tryckt sida 21.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Is Operating Hot",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-hot-oil-and-air",
+      "statement": "Överhettning kan enligt manualen orsakas både av låg/smutsig olja och luft i hydraulsystemet. Kontrollera olja respektive avlufta enligt hänvisningarna innan större ingrepp.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Unit Is Operating Hot",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-leak-air",
+      "statement": "Vid oljeläckage anger manualen inte bara skadade tätningar/hus/packningar utan även innestängd luft som möjlig orsak, med avluftning som åtgärd.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, Transaxle Leaks Oil",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-stop-engine",
+      "statement": "Hydro-Gears felsökningskapitel förbjuder service och justering med motorn i gång; remdrift och länkar ska hanteras med särskild försiktighet och fordonets säkerhetsinstruktion följas.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, WARNING",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-precheck-not-defect",
+      "statement": "Tillverkaren betonar att slirande drivrem, delvis aktiverad bypass och skadat eller löst reglagelänkage ofta orsakar symptom utan att själva transaxeln är defekt; kontrollera externt innan byte.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 familjemanual BLN-52441 P25 (2023); diagnostisk möjlighet, inte bekräftad felorsak på specifik maskin",
+      "locator": "Tryckt sida 8, inledning till TROUBLESHOOTING",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
