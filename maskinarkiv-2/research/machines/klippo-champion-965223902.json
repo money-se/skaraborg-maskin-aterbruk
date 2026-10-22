@@ -95,6 +95,13 @@
       "title": "RINAB after-market mulcher blade 480mm specifications",
       "document": "Aftermarket 31-15-845-00 and listed Champion PNC 965223902; 480 ×58 ×4mm; 14mm center hole",
       "url": "https://www.rinab.nu/skog-och-tradgard/Grasklippare/Klippaggregatsdelar/Knivar/Klippo/Mulcherkniv-48-cm-19-klippbredd-Klippo-04.htm"
+    },
+    {
+      "id": "klippo-om-original-2008-502937301-batch32",
+      "tier": 1,
+      "title": "KLIPPO original 2008-01 operating manual 502937301, Swedish pp 1–4",
+      "document": "OM 2008-01, Version 1:18; technical guidance blade, mulcher, Honda/Quantum air filter, professional Pro 19",
+      "url": "https://www.norlett.no/file/standardmappe-uni/brukermanual-klippo-triumph.pdf"
     }
   ],
   "topics": {
@@ -709,6 +716,96 @@
       "sourceId": "aftermarket-rinab-mulcher-480mm",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "ch-om08-mulcher-installed",
+      "statement": "2008 års KLIPPO-originalmanual anger att mulcherinsatsen är monterad vid leverans på Champion.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2 svensk text, Mulcherinsats, PDF P3",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "ch-om08-mulcher-fasteners",
+      "statement": "2008 års originalmanual anger att mulcherinsatsen monteras eller demonteras med två skruvar uppifrån baktill på klippkåpan.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Mulcherinsats, PDF P3",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ch-om08-height-range",
+      "statement": "2008 års originalmanual anger att Champion-familjens klipphöjd är 3–6 cm och justeras med en spak som ställer alla hjulen samtidigt.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Inställning av klipphöjden, PDF P3",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "ch-om08-airfilter-25h",
+      "statement": "2008 års originalmanual anger för Briggs & Stratton Quantum-motorns luftfilter rengöring var tredje månad eller 25 arbetstimmar och tätare vid damm; insatsen får inte oljas eller blåsas med tryckluft.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Luftrenarservice Quantum, PDF P4",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ch-om08-right-thread-bolt",
+      "statement": "2008 års originalmanual anger vanlig högergängad knivbult och rekommenderar 14 mm ring-/hylsnyckel vid demontering. Ingen numerisk åtdragningsmoment anges här.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivsystem och knivbyte, PDF P4",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ch-om08-blade-flywheel",
+      "statement": "2008 års originalmanual anger att kniven fungerar som svänghjul och att slirning kan orsaka ojämn motorgång, svårstart och baktändning.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivsystem/knivbyte, PDF P4",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "ch-om08-blade-alignment",
+      "statement": "2008 års originalmanual instruerar att markeringen på knivfästet ska vara vänd mot knivens sida för att undvika vibrationer.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivsystem/knivbyte, PDF P4",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ch-om08-spark-gap",
+      "statement": "2008 års originalmanual anger 0,7–0,8 mm som tändstiftets elektrodavstånd i startfelsökningen.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Felsökning, PDF P4",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "ch-om08-oil-frequency",
+      "statement": "2008 års originalmanual föreskriver första oljebytet efter 5 driftstimmar och senare efter 25 timmar för den behandlade motor-/modellgenerationen; motorinstruktionsbok behöver även följas.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Inkörning och första oljebytet, PDF P3",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "ch-om08-season-maint",
+      "statement": "2008 års originalmanual rekommenderar översyn på auktoriserad Klippo-serviceverkstad efter varje säsong och rutinservice var 50:e driftstimme vid yrkesbruk.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Skötselföreskrifter, PDF P4",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -724,6 +821,7 @@
     "Kontrollera om 5032843-01 behåller samma dimensioner och fästhål för samtliga angivna Champion-årgångar; återförsäljarens passformslista är inte original-IPL.",
     "Klippo Champion PNC 965223902 2012-06 och 2013-01 har fyra olika motorgruppsdelnummer (ref 1,2,4,7); kontrollera ursprungliga IPL-bilder och komponentfunktion innan byte. 2013 års motorgrupp saknar kil-ref 6 i återförsäljarens lista; dra ingen slutsats om fysisk frånvaro.",
     "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
-    "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma."
+    "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma.",
+    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd."
   ]
 }
