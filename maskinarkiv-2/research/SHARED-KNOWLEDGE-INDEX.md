@@ -8,7 +8,7 @@
 | STIGA Villa 12 HST | [stiga-villa-12-hst.json](machines/stiga-villa-12-hst.json) | `scoped_ready`: 53 claims och kvarvarande forskningsluckor |
 | Husqvarna Rider 13 | [husqvarna-rider-13.json](machines/husqvarna-rider-13.json) | `needs_research`: påbörjat, inte publiceringsgodkänt för nya ändringar |
 
-| MTD 13BH670F062 | [mtd-13bh670f062.json](machines/mtd-13bh670f062.json) | `needs_research`: 44 källbundna claims; komponent- och revisionskontroll återstår |
+| MTD 13BH670F062 | [mtd-13bh670f062.json](machines/mtd-13bh670f062.json) | `needs_research`: 48 källbundna claims; komponent- och revisionskontroll återstår |
 
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
