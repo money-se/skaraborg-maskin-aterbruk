@@ -88,6 +88,20 @@
       "title": "eReplacementParts MTD 13BH670F062 (2000) model parts diagrams",
       "document": "13BH670F062 (2000) transmission parts section",
       "url": "https://www.ereplacementparts.com/models/lawn-tractor/mtd/id633092/13bh670f062-2000/"
+    },
+    {
+      "id": "dayco-2021-offhighway-belts",
+      "tier": 1,
+      "title": "Dayco Off Highway Belt Catalog 2021",
+      "document": "Dayco OFF HIGHWAY 2021, MTD Lawn Tractor application table, PDF page 14 (index 13)",
+      "url": "https://www.dayco.com/wp-content/uploads/2025/03/OFFHWY-BLT-CAT-0911-Off-Highway-Catalog.pdf"
+    },
+    {
+      "id": "ereplacementparts-2000-mtd",
+      "tier": 2,
+      "title": "eReplacementParts MTD 13BH670F062 2000 OEM parts index",
+      "document": "MTD 13BH670F062 (2000) components listing, deck and drive entries",
+      "url": "https://www.ereplacementparts.com/models/lawn-tractor/mtd/id633092/13bh670f062-2000/"
     }
   ],
   "topics": {
@@ -105,7 +119,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas."
     },
     "E": {
       "state": "gap",
@@ -121,7 +135,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "MTD 2000-korsreferens anger 42-tums Deck G medan 2001-korsreferens anger 38-tums Style F; osäker katalogårs-/revisionsrelation kräver kontroll av fysisk dekkskylt."
+      "note": "MTD 2000-korsreferens anger 42-tums Deck G medan 2001-korsreferens anger 38-tums Style F; osäker katalogårs-/revisionsrelation kräver kontroll av fysisk dekkskylt. Dayco 2021 listar L499, L560, L569 och L574 för modellnumret utan års-/deckvariant. Eftermarknadslista ger inte OEM-kompatibilitet."
     },
     "I": {
       "state": "gap",
@@ -133,7 +147,7 @@
     },
     "K": {
       "state": "gap",
-      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet."
+      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår."
     },
     "L": {
       "state": "gap",
@@ -387,6 +401,60 @@
       "locator": "Transmission assembly, Upper Housing / Input Shaft / Pinion Input 14T",
       "topic": "D",
       "grade": "B"
+    },
+    {
+      "id": "dayco-mtd-blade-belt",
+      "statement": "Dayco katalogiserar rem L499 under BLADE för MTD 13BH670F062; detta är Daycos eget remnummer, inte ett verifierat MTD-OEM-artikelnummer.",
+      "variant": "Dayco applikationslista MTD 13BH670F062; årsmodell och aggregatvariant ej specificerade",
+      "sourceId": "dayco-2021-offhighway-belts",
+      "locator": "PDF sid 14 (0-index 13), MTD / LAWN TRACTOR / 13BH670F062",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "dayco-mtd-engine-deck-belt",
+      "statement": "Dayco katalogiserar rem L560 under ENG. TO DECK för MTD 13BH670F062; detta är ett eftermarknadsnummer utan fastställd årsrevisionsbindning.",
+      "variant": "Dayco applikationslista MTD 13BH670F062; årsmodell och aggregatvariant ej specificerade",
+      "sourceId": "dayco-2021-offhighway-belts",
+      "locator": "PDF sid 14 (0-index 13), MTD / LAWN TRACTOR / 13BH670F062",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "dayco-mtd-deck-belts",
+      "statement": "Dayco listar både L569 och L574 under TO DECK för MTD 13BH670F062, utan att på samma rad avgränsa respektive rem till 38- eller 42-tums aggregat.",
+      "variant": "Dayco applikationslista MTD 13BH670F062; årsmodell och aggregatvariant ej specificerade",
+      "sourceId": "dayco-2021-offhighway-belts",
+      "locator": "PDF sid 14 (0-index 13), MTD / LAWN TRACTOR / 13BH670F062",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "mtd-2000-deckbelt-9540329a",
+      "statement": "Reservdelsåterförsäljaren eReplacementParts listar Deck Belt 954-0329A i 2000 års 13BH670F062-delregister; placering för respektive 38/42-tumsutförande kräver kontroll av sprängskiss.",
+      "variant": "MTD 13BH670F062 katalogversion 2000 hos eReplacementParts",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model parts listing, sök artikelnummer 9540329a",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2000-variable-belt-9540280a",
+      "statement": "eReplacementParts listar Variable-Speed Belt 954-0280A i 2000 års 13BH670F062-delregister; exakt drivlineplacering och maskinrevision är ännu inte bekräftad av MTD-original.",
+      "variant": "MTD 13BH670F062 katalogversion 2000 hos eReplacementParts",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model parts listing, sök artikelnummer 9540280a",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-belt-9540370",
+      "statement": "eReplacementParts listar rem 954-0370 med beteckning Belt-v .715 X 48.5 i 2000 års 13BH670F062-delregister, men tillämpning och korrekt aggregatrevision är ej originalverifierade.",
+      "variant": "MTD 13BH670F062 katalogversion 2000 hos eReplacementParts",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model parts listing, sök artikelnummer 9540370",
+      "grade": "B",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -399,6 +467,8 @@
     "Verifiera MTD 2001 Customer Cross Reference visuellt mot PDF sida 22; textlagret är läst, men fjärrskärmbilden gick inte att hämta och källan är därför grad B.",
     "2000/2001 årsdelningar i reservdelsindex: utred revisionsskillnader innan delnummer extrapoleras.",
     "Kontrollera 2000 års MTD-korsreferens direkt i original-PDF med visuell sida; fjärrvisning ger 403, endast sökindexets PDF-text tillgänglig.",
-    "Verifiera om 2000/2001-deckdifferensen beror på katalogrevision, faktiskt modellutförande eller datakvalitet innan knivar/remmar rekommenderas."
+    "Verifiera om 2000/2001-deckdifferensen beror på katalogrevision, faktiskt modellutförande eller datakvalitet innan knivar/remmar rekommenderas.",
+    "Dayco anger fyra remapplikationer utan att ange vilken av 2000/2001 års 42-/38-tums däck som de olika TO DECK-remmarna tillhör. Kräv original-IPLs före användningsråd.",
+    "Dayco 2021-PDF kunde inte skärmbildskontrolleras i webbläsningen (cache miss); källans textlager ger tillverkarens eftermarknadstabell men ingen MTD-OEM-konfirmation."
   ]
 }
