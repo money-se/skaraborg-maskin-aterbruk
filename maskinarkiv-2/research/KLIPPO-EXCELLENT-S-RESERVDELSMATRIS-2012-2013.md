@@ -75,6 +75,28 @@ En [återförsäljare anger uttryckligen](https://www.reservdelaronline.se/produ
 
 **VARNING:** `578266603` är **inte** `585192603`. Det saknas belagd relation som fastställer att dessa två nyare enheter kan ersätta varandra. Inte heller ska 'passar Excellent S' tolkas som godkänd passform till varje enskild Excellent S utan PNC-/serienummerkontroll.
 
+## 4C. Tillverkarförfattad originalkatalog märkt 2013–2015: källkonflikter
+
+En ny [Klippo EXCELLENT S originalreservdelskatalog märkt 2013–2015](https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Grasklippare/Excellent-S/Excellent-S-20132015.pdf) visar nedanstående artikelnummer. **2013–2015 i filnamnet är inte ett fastställt serienummerintervall** och PNC framgår inte av den hämtade texten. Det är därför fel att radera Wolfswinkels 2013-02-data eller att anta att något av numren är direkt ersättare.
+
+| Funktion / position | OEM-katalog 2013–2015 | Wolfswinkel 2013-02 | Slutsats |
+|---|---|---|---|
+| Transmission ref1/ref22 | **`585192601`** | `585192603` | Två olika listade nummer; ingen verifierad ersättning |
+| Remskiva ref6 | **`578771101`** | `587235401` | Källkonflikt |
+| Remskiveenhet ref8 | `503323002` | `503323002` | Överensstämmer |
+| Snäckväxel ref31 | **`503328105`** | `586467101` | Källkonflikt |
+| Växellådskåpa ref3 | `578265502` | `578265502` | Överensstämmer |
+| Växelhus ref10 | `578342802` | `578342802` | Överensstämmer |
+| Handtagsbussning ref3 | **`503320901`** | `503320902` | Källkonflikt |
+| Övre handtag ref5 | `502907403` | `502907403` | Överensstämmer |
+| Kabel ref9 | `585402004` | `585402004` | Överensstämmer |
+| Chassi ref21 | `505438701` utan remskyddshål / `505438704` med hål | Båda listade | Kontrollera utförande |
+| Motor, knivpaket | `502872201` ref8, `502881310` ref11, `502881710` ref12, `504456402` ref14 | Säljarlista har delvis annan fästesbenämning | Originalkatalog bekräftar kombination av numren, inte fysisk monteringsordning |
+
+[Klippo originalbruksanvisning från 2013-04](https://cdn.toolpal.se/catalog/66db00eef4255a378bae3f17/sv/Bruksanvisning-Klippo-ExcellentSH-Grasklippare.pdf) skiljer Cross-Cut-utrustade Excellent S/SH och Comet från Pro 19 SH med vanlig mulcherkniv. Figurlegender är **inte monteringsinstruktioner**.
+
+**Arbetsregel:** Håll tillverkar-IPL och säljarlistan parallella tills OEM-version/PNC/serienummer kan avgöra vilken lista som är tillämplig. Ingen växellåda eller knivbussning godkänns här för byte baserat enbart på katalogposition.
+
 ## 5. Rekommenderad identifiering före beställning
 
 1. Läs hela modell-/produktnumret från maskinskylten och notera eventuellt serienummer; skilj Excellent S från Excellent, Excellent H och SH.
