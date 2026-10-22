@@ -242,6 +242,13 @@
       "title": "Genuine Factory Parts 737-0300A Benalene Grease 920",
       "document": "Manufacturer parts page, explicit replaces 737-0148; 8 oz tube",
       "url": "https://www.genuinefactoryparts.com/en_US/oil-lubricants-and-fuel-additives/benalene-grease-920-8-oz/737-0300A.html"
+    },
+    {
+      "id": "white-6180163b-manual-visual",
+      "tier": 2,
+      "title": "MTD White manual, RH single speed transaxle 618-0163B",
+      "document": "Illustrated original transaxle diagram: page 48, Shell Darina 15 oz 426 ml, 737-0148",
+      "url": "https://web.ncf.ca/da229/smallengine/mtd-white-manual-OGRM-5002_L145g-l160g-winnie.pdf"
     }
   ],
   "topics": {
@@ -283,7 +290,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept."
+      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept. Bildgranskad MTD/White originalillustration för 618-0163B anger 15 oz (426 ml) Shell Darina 737-0148, medan tidigare teknisk handbok anger 10 oz för sin angivna version. Servicemängd är därmed versionsspecifik och kan inte extrapoleras till varje 13BH670F062."
     },
     "K": {
       "state": "gap",
@@ -1198,6 +1205,15 @@
       "sourceId": "mtd-gfp-7370300a-supersession",
       "locator": "737-0300A product page, 'This part replaces' 737-0148, specification Volume 8 oz",
       "topic": "K"
+    },
+    {
+      "id": "mtd-6180163b-manual-grease-15oz",
+      "topic": "J",
+      "statement": "En bildgranskad reservdelsillustration för MTD:s RH single-speed-transaxel 618-0163B anger Shell Darina-fett, 15 oz (426 ml), artikel 737-0148. Detta står i kontrast till en äldre teknisk handboks 10 oz för en annan presenterad transmissionsrevision; mängden får inte generaliseras till ett oidentifierat 13BH670F062-exemplar.",
+      "variant": "MTD transaxel 618-0163B i White originalillustration, ej fastställd serienummerpassform för 13BH670F062",
+      "grade": "B",
+      "sourceId": "white-6180163b-manual-visual",
+      "locator": "PDF sida 48 (index 47), figur Single Speed Transaxle - RH Model 618-0163B, vänster notis 'Use 15 oz. (426 ml)'"
     }
   ],
   "gaps": [
@@ -1237,6 +1253,7 @@
     "Sök MTD:s egen partsöksida eller original-IPLs som visar att komplett 918-0163D gäller specifikt års-/serienummervarianten 13BH670F062; fastställ även växellådans externa fabrikat.",
     "Slutkontroll av MTD Technical Handbook 770-10579: original-PDF översteg webbläsarens storleksgräns, varför endast sökindexerat textlager kunde verifieras. Hämta och granska relevanta sidor visuellt och identifiera vilket 13BH670F062-serienummerspann som använder 618-0163-serien.",
     "Bekräfta 1996-ändringens effekt på 13BH670F062/2000 innan någon invändig differentialreparation rekommenderas; MTD:s handbok anger att den nyare enheten inte är servicebar.",
-    "Undersök om äldre handbokens Shell Durina 737-0148 och nuvarande Benalene 920 737-0300A gäller samma transaxelrevision samt korrekt mängd för 13BH670F062 innan någon smörjningsprocedur publiceras."
+    "Undersök om äldre handbokens Shell Durina 737-0148 och nuvarande Benalene 920 737-0300A gäller samma transaxelrevision samt korrekt mängd för 13BH670F062 innan någon smörjningsprocedur publiceras.",
+    "Fastställ om 13BH670F062 faktiskt har transaxelrevision 618-0163B eller annan 918-0163D-familjevariant före val av fettmängd; bildgranskade 15 oz får inte ersätta handbokens 10 oz generellt."
   ]
 }
