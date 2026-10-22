@@ -27,7 +27,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "ENGINE MOUNT ASSEMBLY i F-030768L s.12 visar tank 690289, avgasrör 690541/690542, ljuddämpare 093259, choke 690401, gasreglage 093165 och värmesköld 1001456–701. Exakt motormodell finns inte i denna tabell."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -333,6 +333,171 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-cap",
+      "statement": "Tanklock anges med artikelnummer 092317.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-tank",
+      "statement": "Bränsletank anges med artikelnummer 690289.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-line",
+      "statement": "Bränsleledning, 18 tum anges med artikelnummer 7601033.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 15",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-fuel-clamp",
+      "statement": "Slangklämma anges med artikelnummer 095197.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 16",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-oil-drain-pipe",
+      "statement": "Oljeavtappningsrör anges med artikelnummer 092279.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 18",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-oil-drain-cap",
+      "statement": "Lock till oljeavtappning anges med artikelnummer 021651.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 19",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-stack-pulley",
+      "statement": "Dubbelremskiva anges med artikelnummer 690439 Z.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 22",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-exhaust-right",
+      "statement": "Höger avgasrör anges med artikelnummer 690541.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-exhaust-left",
+      "statement": "Vänster avgasrör anges med artikelnummer 690542.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-muffler-mount",
+      "statement": "Ljuddämparfäste anges med artikelnummer 690537E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-muffler",
+      "statement": "Ljuddämpare anges med artikelnummer 093259.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 32",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-muffler-bracket",
+      "statement": "Ljuddämparstag anges med artikelnummer 690538E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 33",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-choke",
+      "statement": "Chokereglage anges med artikelnummer 690401.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-throttle",
+      "statement": "Gasreglage anges med artikelnummer 093165.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 37",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-engine-heat-shield",
+      "statement": "Värmesköldsenhet anges med artikelnummer 1001456–701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "ENGINE MOUNT ASSEMBLY, tryckt sida 12, position 38",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -342,6 +507,7 @@
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
-    "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll."
+    "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll.",
+    "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning."
   ]
 }
