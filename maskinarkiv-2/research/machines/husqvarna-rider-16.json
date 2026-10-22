@@ -466,6 +466,13 @@
       "title": "Husqvarna Rider 16 C operator manual 2008-12",
       "document": "Technical data 16 C on printed page 39, model distinct from Rider 16",
       "url": "https://content.tdr.dss.husqvarnagroup.net/pub000038635/doc000071097"
+    },
+    {
+      "id": "husqvarna-official-transmission-oil-faq-2015",
+      "tier": 1,
+      "title": "Husqvarna official FAQ hydrostatic transmission oil (updated 2015-06-02)",
+      "document": "Swedish Rider 16 H and related Riders: 10W-30 non-synthetic, fluid change authorized Husqvarna service dealer",
+      "url": "https://husqvarna.custhelp.com/app/answers/detail/a_id/387/~/maintenance---what-type-of-oil-is-used-in-the-hydrostatic-transmissions%3F"
     }
   ],
   "topics": {
@@ -2826,6 +2833,60 @@
       "sourceId": "husqvarna-rider16-workshop-2003-02",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch50-2015-transmission-service-advisory",
+      "statement": "Husqvarnas officiella FAQ uppdaterad 2015-06-02 anger för svenska Rider 16 (H) 10W-30 icke-syntetisk motorolja i hydrostaten och framhåller att oljebytet bör göras av auktoriserad Husqvarna-verkstad. Beskedet kompletterar, men upphäver inte i sig, äldre PNC-specifika verkstadshandböcker.",
+      "variant": "Rider 16 OEM workshop 2003-02 eller Husqvarna officiellt transmissionsolje-FAQ 2015; PNC-specifikt",
+      "locator": "Husqvarna FAQ #387, published 2006-09-09 updated 2015-06-02, Swedish Riders 16 (H), dealer recommendation",
+      "sourceId": "husqvarna-official-transmission-oil-faq-2015",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch50-2003-deck-pressure",
+      "statement": "Rider 16:s OEM-verkstadshandbok 2003-02 anger att aggregatets marktryck ska justeras till 12–15 kg och att fjädrarna på båda sidor ska vara lika spända. Kontrollera först däcktryck 60 kPa.",
+      "variant": "Rider 16 OEM workshop 2003-02 eller Husqvarna officiellt transmissionsolje-FAQ 2015; PNC-specifikt",
+      "locator": "PDF P48 'Checking and adjusting mower deck ground pressure', 12–15 kg, tyres 60 kPa",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch50-2003-deck-rake",
+      "statement": "Rider 16 verkstadshandbok 2003-02 anger att klippaggregatets bakkant vid mätning ska ligga 2–4 mm över framkanten. För Rider 16 justeras detta med parallelstagets längd.",
+      "variant": "Rider 16 OEM workshop 2003-02 eller Husqvarna officiellt transmissionsolje-FAQ 2015; PNC-specifikt",
+      "locator": "PDF P48–P49 'Checking and adjusting parallelism of mowing deck', Rider 16",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch50-2003-deck-adjust-retest",
+      "statement": "OEM-verkstadshandbok 2003-02 instruerar att parallellitet och höjd ska kontrolleras och justeras efter byte av klippaggregat; höjdinställning görs efter kontroll av marktryck. Detta gäller handbokens utförande.",
+      "variant": "Rider 16 OEM workshop 2003-02 eller Husqvarna officiellt transmissionsolje-FAQ 2015; PNC-specifikt",
+      "locator": "PDF P49–P50, 'Adjusting cutting height area' / 'IMPORTANT INFORMATION' on deck change",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch50-2003-seat-safety",
+      "statement": "Rider 16:s 2003-verkstadshandbok anger startspärr om aggregatet inte är upplyft eller hydrostatpedalerna inte står i neutralläge. Föraren behöver enligt den dokumenterade testsekvensen inte sitta på sitsen vid start; säkerhetssystemets funktion ska kontrolleras dagligen.",
+      "variant": "Rider 16 OEM workshop 2003-02 eller Husqvarna officiellt transmissionsolje-FAQ 2015; PNC-specifikt",
+      "locator": "PDF P62, 'Inspecting safety system', Rider 13 / Rider 16",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch50-2003-tyre-pressure-option",
+      "statement": "Rider16-verkstadshandbok 2003-02 anger normalt 60 kPa på alla däck, med möjlighet till 40 kPa bak för bättre drivgrepp och högsta angivna tryck 100 kPa. Detta är äldre tillverkaranvisning, inte allmän rekommendation utanför handbokens maskinutförande.",
+      "variant": "Rider 16 OEM workshop 2003-02 eller Husqvarna officiellt transmissionsolje-FAQ 2015; PNC-specifikt",
+      "locator": "PDF P14 Wheels tyre pressure 60 kPa / rear 40 kPa / max 100 kPa",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -2935,6 +2996,7 @@
     "Rider 16 C (966830601) har separat 2010-IPL och 2008-12 OM: håll isär Rider 16, Rider 16 C och Rider 16 H i PNC-bundna korsreferenser.",
     "OEM-verkstadshandbok 2003 anger Rider16 motorolja 1,4 L, OM 2002 anger 1,2 L. Lös via Briggs modell-/typ-/kodspecifik manual innan fyllmängd rekommenderas.",
     "Combi 112 klippbredd anges som 1220 mm i 2003-verkstadshandbok trots benämningen 112; jämför med andra tillverkarutgåvor och skilj nominell aggregatklass från faktisk klippbredd.",
-    "Rider16 K46 2003 verkstadshandbok anger 2,2 L SAE10W/30 och 50/300h vid proffsanvändning; kontrollera senare Tuff Torq-undervariant samt Husqvarnas servicebulletiner innan universell rekommendation."
+    "Rider16 K46 2003 verkstadshandbok anger 2,2 L SAE10W/30 och 50/300h vid proffsanvändning; kontrollera senare Tuff Torq-undervariant samt Husqvarnas servicebulletiner innan universell rekommendation.",
+    "Husqvarna FAQ uppdaterad 2015 anger 10W-30 icke-syntetisk för svenska Rider 16(H) och auktoriserat verkstadsbyte. Jämför K46/K55 exakt modellnummer och senare servicebulletiner före modern generell oljerekommendation."
   ]
 }
