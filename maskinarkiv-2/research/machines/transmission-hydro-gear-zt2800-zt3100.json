@@ -3422,6 +3422,150 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-center-disassemble-prereq",
+      "statement": "Demontering av mittsektionen kräver att föregående demonteringssteg från manualens sida 14 och framåt är utförda; avlägsna därefter mittsektionens monteringsskruvar pos.27.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 34, Figure 29, Disassembly steg 1–2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-unit-lift",
+      "statement": "Mittsektion, motoraxel pos.73, motorcylinderblock pos.64 och bromsaxel pos.101 lyfts ur huvudkåpan som en gemensam enhet.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 34, Figure 29, Disassembly steg 3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-thrust-bearing-60",
+      "statement": "Motorcylinderblockets axiallagersats pos.60 tas ur efter att mittsektionen demonterats och ska tillbaka in i huvudkåpan innan motoraxeln sätts tillbaka.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 34, Figure 29, Disassembly steg 4 och Assembly steg 3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-bypass-puck",
+      "statement": "En bypasspuck ligger under motorcylinderblock pos.64; illustreras som pos.22 på manualens sida 38 och får inte förbises vid isärtagning.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 34, Figure 29, Note",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-motor-block-piston",
+      "statement": "Vid återmontering skjuts motorcylinderblock pos.64 på motoraxel pos.73 med kolvarna riktade mot axiallagersats pos.60.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 34, Figure 29, Assembly steg 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-machineface-scratches",
+      "statement": "Mittsektionens bearbetade anliggningsytor ska undersökas efter repor och motoraxeln efter slitage; skadade komponenter ska bytas innan återmontering.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 34, Figure 29, Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-thrust-race-inspect",
+      "statement": "Inspektera axiallagrets löpbanor efter slitage eller skador och lägg ett tunt oljeskikt på mittsektionens löpytor före återmontering.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 34, Figure 29, Inspection och Assembly steg 2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-check-plug-location",
+      "statement": "Backventilpluggar pos.24 och pos.25 har var sin bestämd port och ska återinstalleras exakt i den port de demonterades från; markera placeringen före demontering.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 37, Figure 33, Important",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-check-plug-seals",
+      "statement": "Pluggtätningarna pos.26 kasseras efter demontering och ersätts med nya innan backventilpluggarna återmonteras.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 37–38, Figure 33–34, Disassembly och Assembly",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-charge-relief-order",
+      "statement": "Laddtrycksventilsats pos.202 består i manualens serviceillustration av kula, fjäder och tvärstift; vid återmontering placeras kula, sedan fjäder och sist tvärstift.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 37, Figure 33, Charge Relief Kit Disassembly/Assembly",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-valve-spring-safety",
+      "statement": "Vid demontering av laddtrycksfjädern varnar manualen för fjäderkraft; fjädern hålls intryckt med ren platt skruvmejsel medan tvärstiftet frigörs.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 37, Figure 33, Charge Relief Kit steg 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-thread-port-debris",
+      "statement": "Mittsektionens gängade portar och kanaler ska vara helt fria från lösa partiklar och skräp innan backventilkomponenter återmonteras.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 37, Figure 33, Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-noncharged-rubber-plug",
+      "statement": "För ZT-2800 utan laddpump och utan laddtrycksventil visar manualen gummiplugg pos.16 i stället för anslutningsrör till laddpumpen; detta skiljer laddad och oladdad mittsektionskonfiguration.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 37, Center Section—Non-Charge figur",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cylinder-check-running-face",
+      "statement": "Cylinderblockens löpytor undersöks efter repor och skärmärken; komponenter med sådana skador byts vid behov.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 38, Figure 35, Cylinder Blocks",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cylinder-piston-seats",
+      "statement": "Vid isärtagning av pump- och motorcylinderblock ska kolvar, kolvsäten och fjädrar hållas identifierade och kontaktytorna skyddas från mekaniska skador.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 38, Figure 35",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cylinder-oil-all-components",
+      "statement": "Samtliga komponenter i cylinderblocken förses med tunt oljeskikt före återmontering och färdigmonterade block hålls åt sidan tills mittsektion och svängskiva är redo.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 enligt original BLN-52441 P25 (april 2023); särskilj version med/utan laddpump och kontrollera BOM",
+      "locator": "Tryckt sida 38, Figure 35, Cylinder Blocks",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
