@@ -446,6 +446,96 @@
       "sourceId": "oem-klippo-2018-manual-829-002",
       "grade": "A",
       "topic": "M"
+    },
+    {
+      "id": "pro-om08-sideguard",
+      "statement": "Originalmanualens särskilda tillägg för KLIPPO Pro 19 GCV anger sidoskydd som en egenskap som skiljer yrkesmaskinen från enklare modeller.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Tillägg Pro 17/Pro19, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-om08-galvanized",
+      "statement": "Samma 2008-tillägg beskriver galvaniserade utsatta delar och avvibrerat handtag för Pro 17 och Pro 19 GCV:s yrkesutföranden.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Tillägg Pro 17/Pro19, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-om08-reinforced-parts",
+      "statement": "Originalmanualens yrkestillägg anger förstärkta komponenter och kraftigare material på Pro 17/Pro 19 GCV jämfört med enklare modeller.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Tillägg Pro 17/Pro19, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-om08-mulcher-loose",
+      "statement": "2008 års originalmanual anger att mulcherinsatsen för Pro 19 GCV följer med lös, till skillnad från Champion och Excellent där den sitter monterad vid leverans.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Mulcherinsats, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "pro-om08-blade-not-crosscut",
+      "statement": "2008 års KLIPPO-originalmanual anger vanlig mulcherkniv för Pro 19 GCV medan Cross-Cut-kniven beskrivs för Excellent-familjen; ingen Cross-Cut ska tillskrivas Pro 19 GCV av denna källa.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivsystem, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "pro-om08-airfilter-gcv",
+      "statement": "2008 års originalmanual anger Honda GCV135-luftfiltret rengörs var tredje månad/25 arbetstimmar, oftare vid damm, med försiktig knackning och utan olja/tryckluft.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Luftrenarservice Honda GCV135, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "pro-om08-spark-gap",
+      "statement": "2008 års originalmanual anger 0,7–0,8 mm elektrodavstånd vid tändstiftskontroll i felsökning för Pro 19 GCV-generationen.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Felsökning, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "pro-om08-torque-unspecified",
+      "statement": "2008-originalmanualen beskriver knivbult som högergängad och 14 mm nyckel vid lossning, men anger inget siffermoment. 2018 års 70 Nm ska inte kopieras bakåt utan separat tillverkarstöd.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivbyte, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "pro-om08-service-professional",
+      "statement": "Originalmanualen rekommenderar rutinkontroll var 50:e drifttimme vid yrkesbruk och översyn efter säsongen. Gäller manualens Pro 19 GCV-generation.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Skötselföreskrifter, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "pro-om08-oil-change",
+      "statement": "Originalmanualen 2008 anger första oljebyte efter 5 driftstimmar och därefter efter 25 driftstimmar för manualens maskiner; Honda-motorns egen bok kan ha ytterligare specifikationer.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Inkörning/oljebyte, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -462,6 +552,7 @@
     "Wolfswinkels separata nederländska register för 965229001 bekräftar modellbindningen av artikelnummerlistan; fortfarande saknas original-IPL och verifierade sprängskisspositioner.",
     "Katalogpositionerna 43–44 och 51–53 är nu sekundärt källbundna. Original KLIPPO/Husqvarna IPL och exakt serienummerintervall saknas fortfarande.",
     "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
-    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam."
+    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
+    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd."
   ]
 }
