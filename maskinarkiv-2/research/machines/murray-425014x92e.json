@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "slug": "murray-425014x92e",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Första källbundna forskningspaketet för Murray 425014X92E / 96014000100. Originaldokument återgivet på manualportal; ingen artikellåsning eller publicering. Tillverkaroriginal för många äldre modeller är ej tillgängligt via nuvarande Murray-sökning.",
+  "sources": [
+    {
+      "id": "murray-official-manual-search",
+      "tier": 1,
+      "title": "Murray manufacturer support – manuals and model identification",
+      "document": "Murray Manuals / Find Your Murray Model Number",
+      "url": "https://www.murray.com/en-US/support/manuals"
+    },
+    {
+      "id": "murray-425014x92e-original-2005",
+      "tier": 2,
+      "title": "Murray 425014X92E (96014000100) Instruction Book, manufacturer document mirrored by ManualsLib",
+      "document": "98339, 03.21.05, 52 pages",
+      "url": "https://www.manualslib.com/manual/506831/Murray-96014000100.html"
+    },
+    {
+      "id": "murray-425014x92e-deck-list",
+      "tier": 2,
+      "title": "Murray 425014X92E mower deck parts list (manufacturer document mirror)",
+      "document": "98339, MOWER DECK, printed p.47",
+      "url": "https://www.manualslib.com/manual/506831/Murray-96014000100.html?page=47"
+    },
+    {
+      "id": "murray-425014x92e-maintenance",
+      "tier": 2,
+      "title": "Murray 425014X92E engine maintenance page (manufacturer document mirror)",
+      "document": "98339, printed p.20",
+      "url": "https://www.manualslib.com/manual/506831/Murray-96014000100.html?page=20"
+    },
+    {
+      "id": "murray-425014x92e-drive-secondary",
+      "tier": 3,
+      "title": "Murray 425014X92E manual text index with transaxle identification",
+      "document": "Murray 425014X92E specs, ground drive parts p.41",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/1"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Modellidentifiering för 425014X92E fastlagd från dokumentets omslag; övriga Murray-generationer och produktvarianter kvarstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Traktorklass och separat aggregat redovisas; chassi och produktfamilj kräver ytterligare dokumentkontroll."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Motorns fullständiga Model/Type/Code saknas. Maskinmanualens underhållsvärden får inte överföras till andra motorer."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Manualen innehåller Ground Drive och transaxelavsnitt; exakt transaxelmodell finns som preliminär sekundär uppgift men kräver granskning mot originalbild."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Reservdelskatalogens styrnings- och chassigrupper identifierade men komponentnummer ännu inte fullt extraherade."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Originalmanualen innehåller växelspak samt kopplings-/bromspedal; fullständig reglageverifiering kvarstår."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "ROS och förarövervakning behandlas i maskinmanualen; fullständig elkretsspecifik verifiering kvarstår."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "42-tums aggregat belagt för just 425014X92E; exakta knivkombinationer och kompatibiliteter kräver visuell ritningskontroll."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Manualen innehåller backkörnings- och sluttningstexter; tillbehörslista och draggränser kvarstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Motoroljeintervall och servicepunkter extraherade ur manual för 425014X92E; motorkod saknas."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Maskinmanualen innehåller integrerade reservdelsgrupper; exakta positioner måste vid behov dubbelkontrolleras mot tabelluppställning."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Identifieringsråd belagt men inget versionsbundet värderingsunderlag eller dokumenterad statistik över typfel."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Källor för identifiering och service finns; fråga/svar behöver byggas på kontrollerade modellpåståenden."
+    }
+  },
+  "claims": [
+    {
+      "id": "murray-model-tag-location",
+      "statement": "Murray anger att modellnummer på åkgräsklippare finns bak på maskinen eller under sitsen.",
+      "variant": "Murray åkgräsklippare generellt",
+      "locator": "Find Your Murray Model Number, riding lawn mowers",
+      "sourceId": "murray-official-manual-search",
+      "grade": "A",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-official-cutoff",
+      "statement": "Murrays manualsida anger att support för modeller tillverkade 2005 eller tidigare inte är tillgänglig i den aktuella manualsökningen.",
+      "variant": "Murray-modeller tillverkade 2005 eller tidigare",
+      "locator": "Manuals > Operator's Manual FAQ notice",
+      "sourceId": "murray-official-manual-search",
+      "grade": "A",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-model-identification",
+      "statement": "Instruktionsbokens omslag identifierar traktorn som Murray 425014X92E med ytterligare produktbeteckning 96014000100.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "Omslag, tryckt sida 1",
+      "sourceId": "murray-425014x92e-original-2005",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-manual-revision",
+      "statement": "Murrays instruktionsbok för 425014X92E anger dokumentnummer 98339 och datum 03.21.05.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "Omslag, dokumentfot tryckt sida 1",
+      "sourceId": "murray-425014x92e-original-2005",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-original-parts-assemblies",
+      "statement": "Samma instruktionsbok omfattar elschema och reservdelsavsnitt för el, chassi, Ground Drive, styrning, motorinstallation, hjul, lyft och klippaggregat.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "Innehållsförteckning, tryckta sidor 35–47",
+      "sourceId": "murray-425014x92e-original-2005",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-42inch-deck",
+      "statement": "Reservdelsförteckningen till 425014X92E beskriver Mower Deck Assembly som 42 tum.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "MOWER DECK, tryckt sida 47, assembly description",
+      "sourceId": "murray-425014x92e-deck-list",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-gearshift-clutch",
+      "statement": "Bruksanvisningen till 425014X92E beskriver en gearshift lever för hastighet och riktning samt en clutch/brake-pedal.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "KNOW YOUR TRACTOR, tryckt sida 12",
+      "sourceId": "murray-425014x92e-original-2005",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-ros",
+      "statement": "Murrays manual behandlar Reverse Operation System (ROS) och Operator Presence System; detta gäller den dokumenterade traktorn, inte alla Murray-årsmodeller.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "Tryckta sidor 14 och 18 (ROS/Operator Presence System)",
+      "sourceId": "murray-425014x92e-original-2005",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-slope-limit",
+      "statement": "Instruktionsboken varnar för körning uppför eller nedför lutningar över 15 grader och för körning tvärs över sluttning.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO OPERATE ON HILLS, tryckt sida 15",
+      "sourceId": "murray-425014x92e-original-2005",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-oil-25h",
+      "statement": "Instruktionsboken anger byte av motorolja efter 25 drifttimmar eller minst årligen om maskinen inte används 25 timmar per år.",
+      "variant": "425014X92E / 96014000100, motorutförande enligt denna instruktionsbok",
+      "locator": "ENGINE LUBRICATION / TO CHANGE ENGINE OIL, tryckt sida 20",
+      "sourceId": "murray-425014x92e-maintenance",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-oil-check",
+      "statement": "Instruktionsboken anger kontroll av motoroljenivå före start och efter åtta drifttimmar.",
+      "variant": "425014X92E / 96014000100, motorutförande enligt denna instruktionsbok",
+      "locator": "ENGINE LUBRICATION, tryckt sida 20",
+      "sourceId": "murray-425014x92e-maintenance",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-api-oil",
+      "statement": "Instruktionsboken anger att motorolja ska uppfylla API-serviceklass SG–SL; viskositetsval måste kontrolleras separat.",
+      "variant": "425014X92E / 96014000100, motorutförande enligt denna instruktionsbok",
+      "locator": "TO CHANGE ENGINE OIL, tryckt sida 20",
+      "sourceId": "murray-425014x92e-maintenance",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-spark-service",
+      "statement": "Instruktionsboken anger byte av tändstift vid klippsäsongens början eller efter 100 timmar, det som inträffar först.",
+      "variant": "425014X92E / 96014000100, motorutförande enligt denna instruktionsbok",
+      "locator": "SPARK PLUG(S), tryckt sida 20",
+      "sourceId": "murray-425014x92e-maintenance",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-fuel-filter-service",
+      "statement": "Instruktionsboken anger byte av inline-bränslefilter en gång per säsong, och vid igensättning.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "IN-LINE FUEL FILTER, tryckt sida 20",
+      "sourceId": "murray-425014x92e-maintenance",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-transaxle-unconfirmed",
+      "statement": "Ett sekundärt textindex återger Peerless 206-544C under Ground Drive; kontroll mot originalets bild/tabell krävs innan uppgiften används vid beställning.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "GROUND DRIVE PARTS LIST, tryckt sida 41, indexutdrag",
+      "sourceId": "murray-425014x92e-drive-secondary",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-cooling-clean",
+      "statement": "Instruktionsboken varnar för att nedsmutsat kylluftsgaller kan överhetta motorn och beskriver rengöring.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CLEAN AIR SCREEN, tryckt sida 20",
+      "sourceId": "murray-425014x92e-maintenance",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-water-cleaning",
+      "statement": "Murray avråder från spolning med slang eller högtryckstvätt om inte motor och transmission skyddas mot vatteninträngning.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "CLEANING, tryckt sida 20",
+      "sourceId": "murray-425014x92e-maintenance",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Fullständigt motor Model/Type/Code för dokumenterade exemplar och motorspecifikt handbokssamband.",
+    "Kontrollera Peerless 206-544C mot originalets layout och tillverkarens transaxelplåt; sekundär indexuppgift är inte beställningsbevis.",
+    "Kontroll av drivremmar, knivar och mandrel-delnummers exakta tabellpositioner mot tydlig originalbild.",
+    "Fullständig elschemakontroll, interlocks och komponentkoder per revision.",
+    "Flera Murray-modellfamiljer och europeiska varianter saknas ännu i forskningsbanken.",
+    "Inget publiceringsbeslut; samtliga ämnesområden A–M är ännu ofullständiga."
+  ]
+}
