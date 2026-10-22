@@ -18,6 +18,13 @@
       "title": "Hydro-Gear 321-0510 illustrated parts breakdown, Husqvarna document archive",
       "document": "HYDRO-GEAR TRANSAXLE MODEL NO. 321-0510 (FHP PART NO. 170061), 2001-01-25",
       "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000017215/doc000037552/IPL/4Yof6O0qSpZ5md6A45X_Ve7Nsiw"
+    },
+    {
+      "id": "sgarden-3210510-2001-03-parts",
+      "tier": 2,
+      "title": "sGarden parts register Hydro-Gear 321-0510 2001-03",
+      "document": "REPAIR PARTS – HYDRO GEAR TRANSAXLE 321-0510, 2001-03",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/3323/REPAIR_PARTS"
     }
   ],
   "topics": {
@@ -692,6 +699,28 @@
       "topic": "D",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-later-list-complete-900",
+      "statement": "Reservdelslistan för Hydro-Gear 321-0510 daterad 2001-03 visar position 900 komplett transmission som 532170061, och dess CORRECTION-rad upprepar 532170061. Detta ger ett separat katalogstöd för korrigeringsnumret men är inte en verifierad Husqvarna/Hydro-Gear-ersättningsbulletin.",
+      "variant": "Hydro-Gear 321-0510; Jonsered jonsered-lt2115cma-96061008301",
+      "locator": "sGarden REPAIR PARTS, 321-0510 2001-03, row 900 and CORRECTION",
+      "sourceId": "sgarden-3210510-2001-03-parts",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-later-list-filter-45-46",
+      "statement": "Reservdelslistan för Hydro-Gear 321-0510 daterad 2001-03 visar artikel 532170445 på både position 45 och 46 samt på position 125. Detta stämmer med det äldre originaldokumentets anmärkning att 45 och 46 ersätts av filterenhet 125, men bevisar inte kompatibilitet utan transaxelidentifiering.",
+      "variant": "Hydro-Gear 321-0510; Jonsered jonsered-lt2115cma-96061008301",
+      "locator": "sGarden REPAIR PARTS, 321-0510 2001-03, rows 45, 46 and 125",
+      "sourceId": "sgarden-3210510-2001-03-parts",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -705,6 +734,7 @@
     "2004-06 och 2006-06 delar enligt DRIVE Hydro-Gear 321-0510, Noram 532 18 03-54 och rem 532 17 01-40 men katalogför skilda reglagestänger och kopplingslänkar. Bildkontroll och passformsanalys återstår.",
     "Hydro-Gear 321-0510-reservdelslista daterad 2001 anger 20W-50 OIL 72.8 oz som katalogpost (key 57), men styrker inte automatisk oljebytesrekommendation, aktuell oljespecifikation, serviceintervall eller exakt transaxelrevision installerad i varje Jonsered-maskin. Servicemanual för 310-0510 gäller annan modellbeteckning och får inte ärvas utan uttrycklig modelltäckning.",
     "Servicemanualen BLN-51260 täcker uttryckligen 310-0510/-0610/-0710 och har inte styrkts för Hydro-Gear 321-0510. Oljebytesprocedur, luftning, serviceintervall och åtdragningsmoment kan därför inte övertas från den manualen. Kontrollera modell/serienummer på aktuell transaxel och begär korrekt tillverkarunderlag.",
-    "Hydro-Gear 321-0510 IPL:s key 900 anger 532171613 medan efterföljande 'Correction' anger 532170061. Denna korrigeringsrad får inte automatiskt tolkas som en ersättningskedja; kontroll mot originalbild, utgåvenummer och Hydro-Gear/Husqvarna OEM krävs. Aktuell serviceprocedur för 321-0510 fortsatt obekräftad."
+    "Hydro-Gear 321-0510 IPL:s key 900 anger 532171613 medan efterföljande 'Correction' anger 532170061. Denna korrigeringsrad får inte automatiskt tolkas som en ersättningskedja; kontroll mot originalbild, utgåvenummer och Hydro-Gear/Husqvarna OEM krävs. Aktuell serviceprocedur för 321-0510 fortsatt obekräftad.",
+    "Senare 2001-03-lista hos sGarden stöder katalognumret 532170061 för komplett 321-0510 (key 900) och 532170445 för filterpositionerna 45/46/125, men utgör inte en original OEM-ersättningsbulletin. Kontrollera mot fysisk transaxelplåt och tillverkarens aktuella reservdelssupport före beställning."
   ]
 }
