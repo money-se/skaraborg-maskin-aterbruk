@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "slug": "husqvarna-rider-16",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Ny Husqvarna Rider 16-forskningspost baserad på originalmanual 2005-01. Inga antaganden om Rider 16 H eller Rider 16 C/AWD, ingen artikelpublicering.",
+  "sources": [
+    {
+      "id": "husqvarna-rider16-2005-01-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 Operator's Manual",
+      "document": "OM Rider 16 2005-01; pub000027426/doc000053788",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000027426/doc000053788"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Originalmanual 2005-01 ger inledande belägg, men området är ännu inte fullständigt källgranskat per produktnummer eller revision."
+    }
+  },
+  "claims": [
+    {
+      "id": "rider16-2005-identity",
+      "statement": "Manualen är uttryckligen för Husqvarna Rider 16 (utgåva 2005-01).",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Omslag, PDF-sida 1",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2005-serial",
+      "statement": "Typskylten finns under sätet framtill till vänster och anger typbeteckning, tillverkarens typnummer och maskinens serienummer.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Tryckt sida 3, PDF-sida 5",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "rider16-2005-engine-identification",
+      "statement": "Motorns Model/Type/Code identifieras enligt manualen på ventilkåpan; dessa nummer ska användas för exakt motorreservdelsidentifiering.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Tryckt sida 3, PDF-sida 5",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2005-transmission-identification",
+      "statement": "Hydrostatens identifikationsdekal finns på transmissionshuset vid vänster drivaxel och anger K-typbeteckning, s/n och p/n.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Tryckt sida 3, PDF-sida 5",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2005-engine-2005",
+      "statement": "Tekniska data för Rider 16 anger Briggs & Stratton motor 282H070110E1 och cylindervolym 465,7 cm³; detta gäller manualutgåvan och är inte en universell årsmodellstabell.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2005-engine-oil-2005",
+      "statement": "Tekniska data anger motorolja SAE 5W/30 eller SAE 10W/30 klass SJ-CF och oljemängd 1,4 liter.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2005-transmission-2005",
+      "statement": "Tekniska data anger Tuff Torq K46 och transmissionsolja SAE 10W/30 klass SF-CC; exakt transaxelundervariant måste identifieras på märkningen.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2005-electrical-2005",
+      "statement": "Tekniska data anger 12 V system med negativ jord, 12 V 24 Ah batteri samt Champion QC12YC med elektrodavstånd 0,75 mm.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider16-2005-fuel-2005",
+      "statement": "Tekniska data anger bränsletank på 7 liter och blyfri bensin minst 85 oktan enligt manualens specifikation; kontrollera bränslekvalitet mot aktuella rekommendationer innan användning.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2005-deck-2005",
+      "statement": "Tekniska data anger tvåknivars BioClip 900 mm samt treknivars Combi 1030/1120 mm som klippaggregattyper. Uppgiften verifierar inte reservdels- eller monteringspassform över revisioner.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2005-cut-height-2005",
+      "statement": "Tekniska data anger nio klipphöjdslägen, 40–90 mm respektive 45–95 mm (BioClip).",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2005-tyres-2005",
+      "statement": "Tekniska data anger däck 16 x 6.50 x 8 och lufttryck 60 kPa (0,6 bar) fram och bak.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Technical Data, tryckt sida 42, PDF-sida 44",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2005-slope-2005",
+      "statement": "Säkerhetsanvisningarna anger att maskinen inte ska användas på lutningar större än 15° och att klippning ska ske uppför/nedför, inte på tvären.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Driving on slopes, tryckt sida 7, PDF-sida 9",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "rider16-2005-towing-2005",
+      "statement": "Hydrostatutrustad Rider 16 ska enligt manualen vid behov endast bogseras kort sträcka och med låg hastighet för att undvika transmissionsskada.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Introduction > Towing, tryckt sida 2, PDF-sida 4",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "rider16-2005-pre-delivery-deck-2005",
+      "statement": "Leveransservice anger 12–15 kg marktryck via lyftfjädrar för BioClip samt att aggregatets bakkant ska vara omkring 2–4 mm högre än framkanten; kontroll kräver rätt aggregatversion.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Service journal > Pre-delivery service, tryckt sida 44, PDF-sida 46",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2005-transmission-maintenance-2005",
+      "statement": "Manualen innehåller en särskild kontroll av transmissionens oljenivå på tryckt sida 39; detta verifierar inte ett generellt bytesintervall.",
+      "variant": "Husqvarna Rider 16, manualutgåva 2005-01; exakt produktnummer ej fastställt",
+      "locator": "Contents: Checking transmission oil level, tryckt sida 39 (PDF-sida 41)",
+      "sourceId": "husqvarna-rider16-2005-01-owner",
+      "grade": "A",
+      "topic": "J"
+    }
+  ],
+  "gaps": [
+    "Fastställ Husqvarnas exakta produktnummer och serienummerintervall som hör till manualutgåvan 2005-01.",
+    "Kontrollera motor Model/Type/Code på identifierad fysisk version innan reservdelsnummer anges.",
+    "Identifiera fullständig Tuff Torq K46-undervariant samt Husqvarna-original-IPLs och reservdelsnummer.",
+    "Separera Rider 16, Rider 16 H, Rider 16 C och Rider 16 C AWD i egna versionsbundna fakta.",
+    "Kontrollera originalillustrationer, underhållstabeller och exakta serviceintervall före reparationsråd.",
+    "Verifiera aggregatens modellnummer, remmar, knivar och faktisk kompatibilitet via versionsspecifik IPL.",
+    "Originalmanualens uppgifter om bränsle/olja är historiska; identifiera eventuella senare tillverkarrevisioner."
+  ]
+}
