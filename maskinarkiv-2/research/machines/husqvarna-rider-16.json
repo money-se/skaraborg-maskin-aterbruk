@@ -2420,6 +2420,96 @@
       "sourceId": "husqvarna-rider16-965161601-2007-06-ipl",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-deck-401-and-501",
+      "statement": "Husqvarnas Rider 16 PNC 965161601 IPL 2010-07 listar två separata kompletta klippaggregat: 965078401 i MOWER DECK-sektionen på PDF-sida 44 och 965078501 på PDF-sida 46. Katalogen anger inte att de är ömsesidigt utbytbara.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P44 ref 9 965078401 CUTTING DECK; P46 ref 9 965078501 CUTTING DECK",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-deck401-2010-internal-shell",
+      "statement": "2010 års Rider 16 IPL skiljer komplett aggregat 965078401 från aggregatskal 544112903 och 544112801 i den tillhörande reservdelsgruppen. Dessa skal är inte samma sak som komplett aggregat 965078401.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P44 ref 9 965078401; P50 ref 1 544112903, ref 2 544112801",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-deck501-2010-internal-shell",
+      "statement": "2010 års Rider 16 IPL listar komplett aggregat 965078501 separat och redovisar aggregatskal 544113003 samt 544113101 i dess tillhörande reservdelsgrupp. Delnumren får inte likställas med komplett aggregat.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P46 ref 9 965078501; P54 ref 1 544113003, ref 2 544113101",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-deck401-2010-blade",
+      "statement": "Rider 16 IPL 2010-07 listar tre knivar 504188210 och tre adaptrar 535504202 i Combi-aggregatgruppen som hör till komplett aggregat 965078401. Kniven skiljer från den som redovisas i 965078501-gruppen.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P50 ref 25 535504202 QTY3 och ref 26 504188210 QTY3; komplett P44 ref 9",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-deck501-2010-blade",
+      "statement": "Rider 16 IPL 2010-07 listar tre knivar 504188110 och tre adaptrar 535504202 i aggregatgruppen kopplad till 965078501. Skillnaden i knivnummer mot 965078401 gör generell knivrekommendation utifrån endast maskinmodellen osäker.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P54 ref 25 535504202 QTY3 och ref 26 504188110 QTY3; komplett P46 ref 9",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-deck401-2010-belt",
+      "statement": "Rider 16 2010-07 IPL listar rem 589530601 och remkåpa 544096101 i aggregatgruppen som hör till komplett 965078401. Denna remrad får inte sammanblandas med transmissionsremmarna i maskinens separata TRANSMISSION-sektion.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P50 ref 38 589530601 BELT, ref 39 544096101 BELT COVER; P44 ref 9 965078401; transmission P18",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch43-deck501-2010-belt",
+      "statement": "Rider 16 2010-07 IPL listar rem 535411901 och remkåpa 544096201 i aggregatgruppen kopplad till komplett aggregat 965078501. Dessa nummer skiljer från 965078401-gruppens 589530601/544096101.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P54 ref 38 535411901 BELT, ref 39 544096201 BELT COVER; P46 ref 9 965078501",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch43-deck401-2010-housings",
+      "statement": "Rider 16 2010-07 IPL listar två yttre knivhusenheter 544065901 och en mittre knivhusenhet 544065902 i reservdelsgruppen till 965078401.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P50 ref 6 544065901 QTY2, ref 11 544065902 QTY1",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-deck501-2010-housings",
+      "statement": "Rider 16 2010-07 IPL listar samma knivhusnummer 544065901 (2 st.) och 544065902 (1 st.) i reservdelsgruppen till 965078501. Delad knivhuskod verifierar en gemensam komponent men inte att övriga delar är samma.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "P54 ref 6 544065901 QTY2, ref 11 544065902 QTY1",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch43-2010-comparison-2007-deck401",
+      "statement": "2010 års Rider 16-katalog listar rem 589530601 och kniv 504188210 för komplett aggregat 965078401. Detta skiljer från artikelraderna 506768501 och 544103001 i Rider 16 IPL 2007-06 för samma kompletta aggregatnummer; dokumenten ensamma fastställer inte en formell ersättningskedja.",
+      "variant": "Husqvarna Rider 16 PNC 965161601 IPL 2010-07; separata 103/112 cm deck groups, versionsspecifik",
+      "locator": "2010 P50 ref 26 / ref 38; 2007-06 103CM deck V2 ref 26 / ref 38",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -2516,6 +2606,9 @@
     "Husqvarna workshop 2003-02 beskriver BioClip 90 som 'one belt' i knivsynkroniseringsavsnittet; separat drivrem finns i aggregatkonstruktionen. Håll alltid drivrem och tandrem åtskilda vid reservdelsval.",
     "Tre återförsäljare stöder 589531501:s hänvisningar till 531007526 och 506977301, två även 531008037. Fortfarande saknas tillverkarpublicerad ersättningskedja som anger alla tre originalnumren.",
     "Verkstadshandbokens Combi 103 med en intern tandrem (2003-02) kan inte på grundval av namnet likställas med senare PNC 965078401 eller 965078601, vilka har separata remposter och konstruktionsfamiljer. Fastställ aggregatets exakta versionsmärkning.",
-    "Rider 16 IPL 2007-06 benämner Combi 103 965078401 'V2'. Fastställ om detta är intern aggregatversion, ritningsrevision eller produktkodsversion; likställ ej med BioClip 103 version 2 i äldre verkstadshandbok."
+    "Rider 16 IPL 2007-06 benämner Combi 103 965078401 'V2'. Fastställ om detta är intern aggregatversion, ritningsrevision eller produktkodsversion; likställ ej med BioClip 103 version 2 i äldre verkstadshandbok.",
+    "Rider 16 PNC 965161601 IPL 2010-07 listar kompletta aggregat 965078401 och 965078501; kartlägg vilken klippbredd varje PNC avser med tillverkarens tillbehörskatalog och märkplåt innan användning.",
+    "Samma aggregat 965078401 har 2007-06 listat rem 506768501 och kniv 544103001, men 2010-07 listar 589530601 respektive 504188210; sök OEM-supersession för dessa delar och notera katalogrevision.",
+    "2010 års original-IPL:s sprängskiss-screenshot gav cachefel; PDF-textlager och sidnumrering stöder artikelraderna, men kopplingen mellan de två kompletta aggregaten och följande delar behöver visuell kontroll mot originalfigurer."
   ]
 }
