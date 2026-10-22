@@ -39,6 +39,13 @@
       "title": "Husqvarna Spare Parts Shop – Rider 16 H separate EPC model index",
       "document": "Official Rider 16 H IPL group listing, model level",
       "url": "https://shop-pa-v9.husqvarna.com/webapp/wcs/stores/servlet/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcProduct=RIDER+16+H"
+    },
+    {
+      "id": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "tier": 1,
+      "title": "Husqvarna Workshop Manual Rider 11/13H/14Pro/16H W0001005",
+      "document": "Workshop Manual 101 90 98-26, W0001005, 2000-06, 62 pages, English technical data and transmission repair procedures",
+      "url": "https://mymowerparts.com/pdf/Husqvarna-Service-Repair-Manuals/W0001005.pdf"
     }
   ],
   "topics": {
@@ -365,6 +372,123 @@
       "sourceId": "husqvarna-official-epc-rider16h-model-index",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "r16h-batch48-k55-2point2-litres",
+      "statement": "Verkstadshandbok W0001005 anger Rider 16 H:s hydrostat Tuff Torq K55 med nominell oljemängd 2,2 liter, SAE 10W/30 klass CD–SF enligt serviceavsnittet. Detta får inte överföras till Rider 16:s K46.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.5 tekniska data Rider16H; s.43 'Transmission K55 holds 2.2 litres'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-k55-professional-interval",
+      "statement": "Husqvarnas verkstadshandbok 2000-06 anger att transmissionsoljebyte på professionellt använd hydrostatmaskin rekommenderas första gången efter 50 drifttimmar och därefter var 300:e timme. Den beskriver bytet som tekniskt krävande för privatpersoner.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.43, 'Transmission maintenance / Oil change'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-k55-filter-condition",
+      "statement": "Verkstadshandbok W0001005 anger att K55-transmissionens oljefilter endast behöver bytas när transmissionen öppnas för reparation. Detta är dokumentets äldre servicebesked, inte generell policy för alla Tuff Torq-transmissioner.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.43, 'The oil filter only needs to be changed if the transmission is opened for repairs'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-k55-bleed-method",
+      "statement": "W0001005 beskriver luftning av Rider 16 H:s hydrostat genom upprepade urkopplings-/inkopplingsmoment och växling mellan framåt-/bakåtpedaler tills drivningen svarar; slutlig oljenivåkontroll krävs. Förfarandet ska utföras med maskinen säkert uppställd enligt fullständig manual.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.42–43, 'Bleeding the hydrostatic transmission oil system'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-k55-neutral-8degrees",
+      "statement": "W0001005:s transmissionsavsnitt beskriver K55-neutralinställning med sexkantig justeraxel och 8° rörelse från märkt stopp-/referensläge i ett särskilt kontrollfall. Den är inte en generell gör-det-själv-justering utan verkstadsförfarande.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.43, 'Adjustment of transmission neutral position', 8 degrees",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-r16h-motor-data-workshop",
+      "statement": "Husqvarnas W0001005 anger Rider 16 H med Briggs & Stratton 28N707, 465 cm³ och 15,5 hk (11,4 kW), samt 1,2 liter motorolja. Identiteten ska kompletteras med motorns egna Model/Type/Code på enskild maskin.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.5, 'Technical data – Rider 16 H'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch48-r16h-dimensions",
+      "statement": "W0001005 anger Rider 16 H:s mått 2080 mm längd, 880 mm bredd, 1070 mm höjd, 210 kg vikt och 860 mm hjulbas i dokumentets standardutförande.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.5, 'Dimensions Rider 16 H'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch48-r16h-tyres-battery",
+      "statement": "W0001005 anger däckdimension 18×6.50-8 i sin tekniska datatabell för Rider 16 H, tryck 60 kPa, batteri 12 V 24 Ah och stift Champion CJ8 eller J8 med 0,7–0,8 mm elektrodgap. Kontrollera faktiska däck och stift mot motorns märkning.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.5, tyres/electrical Rider 16 H",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch48-r16h-moments",
+      "statement": "W0001005 anger åtdragningsmoment 45–50 Nm för knivar, 27 Nm för bromstrummans skruvar på hydrostat och 100–150 Nm för hjulaxelmutter. Dessa siffror gäller angivna skruvförband i äldre verkstadshandbok.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.4, 'Tightening moments'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-r16h-neutral-no-creep",
+      "statement": "W0001005 anger leveranskontroll att Rider 16 H inte får driva i neutralläge; kontrollen omfattar även fram-/backdrivning, parkeringsbroms, knivdrivning och sits-/lyftspärrar.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.6, 'Delivery measures' punkt 9–10",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-r16h-engine-revs",
+      "statement": "W0001005 anger kontroll av motorvarvtal 3000–3100 rpm i leveransservice för de uppräknade Rider-modellerna. Varvtalsvärdet bör inte överföras till senare motorutföranden utan kontroll.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.6, 'Check engine revs 3,000–3,100 rpm'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch48-r16h-bio90-housing-sets",
+      "statement": "W0001005 listar för Rider 16 H kompletta knivlagerenheter 506751105 (yttre) och 506751104 (mitten). Samma handbok listar dessa för Rider 14 Pro; artikelnumren ska inte likställas med senare aggregatrevisioner.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.55, bearing packet table 'Rider 16 H' 506 75 11-05 / 506 75 11-04",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-batch48-r16h-safety-switch-circuit",
+      "statement": "W0001005:s elschema för Rider 16 H listar sätesbrytare, tändningslås, lyftspakens mikrobrytare, växellägesbrytare, 15 A säkring, startrelä och motorns stoppkrets. Kontrollera konkret fel med schema, utan att kringgå säkerhetsbrytare.",
+      "variant": "Husqvarna Rider 16 H, Workshop W0001005 2000-06, modeller och reservdelsrevisioner kräver identitetskontroll",
+      "locator": "Tryckt s.58, 'Circuit diagram Rider 13H/13H Bio and Rider 16H'",
+      "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -382,6 +506,10 @@
     "Genuine Parts-katalogen listar 531007525 för Rider 16 H och 531007586 för Rider 16, men ger inte exakta PNC eller ersättningsrelationer. Verifiera konstruktion och aggregat-ID innan knivval.",
     "Jämför ritningspositioner och ändringsmarkeringar i Rider 16 H original-IPLs 1999-02 och 2000-02; 1999-års PDF-text verifierad, skärmbildsanrop misslyckades.",
     "Fastställ om historiska katalognummer från 1999 och 2000 är obrutna revisionskedjor eller sammanfaller av andra skäl; inga utbytbarhetspåståenden görs.",
-    "Separata officiella EPC-modellposter visar RIDER 16 och RIDER 16 H, båda med 90/103 cm-grupper men inte med identifierad fullständig aggregat-PNC. Fastställ märkplåtsdata före kompatibilitetsbesked."
+    "Separata officiella EPC-modellposter visar RIDER 16 och RIDER 16 H, båda med 90/103 cm-grupper men inte med identifierad fullständig aggregat-PNC. Fastställ märkplåtsdata före kompatibilitetsbesked.",
+    "W0001005 OEM-verkstadshandbok 2000-06 anger K55 2,2 L SAE10W/30, proffsanvändning 50 h första byte / 300 h senare. Jämför mot Tuff Torq K55-fabrikshandbok och Husqvarnas senare rekommendation om auktoriserad service före offentlig rekommendation.",
+    "W0001005 2000-06 anger Rider16H 18×6.50-8 men OM 2001-10 har 16×6.50-8 i tidigare register. Kontrollera faktisk sidtabell och eventuella marknadsversioner; markera katalogkonflikt tills utredd.",
+    "W0001005 2000-06 uppger lagerenheter 506751105/104 för 16H medan IPL 2000-02 103 cm anger 506751107/106. Aggregatgruppen måste identifieras innan komponenter tolkas som utbytbara.",
+    "PDF W0001005 kunde indexläsas i tillverkaroriginalets spegel men webbsidbild nekades. Tekniska data och sida/positionsangivelser bör bildverifieras innan praktiska monteringsinstruktioner."
   ]
 }
