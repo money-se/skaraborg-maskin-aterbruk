@@ -39,6 +39,13 @@
       "title": "Murray 425014X92B original repair parts electrical system",
       "document": "F-050706L printed page 51",
       "url": "https://www.lawnmowerpros.com/pdfs/murray/F050706L_1.pdf"
+    },
+    {
+      "id": "murray-014b-suspension-p45",
+      "tier": 2,
+      "title": "Murray 425014X92B Mower Housing Suspension original parts transcription",
+      "document": "F-050706L, MOWER HOUSING SUSPENSION printed p.45",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=45"
     }
   ],
   "topics": {
@@ -80,7 +87,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "F-050706L sida 47 identifierar klippaggregatets drivrem 037x88, kniv 095100E701, spindelhus 1001200 och komplett enhet 7601032. De fyra numren förekommer även i 425015X92A:s katalog, men endast på respektive källbunden variantsnivå."
+      "note": "Originalkatalog F-050706L p.45 dokumenterar PTO, lyftmekanism, hanger rods och separata E701/E700 fästen med positionsnummer. Motorsystem och fysisk passform ej härledd."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -700,6 +707,248 @@
       "sourceId": "murray-014b-electrical-f050706l",
       "grade": "B",
       "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-grip",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 092698.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 1",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-handle",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094157 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 2",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-pad",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094022 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 3",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lifter-grip",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 092697.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 5",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-lever",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690533.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 8",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-lever",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094017 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 9",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-link",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094004 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 13",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094018E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 17",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-crank",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690394E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 19",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-link",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690212E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 20",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-handle-link",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690122E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 21",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-assembly",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 1001111E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 27",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lift-pin",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094067.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 30",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-rear-susp-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094055E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 31",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-lifter-spacer",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690151.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 32",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pivot-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094015E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 34",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-pto-second-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094005E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 40",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-left-hanger",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094027E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 41",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-right-hanger",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094026E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 42",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-hanger-rod",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 094158 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 43",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-suspension-bracket",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 690539E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 44",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-susp-stiffening-plate",
+      "statement": "MOWER HOUSING SUSPENSION listar artikelnummer 1001098E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOWER HOUSING SUSPENSION, tryckt s.45, position 45",
+      "sourceId": "murray-014b-suspension-p45",
+      "grade": "B",
+      "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
