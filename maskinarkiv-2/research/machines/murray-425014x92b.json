@@ -116,6 +116,13 @@
       "title": "Murray 425014X92B shift lever and battery maintenance",
       "document": "F-050706L maintenance printed p.25",
       "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=25"
+    },
+    {
+      "id": "dana-4360-152-manufacturer-2003",
+      "tier": 1,
+      "title": "Dana Spicer 4360-152 Murray customer service parts listing",
+      "document": "4360-152, issued 2002-05-30, rev E 2003-07-25, two parts-list pages",
+      "url": "https://www.mymowerparts.com/pdf/Dana-Foot-Transmissions-Transaxles-Differentials/4360-152.pdf"
     }
   ],
   "topics": {
@@ -3177,6 +3184,72 @@
       "topic": "G",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-document",
+      "statement": "En originalreservdelslista från Dana/Spicer finns för transaxel 4360-152 med Murray Inc. som kund. Den fastställer INTE att 4360-152 sitter i 425014X92B.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.1",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-five-speed",
+      "statement": "Dana 4360-152 betecknas Five Speed Linear Shift Transaxle; detta är referens för jämförelse, inte modellidentifiering för 425014X92B.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.1",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-brake",
+      "statement": "Dana 4360-152:s interna katalog anger bromsskiva 5960 och bromsfriktionskit 4836; de får inte tillskrivas 425014X92B innan enhetens typkod bekräftats.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.2",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-seal",
+      "statement": "Dana 4360-152 listar ingående axelns oljetätning 5508 och V-ring 7011, men inget stöd finns ännu att beställa dem till 425014X92B.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.1",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-revisions",
+      "statement": "4360-152 har dokumenterade revisioner B, D och E mellan december 2002 och juli 2003; bromsskiva och växelkit ändrades i revisionerna.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.2",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-id-blocker",
+      "statement": "Murrays 425014X92B-manual anger endast DANA i MOTION DRIVE position 36 och hänvisar interna delar till transaxeltillverkaren. Koppling till något 4360-undernummer är oidentifierad.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "Murray F-050706L p.41; Dana 4360-152 p.1",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -3191,6 +3264,7 @@
     "Identifiera Briggs Model/Type/Code på motorn före koppling till motorspecifik servicemanual.",
     "425014X92B elsystemets kabelhärvor och startkomponenter skiljer sig från A-registret. Kontrollera fysisk variant och kopplingsschema före byte; endast reservdelsidentitet är katalogbelagd.",
     "Katalogkonflikt för 425014X92B höger/vänster ram mellan avsnitten CHASSIS & HOOD respektive MOTION DRIVE. Begär maskinens märkning och kontrollera dokumentrevision före reservdelsråd.",
-    "OEM-katalogkonflikt F-050706L: STEERING s.43 pos13 motorplåt 094006E701; ENGINE MOUNT s.49 pos7 motorplåt 094006E700. Båda anges för samma modell; fysisk/OEM-revisionskontroll krävs."
+    "OEM-katalogkonflikt F-050706L: STEERING s.43 pos13 motorplåt 094006E701; ENGINE MOUNT s.49 pos7 motorplåt 094006E700. Båda anges för samma modell; fysisk/OEM-revisionskontroll krävs.",
+    "Dana originalkatalog 4360-152 identifierar Murray som kund men kopplar inte till 425014X92B. Bild av fysisk transaxels specifikationsskylt krävs; överför inte 4360-152:s interna komponenter till denna modell."
   ]
 }
