@@ -1,0 +1,446 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-hydro-gear-zt2200-ezt",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbundet forskningsregister för Hydro-Gear ZT-2200 EZT samt dokumentrelation till ZT-2100; gäller inte monterad maskin utan specifik ID-kontroll. Service-manualen är lokaliserad men oljebyte och reservdelskoder har ännu inte extraherats/verifierats sidbundet. Verifierad manualgranskning av oljespecifikation, påfyllningsnivå, oljemängd, purge, bypass och positionslista i BLN-52622 (2018).",
+  "sources": [
+    {
+      "id": "hg-zt2200-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2200 (EZT) official product specification",
+      "document": "ZT-2200 (EZT) product page / Product Specs",
+      "url": "https://www.hydro-gear.com/product/zt-2200/"
+    },
+    {
+      "id": "hg-service-index",
+      "tier": 1,
+      "title": "Hydro-Gear Service & Repair Manuals index",
+      "document": "Service & Repair Manuals > ZT-2100, ZT-2200 (EZT) Manual",
+      "url": "https://www.hydro-gear.com/service-repair-manuals/"
+    },
+    {
+      "id": "hg-zt2100-zt2200-manual",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2100 / ZT-2200 (EZT) Service & Repair Manual",
+      "document": "BLN-52622, manufacturer PDF, further page-by-page verification needed",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2021/09/BLN-52622_ZT2100_ZT2200-1-1.pdf"
+    },
+    {
+      "id": "hg-zt2100-zt2200-2023-revision",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2100 / ZT-2200 EZT Service and Repair Manual, March 2023",
+      "document": "BLN-52622, March 2023 revision",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-52622_2100_2200_P13.pdf"
+    },
+    {
+      "id": "hg-official-service-library",
+      "tier": 1,
+      "title": "Hydro-Gear service and repair manual directory",
+      "document": "Current Hydro-Gear official manual index",
+      "url": "https://www.hydro-gear.com/service-repair-manuals/"
+    },
+    {
+      "id": "hg-prefix-crossref",
+      "tier": 1,
+      "title": "Hydro-Gear Cross Reference Guide",
+      "document": "Hydro-Gear model prefix to transaxle-series cross-reference",
+      "url": "https://www.hydro-gear.com/cross-reference-guide/"
+    },
+    {
+      "id": "hg-user-support-identification",
+      "tier": 1,
+      "title": "Hydro-Gear User Support – Model Identification",
+      "document": "Manufacturer user support: label model and serial identifiers",
+      "url": "https://www.hydro-gear.com/user-support/"
+    },
+    {
+      "id": "hg-support-kits",
+      "tier": 1,
+      "title": "Hydro-Gear Support – Oil Change Guide and Service Kits",
+      "document": "Manufacturer support landing page, general oil service kit program",
+      "url": "https://www.hydro-gear.com/Support/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "verified",
+      "note": "Originalmanualens identifikationsetikett och Hydro-Gears prefixkorsreferens är verifierade; individuella OEM-koder och serienummer måste fortfarande kontrolleras."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motoruppgifter ingår inte i denna komponentstudie; identifiera motor separat per maskin."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Komponentens konstruktion är delvis dokumenterad; individuella serienummer och revisioner måste verifieras."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Växellådans funktion och tillverkaruppgifter har belagts, men intern reservdelskonfiguration per tillverknings-ID återstår."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Maskinspecifika reglage, remdragning och frikopplingslänkage återstår att belägga per OEM."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Maskinspecifika hastigheter och viktgränser får inte härledas ur komponentens kataloggränser."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Elektriska säkerhetskretsar är maskinspecifika och ingår inte i komponentens källmaterial."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Klippaggregat och dess kompatibilitet kan inte bestämmas från transaxelns familj."
+    },
+    "I": {
+      "state": "verified",
+      "note": "Manualens bypasstillstånd och hastighetsbegränsning har kontrollerats; OEM:s transportsäkerhet kräver separat bekräftelse."
+    },
+    "J": {
+      "state": "verified",
+      "note": "Transmissionsservice kräver exakt Manufacturing ID och kontroll av aktuell OEM-manual."
+    },
+    "K": {
+      "state": "verified",
+      "note": "Tillverkarens externa kontrollpunkter för rem, länkage och bypass är belagda; OEM-symtom och interna fel återstår."
+    },
+    "L": {
+      "state": "verified",
+      "note": "Reservdelsnummer och servicekit kräver exakt etikett-/serienummer och tillverkarens parts-list."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Köpråd och sammanfattningar får inte överföra komponentvärden till okända maskinversioner."
+    }
+  },
+  "claims": [
+    {
+      "id": "ezt-integrated-identity",
+      "statement": "Hydro-Gear identifierar ZT-2200 (EZT) som en integrerad transaxel för residential zero-turn-klippare.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), produktfamilj",
+      "locator": "ZT-2200 (EZT) > introductory description",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "ezt-10cc",
+      "statement": "ZT-2200 (EZT) anges ha både pump och hydraulmotor på 10 cc/varv.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), produktfamilj",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "ezt-axle-1inch",
+      "statement": "ZT-2200 (EZT) anges med 1,0 tums (25,4 mm) axeldiameter, men tillverkaren listar olika axelutföranden, så detta är inte bevis för passform i en viss maskin.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), produktfamilj",
+      "locator": "Product Specs > Axle Shaft Diameter / Axle Shaft Options",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "ezt-optional-drains",
+      "statement": "Tillverkaren beskriver nyare servicebara EZT-utföranden med dräneringsportar som tillval; frånvaron eller närvaron måste kontrolleras på den fysiska enheten.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), option-dependent",
+      "locator": "Features > NEW – Now serviceable with optional drain ports",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-service-manual-exists",
+      "statement": "Hydro-Gears servicebibliotek listar en gemensam service- och reparationsmanual för ZT-2100 och ZT-2200 (EZT); specifika procedurer och reservdelsnummer ska verifieras mot manual och exakt enhets-ID.",
+      "variant": "Hydro-Gear ZT-2100 / ZT-2200 (EZT), dokumentrelation",
+      "locator": "Service & Repair Manuals > TRANSAXLES > ZT-2100, ZT-2200 (EZT) Manual",
+      "sourceId": "hg-service-index",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "hg-ezt-manual-edition",
+      "statement": "BLN-52622 är Hydro-Gears Service and Repair Manual för ZT-2100 och ZT-2200 (EZT), daterad mars 2018.",
+      "variant": "ZT-2100 och ZT-2200 (EZT), manualutgåva 2018",
+      "locator": "Omslag, PDF-sida 1 (index 0)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-ezt-fluid-20w50",
+      "statement": "Manualen anger fabriksanvänd och rekommenderad normal oljekvalitet 20W50 motorolja för ZT-2100 och ZT-2200 (EZT); kontrollera aktuell OEM-avvikelse.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 10, 'FLUIDS'; PDF-sida 12 (index 11)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-2200-fluid-volume",
+      "statement": "Tabell 6 anger 56 fl oz (1650 ml) 20W50 motorolja för ZT-2200 EZT vid vätskebyte; nivån ska ändå kontrolleras enligt figur 4.",
+      "variant": "ZT-2200 (EZT), BLN-52622 2018",
+      "locator": "Tryckt s. 11, Table 6; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-2100-fluid-volume",
+      "statement": "Tabell 6 anger 54 fl oz (1597 ml) 20W50 motorolja för ZT-2100 vid vätskebyte; värdet ska inte sammanblandas med ZT-2200.",
+      "variant": "ZT-2100, BLN-52622 2018",
+      "locator": "Tryckt s. 11, Table 6; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-level",
+      "statement": "Figur 4 anger oljenivån 19–38 mm under påfyllningsöppningens överkant, vid oljetemperatur 10–38 grader C, för de beskrivna ZT-2100/ZT-2200-utförandena.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 11, Figure 4; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-sealed-oil-exception",
+      "statement": "BLN-52622 beskriver transaxeln som fabriksfylld och tätad utan normalt krav på oljeunderhåll; vid kontaminering eller försämrad olja kan ett vätskebyte vara motiverat.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622, 2018",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-purge",
+      "statement": "Efter att hydraulkretsen öppnats eller olja fyllts på föreskriver manualen avluftning: drivhjulen lyfts säkert, reglage körs försiktigt 5–6 gånger framåt/bakåt med bypass öppen, därefter lika med bypass stängd; oljenivå kontrolleras med motorn avstängd och sekvensen upprepas vid behov. Följ OEM:s säkerhetsanvisningar.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 12, PURGING PROCEDURES, steg 1–3; PDF-sida 14 (index 13)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-bypass-tow",
+      "statement": "Manualens funktionsbeskrivning begränsar kort förflyttning med bypass till högst 2 mph (3,2 km/h) och varnar att hydrostatisk bromsverkan förloras när bypass aktiveras.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622 2018",
+      "locator": "Tryckt s. 2, GENERAL DESCRIPTION, bypass warning; PDF-sida 4 (index 3)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "hg-ezt-parts-numbers-not-order-numbers",
+      "statement": "Manualens ZT-2200 ITEMS LIST visar illustrerade positionsnummer, exempelvis 61 KIT, FILTER, 52 KIT, SEAL och 54 KIT, FAN-PULLEY. Dessa positionsnummer är inte verifierade beställnings-/artikelnummer för en individuell enhet.",
+      "variant": "ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 33, ZT-2200 ITEMS LIST; PDF-sida 35 (index 34)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "hg-ezt-external-diagnosis",
+      "statement": "Manualen föreskriver vid extern service kontroll av drivrem, brytrullar, remspänning, reglagelänkage och bypassfunktion före slutsats om internt transmissionsfel.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 2018",
+      "locator": "Tryckt s. 10, EXTERNAL MAINTENANCE punkt 3–5; PDF-sida 12 (index 11)",
+      "sourceId": "hg-zt2100-zt2200-manual",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "ezt-2023-revision",
+      "statement": "Hydro-Gear har publicerat en nyare utgåva av BLN-52622 märkt March 2023, vid sidan av den i registret använda March 2018-utgåvan; serviceuppgifter mellan utgåvor måste jämföras innan de behandlas som aktuella.",
+      "variant": "ZT-2100/ZT-2200 (EZT), dokumentrevision mars 2023",
+      "locator": "Omslag, PDF-sida 1 (index 0)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-2023-positions-52-61",
+      "statement": "2023-utgåvans ZT-2200-itemslista identifierar position 52 som KIT, SEAL och position 61 som KIT, FILTER, men listar inte där beställningsnummer för respektive maskinvariant.",
+      "variant": "ZT-2200 EZT; BLN-52622 mars 2023",
+      "locator": "Tryckt sida 34, ZT-2200 (EZT) ITEMS LIST; PDF-sida 36 (index 35)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-2023-positions-55-57-59",
+      "statement": "2023-utgåvans ZT-2200-itemslista beskriver positionerna 55 KIT, BRAKE ASSEMBLY, 57 KIT, CENTER SECTION-FILTER och 59 KIT, BYPASS ARM, endast illustrerade referenspositioner och inte verifierade ordernummer.",
+      "variant": "ZT-2200 EZT; BLN-52622 mars 2023",
+      "locator": "Tryckt sida 34, ZT-2200 (EZT) ITEMS LIST; PDF-sida 36 (index 35)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-other-service-manual-families",
+      "statement": "Hydro-Gears officiella serviceindex listar separata manualfamiljer för ZT-2800/ZT-3100/ZT-3200, ZT-3400/ZT-3600/ZT-3800 och ZT-2400/ZT-2600; EZT-anvisningen ska därför inte generaliseras till dessa.",
+      "variant": "Hydro-Gear manualbibliotek, skilda produktfamiljer",
+      "locator": "TRANSAXLES > respektive Manual",
+      "sourceId": "hg-official-service-library",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-2023-modelcode-drain",
+      "statement": "BLN-52622 mars 2023 anger att ZT-2200 med E eller F i tredje positionen av modellkoden (t.ex. ZC-Exxx-xxx-xxx) har en avtappningsplugg; andra utföranden hänvisas till proceduren utan avtappningsport.",
+      "variant": "ZT-2200 EZT, kodad modellvariant enligt BLN-52622 2023",
+      "locator": "Tryckt s. 11–12, FLUID CHANGE PROCEDURE – MODELS WITH/WITHOUT A FLUID DRAIN PORT; PDF-sidor 13–14 (index 12–13)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-2023-drain-temp",
+      "statement": "För avtappning kräver manualen att oljan är under 100°F (ca 38°C), och varnar att kvarhållen expanderad olja annars kan ge överfyllning vid återfyllning.",
+      "variant": "ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Tryckt s. 11–12, Note before draining oil; PDF-sidor 13–14",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-2023-oil-capacities-confirmed",
+      "statement": "2023 års Tabell 6 anger 20W50-motorolja, 1597 ml för ZT-2100 och 1650 ml för ZT-2200 (EZT), samma värden som 2018-utgåvan i registerposterna hg-ezt-2100-fluid-volume och hg-ezt-2200-fluid-volume.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622 mars 2023",
+      "locator": "Tryckt s. 11, Table 6 Fluid Volumes for the EZT; PDF-sida 13 (index 12)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-2023-purge-confirmed",
+      "statement": "2023-utgåvan föreskriver avluftning efter att hydraulsystemet öppnats eller vätska tillsatts, med drivhjul säkert upplyfta och riktningsreglage framåt/bakåt 5–6 gånger med bypass öppet och därefter stängt.",
+      "variant": "ZT-2100 / ZT-2200 EZT enligt BLN-52622 mars 2023",
+      "locator": "Tryckt s. 13, PURGING PROCEDURES; PDF-sida 15 (index 14)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "hg-ezt-config-label",
+      "statement": "Hydro-Gears BLN-52622 (2023) figur 3 visar att identifikationsetiketten innehåller fullständigt BOM-modellnummer och separat serienummer; exempelmodellen ZC-DUBB-4MDC-3PPA är en illustration, inte en reservdelsrekommendation.",
+      "variant": "ZT-2100 och ZT-2200 EZT, identifikationsmetod",
+      "locator": "Tryckt s. 7, Figure 3 Configuration Label; PDF-sida 9 (index 8)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-prefix-za-zd",
+      "statement": "Hydro-Gears prefixguide hänför modellprefix ZA, ZB, ZC och ZD till ZT-2200 EZT; resten av modellkoden krävs för korrekt reservdelsval.",
+      "variant": "Hydro-Gear ZA/ZB/ZC/ZD prefixfamiljer",
+      "locator": "Cross Reference List > ZA, ZB, ZC, ZD",
+      "sourceId": "hg-prefix-crossref",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-prefix-zf",
+      "statement": "Hydro-Gears prefixguide hänför ZF till ZT-2100, vilket skiljer familjen från ZT-2200 EZT trots gemensam servicehandbok.",
+      "variant": "Hydro-Gear ZF prefixfamilj",
+      "locator": "Cross Reference List > ZF",
+      "sourceId": "hg-prefix-crossref",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-prefix-larger",
+      "statement": "Tillverkarens prefixguide hänför ZH–ZM till ZT-2800/3100/3200, ZS/ZU/ZW/ZY/Z6 till ZT-3400 samt ZX och ZZ till ZT-3600 respektive ZT-3800; dessa är inte EZT och kräver separata servicekällor.",
+      "variant": "Hydro-Gear komponentfamiljer utanför EZT",
+      "locator": "Cross Reference List > ZH THRU ZM, ZS/ZU/ZW/ZY/Z6, ZX, ZZ",
+      "sourceId": "hg-prefix-crossref",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "ezt-2023-exploded-figure26",
+      "statement": "BLN-52622 mars 2023 har ZT-2200:s exploderade figur 26 med bland annat positionerna 52, 57, 61 och 209; figurpositionerna är referenser för komponentidentifiering och är inte i sig ett beställningsnummer.",
+      "variant": "ZT-2200 EZT, manualens illustrerade delar",
+      "locator": "Tryckt s. 33, Figure 26 EZT, PDF-sida 35 (index 34)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-items-209-hub-puller",
+      "statement": "I BLN-52622 (2023) betecknas position 209 KIT, HUB PULLER; verktygspositionen är inte ett ordernummer för en monterad transmission.",
+      "variant": "ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Tryckt s. 33 Figure 26 (PDF-sida 35) och s. 34 ZT-2200 ITEMS LIST (PDF-sida 36)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-manual-repair-removal",
+      "statement": "Tillverkaren anger i förordet att beskrivna interna reparationsprocedurer för ZT-2100 och ZT-2200 förutsätter att transaxeln demonteras från fordonet.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Förord, tryckt sida 1, PDF-sida 3 (index 2)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-no-pressure-washer",
+      "statement": "Hydro-Gear avråder från att tvätta transaxeln när den är varm och från att använda högtryckstvätt vid rengöring före service.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Tryckt sida 2, INTRODUCTION, PDF-sida 4 (index 3)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-internal-filter-not-universal-kit",
+      "statement": "Hydro-Gear beskriver internt filter och att delar som byts vid ZT-2200-reparation ska väljas från adekvata kit; fullständigt enhetsnummer krävs för att bestämma korrekt orderbar sats.",
+      "variant": "ZT-2200 EZT, BLN-52622 2018 / 2023",
+      "locator": "2023 tryckt sida 14, ZT-2200 EZT REPAIR > HOW TO USE THIS MANUAL; PDF-sida 16 (index 15)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "hg-label-model-and-serial-required",
+      "statement": "Hydro-Gear anger uttryckligen att transmissionsetikettens modellnummer och serienummer behövs när användaren efterfrågar specifik service- eller reparationshjälp.",
+      "variant": "Hydro-Gear-transaxlar; identifikation innan OEM-specifik reparationsrådgivning",
+      "locator": "User Support > Model Identification",
+      "sourceId": "hg-user-support-identification",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-oil-service-kits-two-options",
+      "statement": "Tillverkarens supportsida beskriver två olika Hydro-Gear-transaxeloljeservicesatser. Uppgiften styrker inte att någon av satserna passar en viss EZT utan exakt modellidentifikation.",
+      "variant": "Hydro-Gear allmän support, ingen EZT-specifik orderkod",
+      "locator": "Support > Oil Change guide",
+      "sourceId": "hg-support-kits",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "hg-support-manual-not-oem-part-lookup",
+      "statement": "Hydro-Gears support hänvisar till service- och reparationsmanualer med scheman, reservdelslistor och felsökning men kräver modell-/serienummer för specifik hjälp; en manualfamilj är inte bevis för en unik beställningsbar reservdel.",
+      "variant": "Hydro-Gear servicebibliotek och användarstöd",
+      "locator": "Support > SERVICE & REPAIR MANUALS; User Support > Model Identification",
+      "sourceId": "hg-user-support-identification",
+      "grade": "A",
+      "topic": "L"
+    }
+  ],
+  "gaps": [
+    "Verifiera produktetikett och unikt Hydro-Gear-modell-/serienummer och OEM-specifik suffixkod.",
+    "Extrahera exakt komponent- och reparationskitlista ur primärmanualens relevanta sprängskisser; återanvänd inte illustrativa positionsnummer som beställningsnummer.",
+    "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion.",
+    "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer.",
+    "Jämförelse av 2018/2023-utgåvor har bekräftat oljemängder och avluftning, men övriga serviceprocedurer och komponentlistor är ännu inte fullständigt jämförda.",
+    "För reservdelsbeställning behövs tillverkarspecifik BOM/lista som mappar exakt Hydro-Gear-modell- och serienummer till orderbara kitnummer; BLN-52622 ger figurpositioner men inte sådan universal orderlista.",
+    "Pos. 209 i Figure 26 (KIT, HUB PULLER) är ett verktyg, inte en vanligt förbrukad reparationsdel; bevaka att positioner inte felklassas i framtida köpguider.",
+    "Konkret Hydro-Gear ZT-2200 BOM-nummer och matchande reservdelskatalog behövs innan beställningsbara kitnummer kan kvalitetssäkras; tillverkarens allmänna två oljesatser är inte universell EZT-passform."
+  ]
+}

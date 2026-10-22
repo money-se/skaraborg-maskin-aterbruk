@@ -8,6 +8,21 @@
 | STIGA Villa 12 HST | [stiga-villa-12-hst.json](machines/stiga-villa-12-hst.json) | `scoped_ready`: 53 claims och kvarvarande forskningsluckor |
 | Husqvarna Rider 13 | [husqvarna-rider-13.json](machines/husqvarna-rider-13.json) | `needs_research`: påbörjat, inte publiceringsgodkänt för nya ändringar |
 
+| Husqvarna Rider 16 | [husqvarna-rider-16.json](machines/husqvarna-rider-16.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| STIGA Park 12 (1997) | [stiga-park-12-1997.json](machines/stiga-park-12-1997.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| STIGA Park 12 (1996) | [stiga-park-12-1996.json](machines/stiga-park-12-1996.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Honda GX160 motor | [engine-honda-gx160.json](machines/engine-honda-gx160.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Kohler Command CV11–CV16 motorfamilj | [engine-kohler-command-cv11-cv16.json](machines/engine-kohler-command-cv11-cv16.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Hydro-Gear ZT-2200 EZT | [transmission-hydro-gear-zt2200-ezt.json](machines/transmission-hydro-gear-zt2200-ezt.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Tuff Torq K46 | [transmission-tuff-torq-k46.json](machines/transmission-tuff-torq-k46.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| MTD 13BH670F062 | [mtd-13bh670f062.json](machines/mtd-13bh670f062.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Murray 425013X92A | [murray-425013x92a.json](machines/murray-425013x92a.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Murray 425014X92A | [murray-425014x92a.json](machines/murray-425014x92a.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Murray 425014X92B | [murray-425014x92b.json](machines/murray-425014x92b.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Murray 425014X92E | [murray-425014x92e.json](machines/murray-425014x92e.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Murray 425015X92A | [murray-425015x92a.json](machines/murray-425015x92a.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+| Murray 425015X92B | [murray-425015x92b.json](machines/murray-425015x92b.json) | `needs_research`: forskningsutkast; ej publiceringsklart |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|

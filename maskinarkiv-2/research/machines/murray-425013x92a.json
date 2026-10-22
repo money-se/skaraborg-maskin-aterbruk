@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "slug": "murray-425013x92a",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Forskningspaket 4. Avgränsat dokumentstudium av reservdelskatalog, utan webbpublicering, universella passformsantaganden eller godkännande av komplett modellartikel.",
+  "sources": [
+    {
+      "id": "murray-murray-425013x92a-pdf",
+      "tier": 2,
+      "title": "Murray 425013X92A original-form illustrated parts list mirrored by retailer",
+      "document": "Murray 425013x92A REPAIR PARTS F-030768L",
+      "url": "https://www.lawnmowerpros.com/pdfs/murray/425013x92a.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Modellrubrik och dokumentidentifiering dokumenterade. Serienummergränser och övriga varianter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Originalformatets Motion Drive-tabell p.4 identifierar rem, remskiva och transaxelfästen. Transaxelns fabrikat och modellnummer saknas i listan; inget Dana-antagande får göras."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "I": {
+      "name": "Tillbehör",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "murray-425013x92a-identity",
+      "statement": "Reservdelskatalogens modellrubrik identifierar Murray 425013x92A.",
+      "topic": "A",
+      "variant": "425013X92A",
+      "locator": "PDF, STEERING, rubrik MODEL 425013x92A",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425013x92a-manual-code",
+      "statement": "Murray-reservdelskatalogen är märkt F-030768L.",
+      "topic": "A",
+      "variant": "425013X92A",
+      "locator": "PDF, STEERING, dokumentfot F-030768L",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-drivebelt",
+      "statement": "Motion Drive-remmen anges som artikelnummer 037x87.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxle-no-model",
+      "statement": "Reservdelslistan anger Transaxle utan modellnummer; tillverkaridentitet kan inte bekräftas från denna tabell.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 36",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxle-pulley",
+      "statement": "Transaxelremskivan anges som artikelnummer 690409.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 41",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-shifter",
+      "statement": "Växelspaken anges som artikelnummer 094043 Z.",
+      "topic": "F",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-clutchlever",
+      "statement": "Broms-/kopplingsspaken anges som artikelnummer 094038E700.",
+      "topic": "F",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-rightframe",
+      "statement": "Höger ramdel anges som artikelnummer 1001268E701.",
+      "topic": "B",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 23",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-leftframe",
+      "statement": "Vänster ramdel anges som artikelnummer 1001269E701.",
+      "topic": "B",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 25",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxlebracket",
+      "statement": "Höger transaxelfäste anges som artikelnummer 094184E701.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxlesupport",
+      "statement": "Transaxelstödet anges som artikelnummer 094433E700.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 42",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Tillgängligt textutdrag visar Motion Drive-delar men anger inte växellådans fabrikat/modell. PDF-bildgranskning har inte kunnat slutföras.",
+    "Motorns fullständiga Model/Type/Code och rätt motorservicehandbok saknas.",
+    "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
+    "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
+    "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+  ]
+}

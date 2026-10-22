@@ -1,0 +1,419 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-tuff-torq-k46",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbundet forskningsregister för Tuff Torq K46; inte en komplett maskinartikel. Endast uttryckligen täckta tillverknings-ID omfattas av oljeserviceanvisningen. Inga OEM-kompatibilitetsanspråk.",
+  "sources": [
+    {
+      "id": "tt-k46-product",
+      "tier": 1,
+      "title": "Tuff Torq K46 – officiell produktspecifikation",
+      "document": "K46 Manufacturer ID: K46 / Features & Specifications",
+      "url": "https://www.tufftorq.com/product/k46/"
+    },
+    {
+      "id": "tt-residential-oil",
+      "tier": 1,
+      "title": "Tuff Torq – Residential IHT with integrated reservoir tank, oil maintenance",
+      "document": "Tech Tips – Residential IHT (w/ integrated reservoir tank) Oil Maintenance",
+      "url": "https://www.tufftorq.com/tuff-torq-transaxle-oil-service/"
+    },
+    {
+      "id": "tt-official-faq",
+      "tier": 1,
+      "title": "Tuff Torq Corporation official FAQ",
+      "document": "FAQ, model identification and replacement questions",
+      "url": "https://www.tufftorq.com/faq/"
+    },
+    {
+      "id": "tt-official-parts-portal",
+      "tier": 1,
+      "title": "Tuff Torq Ordertree illustrated parts portal",
+      "document": "Tuff Torq official parts lookup instructions",
+      "url": "https://tufftorq.ordertree.com/"
+    },
+    {
+      "id": "stiga-villa-2011-oem-ipl",
+      "tier": 1,
+      "title": "STIGA Villa HST original illustrated parts catalogue 2011/2012",
+      "document": "STIGA / Global Garden Products SSPL2011_20110214_Villa_HST, issue 2011-11, drawing 1157G, page 312",
+      "url": "https://view.stiga-store.com/files/SSPL2011_20110214_Villa_HST_pg2c29ef.pdf"
+    },
+    {
+      "id": "stiga-villa12-2011-k46cj-ipl",
+      "tier": 1,
+      "title": "STIGA Villa 12 HST (2011), 13-2729-15, original parts listing with internal Kanzaki K46CJ components",
+      "document": "STIGA parts list for 13-2729-15; Transmission pages 43–49; compilation marked 2022-08-21",
+      "url": "https://www.sandbysmeden.dk/wp-content/uploads/2022/08/13-2729-15-Stiga-Villa-12-HST-2011.pdf"
+    },
+    {
+      "id": "stiga-villa12-2010-k46cj-ipl",
+      "tier": 1,
+      "title": "STIGA Villa 12 HST 2010 13-2729-14 illustrated parts listing",
+      "document": "STIGA 13-2729-14, machine-specific parts list; 46 pages, compiled August 2022",
+      "url": "https://www.sandbysmeden.dk/wp-content/uploads/2022/08/13-2729-14-Stiga-Villa-12-HST-2010.pdf"
+    },
+    {
+      "id": "tt-external-expansion-oil",
+      "tier": 1,
+      "title": "Tuff Torq Tech Tips – Residential IHT with External Expansion Tank Oil Maintenance",
+      "document": "Tuff Torq K46 oil maintenance, external expansion tank variant, manufacturer's online instructions",
+      "url": "https://www.tufftorq.com/tuff-torq-k46-oil-maintenance/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Komponentfamiljen är identifierad, men exakt monterad OEM-transmission kan inte bestämmas utifrån maskinens modellnamn."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motoruppgifter ingår inte i denna komponentstudie; identifiera motor separat per maskin."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Komponentens konstruktion är delvis dokumenterad; individuella serienummer och revisioner måste verifieras."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Växellådans funktion och tillverkaruppgifter har belagts, men intern reservdelskonfiguration per tillverknings-ID återstår."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Maskinspecifika reglage, remdragning och frikopplingslänkage återstår att belägga per OEM."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Maskinspecifika hastigheter och viktgränser får inte härledas ur komponentens kataloggränser."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Elektriska säkerhetskretsar är maskinspecifika och ingår inte i komponentens källmaterial."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Klippaggregat och dess kompatibilitet kan inte bestämmas från transaxelns familj."
+    },
+    "I": {
+      "state": "gap",
+      "note": "OEM-instruktioner för bogsering, parkeringsbroms och säkerhet måste jämföras före service."
+    },
+    "J": {
+      "state": "verified",
+      "note": "Transmissionsservice kräver exakt Manufacturing ID och kontroll av aktuell OEM-manual."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Felsökning måste kompletteras med dokumenterade kontrollvägar för konkret enhet och maskin."
+    },
+    "L": {
+      "state": "verified",
+      "note": "Serienummerstyrd originalidentifiering, korrekt modellval och tillverkarens officiella reservdelsportal är verifierade; enskilda reservdelsnummer för OEM-varianter är fortfarande öppna."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Köpråd och sammanfattningar får inte överföra komponentvärden till okända maskinversioner."
+    }
+  },
+  "claims": [
+    {
+      "id": "k46-iht-type",
+      "statement": "Tuff Torq klassificerar K46 som en integrerad hydrostatisk transaxel (IHT) för bland annat lawn tractors.",
+      "variant": "Tuff Torq K46 familj; enskilt Manufacturing ID ej angivet",
+      "locator": "K46 > inledning / Specifications > Application",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-pump-motor",
+      "statement": "K46-seriens tillverkarspecifikation anger pump/motor-deplacement 7/10 cm3 per varv; familjeuppgift och inte specifik OEM-maskinprestanda.",
+      "variant": "K46 produktfamilj, ospecificerat Manufacturing ID",
+      "locator": "Specifications > Displacement (Pump/Motor)",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-reduction-ratios",
+      "statement": "K46-produktsidan listar två utväxlingsalternativ 28.04:1 respektive 21.53:1; ingen av dem får tilldelas en OEM-variant utan identifiering.",
+      "variant": "K46 familj, beroende av utförande",
+      "locator": "Specifications > Reduction Ratio",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-brake",
+      "statement": "Tillverkaren anger intern våt lamellbroms och standardmässig bypass/roll-release för K46-familjen.",
+      "variant": "K46 familj, tillverkarens produktblad",
+      "locator": "Features > Internal wet disk brake; Specifications > Brake Type / Bypass valve",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-covered-manufacturing",
+      "statement": "Tillverkarens oljeserviceguide namnger uttryckligen K46CJ bland de Manufacturing ID som täcks. Den omfattar inte automatiskt alla andra K46-koder.",
+      "variant": "K46CJ, uttryckligen listad",
+      "locator": "Models covered by this procedure > K46 Series > Manufacturing ID",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-level-20-25mm",
+      "statement": "För enheter som omfattas av guiden anger Tuff Torq oljenivå 20–25 mm under påfyllningsöppningens kant, kontrollerad med plan, säkerställd enhet och olja vid cirka 20 °C.",
+      "variant": "Residential IHT med intern reservoar, uttryckligen listade tillverknings-ID",
+      "locator": "Oil Maintenance, stycke 2 och Technical note",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-full-fill-approx-2-2l",
+      "statement": "Guiden uppskattar cirka 2,2 liter vid helt tom enhet, men påpekar uttryckligen att faktisk påfyllningsmängd kan variera på grund av kvarvarande olja och enhetens skick.",
+      "variant": "Residential IHT med intern reservoar, uttryckligen listade tillverknings-ID",
+      "locator": "Oil Maintenance, oil draining and refill paragraph",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-fill-port-only",
+      "statement": "Guiden beskriver tömning via svart påfyllningslock under remskiva/fläkt genom att invertera demonterad enhet, och återfyllning endast via denna öppning; tillverkaren rekommenderar godkänd Tuff Tech-drivvätska.",
+      "variant": "Residential IHT med intern reservoar, uttryckligen listade tillverknings-ID",
+      "locator": "Oil Maintenance, paragraphs beginning 'Normally the model K46' and 'Always use the fill port'",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-serial-required",
+      "statement": "Tuff Torq anger att originaltransaxelns serienummer är avgörande för identifiering och komponentbeställning; enbart traktorns bruksanvisning kan innehålla felaktig transmissionskod.",
+      "variant": "K46 och övriga Tuff Torq-modeller; identifieringsprincip",
+      "locator": "FAQ > My owner’s manual says ... / serial number",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-no-model-swap",
+      "statement": "Tuff Torq avråder uttryckligen från att ersätta en trasig K46AC med K46BT och anger att samma modell ska repareras eller ersättas; K46-beteckning ensam bevisar inte kompatibilitet.",
+      "variant": "K46AC kontra K46BT; tillverkarens FAQ-exempel",
+      "locator": "FAQ > Can I use a different model ...",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-label-location",
+      "statement": "Tuff Torq beskriver vit modell-/serienummeretikett på bakre delen av transaxeln, ibland även duplicerad under sätet.",
+      "variant": "Tuff Torq transaxlar; lokalisering av identitetsmärkning",
+      "locator": "FAQ > Where is it located? / barcode label missing",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-parts-availability-by-serial",
+      "statement": "Tillverkaren uppger att tillgängliga servicedelar och kompletta ersättningsenheter varierar med serienummer och att saknad detalj i sprängskiss kan vara utgången eller levererad av maskinens OEM.",
+      "variant": "Tuff Torq reservdelsidentifikation, ej viss K46 OEM-kod",
+      "locator": "FAQ > Can I buy service parts? / part number not located",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-official-lookup",
+      "statement": "Tuff Torqs officiella Ordertree-portal låter användaren söka på exakt modell eller artikelnummer och öppna modellens illustrerade reservdelslista; rätt lista kräver transaxelidentitet.",
+      "variant": "Tuff Torq reservdelsportal, exakt modell krävs",
+      "locator": "Home > Finding Your Tuff Torq Model & Serial Numbers",
+      "sourceId": "tt-official-parts-portal",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-oil-guide-explicit-ids",
+      "statement": "Tuff Torqs oljeserviceinstruktion avgränsas till uttryckligen listade K46 Manufacturing ID: K46AA, AC, AG, AW, BA, BC, BE, BL, BM, BN, BP, BR, BT, C, CJ, K4CR, CW, HD, V och Z. Modeller utanför listan täcks inte automatiskt.",
+      "variant": "Tuff Torq K46-serien; lista i tillverkarens publicerade oljeserviceinstruktion",
+      "locator": "Models covered by this procedure > K46 Series > Manufacturing ID",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-oil-guide-k57-and-t40-not-interchange",
+      "statement": "Samma oljeservicedokument omfattar även K57A, K57F, T40A och T40J, men det visar endast gemensam serviceinstruktionsräckvidd, inte mekanisk eller reservdelsmässig utbytbarhet.",
+      "variant": "Tuff Torq K57A/K57F och T40A/T40J – källrelation, ej passformsanspråk",
+      "locator": "Models covered by this procedure > K57 Series; T40A & T40J",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "stiga-villa12-2011-k46cj",
+      "statement": "STIGAs originalkatalog för Villa HST modellår 2011/2012 anger komplett Kanzaki K46CJ-transaxel som STIGA-artikelnummer 1134-7766-01, position 23 i basmaskinens transmission.",
+      "variant": "STIGA Villa 12 HST 13-2729-15 (även 13-2729-35 FR ingår i dokumentets variantgrupp)",
+      "locator": "Omslag PDF-sida 1 (index 0); figur 1157G, tryckt katalogsida 312, PDF-sida 27 (index 26)",
+      "sourceId": "stiga-villa-2011-oem-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-villa12-drivebelt",
+      "statement": "STIGA:s originalkatalog 2011/2012 anger drivrem 1134-9064-01 och hänvisning =9585-0099-01 i figur 1157G, medan den senare sammanställda reservdelslistan för 13-2729-15 anger annan servicekod 9585-0212-01. Koderna får inte antas utbytbara utan separat parts-/supersessionkontroll.",
+      "variant": "STIGA Villa HST modellår 2011/2012, figurgrupp 2718/2728/2729",
+      "locator": "Originalkatalog 2011/2012 figur 1157G, position 17, katalogsida 312 (PDF-sida 27/index 26). Separat senare sammanställning 13-2729-15 transmission pos. 17, PDF-sida 34 (index 33).",
+      "sourceId": "stiga-villa-2011-oem-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-seal-kit",
+      "statement": "STIGA Villa 12 HST (2011) K46CJ-delbild listar artikel 1139-1403-01 som Seal Kit, ref. 200, med notering 'Marked S - with 3L Oil'; detta är en katalogsats, inte en universell K46-servicevolym.",
+      "variant": "STIGA Villa 12 HST 13-2729-15 (2011), K46CJ tillhörande katalog",
+      "locator": "Transmission, ref. 200, katalogsida 49, PDF-sida 49 (index 48)",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-repair-kit",
+      "statement": "STIGA Villa 12 HST (2011) K46CJ-delbild listar artikel 1139-1600-01 som Repair Kit, ref. 201, märkt 'R'.",
+      "variant": "STIGA Villa 12 HST 13-2729-15 (2011), K46CJ tillhörande katalog",
+      "locator": "Transmission, ref. 201, katalogsida 49, PDF-sida 49 (index 48)",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-pump-shaft",
+      "statement": "STIGA:s K46CJ-delbild listar Pump Shaft Kit med artikelnummer 1139-1499-01 vid ref. 10.",
+      "variant": "STIGA Villa 12 HST 13-2729-15 (2011), K46CJ tillhörande katalog",
+      "locator": "Transmission, ref. 10, PDF-sida 46 (index 45)",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-differential-kit",
+      "statement": "STIGA:s K46CJ-delbild listar Diff.Gear Kit 1139-1404-01 vid ref. 61.",
+      "variant": "STIGA Villa 12 HST 13-2729-15 (2011), K46CJ tillhörande katalog",
+      "locator": "Transmission, ref. 61, PDF-sida 49 (index 48)",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-axle-seals",
+      "statement": "STIGA:s K46CJ-delbild listar två axeltätningar 19×32×8 som artikel 1139-1080-01, ref. 72.",
+      "variant": "STIGA Villa 12 HST 13-2729-15 (2011), K46CJ tillhörande katalog",
+      "locator": "Transmission, ref. 72, PDF-sida 49 (index 48)",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-fan-pulley",
+      "statement": "STIGA:s K46CJ-delbild listar fläkt 1134-4190-01 ref. 85 och remskiva 1139-1484-01 ref. 84.",
+      "variant": "STIGA Villa 12 HST 13-2729-15 (2011), K46CJ tillhörande katalog",
+      "locator": "Transmission, ref. 84–85, PDF-sida 49 (index 48)",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-filter-2011",
+      "statement": "STIGA:s Villa 12 HST reservdelslista 13-2729-15 anger K46CJ filter 1139-1405-01, position 26; exakt serie och revision ska kontrolleras vid beställning.",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 46 (index 45), ref. 26",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-cylinder-pump-2011",
+      "statement": "I samma K46CJ-katalog anges Cylinder Block Kit (Pump) 1139-1601-01 på position 31.",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 46 (index 45), ref. 31",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-drain-bolts-2011",
+      "statement": "K46CJ-reservdelslistan anger två Drain Bolt Kit 1139-1500-01 på position 18 och två O-ringar 1139-1117-01 på position 19; detta är komponentlista, inte automatiskt en oljebytesprocedur.",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 46 (index 45), ref. 18–19",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-shafts-left-right-2011",
+      "statement": "STIGA:s Villa 12 HST 2011-katalog kopplar vänster drivaxel till 1139-1342-01 (ref. 69) och höger drivaxel till 1139-1343-01 (ref. 68).",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 49 (index 48), ref. 68–69",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-2010-crossmodel",
+      "statement": "STIGA:s modellbundna reservdelslista för Villa 12 HST 2010 (13-2729-14) listar samma K46CJ tätningssats 1139-1403-01 och reparationssats 1139-1600-01 som 2011 års 13-2729-15-lista; detta styrker katalogförekomst i två maskinversioner men inte passform i oidentifierade enheter.",
+      "variant": "STIGA Villa 12 HST 2010, produktnummer 13-2729-14, jämfört med 13-2729-15",
+      "locator": "2010 års parts list, Transmission, PDF-sida 46 (index 45), ref. 200–201; 2011 års PDF-sida 49 ref. 200–201",
+      "sourceId": "stiga-villa12-2010-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-external-tank-distinct-procedure",
+      "statement": "Tuff Torq publicerar en separat oljeserviceanvisning för Residential IHT med EXTERN expansionstank; den ska inte sammanblandas med guiden för interna reservoarer eller tillskrivas K46CJ utan kontroll av aktuell enhets konstruktion.",
+      "variant": "Tuff Torq Residential IHT (K46) med extern expansionstank, ej fastställt för STIGA K46CJ",
+      "locator": "Sidtitel och 'Maintenance Overview', stycke 1–2",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-external-tank-heavy-duty-interval",
+      "statement": "För K46 med extern expansionstank anger Tuff Torq vid hård användning oljebyte efter första 50 drifttimmarna och därefter var 200:e drifttimme. Intervallet får inte tillämpas på andra K46-utföranden utan belägg.",
+      "variant": "Tuff Torq Residential IHT med extern expansionstank och hård användning",
+      "locator": "Maintenance Overview, stycke om 'In heavy usage applications'",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-external-tank-filter-caveat",
+      "statement": "I anvisningen för extern expansionstank anges att filtret normalt inte behöver bytas om transaxeln inte demonterats och öppnats för reparation; detta gäller den anvisningens konstruktion.",
+      "variant": "Tuff Torq Residential IHT med extern expansionstank",
+      "locator": "Maintenance Overview, samma stycke om filterbyte",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-external-tank-purge-recheck",
+      "statement": "Tuff Torq instruerar för extern expansionstank att systemet avluftas efter återmontering och att oljevolymen efterjusteras via tanköppningen till nivå enligt figur 2; figurbunden nivå är inte angiven som generellt K46CJ-värde.",
+      "variant": "Tuff Torq Residential IHT med extern expansionstank",
+      "locator": "Maintenance Overview, sista stycket och Figure #2",
+      "sourceId": "tt-external-expansion-oil",
+      "grade": "A",
+      "topic": "J"
+    }
+  ],
+  "gaps": [
+    "K46 Manufacturing ID och serienummer måste avläsas innan delar beställs.",
+    "Hämta tillverkarens exploderade reservdelslista för faktiskt monterad K46-variant, inklusive aktuella komponentnummer.",
+    "Kontrollera OEM:s anvisningar för demontering, bogsering, service och eventuella avvikande oljespecifikationer.",
+    "Skilj K46CJ i STIGA Villa från andra K46-varianter och gör ingen universell passformsbedömning.",
+    "Föreslagna artikelnummer i ospecificerade K46-parts-listor får inte överföras till K46CJ innan Ordertree ger exakt Manufacturing ID/serial match.",
+    "STIGA:s interna K46CJ-reservdelsnummer från 13-2729-15 behöver kontroll mot transmissionsetikett/serienummer, senare artikelersättningar och maskinens identifieringsskylt före beställning.",
+    "Kontrollera om STIGA:s senare servicekod 9585-0212-01 ersätter, kompletterar eller bara är alternativ till originalkatalogens 9585-0099-01 innan köpguide rekommenderar någon av dem.",
+    "Fastställ med original-ID och visuell identifikation om aktuell STIGA K46CJ har intern behållare eller extern expansionstank innan något serviceintervall från extern-tank-guiden används."
+  ]
+}
