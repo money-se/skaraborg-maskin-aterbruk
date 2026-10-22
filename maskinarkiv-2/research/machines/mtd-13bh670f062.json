@@ -147,7 +147,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke."
     },
     "E": {
       "state": "gap",
@@ -155,7 +155,7 @@
     },
     "F": {
       "state": "gap",
-      "note": "Reglagetyper och funktioner måste verifieras mot rätt operatörsmanual."
+      "note": "MTD 2000 reservdelsregister identifierar hastighetsreglagets länk 747-0530A; reglagejustering och utförande är ännu inte serienummerbundet."
     },
     "G": {
       "state": "gap",
@@ -663,6 +663,42 @@
       "grade": "B",
       "sourceId": "sears-mtd-13bh670f062-index",
       "locator": "Browse Parts, pagination page 42–43 → 46-inch deck H / 983-0120A"
+    },
+    {
+      "id": "mtd-2000-pulley-transmission-6560004",
+      "statement": "2000 års reservdelslista för 13BH670F062 anger transmissionsremskiva 656-0004; listningen identifierar inte transaxelns tillverkare.",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000; specifik serienummerrevision ej verifierad",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "Drive, Rear Wheels / Pulley-transmission, 656-0004",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-variable-speed-bracket-16554a",
+      "statement": "2000 års reservdelslista anger variabelhastighetsfäste 16554A-0637 (Variable Speed Torque Brkt. Ass'y); exakt revision och komponentpassform måste bekräftas mot sprängskiss.",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000; specifik serienummerrevision ej verifierad",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "Drive / Variable Speed Torque Brkt. Ass'y, 16554A-0637",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-speed-control-link-7470530a",
+      "statement": "2000 års reservdelslista anger Speed Control Link 747-0530A för 13BH670F062, men detta är en reservdelsindexträff utan kontrollerat serienummerspann.",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000; specifik serienummerrevision ej verifierad",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "Drive / Speed Control Link, 747-0530A",
+      "topic": "F"
+    },
+    {
+      "id": "mtd-2000-transaxle-support-17629a",
+      "statement": "2000 års reservdelslista anger Transaxle Support Brkt. 17629A-0637; detta är inte tillräckligt för att identifiera växellådans märke eller internservice.",
+      "variant": "MTD 13BH670F062, eReplacementParts katalogår 2000; specifik serienummerrevision ej verifierad",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "Drive / Transaxle Support Brkt., 17629A-0637",
+      "topic": "D"
     }
   ],
   "gaps": [
@@ -684,6 +720,7 @@
     "Kontrollera om MTD 2004 tillbehörskatalogens uttryckliga modellfamilj 13A*66*/67*/69* omfattar fabriksnumret 13BH670F062, innan remnummer görs maskinspecifika.",
     "MTD 2004 originalkatalog är 20 MB och webbläsningens PDF-öppning misslyckades; textbaserat sökresultat är granskat men full PDF och sida/figur inte verifierade.",
     "Avläs modell- och serienummerskylt för ett konkret 13BH670F062-exemplar. MTD:s datumkod använder en årskod som kan återkomma över flera årtionden, så tillverkningsår ska inte härledas ur endast ett tecken.",
-    "Avgränsa Sears samlingsindex mot originalmodellens tillverkningsår innan 42-tums kniv 742-0616 eller 46-tums Deck H behandlas som möjliga inköp; index kan innehålla gemensamma familjediagram."
+    "Avgränsa Sears samlingsindex mot originalmodellens tillverkningsår innan 42-tums kniv 742-0616 eller 46-tums Deck H behandlas som möjliga inköp; index kan innehålla gemensamma familjediagram.",
+    "Identifiera den faktiska transaxelns tillverkare och typskylt; delar 656-0004/17629A-0637 i åkgräsklipparens chassi räcker inte för intern växellådsidentifiering."
   ]
 }
