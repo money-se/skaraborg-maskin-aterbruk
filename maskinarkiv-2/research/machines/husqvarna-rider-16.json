@@ -1219,6 +1219,33 @@
       "sourceId": "husqvarna-service-bulletin-b0201901-2002",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-b0201901-washer-dimensions",
+      "statement": "B0201901 anger för äldre BioClip 103-spännbricka 506 96 64-01 innerdiameter 1 tum och ytterdiameter 1 15/16 tum; nyare 535 41 10-01 har innerdiameter 13/16 tum och ytterdiameter 2 5/16 tum. Dimensionerna är kontrollpunkter och bevisar inte ensamma aggregat-PNC.",
+      "variant": "BioClip 103 2000–2001 och 2001+, Husqvarna servicebulletin 2002-05",
+      "locator": "B0201901 PDF-sida 1, tabell under bladfotografiet med Tension Washer och dimensioner",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-bioclip103-distinct-revision-axes",
+      "statement": "Bruksanvisningen Rider 16 2002-04 benämner BioClip 103 version 1 respektive 2 efter en eller två synkroniserande tandremmar. B0201901 skiljer äldre och nyare aggregat efter kniv-, brytpinne-, brick- och knivhusutförande. Ingen av dessa två källor anger att dessa indelningar är identiska eller ger en översättning från remversion till knivhusrevision.",
+      "variant": "BioClip 103 2002-04 manual och servicebulletin B0201901; PNC ej fastställt",
+      "locator": "OM 2002-04 tryckt s.31 (PDF P32), Belt change on BioClip 103; B0201901 PDF-sidor 1–3, compare 2000–2001 vs 2001 and newer",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-b0201901-assembly-sets",
+      "statement": "B0201901 visar för äldre 2000–2001-utförande yttre/mitten knivhus 506 75 11-07/06 och knivsats 531 00 75-24; för 2001 och senare yttre/mitten 535 41 06-02/01 och knivsats 531 00 75-85. Detta är två separata kataloguppställningar, inte belägg för komponentvis utbytbarhet.",
+      "variant": "BioClip 103 bulletin B0201901; äldre 2000–2001 mot 2001 och nyare",
+      "locator": "B0201901 PDF-sida 2 ritning äldre; PDF-sida 3 ritning nyare, yttre/mitten och knivsats",
+      "sourceId": "husqvarna-service-bulletin-b0201901-2002",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -1266,6 +1293,8 @@
     "Se till att BioClip 90 med 8 mm/7 N inte förväxlas med BioClip 103 version 2 med 7 mm/10 N vid service.",
     "B0201901 använder överlappande tidsperioder 2000–2001 och 2001+; bestäm faktisk knivhus-/brick-/brytpinnedesign från aggregat innan passform påstås.",
     "Undersök om Husqvarnas BioClip 103-revisioner som kallas version 1/2 i bruksanvisningen sammanfaller med de båda konstruktionerna i B0201901; dessa får inte likställas utan bevis.",
-    "PDF-skärmbilder av B0201901 kunde inte laddas (cache miss). Textlagrets referenser och sidnumrerade ritningsnummer är kontrollerade; visuell positionsgranskning återstår."
+    "PDF-skärmbilder av B0201901 kunde inte laddas (cache miss). Textlagrets referenser och sidnumrerade ritningsnummer är kontrollerade; visuell positionsgranskning återstår.",
+    "BioClip 103: två separata revisionsaxlar är nu dokumenterade (1/2 tandremmar respektive äldre/nyare knivinfästningar). Källorna visar inte om de sammanfaller; ingen automatisk mappning tillåten.",
+    "B0201901 anger spännbrickornas olika inner-/ytterdiametrar. Kontrollera alltid faktisk knivaxel, knivhus, bricka och brytpinne samt PNC före kompatibilitet eller ersättningsråd."
   ]
 }
