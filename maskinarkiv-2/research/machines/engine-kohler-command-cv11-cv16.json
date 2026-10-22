@@ -3031,6 +3031,69 @@
       "topic": "K",
       "sourceId": "kohler-accessories-25800148-reve",
       "grade": "A"
+    },
+    {
+      "id": "kohler-tool-hydraulic-lifter-2576138",
+      "statement": "Kohlers originalkatalog listar 25 761 38-S som verktyg för hydrauliska ventillyftare på motorer med sådana lyftare. Katalogen styrker inte att numret formellt ersätter äldre KO1044.",
+      "variant": "Motorer med hydrauliska lyftare",
+      "locator": "Meters, Testers and Special Tools, printed p.7 (PDF index 6)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-tool-guide-reamer-2545512",
+      "statement": "Kohler listar 25 455 12-S som 0,25 mm överdimensionsbrotsch för ventilstyrningar på Command- och Aegis-motorer. Detta är ett serviceverktyg, inte en färdig ventilreparationssats.",
+      "variant": "Command/Aegis med avsedda ventilstyrningar",
+      "locator": "Meters, Testers and Special Tools, printed p.8 (PDF index 7)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-tool-guide-reamer-handle-2545509",
+      "statement": "Kohler listar 25 455 09-S som T-handtag till ventilstyrningsbrotsch. Verktyget säljs som separat katalogposition.",
+      "variant": "Kohler valve-guide reamer service",
+      "locator": "Meters, Testers and Special Tools, printed p.8 (PDF index 7)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-tool-sam-tester-2576140",
+      "statement": "Kohler listar 25 761 40-S som provare för Spark Advance Module (SAM). Katalogen fastställer inte att äldre KO3222 är ersatt eller att SAM finns på varje CV-motor.",
+      "variant": "Kohler med Spark Advance Module",
+      "locator": "Meters, Testers and Special Tools, printed p.8 (PDF index 7)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-tool-regulator-2576120-2576141",
+      "statement": "Kohler listar två likriktare/regulatorprovare: 25 761 20-S avsedd för 110–120 V matning och 25 761 41-S för 220–240 V matning. Nätmatningsspänningen gäller provverktyget, inte motorns laddspänning.",
+      "variant": "Kohler laddningssystem med regulator och kompatibel provuppställning",
+      "locator": "Meters, Testers and Special Tools, printed p.7 (PDF index 6)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-lubricant-camshaft-lifter-2535714",
+      "statement": "Kohler listar kamaxel-/lyftarsmörjmedel 25 357 14-S, 0,25 oz, i katalogens smörjmedelstabell. Det är inte ett alternativt motoroljebytesintervall eller en motoroljerekommendation.",
+      "variant": "Kohler servicearbete som kräver camshaft/lifter assembly lubricant",
+      "locator": "Special Items, printed p.9 (PDF index 8)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-lubricant-inertia-starter-5235701",
+      "statement": "Kohler listar 52 357 01-S som smörjmedel för tröghetsdriven elstartmotor, 0,25 oz. Produkten är skild från 52 357 12-S för spline drive.",
+      "variant": "Kohler inertia-drive electric starter",
+      "locator": "Special Items, printed p.9 (PDF index 8)",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -3081,6 +3144,7 @@
     "Källa TP-2339-D p.1.9 visar 38.958/30.970 mm för vevstakstappens nya diameter, vilket ser ut som tryckfel. Registrera inte nominellt nyvärde förrän oberoende Kohler-originalbekräftelse finns.",
     "Kohler olje-/ljuddämparmoment och RTV-monteringssekvens är källbundna till TP-2339-D, utförande och aktuell filter-/dämparfästning; komplett bulletin 252 och modellbunden reservdelskatalog återstår.",
     "Kohler reservdelsfynd kataloger 25 800 148 Rev. E och Fast Moving Parts: katalogfamilj och serienummergräns kan begränsa tillämplighet; bekräfta alltid Spec. No., monteringsutförande och eventuella ersättningsnummer i Kohler Parts Lookup före faktisk beställning.",
-    "Bränslepumpar: 12 559 02-S mekanisk pump och 25 559 01-S elektrisk tillbehörssats är separata utföranden; exakt Spec. No., pumpdrivning, fästen, slangdragning och eventuellt ersättningsnummer måste verifieras i aktuell Kohler-lookup."
+    "Bränslepumpar: 12 559 02-S mekanisk pump och 25 559 01-S elektrisk tillbehörssats är separata utföranden; exakt Spec. No., pumpdrivning, fästen, slangdragning och eventuellt ersättningsnummer måste verifieras i aktuell Kohler-lookup.",
+    "Kohler tillbehörskatalogens 25 761-verktyg och 25 357/52 357-smörjmedel är originalkatalognummer, men ersättningskedjor från äldre KO-verktyg och nuvarande leveransstatus är inte fastställda."
   ]
 }
