@@ -102,6 +102,41 @@
       "title": "Murray 425015X92A troubleshooting chart (original manual transcript)",
       "document": "F-040734L, printed page 34",
       "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=34"
+    },
+    {
+      "id": "murray-015a-blade-p21",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.21",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=21"
+    },
+    {
+      "id": "murray-015a-brake-p22",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.22",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=22"
+    },
+    {
+      "id": "murray-015a-lubrication-p25",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.25",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=25"
+    },
+    {
+      "id": "murray-015a-belt-p30",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.30",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=30"
+    },
+    {
+      "id": "murray-015a-maint-p20",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.20",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=20"
     }
   ],
   "topics": {
@@ -153,7 +188,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Manualen hänvisar till motorleverantörens instruktioner för olje- och bränsletyp. Fullständig Briggs Model/Type/Code krävs innan individuell oljemängd eller intervall anges.\nFollow-up: F-040734L s.19,22,24,27,28 anger särskilda service- och justeringsrutiner: växellänkagets neutralläge, däcknivå/14 PSI, stödhjul 1/2/3-6 och justering av knivdrivfjäder. Följ originalsäkerhetssteg i full manual."
+      "note": "Handbok F-040734L s.20–25 anger kontroll av knivbroms inom 5 s, ljuddämparkontroll vid 50 h, knivinspektion, smörjning, filterbyte samt förvaringsåtgärder. s.30 beskriver drivremmens monteringsriktning."
     },
     "K": {
       "name": "Reservdelar",
@@ -1313,6 +1348,204 @@
       "sourceId": "murray-015a-troubleshooting-p34",
       "grade": "B",
       "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-disconnect",
+      "statement": "Lossa tändstiftskabeln innan kniven granskas eller demonteras.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-hit",
+      "statement": "Om kniven träffat ett föremål ska motorn stängas av och kniv/adapter kontrolleras för skador.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-protect",
+      "statement": "Vid hantering av kniven ska skyddshandskar eller tyg användas mot vassa eggar.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-period",
+      "statement": "Handboken föreskriver kontroll hos auktoriserad fackperson av kniven vart tredje år alternativt byte mot originaldel.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-stop5",
+      "statement": "När knivreglaget kopplas ur ska knivar och remrörelse stanna inom fem sekunder.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.22 steg 11",
+      "sourceId": "murray-015a-brake-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-brake-contact",
+      "statement": "När knivreglaget kopplats ur ska bromsbeläggen ligga tätt an mot remskivorna; annars krävs auktoriserad service.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.22 steg 8",
+      "sourceId": "murray-015a-brake-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-spring-reset",
+      "statement": "Efter byte av aggregatrem ska knivdrivfjädern återställas till det översta hålet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.22 steg 12",
+      "sourceId": "murray-015a-brake-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-lubricate-steering",
+      "statement": "Handboken anger uttryckligen att styrväxeln ska smörjas med fett.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-lubricate-sandy",
+      "statement": "Vid drift i torra sandiga miljöer rekommenderas torr grafitspray i stället för normal smörjning på angivna punkter.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-fuel-filter",
+      "statement": "Vid smutsigt bränslefilter anger handboken orolig gång och lägre prestanda och rekommenderar originalreservdel.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-fuel-empty",
+      "statement": "Bränsletanken måste vara tom innan bränslefilter eller bränsleledning byts enligt handboken.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-v-face",
+      "statement": "Vid installation av drivrem ska remmens V-sida ligga mot övre motorremskivan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 1",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-idler-flat",
+      "statement": "Vid installation av drivrem ska remmens plana sida ligga mot löprullen och remmen får inte vara vriden.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 5",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-guides",
+      "statement": "Vid installation av drivrem ska remmen ligga innanför alla remstyrningar.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 6",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-steering",
+      "statement": "Handboken kräver att styrstångsenheten ligger på rätt sida om drivremmen vid återmontering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 10",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-clutch-check",
+      "statement": "Efter byte av drivrem ska kopplingens justering kontrolleras innan maskinen används.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 12",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-muffler-50",
+      "statement": "Ljuddämparen ska kontrolleras efter varje 50 timmar beträffande infästning och skador.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.20",
+      "sourceId": "murray-015a-maint-p20",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-storage-battery",
+      "statement": "Inför minst 30 dagars förvaring anger handboken att batteriet tas bort, fulladdas och förvaras svalt och torrt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.20",
+      "sourceId": "murray-015a-maint-p20",
+      "grade": "B",
+      "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
