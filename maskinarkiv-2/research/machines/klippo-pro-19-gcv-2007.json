@@ -67,6 +67,13 @@
       "title": "KLIPPO original operating instructions version 1:19",
       "document": "5225891-01, OM 2008-12, Triumph/Champion/Excellent/Pro 19 GCV etc",
       "url": "https://www.brftulpanen2.se/wp-content/uploads/2012/10/Gr%C3%A4sklippare-Klippo-Champion.pdf"
+    },
+    {
+      "id": "wolfswinkel-pro19gcv-965229001",
+      "tier": 2,
+      "title": "Wolfswinkel Pro 19 GCV product-number-specific parts diagram index",
+      "document": "Klippo Pro 19 GCV, artikelnummer 965229001, model parts listing",
+      "url": "https://www.wolfswinkel.nl/onderdeeltekeningen/klippo/duwmaaiers/pro-19-gcv/pro-19gcv"
     }
   ],
   "topics": {
@@ -267,6 +274,15 @@
       "sourceId": "klippo-2008-12-om",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "pro19gcv-wolfswinkel-965229001-confirm",
+      "statement": "Wolfswinkels modellbundna reservdelssida identifierar uttryckligen Pro 19 GCV artikelnummer 965229001 och listar bland annat 502978001, 503272701, 502871902, 503259401 och 504460501 i maskinens kompletta reservdelsöversikt. Sidans text bekräftar inte dessa delars figurnummer eller giltighet för alla serienummer.",
+      "variant": "KLIPPO Pro 19 GCV 965229001, Wolfswinkel fullständig produktlista (odaterad)",
+      "locator": "Rubrik/Artikelnummer 965229001 och 'Compleet systeem' artikelnummerlista",
+      "sourceId": "wolfswinkel-pro19gcv-965229001",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -279,6 +295,7 @@
     "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll.",
     "Pro 19 S GCV har egen drivrem-/mellanremsdokumentation, men original IPL för odrivna Pro 19 GCV 965229001 måste fortsatt kontrolleras för knivsystem.",
     "Wolfswinkels Pro 19 GCV-index listar kandidaterna 502978001, 503272701 och 502871902, men det krävs original-IPL med positionsnummer och giltigt serienummerintervall innan definitiv reservdelskoppling.",
-    "Originalproduktkatalogen 2008 bekräftar Pro 19 GCV 965229001 som 48 cm mulcherkniv och separat kniv 502978001, men den binder inte kniven med IPL-positionsnummer, variantserienummer och monteringskombination; behåll detta som öppen slutsats."
+    "Originalproduktkatalogen 2008 bekräftar Pro 19 GCV 965229001 som 48 cm mulcherkniv och separat kniv 502978001, men den binder inte kniven med IPL-positionsnummer, variantserienummer och monteringskombination; behåll detta som öppen slutsats.",
+    "Wolfswinkels separata nederländska register för 965229001 bekräftar modellbindningen av artikelnummerlistan; fortfarande saknas original-IPL och verifierade sprängskisspositioner."
   ]
 }
