@@ -2950,6 +2950,87 @@
       "sourceId": "kohler-fast-moving-parts-guide",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "kohler-mechanical-fuel-pump-1255902s",
+      "statement": "Kohler Parts and Accessories 25 800 148 Rev. E listar 12 559 02-S som icke-metallisk mekanisk bränslepump för CH/CV11–16/460–493; aktuell motor måste ha kompatibel mekanisk pumpinfästning.",
+      "variant": "CH/CV11–16/460–493 med mekanisk pump",
+      "locator": "Fuel, printed p.23, PDF index 22, Mechanical Fuel Pumps",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-electric-fuel-pump-2555901s",
+      "statement": "Kohler listar elektrisk bränslepumpsats 25 559 01-S, angiven för alla familjer utom CH6, CS och Bosch EFI. Katalogen anger 0,5–2,0 psi vid nollflöde, självsugshöjd 12 tum och total lyfthöjd 6 fot; detta är tillbehör, inte generell originalmontering.",
+      "variant": "Kohler förgasarmotor där 25 559 01-S-kit är installationskompatibelt",
+      "locator": "Fuel, printed p.22, PDF index 21, Electric Fuel Pump",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-lowperm-fuel-hose-2511181s",
+      "statement": "Kohler listar 25 111 81-S som lågpermeabel bränsleslang med 1/4-tums innerdiameter och 39-tums längd för icke-EFI-installationer.",
+      "variant": "Non-EFI Kohler fuel line installations",
+      "locator": "Fuel, printed p.20, PDF index 19, Low Permeation Fuel Line",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-lowperm-fuel-hose-bulk-2511139s",
+      "statement": "Kohler listar 25 111 39-S som lågpermeabel bränsleslang med 1/4-tums innerdiameter på 25-fotsrulle för icke-EFI-installationer; längd och leveransform skiljer sig från 25 111 81-S.",
+      "variant": "Non-EFI Kohler fuel line installations, bulk length",
+      "locator": "Fuel, printed p.20, PDF index 19, Low Permeation Fuel Line",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-inline-shutoff-1709925s",
+      "statement": "Kohlers tillbehörskatalog listar avstängningsventil 17 099 25-S för bränsleledningar med 1/4-tums dimension. Monteringsläget och säker åtkomst beror på maskinens utförande.",
+      "variant": "Kohler fuel lines of 1/4 inch, compatible installation required",
+      "locator": "Fuel, printed p.20, PDF index 19, Inline Fuel Shut-Off Valve",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-alcohol-fuel-tester-2545511s",
+      "statement": "Kohler listar 25 455 11-S som alkoholhaltstestare avsedd för E10/E20/E85-provning. Verktygets mätmöjligheter är inte godkännande av E20 eller E85 som bränsle i Command-motorn.",
+      "variant": "Kohler fuel testing accessory, not approved gasoline specification",
+      "locator": "Fuel, printed p.20, PDF index 19, Alcohol Content Tester",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-mechanical-pump-oring-fitting-1229413s",
+      "statement": "Kohlers illustration över mekanisk pump CH/CV11–16/460–493 visar anslutningsdetalj 12 294 13-S med medföljande O-ring. Detta är en del i pumpens anslutningsuppsättning, inte en komplett pump.",
+      "variant": "Mekanisk pump 12 559 02-S och dess illustrerade fittings",
+      "locator": "Fuel, printed p.23, PDF index 22, Mechanical Fuel Pumps illustration",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-mechanical-pump-fitting-2529409s",
+      "statement": "Kohlers pumpillustration listar 25 294 09-S som anslutningsdetalj med O-ring i sammanställningen av mekaniska bränslepumpar; exakt anslutningskonfiguration måste väljas efter pump och slangdragning.",
+      "variant": "Kohler mechanical fuel pump illustration, variant-specific fitting",
+      "locator": "Fuel, printed p.23, PDF index 22, Mechanical Fuel Pumps illustration",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-fuel-pump-not-pulse-2439316s",
+      "statement": "Kohlers tillbehörskatalog listar pulspumpen 24 393 16-S för andra motorfamiljer som CH/CV17–25 och SV470–840, men inte som direkt ersättning för CV11–16-mekaniska pumpen 12 559 02-S. Olika pumpprinciper får inte likställas.",
+      "variant": "CV11–16/460–493 jämfört med katalogens större Command-pulspumpmotorer",
+      "locator": "Fuel, printed p.23, PDF index 22, Pulse vs Mechanical Fuel Pumps",
+      "topic": "K",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -2999,6 +3080,7 @@
     "Forskningskorrigering: tidigare sammanfattat ändgap för två översta kolvringar ersatt med sex specifikationsbundna separata mätvärden från tabellen p.1.11–1.12.",
     "Källa TP-2339-D p.1.9 visar 38.958/30.970 mm för vevstakstappens nya diameter, vilket ser ut som tryckfel. Registrera inte nominellt nyvärde förrän oberoende Kohler-originalbekräftelse finns.",
     "Kohler olje-/ljuddämparmoment och RTV-monteringssekvens är källbundna till TP-2339-D, utförande och aktuell filter-/dämparfästning; komplett bulletin 252 och modellbunden reservdelskatalog återstår.",
-    "Kohler reservdelsfynd kataloger 25 800 148 Rev. E och Fast Moving Parts: katalogfamilj och serienummergräns kan begränsa tillämplighet; bekräfta alltid Spec. No., monteringsutförande och eventuella ersättningsnummer i Kohler Parts Lookup före faktisk beställning."
+    "Kohler reservdelsfynd kataloger 25 800 148 Rev. E och Fast Moving Parts: katalogfamilj och serienummergräns kan begränsa tillämplighet; bekräfta alltid Spec. No., monteringsutförande och eventuella ersättningsnummer i Kohler Parts Lookup före faktisk beställning.",
+    "Bränslepumpar: 12 559 02-S mekanisk pump och 25 559 01-S elektrisk tillbehörssats är separata utföranden; exakt Spec. No., pumpdrivning, fästen, slangdragning och eventuellt ersättningsnummer måste verifieras i aktuell Kohler-lookup."
   ]
 }
