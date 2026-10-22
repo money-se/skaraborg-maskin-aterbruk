@@ -1,0 +1,34 @@
+{% if chapter.id == "sakerhet" %}
+<h3>Arbetsgång: börja med det du faktiskt ser</h3>
+<p>Den här ordningen hjälper dig att beskriva felet innan delar köps. Den är en praktisk felsökningsmetod, inte en förteckning över typfel på Villa 12 HST.</p>
+<ol>
+<li><strong>Beskriv symtomet.</strong> Skriv om startmotorn är helt tyst, om den drar runt motorn, om motorn går utan att maskinen rör sig eller om bara klippningen saknas. Olika symtom hör till olika system.</li>
+<li><strong>Notera maskinens identitet.</strong> Fotografera basmaskinens produktnummer. Gäller felet motorn, ta även motor-ID; gäller det klippningen, notera aggregatets egna nummer.</li>
+<li><strong>Kontrollera normala förutsättningar.</strong> STIGA:s manual beskriver startvillkor för broms och PTO samt transmissionens frikoppling. Säkerhetssystem ska aldrig kopplas förbi. {# Research claim-ID: faq-no-start-pto-brake-conditions, controls-pto-bypass-original-manual, safety-bypass #}</li>
+<li><strong>Stanna vid risktecken.</strong> Bränsleläckage, skadad kabelisolering, kraftiga vibrationer eller ett säkerhetssystem som inte fungerar betyder att maskinen inte ska provköras vidare förrän felet är undersökt. {# Research claim-ID: buyer-check-from-safety-inspection #}</li>
+<li><strong>Välj rätt dokument.</strong> Använd STIGA:s maskinmanual för maskinreglage och säkerhet, rätt motormanual för motorarbete och rätt reservdelsritning för aggregat eller transaxel.</li>
+</ol>
+<h3>Exempel: motorn går men maskinen står stilla</h3>
+<p>Det räcker inte för att säga att hydrostaten är trasig. Dokumentera om den försöker röra sig i båda riktningarna och kontrollera att frikopplingsspaken står enligt manualens normala körläge. Innan visuell kontroll av remdrift: stäng av motorn, ta ur nyckeln och vänta tills allt står still. Fortsatt diagnos beror på det verkliga utförandet och ska inte ersättas av en gissad reservdelsbeställning. {# Research claim-ID: controls-hydro-pedal-original-manual, controls-pto-bypass-original-manual #}</p>
+{% elif chapter.id == "underhall" %}
+<h3>Gör en servicejournal som går att använda nästa år</h3>
+<p>För en äldre maskin är en enkel dokumentation ofta lika värdefull som minnet av vad som bytts. Anteckna datum, drifttimmar om timräknare finns, maskinens PNC, motorns identitet och exakt vilket arbete som gjorts. Ange om servicevärdet kommer från STIGA:s maskinmanual eller från en separat motor- eller transaxelmanual.</p>
+<table class="service"><thead><tr><th>Notera</th><th>Varför?</th></tr></thead><tbody>
+<tr><td>Datum och mätarställning</td><td>Gör det möjligt att följa tidigare kontroller och byten.</td></tr>
+<tr><td>Maskinens PNC och motor-ID</td><td>Visar vilken manual som användes.</td></tr>
+<tr><td>Komponent och åtgärd</td><td>Skiljer exempelvis motorolja från arbete på hydrostaten.</td></tr>
+<tr><td>Delnummer och dokumentkälla</td><td>Underlättar om samma del behövs igen.</td></tr>
+<tr><td>Resultat efter åtgärd</td><td>Visar om symtomet faktiskt försvann.</td></tr>
+</tbody></table>
+<p>Manual 8211-0038-90 anger bland annat styrningskontroll efter fem timmar och därefter var 25:e timme för det utförande den avser. För motor- eller transaxelservice ska du däremot först säkerställa att dokumentet motsvarar den monterade komponenten. {# Research claim-ID: steering-check, oil-service, k46cj-tufftorq-service-primary #}</p>
+{% elif chapter.id == "reservdelar" %}
+<h3>Beställ rätt del i fem steg</h3>
+<ol>
+<li><strong>Identifiera delsystemet.</strong> Är det motorn, hydrostaten, PTO:n eller klippaggregatet? De har olika dokument och olika artikelnummer.</li>
+<li><strong>Läs av märkningen.</strong> Utgå från maskinens PNC, aggregatets eget nummer och vid behov motorns Model/Type/Code eller transaxelns etikett.</li>
+<li><strong>Öppna rätt reservdelsritning.</strong> Leta efter komponentens benämning och positionsnummer i figurens tillhörande dellista.</li>
+<li><strong>Kontrollera revisioner och alternativnummer.</strong> Exempelvis anges 1134-9064-01 och 9585-0099-01 i originalkatalogens transmissionsavsnitt från 2010. Det innebär inte att de automatiskt gäller varje Villa-utgåva. {# Research claim-ID: stiga-2010-drivebelt #}</li>
+<li><strong>Kontrollera passformen före betalning.</strong> Jämför dokument, maskinnummer och delens faktiska utförande. Vid osäkerhet ska kompatibiliteten anges som ej verifierad.</li>
+</ol>
+<p><strong>Exempel på viktig skillnad:</strong> Ett klippaggregat märkt 13-2960-14 har sin egen reservdelskatalog. Basmaskinens nummer 13-2729-15 identifierar inte automatiskt aggregatets knivar eller remmar. {# Research claim-ID: deck-2960-14, 85combi-2011-no-fit-assumption #}</p>
+{% endif %}
