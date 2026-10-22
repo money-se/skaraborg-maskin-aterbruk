@@ -32,6 +32,13 @@
       "title": "Husqvarna KLIPPO Excellent SE product support",
       "document": "Excellent SE LAWN MOWER 48CM MULCH B&S675EXI InStart, 967 60 70-01",
       "url": "https://www.husqvarna.com/se/support/klippo-excellent-se/"
+    },
+    {
+      "id": "retailer-klippo-crosswalk",
+      "tier": 2,
+      "title": "ReservdelarOnline – äldre Klippo-nummer och Husqvarna-nummer",
+      "document": "Översättningstabell äldre maskinkoder till PNC (odaterad webbversion)",
+      "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
     }
   ],
   "topics": {
@@ -222,6 +229,24 @@
       "locator": "PDF-sida 8 (index 7), försäkran om överensstämmelse, rad Excellent GCV",
       "sourceId": "klippo-om-2007-000001",
       "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-crosswalk-k05710",
+      "statement": "Återförsäljarens korsreferens listar K05710 som Excellent med motsvarande 965227601. Tabellen är klass B och belägger inte kniv- eller motorkompatibilitet med senare Excellent 967607401.",
+      "variant": "Klippo Excellent K05710, historisk modellkod; separat från senare 967607401",
+      "locator": "Översättningstabell, rad K05710 – 965227601 – Excellent",
+      "sourceId": "retailer-klippo-crosswalk",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-gcv-crosswalk-k05720",
+      "statement": "Återförsäljarens korsreferens listar K05720 som Excellent GCV med artikelnummer 965227701. Detta är inte belägg för att senare Excellent H har identiska delar.",
+      "variant": "Klippo Excellent GCV K05720",
+      "locator": "Översättningstabell, rad K05720 – 965227701 – Excellent GCV",
+      "sourceId": "retailer-klippo-crosswalk",
+      "grade": "B",
       "topic": "M"
     }
   ],
