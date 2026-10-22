@@ -32,6 +32,13 @@
       "title": "Murray 425014X92B engine mount parts",
       "document": "F-050706L p.49",
       "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=49"
+    },
+    {
+      "id": "murray-014b-electrical-f050706l",
+      "tier": 2,
+      "title": "Murray 425014X92B original repair parts electrical system",
+      "document": "F-050706L printed page 51",
+      "url": "https://www.lawnmowerpros.com/pdfs/murray/F050706L_1.pdf"
     }
   ],
   "topics": {
@@ -68,7 +75,7 @@
     "G": {
       "name": "Säkerhet",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "F-050706L sida 51 listar kabelhärvor, tändningslås, PTO-brytare, startsolenoid, batteri, sitsbrytare och väljare för backväxel/kopplingsbroms. Funktionstest och elschema är inte verifierade i detta paket."
     },
     "H": {
       "name": "Klippaggregat",
@@ -585,6 +592,116 @@
       "topic": "C",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-light-harness",
+      "statement": "Reservdelskatalogen anger Belysningskabelhärva 250x92.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 1",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-chassis-harness",
+      "statement": "Reservdelskatalogen anger Chassikabelhärva 250x138.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 2",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-ignition-switch",
+      "statement": "Reservdelskatalogen anger Tändningslås 1001993.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 3",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-pto-switch",
+      "statement": "Reservdelskatalogen anger PTO-gränslägesbrytare 094136.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 4",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-fuse",
+      "statement": "Reservdelskatalogen anger Säkring 302031.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 5",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-solenoid",
+      "statement": "Reservdelskatalogen anger Startsolenoid 1002004.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 6",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-battery",
+      "statement": "Reservdelskatalogen anger Batteri 021075.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 8",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-seat-harness",
+      "statement": "Reservdelskatalogen anger Sitsbrytarens kabelhärva 250x139.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 9",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-seat-switch",
+      "statement": "Reservdelskatalogen anger Sitsgivarbrytare 094159.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 10",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-electrical-reverse-brake-switch",
+      "statement": "Reservdelskatalogen anger Väljare för backväxel/kopplingsbroms 1001575.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ELECTRICAL SYSTEM, tryckt sida 51, position 12",
+      "sourceId": "murray-014b-electrical-f050706l",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -596,6 +713,7 @@
     "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
     "Katalogernas lika rem- och knivnummer för 425014X92B och 425015X92A belägger gemensamma katalognummer, inte universell montering eller ersättningsrevisioner. Kontrollera aggregatets märkning.",
     "425014X92B styrningsritning visar avvikande suffixtal E245 för framaxel/styrspindlar jämfört med 425015X92A:s E701; kontrollera verklig revision och eventuella ersättningsnummer före beställning.",
-    "Identifiera Briggs Model/Type/Code på motorn före koppling till motorspecifik servicemanual."
+    "Identifiera Briggs Model/Type/Code på motorn före koppling till motorspecifik servicemanual.",
+    "425014X92B elsystemets kabelhärvor och startkomponenter skiljer sig från A-registret. Kontrollera fysisk variant och kopplingsschema före byte; endast reservdelsidentitet är katalogbelagd."
   ]
 }
