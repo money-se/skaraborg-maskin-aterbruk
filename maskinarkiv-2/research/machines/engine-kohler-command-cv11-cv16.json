@@ -245,6 +245,42 @@
       "sourceId": "kohler-owners-1259001",
       "grade": "A",
       "topic": "B"
+    },
+    {
+      "id": "kohler-owner-air-precleaner-pn",
+      "statement": "Ägarmanual 12 590 01 listar förfilter: 12 083 08-S standard för CV11–CV16 och 12 083 12-S extra capacity för CV11–CV16 samt CV460–CV493. Tabellen är ett dokumentbundet katalogfynd, inte ett universellt passningsbesked.",
+      "variant": "CV11–CV16 / CV460–CV493, relevant luftfilterkonfiguration",
+      "topic": "K",
+      "locator": "Air Cleaner > Service Precleaner, printed p.11 PDF index 10",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-owner-paper-filter-pn",
+      "statement": "Ägarmanual 12 590 01 listar pappersfilter 12 083 05-S standard (71 mm), 12 083 09-S U.L. approved (71 mm) och 12 083 10-S extra capacity (84 mm) för CV11–CV16; extra capacity 12 083 10-S för CV460–CV493.",
+      "variant": "CV11–CV16 / CV460–CV493, specifikt filterhus/konfiguration måste kontrolleras",
+      "topic": "K",
+      "locator": "Air Cleaner > Service Paper Element, printed p.11 PDF index 10",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-owner-spark-torque-difference",
+      "statement": "Ägarmanual 12 590 01 anger tändstiftsmoment 38,0–43,4 Nm, vilket avviker från den tidigare registrerade verkstadshandbokens 24,4–29,8 Nm. Ingen entydig tillämpningsregel är ännu fastställd; värdena får inte publiceras som generellt servicevärde.",
+      "variant": "CV11–CV16 / CV460–CV493 enligt ägarmanual 12 590 01",
+      "topic": "G",
+      "locator": "Check Spark Plug > installation step 4, printed p.12 PDF index 11",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-owner-oil-drain-plug-torque",
+      "statement": "Ägarmanual 12 590 01 anger åtdragningsmoment 13,6 Nm för oljeavtappningspluggen vid oljebyte.",
+      "variant": "CV11–CV16 / CV460–CV493 enligt 12 590 01; aktuell avtappningsplugg måste identifieras",
+      "topic": "J",
+      "locator": "Change Oil, step 3, printed p.9 PDF index 8",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -252,6 +288,8 @@
     "Exakt motorolja, oljefilter, tändstift, åtdragningsmoment och serviceintervall måste kopplas till relevant specifikationsnummer/revision.",
     "Reservdelar och maskinpassning får inte härledas från enbart modellens hästkraftsbeteckning.",
     "Den ursprungliga Kohler-kodtabellen i TP-2339-D täcker tillverkningsår 1991–2002; senare serienummer måste få en separat verifierad kodkälla.",
-    "Kohler 12 590 01 table covers a defined engine family; verify exact model/specification/serial before applying oil quantity to a machine."
+    "Kohler 12 590 01 table covers a defined engine family; verify exact model/specification/serial before applying oil quantity to a machine.",
+    "Kohler tändstiftsmoment: originalmanual 12 590 01 anger 38,0–43,4 Nm medan TP-2339-D anger 24,4–29,8 Nm; lös skillnaden per manualrevision och exakt motor/specifikation innan serviceinstruktion publiceras.",
+    "Kohler luftfilter: artiklar i originalmanual 12 590 01 måste kontrolleras mot faktiskt filterhus/Spec. No. och senare supersession innan beställningsråd."
   ]
 }
