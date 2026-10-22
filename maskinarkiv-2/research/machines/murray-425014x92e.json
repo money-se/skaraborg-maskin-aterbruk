@@ -46,6 +46,27 @@
       "title": "Murray/AYP illustrated replacement parts document 425014X92E (96014000100)",
       "document": "96014000100-e-rp, printed pp. 31–47",
       "url": "https://www.lawnmowerpros.com/pdfs/ayp/96014000100.pdf"
+    },
+    {
+      "id": "murray-425014-seat-p42-html",
+      "tier": 2,
+      "title": "Murray 425014X92E seat assembly parts transcription",
+      "document": "Instruction Book 98339, SEAT ASSEMBLY printed p.42",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/42"
+    },
+    {
+      "id": "murray-425014-lift-p45-html",
+      "tier": 2,
+      "title": "Murray 425014X92E lift assembly parts transcription",
+      "document": "Instruction Book 98339, LIFT ASSEMBLY printed p.45",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/45"
+    },
+    {
+      "id": "murray-014e-troubleshooting-98339",
+      "tier": 2,
+      "title": "Murray 425014X92E manufacturer-form operator instruction book",
+      "document": "98339, 03.21.05 RD, Troubleshooting Chart pp.28-30",
+      "url": "https://www.manualslib.com/manual/506831/Murray-96014000100.html"
     }
   ],
   "topics": {
@@ -72,7 +93,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Styrningssektionens originalreservdelslista på tryckt sida 39 identifierar ratt, axel, styrspindlar, styrstag, tvärstag, smörjnippel och rattadapter. Fysisk identitets- och efterträdande reservdelskontroll återstår."
+      "note": "Styrningssektionens originalreservdelslista på tryckt sida 39 identifierar ratt, axel, styrspindlar, styrstag, tvärstag, smörjnippel och rattadapter. Fysisk identitets- och efterträdande reservdelskontroll återstår.\nFollow-up: Styrning och chassi samt sitsens pivotfäste och fjäder är katalogförda per 425014X92E. Fullständigt variantbyte och tillbehörskompatibilitet återstår."
     },
     "F": {
       "name": "Reglage",
@@ -87,7 +108,7 @@
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "OEM-reservdelskatalog innehåller 42-tums däck, rem 144959, tre namngivna knivalternativ och komplett ersättningsaggregat 171639. Ingen universell Murray-passform är belagd."
+      "note": "OEM-reservdelskatalog innehåller 42-tums däck, rem 144959, tre namngivna knivalternativ och komplett ersättningsaggregat 171639. Ingen universell Murray-passform är belagd.\nFollow-up: 42-tums klippdäck, rem och knivvarianter är katalogförda. Lyftsystemets vajer, axel, vänster/höger lyftstag och bakre upphängningsarm har nu separata sid- och positionsbelägg; passform och ersättningsrevisioner återstår."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -97,7 +118,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Motoroljeintervall och servicepunkter extraherade ur manual för 425014X92E; motorkod saknas."
+      "note": "Motoroljeintervall och servicepunkter extraherade ur manual för 425014X92E; motorkod saknas.\nFollow-up: Modellens egen handbok 98339 ger kontroll av bromssträcka, 27–35 ft-lb knivbult, oljeintervall 25 h/år, oljekontroll var 8 h, driv- och knivremsbyte, bakhjulsfyrkantskil samt vinterförvaring."
     },
     "K": {
       "name": "Reservdelar",
@@ -112,7 +133,7 @@
     "M": {
       "name": "Vanliga frågor",
       "state": "gap",
-      "note": "Källor för identifiering och service finns; fråga/svar behöver byggas på kontrollerade modellpåståenden."
+      "note": "Källor för identifiering och service finns; fråga/svar behöver byggas på kontrollerade modellpåståenden.\nFollow-up: Originalhandbok 98339 sid.28–30: orsaker till start-/effektproblem, låst knivspindel, remfel och dåligt utkast. Peerless 206-544C:s interna service ska inte härledas från denna felsökningstabell."
     }
   },
   "claims": [
@@ -808,6 +829,512 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-seat-part",
+      "statement": "Sitsen listas som 188705.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "SEAT ASSEMBLY p.42, pos 1",
+      "sourceId": "murray-425014-seat-p42-html",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-seat-pivot",
+      "statement": "Sitsens pivotfäste listas som 180166.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "SEAT ASSEMBLY p.42, pos 2",
+      "sourceId": "murray-425014-seat-p42-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-seat-spring",
+      "statement": "Sitsfjädern listas som 124181X.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "SEAT ASSEMBLY p.42, pos 7",
+      "sourceId": "murray-425014-seat-p42-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-seat-pan",
+      "statement": "Sitsplåten listas som 180186.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "SEAT ASSEMBLY p.42, pos 10",
+      "sourceId": "murray-425014-seat-p42-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-seat-knob",
+      "statement": "Sitsens vred listas som 166369.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "SEAT ASSEMBLY p.42, pos 11",
+      "sourceId": "murray-425014-seat-p42-html",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-seat-switch-bracket",
+      "statement": "Fästet för sitsbrytaren listas som 174648.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "SEAT ASSEMBLY p.42, pos 12",
+      "sourceId": "murray-425014-seat-p42-html",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lift-lever",
+      "statement": "Lyftspakens inre vajerenhet listas som 159460.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "LIFT ASSEMBLY p.45, pos 1",
+      "sourceId": "murray-425014-lift-p45-html",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lift-shaft",
+      "statement": "Lyftaxelenheten listas som 159471.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "LIFT ASSEMBLY p.45, pos 2",
+      "sourceId": "murray-425014-lift-p45-html",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lift-plunger",
+      "statement": "Lyftspakens röda tryckknapp listas som 122365X.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "LIFT ASSEMBLY p.45, pos 8",
+      "sourceId": "murray-425014-lift-p45-html",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lift-link-left",
+      "statement": "Vänster lyftstag listas som 139865.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "LIFT ASSEMBLY p.45, pos 11",
+      "sourceId": "murray-425014-lift-p45-html",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lift-link-right",
+      "statement": "Höger lyftstag listas som 139866.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "LIFT ASSEMBLY p.45, pos 12",
+      "sourceId": "murray-425014-lift-p45-html",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lift-front-link",
+      "statement": "Främre lyftstag listas som 173288.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "LIFT ASSEMBLY p.45, pos 15",
+      "sourceId": "murray-425014-lift-p45-html",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-lift-rear-arm",
+      "statement": "Bakre upphängningsarm listas som 139868.",
+      "variant": "425014X92E / 96014000100; manual 98339",
+      "locator": "LIFT ASSEMBLY p.45, pos 19",
+      "sourceId": "murray-425014-lift-p45-html",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-fuel",
+      "statement": "Vid utebliven start anges bränslebrist som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-choke",
+      "statement": "Vid utebliven start anges felaktig användning av choke som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-flooded",
+      "statement": "Vid utebliven start anges flödad motor som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-plug",
+      "statement": "Vid utebliven start anges defekt tändstift som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-airfilter",
+      "statement": "Vid utebliven start anges smutsigt luftfilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-fuelfilter",
+      "statement": "Vid utebliven start anges smutsigt bränslefilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-water",
+      "statement": "Vid utebliven start anges vatten i bränslet som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-wire",
+      "statement": "Vid utebliven start anges lösa eller skadade ledningar som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-debris",
+      "statement": "Vid effektförlust anges gräs/lövansamling under klippaggregatet och rengöring av dess undersida.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-airfilter",
+      "statement": "Vid effektförlust anges smutsigt luftfilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-oil",
+      "statement": "Vid effektförlust anges låg oljenivå eller smutsig olja som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-plug",
+      "statement": "Vid effektförlust anges defekt tändstift som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-fuelfilter",
+      "statement": "Vid effektförlust anges smutsigt bränslefilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-obstruction",
+      "statement": "Om knivarna inte roterar anges hinder i kopplingsmekanismen; avlägsna hindret med maskinen säkrad.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-belt",
+      "statement": "Om knivarna inte roterar anges sliten/skadad aggregatrem och byte av rem.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-idler",
+      "statement": "Om knivarna inte roterar anges fastkärvad löprulle och byte av löprulle.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-mandrel",
+      "statement": "Om knivarna inte roterar anges fastkärvad knivspindel; hänvisa till kvalificerad verkstad.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-grass-engine",
+      "statement": "Vid dåligt gräsutkast anges för lågt motorvarvtal som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-max-slope",
+      "statement": "Instruktionsboken anger högst 15 graders sluttning, samt körning uppför/nedför och inte tvärs över sluttningen.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.15",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-brake-distance",
+      "statement": "Om traktorn behöver mer än fem fot för att stanna från högsta fart i högsta växeln på torr plan hård yta ska bromsen kontrolleras och justeras.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.18",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-blade-torque",
+      "statement": "Knivbultens åtdragningsmoment anges till 27–35 ft-lb.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.19",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-oil-25h",
+      "statement": "Motoroljan ska bytas efter 25 drifttimmar eller minst en gång per år om 25 timmar inte uppnås.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.20",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-oil-check-8h",
+      "statement": "Kontrollera vevhusets oljenivå före start och efter var åttonde drifttimme.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.20",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-belt-tool-less",
+      "statement": "Byte av klippknivsrem anges kunna utföras utan verktyg när klippaggregatet har demonterats enligt anvisningen.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.23",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-belt-park",
+      "statement": "Vid byte av klippknivsrem ska traktorn stå plant med parkeringsbroms ansatt.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.23",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-motion-belt-decal",
+      "statement": "Vid byte av drivrem anger manualen ett installationsschema på undersidan av vänster fotstöd.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.24",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-motion-belt-park",
+      "statement": "Vid byte av drivrem ska maskinen parkeras på plan mark med parkeringsbromsen ilagd.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.24",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-rear-wheel-key",
+      "statement": "Vid demontering av bakhjul ska fyrkantskilen i navet tas tillvara.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.25",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-light-bulb",
+      "statement": "Vid byte av strålkastarlampa lyfts huven och lamphållaren dras ut på grillens baksida.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.26",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-storage-30days",
+      "statement": "Långtidsförvaring ska förberedas om maskinen inte ska användas på 30 dagar eller mer.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.27",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-storage-fumes",
+      "statement": "Bensin i tanken innebär brand-/explosionsrisk vid förvaring där ångor kan nå antändningskällor.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.27",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-mower-belt-fault",
+      "statement": "Vid utebliven knivrotation rekommenderas byte av aggregatrem om den är skadad.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-mower-mandrel-service",
+      "statement": "Vid kärvande knivspindel hänvisas till kvalificerad verkstad.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -818,6 +1345,7 @@
     "Flera Murray-modellfamiljer och europeiska varianter saknas ännu i forskningsbanken.",
     "Inget publiceringsbeslut; samtliga ämnesområden A–M är ännu ofullständiga.",
     "Generatorns verkliga utförande och elsystemets testprotokoll måste kontrolleras mot fysisk maskin och motor-Type/Code; nominella schemasiffror är inte individuella mätvärden.",
-    "425014X92E: Steering Assembly-pos. 1–97 har delvis extraherats. Ingen styrdelskompatibilitet mot A/B/425015 får antas utan egna katalogbelägg."
+    "425014X92E: Steering Assembly-pos. 1–97 har delvis extraherats. Ingen styrdelskompatibilitet mot A/B/425015 får antas utan egna katalogbelägg.",
+    "Sits- och lyftkomponenter för 425014X92E kräver fortsatt kontroll av ersättningsnummer och fysisk maskin innan köp; katalogposter visar inte generell kompatibilitet."
   ]
 }
