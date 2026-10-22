@@ -11,6 +11,20 @@
       "title": "Jonsered LT2115A 2005-01 parts catalogue",
       "document": "96011000800, alternate product 954130222, 2005-01",
       "url": "https://www.wolfswinkel.shop/spare-parts-drawings/jonsered/ride-on-mowers/garden-tractors/lt/lt-2115-a/lt-2115-a-96011000800-954130222-2005-01"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-jan-drive",
+      "tier": 2,
+      "title": "LT2115A Jan 2005 dealer DRIVE",
+      "document": "LT2115A Jan 2005 dealer DRIVE",
+      "url": "https://www.sgarden.cz/NahradniDily/Rozkresy/75167/NAHON"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-jan-mower",
+      "tier": 2,
+      "title": "LT2115A Jan 2005 dealer MOWER",
+      "document": "LT2115A Jan 2005 dealer MOWER",
+      "url": "https://www.sgarden.cz/NahradniDily/Rozkresy/75165/KRYT_SECENI__ZACI_USTROJI"
     }
   ],
   "topics": {
@@ -91,11 +105,100 @@
       "topic": "A",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-drive-belt",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar markdrivningsrem 532140294 vid DRIVE position 57. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden DRIVE list, row 57",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-shift-rod",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar växelreglagestång 532192502 vid DRIVE position 8. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden DRIVE list, row 8",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-clutch-link",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar kopplingslänk 532105710 vid DRIVE position 53. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden DRIVE list, row 53",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-drive-return-spring",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar returfjäder 532105709 vid DRIVE position 55. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden DRIVE list, row 55",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-deck-assembly",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar aggregatbas 532174595 vid MOWER position 1. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden MOWER list, row 1",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-mower",
+      "grade": "C",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-blade",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar kniv 532138496 vid MOWER position 11. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden MOWER list, row 11",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-mower",
+      "grade": "C",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-mower-belt",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar aggregatrem 532180213 vid MOWER position 68. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden MOWER list, row 68",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-mower",
+      "grade": "C",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-mandrel-shaft",
+      "statement": "Den versionsbundna handlarlistan för jonsered-lt2115a-96011000800 visar spindelaxel 532137645 vid MOWER position 13. Detta är en katalogobservation; ursprunglig OEM-passform och reservdelsersättningar har inte slutverifierats.",
+      "variant": "jonsered-lt2115a-96011000800",
+      "locator": "sGarden MOWER list, row 13",
+      "sourceId": "jonsered-lt2115a-96011000800-jan-mower",
+      "grade": "C",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
     "Utökning kräver sidvis originalkatalogkontroll av DRIVE, ENGINE, ELECTRICAL, MOWER och STEERING.",
     "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
-    "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL."
+    "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
+    "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL."
   ]
 }
