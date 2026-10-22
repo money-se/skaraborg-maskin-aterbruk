@@ -3305,6 +3305,123 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "C"
+    },
+    {
+      "id": "p25-input-shaft-disassembly-sequence",
+      "statement": "Demontering av ingående axel: avlägsna först låsring (57), kassera läpptätning (56), ta bort bricka (55) och pumpaxelenheten (52–54). Därefter kan trådlåsring (54) och lager (53) avlägsnas från axeln (52).",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.31, figur 25, Disassembly",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-input-shaft-neoprene-tap",
+      "statement": "För att frigöra ingående axeln får den knackas lätt med neoprenklubba från husets laddpumpssida. Tillverkaren varnar uttryckligen för skador på axeln eller gerotorns löpyta.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.31, figur 25, NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-input-shaft-bearing-conditional",
+      "statement": "Lagret (53) på ingående pumpaxel (52) ska enligt anvisningen bara demonteras från axeln om det är slitet eller skadat.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.31, figur 25, NOTE och Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-input-shaft-spline-inspection",
+      "statement": "Vid service kontrolleras både ingående axel och lager efter slitage eller skador, inklusive axelns splines; skadade delar ersätts.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.31, figur 25, Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-bypass-push-ring-discard",
+      "statement": "Vid demontering av bypassarm (34) ska påtryckt låsring (35) tas bort och kasseras. Återmontering kräver en ny påtryckt låsring (35).",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.32, figur 26, Disassembly steg 2 och Assembly steg 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-bypass-clip-ring-reuse-conditional",
+      "statement": "Bypassstång (32) och klämlåsring (31) lyfts ur tillsammans. Klämlåsringen behöver inte tas av stången om den inte är sliten eller skadad.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.32, figur 26, Disassembly steg 4 NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-bypass-lipseal-replace",
+      "statement": "Bypassens läpptätning (30) ska kasseras vid demontering och ersättas med ny vid återmontering; kontrollera att bypassstången (32) saknar grader som kan skära tätningen.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.32, figur 26, Disassembly steg 5, Inspection och Assembly steg 1",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-bypass-assembly-order",
+      "statement": "Bypassmekanismens återmonteringsordning är ny läpptätning (30), klämlåsring (31) med bypassstång (32), låsring (33), bypassarm (34) och ny påtryckt låsring (35).",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.32, figur 26, Assembly steg 1–4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-swashplate-block-together",
+      "statement": "Svängskiva (40) och pumpcylinderblock (69) tas först bort tillsammans; därefter separeras cylinderblocket och axiallagret (65) från svängskivan.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.33, figur 27, Disassembly steg 2–3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-swashplate-protect-running-face",
+      "statement": "Vid demontering ska pumpblockets löpyta hållas plan mot mittsektionen så långt möjligt för att undvika skador. Lätt tryck på den tappmonterade svängskivan mot mittsektionen underlättar arbetet.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.33, figur 27, NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-swashplate-oil-running-faces",
+      "statement": "Vid återmontering läggs en tunn oljefilm på mittsektionens löpytor, svängskivans lagerbanor, axiallagret och pumpblocket.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.33, figur 28, Assembly steg 2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-swashplate-bearing-thick-race",
+      "statement": "Axiallagret (65) monteras i svängskivan (40) med den tjocka lagerbanan utåt, mot pumpkolvarna.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.33, figur 28, Assembly steg 3 och Thick Race Toward Pistons",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-swashplate-piston-facing-bearing",
+      "statement": "Pumpblocket (69) monteras med kolvarna riktade mot axiallagret (65); blocket och svängskivan hålls tillsammans när de riktas in mot mittsektionen i huvudkåpan.",
+      "variant": "ZT-2800/3100/3200 enligt Hydro-Gear BLN-52441 P25 april 2023; intern service kräver demontering enligt full manual och exakt komponentvariant",
+      "locator": "Tryckt s.33, figur 28, Assembly steg 4–5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
