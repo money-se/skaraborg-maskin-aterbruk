@@ -147,7 +147,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID."
     },
     "E": {
       "state": "gap",
@@ -699,6 +699,51 @@
       "sourceId": "ereplacementparts-2000-mtd",
       "locator": "Drive / Transaxle Support Brkt., 17629A-0637",
       "topic": "D"
+    },
+    {
+      "id": "mtd-2000-transaxle-bevel-gear-625",
+      "statement": "Reservdelskatalogen för MTD 13BH670F062 (2000) listar koniskt drev, nominell innerdiameter 0,625 tum med artikelnummer 917-1362 bland transmissionsdelarna. Detta belägger endast förekomst i kataloglistan, inte unik användning på ett bestämt serienummer eller växellådans fabrikat.",
+      "variant": "MTD 13BH670F062, återförsäljarens katalogår 2000; konkret maskinrevision ej identifierad",
+      "grade": "B",
+      "sourceId": "mtd-2000-transmission-ipl-retailer",
+      "locator": "Transmission parts list, 917-1362",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-transaxle-bevel-gear-695",
+      "statement": "Reservdelskatalogen för MTD 13BH670F062 (2000) listar koniskt drev, nominell innerdiameter 0,695 tum med artikelnummer 917-1363 bland transmissionsdelarna. Detta belägger endast förekomst i kataloglistan, inte unik användning på ett bestämt serienummer eller växellådans fabrikat.",
+      "variant": "MTD 13BH670F062, återförsäljarens katalogår 2000; konkret maskinrevision ej identifierad",
+      "grade": "B",
+      "sourceId": "mtd-2000-transmission-ipl-retailer",
+      "locator": "Transmission parts list, 917-1363",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-transaxle-clutch-collar",
+      "statement": "Reservdelskatalogen för MTD 13BH670F062 (2000) listar kopplingshylsa (clutch collar) med artikelnummer 718-0228 bland transmissionsdelarna. Detta belägger endast förekomst i kataloglistan, inte unik användning på ett bestämt serienummer eller växellådans fabrikat.",
+      "variant": "MTD 13BH670F062, återförsäljarens katalogår 2000; konkret maskinrevision ej identifierad",
+      "grade": "B",
+      "sourceId": "mtd-2000-transmission-ipl-retailer",
+      "locator": "Transmission parts list, 718-0228",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-transaxle-oil-seal",
+      "statement": "Reservdelskatalogen för MTD 13BH670F062 (2000) listar tätning med angivna mått 0,75 × 1,0 × 0,125 tum med artikelnummer 921-0338 bland transmissionsdelarna. Detta belägger endast förekomst i kataloglistan, inte unik användning på ett bestämt serienummer eller växellådans fabrikat.",
+      "variant": "MTD 13BH670F062, återförsäljarens katalogår 2000; konkret maskinrevision ej identifierad",
+      "grade": "B",
+      "sourceId": "mtd-2000-transmission-ipl-retailer",
+      "locator": "Transmission parts list, 921-0338",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-2000-transaxle-right-shaft",
+      "statement": "Reservdelskatalogen för MTD 13BH670F062 (2000) listar höger drivaxel med artikelnummer 911-1003 bland transmissionsdelarna. Detta belägger endast förekomst i kataloglistan, inte unik användning på ett bestämt serienummer eller växellådans fabrikat.",
+      "variant": "MTD 13BH670F062, återförsäljarens katalogår 2000; konkret maskinrevision ej identifierad",
+      "grade": "B",
+      "sourceId": "mtd-2000-transmission-ipl-retailer",
+      "locator": "Transmission parts list, 911-1003",
+      "topic": "D"
     }
   ],
   "gaps": [
@@ -721,6 +766,7 @@
     "MTD 2004 originalkatalog är 20 MB och webbläsningens PDF-öppning misslyckades; textbaserat sökresultat är granskat men full PDF och sida/figur inte verifierade.",
     "Avläs modell- och serienummerskylt för ett konkret 13BH670F062-exemplar. MTD:s datumkod använder en årskod som kan återkomma över flera årtionden, så tillverkningsår ska inte härledas ur endast ett tecken.",
     "Avgränsa Sears samlingsindex mot originalmodellens tillverkningsår innan 42-tums kniv 742-0616 eller 46-tums Deck H behandlas som möjliga inköp; index kan innehålla gemensamma familjediagram.",
-    "Identifiera den faktiska transaxelns tillverkare och typskylt; delar 656-0004/17629A-0637 i åkgräsklipparens chassi räcker inte för intern växellådsidentifiering."
+    "Identifiera den faktiska transaxelns tillverkare och typskylt; delar 656-0004/17629A-0637 i åkgräsklipparens chassi räcker inte för intern växellådsidentifiering.",
+    "Identifiera transmissionshuset och tillverkarens interna dokument innan 2000-katalogens drev 917-1362/1363 och tätning 921-0338 används som reparationsunderlag."
   ]
 }
