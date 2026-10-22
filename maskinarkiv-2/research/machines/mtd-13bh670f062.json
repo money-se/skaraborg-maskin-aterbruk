@@ -312,6 +312,20 @@
       "title": "Repair Clinic MTD 13BH670F062/2000 parts index",
       "document": "Year-specific MTD 13BH670F062/2000 retail parts list showing brake disc 761-0202, blade 942-0610A and related listed parts",
       "url": "https://www.repairclinic.com/ProductDetail/1077726"
+    },
+    {
+      "id": "cubcadet-oem-wheel-73406265-replaces-7340973",
+      "tier": 1,
+      "title": "Cub Cadet OEM Plastic Deck Wheel 734-06265",
+      "document": "Official manufacturer parts listing showing replaces 734-0973, 734-0796, 41434 and dimensional designation 5.0 x 1.38",
+      "url": "https://www.cubcadet.com/en_US/all-products/plastic-deck-wheel-5.0-dia-x-1.38/734-06265.html"
+    },
+    {
+      "id": "partstree-7340973-supersession",
+      "tier": 2,
+      "title": "PartsTree MTD 734-0973 Deck Wheel",
+      "document": "Dealer catalog showing superseded to MTD 734-06265",
+      "url": "https://www.partstree.com/parts/mtd-734-0973/"
     }
   ],
   "topics": {
@@ -345,7 +359,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning.\nFollow-up research: Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår. Sex tydligt avgränsade delar i 2000-års modellspecifika 38-tumsdäcklista: komplett 753-0694-0637, enhet 983-0129A-0637, rem 954-0329A, kniv 942-0610A, remskydd 783-0343A-0637 och stödhjul 734-06265. Tre oberoende kataloger anger Deck F men MTD:s XREF 2000 G kvarstår. Europeisk B/130 Deck F-delgrupp har överlapp i rem 754-0329A, kniv 742-0610, remskydd 783-0343A och aggregatbroms 783-0342. Komplett aggregat har däremot andra artikelnummer än Lowes 2000-index och får inte antas utbytbart. MTD:s egen modellkodguide anger F=38 och G=42 tum, vilket stämmer med 2001 XREF och modellspecifika IPL men inte med 2000 XREF som anger 42 Deck G. Katalogskillnaden påverkar dessutom hjul, säte och etiketter. 2024 guide ID 5513 beskriver åttonde tecknet som däckkod och äldre typ F 38 tum / G 42 tum; dagens bokstäver kan ha fler konstruktioner. Historisk modellkodguide F=38 tum G=42 tum från 1997 och framåt; 2000-XREF:s Deck G för F-modell är kvarstående motstridig tillverkaruppgift. Modellsökning utan år från Sears och AppliancePartsPros visar samtidigt F 38/G 42/H 46, vilket kan vara ett överinkluderande familjeregister; enskilda träffar är inte utförandebevis. MTD originaltillbehörsguide skiljer 38-tums 742-0610 två knivar 19-9/32 tum mot 42-tums 742-0616 två knivar 21-3/64 tum. Repair Clinic 2000 bekräftar separat 942-0610A som 19,38 tum 3-i-1 stjärncentrum och listar stödhjul 734-0973, där annat katalogindex anger 734-06265. Stödhjulsrelation okänd."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning.\nFollow-up research: Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment. MTD 2001 XREF skiljer 13BH670F062 38 tum Deck F från närliggande Lowes 13BK608G062 42 tum Deck G. Original 2000 XREF-konflikt kvarstår. Sex tydligt avgränsade delar i 2000-års modellspecifika 38-tumsdäcklista: komplett 753-0694-0637, enhet 983-0129A-0637, rem 954-0329A, kniv 942-0610A, remskydd 783-0343A-0637 och stödhjul 734-06265. Tre oberoende kataloger anger Deck F men MTD:s XREF 2000 G kvarstår. Europeisk B/130 Deck F-delgrupp har överlapp i rem 754-0329A, kniv 742-0610, remskydd 783-0343A och aggregatbroms 783-0342. Komplett aggregat har däremot andra artikelnummer än Lowes 2000-index och får inte antas utbytbart. MTD:s egen modellkodguide anger F=38 och G=42 tum, vilket stämmer med 2001 XREF och modellspecifika IPL men inte med 2000 XREF som anger 42 Deck G. Katalogskillnaden påverkar dessutom hjul, säte och etiketter. 2024 guide ID 5513 beskriver åttonde tecknet som däckkod och äldre typ F 38 tum / G 42 tum; dagens bokstäver kan ha fler konstruktioner. Historisk modellkodguide F=38 tum G=42 tum från 1997 och framåt; 2000-XREF:s Deck G för F-modell är kvarstående motstridig tillverkaruppgift. Modellsökning utan år från Sears och AppliancePartsPros visar samtidigt F 38/G 42/H 46, vilket kan vara ett överinkluderande familjeregister; enskilda träffar är inte utförandebevis. MTD originaltillbehörsguide skiljer 38-tums 742-0610 två knivar 19-9/32 tum mot 42-tums 742-0616 två knivar 21-3/64 tum. Repair Clinic 2000 bekräftar separat 942-0610A som 19,38 tum 3-i-1 stjärncentrum och listar stödhjul 734-0973, där annat katalogindex anger 734-06265. Stödhjulsrelation okänd. OEM Cub Cadet bekräftar att 734-06265 ersätter 734-0973, oberoende bestyrkt av PartsTree; tidigare oklara nummerkedjan är utredd men monteringsvariant per serienummer fortsatt okänd."
     },
     "I": {
       "state": "gap",
@@ -1754,6 +1768,24 @@
       "grade": "B",
       "sourceId": "repairclinic-mtd-13bh670f062-2000",
       "locator": "Repair Clinic model 13BH670F062/2000, part 734-0973 plastic deck wheel 5 by 1.38 inch; compare eReplacementParts 734-06265"
+    },
+    {
+      "id": "mtd-deck-wheel-7340973-to-73406265-oem",
+      "topic": "H",
+      "statement": "Tillverkarens officiella Cub Cadet-reservdelssida anger att 5,0 × 1,38-tums aggregatstödhjul 734-06265 ersätter 734-0973 (även 734-0796). Detta löser den tidigare nummerkollisionen mellan Repair Clinic och eReplacementParts; monterat utförande på varje 13BH670F062-serienummer måste fortfarande kontrolleras.",
+      "variant": "MTD/Cub Cadet reservdelskedja för stödhjul; inte ett komplett aggregat eller maskinserienummerpassformsbevis",
+      "grade": "A",
+      "sourceId": "cubcadet-oem-wheel-73406265-replaces-7340973",
+      "locator": "Product 734-06265, 'This part replaces' 734-0973 and 734-0796"
+    },
+    {
+      "id": "mtd-deck-wheel-supersession-independent-check",
+      "topic": "H",
+      "statement": "PartsTree bekräftar oberoende att det äldre MTD-stödhjulet 734-0973 har ersatts av artikelnummer 734-06265. Detta corroborerar OEM-kedjan, men bestämmer inte vilka chassi- eller aggregatrevisioner som använde det äldre numret.",
+      "variant": "MTD reservdelsnummer 734-0973, generell eftermarknadsersättningsrelation",
+      "grade": "B",
+      "sourceId": "partstree-7340973-supersession",
+      "locator": "Part 734-0973, 'Superseded to MTD 734-06265'"
     }
   ],
   "gaps": [
@@ -1804,7 +1836,6 @@
     "Verifiera via chassifästen och tillverkarens supersessionskedja om de europeiska Deck F-aggregaten 683-0119A/813-04244637 kan ersätta Lowes aggregat 753-0694-0637 eller 983-0129A-0637; enskilda gemensamma komponenter räcker inte.",
     "Förklara med OEM-revisionsmeddelande, serienummerintervall eller korrigerad originaltabell varför 2000 XREF anger G/42 för 13BH670F062 trots F=38 enligt MTD:s modellkod och 2001 XREF. Spåra samtidigt de skilda 2000/2001-dekalerna, hjulen och sätena.",
     "Historisk MTD-modellkodguide med 1995-exempel bekräftar äldre engineering/lot-position; återstår att dokumentera en faktisk komplett typskylt och eventuell revisionsförändring för 13BH670F062 runt 2000–2001.",
-    "För 13BH670F062: avgör vilken reservdelssidas ritningsuppsättning som är modellårsspecifik och vilken som är familjeövergripande. G- och H-träffar i odaterad Sears/AppliancePartsPros-portal får inte ses som fabriksutrustningsbevis.",
-    "Klarlägg om aggregatstödhjul 734-0973 är ett alternativ eller en officiell ersättare till 734-06265 för 13BH670F062/2000; de två katalogerna visar olika nummer."
+    "För 13BH670F062: avgör vilken reservdelssidas ritningsuppsättning som är modellårsspecifik och vilken som är familjeövergripande. G- och H-träffar i odaterad Sears/AppliancePartsPros-portal får inte ses som fabriksutrustningsbevis."
   ]
 }
