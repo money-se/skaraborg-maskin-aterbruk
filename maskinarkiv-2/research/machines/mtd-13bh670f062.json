@@ -196,7 +196,7 @@
     },
     "K": {
       "state": "gap",
-      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår."
+      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår. Viktig nummeravvikelse: MTD-original 770-10116D anger 717-1362/717-1363, 711-1003 och 721-0338 medan återförsäljarindex använder 917-1362/917-1363, 911-1003 och 921-0338. Ingen ersättningskedja styrkt."
     },
     "L": {
       "state": "gap",
@@ -891,6 +891,42 @@
       "variant": "MTD Transmatic modellserie 660–679, Illustrated Parts Book 770-10116D (januari 2002); 13BH670F062:s exakta variantkoppling ej verifierad",
       "grade": "A",
       "sourceId": "mtd-original-660-679-ipl-2002"
+    },
+    {
+      "id": "mtd-2002-original-number-bevel-small",
+      "statement": "MTD:s originalkatalog 770-10116D anger 717-1362 för koniskt drev, mindre håldiameter medan ett tidigare registrerat återförsäljarindex använder 917-1362. Att numren är ersättare eller tekniskt utbytbara är inte fastställt.",
+      "variant": "MTD Transmatic 660–679 originalfamilj utgåva 2002 kontra återförsäljarindex för 13BH670F062/2000; ingen fullständig modellbindning",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002",
+      "locator": "PDF sida 11 (index 10), Transmission Assembly, position 15",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2002-original-number-bevel-large",
+      "statement": "MTD:s originalkatalog 770-10116D anger 717-1363 för koniskt drev, större håldiameter medan ett tidigare registrerat återförsäljarindex använder 917-1363. Att numren är ersättare eller tekniskt utbytbara är inte fastställt.",
+      "variant": "MTD Transmatic 660–679 originalfamilj utgåva 2002 kontra återförsäljarindex för 13BH670F062/2000; ingen fullständig modellbindning",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002",
+      "locator": "PDF sida 11 (index 10), Transmission Assembly, position 16",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2002-original-number-right-shaft",
+      "statement": "MTD:s originalkatalog 770-10116D anger 711-1003 för höger drivaxel medan ett tidigare registrerat återförsäljarindex använder 911-1003. Att numren är ersättare eller tekniskt utbytbara är inte fastställt.",
+      "variant": "MTD Transmatic 660–679 originalfamilj utgåva 2002 kontra återförsäljarindex för 13BH670F062/2000; ingen fullständig modellbindning",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002",
+      "locator": "PDF sida 11 (index 10), Transmission Assembly, position 12",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-2002-original-number-oil-seal",
+      "statement": "MTD:s originalkatalog 770-10116D anger 721-0338 för tätning medan ett tidigare registrerat återförsäljarindex använder 921-0338. Att numren är ersättare eller tekniskt utbytbara är inte fastställt.",
+      "variant": "MTD Transmatic 660–679 originalfamilj utgåva 2002 kontra återförsäljarindex för 13BH670F062/2000; ingen fullständig modellbindning",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002",
+      "locator": "PDF sida 11 (index 10), Transmission Assembly, position 40",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -920,6 +956,7 @@
     "Bekräfta 2000-katalogens bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705 i rätt originalsprängskiss samt mot aktuellt serienummerspann.",
     "Kontrollera sidbilden i original-/spegel-PDF 770-2000XREF.2 på PDF index 26 när nedladdning fungerar; texten stödjer 42 tum Deck G, medan modellens samlade IPL visar 38 tum Deck F.",
     "MTD 770-10116D är original-IPLs för hela Transmatic 660–679 (utgåva 2002). Kontrollera modell-/serienummerbindning innan familjens differential-, broms- och smörjmedelsposter används på 13BH670F062.",
-    "Visuell skärmbild av MTD PDF sidan 11 (index 10) misslyckades vid granskning; text och positionslista lästes, men illustrationens figurnummer och revisionsvillkor behöver slutkontrolleras."
+    "Visuell skärmbild av MTD PDF sidan 11 (index 10) misslyckades vid granskning; text och positionslista lästes, men illustrationens figurnummer och revisionsvillkor behöver slutkontrolleras.",
+    "Verifiera om MTD/återförsäljarnas prefixändringar 717→917, 711→911 och 721→921 representerar officiella supersessioner innan nummer förenas eller rekommenderas."
   ]
 }
