@@ -11,6 +11,13 @@
       "title": "STIGA PARK 12 original reservdelskatalog",
       "document": "13-1442-19 - Season 1996; Issue 41 - 2014",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1442-19_95_SV-EN.pdf"
+    },
+    {
+      "id": "sandby-park12-1996-tech",
+      "tier": 2,
+      "title": "Sandby Smedie – STIGA Park 12 13-1442-19 teknisk versionsöversikt",
+      "document": "Produktdatablad 13-1442-19, 1996; återförsäljaruppgifter",
+      "url": "https://www.sandbysmeden.dk/13-1442-19-stiga-park-12-1996/"
     }
   ],
   "topics": {
@@ -305,6 +312,33 @@
       "grade": "A",
       "sourceId": "stiga-park12-1996-ipl",
       "locator": "Tryckt sida 23, pos. 63"
+    },
+    {
+      "id": "p12-1996-retailer-engine",
+      "topic": "C",
+      "statement": "Återförsäljaren anger Briggs & Stratton Model/Type 28D707-0133 för denna Park 12-version. Detta är ett forskningsspår, inte verifierad motorplåtsidentitet för varje individ.",
+      "variant": "STIGA Park 12 13-1442-19 (1996); ej individverifierad återförsäljaruppgift",
+      "grade": "C",
+      "sourceId": "sandby-park12-1996-tech",
+      "locator": "Tekniske informationer > Motor / Model/Type"
+    },
+    {
+      "id": "p12-1996-retailer-decks",
+      "topic": "H",
+      "statement": "Återförsäljaren anger klippbordsmodellerna 100B och 102M som använda till denna maskinversion. Exakt aggregat-PNC, revisionsår och monteringssats har ännu inte styrkts av STIGA-original.",
+      "variant": "STIGA Park 12 13-1442-19 (1996); ej individverifierad återförsäljaruppgift",
+      "grade": "C",
+      "sourceId": "sandby-park12-1996-tech",
+      "locator": "Tekniske informationer > Brugte klippeborde"
+    },
+    {
+      "id": "p12-1996-retailer-transmission",
+      "topic": "D",
+      "statement": "Återförsäljaren beskriver Tecumseh 930-022 som transmission, men STIGA-katalogens serienummersnitt visar ett senare komplett transaxelnummer. Återförsäljaruppgiften gäller därför inte säkert alla maskinindivider.",
+      "variant": "STIGA Park 12 13-1442-19 (1996); ej individverifierad återförsäljaruppgift",
+      "grade": "C",
+      "sourceId": "sandby-park12-1996-tech",
+      "locator": "Tekniske informationer > Transmission"
     }
   ],
   "gaps": [
@@ -316,6 +350,7 @@
     "Verifiera elschema och respektive brytares funktion mot modellbunden elritning.",
     "Original-PDF:s ritningssidor bör visuellt granskas innan reparationssteg; webbens skärmbildstjänst gav cache miss 2026-10-22.",
     "Identifiera senare transaxel 1134-3716-01 från och med 960402 och kontrollera fabrikat/interna delar i separat IPL; använd inte Peerless 930-022-detaljer utan verifiering.",
-    "PTO-systemets maskinrem är dokumenterad men rätt klippaggregat-PNC, aggregatremmar och knivar är fortfarande okända."
+    "PTO-systemets maskinrem är dokumenterad men rätt klippaggregat-PNC, aggregatremmar och knivar är fortfarande okända.",
+    "Sandby anger Briggs Model/Type 28D707-0133 och aggregat 100B/102M: verifiera mot STIGA-original, motorns instansade märkning och aggregatets eget PNC innan uppgifterna används för delbeställning."
   ]
 }
