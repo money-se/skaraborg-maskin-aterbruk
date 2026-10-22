@@ -67,6 +67,27 @@
       "title": "PartsTree: Yard Machines 13BH670F062 (2001) exploded parts diagrams",
       "document": "13BH670F062 (2001), 20 assembly diagrams",
       "url": "https://www.partstree.com/models/13bh670f062-yard-machines-lawn-tractor-2001-lowes/"
+    },
+    {
+      "id": "mtd-2000-customer-cross-reference",
+      "tier": 2,
+      "title": "MTD Products Inc. 2000 Customer Cross Reference Book",
+      "document": "MTD_2000_XREF, customer Lowes 062, model 13BH670F062",
+      "url": "https://www.m-and-d.com/pdfs/MTD/MTD_2000_XREF.pdf"
+    },
+    {
+      "id": "mtd-transmatic-660-679-om",
+      "tier": 2,
+      "title": "MTD original Transmatic Lawn Tractors operator manual, model series 660–679",
+      "document": "MTD form 770-10115A (10/99), 28 pages",
+      "url": "https://manualsfile.com/product/k2l00rznlsg.html"
+    },
+    {
+      "id": "mtd-2000-transmission-ipl-retailer",
+      "tier": 2,
+      "title": "eReplacementParts MTD 13BH670F062 (2000) model parts diagrams",
+      "document": "13BH670F062 (2000) transmission parts section",
+      "url": "https://www.ereplacementparts.com/models/lawn-tractor/mtd/id633092/13bh670f062-2000/"
     }
   ],
   "topics": {
@@ -84,11 +105,11 @@
     },
     "D": {
       "state": "gap",
-      "note": "2000 och 2001 PartsTree-index nämner en 7-speed gear/speed selector och transaxle-grupp. Exakt transmission-ID och instruktioner ej verifierade."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade."
     },
     "E": {
       "state": "gap",
-      "note": "MTD 2001-korsreferens nämner främre hjulenhet 634-0105A och bakre 634-0104, men chassits övriga delar och revisionsgränser återstår."
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision."
     },
     "F": {
       "state": "gap",
@@ -100,7 +121,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens anger 38 tum Style F. Knivar, remmar och utförandets parts-IPLs behöver fortfarande primärverifieras."
+      "note": "MTD 2000-korsreferens anger 42-tums Deck G medan 2001-korsreferens anger 38-tums Style F; osäker katalogårs-/revisionsrelation kräver kontroll av fysisk dekkskylt."
     },
     "I": {
       "state": "gap",
@@ -112,7 +133,7 @@
     },
     "K": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens identifierar flera maskinspecifika delar/dekaler. Exakta sprängskisser, ersättningskedjor och serienummerspann återstår."
+      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet."
     },
     "L": {
       "state": "gap",
@@ -312,6 +333,60 @@
       "sourceId": "partstree-mtd-2001-13bh670f062",
       "locator": "Parts Diagrams, Gear Selector Assembly (7 Speed), Transmission Assembly, Electrical variants",
       "topic": "D"
+    },
+    {
+      "id": "mtd-2000-deck-g",
+      "statement": "MTD 2000-korsreferens anger 42-tums Deck G, medan den tidigare registrerade 2001-korsreferensen anger 38-tums Style F; dessa revisionsdata ska inte blandas ihop.",
+      "variant": "MTD 13BH670F062, Lowes 062; jämförelse 2000 mot 2001",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Deck Assembly:42”, Deck G",
+      "topic": "H",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-front-wheel",
+      "statement": "MTD 2000-korsreferens anger främre hjulenhet 634-0056A och bakre 734-1675 för samma modellnummer, skilt från MTD:s 2001-korsreferens.",
+      "variant": "MTD 13BH670F062, Lowes 062, 2000 katalogversion",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Wheel Ass'y Front/Rear",
+      "topic": "E",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-seat",
+      "statement": "MTD 2000-korsreferens anger sätesenhet 757-0378 för modellen, till skillnad från 2001-referensens 757-0378A.",
+      "variant": "MTD 13BH670F062, Lowes 062, 2000 katalogversion",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Seat assembly",
+      "topic": "K",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-labels",
+      "statement": "MTD 2000-korsreferens anger ramdekal 777D04137 samt motorhuvsdekaler höger 777D04138 och vänster 777D04139.",
+      "variant": "MTD 13BH670F062, Lowes 062, 2000 katalogversion",
+      "sourceId": "mtd-2000-customer-cross-reference",
+      "locator": "Lowes 062, rad 13BH670F062, Label Frame Side/Hoodside",
+      "topic": "K",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-manual-family",
+      "statement": "MTD:s bruksanvisning 770-10115A utgåva 10/99 gäller Transmatic Lawn Tractors modellserie 660 till 679; listningen kopplar dokumentet till 13BH670F062 men manualen identifierar inte det exakta fabriksmodellnumret på omslaget.",
+      "variant": "MTD Transmatic 660–679; dokumentförteckning för 13BH670F062",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Omslag, 'Model Series 660 thru 679', 'FORM NO. 770-10115A (10/99)'",
+      "topic": "A",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-gear-components",
+      "statement": "Reservdelslistan för 2000 års 13BH670F062 visar transmissionsdelarna övre hus 719-0367, ingående axel 711-1109 och 14-tands ingående pinjong 717-1464; dessa är kataloguppgifter och ingen verifierad universell reservdelspassform.",
+      "variant": "MTD 13BH670F062 (2000) reservdelskatalog hos eReplacementParts",
+      "sourceId": "mtd-2000-transmission-ipl-retailer",
+      "locator": "Transmission assembly, Upper Housing / Input Shaft / Pinion Input 14T",
+      "topic": "D",
+      "grade": "B"
     }
   ],
   "gaps": [
@@ -322,6 +397,8 @@
     "Verifiera klippaggregatets bredd, knivnummer, remmar, sprängskisser, broms- och elsystem.",
     "Utred europeiska MTD-utföranden med egna fabrikskoder innan utvidgning till fler maskiner.",
     "Verifiera MTD 2001 Customer Cross Reference visuellt mot PDF sida 22; textlagret är läst, men fjärrskärmbilden gick inte att hämta och källan är därför grad B.",
-    "2000/2001 årsdelningar i reservdelsindex: utred revisionsskillnader innan delnummer extrapoleras."
+    "2000/2001 årsdelningar i reservdelsindex: utred revisionsskillnader innan delnummer extrapoleras.",
+    "Kontrollera 2000 års MTD-korsreferens direkt i original-PDF med visuell sida; fjärrvisning ger 403, endast sökindexets PDF-text tillgänglig.",
+    "Verifiera om 2000/2001-deckdifferensen beror på katalogrevision, faktiskt modellutförande eller datakvalitet innan knivar/remmar rekommenderas."
   ]
 }
