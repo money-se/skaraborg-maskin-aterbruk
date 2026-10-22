@@ -347,6 +347,27 @@
       "title": "Lawnmower Pros MTD 918-04091A differential cross-reference",
       "document": "Authorized MTD dealer replacement list includes 618-0162, 618-0162A, 618-04091, 618-04091A, 918-0162 and 918-04091",
       "url": "https://www.lawnmowerpros.com/detail.asp?id=918-04091A"
+    },
+    {
+      "id": "partstree-1998-13am675g062-trans-6180073",
+      "tier": 2,
+      "title": "PartsTree 1998 Yard Machines 13AM675G062 transmission 618-0073",
+      "document": "Year-specific 1998 Lowes transmission diagram, complete 618-0073, differential 618-0162, grease 737-0148 (15 oz)",
+      "url": "https://www.partstree.com/models/13am675g062-yard-machines-lawn-tractor-1998-lowes/transmission-assembly-618-0073-7/"
+    },
+    {
+      "id": "partstree-2000-13a6672g129-trans-6180163b",
+      "tier": 2,
+      "title": "PartsTree 2000 Yard Machines 13A6672G129 transmission 618-0163B",
+      "document": "Year-specific 2000 Home Depot transmission diagram complete 618-0163B, differential 618-0162, grease 737-0148, 15 oz",
+      "url": "https://www.partstree.com/models/13a6672g129-yard-machines-lawn-tractor-2000-home-depot/transmission-assembly-11/"
+    },
+    {
+      "id": "partstree-2002-13bh660f016-trans",
+      "tier": 2,
+      "title": "PartsTree 2002 Statesman 13BH660F016 transmission",
+      "document": "Year-specific Southern States 13BH660F016 single speed transmission 618-0163B, differential 618-0162 and brake components",
+      "url": "https://www.partstree.com/models/13bh660f016-statesman-lawn-tractor-2002-southern-states/transmission-20/"
     }
   ],
   "topics": {
@@ -364,7 +385,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062.\nFollow-up research: Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden. Sidofynd: MTD B 155 13AP678G678 använder också husdel 719-0367; det ger en korsmodellrelation för komponenten, inte bevis för samma växellådsenhet. MTD:s ursprungliga 770-10116D (2002) redovisar differential 618-0162, bromskomponenter och hus 719-0367/719-0313B på familjenivå. Exakt OEM-komplett transaxel-ID för 13BH670F062 saknas. Sears 13BH670F062:s egen modellindexgrupp Driveshaft anger differential 618-0162. Annan MTD B/130 har komplett transmission 618-0166D och gemensam husdel 719-0367; komplett transmissionsnummer kan INTE överföras mellan modeller. VIKTIGT NYTT MODELLSPECIFIKT FYND: eReplacementParts listar 'Transmission Complete' 918-0163D direkt under 13BH670F062/2000. Detta ersätter tidigare status 'inget komplett katalognummer känt', men är inte fastställd fysisk serienummerpassform eller växellådans externa fabrikat. Samma index listar Differential Asm 918-04091A vid sidan av tidigare noterade 618-0162; revisionsvillkor öppet. MTD Technical Handbook 770-10579 benämner 600-seriens single-speed R.H. transaxel som modell 618-0163 (fig 6-2), 1997 års 600-variant 618-0163A. Detta stöder OEM-familjen bakom katalogens 918-0163D men inte individuellt serienummer. Handboken varnar för att 600-seriens differential från 1996 säljs som komplett, ej servicebar enhet, trots sprängskisser över äldre interna delar. 2000-diagramindex skiljer 'Speed Selector Lever Assembly (7 Speed)' från 'Transmission Assembly'; sju väljarlägen betyder inte sju interna växlar i transaxeln. Historisk MTD-guide beskriver 4–7 som VariSpeed-lägesbeteckningar, vilket stöder tydlig åtskillnad mellan reglageläget 7 och transaxelns invändiga konstruktion. Oberoende reservdelssäljare bekräftar 618-0162 → 918-04091A och utvidgad kedja inklusive 618-0162A/618-04091; detta förklarar katalogernas differentialnummer men inte faktisk fabriksversion."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062.\nFollow-up research: Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden. Sidofynd: MTD B 155 13AP678G678 använder också husdel 719-0367; det ger en korsmodellrelation för komponenten, inte bevis för samma växellådsenhet. MTD:s ursprungliga 770-10116D (2002) redovisar differential 618-0162, bromskomponenter och hus 719-0367/719-0313B på familjenivå. Exakt OEM-komplett transaxel-ID för 13BH670F062 saknas. Sears 13BH670F062:s egen modellindexgrupp Driveshaft anger differential 618-0162. Annan MTD B/130 har komplett transmission 618-0166D och gemensam husdel 719-0367; komplett transmissionsnummer kan INTE överföras mellan modeller. VIKTIGT NYTT MODELLSPECIFIKT FYND: eReplacementParts listar 'Transmission Complete' 918-0163D direkt under 13BH670F062/2000. Detta ersätter tidigare status 'inget komplett katalognummer känt', men är inte fastställd fysisk serienummerpassform eller växellådans externa fabrikat. Samma index listar Differential Asm 918-04091A vid sidan av tidigare noterade 618-0162; revisionsvillkor öppet. MTD Technical Handbook 770-10579 benämner 600-seriens single-speed R.H. transaxel som modell 618-0163 (fig 6-2), 1997 års 600-variant 618-0163A. Detta stöder OEM-familjen bakom katalogens 918-0163D men inte individuellt serienummer. Handboken varnar för att 600-seriens differential från 1996 säljs som komplett, ej servicebar enhet, trots sprängskisser över äldre interna delar. 2000-diagramindex skiljer 'Speed Selector Lever Assembly (7 Speed)' från 'Transmission Assembly'; sju väljarlägen betyder inte sju interna växlar i transaxeln. Historisk MTD-guide beskriver 4–7 som VariSpeed-lägesbeteckningar, vilket stöder tydlig åtskillnad mellan reglageläget 7 och transaxelns invändiga konstruktion. Oberoende reservdelssäljare bekräftar 618-0162 → 918-04091A och utvidgad kedja inklusive 618-0162A/618-04091; detta förklarar katalogernas differentialnummer men inte faktisk fabriksversion. Årsavgränsade jämförelsemodeller 1998, 2000 och 2002 binder 618-0073 och 618-0163B till differentialfamilj 618-0162 med kända bromskomponenter, men identifierar inte exakt Lowes 13BH670F062-transaxel."
     },
     "E": {
       "state": "gap",
@@ -388,7 +409,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår.\nFollow-up research: MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept. Bildgranskad MTD/White originalillustration för 618-0163B anger 15 oz (426 ml) Shell Darina 737-0148, medan tidigare teknisk handbok anger 10 oz för sin angivna version. Servicemängd är därmed versionsspecifik och kan inte extrapoleras till varje 13BH670F062. Ytterligare textavsnitt i samma MTD-handbok (6-15) anger 14 oz Shell Durina #0 vid återmontering, utöver handbokens 10 oz och originalritningens 15 oz för 618-0163B. Exakt avsnitt/variant kräver sidbild och modellbindning. Senare MTD-IPL 769-01641C redovisar 19 oz 737-0148 med helt andra hus- och differentialnummer samt separat 2 oz Unirex N3 i ingående axelns hålrum. Inte tillämplig på 13BH670F062 utan bevis. Familjemanualen ger 25 h/säsong styrväxelfett och årlig SAE 30 för reglagelänkage, skilt från transaxelns fett. Den avråder från högtryckstvätt."
+      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår.\nFollow-up research: MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept. Bildgranskad MTD/White originalillustration för 618-0163B anger 15 oz (426 ml) Shell Darina 737-0148, medan tidigare teknisk handbok anger 10 oz för sin angivna version. Servicemängd är därmed versionsspecifik och kan inte extrapoleras till varje 13BH670F062. Ytterligare textavsnitt i samma MTD-handbok (6-15) anger 14 oz Shell Durina #0 vid återmontering, utöver handbokens 10 oz och originalritningens 15 oz för 618-0163B. Exakt avsnitt/variant kräver sidbild och modellbindning. Senare MTD-IPL 769-01641C redovisar 19 oz 737-0148 med helt andra hus- och differentialnummer samt separat 2 oz Unirex N3 i ingående axelns hålrum. Inte tillämplig på 13BH670F062 utan bevis. Familjemanualen ger 25 h/säsong styrväxelfett och årlig SAE 30 för reglagelänkage, skilt från transaxelns fett. Den avråder från högtryckstvätt. 1998 års 618-0073- och 2000 års 618-0163B-ritningar listar 737-0148 som 15 oz; detta stödjer artikel-/kataloguppgiften men avgör inte hur 10 oz eller 14 oz i andra servicetexter ska förstås."
     },
     "K": {
       "state": "gap",
@@ -1833,6 +1854,51 @@
       "sourceId": "lawnmowerpros-91804091a-crossref",
       "locator": "Product 918-04091A, THIS PART REPLACES list",
       "variant": "MTD differentialreservdelsfamilj; ersättningskedja styrkt men ej monterad serie-/årsversion",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-crossmodel-1998-6180073-with-6180162",
+      "topic": "D",
+      "statement": "1998 års Lowes-maskin 13AM675G062 listar komplett enkelväxlad transmission 618-0073 med differential 618-0162. Eftersom 618-0073 är dokumenterad föregångare till 918-0163D knyter denna katalog ihop två äldre artikelnummer, men anger inte fabriksmonterad transmission på 13BH670F062.",
+      "sourceId": "partstree-1998-13am675g062-trans-6180073",
+      "locator": "Transmission Assembly 618-0073: complete 618-0073 and differential 618-0162",
+      "variant": "MTD jämförelsemodell, specificerat års- och kundutförande; ingen bekräftad serienummerpassform för 13BH670F062",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-crossmodel-1998-15oz-parts-list",
+      "topic": "J",
+      "statement": "I transmissionens reservdelslista för MTD 13AM675G062 (1998) står fett 737-0148 som 'Grease-Shell (15 oz.)'. Detta är en reservdelskatalograd för den konstruktionen och får inte ensam användas som påfyllningsmängd på 13BH670F062.",
+      "sourceId": "partstree-1998-13am675g062-trans-6180073",
+      "locator": "Transmission Assembly 618-0073, grease 737-0148 (15 oz.)",
+      "variant": "MTD jämförelsemodell, specificerat års- och kundutförande; ingen bekräftad serienummerpassform för 13BH670F062",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-crossmodel-2000-6180163b-with-6180162",
+      "topic": "D",
+      "statement": "MTD 13A6672G129 (2000) har i sin modellspecifika transmissionstabell komplett transmission 618-0163B och differential 618-0162. Det visar en 2000-årsmodell där 618-0163B ingår i samma komponentfamilj som den tidigare 618-0073, men verifierar inte 13BH670F062-exemplarets revision.",
+      "sourceId": "partstree-2000-13a6672g129-trans-6180163b",
+      "locator": "Transmission Assembly listing 618-0163B Transaxle Comp. and 618-0162 Differential Ass'y",
+      "variant": "MTD jämförelsemodell, specificerat års- och kundutförande; ingen bekräftad serienummerpassform för 13BH670F062",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-crossmodel-2000-15oz-parts-list",
+      "topic": "J",
+      "statement": "I originalnummerlistan för 2000 års MTD 13A6672G129 anges 737-0148 'Grease-Shell (15 oz.)' i transmissionsdiagrammet samtidigt med 618-0163B. Det korroborerar den separat granskade White-illustrationens 15 oz för 618-0163B, men säger inget om andra revisioner eller nödvändig fyllnadsmängd vid normal service.",
+      "sourceId": "partstree-2000-13a6672g129-trans-6180163b",
+      "locator": "Transmission Assembly, 737-0148 Grease-Shell Note (15 oz), 618-0163B Transaxle Comp.",
+      "variant": "MTD jämförelsemodell, specificerat års- och kundutförande; ingen bekräftad serienummerpassform för 13BH670F062",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-crossmodel-2002-13bh660f016-6180163b",
+      "topic": "D",
+      "statement": "En modell med närliggande prefix, 13BH660F016 (2002), listar komplett transmission 618-0163B, differential 618-0162 samt separata bromsdelar 717-0678, 717-0682 och 717-0700. Fyndet är konstruktionellt jämförande och inte en original-IPL för Lowes 13BH670F062.",
+      "sourceId": "partstree-2002-13bh660f016-trans",
+      "locator": "Transmission overview, 618-0163B Transmission Complete, 618-0162 Differential, brake puck 717-0678, plate 717-0682 and actuator 717-0700",
+      "variant": "MTD jämförelsemodell, specificerat års- och kundutförande; ingen bekräftad serienummerpassform för 13BH670F062",
       "grade": "B"
     }
   ],
