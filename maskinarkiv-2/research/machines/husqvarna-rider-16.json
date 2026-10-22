@@ -326,6 +326,34 @@
       "title": "Husqvarna FR2111 M original IPL 2005-03",
       "document": "PNC 953535801, 90CM CUTTING DECK",
       "url": "https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Akgrasklippare/FR2111M/IPL.-FR2111-M%2C-953535801%2C-2005-03_wm.pdf"
+    },
+    {
+      "id": "husqvarna-genuine-parts-589532201-506982901",
+      "tier": 1,
+      "title": "Husqvarna Genuine Parts Rider Belts catalogue",
+      "document": "Genuine Parts, Rider Belts, 589532201 kit reference 506982901 and length 1725 mm",
+      "url": "https://www-static-nw.husqvarna.com/-/files/aprimo/husqvarna/maintenance/documents/brochure/wu-055415.pdf?v=558b0c43"
+    },
+    {
+      "id": "bio90-messicks-531008025-589532201",
+      "tier": 2,
+      "title": "Messicks – 531008025 replacement 589532201",
+      "document": "531008025 BELT replaced by 589532201; replaces 506982901",
+      "url": "https://www.messicks.com/parts/husqvarna/531008025"
+    },
+    {
+      "id": "bio90-wolfswinkel-589532201-crossrefs",
+      "tier": 2,
+      "title": "Wolfswinkel – 589532201 V-belt references",
+      "document": "589532201 successor crossrefs 506982901, 531007553, 531008025",
+      "url": "https://www.wolfswinkel.se/husqvarna-parts-reservdelar/589532201/husqvarna-group-kilrem-mitt---dack"
+    },
+    {
+      "id": "bio90-seller-531008037-589531501",
+      "tier": 2,
+      "title": "Skogsverktyg 531008037 blade timing belt crossreferences",
+      "document": "531008037, 531007526, 506977301 replacement claim",
+      "url": "https://www.skogsverktyg.se/reservdelar-maskiner/reservdelar-husqvarna/husqvarna-akgraesklippare/rider-13-modeller/kuggrem-husqvarna-rider-13-akgraesklippare.html"
     }
   ],
   "topics": {
@@ -2182,6 +2210,51 @@
       "sourceId": "husqvarna-fr2111m-2005-03-ipl-953535801",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch39-oem-drive-belt-kit",
+      "statement": "Husqvarnas Genuine Parts-katalog anger remsats 589532201 för äldre artikelnummer 506982901 med längd L=1725 mm i tabellen 'Rider Belts'. Detta är tillverkarbelägg för just detta artikelpar, men bekräftar inte själv en direkt kedja från 531008025.",
+      "variant": "BioClip 90 historiska remsystem; jämförande källor, PNC krävs före reservdelsbeställning",
+      "locator": "Husqvarna Genuine Parts, Rider Belts, 589532201 'Belt art.no. 506982901', L: 1725 mm",
+      "sourceId": "husqvarna-genuine-parts-589532201-506982901",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-batch39-dealer-531008025",
+      "statement": "Messicks uppger uttryckligen att Husqvarna-rem 531008025 ersatts av 589532201. Wolfswinkel korsrefererar därutöver 506982901, 531007553 och 531008025 till samma senare artikel. Kedjan från 531008025 är därmed återförsäljarstödd, inte separat verifierad i OEM-tabellen.",
+      "variant": "BioClip 90 historiska remsystem; jämförande källor, PNC krävs före reservdelsbeställning",
+      "locator": "Messicks 531008025 > 'Product has been replaced by 589532201'; kontroll Wolfswinkel 589532201 > References",
+      "sourceId": "bio90-messicks-531008025-589532201",
+      "grade": "B",
+      "topic": "B"
+    },
+    {
+      "id": "rider16-batch39-dealer-drive-chain",
+      "statement": "Wolfswinkel anger 589532201 som grupp-V-rem från mittremskiva till klippdäck och korsrefererar äldre 506982901, 531007553 och 531008025. Reservdelsgruppen är skild från den tandrem som synkroniserar BioClip-knivarna.",
+      "variant": "BioClip 90 historiska remsystem; jämförande källor, PNC krävs före reservdelsbeställning",
+      "locator": "Wolfswinkel 589532201 > 'V-rem mittremskiva -> klippdäck', References",
+      "sourceId": "bio90-wolfswinkel-589532201-crossrefs",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch39-timing-531008037",
+      "statement": "Reservdelsspecialisten listar BioClip 90-tandrem mellan knivarna och äldre nummer 531008037, 531007526 och 506977301 under samma eftermarknadsprodukt. Detta är sekundärt belägg för tandremsfamilj, inte tillverkarens dokumenterade ersättningsordning.",
+      "variant": "BioClip 90 historiska remsystem; jämförande källor, PNC krävs före reservdelsbeställning",
+      "locator": "Skogsverktyg, Kuggrem Rider 13 BioClip 90, ersätter tillverkarnr 506977301 / 531007526 / 531008037",
+      "sourceId": "bio90-seller-531008037-589531501",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch39-different-belt-functions",
+      "statement": "Husqvarnas originalkatalog 2003-11 visar separat rem 531007553 för drivning till aggregatet och tandrem 531007526 mellan knivarnas remskivor. Senare reservdelslistor uppger två olika artikelnummerfamiljer: 589532201 för drivrem och 589531501 för knivsynkronisering. Dessa får aldrig erbjudas som alternativ till varandra.",
+      "variant": "BioClip 90 historiska remsystem; jämförande källor, PNC krävs före reservdelsbeställning",
+      "locator": "OEM Rider 13 BioClip 2003-11 figur T samt Husqvarna Genuine Parts 'Rider Belts' 589532201/506982901; återförsäljare 531007526/589531501",
+      "sourceId": "husqvarna-rider13bio-2003-11-ipl-953520901",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -2271,6 +2344,9 @@
     "sGarden korsrefererar skal 506977201 och 506977202 men markerar dem som DECK SHELL; aggregat 506970907/908 är kompletta. Ersättningsordning och vilka komponenter som medföljer kräver officiell Husqvarna-katalog.",
     "FR2113 MA 2004-01 PDF-sidbild kunde inte laddas; positionsuppgifter kommer från indexerat OEM-katalogtextlager och behöver visuell ritningskontroll.",
     "Kontrollera om Rider 16:s PNC-specifika BioClip 90 använder samma 531007526-tandrem som Rider 13 BioClip 2003-11; analog sprängskiss ensam ger inte passform.",
-    "FR2111 M 2005-03 har komplett BioClip 90 506970908, remmar 531008025 och 531008037 samt kniv 531008026. Originalkatalogen fastställer ingen ersättningskedja till 506970907."
+    "FR2111 M 2005-03 har komplett BioClip 90 506970908, remmar 531008025 och 531008037 samt kniv 531008026. Originalkatalogen fastställer ingen ersättningskedja till 506970907.",
+    "Husqvarna Genuine Parts dokumenterar 589532201 som kit med 506982901 och 1725 mm. Separat originalbelägg krävs för 531008025→589532201 och hela 531007553-kedjan.",
+    "BioClip 90: drivrem (mittremskiva till aggregat) och tandrem (mellan knivarna) ska modelleras som olika funktioner även när katalogen använder generell beteckning 'BELT'. Fastställ respektive position från exakta PNC.",
+    "531008037→589531501 har fortfarande bara sekundärt stöd; undersök om Husqvarnas Genuine Parts-katalog uttryckligen anger 531008037 eller 506977301 för 589531501."
   ]
 }
