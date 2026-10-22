@@ -498,6 +498,72 @@
       "topic": "I",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-9",
+      "statement": "Katalogens CHASSIS & BOITIER listar PLAQUE med artikelnummer 532 19 46-88 på position 9. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 9",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-17",
+      "statement": "Katalogens CHASSIS & BOITIER listar CAPOT med artikelnummer 532 19 47-57 på position 17. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 17",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-28",
+      "statement": "Katalogens CHASSIS & BOITIER listar CAPOT med artikelnummer 532 19 29-15 på position 28. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 28",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-30",
+      "statement": "Katalogens CHASSIS & BOITIER listar PROTECTEUR med artikelnummer 532 19 73-44 på position 30. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 30",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-58",
+      "statement": "Katalogens CHASSIS & BOITIER listar CONDUIT med artikelnummer 532 18 43-22 på position 58. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 58",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-chassis-pos-89",
+      "statement": "Katalogens CHASSIS & BOITIER listar SUPPORT med artikelnummer 532 19 73-66 på position 89. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "96061001002 / 954130224 / 2005-05",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 89",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -510,6 +576,7 @@
     "Växellådantillverkaren och växellådans modellnummer kan inte styrkas från ENTRAINEMENT-listans generiska AXLE/MAILLON-poster; märkplåt eller särskild originalkatalog behövs.",
     "Katalogpositionerna i ENTRAINEMENT bevisar endast katalogförda delar; exakt transmissionstyp och delarnas fysiska kompatibilitet med andra revisioner är inte belagda.",
     "Jämför kabelstam ELECTRIQUE pos. 21 (532 18 37-59 enligt PDF-text) med 2004-06-versionerna J2115CMAB/J2115CMAC (532 17 56-88 enligt PDF-text). Skilda nummer är endast katalogskillnad, inte bevisad icke-passform; full bild-/elskema-kontroll återstår.",
-    "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2004-06-revision J2115CMAB. Full bildgranskning och utbytbarhetsbelägg återstår."
+    "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2004-06-revision J2115CMAB. Full bildgranskning och utbytbarhetsbelägg återstår.",
+    "Jämförelse 2004-06 mot 2005-05 visar skilda CHASSIS & BOITIER-nummer på positionerna 9, 17, 28, 30, 58 och 89. Katalogtexten kontrollerad men PDF-bildvisning misslyckades; kontroll av bilder, eventuella ersättningsnummer och faktisk passform återstår."
   ]
 }
