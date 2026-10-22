@@ -324,6 +324,60 @@
       "sourceId": "husqvarna-rider16-2006-oem-pdf",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-2006-steering-chain",
+      "statement": "Figur C visar styrkedja 506 55 47-01 (x2) och kedjehjul 506 55 46-01; den här positionsbestämningen avser styrsystemet, inte drivrem.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 3, figur C, 506 55 47-01 samt 506 55 46-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2006-steering-wheel",
+      "statement": "Figur C listar ratt 506 59 20-01 och rattaxel 506 86 33-01.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 3, figur C, 506 59 20-01 samt 506 86 33-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2006-combi-deck-belt",
+      "statement": "Figur D märker artikel 531 00 60-96 med 'Combi 103, Combi 112' i rem-/kraftöverföringsritningen; detta innebär inte generell passform för alla aggregatrevisioner.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 3, figur D, 531 00 60-96, etikett Combi 103/112",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-combi-pulleys",
+      "statement": "Figur D visar remskiveenheterna 531 00 75-72 och 535 48 22-01, vilka är separata från Combi-märkt rem 531 00 60-96.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 3, figur D, 531 00 75-72, 535 48 22-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-battery-number",
+      "statement": "Figur N visar batteri med Husqvarna-katalognummer 506 78 88-01; detta är katalogens historiska delnummer och garanterar inte dagens ersättningsnummer.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 9, figur N, batteri 506 78 88-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider16-2006-engine-label",
+      "statement": "Figur P innehåller Briggs & Stratton-märket under artikelnummer 506 96 13-01; märkdekalen ger inte ensam motorns exakta Model/Type/Code.",
+      "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
+      "locator": "PDF-sida 9, figur P, märket 506 96 13-01",
+      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -337,6 +391,8 @@
     "Katalogen för 953521401 (2006-01) måste detaljgranskas per sprängskiss/positionsnummer innan specifika reservdelsnummer eller kompatibilitet registreras.",
     "Rider 16C 966830601 har separat Husqvarna-IPL 2008-04; behandla som sidofynd och blanda inte in dess reservdelar i Rider 16.",
     "Identifiera positionsbundna transmissionsremmar, knivar och aggregatdelar direkt från respektive originalfigur före passformsråd.",
-    "Fastställ om 506 98 63-01 K46 EUR ersatts av något nyare Husqvarna-delnummer; listan från 2006 räcker inte för aktuellt ersättningsnummer."
+    "Fastställ om 506 98 63-01 K46 EUR ersatts av något nyare Husqvarna-delnummer; listan från 2006 räcker inte för aktuellt ersättningsnummer.",
+    "Kontrollera sprängskissens övriga Combi-aggregatnummer och separat aggregat-PNC innan exakt kniv- eller reservdelskompatibilitet anges.",
+    "Undersök senare ersättningsnummer för batteri, drivrem och styrkedja från tillverkare innan inköpsråd."
   ]
 }
