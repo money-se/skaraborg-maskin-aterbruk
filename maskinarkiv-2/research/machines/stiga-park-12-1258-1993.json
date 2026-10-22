@@ -565,6 +565,186 @@
       "grade": "A",
       "sourceId": "stiga-cybercat-peerless-846-801046-1991",
       "locator": "CyberCat 1991 sid 3 pos 72; STIGA Park 12 13-1258-16 1993 sid 13 pos 72"
+    },
+    {
+      "id": "p12-1258-93-detail-axle-core",
+      "topic": "D",
+      "statement": "Växellådan 846 listar separat axel P000-7761-35 (pos 49), axel P000-7761-81 (pos 16), växelförarstång P000-7842-90 (pos 48) och axel P007-7618-4A (pos 50).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 49,16,48 samt s.15 pos 50"
+    },
+    {
+      "id": "p12-1258-93-detail-bevel-set",
+      "topic": "D",
+      "statement": "Differentialgruppen i Peerless 846 har två kugghjul P000-7780-68 (pos 62) och två koniska kugghjul P000-7782-21 (pos 61); delposterna är inte ett utväxlingsmått.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 62,61"
+    },
+    {
+      "id": "p12-1258-93-detail-gear-2a",
+      "topic": "D",
+      "statement": "Peerless 846:s reservdelslista skiljer kugghjul P000-7781-36 (15 tänder, pos 2) från P000-7781-45 (12 tänder, pos 2A).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 2 och 2A"
+    },
+    {
+      "id": "p12-1258-93-detail-gears-input",
+      "topic": "D",
+      "statement": "Originaltabellen anger P007-7812-1A (20T, pos 6), P007-7812-2A (22T, pos 9), P007-7812-3A (25T, pos 7) och P007-7812-4A (30T, pos 8).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.15 pos 6,9,7,8"
+    },
+    {
+      "id": "p12-1258-93-detail-gears-output",
+      "topic": "D",
+      "statement": "Originaltabellen anger P007-7812-8A (28T, pos 10), P007-7813-7A (42T, pos 12) och P007-7814-6A (37T, pos 11).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.15 pos 10,12,11"
+    },
+    {
+      "id": "p12-1258-93-detail-gearassy",
+      "topic": "K",
+      "statement": "846-förteckningen listar P007-7805-3A som komplett kugghjulsenhet på pos 59, och P007-7811-3A som koniskt pinjongdrev på pos 17.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.15 pos 59,17"
+    },
+    {
+      "id": "p12-1258-93-detail-sleeves",
+      "topic": "K",
+      "statement": "846-förteckningen listar bussningar P000-7800-64 (2 st, pos 60), P000-7801-20 (1 st, pos 60A) samt P007-8010-5A (3 st, pos 26) och P007-8011-8A (1 st, pos 27).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 60,60A och s.15 pos 26–27"
+    },
+    {
+      "id": "p12-1258-93-detail-washers-core",
+      "topic": "K",
+      "statement": "Brickor i 846 innefattar P000-7800-01 (2 st, pos 67), P000-7800-65 (2 st, pos 64) och P000-7800-72 (4 st, pos 29).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 67,64,29"
+    },
+    {
+      "id": "p12-1258-93-detail-washers-shift",
+      "topic": "K",
+      "statement": "Fem brickor P000-7801-08 anges på pos 36; övriga individuella brickor är P000-7801-09 pos 32, P000-7801-13 pos 38 och P000-7801-14 pos 44.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 36,32,38,44"
+    },
+    {
+      "id": "p12-1258-93-detail-retainers",
+      "topic": "K",
+      "statement": "846 har låsring P000-7880-40 (pos 25), P000-7920-35 (pos 70) och fyra P000-7921-25 (pos 65); olika låsringar anges separat.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 25,70 och s.15 pos 65"
+    },
+    {
+      "id": "p12-1258-93-detail-pins",
+      "topic": "K",
+      "statement": "Peerless 846 listar två drivpinnar P000-7860-26 (pos 53), en P000-7860-34 (pos 63) och P000-7920-40 (pos 66).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 53,63,66"
+    },
+    {
+      "id": "p12-1258-93-detail-detent",
+      "topic": "F",
+      "statement": "Växelmekanismens reservdelslista anger kula P000-7920-77 (pos 31), fjäder P000-7920-79 (pos 34), skruv P000-7920-78 (pos 33) och bricka P000-7920-76 (pos 55).",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.15 pos 31,34,33,55"
+    },
+    {
+      "id": "p12-1258-93-detail-case-hardware",
+      "topic": "K",
+      "statement": "Transaxelhuset har 17 skruvar P000-7920-73 på pos 35 och ytterligare två skruvar med samma kod på pos 57; antalen hör till olika positioner.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 35,57"
+    },
+    {
+      "id": "p12-1258-93-detail-brake-hardware",
+      "topic": "K",
+      "statement": "Bromsgruppen listar hållare P000-7900-25 på pos 58 och mutter P000-7920-75 på pos 54. Inställningsmoment saknas i IPL.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 58 och s.15 pos 54"
+    },
+    {
+      "id": "p12-1258-93-detail-keys",
+      "topic": "K",
+      "statement": "Peerless 846-dellistan anger två kilar P007-9208-9A på pos 22. STIGA-delnumret ska inte antas ersätta andra utförandens axelkilar.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.15 pos 22"
+    },
+    {
+      "id": "p12-1258-93-detail-shaft-collar",
+      "topic": "K",
+      "statement": "Hylsor i 846-originalet är P000-7842-66 på pos 13 och P000-7860-75 på pos 23, samt distans P000-7860-74 på pos 18.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.13 pos 13,23,18"
+    },
+    {
+      "id": "p12-1258-93-detail-engine-housing-variants",
+      "topic": "C",
+      "statement": "STIGA:s motorreservdelstabell listar fläkthus 494268 märkt Briggs 286707-0141 och fläkthus 494269 märkt Briggs 283707-0217. Delar skiljer mellan motorkoderna.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.11 pos 304, två typnoteringar"
+    },
+    {
+      "id": "p12-1258-93-detail-engine-starter-types",
+      "topic": "C",
+      "statement": "STIGA listar startmotor 394805 med motorvariantnotering 283707-0217 samt separat startmotor 399169. Motor-ID måste avgöra tillämplig version.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.3 pos 309 och s.5 pos 309"
+    },
+    {
+      "id": "p12-1258-93-detail-engine-generator",
+      "topic": "C",
+      "statement": "Förgasar-/luftfilterdelens reservdelstabell listar generator 393474 (pos 474), bränsleledning 393815 (pos 187), förgasare 494502 (pos 125) och förgasarreparationssats 494384 (pos 121); kompletta motor-ID måste verifieras.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.3 pos 474,187 och s.5 pos 125,121"
+    },
+    {
+      "id": "p12-1258-93-detail-engine-model-notes",
+      "topic": "C",
+      "statement": "STIGA-katalogen hänvisar i 1993 års motoravsnitt till Briggs 286707-0141 och 283707-0217 på olika komponentrader; dessa är delar av originalreservdelstabellen och fastställer inte monterad individmotor.",
+      "variant": "STIGA Park 12 13-1258-16 Season 1993, originallista Issue 37-2014; endast namngiven del/undergrupp",
+      "grade": "A",
+      "sourceId": "stiga-park12-1258-1993-ipl",
+      "locator": "PDF s.7 motorvariantnotering och s.11 fläkthus pos 304"
     }
   ],
   "gaps": [
@@ -582,6 +762,7 @@
     "Två STIGA-kataloger upprepar P000-780-69 på 846 pos.72. Hitta Tecumseh/Peerless-original 846 delarlista eller leverantörskorsreferens som verifierar faktiskt beställningsnummer; förväxla inte med 780069 från annan modell.",
     "Bekräfta P000-7880-69 (CyberCat) mot oberoende Tecumseh/Peerless fabrikantlistning och fysisk tätning; två STIGA modell-IPLs anger P000-780-69. Inget nummer ska deklareras som slutligt beställningssäkert ännu.",
     "Verifiera tätningsnummer 788069/P000-7880-69 på exakt Peerless 846 via fristående 846 tillverkarlista; RBI-guidens delnummer saknar 846-/positionsspecifik koppling.",
-    "KORRIGERING: Från 1991 års Peerless 846/801-046-katalog är pos.72 fäste P000-7860-86, inte en tätning. Fastställ tätningens artikelnummer i en OBEROENDE 846-delversion med samma års-/versionsidentitet; tidigare P000-7880-69-tolkning är inte bekräftad."
+    "KORRIGERING: Från 1991 års Peerless 846/801-046-katalog är pos.72 fäste P000-7860-86, inte en tätning. Fastställ tätningens artikelnummer i en OBEROENDE 846-delversion med samma års-/versionsidentitet; tidigare P000-7880-69-tolkning är inte bekräftad.",
+    "Kugghjul med tandantal i original-IPLs anger individuella delar, inte hela transaxelns utväxlingsförhållande; korsverifiera totalutväxling och byteskompatibilitet med Peerless-version innan köp."
   ]
 }
