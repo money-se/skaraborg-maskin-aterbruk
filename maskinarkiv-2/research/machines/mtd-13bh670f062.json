@@ -459,7 +459,7 @@
     },
     "E": {
       "state": "gap",
-      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår.\nFollow-up research: Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering. Familjemanualen anger toe-in 1/16–5/16 tum endast för justerbar styrstång. 2000-katalog listar justerbart 747-0753 och icke justerbart 747-0861 parallellstag. 2001 tillverkarkorsreferens anger framhjul 634-0105A, som katalogen beskriver som Square Shoulder. Fyra dokumenterade referenser från OEM/dealer visar 683-0128A→683-0128B(-0637), 634-0105A→634-0105B och 711-1107→911-1107. Relationen mellan alternativa stål-/gjutjärnsframaxlar och olika hjulskuldror är inte fastställd för individuella exemplar. Sex ytterligare katalogkorsningar för rattkåpa, styrarm, framaxellager, styrled, runt framhjul och främre navkapsel är nu dokumenterade med gammalt/nytt nummer. Alla katalogalternativ får inte samtidigt antas monterade."
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår.\nFollow-up research: Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering. Familjemanualen anger toe-in 1/16–5/16 tum endast för justerbar styrstång. 2000-katalog listar justerbart 747-0753 och icke justerbart 747-0861 parallellstag. 2001 tillverkarkorsreferens anger framhjul 634-0105A, som katalogen beskriver som Square Shoulder. Fyra dokumenterade referenser från OEM/dealer visar 683-0128A→683-0128B(-0637), 634-0105A→634-0105B och 711-1107→911-1107. Relationen mellan alternativa stål-/gjutjärnsframaxlar och olika hjulskuldror är inte fastställd för individuella exemplar. Sex ytterligare katalogkorsningar för rattkåpa, styrarm, framaxellager, styrled, runt framhjul och främre navkapsel är nu dokumenterade med gammalt/nytt nummer. Alla katalogalternativ får inte samtidigt antas monterade. Modellspecifik 2000-katalog skiljer stålaxel 683-0128B-0637 från gjutjärn 919-0342B och specificerar höger 983-0125 för 46-tumsaggregat samt vänster 983-0127 för rundhjul; de är inte belägg för samtidiga monterade versioner."
     },
     "F": {
       "state": "gap",
@@ -2294,6 +2294,33 @@
       "locator": "Stens 285-119, 918-0142C, note 38-inch uses 275-515 spindle pulley and 42-inch uses 275-519, shaft six-point star",
       "grade": "B",
       "variant": "Spindelfamilj för 600-series; OEM-lista specificerar 42 tum medan eftermarknad inkluderar 38-tums varianter, faktisk fysisk passform okänd"
+    },
+    {
+      "id": "mtd-2000-front-axle-steel-and-cast-distinct",
+      "topic": "E",
+      "statement": "MTD 13BH670F062/2000 års modellspecifika reservdelsindex redovisar stål-pivotaxel 683-0128B-0637 och separat gjutjärns-pivotstång 919-0342B. Konstruktionerna är alternativa katalogposter, inte olika namn på samma kompletta framaxel; påbyggnad, fästpunkter och maskinrevision måste avgöras före utbyte.",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model Front Axle listing: 683-0128B-0637 Lawn Mower Pivot Axle and 919-0342B Bar-pivot Cast .62",
+      "variant": "MTD 13BH670F062 katalogår 2000 samlad variantkatalog; inte fabriksmonterad utrustning per serienummer",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-front-axle-46deck-conditional",
+      "topic": "E",
+      "statement": "Samma årsavgränsade modellregister har höger framaxelenhet 983-0125 uttryckligen märkt för 46-tumsaggregat och 15×6-tumshjul med rund eller fyrkantig skuldra. Förekomst i samlingslistan bekräftar inte 46-tumsaggregat på Lowes 13BH670F062; detta är en utförandevillkorad del.",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model front axle list: 983-0125 Front Axle Assembly-RH (46-inch Deck) 15 x 6 Round & Square Shoulder",
+      "variant": "MTD 13BH670F062 katalogår 2000 samlad variantkatalog; inte fabriksmonterad utrustning per serienummer",
+      "grade": "B"
+    },
+    {
+      "id": "mtd-2000-steering-round-axle-left-distinct",
+      "topic": "E",
+      "statement": "MTD 13BH670F062/2000 reservdelslista har även vänster framaxelenhet 983-0127 uttryckligen knuten till 15×6-tums hjul med rund skuldra. Detta skiljer den från 2001-XREF:s 634-0105A med fyrkantig skuldra och stöder behovet av fysisk hjul-/axelidentifiering.",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "2000 model front axle list: 983-0127 Front Axle Ass'y LH 15 x 6 Round Shoulder",
+      "variant": "MTD 13BH670F062 katalogår 2000 samlad variantkatalog; inte fabriksmonterad utrustning per serienummer",
+      "grade": "B"
     }
   ],
   "gaps": [
