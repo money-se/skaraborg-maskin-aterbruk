@@ -34,7 +34,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "F-040721L s.12 visar BRIGGS & STRATTON motorfabrikat utan exakta Model/Type/Code; bränsle, avgasfästen, remskiva, remstyrningar och värmesköld kan positionsbindas. Illustrerad sprängskiss ej visuellt kontrollerad."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -1361,6 +1361,171 @@
       "sourceId": "parts-tree-a-susp",
       "grade": "B",
       "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-clamp",
+      "statement": "ENGINE MOUNT listar artikelnummer 095197 för katalogposition 3.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-fuel-line",
+      "statement": "ENGINE MOUNT listar artikelnummer 7601033 för katalogposition 4.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 4",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-engine-plate",
+      "statement": "ENGINE MOUNT listar artikelnummer 094006E700 för katalogposition 7.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 7",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-hose-secondary",
+      "statement": "ENGINE MOUNT listar artikelnummer 095197 för katalogposition 5.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 5",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler",
+      "statement": "ENGINE MOUNT listar artikelnummer 1001717 för katalogposition 9a.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9a",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-gasket",
+      "statement": "ENGINE MOUNT listar artikelnummer 091309 för katalogposition 9b.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9b",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-adapter",
+      "statement": "ENGINE MOUNT listar artikelnummer 095207 för katalogposition 9c.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9c",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-adapter-screw",
+      "statement": "ENGINE MOUNT listar artikelnummer 06x103 för katalogposition 9d.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9d",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-bolt",
+      "statement": "ENGINE MOUNT listar artikelnummer 009x59 för katalogposition 9e.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9e",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-lock",
+      "statement": "ENGINE MOUNT listar artikelnummer 092378 för katalogposition 9f.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9f",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-engine-fastener",
+      "statement": "ENGINE MOUNT listar artikelnummer 0025x7 för katalogposition 10.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 10",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-stack-pulley",
+      "statement": "ENGINE MOUNT listar artikelnummer 690439 Z för katalogposition 11.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 11",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-belt-guide",
+      "statement": "ENGINE MOUNT listar artikelnummer 094384 för katalogposition 21.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 21",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-belt-guide-secondary",
+      "statement": "ENGINE MOUNT listar artikelnummer 094066 för katalogposition 23.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 23",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-heat-shield-fastener",
+      "statement": "ENGINE MOUNT listar artikelnummer 06x104 för katalogposition 32.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 32",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
