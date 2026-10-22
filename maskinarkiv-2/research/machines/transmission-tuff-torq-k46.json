@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-tuff-torq-k46",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbundet forskningsregister för Tuff Torq K46; inte en komplett maskinartikel. Endast uttryckligen täckta tillverknings-ID omfattas av oljeserviceanvisningen. Inga OEM-kompatibilitetsanspråk.",
+  "sources": [
+    {
+      "id": "tt-k46-product",
+      "tier": 1,
+      "title": "Tuff Torq K46 – officiell produktspecifikation",
+      "document": "K46 Manufacturer ID: K46 / Features & Specifications",
+      "url": "https://www.tufftorq.com/product/k46/"
+    },
+    {
+      "id": "tt-residential-oil",
+      "tier": 1,
+      "title": "Tuff Torq – Residential IHT with integrated reservoir tank, oil maintenance",
+      "document": "Tech Tips – Residential IHT (w/ integrated reservoir tank) Oil Maintenance",
+      "url": "https://www.tufftorq.com/tuff-torq-transaxle-oil-service/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Komponentfamiljen är identifierad, men exakt monterad OEM-transmission kan inte bestämmas utifrån maskinens modellnamn."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motoruppgifter ingår inte i denna komponentstudie; identifiera motor separat per maskin."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Komponentens konstruktion är delvis dokumenterad; individuella serienummer och revisioner måste verifieras."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Växellådans funktion och tillverkaruppgifter har belagts, men intern reservdelskonfiguration per tillverknings-ID återstår."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Maskinspecifika reglage, remdragning och frikopplingslänkage återstår att belägga per OEM."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Maskinspecifika hastigheter och viktgränser får inte härledas ur komponentens kataloggränser."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Elektriska säkerhetskretsar är maskinspecifika och ingår inte i komponentens källmaterial."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Klippaggregat och dess kompatibilitet kan inte bestämmas från transaxelns familj."
+    },
+    "I": {
+      "state": "gap",
+      "note": "OEM-instruktioner för bogsering, parkeringsbroms och säkerhet måste jämföras före service."
+    },
+    "J": {
+      "state": "verified",
+      "note": "Transmissionsservice kräver exakt Manufacturing ID och kontroll av aktuell OEM-manual."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Felsökning måste kompletteras med dokumenterade kontrollvägar för konkret enhet och maskin."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Reservdelsnummer och servicekit kräver exakt etikett-/serienummer och tillverkarens parts-list."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Köpråd och sammanfattningar får inte överföra komponentvärden till okända maskinversioner."
+    }
+  },
+  "claims": [
+    {
+      "id": "k46-iht-type",
+      "statement": "Tuff Torq klassificerar K46 som en integrerad hydrostatisk transaxel (IHT) för bland annat lawn tractors.",
+      "variant": "Tuff Torq K46 familj; enskilt Manufacturing ID ej angivet",
+      "locator": "K46 > inledning / Specifications > Application",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-pump-motor",
+      "statement": "K46-seriens tillverkarspecifikation anger pump/motor-deplacement 7/10 cm3 per varv; familjeuppgift och inte specifik OEM-maskinprestanda.",
+      "variant": "K46 produktfamilj, ospecificerat Manufacturing ID",
+      "locator": "Specifications > Displacement (Pump/Motor)",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-reduction-ratios",
+      "statement": "K46-produktsidan listar två utväxlingsalternativ 28.04:1 respektive 21.53:1; ingen av dem får tilldelas en OEM-variant utan identifiering.",
+      "variant": "K46 familj, beroende av utförande",
+      "locator": "Specifications > Reduction Ratio",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-brake",
+      "statement": "Tillverkaren anger intern våt lamellbroms och standardmässig bypass/roll-release för K46-familjen.",
+      "variant": "K46 familj, tillverkarens produktblad",
+      "locator": "Features > Internal wet disk brake; Specifications > Brake Type / Bypass valve",
+      "sourceId": "tt-k46-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "k46-covered-manufacturing",
+      "statement": "Tillverkarens oljeserviceguide namnger uttryckligen K46CJ bland de Manufacturing ID som täcks. Den omfattar inte automatiskt alla andra K46-koder.",
+      "variant": "K46CJ, uttryckligen listad",
+      "locator": "Models covered by this procedure > K46 Series > Manufacturing ID",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-level-20-25mm",
+      "statement": "För enheter som omfattas av guiden anger Tuff Torq oljenivå 20–25 mm under påfyllningsöppningens kant, kontrollerad med plan, säkerställd enhet och olja vid cirka 20 °C.",
+      "variant": "Residential IHT med intern reservoar, uttryckligen listade tillverknings-ID",
+      "locator": "Oil Maintenance, stycke 2 och Technical note",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-full-fill-approx-2-2l",
+      "statement": "Guiden uppskattar cirka 2,2 liter vid helt tom enhet, men påpekar uttryckligen att faktisk påfyllningsmängd kan variera på grund av kvarvarande olja och enhetens skick.",
+      "variant": "Residential IHT med intern reservoar, uttryckligen listade tillverknings-ID",
+      "locator": "Oil Maintenance, oil draining and refill paragraph",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "k46-fill-port-only",
+      "statement": "Guiden beskriver tömning via svart påfyllningslock under remskiva/fläkt genom att invertera demonterad enhet, och återfyllning endast via denna öppning; tillverkaren rekommenderar godkänd Tuff Tech-drivvätska.",
+      "variant": "Residential IHT med intern reservoar, uttryckligen listade tillverknings-ID",
+      "locator": "Oil Maintenance, paragraphs beginning 'Normally the model K46' and 'Always use the fill port'",
+      "sourceId": "tt-residential-oil",
+      "grade": "A",
+      "topic": "J"
+    }
+  ],
+  "gaps": [
+    "K46 Manufacturing ID och serienummer måste avläsas innan delar beställs.",
+    "Hämta tillverkarens exploderade reservdelslista för faktiskt monterad K46-variant, inklusive aktuella komponentnummer.",
+    "Kontrollera OEM:s anvisningar för demontering, bogsering, service och eventuella avvikande oljespecifikationer.",
+    "Skilj K46CJ i STIGA Villa från andra K46-varianter och gör ingen universell passformsbedömning."
+  ]
+}
