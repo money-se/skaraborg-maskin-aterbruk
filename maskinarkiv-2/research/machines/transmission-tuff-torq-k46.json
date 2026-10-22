@@ -46,6 +46,13 @@
       "title": "STIGA Villa 12 HST (2011), 13-2729-15, original parts listing with internal Kanzaki K46CJ components",
       "document": "STIGA parts list for 13-2729-15; Transmission pages 43–49; compilation marked 2022-08-21",
       "url": "https://www.sandbysmeden.dk/wp-content/uploads/2022/08/13-2729-15-Stiga-Villa-12-HST-2011.pdf"
+    },
+    {
+      "id": "stiga-villa12-2010-k46cj-ipl",
+      "tier": 1,
+      "title": "STIGA Villa 12 HST 2010 13-2729-14 illustrated parts listing",
+      "document": "STIGA 13-2729-14, machine-specific parts list; 46 pages, compiled August 2022",
+      "url": "https://www.sandbysmeden.dk/wp-content/uploads/2022/08/13-2729-14-Stiga-Villa-12-HST-2010.pdf"
     }
   ],
   "topics": {
@@ -249,9 +256,9 @@
     },
     {
       "id": "stiga-villa12-drivebelt",
-      "statement": "Samma originalkatalog listar drivrem 1134-9064-01 med korshänvisning =9585-0099-01, position 17 för transmissionens remdrift, inte klippaggregatets rem.",
+      "statement": "STIGA:s originalkatalog 2011/2012 anger drivrem 1134-9064-01 och hänvisning =9585-0099-01 i figur 1157G, medan den senare sammanställda reservdelslistan för 13-2729-15 anger annan servicekod 9585-0212-01. Koderna får inte antas utbytbara utan separat parts-/supersessionkontroll.",
       "variant": "STIGA Villa HST modellår 2011/2012, figurgrupp 2718/2728/2729",
-      "locator": "Figur 1157G, pos. 17, tryckt katalogsida 312, PDF-sida 27 (index 26)",
+      "locator": "Originalkatalog 2011/2012 figur 1157G, position 17, katalogsida 312 (PDF-sida 27/index 26). Separat senare sammanställning 13-2729-15 transmission pos. 17, PDF-sida 34 (index 33).",
       "sourceId": "stiga-villa-2011-oem-ipl",
       "grade": "A",
       "topic": "L"
@@ -309,6 +316,51 @@
       "sourceId": "stiga-villa12-2011-k46cj-ipl",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-filter-2011",
+      "statement": "STIGA:s Villa 12 HST reservdelslista 13-2729-15 anger K46CJ filter 1139-1405-01, position 26; exakt serie och revision ska kontrolleras vid beställning.",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 46 (index 45), ref. 26",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-cylinder-pump-2011",
+      "statement": "I samma K46CJ-katalog anges Cylinder Block Kit (Pump) 1139-1601-01 på position 31.",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 46 (index 45), ref. 31",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-drain-bolts-2011",
+      "statement": "K46CJ-reservdelslistan anger två Drain Bolt Kit 1139-1500-01 på position 18 och två O-ringar 1139-1117-01 på position 19; detta är komponentlista, inte automatiskt en oljebytesprocedur.",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 46 (index 45), ref. 18–19",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-shafts-left-right-2011",
+      "statement": "STIGA:s Villa 12 HST 2011-katalog kopplar vänster drivaxel till 1139-1342-01 (ref. 69) och höger drivaxel till 1139-1343-01 (ref. 68).",
+      "variant": "STIGA Villa 12 HST 2011, produktnummer 13-2729-15",
+      "locator": "Transmission, PDF-sida 49 (index 48), ref. 68–69",
+      "sourceId": "stiga-villa12-2011-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "stiga-k46cj-2010-crossmodel",
+      "statement": "STIGA:s modellbundna reservdelslista för Villa 12 HST 2010 (13-2729-14) listar samma K46CJ tätningssats 1139-1403-01 och reparationssats 1139-1600-01 som 2011 års 13-2729-15-lista; detta styrker katalogförekomst i två maskinversioner men inte passform i oidentifierade enheter.",
+      "variant": "STIGA Villa 12 HST 2010, produktnummer 13-2729-14, jämfört med 13-2729-15",
+      "locator": "2010 års parts list, Transmission, PDF-sida 46 (index 45), ref. 200–201; 2011 års PDF-sida 49 ref. 200–201",
+      "sourceId": "stiga-villa12-2010-k46cj-ipl",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -317,6 +369,7 @@
     "Kontrollera OEM:s anvisningar för demontering, bogsering, service och eventuella avvikande oljespecifikationer.",
     "Skilj K46CJ i STIGA Villa från andra K46-varianter och gör ingen universell passformsbedömning.",
     "Föreslagna artikelnummer i ospecificerade K46-parts-listor får inte överföras till K46CJ innan Ordertree ger exakt Manufacturing ID/serial match.",
-    "STIGA:s interna K46CJ-reservdelsnummer från 13-2729-15 behöver kontroll mot transmissionsetikett/serienummer, senare artikelersättningar och maskinens identifieringsskylt före beställning."
+    "STIGA:s interna K46CJ-reservdelsnummer från 13-2729-15 behöver kontroll mot transmissionsetikett/serienummer, senare artikelersättningar och maskinens identifieringsskylt före beställning.",
+    "Kontrollera om STIGA:s senare servicekod 9585-0212-01 ersätter, kompletterar eller bara är alternativ till originalkatalogens 9585-0099-01 innan köpguide rekommenderar någon av dem."
   ]
 }
