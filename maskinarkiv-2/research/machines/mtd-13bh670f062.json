@@ -228,6 +228,13 @@
       "title": "MTD Technical Handbook Book 2: Rear Engine Riders and Lawn Tractors",
       "document": "MTD FORM 770-10579; 600 Series single-speed transaxle model 618-0163, figure 6-2; section 6-1.3 lubrication and 1997 model reference",
       "url": "https://mymowerparts.com/pdf/MTD-Service-Repair-Manuals/770-10579--THE-MUST-HAVE-MANUAL-OF-OUTDOOR-POWER-EQUIPMENT-BOOK-2-REAR-ENGINE-RIDERS-AND-LAWN-TRACTORS.pdf"
+    },
+    {
+      "id": "appliance-model-2000-deck-f",
+      "tier": 2,
+      "title": "AppliancePartsPros 13BH670F062 2000 diagrams",
+      "document": "Model-specific diagram index shows Deck Assembly F",
+      "url": "https://www.appliancepartspros.com/parts-for-yard-machines-13bh670f062-2000.html"
     }
   ],
   "topics": {
@@ -261,7 +268,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G."
     },
     "I": {
       "state": "gap",
@@ -1166,6 +1173,15 @@
       "variant": "MTD Technical Handbook 770-10579, 600 Series, historisk tillverkningsändring; ej bekräftad individuell 13BH670F062-revision",
       "grade": "B",
       "sourceId": "mtd-technical-handbook-77010579"
+    },
+    {
+      "id": "mtd-independent-model-2000-deck-f",
+      "topic": "H",
+      "statement": "AppliancePartsPros visar Deck Assembly F i det modellspecifika katalogindexet för 13BH670F062 år 2000. PartsTree anger också F, medan MTD:s 2000-korsreferens anger G. Motsägelsen är ännu olöst.",
+      "variant": "MTD 13BH670F062 katalogår 2000, diagramindex",
+      "grade": "B",
+      "sourceId": "appliance-model-2000-deck-f",
+      "locator": "Parts and Diagrams, Deck Assembly F Parts"
     }
   ],
   "gaps": [
