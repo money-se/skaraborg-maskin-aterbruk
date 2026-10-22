@@ -522,6 +522,20 @@
       "title": "Briggs & Stratton official engine model numbering reference",
       "document": "MS4185 revised 2015-12, Model/Type/Code meanings",
       "url": "https://www.briggsandstratton.com/content/dam/briggsandstratton/na/en_us/Files/FAQs/2016_MS4185.pdf"
+    },
+    {
+      "id": "briggs-original-ipl-28n707-1201e1-reference",
+      "tier": 1,
+      "title": "Briggs original parts IPL 28N707-1201-E1",
+      "document": "Briggs copyright IPL 28N707-1201-E1, dated 2020-04-10; example of Type-specific parts catalog, not established Rider16 engine Type",
+      "url": "https://www.briggsstrattonstore.com/content/pdf/manuals/28N707-1201-E1.pdf"
+    },
+    {
+      "id": "briggs-282h07-0110e1-ceruti-ipl-index",
+      "tier": 2,
+      "title": "Ceruti Briggs 282H07-0110-E1 parts IPL index",
+      "document": "Model 282H07 Type 0110 E1 part diagram index; direct Rider 16 2005 OM engine model/type match, still inspect code-date applicability",
+      "url": "https://www.ceruticenter.it/en/content/117946-282h07-0110-e1-briggs-stratton-engine-spare-parts"
     }
   ],
   "topics": {
@@ -3116,6 +3130,24 @@
       "sourceId": "briggs-official-engine-part-number-guidance",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch55-briggs-28n707-type-difference",
+      "statement": "Briggs publicerar en original-IPL för motor 28N707-1201-E1 med separata sprängskissgrupper, men 28N707-grundmodellen från Rider 16 H räcker inte för att anta samma Type 1201-E1 eller delnummer. Manualen är exempel på versionsspecifikt originalunderlag.",
+      "variant": "Briggs engine type-specific OEM IPL / seller catalog index; exact physical Code remains unknown",
+      "locator": "Briggs original IPL 28N707-1201-E1 p1 and section contents",
+      "sourceId": "briggs-original-ipl-28n707-1201e1-reference",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch55-briggs-282h07-exact-parts-index",
+      "statement": "Reservdelshandlaren Ceruti har en detaljerad sprängskiss- och artikellista särskilt för Briggs 282H07-0110-E1, som motsvarar motorbeteckningen i Rider 16:s 2005-originalmanual. Detta styrker existensen av en modell-/typspecifik delar-index, men inte att varje återförsäljaraktuell reservdel är originalmonterad.",
+      "variant": "Briggs engine type-specific OEM IPL / seller catalog index; exact physical Code remains unknown",
+      "locator": "Ceruti Parts IPL index > '282H07-0110-E1', assembly groups Air Cleaner/Blower Housing, etc.",
+      "sourceId": "briggs-282h07-0110e1-ceruti-ipl-index",
+      "grade": "B",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -3232,6 +3264,8 @@
     "Tuff Torq förbjuder generell utbytbarhet mellan K46-undermodeller. Kartlägg Husqvarnas artikelnummer K46 mot Tuff Torq originaletikett P/N och serienummer före ersättningsköp.",
     "2005-01 Rider16 OM på originalets tekniska sida anger Combi112=1120 mm medan äldre verkstadstabell anger 1220 mm; behandla 1220 som avvikande tills konstruktions-/tryckfelsförklaring hittas.",
     "Rider16 motoroljevolym 2002 OM 1,2 L kontra 2005 OM 1,4 L; 2005 hänför värdet till Briggs 282H070110E1, men utan motorns Model/Type/Code ska universell fyllmängd inte publiceras.",
-    "Briggs original-IPLs för exakt Model/Type/Code saknas för specifik fysisk Rider. Innan förgasare, stift, packningar eller oljemängd väljs: avläs alla tre märkfälten, matcha IPL och kontrollera revisionsdatum."
+    "Briggs original-IPLs för exakt Model/Type/Code saknas för specifik fysisk Rider. Innan förgasare, stift, packningar eller oljemängd väljs: avläs alla tre märkfälten, matcha IPL och kontrollera revisionsdatum.",
+    "Leta fram Briggs utfärdad original-IPL specifikt för 282H07-0110-E1 och för Rider 16 H-maskinens avlästa 28N707-Type; jämför revisions- och Code-datum före motordelsnummer.",
+    "28N707-1201-E1 Briggs original-IPL är en demonstrerad annan Type; felaktig typkoppling kan ge fel förgasare och tändsystem."
   ]
 }
