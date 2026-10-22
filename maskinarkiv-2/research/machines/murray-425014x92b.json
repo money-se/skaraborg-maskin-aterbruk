@@ -60,6 +60,13 @@
       "title": "Murray 425014X92B maintenance chart and general recommendations",
       "document": "F-050706L p.21",
       "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=21"
+    },
+    {
+      "id": "murray-014b-troubleshoot-p35",
+      "tier": 2,
+      "title": "Murray 425014X92B original instruction book troubleshooting",
+      "document": "F-050706L, Trouble Shooting Chart, printed p.35",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=35"
     }
   ],
   "topics": {
@@ -126,7 +133,7 @@
     "M": {
       "name": "FAQ",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "F-050706L s.35 innehåller symptomorienterad felsökning av startproblem, solenoid, sits-/backspärr, ojämn klippning, remdrivning och motorbelastning. Säkerhetsfunktioner får inte förbikopplas; kontrollera alltid full procedur."
     }
   },
   "claims": [
@@ -1491,6 +1498,270 @@
       "sourceId": "murray-014b-maint-p21",
       "grade": "B",
       "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-procedure",
+      "statement": "Vid startfel: kontrollera att handbokens startprocedur följs.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-battery",
+      "statement": "Vid startfel på elstartmodell: rengör batteripoler och dra åt kablar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-fuel",
+      "statement": "Vid startfel anger felsökningstablån tömning av bränsletank, rengöring av ledning och byte av bränslefilter.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-start-plug",
+      "statement": "Vid startfel anger felsökningstablån kontroll och eventuellt byte av tändstift.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-battery",
+      "statement": "Om motorn inte drar runt: kontrollera batteriets laddning och tillstånd på elstartmodell.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-fuse",
+      "statement": "Om motorn inte drar runt: kontrollera eller byt säkring.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-harness",
+      "statement": "Om motorn inte drar runt: kontrollera kabelhärva för lösa anslutningar och skador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-no-crank-solenoid",
+      "statement": "Om motorn inte drar runt: anges solenoidbyte som möjlig åtgärd på elstartmodell efter grundkontroller.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-blade-stops-seat",
+      "statement": "Stannar motorn när klippknivarna kopplas in: kontrollera att föraren sitter korrekt på sitsgivaren.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-blade-stops-wire",
+      "statement": "Stannar motorn vid inkoppling av knivar: undersök kabelhärva och anslutningar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-blade-stops-reverse",
+      "statement": "Vid motorstopp när knivar kopplas in: kontrollera om transmissionen står i backläge och följ handbokens säkerhetsförfarande.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-motion-belt-route",
+      "statement": "Vid utebliven drivning med kopplingen inkopplad: kontrollera att drivremmen ligger korrekt.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-motion-clutch",
+      "statement": "Vid utebliven drivning: kontrollera kopplingens justering.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-motion-belt-replace",
+      "statement": "Vid utebliven drivning: handboken anger byte av drivrem vid behov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-slow-motion-clutch",
+      "statement": "Vid långsam eller upphörd framdrivning: justera kopplingen enligt handboken.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-slow-motion-belt",
+      "statement": "Vid långsam eller upphörd framdrivning: kontrollera om drivremmen behöver bytas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-mower-blade-belt",
+      "statement": "Om klippknivarna inte roterar: kontrollera att klippaggregatets rem ligger korrekt och byt vid behov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-cut-level-pressure",
+      "statement": "Vid ojämn klipphöjd: kontrollera däcktrycket.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-cut-level-deck",
+      "statement": "Vid ojämn klipphöjd: kontrollera och justera klippaggregatets nivå.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-belt-noise-route",
+      "statement": "Vid ihållande remoljud efter kopplingspedalens uppsläppning: kontrollera remdragning och remstyrningar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-belt-noise-clutch",
+      "statement": "Vid ihållande remoljud: kontrollera kopplingens justering.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-engine-power-air",
+      "statement": "Vid ojämn motorgång eller effektförlust: kontrollera och rengör luftfiltret.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-engine-power-oil",
+      "statement": "Vid ojämn motorgång eller effektförlust: kontrollera oljenivån.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-troubleshoot-engine-power-load",
+      "statement": "Vid överbelastning och effektförlust: välj lägre växel enligt felsökningstablån.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.35, relevant PROBLEM heading",
+      "sourceId": "murray-014b-troubleshoot-p35",
+      "grade": "B",
+      "topic": "M",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
