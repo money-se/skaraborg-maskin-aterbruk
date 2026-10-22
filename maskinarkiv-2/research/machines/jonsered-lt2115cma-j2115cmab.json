@@ -245,6 +245,72 @@
       "topic": "I",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-chassis-pos-9",
+      "statement": "Katalogens CHASSIS & BOITIER listar PLAQUE med artikelnummer 532 19 06-94 på position 9. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "J2115CMAB / 954130093 / 2004-06",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 9",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-chassis-pos-17",
+      "statement": "Katalogens CHASSIS & BOITIER listar CAPOT med artikelnummer 532 15 07-60 på position 17. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "J2115CMAB / 954130093 / 2004-06",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 17",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-chassis-pos-28",
+      "statement": "Katalogens CHASSIS & BOITIER listar GRILLE med artikelnummer 532 17 93-51 på position 28. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "J2115CMAB / 954130093 / 2004-06",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 28",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-chassis-pos-30",
+      "statement": "Katalogens CHASSIS & BOITIER listar AILE ARRIERE med artikelnummer 532 18 13-59 på position 30. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "J2115CMAB / 954130093 / 2004-06",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 30",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-chassis-pos-58",
+      "statement": "Katalogens CHASSIS & BOITIER listar DÉFLECTEUR D'AIR med artikelnummer 532 18 46-43 på position 58. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "J2115CMAB / 954130093 / 2004-06",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 58",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-chassis-pos-89",
+      "statement": "Katalogens CHASSIS & BOITIER listar SUPPORT med artikelnummer 532 18 13-60 på position 89. Nummeruppgiften gäller endast den angivna revisionen; ombyggnad eller utbytbarhet kan inte fastställas från denna rad.",
+      "variant": "J2115CMAB / 954130093 / 2004-06",
+      "locator": "Reservdels-PDF s. 7 (PDF-index 6), CHASSIS & BOITIER pos. 89",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -255,6 +321,7 @@
     "Kabelstam pos. 21 har återkontrollerats mot PDF:ens indexerade text; originalets sidbild kunde inte visas (cache miss). Separat bild-/elfelschemakontroll krävs före godkänd passform och slutlig verifikation.",
     "Kabelstam 532 17 56-88 i 2004-06-katalogens ELECTRIQUE pos. 21 skiljer sig från katalogposten 532 18 37-59 i 2005-05-revision 96061001002. Båda måste bildkontrolleras innan reservdelskompatibilitet bedöms.",
     "Drivfjädern på pos.25 har olika katalognummer 2004-06 kontra 2005-05. Originalsidbilderna och reviderade OEM-delslistor måste granskas före kompatibilitetsslutsats.",
-    "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2005-05-revision 96061001002. Full bildgranskning och utbytbarhetsbelägg återstår."
+    "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2005-05-revision 96061001002. Full bildgranskning och utbytbarhetsbelägg återstår.",
+    "Jämförelse 2004-06 mot 2005-05 visar skilda CHASSIS & BOITIER-nummer på positionerna 9, 17, 28, 30, 58 och 89. Katalogtexten kontrollerad men PDF-bildvisning misslyckades; kontroll av bilder, eventuella ersättningsnummer och faktisk passform återstår."
   ]
 }
