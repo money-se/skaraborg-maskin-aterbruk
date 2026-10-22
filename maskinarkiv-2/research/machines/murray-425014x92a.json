@@ -47,7 +47,7 @@
     "G": {
       "name": "Säkerhet",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Originalkatalogen ELECTRICAL SYSTEM, tryckt sida 14, innehåller katalognummer för kabelhärvor, tändningslås, gränslägesbrytare, säkring, solenoid, batteri och sitsbrytare; elschemats elektriska funktion och mätgränser återstår."
     },
     "H": {
       "name": "Klippaggregat",
@@ -287,6 +287,105 @@
       "sourceId": "murray-425014x92a-parts-pdf",
       "grade": "B",
       "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-light-harness",
+      "statement": "Originalkatalogen listar Belysningens kabelhärva 250x92.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 1",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-chassis-harness",
+      "statement": "Originalkatalogen listar Chassikabelhärva 250x117.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 2",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-ignition-switch",
+      "statement": "Originalkatalogen listar Tändningslås 092556.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-limit-switch",
+      "statement": "Originalkatalogen listar Gränslägesbrytare 094136.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 4",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-fuse",
+      "statement": "Originalkatalogen listar Säkring 302031.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 5",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-solenoid",
+      "statement": "Originalkatalogen listar Startsolenoid 094613.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 6",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-battery",
+      "statement": "Originalkatalogen listar Batteri 021075.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 8",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-seat-harness",
+      "statement": "Originalkatalogen listar Sitsbrytarens kabelhärva 250x67.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 9",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-seat-switch",
+      "statement": "Originalkatalogen listar Sitsgivarbrytare 094159.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 10",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
