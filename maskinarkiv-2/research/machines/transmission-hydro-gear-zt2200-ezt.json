@@ -354,6 +354,42 @@
       "sourceId": "hg-zt2100-zt2200-2023-revision",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "ezt-items-209-hub-puller",
+      "statement": "I BLN-52622 (2023) betecknas position 209 KIT, HUB PULLER; verktygspositionen är inte ett ordernummer för en monterad transmission.",
+      "variant": "ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Tryckt s. 33 Figure 26 (PDF-sida 35) och s. 34 ZT-2200 ITEMS LIST (PDF-sida 36)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-manual-repair-removal",
+      "statement": "Tillverkaren anger i förordet att beskrivna interna reparationsprocedurer för ZT-2100 och ZT-2200 förutsätter att transaxeln demonteras från fordonet.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Förord, tryckt sida 1, PDF-sida 3 (index 2)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-no-pressure-washer",
+      "statement": "Hydro-Gear avråder från att tvätta transaxeln när den är varm och från att använda högtryckstvätt vid rengöring före service.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 mars 2023",
+      "locator": "Tryckt sida 2, INTRODUCTION, PDF-sida 4 (index 3)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-internal-filter-not-universal-kit",
+      "statement": "Hydro-Gear beskriver internt filter och att delar som byts vid ZT-2200-reparation ska väljas från adekvata kit; fullständigt enhetsnummer krävs för att bestämma korrekt orderbar sats.",
+      "variant": "ZT-2200 EZT, BLN-52622 2018 / 2023",
+      "locator": "2023 tryckt sida 14, ZT-2200 EZT REPAIR > HOW TO USE THIS MANUAL; PDF-sida 16 (index 15)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -362,6 +398,7 @@
     "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion.",
     "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer.",
     "Jämförelse av 2018/2023-utgåvor har bekräftat oljemängder och avluftning, men övriga serviceprocedurer och komponentlistor är ännu inte fullständigt jämförda.",
-    "För reservdelsbeställning behövs tillverkarspecifik BOM/lista som mappar exakt Hydro-Gear-modell- och serienummer till orderbara kitnummer; BLN-52622 ger figurpositioner men inte sådan universal orderlista."
+    "För reservdelsbeställning behövs tillverkarspecifik BOM/lista som mappar exakt Hydro-Gear-modell- och serienummer till orderbara kitnummer; BLN-52622 ger figurpositioner men inte sådan universal orderlista.",
+    "Pos. 209 i Figure 26 (KIT, HUB PULLER) är ett verktyg, inte en vanligt förbrukad reparationsdel; bevaka att positioner inte felklassas i framtida köpguider."
   ]
 }
