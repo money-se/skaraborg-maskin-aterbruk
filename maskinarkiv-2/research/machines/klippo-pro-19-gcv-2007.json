@@ -46,6 +46,13 @@
       "title": "KLIPPO original owner manual for driven mower models",
       "document": "OM KLIPPO drivna 2009-11, 115332210; Excellent S/S GCV, Pro 19 S/S GCV etc",
       "url": "https://zielonemaszyny.pl/pdf/KLOO2010_AAaa_115332210.pdf"
+    },
+    {
+      "id": "wolfswinkel-pro19gcv-parts-index",
+      "tier": 2,
+      "title": "Wolfswinkel reservdelskatalog – Klippo Pro 19 GCV",
+      "document": "Pro 19 GCV, fullständig produktförteckning, odaterad indexvy utan säker positionsbindning",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/schubm%C3%A4her/pro-19-gcv/pro-19-gcv-1?wsource=group"
     }
   ],
   "topics": {
@@ -201,6 +208,24 @@
       "sourceId": "klippo-driven-2009-115332210",
       "grade": "A",
       "topic": "D"
+    },
+    {
+      "id": "pro19gcv-parts-index-blade-candidate",
+      "statement": "Wolfswinkels separata Pro 19 GCV-reservdelsindex listar artikelnummer 502978001 och 503272701 i samma produktförteckning. Produktnamnet och tidigare dokumentationsspår antyder kniv och knivbult, men indexet visar inte säkert deras sprängskisspositioner eller exakt års-/serienummerbindning; uppgifterna får därför bara användas som forskningskandidater.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad modellindexvy; ännu ej säkert artikelnummer/serieintervall",
+      "locator": "Pro 19 GCV > Vollständiges produkt, sammanhängande artikelnummerlista",
+      "sourceId": "wolfswinkel-pro19gcv-parts-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-parts-index-bracket-candidate",
+      "statement": "Wolfswinkels Pro 19 GCV-reservdelsindex innehåller även artikelnummer 502871902, 503259401 och 504460501; detta är ett separat sekundärt katalogspår för knivfäste och infästningskomponenter, inte bevisad originalposition eller kompatibilitet över modellår.",
+      "variant": "KLIPPO Pro 19 GCV, odaterad reservdelsöversikt",
+      "locator": "Vollständiges produkt, sista delen av produktnummerlistan",
+      "sourceId": "wolfswinkel-pro19gcv-parts-index",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -211,6 +236,7 @@
     "Knyt servicedata till separat Honda GCV135 originalserviceanvisning.",
     "Sök original IPL för Pro 19 GCV med artikelnummer 965229001/K06730 och fastställ kniv och knivfäste efter serienummer.",
     "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll.",
-    "Pro 19 S GCV har egen drivrem-/mellanremsdokumentation, men original IPL för odrivna Pro 19 GCV 965229001 måste fortsatt kontrolleras för knivsystem."
+    "Pro 19 S GCV har egen drivrem-/mellanremsdokumentation, men original IPL för odrivna Pro 19 GCV 965229001 måste fortsatt kontrolleras för knivsystem.",
+    "Wolfswinkels Pro 19 GCV-index listar kandidaterna 502978001, 503272701 och 502871902, men det krävs original-IPL med positionsnummer och giltigt serienummerintervall innan definitiv reservdelskoppling."
   ]
 }
