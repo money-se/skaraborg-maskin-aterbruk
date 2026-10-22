@@ -276,6 +276,8 @@
 
     .areas{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
     .area{
+      display:inline-block;
+      text-decoration:none;
       padding:8px 12px;
       border-radius:999px;
       background:var(--brand-soft);
@@ -284,6 +286,8 @@
       font-size:.9rem;
       font-weight:750;
     }
+
+    .area:hover,.area:focus-visible{text-decoration:underline;outline:2px solid var(--brand);outline-offset:2px}
 
     .faq-list{display:grid;gap:12px;margin-top:30px}
     .faq-list details{
@@ -524,15 +528,15 @@
           varierar beroende på maskin och avstånd.
         </p>
         <div class="areas" aria-label="Exempel på orter">
-          <span class="area">Hjo</span>
-          <span class="area">Skövde</span>
-          <span class="area">Tibro</span>
-          <span class="area">Karlsborg</span>
-          <span class="area">Tidaholm</span>
-          <span class="area">Falköping</span>
-          <span class="area">Skara</span>
-          <span class="area">Mariestad</span>
-          <span class="area">Töreboda</span>
+          <a class="area" href="hjo.html">Hjo</a>
+          <a class="area" href="skovde.html">Skövde</a>
+          <a class="area" href="tibro.html">Tibro</a>
+          <a class="area" href="karlsborg.html">Karlsborg</a>
+          <a class="area" href="tidaholm.html">Tidaholm</a>
+          <a class="area" href="falkoping.html">Falköping</a>
+          <a class="area" href="skara.html">Skara</a>
+          <a class="area" href="mariestad.html">Mariestad</a>
+          <a class="area" href="toreboda.html">Töreboda</a>
           <span class="area">Skaraborg med omnejd</span>
         </div>
       </div>
