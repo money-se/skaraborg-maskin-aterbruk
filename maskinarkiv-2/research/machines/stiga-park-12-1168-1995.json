@@ -11,6 +11,13 @@
       "title": "STIGA PARK 12 original reservdelskatalog",
       "document": "13-1168-18 Season 1995, Issue 44 - 2014",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1168-18_94_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-park12-1168-1996-ipl-crosscheck",
+      "tier": 1,
+      "title": "STIGA Park 12 13-1168-19 original reservdelskatalog",
+      "document": "Season 1996, Issue 41-2014, transmission and PTO",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1168-19_95_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -314,6 +321,69 @@
       "grade": "A",
       "sourceId": "stiga-park12-1168-1995-ipl",
       "locator": "PDF s.23 pos.60,63"
+    },
+    {
+      "id": "p12-95-cross-serial-1996-cross",
+      "topic": "D",
+      "statement": "STIGA:s separata säsong 1996-katalog 13-1168-19 anger vid transmissionens pos.18 1134-3278-01 / Peerless 930-022 till och med -960401 och 1134-3716-01 från 960402-. Därmed återkommer serienummergränsen i katalogutgåvor för både Season 1995 och 1996, men eftersom dessa exemplar trycktes/reviderades 2014 bestäms inte produktionsändringens kalenderdatum genom katalogernas säsongstitlar.",
+      "variant": "Korsbelägg från separat STIGA-original 13-1168-19 Season 1996; inte ett originalmonteringsintyg för 1995-individ",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1996-ipl-crosscheck",
+      "locator": "PDF s.11 pos.18, Issue 41–2014; jämför 1995 Issue 44–2014 pos.18"
+    },
+    {
+      "id": "p12-95-cross-fixing-1996",
+      "topic": "K",
+      "statement": "1996-katalogen har vid pos.20 fyra skruvar 9997-0865-12 och vid pos.21 ett fäste 1134-2986-01. Delarna är gemensamt katalogiserade kring båda transaxelalternativen på pos.18, men detta är inte en tillverkaranvisning för byte mellan kompletta transaxlar.",
+      "variant": "Korsbelägg från separat STIGA-original 13-1168-19 Season 1996; inte ett originalmonteringsintyg för 1995-individ",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1996-ipl-crosscheck",
+      "locator": "PDF s.11 pos.18–21"
+    },
+    {
+      "id": "p12-95-cross-1996-engine-contrast",
+      "topic": "C",
+      "statement": "1996 års Park 12 13-1168-19 originalkatalog listar avgasrör 1134-2013-02 (pos.4) och ljuddämpare 1134-3243-01 (pos.9) i maskinens motorinstallationsdel. Detta är maskinbundna externa delar, inte motorns Model/Type/Code.",
+      "variant": "Korsbelägg från separat STIGA-original 13-1168-19 Season 1996; inte ett originalmonteringsintyg för 1995-individ",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1996-ipl-crosscheck",
+      "locator": "PDF s.3 pos.4,9"
+    },
+    {
+      "id": "p12-95-cross-1996-fuelline-length",
+      "topic": "C",
+      "statement": "1996 års Park 12-katalog anger bränsleslang 1134-2975-06 med noteringen L=305 mm samt bensinkran 1134-3224-01 på pos.44 respektive 42. Längden är katalogtext för 1996-varianten, inte automatisk passform på andra maskiner.",
+      "variant": "Korsbelägg från separat STIGA-original 13-1168-19 Season 1996; inte ett originalmonteringsintyg för 1995-individ",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1996-ipl-crosscheck",
+      "locator": "PDF s.3 pos.42–44"
+    },
+    {
+      "id": "p12-95-cross-1996-pto-variant",
+      "topic": "F",
+      "statement": "I 1996-katalogens PTO-grupp skiljs reglagespaken 1134-0027-01 med anteckning 1168,1358,1458 från 1134-1396-02 med anteckning 1442,1443,1446, båda pos.8. Detta är direkta variantvillkor och motbevisar slutsatser enbart från gemensam sprängskissposition.",
+      "variant": "Korsbelägg från separat STIGA-original 13-1168-19 Season 1996; inte ett originalmonteringsintyg för 1995-individ",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1996-ipl-crosscheck",
+      "locator": "PDF s.5 pos.8"
+    },
+    {
+      "id": "p12-95-cross-1996-pto-guards",
+      "topic": "G",
+      "statement": "1996-katalogens PTO-grupp listar fingerskydd 1134-3654-01 vid pos.60 med anteckning 1168,1358,1458 och remstyrning 1134-2381-01 vid pos.63. Den anger reservdelar men ingen verifierad säkerhetsprovmetod.",
+      "variant": "Korsbelägg från separat STIGA-original 13-1168-19 Season 1996; inte ett originalmonteringsintyg för 1995-individ",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1996-ipl-crosscheck",
+      "locator": "PDF s.5 pos.60,63"
+    },
+    {
+      "id": "p12-95-cross-1996-vbelt-common",
+      "topic": "D",
+      "statement": "Drivrem 1134-9035-01 med historisk kod 9585-0078-00 och transaxelremskiva 1134-1849-01 återkommer i 1996 års transmissionstabell, på pos.10 respektive 15, trots två skilda kompletta transaxelrader på pos.18. Gemensamma delar visar inte att enheterna kan bytas.",
+      "variant": "Korsbelägg från separat STIGA-original 13-1168-19 Season 1996; inte ett originalmonteringsintyg för 1995-individ",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1996-ipl-crosscheck",
+      "locator": "PDF s.11 pos.10,15,18"
     }
   ],
   "gaps": [
@@ -323,6 +393,7 @@
     "Kontrollera ägar-/verkstadshandbok för säkerhetsprov, elschema och modellbunden service.",
     "Tillämpning av senare 1134-3716-01 på 1995-maskiner måste utredas via individmärkskylt och revisionshistorik.",
     "Original-PDF:s ritningar kunde inte visuellt kontrolleras med webbscreenshot (cache miss 2026-10-22); katalogens texttabeller är belästa.",
-    "Förekomst av 930-022 och 1134-3716-01 i samma reviderade 1995-katalog får inte användas som reparations- eller utbytesinstruktion utan serienummer, transaxelmärkning och tillverkarens verifierade monteringsunderlag."
+    "Förekomst av 930-022 och 1134-3716-01 i samma reviderade 1995-katalog får inte användas som reparations- eller utbytesinstruktion utan serienummer, transaxelmärkning och tillverkarens verifierade monteringsunderlag.",
+    "1995- och 1996-kataloger i 2014-utgåvor upprepar transaxelgräns 960401/960402; hitta daterad produktionsbulletin eller fabriksrevision innan gränsen tillskrivs visst kalenderår eller byte godkänns."
   ]
 }
