@@ -473,6 +473,69 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-charge-pump-orientation-code",
+      "statement": "Laddpumpens monteringsriktning skiljer sig med modellkodens tredje tecken. Figur 24 avbildar separata varianter för L, K, P, N, G och H. Delarna får inte monteras efter en allmän ZT-3100-bild utan korrekt BOM-kod.",
+      "variant": "BLN-52441 P25, Z*-L/K/P/N/G/H*** modellkodsmönster",
+      "locator": "Tryckt sida 30, Figure 24 Charge Pump Orientation, PDF-sida 32 (index 31)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-charge-pump-parts",
+      "statement": "Laddpumpens demonteringsbild visar anslutningsrör position 130, läpptätning 157, gerotor 131, O-ring 132, lock 133 och sexkantsskruvar 134. Positionsnummer är inte beställningsnummer.",
+      "variant": "BLN-52441 P25, ZT-2800/ZT-3100/ZT-3200 charge-pump-utföranden",
+      "locator": "Tryckt sida 29, Figure 23a Charge Pump, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-charge-pump-mark-cover",
+      "statement": "Hydro-Gear anger att laddpumpslockets riktning relativt växelhuset ska märkas före demontering och återställas mot samma markering vid montering.",
+      "variant": "BLN-52441 P25, laddpumpens kåpa",
+      "locator": "Tryckt sida 29, Charge Pump Disassembly punkt 1 och Assembly punkt 2 samt Figure 23, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-pump-replace-seals",
+      "statement": "Hydro-Gear anger att O-ring position 132 ska ersättas vid återmontering. Anslutningsrör position 130 och läpptätning position 157 ska ersättas om de tagits bort.",
+      "variant": "BLN-52441 P25, laddpump demonterad",
+      "locator": "Tryckt sida 29, Charge Pump Assembly NOTE, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-pump-conditional-removal",
+      "statement": "Anslutningsrör position 130 och läpptätning position 157 ska enligt manualen endast tas bort i samband med att mittsektionen avlägsnas.",
+      "variant": "BLN-52441 P25, laddpump och center section",
+      "locator": "Tryckt sida 29, Charge Pump Disassembly punkt 2, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-input-shaft-seal-discard",
+      "statement": "Manualens ingående axel-avsnitt anger låsring position 57, läpptätning 56, bricka 55, axel 52, lager 53 och låsring 54. Läpptätning 56 ska kasseras vid demontering.",
+      "variant": "BLN-52441 P25, Input Shaft",
+      "locator": "Tryckt sida 31, Figure 25 Input Shaft och Disassembly punkt 2–5, PDF-sida 33 (index 32)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-input-shaft-bearing-inspection",
+      "statement": "Lagret på ingående pumpaxeln ska enligt Hydro-Gear bara demonteras om det är slitet eller skadat; lager och axelns splines ska kontrolleras.",
+      "variant": "BLN-52441 P25, Input Shaft",
+      "locator": "Tryckt sida 31, Disassembly NOTE och Inspection, PDF-sida 33 (index 32)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -487,6 +550,7 @@
     "P25 tryckt sida 11 har inkonsekvent momentvärde för top-port-plugg: 120 in-lb anges ihop med 20,3 Nm, men korrekt omräkning är cirka 13,56 Nm. Inhämta tillverkarförtydligande före verkstadstillämpning.",
     "Slå upp ytterligare faktiska kitartikelnummer i Hydro-Gears modellkodstyrda online service schematics innan 200/201/202/203/207/210/211/212/215 rekommenderas.",
     "Felsökningsmatrisen är generisk: innan åtgärd på en konkret klippare krävs OEM:s däcktrycks-, reglage- och säkerhetsinstruktioner.",
-    "RTN- och bromsjusteringar är variant- och säkerhetskritiska. Samla OEM-specifika reglage-, broms- och säkerhetsrutiner innan någon publik steg-för-steg-instruktion skapas."
+    "RTN- och bromsjusteringar är variant- och säkerhetskritiska. Samla OEM-specifika reglage-, broms- och säkerhetsrutiner innan någon publik steg-för-steg-instruktion skapas.",
+    "Slå upp modellkodskombinationerna för laddpumpens kåpor och laddpumps-kit i tillverkarens BOM-styrda sprängskiss innan reservdelar beställs; figur 24 ger riktning, inte ordernummer."
   ]
 }
