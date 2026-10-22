@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "slug": "mtd-13bh670f062",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Första MTD-forskningspaketet: officiellt verifierad fabrikmodellidentitet och identifierings-/felsökningsprinciper. Ingen annan konstruktion, motor, transmission eller reservdel antas tillhöra 13BH670F062 utan separat belägg.",
+  "sources": [
+    {
+      "id": "mtd-model-number-formats",
+      "tier": 1,
+      "title": "MTD Model Number Formats",
+      "document": "MTD support article 000036584 (2025-06-05)",
+      "url": "https://support.mtdproducts.com/s/article/9924-1"
+    },
+    {
+      "id": "mtd-model-number-examples",
+      "tier": 1,
+      "title": "MTD Model & Serial Number Example",
+      "document": "MTD support article 000034810",
+      "url": "https://support.mtdproducts.com/articles/en_US/FAQ/253-1"
+    },
+    {
+      "id": "mtd-serial-tag-location",
+      "tier": 1,
+      "title": "MTD Model & Serial Number Tag Location",
+      "document": "MTD support article 000036101",
+      "url": "https://support.mtdproducts.com/articles/en_US/FAQ/28-1"
+    },
+    {
+      "id": "mtd-unidentified-model",
+      "tier": 1,
+      "title": "MTD Unable to Identify Model Number or Serial Number",
+      "document": "MTD support article 000035390",
+      "url": "https://support.mtdproducts.com/articles/en_US/FAQ/155-1"
+    },
+    {
+      "id": "mtd-uphill-troubleshooting",
+      "tier": 1,
+      "title": "MTD Reduced Uphill Ground Speed - Riding Mower",
+      "document": "MTD support article 000035647 (2025-06-05)",
+      "url": "https://support.mtdproducts.com/s/article/458-1"
+    },
+    {
+      "id": "mtd-parts-lookup",
+      "tier": 1,
+      "title": "MTD Parts Online - Part Search",
+      "document": "MTD PartsOnline manufacturer catalog entry",
+      "url": "https://apps.mtdproducts.com/PartsOnline/partSearch.do"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "MTD anger 13BH670F062 som exempel på fabrikens MTD Rider-modellnummer; årsmodell, serienummerspann och konkret maskinexemplar är ännu inte verifierade."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Konstruktion, chassi och modellens utförande saknar versionsbundet underlag."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Motortillverkare, fullständigt motor-ID och motorservice saknar modellbunden originalkälla."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Växellådans fabrikat, utväxling, växeltyp och komponent-ID måste knytas till exakt maskin-ID."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Chassi-, hjul- och styrkomponenter saknar variantbunden partslista."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Reglagetyper och funktioner måste verifieras mot rätt operatörsmanual."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Klippbredd, knivar, aggregat och uppsamlaralternativ är inte verifierade."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Godkända tillbehör och användningsgränser saknar modellbunden källa."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Byte och intervall för vätskor, remmar och smörjpunkter måste härledas från rätt modell- och motormanual."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Reservdelsnummer och sprängskisser måste hämtas efter bekräftat fabriksmaskinnummer."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Begagnatkontroller kan kompletteras när modellens exakta komponenter är kända."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Felsökningens generiska tillverkarråd är dokumenterade men modellens reparationsinstruktioner återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "mtd-factory-model-example",
+      "statement": "MTD anger 13BH670F062 som ett exempel på sitt fabrikstilldelade modellnummer för åkgräsklippare (Rider).",
+      "variant": "MTD fabriksmodell 13BH670F062, maskinversion och årsmodell ännu ej fastställda",
+      "grade": "A",
+      "sourceId": "mtd-model-number-formats",
+      "locator": "Model Number Formats, tabell Brand / Rider / Walk Behind, rad MTD",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-rider-category-prefix",
+      "statement": "I MTD:s egen nummersystemguide anger prefix 13 kategorin Riding Lawn Tractor; prefix 14 används för Riding Garden Tractor och 17 för Residential Zero-Turn.",
+      "variant": "MTD:s generella fabrikskodsystem, inte en specifik komponent hos 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-model-number-examples",
+      "locator": "PRODUCT CATEGORY MODEL NUMBER PREFIX, raderna 13, 14, 17",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-factory-vs-retail",
+      "statement": "MTD instruerar att fabrikens modellnummer ska användas vid sökning efter reservdelar.",
+      "variant": "MTD fabrikmodellnummer, inkluderar 13BH670F062 som exempel",
+      "grade": "A",
+      "sourceId": "mtd-model-number-formats",
+      "locator": "Ingressen direkt ovanför modellnummertabellen",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-tag-seat",
+      "statement": "MTD uppger att identifikationsetiketten för åkgräsklippare vanligen finns på undersidan av sätet och att placeringen kan variera mellan konstruktioner.",
+      "variant": "MTD Riding Mowers generellt; placeringen på 13BH670F062 inte individuellt kontrollerad",
+      "grade": "A",
+      "sourceId": "mtd-serial-tag-location",
+      "locator": "Locations of ID tag per equipment type: Riding Mowers",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-missing-tag-data",
+      "statement": "MTD begär bland annat motorns tillverkare och kod, växellådans typ, antal hastigheter samt klippdäckets bredd och knivantal vid efterforskning av en åkgräsklippare utan läsbar identifikationsskylt.",
+      "variant": "MTD Riding Mowers generellt, identifieringsmetod vid saknad märkning",
+      "grade": "A",
+      "sourceId": "mtd-unidentified-model",
+      "locator": "Riding Mowers, frågor 1–15",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-serial-recovery-limitation",
+      "statement": "MTD uppger att fabrikens produktmodell kan återidentifieras ur äldre tillverkningsuppgifter i vissa fall, men att maskinens individuella serienummer inte kan återskapas på samma sätt.",
+      "variant": "MTD utrustning med saknad eller oläslig produktetikett",
+      "grade": "A",
+      "sourceId": "mtd-unidentified-model",
+      "locator": "Solution, inledning och stycket NOTE",
+      "topic": "A"
+    },
+    {
+      "id": "mtd-uphill-belt-check",
+      "statement": "MTD:s allmänna felsökningsanvisning vid onormalt låg hastighet i uppförsbacke är att kontrollera transaxelns drivrem för slitage eller blank/glaserad yta och därefter remspännare och spännfjäder.",
+      "variant": "MTD åkgräsklippare generellt; inte verifierat tillämpligt på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-uphill-troubleshooting",
+      "locator": "Solution, stycke 1–3",
+      "topic": "M"
+    },
+    {
+      "id": "mtd-hydrostatic-only",
+      "statement": "MTD:s separata anmärkning om justering eller byte av friktionsbrickor vid återgång mot neutralläge gäller enbart vissa hydrostatiska modeller, och kräver modellbunden instruktion med rätt spänning.",
+      "variant": "MTD HYDROSTATIC TRANSMISSION MODELS ONLY; 13BH670F062 ej fastställd som hydrostat",
+      "grade": "A",
+      "sourceId": "mtd-uphill-troubleshooting",
+      "locator": "Solution, avsnitt HYDROSTATIC TRANSMISSION MODELS ONLY",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-manufacturer-parts-search",
+      "statement": "MTD tillhandahåller en egen PartsOnline-sökfunktion med fält för bland annat artikelnummer och artikelbeskrivning.",
+      "variant": "MTD:s reservdelssystem, ännu ej bindning till en särskild del för 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-parts-lookup",
+      "locator": "Part Search-formulär, Part Number / Part Description",
+      "topic": "K"
+    }
+  ],
+  "gaps": [
+    "Hitta rätt MTD-operatörsmanual och IPL direkt för 13BH670F062; generella MTD-manualer får inte automatiskt knytas till modellen.",
+    "Bekräfta årsmodell, marknad, serienummerspann och eventuell revision för 13BH670F062.",
+    "Verifiera komplett motormärkning, motormanual och serviceintervall per utförande.",
+    "Verifiera transmissionens fabrikat/modell, drivremmens artikelnummer och servicegränser från originalhandlingar.",
+    "Verifiera klippaggregatets bredd, knivnummer, remmar, sprängskisser, broms- och elsystem.",
+    "Utred europeiska MTD-utföranden med egna fabrikskoder innan utvidgning till fler maskiner."
+  ]
+}
