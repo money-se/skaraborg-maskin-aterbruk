@@ -321,6 +321,69 @@
       "grade": "A",
       "sourceId": "peerless-motion-drive-691218",
       "locator": "Kapitel 1, Lubrication Chart, PDF sida 9 (tryckt s.7)"
+    },
+    {
+      "id": "p12-1258-93-peerless-first-diagnose-outside",
+      "topic": "L",
+      "statement": "Peerless 691218 kräver att rem, broms, koppling, växellänkage och remskivor kontrolleras innan fel lokaliseras till transaxelns inre.",
+      "variant": "Peerless 800/801-familj, originalverkstadshandbok 691218. Kontrollera 846-märkning och aktuell internutförande före praktisk åtgärd.",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 1, felsökning, PDF s. 11, tryckt s. 10"
+    },
+    {
+      "id": "p12-1258-93-peerless-declutch-before-shift",
+      "topic": "F",
+      "statement": "För 800/801-serien varnar Peerless att kopplingen måste frikopplas vid byte neutral till ettan/back, framåt till back och back till framåt, särskilt på sluttningar eller vid tung belastning.",
+      "variant": "Peerless 800/801-familj, originalverkstadshandbok 691218. Kontrollera 846-märkning och aktuell internutförande före praktisk åtgärd.",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 3, avsnitt 3, PDF s. 29, tryckt s. 28"
+    },
+    {
+      "id": "p12-1258-93-peerless-tag-and-neutral",
+      "topic": "D",
+      "statement": "Peerless 800/801-servicetext anger modellbricka i position A eller B samt att växelreglaget läggs i neutral före demontering. Detta är serieanvisning, inte visuell verifiering av varje 846.",
+      "variant": "Peerless 800/801-familj, originalverkstadshandbok 691218. Kontrollera 846-märkning och aktuell internutförande före praktisk åtgärd.",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 3, avsnitt 3 B–C, PDF s. 29, tryckt s. 28"
+    },
+    {
+      "id": "p12-1258-93-peerless-square-seals",
+      "topic": "K",
+      "statement": "Peerless 800/801-verkstadskapitel säger att de fyrkantskurna O-ringstätningarna på mellanaxeln ska bytas när de avlägsnas; bromsaxelns tätningar har andra dimensioner.",
+      "variant": "Peerless 800/801-familj, originalverkstadshandbok 691218. Kontrollera 846-märkning och aktuell internutförande före praktisk åtgärd.",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 3, avsnitt 3 D, PDF s. 30, tryckt s. 29, punkt 5"
+    },
+    {
+      "id": "p12-1258-93-peerless-bearing-versions",
+      "topic": "K",
+      "statement": "Peerless beskriver fyra axellagerversioner A–D i 800-serien: äldre nållager A, version B, C med fyrkantiga O-ringar på ömse sidor och tätat kullager D. Endast B, C och D uppges utbytbara.",
+      "variant": "Peerless 800/801-familj, originalverkstadshandbok 691218. Kontrollera 846-märkning och aktuell internutförande före praktisk åtgärd.",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 3, avsnitt 3 E, PDF s. 31, tryckt s. 30"
+    },
+    {
+      "id": "p12-1258-93-peerless-grease-separation",
+      "topic": "J",
+      "statement": "För 800/801-seriens återmontering föreskriver Peerless bentonitfett 788067B på axlar och kugghjul, men säger särskilt att nållagren ska packas med fett och att bentonitfett inte ska användas i lagren.",
+      "variant": "Peerless 800/801-familj, originalverkstadshandbok 691218. Kontrollera 846-märkning och aktuell internutförande före praktisk åtgärd.",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 3, avsnitt 3 E punkt 1 samt lageranmärkning, PDF s. 31, tryckt s. 30"
+    },
+    {
+      "id": "p12-1258-93-peerless-key-count",
+      "topic": "K",
+      "statement": "Vid reparation av 800/801-växelaxeln instruerar Peerless att behålla samma antal växelnycklar som demonterats, även om nya reservdelsskaft har fler kilspår.",
+      "variant": "Peerless 800/801-familj, originalverkstadshandbok 691218. Kontrollera 846-märkning och aktuell internutförande före praktisk åtgärd.",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 3, avsnitt 3 E punkt 2, PDF s. 31, tryckt s. 30"
     }
   ],
   "gaps": [
@@ -331,6 +394,7 @@
     "Verifiera säkerhetskretsarnas funktion samt elschema separat från reservdelslistan.",
     "STIGA-original-PDF kan textgranskas men PDF-skärmbilder returnerade fel vid granskningen 2026-10-22; figurkontroll återstår.",
     "STIGA 846-reservdelsposten anger Bentonite grease 0,9 kg; en servicemanual krävs för metod, eventuella påfyllnadsgränser och byte.",
-    "Jämför STIGA 0,9 kg Bentonite grease-pos 90 med Peerless allmänna 800-seriens 30 oz/887 ml; dokumentera eventuell skillnad i netto/brutto och monteringsläge innan exakt påfyllnadsmängd anges."
+    "Jämför STIGA 0,9 kg Bentonite grease-pos 90 med Peerless allmänna 800-seriens 30 oz/887 ml; dokumentera eventuell skillnad i netto/brutto och monteringsläge innan exakt påfyllnadsmängd anges.",
+    "Verkstadsmanualens 800/801-procedurer är generiska; koppla lagerutförande A–D och O-ringstätningars dimensioner till exakt Peerless 846-serienummer före reservdelsbeställning."
   ]
 }
