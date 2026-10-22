@@ -53,6 +53,13 @@
       "title": "Wolfswinkel parts drawings Champion 965223902 June 2012",
       "document": "Klippo Champion 965223902, 2012-06, chassis / handle / motor sections, position-specific parts list",
       "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/schubm%C3%A4her/meister/meister-965223902-2012-06"
+    },
+    {
+      "id": "retailer-handlebar-503284301-crossyear",
+      "tier": 2,
+      "title": "ReservdelarOnline: underdel styrhandtag 5032843-01 cross-model fitment",
+      "document": "Klippo 5032843-01; seller cross-reference table 2009–2016",
+      "url": "https://www.reservdelaronline.se/produkter/underdel-styrhandtag-champion-excellent-5032843-01"
     }
   ],
   "topics": {
@@ -424,6 +431,60 @@
       "sourceId": "wolfswinkel-champion-2012-965223902",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "champion-lower-handle-2009",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 9652239-01 2009-12. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 9652239-01 2009-12",
+      "locator": "Produktinformation > Passar till > Champion 9652239-01 2009-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-2012",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 965223902 2012-06. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 965223902 2012-06",
+      "locator": "Produktinformation > Passar till > Champion 965223902 2012-06",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-2013",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 965223902 2013-01. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 965223902 2013-01",
+      "locator": "Produktinformation > Passar till > Champion 965223902 2013-01",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-2015",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 967607501 2015-12. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 967607501 2015-12",
+      "locator": "Produktinformation > Passar till > Champion 967607501 2015-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-s-lower-handle-2016",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion S 967633901 2016-01. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion S 967633901 2016-01",
+      "locator": "Produktinformation > Passar till > Champion S 967633901 2016-01",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-legacy-supersessions",
+      "statement": "Återförsäljaren anger att underdel styrhandtag 5032843-01 ersätter äldre Klippo-nummer 1130, 1102, 11.02-9 och 11.02. Äldre korsnummer kräver kontroll mot originaldokument för enskilt serienummer.",
+      "variant": "Klippo underhandtag 48 cm/19 tum, säljarens ersättningslista",
+      "locator": "Produktinformation > Ersätter äldre Klippo artikelnummer 1130 samt 1102, 11.02-9, 11.02",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -435,6 +496,7 @@
     "Jämför den äldre koden K02310 och senare artikelnummer 965 22 39-02 i IPL innan eventuell delkompatibilitet påstås.",
     "Läs original-IPL:s PDF-sida 2 visuellt för exakt positionsnummer till kniv och knivfäste; sidans textfont är felläst vid maskinell extraktion och PDF-skärmbild misslyckades.",
     "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
-    "Champion 965223902 2012-06 visar två separata knivfästespositioner 7 och 8 (579228401 respektive 503259901) samt motorangivelse med katalogtext TBD; utred om det är alternativ/reservdelsrevisioner, inte två obligatoriska fästen."
+    "Champion 965223902 2012-06 visar två separata knivfästespositioner 7 och 8 (579228401 respektive 503259901) samt motorangivelse med katalogtext TBD; utred om det är alternativ/reservdelsrevisioner, inte två obligatoriska fästen.",
+    "Kontrollera om 5032843-01 behåller samma dimensioner och fästhål för samtliga angivna Champion-årgångar; återförsäljarens passformslista är inte original-IPL."
   ]
 }
