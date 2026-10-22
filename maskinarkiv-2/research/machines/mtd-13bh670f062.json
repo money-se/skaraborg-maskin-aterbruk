@@ -130,6 +130,20 @@
       "title": "MTD Model & Serial Number Example",
       "document": "MTD support article 000034810, factory serial and model code examples",
       "url": "https://support.mtdproducts.com/articles/en_US/FAQ/253-1"
+    },
+    {
+      "id": "mtd-2000-xref-independent-mirror",
+      "tier": 2,
+      "title": "MTD 2000 Customer Cross Reference Book, independent PDF mirror",
+      "document": "770-2000XREF.2, 67 PDF pages, Lowes 062 printed page 27 (PDF index 26)",
+      "url": "https://www.barrettsmallengine.net/mtd/partslist/MTD_2000_XREF.pdf"
+    },
+    {
+      "id": "motoruf-b155-2000-gearbox",
+      "tier": 2,
+      "title": "MTD B 155 13AP678G678 (2000) Gearbox spare parts",
+      "document": "B 155 13AP678G678 2000 exploded gearbox, related components",
+      "url": "https://www.motoruf.com/n/partslists.html?from_desktop=1&id=553082&version=1"
     }
   ],
   "topics": {
@@ -147,7 +161,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden. Sidofynd: MTD B 155 13AP678G678 använder också husdel 719-0367; det ger en korsmodellrelation för komponenten, inte bevis för samma växellådsenhet."
     },
     "E": {
       "state": "gap",
@@ -163,7 +177,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår."
     },
     "I": {
       "state": "gap",
@@ -798,6 +812,24 @@
       "variant": "MTD 13BH670F062, eReplacementParts-katalog år 2000; maskinens serienummer ej identifierat",
       "grade": "B",
       "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-xref-independent-mirror-row",
+      "topic": "H",
+      "statement": "En separat publicerad PDF-kopia av MTD 2000 Customer Cross Reference Book återger exakt modellrad 13BH670F062 under Lowes 062 med 42-tums Deck G. Detta verifierar dokumentets textuppgift från ytterligare en källa, men den visuella PDF-skärmbilden kunde inte hämtas.",
+      "variant": "MTD 13BH670F062, Lowes 062, 2000 Customer Cross Reference",
+      "grade": "B",
+      "sourceId": "mtd-2000-xref-independent-mirror",
+      "locator": "PDF index 26, printed page 27, row 13BH670F062; source text lines 2347–2361"
+    },
+    {
+      "id": "mtd-crossmodel-gearbox-parts-not-fitment",
+      "topic": "D",
+      "statement": "En separat MTD B 155-modell, 13AP678G678 (2000), har en katalogiserad växellådsdel 719-0367 (housing half), som även förekommer i MTD 13BH670F062:s 2000-reservdelslista. Gemensamt delnummer utgör en komponentrelation, men bevisar inte att de kompletta växellådorna är identiska eller utbytbara.",
+      "variant": "Sidofynd: MTD B 155 13AP678G678 (2000) jämfört med 13BH670F062 (2000), endast artikelnummer 719-0367",
+      "grade": "B",
+      "sourceId": "motoruf-b155-2000-gearbox",
+      "locator": "Gearbox parts table, position 5, HOUSING HALF 719-0367"
     }
   ],
   "gaps": [
@@ -824,6 +856,7 @@
     "Identifiera transmissionshuset och tillverkarens interna dokument innan 2000-katalogens drev 917-1362/1363 och tätning 921-0338 används som reparationsunderlag.",
     "Kontrollera faktisk remskivekonfiguration innan villkorade 656-0005 eller alternativa pivotaxlar 683-0128A/719-0342A anges som kompatibla med ett konkret serienummer.",
     "Originalkorsreferens MTD 2000 gav HTTP 403 vid sidöppning trots läsbar indexerad modellrad. Verifiera sida i nedladdad original-PDF och motorns faktiska Model/Type/Code före A-klassificering.",
-    "Bekräfta 2000-katalogens bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705 i rätt originalsprängskiss samt mot aktuellt serienummerspann."
+    "Bekräfta 2000-katalogens bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705 i rätt originalsprängskiss samt mot aktuellt serienummerspann.",
+    "Kontrollera sidbilden i original-/spegel-PDF 770-2000XREF.2 på PDF index 26 när nedladdning fungerar; texten stödjer 42 tum Deck G, medan modellens samlade IPL visar 38 tum Deck F."
   ]
 }
