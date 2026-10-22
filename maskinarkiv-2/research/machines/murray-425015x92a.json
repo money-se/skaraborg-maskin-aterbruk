@@ -60,6 +60,41 @@
       "title": "Murray 425015X92A electrical system original manual transcription",
       "document": "F-040734L, electrical system printed page 49",
       "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/49"
+    },
+    {
+      "id": "murray-015a-service-shifter-p24",
+      "tier": 2,
+      "title": "F-040734L shift lever neutral procedure",
+      "document": "F-040734L maintenance pages",
+      "url": "https://www.manualsdir.com/manuals/117580/murray-425015x92a.html?page=24"
+    },
+    {
+      "id": "murray-015a-service-gauge-p27",
+      "tier": 2,
+      "title": "F-040734L gauge wheel adjustment",
+      "document": "F-040734L maintenance pages",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=27"
+    },
+    {
+      "id": "murray-015a-service-level-p28",
+      "tier": 2,
+      "title": "F-040734L mower leveling and tire pressure",
+      "document": "F-040734L maintenance pages",
+      "url": "https://www.manualsdir.com/manuals/117580/murray-425015x92a.html?page=28"
+    },
+    {
+      "id": "murray-015a-service-blade-p22",
+      "tier": 2,
+      "title": "F-040734L blade rotation adjustment",
+      "document": "F-040734L maintenance pages",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=22"
+    },
+    {
+      "id": "murray-015a-service-operation-p19",
+      "tier": 2,
+      "title": "F-040734L operating and upkeep tips",
+      "document": "F-040734L maintenance pages",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=19"
     }
   ],
   "topics": {
@@ -111,7 +146,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Manualen hänvisar till motorleverantörens instruktioner för olje- och bränsletyp. Fullständig Briggs Model/Type/Code krävs innan individuell oljemängd eller intervall anges."
+      "note": "F-040734L s.19,22,24,27,28 anger särskilda service- och justeringsrutiner: växellänkagets neutralläge, däcknivå/14 PSI, stödhjul 1/2/3-6 och justering av knivdrivfjäder. Följ originalsäkerhetssteg i full manual."
     },
     "K": {
       "name": "Reservdelar",
@@ -787,6 +822,226 @@
       "sourceId": "murray-015a-html-drive",
       "grade": "B",
       "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-mismatch",
+      "statement": "Om växelspakens NEUTRAL inte motsvarar växellådans neutralläge ska växelspaken justeras.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-stop",
+      "statement": "Stanna motorn innan neutraljusteringen utförs.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 1",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-detach",
+      "statement": "Lossa justermuttern från växelfästet vid neutraljustering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 2",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-shift",
+      "statement": "Placera växelspaken i läget NEUTRAL.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 3",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-roll",
+      "statement": "Skjut maskinen framåt och säkerställ att växellådan står i neutralläge.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 4",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-adjust",
+      "statement": "Vrid justermuttern tills den ligger i linje med hålet i växelfästet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 5",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-reconnect",
+      "statement": "Anslut justermuttern till växelfästet och kontrollera neutralläget.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 steps 6-7",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-before",
+      "statement": "Före justering av stödhjulen ska klippaggregatet vara vågrätt och önskad klipphöjd vald.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-test",
+      "statement": "Provklipp kort sträcka på plan mark för att bedöma klipphöjd och resultat.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27 step 2",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-holes",
+      "statement": "Stödhjulens fästen har tre höjdinställningshål vardera.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27 fig.26",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-settings",
+      "statement": "Hålnummer 1 används för lyftspaksläge 1, hålnummer 2 för läge 2, och hålnummer 3 för lägen 3–6.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27 fig.26",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-level-flat",
+      "statement": "Maskinen ska stå på hårt och plant underlag vid kontroll av aggregatets nivå.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.28 step 1",
+      "sourceId": "murray-015a-service-level-p28",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-level-psi",
+      "statement": "Vid nivåkontroll anges däcktryck 14 PSI (1 bar).",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.28 step 2",
+      "sourceId": "murray-015a-service-level-p28",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-level-wheels",
+      "statement": "På maskin med stödhjul ska stödhjulen tas bort för korrekt nivåjustering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.28 IMPORTANT",
+      "sourceId": "murray-015a-service-level-p28",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-blade-fast",
+      "statement": "Vid arbete med blade rotation control anger handboken FAST-läget på gasreglaget som utgångsläge vid klippning.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.22 step 1",
+      "sourceId": "murray-015a-service-blade-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-blade-middle-hole",
+      "statement": "Om klippresultatet blir sämre anger manualen att knivdrivfjädern kan flyttas till mittenhålet för högre remspänning efter säker frånkoppling.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.22 step 5",
+      "sourceId": "murray-015a-service-blade-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-start-spark",
+      "statement": "Om motorn inte startar rekommenderas först kontroll av att tändstiftskabeln är ansluten.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 3",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-battery-3months",
+      "statement": "För elstartmodeller rekommenderas batteriladdning var tredje månad.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 6",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-speed-shift",
+      "statement": "Markhastighet ska ändras med växelspaken, inte gasreglaget.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 7",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-belt-guide",
+      "statement": "Kontrollera att alla remmar ligger inne i sina remstyrningar.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 4",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
