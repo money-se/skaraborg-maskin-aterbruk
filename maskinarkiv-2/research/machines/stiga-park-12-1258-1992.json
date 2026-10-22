@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1258-1992",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA Park 12 13-1258-15 [1992], endast modellbunden DIY Spare Parts-lista. Ingen STIGA-originalreservdelskatalog ännu direkt verifierad.",
+  "sources": [
+    {
+      "id": "diy-1258-1992",
+      "tier": 2,
+      "title": "DIY Spare Parts – STIGA Park 12 13-1258-15 (1992) Transmission_0",
+      "document": "Model 13-1258-15 [1992], Transmission_0",
+      "url": "https://www.diyspareparts.com/parts/stiga/diagrams/e4456e94-7131-45e2-b4eb/90ee13b8-4db2-4a5c-8945/"
+    },
+    {
+      "id": "partsharp-1992-index-1258",
+      "tier": 2,
+      "title": "Partsharp STIGA Park 12 version index",
+      "document": "Park 12 model/year diagram index",
+      "url": "https://www.partsharp.com/spare-parts/stiga/park-compact/85b0721e-422f-47ea-af78/f6901295-017e-4d23-83ea.aspx"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-1258-1992-index",
+      "topic": "A",
+      "statement": "Versionsindexet listar Park 12 13-1258-15 som 1992.",
+      "variant": "STIGA Park 12 13-1258-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "partsharp-1992-index-1258",
+      "locator": "Models > Park 12 13-1258-15 [1992]"
+    },
+    {
+      "id": "p12-1258-1992-belt",
+      "topic": "D",
+      "statement": "Transmissionens lista anger drivrem 1134-9013-01.",
+      "variant": "STIGA Park 12 13-1258-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1258-1992",
+      "locator": "Transmission_0, position 13"
+    },
+    {
+      "id": "p12-1258-1992-cable",
+      "topic": "F",
+      "statement": "Transmissionens lista anger kopplingswire 1134-2030-04 och växelwire 1134-2031-02.",
+      "variant": "STIGA Park 12 13-1258-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1258-1992",
+      "locator": "Transmission_0, position 28–29"
+    },
+    {
+      "id": "p12-1258-1992-pulley",
+      "topic": "D",
+      "statement": "Transmissionens lista anger motorremskiva 1134-2020-01.",
+      "variant": "STIGA Park 12 13-1258-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1258-1992",
+      "locator": "Transmission_0, position 14"
+    },
+    {
+      "id": "p12-1258-1992-tyre",
+      "topic": "B",
+      "statement": "Transmissionens lista anger däck 9545-0116-00 med dimension 16 x 7.50-8.",
+      "variant": "STIGA Park 12 13-1258-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1258-1992",
+      "locator": "Transmission_0, position 34"
+    }
+  ],
+  "gaps": [
+    "Lokalisera tillverkarsignerad STIGA IPL för exakt 1992-produktnummer.",
+    "Verifiera motor Model/Type/Code och motorhandbok från originalkälla.",
+    "Verifiera transaxelmodell och etikett mot original och individmärkning.",
+    "Kontrollera originalservice, säkerhetskretsar och ägarmanual.",
+    "Verifiera tillåtna klippaggregat och deras egna PNC, remmar och knivar."
+  ]
+}
