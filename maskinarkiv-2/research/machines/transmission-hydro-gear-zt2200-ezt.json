@@ -25,6 +25,20 @@
       "title": "Hydro-Gear ZT-2100 / ZT-2200 (EZT) Service & Repair Manual",
       "document": "BLN-52622, manufacturer PDF, further page-by-page verification needed",
       "url": "https://www.hydro-gear.com/wp-content/uploads/2021/09/BLN-52622_ZT2100_ZT2200-1-1.pdf"
+    },
+    {
+      "id": "hg-zt2100-zt2200-2023-revision",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2100 / ZT-2200 EZT Service and Repair Manual, March 2023",
+      "document": "BLN-52622, March 2023 revision",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-52622_2100_2200_P13.pdf"
+    },
+    {
+      "id": "hg-official-service-library",
+      "tier": 1,
+      "title": "Hydro-Gear service and repair manual directory",
+      "document": "Current Hydro-Gear official manual index",
+      "url": "https://www.hydro-gear.com/service-repair-manuals/"
     }
   ],
   "topics": {
@@ -216,12 +230,49 @@
       "sourceId": "hg-zt2100-zt2200-manual",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "ezt-2023-revision",
+      "statement": "Hydro-Gear har publicerat en nyare utgåva av BLN-52622 märkt March 2023, vid sidan av den i registret använda March 2018-utgåvan; serviceuppgifter mellan utgåvor måste jämföras innan de behandlas som aktuella.",
+      "variant": "ZT-2100/ZT-2200 (EZT), dokumentrevision mars 2023",
+      "locator": "Omslag, PDF-sida 1 (index 0)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-2023-positions-52-61",
+      "statement": "2023-utgåvans ZT-2200-itemslista identifierar position 52 som KIT, SEAL och position 61 som KIT, FILTER, men listar inte där beställningsnummer för respektive maskinvariant.",
+      "variant": "ZT-2200 EZT; BLN-52622 mars 2023",
+      "locator": "Tryckt sida 34, ZT-2200 (EZT) ITEMS LIST; PDF-sida 36 (index 35)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-2023-positions-55-57-59",
+      "statement": "2023-utgåvans ZT-2200-itemslista beskriver positionerna 55 KIT, BRAKE ASSEMBLY, 57 KIT, CENTER SECTION-FILTER och 59 KIT, BYPASS ARM, endast illustrerade referenspositioner och inte verifierade ordernummer.",
+      "variant": "ZT-2200 EZT; BLN-52622 mars 2023",
+      "locator": "Tryckt sida 34, ZT-2200 (EZT) ITEMS LIST; PDF-sida 36 (index 35)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "ezt-other-service-manual-families",
+      "statement": "Hydro-Gears officiella serviceindex listar separata manualfamiljer för ZT-2800/ZT-3100/ZT-3200, ZT-3400/ZT-3600/ZT-3800 och ZT-2400/ZT-2600; EZT-anvisningen ska därför inte generaliseras till dessa.",
+      "variant": "Hydro-Gear manualbibliotek, skilda produktfamiljer",
+      "locator": "TRANSAXLES > respektive Manual",
+      "sourceId": "hg-official-service-library",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
     "Verifiera produktetikett och unikt Hydro-Gear-modell-/serienummer och OEM-specifik suffixkod.",
     "Extrahera exakt komponent- och reparationskitlista ur primärmanualens relevanta sprängskisser; återanvänd inte illustrativa positionsnummer som beställningsnummer.",
     "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion.",
-    "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer."
+    "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer.",
+    "Jämför 2018- och 2023-versionen av BLN-52622 för ändrade oljevärden, oljebytesprocedur och eventuella tekniska rättelser; tidigare claims kommer från 2018."
   ]
 }
