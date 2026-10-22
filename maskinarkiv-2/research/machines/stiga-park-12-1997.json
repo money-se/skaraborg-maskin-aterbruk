@@ -95,6 +95,13 @@
       "title": "STIGA/CyberCat Park Classic 1998 Transmission 1258/1442",
       "document": "1998 årskatalog, två maskinkolumner 1258 och 1442, transaxel position 18",
       "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1998%2FAufsitzm%C3%A4her%2FPARK+CLASSIC+TRANSMISSION+1258%2C+1442.pdf"
+    },
+    {
+      "id": "stiga-parkclassic-1258-1998-original-cross",
+      "tier": 1,
+      "title": "STIGA PARK CLASSIC 13-1258-21 OEM parts catalogue",
+      "document": "Season 1998 Issue 46-2014, transmission and electrical system",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_CLASSIC_13-1258-21_97_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -1424,6 +1431,69 @@
       "grade": "B",
       "sourceId": "stiga-cybercat-classic-1998-two-column-transmission",
       "locator": "CyberCat 1998 Transmission 1258,1442, pos.15 och 18"
+    },
+    {
+      "id": "p12-1997-oem-original-1998-official-machine-split",
+      "topic": "D",
+      "statement": "Två separata STIGA-originalkataloger från 1998 identifierar basmaskinens kompletta transaxel på transmissionsposition 18 som 1134-3716-01 för Park Classic 13-1258-21 respektive 1134-3716-02 för Park Classic 13-1442-21. Det verifierar modellkodsskillnaden direkt hos STIGA, inte bara i CyberCats fler-kolumnslista.",
+      "variant": "Original STIGA Park Classic 1998 13-1258-21 kontra 13-1442-21, jämförelse; inte direkt Park 12 1997 installations- eller ersättningsbevis",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1258-1998-original-cross",
+      "locator": "Park Classic 13-1258-21 PDF p.14 pos.18; Park Classic 13-1442-21 PDF p.14 pos.18"
+    },
+    {
+      "id": "p12-1997-oem-original-1998-official-1258-catalog-header-conflict",
+      "topic": "D",
+      "statement": "Park Classic 13-1258-21 årsmodell 1998 anger på transmissionspos.18 komplett 1134-3716-01 med kommentaren Peerless MST205-529D, medan dess interna delgrupp på PDF p.26 rubriceras MST205-529C och återger 1134-3716-01 på pos.0. C/D-rubrikskillnaden uppträder alltså redan i 1998-katalogen, inte bara 1999.",
+      "variant": "Original STIGA Park Classic 1998 13-1258-21 kontra 13-1442-21, jämförelse; inte direkt Park 12 1997 installations- eller ersättningsbevis",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1258-1998-original-cross",
+      "locator": "Park Classic 13-1258-21 PDF p.14 pos.18 och p.26 pos.0/rubrik"
+    },
+    {
+      "id": "p12-1997-oem-original-1998-official-same-pulley",
+      "topic": "D",
+      "statement": "Båda separata 1998 Park Classic-katalogerna 13-1258-21 och 13-1442-21 anger 1134-1849-01 som transaxelremskiva vid transmission pos.15 trots att den kompletta transaxelns STIGA-nummer skiljer. Identisk remskiva räcker inte för att bevisa komplett transaxelpassning.",
+      "variant": "Original STIGA Park Classic 1998 13-1258-21 kontra 13-1442-21, jämförelse; inte direkt Park 12 1997 installations- eller ersättningsbevis",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1258-1998-original-cross",
+      "locator": "Båda 1998-katalogerna PDF p.14 pos.15 och 18"
+    },
+    {
+      "id": "p12-1997-oem-original-1998-official-same-drive-belt",
+      "topic": "D",
+      "statement": "Båda separata STIGA-katalogerna 1998 anger drivrem 1134-9035-01 (notering =9585-0078-00) på transmissionspos.10; skillnaden mellan -01/-02 transaxlar kan därför inte beläggas enbart av drivremmens artikelnummer.",
+      "variant": "Original STIGA Park Classic 1998 13-1258-21 kontra 13-1442-21, jämförelse; inte direkt Park 12 1997 installations- eller ersättningsbevis",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1258-1998-original-cross",
+      "locator": "Båda 1998-katalogerna PDF p.14 pos.10"
+    },
+    {
+      "id": "p12-1997-oem-original-1998-official-same-mount-bracket",
+      "topic": "K",
+      "statement": "Båda 1998 Park Classic-originalkatalogernas transmissionstabeller anger fäste 1134-2986-01 på pos.21 samt samma fyrtal muttrar 9739-0831-22 (pos.19) och skruvar 9997-0870-16 (pos.20). Detta dokumenterar lika katalogiserade yttre fästdelar men inte identiska transaxelinfästningsmått.",
+      "variant": "Original STIGA Park Classic 1998 13-1258-21 kontra 13-1442-21, jämförelse; inte direkt Park 12 1997 installations- eller ersättningsbevis",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1258-1998-original-cross",
+      "locator": "Båda 1998-katalogerna PDF p.14 pos.19–21"
+    },
+    {
+      "id": "p12-1997-oem-original-1998-official-variant-wiring",
+      "topic": "I",
+      "statement": "STIGA:s 1998 Park Classic-kataloger listar olika elsystemkablage efter maskinvariant: 1134-3697-01 noterat Harness 1258 och 1134-3718-01 noterat Harness 1442 på elavsnittets position 50. Det visar en verklig maskinvariantskillnad men bevisar inte att det förklarar skillnaden i komplett transaxelnummer.",
+      "variant": "Original STIGA Park Classic 1998 13-1258-21 kontra 13-1442-21, jämförelse; inte direkt Park 12 1997 installations- eller ersättningsbevis",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1258-1998-original-cross",
+      "locator": "Park Classic 13-1258-21 PDF p.18 pos.50, samma dokumenterade notering i 13-1442-21 PDF p.18 pos.50"
+    },
+    {
+      "id": "p12-1997-oem-original-1998-official-1442-internal-mismatch",
+      "topic": "D",
+      "statement": "STIGA Park Classic 13-1442-21 år 1998 anger 1134-3716-02 i basmaskinens transmissionstabell pos.18 men 1134-3716-01 som komplett enhet pos.0 i internförteckningen rubricerad MST205-529C. Det ska behandlas som en katalogskillnad mellan nivåer, inte automatiskt som en ersättningsorder.",
+      "variant": "Original STIGA Park Classic 1998 13-1258-21 kontra 13-1442-21, jämförelse; inte direkt Park 12 1997 installations- eller ersättningsbevis",
+      "grade": "A",
+      "sourceId": "stiga-parkclassic-1442-1998-ipl",
+      "locator": "Park Classic 13-1442-21 PDF p.14 pos.18, p.26 pos.0"
     }
   ],
   "gaps": [
@@ -1447,6 +1517,7 @@
     "Kontrollera ursprung/revisionslogg till Sandby Smedies 2024-utgåva av Park Classic 13-1258-22, vilken anger C där STIGA:s 2014-original anger D på transmission pos.18. Kräver fysisk transaxelmärkning för aktuell maskin.",
     "Verifiera fysisk funktion och mått hos MST205-529D-plugg 792154, tätningarna 788088/788089 och startbrytaren 786182 mot fristående Peerless tillverkarhandling; CyberCat är reservdelskatalog, inte verkstadshandbok.",
     "Katalogernas dubbla numrering 1134-3716-02 (basmaskin) respektive 1134-3716-01 (intern transaxellista) kvarstår i 13-1442-20, 13-1442-21 och 13-1442-22. Hitta STIGA:s dokumenterade artikelnummersynonym, fabriks-BOM eller servicebulletin innan de klassas som utbytbara.",
-    "CyberCat STIGA Park Classic 1998 tvåkolumnstabell placerar -01 i 1258-kolumn och -02 i 1442-kolumn. Kontrollera mot fullständiga artikel-/produktlistor och tillverkarens ersättningshistorik; modellskillnaden ger inte bevis att -01 och -02 kan bytas."
+    "CyberCat STIGA Park Classic 1998 tvåkolumnstabell placerar -01 i 1258-kolumn och -02 i 1442-kolumn. Kontrollera mot fullständiga artikel-/produktlistor och tillverkarens ersättningshistorik; modellskillnaden ger inte bevis att -01 och -02 kan bytas.",
+    "Originalkatalogerna 1998 visar 1258/-01 och 1442/-02 men delad remskiva, drivrem och yttre infästningsdelar. Utred med OEM-revisionsbulletin eller uppmätning vilken faktisk transaxelskillnad -02 betecknar, innan fysisk kompatibilitet anges."
   ]
 }
