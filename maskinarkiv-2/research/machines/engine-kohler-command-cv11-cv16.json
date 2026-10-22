@@ -77,7 +77,7 @@
     },
     "K": {
       "state": "gap",
-      "note": "Originalnummer finns för flera filter, underhållssatser och Oil Sentry men exakt Spec. No., filterhus, bränslematning, adaptersystem och aktuella ersättningsnummer återstår att bekräfta."
+      "note": "Originalnumren täcker tändsystem, 15/25 A-laddning, bränsle-/oljefilter, luftsats, elstarter och Oil Sentry. Val av exakt del är spärrat tills Spec. No., systemstorlek, filterhus och eventuella ersättningsnummer kontrollerats."
     },
     "L": {
       "state": "gap",
@@ -745,6 +745,114 @@
       "sourceId": "kohler-fast-moving-parts-guide",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "kohler-charge-stator-15amp-237878",
+      "statement": "Kohler tillbehörskatalog 25 800 148 Rev. E listar statorsats 237878-S för 15 A laddningssystem på CH/CV11–16/460–493 samt andra uppräknade motorfamiljer. Faktisk installation och Spec. No. måste identifieras.",
+      "variant": "CH/CV11–16/460–493, endast befintligt 15 A-system",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-stator-25amp-2808602",
+      "statement": "Originalkatalogen listar statorsats 28 085 02-S för 25 A-laddningssystem, bland annat CH/CV11–16/460–493. Del får inte väljas enbart från motormodellen utan verifierad laddningskonfiguration.",
+      "variant": "CH/CV11–16/460–493, endast tillämpligt 25 A-system",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-regulator-15amp-4140310",
+      "statement": "Originalkatalogen listar likriktare/regulator 41 403 10-S för 15 A-system under Charging Systems. Katalogen specificerar inte därmed att varje CH/CV11–16 har just detta system.",
+      "variant": "15 A-laddningssystem, identifierat på enskild motor",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-kit-25amp-5475503",
+      "statement": "Originalkatalogen listar stator-/regulatorsats 54 755 03-S för 25 A-konfiguration, bland annat CH/CV11–16/460–493, med specificerade motorfamiljer. Detta är inte universell ersättning för 15 A-komponenter.",
+      "variant": "CH/CV11–16/460–493, enligt katalogens 25 A-systemrad",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-charge-15to25-24755144",
+      "statement": "Kohler originalkatalog listar konverteringssats 24 755 144-S för uppgradering från 15 A till 25 A likriktare/regulator. Kräver kontroll av befintlig regulator och kompatibelt elsystem innan användning.",
+      "variant": "15 A-system enligt tillbehörskatalogen; motortyp och kablage måste verifieras",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-plug-pro-chcv-2513212",
+      "statement": "Kohler originalkatalog listar tändstift 25 132 12-S för CH/CV11–15/493 PRO. PRO-beteckning kräver kontroll; delen får inte automatiskt tillskrivas vanliga CH/CV-varianter.",
+      "variant": "CH/CV11–15/493 PRO enligt katalogen",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-plug-lp-2513208",
+      "statement": "Kohler originalkatalog listar tändstift 25 132 08-S för CH/CV11–15 LP. LP-bränsleutförandet gör att artikelnumret inte kan generaliseras till bensinmotorer.",
+      "variant": "CH/CV11–15 LP enligt katalogen",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-wiring-harness-2517602",
+      "statement": "Kohler originalkatalog listar kabelhärva 25 176 02-S med sex ledare och längsta ledning 75 tum för C11–16/460–493 samt utvalda andra familjer, med extra utrustningsjordledning mellan nyckelbrytare och motorblock.",
+      "variant": "C11–16/460–493 enligt katalogens kabelhärverad; kontaktdon och installation kontrolleras",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.11, PDF page index 10",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-diode-kits-2575531-40",
+      "statement": "Kohler originalkatalog listar diodsatserna 25 755 31-S (6 A, 1000 PIV) och 25 755 40-S (6 A, 800 PIV), där den senare anges för skydd mot transienter från elektrisk koppling. Märkdata och inkoppling skiljer sig; inte likvärdig automatisk ersättning.",
+      "variant": "Kohler diodtillbehör med relevant elkoppling, specifik motor ännu ej fastställd",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.10, PDF page index 9",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-sealed-fuse-harness-5475513",
+      "statement": "Kohler originalkatalog listar 54 755 13-S som konvertering från standardsäkringshållare till förseglat utförande, för att förhindra fukt och smuts; satsen innefattar en 30 A-säkring. Detta är inte bevis för att en CV11–16 ska ha 30 A huvudskydd.",
+      "variant": "Kohler elsystem där denna säkringshållarkonvertering är godkänd; ej motorfamiljsspecifik",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.12, PDF page index 11",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-air-filter-standard-128305",
+      "statement": "Kohler originalkatalog listar luftfilterelement 12 083 05-S (även UL-ekvivalent 12 083 09-S) och förfilter 12 083 08-S för CV11–16/460–493 med standardhögt 2,8-tums filterhus.",
+      "variant": "CV11–16/460–493, standard 2,8 tum filterkonfiguration",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.28, PDF page index 27",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-air-filter-tall-128310",
+      "statement": "Kohler originalkatalog listar luftfilterelement 12 083 10-S (UL-ekvivalent 12 083 13-S) samt förfilter 12 083 12-S för CV11–16/460–493 med högt 3,4-tums filterhus.",
+      "variant": "CV11–16/460–493, tall 3,4 tum filterkonfiguration",
+      "topic": "K",
+      "locator": "Kohler Parts and Accessories Rev. E, printed p.28, PDF page index 27",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -772,6 +880,7 @@
     "Bränsle- och cylinderläckagetest måste utföras enligt fullständig säkerhets- och instrumentanvisning; Kohlers grönt/gult/rött avser specifik läckagetestare och inga generella läckageprocent har verifierats.",
     "CV16 Smart Spark-mätvärden och KO1046 får inte överföras till Kohlers magnetotändning utan SAM; kontrollera rätt tändsystem och motorns specifikationsnummer.",
     "Tändsystemens olika KO1046/KO1047-prov och resistansintervall måste knytas till motorens faktiska Spec. No. innan felsökningsinstruktion publiceras; verifiera också artikelnummer för respektive tändmodul.",
-    "Kohler tändmoduler 12 584 04-S, 12 584 05-S, 12 584 12-S och 12 584 17-S är identifierade i tillverkarens snabbguide; exakt reservdel kräver fortfarande motorns Spec. No. och aktuell Kohler Parts Lookup."
+    "Kohler tändmoduler 12 584 04-S, 12 584 05-S, 12 584 12-S och 12 584 17-S är identifierade i tillverkarens snabbguide; exakt reservdel kräver fortfarande motorns Spec. No. och aktuell Kohler Parts Lookup.",
+    "Electrical/air intake batch: identifiera befintlig 15 A/25 A laddning, kontaktdon, drivmedelsutförande (LP/PRO) och 2,8/3,4-tums luftfilterhus via motor Spec. No. före köp eller montering. Artikelnummer är katalogbelagda, inte generella passningsgarantier."
   ]
 }
