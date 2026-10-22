@@ -102,6 +102,13 @@
       "title": "KLIPPO original 2008-01 operating manual 502937301, Swedish pp 1–4",
       "document": "OM 2008-01, Version 1:18; technical guidance blade, mulcher, Honda/Quantum air filter, professional Pro 19",
       "url": "https://www.norlett.no/file/standardmappe-uni/brukermanual-klippo-triumph.pdf"
+    },
+    {
+      "id": "retailer-old-blade-502978001-6017",
+      "tier": 2,
+      "title": "Gräsklipparbutiken mulcher blade 5029780-01 legacy 6017",
+      "document": "Retailer compatibility Champion until 2009 and legacy part number 6017",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/sv/gb/mulcherkniv-48cm-19?Land=SE&Valuta_ID=SEK"
     }
   ],
   "topics": {
@@ -806,6 +813,33 @@
       "sourceId": "klippo-om-original-2008-502937301-batch32",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "champion-legacy-502978001-to2009",
+      "statement": "Återförsäljaren listar mulcherkniv 502978001 för Champion till och med 2009. Detta ska inte överföras till Champion PNC 965223902 2012 utan serienummer-/original-IPL-kontroll.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Produktkort > Passar > Champion tom 2009",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "champion-legacy-6017",
+      "statement": "Återförsäljaren uppger att 502978001 ersätter Klippos äldre knivartikelnummer 6017 för bland annat Champion till och med 2009.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Produktkort > Ersätter Klippo artnr 6017",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "champion-2008-965223901",
+      "statement": "Tillverkarens 2008 originalmanual anger Champion som 965223901 med B&S 625 Series, 190 cm³, 48 cm mulcher, garanterad ljudeffekt 96 dB(A). Detta är inte samma PNC som 2012 Champion 965223902.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "2008-01 originalmanual 502937301, EG-försäkran teknisk tabell, Champion 965223901",
+      "sourceId": "klippo-om-original-2008-502937301-batch32",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -822,6 +856,7 @@
     "Klippo Champion PNC 965223902 2012-06 och 2013-01 har fyra olika motorgruppsdelnummer (ref 1,2,4,7); kontrollera ursprungliga IPL-bilder och komponentfunktion innan byte. 2013 års motorgrupp saknar kil-ref 6 i återförsäljarens lista; dra ingen slutsats om fysisk frånvaro.",
     "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
     "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma.",
-    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd."
+    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
+    "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem."
   ]
 }
