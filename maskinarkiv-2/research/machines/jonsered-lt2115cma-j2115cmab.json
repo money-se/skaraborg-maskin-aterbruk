@@ -190,12 +190,24 @@
       "topic": "B",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-electrical-harness-21",
+      "statement": "Elsystemets katalogavsnitt ELECTRIQUE anger kabelstam (HARNAIS) 532 17 56-88 på position 21. Uppgiften är revisionsbunden och utgör inget generellt passformsbesked.",
+      "variant": "LT2115CMA J2115CMAB / 954130093 / 2004-06",
+      "locator": "PDF s. 13 (PDF-index 12), ELECTRIQUE position 21",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
     "Motormodell, motor-specifikation och serviceintervall återstår med korrekt maskin-/motorkälla.",
     "DRIVE, WHEELS & TIRES samt ELECTRICAL behöver fullständig granskning för denna produktrevision.",
     "Gemensamma reservdelsnummer i katalogerna är inte bevis för identiska hela aggregat eller generellt utbytbara komponenter.",
-    "PDF-skärmbild misslyckades, och angivna katalogpositioner ska bildverifieras före publicering."
+    "PDF-skärmbild misslyckades, och angivna katalogpositioner ska bildverifieras före publicering.",
+    "Kabelstam pos. 21 har återkontrollerats mot PDF:ens indexerade text; originalets sidbild kunde inte visas (cache miss). Separat bild-/elfelschemakontroll krävs före godkänd passform och slutlig verifikation."
   ]
 }
