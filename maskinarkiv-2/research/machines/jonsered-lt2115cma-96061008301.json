@@ -39,6 +39,27 @@
       "title": "sGarden Hydro Gear 321-0510 group 548448122 repair parts variant 390377",
       "document": "321-0510 548448122, parts group 390377, undated",
       "url": "https://www.sgarden.cz/SpareParts/PartList/390377/REPAIR_PARTS"
+    },
+    {
+      "id": "sgarden-548448122-390370",
+      "tier": 2,
+      "title": "sGarden Hydro Gear 321-0510 548448122 parts list 390370",
+      "document": "REPAIR PARTS list 390370 (undated dealer catalogue)",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/390370/REPAIR_PARTS"
+    },
+    {
+      "id": "sgarden-548448122-390371",
+      "tier": 2,
+      "title": "sGarden Hydro Gear 321-0510 548448122 parts list 390371",
+      "document": "REPAIR PARTS list 390371 (undated dealer catalogue)",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/390371/REPAIR_PARTS"
+    },
+    {
+      "id": "hydrogear-official-label-support",
+      "tier": 1,
+      "title": "Hydro-Gear Product Support: Model Identification",
+      "document": "Hydro-Gear Support, Model Identification guidance",
+      "url": "https://www.hydro-gear.com/support/"
     }
   ],
   "topics": {
@@ -768,6 +789,39 @@
       "topic": "D",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-catalog-548448122-390370",
+      "statement": "Återförsäljarlista 390370 under rubrik 321-0510 / 548448122 anger housing pos 1 532142930, shaft pos 18 532150772, oilfilter pos 34 532142951, differential pos 44 532150829 och gearbox pos 900 532150071.",
+      "variant": "321-0510 / 548448122 seller parts sublist, applicability to Jonsered unconfirmed",
+      "locator": "sGarden 390370 REPAIR PARTS, rows 1,18,34,44,900",
+      "sourceId": "sgarden-548448122-390370",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-catalog-548448122-390371",
+      "statement": "Återförsäljarlista 390371 under rubrik 321-0510 / 548448122 anger housing pos 1 532142930, andra huset pos 2 532169049, axel pos 18 532150772, cylinder pos 13 532169050 och pump pos 26 532169051. Det är en separat variantspecifik lista, ej identifierad som Jonsereds FHP 170061.",
+      "variant": "321-0510 / 548448122 seller parts sublist, applicability to Jonsered unconfirmed",
+      "locator": "sGarden 390371 REPAIR PARTS, rows 1,2,13,18,26",
+      "sourceId": "sgarden-548448122-390371",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydrogear-label-identification-required",
+      "statement": "Hydro-Gear rekommenderar uttryckligen att modell- och serienummer avläses på produktetiketten vid förfrågan om rätt service- och reparationsinformation. Detta är en identifieringsprocedur, inte en bekräftelse av någon av säljarlistornas passform.",
+      "variant": "Hydro-Gear transaxles, applicability check for Jonsered LT2115CMA",
+      "locator": "Hydro-Gear official Support, Universal Tools > Model Identification",
+      "sourceId": "hydrogear-official-label-support",
+      "grade": "A",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -784,6 +838,7 @@
     "Hydro-Gear 321-0510 IPL:s key 900 anger 532171613 medan efterföljande 'Correction' anger 532170061. Denna korrigeringsrad får inte automatiskt tolkas som en ersättningskedja; kontroll mot originalbild, utgåvenummer och Hydro-Gear/Husqvarna OEM krävs. Aktuell serviceprocedur för 321-0510 fortsatt obekräftad.",
     "Senare 2001-03-lista hos sGarden stöder katalognumret 532170061 för komplett 321-0510 (key 900) och 532170445 för filterpositionerna 45/46/125, men utgör inte en original OEM-ersättningsbulletin. Kontrollera mot fysisk transaxelplåt och tillverkarens aktuella reservdelssupport före beställning.",
     "Andra 321-0510-märkta handlarlistor under dokumentgrupp 548448122 visar en annan intern numrering (bl.a. filter key 34 532142951 och tätningar key 53/54). Det kan röra annat utförande/undergrupp, men identiteten har inte styrkts; dessa delar får INTE tillskrivas Jonsereds FHP 170061 utan förtydligande från OEM och transaxelplåt.",
-    "Två sGarden-listsidor 390375 och 390377 använder samma 321-0510 och 548448122 men har skilda hus, axel och differential. Båda visar 532142951 på filterpos 34; original-IPL för FHP 170061 använder filterenhet 532170445 pos 125. Dokumentgrupp/undermodell och eventuell överensstämmelse är OBEKRÄFTAD. Gör inga rekommendationer om dessa delar för Jonsered utan plåt-/serienummer och OEM-korsreferens."
+    "Två sGarden-listsidor 390375 och 390377 använder samma 321-0510 och 548448122 men har skilda hus, axel och differential. Båda visar 532142951 på filterpos 34; original-IPL för FHP 170061 använder filterenhet 532170445 pos 125. Dokumentgrupp/undermodell och eventuell överensstämmelse är OBEKRÄFTAD. Gör inga rekommendationer om dessa delar för Jonsered utan plåt-/serienummer och OEM-korsreferens.",
+    "Nu minst fyra olika återförsäljarlistor under etiketten 321-0510 / 548448122 (390370, 390371, 390375, 390377), med olika hus, axlar och differentialdelar. Ingen koppling till 2001 års Hydro-Gear FHP 170061 eller en viss Jonsered-transaxel är styrkt. Hydro-Gears officiella support kräver modell- och serienummer från etiketten inför serviceförfrågan. Beställ inte internkomponenter från alternativen utan exakt etikett/OEM-korsreferens."
   ]
 }
