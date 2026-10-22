@@ -25,6 +25,13 @@
       "title": "ReservdelarOnline – äldre Klippo-nummer till nya Husqvarna artikelnummer",
       "document": "Översättningstabell äldre Klippo-maskinkoder (odaterad)",
       "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
+    },
+    {
+      "id": "klippo-om-2008-502937301",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning och överensstämmelseförsäkran 2008",
+      "document": "Art.nr 502937301, Version 1:18, 2008-01",
+      "url": "https://www.norlett.no/file/standardmappe-uni/brukermanual-klippo-triumph.pdf"
     }
   ],
   "topics": {
@@ -143,6 +150,15 @@
       "locator": "Översättningstabell, rad K06730 – 965229001 – Pro 19 GCV",
       "sourceId": "retailer-klippo-crosswalk",
       "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "pro19gcv-2008-article-confirm",
+      "statement": "KLIPPO originalmanual 502937301 version 1:18 anger Pro 19 GCV artikelnummer 965229001, Honda GCV135 med 135 cm³ och klippbredd 48 cm i överensstämmelsetabellen.",
+      "variant": "Pro 19 GCV 965229001, 2008 originalmanual",
+      "locator": "Försäkran om överensstämmelse, tabellrad Pro 19 GCV",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
       "topic": "A"
     }
   ],
