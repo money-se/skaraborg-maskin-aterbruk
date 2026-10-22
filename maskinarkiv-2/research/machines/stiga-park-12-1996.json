@@ -18,6 +18,13 @@
       "title": "Sandby Smedie – STIGA Park 12 13-1442-19 teknisk versionsöversikt",
       "document": "Produktdatablad 13-1442-19, 1996; återförsäljaruppgifter",
       "url": "https://www.sandbysmeden.dk/13-1442-19-stiga-park-12-1996/"
+    },
+    {
+      "id": "briggs-official-manual-identification",
+      "tier": 1,
+      "title": "Briggs & Stratton Sverige – hitta manual och reservdelslista",
+      "document": "Briggs official motor Model Type Code identifiering",
+      "url": "https://www.briggsandstratton.com/sv-se/support/manuals"
     }
   ],
   "topics": {
@@ -339,6 +346,15 @@
       "grade": "C",
       "sourceId": "sandby-park12-1996-tech",
       "locator": "Tekniske informationer > Transmission"
+    },
+    {
+      "id": "p12-96-briggs-identification",
+      "topic": "C",
+      "statement": "Briggs & Strattons officiella manualtjänst kräver relevant modell- och typnummer för att välja motordokumentation; återförsäljaruppgiften 28D707-0133 är därför ett spår som ska kontrolleras mot motorns märkning, inte en säker identitet för varje Park 12.",
+      "variant": "Generell Briggs-identifieringsmetod, tillämpad som kontrollregel för Park 12 13-1442-19",
+      "grade": "A",
+      "sourceId": "briggs-official-manual-identification",
+      "locator": "Hitta manual/reservdelslista > Sök efter modellnummer > Motor"
     }
   ],
   "gaps": [
