@@ -368,6 +368,34 @@
       "title": "PartsTree 2002 Statesman 13BH660F016 transmission",
       "document": "Year-specific Southern States 13BH660F016 single speed transmission 618-0163B, differential 618-0162 and brake components",
       "url": "https://www.partstree.com/models/13bh660f016-statesman-lawn-tractor-2002-southern-states/transmission-20/"
+    },
+    {
+      "id": "mtd-oem-wheel-6340105b",
+      "tier": 1,
+      "title": "MTD OEM Wheel Assembly 634-0105B",
+      "document": "MTD official product page lists 634-0105A as replaced part; square shoulder / plastic bearings",
+      "url": "https://www.mtdparts.com/en_US/tires-and-wheels/wheel-assembly-15-x-6-x-6/634-0105B.html"
+    },
+    {
+      "id": "gfp-oem-pivot-6830128b",
+      "tier": 1,
+      "title": "GFP OEM Pivot Bar 683-0128B",
+      "document": "Genuine Factory Parts official parts page states 683-0128B replaces 683-0128A",
+      "url": "https://www.genuinefactoryparts.com/en_US/riding-lawn-mower-parts/pivot-bar/683-0128B.html"
+    },
+    {
+      "id": "partstree-7111107-steering-link",
+      "tier": 2,
+      "title": "PartsTree Steering Drag Link 711-1107",
+      "document": "Model-index part link confirms steering drag link 711-1107 superseded to 911-1107",
+      "url": "https://www.partstree.com/parts/mtd-711-1107/"
+    },
+    {
+      "id": "sears-6830128a-oem-replacement",
+      "tier": 2,
+      "title": "Sears PartsDirect Pivot Bar 683-0128A replacement",
+      "document": "Manufacturer substitution 683-0128A to 683-0128B-0637",
+      "url": "https://www.searspartsdirect.com/product/4eoa4dmkvq-0071-247/id-683-0128a"
     }
   ],
   "topics": {
@@ -389,7 +417,7 @@
     },
     "E": {
       "state": "gap",
-      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår.\nFollow-up research: Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering. Familjemanualen anger toe-in 1/16–5/16 tum endast för justerbar styrstång. 2000-katalog listar justerbart 747-0753 och icke justerbart 747-0861 parallellstag. 2001 tillverkarkorsreferens anger framhjul 634-0105A, som katalogen beskriver som Square Shoulder."
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår.\nFollow-up research: Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering. Familjemanualen anger toe-in 1/16–5/16 tum endast för justerbar styrstång. 2000-katalog listar justerbart 747-0753 och icke justerbart 747-0861 parallellstag. 2001 tillverkarkorsreferens anger framhjul 634-0105A, som katalogen beskriver som Square Shoulder. Fyra dokumenterade referenser från OEM/dealer visar 683-0128A→683-0128B(-0637), 634-0105A→634-0105B och 711-1107→911-1107. Relationen mellan alternativa stål-/gjutjärnsframaxlar och olika hjulskuldror är inte fastställd för individuella exemplar."
     },
     "F": {
       "state": "gap",
@@ -1900,6 +1928,42 @@
       "locator": "Transmission overview, 618-0163B Transmission Complete, 618-0162 Differential, brake puck 717-0678, plate 717-0682 and actuator 717-0700",
       "variant": "MTD jämförelsemodell, specificerat års- och kundutförande; ingen bekräftad serienummerpassform för 13BH670F062",
       "grade": "B"
+    },
+    {
+      "id": "mtd-2000-pivot-6830128a-to-b-oem",
+      "topic": "E",
+      "statement": "Genuine Factory Parts anger att pivotstång 683-0128B ersätter 683-0128A. Årsavgränsat PartsTree-index för 13BH670F062/2000 visar 683-0128A som stålutförande och även alternativ gjutjärnsdel 719-0342A; OEM-ersättningen bevisar inte vilket pivotutförande som monterats.",
+      "sourceId": "gfp-oem-pivot-6830128b",
+      "locator": "Official product 683-0128B, 'This part replaces: 683-0128A'",
+      "grade": "A",
+      "variant": "13BH670F062 2000/2001 jämfört med dokumenterad OEM-reservdelsersättning; faktiskt exemplar och framaxelutförande kräver märkning"
+    },
+    {
+      "id": "mtd-2000-pivot-6830128a-to-0637-dealer",
+      "topic": "E",
+      "statement": "Sears PartsDirect anger en tillverkarersättning av MTD 683-0128A till 683-0128B-0637. Det preciserar efterföljande färg-/utförandesuffix i en extern källa utan att etablera identisk passform för olika framaxelalternativ.",
+      "sourceId": "sears-6830128a-oem-replacement",
+      "locator": "Product 683-0128A, 'Replaced by #683-0128B-0637', manufacturer substitution",
+      "grade": "B",
+      "variant": "13BH670F062 2000/2001 jämfört med dokumenterad OEM-reservdelsersättning; faktiskt exemplar och framaxelutförande kräver märkning"
+    },
+    {
+      "id": "mtd-2001-square-wheel-6340105a-to-b-oem",
+      "topic": "E",
+      "statement": "MTD:s officiella reservdelssida anger att 634-0105B ersätter 634-0105A, det framhjulsnummer som MTD:s 2001-XREF anger för 13BH670F062. Produkten avser 15 × 6 × 6 hjul med fyrkantig skuldra och glidlager; fel axelutförande eller serienummer måste uteslutas före inköp.",
+      "sourceId": "mtd-oem-wheel-6340105b",
+      "locator": "Product 634-0105B, 'This part replaces: 634-0105A'; Features Square Shoulder, Plastic Bearings",
+      "grade": "A",
+      "variant": "13BH670F062 2000/2001 jämfört med dokumenterad OEM-reservdelsersättning; faktiskt exemplar och framaxelutförande kräver märkning"
+    },
+    {
+      "id": "mtd-2000-steering-link-7111107-to-9111107",
+      "topic": "E",
+      "statement": "Den äldre styrstag-/draglänken 711-1107 i PartsTrees 2000-index för 13BH670F062 ersätts enligt en separat katalogpost med 911-1107. Detta gäller draglänken och säger inte något om vilken av katalogens parallellstänger som används.",
+      "sourceId": "partstree-7111107-steering-link",
+      "locator": "Product 711-1107 Steering Drag Link, 'Superseded to 911-1107'",
+      "grade": "B",
+      "variant": "13BH670F062 2000/2001 jämfört med dokumenterad OEM-reservdelsersättning; faktiskt exemplar och framaxelutförande kräver märkning"
     }
   ],
   "gaps": [
