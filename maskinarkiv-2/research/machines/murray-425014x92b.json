@@ -18,6 +18,13 @@
       "title": "Murray 425014X92B instruction book mower housing replacement parts",
       "document": "F-050706L, printed page 47, MOWER HOUSING",
       "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=47"
+    },
+    {
+      "id": "murray-014b-steering-43-html",
+      "tier": 2,
+      "title": "Murray 425014X92B illustrated repair parts steering table",
+      "document": "F-050706L, STEERING printed page 43",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=43"
     }
   ],
   "topics": {
@@ -44,7 +51,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Styrningskatalogen F-050706L s.43 identifierar ratt, styrstång, pinjong, sektor, framaxel, spindlar, styrstag och hjullager. Flera artikelnummer skiljer sig från 425015X92A trots snarlik konstruktionsgrupp; passform får inte antas."
     },
     "F": {
       "name": "Reglage",
@@ -307,6 +314,127 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-wheel",
+      "statement": "Ratten anges som artikelnummer 1001980.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 1",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-post",
+      "statement": "Styrstången anges som artikelnummer 690625.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 2",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-pinion",
+      "statement": "Styrpinjongen anges som artikelnummer 1001893.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 7",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-sector",
+      "statement": "Styrsektorn anges som artikelnummer 094121.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 9",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-left-spindle",
+      "statement": "Vänster styrspindel anges som artikelnummer 094576E245.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 21",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-right-spindle",
+      "statement": "Höger styrspindel anges som artikelnummer 094575E245.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 28",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-axle",
+      "statement": "Framaxelenheten anges som artikelnummer 1001460E245.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 26",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-left-link",
+      "statement": "Vänster styrstag anges som artikelnummer 095329E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 27",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-right-link",
+      "statement": "Höger styrstag anges som artikelnummer 095328E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 29",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-wheel-bearing",
+      "statement": "Hjullager anges som artikelnummer 091334.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 31",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-wheel-assembly",
+      "statement": "Hjul- och däcksenhet anges som artikelnummer 1001840-601.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "STEERING, tryckt sida 43, position 34",
+      "sourceId": "murray-014b-steering-43-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -316,6 +444,7 @@
     "Ingen dokumenterad generell passform mellan A, B och E; jämför endast partnummer vid samma assemblies och efter versionskontroll.",
     "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
     "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
-    "Katalogernas lika rem- och knivnummer för 425014X92B och 425015X92A belägger gemensamma katalognummer, inte universell montering eller ersättningsrevisioner. Kontrollera aggregatets märkning."
+    "Katalogernas lika rem- och knivnummer för 425014X92B och 425015X92A belägger gemensamma katalognummer, inte universell montering eller ersättningsrevisioner. Kontrollera aggregatets märkning.",
+    "425014X92B styrningsritning visar avvikande suffixtal E245 för framaxel/styrspindlar jämfört med 425015X92A:s E701; kontrollera verklig revision och eventuella ersättningsnummer före beställning."
   ]
 }
