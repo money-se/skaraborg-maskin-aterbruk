@@ -151,6 +151,34 @@
       "title": "MTD Transmatic Lawn Tractors Models 660 Thru 679 Series Illustrated Parts Book",
       "document": "FORM NO. 770-10116D.fm, ECO No. (1/2002), 28-page MTD original IPL",
       "url": "https://www.m-and-d.com/pdfs/MTD/13CF675G062.pdf"
+    },
+    {
+      "id": "partstree-7171362-supersession",
+      "tier": 2,
+      "title": "PartsTree MTD 717-1362",
+      "document": "MTD 717-1362 Bevel Gear 42 Teeth superseded to 917-1362",
+      "url": "https://www.partstree.com/parts/mtd-717-1362/"
+    },
+    {
+      "id": "partstree-7171363-supersession",
+      "tier": 2,
+      "title": "PartsTree MTD 717-1363",
+      "document": "MTD 717-1363 Bevel Gear 42 Teeth superseded to 917-1363",
+      "url": "https://www.partstree.com/parts/mtd-717-1363/"
+    },
+    {
+      "id": "lawnmowerpros-7111003-supersession",
+      "tier": 2,
+      "title": "Lawnmower Pros MTD 711-1003",
+      "document": "Genuine MTD 711-1003 replaced by MTD 911-1003",
+      "url": "https://www.lawnmowerpros.com/detail.asp?id=711-1003"
+    },
+    {
+      "id": "mtdparts-ca-7210338-supersession",
+      "tier": 1,
+      "title": "MTD Parts Canada seal 921-0338",
+      "document": "MTD 921-0338 replaces 721-0338, .750 x 1.00 x .125",
+      "url": "https://www.mtdparts.ca/en/all-parts/seal-.750x1.00x.125/921-0338.html"
     }
   ],
   "topics": {
@@ -196,7 +224,7 @@
     },
     "K": {
       "state": "gap",
-      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår. Viktig nummeravvikelse: MTD-original 770-10116D anger 717-1362/717-1363, 711-1003 och 721-0338 medan återförsäljarindex använder 917-1362/917-1363, 911-1003 och 921-0338. Ingen ersättningskedja styrkt."
+      "note": "MTD-korsreferenser visar ändrade dekaler, säte och hjul mellan katalogutgåvorna; beställning kräver kontroll av maskinens identitet. eReplacementParts 2000 anger bland annat remmarna 954-0329A och 954-0370; original-IPLs och korrekt remroll återstår. Viktig nummeravvikelse: MTD-original 770-10116D anger 717-1362/717-1363, 711-1003 och 721-0338 medan återförsäljarindex använder 917-1362/917-1363, 911-1003 och 921-0338. Ingen ersättningskedja styrkt. Uppföljande källkontroll bekräftar artikelnummerersättningar 717-1362→917-1362, 717-1363→917-1363, 711-1003→911-1003 och MTD:s egen 721-0338→921-0338. Detta löser nummerseriernas ersättningsrelation men inte maskinspecifik kompatibilitet."
     },
     "L": {
       "state": "gap",
@@ -927,6 +955,42 @@
       "sourceId": "mtd-original-660-679-ipl-2002",
       "locator": "PDF sida 11 (index 10), Transmission Assembly, position 40",
       "topic": "K"
+    },
+    {
+      "id": "mtd-parts-7171362-to-9171362",
+      "statement": "Reservdelsleverantörens dokumentation anger att äldre MTD-artikelnummer 717-1362 ersatts av 917-1362. Detta styrker nummerersättningen, men inte att delen passar samtliga 13BH670F062-serienummer.",
+      "variant": "MTD-reservdelsnummer, generell ersättningskedja; individuell MTD 13BH670F062-passform fortfarande öppen",
+      "grade": "B",
+      "sourceId": "partstree-7171362-supersession",
+      "locator": "PartsTree MTD 717-1362 listing: Superseded to MTD 917-1362",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-parts-7171363-to-9171363",
+      "statement": "Reservdelsleverantörens dokumentation anger att äldre MTD-artikelnummer 717-1363 ersatts av 917-1363. Detta styrker nummerersättningen, men inte att delen passar samtliga 13BH670F062-serienummer.",
+      "variant": "MTD-reservdelsnummer, generell ersättningskedja; individuell MTD 13BH670F062-passform fortfarande öppen",
+      "grade": "B",
+      "sourceId": "partstree-7171363-supersession",
+      "locator": "PartsTree MTD 717-1363 listing: Superseded to MTD 917-1363",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-parts-7111003-to-9111003",
+      "statement": "Reservdelsleverantörens dokumentation anger att äldre MTD-artikelnummer 711-1003 ersatts av 911-1003. Detta styrker nummerersättningen, men inte att delen passar samtliga 13BH670F062-serienummer.",
+      "variant": "MTD-reservdelsnummer, generell ersättningskedja; individuell MTD 13BH670F062-passform fortfarande öppen",
+      "grade": "B",
+      "sourceId": "lawnmowerpros-7111003-supersession",
+      "locator": "Lawnmower Pros MTD 711-1003: replacement part MTD 911-1003",
+      "topic": "K"
+    },
+    {
+      "id": "mtd-parts-7210338-to-9210338",
+      "statement": "Reservdelsleverantörens dokumentation anger att äldre MTD-artikelnummer 721-0338 ersatts av 921-0338. Detta styrker nummerersättningen, men inte att delen passar samtliga 13BH670F062-serienummer.",
+      "variant": "MTD-reservdelsnummer, generell ersättningskedja; individuell MTD 13BH670F062-passform fortfarande öppen",
+      "grade": "A",
+      "sourceId": "mtdparts-ca-7210338-supersession",
+      "locator": "MTD Parts Canada 921-0338, This part replaces: 721-0338",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -957,6 +1021,7 @@
     "Kontrollera sidbilden i original-/spegel-PDF 770-2000XREF.2 på PDF index 26 när nedladdning fungerar; texten stödjer 42 tum Deck G, medan modellens samlade IPL visar 38 tum Deck F.",
     "MTD 770-10116D är original-IPLs för hela Transmatic 660–679 (utgåva 2002). Kontrollera modell-/serienummerbindning innan familjens differential-, broms- och smörjmedelsposter används på 13BH670F062.",
     "Visuell skärmbild av MTD PDF sidan 11 (index 10) misslyckades vid granskning; text och positionslista lästes, men illustrationens figurnummer och revisionsvillkor behöver slutkontrolleras.",
-    "Verifiera om MTD/återförsäljarnas prefixändringar 717→917, 711→911 och 721→921 representerar officiella supersessioner innan nummer förenas eller rekommenderas."
+    "Verifiera om MTD/återförsäljarnas prefixändringar 717→917, 711→911 och 721→921 representerar officiella supersessioner innan nummer förenas eller rekommenderas.",
+    "Före praktisk beställning: verifiera modellårs-/serienummerbaserad passform för 917-1362, 917-1363, 911-1003 och 921-0338 även om artikelnummerkedjorna är källbelagda."
   ]
 }
