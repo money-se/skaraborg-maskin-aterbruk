@@ -256,12 +256,19 @@
       "title": "MTD illustrated parts list 769-01641C",
       "document": "Illustrated transaxle variant 618-04041A and housing 719-04017, 719-04018; 19 oz 737-0148, 2 oz Unirex N3 737-0289 upper housing note",
       "url": "https://apps.mtdproducts.com/manuals/769-01641c.pdf"
+    },
+    {
+      "id": "mtd-77010115a-sears-original-pdf",
+      "tier": 1,
+      "title": "MTD Transmatic lawn tractors 660 thru 679 operator manual",
+      "document": "MTD Products FORM NO. 770-10115A (10/99), 28-page PDF via Sears PartsDirect",
+      "url": "https://c.searspartsdirect.com/doc/L0403120"
     }
   ],
   "topics": {
     "A": {
       "state": "gap",
-      "note": "MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat. Tillverkarens officiella serienummerguide visar att position 2–5 kodar datum, men ensamt års-tecken 0 är inte unikt för ett årtionde. Identifiera hela märkningen före års-/deckval. I äldre MTD 600-seriehandbok anges identifiering via fyra axelspår (400 två, 300/500 inga), men detta gäller historiska revisioner och får inte användas för säker datering av 2000-exemplar."
+      "note": "MTD:s 2001-korsreferens bekräftar Yard Machines / Lowes 062 för 13BH670F062. 2000 och 2001 katalogindex förekommer; ingen enskild maskins tillverkningsår är identifierat. Tillverkarens officiella serienummerguide visar att position 2–5 kodar datum, men ensamt års-tecken 0 är inte unikt för ett årtionde. Identifiera hela märkningen före års-/deckval. I äldre MTD 600-seriehandbok anges identifiering via fyra axelspår (400 två, 300/500 inga), men detta gäller historiska revisioner och får inte användas för säker datering av 2000-exemplar. MTD-originalmanual 770-10115A instruerar att modell- och serienummerskylt finns under framfällt säte vid sätesfästet."
     },
     "B": {
       "state": "gap",
@@ -277,7 +284,7 @@
     },
     "E": {
       "state": "gap",
-      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering."
+      "note": "Korsreferenser för 2000 och 2001 anger olika fram- och bakhjulsnummer; reservdelar måste bindas till tillverkningsrevision. PartsTree 2000-spränglistan innehåller både round- och square-shoulder framhjul vilket förhindrar automatisk passformsbestämning från katalogår. PartsTrees 2000-ritningsregister listar alternativa främre pendelaxlar 683-0128A (stål) och 719-0342A (gjutjärn), vilket kräver fysisk identifiering. Familjemanualen anger toe-in 1/16–5/16 tum endast för justerbar styrstång."
     },
     "F": {
       "state": "gap",
@@ -285,11 +292,11 @@
     },
     "G": {
       "state": "gap",
-      "note": "Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell."
+      "note": "Säkerhetsbrytare och körbegränsningar måste läsas ur manualen för exakt modell. Originalmanualen anger att rembyte inte kräver att maskinen tippas trots hur figurerna ritats."
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning. Sears gemensamma modellindex innehåller också 42-tums Deck G (kniv 742-0616) och 46-tums Deck H (983-0120A), men inga av dessa indexträffar styrker fysisk leverans för denna maskin. Oberoende spegel av original-PDF 770-2000XREF.2 återger 2000-raden 42 tum Deck G på PDF sida 27 (index 26), men bildhämtning misslyckades; 38-tums partslistakonflikten kvarstår. Ytterligare modellspecifik återförsäljarkatalog (AppliancePartsPros 2000) anger Deck F, men originalkorsreferensen för 2000 anger Deck G. Operatörsmanualens BLADES STOP-kontroll används för remfrikoppling; instruktionen skiljer inte Deck F från G. Figur 14 i originalmanualen omfattar 38 respektive 42/46 tum som olika aggregattyper; manualen bevisar inte vilket som levererades med 13BH670F062. Knivmutter 840–1080 in-lb är familjemoment."
     },
     "I": {
       "state": "gap",
@@ -297,7 +304,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept. Bildgranskad MTD/White originalillustration för 618-0163B anger 15 oz (426 ml) Shell Darina 737-0148, medan tidigare teknisk handbok anger 10 oz för sin angivna version. Servicemängd är därmed versionsspecifik och kan inte extrapoleras till varje 13BH670F062. Ytterligare textavsnitt i samma MTD-handbok (6-15) anger 14 oz Shell Durina #0 vid återmontering, utöver handbokens 10 oz och originalritningens 15 oz för 618-0163B. Exakt avsnitt/variant kräver sidbild och modellbindning. Senare MTD-IPL 769-01641C redovisar 19 oz 737-0148 med helt andra hus- och differentialnummer samt separat 2 oz Unirex N3 i ingående axelns hålrum. Inte tillämplig på 13BH670F062 utan bevis."
+      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin. Originalhandbok för den angivna 600-serietransaxeln föreskriver fabriksförseglad smörjning och 10 oz Shell Durina 737-0148 först vid demontering; fysisk enhetsidentifiering krävs innan det används som servicerecept. Bildgranskad MTD/White originalillustration för 618-0163B anger 15 oz (426 ml) Shell Darina 737-0148, medan tidigare teknisk handbok anger 10 oz för sin angivna version. Servicemängd är därmed versionsspecifik och kan inte extrapoleras till varje 13BH670F062. Ytterligare textavsnitt i samma MTD-handbok (6-15) anger 14 oz Shell Durina #0 vid återmontering, utöver handbokens 10 oz och originalritningens 15 oz för 618-0163B. Exakt avsnitt/variant kräver sidbild och modellbindning. Senare MTD-IPL 769-01641C redovisar 19 oz 737-0148 med helt andra hus- och differentialnummer samt separat 2 oz Unirex N3 i ingående axelns hålrum. Inte tillämplig på 13BH670F062 utan bevis. Familjemanualen ger 25 h/säsong styrväxelfett och årlig SAE 30 för reglagelänkage, skilt från transaxelns fett. Den avråder från högtryckstvätt."
     },
     "K": {
       "state": "gap",
@@ -1293,6 +1300,78 @@
       "grade": "B",
       "sourceId": "mtd-parts-76901641c-modern-transaxle",
       "locator": "Transaxle IPL note: 'If rebuilding the upper housing, include two ounces (2 oz.) of Unirex N3 grease (Part No. 737-0289) in the input shaft cavity'"
+    },
+    {
+      "id": "mtd-om-deck-figure-three-sizes",
+      "topic": "H",
+      "statement": "Originalmanualens figur 14 skiljer mellan 38-tumsaggregat och gemensamt 42/46-tumsutförande när stabiliseringsaxelns länkar visas. Manualen är alltså avsedd för flera aggregatutföranden; dess illustration kan inte ensam identifiera levererat aggregat på 13BH670F062.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 15 (tryckt sida 16), Figure 14, labels 38 inch Decks and 42 and 46 inch Decks"
+    },
+    {
+      "id": "mtd-om-locate-seat-model-plate",
+      "topic": "A",
+      "statement": "Originalmanualen för Transmatic 660–679 anger att modell- och serienummer sitter vid sätesupphängningen och hittas genom att vika sätet framåt. Fullständig skylt ska avläsas före versionsbunden reservdelsbeställning.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 1 (tryckt sida 2), FINDING MODEL NUMBER, seat pivot bracket"
+    },
+    {
+      "id": "mtd-om-adjustable-tie-rod-toein",
+      "topic": "E",
+      "statement": "Originalmanualen anger framhjulens toe-in 1/16–5/16 tum och visar justering av parallellstag endast på maskiner med justerbart parallellstag. Denna specifikation är villkorad och får inte tillämpas på en fast styrstång.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 16–17 (tryckt sidor 17–18), Wheel Adjustment Units With Adjustable Tie Rod, Fig. 18–19"
+    },
+    {
+      "id": "mtd-om-steering-gears-lube-25h",
+      "topic": "J",
+      "statement": "Originalmanualen anger smörjning av styrväxelns kuggar med universalfett för fordonsbruk var 25:e drifttimme eller en gång per säsong, samt lättolja på rattaxeln minst en gång per säsong.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 17 (tryckt sida 18), SECTION 7 SERVICE, Steering Gears and Steering Shaft"
+    },
+    {
+      "id": "mtd-om-linkage-lube-seasonal",
+      "topic": "J",
+      "statement": "Originalmanualen anger smörjning av ledpunkter för koppling, broms och lyftlänkage en gång per säsong med motorolja SAE 30. Detta avser länkage och är inte en rekommendation om smörjmedel inuti transaxeln.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 18 (tryckt sida 19), SECTION 7 SERVICE, Linkage"
+    },
+    {
+      "id": "mtd-om-blade-flange-torque",
+      "topic": "H",
+      "statement": "Originalmanualen anger åtdragningsmoment 840–1080 in-lb för knivens flänsmutter; detta är en familjeuppgift som inte ersätter kontroll av faktisk knivinfästning och revision.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 19 (tryckt sida 20), Blade Mounting Torque, Hex Flange Nut"
+    },
+    {
+      "id": "mtd-om-deck-avoid-pressure-wash",
+      "topic": "J",
+      "statement": "Originalmanualen avråder från högtryckstvätt och trädgårdsslang på maskinen eftersom vatten kan skada elkomponenter, spindlar, remskivor, lager och motor. Undersidan av aggregatet ska i stället rengöras efter varje klippning.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 19 (tryckt sida 20), Cleaning Engine And Deck"
+    },
+    {
+      "id": "mtd-om-drive-belt-no-need-tip",
+      "topic": "G",
+      "statement": "Originalmanualen anger att ritningar över rembyte illustreras med maskinen uppställd men att det inte krävs att åkgräsklipparen tippas för att byta remmar. Om maskinen ändå tippas krävs särskilda försiktighetsåtgärder mot bränsleläckage och batteririsk.",
+      "variant": "MTD Transmatic 660–679, originalmanual 770-10115A (10/99); generell modellfamilj, inte bekräftad full utrustning på 13BH670F062",
+      "grade": "A",
+      "sourceId": "mtd-77010115a-sears-original-pdf",
+      "locator": "PDF index 20 (tryckt sida 21), Belt Removal And Replacement"
     }
   ],
   "gaps": [
