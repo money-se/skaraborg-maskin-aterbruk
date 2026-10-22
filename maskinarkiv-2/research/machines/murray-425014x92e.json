@@ -88,6 +88,13 @@
       "title": "Murray 425014X92E chassis and enclosures OEM parts table",
       "document": "425014X92E (96014000100), CHASSIS AND ENCLOSURES printed p.35",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/35"
+    },
+    {
+      "id": "murray-014e-engine-p41-oem",
+      "tier": 2,
+      "title": "Murray 425014X92E Briggs engine installation OEM catalog",
+      "document": "425014X92E (96014000100), ENGINE printed p.41",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/41"
     }
   ],
   "topics": {
@@ -104,7 +111,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Briggs 282H07 katalogförd; montagekomponenter som gas-/chokereglage och ljuddämparpackning belagda men fullständigt motor-Type/Code saknas fortfarande."
+      "note": "OEM ENGINE s.41: Briggs 282H07 (Type/Code okända), tank 187750, ljuddämpare 137352, packning 165291, oljedränering 148456 och reglage. Fullständiga motorinre reservdelar kräver motorns separat märkta Type/Code."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -1992,6 +1999,193 @@
       "sourceId": "murray-014e-chassis-p35-original",
       "grade": "B",
       "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-throttle-choke",
+      "statement": "425014X92E ENGINE anger artikelnummer 170551.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 1",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-throttle-screw",
+      "statement": "425014X92E ENGINE anger artikelnummer 17720408.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 2",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-muffler",
+      "statement": "425014X92E ENGINE anger artikelnummer 137352.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 4",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-muffler-gasket",
+      "statement": "425014X92E ENGINE anger artikelnummer 165291.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 13",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-oil-drain-tube",
+      "statement": "425014X92E ENGINE anger artikelnummer 148456.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 14",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-heat-guard",
+      "statement": "425014X92E ENGINE anger artikelnummer 169837.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 23",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-clutch-cable",
+      "statement": "425014X92E ENGINE anger artikelnummer 167994.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 25",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-spark-arrestor",
+      "statement": "425014X92E ENGINE anger artikelnummer 137180.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 29",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-fuel-tank",
+      "statement": "425014X92E ENGINE anger artikelnummer 187750.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 31",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-fuel-cap",
+      "statement": "425014X92E ENGINE anger artikelnummer 140527.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 32",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-fuel-hose-clamp",
+      "statement": "425014X92E ENGINE anger artikelnummer 123487X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 33",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-fuel-line",
+      "statement": "425014X92E ENGINE anger artikelnummer 137040.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 37",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-oil-plug",
+      "statement": "425014X92E ENGINE anger artikelnummer 181654.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 38",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-snap-bushing",
+      "statement": "425014X92E ENGINE anger artikelnummer 124028X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 40",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-engine-screw",
+      "statement": "425014X92E ENGINE anger artikelnummer 17670412.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 44",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-engine-washer",
+      "statement": "425014X92E ENGINE anger artikelnummer 19091416.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 46",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-deep-engine-nut",
+      "statement": "425014X92E ENGINE anger artikelnummer 73510400.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ENGINE printed p.41 key 81",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
