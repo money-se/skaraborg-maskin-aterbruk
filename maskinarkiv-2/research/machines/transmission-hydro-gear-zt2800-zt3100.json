@@ -60,6 +60,20 @@
       "title": "Hydro-Gear ZT-2800 ZT-3100 ZT-3200 Service Schematic 71370 P64",
       "document": "Service schematic 71370 P64, revision printed 2020-12-29; original Hydro-Gear drawing hosted by WorldLawn",
       "url": "https://worldlawn.com/wp-content/uploads/2021/03/ZT-2800-ZT-3100-ZT-3200.pdf"
+    },
+    {
+      "id": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "tier": 2,
+      "title": "Hydro-Gear model-specific service schematic ZJ-GCEE-3B5A-1FXX",
+      "document": "71370-P39, three-page OEM schematic reproduced by Stevens Group Dealer",
+      "url": "https://www.stevensgroupdealer.co.nz/sites/default/files/ZJ-GCEE-3B5A-1FXX%20601019.pdf"
+    },
+    {
+      "id": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "tier": 2,
+      "title": "Hydro-Gear model-specific service schematic ZJ-GMEB-5LDB-2DXX",
+      "document": "71370-P72, three-page OEM service schematic republished by ManualsPlus",
+      "url": "https://manuals.plus/m/3fa8c3b3ee23268c804b52cd2a8d877161930d29c8a4efc2ad37440c7d98a0cb.pdf"
     }
   ],
   "topics": {
@@ -1655,6 +1669,366 @@
       "sourceId": "hg-schematic-71370-p64-2020",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "bom-compare-seal-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är tätningssats pos.200 specificerad som 71410. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 200; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-seal-kit-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är tätningssats pos.200 specificerad som 73107. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 200; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-center-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är mittsektionssats pos.201 specificerad som 71561. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 201; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-center-kit-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är mittsektionssats pos.201 specificerad som 72535. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 201; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-input-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är ingående axelsats pos.210 specificerad som 71442. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 210; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-input-kit-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är ingående axelsats pos.210 specificerad som 73047. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 210; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-tool-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är navavdragare/serviceverktyg pos.209 specificerad som 71241. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 209; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-tool-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är navavdragare/serviceverktyg pos.209 specificerad som 72320. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 209; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-tube-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är laddpumpens rör pos.130 specificerad som 52157. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 130; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-tube-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är laddpumpens rör pos.130 specificerad som 54501. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 130; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-oring-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är laddpumpens o-ring pos.132 specificerad som 52250. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 132; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-oring-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är laddpumpens o-ring pos.132 specificerad som 55204. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 132; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-guard-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är oljefilterskydd pos.106 specificerad som 53655. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 106; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-guard-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är oljefilterskydd pos.106 specificerad som 73041. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 106; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-control-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är reglage-/rtn-sats pos.211 specificerad som 71633. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 211; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-control-kit-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är reglage-/rtn-sats pos.211 specificerad som 71588. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 211; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-shaft-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bromsaxel eller bromsaxelsats pos.101 specificerad som 52651. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 101; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-shaft-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bromsaxel eller bromsaxelsats pos.101 specificerad som 72046. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 101; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-arm-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bromsarm/handtag pos.102 specificerad som 53973. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 102; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-arm-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bromsarm/handtag pos.102 specificerad som 71957. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 102; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är drivaxelsats pos.212 specificerad som 71569. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 212; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-kit-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är drivaxelsats pos.212 specificerad som 71569. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 212; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-filter-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är oljefilter pos.23 specificerad som 52114. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 23; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-filter-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är oljefilter pos.23 specificerad som 52114. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 23; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-bypass-arm-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bypassarm pos.34 specificerad som 51629. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 34; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-bypass-arm-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bypassarm pos.34 specificerad som 51910. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 34; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-motor-block-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är motorcylinderblock pos.64 specificerad som 71579. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 64; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-motor-block-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är motorcylinderblock pos.64 specificerad som 72882. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 64; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är fyrbultsnav pos.97 specificerad som 71405. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 97; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-kit-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är fyrbultsnav pos.97 specificerad som 71446. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 97; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-pawl-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bromspuck pos.100 specificerad som 52766. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 100; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-pawl-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bromspuck pos.100 specificerad som 52766. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 100; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-pump-gerotor-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är gerotor pos.131 specificerad som 50273. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 131; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-pump-gerotor-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är gerotor pos.131 specificerad som 50273. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 131; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-housing-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är laddpumpshus pos.133 specificerad som 53738. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 133; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-housing-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är laddpumpshus pos.133 specificerad som 53738. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 133; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-seal-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är drivaxeltätning pos.96 specificerad som 53699. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 96; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-seal-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är drivaxeltätning pos.96 specificerad som 53699. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 96; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är olja pos.14, 20w50 och 70,3 us fl oz specificerad som 20W50 / 70,3 oz. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 14; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-p72",
+      "statement": "I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är olja pos.14, 20w50 och 70,3 us fl oz specificerad som 20W50 / 70,3 oz. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 14; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "B",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1685,6 +2059,7 @@
     "För mittsektionssats pos.201 måste samtliga char 3/5/6/7 och källrevision kontrolleras mot etikett; artikel 71561–71564 är uttryckliga P64-rader, inte generell passform.",
     "Kontrollera schemarevision efter P64 samt komplett 14-teckens Hydro-Gear-modellkod/serienummer före beställning av axelsats 71569/71570, navsats eller RTN-sats.",
     "Större P64-paket sidbildsverifierat 2026-10-22; samtliga artikelnummer gäller 71370 P64 2020-12-29. Senare ersättningsnummer och faktisk kund-BOM/serienummer återstår. Ingen generell kompatibilitet får utlovas.",
-    "P64 supports precise BOM-code lookup for additional control arms, RTN kits, axle/hub variants, shaft gears and tools; confirm replacement supersessions and exact serial number before a purchase recommendation."
+    "P64 supports precise BOM-code lookup for additional control arms, RTN kits, axle/hub variants, shaft gears and tools; confirm replacement supersessions and exact serial number before a purchase recommendation.",
+    "P39 och P72 är två olika fullständiga modeller. Skillnader mellan deras artikelnummer är INTE bevis på ersättningskedjor. Undersök BOM-identisk utgåvehistorik för supersessionsverifiering."
   ]
 }
