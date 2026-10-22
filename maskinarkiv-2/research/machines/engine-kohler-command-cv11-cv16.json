@@ -1816,6 +1816,123 @@
       "topic": "J",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-tool-hydraulic-lifter-ko1044",
+      "statement": "Kohler TP-2339-D listar SPX KO1044 som specialverktyg för demontering och montering av hydrauliska ventillyftare.",
+      "variant": "CV11–16/CV460–465/CV490–495 med hydrauliska lyftare",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-vacuum-ko1048",
+      "statement": "Kohler TP-2339-D listar SPX KO1048 som vattenmanometer för mätning av vevhusvakuum och avgasmottryck. Detta är inte en oljetrycksmätare.",
+      "variant": "Command CV11–16/CV460–465/CV490–495 med angiven mätanslutning",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-tachometer-ko3216",
+      "statement": "Kohler TP-2339-D listar SPX KO3216 som induktiv varvräknare för kontroll av motorns arbetshastighet i rpm.",
+      "variant": "Command CV11–16/CV460–465/CV490–495, induktiv rpm-mätning",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-ammeter-ko3218",
+      "statement": "Kohler TP-2339-D listar SPX KO3218 som amperemetersats för strömmätning i laddnings- och startkretsar.",
+      "variant": "Command elsystem enligt TP-2339-D; mätgränser varierar med systemtyp",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-leakdown-ko3219",
+      "statement": "Kohler TP-2339-D listar SPX KO3219 som cylinderläckageprovare för att undersöka tätning i cylinder, kolv, ringar och ventiler. Verktyget ersätter inte mätvärdesregler i respektive felsökningsavsnitt.",
+      "variant": "Command CV11–16/CV460–465/CV490–495, cylinderläckagetest",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-oil-pressure-ko3220",
+      "statement": "Kohler TP-2339-D listar SPX KO3220 som oljetrycksprovsats för trycksmorda motorer; den mäter verkligt oljetryck och ska skiljas från Oil Sentry-brytarprov.",
+      "variant": "Command med trycksmörjning enligt Kohler TP-2339-D",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-starter-service-ko3226",
+      "statement": "Kohler TP-2339-D listar SPX KO3226 för service av elektriska startmotorer inklusive solenoidstyrt drev.",
+      "variant": "Command med elektrisk startmotor enligt TP-2339-D",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-starter-retainer-ko1049",
+      "statement": "Kohler TP-2339-D listar SPX KO1049 för demontering och montering av drivhållare på flertalet startmotorer med tröghetsdrev; annat än solenoidstartsats KO3226.",
+      "variant": "Command med inertia-drive electric starter enligt TP-2339-D",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-rectifier-ko3221",
+      "statement": "Kohler TP-2339-D listar SPX KO3221 som provare för likriktare/regulator; korrekta testvärden är fortfarande bundna till aktuellt laddningssystem.",
+      "variant": "Command med rectifier/regulator enligt TP-2339-D",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-sam-ko3222",
+      "statement": "Kohler TP-2339-D listar SPX KO3222 som provare för Smart Spark-systemets separata Spark Advance Module (SAM), och den får inte förväxlas med gnistprovarna KO1046 och KO1047.",
+      "variant": "Command med Smart Spark SAM enligt TP-2339-D",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-vacuum-pressure-ko3223",
+      "statement": "Kohler TP-2339-D listar SPX KO3223 som portabel vakuum-/tryckprovare med samma allmänna testområde som vattenmanometern KO1048.",
+      "variant": "Command, prov av vevhusvakuum och mottryck enligt TP-2339-D",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tool-spanner-oem6200",
+      "statement": "Kohler TP-2339-D listar OEM6200 som hak-/specialnyckel för montering av stötstänger eller rotation av vevaxeln vid vissa servicearbeten.",
+      "variant": "Command serviceprocedurer enligt TP-2339-D",
+      "topic": "I",
+      "locator": "Section 2 printed p.2.2, PDF index 17, Diagnostic and Repair Tools table",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-rtv-loctite5900-2559707",
+      "statement": "Kohler TP-2339-D föreskriver Loctite 5900 RTV som rekommenderat tätningsmedel mellan vevhus och täckplatta samt mellan ventilkåpa och cylinderhuvud, med Kohler-artikelnummer 25 597 07-S. Följ servicebulletin 252 och särskilda ytkrav.",
+      "variant": "Command med RTV-tätad täckplatta/ventilkåpa enligt TP-2339-D",
+      "topic": "K",
+      "locator": "Section 2 printed p.2.1, PDF index 16, RTV Silicone Sealant",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1854,6 +1971,7 @@
     "Renoveringsvärden för vevaxel, vevstake och kamaxel kräver mätning enligt TP-2339-D, identifiering av vevstaksbultens profil och aktuell motor/Spec. No.; dessa får inte användas som generella momentspecifikationer.",
     "Oljetrycksbegränsningsventilen är inte Oil Sentry-kontaktvakten. Kontrollera äldre femdelad kontra senare endelad ventil i faktisk oljetrågs-/täcksplattvariant innan reservdel och monteringsmetod väljs.",
     "Kohler snörstart: komplett startapparat och spärrkloreparationssats kräver Spec. No. och originalreservdelskatalog för artikelnummer; fjädermomenten är säkerhetskritiska och full manualmetod ska följas.",
-    "Topplocks- och ventilprocedurer i TP-2339-D gäller olika vipparmsutföranden. Kontrollera exakt topplock, Spec. No., bultlängd, distans, hydraullyftare och gällande servicebulletiner före montering."
+    "Topplocks- och ventilprocedurer i TP-2339-D gäller olika vipparmsutföranden. Kontrollera exakt topplock, Spec. No., bultlängd, distans, hydraullyftare och gällande servicebulletiner före montering.",
+    "SPX/Kohler verktygsnummer i historisk TP-2339-D visar dåtida originaltestverktyg, inte automatiskt dagens lagerstatus, ersättningsnummer eller kompatibilitet med annan generations motorer."
   ]
 }
