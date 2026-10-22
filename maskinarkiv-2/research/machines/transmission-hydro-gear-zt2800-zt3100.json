@@ -98,9 +98,9 @@
   "claims": [
     {
       "id": "zt2800-motor-pump",
-      "statement": "Hydro-Gear anger för ZT-2800-familjen 10,2 cm³/varv pump och 16 cm³/varv hydraulmotor.",
+      "statement": "Hydro-Gear anger för ZT-2800-familjen 10 cm³/varv pump och 16 cm³/varv hydraulmotor.",
       "variant": "ZT-2800 produktfamilj, utan unik OEM BOM-kod",
-      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement; tillverkarens pumpvärde korrigerat 2026-10-22 från felaktiga 10,2 till 10",
       "sourceId": "hg-zt2800-original-product",
       "grade": "A",
       "topic": "D"
@@ -143,9 +143,9 @@
     },
     {
       "id": "zt3100-motor-pump",
-      "statement": "Hydro-Gear anger för ZT-3100-familjen 10,2 cm³/varv pump och 16 cm³/varv hydraulmotor.",
+      "statement": "Hydro-Gear anger för ZT-3100-familjen 10 cm³/varv pump och 16 cm³/varv hydraulmotor.",
       "variant": "ZT-3100 produktfamilj, utan unik OEM BOM-kod",
-      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement; tillverkarens pumpvärde korrigerat 2026-10-22 från felaktiga 10,2 till 10",
       "sourceId": "hg-zt3100-original-product",
       "grade": "A",
       "topic": "D"
@@ -815,6 +815,33 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "C"
+    },
+    {
+      "id": "p24-zt2800-charged-speed-limit",
+      "statement": "BLN-52441 P24:s tekniska familjetabell skiljer ZT-2800 utan laddpump, högsta obelastade ingångsvarv 3000 rpm, från ZT-2800 med laddpump 3600 rpm; minimum anges till 1800 rpm. Aktuellt produktblad listar 3000 rpm utan att specificera denna uppdelning.",
+      "variant": "ZT-2800 med respektive utan laddpump, BLN-52441 P24",
+      "locator": "Tryckt sida 6 TECHNICAL SPECIFICATIONS, Input Speeds; PDF texttabell (sidbild kunde inte hämtas i webbverktyget)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "p24-filter-rating",
+      "statement": "BLN-52441 P24 anger 25 mikron nominell och 40 mikron absolut filtreringsgrad för sugfilter som gemensam familjespecifikation. Detta är filterklassning, inte artikelnummer eller universell passform.",
+      "variant": "ZT-2800/3100/3200 enligt BLN-52441 P24",
+      "locator": "Tryckt sida 6 TECHNICAL SPECIFICATIONS, Filter Rating, PDF texttabell (ej sidbildsverifierad)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "p24-zt3200-distinct-axle-and-rating",
+      "statement": "I BLN-52441 P24:s familjetabell listas ZT-3200 med 28,575 mm (1,125 tum) axel, 680 kg angiven högsta maskinvikt och upp till 637 Nm utgångsmoment, jämfört med 25,4 mm axel för ZT-2800/3100. Skillnaden är familjebunden och inte en OEM-lastgräns.",
+      "variant": "ZT-3200 jämfört med ZT-2800/3100, BLN-52441 P24",
+      "locator": "Tryckt sida 6 TECHNICAL SPECIFICATIONS, Axle Shaft Diameter / Gross Vehicle Weight / Output Torque (texttabell; bildkontroll återstår)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "F"
     }
   ],
   "gaps": [
@@ -835,6 +862,7 @@
     "Drivaxeldelar och tätningar: verifiera full Hydro-Gear BOM-/seriekod samt online-sprängskiss före beställning; ZT-3200 har annat axelutförande än ZT-2800/3100.",
     "Gör riktad jämförelse mellan P23/P24/P25 för sidokåpsmoment och tätning innan generella verkstadsinstruktioner publiceras; nu verifierade värden gäller uttryckligen P25.",
     "Äldre manualversion med 65 in-lb för filterkåpans skruvar behöver identifieras med exakt publiceringsdatum/dokumentrevision; tillgänglig P23 (april 2021) anger 115 in-lb. Förväxla inte med P25:s separata position 23 oljefilter, 70–90 lb-in.",
-    "Fastställ om konkret ZT-2800 är charged eller uncharged via komplett Hydro-Gear BOM och OEM-dokument före diagnos, laddpumpsbeställning eller användning av hydrauliskt schema."
+    "Fastställ om konkret ZT-2800 är charged eller uncharged via komplett Hydro-Gear BOM och OEM-dokument före diagnos, laddpumpsbeställning eller användning av hydrauliskt schema.",
+    "Jämför aktuellt ZT-2800-produktblad (3000 rpm) med P24 servicehandbok (3000 rpm non-charge, 3600 rpm charged) mot fullständigt BOM och vid behov fråga Hydro-Gear vilket ingångsvarvtal som gäller den aktuella enheten."
   ]
 }
