@@ -314,6 +314,105 @@
       "grade": "A",
       "sourceId": "stiga-park-12-joker-1171-1997-ipl",
       "locator": "Original IPL PDF s.3, främre ram pos.20–22"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-steer-chain",
+      "topic": "E",
+      "statement": "Styrningens originaltabell anger kedja 1134-2820-01 med 79 länkar (pos.15) och fyra kedjehjul 1134-2816-01 (pos.9). Detta gäller styrningen, inte transaxelns backkedja.",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.21 styrning pos.9,15"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-steer-shims",
+      "topic": "E",
+      "statement": "Styrningens pos.26 listar två distinkta brickor: 9699-0114-02 på 1,0 mm och 9699-0103-02 på 0,5 mm. Dessa är katalogiserade val, inte godkänd egenjustering.",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.21 styrning pos.26"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-steer-bushing",
+      "topic": "E",
+      "statement": "Styrgruppen anger tre bussningar 1134-0041-01 (pos.3) och fyra 1134-0041-02 (pos.11). Numren har skilda positionsfunktioner.",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.21 styrning pos.3,11"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-seat-attachments",
+      "topic": "B",
+      "statement": "Sitsenheten listar höger sitsfäste 1134-3618-01 (pos.6), vänster 1134-3618-02 (pos.10) och två adapterdelar 1134-2961-01 (pos.2).",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.23 sits pos.2,6,10"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-lift-assembly",
+      "topic": "H",
+      "statement": "Manuell redskapslyft är katalogiserad som komplett 1134-0410-08 (pos.0), med lyftaxel 1134-1884-01 (pos.9) och låshake 1134-2911-01 (pos.10). Detta identifierar lyftsystem, inte aggregatkompatibilitet.",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.25 Manuell redskapslyft pos.0,9–10"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-lift-bearings",
+      "topic": "H",
+      "statement": "Manuell redskapslyft anger två lager 1134-2684-01 (pos.13) och lyftsegment 1134-0536-00 (pos.14).",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.25 Manuell redskapslyft pos.13–14"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-pto-belt",
+      "topic": "H",
+      "statement": "Kraftuttagsremmen på originaltabellens pos.57 är 1134-9012-01 med tryckt referens =9585-0056-00. Den skiljer sig från transmissionens drivrem 1134-9035-01 (pos.10).",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.9 Kraftuttag pos.57, s.15 Transmission pos.10"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-pto-brake-part",
+      "topic": "G",
+      "statement": "Kraftuttagsbromsgruppen anger broms 1134-2524-01 på pos.12 samt fjäder 1134-3633-01 på pos.20, skilda från bromsdelar inne i MST205-529A.",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.13 Kraftuttagsbroms pos.12,20"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-trans-shifter",
+      "topic": "F",
+      "statement": "Yttre transmissionsreglage omfattar växelspakkomplett 1134-2328-01 (pos.70), växelarm 1134-3279-01 (pos.76) och knopp 1134-2551-01 (pos.75).",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.17 Transmission pos.70,75–76"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-battery-solenoid",
+      "topic": "I",
+      "statement": "Elsystemet anger solenoidkomplett 1134-2962-01 på pos.12 med notering att pos.14–15 ingår samt batterikabel plus 1134-0234-01 på pos.9. Batteriidentifiering måste göras separat.",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.19 Elsystem pos.9,12"
+    },
+    {
+      "id": "stiga-park-12-joker-1171-1997-fuse-holder",
+      "topic": "I",
+      "statement": "Elsystemet listar säkringshållare 1134-3491-01 och lock 1134-3631-01 som separata rader på pos.16. Säkringens amperevärde framgår inte här.",
+      "variant": "Original-STIGA katalog stiga-park-12-joker-1171-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-joker-1171-1997-ipl",
+      "locator": "PDF s.19 Elsystem pos.16"
     }
   ],
   "gaps": [
@@ -321,6 +420,7 @@
     "Klippaggregatkompatibilitet saknar modellbunden originalmonteringsmanual.",
     "MST205-529A-reservdelsförteckningen anger inte oljebytesintervall eller fyllvolym.",
     "Ingen utbytbarhet med MST205-529C/D eller 1134-3716-02 styrkt.",
-    "STIGA:s elavsnitt listar alternativa kablage 1168/1171/1172 och 1442 samt dubbla sitskonsolnummer. Tillverkarens serienummergräns och godkänd ersättningsrelation saknas."
+    "STIGA:s elavsnitt listar alternativa kablage 1168/1171/1172 och 1442 samt dubbla sitskonsolnummer. Tillverkarens serienummergräns och godkänd ersättningsrelation saknas.",
+    "Originalreservdelstabeller visar styrkedja, variantberoende sitsar, två separata kraftöverföringsremmar samt säkringshållare; kontroll av serviceprocedurer, styrlänkagejustering, säkringens värde och faktisk aggregatmontering saknas."
   ]
 }
