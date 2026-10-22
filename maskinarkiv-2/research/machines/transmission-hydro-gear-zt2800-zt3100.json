@@ -1009,6 +1009,51 @@
       "sourceId": "hg-cadenas-official-configurator",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "cad-shock-bleed-matrix",
+      "statement": "Konfiguratorns båda backventilväljare visar sex kodalternativ A–F: utan chockventil med bleed .000/.027/.044 och med 220 bar chockventil med samma tre bleed-alternativ. Detta är valbara versioner, inte bevis för monterad ventil på given BOM.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Check Valve Axle Rot.A/B and CW Input Axis; lines 78–92",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-brake-arm-codes-s-9",
+      "statement": "Konfiguratorn anger S=internal cog lip seal och 9=internal cog, no arm, lip seal som två skilda brake arm/style-koder. Kod 9 kan därför inte antas ha extern bromsarm.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Brake Arm and Style; lines 94–108",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-axle-end-length-options",
+      "statement": "Konfiguratorn separerar axeländens val 3.6° taper, 4-bolt 7/16, 4-bolt 1/2 samt 7/16 och 1/2 offset från axellängdsvalen 9 och 11 tum. Alla värden är konfigurationsalternativ, inte garanterad kompatibilitet.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Axle End and Studs, Axle Length; lines 66–77",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-control-type-options",
+      "statement": "Konfiguratorns reglagealternativ omfattar NEUTL LOCK, NO ARM och NO NEUTL LOCK, separat från reglagets inboard/outboard-sida. Reglageutförande måste verifieras före val av ersättningsarm.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Control Side / Control Type; lines 109–124",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-fan-mount-options",
+      "statement": "Fläkt-/remskivevalen omfattar None, Fan Above och Fan Below. Konfiguratorn visar Fan and Pulley Kit # som streck för visat exempel och bekräftar därmed inte något beställningsnummer för denna BOM.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Fan to Pulley Configuration / Kit #; lines 135–150",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1033,6 +1078,7 @@
     "Jämför aktuellt ZT-2800-produktblad (3000 rpm) med P24 servicehandbok (3000 rpm non-charge, 3600 rpm charged) mot fullständigt BOM och vid behov fråga Hydro-Gear vilket ingångsvarvtal som gäller den aktuella enheten.",
     "Identifiera fullständig ZT-3200 BOM-kod innan laddpump, performance package, navände eller axelsats väljs; produktbladet listar tillval snarare än garanterad montering.",
     "En fullständig BOM-modellkod identifierar attribut men artikelnummer måste fortfarande hämtas från enhetens online service schematic; de 14 kodtecknen är inte en lista med reservdelsnummer.",
-    "CAD-konfiguratorns reglagearmnummer 51631 och 51841 är attributalternativ; verifiera orderbarhet, BOM-kompatibilitet och eventuella ersättningsnummer via Hydro-Gears service schematic."
+    "CAD-konfiguratorns reglagearmnummer 51631 och 51841 är attributalternativ; verifiera orderbarhet, BOM-kompatibilitet och eventuella ersättningsnummer via Hydro-Gears service schematic.",
+    "För valen chockventil A–F, bromskod S/9 och axeländarnas mått krävs faktisk BOM-specifik service schematic och fysisk märkplåt innan delar beställs."
   ]
 }
