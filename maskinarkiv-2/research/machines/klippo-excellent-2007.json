@@ -186,6 +186,13 @@
       "title": "KLIPPO EXCELLENT S – RESERVDELSKATALOG 2012",
       "document": "Original-style illustrated parts catalogue, 10-page PDF, sections chassis, gearbox, handle, engine; machine PNC not independently visible in extracted text",
       "url": "https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Grasklippare/Excellent-S/Excellent-S-2012.pdf"
+    },
+    {
+      "id": "wolfswinkel-excellent-s-2013-965227802",
+      "tier": 2,
+      "title": "Wolfswinkel Excellent S 965227802 2013-02 model-specific parts lists",
+      "document": "2013-02 deck, handle, engine and gearbox parts list with drawing positions",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/push-mowers/excellent-s/excellent-s-965227802-2013-02"
     }
   ],
   "topics": {
@@ -1313,6 +1320,141 @@
       "sourceId": "klippo-excellent-s-2012-primary-ipl",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "exs13-transmission-kit",
+      "statement": "Excellent S 2012 års originalkatalog anger växellådssats 578266601, medan 2013-02 års modellbundna reservdelslista anger 585192603 på samma växellådspost 1 och chassipost 22. Ingen direkt ersättning eller identisk infästning är därmed styrkt.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.6 växellåda ref 1, s.4 chassi ref 22; 2013 Gearbox ref 1 / Mower deck ref 22",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-gear-cover",
+      "statement": "Växellådskåpa ref 3 är 578265501 i Excellent S 2012 och 578265502 i 2013-02.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.6 gearbox ref 3; 2013 Gearbox ref 3",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-gear-pulley",
+      "statement": "Remskiva ref 6 är 578771101 i 2012 års växellådsdel, men 587235401 i 2013-02 års lista.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.6 gearbox ref 6; 2013 Gearbox ref 6",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-gear-pulley-assembly",
+      "statement": "Remskiveenhet ref 8 är 503323201 år 2012 och 503323002 i 2013-02 års växellådslista.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.6 gearbox ref 8; 2013 Gearbox ref 8",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-gear-housing",
+      "statement": "Komplett växelhus ref 10 anges 578342801 i 2012 års IPL och 578342802 i 2013-02 års reservdelslista.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.6 gearbox ref 10; 2013 Gearbox ref 10",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-gear-worm",
+      "statement": "Snäckväxelenhet ref 31 ändras i listorna från 503328101 (2012) till 586467101 (2013-02), utan fastställd mekanisk kompatibilitet.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.6 gearbox ref 31; 2013 Gearbox ref 31",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-gear-belt-constant",
+      "statement": "Växellådsrem på position 19 är 589571001 både i 2012 års originalkatalog och 2013-02 års modellbundna lista.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.6 gearbox ref 19; 2013 Gearbox ref 19",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-deck-two-options",
+      "statement": "I 2013-02 års chassilista för Excellent S 965227802 finns två delar på samma ref 21: 505438701 utan hål för remskydd respektive 505438704 med hål för remskydd; den lästa 2012-katalogen listar endast 505438701 i ref 21.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.4 chassis ref 21; 2013 Mower deck ref 21 två artikelrader",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "exs13-gear-chassis-vs-kit",
+      "statement": "2013-katalogen visar växellådssatsen 585192603 som chassipost ref 22 (antal 1) men i växellådans delgrupp ref 1 som överordnat kit (angivet antal 0). De två mängdangivelserna avser olika listnivåer och ska inte tolkas som noll växellådor monterade.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2013 Mower deck ref 22 / Gearbox ref 1",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-engine-belt-constant",
+      "statement": "Motorgruppens drivrem 589571101 finns både i 2012 års originalkatalog och 2013-02 års reservdelslista; skild från växellådsrem 589571001 i båda årgångarna.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.10 motor ref 6; 2013 Engine ref 6 / Gearbox ref 19",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "exs13-engine-blades-2013",
+      "statement": "2013 års motorgrupp för Excellent S 965227802 innehåller knivnumren 502881310 och 502881710, medan 2012 års originalkatalog innehåller 502881310 och 502881701. Nya kortbladnumret får inte behandlas som tillverkarverifierad direkt ersättning.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.10 motor refs 11-12; 2013 Engine list 502881310 och 502881710",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs13-engine-blade-bracket-change",
+      "statement": "Excellent S 2012 katalogens motorgrupp listar knivfäste 502872201 och bussning 503261001 (refs 8–9), medan 2013-02 modellbundna motorlistan listar knivstöd 588824001 i motsvarande motordelen. Monteringssystemet måste därför versionskontrolleras före reservdelsval.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.10 motor refs 8–9; 2013 Engine part list 588824001",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "exs13-handle-cable-change",
+      "statement": "Excellent S 2012 handtagsdel listar kabel 503314001 på ref 9, medan 2013-02 listan anger 585402004 i handtagsdelens motsvarande position. Det visar katalogändring, men inget säkert universellt ersättningsbesked.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.8 handle ref 9; 2013 Handle ref 9",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "exs13-upper-handle-change",
+      "statement": "Excellent S 2012 handtagsdel har handtag 502907401 i ref 5, medan 2013-02 års handtagslista anger 502907403. Fästmått/kompatibilitet behöver originalkontroll.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.8 handle ref 5; 2013 Handle ref 5",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "exs13-bushing-change",
+      "statement": "Excellent S 2012 handtagsdel listar bussning 503320901 som ref 3; 2013-02 års lista har 503320902 på ref 3.",
+      "variant": "KLIPPO Excellent S 2012 originalkatalog jämförd med PNC 965227802 2013-02 sekundär reservdelslista; 2012 PNC behöver slutbekräftas",
+      "locator": "2012 PDF s.8 handle ref 3; 2013 Handle ref 3",
+      "sourceId": "wolfswinkel-excellent-s-2013-965227802",
+      "grade": "B",
+      "topic": "F"
     }
   ],
   "gaps": [
@@ -1337,6 +1479,7 @@
     "Cross-Cut-blad 502881710 dokumenteras som 31 cm och samverkande med 502881310 i leverantörslistor. Den tidigare listade 502881701 (2012) är inte belagd som samma 31cm-del och ska inte slås ihop utan original-IPL/ersättningstabell.",
     "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
     "Verifiera originalritning för Cross-Cut-bladens inbördes montage, centrumhål och fästets geometri samt momentkrav på äldre PNC; 2018 års generella anvisning och eftermarknadsmått räcker inte ensamma.",
-    "Excellent S originalreservdelskatalog 2012 är textavläst men sprängskissens bildkontroll misslyckades; PNC/serienummer saknas i extraherad omslagsinformation. Koppla inte monteringsdetaljerna direkt till Excellent 965227602 utan originalkontroll."
+    "Excellent S originalreservdelskatalog 2012 är textavläst men sprängskissens bildkontroll misslyckades; PNC/serienummer saknas i extraherad omslagsinformation. Koppla inte monteringsdetaljerna direkt till Excellent 965227602 utan originalkontroll.",
+    "Excellent S 2013 reservdelsrevisionsjämförelse indikerar nya växellådsdelar, chassivariant med/utan remskydd och ändrat knivstöd, men 2012-originalkatalogens PNC och fysiska kompatibilitetsgränser måste verifieras innan någon ersättningsmatris får godkännas."
   ]
 }
