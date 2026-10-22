@@ -62,7 +62,7 @@
     },
     "I": {
       "state": "gap",
-      "note": "Originalverkstadshandboken anger oljetryck minst 40 psi efter 90 sekunders tomgång i provbänkskontroll efter motoråtermontering, medan Oil Sentry-brytaren omslår vid 2–5 psi. Värdena har olika syften och får inte blandas samman; normalt drifttryck och maskin-/variantgränser kräver ytterligare belägg."
+      "note": "CV11–15/CV460–465/CV490–495 använder manualens magnettändningsprov (KO1047, 7900–18400 ohm), medan CV16 Smart Spark kräver särskilda KO1046- och SAM-kontroller. Oil Sentry 2–5 psi avser kontakten; oljetryck 40 psi gäller återmonteringsprov."
     },
     "J": {
       "state": "gap",
@@ -675,6 +675,33 @@
       "topic": "J",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-magneto-families-airgap",
+      "statement": "Kohler TP-2339-D beskriver vanlig elektronisk magnettändning för CV11–15/CV460–465/CV490–495, med luftgap 0,2–0,3 mm mellan tändmodul och svänghjul. Tändtidpunkten regleras internt av modulen och kan inte manuellt justeras.",
+      "variant": "CV11–15/CV460–465/CV490–495 magnettändning enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.3, Figure 8-2, PDF page index 60",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-magneto-ko1047-spark-test",
+      "statement": "TP-2339-D anger gnistprovare KO1047 för felsökning av elektronisk magnettändning på CV11–15/CV460–465/CV490–495; tändstiftet ska sitta kvar vid startmotorkörning för normalt startvarvtal. Detta får inte förväxlas med KO1046 för CV16 Smart Spark.",
+      "variant": "CV11–15/CV460–465/CV490–495 konventionell magnettändning",
+      "locator": "Section 8, printed p.8.4, Magneto Ignition System Troubleshooting Guide, Figure 8-3, PDF page index 61",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-magneto-secondary-ohms",
+      "statement": "TP-2339-D anger 7900–18400 ohm för tändmodulens sekundärlindning vid prov mellan lamellpaket och tändkabelns tändstiftsanslutning. Kohler noterar att mätningen förutsätter att modulen har avfyrats minst en gång. Värdet gäller magnettändningen och inte CV16 Smart Spark.",
+      "variant": "CV11–15/CV460–465/CV490–495 konventionell magnettändning enligt TP-2339-D",
+      "locator": "Section 8, printed p.8.4, Magneto Ignition System Troubleshooting Guide, test 4, PDF page index 61",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -700,6 +727,7 @@
     "Oljetryck 40 psi i TP-2339-D p.11.23 avser specifikt återmonteringsprov efter 90 s tomgång. Utred separata originalgränser för normal drift och eventuell motorversionsskillnad före bred felsökningsrekommendation.",
     "Kohler mekanisk bränslepump: komponentnummer, exakt Spec. No.-passning och eventuella ändrade monteringsprocedurer i senare revisionsmanualer är inte verifierade.",
     "Bränsle- och cylinderläckagetest måste utföras enligt fullständig säkerhets- och instrumentanvisning; Kohlers grönt/gult/rött avser specifik läckagetestare och inga generella läckageprocent har verifierats.",
-    "CV16 Smart Spark-mätvärden och KO1046 får inte överföras till Kohlers magnetotändning utan SAM; kontrollera rätt tändsystem och motorns specifikationsnummer."
+    "CV16 Smart Spark-mätvärden och KO1046 får inte överföras till Kohlers magnetotändning utan SAM; kontrollera rätt tändsystem och motorns specifikationsnummer.",
+    "Tändsystemens olika KO1046/KO1047-prov och resistansintervall måste knytas till motorens faktiska Spec. No. innan felsökningsinstruktion publiceras; verifiera också artikelnummer för respektive tändmodul."
   ]
 }
