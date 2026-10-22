@@ -18,6 +18,13 @@
       "title": "Wolfswinkel LT2115CMA Drive catalogue",
       "document": "LT2115CMA j2115cmab 2004-06 Drive",
       "url": "https://www.wolfswinkel.shop/spare-parts-drawings/jonsered/ride-on-mowers/garden-tractors/lt/lt-2115-cma/lt-2115-cma-j2115cmab-954130093-2004-06?wsource=group"
+    },
+    {
+      "id": "easyconcept-j2115cmab-2004-06-alternate-ipl",
+      "tier": 2,
+      "title": "Jonsered LT2115CMA J2115CMAB 2004-06 alternative IPL scan",
+      "document": "J2115CMAB 954130093 2004-06 (alternativ kopia med LT2115CMA ENGINE-rubrik)",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20CMA%20J2115CMAB%20954130093%202004-06/LT2115-CMA-J2115CMAB-954130093-2004-06.pdf"
     }
   ],
   "topics": {
@@ -340,6 +347,28 @@
       "topic": "D",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-engine-header-conflict",
+      "statement": "Den ena 2004-06-kopian har ENGINE-rubrik LT2117CMA (J2117CMAB), produktnummer 954 13 00-93, trots LT2115CMA J2115CMAB på katalogomslaget.",
+      "variant": "LT2115CMA J2115CMAB / 954130093 / 2004-06",
+      "locator": "J2115CMAB Foretjardin PDF, ENGINE, PDF-sida 19 (index 18)",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-parts",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-alternate-engine-header",
+      "statement": "En alternativ 2004-06-kopia anger ENGINE-rubrik LT2115CMA (J2115CMAB), men anger samtidigt produktnummer 954 13 02-16, som inte är samma som omslagets 954130093. Ingen motoridentitet kan fastslås enbart av denna rubrik.",
+      "variant": "LT2115CMA J2115CMAB / 954130093 / 2004-06",
+      "locator": "EasyConcept PDF, ENGINE page header; indexerad text",
+      "sourceId": "easyconcept-j2115cmab-2004-06-alternate-ipl",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -354,6 +383,7 @@
     "Jämförelse 2004-06 mot 2005-05 visar skilda CHASSIS & BOITIER-nummer på positionerna 9, 17, 28, 30, 58 och 89. Katalogtexten kontrollerad men PDF-bildvisning misslyckades; kontroll av bilder, eventuella ersättningsnummer och faktisk passform återstår.",
     "Källkvalitet: 2004-06-PDF för J2115CMAB anger LT2115CMA på omslag och avsnittshuvuden men minst en sprängbildsrubrik anges som LT2117CMA (J2117CMAB). Orsaken till denna interna identitetskonflikt måste utredas mot annan OEM-kopia innan specifika komponenter publiceras.",
     "Ny originalkatalogkopia hittad: EasyConcept 2004-06 J2115CMAB 954130093 visar enligt indexerad ENGINE-rubrik LT2115CMA med produktnummer 954 13 02-16. Foretjardin-kopian anger i motsvarande rubrik LT2117CMA J2117CMAB 954 13 00-93. Skillnaden talar för sammanblandade schemablad; avgör ej motortyp utan dubbelkontroll.",
-    "Wolfswinkels artikelnummer kan vara ersättningsnummer; kräver jämförelse med ursprunglig Jonsered-reservdelskatalog för denna revision."
+    "Wolfswinkels artikelnummer kan vara ersättningsnummer; kräver jämförelse med ursprunglig Jonsered-reservdelskatalog för denna revision.",
+    "IDENTITETSKARANTÄN: två separata ENGINE-rubriker i olika 2004-06-kopior ger LT2117CMA/954130093 respektive LT2115CMA/954130216; motortyp och motordelar från dessa blad ska inte godkännas utan tredje oberoende källa och visuell kontroll."
   ]
 }
