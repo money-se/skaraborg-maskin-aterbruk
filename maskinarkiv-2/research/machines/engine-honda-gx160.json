@@ -171,11 +171,30 @@
       "sourceId": "honda-gx160-tuneup-pdf",
       "grade": "A",
       "topic": "C"
+    },
+    {
+      "id": "gx160-manual-gcaft-serial-split",
+      "statement": "Honda GX160:s officiella amerikanska manualregister delar prefixet GCAFT i serienummerintervallen 1000001–1706983 respektive 1706984–9999999. Det är två separata urvalsposter och är inte bevis för vilka konstruktionsändringar som gjorts.",
+      "variant": "Honda GX160, prefix GCAFT, Honda Engines USA manualväljare",
+      "locator": "GX160 Manuals > English, French & Spanish language manual > GCAFT rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-manual-other-prefixes",
+      "statement": "Hondas GX160-manualväljare anger även fulla intervall 1000001–9999999 för prefixen GCAAH, GCAAK, GCABT, GCAHD, GCBCH, GCBPT och GCBUT. Prefixen är olika identiteter och ska inte kombineras vid service- eller reservdelsval.",
+      "variant": "Honda GX160, manuallista Honda Engines USA (prefixbunden)",
+      "locator": "GX160 Manuals > English, French & Spanish language manual > prefix rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
     "GX160: europeiska manualrevisioner och maskinbunden användning måste verifieras separat; Honda USA anger att supportsidans uppgifter gäller amerikanska produkter.",
     "Exakta oljevolymer, ventilspel, tändstift, artikelnummer och PTO-axelkonfiguration kräver specificerat Type/Serial-intervall.",
-    "Originalmanualens innehåll och versionsskillnader per GCACK-serie återstår att läsa i tillhörande PDF-utgåvor."
+    "Originalmanualens innehåll och versionsskillnader per GCACK-serie återstår att läsa i tillhörande PDF-utgåvor.",
+    "Honda GX160: den amerikanska tillverkarens manualväljare bevisar inte reservdelsnummer; tillämplig original-IPL och fullständigt Type Code saknas."
   ]
 }
