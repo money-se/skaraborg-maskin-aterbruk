@@ -11,6 +11,13 @@
       "title": "STIGA PARK 12 originalreservdelskatalog",
       "document": "13-1258-16 Season 1993, Issue 37–2014",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1258-16_92_SV-EN.pdf"
+    },
+    {
+      "id": "peerless-motion-drive-691218",
+      "tier": 1,
+      "title": "Tecumseh/Peerless Motion Drive System – Technician's Handbook",
+      "document": "Service manual 691218, 1996; chapter 1 lubrication and identification, chapter 3 800/801 series",
+      "url": "https://www.mymowerparts.com/pdf/Tecumseh-Peerless-Transmissions-Transaxles-Differentials-Gear-Boxs/00_TECUMSEH%20PEERLESS%20Transmissions_Transaxles%20REPAIR%20MANUAL%20691218.pdf"
     }
   ],
   "topics": {
@@ -269,6 +276,51 @@
       "grade": "A",
       "sourceId": "stiga-park12-1258-1993-ipl",
       "locator": "PDF sida 13, pos.14,15,28"
+    },
+    {
+      "id": "p12-1258-93-peerless-manufacturer-id",
+      "topic": "D",
+      "statement": "Peerless 691218 instruerar att transaxelns modellidentifiering ska avläsas på etikett eller instansning, vanligen åtkomlig underifrån/bakifrån på maskinen. Det krävs innan 846-serviceuppgifter tillämpas.",
+      "variant": "Tecumseh/Peerless 691218, generell 800/801-familj; STIGA 13-1258-16 med Peerless 846 kräver individkontroll",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 1, Identification of Models, PDF sida 3 (tryckt s.1)"
+    },
+    {
+      "id": "p12-1258-93-peerless-800-series",
+      "topic": "D",
+      "statement": "Peerless originalhandbok placerar 800-seriens transaxlar i familjen med 3–6 framåtväxlar och 1 backväxel. Detta är familjebeskrivning, inte specifikation av exakt 846-utväxling.",
+      "variant": "Tecumseh/Peerless 691218, generell 800/801-familj; STIGA 13-1258-16 med Peerless 846 kräver individkontroll",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 1, 800 Series, PDF sida 3 (tryckt s.1)"
+    },
+    {
+      "id": "p12-1258-93-peerless-lube-model-check",
+      "topic": "J",
+      "statement": "Peerless originalhandbok anger uttryckligen att transaxelns modellnummer måste kontrolleras före påfyllning, eftersom rekommenderad mängd kan variera med fordonets konstruktion och växellådans monteringsläge.",
+      "variant": "Tecumseh/Peerless 691218, generell 800/801-familj; STIGA 13-1258-16 med Peerless 846 kräver individkontroll",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 1, Lubrication Chart, PDF sida 9 (tryckt s.7)"
+    },
+    {
+      "id": "p12-1258-93-peerless-lube-800-801-distinction",
+      "topic": "J",
+      "statement": "Peerless smörjtabell skiljer 800-serien, 30 oz/887 ml fett, från 801-serien, 36 oz/1065 ml fett. Dessa generella volymer är inte en bekräftad specifik påfyllnadsinstruktion för 846 och får inte ersätta STIGA-katalogens 0,9 kg-reservdelspost.",
+      "variant": "Tecumseh/Peerless 691218, generell 800/801-familj; STIGA 13-1258-16 med Peerless 846 kräver individkontroll",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 1, Lubrication Chart, PDF sida 9 (tryckt s.7)"
+    },
+    {
+      "id": "p12-1258-93-peerless-lube-bentonite",
+      "topic": "J",
+      "statement": "Peerless 691218 identifierar avsett bentonitfett som artikelnummer 788067B. STIGA:s eget artikelnummer P007-8806-7B får inte antas vara utbytbart utan originalbelägg.",
+      "variant": "Tecumseh/Peerless 691218, generell 800/801-familj; STIGA 13-1258-16 med Peerless 846 kräver individkontroll",
+      "grade": "A",
+      "sourceId": "peerless-motion-drive-691218",
+      "locator": "Kapitel 1, Lubrication Chart, PDF sida 9 (tryckt s.7)"
     }
   ],
   "gaps": [
@@ -278,6 +330,7 @@
     "Verifiera aggregat-PNC och montering för Park 12 13-1258-16 innan aggregatdelar rekommenderas.",
     "Verifiera säkerhetskretsarnas funktion samt elschema separat från reservdelslistan.",
     "STIGA-original-PDF kan textgranskas men PDF-skärmbilder returnerade fel vid granskningen 2026-10-22; figurkontroll återstår.",
-    "STIGA 846-reservdelsposten anger Bentonite grease 0,9 kg; en servicemanual krävs för metod, eventuella påfyllnadsgränser och byte."
+    "STIGA 846-reservdelsposten anger Bentonite grease 0,9 kg; en servicemanual krävs för metod, eventuella påfyllnadsgränser och byte.",
+    "Jämför STIGA 0,9 kg Bentonite grease-pos 90 med Peerless allmänna 800-seriens 30 oz/887 ml; dokumentera eventuell skillnad i netto/brutto och monteringsläge innan exakt påfyllnadsmängd anges."
   ]
 }
