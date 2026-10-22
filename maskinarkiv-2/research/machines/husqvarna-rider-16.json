@@ -543,6 +543,13 @@
       "title": "Wolfswinkel Briggs 282H07-0110-E1 parts diagrams",
       "document": "Type-specific online IPL with air cleaner, fuel system, blower, electrical and engine subassemblies",
       "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/briggs-und-stratton/200000-399999-reihe/282h00-bis-282h99/282h07-0110-e1"
+    },
+    {
+      "id": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "tier": 1,
+      "title": "Briggs & Stratton original illustrated parts list 282H07-0110-E1",
+      "document": "Briggs copyright, IPL Mfg. No. 282H07-0110-E1, 27-Apr-2020, 22-page OEM publication mirrored at Ersatzteil-Service",
+      "url": "https://www.ersatzteil-service.de/zeichnungen/zeichnung-datenbank/1614054.pdf"
     }
   ],
   "topics": {
@@ -3209,6 +3216,114 @@
       "sourceId": "briggs-original-ipl-28n707-1201e1-reference",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-ipl-original-ident",
+      "statement": "Briggs & Strattons egna IPL för Mfg. No. 282H07-0110-E1 är daterad 2020-04-27 och omfattar luftfilter, elsystem, motorblock, förgasare, ventiler och svänghjul. Detta dokument är direkt originalbelägg för exakt Model/Type som Rider 16 OM 2005 beskriver.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "P0 cover/table of contents, P1–P2 Mfg. No. and original parts",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-airfilter-historical",
+      "statement": "Briggs OEM-IPL 2020 listar luftfilterpatron 698083 (ref 445), förfilter 697015 (ref 967) och fläkthus 698402 (ref 304) för 282H07-0110-E1. Senare återförsäljarartiklar 794422 och 591642 är inte själva historiska OEM-tabellvärdena.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P2 refs 304 698402; 445 698083; 967 697015",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-starter-ignition",
+      "statement": "Briggs OEM-IPL för 282H07-0110-E1 listar startmotor 693552 (ref 309), startmotorborstsats 497608 (ref 311), magnettändmodul 492341 (ref 333), laddgenerator 696578 (ref 474) och regulator 691188 (ref 501) för 9 A reglering.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P4 refs 309,311,333,474,501",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-carb-alternatives",
+      "statement": "Briggs OEM-IPL listar för 282H07-0110-E1 separata Walbro- och Nikki-förgasarrenoveringssatser 697241 (ref 121) och 699521 (ref 121A). Katalogen innehåller flera alternativa munstycks-/flottörnummer; faktisk förgasarvariant måste identifieras.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P12 refs 94/94A, 121/121A and 125 Walbro",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-fuel-pumps-historical",
+      "statement": "Briggs original-IPLn 2020 visar bränslepump 697090 med fäste (ref 387) respektive bränslepump 808656 (ref 387A). Säljkatalogens senare 597338 är inte originalnummer i denna utgåva och behöver separat tillverkarsupersession.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P14 refs 387 697090, 387A 808656",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-filter-gasket-plug",
+      "statement": "Briggs original-IPLn 2020 anger bränslefilter 84001895 (ref 240B), insugspackning 692137 (ref 51), toppackning 273280S (ref 7), tändstift 691043 (ref 337), avgaspackning 692236 (ref 883). Delnumren avser den katalogiserade Type 0110-E1.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P14 ref240B; P12 ref51; P8 ref7; P16 refs337,883",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-code-sump",
+      "statement": "Briggs 282H07-0110-E1 original-IPL anger att oljetråg före Code Date 05100300 kräver sats 795903 med tråg och motvikt, medan tråg 697106 anges efter Code Date 05100200. Code-datum är avgörande även inom samma Type.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P8 ref 4 'Before Code Date 05100300' / 697106 After 05100200",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-code-ring",
+      "statement": "Briggs OEM-IPL 282H07-0110-E1 anger standardkolvringar 698375 före Code Date 05112100 och 792306 efter Code Date 05112000; överdimensionssatser anges separat. Utgå inte från enbart motormodell vid invändig reparation.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P8 ref26 before/after Code Date",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-code-valves",
+      "statement": "Briggs original-IPL 282H07-0110-E1 anger äldre avgasventil 695760 och insugsventil 695761 före Code Date 06012000, respektive 791934 och 791935 efter Code Date 06011900.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P16 ref33/34 before/after Code Date",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-code-rocker",
+      "statement": "Briggs OEM-IPL anger ventilkåpa 692492 före Code Date 05020100 och 791079 efter Code Date 05013100 för 282H07-0110-E1. Kodvillkoret måste följas även vid enkla kåpbyten.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P16 ref1023",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-code-flywheel-fan",
+      "statement": "Briggs 282H07-0110-E1 IPL anger svänghjulsfläkt 794436 före Code Date 07040900 och 794438 efter 07040800, med motsvarande datumstyrda roterande skydd 697133 respektive 794437.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P20 refs73,73A,1005,1005A",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch57-same-type-diff-carb-design",
+      "statement": "Briggs original-IPL 282H07-0110-E1 innehåller alternativa Walbro-förgasarsäten för gravitationsmatning 690577 och pumpmatning 691780 i samma referens 106. Därför kan motorns Model/Type utan bränslesystemsidentifiering vara otillräcklig för en enskild förgasarkomponent.",
+      "variant": "Briggs 282H07-0110-E1 original IPL dated 2020-04-27; Code date and subassembly variants apply",
+      "locator": "PDF P12 ref106 two variants",
+      "sourceId": "briggs-282h07-0110e1-original-ipl-2020-04",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -3329,6 +3444,9 @@
     "Leta fram Briggs utfärdad original-IPL specifikt för 282H07-0110-E1 och för Rider 16 H-maskinens avlästa 28N707-Type; jämför revisions- och Code-datum före motordelsnummer.",
     "28N707-1201-E1 Briggs original-IPL är en demonstrerad annan Type; felaktig typkoppling kan ge fel förgasare och tändsystem.",
     "För 282H07-0110-E1 finns typbunden säljkatalog med filter 794422, förfilter 697015, fläkthus 591642, insugspackning 692137 och pumpar 697090/597338. Hitta Briggs original-IPL för samma Type och Code innan dessa delar markeras OEM-verifierade.",
-    "Briggs 28N707-1201-E1 original-IPL har Code-daterat art.nr byte för ref 971 år 1997; detta belägg får inte överföras till okänd Type på Rider 16 H."
+    "Briggs 28N707-1201-E1 original-IPL har Code-daterat art.nr byte för ref 971 år 1997; detta belägg får inte överföras till okänd Type på Rider 16 H.",
+    "Briggs original-IPL 282H07-0110-E1 2020-04-27 har historiskt luftfilter 698083, fläkthus 698402 och pump 808656, medan reservdelshandlare listar 794422, 591642 och 597338. Utred OEM-dokumenterad supersession för alla tre kedjor.",
+    "Briggs 282H07-0110-E1 original-IPL har Code Date-gränser 2005-02, 2005-10/11, 2006-01 och 2007-04. Utan verklig motorkod går det inte att välja oljetråg, ventiler, fläkt eller kolvringar säkert.",
+    "Briggs motor 282H07-0110-E1 original-IPL listar Walbro/Nikki och gravity-feed/pump-feed varianter. Identifiera förgasartillverkare och installation vid fysisk maskin innan reparationssats rekommenderas."
   ]
 }
