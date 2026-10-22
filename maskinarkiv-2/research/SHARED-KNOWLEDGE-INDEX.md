@@ -31,6 +31,8 @@
 
 | Jonsered LT2115CMA (2005-01) / 96061001000 | [jonsered-lt2115cma-96061001000.json](machines/jonsered-lt2115cma-96061001000.json) | `needs_research`: äldre IPL, Hydro-Gear 321-0510, vidare revisionskontroll krävs |
 
+| Jonsered LT2115CMA (2005-05) / 96061001002 | [jonsered-lt2115cma-96061001002.json](machines/jonsered-lt2115cma-96061001002.json) | `needs_research`: 2005-05 klippaggregat, knivar och chassi; separat från 2006-06 |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
