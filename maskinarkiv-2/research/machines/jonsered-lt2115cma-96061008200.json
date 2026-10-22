@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cma-96061008200",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Förstudie med återförsäljarens versionsregister; ingen tillverkarverifierad specifikation eller passform.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cma-96061008200-source",
+      "tier": 2,
+      "title": "Jonsered LT2115CMA parts register hos återförsäljare",
+      "document": "LT2115CMA / 96061008200 / 2006-05",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/jonsered/aufsitzrasenm%C3%A4her/gartentraktoren/lt/lt-2115-cma/lt-2115-cma-96061008200-960610082-2006-05"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008200-wolfswinkel-drive",
+      "tier": 2,
+      "title": "Wolfswinkel LT2115CMA Drive catalogue",
+      "document": "LT2115CMA 96061008200 2006-05 Drive",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/jonsered/ride-on-mowers/garden-tractors/lt/lt-2115-cma/lt-2115-cma-96061008200-960610082-2006-05?wsource=group"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Dokumentidentitet och enbart utvalda belägg kontrollerade. Fullständig original-PDF, motorspecifikation, elsystem och service återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cma-96061008200-identity",
+      "statement": "Reservdelsregistret identifierar LT2115CMA 96061008200, produktfamilj 960610082, med revisionsmärkning 2006-05.",
+      "variant": "LT2115CMA / 96061008200 / 2006-05",
+      "locator": "Återförsäljarens katalogrubrik, LT2115CMA 2006-05",
+      "sourceId": "jonsered-lt2115cma-96061008200-source",
+      "grade": "C",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008200-dealer-drive-8",
+      "statement": "Återförsäljarens aktuella reservdelslista visar växelreglagestång med artikelnummer 585139901 vid Drive pos. 8. Ursprungsnummer och kompatibilitet är inte fastställda.",
+      "variant": "LT2115CMA 96061008200 2006-05",
+      "locator": "Wolfswinkel, Drive, Ref. 8",
+      "sourceId": "jonsered-lt2115cma-96061008200-wolfswinkel-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008200-dealer-drive-9",
+      "statement": "Återförsäljarens aktuella reservdelslista visar kopplingsenhet med artikelnummer 583243601 vid Drive pos. 9. Ursprungsnummer och kompatibilitet är inte fastställda.",
+      "variant": "LT2115CMA 96061008200 2006-05",
+      "locator": "Wolfswinkel, Drive, Ref. 9",
+      "sourceId": "jonsered-lt2115cma-96061008200-wolfswinkel-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008200-dealer-drive-10",
+      "statement": "Återförsäljarens aktuella reservdelslista visar pinne med artikelnummer 596029601 vid Drive pos. 10. Ursprungsnummer och kompatibilitet är inte fastställda.",
+      "variant": "LT2115CMA 96061008200 2006-05",
+      "locator": "Wolfswinkel, Drive, Ref. 10",
+      "sourceId": "jonsered-lt2115cma-96061008200-wolfswinkel-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008200-dealer-drive-14",
+      "statement": "Återförsäljarens aktuella reservdelslista visar ring med artikelnummer 596029801 vid Drive pos. 14. Ursprungsnummer och kompatibilitet är inte fastställda.",
+      "variant": "LT2115CMA 96061008200 2006-05",
+      "locator": "Wolfswinkel, Drive, Ref. 14",
+      "sourceId": "jonsered-lt2115cma-96061008200-wolfswinkel-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Full visuell granskning av originalkatalog saknas; sidnumrering och bilden bakom katalogpositionerna måste kontrolleras innan publicering.",
+    "Motor, knivnummer, transmissionens individuella etikett, elsystem och service behöver versionsbunden dokumentation.",
+    "Gemensam produktfamilj eller artikelnummer i en katalog är inte automatiskt en komplett passformsgaranti.",
+    "Wolfswinkels artikelnummer kan vara ersättningsnummer; kräver jämförelse med ursprunglig Jonsered-reservdelskatalog för denna revision."
+  ]
+}

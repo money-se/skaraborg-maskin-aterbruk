@@ -11,6 +11,13 @@
       "title": "Murray 425014X92A original illustrated repair-parts list mirrored by retailer",
       "document": "Murray 425014x92A Repair Parts, 14 sidor; bruksanvisning F-040721L",
       "url": "https://www.lawnmowerpros.com/pdfs/murray/425014X92A.pdf"
+    },
+    {
+      "id": "parts-tree-a-susp",
+      "tier": 2,
+      "title": "PartsTree Murray 425014X92A mower housing suspension OEM model parts table",
+      "document": "425014x92A, Mower Housing Suspension, illustrated part list",
+      "url": "https://www.partstree.com/models/425014x92a-murray-42-lawn-tractor-2004/mower-housing-suspension-5/"
     }
   ],
   "topics": {
@@ -22,7 +29,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Ramdelar identifierade i modellens egen katalog; jämförelse visar olika nummer mellan A- och B-versionerna, vilket förhindrar generell delöversättning."
+      "note": "Ramdelar identifierade i modellens egen katalog; jämförelse visar olika nummer mellan A- och B-versionerna, vilket förhindrar generell delöversättning.\nFollow-up: F-040721L s.2 kartlägger chassi, huven, sitsupphängning, panel, elsystemhållare, grill och fästen. Även identiska nummer i andra modeller bevisar inte full reservdelskompatibilitet."
     },
     "C": {
       "name": "Motor",
@@ -32,12 +39,12 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "DANA transaxel framgår av separat Motion Drive-lista; exakt Dana-transaxelkod saknas. Motion Drive-rem 037x87 är katalogbelagd, ej generellt kompatibilitetsbevis."
+      "note": "DANA transaxel framgår av separat Motion Drive-lista; exakt Dana-transaxelkod saknas. Motion Drive-rem 037x87 är katalogbelagd, ej generellt kompatibilitetsbevis.\nFollow-up: F-040721L tryckt s.4 katalogför Dana-transaxel (exakt modell saknas) och 037x87 drivrem, löprullearm, kopplings-/växellänkage, parkeringsbroms och transaxelfästen. Avvikande 1401103 Z distans måste särskiljas från andra varianter."
     },
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: F-040721L STEERING tryckt sida 6 anger styrstång, sektor, styrdrev, spindlar, styrstag och framaxel. PDF-text direkt kontrollerad; bildgranskning fick cache miss."
     },
     "F": {
       "name": "Reglage",
@@ -47,12 +54,12 @@
     "G": {
       "name": "Säkerhet",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Originalkatalogen ELECTRICAL SYSTEM, tryckt sida 14, innehåller katalognummer för kabelhärvor, tändningslås, gränslägesbrytare, säkring, solenoid, batteri och sitsbrytare; elschemats elektriska funktion och mätgränser återstår."
     },
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Modellbunden PartsTree-katalog dokumenterar 27 PTO-/lyft-/aggregatupphängningspositioner. Utbytbarhet med 425014X92B och ändringar i fästens E700/E701-revisioner återstår."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -67,7 +74,7 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: PartsTree 425014X92A visar åtta uttryckliga 'Superseded to' för katalogposter i aggregatupphängningen; dessa är handlaruppgifter, inte egen tillverkarverifiering eller generell kompatibilitetsgaranti."
     },
     "L": {
       "name": "Begagnatköp",
@@ -190,6 +197,1172 @@
       "topic": "A",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-deck-belt",
+      "statement": "Katalogpost Klipprem 037x88.",
+      "variant": "425014X92A",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-blade",
+      "statement": "Katalogpost Klippkniv 095100E701.",
+      "variant": "425014X92A",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 37",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-mandrel",
+      "statement": "Katalogpost Spindelhus 1001200.",
+      "variant": "425014X92A",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 34",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-adapter",
+      "statement": "Katalogpost Knivadapter 690411.",
+      "variant": "425014X92A",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 36",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-full-deck",
+      "statement": "Katalogpost Klippaggregat 7601032.",
+      "variant": "425014X92A",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 1–61",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-fuel-cap",
+      "statement": "Tanklock 092317",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 1",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-fuel-tank",
+      "statement": "Bränsletank 690280",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 2",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-throttle",
+      "statement": "Gasreglage 092371",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 8",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-heat-shield",
+      "statement": "Värmesköld 1001713",
+      "variant": "425014X92A",
+      "locator": "Tryckt s.12, ENGINE MOUNT pos 30",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-light-harness",
+      "statement": "Originalkatalogen listar Belysningens kabelhärva 250x92.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 1",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-chassis-harness",
+      "statement": "Originalkatalogen listar Chassikabelhärva 250x117.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 2",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-ignition-switch",
+      "statement": "Originalkatalogen listar Tändningslås 092556.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-limit-switch",
+      "statement": "Originalkatalogen listar Gränslägesbrytare 094136.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 4",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-fuse",
+      "statement": "Originalkatalogen listar Säkring 302031.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 5",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-solenoid",
+      "statement": "Originalkatalogen listar Startsolenoid 094613.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 6",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-battery",
+      "statement": "Originalkatalogen listar Batteri 021075.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 8",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-seat-harness",
+      "statement": "Originalkatalogen listar Sitsbrytarens kabelhärva 250x67.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 9",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-electrical-seat-switch",
+      "statement": "Originalkatalogen listar Sitsgivarbrytare 094159.",
+      "variant": "425014X92A",
+      "locator": "ELECTRICAL SYSTEM tryckt sida 14, position 10",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-wheel",
+      "statement": "Ratt har katalognummer 094134.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 1",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-post",
+      "statement": "Styrstång har katalognummer 690625.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 2",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-pinion",
+      "statement": "Styrdrev har katalognummer 690183.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 7",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-sector",
+      "statement": "Styrsektor har katalognummer 094121.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 9",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-steering-plate",
+      "statement": "Styrplåt har katalognummer 1001121E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 12",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-hanger-bracket",
+      "statement": "Upphängningsfäste har katalognummer 1001270E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 16",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-hanger-axle",
+      "statement": "Upphängningsaxel har katalognummer 094007E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 17",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-left-spindle",
+      "statement": "Vänster spindel har katalognummer 094576E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 21",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-front-axle",
+      "statement": "Framaxelenhet har katalognummer 1001460E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 26",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-left-drag",
+      "statement": "Vänster styrstag har katalognummer 095329E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 27",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-right-spindle",
+      "statement": "Höger spindel har katalognummer 094575E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 28",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-right-drag",
+      "statement": "Höger styrstag har katalognummer 095328E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 29",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-wheel-bearing",
+      "statement": "Hjullager har katalognummer 091334.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 31",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-steering-wheel-tire",
+      "statement": "Komplett hjul och däck har katalognummer 094579-601.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "STEERING, tryckt sida 6, position 34",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-idler-arm",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 690173 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-clutch-rod",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094041 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 4",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-link",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094044 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 11",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-parking-rod",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1001245 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 14",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-pivot",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1001303 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 16",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-bracket",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1001302E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 22",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-parking-latch",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094045 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 26",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-shift-yoke",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094031 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 31",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-transaxle-bracket",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094008E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 40",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-transaxle-support",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 094433E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 42",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-drive-pulley",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 095094.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 44",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-transaxle-spacer",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 1401103 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 47",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-drive-belt-guide",
+      "statement": "MOTION DRIVE-reservdelslistan anger artikelnummer 093349.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "MOTION DRIVE, tryckt sida 4, position 54",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-support",
+      "statement": "CHASSIS & HOOD anger delnummer 094154E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 8",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-pivot-rod",
+      "statement": "CHASSIS & HOOD anger delnummer 094156 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 9",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-pivot-bracket",
+      "statement": "CHASSIS & HOOD anger delnummer 1001648E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 10",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-seat-deck",
+      "statement": "CHASSIS & HOOD anger delnummer 1001558E245.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 19",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-index-plate",
+      "statement": "CHASSIS & HOOD anger delnummer 094151E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 21",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-left-mat",
+      "statement": "CHASSIS & HOOD anger delnummer 094999.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 23",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-right-mat",
+      "statement": "CHASSIS & HOOD anger delnummer 094998.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 24",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-hood",
+      "statement": "CHASSIS & HOOD anger delnummer 1001797E245.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 25",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-grille",
+      "statement": "CHASSIS & HOOD anger delnummer 1001798E245.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 26",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-headlamp-lens",
+      "statement": "CHASSIS & HOOD anger delnummer 1001806.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 27",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-headlamp-housing",
+      "statement": "CHASSIS & HOOD anger delnummer 1001805.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 28",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-lower-pivot",
+      "statement": "CHASSIS & HOOD anger delnummer 1001799E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 29",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-battery-support",
+      "statement": "CHASSIS & HOOD anger delnummer 690482E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 30",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-steering-bearing",
+      "statement": "CHASSIS & HOOD anger delnummer 1001491.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 33",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-dash",
+      "statement": "CHASSIS & HOOD anger delnummer 1001584E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 34",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-access-panel",
+      "statement": "CHASSIS & HOOD anger delnummer 093007E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 36",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-dash-support",
+      "statement": "CHASSIS & HOOD anger delnummer 095318E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 37",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-rear-hanger",
+      "statement": "CHASSIS & HOOD anger delnummer 1001270E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 38",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-left-grille-support",
+      "statement": "CHASSIS & HOOD anger delnummer 094083E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 39",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-right-grille-support",
+      "statement": "CHASSIS & HOOD anger delnummer 094082E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 41",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-battery-box",
+      "statement": "CHASSIS & HOOD anger delnummer 690424.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 45",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-hitch-plate",
+      "statement": "CHASSIS & HOOD anger delnummer 1001002E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 46",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-rear-panel",
+      "statement": "CHASSIS & HOOD anger delnummer 690434E700.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 47",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-detent-cover",
+      "statement": "CHASSIS & HOOD anger delnummer 094610.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 48",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-parking-grommet",
+      "statement": "CHASSIS & HOOD anger delnummer 1001755.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 59",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-cup-holder",
+      "statement": "CHASSIS & HOOD anger delnummer 1001542.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2 pos 70",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-grip",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 092698.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 1",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-handle",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094157 Z.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 2",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-switch-pad",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094022 Z.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 3",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lift-grip",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 092697.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 5",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-torsion-spring",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 166x40.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 6",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lift-lever",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 690533.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 8",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-lever",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094017 Z.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 9",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-link",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094004 Z.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 13",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-spring",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 166x39.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 16",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-bracket",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094018E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 17",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-extension-spring",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 165x119.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 18",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-crank",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 690394E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 19",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lift-link",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 690212E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 20",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lift-handle-link",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 690122E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 21",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-hairpin",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 0031x4.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 24",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lifter-assy",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 1001111E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 27",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lift-pin",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094067.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 30",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-rear-bracket",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094055E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 31",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lift-spacer",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 690151.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 32",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pivot-bracket",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094015E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 34",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-lift-spring",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 165x131.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 38",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-pto-second-bracket",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094005E700.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 40",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-left-hanger",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094027E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 41",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-right-hanger",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094026E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 42",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-hanger-rod",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 094158 Z.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 43",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-front-bracket",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 690539E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 44",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-susp-stiffening-plate",
+      "statement": "Modellbunden upphängningskatalog listar artikelnummer 1001098E701.",
+      "variant": "425014X92A",
+      "locator": "Mower Housing Suspension position 45",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-pto-grip",
+      "statement": "PartsTree anger att reservdel 092698MA är ersatt (Superseded to) av 1753233YP för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 1, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-lift-grip",
+      "statement": "PartsTree anger att reservdel 092697MA är ersatt (Superseded to) av 1753233YP för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 5, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-cotter-pin",
+      "statement": "PartsTree anger att reservdel 030X20MA är ersatt (Superseded to) av 703312 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 11, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-flange-nut",
+      "statement": "PartsTree anger att reservdel 015X84MA är ersatt (Superseded to) av 703893 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 14, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-lift-link",
+      "statement": "PartsTree anger att reservdel 690122E701MA är ersatt (Superseded to) av 7300877ZMA för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 21, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-hair-pin",
+      "statement": "PartsTree anger att reservdel 0031X4MA är ersatt (Superseded to) av 703300 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 24, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-lift-pin",
+      "statement": "PartsTree anger att reservdel 094067MA är ersatt (Superseded to) av 704054 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 30, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-replacement-flange-nut-small",
+      "statement": "PartsTree anger att reservdel 015X68MA är ersatt (Superseded to) av 703333 för denna katalogposition; tillgänglighet eller fysisk passform är inte oberoende bekräftad.",
+      "variant": "425014X92A",
+      "locator": "PartsTree Mower Housing Suspension position 39, Superseded to",
+      "sourceId": "parts-tree-a-susp",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -198,6 +1371,9 @@
     "Klippaggregat, kniv- och remnummer behöver granskas i detalj för varje version.",
     "Ingen dokumenterad generell passform mellan A, B och E; jämför endast partnummer vid samma assemblies och efter versionskontroll.",
     "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
-    "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering."
+    "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
+    "Styrningens A-artikelnummer får inte överföras till 425014X92B, där bl.a. ratt, styrdrev och framaxelsuffix skiljer sig. Kontrollera maskinens exakta modellmärkning.",
+    "F-040721L MOTION DRIVE s.4 textverifierad, men bildvisning av sprängskissen misslyckades. Dana-typnummer, fysisk kompatibilitet och ersättningsnummer kvarstår.",
+    "Åtta PartsTree-Superseded-to-kedjor behöver kontrolleras mot Murray/Briggs egna delnummerrevisioner och fysisk maskin innan beställningsrekommendation."
   ]
 }

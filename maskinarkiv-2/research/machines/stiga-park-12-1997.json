@@ -39,6 +39,13 @@
       "title": "Briggs & Stratton Sverige – Hitta manual och reservdelslista",
       "document": "Officiell modell-/typ-/kodidentifiering och manualsökning",
       "url": "https://www.briggsandstratton.com/sv-se/support/manuals"
+    },
+    {
+      "id": "peerless-691218-930-mst",
+      "tier": 1,
+      "title": "Tecumseh Peerless Transaxles Technician's Handbook",
+      "document": "Form 691218 R 3/02, chapter 10 (930 series) and chapter 11 (MST200 series)",
+      "url": "https://mymowerparts.com/pdf/Tecumseh-Service-and-Repair-Manuals/TECUMSEH-PEERLESS-TRANSMISSION-TRANSAXLES-DIFFERENTIALS-SERVICE--REPAIR-MANUAL-691218.pdf"
     }
   ],
   "topics": {
@@ -540,6 +547,276 @@
       "grade": "A",
       "sourceId": "stiga-park-102m-1997-ipl",
       "locator": "Knivar, tryckt sida 7 position 49; visuellt kontrollerad 2026-10-22"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-ident",
+      "topic": "D",
+      "statement": "Peerless originalhandbok anger att 930-serien har en aluminiumskylt med modellnummer; maskinens angivna 930-022 måste därmed identifieras på själva transaxeln.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.61, PDF s.63, IDENTIFICATION"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-gears",
+      "topic": "D",
+      "statement": "Peerless 930-serien finns enligt handboken med 3–7 växlar framåt och 1 back; detta är familjeomfattning, inte exakt 930-022-utväxling.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.61, PDF s.63, GENERAL"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-clutch",
+      "topic": "F",
+      "statement": "Peerless varnar för att växling av 930-seriens transaxel utan aktiverad koppling kan orsaka förtida transmissionsskador.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.61, PDF s.63, säkerhetsvarning"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-shift-hill",
+      "topic": "D",
+      "statement": "Peerless avråder från växling i sluttning eller under tung belastning för 930-serien.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.61, PDF s.63, säkerhetsvarning"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-grease",
+      "topic": "J",
+      "statement": "930-seriens originalhandbok anger 30 oz/887 ml bentonitfett, Peerless artikel 788067C, som generellt permanent smörjmedel. Denna uppgift är inte avsedd för MST200.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.65, PDF s.67, LUBRICATION"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-needle",
+      "topic": "K",
+      "statement": "För 930-serien anges verktyg 670251 för ingående axelns nållager och installationsdjup 3,43–3,81 mm under kanten på invändigt nållager.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.62, PDF s.64, punkt 10"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-ep",
+      "topic": "J",
+      "statement": "Peerless föreskriver E.P.-fett till nållagren i 930-serien och anger uttryckligen att bentonitfett inte ska användas på nållagren.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.62, PDF s.64, NOTE"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-seal",
+      "topic": "K",
+      "statement": "Vid uttag av ingående axel i 930-serien ska dess fyrkantsskurna O-ring bytas enligt handboken.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.62, PDF s.64, punkt 10"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-sealant",
+      "topic": "J",
+      "statement": "Vid återmontering av 930-seriens växellådshus anger handboken Loctite 515 (Tecumseh 510334) eller Loctite RTV 598 (Tecumseh 788093A) som tätningsmaterial.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.65, PDF s.66, punkt 11"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-cover-torque",
+      "topic": "J",
+      "statement": "Peerless anger åtdragningsmoment 90–100 in-lb (10,2–11,3 Nm) för huslocksskruvarna på 930-serien; gäller inte andra skruvpositioner eller MST200 utan separat belägg.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.65, PDF s.66, punkt 11"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-brake",
+      "topic": "G",
+      "statement": "Bromsskiva och bromsbelägg på Peerless 930 ska enligt handboken vara fria från olja och fett, och justering av bromslänkage måste följa maskinens egen bruksanvisning.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.65, PDF s.66, Brake assembly"
+    },
+    {
+      "id": "p12-1997-peerless-service-930-reverse",
+      "topic": "D",
+      "statement": "Peerless beskriver spegelvända drivenheter inom 930-serien som använder annan placering av koniska kugghjul och vändning av backkedja och kedjehjul med 180 grader; internkomponenter får inte korsbeställas efter enbart seriebeteckning.",
+      "variant": "Peerless originalhandbok 691218: 930-seriens generella service, tillämplighet villkorad av installerad 930-022. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 10 tryckt s.65, PDF s.66, ASSEMBLY VARIATIONS"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-ident",
+      "topic": "D",
+      "statement": "MST200 identifieras enligt Peerless med en dekal baktill till höger om differentialhuset, och den faktiska dekalbeteckningen måste kontrolleras före MST-specifika reservdelar.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.66, PDF s.68, IDENTIFICATION"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-gears",
+      "topic": "D",
+      "statement": "MST200-serien beskrivs som tätad manuell transaxel med upp till sex framåtväxlar och en backväxel; exakt MST205-529A konfiguration kräver egen partslista.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.66, PDF s.68, GENERAL"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-oil",
+      "topic": "J",
+      "statement": "MST200-seriens generella smörjning i Peerless originalhandbok är 16 oz/473 ml 80W90-växelolja, artikelnummer 730229B, inte 930-seriens bentonitfett.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.66, PDF s.68, GENERAL"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-neutral",
+      "topic": "F",
+      "statement": "Peerless anger att MST200 ska rengöras utvändigt och växelreglaget ställas i neutral innan demontering; neutralstartbrytare är en OEM-option, inte obligatorisk på varje modell.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.66, PDF s.68, STEPS BEFORE DISASSEMBLY"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-prypoints",
+      "topic": "J",
+      "statement": "MST200-huset ska enligt handboken delas vid angivna fäst-/brytpunkter för att undvika skador.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.67, PDF s.69, DISASSEMBLY 1"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-input-seal",
+      "topic": "K",
+      "statement": "MST200-handboken anger att invändig oljetätning på ingående axeln bör bytas vid återmontering och att över- och undre tryckbrickorna ska återmonteras.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.69, PDF s.70, punkt 10"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-bearing-depth",
+      "topic": "K",
+      "statement": "MST200:s ingående nållager ska monteras 3,43–3,81 mm under kanten invändigt, medan övre lagret monteras jämnt med gjutgodsets kant.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.69, PDF s.70, REASSEMBLY"
+    },
+    {
+      "id": "p12-1997-peerless-service-mst-ep-bearing",
+      "topic": "J",
+      "statement": "För MST200 anger Peerless E.P.-lagerfett på lagren i locket innan ingående axel återmonteras; detta är inte ett påbud att ersätta växellådsoljan med fett.",
+      "variant": "Peerless originalhandbok 691218: MST200-seriens generella service, tillämplighet villkorad av installerad MST205-529A. Park 12 1997, produktvariant skall verifieras.",
+      "grade": "A",
+      "sourceId": "peerless-691218-930-mst",
+      "locator": "Kapitel 11 tryckt s.69, PDF s.70, REASSEMBLY"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-identity-conflict",
+      "topic": "D",
+      "statement": "För samma 13-1442-20-katalog anger basmaskinens transmissionstabell komplett transaxel 1134-3716-02 på pos.18, medan MST205-529A:s interna delförteckning anger komplett enhet 1134-3716-01 på pos.0. Källan ger inte ersättningsförklaring eller godkänd utbytbarhet.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.15 pos.18 och s.27 pos.0"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-case",
+      "topic": "K",
+      "statement": "STIGA:s interna MST205-529A-lista anger kåpa 772144 (pos.1), hus 770128 (pos.3) och två nållager 780086 (pos.2).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.1–3"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-shaft",
+      "topic": "D",
+      "statement": "MST205-529A-listan anger axlar 776406 (pos.4), 776409 (pos.5), ingående axel 776394 (pos.66) och bromsaxel 776396 (pos.67).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.4–5 och s.29 pos.66–67"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-shift",
+      "topic": "F",
+      "statement": "MST205-529A-listan anger växelförare 784378 (pos.10), medan 930-022-listan för 1996 anger 784345 på samma interna position; ingen utbytbarhet får antas.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20 PDF s.27 pos.10; 13-1442-19 s.13 pos.10"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-gears",
+      "topic": "D",
+      "statement": "MST205-529A:s tabell anger drev 778364 med 38T och alternativ rad 778365 med 15T vid position 6; utan monteringsnotering ska de inte presenteras som ett generellt valbart drev.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.6"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-drive-gears",
+      "topic": "D",
+      "statement": "MST205-529A listar drev 778356 (29T, pos.49), 778354 (23T, pos.50), 778352 (19T, pos.51) och 778350 (16T, pos.52).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.49 och s.29 pos.50–52"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-drive-gears-2",
+      "topic": "D",
+      "statement": "MST205-529A listar drev 778346 (15T, pos.53), 778355 (11T, pos.56), 778353 (17T, pos.57), 778351 (21T, pos.58) samt 778349 (24T, pos.59).",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.29 pos.53,56–59"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-drive-gears-3",
+      "topic": "D",
+      "statement": "MST205-529A listar drev 778345 (25T pos.60), 778363 med katalognotation '307 + 13T' (pos.82) och 778338 med 27T (pos.83); notationen 307 + 13T är inte tolkad som utväxling.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.29 pos.60,82–83"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-seal",
+      "topic": "K",
+      "statement": "MST205-529A:s lista innehåller O-ring 788092 (pos.71), tätning 788069 på en andra rad vid pos.71, O-ring 788091 (pos.72) samt tätning 788089 (pos.87). Position och kod måste följas per katalog.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.29 pos.71–72,87"
+    },
+    {
+      "id": "p12-1997-peerless-ipl-mst-axle-common",
+      "topic": "D",
+      "statement": "STIGA:s 1997 MST205-529A-lista anger hjulaxel 774895 på 286 mm (pos.47) och 774896 på 403 mm (pos.48); samma koder förekommer i 1996 års 930-022-lista trots att växellådshusen skiljer.",
+      "variant": "STIGA Park 12 13-1442-20, endast angiven transaxelvariant enligt originalkatalog",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "STIGA IPL 13-1442-20, PDF s.27 pos.47–48; 13-1442-19 PDF s.13 pos.47–48"
     }
   ],
   "gaps": [
@@ -554,6 +831,8 @@
     "Kraftuttagsrem 1134-9012-01 är dokumenterad för basmaskinens PTO; fullständigt aggregat-PNC, aggregatrem och knivnummer kräver separat katalog samt monteringskontroll.",
     "STIGA original-IPL för 100B 13-2919-20 och 102M 13-2913-20 finns, men deras passform och monteringskombination med Park 12 13-1442-20 är ännu inte bekräftad i originalmanual. Välj inte aggregatdelar enbart från basmaskinens PNC.",
     "102M-katalogens lagerboxar och höjdreglage är dokumenterade för aggregat 13-2913-20; faktisk individ och rätt reservdelsrevision måste kontrolleras. Briggs modell-/typ-/kodetikett krävs för motorspecifik service.",
-    "Park 100B har två skilda kilremspositioner och treknivssats; identifiera motorn/aggregatets individuella PNC och passform till Park 12 före delbeställning. 1996 aggregat-IPLs är ännu inte källverifierade."
+    "Park 100B har två skilda kilremspositioner och treknivssats; identifiera motorn/aggregatets individuella PNC och passform till Park 12 före delbeställning. 1996 aggregat-IPLs är ännu inte källverifierade.",
+    "Tillverkarens 930/MST200-service gäller transaxelfamiljen; kontrollera verklig axel/dekal och maskinens serienummer före smörjning, växellådsöppning eller bromsjustering. Ingen delpassform härledd ur servicehandbok.",
+    "Utred varför basmaskin 13-1442-20 anger 1134-3716-02 men separat MST205-529A-lista anger 1134-3716-01; godkänn ingen ersättning utan STIGA-bulletin."
   ]
 }

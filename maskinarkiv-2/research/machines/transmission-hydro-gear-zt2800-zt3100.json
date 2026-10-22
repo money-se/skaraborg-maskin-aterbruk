@@ -1,0 +1,2138 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-hydro-gear-zt2800-zt3100",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbunden kartläggning av Hydro-Gear ZT-2800 och ZT-3100, inte OEM-maskinservice eller publiceringsklar modellguide. Endast källbundna familjeegenskaper anges; reservdelar och servicevärden kräver full BOM/serial. 2026-10-22: P25 originalsidbilder 9 och 11 verifierade, tidigare oljevolym 1674 ml korrigerad till 1875 ml samt P25 Nm-motsägelse registrerad.",
+  "sources": [
+    {
+      "id": "hg-zt2800-original-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800 official product specifications",
+      "document": "ZT-2800 product page, Product Specs",
+      "url": "https://www.hydro-gear.com/product/zt-2800/"
+    },
+    {
+      "id": "hg-zt3100-original-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-3100 official product specifications",
+      "document": "ZT-3100 product page, Product Specs",
+      "url": "https://www.hydro-gear.com/product/zt-3100/"
+    },
+    {
+      "id": "hg-bln52441-2023-manual-index",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800 ZT-3100 ZT-3200 Service and Repair Manual",
+      "document": "BLN-52441 January 2023 official PDF; detailed values pending PDF visual inspection",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-52441_ZT2800_3100_3200_P24.pdf"
+    },
+    {
+      "id": "hg-bln52441-apr2023",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 Service and Repair Manual, April 2023",
+      "document": "BLN-52441 April 2023 (P25), manufacturer PDF",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/07/BLN-52441_P25.pdf"
+    },
+    {
+      "id": "hg-bln52441-2021",
+      "tier": 1,
+      "title": "Hydro-Gear earlier ZT-2800/ZT-3100/ZT-3200/ZT-3400 Service and Repair Manual",
+      "document": "BLN-52441 P23, archived manufacturer PDF (2021 URL)",
+      "url": "https://hydro-gear.com/wp-content/uploads/2021/09/BLN-52441_P23.pdf"
+    },
+    {
+      "id": "hg-zt3200-original-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-3200 official product specification",
+      "document": "ZT-3200 manufacturer product page, Product Specs, accessed 2026-10-22",
+      "url": "https://www.hydro-gear.com/product/zt-3200/"
+    },
+    {
+      "id": "hg-cadenas-official-configurator",
+      "tier": 1,
+      "title": "Hydro-Gear PartCommunity integrated transaxle CAD product configurator",
+      "document": "ZT-2800/ZT-3100/ZT-3200 parameterized assembly configuration, BOM model ZH-MAAA-SA0A-1XLX",
+      "url": "https://hydrogear-embedded.partcommunity.com/3d-cad-models/?info=hydrogear%2Fzt-2800%2Fzt-2800_asmtab.prj"
+    },
+    {
+      "id": "hg-schematic-71370-p64-2020",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800 ZT-3100 ZT-3200 Service Schematic 71370 P64",
+      "document": "Service schematic 71370 P64, revision printed 2020-12-29; original Hydro-Gear drawing hosted by WorldLawn",
+      "url": "https://worldlawn.com/wp-content/uploads/2021/03/ZT-2800-ZT-3100-ZT-3200.pdf"
+    },
+    {
+      "id": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "tier": 2,
+      "title": "Hydro-Gear model-specific service schematic ZJ-GCEE-3B5A-1FXX",
+      "document": "71370-P39, three-page OEM schematic reproduced by Stevens Group Dealer",
+      "url": "https://www.stevensgroupdealer.co.nz/sites/default/files/ZJ-GCEE-3B5A-1FXX%20601019.pdf"
+    },
+    {
+      "id": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "tier": 2,
+      "title": "Hydro-Gear model-specific service schematic ZJ-GMEB-5LDB-2DXX",
+      "document": "71370-P72, three-page OEM service schematic republished by ManualsPlus",
+      "url": "https://manuals.plus/m/3fa8c3b3ee23268c804b52cd2a8d877161930d29c8a4efc2ad37440c7d98a0cb.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "verified",
+      "note": "Tillverkarens familjebeteckningar styrkta, men individuellt OEM BOM-/serienummer är ännu okänt."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motor kräver separat maskinspecifikt register och kontrollerat drivsystem."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Intern hydraulisk konstruktion styrkt på familjenivå; exakt revision kan avvika."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Pump/motor och utväxling från originalproduktsidorna är belagda, men inte en konkret maskininstallation."
+    },
+    "E": {
+      "state": "gap",
+      "note": "OEM-reglage, bromsvajrar och rem-/motorinfästning återstår att identifiera per maskin."
+    },
+    "F": {
+      "state": "verified",
+      "note": "Familjegränser på produktsidorna är inte maskinens uppmätta prestanda."
+    },
+    "G": {
+      "state": "gap",
+      "note": "OEM-elsystem och säkerhetskretsar omfattas inte av denna komponentpost."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Klippaggregatets identitet kräver tillverkarens separata maskin- och aggregatkatalog."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Maskinens instruktioner för bogsering/bypass och transport måste granskas separat."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Tillverkarens familjemanual är identifierad, men exakta serviceintervall/oljemängder kräver sida-för-sida-kontroll och BOM."
+    },
+    "K": {
+      "state": "verified",
+      "note": "Felsökningsmatrisen i BLN-52441 P25 sida 8 är sidbildsverifierad; enskild OEM-installation och faktisk felorsak måste fortfarande undersökas."
+    },
+    "L": {
+      "state": "verified",
+      "note": "P25 sidgranskad kataloglista, reservdelspositionsmatris och konkret BOM-kodat artikelnummer 52148 verifierade; individuell OEM/BOM-uppslagning återstår."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Köpråd och kompatibilitet måste verifieras mot aktuell maskins OEM-nummer."
+    }
+  },
+  "claims": [
+    {
+      "id": "zt2800-motor-pump",
+      "statement": "Hydro-Gear anger för ZT-2800-familjen 10 cm³/varv pump och 16 cm³/varv hydraulmotor.",
+      "variant": "ZT-2800 produktfamilj, utan unik OEM BOM-kod",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement; tillverkarens pumpvärde korrigerat 2026-10-22 från felaktiga 10,2 till 10",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt2800-ratios",
+      "statement": "Hydro-Gear listar för ZT-2800 familjeutföranden 20,69:1, 24,74:1 och 27,23:1 som slututväxling. Ingen viss maskin tilldelas något av alternativen utan identifikation.",
+      "variant": "ZT-2800 familj, alternativa utföranden ZH/ZJ, ZK/ZL, ZM",
+      "locator": "Product Specs > Transmission Model / Overall Transaxle Reduction",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt2800-filter",
+      "statement": "Tillverkaren anger externt oljefilter som ZT-2800-familjens serviceegenskap och expansionsbehållare inbyggd som tillval.",
+      "variant": "ZT-2800 produktfamilj, egenskaper kan variera",
+      "locator": "Features > External oil filter; Optional internal expansion tank",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt2800-vehicle-limit",
+      "statement": "Hydro-Gears produktsida anger upp till 1 000 lbs (453 kg) total maskinvikt för ZT-2800, vilket är tillverkarens komponentkataloggräns och inte lastkapacitet för en OEM-maskin.",
+      "variant": "ZT-2800 familj; transaxelproduktens gränsspecifikation",
+      "locator": "Product Specs > Gross Vehicle Weight",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt2800-shaft-options",
+      "statement": "ZT-2800-produktfamiljen anges med 25,4 mm axeldiameter och alternativen konisk axel, fyrbultfläns samt fembultfläns; detta är inte universal passform.",
+      "variant": "ZT-2800 familj, flera axeländutföranden",
+      "locator": "Product Specs > Axle Shaft Diameter / Axle Shaft End Options",
+      "sourceId": "hg-zt2800-original-product",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "zt3100-motor-pump",
+      "statement": "Hydro-Gear anger för ZT-3100-familjen 10 cm³/varv pump och 16 cm³/varv hydraulmotor.",
+      "variant": "ZT-3100 produktfamilj, utan unik OEM BOM-kod",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement; tillverkarens pumpvärde korrigerat 2026-10-22 från felaktiga 10,2 till 10",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3100-ratios",
+      "statement": "Hydro-Gear listar för ZT-3100 familjeutföranden 20,69:1, 24,74:1 och 27,23:1 som slututväxling, beroende av transaxelmodell.",
+      "variant": "ZT-3100 familj; ZJ/ZL/ZM",
+      "locator": "Product Specs > Transmission Model / Overall Transaxle Reduction",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3100-weight",
+      "statement": "Hydro-Gears produktsida anger upp till 1 200 lbs (544 kg) total maskinvikt för ZT-3100, inte en universell rekommendation om last eller dragvikt.",
+      "variant": "ZT-3100 familj",
+      "locator": "Product Specs > Gross Vehicle Weight",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt3100-filter",
+      "statement": "Hydro-Gear beskriver ZT-3100 med externt oljefilter och intern expansionstank som tillval; prestandapaket har ytterligare valbara komponenter och ska inte förutsättas på OEM-enhet.",
+      "variant": "ZT-3100 produktfamilj",
+      "locator": "Features > Included shock valves; External oil filter; Optional internal expansion tank; Performance package",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3100-shaft-options",
+      "statement": "ZT-3100-familjen har 25,4 mm axeldiameter med alternativa koniska/fyrbults-/fembultsaxeländar, varför enbart modellfamilj inte garanterar hjulnavspassform.",
+      "variant": "ZT-3100 produktfamilj",
+      "locator": "Product Specs > Axle Shaft Diameter / Axle Shaft End Options",
+      "sourceId": "hg-zt3100-original-product",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "bln52441-manual-2023",
+      "statement": "Hydro-Gear publicerar en Service and Repair Manual BLN-52441 med omslag January 2023 för ZT-2800, ZT-3100 och ZT-3200; tidigare manualutgåvor har annan familjeomfattning, så exakta servicevärden måste kopplas till rätt utgåva.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 januari 2023",
+      "locator": "Tillverkarens publicerade PDF, omslag, januari 2023; tabeller/figurer ännu inte sidverifierade",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "bln52441-oil-20w50-text",
+      "statement": "Hydro-Gear BLN-52441 P25 anger 20W50 motorolja som rekommenderad vätska vid normal drift.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 (2023), ej OEM-specifik avvikelse",
+      "locator": "Tryckt sida 9, Fluids / Fluid Description; PDF-sida 11 (index 10)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-fill-key-7-13",
+      "statement": "BLN-52441 P25 anger att oljemängden avgörs av tecken 7 och 13 i Hydro-Gears fullständiga modellnummer; specifik mängd ska väljas enligt tabellen, inte transmissionsfamiljen.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 (2023)",
+      "locator": "Tryckt sida 9, Oil Volume Table; PDF-sida 11 (index 10)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-fill-key-values",
+      "statement": "BLN-52441 P25 anger 2079 ml för char7 3/4/5/6/7/8/A/E och char13 L/R/X; 2126 ml för char7 9/B/D/K och char13 L/R/X; samt 1875 ml för char7 S/T/U/W och char13 T. Slang/expansionstank ingår inte. Tidigare 1674 ml var felaktigt.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 2023, modellberoende",
+      "locator": "Tryckt sida 9, Fluid Volume and Level / Oil Volume Table; PDF-sida 11 (index 10)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-external-prechecks",
+      "statement": "Hydro-Gears lista för externt underhåll innefattar kontroll av maskinens godkända belastning, drivrem och spännrullar, kontrollänkage samt bypassfunktion före djupare felsökning.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 (2023)",
+      "locator": "Service and Maintenance > External Maintenance, tryckt sida 9 (textutdrag, ej bildkontrollerat)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "bln52441-purge-after-change",
+      "statement": "Hydro-Gears BLN-52441 kräver avluftning efter oljebyte och hänvisar till särskilt PURGING-avsnitt; följ den aktuella manualens process och fordonets säkerhetsanvisningar.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 (2023)",
+      "locator": "Service and Maintenance > Fluid Volume and Level, tryckt sida 9, hänvisning till Purging Procedures sida 12 (textutdrag)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-service-interval",
+      "statement": "Hydro-Gear BLN-52441 P25 rekommenderar första olje-/filterbyte efter 75–100 timmar och därefter var 400:e timme inom manualens angivna transmissionsfamiljer.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, ej OEM-specifik maskin",
+      "locator": "Tryckt sida 11, Fluid Change Procedure, inledning; PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-filter-52114",
+      "statement": "Hydro-Gear BLN-52441 P25 anger Hydro-Gear part number 52114 för nytt oljefilter i oljebytesproceduren; exakt enhetsidentitet och eventuella ersättningsnummer ska kontrolleras.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, oljebytesprocedur",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 3; PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "bln52441-filter-tightening",
+      "statement": "Hydro-Gear instruerar i BLN-52441 att nytt filter monteras för hand och dras ytterligare 3/4 till ett helt varv efter att filterpackningen har fått kontakt med anliggningsytan.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, steg 3–4",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-drain-cold",
+      "statement": "Manualen kräver oljetemperatur under 100°F (cirka 38°C) vid avtappning, särskilt för utföranden med intern expansionstank för att undvika överfyllning och skada på avluftaren.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, intern expansionstank",
+      "locator": "Tryckt s. 11, CAUTION och Note före steg 2",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-filter-guard",
+      "statement": "Hydro-Gear BLN-52441 P25 anger 115 in-lb (12,99 Nm) för de 1/4-tumsskruvar som fäster oljefiltrets skydd.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 5; PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-fill-top-port",
+      "statement": "Vid oljebyte beskriver manualen fyllning med 20W50 tills oljan når bottenkanten på varje transaxels övre port. För utföranden med extern expansionstank fylls denna vidare till märkningen Full Cold; maskintillverkarens volymer ska kontrolleras.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, beroende av expansionstanksutförande",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, steg 8–13 och figurer 5–6",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-external-symptom-path",
+      "statement": "Vid kontroll av svag drift instruerar Hydro-Gear att först kontrollera drivrem, löphjul, fjädrar, reglagelänkage och att bypass verkligen kopplar i och ur innan intern reparation övervägs.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441",
+      "locator": "Tryckt s. 9, SERVICE AND MAINTENANCE > External Maintenance, punkt 3–5",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "K"
+    },
+    {
+      "id": "bln52441-april2023-revision",
+      "statement": "Hydro-Gear publicerar BLN-52441 med omslagsdatum April 2023, utgåva P25, för ZT-2800/ZT-3100/ZT-3200. Detta är en senare dokumentversion än januari 2023 och ska granskas separat vid servicevärden och reservdelar.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, dokumentutgåva BLN-52441 P25",
+      "locator": "Omslag, dokumenttitel och April 2023, webbindexerad original-PDF (sidbild inte tillgänglig)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "bln52441-older-includes-zt3400",
+      "statement": "En äldre Hydro-Gear-version av BLN-52441 omfattar även ZT-3400, till skillnad från 2023-utgåvans titel som enbart nämner ZT-2800/ZT-3100/ZT-3200; tekniska värden måste därför knytas till utgåva och modellserie.",
+      "variant": "BLN-52441 äldre P23 respektive 2023 P25",
+      "locator": "Båda originalmanualernas omslag/titlar, webbindexerade PDF-utdrag (sidbilder ej verifierade)",
+      "sourceId": "hg-bln52441-2021",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "bln52441-p25-top-port-torque-conflict",
+      "statement": "BLN-52441 P25 tryckt sida 11 anger top-port-plug-moment 120 in-lb men skriver inom parentes 20,3 Nm. Enhetsomräkning ger 13,56 Nm för 120 in-lb; manualens parvärden är inbördes motstridiga och får inte citeras som korrekt Nm-värde utan tillverkarförtydligande.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 april 2023",
+      "locator": "Tryckt sida 11, Fluid Change Procedure steg 11, PDF-sida 13 (index 12)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-online-service-schematic",
+      "statement": "BLN-52441 P25 anger uttryckligen att reservdelskatalogens artikelnummer ska slås upp i ett separat online service schematic med fullständig modellkod, där tecken i koden styr vilken del som passar. De tryckta positionsnumren är inte ordernummer.",
+      "variant": "ZT-2800/3100/3200; fullständigt Hydro-Gear BOM-nummer krävs",
+      "locator": "Tryckt s. 43, How To Use Service Schematic (Online), steg 1–6; PDF-sida 45 (index 44)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-reduction-gear-52148-example",
+      "statement": "Tillverkaren anger som konkret exempel artikelnummer 52148 för reduktionskugghjul 43 tänder, sprängskissposition 81, när tecken 2 i modellkoden är H. Exemplet ger inte universell kompatibilitet.",
+      "variant": "Hydro-Gear ZH-****-****-****, kodtecken 2=H; exempel i BLN-52441 P25",
+      "locator": "Tryckt s. 43, steg 3–7: item 81, character 2 H -> 52148; PDF-sida 45 (index 44)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-kit-positions",
+      "statement": "Originalmanualens delarlista identifierar kit-positionerna 200 Seal, 201 Center Section, 202 Charge Relief, 203 Charge, 207 Fan and Pulley, 210 Input Shaft, 211 RTN Control Arm, 212 Axle Shaft och 215 Brake Shaft. Dessa tal är endast skisspositioner tills BOM-specifikt reservdelsnummer kontrollerats.",
+      "variant": "ZT-2800/3100/3200, BLN-52441 P25 reservdelsöversikt",
+      "locator": "Tryckt s. 45, TRANSAXLE PARTS LIST, positionerna 200–215; PDF-sida 47 (index 46)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-variant-reduction-gears",
+      "statement": "Sprängskissens position 81 benämns reduction gear med 43, 45 eller 46 tänder beroende på variant; position 72 pinjong har alternativen 16, 14 eller 13 tänder. Därför får utväxlingsdelar inte beställas efter familjenamn.",
+      "variant": "ZT-2800/3100/3200, flera variantkombinationer",
+      "locator": "Tryckt s. 45, TRANSAXLE PARTS LIST, position 72 och 81; PDF-sida 47 (index 46)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-id-label-bom",
+      "statement": "Manualens Figure 1 visar ett fullständigt BOM-modellnummer och serienummer på identifieringsetiketten; exemplet ZH-JPBB-SF7B-2XLX får inte tolkas som identifierad enhet hos kund.",
+      "variant": "ZT-2800/3100/3200 identifikationsmetod, BLN-52441 P25",
+      "locator": "Tryckt s. 1, Product Identification, Figure 1, PDF-sida 3 (index 2)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "p25-one-direction-diagnosis",
+      "statement": "Om transaxeln driver endast åt ett håll anger felsökningstabellen böjt/feljusterat reglagelänkage samt slirande drivrem eller skadad remskiva som möjliga orsaker.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Unit Operates In One Direction Only",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-tracking-diagnosis",
+      "statement": "Om maskinen drar snett anger tabellen däcktryck, reglagelänkage, kärvande bypass och delvis aktiverad broms som möjliga orsaker; korrekt däcktryck ska hämtas från maskintillverkaren.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Vehicle Does Not Drive/Track Straight",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-hot-diagnosis",
+      "statement": "Om transmissionen blir varm anger tabellen bland annat smutsbeläggning, skadad kylfläkt, låg/förorenad olja, för hög belastning, luft i hydraulsystemet och delvis aktiverad broms som möjliga orsaker.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Unit Is Operating Hot",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-low-power-diagnosis",
+      "statement": "Vid svag eller utebliven drivning listar manualen för lågt motorvarv, feljusterat länkage, slirande rem, låg/förorenad olja, hög belastning, bypass, luft i hydraulsystemet och delvis aktiverad broms som kontrollpunkter.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting Checklist > Unit Has No/Low Power",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-diagnostic-engine-off",
+      "statement": "Manualen varnar uttryckligen för att utföra service eller justering med motorn igång; okulär besiktning av drivrem och länkage kräver försiktighet och tillämpning av maskinens egna säkerhetsrutiner.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25 April 2023, generisk felsökningsmatris",
+      "locator": "Tryckt sida 8, PDF-sida 10 (index 9), Troubleshooting > WARNING",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "p25-rtn-safe-identification",
+      "statement": "Manualen beskriver Return To Neutral (RTN) som en mekanism som ska återföra riktningsreglaget till neutralläge när föraren släpper kontrollen; justering förutsätter att bypass är frånkopplad och drivhjulen säkert lyfts för fri rotation.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 med RTN enligt BLN-52441 P25",
+      "locator": "Tryckt s. 13, RETURN TO NEUTRAL SETTING, steg 1 och inledning; PDF-sida 15",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "p25-rtn-adjustment-warning",
+      "statement": "Hydro-Gears RTN-justering beskriver axelriktning och små reglageförskjutningar i 5-graderssteg, men varnar särskilt för arbete med motorn igång. Endast kvalificerad tekniker bör utföra testsekvensen under tillämplig OEM-säkerhetsrutin.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 med RTN enligt BLN-52441 P25",
+      "locator": "Tryckt s. 13, RETURN TO NEUTRAL SETTING, steg 3–6, Figure 7; PDF-sida 15",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-kit-211",
+      "statement": "RTN-enhetens demonteringsfigur anger position 211 som RTN Control Arm Kit; fjäder pos. 147, skruv pos. 46, saxarm pos. 145 och arm pos. 44. Positionsnummer är inte automatiskt beställningsnummer.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 med RTN, BLN-52441 P25",
+      "locator": "Tryckt s. 14, Figure 8 Return To Neutral Assembly; PDF-sida 16",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-rtn-seal-41-excluded",
+      "statement": "Manualen anger att tätning pos. 41 inte ingår i RTN-sats pos. 211 och att den endast ska avlägsnas om skadad/sliten; separat tätning identifieras i Seal Kit.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 RTN, BLN-52441 P25",
+      "locator": "Tryckt s. 14, NOTE under Disassembly, Figure 8; PDF-sida 16",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-control-arm-disposable-fasteners",
+      "statement": "Vid demontering av Control Arm Assembly föreskriver originalmanualen kassering av låsmutter pos. 47 och bricka pos. 45 före återmontering; referens till åtdragningsmoment finns i tabell tryckt s. 22.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 15, CONTROL ARM ASSEMBLY, Figure 9; PDF-sida 17",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-brake-adjustment-code7",
+      "statement": "Bromsjustering med omläggning av bromsarmens splineposition i manualen gäller endast ZT-2800/3100 med tecken 7 i fullständigt modellnummer lika med 1 eller 2. Efter justering krävs funktionstest enligt OEM-krav och kontroll av att bromsen inte ligger på under drift.",
+      "variant": "ZT-2800/ZT-3100, Character #7=1 or 2, BLN-52441 P25",
+      "locator": "Tryckt s. 16, PARKING BRAKE ADJUSTMENT (Code 1 or 2), Figure 10–11, PDF-sida 18",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-pump-orientation-code",
+      "statement": "Laddpumpens monteringsriktning skiljer sig med modellkodens tredje tecken. Figur 24 avbildar separata varianter för L, K, P, N, G och H. Delarna får inte monteras efter en allmän ZT-3100-bild utan korrekt BOM-kod.",
+      "variant": "BLN-52441 P25, Z*-L/K/P/N/G/H*** modellkodsmönster",
+      "locator": "Tryckt sida 30, Figure 24 Charge Pump Orientation, PDF-sida 32 (index 31)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-charge-pump-parts",
+      "statement": "Laddpumpens demonteringsbild visar anslutningsrör position 130, läpptätning 157, gerotor 131, O-ring 132, lock 133 och sexkantsskruvar 134. Positionsnummer är inte beställningsnummer.",
+      "variant": "BLN-52441 P25, ZT-2800/ZT-3100/ZT-3200 charge-pump-utföranden",
+      "locator": "Tryckt sida 29, Figure 23a Charge Pump, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-charge-pump-mark-cover",
+      "statement": "Hydro-Gear anger att laddpumpslockets riktning relativt växelhuset ska märkas före demontering och återställas mot samma markering vid montering.",
+      "variant": "BLN-52441 P25, laddpumpens kåpa",
+      "locator": "Tryckt sida 29, Charge Pump Disassembly punkt 1 och Assembly punkt 2 samt Figure 23, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-pump-replace-seals",
+      "statement": "Hydro-Gear anger att O-ring position 132 ska ersättas vid återmontering. Anslutningsrör position 130 och läpptätning position 157 ska ersättas om de tagits bort.",
+      "variant": "BLN-52441 P25, laddpump demonterad",
+      "locator": "Tryckt sida 29, Charge Pump Assembly NOTE, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-charge-pump-conditional-removal",
+      "statement": "Anslutningsrör position 130 och läpptätning position 157 ska enligt manualen endast tas bort i samband med att mittsektionen avlägsnas.",
+      "variant": "BLN-52441 P25, laddpump och center section",
+      "locator": "Tryckt sida 29, Charge Pump Disassembly punkt 2, PDF-sida 31 (index 30)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-input-shaft-seal-discard",
+      "statement": "Manualens ingående axel-avsnitt anger låsring position 57, läpptätning 56, bricka 55, axel 52, lager 53 och låsring 54. Läpptätning 56 ska kasseras vid demontering.",
+      "variant": "BLN-52441 P25, Input Shaft",
+      "locator": "Tryckt sida 31, Figure 25 Input Shaft och Disassembly punkt 2–5, PDF-sida 33 (index 32)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-input-shaft-bearing-inspection",
+      "statement": "Lagret på ingående pumpaxeln ska enligt Hydro-Gear bara demonteras om det är slitet eller skadat; lager och axelns splines ska kontrolleras.",
+      "variant": "BLN-52441 P25, Input Shaft",
+      "locator": "Tryckt sida 31, Disassembly NOTE och Inspection, PDF-sida 33 (index 32)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-bypass-arm-components",
+      "statement": "Figur 26 anger bypassarm position 34, stång 32, låsring 33, clipsring 31, läpptätning 30 och påtryckbar låsring 35. Det är sprängskisspositioner och inte beställningsnummer.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 32, Figur 26, PDF-sida 34 (index 33)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bypass-replace-push-ring",
+      "statement": "Vid demontering ska bypassarmens påtryckbara låsring position 35 kasseras och en ny monteras vid återmontering; läpptätning position 30 ska också bytas.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 32, Bypass Arm, Disassembly steg 2 och 5, Assembly steg 1 och 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-bypass-rod-burr-inspection",
+      "statement": "Hydro-Gear instruerar att bypassstång position 32 kontrolleras för slitage och grader som kan skada den nya gummiläpptätningen. Clipsring 31 behöver bara tas bort från stången om den är skadad eller sliten.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 32, Bypass Arm, Note och Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-swashplate-kit-positions",
+      "statement": "Figur 28 anger svängskiva position 40, trycklager position 65 och pumpcylinderblock position 69; svängskiva och cylinderblock demonteras först tillsammans, sedan separeras trycklagret.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 33, Swashplate, Figur 27–28 och Disassembly steg 2–3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-swashplate-bearing-orientation",
+      "statement": "Vid montering av svängskivans trycklager position 65 ska lagrets tjocka löpbana vara vänd utåt, mot kolvarna i pumpcylinderblocket. Det framgår uttryckligen av figur 28.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 33, Swashplate, Assembly steg 3–4 och Figur 28",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-section-components",
+      "statement": "Mittsektionens demonteringsfigur 29 visar skruvar position 27, motoraxel 73, motorcylinderblock 64, motortrycklager 60 och bromsaxel 101. Detta är positions-ID, inte ordernummer.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 34, Center Section, Figur 29, PDF-sida 36 (index 35)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-center-bypass-puck-note",
+      "statement": "Hydro-Gear påpekar att en bypass-puck sitter under motorcylinderblocket och hänvisar till position 22 på sidan 38. Den ska beaktas när mittsektionen demonteras.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 34, Center Section, not efter Disassembly steg 5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-bearing-inspection",
+      "statement": "Mittsektionens anliggningsytor ska kontrolleras efter repor, motoraxel och trycklagrets löpbanor efter slitage eller skador samt motorcylinderblocket enligt detaljavsnittet på sidan 37.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 34, Center Section, Inspection steg 1–4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-brake-cam-code7-1-2",
+      "statement": "Figur 30 för bromskamaxel position 101, bromspuck position 100 och O-ringar position 10 gäller ZT-2800/3100 där modellkodens sjunde tecken är 1 eller 2. O-ringarna ska bytas vid demontering.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25; bromsvarianten endast modellkodstecken 7=1/2",
+      "locator": "Tryckt s. 35, Brake Assembly (Code 1 or 2), Figur 30, PDF-sida 37 (index 36)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-plug-seals-single-use",
+      "statement": "För åtkomst till kontrollpluggarna (position 24 och 25) måste pluggtätningarna (position 26) tas bort; Hydro-Gear kräver att borttagna pluggtätningar kasseras och ersätts.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 38, Check Plugs & Seals, figur 34; PDF-sida 40",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cylinder-block-inspection",
+      "statement": "Hydro-Gear kräver kontroll av cylinderblockens löpytor efter repor och skärskador (galling) samt kontroll av samtliga komponenter för slitage eller skada; skadade delar ersätts.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 38, Cylinder Blocks, figur 35; PDF-sida 40",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cylinder-block-reassembly-oil",
+      "statement": "Manualen instruerar att applicera ett tunt oljeskikt på cylinderblockets komponenter inför återmontering och att skydda kolv- och blockytorna vid isärtagning.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 38, Cylinder Blocks, text vid figur 35; PDF-sida 40",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-2800-3100-parts",
+      "statement": "ZT-2800 och ZT-3100 har i drivaxelns demonteringsbild låsring 90, drivaxel 94, lager 95 och läpptätning 96. Tätning 96 ska kasseras efter demontering; lager 95 tas bara av axeln vid skada eller slitage.",
+      "variant": "ZT-2800/ZT-3100, BLN-52441 P25",
+      "locator": "Tryckt s. 39, Axle Shaft (ZT-2800/ZT-3100), figur 36; PDF-sida 41",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-axle-3200-separate-design",
+      "statement": "ZT-3200 har utöver låsring 90, drivaxel 94, lager 95 och läpptätning 96 även distans 164 och axelrör 165; detta är ett separat utförande jämfört med ZT-2800/3100.",
+      "variant": "Endast ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 40, Axle Shaft (ZT-3200), figur 37; PDF-sida 42",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-axle-seal-spline-protection",
+      "statement": "Vid montering av drivaxelns läpptätning rekommenderar Hydro-Gear skydd över splines, vassa kanter och kilspår så att den nya tätningen inte skadas.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, BLN-52441 P25",
+      "locator": "Tryckt s. 39–40, Axle Shaft, monteringsnoter till figurer 36–37; PDF-sida 41–42",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-sealant-loctite5900",
+      "statement": "Originalmanualens reservdelsförteckning anger Loctite 5900 som tätningsmedel, position 13. Det är en materialspecifikation, inte generell tätningsmedelskompatibilitet för andra enheter.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.45, Transaxle Parts List, position 13; PDF-sida 47",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-sealant-bead-path",
+      "statement": "Efter total demontering ska gammalt tätningsmedel avlägsnas. Hydro-Gear visar särskilda strängdragningar runt huvudhuset och mittsektionen i figur 38 och anger en jämn sträng på cirka 1/16–1/8 tum (1,6–3,2 mm); använd sparsamt.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.41, Assembly After A Complete Tear Down, punkt 7 och figur 38; PDF-sida 43",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-reassembly-sequence",
+      "statement": "Manualens ordning vid fullständig återmontering är drivaxel, hydraulkomponenter, bypass, ingående axel, laddpump, reduktions-/pinjong-/bull gear, tätning och sidokåpa, RTN samt slutligen filter/olja och avluftning efter installation.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.41, Assembly After A Complete Tear Down, punkt 1–11; PDF-sida 43",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-side-cover-sequence",
+      "statement": "Sidokåpans 16 skruvpositioner ska enligt figur 39 dras i nummerordning 1–16, inte runt kanten i valfri ordning.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.42, Figure 39 Screw tightening sequence diagram; PDF-sida 44",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-side-cover-torque",
+      "statement": "Sidokåpans skruvar, position 7 (1/4-20 × 1,25 tum), har 105–155 lb-in (11,87–17,52 Nm) åtdragningsmoment. Manualen rekommenderar som allmän regel den nedre delen av intervallet.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.22 Torque table, pos 7, samt s.42 Figure 39; PDF-sidor 24 och 44",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-center-section-screws-torque",
+      "statement": "Momenttabellen anger 450–550 lb-in (50,8–62,1 Nm) för mittsektionens skruvar, position 27, sexkant 3/8-16 × 1,5 tum. Får inte användas för sidokåpsskruvar.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.22, Required Torque Values, pos 27; PDF-sida 24",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-breather-and-charge-screws",
+      "statement": "Momenttabellen anger 180–240 lb-in (20,3–27,1 Nm) för avluftningsanslutning position 111 och 100–130 lb-in (11,3–14,7 Nm) för laddpumpens lockskruvar position 134.",
+      "variant": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441 P25 april 2023, komponentbundet; full OEM/BOM måste kontrolleras",
+      "locator": "Tryckt s.22, Required Torque Values, pos 111 och 134; PDF-sida 24",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-filterguard-step-vs-torque-range",
+      "statement": "I P25 är oljefilterkåpans serviceinstruktion steg 5 (115 in-lb, 12,99 Nm) förenlig med momenttabellens 100–130 lb-in för position 105. Detta är ingen intern motsägelse.",
+      "variant": "BLN-52441 P25 (april 2023), filter guard fastener item 105",
+      "locator": "Tryckt s. 11 steg 5, och s. 22 Required Torque Values rad 105 (PDF sidor 13 och 24)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-torque-distinct-filters",
+      "statement": "P25:s momenttabell skiljer uttryckligen mellan själva oljefiltret pos. 23 (70–90 lb-in) och filterkåpans fästskruvar pos. 105 (100–130 lb-in). Dessa moment kan inte bytas mellan komponenterna.",
+      "variant": "BLN-52441 P25; item 23 versus item 105",
+      "locator": "Tryckt s. 22, Required Torque Values, rader 23 och 105 (PDF sida 24)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p23-filterguard-115",
+      "statement": "Tillverkarens P23-manual (april 2021) anger i oljebytesproceduren 115 in-lb (12,99 Nm) för oljefilterskyddets 1/4-tumsskruvar. Äldre uppgifter om 65 in-lb får därför inte utan precisering tillskrivas P23.",
+      "variant": "BLN-52441 P23 (april 2021), ZT-2800/3100/3200/3400",
+      "locator": "Fluid Change Procedure, tryckt s. 11, steg 5, officiell PDF:s textlager (sidbild ej kontrollerad)",
+      "sourceId": "hg-bln52441-2021",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "p25-zt2800-charged-vs-uncharged",
+      "statement": "Hydro-Gear BLN-52441 P25 anger uttryckligen att ZT-2800 finns både med och utan laddpump. ZT-3100 och ZT-3200 beskrivs med laddpump. Interna laddpumpsreparationer gäller därför inte automatiskt en ZT-2800 utan laddpump.",
+      "variant": "ZT-2800 charged/uncharged; ZT-3100 och ZT-3200 charged",
+      "locator": "Tryckt s.2, Description and Operation, högerkolumn; PDF-sida 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-uncharged-filtration",
+      "statement": "I ZT-2800 utan laddpump drivs oljan genom filtret av expansionskärlets vätskepelare i kombination med undertrycket vid huvudpumpens inlopp; det finns ingen separat gerotorladdpump i det schemat.",
+      "variant": "ZT-2800 utan laddpump",
+      "locator": "Tryckt s.2, högerkolumn samt s.3 Figure 3 Hydraulic Schematic Without Charge Pump; PDF-sidor 4–5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-charged-relief-path",
+      "statement": "I ZT-3100 och ZT-3200 drar gerotorladdpumpen olja genom filtret; överskottsflöde som inte tillförs lågtryckssidan går via laddtrycksbegränsningsventilen tillbaka till transmissionshuset.",
+      "variant": "ZT-3100/ZT-3200 laddpumpversion enligt manualen",
+      "locator": "Tryckt s.2, högerkolumn samt s.3 Figure 2 Hydraulic Schematic With Charge Pump; PDF-sidor 4–5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p25-bypass-max-speed",
+      "statement": "Tillverkaren begränsar kortvarig förflyttning med öppen bypass och avstängd motor till högst 2 mph (3,2 km/h); bromsen ska frigöras innan bypass aktiveras.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt P25",
+      "locator": "Tryckt s.2, stycket om cam style bypass; PDF-sida 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "p25-bypass-braking-loss",
+      "statement": "Hydro-Gear varnar att bypassaktivering tar bort hydrostatisk bromsverkan. Maskinen ska vara stillastående, på plan mark och i neutralläge när bypass aktiveras.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt P25",
+      "locator": "Tryckt s.2, WARNING under bypass-avsnittet; PDF-sida 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "p25-charged-two-schematics",
+      "statement": "P25 figur 2 är schemat med laddpump, filter, laddtrycksbegränsning och systembackventiler; figur 3 är schemat för ZT-2800 utan laddpump. De får inte blandas vid diagnostik.",
+      "variant": "ZT-2800 utan laddpump kontra laddpumpförsedd version",
+      "locator": "Tryckt s.3, Figures 2–3 Hydraulic Schematic; PDF-sida 5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "p24-zt2800-charged-speed-limit",
+      "statement": "BLN-52441 P24:s tekniska familjetabell skiljer ZT-2800 utan laddpump, högsta obelastade ingångsvarv 3000 rpm, från ZT-2800 med laddpump 3600 rpm; minimum anges till 1800 rpm. Aktuellt produktblad listar 3000 rpm utan att specificera denna uppdelning.",
+      "variant": "ZT-2800 med respektive utan laddpump, BLN-52441 P24",
+      "locator": "Tryckt sida 6 TECHNICAL SPECIFICATIONS, Input Speeds; PDF texttabell (sidbild kunde inte hämtas i webbverktyget)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "p24-filter-rating",
+      "statement": "BLN-52441 P24 anger 25 mikron nominell och 40 mikron absolut filtreringsgrad för sugfilter som gemensam familjespecifikation. Detta är filterklassning, inte artikelnummer eller universell passform.",
+      "variant": "ZT-2800/3100/3200 enligt BLN-52441 P24",
+      "locator": "Tryckt sida 6 TECHNICAL SPECIFICATIONS, Filter Rating, PDF texttabell (ej sidbildsverifierad)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "D"
+    },
+    {
+      "id": "p24-zt3200-distinct-axle-and-rating",
+      "statement": "I BLN-52441 P24:s familjetabell listas ZT-3200 med 28,575 mm (1,125 tum) axel, 680 kg angiven högsta maskinvikt och upp till 637 Nm utgångsmoment, jämfört med 25,4 mm axel för ZT-2800/3100. Skillnaden är familjebunden och inte en OEM-lastgräns.",
+      "variant": "ZT-3200 jämfört med ZT-2800/3100, BLN-52441 P24",
+      "locator": "Tryckt sida 6 TECHNICAL SPECIFICATIONS, Axle Shaft Diameter / Gross Vehicle Weight / Output Torque (texttabell; bildkontroll återstår)",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "zt3200-pump-motor-original",
+      "statement": "Hydro-Gear anger pumpdeplacement 10 cm³/varv och hydraulmotordeplacement 16 cm³/varv för ZT-3200-produktfamiljen.",
+      "variant": "ZT-3200, tillverkarens aktuella produktblad",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3200-reductions-original",
+      "statement": "Hydro-Gear visar ZT-3200 som transaxelmodell ZJ, ZL och ZM med respektive slututväxling 20,69:1, 24,74:1 och 27,23:1. Endast fullständig modellkod kan knyta rätt alternativ till en enhet.",
+      "variant": "ZT-3200, ZJ/ZL/ZM varianter",
+      "locator": "Product Specs > Transmission Model / Overall Transaxle Reduction",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3200-operating-limits-original",
+      "statement": "Hydro-Gears produktblad anger högsta obelastade ingångsvarvtal 3600 rpm, lägsta belastade 1800 rpm och hastighet upp till 14 km/h för ZT-3200. Det är familjegränser, inte garanti för maskinens maxhastighet.",
+      "variant": "ZT-3200 produktfamilj",
+      "locator": "Product Specs > Input Speeds / Speed",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt3200-axle-gvw-original",
+      "statement": "Tillverkarens ZT-3200-produktblad anger axeldiameter 1,125 tum (28,56 mm) och högsta angivna bruttofordonsvikt 1500 lb (680 kg); det senare är komponentens specifikationsgräns, inte nyttolast.",
+      "variant": "ZT-3200 produktfamilj",
+      "locator": "Product Specs > Axle Shaft Diameter / Gross Vehicle Weight",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt3200-performance-package-variant",
+      "statement": "ZT-3200 har enligt Hydro-Gear en performance-package-option med chockventiler, skurna stålväxlar och laddpump; separat nämns standardmässiga chockventiler. Det är därför fel att automatiskt anta att hela performance-paketet ingår i varje BOM.",
+      "variant": "ZT-3200, tillval och standardutrustning åtskilda",
+      "locator": "Features > Performance package / Standard shock valves",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "zt3200-shaft-ends-original",
+      "statement": "Tillverkaren listar tre axelutföranden för ZT-3200: konisk axel, 4-bultsfläns och 5-bultsfläns. Hjulnav och drivaxeldelar kan inte väljas efter ZT-3200-familjenamnet ensamt.",
+      "variant": "ZT-3200 produktfamilj, alternativ axelände",
+      "locator": "Product Specs > Axle Shaft End Options",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-1-4",
+      "statement": "I Hydro-Gears 14-teckens kod (bindestreck räknas ej) betecknar tecken 1 transmissionsserie, 2 reduktionsförhållande och pinjongmaterial, 3 axelsida/laddpumpens rotationsriktning och 4 axelände, hjulbultar samt längd.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, How To Use Service Schematic, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-5-8",
+      "statement": "Tecken 5 anger backventil A:s rotationsriktning och ingångsaxeln; tecken 6 backventil B:s rotationsriktning; tecken 7 bromsarm och bromstyp; tecken 8 bromsarmens sida, rotationsriktning och position.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-9-12",
+      "statement": "Tecken 9 i Hydro-Gear-modellnumret kodar reglagesida och reglagetyp, tecken 10 reglagearm, tecken 11 bypassarm och tecken 12 fläkt-/remskivesats.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-codes-13-14",
+      "statement": "Tecken 13 i Hydro-Gears modellkod betecknar avluftningsanslutningar (Breather Fittings), medan tecken 14 är reserverat. Oljemängdstabellens koppling till tecken 13 får inte omtolkas som en universell komponentmängd.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-bom-14-symbol-caution",
+      "statement": "Tillverkarens exempel ZH-HCEE-3JDB-2BLX består av 14 egentliga kodtecken i fyra grupper (2-4-4-4); bindestrecken ingår inte i numreringen. Ett kodvärde får inte flyttas en position vid reservdelsuppslagning.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 BLN-52441 P25, modellkodsexempel ZH-HCEE-3JDB-2BLX (ej identifierad kundenhet)",
+      "locator": "Tryckt s. 43, modellkodtabell, PDF-sida 45",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-bom-example",
+      "statement": "Hydro-Gears CAD-konfigurator visar BOM och Model Code ZH-MAAA-SA0A-1XLX som ett konfigurerat exempel. Exemplet är inte bevis för att en specifik kundmaskin bär samma transmission.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Product configuration header, lines 25–42",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cad-series-selector",
+      "statement": "Samma tillverkaranslutna konfigurator omfattar ZT-2800, ZT-3100 och ZT-3200 och tillåter val mellan 20,69, 24,74 och 27,23 slututväxling samt olika pinjongmaterial.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Product Series / Overall Reduction Ratio / Pinion Material, lines 39–58",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "cad-shock-valve-options",
+      "statement": "CAD-konfiguratorn skiljer på backventilalternativ utan chockventil (.000, .027, .044 bleed) respektive med 220 bar chockventil; dessa är valbara utföranden, inte garanterat monterade på alla familjemodeller.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Check Valve Axle Rot.A/B and CW Input Axis, lines 78–92",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-bypass-options",
+      "statement": "Bypassarmens konfigurationsalternativ är ingen sprint, sprint upp eller sprint ned (No Pin, Pin UP, Pin DOWN); därför räcker inte modellfamiljen för att bestämma rätt bypassarm.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Bypass Arm options, lines 129–134",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-control-arm-component-candidates",
+      "statement": "Hydro-Gears CAD-konfigurator listar reglagearmalternativen A=51631 och B=51841 (RH-OB, LH-IB). Numren är visade val i konfiguratorn, men en unik BOM-kod måste kontrolleras innan något av dem rekommenderas som reservdel.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Control Arm selector, lines 125–128",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-breather-options",
+      "statement": "Konfiguratorn skiljer mellan Breather Fitting, Plug och IET Breather; även denna komponent varierar med det konfigurerade utförandet.",
+      "variant": "Hydro-Gear ZT-2800/3100/3200 CAD-configurator, modellkodsexempel ZH-MAAA-SA0A-1XLX, ej kundidentifierad transaxel",
+      "locator": "Breather Fitting / Plug selector, lines 151–159",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-shock-bleed-matrix",
+      "statement": "Konfiguratorns båda backventilväljare visar sex kodalternativ A–F: utan chockventil med bleed .000/.027/.044 och med 220 bar chockventil med samma tre bleed-alternativ. Detta är valbara versioner, inte bevis för monterad ventil på given BOM.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Check Valve Axle Rot.A/B and CW Input Axis; lines 78–92",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-brake-arm-codes-s-9",
+      "statement": "Konfiguratorn anger S=internal cog lip seal och 9=internal cog, no arm, lip seal som två skilda brake arm/style-koder. Kod 9 kan därför inte antas ha extern bromsarm.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Brake Arm and Style; lines 94–108",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-axle-end-length-options",
+      "statement": "Konfiguratorn separerar axeländens val 3.6° taper, 4-bolt 7/16, 4-bolt 1/2 samt 7/16 och 1/2 offset från axellängdsvalen 9 och 11 tum. Alla värden är konfigurationsalternativ, inte garanterad kompatibilitet.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Axle End and Studs, Axle Length; lines 66–77",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-control-type-options",
+      "statement": "Konfiguratorns reglagealternativ omfattar NEUTL LOCK, NO ARM och NO NEUTL LOCK, separat från reglagets inboard/outboard-sida. Reglageutförande måste verifieras före val av ersättningsarm.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Control Side / Control Type; lines 109–124",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "cad-fan-mount-options",
+      "statement": "Fläkt-/remskivevalen omfattar None, Fan Above och Fan Below. Konfiguratorn visar Fan and Pulley Kit # som streck för visat exempel och bekräftar därmed inte något beställningsnummer för denna BOM.",
+      "variant": "Hydro-Gear officiell CAD-konfigurator för ZT-2800/3100/3200; valbara attribut, ej fastställd konkret kund-BOM",
+      "locator": "Fan to Pulley Configuration / Kit #; lines 135–150",
+      "sourceId": "hg-cadenas-official-configurator",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-h",
+      "statement": "I Hydro-Gear service schematic 71370 P64 styr modellkodens andra tecken H pinjong pos.72 artikel 52149, 16 tänder, samt reduktionskugghjul pos.81 artikel 52148, 43 tänder.",
+      "variant": "Tecken 2=H, 71370 P64 2020-12-29",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio tabell, rad H",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-j",
+      "statement": "I P64 styr kodtecken 2=J pinjong pos.72 artikel 52344, stål 16 tänder, och reduktionskugghjul pos.81 artikel 52148, 43 tänder.",
+      "variant": "Tecken 2=J, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad J",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-k",
+      "statement": "I P64 styr kodtecken 2=K pinjong pos.72 artikel 52109, 14 tänder, och reduktionskugghjul pos.81 artikel 52110, 45 tänder.",
+      "variant": "Tecken 2=K, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad K",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-l",
+      "statement": "I P64 styr kodtecken 2=L pinjong pos.72 artikel 52341, stål 14 tänder, och reduktionskugghjul pos.81 artikel 52110, 45 tänder.",
+      "variant": "Tecken 2=L, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad L",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-ratio-m",
+      "statement": "I P64 styr kodtecken 2=M pinjong pos.72 artikel 52342, stål 13 tänder, och reduktionskugghjul pos.81 artikel 52343, 46 tänder.",
+      "variant": "Tecken 2=M, 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Reduction Ratio rad M",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-common-service-parts",
+      "statement": "Hydro-Gear P64:s gemensamma dellista anger bypassplatta pos.22 artikel 51448, pluggtätning pos.26 artikel 52162, svängskivans tapp pos.40 artikel 51048 samt tätingssats pos.200 artikel 73107. Angiven common parts-tabell gäller denna schemarevision, inte alla framtida BOM-utgåvor.",
+      "variant": "ZT-2800/3100/3200 inom 71370 P64",
+      "locator": "PDF-sida 3 (index 2), Common Parts tabell",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-motor-block-bom",
+      "statement": "71370 P64 skiljer motorblockets kitsats pos.64: modellkodtecken 7=1/2 med tecken 14=X anges kit 72158; andra angivna kombinationer av tecken 7 och 14 anges kit 72882. Vilken sats som gäller måste slås upp i exakt BOM.",
+      "variant": "ZT-2800/3100/3200, schema 71370 P64, char7+char14 villkor",
+      "locator": "PDF-sida 3 (index 2), Block Kit tabell",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-relief-kit",
+      "statement": "71370 P64 anger laddtrycksventilsats pos.202 artikel 71436 för tredje kodtecken G/H/K/L/N/P, med delpositionerna 135,136 och 137 inkluderade.",
+      "variant": "ZT-2800/3100/3200 71370 P64, tecken 3=G/H/K/L/N/P",
+      "locator": "PDF-sida 3 (index 2), Charge Relief Kit tabell",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-ghn-ee-71561",
+      "statement": "Mittsektionssats pos.201 artikel 71561, RH CHRG, används enligt P64 när tecken 3=G/H/N, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 G,H,N; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-j-ee-71562",
+      "statement": "Mittsektionssats pos.201 artikel 71562, RH, används enligt P64 när tecken 3=J, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 J; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-klp-ee-71563",
+      "statement": "Mittsektionssats pos.201 artikel 71563, LH CHRG, används enligt P64 när tecken 3=K/L/P, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 K,L,P; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-char3-m-ee-71564",
+      "statement": "Mittsektionssats pos.201 artikel 71564, LH, används enligt P64 när tecken 3=M, tecken 5=E, tecken 6=E och tecken 7 tillhör angiven grupp.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; CHAR 3 M; CHAR 5 E; CHAR 6 E; CHAR 7 grupp",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-center-kit-not-universal",
+      "statement": "Mittsektionskatalogen (pos.201) i P64 specificerar kodvillkor separat för char 7, 3, 5 och 6. Den omfattar både höger- och vänsterversioner samt varianter med/utan laddpump och de får inte förväxlas.",
+      "variant": "Char 7=3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W; 71370 P64 daterad 2020-12-29; Övergripande metod",
+      "locator": "Original-PDF sida 4/17 (index 3), CENTERSECTION KITS tabellen överst till vänster; koder och rader i ordning, visuellt kontrollerat",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-kit-71569",
+      "statement": "I schemarevision 71370 P64 anger tabellen AXLE KITS pos. 212 artikel 71569 (KIT SHAFT AXLE) när modellkodens tecken 4 är A–E, L eller M.",
+      "variant": "Char 4=A,B,C,D,E,L,M; P64 dated 2020-12-29",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, första raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-kit-71570",
+      "statement": "I schemarevision 71370 P64 anger AXLE KITS pos. 212 artikel 71570 (KIT SHAFT AXLE) när tecken 4 är F–K, N eller P.",
+      "variant": "Char 4=F,G,H,J,K,N,P; P64 dated 2020-12-29",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, andra raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-shaft-53527-53528",
+      "statement": "P64 anger separat drivaxel pos.94 artikel 53527 för char4 R/T/Y samt artikel 53528 för char4 S/U/W. Dessa är inte samma som kit pos.212.",
+      "variant": "Char 4=R,T,Y respektive S,U,W",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, tredje och fjärde raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-tube-53496",
+      "statement": "P64 anger axelrör pos.186 artikel 53496 för modellkodens fjärde tecken F–K, N, P, R, T eller Y; detta är en separat komponent från drivaxeln.",
+      "variant": "Char 4=F,G,H,J,K,N,P,R,T,Y",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, femte raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-hub-4bolt-71404-71405",
+      "statement": "P64 skiljer 4-bults navsats pos.97 artikel 71404 för char4 B/G från artikel 71405 för char4 C/H/S/Y. Axelände och navsats får inte antas utbytbara.",
+      "variant": "Char 4=B,G respektive C,H,S,Y",
+      "locator": "PDF sida 5 (index 4), HUB KITS, rader 1–2",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-hub-5bolt-71691",
+      "statement": "P64 anger 5-bults navsats pos.97 artikel 71691 när char4 är E/K/R/U, med separat axle cap pos.156 artikel 53088.",
+      "variant": "Char 4=E,K,R,U",
+      "locator": "PDF sida 5 (index 4), HUB KITS, sista raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-bull-gear-code4",
+      "statement": "P64 anger 54-tands slutkugghjul pos.91 artikel 52108 för char4 A–P (redovisade bokstäver) respektive artikel 53327 för char4 R/S/T/U/W/Y. Delarna ska inte sammanblandas trots identiskt tandantal.",
+      "variant": "Char 4 enligt explicit radlista i BULL GEAR-tabellen",
+      "locator": "PDF sida 5 (index 4), BULL GEAR, båda rader",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-rtn-branch-ghjn",
+      "statement": "P64 RTN-tabell pos.211 visar för char3=G/H/J/N, char9=2/A/G och char10=C RTN-sats artikel 71592; samma char3+char9 med char10=G ger artikel 71598. Komplett trefältsvillkor krävs.",
+      "variant": "Char 3=G,H,J,N; char9=2,A,G; char10=C eller G",
+      "locator": "PDF sida 2 (index 1), RTN ASSEMBLY & CONTROL ARM, översta två raderna",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-neutral-arm-specific",
+      "statement": "I P64 NEUTRAL ARM-tabell anges pos.141 artikel 51945 (neutralarm höger) vid char9 2/3/4/7/8/9/A–M/Y + char10 B/F och artikel 51946 (vänster) vid motsvarande char9 med char10 C/G. Variantvillkoren måste uppfyllas samtidigt.",
+      "variant": "Char 9 och 10 enligt P64 NEUTRAL ARM tabell",
+      "locator": "PDF sida 2 (index 1), NEUTRAL ARM, första två rader",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-bypass-arm-four",
+      "statement": "Bypassarm position 34 är artikel 51629 vid char11=1, 51910 vid 2, 52370 vid 3 och 52742 vid 4.",
+      "variant": "char11=1/2/3/4",
+      "locator": "PDF sida 6/17 (index 5), BYPASS ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-gerotor",
+      "statement": "Gerotor position 131 har artikelnummer 50273 och beskrivs 1,9 cc/varv i laddpumpsdelarnas tabell.",
+      "variant": "char3=G,H,K,L,N,P",
+      "locator": "PDF sida 6/17 (index 5), CHARGE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-cover-rh-lh",
+      "statement": "Laddpumpslock position 133 skiljer 53738 för char3 G/H/K/L och 53737 för N/P.",
+      "variant": "char3 G,H,K,L respektive N,P",
+      "locator": "PDF sida 6/17 (index 5), CHARGE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-charge-connectors",
+      "statement": "Laddpumpens anslutningsrör pos130 har artikel 54501 (två exemplar), O-ring pos132 artikel 55204 och gerotortätning pos157 artikel 72291 i P64.",
+      "variant": "char3=G,H,K,L,N,P",
+      "locator": "PDF sida 6/17 (index 5), CHARGE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-input-charge-kits",
+      "statement": "Laddpumpssats pos203 är 72274 vid char3 G/H/K/L och 72274 vid N/P; den innehåller 131–134. Ingående axelsats pos210 anges som 73047 för båda dessa grupper.",
+      "variant": "char3=G,H,K,L,N,P",
+      "locator": "PDF sida 6/17 (index 5), INPUT SHAFT AND CHARGE KITS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-input-kit-without",
+      "statement": "För char3 J/M anger P64 ingående axelsats pos210 artikel 73040, med ingående komponenter 52,53,54,124.",
+      "variant": "char3=J,M",
+      "locator": "PDF sida 6/17 (index 5), INPUT SHAFT AND CHARGE KITS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-arm-1-2",
+      "statement": "För char7=1/2 listas bromsarm pos102 som artikel 52501 vid char7=1 respektive 52499 vid char7=2.",
+      "variant": "char7=1 respektive 2",
+      "locator": "PDF sida 7/17 (index 6), BRAKE ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-handle-rh-lh",
+      "statement": "P64 anger bromshandtag pos102 artikel 53973 för de i tabellen specificerade char7 3/6/7/E/D/S/U/W med char8 och char14 enligt respektive rad; för vissa char7=5/T anges bromsarmskit 71957 höger och 71958 vänster beroende på char3.",
+      "variant": "Villkor styrs av char7, char8, char14, ibland char3",
+      "locator": "PDF sida 7/17 (index 6), BRAKE ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-shaft-select",
+      "statement": "Bromsaxel pos101 kan vara artikel 52651, 55480 (inboard) eller 55479 (outboard), och väljs enligt kodtecken 7 och 8 i tabellen.",
+      "variant": "char7/char8 enligt BRAKE SHAFT",
+      "locator": "PDF sida 7/17 (index 6), BRAKE SHAFT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-pad-common",
+      "statement": "Bromspuck pos100 är artikel 52766 i bromskomponenttabellerna för ett flertal bromsvarianter; antalet kompletterande tätningar varierar med char7.",
+      "variant": "char7 enligt BRAKE COMPONENTS; ej universal",
+      "locator": "PDF sida 7/17 (index 6), BRAKE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-shaft-72753-56",
+      "statement": "Bromsaxelsats pos215 för char7=3/5/6/7/8/E fördelas enligt char3 och char8 på artiklarna 72753, 72754, 72755 och 72756; välj från full trekolumnsmatris.",
+      "variant": "char7=3,5,6,7,8,E; char3/char8 avgör",
+      "locator": "PDF sida 7/17 (index 6), BRAKE SHAFT KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-shaft-73118-21",
+      "statement": "Bromsaxelsats pos215 för char7=9/D/S/T/U/W fördelas enligt char3 och char8 på artiklarna 73118, 73119, 73120 och 73121; satserna visar andra innehåll än 72753–72756.",
+      "variant": "char7=9,D,S,T,U,W; char3/char8 avgör",
+      "locator": "PDF sida 7/17 (index 6), BRAKE SHAFT KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-a-b-components",
+      "statement": "P64:s externa bromskomponentlista för char7=A/B listar tätningssats pos160 artikel 70719, bromsrotor pos171 artikel 53989, bromspuck pos170 artikel 44132 (2 st) och brake-yoke-kit pos214 artikel 70633.",
+      "variant": "char7=A/B",
+      "locator": "PDF sida 8/17 (index 7), BRAKE COMPONENTS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-brake-a-b-arm",
+      "statement": "Bromsarmen pos102 är artikel 53326 vid char7=A och char8=1, alternativt artikel 54440 vid char7=B och char8=2.",
+      "variant": "char7=A + char8=1; eller char7=B + char8=2",
+      "locator": "PDF sida 8/17 (index 7), BRAKE ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-breather-fittings",
+      "statement": "P64:s breather-tabell anger pos111 artikel 71393 för viss char7/char5/char13-kombination, samt separat pos194 artikel 55734 för interna expansionsutföranden. Samma anslutning får inte antas passa alla konfigurationer.",
+      "variant": "char7/char5/char13 samt char3 enligt BREATHER FITTINGS",
+      "locator": "PDF sida 9/17 (index 8), BREATHER FITTINGS AND PLUGS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-expansion-tank-number",
+      "statement": "Intern expansionstank, pos195, listas som artikel 55071 (RH) eller 55072 (LH), bestämt av char3 i kombination med char7/char13.",
+      "variant": "char3 G,H,J,N -> 55071, K,L,M,P -> 55072, inom särskilda char7/char13-villkor",
+      "locator": "PDF sida 9/17 (index 8), BREATHER FITTINGS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-oil-codes-volume",
+      "statement": "P64:s oljetabell anger 70,3 US fl oz för char7 3/4/5/6/7/8/A/E + char13 L/R/X, 71,9 US fl oz för char7 9/B/D/K + char13 L/R/X och 56,6 US fl oz för char7 S/T/U/W + char13 T.",
+      "variant": "Modellkodsvillkor enligt P64, inte expansionsslangvolym",
+      "locator": "PDF sida 9/17 (index 8), OIL",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-fan-kit-0-9",
+      "statement": "I P64 fan/pulley-tabell finns pos207 satserna 72986, 72885, 72984, 72974, 72981, 73110, 72980, 72982 och 72971 för char12 0,1,2,3,4,5,6,7,9, med särskilda char3-villkor.",
+      "variant": "char12=0,1,2,3,4,5,6,7,9; char3 enligt tabellen",
+      "locator": "PDF sida 10/17 (index 9), FAN & PULLEY KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-fan-kit-a-j",
+      "statement": "För char12 A–J listar P64 fläkt-/remskivesatser pos207 72972, 72975, 72975, 72976, 72973, 72972/71833, 72977, 72974/72979, (ej H), 72983 i olika char3-undergrupper; den tryckta matrisen måste väljas radvis.",
+      "variant": "char12=A–J; char3 enligt tabellen",
+      "locator": "PDF sida 11/17 (index 10), FAN & PULLEY KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-fan-kit-m-y",
+      "statement": "För char12 M,N,P,T,U,W,Y listar P64 fläkt-/remskivesatser pos207 72972,72973,72979,73976,72978,72977,72976; char12=X anges som N/A.",
+      "variant": "char12=M,N,P,T,U,W,X,Y och char3 enligt tabellen",
+      "locator": "PDF sida 12/17 (index 11), FAN & PULLEY KIT",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-main-housing-varies",
+      "statement": "P64 MAIN HOUSING KITS visar att komplett hus pos1 har skilda artikelnummer med beroenden på char4, char7, char5, char3 och char9; exempelvis 71412 (RH charge) och 71420 (LH charge) inom översta specifika kodgruppen.",
+      "variant": "char4 A–K,L–P; char7 1/3/5/6/7/8/9/E; char5 A–G; char3 och char9 specificerade i tabellen",
+      "locator": "PDF sida 13/17 (index 12), MAIN HOUSING KITS",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-seal-kit-contents",
+      "statement": "P64 pos200 tätningkit artikel 73107 visas som övergripande tätningkit; skissens markeringar och items-inkludering styr vilka enskilda tätningar/sprintar som medföljer.",
+      "variant": "P64, seal kit 73107, edition-bound",
+      "locator": "PDF sida 1/17 (index 0), exploded schematic footer",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-spring-options",
+      "statement": "RTN-fjäder pos147 skiljs på char9: 52401 för 2/3/4/7/8/9, 51833 för A–F, 51605 för G/H/J/K/L/M/Y och 54402 för U; char10 måste samtidigt vara B/C/F/G.",
+      "variant": "char9 och char10 i SPRING-table",
+      "locator": "PDF sida 2/17 (index 1), SPRING",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-neutral-arm-u",
+      "statement": "Neutralarm pos141 är sats 72431 RH om char9=U + char10=B och 72432 LH om char9=U + char10=C.",
+      "variant": "char9=U, char10=B/C",
+      "locator": "PDF sida 2/17 (index 1), NEUTRAL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-g-right",
+      "statement": "For char3 G/H/J/N and char9=0/T, char10=C gives left control arm 71635 and char10=G gives left control arm 71637; neither is the RTN kit.",
+      "variant": "char3 G/H/J/N; char9 0/T; char10 C or G",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-h-right",
+      "statement": "For char3 G/H/J/N and char9=5/R, char10=B gives right control arm 71634 and char10=F gives 71636.",
+      "variant": "char3 G/H/J/N; char9 5/R; char10 B or F",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-k-left",
+      "statement": "For char3 K/L/M/P and char9=5/R, char10=C gives left control arm 71635 and char10=G gives left arm 71637.",
+      "variant": "char3 K/L/M/P; char9 5/R; char10 C or G",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-k-right",
+      "statement": "For char3 K/L/M/P and char9=0/T, char10=B gives right control arm 71634 and char10=F gives right arm 71636.",
+      "variant": "char3 K/L/M/P; char9 0/T; char10 B or F",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-no-direction",
+      "statement": "For char3 G/H/J/N or K/L/M/P with appropriate char9=0/T or 5/R and char10=A, control arm part 71633; char10=H gives 72370. These are separate parts from 71634–71637.",
+      "variant": "char3 and char9 aligned to relevant P64 row; char10 A/H",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-rtn-extra-73273-73272",
+      "statement": "P64 lists RTN kit 73273 (clockwise) for char3 G, char9 Y, char10 F; and RTN kit 73272 (counter-clockwise) for char3 K, char9 Y, char10 G.",
+      "variant": "char3 G/char9 Y/char10 F or char3 K/char9 Y/char10 G",
+      "locator": "PDF p.2, last two RTN ASSEMBLY & CONTROL ARM rows",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-rtn-kit-contents",
+      "statement": "P64's RTN kits 71588–71600 and special kits 73272/73273 specify included drawing items 44,46,145,146; spring item147 is separately identified in SPRING table and should not be assumed included.",
+      "variant": "P64 RTN kits and spring table",
+      "locator": "PDF p.2, RTN table CONTAINS ITEMS and SPRING table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-friction-stud",
+      "statement": "For char9 0/5/N/P/R/T and char10 A/H, P64 lists short stud item42 part 50426, friction puck item43 part 52298 and patch screw item46 part 51812.",
+      "variant": "char9 0,5,N,P,R,T; char10 A,H",
+      "locator": "PDF p.2, CONTROL TYPE first group",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-friction-spacer",
+      "statement": "For char9 0/5/N/P/R/T and char10 B/C/F/G, P64 lists item42 50426, item46 51812 and spacer item48 51846; the friction puck of the A/H group is not listed.",
+      "variant": "char9 0,5,N,P,R,T; char10 B,C,F,G",
+      "locator": "PDF p.2, CONTROL TYPE second group",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-stud-y",
+      "statement": "For char9 Y with char10 B/C/F/G, P64 lists washer item45 44130, stud item46 55700, spacer item140 54315 and screw item142 51616.",
+      "variant": "char9 Y, char10 B/C/F/G",
+      "locator": "PDF p.2, CONTROL TYPE last group",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-shaft-motor-52150",
+      "statement": "P64 lists motor shaft item73 part 52150 for char7 3/5/6/7/8/9/D/E/S/T/U/W, distinct from shaft 53136 for 4/K and 54325 for A/B.",
+      "variant": "char7 per listed conditions",
+      "locator": "PDF p.3, MOTOR SHAFT table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-motor-shaft-53136-54325",
+      "statement": "P64 motor-shaft table lists part 53136 for char7 4/K and part 54325 for char7 A/B (both drawing item73).",
+      "variant": "char7 4/K or A/B",
+      "locator": "PDF p.3, MOTOR SHAFT table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-reduction-side-cover-1-2",
+      "statement": "P64 side-cover table lists kit 71541/71543 for char7 1/2 + char2 H/K, selected by char3 RH group G/H/J/N or LH group K/L/M/P; char2 J/L/M uses 71542/71544.",
+      "variant": "char7 1/2; char2 H/K or J/L/M; char3 RH/LH",
+      "locator": "PDF p.3, SIDE COVER AND GEAR table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-reduction-gear-steel-11t",
+      "statement": "P64 distinguishes reduction assembly item82 gear 52583 (11 teeth) for char2 H/K, versus gear 52586 (11 teeth, steel) for char2 J/L/M when char7 lies in the listed non-1/2 set.",
+      "variant": "char2 H/K or J/L/M; char7 3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W",
+      "locator": "PDF p.3, SIDE COVER AND GEAR lower rows",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-common-thrust-components",
+      "statement": "P64 common parts list identifies thrust bearing item60 part 51462, thrust ball bearing item65 part 50551, pump cylinder block assembly item69 part 70723 and retaining ring item71 part 44145.",
+      "variant": "P64 common parts",
+      "locator": "PDF p.3, COMMON PARTS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-wheel-hub-4bolt-more",
+      "statement": "P64 hub kit table includes four-bolt hub kit 71445 for char4 L/N and 71446 for char4 M/P/T/W; axle cap item158 53501 is paired with these rows.",
+      "variant": "char4 L/N or M/P/T/W",
+      "locator": "PDF p.5, HUB KITS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-hub-puller-tool",
+      "statement": "The P64 schematic lists universal hub puller, item209 part 72320, as a service tool rather than part of the assembled transmission.",
+      "variant": "char4 listed in HUB PULLER table",
+      "locator": "PDF p.5, HUB PULLER table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-bearing-common",
+      "statement": "P64 common axle parts list specifies inner retaining ring item90 50859, ball bearing item95 53656 and axle lip seal item96 53699. Fit remains subject to revision.",
+      "variant": "P64 COMMON PARTS, transaxle axle assembly",
+      "locator": "PDF p.5, COMMON PARTS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-bull-gear-cap-distinction",
+      "statement": "In P64 hub kits, axle cap part 53088 (item156) differs from part 53501 (item158); position and code row must be matched to avoid substituting the wrong cap.",
+      "variant": "char4 B/G,C/H/S/Y,E/K/R/U vs L/N,M/P/T/W",
+      "locator": "PDF p.5, HUB KITS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-common-fasteners-extra",
+      "statement": "P64 COMMON PARTS lists center section screw item27 part 52137, thrust washer item70 part 44371, washers item74 part 51069 and item80 part 50132.",
+      "variant": "P64 common parts",
+      "locator": "PDF p.3, COMMON PARTS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-seal-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är tätningssats pos.200 specificerad som 71410. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 200; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-seal-kit-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är tätningssats pos.200 specificerad som 73107. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 200; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-center-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är mittsektionssats pos.201 specificerad som 71561. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 201; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-center-kit-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är mittsektionssats pos.201 specificerad som 72535. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 201; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-input-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är ingående axelsats pos.210 specificerad som 71442. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 210; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-input-kit-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är ingående axelsats pos.210 specificerad som 73047. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 210; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-tool-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är navavdragare/serviceverktyg pos.209 specificerad som 71241. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 209; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-tool-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är navavdragare/serviceverktyg pos.209 specificerad som 72320. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 209; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-tube-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är laddpumpens rör pos.130 specificerad som 52157. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 130; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-tube-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är laddpumpens rör pos.130 specificerad som 54501. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 130; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-oring-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är laddpumpens o-ring pos.132 specificerad som 52250. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 132; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-oring-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är laddpumpens o-ring pos.132 specificerad som 55204. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 132; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-guard-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är oljefilterskydd pos.106 specificerad som 53655. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 106; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-guard-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är oljefilterskydd pos.106 specificerad som 73041. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 106; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-control-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är reglage-/rtn-sats pos.211 specificerad som 71633. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 211; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-control-kit-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är reglage-/rtn-sats pos.211 specificerad som 71588. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 211; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-shaft-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bromsaxel eller bromsaxelsats pos.101 specificerad som 52651. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 101; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-shaft-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bromsaxel eller bromsaxelsats pos.101 specificerad som 72046. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 101; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-arm-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bromsarm/handtag pos.102 specificerad som 53973. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 102; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-arm-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bromsarm/handtag pos.102 specificerad som 71957. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 102; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är drivaxelsats pos.212 specificerad som 71569. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 212; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-kit-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är drivaxelsats pos.212 specificerad som 71569. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 212; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-filter-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är oljefilter pos.23 specificerad som 52114. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 23; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-filter-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är oljefilter pos.23 specificerad som 52114. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 23; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-bypass-arm-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bypassarm pos.34 specificerad som 51629. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 34; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-bypass-arm-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bypassarm pos.34 specificerad som 51910. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 34; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-motor-block-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är motorcylinderblock pos.64 specificerad som 71579. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 64; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-motor-block-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är motorcylinderblock pos.64 specificerad som 72882. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 64; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-kit-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är fyrbultsnav pos.97 specificerad som 71405. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 97; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-hub-kit-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är fyrbultsnav pos.97 specificerad som 71446. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 97; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-pawl-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är bromspuck pos.100 specificerad som 52766. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 100; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-brake-pawl-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är bromspuck pos.100 specificerad som 52766. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 100; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-pump-gerotor-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är gerotor pos.131 specificerad som 50273. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 131; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-pump-gerotor-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är gerotor pos.131 specificerad som 50273. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 131; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-housing-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är laddpumpshus pos.133 specificerad som 53738. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 3, Parts List, specificerad position 133; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-charge-housing-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är laddpumpshus pos.133 specificerad som 53738. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 3, Parts List, specificerad position 133; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-seal-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är drivaxeltätning pos.96 specificerad som 53699. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 96; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-axle-seal-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är drivaxeltätning pos.96 specificerad som 53699. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 96; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-p39",
+      "statement": "I den individuella reservdelslistan för ZJ-GCEE-3B5A-1FXX är olja pos.14, 20w50 och 70,3 us fl oz specificerad som 20W50 / 70,3 oz. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GCEE-3B5A-1FXX; 71370 P39",
+      "locator": "PDF sida 2, Parts List, specificerad position 14; sidbildsgranskad",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom-compare-oil-p72",
+      "statement": "OBEKRÄFTAD TIDIGARE AVSKRIFT, FÅR EJ ANVÄNDAS SOM RESERVDELSFAKTA. I den individuella reservdelslistan för ZJ-GMEB-5LDB-2DXX är olja pos.14, 20w50 och 70,3 us fl oz specificerad som 20W50 / 70,3 oz. En annan modellerad enhets nummer är inte ett ersättnings-/supersessionsbevis.",
+      "variant": "Fullständig modellkod ZJ-GMEB-5LDB-2DXX; 71370 P72",
+      "locator": "PDF sida 2, Parts List, specificerad position 14; sidbildsgranskad; aktuell PDF kunde inte återhämtas/visuellt kontrolläsas 2026-10-22",
+      "sourceId": "hg-bom-zj-gmeb-5ldb-2dxx-p72",
+      "grade": "D",
+      "topic": "L"
+    },
+    {
+      "id": "p39-seal-kit-includes",
+      "statement": "Tätningssats 71410 (pos.200) inkluderar positionerna 10,26,30,31,33,35,41,56,57,71,90,96,103,132,157 och 166; inte automatiskt samma innehåll som senare 73107.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sida 3/3, PART NOTES [2]",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p39-center-kit-includes",
+      "statement": "Mittsektionssats 71561 (pos.201) innehåller pos.20,22,24,25,26,27,135,136 och 137 enligt denna enhets reservdelslista.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sida 3/3, PART NOTES [3]",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p39-charge-relief-kit-includes",
+      "statement": "Laddtrycksventilsats 71436 (pos.202) innehåller pos.135,136 och 137 enligt P39-sprängskissen för ZJ-GCEE-3B5A-1FXX.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sida 3/3, PART NOTES [4]",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p39-charge-kit-includes",
+      "statement": "Laddpumpssats 72274 (pos.203) innehåller pos.131,132,133 och 134 enligt denna reservdelslista.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sida 3/3, PART NOTES [5]",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p39-control-arm-kit-includes",
+      "statement": "Reglagearmssats 71633 (pos.211) innehåller endast pos.44 och 46 enligt den här BOM-listan; en RTN-sats får inte likställas med denna sats.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sida 3/3, PART NOTES [6]",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p39-gerotor-spec",
+      "statement": "Gerotor pos.131, artikel 50273, beskrivs i denna P39-BOM som TANG X 1.15 X .39 (1.9CC); avser laddpump och inte hydrostatpumpens 10 cc.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sida 3/3, PARTS LIST pos.131",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p39-filter-fastener-specific",
+      "statement": "I P39-listan har filterkåpan pos.106 artikel 53655 och tre fästskruvar pos.105 artikel 50752; positionsnumret 105 får inte misstas för ordernummer.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sida 3/3, PARTS LIST pos.105–106",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "p39-model-identity",
+      "statement": "ZJ-GCEE-3B5A-1FXX står uttryckligen i sidhuvudet på samtliga tre blad i schemat. Därmed gäller dellistan en identifierad BOM-konfiguration, inte hela ZT-2800/3100/3200-familjen.",
+      "variant": "Endast ZJ-GCEE-3B5A-1FXX, leverantörens Hydro-Gear-sprängskiss",
+      "locator": "PDF sidor 1–3, modellhuvud",
+      "sourceId": "hg-bom-zj-gcee-3b5a-1fxx-p39",
+      "grade": "B",
+      "topic": "L"
+    }
+  ],
+  "gaps": [
+    "Avläs full Hydro-Gear BOM-modellkod och serienummer före OEM-anpassade råd.",
+    "BLN-52441 (2023) är identifierad men för stor för webbsidvisning här; verifiera olja, filter, mängder och avluftning visuellt innan sådana fakta läggs till.",
+    "Hämta BOM-specifika sprängskisser och faktiska reservdels- och filterbeställningsnummer.",
+    "Jämför utgåvorna från 2015, 2021 och 2023 för att undvika att serviceintervall överförs mellan editioner.",
+    "Kontrollera separat vilka års-/OEM-modeller som verkligen har ZT-2800 och ZT-3100.",
+    "Filter 52114 anges i BLN-52441:s allmänna oljebytesinstruktion; bekräfta konkret OEM BOM-kod, eventuella ersättningsnummer samt källdokumentets sidbild innan reservdelen rekommenderas.",
+    "Kritisk revisionskontroll: äldre BLN-52441 anger 65 in-lb för filterkåpans skruvar medan januari 2023-utdrag anger 115 in-lb; tillämpa inget moment utan kontroll av rätt utgåva, skruv och BOM. Kontrollera även senare april 2023 P25.",
+    "Kontrollera felaktigt återgivna momentomräkningar i tredjepartstranskriptioner (t.ex. 120 in-lb anges även som 20,3 Nm, vilket matematiskt inte stämmer); förlita dig på verifierad källbild och korrekt enhet.",
+    "P25 tryckt sida 11 har inkonsekvent momentvärde för top-port-plugg: 120 in-lb anges ihop med 20,3 Nm, men korrekt omräkning är cirka 13,56 Nm. Inhämta tillverkarförtydligande före verkstadstillämpning.",
+    "Slå upp ytterligare faktiska kitartikelnummer i Hydro-Gears modellkodstyrda online service schematics innan 200/201/202/203/207/210/211/212/215 rekommenderas.",
+    "Felsökningsmatrisen är generisk: innan åtgärd på en konkret klippare krävs OEM:s däcktrycks-, reglage- och säkerhetsinstruktioner.",
+    "RTN- och bromsjusteringar är variant- och säkerhetskritiska. Samla OEM-specifika reglage-, broms- och säkerhetsrutiner innan någon publik steg-för-steg-instruktion skapas.",
+    "Slå upp modellkodskombinationerna för laddpumpens kåpor och laddpumps-kit i tillverkarens BOM-styrda sprängskiss innan reservdelar beställs; figur 24 ger riktning, inte ordernummer.",
+    "Verifiera faktisk modellkod, skruv-/kitnummer och OEM-säkerhetskrav före monteringsråd för bypass, svängskiva, bromskam eller mittsektion.",
+    "Drivaxeldelar och tätningar: verifiera full Hydro-Gear BOM-/seriekod samt online-sprängskiss före beställning; ZT-3200 har annat axelutförande än ZT-2800/3100.",
+    "Gör riktad jämförelse mellan P23/P24/P25 för sidokåpsmoment och tätning innan generella verkstadsinstruktioner publiceras; nu verifierade värden gäller uttryckligen P25.",
+    "Äldre manualversion med 65 in-lb för filterkåpans skruvar behöver identifieras med exakt publiceringsdatum/dokumentrevision; tillgänglig P23 (april 2021) anger 115 in-lb. Förväxla inte med P25:s separata position 23 oljefilter, 70–90 lb-in.",
+    "Fastställ om konkret ZT-2800 är charged eller uncharged via komplett Hydro-Gear BOM och OEM-dokument före diagnos, laddpumpsbeställning eller användning av hydrauliskt schema.",
+    "Jämför aktuellt ZT-2800-produktblad (3000 rpm) med P24 servicehandbok (3000 rpm non-charge, 3600 rpm charged) mot fullständigt BOM och vid behov fråga Hydro-Gear vilket ingångsvarvtal som gäller den aktuella enheten.",
+    "Identifiera fullständig ZT-3200 BOM-kod innan laddpump, performance package, navände eller axelsats väljs; produktbladet listar tillval snarare än garanterad montering.",
+    "En fullständig BOM-modellkod identifierar attribut men artikelnummer måste fortfarande hämtas från enhetens online service schematic; de 14 kodtecknen är inte en lista med reservdelsnummer.",
+    "CAD-konfiguratorns reglagearmnummer 51631 och 51841 är attributalternativ; verifiera orderbarhet, BOM-kompatibilitet och eventuella ersättningsnummer via Hydro-Gears service schematic.",
+    "För valen chockventil A–F, bromskod S/9 och axeländarnas mått krävs faktisk BOM-specifik service schematic och fysisk märkplåt innan delar beställs.",
+    "Verifiera om originalschemat 71370 P64 (2020-12-29) är tillämpligt på aktuell transaxel med modellkod och serienummer och om Hydro-Gear har senare ersättningsnummer för 52149/52148/52344/52109/52110/52341/52342/52343, innan reservdel rekommenderas.",
+    "För mittsektionssats pos.201 måste samtliga char 3/5/6/7 och källrevision kontrolleras mot etikett; artikel 71561–71564 är uttryckliga P64-rader, inte generell passform.",
+    "Kontrollera schemarevision efter P64 samt komplett 14-teckens Hydro-Gear-modellkod/serienummer före beställning av axelsats 71569/71570, navsats eller RTN-sats.",
+    "Större P64-paket sidbildsverifierat 2026-10-22; samtliga artikelnummer gäller 71370 P64 2020-12-29. Senare ersättningsnummer och faktisk kund-BOM/serienummer återstår. Ingen generell kompatibilitet får utlovas.",
+    "P64 supports precise BOM-code lookup for additional control arms, RTN kits, axle/hub variants, shaft gears and tools; confirm replacement supersessions and exact serial number before a purchase recommendation.",
+    "P39 och P72 är två olika fullständiga modeller. Skillnader mellan deras artikelnummer är INTE bevis på ersättningskedjor. Undersök BOM-identisk utgåvehistorik för supersessionsverifiering.",
+    "P72 för ZJ-GMEB-5LDB-2DXX kunde inte återhämtas i denna omgång. Tidigare 20 P72-uppgifter har nedklassats till D/obekräftade och får inte användas för reservdelsbeställning före ny källgranskning."
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "schemaVersion": 1,
+  "slug": "klippo-champion-965223902",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Artikelnummerbunden grundforskning om Klippo Champion 965 22 39-02 utifrån Husqvarnas officiella supportsida, kompletterad med historisk Klippo-originalmanual 2007. Service från 2007 får inte utan kontroll tilldelas denna specifika produktversion.",
+  "sources": [
+    {
+      "id": "husqvarna-champion-support",
+      "tier": 1,
+      "title": "Husqvarna Sverige – KLIPPO Champion support och specifikationer",
+      "document": "KLIPPO Champion 965 22 39-02",
+      "url": "https://www.husqvarna.com/se/support/klippo-champion/"
+    },
+    {
+      "id": "klippo-om-2007",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning Champion/Excellent/Pro19 m.fl.",
+      "document": "000001 version 1:17 2007-01",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000035498/doc000066874"
+    },
+    {
+      "id": "klippo-ipl-champion-2008",
+      "tier": 1,
+      "title": "KLIPPO Champion illustrated parts list",
+      "document": "IPL Champion 2008-01, 965223901-K02310; motor Quantum XLS 50 12F8022045B2",
+      "url": "https://www.gplshop.fr/dokument/bibliotek/Image/Grasklippare/Champion/Champion-2006.pdf"
+    },
+    {
+      "id": "retailer-klippo-crosswalk",
+      "tier": 2,
+      "title": "ReservdelarOnline – gammalt Klippo-nummer till Husqvarna-nummer",
+      "document": "Översättningstabell Klippo nummer, webbpublicerad utan identifierad revision",
+      "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
+    },
+    {
+      "id": "klippo-2014-original-catalog-586612101",
+      "tier": 1,
+      "title": "KLIPPO 60-årskatalog, originalproduktkatalog 2014",
+      "document": "Husqvarna/KLIPPO 2014, artikelnummer 5866121-01, produkttabeller s.8, copyright 2014",
+      "url": "https://img.bygghemma.se/pfiles/klippo-katalogpdf__b1728a74-17f9-44f8-b0ae-ded9c614a4b2.pdf"
+    },
+    {
+      "id": "klippo-original-om-2004-000001",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning september 2004 (återpublicerad textkopia)",
+      "document": "Originalinstruktion Art.nr 000001, Malmö september 2004; ursprungliga modelldeklaration 2004-09-22",
+      "url": "https://manualzz.com/doc/4635678/klippo-champion-instruction-manual"
+    },
+    {
+      "id": "wolfswinkel-champion-2012-965223902",
+      "tier": 2,
+      "title": "Wolfswinkel parts drawings Champion 965223902 June 2012",
+      "document": "Klippo Champion 965223902, 2012-06, chassis / handle / motor sections, position-specific parts list",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/schubm%C3%A4her/meister/meister-965223902-2012-06"
+    },
+    {
+      "id": "retailer-handlebar-503284301-crossyear",
+      "tier": 2,
+      "title": "ReservdelarOnline: underdel styrhandtag 5032843-01 cross-model fitment",
+      "document": "Klippo 5032843-01; seller cross-reference table 2009–2016",
+      "url": "https://www.reservdelaronline.se/produkter/underdel-styrhandtag-champion-excellent-5032843-01"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Tillverkarsidan identifierar 965 22 39-02; serienummer och andra generationer saknas."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Chassi och tillverkningsgeneration behöver sprängskiss."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Briggs & Stratton bekräftat som märke, men Model/Type/Code saknas."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Drivning är ännu inte specifikt dokumenterad för artikelnumret."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Kåpa och hjulupphängning behöver originalkatalog."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Reglage och höjdinställning måste verifieras för artikelnummer."
+    },
+    "G": {
+      "state": "gap",
+      "note": "BBC-uppgift finns från tillverkare, men fullständigt säkerhetssystem saknas."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Äldre mulcherinformation gäller historisk manualfamilj och måste versionsbindas."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Historiska manualintervall kan inte automatiskt gälla 965 22 39-02."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Kniv-, knivfäste- och hjulnummer saknas."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Modellbunden felsökning saknas."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Officiell support visar manual från 2018; dokumentets exakta revision behövs."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Generationer, passformer och motorbyte måste kontrolleras."
+    }
+  },
+  "claims": [
+    {
+      "id": "champion-965223902-identity",
+      "statement": "Husqvarnas supportsida identifierar KLIPPO Champion med artikelnummer 965 22 39-02.",
+      "variant": "KLIPPO Champion 965 22 39-02",
+      "locator": "Specifikationer > kolumnrubrik för produktversion",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "champion-965223902-briggs",
+      "statement": "Motorfabrikat för KLIPPO Champion 965 22 39-02 anges av Husqvarna som Briggs & Stratton; enskild motorserie och motorkod saknas i denna översikt.",
+      "variant": "KLIPPO Champion 965 22 39-02",
+      "locator": "Specifikationer > Motor > Varumärke motor",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-965223902-no-bbc",
+      "statement": "Husqvarnas supportsida anger 'Nej' för bladbromskoppling (BBC) på KLIPPO Champion 965 22 39-02.",
+      "variant": "KLIPPO Champion 965 22 39-02",
+      "locator": "Specifikationer > Utrustning > Bladbromskoppling (BBC)",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "champion-2018-manual",
+      "statement": "Husqvarnas supportsida listar en svensk/dansk/estnisk/finsk bruksanvisning publicerad 2018-01-01 för Champion; enbart supportsidan bevisar inte att den täcker varje äldre Champion-generation.",
+      "variant": "KLIPPO Champion supportmodell, officiell sida; utgåva ännu inte nedladdad och jämförd",
+      "locator": "Supportinnehåll > Handböcker och dokument > Bruksanvisning publicerat 2018-01-01",
+      "sourceId": "husqvarna-champion-support",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "champion-2007-family",
+      "statement": "Klippos originalmanual 2007 inkluderar Champion och anger att mulcherinsatsen levereras monterad på Champion i just denna manualfamilj. Ingen automatisk reservdelskompatibilitet med 965 22 39-02 följer av detta.",
+      "variant": "KLIPPO Champion historisk manualfamilj 2007, produktnummer ej identifierat",
+      "locator": "Svensk del, 'Modeller' och 'Mulcherinsats för Excellent-, Champion- och Pro 19-modeller', bild 12",
+      "sourceId": "klippo-om-2007",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "champion-k02310-2006",
+      "statement": "KLIPPO:s originaltabell från 2006 anger Champion med identifieringskod K02310, Briggs & Stratton Quantum 50, 190 cm³ och klippbredd 48 cm. Den äldre koden ska inte likställas med Husqvarnas senare artikelnummer 965 22 39-02.",
+      "variant": "Champion K02310, originalförsäkran 2006 i manual 2007",
+      "locator": "PDF-sida 8 (index 7), 'Försäkran om överensstämmelse', modelltabell rad Champion",
+      "sourceId": "klippo-om-2007",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "champion-2008-ipl-original",
+      "statement": "En KLIPPO-märkt illustrerad reservdelslista med dokumentbeteckning 'IPL, KLIPPO, Champion, 2008-01, 965223901-K02310' är publicerad för Champion. Listan ska inte sammanblandas med den senare Champion 965223902.",
+      "variant": "Champion 965223901 / K02310 enligt 2008-01 IPL",
+      "locator": "Dokumentrubrik och PDF s.1 sprängskiss",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "champion-2008-ipl-motor",
+      "statement": "KLIPPO:s IPL anger motor 'Quantum XLS 50 12F8022045B2' i Champion-utförandet 965223901-K02310. Motorkoden ska inte kopieras till senare 965223902 utan separat belägg.",
+      "variant": "Champion 965223901 / K02310 enligt 2008-01 IPL",
+      "locator": "PDF s.1, 'Motor:'",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-2008-ipl-serial",
+      "statement": "Reservdelslistan anger tillämplighetsgränsen 'From. Serial no. KA XX 100.000'. Serienummermärkning och eventuella tidigare kataloger måste kontrolleras innan partsdata används.",
+      "variant": "Champion 965223901/K02310, IPL 2008-01",
+      "locator": "PDF s.1–2, rubrikrad",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "champion-2008-ipl-wheel-kits",
+      "statement": "Champion-IPL:n visar nummerparen '0904 / 502943101' för sats med fyra stycken 1010 och '0903 / 503272201' för hjultillbehörssats. De anges som katalogreferenser, inte som bekräftad passform på senare Champion.",
+      "variant": "Champion 965223901/K02310, 2008-01",
+      "locator": "PDF s.1, fotnoter vid sprängskiss ('*' respektive '#')",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "champion-crosswalk-older-965223901",
+      "statement": "En fristående återförsäljares korsreferens kopplar gammal kod K02310 till 965223901, inte till 965223902. Informationen stöder identifieringssökning men fastställer inte revisionskompatibilitet.",
+      "variant": "Klippo Champion K02310, återförsäljarkorsreferens",
+      "locator": "Översättningstabell, rad 'K02310 ... 965223901 ... Champion'",
+      "sourceId": "retailer-klippo-crosswalk",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "champion-2004-k02000",
+      "statement": "KLIPPO originalmanual från 2004 listar Champion med historisk modellkod K02000, vilken inte får förväxlas med 2007 års K02310.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 försäkran, rad Champion/K02000, svenskt avsnitt",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "champion-2004-quattro40",
+      "statement": "2004 års Champion K02000 är specificerad med Briggs & Stratton Quattro 40, 158 cm³ och 4,0 hk i deklarationstabellen; gäller inte senare Champion-motorer.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 överensstämmelseförsäkran, Champion-rad (motor och cylindervolym)",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-2004-cut48",
+      "statement": "Klippos 2004 års deklaration anger 48 cm klippbredd för Champion K02000 och generisk Mulcher som knivtyp.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 deklaration, Champion rad / skärbredd och knivtyp",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "champion-2014-625e",
+      "statement": "2014 års KLIPPO originalproduktkatalog anger Champion med Briggs & Stratton 625e, utan drivning, 48 cm mulcherkniv och klipphöjd 30–60 mm. Gäller katalogens 2014-konfiguration, inte 2004/2007 eller PNC 965223902 per automatik.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog, PDF index 7, tabellen 'Mulcherklippare' rad CHAMPION",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-2014-grass-area",
+      "statement": "Tillverkarens 2014-tabell rekommenderar Champion för gräsyta 500–1 000 m²; ett katalogvärde, inte en maximal teknisk gräns.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, 'Gräsyta' rad CHAMPION",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "ch2012-chassis-20",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar chassi, artikel 503247901, under 'Fahrgestell/rahmen' ref. 20. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Fahrgestell/rahmen, Ref. 20, artikel 503247901",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "B"
+    },
+    {
+      "id": "ch2012-frontaxle-25",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar komplett framaxel, artikel 503269301, under 'Fahrgestell/rahmen' ref. 25. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Fahrgestell/rahmen, Ref. 25, artikel 503269301",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "B"
+    },
+    {
+      "id": "ch2012-heightrod-21",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar höjdinställningsstång (ROD ASSY), artikel 503249501, under 'Fahrgestell/rahmen' ref. 21. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Fahrgestell/rahmen, Ref. 21, artikel 503249501",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "ch2012-mulchring-27",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar mulchring för 48 cm klippkåpa, artikel 503243001, under 'Fahrgestell/rahmen' ref. 27. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Fahrgestell/rahmen, Ref. 27, artikel 503243001",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "ch2012-wheelbearing-3",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar hjullager 6201-2RS/B9, artikel 502882701, under 'Fahrgestell/rahmen' ref. 3. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Fahrgestell/rahmen, Ref. 3, artikel 502882701",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "B"
+    },
+    {
+      "id": "ch2012-wheel-4",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar hjul (Rad 43), artikel 502945101, under 'Fahrgestell/rahmen' ref. 4. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Fahrgestell/rahmen, Ref. 4, artikel 502945101",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "B"
+    },
+    {
+      "id": "ch2012-hubcap-1",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar hjulkapsel, artikel 503275101, under 'Fahrgestell/rahmen' ref. 1. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Fahrgestell/rahmen, Ref. 1, artikel 503275101",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "B"
+    },
+    {
+      "id": "ch2012-handlegrip-2",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar handtagsgrepp/gummi, artikel 576641901, under 'Griff' ref. 2. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Griff, Ref. 2, artikel 576641901",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "ch2012-handlecable-8",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar vajer (katalogtext KABEL, funktion ej fastställd), artikel 503313401, under 'Griff' ref. 8. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Griff, Ref. 8, artikel 503313401",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "ch2012-handbar-13",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar handtagsenhet, artikel 503284301, under 'Griff' ref. 13. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Griff, Ref. 13, artikel 503284301",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "ch2012-bail-1",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar säkerhetsbygel/handtagsbygel (Bail), artikel 502876201, under 'Griff' ref. 1. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Griff, Ref. 1, artikel 502876201",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "ch2012-engine-3",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar Briggs & Stratton 625E motor, angiven som 'TBD' i katalogen, artikel 122T02-5045-H2, under 'Motor' ref. 3. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 3, artikel 122T02-5045-H2",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "C"
+    },
+    {
+      "id": "ch2012-engineblade-10",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar mulcherkniv (Husqvarna Mähmesser), artikel 502881310, under 'Motor' ref. 10. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 10, artikel 502881310",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch2012-enginebracket-7",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar knivfäste, artikel 579228401, under 'Motor' ref. 7. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 7, artikel 579228401",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch2012-enginebracket-8",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar knivfäste, separat referensposition från föregående, artikel 503259901, under 'Motor' ref. 8. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 8, artikel 503259901",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch2012-enginefiber-9",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar fiberbricka, artikel 503259401, under 'Motor' ref. 9. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 9, artikel 503259401",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch2012-enginekey-6",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar kil, artikel 504460501, under 'Motor' ref. 6. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 6, artikel 504460501",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch2012-enginebolt-13",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar skruv 3/8x50, motorns sprängskissesektion, artikel 504456402, under 'Motor' ref. 13. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 13, artikel 504456402",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch2012-enginewasher-12",
+      "statement": "Återförsäljarens modellbundna katalog för Champion 965223902 (2012-06) listar bricka 34x10,2x2,5, artikel 503332501, under 'Motor' ref. 12. Sekundär kataloguppgift; gäller inte automatiskt tidigare/senare Champion-årgångar.",
+      "variant": "KLIPPO Champion 965223902, 2012-06",
+      "locator": "Motor, Ref. 12, artikel 503332501",
+      "sourceId": "wolfswinkel-champion-2012-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "champion-lower-handle-2009",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 9652239-01 2009-12. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 9652239-01 2009-12",
+      "locator": "Produktinformation > Passar till > Champion 9652239-01 2009-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-2012",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 965223902 2012-06. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 965223902 2012-06",
+      "locator": "Produktinformation > Passar till > Champion 965223902 2012-06",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-2013",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 965223902 2013-01. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 965223902 2013-01",
+      "locator": "Produktinformation > Passar till > Champion 965223902 2013-01",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-2015",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion 967607501 2015-12. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion 967607501 2015-12",
+      "locator": "Produktinformation > Passar till > Champion 967607501 2015-12",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-s-lower-handle-2016",
+      "statement": "ReservdelarOnline anger underdel styrhandtag 5032843-01 som kompatibel med KLIPPO Champion S 967633901 2016-01. Detta är modell-/årsversionsbunden återförsäljaruppgift, inte verifiering av kniv- eller motordelar.",
+      "variant": "KLIPPO Champion S 967633901 2016-01",
+      "locator": "Produktinformation > Passar till > Champion S 967633901 2016-01",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "champion-lower-handle-legacy-supersessions",
+      "statement": "Återförsäljaren anger att underdel styrhandtag 5032843-01 ersätter äldre Klippo-nummer 1130, 1102, 11.02-9 och 11.02. Äldre korsnummer kräver kontroll mot originaldokument för enskilt serienummer.",
+      "variant": "Klippo underhandtag 48 cm/19 tum, säljarens ersättningslista",
+      "locator": "Produktinformation > Ersätter äldre Klippo artikelnummer 1130 samt 1102, 11.02-9, 11.02",
+      "sourceId": "retailer-handlebar-503284301-crossyear",
+      "grade": "B",
+      "topic": "J"
+    }
+  ],
+  "gaps": [
+    "Fastställ motor Model/Type/Code för artikelnummer 965 22 39-02 via IPL och fysisk motormärkning.",
+    "Hämta officiella reservdelssprängskisser och knivnummer för just 965 22 39-02.",
+    "Verifiera höjdinställning, transmissionsutförande, motoroljetyp och serviceintervall mot rätt årsutgåva.",
+    "Jämför 2007 och 2018 års manualer och dokumentera versionsskillnader.",
+    "Hitta andra Champion-artikelnummer utan att sammanblanda deras komponenter.",
+    "Jämför den äldre koden K02310 och senare artikelnummer 965 22 39-02 i IPL innan eventuell delkompatibilitet påstås.",
+    "Läs original-IPL:s PDF-sida 2 visuellt för exakt positionsnummer till kniv och knivfäste; sidans textfont är felläst vid maskinell extraktion och PDF-skärmbild misslyckades.",
+    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
+    "Champion 965223902 2012-06 visar två separata knivfästespositioner 7 och 8 (579228401 respektive 503259901) samt motorangivelse med katalogtext TBD; utred om det är alternativ/reservdelsrevisioner, inte två obligatoriska fästen.",
+    "Kontrollera om 5032843-01 behåller samma dimensioner och fästhål för samtliga angivna Champion-årgångar; återförsäljarens passformslista är inte original-IPL."
+  ]
+}
