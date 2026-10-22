@@ -18,6 +18,13 @@
       "title": "Honda Engines: GX160 Owner's Manual selector",
       "document": "GX160 manual selector by serial-number prefix and range; U.S. market",
       "url": "https://engines.honda.com/support-and-service/owners-manuals/gx160"
+    },
+    {
+      "id": "honda-gx160-tuneup-pdf",
+      "tier": 1,
+      "title": "Honda GX160/GX200 Owner's Manual – Tune-up specifications",
+      "document": "Honda 00X37-ZEE-6000, Tune-up Specifications GX160/200",
+      "url": "https://cdn.powerequipment.honda.com/engines/pdf/manuals/00X37ZEE6000.pdf"
     }
   ],
   "topics": {
@@ -108,6 +115,42 @@
       "variant": "Honda GX160, GC02-serie, amerikanskt manualregister",
       "locator": "GX160 Manuals > English / English, French & Spanish language manual > GC02 rows",
       "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-spark-gap-zee6000",
+      "statement": "I Hondas GX160/GX200-manual 00X37-ZEE-6000 anges elektrodavstånd 0,7–0,8 mm. Detta är manualbundna värden och får inte automatiskt överföras till alla äldre GX160-utföranden.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Tune-up Specifications GX160/200, Spark plug gap; references page 12",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "gx160-valve-clearance-zee6000",
+      "statement": "Manual 00X37-ZEE-6000 anger för GX160 ventilspel vid kall motor: insug 0,08 ± 0,02 mm och avgas 0,10 ± 0,02 mm; arbetet hänvisas till auktoriserad Honda-verkstad.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Tune-up Specifications GX160/200, Valve clearance (cold)",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "gx160-plug-types-zee6000",
+      "statement": "Honda 00X37-ZEE-6000 listar NGK BPR6ES eller DENSO W20EPR-U som tändstift i manualens snabbreferens; kontrollera mot precis motorvariant innan reservdel rekommenderas.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Quick Reference Information > Spark plug",
+      "sourceId": "honda-gx160-tuneup-pdf",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "gx160-initial-oil-zee6000",
+      "statement": "Hondas manual 00X37-ZEE-6000 anger första motoroljebytet efter 20 driftstimmar; oljekontroll före varje användning. Gäller manualens avsedda GX160/GX200-varianter.",
+      "variant": "Honda GX160, tillämplig utgåva 00X37-ZEE-6000; serie-/typmatchning ej fastställd",
+      "locator": "Quick Reference Information > Maintenance; references pages 7–9",
+      "sourceId": "honda-gx160-tuneup-pdf",
       "grade": "A",
       "topic": "J"
     }
