@@ -1178,6 +1178,87 @@
       "sourceId": "hg-schematic-71370-p64-2020",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p64-axle-kit-71569",
+      "statement": "I schemarevision 71370 P64 anger tabellen AXLE KITS pos. 212 artikel 71569 (KIT SHAFT AXLE) när modellkodens tecken 4 är A–E, L eller M.",
+      "variant": "Char 4=A,B,C,D,E,L,M; P64 dated 2020-12-29",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, första raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-kit-71570",
+      "statement": "I schemarevision 71370 P64 anger AXLE KITS pos. 212 artikel 71570 (KIT SHAFT AXLE) när tecken 4 är F–K, N eller P.",
+      "variant": "Char 4=F,G,H,J,K,N,P; P64 dated 2020-12-29",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, andra raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-shaft-53527-53528",
+      "statement": "P64 anger separat drivaxel pos.94 artikel 53527 för char4 R/T/Y samt artikel 53528 för char4 S/U/W. Dessa är inte samma som kit pos.212.",
+      "variant": "Char 4=R,T,Y respektive S,U,W",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, tredje och fjärde raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-tube-53496",
+      "statement": "P64 anger axelrör pos.186 artikel 53496 för modellkodens fjärde tecken F–K, N, P, R, T eller Y; detta är en separat komponent från drivaxeln.",
+      "variant": "Char 4=F,G,H,J,K,N,P,R,T,Y",
+      "locator": "PDF sida 5 (index 4), AXLE KITS, femte raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-hub-4bolt-71404-71405",
+      "statement": "P64 skiljer 4-bults navsats pos.97 artikel 71404 för char4 B/G från artikel 71405 för char4 C/H/S/Y. Axelände och navsats får inte antas utbytbara.",
+      "variant": "Char 4=B,G respektive C,H,S,Y",
+      "locator": "PDF sida 5 (index 4), HUB KITS, rader 1–2",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-hub-5bolt-71691",
+      "statement": "P64 anger 5-bults navsats pos.97 artikel 71691 när char4 är E/K/R/U, med separat axle cap pos.156 artikel 53088.",
+      "variant": "Char 4=E,K,R,U",
+      "locator": "PDF sida 5 (index 4), HUB KITS, sista raden",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-bull-gear-code4",
+      "statement": "P64 anger 54-tands slutkugghjul pos.91 artikel 52108 för char4 A–P (redovisade bokstäver) respektive artikel 53327 för char4 R/S/T/U/W/Y. Delarna ska inte sammanblandas trots identiskt tandantal.",
+      "variant": "Char 4 enligt explicit radlista i BULL GEAR-tabellen",
+      "locator": "PDF sida 5 (index 4), BULL GEAR, båda rader",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-rtn-branch-ghjn",
+      "statement": "P64 RTN-tabell pos.211 visar för char3=G/H/J/N, char9=2/A/G och char10=C RTN-sats artikel 71592; samma char3+char9 med char10=G ger artikel 71598. Komplett trefältsvillkor krävs.",
+      "variant": "Char 3=G,H,J,N; char9=2,A,G; char10=C eller G",
+      "locator": "PDF sida 2 (index 1), RTN ASSEMBLY & CONTROL ARM, översta två raderna",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-neutral-arm-specific",
+      "statement": "I P64 NEUTRAL ARM-tabell anges pos.141 artikel 51945 (neutralarm höger) vid char9 2/3/4/7/8/9/A–M/Y + char10 B/F och artikel 51946 (vänster) vid motsvarande char9 med char10 C/G. Variantvillkoren måste uppfyllas samtidigt.",
+      "variant": "Char 9 och 10 enligt P64 NEUTRAL ARM tabell",
+      "locator": "PDF sida 2 (index 1), NEUTRAL ARM, första två rader",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1205,6 +1286,7 @@
     "CAD-konfiguratorns reglagearmnummer 51631 och 51841 är attributalternativ; verifiera orderbarhet, BOM-kompatibilitet och eventuella ersättningsnummer via Hydro-Gears service schematic.",
     "För valen chockventil A–F, bromskod S/9 och axeländarnas mått krävs faktisk BOM-specifik service schematic och fysisk märkplåt innan delar beställs.",
     "Verifiera om originalschemat 71370 P64 (2020-12-29) är tillämpligt på aktuell transaxel med modellkod och serienummer och om Hydro-Gear har senare ersättningsnummer för 52149/52148/52344/52109/52110/52341/52342/52343, innan reservdel rekommenderas.",
-    "För mittsektionssats pos.201 måste samtliga char 3/5/6/7 och källrevision kontrolleras mot etikett; artikel 71561–71564 är uttryckliga P64-rader, inte generell passform."
+    "För mittsektionssats pos.201 måste samtliga char 3/5/6/7 och källrevision kontrolleras mot etikett; artikel 71561–71564 är uttryckliga P64-rader, inte generell passform.",
+    "Kontrollera schemarevision efter P64 samt komplett 14-teckens Hydro-Gear-modellkod/serienummer före beställning av axelsats 71569/71570, navsats eller RTN-sats."
   ]
 }
