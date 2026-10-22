@@ -11,6 +11,13 @@
       "title": "Husqvarna Rider 16 Operator's Manual",
       "document": "OM Rider 16 2005-01; pub000027426/doc000053788",
       "url": "https://content.tdr.dss.husqvarnagroup.net/pub000027426/doc000053788"
+    },
+    {
+      "id": "husqvarna-rider16-953521401-2006-ipl",
+      "tier": 1,
+      "title": "Husqvarna official Spare Parts Shop – Rider 16 IPL",
+      "document": "RIDER 16, 953521401, 2006-01",
+      "url": "https://shop-pa-v9.husqvarna.com/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcCategory=Riders&epcProduct=RIDER+16&epcVariantName=RIDER+16%2C+953521401%2C+2006-01&langId=-1&modelId=Husqvarna-Riders_RIDER+16&storeId=11251"
     }
   ],
   "topics": {
@@ -211,6 +218,33 @@
       "sourceId": "husqvarna-rider16-2005-01-owner",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "rider16-2006-953521401-identity",
+      "statement": "Husqvarnas officiella reservdelstjänst identifierar RIDER 16 produktnummer 953521401 med revisionsdatum 2006-01.",
+      "variant": "Rider 16 produktnummer 953521401, IPL-revision 2006-01",
+      "locator": "Original Husqvarna EPC > Rider 16 > IPL variant heading / illustrated parts list group labels",
+      "sourceId": "husqvarna-rider16-953521401-2006-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2006-ipl-assemblies",
+      "statement": "Husqvarnas IPL för 953521401 listar bl.a. ENGINE, TRANSMISSION, ELECTRICAL, STEERING COLUMN och CONTROLS som separata ritningsgrupper; positionsbundna delnummer kräver fortsatt granskning av respektive ritning.",
+      "variant": "Rider 16 produktnummer 953521401, IPL-revision 2006-01",
+      "locator": "Original Husqvarna EPC > Rider 16 > IPL variant heading / illustrated parts list group labels",
+      "sourceId": "husqvarna-rider16-953521401-2006-ipl",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "rider16-2006-deck-groups",
+      "statement": "Husqvarnas IPL för 953521401 listar 103CM CUTTING DECK och 44/112CM CUTTING DECK; detta dokumenterar kataloggrupperna, inte kompatibilitet för alla Rider 16-år.",
+      "variant": "Rider 16 produktnummer 953521401, IPL-revision 2006-01",
+      "locator": "Original Husqvarna EPC > Rider 16 > IPL variant heading / illustrated parts list group labels",
+      "sourceId": "husqvarna-rider16-953521401-2006-ipl",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -220,6 +254,8 @@
     "Separera Rider 16, Rider 16 H, Rider 16 C och Rider 16 C AWD i egna versionsbundna fakta.",
     "Kontrollera originalillustrationer, underhållstabeller och exakta serviceintervall före reparationsråd.",
     "Verifiera aggregatens modellnummer, remmar, knivar och faktisk kompatibilitet via versionsspecifik IPL.",
-    "Originalmanualens uppgifter om bränsle/olja är historiska; identifiera eventuella senare tillverkarrevisioner."
+    "Originalmanualens uppgifter om bränsle/olja är historiska; identifiera eventuella senare tillverkarrevisioner.",
+    "Katalogen för 953521401 (2006-01) måste detaljgranskas per sprängskiss/positionsnummer innan specifika reservdelsnummer eller kompatibilitet registreras.",
+    "Rider 16C 966830601 har separat Husqvarna-IPL 2008-04; behandla som sidofynd och blanda inte in dess reservdelar i Rider 16."
   ]
 }
