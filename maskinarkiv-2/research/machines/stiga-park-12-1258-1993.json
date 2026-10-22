@@ -25,6 +25,13 @@
       "title": "STIGA PARK 12HST original parts catalogue",
       "document": "13-1358-15 Season 1993 Issue 37–2014, Tecumseh Peerless Transaxle 846",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12HST_13-1358-15_92_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-cybercat-peerless-846-1992",
+      "tier": 2,
+      "title": "CyberCat-STIGA printed parts list for Tecumseh Peerless Transaxle 846",
+      "document": "Stiga 1992 Gearboxes: TECUMSEH PEERLESS TRANSAXLE 846, position 72",
+      "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1992%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+846.pdf"
     }
   ],
   "topics": {
@@ -481,6 +488,15 @@
       "grade": "A",
       "sourceId": "stiga-park12hst-1358-1993-ipl",
       "locator": "PDF tryckt sida 3, Tecumseh Peerless Transaxle 846, pos.72; jämför Park 12 13-1258-16 tryckt sida 13 pos.72"
+    },
+    {
+      "id": "p12-1258-93-seal-72-cybercat-variant",
+      "topic": "K",
+      "statement": "En separat publicerad CyberCat-STIGA parts list för Tecumseh Peerless 846 anger på position 72 tätning P000-7880-69. Två STIGA-modelldelkataloger anger i stället P000-780-69 på samma position. P000-7880-69 är därför en stark kandidat till korrekt kod, men skillnaden i tryckt artikelnummer kvarstår och köp måste föregås av oberoende leverantörsbekräftelse.",
+      "variant": "Peerless 846 STIGA 1992 parts listing jämfört med STIGA Park 12 13-1258-16 och Park 12HST 13-1358-15 katalogutgåvor 2014",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-peerless-846-1992",
+      "locator": "STIGA CyberCat, Peerless 846, pos.72; jämför båda modell-IPLs pos.72"
     }
   ],
   "gaps": [
@@ -495,6 +511,7 @@
     "Verkstadsmanualens 800/801-procedurer är generiska; koppla lagerutförande A–D och O-ringstätningars dimensioner till exakt Peerless 846-serienummer före reservdelsbeställning.",
     "Peerless 691218 illustrerar utförande B/C/D och nållagerdjup, men saknar här koppling till bestämt 846-serienummer; kontrollera etikett och intern utförandevariant innan lager-/tätningsbeställning.",
     "Tätning P000-780-69 i STIGA:s tryckta originaltabell har avvikande nummerlängd; kontrollera mot annan originalpartslista före beställning.",
-    "Två STIGA-kataloger upprepar P000-780-69 på 846 pos.72. Hitta Tecumseh/Peerless-original 846 delarlista eller leverantörskorsreferens som verifierar faktiskt beställningsnummer; förväxla inte med 780069 från annan modell."
+    "Två STIGA-kataloger upprepar P000-780-69 på 846 pos.72. Hitta Tecumseh/Peerless-original 846 delarlista eller leverantörskorsreferens som verifierar faktiskt beställningsnummer; förväxla inte med 780069 från annan modell.",
+    "Bekräfta P000-7880-69 (CyberCat) mot oberoende Tecumseh/Peerless fabrikantlistning och fysisk tätning; två STIGA modell-IPLs anger P000-780-69. Inget nummer ska deklareras som slutligt beställningssäkert ännu."
   ]
 }
