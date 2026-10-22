@@ -222,6 +222,60 @@
       "grade": "A",
       "sourceId": "stiga-park12-1997-ipl",
       "locator": "PDF sida 1, förord"
+    },
+    {
+      "id": "park12-1997-peerless-mst",
+      "topic": "D",
+      "statement": "STIGA:s 1997-katalog innehåller en intern sprängskiss med rubriken Tecumseh Peerless Transaxle MST 205-529A; denna reservdelsgrupp listar komplett transaxel 1134-3716-01. Basmaskinens transmissionsgrupp listar däremot 1134-3716-02, så 1134-3716-01 och 1134-3716-02 får inte likställas utan separat dokumentation.",
+      "variant": "STIGA Park 12 13-1442-20 säsong 1997; delnummerbegränsningar i statement",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt sida 27, rubrik och position 0; sida 15 position 18"
+    },
+    {
+      "id": "park12-1997-peerless-housing",
+      "topic": "K",
+      "statement": "MST 205-529A-gruppen listar kåpa 772144 (pos. 1) och hus 770128 (pos. 3), vilket skiljer sig från tidigare Peerless 930-022-gruppens kåpa/hus.",
+      "variant": "STIGA Park 12 13-1442-20 säsong 1997; delnummerbegränsningar i statement",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt sida 27, pos. 1 och 3"
+    },
+    {
+      "id": "park12-1997-peerless-brake",
+      "topic": "K",
+      "statement": "MST 205-529A-gruppen listar bromsskiva 790075 (pos. 36), medan 1996 års tidigare Peerless 930-022-grupp listar 790003; båda listar bromsbelägg 799021 (pos. 38). Detta är en katalogjämförelse, inte universell passformsbekräftelse.",
+      "variant": "STIGA Park 12 13-1442-20 säsong 1997; delnummerbegränsningar i statement",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt sida 27, pos. 36 och 38; jämför 1996 IPL sida 13 pos. 36, 38"
+    },
+    {
+      "id": "park12-1997-peerless-shifter",
+      "topic": "F",
+      "statement": "MST 205-529A har växelförare 784378 (pos. 10); äldre Peerless 930-022-kataloggrupp anger 784345. Versionsbunden delidentitet krävs.",
+      "variant": "STIGA Park 12 13-1442-20 säsong 1997; delnummerbegränsningar i statement",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt sida 27 pos. 10; jämför 1996 IPL tryckt sida 13 pos. 10"
+    },
+    {
+      "id": "park12-1997-gearbox-axles",
+      "topic": "K",
+      "statement": "MST 205-529A-gruppen listar axlarna 774895 (286 mm) och 774896 (403 mm), position 47–48.",
+      "variant": "STIGA Park 12 13-1442-20 säsong 1997; delnummerbegränsningar i statement",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt sida 27, pos. 47–48"
+    },
+    {
+      "id": "park12-1997-manual-lift",
+      "topic": "H",
+      "statement": "STIGA:s 1997 reservdelskatalog listar manuell redskapslyft komplett 1134-0410-08, men detta är inte bevis för vilka klippaggregat som passar maskinen.",
+      "variant": "STIGA Park 12 13-1442-20 säsong 1997; delnummerbegränsningar i statement",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt sida 25, Manuell redskapslyft, pos. 0"
     }
   ],
   "gaps": [
@@ -231,6 +285,7 @@
     "Jämför 13-1442-20 med 13-1442-19 och äldre 13-1218-varianter utan att anta gemensamma reservdelar.",
     "Identifiera korrekt klippaggregat-PNC, knivar, remmar och monteringssats för detta basmaskins-PNC.",
     "Verifiera elschema och säkerhetsspärrarnas funktion i modellbunden manual.",
-    "Visuell granskning av original-PDF:s ritningar kvarstår eftersom skärmbildsvisning inte fungerade vid källgranskningen 2026-10-22."
+    "Visuell granskning av original-PDF:s ritningar kvarstår eftersom skärmbildsvisning inte fungerade vid källgranskningen 2026-10-22.",
+    "STIGA 1997 IPL listar basmaskin-transaxel 1134-3716-02 men separat MST 205-529A IPL komplett 1134-3716-01: klargör fabrikskoder, revisionsrelation och kompatibilitet innan internreparationsråd."
   ]
 }
