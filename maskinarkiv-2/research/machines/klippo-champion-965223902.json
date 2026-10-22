@@ -32,6 +32,20 @@
       "title": "ReservdelarOnline – gammalt Klippo-nummer till Husqvarna-nummer",
       "document": "Översättningstabell Klippo nummer, webbpublicerad utan identifierad revision",
       "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
+    },
+    {
+      "id": "klippo-2014-original-catalog-586612101",
+      "tier": 1,
+      "title": "KLIPPO 60-årskatalog, originalproduktkatalog 2014",
+      "document": "Husqvarna/KLIPPO 2014, artikelnummer 5866121-01, produkttabeller s.8, copyright 2014",
+      "url": "https://img.bygghemma.se/pfiles/klippo-katalogpdf__b1728a74-17f9-44f8-b0ae-ded9c614a4b2.pdf"
+    },
+    {
+      "id": "klippo-original-om-2004-000001",
+      "tier": 1,
+      "title": "KLIPPO originalbruksanvisning september 2004 (återpublicerad textkopia)",
+      "document": "Originalinstruktion Art.nr 000001, Malmö september 2004; ursprungliga modelldeklaration 2004-09-22",
+      "url": "https://manualzz.com/doc/4635678/klippo-champion-instruction-manual"
     }
   ],
   "topics": {
@@ -187,6 +201,51 @@
       "sourceId": "retailer-klippo-crosswalk",
       "grade": "B",
       "topic": "M"
+    },
+    {
+      "id": "champion-2004-k02000",
+      "statement": "KLIPPO originalmanual från 2004 listar Champion med historisk modellkod K02000, vilken inte får förväxlas med 2007 års K02310.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 försäkran, rad Champion/K02000, svenskt avsnitt",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "champion-2004-quattro40",
+      "statement": "2004 års Champion K02000 är specificerad med Briggs & Stratton Quattro 40, 158 cm³ och 4,0 hk i deklarationstabellen; gäller inte senare Champion-motorer.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 överensstämmelseförsäkran, Champion-rad (motor och cylindervolym)",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-2004-cut48",
+      "statement": "Klippos 2004 års deklaration anger 48 cm klippbredd för Champion K02000 och generisk Mulcher som knivtyp.",
+      "variant": "KLIPPO historisk 2004-utgåva",
+      "locator": "2004-09-22 deklaration, Champion rad / skärbredd och knivtyp",
+      "sourceId": "klippo-original-om-2004-000001",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "champion-2014-625e",
+      "statement": "2014 års KLIPPO originalproduktkatalog anger Champion med Briggs & Stratton 625e, utan drivning, 48 cm mulcherkniv och klipphöjd 30–60 mm. Gäller katalogens 2014-konfiguration, inte 2004/2007 eller PNC 965223902 per automatik.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog, PDF index 7, tabellen 'Mulcherklippare' rad CHAMPION",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-2014-grass-area",
+      "statement": "Tillverkarens 2014-tabell rekommenderar Champion för gräsyta 500–1 000 m²; ett katalogvärde, inte en maximal teknisk gräns.",
+      "variant": "KLIPPO produktkatalog 2014",
+      "locator": "2014 originalkatalog PDF index 7, 'Gräsyta' rad CHAMPION",
+      "sourceId": "klippo-2014-original-catalog-586612101",
+      "grade": "A",
+      "topic": "B"
     }
   ],
   "gaps": [
@@ -196,6 +255,7 @@
     "Jämför 2007 och 2018 års manualer och dokumentera versionsskillnader.",
     "Hitta andra Champion-artikelnummer utan att sammanblanda deras komponenter.",
     "Jämför den äldre koden K02310 och senare artikelnummer 965 22 39-02 i IPL innan eventuell delkompatibilitet påstås.",
-    "Läs original-IPL:s PDF-sida 2 visuellt för exakt positionsnummer till kniv och knivfäste; sidans textfont är felläst vid maskinell extraktion och PDF-skärmbild misslyckades."
+    "Läs original-IPL:s PDF-sida 2 visuellt för exakt positionsnummer till kniv och knivfäste; sidans textfont är felläst vid maskinell extraktion och PDF-skärmbild misslyckades.",
+    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget."
   ]
 }
