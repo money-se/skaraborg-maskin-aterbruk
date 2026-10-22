@@ -130,6 +130,27 @@
       "title": "Maskinklippet Klippo Framaxelhållare 5044638-01",
       "document": "Produktkort med listade Excellent/Excellent H/S/SH PNC-revisioner och två infästningar",
       "url": "https://www.maskinklippet.se/tradgard/grasklippare-tillbehor/service-slitdelar-grasklippare/klippo-framaxelhallare"
+    },
+    {
+      "id": "retailer-crosscut-502881710-spec",
+      "tier": 2,
+      "title": "ReservdelarOnline – KLIPPO kniv 5028817-10, Cross-Cut, längd och parade blad",
+      "document": "Produktkort original Klippo kniv 5028817-10 / 502881710, 31 cm, används med 5028813-10",
+      "url": "https://www.reservdelaronline.se/produkter/kniv-excellent-champion-5028817-10"
+    },
+    {
+      "id": "retailer-crosscut-502881710-other",
+      "tier": 2,
+      "title": "Motorsågsbutiken – Cross-cut 31cm 5028817-10",
+      "document": "Produktkort som anger kombination med 5028813-10 och exempel på passande modeller",
+      "url": "https://www.xn--motorsgsbutiken-mlb.se/sv/mb/cross-cut-kniv-31cm-comet-s-excellent-h-excellent-sh"
+    },
+    {
+      "id": "retailer-crosscut-502881710-models",
+      "tier": 2,
+      "title": "Newgarden – 5028817-10 kniv modell- och versionslista",
+      "document": "Klippo Cross-Cut 31cm med 5028813-10; detaljlista Excellent 965227602 2013-02 och andra versionsbundna maskiner",
+      "url": "https://www.newgarden.se/klippo-comet-sh-knivblad-blackcross-cut-31cm-19357"
     }
   ],
   "topics": {
@@ -933,6 +954,78 @@
       "sourceId": "retailer-klippo-front-axle-holder-504463801",
       "grade": "B",
       "topic": "E"
+    },
+    {
+      "id": "excellent-crosscut-short-31cm",
+      "statement": "Reservdelsleverantören identifierar 5028817-10 (502881710) som kortare Cross-Cut-kniv med längd 31 cm. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "5028817-10, produktinformation längd 31cm",
+      "sourceId": "retailer-crosscut-502881710-spec",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-crosscut-two-blades",
+      "statement": "Återförsäljaren beskriver att Cross-Cut-kniv 502881710 används tillsammans med kniv 502881310; de två numren i Excellent 2013-02 motorgrupp ref 10 och 11 motsvarar således enligt säljaruppgiften två samverkande knivar, inte nödvändigtvis valbara alternativ. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "Cross-cut produktkort 'används tillsammans med Kniv 5028813-10' jämfört med Excellent 2013-02 Engine refs 10 och 11",
+      "sourceId": "retailer-crosscut-502881710-spec",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-crosscut-independent-corroboration",
+      "statement": "En andra leverantör anger också att 31cm Cross-Cut 5028817-10 används tillsammans med 5028813-10, vilket ger separat sekundär samstämmighet. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "Produktbeskrivning 'Används tillsammans med artnr 5028813-10'",
+      "sourceId": "retailer-crosscut-502881710-other",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-crosscut-2013-exact-model",
+      "statement": "Reservdelsförteckningen anger korta Cross-Cut-kniven 5028817-10 för Excellent 965227602 med katalogdatum 2013-02. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "Passar följande gräsklippare > Excellent 965227602 2013-02",
+      "sourceId": "retailer-crosscut-502881710-models",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-crosscut-h-2014",
+      "statement": "Reservdelsförteckningen listar 5028817-10 för Excellent H 967257801, katalog 2014-02. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "Passar följande gräsklippare > Excellent H 967257801 2014-02",
+      "sourceId": "retailer-crosscut-502881710-models",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-crosscut-s-2013",
+      "statement": "Reservdelsförteckningen listar 5028817-10 för Excellent S 965227802, katalog 2013-02. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "Passar följande gräsklippare > Excellent S 965227802 2013-02",
+      "sourceId": "retailer-crosscut-502881710-models",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-crosscut-sh-2016",
+      "statement": "Reservdelsförteckningen listar 5028817-10 för Excellent SH 967607701, katalog 2016-01. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "Passar följande gräsklippare > Excellent SH 967607701 2016-01",
+      "sourceId": "retailer-crosscut-502881710-models",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "excellent-crosscut-s-2016",
+      "statement": "Reservdelsförteckningen listar 5028817-10 för Excellent S 967607101, katalog 2016-01. Uppgiften bygger på återförsäljarkällor, inte original-IPL.",
+      "variant": "KLIPPO Excellent Cross-Cut-system, säljarspecificerade artikel- och modellversioner",
+      "locator": "Passar följande gräsklippare > Excellent S 967607101 2016-01",
+      "sourceId": "retailer-crosscut-502881710-models",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -953,6 +1046,7 @@
     "Återförsäljarens 5032843-01-korslista omfattar flera Excellent-motor-/drivningsvarianter. Kontrollera original-IPL och handtagets fästhål innan slutlig passform fastslås.",
     "Excellent 965227602 2012-06 och 2013-02 visar identiskt revisonsmönster som Champion 965223902, men orsak/serienummergräns och varför två knivposter förekommer måste utredas i original-IPL.",
     "Knivposition 11 i Excellent 965227602 skiljer sig: 502881701 i 2012-06 mot 502881710 i 2013-02. Verifiera original-IPL, mått och serienummer innan någon ersättningsrekommendation.",
-    "Kontrollera OEM-IPL för Excellent handtag 5029075-02, bromsvajer 5854020-03 och framaxelhållare 5044638-01 samt serienummer, monteringshål och kabelmått."
+    "Kontrollera OEM-IPL för Excellent handtag 5029075-02, bromsvajer 5854020-03 och framaxelhållare 5044638-01 samt serienummer, monteringshål och kabelmått.",
+    "Cross-Cut-blad 502881710 dokumenteras som 31 cm och samverkande med 502881310 i leverantörslistor. Den tidigare listade 502881701 (2012) är inte belagd som samma 31cm-del och ska inte slås ihop utan original-IPL/ersättningstabell."
   ]
 }
