@@ -130,6 +130,13 @@
       "title": "425014X92E MOWER DECK 42 inch original parts list",
       "document": "425014X92E / 96014000100 MOWER DECK printed p.47",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/47"
+    },
+    {
+      "id": "briggs-ms5667-282h00-service-engine",
+      "tier": 1,
+      "title": "Briggs & Stratton service engine conversion table 282H00 series",
+      "document": "MS-5667-4/06 pp.1–2, 282H07 Type-specific conversion and short blocks",
+      "url": "https://mymowerparts.com/pdf/Briggs-%26-Stratton-Replacement-Engine-Information/282H00-MS5667-0406.pdf"
     }
   ],
   "topics": {
@@ -186,7 +193,7 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Maskinmanualen innehåller integrerade reservdelsgrupper; exakta positioner måste vid behov dubbelkontrolleras mot tabelluppställning."
+      "note": "Briggs MS-5667-4/06 visar 25 Type-bundna historiska konverteringsrader för 282H07. Ingen Type är bekräftad för Murray 425014X92E. Tabellens 285H07 och 31C707 är serviceersättningsreferenser, inte direkt passformsgaranti."
     },
     "L": {
       "name": "Begagnat och köpråd",
@@ -3202,6 +3209,281 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0110",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0110: serviceersättare 285H07 Type 0026, 2900 rpm och konverteringsnoter 23,81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0110; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0110",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0111",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0111: serviceersättare 285H07 Type 0026, 3000 rpm och konverteringsnoter 81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0111; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0111",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0113",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0113: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 23,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0113; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0113",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0114",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0114: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0114; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0114",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0115",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0115: serviceersättare 285H07 Type 0026, 2800 rpm och konverteringsnoter 81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0115; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0115",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0116",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0116: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0116; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0116",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0117",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0117: serviceersättare 285H07 Type 0026, 3000 rpm och konverteringsnoter 81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0117; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0117",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0118",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0118: serviceersättare 285H07 Type 0026, 3000 rpm och konverteringsnoter 81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0118; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0118",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0119",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0119: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0119; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0119",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0120",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0120: serviceersättare 285H07 Type 0026, 2800 rpm och konverteringsnoter 23,81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0120; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0120",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0121",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0121: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0121; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0121",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0122",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0122: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 23,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0122; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0122",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0123",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0123: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 23,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0123; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0123",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0124",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0124: serviceersättare 285H07 Type 0026, 3200 rpm och konverteringsnoter 23,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0124; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.1, rad Type 0124",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0186",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0186: serviceersättare 285H07 Type 0026, 2700 rpm och konverteringsnoter 23,68,81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0186; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0186",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0188",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0188: serviceersättare 285H07 Type 0026, 2700 rpm och konverteringsnoter 23,68,81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0188; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0188",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0196",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0196: serviceersättare 285H07 Type 0026, 3300 rpm och konverteringsnoter 23,68,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0196; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0196",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0197",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0197: serviceersättare 285H07 Type 0026, 3300 rpm och konverteringsnoter 23,68,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0197; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0197",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0198",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0198: serviceersättare 285H07 Type 0026, 2850 rpm och konverteringsnoter 23,81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0198; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0198",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0199",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0199: serviceersättare 285H07 Type 0026, 2900 rpm och konverteringsnoter 81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0199; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0199",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0200",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0200: serviceersättare 285H07 Type 0026, 3300 rpm och konverteringsnoter 23,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0200; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0200",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0231",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0231: serviceersättare 285H07 Type 0026, 3300 rpm och konverteringsnoter 23,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0231; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0231",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0239",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0239: serviceersättare 31C707 Type 0240, 2650 rpm och konverteringsnoter 88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0239; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0239",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0262",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0262: serviceersättare 285H07 Type 0026, 2500 rpm och konverteringsnoter 23,35,81,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0262; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0262",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-briggs-ms5667-type0334",
+      "statement": "Briggs historiska ersättningstabell anger för motor 282H07 Type 0334: serviceersättare 285H07 Type 0026, 3300 rpm och konverteringsnoter 23,88. Detta gäller bara om den fysiska motorn har just detta Type.",
+      "variant": "Briggs 282H07, Type 0334; ej maskinbekräftad",
+      "locator": "MS-5667-4/06, s.2, rad Type 0334",
+      "sourceId": "briggs-ms5667-282h00-service-engine",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -3215,6 +3497,7 @@
     "425014X92E: Steering Assembly-pos. 1–97 har delvis extraherats. Ingen styrdelskompatibilitet mot A/B/425015 får antas utan egna katalogbelägg.",
     "Sits- och lyftkomponenter för 425014X92E kräver fortsatt kontroll av ersättningsnummer och fysisk maskin innan köp; katalogposter visar inte generell kompatibilitet.",
     "425014X92E STEERING ASSEMBLY s.39 artikelnummer är positionsverifierade i katalogtext; sprängskissens bildvisning och fysisk passform ej kontrollerade.",
-    "För att fastställa 282H07:s Type/Code krävs foto av stämpling på den verkliga maskinens motor. OEM-katalogen räcker inte för intern Briggs-delidentifiering."
+    "För att fastställa 282H07:s Type/Code krävs foto av stämpling på den verkliga maskinens motor. OEM-katalogen räcker inte för intern Briggs-delidentifiering.",
+    "282H07 MS-5667 anger typberoende serviceersättare och notkoder (kabelhärva, fjäder, ljuddämpare etc), men maskinens Type/Code okända; tabellen har PDF-textgranskats men bildhämtning gav cache miss. Ingen beställningsrekommendation förrän fysisk motorkod och nuvarande OEM-delstatus verifierats."
   ]
 }
