@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cm-j2115cma-954130215",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Versionsbunden forskning ur original-Jonsered IPL 106 31 64-61, LT2115CM J2115CMA produkt 954130215 januari 2004; transmission, drivrem, elektriska säkerhetssystem. Ej publiceringsgodkänd.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "tier": 2,
+      "title": "Jonsered LT2115CM J2115CMA 2004-01 original IPL reprint",
+      "document": "106 31 64-61, J2115CMA, PRODUCT NO. 954 13 02-15, 20 pages",
+      "url": "https://despiecesmaquinaria.blog/wp-content/uploads/2019/03/despiece_tractor_cortacesped_jonsered_lt2115_cm_j2115cma_2004-01-1.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-identity",
+      "statement": "Originalkatalog 106 31 64-61 anger LT2115CM J2115CMA, produkt 954130215 och utgåva januari 2004.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.1-2, omslag och schematic header",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-drive-transaxle",
+      "statement": "DRIVE position 1 anger Peerless 206-546; interna reservdelar hänvisas till tillverkaren.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.8 (index 7), DRIVE key 1",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-drive-belt",
+      "statement": "DRIVE position 57 listar markdrivningsrem 532 16 56-31 som V-Belt Kev PMST CRD.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.8 (index 7), DRIVE key 57",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-drive-clutch",
+      "statement": "DRIVE position 9 listar Noram-koppling 532 18 03-54.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.8 (index 7), DRIVE key 9",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-drive-rod",
+      "statement": "DRIVE position 8 listar reglagestång 532 16 56-19.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.8 (index 7), DRIVE key 8",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-drive-link",
+      "statement": "DRIVE position 84 listar växellänk 532 16 56-21.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.8 (index 7), DRIVE key 84",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-electric-fuse",
+      "statement": "ELECTRICAL position 26 anger säkring 532 17 51-58 märkt 15 AMP.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.4 (index 3), ELECTRICAL key 26",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-electric-harness",
+      "statement": "ELECTRICAL position 40 listar tändningskablage 532 18 80-36 CRD Noram.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.4 (index 3), ELECTRICAL key 40",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-electric-bagger-buzzer",
+      "statement": "ELECTRICAL position 58 listar summer 532 16 94-19 för uppsamlarsystemet.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.4 (index 3), ELECTRICAL key 58",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-electric-bagger-switch",
+      "statement": "ELECTRICAL position 59 listar FBI-brytare 532 18 03-79 för CRD.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.4 (index 3), ELECTRICAL key 59",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-electric-seat",
+      "statement": "ELECTRICAL position 29 listar förarnärvarobrytare 532 12 13-05.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.4 (index 3), ELECTRICAL key 29",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-electric-ignition",
+      "statement": "ELECTRICAL position 30 listar tändningslås 532 17 55-66 Delta.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.4 (index 3), ELECTRICAL key 30",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "F",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-electric-solenoid",
+      "statement": "ELECTRICAL position 43 listar startsolenoid 532 17 88-61.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.4 (index 3), ELECTRICAL key 43",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cma-954130215-bagger-interlock",
+      "statement": "Elschemat visar en separat BAGGER INTERLOCK som reagerar på saknad uppsamlare, utkast eller plugg, samt FBI-switch och summer. Funktionernas fullständiga diagnostik kräver förarmanual.",
+      "variant": "LT2115CM (J2115CMA) / 954130215 / 2004-01",
+      "locator": "PDF s.2 (index 1), SCHEMATIC BAGGER INTERLOCK",
+      "sourceId": "jonsered-lt2115cm-j2115cma-954130215-original-2004-01",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "PDF-text ur 20-sidig original-Jonsered IPL har kunnat läsas, men bildvisning via webbverktyget returnerade cachefel; illustrerade kopplingsscheman och full OEM-identitet behöver visuell dubbelkontroll.",
+    "Peerless 206-546 i J2115CMA 2004-01 ska inte sammanblandas med Hydro-Gear-transmissioner i LT2115CMA eller andra års-/suffixrevisioner.",
+    "Förarhandbok, bromsjustering, serviceintervall, motor-ID och alla klippaggregatspositioner måste verifieras individuellt före publicering."
+  ]
+}
