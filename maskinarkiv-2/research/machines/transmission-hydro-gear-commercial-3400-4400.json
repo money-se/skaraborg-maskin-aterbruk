@@ -987,6 +987,150 @@
       "locator": "Printed p.12, RTN step 1 note",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "3400-charge-mark",
+      "statement": "För ZT-3400/3600/3800 ska laddpumpskåpans orientering markeras mot huvudkåpan innan demontering och återskapas efter service.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, fig.22a, steg 1 och Assembly 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-seal",
+      "statement": "Vid laddpumpservice byts O-ring pos.132. Om anslutningsrören pos.130 och läpptätning pos.157 har demonterats måste även dessa bytas.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, fig.22b, Assembly NOTE",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-center-only",
+      "statement": "Anslutningsrören pos.130 och läpptätning pos.157 avlägsnas endast när mittsektionen också ska demonteras.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, fig.22b, Disassembly steg 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-gerotor-inspect",
+      "statement": "Laddpumpens gerotor pos.131 kontrolleras efter skador/slitage och ersätts vid behov.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, Inspection steg 1",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-code3",
+      "statement": "Laddpumpskåpans orientering bestäms via tredje modellkodstecknet; figur 23 visar separata varianter G/W/1, K/Y/2 samt H och L.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.26, figur 23",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-misoriented",
+      "statement": "Hydro-Gear varnar att en felvänd laddpump kan medföra fullständig förlust av hydrostatisk drivning.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.26, Charge Pump Orientation",
+      "topic": "K",
+      "grade": "A"
+    },
+    {
+      "id": "3400-brake-mark",
+      "statement": "Före demontering av bromsarm pos.102 ska dess position relativt bromsaxel pos.101 markeras, eftersom inbördes orientering är viktig för funktionen.",
+      "variant": "ZT-3400/3600/3800, inboard/outboard",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.16, figur 13, Disassembly",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-brake-spline",
+      "statement": "Vid bromsarmsservice kontrolleras splines på både bromsarm pos.102 och bromsaxel pos.101 efter slitage/skador.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.16, figur 13, Inspection",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-galley-cap",
+      "statement": "Vid intern ZT-4400-service avlägsnas laddkanalens kåpa pos.15 före demontering av chockventilkomponenter.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-shock-orientation",
+      "statement": "Chockventilernas orientering ska dokumenteras innan de tas ur ZT-4400-mittsektionen.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, NOTE före steg 3",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-shock-assembly",
+      "statement": "ZT-4400:s chockventilsystem visas med ventilsäten pos.13, ventildelar pos.10/11, fjädrar pos.12 och fjäderhållare pos.30.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 3",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "4400-charge-relief-54-56",
+      "statement": "ZT-4400:s laddtrycksventil består i servicefiguren av plugg pos.54, fjäder pos.55 och kula pos.56; dessa positionsnummer är inte artikelnummer.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 5",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "4400-gerotor-57",
+      "statement": "ZT-4400:s laddpump använder gerotor pos.57, kåpa pos.53, O-ring pos.52 och kåpskruvar pos.51, skilt från ZT-3400-familjens numrering.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 6",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "4400-magnet-care",
+      "statement": "Vid ZT-4400-service rengörs magnet pos.35 från partiklar; den demonteras normalt endast om den är skadad.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, Inspection steg 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-gerotor-lip",
+      "statement": "Vid återmontering av ZT-4400 ska gerotorns centrala läpp pos.57 passas in i mittsektionen enligt figur 30.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, Assembly NOTE",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-new-galley-cap",
+      "statement": "ZT-4400:s sammanfattning av total återmontering föreskriver ny laddkanalskåpa efter demontering.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.34, Assembly After Complete Teardown steg 1",
+      "topic": "J",
+      "grade": "A"
     }
   ],
   "gaps": [
