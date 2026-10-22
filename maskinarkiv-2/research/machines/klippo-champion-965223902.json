@@ -18,6 +18,20 @@
       "title": "KLIPPO originalbruksanvisning Champion/Excellent/Pro19 m.fl.",
       "document": "000001 version 1:17 2007-01",
       "url": "https://content.tdr.dss.husqvarnagroup.net/pub000035498/doc000066874"
+    },
+    {
+      "id": "klippo-ipl-champion-2008",
+      "tier": 1,
+      "title": "KLIPPO Champion illustrated parts list",
+      "document": "IPL Champion 2008-01, 965223901-K02310; motor Quantum XLS 50 12F8022045B2",
+      "url": "https://www.gplshop.fr/dokument/bibliotek/Image/Grasklippare/Champion/Champion-2006.pdf"
+    },
+    {
+      "id": "retailer-klippo-crosswalk",
+      "tier": 2,
+      "title": "ReservdelarOnline – gammalt Klippo-nummer till Husqvarna-nummer",
+      "document": "Översättningstabell Klippo nummer, webbpublicerad utan identifierad revision",
+      "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
     }
   ],
   "topics": {
@@ -128,6 +142,51 @@
       "sourceId": "klippo-om-2007",
       "grade": "A",
       "topic": "M"
+    },
+    {
+      "id": "champion-2008-ipl-original",
+      "statement": "En KLIPPO-märkt illustrerad reservdelslista med dokumentbeteckning 'IPL, KLIPPO, Champion, 2008-01, 965223901-K02310' är publicerad för Champion. Listan ska inte sammanblandas med den senare Champion 965223902.",
+      "variant": "Champion 965223901 / K02310 enligt 2008-01 IPL",
+      "locator": "Dokumentrubrik och PDF s.1 sprängskiss",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "champion-2008-ipl-motor",
+      "statement": "KLIPPO:s IPL anger motor 'Quantum XLS 50 12F8022045B2' i Champion-utförandet 965223901-K02310. Motorkoden ska inte kopieras till senare 965223902 utan separat belägg.",
+      "variant": "Champion 965223901 / K02310 enligt 2008-01 IPL",
+      "locator": "PDF s.1, 'Motor:'",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "champion-2008-ipl-serial",
+      "statement": "Reservdelslistan anger tillämplighetsgränsen 'From. Serial no. KA XX 100.000'. Serienummermärkning och eventuella tidigare kataloger måste kontrolleras innan partsdata används.",
+      "variant": "Champion 965223901/K02310, IPL 2008-01",
+      "locator": "PDF s.1–2, rubrikrad",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "champion-2008-ipl-wheel-kits",
+      "statement": "Champion-IPL:n visar nummerparen '0904 / 502943101' för sats med fyra stycken 1010 och '0903 / 503272201' för hjultillbehörssats. De anges som katalogreferenser, inte som bekräftad passform på senare Champion.",
+      "variant": "Champion 965223901/K02310, 2008-01",
+      "locator": "PDF s.1, fotnoter vid sprängskiss ('*' respektive '#')",
+      "sourceId": "klippo-ipl-champion-2008",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "champion-crosswalk-older-965223901",
+      "statement": "En fristående återförsäljares korsreferens kopplar gammal kod K02310 till 965223901, inte till 965223902. Informationen stöder identifieringssökning men fastställer inte revisionskompatibilitet.",
+      "variant": "Klippo Champion K02310, återförsäljarkorsreferens",
+      "locator": "Översättningstabell, rad 'K02310 ... 965223901 ... Champion'",
+      "sourceId": "retailer-klippo-crosswalk",
+      "grade": "B",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -136,6 +195,7 @@
     "Verifiera höjdinställning, transmissionsutförande, motoroljetyp och serviceintervall mot rätt årsutgåva.",
     "Jämför 2007 och 2018 års manualer och dokumentera versionsskillnader.",
     "Hitta andra Champion-artikelnummer utan att sammanblanda deras komponenter.",
-    "Jämför den äldre koden K02310 och senare artikelnummer 965 22 39-02 i IPL innan eventuell delkompatibilitet påstås."
+    "Jämför den äldre koden K02310 och senare artikelnummer 965 22 39-02 i IPL innan eventuell delkompatibilitet påstås.",
+    "Läs original-IPL:s PDF-sida 2 visuellt för exakt positionsnummer till kniv och knivfäste; sidans textfont är felläst vid maskinell extraktion och PDF-skärmbild misslyckades."
   ]
 }
