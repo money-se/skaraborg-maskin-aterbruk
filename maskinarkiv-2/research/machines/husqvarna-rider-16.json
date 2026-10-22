@@ -81,6 +81,13 @@
       "title": "Husqvarna Rider 16 operator's manual November 2000",
       "document": "OM Rider 16 2000-11; 101 91 33-26; pub000015162/doc000034675",
       "url": "https://content.tdr.dss.husqvarnagroup.net/pub000015162/doc000034675"
+    },
+    {
+      "id": "husqvarna-rider16-2003-01-original-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 2003-01 original spare parts list",
+      "document": "SPARE PARTS LIST RIDERS RIDER 16, 2003-01; 46-page manufacturer-authored parts catalog (retailer archive)",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/husqvarna/tracteurs-tondeuse-rider/rider%2016/tracteur_tondeuse_husqvarna_rider_rider16_liste-des-pieces_2003-01.pdf"
     }
   ],
   "topics": {
@@ -812,6 +819,87 @@
       "sourceId": "husqvarna-rider16-2000-11-owner",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "rider16-2003-identity",
+      "statement": "Original reservdelskatalog har titel RIDER 16, 2003-01, men anger inget fastställt maskin-PNC i omslagets identifiering.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 1 (P0), omslag",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-2003-k46",
+      "statement": "I transmissionslistan anges artikel 506 98 64-01, betecknad TRANSMISSION K46, antal 1.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 36 (P35), TRANSMISSION, 506 98 64-01",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2003-pulley",
+      "statement": "I samma transmissionslista anges remskiva 506 98 67-01 och fläkt 506 98 68-01.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 36 (P35), TRANSMISSION, 506 98 67-01 POULIE; 506 98 68-01 VENTILATEUR",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-2003-engine",
+      "statement": "Motorlistan anger motorenhet 535 44 10-01, antal 1. Detta är inte Briggs motorns Model/Type/Code.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 22 (P21), MOTEUR, 535 44 10-01 MOTEUR",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2003-fuel-tank",
+      "statement": "Chassi-/ramlistan anger bränsletank 506 76 96-01 och tanklock 506 67 33-01.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 9 (P8), CHASSIS/CADRE, 506 76 96-01 RÉSERVOIR À ESSENCE; 506 67 33-01 BOUCHON DE RÉSERVOIR COMPLET",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-2003-steering",
+      "statement": "Styrningslistan anger kedja 506 55 46-01 och stöd 506 55 47-01, en av vardera.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 18 (P17), DIRECTION, 506 55 46-01 CHAÎNE; 506 55 47-01 SUPPORT",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "rider16-2003-belts",
+      "statement": "Chassi-/ramlistan innehåller remnummer 531 00 50-14, 531 00 50-17 och 531 00 75-72; dubbletter i listan kan representera olika ritningspositioner och bekräftar inte deras inbördes utbytbarhet.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sida 9 (P8), CHASSIS/CADRE, COURROIE",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2003-deck-groups",
+      "statement": "2003-01 originalkatalogen innehåller separata aggregatgrupper för 90, 97, 103 och 112 cm och dessa ska granskas separat för knivar och remmar.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "PDF-sidor 38–46 (P37–P45), deck group headings; jämför produktöversikten",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2003-2003-2006-k46",
+      "statement": "2003 års RIDER 16 IPL anger K46 506 98 64-01 medan identifierad 2006 IPL för PNC 953521401 anger K46 EUR 506 98 63-01. Detta belägger skilda Husqvarna-nummer, inte automatisk ersättningsrelation.",
+      "variant": "Rider 16 IPL 2003-01; maskin-PNC ej fastställt",
+      "locator": "2003-01 PDF P35 TRANSMISSION jämfört 2006-01 953521401 PDF P5 figur H",
+      "sourceId": "husqvarna-rider16-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "D"
     }
   ],
   "gaps": [
@@ -843,6 +931,10 @@
     "Identifiera om 2007-06 och 2010-07 års remnummer skiljer sig genom tillverkarrevision, eftermarknadsersättning eller kataloguppdatering; inte dra passformsslutsatser från återförsäljardata.",
     "Fastställ exakt PNC för 2000-11 och 2002-04 manualversioner; manualutgåvans datum är inte automatiskt maskinens årsmodell.",
     "Kontrollera specifikationstabellen i 2000-11 originalmanual visuellt; skärmbildstjänsten returnerade cachefel och värden får därför inte föras in som verifierade.",
-    "Kartlägg 2001 och 2003 original-IPLs, särskilt tidiga aggregat (90/97/103/112 cm) och K46-undervarianter."
+    "Kartlägg 2001 och 2003 original-IPLs, särskilt tidiga aggregat (90/97/103/112 cm) och K46-undervarianter.",
+    "Katalog 2003-01 saknar identifierat Rider 16-maskin-PNC i omslaget; koppla enheten till exakt produktnummer innan passform hävdas.",
+    "Undersök skillnaden mellan K46 506986401 (2003) och K46 EUR 506986301 (2006) från tillverkardokument och transaxelmärkning.",
+    "Identifiera 2001-01 och 2002-02 års Rider 16-original-IPLs samt exakta äldre motor- och aggregatpositionsnummer.",
+    "PDF-skärmbild för 2003-katalogen kunde inte visas i aktuell webbläsartjänst; textlistor genomgångna men figurer återstår visuell validering."
   ]
 }
