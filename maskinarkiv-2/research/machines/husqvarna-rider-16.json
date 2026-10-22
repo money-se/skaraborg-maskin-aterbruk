@@ -193,6 +193,13 @@
       "title": "Husqvarna Genuine Parts - Rider Blades (OEM catalogue)",
       "document": "Husqvarna Genuine Parts, Rider Blades table, printed p.57",
       "url": "https://www-static-nw.husqvarna.com/-/files/aprimo/husqvarna/maintenance/documents/brochure-and-catalogue/wu-055415.pdf?v=7b542591"
+    },
+    {
+      "id": "husqvarna-rider16-2000-11-owner-english",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 Operator's Manual 2000-11 (English)",
+      "document": "101 91 33-95, 2000-11, Husqvarna original operator manual",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000015162/doc000034757"
     }
   ],
   "topics": {
@@ -1374,6 +1381,42 @@
       "sourceId": "husqvarna-genuine-parts-catalog-rider-blades",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-2000om-bioclip103-two-belts",
+      "statement": "Husqvarna Rider 16-manualen från 2000-11 beskriver BioClip 103 som aggregat med två tandremmar som synkroniserar knivarna; 2002-manualens senare beteckning 'version 2' får inte automatiskt appliceras på alla 2000 års aggregat.",
+      "variant": "Rider 16, Husqvarna originalmanual 2000-11, maskin- och aggregat-PNC ej fastställda",
+      "locator": "Tryckt s.31 (PDF P31), 'Replacing the cutting unit belts', BioClip 103",
+      "sourceId": "husqvarna-rider16-2000-11-owner-english",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2000om-bioclip103-eccentric-tension",
+      "statement": "Rider 16-manualen 2000-11 anger att BioClip 103:s två remmar lossas med excenter och justering av de yttre knivlagringarnas lägen; korrekt spänning är 7 mm nedböjning vid 10 N.",
+      "variant": "Rider 16, Husqvarna originalmanual 2000-11, maskin- och aggregat-PNC ej fastställda",
+      "locator": "Tryckt s.31–32 (PDF P31–32), 'Replacing the cutting unit belts', steg 4–6",
+      "sourceId": "husqvarna-rider16-2000-11-owner-english",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2000om-bioclip-breakpin-frictionwasher",
+      "statement": "Rider 16-manualen 2000-11 instruerar att kupad friktionsbricka alltid ska bytas när knivbult lossas vid BioClip-knivservice och att brickans konkava sida vänds mot kniven. Angivet åtdragningsmoment är 45–50 Nm.",
+      "variant": "Rider 16, Husqvarna originalmanual 2000-11, maskin- och aggregat-PNC ej fastställda",
+      "locator": "Tryckt s.37 (PDF P37), 'Replacing the break-pin (BioClip)', steg 7–8",
+      "sourceId": "husqvarna-rider16-2000-11-owner-english",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-2000om-bioclip-blade-90-degrees",
+      "statement": "Rider 16-manualen 2000-11 anger att BioClip-knivarna ska stå 90° i förhållande till varandra eftersom felaktig fasning kan orsaka att de kolliderar.",
+      "variant": "Rider 16, Husqvarna originalmanual 2000-11, maskin- och aggregat-PNC ej fastställda",
+      "locator": "Tryckt s.32 (PDF P32), 'IMPORTANT INFORMATION'; även s.36",
+      "sourceId": "husqvarna-rider16-2000-11-owner-english",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -1432,6 +1475,8 @@
     "Husqvarna bekräftar artikel 589531501 och längd 1256 mm (korrigerat; 2158 mm avser artikel 589531601). Officiell ersättningsrelation för 531007526 saknas fortfarande; PNC-kontroll krävs.",
     "Kvalitetskontroll: tidigare claim angav felaktigt 2158 mm för 589531501 genom sammanblandning med närliggande artikel 589531601. Korrigerat till 1256 mm enligt tillverkarens specifikationstabell.",
     "Husqvarna Genuine Parts-katalogen styrker två skilda knivsatser för BioClip 90: Rider 16 531007586, Rider 16 H 531007525; fråga om kompatibilitet, ersättning och aggregat-PNC kvarstår.",
-    "Originalkatalogens PDF är stor och webbsidan kunde inte öppnas för skärmbild. Maskin-/knivuppgifter har kontrollerats mot Husqvarnas sökindexerade tabell, men sidbild/figurer kräver separat visuell kontroll."
+    "Originalkatalogens PDF är stor och webbsidan kunde inte öppnas för skärmbild. Maskin-/knivuppgifter har kontrollerats mot Husqvarnas sökindexerade tabell, men sidbild/figurer kräver separat visuell kontroll.",
+    "2000-11 Rider 16 OM dokumenterar BioClip 103 med två synkroniserande remmar; senare 2002 OM benämner tvåremsutförandet version 2. Koppla inte enstaka produktionsår eller knivhusrevisioner till en viss remversion utan komplett PNC.",
+    "Rider 16-manualerna 2000 och 2002 ger serviceinstruktioner men inte ett komplett separat aggregat-PNC. Originalritning och produktetikett krävs för precis passform."
   ]
 }
