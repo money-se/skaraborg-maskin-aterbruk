@@ -53,6 +53,48 @@
       "title": "Murray 425015X92A original-form operation manual, page 18",
       "document": "F-040734L, p.18",
       "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/18"
+    },
+    {
+      "id": "murray-015a-electrical-p49",
+      "tier": 2,
+      "title": "Murray 425015X92A electrical system original manual transcription",
+      "document": "F-040734L, electrical system printed page 49",
+      "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/49"
+    },
+    {
+      "id": "murray-015a-service-shifter-p24",
+      "tier": 2,
+      "title": "F-040734L shift lever neutral procedure",
+      "document": "F-040734L maintenance pages",
+      "url": "https://www.manualsdir.com/manuals/117580/murray-425015x92a.html?page=24"
+    },
+    {
+      "id": "murray-015a-service-gauge-p27",
+      "tier": 2,
+      "title": "F-040734L gauge wheel adjustment",
+      "document": "F-040734L maintenance pages",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=27"
+    },
+    {
+      "id": "murray-015a-service-level-p28",
+      "tier": 2,
+      "title": "F-040734L mower leveling and tire pressure",
+      "document": "F-040734L maintenance pages",
+      "url": "https://www.manualsdir.com/manuals/117580/murray-425015x92a.html?page=28"
+    },
+    {
+      "id": "murray-015a-service-blade-p22",
+      "tier": 2,
+      "title": "F-040734L blade rotation adjustment",
+      "document": "F-040734L maintenance pages",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=22"
+    },
+    {
+      "id": "murray-015a-service-operation-p19",
+      "tier": 2,
+      "title": "F-040734L operating and upkeep tips",
+      "document": "F-040734L maintenance pages",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=19"
     }
   ],
   "topics": {
@@ -74,7 +116,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Dana anges utan transaxelns exakta modellkod; drivrem 037x87 är källbunden till denna parts list."
+      "note": "F-040734L s.39 identifierar DANA-transaxel på pos 36 (utan exakt submodell) och drivrem 037x87, remskivor, växellänkage, bromsspärr och transaxelfästen. För 425015X92B är motsvarande variant fortfarande obekräftad."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -89,12 +131,12 @@
     "G": {
       "name": "Säkerhetssystem",
       "state": "gap",
-      "note": "Originalformens ägarmanual dokumenterar sitsövervakning samt startvillkor. Den exakta brytarkretsens komponentnummer och elektrofelsökning kvarstår."
+      "note": "F-040734L s.49 visar modellbundna elkomponenter inklusive säkring, tändningslås, startsolenoid och sitsbrytare. Förarnärvaro och startvillkor har separata manualbelägg; komplett elschema och mätgränser återstår."
     },
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-040734L s.45 anger klippaggregatets rem/kniv/spindelhus samt upphängning, bromsbelägg, remstyrning, utkastskydd och stödhjul. Gemensamma katalognummer med andra Murray-maskiner innebär inte fullständig aggregatkompatibilitet."
     },
     "I": {
       "name": "Tillbehör",
@@ -104,7 +146,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Manualen hänvisar till motorleverantörens instruktioner för olje- och bränsletyp. Fullständig Briggs Model/Type/Code krävs innan individuell oljemängd eller intervall anges."
+      "note": "F-040734L s.19,22,24,27,28 anger särskilda service- och justeringsrutiner: växellänkagets neutralläge, däcknivå/14 PSI, stödhjul 1/2/3-6 och justering av knivdrivfjäder. Följ originalsäkerhetssteg i full manual."
     },
     "K": {
       "name": "Reservdelar",
@@ -430,6 +472,578 @@
       "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-blade-adapter",
+      "statement": "Knivadaptern har artikelnummer 690411.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 36",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-idler",
+      "statement": "Klippaggregatets löprulle har artikelnummer 690387.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 4",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-jackshaft",
+      "statement": "Mellandrevsremskivan har artikelnummer 094199.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 1",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-left-brake",
+      "statement": "Vänster bromsbeläggsenhet har artikelnummer 094049E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 12",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-right-brake",
+      "statement": "Höger bromsbeläggsenhet har artikelnummer 094047E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 27",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-idler-arm",
+      "statement": "Löprullearmen har artikelnummer 690408E700.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 25",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-lift-link",
+      "statement": "Lyftstaget har artikelnummer 690212E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 8",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-gauge-wheel",
+      "statement": "Klippaggregatets stödhjul har artikelnummer 092683.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 53",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-deflector",
+      "statement": "Utkastskyddsenheten har artikelnummer 094707SE.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 44",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-front-hanger",
+      "statement": "Främre aggregatupphängningsfästet har artikelnummer 094190E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 46",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-rear-bracket",
+      "statement": "Bakre upphängningsfästet har artikelnummer 094055E701.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 11",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-belt-guide",
+      "statement": "Remstyrningen har artikelnummer 094781.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MOWER HOUSING, tryckt sida 45, position 48",
+      "sourceId": "murray-015a-html-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-light-harness",
+      "statement": "Reservdelskatalogen listar Belysningskabelhärva 250x92.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 1",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-chassis-harness",
+      "statement": "Reservdelskatalogen listar Chassikabelhärva 250x117.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 2",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-ignition-switch",
+      "statement": "Reservdelskatalogen listar Tändningslås 092556.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 3",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-limit-switch",
+      "statement": "Reservdelskatalogen listar Gränslägesbrytare 094136.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 4",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-fuse",
+      "statement": "Reservdelskatalogen listar Säkring 302031.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 5",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-solenoid",
+      "statement": "Reservdelskatalogen listar Startsolenoid 094613.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 6",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-battery",
+      "statement": "Reservdelskatalogen listar Batteri 021075.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 8",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-seat-harness",
+      "statement": "Reservdelskatalogen listar Sitsbrytarens kabelhärva 250x67.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 9",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-electrical-seat-switch",
+      "statement": "Reservdelskatalogen listar Sitsgivarbrytare 094159.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ELECTRICAL SYSTEM s.49 position 10",
+      "sourceId": "murray-015a-electrical-p49",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-idler-arm",
+      "statement": "Reservdelskatalogen anger Löprullearm 690173 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 3",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-clutch-rod",
+      "statement": "Reservdelskatalogen anger Kopplingsstag 094041 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 4",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-shift-link",
+      "statement": "Reservdelskatalogen anger Växellänkage 094044 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 11",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-parking-brake-rod",
+      "statement": "Reservdelskatalogen anger Parkeringsbromsstag 1001245 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 14",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-shift-pivot",
+      "statement": "Reservdelskatalogen anger Växelspakens pivotfäste 1001303 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 16",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-brake-latch",
+      "statement": "Reservdelskatalogen anger Parkeringsbromsens spärr 094045 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 26",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-transaxle-bracket",
+      "statement": "Reservdelskatalogen anger Transaxelfäste 094008E701.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 40",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-transaxle-support",
+      "statement": "Reservdelskatalogen anger Transaxelstöd 094433E701.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 42",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-drive-pulley",
+      "statement": "Reservdelskatalogen anger Drivremskiva 095094.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 44",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-belt-guide",
+      "statement": "Reservdelskatalogen anger Remstyrning 093349.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 54",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-shift-yoke",
+      "statement": "Reservdelskatalogen anger Växelgaffel 1001825 YZ.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 31",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-mismatch",
+      "statement": "Om växelspakens NEUTRAL inte motsvarar växellådans neutralläge ska växelspaken justeras.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-stop",
+      "statement": "Stanna motorn innan neutraljusteringen utförs.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 1",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-detach",
+      "statement": "Lossa justermuttern från växelfästet vid neutraljustering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 2",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-shift",
+      "statement": "Placera växelspaken i läget NEUTRAL.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 3",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-roll",
+      "statement": "Skjut maskinen framåt och säkerställ att växellådan står i neutralläge.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 4",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-adjust",
+      "statement": "Vrid justermuttern tills den ligger i linje med hålet i växelfästet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 step 5",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-neutral-reconnect",
+      "statement": "Anslut justermuttern till växelfästet och kontrollera neutralläget.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.24 steps 6-7",
+      "sourceId": "murray-015a-service-shifter-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-before",
+      "statement": "Före justering av stödhjulen ska klippaggregatet vara vågrätt och önskad klipphöjd vald.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-test",
+      "statement": "Provklipp kort sträcka på plan mark för att bedöma klipphöjd och resultat.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27 step 2",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-holes",
+      "statement": "Stödhjulens fästen har tre höjdinställningshål vardera.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27 fig.26",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-gauge-settings",
+      "statement": "Hålnummer 1 används för lyftspaksläge 1, hålnummer 2 för läge 2, och hålnummer 3 för lägen 3–6.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.27 fig.26",
+      "sourceId": "murray-015a-service-gauge-p27",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-level-flat",
+      "statement": "Maskinen ska stå på hårt och plant underlag vid kontroll av aggregatets nivå.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.28 step 1",
+      "sourceId": "murray-015a-service-level-p28",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-level-psi",
+      "statement": "Vid nivåkontroll anges däcktryck 14 PSI (1 bar).",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.28 step 2",
+      "sourceId": "murray-015a-service-level-p28",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-level-wheels",
+      "statement": "På maskin med stödhjul ska stödhjulen tas bort för korrekt nivåjustering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.28 IMPORTANT",
+      "sourceId": "murray-015a-service-level-p28",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-blade-fast",
+      "statement": "Vid arbete med blade rotation control anger handboken FAST-läget på gasreglaget som utgångsläge vid klippning.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.22 step 1",
+      "sourceId": "murray-015a-service-blade-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-blade-middle-hole",
+      "statement": "Om klippresultatet blir sämre anger manualen att knivdrivfjädern kan flyttas till mittenhålet för högre remspänning efter säker frånkoppling.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE p.22 step 5",
+      "sourceId": "murray-015a-service-blade-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-start-spark",
+      "statement": "Om motorn inte startar rekommenderas först kontroll av att tändstiftskabeln är ansluten.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 3",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-battery-3months",
+      "statement": "För elstartmodeller rekommenderas batteriladdning var tredje månad.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 6",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-speed-shift",
+      "statement": "Markhastighet ska ändras med växelspaken, inte gasreglaget.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 7",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-maint-belt-guide",
+      "statement": "Kontrollera att alla remmar ligger inne i sina remstyrningar.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "OPERATION p.19 step 4",
+      "sourceId": "murray-015a-service-operation-p19",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -438,6 +1052,8 @@
     "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
-    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
+    "F-040734L sida 45 visar flera identiska reservdelsnummer som F-050706L för 425014X92B; jämför fästpunkter, revisioner och ersättningsnummer separat innan fysisk utbytbarhet hävdas.",
+    "Närliggande handlarlistningar av '42515X92B' får inte användas som identitetsbevis för 425015X92B utan modellnummer- och katalogkontroll."
   ]
 }
