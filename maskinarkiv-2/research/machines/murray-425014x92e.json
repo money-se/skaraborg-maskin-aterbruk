@@ -67,6 +67,13 @@
       "title": "Murray 425014X92E manufacturer-form operator instruction book",
       "document": "98339, 03.21.05 RD, Troubleshooting Chart pp.28-30",
       "url": "https://www.manualslib.com/manual/506831/Murray-96014000100.html"
+    },
+    {
+      "id": "murray-014e-steering-original-page39",
+      "tier": 2,
+      "title": "Murray 425014X92E 96014000100 steering assembly original parts list",
+      "document": "Manufacturer IPL, STEERING ASSEMBLY printed page 39",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/39"
     }
   ],
   "topics": {
@@ -93,7 +100,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Styrningssektionens originalreservdelslista på tryckt sida 39 identifierar ratt, axel, styrspindlar, styrstag, tvärstag, smörjnippel och rattadapter. Fysisk identitets- och efterträdande reservdelskontroll återstår.\nFollow-up: Styrning och chassi samt sitsens pivotfäste och fjäder är katalogförda per 425014X92E. Fullständigt variantbyte och tillbehörskompatibilitet återstår."
+      "note": "Tillverkarens separata 425014X92E/96014000100-katalog STEERING ASSEMBLY tryckt s.39: framaxel 175131, styrspindlar 169840/169839, styrstång 190753, stag 175121/192757 och smörjnippel 183226. Skiljer sig från 425014X92A/B-nummer."
     },
     "F": {
       "name": "Reglage",
@@ -1335,6 +1342,248 @@
       "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-wheel",
+      "statement": "STEERING ASSEMBLY listar katalognummer 186780.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 1",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-axle",
+      "statement": "STEERING ASSEMBLY listar katalognummer 175131.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 2",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-spindle-left",
+      "statement": "STEERING ASSEMBLY listar katalognummer 169840.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 3",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-spindle-right",
+      "statement": "STEERING ASSEMBLY listar katalognummer 169839.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 4",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-thrust-bearing",
+      "statement": "STEERING ASSEMBLY listar katalognummer 6266H.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 5",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-column-bearing",
+      "statement": "STEERING ASSEMBLY listar katalognummer 3366R.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 9",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-draglink",
+      "statement": "STEERING ASSEMBLY listar katalognummer 175121.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 10",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-front-spacer",
+      "statement": "STEERING ASSEMBLY listar katalognummer 136518.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 13",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-steering-shaft",
+      "statement": "STEERING ASSEMBLY listar katalognummer 190753.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 17",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-draglink-bushing",
+      "statement": "STEERING ASSEMBLY listar katalognummer 126847X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 26",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-tie-rod",
+      "statement": "STEERING ASSEMBLY listar katalognummer 192757.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 32",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-steering-bushing",
+      "statement": "STEERING ASSEMBLY listar katalognummer 155099.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 36",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-wheel-insert",
+      "statement": "STEERING ASSEMBLY listar katalognummer 192916.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 38",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-wheel-adapter",
+      "statement": "STEERING ASSEMBLY listar katalognummer 186737.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 41",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-shaft-boot",
+      "statement": "STEERING ASSEMBLY listar katalognummer 145054x428.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 42",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-extension-shaft",
+      "statement": "STEERING ASSEMBLY listar katalognummer 190752.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 44",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-spindle-cap",
+      "statement": "STEERING ASSEMBLY listar katalognummer 121232X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 46",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-grease-fitting",
+      "statement": "STEERING ASSEMBLY listar katalognummer 183226.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 47",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-axle-brace",
+      "statement": "STEERING ASSEMBLY listar katalognummer 169827.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 68",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-steering-assembly",
+      "statement": "STEERING ASSEMBLY listar katalognummer 175146.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 71",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-front-susp-bracket",
+      "statement": "STEERING ASSEMBLY listar katalognummer 169835.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 82",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-steering-steering-clip",
+      "statement": "STEERING ASSEMBLY listar katalognummer 175553.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "STEERING ASSEMBLY, tryckt sida 39, pos 91",
+      "sourceId": "murray-014e-steering-original-page39",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1346,6 +1595,7 @@
     "Inget publiceringsbeslut; samtliga ämnesområden A–M är ännu ofullständiga.",
     "Generatorns verkliga utförande och elsystemets testprotokoll måste kontrolleras mot fysisk maskin och motor-Type/Code; nominella schemasiffror är inte individuella mätvärden.",
     "425014X92E: Steering Assembly-pos. 1–97 har delvis extraherats. Ingen styrdelskompatibilitet mot A/B/425015 får antas utan egna katalogbelägg.",
-    "Sits- och lyftkomponenter för 425014X92E kräver fortsatt kontroll av ersättningsnummer och fysisk maskin innan köp; katalogposter visar inte generell kompatibilitet."
+    "Sits- och lyftkomponenter för 425014X92E kräver fortsatt kontroll av ersättningsnummer och fysisk maskin innan köp; katalogposter visar inte generell kompatibilitet.",
+    "425014X92E STEERING ASSEMBLY s.39 artikelnummer är positionsverifierade i katalogtext; sprängskissens bildvisning och fysisk passform ej kontrollerade."
   ]
 }
