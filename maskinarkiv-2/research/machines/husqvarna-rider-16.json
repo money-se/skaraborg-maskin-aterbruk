@@ -2736,6 +2736,96 @@
       "sourceId": "husqvarna-rider16c-2008-12-owner",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch49-k46-2point2-l",
+      "statement": "Husqvarnas Rider 16 verkstadshandbok 2003-02 anger Tuff Torq K46 med oljemängd 2,2 liter och SAE10W/30 klass SF-CC. Detta är äldre tillverkaruppgift, inte oljespecifikation för varje senare K46-revision.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P6 technical data Rider16; P46 transmission maintenance",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch49-k46-professional-interval",
+      "statement": "Samma OEM-verkstadshandbok rekommenderar för professionellt använd Rider 16 K46 byte av transmissionsolja första gången efter 50 drifttimmar och därefter var 300:e drifttimme; den beskriver transmissionsoljebyte som krävande för vanliga användare.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P46 Transmission maintenance Oil change",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch49-k46-bleed-after-refill",
+      "statement": "Husqvarnas 2003-verkstadshandbok beskriver att K46 på Rider 16 tappas med två separata 14 mm avtappningspluggar, fylls via oljebehållaren och måste luftas, köras och nivån kontrolleras igen. Full verkstadsanvisning krävs för ingrepp.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P47 Changing oil – Rider 13 and Rider 16",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch49-engine-2003-model-code",
+      "statement": "2003 års Rider 16 verkstadshandbok delar motorvarianterna mellan Briggs 28N707 till 2002 och Briggs 282H070110E1 från 2003. Detta är en versionsindikator i manualen; en enskild motors Model/Type/Code måste fortfarande avläsas.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P6 Technical data, Engine model -2002 / 2003-",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch49-engine-oil-capacity-conflict",
+      "statement": "Rider 16 verkstadshandbok 2003-02 anger 1,4 liter motorolja i tekniska data, medan ägarmanualen 2002-04 anger 1,2 liter. Skillnaden är en dokumentkonflikt, inte belägg att man alltid ska fylla 1,4 liter i en 2002-maskin; använd exakt Briggs-motorvariant och sticka.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "2003 workshop PDF P6 1.4 L; 2002-04 operator PDF P42 1.2 L",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch49-2003-sparkplugs",
+      "statement": "2003 års OEM-verkstadshandbok anger Champion CJ8/J8 till och med 2002 och Champion QC12YC från 2003 med elektrodavstånd 0,75 mm för Rider 16:s listade motorer. Kontrollera aktuell motor före beställning.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P6 Electrical system, Spark plug -2002 / 2003-",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch49-2003-combi-width-caution",
+      "statement": "Verkstadshandboken 2003-02 listar Combi 103 med klippbredd 1030 mm och Combi 112 med klippbredd 1220 mm trots benämningen '112'; detta är handbokens angivna tabell och bör återges källtroget, men jämföras med separat OEM-ägarmanual innan produktkort publiceras.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P6 Mowing deck table Combi 103 / Combi 112",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch49-2003-85vs97-decks",
+      "statement": "2003-verkstadshandbokens Rider16-tabell redovisar 85 cm bakutkast, 97 cm bakutkast och 97 cm sidoutkast samt Bio 90/103 och Combi 103/112. Dokumentet bekräftar historisk aggregatbredd i tabell men inte vad som monterades på en viss maskin.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P6 Mowing deck table",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch49-2003-technical-chassis",
+      "statement": "Rider 16 verkstadshandbok 2003-02 anger maskinlängd 2000 mm, bredd 900 mm, vikt 208 kg och hjulbas 860 mm. OEM-ägarmanualen 2002-04 har andra måttdefinitioner inklusive vikt med aggregat; jämför inte värden utan samma mätbas.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P6 Dimensions Rider16; compare OM 2002-04 technical data",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch49-2003-transmission-neutral-safety",
+      "statement": "Verkstadshandboken 2003-02 beskriver kontroll att drivaxlarna inte roterar när K46-styrningen återförs till neutral från både framåt- och backläge. Neutraljustering hör till verkstadsavsnittet och kräver säker uppställning.",
+      "variant": "Rider 16 original OEM workshop 2003-02; transmissionsrevision och motoridentitet måste kontrolleras",
+      "locator": "PDF P46 transmission neutral adjustment",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -2842,6 +2932,9 @@
     "Kvalitetsgranskning PR #141: skilj alltid originaldokumenterat remsystem (grad A) från senare återförsäljarkorsreferenser (grad B); ingen överföring av kvalitetsgrad mellan dessa.",
     "Rider16 2010-07 OEM IPL anger kniv 504188210 men sGarden för samma katalog anger 504188201. Verifiera varför sGarden har ett annat nummer; använd originalkatalogens uppgift tills officiellt ersättningsbesked finns.",
     "Tillverkarens Rider Belts-katalog ger direkt par 506768501→589530601 L1880 mm, men inte automatiskt 531005017→589530601. Nedgradera inte nummerkedjan till ett enda obrutet OEM-faktum.",
-    "Rider 16 C (966830601) har separat 2010-IPL och 2008-12 OM: håll isär Rider 16, Rider 16 C och Rider 16 H i PNC-bundna korsreferenser."
+    "Rider 16 C (966830601) har separat 2010-IPL och 2008-12 OM: håll isär Rider 16, Rider 16 C och Rider 16 H i PNC-bundna korsreferenser.",
+    "OEM-verkstadshandbok 2003 anger Rider16 motorolja 1,4 L, OM 2002 anger 1,2 L. Lös via Briggs modell-/typ-/kodspecifik manual innan fyllmängd rekommenderas.",
+    "Combi 112 klippbredd anges som 1220 mm i 2003-verkstadshandbok trots benämningen 112; jämför med andra tillverkarutgåvor och skilj nominell aggregatklass från faktisk klippbredd.",
+    "Rider16 K46 2003 verkstadshandbok anger 2,2 L SAE10W/30 och 50/300h vid proffsanvändning; kontrollera senare Tuff Torq-undervariant samt Husqvarnas servicebulletiner innan universell rekommendation."
   ]
 }
