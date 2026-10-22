@@ -39,6 +39,20 @@
       "title": "Murray 425015X92A repair parts steering list",
       "document": "F-040734L printed page 41",
       "url": "https://www.somanuals.com/html/12/Murray-Lawn-Mower-425015x92A-User-Manual.html"
+    },
+    {
+      "id": "murray-015a-operation-owners-manual",
+      "tier": 2,
+      "title": "Murray 425015X92A Instruction Book F-040734L, operation and maintenance",
+      "document": "F-040734L, pp.14 and 18",
+      "url": "https://www.manualsdir.com/manuals/117580/murray-425015x92a.html?page=14"
+    },
+    {
+      "id": "murray-015a-operation-p18",
+      "tier": 2,
+      "title": "Murray 425015X92A original-form operation manual, page 18",
+      "document": "F-040734L, p.18",
+      "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/18"
     }
   ],
   "topics": {
@@ -75,7 +89,7 @@
     "G": {
       "name": "Säkerhetssystem",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Originalformens ägarmanual dokumenterar sitsövervakning samt startvillkor. Den exakta brytarkretsens komponentnummer och elektrofelsökning kvarstår."
     },
     "H": {
       "name": "Klippaggregat",
@@ -90,7 +104,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "Manualen hänvisar till motorleverantörens instruktioner för olje- och bränsletyp. Fullständig Briggs Model/Type/Code krävs innan individuell oljemängd eller intervall anges."
     },
     "K": {
       "name": "Reservdelar",
@@ -337,6 +351,83 @@
       "sourceId": "murray-015a-steering",
       "grade": "B",
       "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-bladecontrol",
+      "statement": "Bladreglaget används för att starta och stoppa knivarnas rotation.",
+      "variant": "Murray 425015X92A enligt F-040734L (manual beskriver flera modeller)",
+      "locator": "OPERATION tryckt s.14, BLADE ROTATION CONTROL",
+      "sourceId": "murray-015a-operation-owners-manual",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-clutch-brake",
+      "statement": "Kopplings-/bromspedalen har två funktioner: koppling och broms.",
+      "variant": "Murray 425015X92A enligt F-040734L (manual beskriver flera modeller)",
+      "locator": "OPERATION tryckt s.14, CLUTCH / BRAKE PEDAL",
+      "sourceId": "murray-015a-operation-owners-manual",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-headlights",
+      "statement": "Strålkastarreglaget är ett läge i tändningslåset, som ska användas med motorn igång.",
+      "variant": "Murray 425015X92A enligt F-040734L (manual beskriver flera modeller)",
+      "locator": "OPERATION tryckt s.14, HEADLIGHT SWITCH",
+      "sourceId": "murray-015a-operation-owners-manual",
+      "grade": "B",
+      "topic": "F",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-deckheight",
+      "statement": "Lyftspaken reglerar klipphöjden.",
+      "variant": "Murray 425015X92A enligt F-040734L (manual beskriver flera modeller)",
+      "locator": "OPERATION tryckt s.14, LIFT LEVER",
+      "sourceId": "murray-015a-operation-owners-manual",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-seatpresence",
+      "statement": "Förarnärvarosystemet har en brytare vid sitsen och stoppar motorn när föraren lämnar sitsen med inkopplade knivar eller transmission.",
+      "variant": "Murray 425015X92A enligt F-040734L (manual beskriver flera modeller)",
+      "locator": "OPERATION tryckt s.18, HOW TO START THE ENGINE, warning",
+      "sourceId": "murray-015a-operation-p18",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-start-interlock",
+      "statement": "Manualen anger att start kräver nedtryckt kopplings-/bromspedal eller åtdragen parkeringsbroms och urkopplad knivdrift.",
+      "variant": "Murray 425015X92A enligt F-040734L (manual beskriver flera modeller)",
+      "locator": "OPERATION tryckt s.18, HOW TO START THE ENGINE, note",
+      "sourceId": "murray-015a-operation-p18",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-oil-engine-manual",
+      "statement": "Manualen hänvisar uttryckligen till motortillverkarens instruktioner för rätt olje- och bränsletyp.",
+      "variant": "Murray 425015X92A enligt F-040734L (manual beskriver flera modeller)",
+      "locator": "OPERATION tryckt s.18, BEFORE STARTING THE ENGINE / CHECK THE OIL",
+      "sourceId": "murray-015a-operation-p18",
+      "grade": "B",
+      "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
