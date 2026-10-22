@@ -11,6 +11,13 @@
       "title": "Murray 425014X92B original illustrated repair-parts list mirrored by retailer",
       "document": "Murray 425014x92B Repair Parts, F-050706L, tryckta s.38–52",
       "url": "https://www.lawnmowerpros.com/pdfs/murray/F050706L_1.pdf"
+    },
+    {
+      "id": "murray-014b-mower-p47",
+      "tier": 2,
+      "title": "Murray 425014X92B instruction book mower housing replacement parts",
+      "document": "F-050706L, printed page 47, MOWER HOUSING",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=47"
     }
   ],
   "topics": {
@@ -52,7 +59,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "F-050706L sida 47 identifierar klippaggregatets drivrem 037x88, kniv 095100E701, spindelhus 1001200 och komplett enhet 7601032. De fyra numren förekommer även i 425015X92A:s katalog, men endast på respektive källbunden variantsnivå."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -190,6 +197,116 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-belt",
+      "statement": "Klippaggregatets drivrem listas som 037x88.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 3",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-blade",
+      "statement": "Klippkniven listas som 095100E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 37",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-mandrel",
+      "statement": "Knivspindelns hus listas som 1001200.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 34",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-blade-adapter",
+      "statement": "Knivadaptern listas som 690411.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 36",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-jackshaft-pulley",
+      "statement": "Mellandrevets remskiva listas som 094199.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 1",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-idler-pulley",
+      "statement": "Löprullen listas som 690387.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 4",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-link",
+      "statement": "Lyftstaget listas som 690212E701.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 8",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-wheel",
+      "statement": "Aggregatets stödhjul listas som 092683.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 53",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-complete",
+      "statement": "Komplett klippaggregatenhet för positionerna 1–61 anges som 7601032.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 1–61",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-mower-deflector",
+      "statement": "Utkastskyddets enhet listas som 094707SE.",
+      "variant": "425014X92B, F-050706L",
+      "locator": "MOWER HOUSING, tryckt sida 47, pos 44",
+      "sourceId": "murray-014b-mower-p47",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -198,6 +315,7 @@
     "Klippaggregat, kniv- och remnummer behöver granskas i detalj för varje version.",
     "Ingen dokumenterad generell passform mellan A, B och E; jämför endast partnummer vid samma assemblies och efter versionskontroll.",
     "Elektriska säkerhetssystem, reservdelarnas ersättningsnummer och underhållsintervall kvarstår.",
-    "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering."
+    "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
+    "Katalogernas lika rem- och knivnummer för 425014X92B och 425015X92A belägger gemensamma katalognummer, inte universell montering eller ersättningsrevisioner. Kontrollera aggregatets märkning."
   ]
 }
