@@ -81,6 +81,20 @@
       "title": "Hydro-Gear model-specific Service Schematic ZK-KHEE-3BDC-3DLX",
       "document": "71370 P72, individual three-page OEM parts list (reproduced at ManualsPlus)",
       "url": "https://manuals.plus/m/0fe0deec0f8ff51e4a67c5c5a07f29577c507daa75b2a6978ec32a2f30aa72ce.pdf"
+    },
+    {
+      "id": "hg-support-2026",
+      "tier": 1,
+      "title": "Hydro-Gear official product support and parts identification",
+      "document": "Hydro-Gear Support, manufacturer support and ordering policy",
+      "url": "https://www.hydro-gear.com/support/"
+    },
+    {
+      "id": "hg-bln52441-2015-archive",
+      "tier": 2,
+      "title": "Hydro-Gear BLN-52441 March 2015 archived manual transcription",
+      "document": "Service & Repair Manual BLN-52441, March 2015, 2015 edition hosted by Manualzz",
+      "url": "https://manualzz.com/doc/8487344/hydro-gear-zt-2800--zt-3100--zt-3200--zt-3400-zero-turn-t..."
     }
   ],
   "topics": {
@@ -3701,6 +3715,69 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "audit-hg-label-model-serial",
+      "statement": "Hydro-Gears officiella supportsida anger att både modellnummer och serienummer finns på produktetiketten och ska användas vid frågor om service och reparation.",
+      "variant": "Identifiering/revisionsjämförelse: Hydro-Gear ZT-familjen, notera särskild 2015-revision och exakt BOM",
+      "locator": "Model Identification avsnitt",
+      "sourceId": "hg-support-2026",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "audit-hg-current-parts-portal",
+      "statement": "Hydro-Gear anger att katalog för beställningsdelar, sprängskisser och bulletiner ligger i tillverkarens Dealer Portal. Gamla publika sprängskisser kan inte ensamma fastställa aktuella ersättningsnummer.",
+      "variant": "Identifiering/revisionsjämförelse: Hydro-Gear ZT-familjen, notera särskild 2015-revision och exakt BOM",
+      "locator": "Dealer Support och Dealer Portal avsnitt",
+      "sourceId": "hg-support-2026",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "audit-hg-distributor-outside-na",
+      "statement": "Hydro-Gear hänvisar kunder utanför Nordamerika till fabriksutbildade servicedistributörer för reservdelar och service; en svensk tillämpning bör därför söka aktuell OEM-ersättningsstatus via distributör.",
+      "variant": "Identifiering/revisionsjämförelse: Hydro-Gear ZT-familjen, notera särskild 2015-revision och exakt BOM",
+      "locator": "Servicing Dealers outside of North America",
+      "sourceId": "hg-support-2026",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "audit-hg-manual-scope-2015",
+      "statement": "En återpublicerad utgåva av BLN-52441 daterad mars 2015 omfattar uttryckligen ZT-2800, ZT-3100, ZT-3200 OCH ZT-3400. Familjeomfånget har alltså ändrats i senare utgåvor och 2015-data kan inte generaliseras till april 2023.",
+      "variant": "Identifiering/revisionsjämförelse: Hydro-Gear ZT-familjen, notera särskild 2015-revision och exakt BOM",
+      "locator": "Manualens omslag, innehållsförteckning och Foreword",
+      "sourceId": "hg-bln52441-2015-archive",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "audit-hg-manual-2015-spec-difference",
+      "statement": "2015-utgåvan anger pumpvolymen för ZT-2800/3100/3200 till 10 cc/varv men ZT-3400 till 12 cc/varv. ZT-3400-specifikationen får inte blandas in i 2023-registret för 2800/3100/3200.",
+      "variant": "Identifiering/revisionsjämförelse: Hydro-Gear ZT-familjen, notera särskild 2015-revision och exakt BOM",
+      "locator": "Description and Operation / General Description",
+      "sourceId": "hg-bln52441-2015-archive",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "audit-hg-2015-identification-label",
+      "statement": "Den äldre 2015-utgåvan illustrerar Hydro-Gears enhetsetikett med separat BOM Model Number, Sales Drawing Number, tillverkningsår, julianskt datum och löpande serienummer.",
+      "variant": "Identifiering/revisionsjämförelse: Hydro-Gear ZT-familjen, notera särskild 2015-revision och exakt BOM",
+      "locator": "Product Identification, figur 1",
+      "sourceId": "hg-bln52441-2015-archive",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "audit-hg-2015-pressurewasher",
+      "statement": "Tillverkarmanualens återpublicerade 2015-utgåva varnar uttryckligen för högtryckstvätt av transaxeln och för tvätt medan den är het.",
+      "variant": "Identifiering/revisionsjämförelse: Hydro-Gear ZT-familjen, notera särskild 2015-revision och exakt BOM",
+      "locator": "Description and Operation, Introduction",
+      "sourceId": "hg-bln52441-2015-archive",
+      "grade": "B",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -3739,6 +3816,8 @@
     "ZK-KHEE-3BDC-3DLX och ZJ-GMEB-5LDB-2DXX har båda P72 på schemat men skilda reservdelskombinationer; verifiera alltid full modellkod, inte endast P72 eller ZT-serie, före beställning.",
     "Service P25 sid 11 har internt motsägelsefullt åtdragningsvärde för övre portplugg: 120 in-lb motsvarar ca 13,56 Nm, men trycket anger 20,3 Nm. Använd inte angiven metrisk omräkning utan kontroll av nyare tillverkarrevision/servicebulletin.",
     "IET:s 1–2 psi är tillverkarens funktionsbeskrivning, inte verifierat fältprovsprocedur eller generellt tryckprovsvärde. Vid byte/demontering ska komplett modellkod och OEM-procedur kontrolleras.",
-    "Axelservice: ZT-3200 har axelrör pos165 och distans pos164 som saknas i figur 36 för ZT-2800/3100. Modell-/BOM-kontroll krävs innan en av procedurerna tillämpas."
+    "Axelservice: ZT-3200 har axelrör pos165 och distans pos164 som saknas i figur 36 för ZT-2800/3100. Modell-/BOM-kontroll krävs innan en av procedurerna tillämpas.",
+    "Källrevision: BLN-52441 mars 2015 omfattar ZT-3400; modern P25 avser ZT-2800/3100/3200. Jämför inte servicevärden mellan revisioner utan exakt modell och kod.",
+    "Aktuella supersessions kan inte styrkas i de publika BOM-PDF:erna. Hydro-Gear hänvisar till Dealer Portal (schematics/bulletins/order lookup) och auktoriserad distributör för beställningsbart nummer."
   ]
 }
