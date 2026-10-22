@@ -2887,6 +2887,69 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "kohler-recoil-mitt-grip-2531201",
+      "statement": "Kohler katalog 25 800 148 Rev. E listar 25 312 01-S som valfritt handgrepp (mitt grip) för snörstart; detta är ett grepp och inte en komplett startapparat.",
+      "variant": "Kohler recoil starter med kompatibelt mitt-grip-utförande",
+      "locator": "Starting, printed p.6, PDF index 5, RECOIL START KITS",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-recoil-assembly-mitt-1216504",
+      "statement": "Kohler katalog 25 800 148 Rev. E listar 12 165 04-S som komplett snörstartapparat utrustad med mitt grip-handgrepp; skilj från löst grepp 25 312 01-S.",
+      "variant": "Command snörstart med aktuellt kompatibelt startutförande",
+      "locator": "Starting, printed p.6, PDF index 5, RECOIL START KITS",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-exhaust-hardware-kit-1278617",
+      "statement": "Kohler katalog 25 800 148 Rev. E listar avgasfästsats 12 786 17-S för CH/CV11–16/460–493 och anger att satsen innehåller två muttrar och en packning; det fastställer inte vilken ljuddämpare installationen har.",
+      "variant": "CH/CV11–16/460–493, exhaust hardware kit; actual exhaust installation requires inspection",
+      "locator": "Exhaust, printed p.49, PDF index 48, HARDWARE KITS",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-cv11-15-ham-can-muffler-cored-head",
+      "statement": "Kohler katalog 25 800 148 Rev. E anger att avgasdämpare 12 068 35-S är den enda 'ham can'-typen användbar på CV11–15 med urkärnat cylinderhuvud, från serienummer 26289000001 och högre. Reservdelen är alltså knuten till utförande och serienummer.",
+      "variant": "CV11–15 med cored-out cylinder head, serial >=26289000001, ham-can muffler",
+      "locator": "Exhaust, printed p.38, PDF index 37, HAM CAN MUFFLERS note **",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-cv11-15-ham-can-mounting-kit",
+      "statement": "Kohler katalog 25 800 148 Rev. E listar 12 755 30-S som monteringssats med fästen, packning och beslag för CV11–15 ham-can ljuddämparutförande som visas i katalogen; inte en universell ljuddämparsats.",
+      "variant": "CV11–15, katalogens ham-can muffler installation",
+      "locator": "Exhaust, printed p.38, PDF index 37, CV Models mounting kit",
+      "sourceId": "kohler-accessories-25800148-reve",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-retail-airfilter-1288305s1",
+      "statement": "Kohlers Fast Moving Parts Guide listar butikspaket 12 883 05-S1 för Command CV11–CV16 med pappersfilter 12 083 05-S; etiketten 'Air Filter/Precleaner' kräver kontroll av faktisk förpackning och filterhus före beställning.",
+      "variant": "Command CV11–CV16, standardhöjdsfilter",
+      "locator": "Retail-Packaged Air Filter Kits, printed p.12, PDF index 11",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "kohler-retail-airfilter-1288310s1",
+      "statement": "Kohlers Fast Moving Parts Guide listar butikspaket 12 883 10-S1 för Command PRO CV11–CV16 och CV430–CV493 med pappersfilter 12 083 10-S; detta är inte samma filterhöjd som standardpaketet.",
+      "variant": "Command PRO CV11–CV16/CV430–CV493, higher filter housing",
+      "locator": "Retail-Packaged Air Filter Kits, printed p.12, PDF index 11",
+      "sourceId": "kohler-fast-moving-parts-guide",
+      "grade": "A",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -2935,6 +2998,7 @@
     "Elstartmoment från TP-2339-D är tillverkarspecifika (UTE/Johnson/Eaton, Nippondenso, Delco-Remy); identifiera faktisk startmotor före åtdragning.",
     "Forskningskorrigering: tidigare sammanfattat ändgap för två översta kolvringar ersatt med sex specifikationsbundna separata mätvärden från tabellen p.1.11–1.12.",
     "Källa TP-2339-D p.1.9 visar 38.958/30.970 mm för vevstakstappens nya diameter, vilket ser ut som tryckfel. Registrera inte nominellt nyvärde förrän oberoende Kohler-originalbekräftelse finns.",
-    "Kohler olje-/ljuddämparmoment och RTV-monteringssekvens är källbundna till TP-2339-D, utförande och aktuell filter-/dämparfästning; komplett bulletin 252 och modellbunden reservdelskatalog återstår."
+    "Kohler olje-/ljuddämparmoment och RTV-monteringssekvens är källbundna till TP-2339-D, utförande och aktuell filter-/dämparfästning; komplett bulletin 252 och modellbunden reservdelskatalog återstår.",
+    "Kohler reservdelsfynd kataloger 25 800 148 Rev. E och Fast Moving Parts: katalogfamilj och serienummergräns kan begränsa tillämplighet; bekräfta alltid Spec. No., monteringsutförande och eventuella ersättningsnummer i Kohler Parts Lookup före faktisk beställning."
   ]
 }
