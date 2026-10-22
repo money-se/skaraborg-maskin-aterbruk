@@ -2330,6 +2330,51 @@
       "sourceId": "husqvarna-rider16-workshop-2003-02",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch41-combi103-one-belt",
+      "statement": "Verkstadshandboken 2003-02 beskriver Combi 103 som enbart utförd med en intern tandrem för knivsynkronisering, med fjäderstyrd automatisk remspänning. Detta är en konstruktionsuppgift för handbokens version, inte generell identifiering av senare Combi 103-aggregatnummer.",
+      "variant": "Rider 16 OEM-manual 2002-04 eller verkstadshandbok 2003-02, ej tillämpad på specifikt senare aggregat-PNC",
+      "locator": "Tryckt s.53, PDF P54, text och figur 'BioClip 103 Version 1, Combi 103'",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch41-one-belt-spring-torque",
+      "statement": "För BioClip 103 version 1 och Combi 103 anger originalhandboken att tre skruvar lossas, remspänningen ställs automatiskt med fjäder och de tre skruvarna sedan dras med 45 Nm. Momentet avser dessa remjusteringsskruvar, inte generellt alla knivbultar.",
+      "variant": "Rider 16 OEM-manual 2002-04 eller verkstadshandbok 2003-02, ej tillämpad på specifikt senare aggregat-PNC",
+      "locator": "Tryckt s.53, PDF P54, under 'Version 1 and Combi 103', instruktion 4",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch41-bioclip103-v2-two-belts-order",
+      "statement": "BioClip 103 version 2 har enligt verkstadshandboken två tandremmar; vid montering ska den undre monteras före den övre, därefter justeras excentern och knivarna ställs 90° relativt varandra.",
+      "variant": "Rider 16 OEM-manual 2002-04 eller verkstadshandbok 2003-02, ej tillämpad på specifikt senare aggregat-PNC",
+      "locator": "Tryckt s.54, PDF P55, 'Version 2', steg 5",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch41-rider16-2002-deck-range",
+      "statement": "Rider 16-ägarmanualen från 2002-04 listar 97 cm sido- och bakutkast, BioClip 90 och 103 samt Combi 112 som aggregatalternativ; 2003-verkstadshandboken listar även Combi 103 och historiska BioClip 112. Aggregatutbud skiljer mellan dokumenten och får inte översättas till universell passform.",
+      "variant": "Rider 16 OEM-manual 2002-04 eller verkstadshandbok 2003-02, ej tillämpad på specifikt senare aggregat-PNC",
+      "locator": "Rider 16 OM 2002-04 tryckt s.14, PDF P14; Workshop 2003-02 tryckt s.16, PDF P17",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch41-rider16-bioclip-two-blades",
+      "statement": "Rider 16-ägarmanualen 2002-04 specificerar två knivar för 900 mm BioClip, men tre knivar för 103 cm- och Combi-aggregaten. Knivantal bör kontrolleras mot verkligt aggregat när modellnumret är oklart.",
+      "variant": "Rider 16 OEM-manual 2002-04 eller verkstadshandbok 2003-02, ej tillämpad på specifikt senare aggregat-PNC",
+      "locator": "Rider 16 OM 2002-04, Technical data, PDF P43: '2-blade hood BioClip 900 mm' kontra '3-blade hood'",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -2424,6 +2469,7 @@
     "BioClip 90: drivrem (mittremskiva till aggregat) och tandrem (mellan knivarna) ska modelleras som olika funktioner även när katalogen använder generell beteckning 'BELT'. Fastställ respektive position från exakta PNC.",
     "531008037→589531501 har fortfarande bara sekundärt stöd; undersök om Husqvarnas Genuine Parts-katalog uttryckligen anger 531008037 eller 506977301 för 589531501.",
     "Husqvarna workshop 2003-02 beskriver BioClip 90 som 'one belt' i knivsynkroniseringsavsnittet; separat drivrem finns i aggregatkonstruktionen. Håll alltid drivrem och tandrem åtskilda vid reservdelsval.",
-    "Tre återförsäljare stöder 589531501:s hänvisningar till 531007526 och 506977301, två även 531008037. Fortfarande saknas tillverkarpublicerad ersättningskedja som anger alla tre originalnumren."
+    "Tre återförsäljare stöder 589531501:s hänvisningar till 531007526 och 506977301, två även 531008037. Fortfarande saknas tillverkarpublicerad ersättningskedja som anger alla tre originalnumren.",
+    "Verkstadshandbokens Combi 103 med en intern tandrem (2003-02) kan inte på grundval av namnet likställas med senare PNC 965078401 eller 965078601, vilka har separata remposter och konstruktionsfamiljer. Fastställ aggregatets exakta versionsmärkning."
   ]
 }
