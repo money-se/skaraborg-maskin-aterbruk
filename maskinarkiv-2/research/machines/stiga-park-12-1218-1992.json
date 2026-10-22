@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1218-1992",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA Park 12 13-1218-15 [1992], endast modellbunden DIY Spare Parts-lista. Ingen STIGA-originalreservdelskatalog ännu direkt verifierad.",
+  "sources": [
+    {
+      "id": "diy-1218-1992",
+      "tier": 2,
+      "title": "DIY Spare Parts – STIGA Park 12 13-1218-15 (1992) Electrical System_0",
+      "document": "Model 13-1218-15 [1992], Electrical System_0",
+      "url": "https://www.diyspareparts.com/parts/stiga/diagrams/c70c81e2-d42a-4db8-964a/0bc3110a-6832-4ff6-a989"
+    },
+    {
+      "id": "partsharp-1992-index-1218",
+      "tier": 2,
+      "title": "Partsharp STIGA Park 12 version index",
+      "document": "Park 12 model/year diagram index",
+      "url": "https://www.partsharp.com/spare-parts/stiga/park-compact/85b0721e-422f-47ea-af78/f6901295-017e-4d23-83ea.aspx"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Enskilda reservdelspositioner har sekundärt belägg. Tillverkaroriginal, maskinens motor-ID, fullständigt drivsystem, klippaggregat, underhåll och säkerhetsfunktioner kvarstår att verifiera."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-1218-1992-index",
+      "topic": "A",
+      "statement": "Versionsindexet listar Park 12 13-1218-15 som 1992.",
+      "variant": "STIGA Park 12 13-1218-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "partsharp-1992-index-1218",
+      "locator": "Models > Park 12 13-1218-15 [1992]"
+    },
+    {
+      "id": "p12-1218-1992-harness",
+      "topic": "K",
+      "statement": "Elsystemets reservdelslista anger kabelhärva 1134-2040-01.",
+      "variant": "STIGA Park 12 13-1218-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1218-1992",
+      "locator": "Electrical System_0, position 16"
+    },
+    {
+      "id": "p12-1218-1992-fuse",
+      "topic": "G",
+      "statement": "Elsystemets lista anger säkring 9400-0102-00 benämnd 8 A, samt säkringshållare 9400-0103-00.",
+      "variant": "STIGA Park 12 13-1218-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1218-1992",
+      "locator": "Electrical System_0, positionerna 22–23"
+    },
+    {
+      "id": "p12-1218-1992-ignition",
+      "topic": "K",
+      "statement": "Elsystemets lista anger tändningslås 1134-1814-01 och nyckelsats 1134-2848-01.",
+      "variant": "STIGA Park 12 13-1218-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1218-1992",
+      "locator": "Electrical System_0, positionerna 8–9"
+    },
+    {
+      "id": "p12-1218-1992-solenoid",
+      "topic": "K",
+      "statement": "Elsystemets lista anger solenoid 118736112/0, men detta ger inte elkretsens funktion.",
+      "variant": "STIGA Park 12 13-1218-15 [1992], sekundärt katalogbelägg",
+      "grade": "B",
+      "sourceId": "diy-1218-1992",
+      "locator": "Electrical System_0, position 40"
+    }
+  ],
+  "gaps": [
+    "Lokalisera tillverkarsignerad STIGA IPL för exakt 1992-produktnummer.",
+    "Verifiera motor Model/Type/Code och motorhandbok från originalkälla.",
+    "Verifiera transaxelmodell och etikett mot original och individmärkning.",
+    "Kontrollera originalservice, säkerhetskretsar och ägarmanual.",
+    "Verifiera tillåtna klippaggregat och deras egna PNC, remmar och knivar."
+  ]
+}
