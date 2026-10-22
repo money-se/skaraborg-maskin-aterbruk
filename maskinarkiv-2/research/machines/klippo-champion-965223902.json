@@ -60,6 +60,20 @@
       "title": "ReservdelarOnline: underdel styrhandtag 5032843-01 cross-model fitment",
       "document": "Klippo 5032843-01; seller cross-reference table 2009–2016",
       "url": "https://www.reservdelaronline.se/produkter/underdel-styrhandtag-champion-excellent-5032843-01"
+    },
+    {
+      "id": "wolfswinkel-champion-2013-965223902",
+      "tier": 2,
+      "title": "Wolfswinkel Champion PNC 965223902 spare parts edition 2013-01",
+      "document": "KLIPPO Champion 965223902 – January 2013 model-specific frame, handle and engine subassemblies",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/push-mowers/champion/champion-965223902-2013-01"
+    },
+    {
+      "id": "retailer-champion-brake-cable-585402001",
+      "tier": 2,
+      "title": "ReservdelarOnline KLIPPO motorbromsvajer 5854020-01 passforms- och ersättningslista",
+      "document": "Reservdelsprodukt med Champion 2013-01, 2015-12, ersätter 5033134-01 och 1363",
+      "url": "https://www.reservdelaronline.se/produkter/motorbromsvajer-champion-triumph-pro-17-h-5854020-01"
     }
   ],
   "topics": {
@@ -485,6 +499,132 @@
       "sourceId": "retailer-handlebar-503284301-crossyear",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-bracket-7",
+      "statement": "Katalogerna för exakt samma Champion PNC 965223902 anger knivfäste på motorgruppens position 7 som 579228401 i 2012-06, men 502871902 i 2013-01. Det är en listad revisionsskillnad, inte bevis för att delarna är utbytbara.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012-06 Motor ref 7 / 2013-01 Engine ref 7; båda PNC 965223902",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-bolt-1",
+      "statement": "Motorgruppens ref 1 växlar i katalogerna från 725245951 (2012-06) till 725246151 (2013-01). Exakt infästningsdimension kräver OEM-ritning.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 Engine ref 1 och 2013 Engine ref 1",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-washer-2",
+      "statement": "Motorgruppens ref 2 växlar i katalogerna från 735216401 (2012-06) till 734116401 (2013-01); 6 st listas i båda.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 Engine ref 2 och 2013 Engine ref 2",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-fastener-4",
+      "statement": "Motorgruppens ref 4 listas som 731231801 i 2012-06 respektive 732211801 i 2013-01 (2 st). Beskrivningarna är otydliga, så funktion får inte antas.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 Engine ref 4 och 2013 Engine ref 4",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-key-6",
+      "statement": "Motorgruppens ref 6 omfattar kil 504460501 i 2012-06, men saknar motsvarande ref i 2013-01-textlistan. Frånvaro i en återförsäljarlista är inte bevis för att kilen tagits bort från maskinen.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 Engine ref 6; 2013 Engine section ref 5 följt av ref 7",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-stable-blade-10",
+      "statement": "Båda årsrevisionerna för Champion 965223902 listar kniv 502881310 som position 10 i motorgruppen. Det bekräftar katalogöverensstämmelse men inte universell passform utanför dessa två listor.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 och 2013 Engine ref 10",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-stable-bracket-8",
+      "statement": "Båda årsrevisionerna listar 503259901 på position 8 i motorgruppen, samtidigt som position 7 ändras. Referens 7 och 8 är skilda katalogposter; deras inbördes monteringsfunktion behöver originaldiagram.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 och 2013 Engine ref 7-8",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-stable-fiber-9",
+      "statement": "Båda årsrevisionerna anger fiberbricka 503259401 i motorgruppen på position 9.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 och 2013 Engine ref 9",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-stable-disc-12",
+      "statement": "Båda årsrevisionerna listar bricka/skiva 503332501 på motorgruppens position 12.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 och 2013 Engine ref 12",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-stable-screw-13",
+      "statement": "Båda årsrevisionerna listar skruv 504456402 på motorgruppens position 13.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 och 2013 Engine ref 13",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "ch-rev-engine-same-motor-label-3",
+      "statement": "Båda katalogerna beskriver motorn på position 3 som B&S 625E-serien med tillverkarkod 122T02-5045-H2 och intern text 'TBD'; ingen motorskiftesuppgift kan härledas mellan dessa två revisionslistor.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 och 2013 Engine ref 3, text B&S 625E Series / No 122T02-5045-H2",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "C"
+    },
+    {
+      "id": "ch-rev-chassis-tail-29",
+      "statement": "Chassi-/ramlistan slutar på artikel 520290503 för 2012-06 men på 579733901 för 2013-01. Eftersom den synliga listans sista produkt inte nödvändigtvis har samma figurnummer eller funktion ska skillnaden bara registreras som ett verifieringsspår.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "2012 Chassis/frame samlingsrad slutar 520290503; 2013 Chassis/frame slutar 579733901",
+      "sourceId": "wolfswinkel-champion-2013-965223902",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "ch-2013-brake-cable-successor",
+      "statement": "ReservdelarOnline anger motorbromsvajer 5854020-01 för Champion 965223902 katalogversion 2013-01, med vajerlängder 1145/1000 mm och Z-infästning i båda ändar. Uppger att delen ersätter 5033134-01 och äldre kod 1363; detta är säljarens passforms- och ersättningsuppgift.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "ReservdelarOnline Produktinformation, modellrad 965223902 2013-01, Ersätter äldre artikelnummer",
+      "sourceId": "retailer-champion-brake-cable-585402001",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "ch-2015-brake-cable-successor",
+      "statement": "ReservdelarOnline listar samma motorbromsvajer 5854020-01 för Champion 967607501 katalogversion 2015-12. Detta får inte extrapoleras till alla Champion-motorer utan originalkontroll.",
+      "variant": "KLIPPO Champion PNC 965223902 2012-06 vs 2013-01 (alternativt PNC 967607501 2015-12 i vajerpåståendet)",
+      "locator": "ReservdelarOnline Produktinformation, modellrad 967607501 2015-12",
+      "sourceId": "retailer-champion-brake-cable-585402001",
+      "grade": "B",
+      "topic": "G"
     }
   ],
   "gaps": [
@@ -497,6 +637,7 @@
     "Läs original-IPL:s PDF-sida 2 visuellt för exakt positionsnummer till kniv och knivfäste; sidans textfont är felläst vid maskinell extraktion och PDF-skärmbild misslyckades.",
     "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
     "Champion 965223902 2012-06 visar två separata knivfästespositioner 7 och 8 (579228401 respektive 503259901) samt motorangivelse med katalogtext TBD; utred om det är alternativ/reservdelsrevisioner, inte två obligatoriska fästen.",
-    "Kontrollera om 5032843-01 behåller samma dimensioner och fästhål för samtliga angivna Champion-årgångar; återförsäljarens passformslista är inte original-IPL."
+    "Kontrollera om 5032843-01 behåller samma dimensioner och fästhål för samtliga angivna Champion-årgångar; återförsäljarens passformslista är inte original-IPL.",
+    "Klippo Champion PNC 965223902 2012-06 och 2013-01 har fyra olika motorgruppsdelnummer (ref 1,2,4,7); kontrollera ursprungliga IPL-bilder och komponentfunktion innan byte. 2013 års motorgrupp saknar kil-ref 6 i återförsäljarens lista; dra ingen slutsats om fysisk frånvaro."
   ]
 }
