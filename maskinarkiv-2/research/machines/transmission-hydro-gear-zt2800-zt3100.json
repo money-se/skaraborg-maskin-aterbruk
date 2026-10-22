@@ -1475,6 +1475,186 @@
       "sourceId": "hg-schematic-71370-p64-2020",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-g-right",
+      "statement": "For char3 G/H/J/N and char9=0/T, char10=C gives left control arm 71635 and char10=G gives left control arm 71637; neither is the RTN kit.",
+      "variant": "char3 G/H/J/N; char9 0/T; char10 C or G",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-h-right",
+      "statement": "For char3 G/H/J/N and char9=5/R, char10=B gives right control arm 71634 and char10=F gives 71636.",
+      "variant": "char3 G/H/J/N; char9 5/R; char10 B or F",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-k-left",
+      "statement": "For char3 K/L/M/P and char9=5/R, char10=C gives left control arm 71635 and char10=G gives left arm 71637.",
+      "variant": "char3 K/L/M/P; char9 5/R; char10 C or G",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-k-right",
+      "statement": "For char3 K/L/M/P and char9=0/T, char10=B gives right control arm 71634 and char10=F gives right arm 71636.",
+      "variant": "char3 K/L/M/P; char9 0/T; char10 B or F",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-arm-no-direction",
+      "statement": "For char3 G/H/J/N or K/L/M/P with appropriate char9=0/T or 5/R and char10=A, control arm part 71633; char10=H gives 72370. These are separate parts from 71634–71637.",
+      "variant": "char3 and char9 aligned to relevant P64 row; char10 A/H",
+      "locator": "PDF p.2, RTN ASSEMBLY & CONTROL ARM",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-rtn-extra-73273-73272",
+      "statement": "P64 lists RTN kit 73273 (clockwise) for char3 G, char9 Y, char10 F; and RTN kit 73272 (counter-clockwise) for char3 K, char9 Y, char10 G.",
+      "variant": "char3 G/char9 Y/char10 F or char3 K/char9 Y/char10 G",
+      "locator": "PDF p.2, last two RTN ASSEMBLY & CONTROL ARM rows",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-rtn-kit-contents",
+      "statement": "P64's RTN kits 71588–71600 and special kits 73272/73273 specify included drawing items 44,46,145,146; spring item147 is separately identified in SPRING table and should not be assumed included.",
+      "variant": "P64 RTN kits and spring table",
+      "locator": "PDF p.2, RTN table CONTAINS ITEMS and SPRING table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-friction-stud",
+      "statement": "For char9 0/5/N/P/R/T and char10 A/H, P64 lists short stud item42 part 50426, friction puck item43 part 52298 and patch screw item46 part 51812.",
+      "variant": "char9 0,5,N,P,R,T; char10 A,H",
+      "locator": "PDF p.2, CONTROL TYPE first group",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-friction-spacer",
+      "statement": "For char9 0/5/N/P/R/T and char10 B/C/F/G, P64 lists item42 50426, item46 51812 and spacer item48 51846; the friction puck of the A/H group is not listed.",
+      "variant": "char9 0,5,N,P,R,T; char10 B,C,F,G",
+      "locator": "PDF p.2, CONTROL TYPE second group",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-control-stud-y",
+      "statement": "For char9 Y with char10 B/C/F/G, P64 lists washer item45 44130, stud item46 55700, spacer item140 54315 and screw item142 51616.",
+      "variant": "char9 Y, char10 B/C/F/G",
+      "locator": "PDF p.2, CONTROL TYPE last group",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-shaft-motor-52150",
+      "statement": "P64 lists motor shaft item73 part 52150 for char7 3/5/6/7/8/9/D/E/S/T/U/W, distinct from shaft 53136 for 4/K and 54325 for A/B.",
+      "variant": "char7 per listed conditions",
+      "locator": "PDF p.3, MOTOR SHAFT table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-motor-shaft-53136-54325",
+      "statement": "P64 motor-shaft table lists part 53136 for char7 4/K and part 54325 for char7 A/B (both drawing item73).",
+      "variant": "char7 4/K or A/B",
+      "locator": "PDF p.3, MOTOR SHAFT table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-reduction-side-cover-1-2",
+      "statement": "P64 side-cover table lists kit 71541/71543 for char7 1/2 + char2 H/K, selected by char3 RH group G/H/J/N or LH group K/L/M/P; char2 J/L/M uses 71542/71544.",
+      "variant": "char7 1/2; char2 H/K or J/L/M; char3 RH/LH",
+      "locator": "PDF p.3, SIDE COVER AND GEAR table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-reduction-gear-steel-11t",
+      "statement": "P64 distinguishes reduction assembly item82 gear 52583 (11 teeth) for char2 H/K, versus gear 52586 (11 teeth, steel) for char2 J/L/M when char7 lies in the listed non-1/2 set.",
+      "variant": "char2 H/K or J/L/M; char7 3,4,5,6,7,8,9,A,B,D,E,K,S,T,U,W",
+      "locator": "PDF p.3, SIDE COVER AND GEAR lower rows",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-common-thrust-components",
+      "statement": "P64 common parts list identifies thrust bearing item60 part 51462, thrust ball bearing item65 part 50551, pump cylinder block assembly item69 part 70723 and retaining ring item71 part 44145.",
+      "variant": "P64 common parts",
+      "locator": "PDF p.3, COMMON PARTS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-wheel-hub-4bolt-more",
+      "statement": "P64 hub kit table includes four-bolt hub kit 71445 for char4 L/N and 71446 for char4 M/P/T/W; axle cap item158 53501 is paired with these rows.",
+      "variant": "char4 L/N or M/P/T/W",
+      "locator": "PDF p.5, HUB KITS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-hub-puller-tool",
+      "statement": "The P64 schematic lists universal hub puller, item209 part 72320, as a service tool rather than part of the assembled transmission.",
+      "variant": "char4 listed in HUB PULLER table",
+      "locator": "PDF p.5, HUB PULLER table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-axle-bearing-common",
+      "statement": "P64 common axle parts list specifies inner retaining ring item90 50859, ball bearing item95 53656 and axle lip seal item96 53699. Fit remains subject to revision.",
+      "variant": "P64 COMMON PARTS, transaxle axle assembly",
+      "locator": "PDF p.5, COMMON PARTS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-bull-gear-cap-distinction",
+      "statement": "In P64 hub kits, axle cap part 53088 (item156) differs from part 53501 (item158); position and code row must be matched to avoid substituting the wrong cap.",
+      "variant": "char4 B/G,C/H/S/Y,E/K/R/U vs L/N,M/P/T/W",
+      "locator": "PDF p.5, HUB KITS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p64-common-fasteners-extra",
+      "statement": "P64 COMMON PARTS lists center section screw item27 part 52137, thrust washer item70 part 44371, washers item74 part 51069 and item80 part 50132.",
+      "variant": "P64 common parts",
+      "locator": "PDF p.3, COMMON PARTS table",
+      "sourceId": "hg-schematic-71370-p64-2020",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1504,6 +1684,7 @@
     "Verifiera om originalschemat 71370 P64 (2020-12-29) är tillämpligt på aktuell transaxel med modellkod och serienummer och om Hydro-Gear har senare ersättningsnummer för 52149/52148/52344/52109/52110/52341/52342/52343, innan reservdel rekommenderas.",
     "För mittsektionssats pos.201 måste samtliga char 3/5/6/7 och källrevision kontrolleras mot etikett; artikel 71561–71564 är uttryckliga P64-rader, inte generell passform.",
     "Kontrollera schemarevision efter P64 samt komplett 14-teckens Hydro-Gear-modellkod/serienummer före beställning av axelsats 71569/71570, navsats eller RTN-sats.",
-    "Större P64-paket sidbildsverifierat 2026-10-22; samtliga artikelnummer gäller 71370 P64 2020-12-29. Senare ersättningsnummer och faktisk kund-BOM/serienummer återstår. Ingen generell kompatibilitet får utlovas."
+    "Större P64-paket sidbildsverifierat 2026-10-22; samtliga artikelnummer gäller 71370 P64 2020-12-29. Senare ersättningsnummer och faktisk kund-BOM/serienummer återstår. Ingen generell kompatibilitet får utlovas.",
+    "P64 supports precise BOM-code lookup for additional control arms, RTN kits, axle/hub variants, shaft gears and tools; confirm replacement supersessions and exact serial number before a purchase recommendation."
   ]
 }
