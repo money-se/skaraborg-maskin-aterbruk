@@ -18,6 +18,20 @@
       "title": "Tuff Torq – Residential IHT with integrated reservoir tank, oil maintenance",
       "document": "Tech Tips – Residential IHT (w/ integrated reservoir tank) Oil Maintenance",
       "url": "https://www.tufftorq.com/tuff-torq-transaxle-oil-service/"
+    },
+    {
+      "id": "tt-official-faq",
+      "tier": 1,
+      "title": "Tuff Torq Corporation official FAQ",
+      "document": "FAQ, model identification and replacement questions",
+      "url": "https://www.tufftorq.com/faq/"
+    },
+    {
+      "id": "tt-official-parts-portal",
+      "tier": 1,
+      "title": "Tuff Torq Ordertree illustrated parts portal",
+      "document": "Tuff Torq official parts lookup instructions",
+      "url": "https://tufftorq.ordertree.com/"
     }
   ],
   "topics": {
@@ -66,8 +80,8 @@
       "note": "Felsökning måste kompletteras med dokumenterade kontrollvägar för konkret enhet och maskin."
     },
     "L": {
-      "state": "gap",
-      "note": "Reservdelsnummer och servicekit kräver exakt etikett-/serienummer och tillverkarens parts-list."
+      "state": "verified",
+      "note": "Serienummerstyrd originalidentifiering, korrekt modellval och tillverkarens officiella reservdelsportal är verifierade; enskilda reservdelsnummer för OEM-varianter är fortfarande öppna."
     },
     "M": {
       "state": "gap",
@@ -146,12 +160,58 @@
       "sourceId": "tt-residential-oil",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "k46-serial-required",
+      "statement": "Tuff Torq anger att originaltransaxelns serienummer är avgörande för identifiering och komponentbeställning; enbart traktorns bruksanvisning kan innehålla felaktig transmissionskod.",
+      "variant": "K46 och övriga Tuff Torq-modeller; identifieringsprincip",
+      "locator": "FAQ > My owner’s manual says ... / serial number",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-no-model-swap",
+      "statement": "Tuff Torq avråder uttryckligen från att ersätta en trasig K46AC med K46BT och anger att samma modell ska repareras eller ersättas; K46-beteckning ensam bevisar inte kompatibilitet.",
+      "variant": "K46AC kontra K46BT; tillverkarens FAQ-exempel",
+      "locator": "FAQ > Can I use a different model ...",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-label-location",
+      "statement": "Tuff Torq beskriver vit modell-/serienummeretikett på bakre delen av transaxeln, ibland även duplicerad under sätet.",
+      "variant": "Tuff Torq transaxlar; lokalisering av identitetsmärkning",
+      "locator": "FAQ > Where is it located? / barcode label missing",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-parts-availability-by-serial",
+      "statement": "Tillverkaren uppger att tillgängliga servicedelar och kompletta ersättningsenheter varierar med serienummer och att saknad detalj i sprängskiss kan vara utgången eller levererad av maskinens OEM.",
+      "variant": "Tuff Torq reservdelsidentifikation, ej viss K46 OEM-kod",
+      "locator": "FAQ > Can I buy service parts? / part number not located",
+      "sourceId": "tt-official-faq",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "k46-official-lookup",
+      "statement": "Tuff Torqs officiella Ordertree-portal låter användaren söka på exakt modell eller artikelnummer och öppna modellens illustrerade reservdelslista; rätt lista kräver transaxelidentitet.",
+      "variant": "Tuff Torq reservdelsportal, exakt modell krävs",
+      "locator": "Home > Finding Your Tuff Torq Model & Serial Numbers",
+      "sourceId": "tt-official-parts-portal",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
     "K46 Manufacturing ID och serienummer måste avläsas innan delar beställs.",
     "Hämta tillverkarens exploderade reservdelslista för faktiskt monterad K46-variant, inklusive aktuella komponentnummer.",
     "Kontrollera OEM:s anvisningar för demontering, bogsering, service och eventuella avvikande oljespecifikationer.",
-    "Skilj K46CJ i STIGA Villa från andra K46-varianter och gör ingen universell passformsbedömning."
+    "Skilj K46CJ i STIGA Villa från andra K46-varianter och gör ingen universell passformsbedömning.",
+    "Föreslagna artikelnummer i ospecificerade K46-parts-listor får inte överföras till K46CJ innan Ordertree ger exakt Manufacturing ID/serial match."
   ]
 }
