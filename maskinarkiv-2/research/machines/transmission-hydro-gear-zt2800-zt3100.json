@@ -3566,6 +3566,141 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-axle-z2800-ring90",
+      "statement": "ZT-2800/3100: axeldemontering inleds med låsring position 90 efter föregående isärtagning.",
+      "variant": "ZT-2800/3100",
+      "locator": "Tryckt s.39, figur 36, steg 1–2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z2800-discard-seal96",
+      "statement": "ZT-2800/3100: läpptätning position 96 demonteras och kasseras; den får inte återanvändas vid återmontering.",
+      "variant": "ZT-2800/3100",
+      "locator": "Tryckt s.39, figur 36, steg 3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z2800-bearing95-conditional",
+      "statement": "ZT-2800/3100: lager 95 avlägsnas från axel 94 endast om det är slitet eller skadat.",
+      "variant": "ZT-2800/3100",
+      "locator": "Tryckt s.39, figur 36, NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z2800-splines-inspection",
+      "statement": "ZT-2800/3100: axel 94 och dess splines samt lager 95 inspekteras efter slitage/skador och defekta komponenter ersätts.",
+      "variant": "ZT-2800/3100",
+      "locator": "Tryckt s.39, figur 36, Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z2800-protect-seal-install",
+      "statement": "ZT-2800/3100: skydda ny läpptätning 96 från splines, skarpa hörn och kilspår vid montering, exempelvis med skyddstejp över riskytorna.",
+      "variant": "ZT-2800/3100",
+      "locator": "Tryckt s.39, figur 36, Assembly NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z3200-extra-tube165",
+      "statement": "ZT-3200 har en särskild axeldemontering: axelrör 165 avlägsnas före låsring 90, till skillnad från den kortare proceduren för ZT-2800/3100.",
+      "variant": "ZT-3200",
+      "locator": "Tryckt s.40, figur 37, steg 1–3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z3200-spacer164",
+      "statement": "ZT-3200: distansbricka 164 avlägsnas efter att läpptätning 96 har kasserats och innan drivaxel 94 dras ut.",
+      "variant": "ZT-3200",
+      "locator": "Tryckt s.40, figur 37, steg 4–6",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z3200-bearing-conditional",
+      "statement": "ZT-3200: lager 95 demonteras från drivaxeln bara om det har konstaterat slitage eller skada; splines och lager ska inspekteras.",
+      "variant": "ZT-3200",
+      "locator": "Tryckt s.40, figur 37, NOTE och Inspection",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-axle-z3200-new-seal",
+      "statement": "ZT-3200: läpptätning 96 kasseras vid demontering och ska skyddas mot splines, kilspår och skarpa hörn vid återmontering.",
+      "variant": "ZT-3200",
+      "locator": "Tryckt s.40, figur 37, steg 4 och Assembly NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-assembly-order-axle-hydraulic",
+      "statement": "Efter fullständig demontering anger manualen återmonteringsordningen drivaxel först, hydrauliska komponenter därefter och sedan bypassstång/-arm.",
+      "variant": "ZT-2800/3100/3200, full tear-down",
+      "locator": "Tryckt s.41, ASSEMBLY AFTER A COMPLETE TEAR DOWN, steg 1–3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-assembly-order-input-charge-gears",
+      "statement": "Efter axel/hydraulik/bypass monteras ingående axel, laddpump där den finns, samt reduktions-, pinjong- och slutkugghjul före sidokåpan.",
+      "variant": "ZT-2800/3100/3200, charge pump variant conditional",
+      "locator": "Tryckt s.41, steg 4–7",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-assembly-old-sealant-remove",
+      "statement": "Allt gammalt tätningsmedel måste avlägsnas från tätningsytorna innan nytt appliceras vid fullständig återmontering.",
+      "variant": "ZT-2800/3100/3200, side-cover seal",
+      "locator": "Tryckt s.41, NOTE till steg 7",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-assembly-sealant-bead-size",
+      "statement": "En liten jämn tätningssträng, cirka 1/16 till 1/8 tum, anges för husets tätningsyta; följ figur 38 för även mittsektionens tätningsbana och använd medlet sparsamt.",
+      "variant": "ZT-2800/3100/3200, figurstyrd tätning",
+      "locator": "Tryckt s.41, figur 38, steg 7 NOTE",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-assembly-final-rtn-filter-purge",
+      "statement": "Efter tätning och kåpmontering: RTN-enheten monteras, transmissionen återinstalleras i fordonet, nytt oljefilter och olja fylls enligt respektive instruktion och avluftning utförs sist.",
+      "variant": "ZT-2800/3100/3200, full tear-down",
+      "locator": "Tryckt s.41, steg 8–11",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-cover-torque-all-sixteen",
+      "statement": "Sidokåpan har 16 numrerade skruvpositioner enligt figur 39; de ska dras i ordning 1–16 med 105–155 lb-in (11,87–17,52 Nm). Manualen rekommenderar normalt nedre delen av intervallet.",
+      "variant": "ZT-2800/3100/3200, side-cover screw sequence",
+      "locator": "Tryckt s.42, figur 39, sekvens och moment",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -3603,6 +3738,7 @@
     "P72:s första två BOM-rader saknar direkt artikelnummer för komplett ersättningsenhet och hänvisar till distributör. Kräv fysisk skylt med modell och serienummer samt distributionsverifierat aktuellt artikelnummer innan köp.",
     "ZK-KHEE-3BDC-3DLX och ZJ-GMEB-5LDB-2DXX har båda P72 på schemat men skilda reservdelskombinationer; verifiera alltid full modellkod, inte endast P72 eller ZT-serie, före beställning.",
     "Service P25 sid 11 har internt motsägelsefullt åtdragningsvärde för övre portplugg: 120 in-lb motsvarar ca 13,56 Nm, men trycket anger 20,3 Nm. Använd inte angiven metrisk omräkning utan kontroll av nyare tillverkarrevision/servicebulletin.",
-    "IET:s 1–2 psi är tillverkarens funktionsbeskrivning, inte verifierat fältprovsprocedur eller generellt tryckprovsvärde. Vid byte/demontering ska komplett modellkod och OEM-procedur kontrolleras."
+    "IET:s 1–2 psi är tillverkarens funktionsbeskrivning, inte verifierat fältprovsprocedur eller generellt tryckprovsvärde. Vid byte/demontering ska komplett modellkod och OEM-procedur kontrolleras.",
+    "Axelservice: ZT-3200 har axelrör pos165 och distans pos164 som saknas i figur 36 för ZT-2800/3100. Modell-/BOM-kontroll krävs innan en av procedurerna tillämpas."
   ]
 }
