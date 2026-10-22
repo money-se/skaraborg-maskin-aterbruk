@@ -1,0 +1,35 @@
+{% if chapter.id == "versioner" %}
+<h3>Motorerna i reservdelskatalogerna</h3>
+<p>STIGA:s kataloger visar två motorgrupper för Villa 12 HST. Tabellen hjälper dig att välja rätt utgångspunkt när du letar efter servicedelar.</p>
+<table class="service"><thead><tr><th>Maskinversion</th><th>Dokumenterad motorgrupp</th><th>Vilken märkning behövs?</th></tr></thead><tbody>
+<tr><td>13-2727-13 (2009)</td><td>GGP WM 12,5, enligt STIGA:s modellöversikt</td><td>Kontrollera motorns egen beteckning före reservdelsbeställning.</td></tr>
+<tr><td>13-2727-14 (2010)</td><td>GGP WM 12,5 i 2010 års katalog</td><td>Jämför motorns märkning och reservdelsritning.</td></tr>
+<tr><td>13-2729-14 (2010)</td><td>Briggs &amp; Stratton i katalogens 2729-grupp</td><td>Läs av Briggs Model, Type och Code.</td></tr>
+<tr><td>13-2729-15 (2011–2012)</td><td>Briggs &amp; Stratton enligt STIGA:s originalkatalog</td><td>Läs av Briggs Model, Type och Code.</td></tr>
+<tr><td>13-2729-35 (FR, 2011–2012)</td><td>Briggs &amp; Stratton enligt STIGA:s originalkatalog</td><td>Läs av Briggs Model, Type och Code.</td></tr>
+</tbody></table>
+{# Research claim-ID: manufacturer-2009-wm125, stiga-2010-ggp2727, stiga-2010-bs2729, bs-2011-normal-fr, manufacturer-fr-2011, briggs-type-code-rule #}
+<p><strong>Exempel:</strong> Om du har en 13-2729-15 och behöver ett luftfilter, börjar du med Briggs-numren på motorn. Behöver du i stället en styrningsdel börjar du med maskinens 13-nummer.</p>
+{% elif chapter.id == "underhall" %}
+<h3>Vilken manual använder jag till vad?</h3>
+<table class="service"><thead><tr><th>Arbete</th><th>Välj dokument</th><th>Kontrollera först</th></tr></thead><tbody>
+<tr><td>Kontroll av reglage och säkerhetssystem</td><td>STIGA Villa 12 HST, 8211-0038-90</td><td>Maskinens produktnummer och reglageutförande</td></tr>
+<tr><td>Motorolja, tändstift eller luftfilter</td><td>Handbok för den monterade motorn</td><td>Motorfabrikat och fullständig motormärkning</td></tr>
+<tr><td>Hydrostat och transmissionsolja</td><td>Tuff Torqs dokument för den identifierade transaxeln samt maskintillverkarens anvisning</td><td>Transaxelns etikett</td></tr>
+<tr><td>Knivar, brytdelar och aggregatremmar</td><td>Manual och reservdelskatalog för klippaggregatet</td><td>Aggregatets produktnummer</td></tr>
+<tr><td>Styrwire, chassi och drivrem</td><td>STIGA:s reservdelskatalog för basmaskinen</td><td>Maskinens produktnummer</td></tr>
+</tbody></table>
+{# Research claim-ID: manual-identity, briggs-lookup-needs-tag, k46-tufftorq-id-serial, 85combi-2011-no-fit-assumption, stiga-2010-drivebelt #}
+<p>Med rätt dokument blir serviceuppgifterna lättare att följa. Du slipper också blanda ihop exempelvis motoroljans bytesintervall med hydrostatens olja eller aggregatets remmar.</p>
+{% elif chapter.id == "sakerhet" %}
+<h3>Felsökning: vilken information behöver verkstaden?</h3>
+<p>En bra felbeskrivning sparar onödiga gissningar. Anteckna <strong>vad som händer</strong>, <strong>när det händer</strong> och <strong>vilket delsystem som berörs</strong>.</p>
+<table class="service"><thead><tr><th>Symtom</th><th>Skriv gärna ned</th></tr></thead><tbody>
+<tr><td>Startmotorn är tyst</td><td>Står PTO i frånläge och bromsen enligt manualens startvillkor? Uppstår felet varje gång?</td></tr>
+<tr><td>Motorn dras runt men startar inte</td><td>Motorns Model/Type/Code och om problemet finns både kall och varm.</td></tr>
+<tr><td>Maskinen driver svagt</td><td>Framåt eller bakåt? Kall eller varm? Fungerar frikopplingsreglaget normalt?</td></tr>
+<tr><td>Knivarna stannar eller klipper ojämnt</td><td>Aggregatets produktnummer och om problemet kom efter en kollision eller ett rembyte.</td></tr>
+</tbody></table>
+{# Research claim-ID: faq-no-start-pto-brake-conditions, controls-hydro-pedal-original-manual, controls-pto-bypass-original-manual, 85combi-2011-no-fit-assumption #}
+<p>Undersök aldrig remmar eller knivar med motorn igång. Stäng av motorn, ta ur nyckeln och vänta tills allt har stannat innan någon fysisk kontroll görs.</p>
+{% endif %}
