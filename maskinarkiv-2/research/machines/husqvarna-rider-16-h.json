@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "slug": "husqvarna-rider-16-h",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Separat Husqvarna Rider 16 H 2000-02-register. Rider 16 H får inte likställas med Rider 16. Originalkatalogens text har granskats men figurerna kunde inte visas; PNC och serienummer är ännu okända.",
+  "sources": [
+    {
+      "id": "husqvarna-rider16h-2000-02-ipl",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 H official illustrated parts list, 2000-02",
+      "document": "SPARE PARTS LIST RIDERS RIDER 16 H, 2000-02 (41-page original catalog, third-party archive)",
+      "url": "https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-rider16h.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Rider 16 H 2000-02 har ännu inte källgranskats fullständigt inom detta område och kräver PNC, ritnings- och manualkontroll."
+    }
+  },
+  "claims": [
+    {
+      "id": "r16h-2000-identity",
+      "statement": "Originalreservdelskatalogen anger separat modell RIDER 16 H, utgåva 2000-02. Det är inte samma katalog som Rider 16 utan H.",
+      "variant": "Rider 16 H, katalog 2000-02; produktnummer ej identifierat",
+      "locator": "PDF-sida 1 (P0), omslag",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "r16h-2000-k55",
+      "statement": "Transmissionsgruppen listar TRANSMISSION K55 med Husqvarna-artikelnummer 506 95 36-01, och märker kringkomponenterna som K55. Denna identifiering får inte överföras till vanlig Rider 16.",
+      "variant": "Rider 16 H IPL 2000-02",
+      "locator": "PDF-sida 11 (P10), TRANSMISSION, 506 95 36-01",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "r16h-2000-trans-control",
+      "statement": "Samma Rider 16 H-grupp listar styrspindel K55 506 95 34-01, K55-hydrostatkonsol 506 95 35-01 och kontrollarm 506 95 37-01.",
+      "variant": "Rider 16 H IPL 2000-02",
+      "locator": "PDF-sida 11 (P10), TRANSMISSION",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "r16h-2000-engine-assembly",
+      "statement": "Originalreservdelslistan för Rider 16 H 2000-02 har motorenhet 506 95 91-01; detta är maskinens reservdelsnummer, inte bekräftat Briggs Model/Type/Code.",
+      "variant": "Rider 16 H IPL 2000-02",
+      "locator": "PDF-sida 7 (P6), ENGINE, 506 95 91-01",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "r16h-2000-bioclip90",
+      "statement": "Rider 16 H-katalogen innehåller separat sprängskiss för 90CM CUTTING DECK märkt BioClip 90; reservdelskatalogens närvaro bekräftar inte montagepassform på andra Rider-modeller.",
+      "variant": "Rider 16 H IPL 2000-02",
+      "locator": "PDF-sida för 90CM CUTTING DECK, rubrik BioClip 90; figurposition ej visuellt kontrollerad",
+      "sourceId": "husqvarna-rider16h-2000-02-ipl",
+      "grade": "A",
+      "topic": "H"
+    }
+  ],
+  "gaps": [
+    "Fastställ Rider 16 H produktnummer och serieintervall separat från Rider 16.",
+    "Visuellt granska alla transmissionsritningar och klippaggregatskisser, eftersom PDF-skärmbild gav cachefel.",
+    "Identifiera komponentens fullständiga K55-undervariant och aktuell ersättningskedja före råd om reservdelspassform.",
+    "Kontrollera Rider 16 H:s egen bruksanvisning för serviceintervall och tekniska data.",
+    "Undvik att överföra 16 H-uppgifter om K55 till 16-modeller med K46."
+  ]
+}
