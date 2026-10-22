@@ -81,6 +81,13 @@
       "title": "Briggs & Stratton – How can I find part numbers for engine replacement parts?",
       "document": "Manufacturer support FAQ updated 2026-01-13",
       "url": "https://www.briggsandstratton.com/en-us/support/faqs/find-part-number"
+    },
+    {
+      "id": "briggs-numerical-designation-system-2006",
+      "tier": 1,
+      "title": "Briggs & Stratton – Numerical Designation System",
+      "document": "Your Key to the World's Finest Engines, revised 2/06, PDF page 1",
+      "url": "https://www.briggsandstratton.com/hubfs/Briggs%20and%20Stratton/EMEA/FAQs/pdfs/Numerical_Designation_System.pdf"
     }
   ],
   "topics": {
@@ -353,6 +360,24 @@
       "sourceId": "briggs-ipl-reference-2026",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "rider13c-briggs-type-code-meaning",
+      "statement": "Briggs originalkodnyckel (revision 2/06) anger att Type identifierar motorns mekaniska utförande, OEM, färg/dekaler och styrt varvtal, medan Code innehåller tillverkningsdatum och produktionsidentifiering. Detta är en allmän identifikationsregel som gäller vid framtida kontroll av Rider 13C:s faktiska motormärkning; den fastställer inte maskinens motorkod.",
+      "variant": "Briggs & Stratton-motor, tillverkarens kodsystem; Rider 13C 965094301 ännu utan individbunden Model/Type/Code",
+      "locator": "PDF page 1 (printed p. 9), bottom: TYPE 1234-01 and CODE 01061201",
+      "sourceId": "briggs-numerical-designation-system-2006",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider13c-briggs-numerical-model-caution",
+      "statement": "Briggs numeriska modellnyckel (revision 2/06) beskriver cylindervolymklass, konstruktionsserie, vevaxelriktning, lagring/smörjning och startmotortyp som avkodningsfält. De fälten får inte ersätta identifiering via motorns faktiska stämpling eller maskinspecifik IPL.",
+      "variant": "Briggs & Stratton numreringsschema, ej fastställd motoridentitet för Rider 13C 965094301",
+      "locator": "PDF page 1 (printed p. 9), model numbering system columns A–E",
+      "sourceId": "briggs-numerical-designation-system-2006",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -364,6 +389,7 @@
     "Rider 13C 965094301: officiell specifikation anger hydrostat men inte exakt transaxelkod; undersök IPL innan delbeställningsråd.",
     "Rider 13/13 Bio originalmanual 2003-08: servicetabellens exakta värden och tillämplighet per utförande måste extraheras separat.",
     "Visuell granskning av aktuella Husqvarna-PDF:er kunde inte slutföras på grund av PDF-skärmbildscachefel. Textbaserade manualavsnitt identifierade; läs originalens figurer manuellt före exakta reparationssteg.",
-    "Rider 13C 965094301: fotografera/läs monterad Briggs-motors faktiska Model/Type/Code och koppla exakt Briggs IPL och motormanual innan servicevärden och delar anges."
+    "Rider 13C 965094301: fotografera/läs monterad Briggs-motors faktiska Model/Type/Code och koppla exakt Briggs IPL och motormanual innan servicevärden och delar anges.",
+    "Briggs numeriska kodnyckel är generell; verifiera att faktisk motor på Rider 13C följer tillämplig kodrevision och dokumentera avläsning före modelspecifika härledningar."
   ]
 }
