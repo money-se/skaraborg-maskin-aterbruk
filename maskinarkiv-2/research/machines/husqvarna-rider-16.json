@@ -228,6 +228,27 @@
       "title": "Husqvarna Spare Parts Shop – Rider 16 separate EPC model index",
       "document": "Official Rider 16 IPL group listing, model level",
       "url": "https://shop-pa-v9.husqvarna.com/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcProduct=RIDER+16"
+    },
+    {
+      "id": "rider16-combi103-partstree-965078401-supersession",
+      "tier": 2,
+      "title": "PartsTree – Combi 103 965078401 superseded",
+      "document": "Husqvarna 965078401 DECK COMBI 103: Superseded to 965078601",
+      "url": "https://www.partstree.com/parts/husqvarna-965078401/"
+    },
+    {
+      "id": "rider16-combi103-ahupd-965078401-supersession",
+      "tier": 2,
+      "title": "AHUPD authorized Husqvarna dealer – Combi 103 supersession",
+      "document": "Husqvarna 965078401 has been replaced by 965078601",
+      "url": "https://www.ahupd.com/husqvarna-965078401"
+    },
+    {
+      "id": "rider16-combi103-wolfswinkel-953524701-lead",
+      "tier": 2,
+      "title": "Wolfswinkel Combi 103 965078401 historical cross references",
+      "document": "965078401 aftermarket seller references 544112801, 544112903, 953524701, but not 953523701",
+      "url": "https://www.wolfswinkel.shop/husqvarna-parts-parts/965078401/husqvarna-mowing-deck-combi-103-cm-2006"
     }
   ],
   "topics": {
@@ -1553,6 +1574,24 @@
       "sourceId": "husqvarna-rider16-2003-01-original-ipl",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-combi103-965078401-to-965078601-dealer",
+      "statement": "Två oberoende reservdelshandlare, PartsTree och auktoriserade AHUPD, anger att Combi 103-aggregat 965078401 har ersatts av 965078601. Ersättningsuppgiften är sekundär; inget officiellt publicerat Husqvarna-supersession-besked har hittats.",
+      "variant": "Combi 103 965078401, bland annat Rider 16 katalog PNC 953521401 2006-01; passform kräver PNC-kontroll",
+      "locator": "PartsTree part 965078401 > Superseded to 965078601; AHUPD part 965078401 > replaced, New Part #965078601",
+      "sourceId": "rider16-combi103-partstree-965078401-supersession",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-combi103-953523701-no-proven-succession",
+      "statement": "Wolfswinkels Combi 103-artikel för 965078401 listar äldre referenser 544112801, 544112903 och 953524701 men listar inte 953523701. Därför finns ännu inget belägg i denna ersättningslista för en relation 953523701 → 965078401, trots att båda är Combi 103-aggregat i skilda års IPL.",
+      "variant": "Jämförelse Rider 16 Combi 103 2003-01 vs 2006-01",
+      "locator": "Wolfswinkel part 965078401 > References: 544112801, 544112903, 953524701; jämför original IPL 2003-01 > 953523701",
+      "sourceId": "rider16-combi103-wolfswinkel-953524701-lead",
+      "grade": "B",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -1621,6 +1660,8 @@
     "För att fastställa Rider 16:s exakta reservdelsrevision: läs maskinplåten framtill vänster under sitsen (modell/typ/serienummer), motorns Briggs Model/Type/Code och transaxelns K-/s/n-/p/n-streckkodsetikett separat; därefter kontrollera tillämplig Husqvarna EPC-katalog.",
     "Separat BioClip 90/103 aggregat-PNC kunde inte bekräftas från verkstadshandbokens modell- och märkplåtsbeskrivning; ingen årsmodell får ensamt definiera aggregatets passform.",
     "Original IPL 2003-01 fastställer komplett Combi 103 aggregat 953523701 och historisk rem 531007587. Fastställ monterings-/ersättningshistorik till Combi 103 965078401 och rem 589533701 via officiell Husqvarna-EPC innan kompatibilitetsråd.",
-    "BioClip 90 för Rider 16 har separat 90CM CUTTING DECK-grupp utan komplett aggregat-PNC i 2003-01-listans tillgängliga textrader. Identifiera om äldre aggregat såldes som självständig 953-/965-produkt."
+    "BioClip 90 för Rider 16 har separat 90CM CUTTING DECK-grupp utan komplett aggregat-PNC i 2003-01-listans tillgängliga textrader. Identifiera om äldre aggregat såldes som självständig 953-/965-produkt.",
+    "965078401 → 965078601 är styrkt av två reservdelshandlare, däribland auktoriserad Husqvarna-handlare, men är ännu inte tillverkarpublicerat eller universellt PNC-validerat.",
+    "Wolfswinkels 965078401-referenser listar 953524701 men inte äldre Combi 103 953523701. Hitta Husqvarna-parts bulletin eller PNC-bunden ersättningskedja innan relation mellan 2003 och 2006 påstås."
   ]
 }
