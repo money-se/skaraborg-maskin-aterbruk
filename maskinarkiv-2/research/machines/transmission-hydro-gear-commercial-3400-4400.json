@@ -74,6 +74,13 @@
       "title": "Hydro-Gear ZT-4400 BOM-specific service schematic 1710-1076L",
       "document": "OEM ZT-4400 service schematic 73045 P6, model 1710-1076L, 3 pages, hosted by ManualsPlus",
       "url": "https://manuals.plus/m/250ef70b8d14bc66d149ec675dbcb4b5a3113d374ec7c42da572556effcbb0a8.pdf"
+    },
+    {
+      "id": "hg-1710-1057l-bom-p6",
+      "tier": 2,
+      "title": "Hydro-Gear 1710-1057L ZT-4400 parts breakdown",
+      "document": "OEM schematic 73045 P6, 3-page BOM hosted by device.report",
+      "url": "https://device.report/m/b0c1781d803b7819acc981238937a14a502272f80bac616a888ec1a91016dd23.pdf"
     }
   ],
   "claims": [
@@ -1372,6 +1379,249 @@
       "sourceId": "hg-1710-1076l-bom-p6",
       "grade": "B",
       "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-housing",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 1 som artikelnummer 72518. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 1",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-side",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 2 som artikelnummer 72520. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 2",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-shock-valve",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 10 som artikelnummer 72569. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 10",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-center",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 20 som artikelnummer 72570. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 20",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-motor-shaft",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 22 som artikelnummer 54053. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 22",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-motor-block",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 23 som artikelnummer 72158. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 23",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-brake-rotor-gear",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 33 som artikelnummer 72725. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 33",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-swashplate",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 40 som artikelnummer 52972. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 40",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-pump-block",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 49 som artikelnummer 71971. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 49",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-charge-relief",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 54 som artikelnummer 72527. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 54",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-charge-pump",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 57 som artikelnummer 72526. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 57",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-input-shaft",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 61 som artikelnummer 72523. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 61",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-jackshaft",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 70 som artikelnummer 54079. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 70",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-gear-kit",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 71 som artikelnummer 72522. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 71",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-brake",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 91 som artikelnummer 72524. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 91",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-filter",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 100 som artikelnummer 72537. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 100",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-filter-cap",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 102 som artikelnummer 72536. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 102",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-axle",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 112 som artikelnummer 54275. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 112",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-axle-bearing-outer",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 114 som artikelnummer 53007. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 114",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-hub-five-bolt",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 118 som artikelnummer 72473. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 118",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-axle-tube",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 124 som artikelnummer 53367. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 124",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-bypass-rod",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 126 som artikelnummer 54306. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 126",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-fan-pulley",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 136 som artikelnummer 72476. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 136",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-control-arm",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 154 som artikelnummer 51842. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 154",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-rtn-assembly",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 162 som artikelnummer 52432. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 162",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-seal-kit",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 200 som artikelnummer 72528. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 200",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-rtn-kit",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 201 som artikelnummer 71592. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 201",
+      "grade": "B",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -1384,7 +1634,8 @@
     "ZT-4400 BLN-0081 tryckt s.15 har ett uppenbart orimligt ft-lb/Nm-par för hub castle nut pos120 (275–350 ft-lb respektive 31,1–39,54 Nm). Kontrollera aktuell Hydro-Gear servicebulletin innan slutlig åtdragning.",
     "Hydro-Gears aktuella oljesatssida beskriver 72750 som ZT-2800–3800 i rubriken men i beställningstext ZT-2800–3600. Bekräfta ZT-3800 med distributör före beställning.",
     "BLN-0108 P January 2023 page 11 has conflicting units for side port 11 (120 in-lb / 20.3 Nm); hold metric torque until later OEM revision confirms.",
-    "De 26 BOM-bundna numren för ZT-4400 1710-1076L gäller inte andra 1710-enheter utan specifik tabellkontroll och aktuell dealer supersession."
+    "De 26 BOM-bundna numren för ZT-4400 1710-1076L gäller inte andra 1710-enheter utan specifik tabellkontroll och aktuell dealer supersession.",
+    "För ZT-4400 ska reservdelsnummer jämföras per komplett 1710-kod: 1710-1057L har motorblock pos 23 artikel 72158 och fläkt/remsskiva pos 136 artikel 72476. Den tidigare 1710-1076L-katalogen angav andra nummer för dessa positioner; bekräfta varje modell och revisionsstatus före beställning."
   ],
   "topics": {
     "A": {
