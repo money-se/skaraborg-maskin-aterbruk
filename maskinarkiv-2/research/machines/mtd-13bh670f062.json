@@ -155,7 +155,7 @@
     },
     "F": {
       "state": "gap",
-      "note": "MTD 2000 reservdelsregister identifierar hastighetsreglagets länk 747-0530A; reglagejustering och utförande är ännu inte serienummerbundet."
+      "note": "MTD:s 2000-reservdelslista anger bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705. Separata delar är katalogbelagda men exakt serienummerpassform och funktionstest återstår."
     },
     "G": {
       "state": "gap",
@@ -771,6 +771,33 @@
       "grade": "B",
       "sourceId": "mtd-2000-customer-cross-reference",
       "locator": "Lowes Customer Number 062, row 13BH670F062, Engine: B&S 13.0 hp 28T707-1154-E1"
+    },
+    {
+      "id": "mtd-2000-brake-pedal-6830123",
+      "topic": "F",
+      "statement": "Reservdelslistan för MTD 13BH670F062 med katalogår 2000 visar bromspedalenheten 683-0123-0637 (Pedal-assy Brake). Uppgiften är katalogbunden och bekräftar inte automatisk passform på andra revisioner.",
+      "locator": "Parts list, Pedal-assy Brake, 683-0123-0637",
+      "variant": "MTD 13BH670F062, eReplacementParts-katalog år 2000; maskinens serienummer ej identifierat",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-brake-rod-7470755a",
+      "topic": "F",
+      "statement": "Reservdelslistan för MTD 13BH670F062, katalogår 2000, anger bromsstång 747-0755A (Brake Rod Ass'y). Serienummerbunden tillämplighet återstår.",
+      "locator": "Parts list, Brake Rod Ass'y, 747-0755A",
+      "variant": "MTD 13BH670F062, eReplacementParts-katalog år 2000; maskinens serienummer ej identifierat",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
+    },
+    {
+      "id": "mtd-2000-shift-lever-17705",
+      "topic": "F",
+      "statement": "Samma katalog listar växelspaksenhet 17705 (Shift Lever Ass'y) och visar därmed en separat katalogförd växlingskomponent, utan att bevisa själva transaxelns fabrikat.",
+      "locator": "Parts list, Shift Lever Ass'y, 17705",
+      "variant": "MTD 13BH670F062, eReplacementParts-katalog år 2000; maskinens serienummer ej identifierat",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd"
     }
   ],
   "gaps": [
@@ -796,6 +823,7 @@
     "Identifiera den faktiska transaxelns tillverkare och typskylt; delar 656-0004/17629A-0637 i åkgräsklipparens chassi räcker inte för intern växellådsidentifiering.",
     "Identifiera transmissionshuset och tillverkarens interna dokument innan 2000-katalogens drev 917-1362/1363 och tätning 921-0338 används som reparationsunderlag.",
     "Kontrollera faktisk remskivekonfiguration innan villkorade 656-0005 eller alternativa pivotaxlar 683-0128A/719-0342A anges som kompatibla med ett konkret serienummer.",
-    "Originalkorsreferens MTD 2000 gav HTTP 403 vid sidöppning trots läsbar indexerad modellrad. Verifiera sida i nedladdad original-PDF och motorns faktiska Model/Type/Code före A-klassificering."
+    "Originalkorsreferens MTD 2000 gav HTTP 403 vid sidöppning trots läsbar indexerad modellrad. Verifiera sida i nedladdad original-PDF och motorns faktiska Model/Type/Code före A-klassificering.",
+    "Bekräfta 2000-katalogens bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705 i rätt originalsprängskiss samt mot aktuellt serienummerspann."
   ]
 }
