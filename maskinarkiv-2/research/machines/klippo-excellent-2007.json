@@ -298,6 +298,48 @@
       "title": "ReservdelarOnline gamla Klippo artikelnummer till Husqvarna tabell",
       "document": "Legacy 0354=503259901 knivbussning 26.5; 0312=503259201 knivfäste Ø25mm kort; 0356=503261001 knivbussning 30.7",
       "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
+    },
+    {
+      "id": "klippo-old-article-translation-alt",
+      "title": "Klippo original-to-Husqvarna part number translation retailer",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/sv/gb/klippo-artikelnummer-oversattningslista",
+      "document": "Klippo original-to-Husqvarna part number translation retailer",
+      "tier": 2
+    },
+    {
+      "id": "klippo-503259101-22mm-drive",
+      "title": "ReservdelarOnline driven 22mm 5032591-01 blade support with pulley",
+      "url": "https://www.reservdelaronline.se/produkter/knivfaeste-22mm-excellent-s-mfl-5032591-01",
+      "document": "ReservdelarOnline driven 22mm 5032591-01 blade support with pulley",
+      "tier": 2
+    },
+    {
+      "id": "klippo-588824001-25mm",
+      "title": "Entreprenadbutiken blade support 5888240-01 25mm OEM cross numbers",
+      "url": "https://www.entreprenadbutiken.se/sv/eb/knivfaste-excellent-pro-19-21-comet",
+      "document": "Entreprenadbutiken blade support 5888240-01 25mm OEM cross numbers",
+      "tier": 2
+    },
+    {
+      "id": "klippo-588824001-newgarden-25mm",
+      "title": "Newgarden 588824001 labelled blade support Ø25mm",
+      "url": "https://www.newgarden.se/knivfaste-588824001-klippo-reservdel",
+      "document": "Newgarden 588824001 labelled blade support Ø25mm",
+      "tier": 2
+    },
+    {
+      "id": "klippo-25mm-aftermarket-rinab",
+      "title": "Rinab aftermarket 25mm 31-15-816-07 quantified blade support",
+      "url": "https://www.rinab.nu/skog-och-tradgard/Grasklippare/Klippaggregatsdelar/Knivfasten/Klippo/Knivfaste-25-mm-Klippo.htm",
+      "document": "Rinab aftermarket 25mm 31-15-816-07 quantified blade support",
+      "tier": 2
+    },
+    {
+      "id": "klippo-woodruff-25mm",
+      "title": "ReservdelarOnline 5044605-01 key 25mm shaft",
+      "url": "https://www.reservdelaronline.se/produkter/woodruffkil-5044605-01-25mm-axel",
+      "document": "ReservdelarOnline 5044605-01 key 25mm shaft",
+      "tier": 2
     }
   ],
   "topics": {
@@ -2127,6 +2169,114 @@
       "sourceId": "retailer-klippo-oldpart-conversion",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "ex-legacy-short22-503259101",
+      "statement": "Äldre Klippo-kod 0311 motsvarar 503259101, kort knivfäste för 22 mm, enligt säljarens konverteringstabell.",
+      "locator": "Tabell 0311 5032591-01",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-legacy-short25-503259201",
+      "statement": "Äldre kod 0312 motsvarar 503259201, kort knivfäste för 25 mm, i samma säljaröversättning.",
+      "locator": "Tabell 0312 5032592-01",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-legacy-long25-503259301",
+      "statement": "Äldre kod 0313 motsvarar 503259301, långt knivfäste 25 mm. Att 0312 och 0313 båda avser 25 mm betyder inte identiskt infästningsdjup.",
+      "locator": "Tabell 0313 5032593-01",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-driven-22mm-pulley",
+      "statement": "ReservdelarOnline beskriver 503259101 som knivfäste för 22 mm axel, med remskiva, avsett för vissa drivna Klippo inklusive Excellent S. Det är inte samma typ som 25 mm-fäste 588824001.",
+      "locator": "Produktinformation 5032591-01 22mm med drivning remskiva",
+      "sourceId": "klippo-503259101-22mm-drive",
+      "topic": "D",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-driven-22mm-legacy",
+      "statement": "ReservdelarOnline anger gamla Klippo-koden 0311 som ersatt nummer för 503259101; äldre kod ger inte generellt PNC-passning.",
+      "locator": "Produktinformation 5032591-01 Ersätter 0311",
+      "sourceId": "klippo-503259101-22mm-drive",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-588824001-25mm-exact",
+      "statement": "Entreprenadbutiken beskriver knivfäste 588824001 uttryckligen som 25 mm, med säljaruppgiven ersättning för 503259201 och 502872201.",
+      "locator": "Produktbeskrivning Knivfäste 25mm Ersätter 5032592-01 5028722-01",
+      "sourceId": "klippo-588824001-25mm",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-588824001-third-legacy",
+      "statement": "Entreprenadbutikens artikelnummerlista inkluderar dessutom 579228501 bland korsreferenserna för knivfäste 588824001. Detta är säljardata, inte OEM-bevis för alla användningsfall.",
+      "locator": "Specifikationer tillverkarens artikelnummer 579 22 85-01",
+      "sourceId": "klippo-588824001-25mm",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-588824001-confirm-diameter",
+      "statement": "Newgarden betecknar artikel 588824001 som 'BLADE SUPPORT Ø25mm', oberoende återförsäljarbekräftelse av nominell klassning, inte en detaljerad axelritning.",
+      "locator": "Produktbeskrivning BLADE SUPPORT Ø25mm",
+      "sourceId": "klippo-588824001-newgarden-25mm",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-aftermarket25-keyway",
+      "statement": "Rinabs eftermarknadsfäste 31-15-816-07 anges ha axeldiameter 25 mm, innerdiameter 11 mm och kilspår 5 mm. Måtten gäller enbart Rinab-artikeln, inte knivfäste 588824001.",
+      "locator": "Mått: axeldiameter 25, innerdiameter 11, kilspår 5",
+      "sourceId": "klippo-25mm-aftermarket-rinab",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-aftermarket25-depth",
+      "statement": "Rinabs eftermarknadsfäste 31-15-816-07 har kopplingshöjd 23 mm och infästningsdjup 19 mm samt yttermått 59,0 × 65,0 mm. Måtten får inte föras över till OEM-artikel 588824001.",
+      "locator": "Mått: höjd koppling 23, infästningsdjup 19, yttermått 59.0x65.0",
+      "sourceId": "klippo-25mm-aftermarket-rinab",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-aftermarket25-other-supersession",
+      "statement": "Rinab anger 31-15-816-07 som eftermarknadsersättning för originalnummer 502871802, 503258501 och 579228601; detta är en annan kedja än 588824001 och styrker inte ömsesidig passform.",
+      "locator": "Ersätter originalnummer 5028718-02 5032585-01 5792286-01",
+      "sourceId": "klippo-25mm-aftermarket-rinab",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "ex-key-504460501-25mm",
+      "statement": "ReservdelarOnline anger att woodruffkil 504460501 är avsedd för 25 mm axel på vissa Klippo-modeller. Detta fastställer inte varje 2012 Excellent S-knivfästes axeldiameter bara för att kilnumret finns i katalogen.",
+      "locator": "Produktinformation woodruffkil 5044605-01 till 25mm axel",
+      "sourceId": "klippo-woodruff-25mm",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
     }
   ],
   "gaps": [
@@ -2161,6 +2311,7 @@
     "Två säljare listar 5782666-03 för Pro19 S-family, men en annan leverantör listar även 5851926-03 för Pro19 SH; överlapp i modellnamn bevisar inte identisk växellåda. Kontrollera PNC-serie och infästningsrevision.",
     "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
     "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår.",
-    "Särskilj knivfäste från knivbussning: korslistan kallar 503259901 knivbussning 26,5 mm. Tidigare generisk återförsäljartext och implicit komplettering av monteringssats behöver kontrolleras mot OEM-figurer."
+    "Särskilj knivfäste från knivbussning: korslistan kallar 503259901 knivbussning 26,5 mm. Tidigare generisk återförsäljartext och implicit komplettering av monteringssats behöver kontrolleras mot OEM-figurer.",
+    "Separata Ø22 mm och Ø25 mm-knivfästen och olika 3/8 UNF/M10-bultsatser dokumenterade av återförsäljare. Kontrollera exakt motoraxel, kilspår, infästningsdjup och knivstapel på individ/PNC innan rekommendation."
   ]
 }
