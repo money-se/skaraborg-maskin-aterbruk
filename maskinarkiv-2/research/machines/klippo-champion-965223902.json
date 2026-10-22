@@ -130,6 +130,13 @@
       "title": "ReservdelarOnline gamla Klippo artikelnummer till Husqvarna tabell",
       "document": "Legacy 0354=503259901 knivbussning 26.5; 0301=503258301 knivfäste Cobra Ø25 mm",
       "url": "https://www.reservdelaronline.se/blogg/tips-och-guider/oeversaettningstabell-gamla-klippo-artikelnummer-till-nya-husqvarna-artikelnummer"
+    },
+    {
+      "id": "klippo-old-article-translation-alt",
+      "title": "Klippo original-to-Husqvarna part number translation retailer",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/sv/gb/klippo-artikelnummer-oversattningslista",
+      "document": "Klippo original-to-Husqvarna part number translation retailer",
+      "tier": 2
     }
   ],
   "topics": {
@@ -1050,6 +1057,51 @@
       "sourceId": "retailer-klippo-oldpart-conversion",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "champion-legacy-22-diameter",
+      "statement": "Äldre Klippo-kod 0300 motsvarar knivfäste 503258201, beskrivet som Ø22 mm. Kod 0301 är ett skilt Ø25 mm Cobra-knivfäste 503258301, enligt säljarens konverteringstabell.",
+      "locator": "Tabell 0300 / 0301",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "champion-legacy-kit25",
+      "statement": "Äldre Klippo-kod 0914 avser 502943501, knivfäste med kil 25 mm. Kod 0915 avser separat 502943601, knivfäste med kil 22 mm.",
+      "locator": "Tabell 0914 / 0915",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "champion-legacy-kit22-variant",
+      "statement": "Äldre koder 0923 (502943901, knivfäste med kil 22 mm) och 0924 (502944001, knivfäste med kil 25 mm) listas som separata satser, även om diametern är enda framgående måttskillnad i tabellen.",
+      "locator": "Tabell 0923 / 0924",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "champion-legacy-bolt-thread",
+      "statement": "Äldre Klippo-kod 0905 motsvarar knivbultsats 502943201 märkt 3/8 tum UNF och kod 0906 knivbultsats 503272301 märkt M10×35. Dessa får inte betraktas som utbytbara gängor.",
+      "locator": "Tabell 0905 / 0906",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
+    },
+    {
+      "id": "champion-legacy-boltvariants",
+      "statement": "Äldre Klippo-koder 0907 (503272601) och 0908 (503272701) benämns båda knivbultsats 3/8 tum UNF med ytterligare avkortad text. Fastställ full bultlängd och knivstapel innan byte.",
+      "locator": "Tabell 0907 / 0908",
+      "sourceId": "klippo-old-article-translation-alt",
+      "topic": "J",
+      "variant": "Klippo knivinfästning: säljarbelagd dimension/äldre nummer, ingen universell PNC-garanti",
+      "grade": "B"
     }
   ],
   "gaps": [
@@ -1070,6 +1122,7 @@
     "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
     "Champion 2009 PNC 9652239-01 listad med kniv 502978001 och knivfäste 502871902; senare 2012 PNC 965223902 listar 502881310/579228401. Kontrollera bult-/fästmått, OEM IPL och seriegränser innan äldre knivsystem föreslås för 2012.",
     "502871902 anges av reservdelsleverantör som ersättare till 503259901 och andra gamla nummer; OEM-kontroll av distanser/fiberbricka/axelinfästning och serial-range återstår.",
-    "Särskilj knivfäste från knivbussning: korslistan kallar 503259901 knivbussning 26,5 mm. Tidigare generisk återförsäljartext och implicit komplettering av monteringssats behöver kontrolleras mot OEM-figurer."
+    "Särskilj knivfäste från knivbussning: korslistan kallar 503259901 knivbussning 26,5 mm. Tidigare generisk återförsäljartext och implicit komplettering av monteringssats behöver kontrolleras mot OEM-figurer.",
+    "Separata Ø22 mm och Ø25 mm-knivfästen och olika 3/8 UNF/M10-bultsatser dokumenterade av återförsäljare. Kontrollera exakt motoraxel, kilspår, infästningsdjup och knivstapel på individ/PNC innan rekommendation."
   ]
 }
