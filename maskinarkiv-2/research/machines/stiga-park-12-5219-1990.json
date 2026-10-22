@@ -25,6 +25,13 @@
       "title": "STIGA Park 2002 (SF) 13-1238-12 original illustrated parts list",
       "document": "Season 1989 Issue 32–2014, transaxle p.21–27, variant 846/801-046",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_2002_-SF-_13-1238-12_88_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "tier": 2,
+      "title": "STIGA/CyberCat 1991 Peerless 846 / 801-046, visually checked variant-column listing",
+      "document": "1991 gearbox parts list, two-column layout, PDF pages 2–3; visual screenshot check 2026-10-22",
+      "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1991%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+846%2C+801-046.pdf"
     }
   ],
   "topics": {
@@ -382,6 +389,96 @@
       "grade": "A",
       "sourceId": "stiga-park2002-sf-1238-1989-ipl",
       "locator": "Park 2002 SF 1989 PDF s.25 pos.77"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-assy-column",
+      "topic": "D",
+      "statement": "1991 STIGA/CyberCat has two quantity columns, 846 and 801-046. Complete assembly 1134-2469-01 is in 846 column, 1132-0001-02 is in 801-046 column; Park and Trac 12-TRM107 are labels, not replacement authorization.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.2 pos.0, columns 846/801-046"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-5-6-ratio",
+      "topic": "D",
+      "statement": "1991 illustrated listing ties pos.5 30T gear P007-7812-9A and pos.6 20T gear P007-7812-1A to 846; pos.5 31T P000-7781-63 and pos.6 19T P000-7781-62 belong to 801-046. Teeth do not establish full ratio.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.2 pos.5–6, separate model quantity columns"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-pos12",
+      "topic": "D",
+      "statement": "1991 version columns distinguish two 42T gears at pos.12: 846 P007-7813-7A versus 801-046 P000-7781-54. Matching tooth counts do not imply matching part.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.2 pos.12"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-pos17",
+      "topic": "D",
+      "statement": "1991 listing differentiates bevel pinion pos.17: P007-7811-3A for 846 versus P000-7781-53 for 801-046.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.2 pos.17"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-pos37",
+      "topic": "K",
+      "statement": "1991 listing differentiates needle bearing pos.37: P000-7801-11 for 846 versus P000-7801-21 for 801-046.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.2 pos.37"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-pos60-shared",
+      "topic": "K",
+      "statement": "1991 parts list marks both versions as using two P000-7800-64 bushings at pos.60 and one P000-7801-20 bushing at pos.60A. Shared parts do not prove assembly interchangeability.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.3 pos.60–60A"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-pos65-correction",
+      "topic": "K",
+      "statement": "1991 parts list has TWO snap rings P000-7921-25 per model at pos.65 (846 and 801-046). This conflicts with older recorded cross-list values where four were implied: do not treat catalog quantities as interchangeable across revisions.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.3 pos.65; quantity columns both 2"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-pos72-clarity",
+      "topic": "K",
+      "statement": "In 1991 two-column parts list pos.72 is BRACKET P000-7860-86 in both 846 and 801-046, not a seal. Positions must not be matched directly to later 1993 846 catalog pos.72 seal.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.3 pos.72"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-pos77-clarity",
+      "topic": "K",
+      "statement": "1991 gearbox list pos.77 differentiates 846 snap ring P000-7921-25 (2) and 801-046 thrust washer P000-7800-14 (2), not the same repair part.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.3 pos.77"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-1991-common-brake",
+      "topic": "G",
+      "statement": "1991 listing uses common brake disc P000-7900-03 pos.21, brake plate P000-7900-07 pos.51 and two brake pads P000-7900-06 pos.52 in both 846 and 801-046, despite different brake levers at pos.56.",
+      "variant": "1991 STIGA/CyberCat gearbox component comparison with 1990 Park 12 source; model-specific fit unconfirmed",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1991-846-801046-visually-reviewed",
+      "locator": "PDF p.2 pos.21,51,52; p.3 pos.56"
     }
   ],
   "gaps": [
@@ -390,6 +487,7 @@
     "Originalbruksanvisning och klippaggregatets PNC samt dess monteringsmanual saknas.",
     "PDF-söktext läst, men webbläsarens PDF-skärmbildsfunktion returnerade fel vid visuell ritningskontroll.",
     "Separat STIGA Park 2002-originalkatalog 1989 identifierar många 846- respektive 801-046-bundna komponenter, men säger inte vilken av dessa växellådor som monterades på varje Park 12 individ 1990. Kräver faktisk transaxelmärkning och relevant maskinkatalog.",
-    "STIGA Park 2002 (SF) 1989 skiljer uttryckligen 1132-0001-02 (801-046) och 1134-2469-01 (846) men fastställer inte vilken transaxel som monterats på Park 12 1990-individer. Kräver faktisk märkning och produktbundet monteringsbelägg."
+    "STIGA Park 2002 (SF) 1989 skiljer uttryckligen 1132-0001-02 (801-046) och 1134-2469-01 (846) men fastställer inte vilken transaxel som monterats på Park 12 1990-individer. Kräver faktisk märkning och produktbundet monteringsbelägg.",
+    "Cross-check 1991 CyberCat 846/801-046 item quantities against each exact year and OEM IPL: pos.65 two snap rings per variant in the 1991 listing; historical catalog quantities may vary by release. Use variant and edition for ordering."
   ]
 }
