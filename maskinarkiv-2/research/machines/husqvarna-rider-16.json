@@ -2333,9 +2333,9 @@
     },
     {
       "id": "rider16-batch39-different-belt-functions",
-      "statement": "Husqvarnas originalkatalog 2003-11 visar separat rem 531007553 för drivning till aggregatet och tandrem 531007526 mellan knivarnas remskivor. Senare reservdelslistor uppger två olika artikelnummerfamiljer: 589532201 för drivrem och 589531501 för knivsynkronisering. Dessa får aldrig erbjudas som alternativ till varandra.",
+      "statement": "Husqvarnas originalkatalog Rider 13 BioClip 2003-11 visar separat rem 531007553 för drivning till aggregatet och intern tandrem 531007526 mellan knivarnas remskivor. De är olika funktioner och ska inte behandlas som alternativa artikelnummer. Senare ersättningsnummer måste styrkas separat i respektive artikelkedja.",
       "variant": "BioClip 90 historiska remsystem; jämförande källor, PNC krävs före reservdelsbeställning",
-      "locator": "OEM Rider 13 BioClip 2003-11 figur T samt Husqvarna Genuine Parts 'Rider Belts' 589532201/506982901; återförsäljare 531007526/589531501",
+      "locator": "Husqvarna Rider 13 BioClip 2003-11, figur T, rem 531007553 respektive 531007526",
       "sourceId": "husqvarna-rider13bio-2003-11-ipl-953520901",
       "grade": "A",
       "topic": "E"
@@ -2756,6 +2756,7 @@
     "2010 års original-IPL:s sprängskiss-screenshot gav cachefel; PDF-textlager och sidnumrering stöder artikelraderna, men kopplingen mellan de två kompletta aggregaten och följande delar behöver visuell kontroll mot originalfigurer.",
     "Rider 16 Combi 103 965078401: återförsäljare stöder 544103001→504188210 och 506768501→589530601. En direkt OEM-ersättningsbulletin saknas. Kontrollera också vad som gäller för andra Combi 103 PNC.",
     "Combi 112 965078501: kedjan 535411901→585034501→594978001 stöds av AHUPD, PartsTree och Messicks men inte av direkt tillverkarbulletin. Bekräfta att det är samma remposition i Rider 16:s specifika aggregat.",
-    "Kniv 544102801→504188110 anges av flera reservdelshandlare för Combi 112; tillverkarpublicerat ersättningsbesked och måttsatt originalritning saknas."
+    "Kniv 544102801→504188110 anges av flera reservdelshandlare för Combi 112; tillverkarpublicerat ersättningsbesked och måttsatt originalritning saknas.",
+    "Kvalitetsgranskning PR #141: skilj alltid originaldokumenterat remsystem (grad A) från senare återförsäljarkorsreferenser (grad B); ingen överföring av kvalitetsgrad mellan dessa."
   ]
 }
