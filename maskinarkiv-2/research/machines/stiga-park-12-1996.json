@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1996",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA PARK 12 basmaskin PNC 13-1442-19, Season 1996, enligt original STIGA IPL. Andra årsvarianter, hydrostatmodeller samt Park 12 13-1442-20 får inte antas använda identiska delar.",
+  "sources": [
+    {
+      "id": "stiga-park12-1996-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 original reservdelskatalog",
+      "document": "13-1442-19 - Season 1996; Issue 41 - 2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1442-19_95_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Delvis källunderlag i STIGA:s originalreservdelskatalog men full maskinidentitet, installationsvarianter, ägarmanual, service och komponenternas aktuella kompatibilitet måste verifieras före användning. Säkerhets-/servicedata får ej härledas ur reservdelsförteckning."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-96-identity",
+      "statement": "STIGA:s reservdelskatalog omfattar PARK 12 produktnummer 13-1442-19 för Season 1996; den har utgåva 41–2014.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "A",
+      "locator": "Omslag PDF-sida 1; kataloghuvud PDF-sida 3"
+    },
+    {
+      "id": "p12-96-identity-plate",
+      "statement": "STIGA begär att reservdelskatalogens tillverkningsår ska matchas mot maskinens identifikationsplåt vid beställning.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "L",
+      "locator": "Omslag PDF-sida 1, förord"
+    },
+    {
+      "id": "p12-96-peerless-model",
+      "statement": "STIGA benämner transmissionens interna reservdelsgrupp Tecumseh Peerless Transaxle 930-022.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "D",
+      "locator": "PDF-sida 13, rubrik Tecumseh Peerless Transaxle 930-022"
+    },
+    {
+      "id": "p12-96-peerless-assembly",
+      "statement": "För Tecumseh Peerless Transaxle 930-022 anger originalkatalogen komplett transaxelaggregat 1134-3278-01 på position 0.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "D",
+      "locator": "PDF-sida 13, position 0"
+    },
+    {
+      "id": "p12-96-peerless-housing",
+      "statement": "STIGA:s Peerless 930-022-förteckning anger kåpa 772140 position 1 och växellådshus 770102 position 3.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "K",
+      "locator": "PDF-sida 13, position 1 och 3"
+    },
+    {
+      "id": "p12-96-peerless-brake",
+      "statement": "Peerless 930-022-förteckningen anger bromsskiva 790003 på position 36, bromsbelägg 799021 på position 38 och bromsarm 790008 på position 41.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "D",
+      "locator": "PDF-sida 13, position 36, 38, 41"
+    },
+    {
+      "id": "p12-96-peerless-axles",
+      "statement": "Peerless 930-022 har i reservdelslistan axel 774895 286 mm position 47 och axel 774896 403 mm position 48.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "K",
+      "locator": "PDF-sida 13, position 47–48"
+    },
+    {
+      "id": "p12-96-peerless-lubricant",
+      "statement": "Originalreservdelskatalogen listar 788067 smörjfett 0,9 kg med beskrivningen Bentonite för Peerless 930-022; detta är en reservdelspost och inte en komplett servicemetod.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "J",
+      "locator": "PDF-sida 15, position 90"
+    },
+    {
+      "id": "p12-96-peerless-chain",
+      "statement": "Peerless 930-022-listan anger intern kedja 786081 position 60 och kedjehjul 786082 respektive 786123 position 61 och 62.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "D",
+      "locator": "PDF-sida 15, position 60–62"
+    },
+    {
+      "id": "p12-96-peerless-gear-selection",
+      "statement": "Peerless 930-022-reservdelslistan dokumenterar shift rod and fork 784345, position 10.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "F",
+      "locator": "PDF-sida 13, position 10"
+    },
+    {
+      "id": "p12-96-electrical-harness",
+      "statement": "STIGA:s elsystemstabell anger 1134-3718-01 som kablage för kodgrupp 1442; 1134-3697-01 anges separat för 1168.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "K",
+      "locator": "PDF-sida 33, position 50 med variantnotering"
+    },
+    {
+      "id": "p12-96-ignition",
+      "statement": "STIGA:s elsystem anger 1134-1814-01 tändningslås, position 44. Reservdelslistan bevisar inte dess säkerhetslogik.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "G",
+      "locator": "PDF-sida 33, position 44"
+    },
+    {
+      "id": "p12-96-starter",
+      "statement": "Katalogen listar startmotor 497595 i gruppen Förgasare Startmotor; detta identifierar inte fullständigt motorns Model/Type/Code.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "C",
+      "locator": "PDF-sida 3, position 309"
+    },
+    {
+      "id": "p12-96-carb-variants",
+      "statement": "Katalogens förgasargrupp visar två förgasarartiklar, 496592 och 499161, i samma position 125; rätt utförande för en individ måste kontrolleras.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "C",
+      "locator": "PDF-sida 3, position 125"
+    },
+    {
+      "id": "p12-96-steering-cables",
+      "statement": "STIGA:s styrningsgrupp visar vänster styrwire 1134-2817-01, L=939 mm, och höger styrwire 1134-2817-02, L=990 mm.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "E",
+      "locator": "PDF-sida 35, position 19–20"
+    },
+    {
+      "id": "p12-96-steering-chain",
+      "statement": "STIGA:s styrningsgrupp anger kedja 1134-2820-01, 79 länkar, position 15, och kedjelås 1134-2824-01, position 16.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "E",
+      "locator": "PDF-sida 35, position 15–16"
+    },
+    {
+      "id": "p12-96-engine-parts",
+      "statement": "Katalogen har en separat Cylinder Vevhus-grupp med bland annat cylinder 496413 och vevhus 494238; detta är katalogdelar och inte bekräftat motoridentifikationsnummer.",
+      "variant": "STIGA PARK 12 13-1442-19, Season 1996",
+      "sourceId": "stiga-park12-1996-ipl",
+      "grade": "A",
+      "topic": "C",
+      "locator": "PDF-sida 7, position 1 och 18"
+    }
+  ],
+  "gaps": [
+    "Identifiera specifik Briggs & Stratton Model/Type/Code från motorplåt/primärmotor-IPLs; katalogens motordelars artikelnummer identifierar inte fullständig motorvariant.",
+    "Knyt 1996 års reservdelar till exakt individ via identifieringsplåt och eventuella serienummersnitt.",
+    "Bekräfta växellådans fabriksetikett Tecumseh Peerless 930-022 och jämför mot 1997 13-1442-20 utan att anta samma internkomponenter.",
+    "Verifiera ägarmanual, säkerhetsreglage, serviceintervall, smörjmedel och fyllnadsnivåer.",
+    "Bekräfta tillhörande aggregat-PNC, tillåtna rem- och knivkoder och monteringskit.",
+    "Verifiera elschema och respektive brytares funktion mot modellbunden elritning.",
+    "Original-PDF:s ritningssidor bör visuellt granskas innan reparationssteg; webbens skärmbildstjänst gav cache miss 2026-10-22."
+  ]
+}
