@@ -67,6 +67,20 @@
       "title": "Wolfswinkel Rider 16 965161601 2007-06 parts diagrams",
       "document": "Rider 16 PNC 965161601 IPL 2007-06, Engine and Transmission exploded list",
       "url": "https://www.wolfswinkel.shop/spare-parts-drawings/husqvarna/ride-on-mowers/riders/gasoline/otherwise/rider-16/rider-16-965161601-2007-06"
+    },
+    {
+      "id": "husqvarna-rider16-2002-04-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 operator's manual April 2002",
+      "document": "OM Rider 16 2002-04; pub000018715/doc000039438",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000018715/doc000039438"
+    },
+    {
+      "id": "husqvarna-rider16-2000-11-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 operator's manual November 2000",
+      "document": "OM Rider 16 2000-11; 101 91 33-26; pub000015162/doc000034675",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000015162/doc000034675"
     }
   ],
   "topics": {
@@ -726,6 +740,78 @@
       "sourceId": "wolfswinkel-rider16-2007-ipl",
       "grade": "B",
       "topic": "F"
+    },
+    {
+      "id": "rider16-early-2002-manual",
+      "statement": "Originalmanualen är märkt Rider 16, utgåva 2002-04; manualutgåva är inte bevis för exakt maskintillverkningsår eller PNC.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Original-PDF sida 1, omslag",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-early-2002-engine",
+      "statement": "Tekniska data i Rider 16-manualen 2002-04 anger Briggs & Stratton 28N707, 465 cm³, 11,4 kW/15,5 hk.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Engine",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-early-2002-engine-oil",
+      "statement": "Originalmanual 2002-04 anger motorolja SAE 30 eller SAE 10W/30, klass SF-CC, och oljemängd 1,2 liter. Detta får inte överföras till 2005 års motorversion utan motorkontroll.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Engine",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "rider16-early-2002-transmission",
+      "statement": "Originalmanual 2002-04 anger transmission Tuff Torq K46 och transmissionsolja SAE 10W/30 klass SF-CC; exakt K46-suffix är ej angivet.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Transmission",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-early-2002-electrical",
+      "statement": "Originalmanual 2002-04 anger elsystem 12 V minusjord, batteri 12 V 24 Ah samt Champion CJ8 eller J8, elektrodavstånd 0,7–0,8 mm.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Electrical system",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "rider16-early-2002-decks",
+      "statement": "Manualens tekniska data 2002-04 listar bland annat tvåknivars BioClip 90 cm och treknivarsaggregat med 97, 103 eller 112 cm klippbredd; den ger inte aggregatens PNC eller generell passform.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 42, PDF-sida 44, TECHNICAL DATA / Cutting unit",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-early-2002-identification",
+      "statement": "Manualen för 2002-04 anger maskintypskylt under sätet framtill till vänster, motor Model/Type/Code på fläktkåpans skylt och hydrostatens K-typ, s/n och p/n på transmissionshuset vid vänster drivaxel.",
+      "variant": "Rider 16 OM 2002-04, produktnummer ej identifierat",
+      "locator": "Tryckt sida 3, PDF-sida 5, Serial number / Engine / Transmission",
+      "sourceId": "husqvarna-rider16-2002-04-owner",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "rider16-early-2000-document-exists",
+      "statement": "Husqvarnas originalmanual för Rider 16 med dokumentnummer 101 91 33-26 finns i utgåva 2000-11; dokumentet identifierar ännu inte någon fastställd produktnummerlista.",
+      "variant": "Rider 16 OM 2000-11, produktnummer ej identifierat",
+      "locator": "2000-11 manualens omslag, PDF-sida 1",
+      "sourceId": "husqvarna-rider16-2000-11-owner",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -754,6 +840,9 @@
     "Identifiera Tuff Torq-kod för 965161601 direkt i respektive transmissionsritning eller på maskinens serienummerskylt, inte från 953521401.",
     "Verifiera med original-IPLs och fabrikantens ersättningskedja om 506986301 är samma K46 EUR-enhet utan ändrad intern Tuff Torq-specifikation mellan 2006, 2007 och 2010.",
     "Bekräfta Briggs Model/Type/Code för Rider 16 965161601 2007 och 2010, då samma Husqvarna motorartikel 544452801 inte ensam räcker.",
-    "Identifiera om 2007-06 och 2010-07 års remnummer skiljer sig genom tillverkarrevision, eftermarknadsersättning eller kataloguppdatering; inte dra passformsslutsatser från återförsäljardata."
+    "Identifiera om 2007-06 och 2010-07 års remnummer skiljer sig genom tillverkarrevision, eftermarknadsersättning eller kataloguppdatering; inte dra passformsslutsatser från återförsäljardata.",
+    "Fastställ exakt PNC för 2000-11 och 2002-04 manualversioner; manualutgåvans datum är inte automatiskt maskinens årsmodell.",
+    "Kontrollera specifikationstabellen i 2000-11 originalmanual visuellt; skärmbildstjänsten returnerade cachefel och värden får därför inte föras in som verifierade.",
+    "Kartlägg 2001 och 2003 original-IPLs, särskilt tidiga aggregat (90/97/103/112 cm) och K46-undervarianter."
   ]
 }
