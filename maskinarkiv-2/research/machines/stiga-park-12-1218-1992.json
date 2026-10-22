@@ -25,6 +25,13 @@
       "title": "Sandby Smedie Park 12 13-1218-15 1992 model overview",
       "document": "Technical information – model/type and decks; retailer-sourced",
       "url": "https://www.sandbysmeden.dk/13-1218-15-stiga-park-12-1992/"
+    },
+    {
+      "id": "stiga-peerless-846-801046-cybercat",
+      "tier": 1,
+      "title": "STIGA CyberCat original replacement parts: Tecumseh Peerless Transaxle 846 / 801-046",
+      "document": "TECUMSEH PEERLESS TRANSAXLE 846 801-046, Stiga 156D Spare Parts, 3 pages, exploded diagram and part list",
+      "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1991%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+846%2C+801-046.pdf"
     }
   ],
   "topics": {
@@ -166,6 +173,60 @@
       "grade": "C",
       "sourceId": "sandby-1218-1992-overview",
       "locator": "Tekniske informationer > Brugte klippeborde"
+    },
+    {
+      "id": "p12-1218-92-stiga-846-application",
+      "topic": "D",
+      "statement": "STIGA:s Peerless 846/801-046 originalförteckning anger 846 som transaxel för Park och komplett STIGA-artikelnummer 1134-2469-01. Det stärker återförsäljarens 846-spår för 13-1218-15 men utgör inte ensamt individ- eller PNC-exakt 1992-belägg.",
+      "variant": "Generisk STIGA originaldokumentation för Peerless 846 och 801-046; 13-1218-15 endast preliminärt sammankopplad av återförsäljare",
+      "grade": "A",
+      "sourceId": "stiga-peerless-846-801046-cybercat",
+      "locator": "PDF s. 2, position 0, kolumner 846 och 801-046, anmärkning 'Park'"
+    },
+    {
+      "id": "p12-1218-92-stiga-801046-other",
+      "topic": "D",
+      "statement": "Originalförteckningen anger separat Peerless 801-046 med komplett STIGA-artikelnummer 1132-0001-02 och anmärkning Trac 12-TRM107; katalogen skiljer den från Park-utförandet.",
+      "variant": "Generisk STIGA originaldokumentation för Peerless 846 och 801-046; 13-1218-15 endast preliminärt sammankopplad av återförsäljare",
+      "grade": "A",
+      "sourceId": "stiga-peerless-846-801046-cybercat",
+      "locator": "PDF s. 2, position 0, annan kolumn, 'Trac 12-TRM107'"
+    },
+    {
+      "id": "p12-1218-92-stiga-846-brake-parts",
+      "topic": "K",
+      "statement": "Förteckningen anger bromsskiva P000-7900-03 (pos.21), bromsplatta P000-7900-07 (pos.51) och två bromsbelägg P000-7900-06 (pos.52) i båda 846/801-046-kolumnerna.",
+      "variant": "Generisk STIGA originaldokumentation för Peerless 846 och 801-046; 13-1218-15 endast preliminärt sammankopplad av återförsäljare",
+      "grade": "A",
+      "sourceId": "stiga-peerless-846-801046-cybercat",
+      "locator": "PDF s. 2, position 21/51/52, båda modellkolumner"
+    },
+    {
+      "id": "p12-1218-92-stiga-846-gear-variants",
+      "topic": "D",
+      "statement": "STIGA:s transaxelförteckning skiljer 846 från 801-046 vid pos. 5: 846 använder kugghjul P007-7812-9A (30T) och 801-046 P000-7781-63 (31T). Utbytbarhet får inte antas.",
+      "variant": "Generisk STIGA originaldokumentation för Peerless 846 och 801-046; 13-1218-15 endast preliminärt sammankopplad av återförsäljare",
+      "grade": "A",
+      "sourceId": "stiga-peerless-846-801046-cybercat",
+      "locator": "PDF s. 2, pos. 5 och antal kolumner 846/801-046"
+    },
+    {
+      "id": "p12-1218-92-stiga-846-cover-variants",
+      "topic": "K",
+      "statement": "Kåpans position 47 har olika artikelnummer i förteckningen: P000-7720-82 för 846 och P007-7207-8A för 801-046.",
+      "variant": "Generisk STIGA originaldokumentation för Peerless 846 och 801-046; 13-1218-15 endast preliminärt sammankopplad av återförsäljare",
+      "grade": "A",
+      "sourceId": "stiga-peerless-846-801046-cybercat",
+      "locator": "PDF s. 2, pos.47, respektive modellkolumn"
+    },
+    {
+      "id": "p12-1218-92-stiga-846-axles-variants",
+      "topic": "D",
+      "statement": "Axelpositionerna 68–69 skiljer 846 och 801-046; 846 anger P000-7746-70 (382 mm) respektive P000-7746-69 (335 mm), medan 801-046 anger P007-7467-3A (368 mm) och P007-7467-4A (320 mm).",
+      "variant": "Generisk STIGA originaldokumentation för Peerless 846 och 801-046; 13-1218-15 endast preliminärt sammankopplad av återförsäljare",
+      "grade": "A",
+      "sourceId": "stiga-peerless-846-801046-cybercat",
+      "locator": "PDF s. 3 pos. 68–69, modellkolumner"
     }
   ],
   "gaps": [
@@ -174,6 +235,7 @@
     "Verifiera transaxelmodell och etikett mot original och individmärkning.",
     "Kontrollera originalservice, säkerhetskretsar och ägarmanual.",
     "Verifiera tillåtna klippaggregat och deras egna PNC, remmar och knivar.",
-    "Skaffa STIGA- eller Tecumseh-originalbelägg för uppgiften om 846 samt verifiera växellådsmärkplåten."
+    "Skaffa STIGA- eller Tecumseh-originalbelägg för uppgiften om 846 samt verifiera växellådsmärkplåten.",
+    "Bekräfta att varje 13-1218-15 verkligen har Peerless 846 före användning av STIGA:s interna 846-artiklar. Originalförteckningen säger Park generellt, inte 1992-PNC specifikt."
   ]
 }
