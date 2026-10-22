@@ -102,6 +102,20 @@
       "title": "Murray 425014X92E Peerless 206-544C ground drive OEM list",
       "document": "425014X92E GROUND DRIVE p.37",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/37"
+    },
+    {
+      "id": "murray-014e-electrical-p33-deep",
+      "tier": 2,
+      "title": "425014X92E ELECTRICAL p.33",
+      "document": "425014X92E ELECTRICAL p.33",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/33"
+    },
+    {
+      "id": "murray-014e-lift-p45-deep",
+      "tier": 2,
+      "title": "425014X92E LIFT ASSEMBLY p.45",
+      "document": "425014X92E LIFT ASSEMBLY p.45",
+      "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/45"
     }
   ],
   "topics": {
@@ -138,12 +152,12 @@
     "G": {
       "name": "Säkerhetssystem",
       "state": "gap",
-      "note": "OEM-elschema och komponentlista dokumenterar sits-/interlock-/ROS-komponenter, startsolenoid, backkörningskabel samt separata nominella belysnings- och laddningsutgångar. Mätmetodik, felgränser och individuella generatorvarianter återstår."
+      "note": "ELECTRICAL s.33: 20A-säkring 175158, ROS-styrenhet 191834, backkabelsats 193465, sitsbrytare 192749, startsolenoid 192507 och tändningslås 193350. Säkerhetsspärrar ska ej kringgås."
     },
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "OEM-reservdelskatalog innehåller 42-tums däck, rem 144959, tre namngivna knivalternativ och komplett ersättningsaggregat 171639. Ingen universell Murray-passform är belagd.\nFollow-up: 42-tums klippdäck, rem och knivvarianter är katalogförda. Lyftsystemets vajer, axel, vänster/höger lyftstag och bakre upphängningsarm har nu separata sid- och positionsbelägg; passform och ersättningsrevisioner återstår."
+      "note": "LIFT ASSEMBLY s.45 specificerar vänster/höger stag 139865/139866, lyftaxel 159471, främre stag 173288 och bakre arm 139868. Detta är inte samma konstruktion som 425014X92A/B."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -2534,6 +2548,369 @@
       "sourceId": "murray-014e-drive-p37-original",
       "grade": "B",
       "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-battery",
+      "statement": "Originalkatalogens elsystem anger komponent 163465.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 1",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-battery-box",
+      "statement": "Originalkatalogens elsystem anger komponent 176689.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 8",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-interlock-switch",
+      "statement": "Originalkatalogens elsystem anger komponent 176138.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 16",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-headlight-harness",
+      "statement": "Originalkatalogens elsystem anger komponent 175688.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 21",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-lamp-1156",
+      "statement": "Originalkatalogens elsystem anger komponent 4152J.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 22",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-battery-cable-red",
+      "statement": "Originalkatalogens elsystem anger komponent 4799J.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 24",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-battery-cable-red-16",
+      "statement": "Originalkatalogens elsystem anger komponent 146147.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 25",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-fuse-20amp",
+      "statement": "Originalkatalogens elsystem anger komponent 175158.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 26",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-ground-cable",
+      "statement": "Originalkatalogens elsystem anger komponent 4207J.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 28",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-seat-switch",
+      "statement": "Originalkatalogens elsystem anger komponent 192749.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 29",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-ignition-switch",
+      "statement": "Originalkatalogens elsystem anger komponent 193350.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 30",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-ignition-key",
+      "statement": "Originalkatalogens elsystem anger komponent 140401.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 33",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-light-switch",
+      "statement": "Originalkatalogens elsystem anger komponent 110712X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 34",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-ignition-harness",
+      "statement": "Originalkatalogens elsystem anger komponent 193374.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 40",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-starter-solenoid",
+      "statement": "Originalkatalogens elsystem anger komponent 192507.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 43",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-reverse-pigtail",
+      "statement": "Originalkatalogens elsystem anger komponent 193465.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 92",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-electric-deep-reverse-ros-module",
+      "statement": "Originalkatalogens elsystem anger komponent 191834.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "ELECTRICAL p.33 key 94",
+      "sourceId": "murray-014e-electrical-p33-deep",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-lift-wire",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 159460.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 1",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-lift-shaft",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 159471.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 2",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-groove-pin",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 105767X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 3",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-e-ring",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 12000002.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 4",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-lift-bearing",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 120183X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 6",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-handle-grip",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 109413X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 7",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-red-button",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 122365X.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 8",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-left-lift-link",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 139865.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 11",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-right-lift-link",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 139866.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 12",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-spring-retainer",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 4939M.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 13",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-front-lift-link",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 173288.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 15",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-trunnion",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 175689.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 17",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-rear-arm",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 139868.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 19",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-rear-retainer",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 163552.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 20",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-pivot-bearing",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 169865.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 31",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-lift-deep-lift-locknut",
+      "statement": "Originalkatalogens lyftmekanism anger komponent 73540600.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "LIFT ASSEMBLY p.45 key 32",
+      "sourceId": "murray-014e-lift-p45-deep",
+      "grade": "B",
+      "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
