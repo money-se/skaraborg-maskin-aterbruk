@@ -11,6 +11,13 @@
       "title": "Jonsered LT 2115 CMA 2004-06 original spare parts list, mirrored",
       "document": "LT 2115 CMA, J2115CMAB, 954130093, 2004-06, 24-page PDF",
       "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cma/tracteur_tondeuse_jonsered_lt2115cma_vue-eclate-liste-des-pieces_2004-062.pdf"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-wolfswinkel-drive",
+      "tier": 2,
+      "title": "Wolfswinkel LT2115CMA Drive catalogue",
+      "document": "LT2115CMA j2115cmab 2004-06 Drive",
+      "url": "https://www.wolfswinkel.shop/spare-parts-drawings/jonsered/ride-on-mowers/garden-tractors/lt/lt-2115-cma/lt-2115-cma-j2115cmab-954130093-2004-06?wsource=group"
     }
   ],
   "topics": {
@@ -311,6 +318,28 @@
       "topic": "E",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-dealer-drive-8",
+      "statement": "Återförsäljarens aktuella reservdelslista visar reglagestång med artikelnummer 532165619 vid Drive pos. 8. Ursprungsnummer och kompatibilitet är inte fastställda.",
+      "variant": "LT2115CMA j2115cmab 2004-06",
+      "locator": "Wolfswinkel, Drive, Ref. 8",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-wolfswinkel-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-dealer-drive-9",
+      "statement": "Återförsäljarens aktuella reservdelslista visar kopplingsenhet med artikelnummer 582219701 vid Drive pos. 9. Ursprungsnummer och kompatibilitet är inte fastställda.",
+      "variant": "LT2115CMA j2115cmab 2004-06",
+      "locator": "Wolfswinkel, Drive, Ref. 9",
+      "sourceId": "jonsered-lt2115cma-j2115cmab-wolfswinkel-drive",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -324,6 +353,7 @@
     "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2005-05-revision 96061001002. Full bildgranskning och utbytbarhetsbelägg återstår.",
     "Jämförelse 2004-06 mot 2005-05 visar skilda CHASSIS & BOITIER-nummer på positionerna 9, 17, 28, 30, 58 och 89. Katalogtexten kontrollerad men PDF-bildvisning misslyckades; kontroll av bilder, eventuella ersättningsnummer och faktisk passform återstår.",
     "Källkvalitet: 2004-06-PDF för J2115CMAB anger LT2115CMA på omslag och avsnittshuvuden men minst en sprängbildsrubrik anges som LT2117CMA (J2117CMAB). Orsaken till denna interna identitetskonflikt måste utredas mot annan OEM-kopia innan specifika komponenter publiceras.",
-    "Ny originalkatalogkopia hittad: EasyConcept 2004-06 J2115CMAB 954130093 visar enligt indexerad ENGINE-rubrik LT2115CMA med produktnummer 954 13 02-16. Foretjardin-kopian anger i motsvarande rubrik LT2117CMA J2117CMAB 954 13 00-93. Skillnaden talar för sammanblandade schemablad; avgör ej motortyp utan dubbelkontroll."
+    "Ny originalkatalogkopia hittad: EasyConcept 2004-06 J2115CMAB 954130093 visar enligt indexerad ENGINE-rubrik LT2115CMA med produktnummer 954 13 02-16. Foretjardin-kopian anger i motsvarande rubrik LT2117CMA J2117CMAB 954 13 00-93. Skillnaden talar för sammanblandade schemablad; avgör ej motortyp utan dubbelkontroll.",
+    "Wolfswinkels artikelnummer kan vara ersättningsnummer; kräver jämförelse med ursprunglig Jonsered-reservdelskatalog för denna revision."
   ]
 }
