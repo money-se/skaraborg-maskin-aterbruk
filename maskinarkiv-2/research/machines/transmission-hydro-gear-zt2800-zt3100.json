@@ -39,6 +39,13 @@
       "title": "Hydro-Gear earlier ZT-2800/ZT-3100/ZT-3200/ZT-3400 Service and Repair Manual",
       "document": "BLN-52441 P23, archived manufacturer PDF (2021 URL)",
       "url": "https://hydro-gear.com/wp-content/uploads/2021/09/BLN-52441_P23.pdf"
+    },
+    {
+      "id": "hg-zt3200-original-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-3200 official product specification",
+      "document": "ZT-3200 manufacturer product page, Product Specs, accessed 2026-10-22",
+      "url": "https://www.hydro-gear.com/product/zt-3200/"
     }
   ],
   "topics": {
@@ -842,6 +849,60 @@
       "sourceId": "hg-bln52441-2023-manual-index",
       "grade": "B",
       "topic": "F"
+    },
+    {
+      "id": "zt3200-pump-motor-original",
+      "statement": "Hydro-Gear anger pumpdeplacement 10 cm³/varv och hydraulmotordeplacement 16 cm³/varv för ZT-3200-produktfamiljen.",
+      "variant": "ZT-3200, tillverkarens aktuella produktblad",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3200-reductions-original",
+      "statement": "Hydro-Gear visar ZT-3200 som transaxelmodell ZJ, ZL och ZM med respektive slututväxling 20,69:1, 24,74:1 och 27,23:1. Endast fullständig modellkod kan knyta rätt alternativ till en enhet.",
+      "variant": "ZT-3200, ZJ/ZL/ZM varianter",
+      "locator": "Product Specs > Transmission Model / Overall Transaxle Reduction",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "zt3200-operating-limits-original",
+      "statement": "Hydro-Gears produktblad anger högsta obelastade ingångsvarvtal 3600 rpm, lägsta belastade 1800 rpm och hastighet upp till 14 km/h för ZT-3200. Det är familjegränser, inte garanti för maskinens maxhastighet.",
+      "variant": "ZT-3200 produktfamilj",
+      "locator": "Product Specs > Input Speeds / Speed",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt3200-axle-gvw-original",
+      "statement": "Tillverkarens ZT-3200-produktblad anger axeldiameter 1,125 tum (28,56 mm) och högsta angivna bruttofordonsvikt 1500 lb (680 kg); det senare är komponentens specifikationsgräns, inte nyttolast.",
+      "variant": "ZT-3200 produktfamilj",
+      "locator": "Product Specs > Axle Shaft Diameter / Gross Vehicle Weight",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "F"
+    },
+    {
+      "id": "zt3200-performance-package-variant",
+      "statement": "ZT-3200 har enligt Hydro-Gear en performance-package-option med chockventiler, skurna stålväxlar och laddpump; separat nämns standardmässiga chockventiler. Det är därför fel att automatiskt anta att hela performance-paketet ingår i varje BOM.",
+      "variant": "ZT-3200, tillval och standardutrustning åtskilda",
+      "locator": "Features > Performance package / Standard shock valves",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "zt3200-shaft-ends-original",
+      "statement": "Tillverkaren listar tre axelutföranden för ZT-3200: konisk axel, 4-bultsfläns och 5-bultsfläns. Hjulnav och drivaxeldelar kan inte väljas efter ZT-3200-familjenamnet ensamt.",
+      "variant": "ZT-3200 produktfamilj, alternativ axelände",
+      "locator": "Product Specs > Axle Shaft End Options",
+      "sourceId": "hg-zt3200-original-product",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -863,6 +924,7 @@
     "Gör riktad jämförelse mellan P23/P24/P25 för sidokåpsmoment och tätning innan generella verkstadsinstruktioner publiceras; nu verifierade värden gäller uttryckligen P25.",
     "Äldre manualversion med 65 in-lb för filterkåpans skruvar behöver identifieras med exakt publiceringsdatum/dokumentrevision; tillgänglig P23 (april 2021) anger 115 in-lb. Förväxla inte med P25:s separata position 23 oljefilter, 70–90 lb-in.",
     "Fastställ om konkret ZT-2800 är charged eller uncharged via komplett Hydro-Gear BOM och OEM-dokument före diagnos, laddpumpsbeställning eller användning av hydrauliskt schema.",
-    "Jämför aktuellt ZT-2800-produktblad (3000 rpm) med P24 servicehandbok (3000 rpm non-charge, 3600 rpm charged) mot fullständigt BOM och vid behov fråga Hydro-Gear vilket ingångsvarvtal som gäller den aktuella enheten."
+    "Jämför aktuellt ZT-2800-produktblad (3000 rpm) med P24 servicehandbok (3000 rpm non-charge, 3600 rpm charged) mot fullständigt BOM och vid behov fråga Hydro-Gear vilket ingångsvarvtal som gäller den aktuella enheten.",
+    "Identifiera fullständig ZT-3200 BOM-kod innan laddpump, performance package, navände eller axelsats väljs; produktbladet listar tillval snarare än garanterad montering."
   ]
 }
