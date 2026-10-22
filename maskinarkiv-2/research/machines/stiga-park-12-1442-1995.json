@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1442-1995",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA PARK 12 produktnummer 13-1442-18 Season 1995 enligt tillverkarens originalreservdelskatalog (utgåva 44–2014). Uppgifter och serienummergränser får inte generaliseras till andra Park 12-PNC.",
+  "sources": [
+    {
+      "id": "stiga-park12-1442-1995-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 – originalreservdelskatalog",
+      "document": "13-1442-18, Season 1995, Issue 44–2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1442-18_94_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Enskilda komponentuppgifter har originalstöd men fullständigt modellbundet ägarmanual- och serviceunderlag, motoridentitet, säkerhetslogik, elschema och aggregatpassform saknas ännu."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-1442-95-identity",
+      "topic": "A",
+      "statement": "STIGA originalkatalog gäller PARK 12 13-1442-18 Season 1995 och utgåva 44–2014.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "PDF sida 1 och tryckt sida 3"
+    },
+    {
+      "id": "p12-1442-95-nameplate",
+      "topic": "L",
+      "statement": "Originalkatalogen kräver kontroll av maskinens tillverkningsår på identifikationsplåten innan korrekt reservdelslista väljs.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "PDF sida 1, tillverkartext"
+    },
+    {
+      "id": "p12-1442-95-carburetor",
+      "topic": "C",
+      "statement": "Förgasar-/luftfiltergruppen listar komplett förgasare 496592 (pos.125), bränslefilter 298090 (pos.240) samt startmotor 497595 (pos.309). Delnumren är inte ett verifierat Model/Type/Code.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 3, Förgasare Luftfilter position 125,240,309"
+    },
+    {
+      "id": "p12-1442-95-internal-engine",
+      "topic": "C",
+      "statement": "Cylinder-/vevhusgruppen listar cylinder 496413 (pos.1), topplock 494240 (pos.5) och vevhus 494238 (pos.18), utan att fastställa motorns fulla märkning.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 7, Cylinder Vevhus pos. 1,5,18"
+    },
+    {
+      "id": "p12-1442-95-sparkplug-listed",
+      "topic": "C",
+      "statement": "Katalogen anger Champion J19LM vid tändstiftsposition 337 med reservdelsreferenser 1111-9028-02 och 9400-0225-00. Motoridentitet måste ändå kontrolleras före service.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 9, Cylinder Vevhus pos. 337"
+    },
+    {
+      "id": "p12-1442-95-peerless-930",
+      "topic": "D",
+      "statement": "Katalogens interna reservdelsgrupp är märkt Tecumseh Peerless Transaxle 930-022; separat transmissionstabell visar senare transaxelnummer vilket begränsar internkomponenternas tillämplighet.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 13 rubrik och sida 31 pos.18"
+    },
+    {
+      "id": "p12-1442-95-transaxle-serial",
+      "topic": "D",
+      "statement": "Basmaskinens transmissionstabell anger komplett 1134-3278-01 (Peerless 930-022) t.o.m. serienummer 960401 samt komplett 1134-3716-01 fr.o.m. 960402.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 31, Transmission pos. 18"
+    },
+    {
+      "id": "p12-1442-95-peerless-housing",
+      "topic": "K",
+      "statement": "Peerless 930-022:s interna reservdelslista visar kåpa 772108 (pos.1), växellådshus 770102 (pos.3) och växelförare 784345 (pos.10), endast för den angivna internmodellen.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 13, Tecumseh Peerless Transaxle 930-022, pos.1,3,10"
+    },
+    {
+      "id": "p12-1442-95-peerless-brake",
+      "topic": "K",
+      "statement": "Peerless 930-022:s reservdelslista anger bromsskiva 790003 på pos.36 och bromsbelägg 799021 (2 stycken) pos.38.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 13, Tecumseh Peerless Transaxle 930-022 pos.36,38"
+    },
+    {
+      "id": "p12-1442-95-pto-control",
+      "topic": "F",
+      "statement": "Kraftuttagsgruppen listar reglagespak 1134-1396-02 för 1441/1442/1443, medan alternativet 1134-0027-01 uttryckligen gäller 1168/1358/1458.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 25, Power Take-Off pos.8"
+    },
+    {
+      "id": "p12-1442-95-pto-cable",
+      "topic": "F",
+      "statement": "STIGA anger kraftuttagswire 1134-3573-01 pos.9 och urkopplingsspak 1134-1972-01 pos.10.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 25, Power Take-Off pos.9–10"
+    },
+    {
+      "id": "p12-1442-95-pto-belt",
+      "topic": "H",
+      "statement": "Kraftuttagsgruppen anger kilrem 1134-9012-01 (alternativ referens 9585-0056-00) pos.57, inte samma som transmissionens rem.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 25, Power Take-Off pos.57"
+    },
+    {
+      "id": "p12-1442-95-transmission-belt",
+      "topic": "D",
+      "statement": "Transmissionstabellen anger kilrem 1134-9035-01 med reservdelsreferens 9585-0078-00.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 31, Transmission pos.10"
+    },
+    {
+      "id": "p12-1442-95-gearwire",
+      "topic": "F",
+      "statement": "Transmissionen listar växelwire 1134-2031-02 pos.51 samt kopplingswire 1134-2030-04 pos.62.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 31 och 33, Transmission pos.51,62"
+    },
+    {
+      "id": "p12-1442-95-brake-option",
+      "topic": "G",
+      "statement": "En separat grupp för kraftuttagsbroms rubriceras 'End. Vissa Modeller', så dess brytare 1134-3156-01 och kablage 1134-3718-01 får inte antas finnas på varje exemplar.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 29, Kraftuttagsbroms (End. Vissa Modeller), pos.31–32"
+    },
+    {
+      "id": "p12-1442-95-fuse",
+      "topic": "G",
+      "statement": "Elsystemstabellen listar säkring 1134-3496-01, 10 A, med antal två; katalogen fastställer inte respektive säkringskrets.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 35, Elsystem pos.17"
+    },
+    {
+      "id": "p12-1442-95-harness",
+      "topic": "K",
+      "statement": "Elsystemets position 50 skiljer kabelstam 1134-3718-01 för art.nr 1442 från 1134-3697-01 för art.nr 1168.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 35, Elsystem pos.50"
+    },
+    {
+      "id": "p12-1442-95-ignition",
+      "topic": "K",
+      "statement": "Elsystemstabellen visar tändningslås 1134-1814-01 vid position 44.",
+      "variant": "STIGA Park 12 13-1442-18 Season 1995; serienummersnitt/undergrupp där angivet",
+      "grade": "A",
+      "sourceId": "stiga-park12-1442-1995-ipl",
+      "locator": "Tryckt sida 35, Elsystem pos.44"
+    }
+  ],
+  "gaps": [
+    "Fullständigt motor-ID (Briggs Model/Type/Code) och motorserienummerspecifik reservdelslista är ännu inte originalverifierade.",
+    "Katalogens transaxelbyte vid serienummer 960401/960402 behöver knytas till verkliga märkplåtar och senare transaxelns original-IPLs innan reparationsråd.",
+    "STIGA-ägarmanual och serviceintervall för 13-1442-18 saknas.",
+    "Rätt kompatibla klippaggregat och deras separata PNC/monteringskit är inte tillverkarbekräftade.",
+    "Säkerhetskrets och elektriskt kopplingsschema ska kontrolleras; artikellistorna bekräftar bara komponenter.",
+    "Original-PDF:s ritningar kunde inte granskas visuellt eftersom webbens PDF-screenshot gav fel; tabelltext och originalkatalogidentitet har verifierats."
+  ]
+}
