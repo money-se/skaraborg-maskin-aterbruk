@@ -438,6 +438,34 @@
       "title": "PartsTree 585034501 belt supersession",
       "document": "585034501 superseded to 594978001",
       "url": "https://www.partstree.com/parts/husqvarna-585034501/"
+    },
+    {
+      "id": "husqvarna-rider-belts-official-589530601-506768501",
+      "tier": 1,
+      "title": "Husqvarna genuine spare part catalogue RIDER BELTS, 589530601",
+      "document": "Husqvarna spare part catalogue, page 58 Rider Belts, 589530601 kit for belt art.no. 506768501, L=1880 mm",
+      "url": "https://www-static-nw.husqvarna.com/-/files/documents/husqvarna-spare-part-catalogue.pdf?v=afa1ffa6"
+    },
+    {
+      "id": "rider16-sgarden-2010-combi103-504188201",
+      "tier": 2,
+      "title": "sGarden 2010 Rider 16 Mower Deck parts list",
+      "document": "Rider 16 PNC 965161601 2010-07, section Combi deck, item 26 blade 504188201",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/28653/MOWER_DECK__CUTTING_DECK"
+    },
+    {
+      "id": "husqvarna-rider16c-2010-07-separate-ipl",
+      "tier": 1,
+      "title": "Husqvarna IPL Rider 13 C / Rider 16 C, 2010-07",
+      "document": "Husqvarna 965094301 / 966830601, July 2010",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000045662/doc000081903/IPL/C9SKnqTaHbnAcqc819IE6aMI2Xo?httproute=True"
+    },
+    {
+      "id": "husqvarna-rider16c-2008-12-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 C operator manual 2008-12",
+      "document": "Technical data 16 C on printed page 39, model distinct from Rider 16",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000038635/doc000071097"
     }
   ],
   "topics": {
@@ -2585,11 +2613,11 @@
     },
     {
       "id": "rider16-batch44-belt-2007-2010-supported",
-      "statement": "Messicks och PartsTree anger att Husqvarna-rem 506768501 har ersatts av 589530601. Det motsvarar skillnaden mellan Rider 16 Combi 103 965078401:s originalkataloger 2007-06 och 2010-07. Använd inte ersättningsuppgiften för andra rempositioner utan delnummerkontroll.",
+      "statement": "Husqvarnas egen Genuine Parts-katalog anger remsats 589530601 för äldre remartikel 506768501 med längd 1880 mm, vilket ger tillverkarstöd för just detta artikelpar. Rider 16 PNC 965161601:s 2007-06/2010-07-IPLs visar respektive nummer i Combi 103 965078401:s aggregatgrupp. Stöd för ytterligare äldre nummer kräver separat belägg.",
       "variant": "Rider 16 965161601 Combi103 965078401; 2007-06 vs 2010-07, sekundär ersättningsuppgift",
-      "locator": "Messicks 506768501 > replaced by 589530601; PartsTree 506768501 > superseded to 589530601",
-      "sourceId": "r16-combi103-messicks-506768501-supersession",
-      "grade": "B",
+      "locator": "Husqvarna Genuine Spare Parts catalogue p.58 RIDER BELTS, row '589530601 BELT SPARE PART, KIT Belt art.no. 506768501 L:1880 mm'; Rider16 2007/2010 IPL",
+      "sourceId": "husqvarna-rider-belts-official-589530601-506768501",
+      "grade": "A",
       "topic": "E"
     },
     {
@@ -2654,6 +2682,60 @@
       "sourceId": "r16-combi112-wolfswinkel-504188110",
       "grade": "B",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch47-oem-belt-1880",
+      "statement": "Husqvarnas egen tabell RIDER BELTS anger ersättningssats 589530601 för rem 506768501, längd 1880 mm; den listar bland annat R16 som modellreferens men inte varje maskin-PNC.",
+      "variant": "Husqvarna Rider16 965161601 eller explicit avgränsad Rider16C-jämförelse; PNC-kontroll krävs",
+      "locator": "PDF Genuine Spare Parts p.58 '589530601 BELT SPARE PART, KIT Belt art.no. 506768501 L: 1880 mm'",
+      "sourceId": "husqvarna-rider-belts-official-589530601-506768501",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch47-oem-2010-blade-201-not-210",
+      "statement": "Återförsäljaren sGarden har för Rider 16 PNC 965161601 2010-07 i Combi 103-reservdelsgruppen kniv 504188201 (position 26), medan original-Husqvarna IPL 2010-07 visar 504188210. Dessa två uppgifter avviker; tillverkarens daterade dokument har företräde tills sGarden nummerkod fastställts.",
+      "variant": "Husqvarna Rider16 965161601 eller explicit avgränsad Rider16C-jämförelse; PNC-kontroll krävs",
+      "locator": "sGarden Rider16 2010-07 MOWER DECK partlist 28653 pos 26 504188201; jämför OEM IPL 2010-07 P50 pos 26 504188210",
+      "sourceId": "rider16-sgarden-2010-combi103-504188201",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch47-oem-2010-shared-pulley",
+      "statement": "Rider 16:s 2010-07 IPL listar för båda aggregatgrupperna 965078401 och 965078501 remskiva 506922101 (tre per aggregat), parallellkil 506533501 (sju rader/antal) och extra remskiva 506778601. Delad remskivefamilj är inte bevis för att remmarna eller knivarna är lika.",
+      "variant": "Husqvarna Rider16 965161601 eller explicit avgränsad Rider16C-jämförelse; PNC-kontroll krävs",
+      "locator": "2010-07 OEM IPL P50 pos 19/20/22 och P54 pos 19/20/22",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch47-oem-2010-deck-different-cross-tubes",
+      "statement": "2010-07 originalkatalogen visar olika främre/bakre tvärrör i 965078401 respektive 965078501:s aggregatsektioner: 535430601 och 535431201 mot 535468801 och 535468701. Därmed skiljer monteringskomponenter och inte enbart kniv/rem.",
+      "variant": "Husqvarna Rider16 965161601 eller explicit avgränsad Rider16C-jämförelse; PNC-kontroll krävs",
+      "locator": "2010-07 OEM IPL P52 pos45/46; P54 fortsatta blad/P55 pos45/46",
+      "sourceId": "husqvarna-rider16-965161601-2010-07-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch47-oem-rider16c-distinct-model",
+      "statement": "Husqvarna publicerade en separat IPL för Rider 16 C PNC 966830601 (tillsammans med Rider 13 C PNC 965094301) i juli 2010, vars Combi-aggregat har andra blad-/knivhuspositioner. Rider 16 C får inte sammanföras med Rider 16 PNC 965161601 enbart på beteckningen Rider 16.",
+      "variant": "Husqvarna Rider16 965161601 eller explicit avgränsad Rider16C-jämförelse; PNC-kontroll krävs",
+      "locator": "Husqvarna IPL Rider 13 C/Rider 16 C 965094301,966830601 2010-07, page T CUTTING DECK",
+      "sourceId": "husqvarna-rider16c-2010-07-separate-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch47-oem-rider16c-engine",
+      "statement": "Husqvarnas Rider 16 C-ägarmanual 2008-12 anger Briggs 31A6070113E1, 502 cm3 och Tuff Torq K46 samt 940 mm Combi, vilket inte utan vidare beskriver Rider 16 utan C-suffix.",
+      "variant": "Husqvarna Rider16 965161601 eller explicit avgränsad Rider16C-jämförelse; PNC-kontroll krävs",
+      "locator": "Rider11 R/11 C/13 C/16 C AWD/16 C OM 2008-12, Technical Data Rider 16 C p39",
+      "sourceId": "husqvarna-rider16c-2008-12-owner",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -2757,6 +2839,9 @@
     "Rider 16 Combi 103 965078401: återförsäljare stöder 544103001→504188210 och 506768501→589530601. En direkt OEM-ersättningsbulletin saknas. Kontrollera också vad som gäller för andra Combi 103 PNC.",
     "Combi 112 965078501: kedjan 535411901→585034501→594978001 stöds av AHUPD, PartsTree och Messicks men inte av direkt tillverkarbulletin. Bekräfta att det är samma remposition i Rider 16:s specifika aggregat.",
     "Kniv 544102801→504188110 anges av flera reservdelshandlare för Combi 112; tillverkarpublicerat ersättningsbesked och måttsatt originalritning saknas.",
-    "Kvalitetsgranskning PR #141: skilj alltid originaldokumenterat remsystem (grad A) från senare återförsäljarkorsreferenser (grad B); ingen överföring av kvalitetsgrad mellan dessa."
+    "Kvalitetsgranskning PR #141: skilj alltid originaldokumenterat remsystem (grad A) från senare återförsäljarkorsreferenser (grad B); ingen överföring av kvalitetsgrad mellan dessa.",
+    "Rider16 2010-07 OEM IPL anger kniv 504188210 men sGarden för samma katalog anger 504188201. Verifiera varför sGarden har ett annat nummer; använd originalkatalogens uppgift tills officiellt ersättningsbesked finns.",
+    "Tillverkarens Rider Belts-katalog ger direkt par 506768501→589530601 L1880 mm, men inte automatiskt 531005017→589530601. Nedgradera inte nummerkedjan till ett enda obrutet OEM-faktum.",
+    "Rider 16 C (966830601) har separat 2010-IPL och 2008-12 OM: håll isär Rider 16, Rider 16 C och Rider 16 H i PNC-bundna korsreferenser."
   ]
 }
