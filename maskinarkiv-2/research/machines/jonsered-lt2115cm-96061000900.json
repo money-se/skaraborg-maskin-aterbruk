@@ -9,7 +9,7 @@
       "id": "jonsered-lt2115cm-96061000900-catalog",
       "tier": 2,
       "title": "Jonsered LT2115CM 2005-01 parts catalogue",
-      "document": "96061000900, alternate product 954130233, 2005-01",
+      "document": "96061000900, alternate product 954130223 (tidigare felaktigt registrerat 954130233), 2005-01",
       "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cm/tracteur_tondeuse_jonsered_lt2115cm_vue-eclate-liste-des-pieces_2005-01.pdf"
     },
     {
@@ -90,10 +90,10 @@
   "claims": [
     {
       "id": "jonsered-lt2115cm-96061000900-catalog-identity",
-      "statement": "Reservdelskatalogen identifierar LT2115CM, maskinnummer 96061000900, äldre produktnummer 954130233, revisionsdatum 2005-01. Den anger inte ensam motorns exakta spec, transmissionens interna revision eller komponenternas nuvarande passform.",
-      "variant": "LT2115CM 96061000900 / 2005-01",
-      "locator": "Catalog heading/model identity and dated parts index",
-      "sourceId": "jonsered-lt2115cm-96061000900-catalog",
+      "statement": "Originalkatalogen IPL 544 02 34-01 anger LT2115CM (96061000900), PRODUCT NO. 954 13 02-23 (954130223) för januari 2005. Tidigare registeruppgift 954130233 är motsägande och ska inte behandlas som bekräftat produktnummer.",
+      "variant": "LT2115CM 96061000900 / PRODUCT NO. 954130223 / 2005-01",
+      "locator": "IPL 544 02 34-01, TRACTOR MODEL / PRODUCT NO. heading",
+      "sourceId": "jonsered-lt2115cm-96061000900-original-ipl-5440234",
       "grade": "B",
       "topic": "A",
       "verification": "needs_verification",
@@ -148,6 +148,7 @@
     "Utökning kräver sidvis originalkatalogkontroll av DRIVE, ENGINE, ELECTRICAL, MOWER och STEERING.",
     "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
     "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
-    "Originalkatalog IPL 5440234-01 för 2005-01 visar Peerless 206-546. Drivlineuppgifter kommer från indexerad original-PDF-text; sidbild cachefel. Exakt transmission-ID på fysisk maskin och serviceinstruktion kvarstår."
+    "Originalkatalog IPL 5440234-01 för 2005-01 visar Peerless 206-546. Drivlineuppgifter kommer från indexerad original-PDF-text; sidbild cachefel. Exakt transmission-ID på fysisk maskin och serviceinstruktion kvarstår.",
+    "KRITISK IDENTITETSRÄTTELSE: forskningspostens tidigare produktnummer 954130233 saknade stöd i nu kontrollerad original-IPL 544 02 34-01, vars sidrubrik anger 954130223. Felidentifiering måste uppmärksammas vid katalogimport och eventuell publicering."
   ]
 }
