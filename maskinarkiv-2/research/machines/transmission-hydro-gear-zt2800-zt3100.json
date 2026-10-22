@@ -25,6 +25,20 @@
       "title": "Hydro-Gear ZT-2800 ZT-3100 ZT-3200 Service and Repair Manual",
       "document": "BLN-52441 January 2023 official PDF; detailed values pending PDF visual inspection",
       "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-52441_ZT2800_3100_3200_P24.pdf"
+    },
+    {
+      "id": "hg-bln52441-apr2023",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2800/ZT-3100/ZT-3200 Service and Repair Manual, April 2023",
+      "document": "BLN-52441 April 2023 (P25), manufacturer PDF",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/07/BLN-52441_P25.pdf"
+    },
+    {
+      "id": "hg-bln52441-2021",
+      "tier": 1,
+      "title": "Hydro-Gear earlier ZT-2800/ZT-3100/ZT-3200/ZT-3400 Service and Repair Manual",
+      "document": "BLN-52441 P23, archived manufacturer PDF (2021 URL)",
+      "url": "https://hydro-gear.com/wp-content/uploads/2021/09/BLN-52441_P23.pdf"
     }
   ],
   "topics": {
@@ -288,6 +302,24 @@
       "sourceId": "hg-bln52441-2023-manual-index",
       "grade": "B",
       "topic": "K"
+    },
+    {
+      "id": "bln52441-april2023-revision",
+      "statement": "Hydro-Gear publicerar BLN-52441 med omslagsdatum April 2023, utgåva P25, för ZT-2800/ZT-3100/ZT-3200. Detta är en senare dokumentversion än januari 2023 och ska granskas separat vid servicevärden och reservdelar.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, dokumentutgåva BLN-52441 P25",
+      "locator": "Omslag, dokumenttitel och April 2023, webbindexerad original-PDF (sidbild inte tillgänglig)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "B",
+      "topic": "A"
+    },
+    {
+      "id": "bln52441-older-includes-zt3400",
+      "statement": "En äldre Hydro-Gear-version av BLN-52441 omfattar även ZT-3400, till skillnad från 2023-utgåvans titel som enbart nämner ZT-2800/ZT-3100/ZT-3200; tekniska värden måste därför knytas till utgåva och modellserie.",
+      "variant": "BLN-52441 äldre P23 respektive 2023 P25",
+      "locator": "Båda originalmanualernas omslag/titlar, webbindexerade PDF-utdrag (sidbilder ej verifierade)",
+      "sourceId": "hg-bln52441-2021",
+      "grade": "B",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -297,6 +329,8 @@
     "Jämför utgåvorna från 2015, 2021 och 2023 för att undvika att serviceintervall överförs mellan editioner.",
     "Kontrollera separat vilka års-/OEM-modeller som verkligen har ZT-2800 och ZT-3100.",
     "Kontrollera sidbilden för 2023 års BLN-52441 oljemängdstabell innan tecken 7 och 13 kopplas till exakta volymer; PDF är större än webbverktygets sidvisningsgräns.",
-    "Filter 52114 anges i BLN-52441:s allmänna oljebytesinstruktion; bekräfta konkret OEM BOM-kod, eventuella ersättningsnummer samt källdokumentets sidbild innan reservdelen rekommenderas."
+    "Filter 52114 anges i BLN-52441:s allmänna oljebytesinstruktion; bekräfta konkret OEM BOM-kod, eventuella ersättningsnummer samt källdokumentets sidbild innan reservdelen rekommenderas.",
+    "Kritisk revisionskontroll: äldre BLN-52441 anger 65 in-lb för filterkåpans skruvar medan januari 2023-utdrag anger 115 in-lb; tillämpa inget moment utan kontroll av rätt utgåva, skruv och BOM. Kontrollera även senare april 2023 P25.",
+    "Kontrollera felaktigt återgivna momentomräkningar i tredjepartstranskriptioner (t.ex. 120 in-lb anges även som 20,3 Nm, vilket matematiskt inte stämmer); förlita dig på verifierad källbild och korrekt enhet."
   ]
 }
