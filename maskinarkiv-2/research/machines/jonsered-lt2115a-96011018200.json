@@ -207,9 +207,9 @@
     },
     {
       "id": "jonsered-lt2115a-96011018200-air-service",
-      "statement": "Kohler-manualen anger kontroll/service av förfilter efter 25 timmar eller årligen och byte av luftfilter efter 100 timmar eller årligen, med särskilda villkor för utföranden utan förfilter.",
+      "statement": "Kohlers SV470–SV620-verkstadshandbok, rev. J, listar vid 25 timmar eller årligen både service/byte av lågprofil-förfilter och byte av luftfilterelement om förfilter saknas. Samma handbok listar dessutom byte av luftfilterelement (om förfilter saknas) vid 100 timmar eller årligen. Originalets dubbla rader återges utan att ett maskinspecifikt filterutförande antas.",
       "variant": "LT2115A / 96011018200",
-      "locator": "Kohler manual s. 3, MAINTENANCE SCHEDULE",
+      "locator": "Kohler 20 690 01 Rev. J, tryckt s. 3 (PDF-sida 3, index 2), MAINTENANCE SCHEDULE, Every 25 Hours or Annually och Every 100 Hours or Annually",
       "sourceId": "kohler-sv470-sv620-official-sm",
       "grade": "B",
       "topic": "J",
@@ -244,6 +244,7 @@
     "Förarmanual, serviceintervall, oljespecifikation och fullständig transmissionsbeteckning behöver komplett kontroll.",
     "Ingen generell reservdelspassform mellan LT2115, LT2115A, LT2115CM och LT2115CMA får antas.",
     "PDF-skärmbildskontrollen misslyckades; positioner och katalogtext bör bildverifieras före artikelpublicering.",
-    "Motorns individuella Kohler Specification och Serial Number saknas; manualens generella SV470-intervall behöver stämmas av med den installerade motorns utförande."
+    "Motorns individuella Kohler Specification och Serial Number saknas; manualens generella SV470-intervall behöver stämmas av med den installerade motorns utförande.",
+    "Luftfilterschemats 25- respektive 100-timmarsrader har bevarats enligt originalmanualen. Den individuella SV470-motorns filterutförande ska fastställas före praktiskt servicelöfte."
   ]
 }
