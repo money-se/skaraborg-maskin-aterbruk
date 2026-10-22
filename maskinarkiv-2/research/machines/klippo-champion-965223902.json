@@ -74,6 +74,20 @@
       "title": "ReservdelarOnline KLIPPO motorbromsvajer 5854020-01 passforms- och ersättningslista",
       "document": "Reservdelsprodukt med Champion 2013-01, 2015-12, ersätter 5033134-01 och 1363",
       "url": "https://www.reservdelaronline.se/produkter/motorbromsvajer-champion-triumph-pro-17-h-5854020-01"
+    },
+    {
+      "id": "oem-klippo-2018-manual-848-001",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO original owner manual 848-001 2018-10",
+      "document": "KLIPPO Triumph, Champion, Pro17H, Excellent, Excellent H; SV technical data p.15",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000074208/doc000127133/OM/UjVWDz43_w9gbg36gkgFvsb8PSY"
+    },
+    {
+      "id": "oem-klippo-2018-manual-829-002",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO original owner manual 829-002 2018-10",
+      "document": "KLIPPO Champion S, Champion XL S etc, SV technical data p.19",
+      "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000074207/doc000127132/OM/gtww2dNLvKOAgbtQe970sljntbk"
     }
   ],
   "topics": {
@@ -625,6 +639,33 @@
       "sourceId": "retailer-champion-brake-cable-585402001",
       "grade": "B",
       "topic": "G"
+    },
+    {
+      "id": "champion-2018-oem-mulcher",
+      "statement": "Husqvarnas originalmanual 848-001 från 2018 anger mulcherkniv 48 cm 5028813-10 för Champion. Det är inte bevis på direkt passform till äldre Champion PNC 965223902.",
+      "variant": "Champion enligt 2018 originalmanual",
+      "locator": "Tryckt sida 15, Teknisk data Skärutrustning > Mulcher – 48 cm; PDF index 14",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "champion-s-2018-oem-mulcher",
+      "statement": "Husqvarnas 2018 originalmanual 829-002 skiljer Champion S med 48 cm mulcherkniv 5028813-10 från Champion XL S med 53 cm mulcherkniv 5028814-10.",
+      "variant": "Champion S och Champion XL S, 2018",
+      "locator": "Tryckt sida 19, Skärutrustning; PDF index 18",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "champion-2018-oem-no-crosscut-generic",
+      "statement": "2018 års originalmanual 848-001 listar vanlig 48 cm mulcherkniv som Champions knivsystem, medan Cross-Cut anges för Excellent. Denna skillnad avser manualens variantuppställning och får inte extrapoleras till exempelvis Champion S utan egen kontroll.",
+      "variant": "Champion respektive Excellent 2018",
+      "locator": "Tryckt sida 15, Skärutrustning rader Kniv och Cross cut; PDF index 14",
+      "sourceId": "oem-klippo-2018-manual-848-001",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -638,6 +679,7 @@
     "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
     "Champion 965223902 2012-06 visar två separata knivfästespositioner 7 och 8 (579228401 respektive 503259901) samt motorangivelse med katalogtext TBD; utred om det är alternativ/reservdelsrevisioner, inte två obligatoriska fästen.",
     "Kontrollera om 5032843-01 behåller samma dimensioner och fästhål för samtliga angivna Champion-årgångar; återförsäljarens passformslista är inte original-IPL.",
-    "Klippo Champion PNC 965223902 2012-06 och 2013-01 har fyra olika motorgruppsdelnummer (ref 1,2,4,7); kontrollera ursprungliga IPL-bilder och komponentfunktion innan byte. 2013 års motorgrupp saknar kil-ref 6 i återförsäljarens lista; dra ingen slutsats om fysisk frånvaro."
+    "Klippo Champion PNC 965223902 2012-06 och 2013-01 har fyra olika motorgruppsdelnummer (ref 1,2,4,7); kontrollera ursprungliga IPL-bilder och komponentfunktion innan byte. 2013 års motorgrupp saknar kil-ref 6 i återförsäljarens lista; dra ingen slutsats om fysisk frånvaro.",
+    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam."
   ]
 }
