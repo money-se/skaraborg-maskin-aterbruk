@@ -225,6 +225,69 @@
       "sourceId": "hg-bln52441-2023-manual-index",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "bln52441-service-interval",
+      "statement": "Tillverkarens BLN-52441 rekommenderar ett första byte av olja och externt filter vid 75–100 drifttimmar, därefter var 400:e drifttimme, för de transmissioner som omfattas av 2023 års manual.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, ej OEM-specifik maskin",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, inledningsstycke",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-filter-52114",
+      "statement": "I 2023 års FLUID CHANGE PROCEDURE anges Hydro-Gear artikelnummer 52114 som ersättningsoljefilter. Kontroll av konkret OEM-modellkod och eventuell senare artikelersättning krävs före beställning.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, oljebytesprocedur",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, steg 3",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bln52441-filter-tightening",
+      "statement": "Hydro-Gear instruerar i BLN-52441 att nytt filter monteras för hand och dras ytterligare 3/4 till ett helt varv efter att filterpackningen har fått kontakt med anliggningsytan.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, steg 3–4",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-drain-cold",
+      "statement": "Manualen kräver oljetemperatur under 100°F (cirka 38°C) vid avtappning, särskilt för utföranden med intern expansionstank för att undvika överfyllning och skada på avluftaren.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200, intern expansionstank",
+      "locator": "Tryckt s. 11, CAUTION och Note före steg 2",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-filter-guard",
+      "statement": "BLN-52441 anger åtdragningsmoment 115 in-lb (12,99 Nm) för filterkåpans 1/4-tumsskruvar; värdet gäller just dessa fästelement, inte andra skruvar.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE steg 5",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-fill-top-port",
+      "statement": "Vid oljebyte beskriver manualen fyllning med 20W50 tills oljan når bottenkanten på varje transaxels övre port. För utföranden med extern expansionstank fylls denna vidare till märkningen Full Cold; maskintillverkarens volymer ska kontrolleras.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441, beroende av expansionstanksutförande",
+      "locator": "Tryckt s. 11, FLUID CHANGE PROCEDURE, steg 8–13 och figurer 5–6",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "bln52441-external-symptom-path",
+      "statement": "Vid kontroll av svag drift instruerar Hydro-Gear att först kontrollera drivrem, löphjul, fjädrar, reglagelänkage och att bypass verkligen kopplar i och ur innan intern reparation övervägs.",
+      "variant": "ZT-2800/ZT-3100/ZT-3200 enligt BLN-52441",
+      "locator": "Tryckt s. 9, SERVICE AND MAINTENANCE > External Maintenance, punkt 3–5",
+      "sourceId": "hg-bln52441-2023-manual-index",
+      "grade": "B",
+      "topic": "K"
     }
   ],
   "gaps": [
@@ -233,6 +296,7 @@
     "Hämta BOM-specifika sprängskisser och faktiska reservdels- och filterbeställningsnummer.",
     "Jämför utgåvorna från 2015, 2021 och 2023 för att undvika att serviceintervall överförs mellan editioner.",
     "Kontrollera separat vilka års-/OEM-modeller som verkligen har ZT-2800 och ZT-3100.",
-    "Kontrollera sidbilden för 2023 års BLN-52441 oljemängdstabell innan tecken 7 och 13 kopplas till exakta volymer; PDF är större än webbverktygets sidvisningsgräns."
+    "Kontrollera sidbilden för 2023 års BLN-52441 oljemängdstabell innan tecken 7 och 13 kopplas till exakta volymer; PDF är större än webbverktygets sidvisningsgräns.",
+    "Filter 52114 anges i BLN-52441:s allmänna oljebytesinstruktion; bekräfta konkret OEM BOM-kod, eventuella ersättningsnummer samt källdokumentets sidbild innan reservdelen rekommenderas."
   ]
 }
