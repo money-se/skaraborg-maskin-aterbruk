@@ -18,6 +18,20 @@
       "title": "Husqvarna – Delar, bruksanvisningar och support för KLIPPO Excellent",
       "document": "KLIPPO Excellent support och artikelnummerurval",
       "url": "https://www.husqvarna.com/se/support/klippo-excellent/"
+    },
+    {
+      "id": "husqvarna-excellent-h-9676078",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO Excellent H product support",
+      "document": "Excellent H LAWN MOWER 48CM MULCH HONDA GCV160, 967 60 78-01",
+      "url": "https://www.husqvarna.com/se/support/klippo-excellent-h/"
+    },
+    {
+      "id": "husqvarna-excellent-se-9676070",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO Excellent SE product support",
+      "document": "Excellent SE LAWN MOWER 48CM MULCH B&S675EXI InStart, 967 60 70-01",
+      "url": "https://www.husqvarna.com/se/support/klippo-excellent-se/"
     }
   ],
   "topics": {
@@ -146,6 +160,51 @@
       "sourceId": "husqvarna-support-excellent",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "excellent-967607401",
+      "statement": "Husqvarnas officiella support kopplar KLIPPO Excellent artikelnummer 967 60 74-01 till motorfabrikat Briggs & Stratton. Fullständigt motortypnummer framgår inte av detta stöd.",
+      "variant": "KLIPPO Excellent 967 60 74-01",
+      "locator": "Support > Specifikationer > Motor > Varumärke motor",
+      "sourceId": "husqvarna-support-excellent",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "excellent-967607401-engine",
+      "statement": "Motorfabrikat för KLIPPO Excellent 967 60 74-01 anges som Briggs & Stratton.",
+      "variant": "KLIPPO Excellent 967 60 74-01",
+      "locator": "Specifikationer > Motor > Varumärke motor",
+      "sourceId": "husqvarna-support-excellent",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "excellent-h-967607801-identity",
+      "statement": "Husqvarnas supportsida anger separat modell Excellent H, artikelnummer 967 60 78-01, med 48 cm klippbredd, mulching och Honda GCV160 enligt produktbenämningen.",
+      "variant": "KLIPPO Excellent H 967 60 78-01; separat variant, ej det äldre Excellent 2007-exemplaret",
+      "locator": "Specifikationer > produktbenämning 'Excellent H LAWN MOWER 48CM,MULCH,HONDA GCV160'",
+      "sourceId": "husqvarna-excellent-h-9676078",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "excellent-h-967607801-bbc",
+      "statement": "Husqvarnas modellbundna specifikation för Excellent H 967 60 78-01 anger att bladbromskoppling (BBC) saknas.",
+      "variant": "KLIPPO Excellent H 967 60 78-01",
+      "locator": "Specifikationer > Utrustning > Bladbromskoppling (BBC): Nej",
+      "sourceId": "husqvarna-excellent-h-9676078",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "excellent-se-967607001-identity",
+      "statement": "Husqvarnas officiella support namnger Excellent SE artikelnummer 967 60 70-01 som 48 cm mulchingmodell med Briggs & Stratton 675EXI InStart i produktbenämningen.",
+      "variant": "KLIPPO Excellent SE 967 60 70-01, separat modellvariant",
+      "locator": "Specifikationer > produktbenämning 'Excellent SE LAWN MOWER 48CM, MULCH, B&S675EXI InStart'",
+      "sourceId": "husqvarna-excellent-se-9676070",
+      "grade": "A",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -154,6 +213,7 @@
     "Bind exakt Briggs/Honda motormodell, Type/Code och servicevärden till respektive produktnummer; manualen är familjegemensam.",
     "Kartlägg Excellent kontra Excellent GCV/Excellent S/SE/SH utan att sammanblanda motor och drivsystem.",
     "Kontrollera nya manualutgåvor samt originalservice för självgående modeller.",
-    "Original-PDF:s sidbild gav cachefel vid skärmbildsgranskning; läst text och sidlocator är tillgängliga men figurer/bilder kräver ny visuell kontroll."
+    "Original-PDF:s sidbild gav cachefel vid skärmbildsgranskning; läst text och sidlocator är tillgängliga men figurer/bilder kräver ny visuell kontroll.",
+    "Husqvarna 967 60 74-01, 967 60 78-01 och 967 60 70-01 finns som särskilda produktvarianter; koppla inte 2007-manualens oljeintervall till dem utan utgåve- och motorverifiering."
   ]
 }
