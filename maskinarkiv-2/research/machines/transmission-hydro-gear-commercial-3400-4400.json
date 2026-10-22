@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-hydro-gear-commercial-3400-4400",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbunden forskning om Hydro-Gear ZT-3400, ZT-3600, ZT-3800 och ZT-4400. Specifikationerna gäller familje-/prefixnivå, inte identifierad maskin-BOM.",
+  "sources": [
+    {
+      "id": "hg-cross",
+      "title": "Hydro-Gear Cross Reference Guide",
+      "document": "Hydro-Gear model prefix and series cross reference",
+      "url": "https://www.hydro-gear.com/cross-reference-guide/",
+      "tier": 1
+    },
+    {
+      "id": "hg-3400",
+      "title": "Hydro-Gear ZT-3400 official product",
+      "document": "Product specifications ZT-3400",
+      "url": "https://www.hydro-gear.com/product/zt-3400/",
+      "tier": 1
+    },
+    {
+      "id": "hg-3600",
+      "title": "Hydro-Gear ZT-3600 official product",
+      "document": "Product specifications ZT-3600",
+      "url": "https://www.hydro-gear.com/product/zt-3600/",
+      "tier": 1
+    },
+    {
+      "id": "hg-3800",
+      "title": "Hydro-Gear ZT-3800 official product",
+      "document": "Product specifications ZT-3800",
+      "url": "https://www.hydro-gear.com/product/zt-3800/",
+      "tier": 1
+    },
+    {
+      "id": "hg-4400",
+      "title": "Hydro-Gear ZT-4400 official product",
+      "document": "Product specifications ZT-4400",
+      "url": "https://www.hydro-gear.com/product/zt-4400/",
+      "tier": 1
+    },
+    {
+      "id": "hg-service",
+      "title": "Hydro-Gear Service and Repair Manuals official index",
+      "document": "Official OEM download index",
+      "url": "https://www.hydro-gear.com/service-repair-manuals/",
+      "tier": 1
+    },
+    {
+      "id": "hg-4400-manual",
+      "title": "Hydro-Gear ZT-4400 Service and Repair Manual",
+      "document": "OEM ZT-4400 service manual",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2021/09/ZT-4400-Service-and-Repair-Manual.pdf",
+      "tier": 1
+    }
+  ],
+  "claims": [
+    {
+      "id": "cross-0",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZS, ZU, ZW, ZY, Z6 som modellfamiljen ZT-3400; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-1",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZX som modellfamiljen ZT-3600; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-2",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZZ som modellfamiljen ZT-3800; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-3",
+      "statement": "Hydro-Gears officiella prefixlista identifierar 1710 som modellfamiljen ZT-4400; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-4",
+      "statement": "Hydro-Gears officiella prefixlista identifierar 1015 som modellfamiljen ZT-5400; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-5400",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-5",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZH–ZM som modellfamiljen ZT-2800/3100/3200; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-2800/3100/3200",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-6",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZA–ZD som modellfamiljen ZT-2200 EZT; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-2200 EZT",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-7",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZF som modellfamiljen ZT-2100; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-2100",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-8",
+      "statement": "Hydro-Gears officiella prefixlista identifierar 1910 som modellfamiljen ZT-1800; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-1800",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "3400-pump",
+      "statement": "ZT-3400: Pumpdeplacement 12 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-motor",
+      "statement": "ZT-3400: Motordeplacement 16 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-axle",
+      "statement": "ZT-3400: Drivaxeldiameter 1,125 tum [28,56 mm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-output",
+      "statement": "ZT-3400: Maximalt angivet utgående moment upp till 500 lb-ft [677 Nm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-speed",
+      "statement": "ZT-3400: Högsta angivna hastighet upp till 10 mph [16 km/h]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-weight",
+      "statement": "ZT-3400: Angiven högsta total maskinvikt upp till 1600 lb [725 kg]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-idle",
+      "statement": "ZT-3400: Ingångsvarvtal 3600 rpm max tomgång utan last och 1800 rpm min under last. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-ratio",
+      "statement": "ZT-3400: Modellvarianterna ZS/ZU/ZY anges med utväxlingarna 21,04:1 / 23,16:1 / 21,09:1. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-package",
+      "statement": "ZT-3400: Performance Package anges innehålla chockventiler, frästa stålkugghjul och laddpump; standard-BOM kan avvika. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-end",
+      "statement": "ZT-3400: Tillgängliga axeländar omfattar konisk, 4-bultsfläns och 5-bultsfläns. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-iet",
+      "statement": "ZT-3400: Intern expansionstank anges som tillval. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-pump",
+      "statement": "ZT-3600: Pumpdeplacement 12 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-motor",
+      "statement": "ZT-3600: Motordeplacement 16 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-axle",
+      "statement": "ZT-3600: Drivaxeldiameter 1,125 tum [28,56 mm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-ratio",
+      "statement": "ZT-3600: Övergripande utväxling 23,16:1 för ZX. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-output",
+      "statement": "ZT-3600: Utgående moment upp till 500 lb-ft [677 Nm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-speed",
+      "statement": "ZT-3600: Högsta angivna hastighet 10 mph [16 km/h]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-weight",
+      "statement": "ZT-3600: Högsta angivna total maskinvikt 1600 lb [725 kg]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-idle",
+      "statement": "ZT-3600: Ingångsvarvtal 3600 rpm max tomgång utan last och 1800 rpm min under last. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-package",
+      "statement": "ZT-3600: Performance Package kan omfatta chockventiler, helstålsdrivlina och större laddpump. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-iet",
+      "statement": "ZT-3600: Intern expansionstank erbjuds som tillval. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-ends",
+      "statement": "ZT-3600: Axeländar finns som konisk, 4-bultsfläns eller 5-bultsfläns. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-pump",
+      "statement": "ZT-3800: Pumpdeplacement 12 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-motor",
+      "statement": "ZT-3800: Motordeplacement 16 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-ratio",
+      "statement": "ZT-3800: Övergripande utväxling 21,09:1 för ZZ. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-axle",
+      "statement": "ZT-3800: Drivaxeldiameter 1,125 tum [28,56 mm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-output",
+      "statement": "ZT-3800: Utgående moment upp till 500 lb-ft [677 Nm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-speed",
+      "statement": "ZT-3800: Högsta angivna hastighet upp till 11 mph [17 km/h]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-weight",
+      "statement": "ZT-3800: Högsta total maskinvikt upp till 1800 lb [816 kg]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-idle",
+      "statement": "ZT-3800: Ingångsvarvtal 3600 rpm max tomgång utan last och 1800 rpm min under last. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-cooler",
+      "statement": "ZT-3800: Port för oljekylare anges som tillval, inte allmänt standardutförande. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-iet",
+      "statement": "ZT-3800: Intern expansionstank anges som tillval. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-housing",
+      "statement": "ZT-3800: Tillverkaren beskriver uppgraderat transmissionshus, stålkugghjul och större axellager för högre belastning. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-ends",
+      "statement": "ZT-3800: Axeländar kan vara koniska, 4-bultsfläns eller 5-bultsfläns. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-pump",
+      "statement": "ZT-4400: Pumpdeplacement 12 cc/varv enligt produktsida. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-motor",
+      "statement": "ZT-4400: Motor 16 cc/varv enligt avrundad produktbeskrivning. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-axle",
+      "statement": "ZT-4400: Drivaxeldiameter 1-3/8 tum enligt produktsida. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-weight",
+      "statement": "ZT-4400: Tillverkaren anger fordon upp till 1800 lb. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-bearing",
+      "statement": "ZT-4400: Kraftiga rullager och axiallagring med hög kapacitet beskrivs av tillverkaren. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-manual-motor",
+      "statement": "ZT-4400-servicemanual anger största motorvolym 16,4 cc/varv vid fullt slag, medan produktsidans kortform avrundar till 16 cc. Dessa värden ska inte registreras som teknisk motsägelse utan revisions-/avrundningskontroll.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400-manual",
+      "locator": "Description and Operation, General Description",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "4400-manual-bypass",
+      "statement": "ZT-4400-manualen anger begränsning vid manuell förflyttning med öppnad bypass till högst 2 mph (3,2 km/h) kort sträcka.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400-manual",
+      "locator": "Description and Operation, Hydraulic Bypass",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "4400-manual-brake",
+      "statement": "ZT-4400 har enligt tillverkarens servicemanual en intern flytande skivbroms aktiverad med kamarm.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400-manual",
+      "locator": "Description and Operation, General Description",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "service-scope-3400",
+      "statement": "Tillverkarens manualarkiv har separat servicemanual för ZT-3400/3600/3800; serviceprocedurerna för ZT-2800-familjen kan inte generellt återanvändas.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-service",
+      "locator": "TRANSAXLES, ZT-3400 ZT-3600 ZT-3800 Manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "service-scope-4400",
+      "statement": "Tillverkaren publicerar en egen servicemanual för ZT-4400 skild från ZT-3400/3600/3800.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-service",
+      "locator": "TRANSAXLES, ZT-4400 Service Manual",
+      "grade": "A",
+      "topic": "J"
+    }
+  ],
+  "gaps": [
+    "Full 14-teckens OEM-modellkod och serienummer saknas för enskilda transmissioner.",
+    "Modellbundna exploded-view reservdelskataloger och artikelnummer samt supersessions kvarstår.",
+    "Manualens oljeservice, tätningssatser, bypass- och momentvärden behöver sida-för-sida-verifieras för ZT-3400/3600/3800.",
+    "Manualspecifika service- och momentvärden för ZT-4400 behöver djupgranskas.",
+    "Motsvarande originalmanualer för övriga transmissionsfamiljer (ZT-5400, ZT-2400/2600, T-serien, äldre 310-serien) granskas separat.",
+    "Tillverkarens familjeprestanda får inte misstolkas som uppmätta data för maskininstallation."
+  ],
+  "topics": {
+    "A": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "C": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "F": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "I": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "J": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    }
+  }
+}
