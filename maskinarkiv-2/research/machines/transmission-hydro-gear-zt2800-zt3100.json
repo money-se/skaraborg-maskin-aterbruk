@@ -87,8 +87,8 @@
       "note": "Felsökning ska kopplas till konkret symptom och full modellkod, inte familjebeteckning."
     },
     "L": {
-      "state": "gap",
-      "note": "Delar, filter och reparationssatser kräver full modellkod och serienummer, inte enbart ZT-2800 eller ZT-3100."
+      "state": "verified",
+      "note": "P25 sidgranskad kataloglista, reservdelspositionsmatris och konkret BOM-kodat artikelnummer 52148 verifierade; individuell OEM/BOM-uppslagning återstår."
     },
     "M": {
       "state": "gap",
@@ -329,6 +329,51 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-online-service-schematic",
+      "statement": "BLN-52441 P25 anger uttryckligen att reservdelskatalogens artikelnummer ska slås upp i ett separat online service schematic med fullständig modellkod, där tecken i koden styr vilken del som passar. De tryckta positionsnumren är inte ordernummer.",
+      "variant": "ZT-2800/3100/3200; fullständigt Hydro-Gear BOM-nummer krävs",
+      "locator": "Tryckt s. 43, How To Use Service Schematic (Online), steg 1–6; PDF-sida 45 (index 44)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-reduction-gear-52148-example",
+      "statement": "Tillverkaren anger som konkret exempel artikelnummer 52148 för reduktionskugghjul 43 tänder, sprängskissposition 81, när tecken 2 i modellkoden är H. Exemplet ger inte universell kompatibilitet.",
+      "variant": "Hydro-Gear ZH-****-****-****, kodtecken 2=H; exempel i BLN-52441 P25",
+      "locator": "Tryckt s. 43, steg 3–7: item 81, character 2 H -> 52148; PDF-sida 45 (index 44)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-kit-positions",
+      "statement": "Originalmanualens delarlista identifierar kit-positionerna 200 Seal, 201 Center Section, 202 Charge Relief, 203 Charge, 207 Fan and Pulley, 210 Input Shaft, 211 RTN Control Arm, 212 Axle Shaft och 215 Brake Shaft. Dessa tal är endast skisspositioner tills BOM-specifikt reservdelsnummer kontrollerats.",
+      "variant": "ZT-2800/3100/3200, BLN-52441 P25 reservdelsöversikt",
+      "locator": "Tryckt s. 45, TRANSAXLE PARTS LIST, positionerna 200–215; PDF-sida 47 (index 46)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-variant-reduction-gears",
+      "statement": "Sprängskissens position 81 benämns reduction gear med 43, 45 eller 46 tänder beroende på variant; position 72 pinjong har alternativen 16, 14 eller 13 tänder. Därför får utväxlingsdelar inte beställas efter familjenamn.",
+      "variant": "ZT-2800/3100/3200, flera variantkombinationer",
+      "locator": "Tryckt s. 45, TRANSAXLE PARTS LIST, position 72 och 81; PDF-sida 47 (index 46)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "L"
+    },
+    {
+      "id": "p25-id-label-bom",
+      "statement": "Manualens Figure 1 visar ett fullständigt BOM-modellnummer och serienummer på identifieringsetiketten; exemplet ZH-JPBB-SF7B-2XLX får inte tolkas som identifierad enhet hos kund.",
+      "variant": "ZT-2800/3100/3200 identifikationsmetod, BLN-52441 P25",
+      "locator": "Tryckt s. 1, Product Identification, Figure 1, PDF-sida 3 (index 2)",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "A"
     }
   ],
   "gaps": [
@@ -340,6 +385,7 @@
     "Filter 52114 anges i BLN-52441:s allmänna oljebytesinstruktion; bekräfta konkret OEM BOM-kod, eventuella ersättningsnummer samt källdokumentets sidbild innan reservdelen rekommenderas.",
     "Kritisk revisionskontroll: äldre BLN-52441 anger 65 in-lb för filterkåpans skruvar medan januari 2023-utdrag anger 115 in-lb; tillämpa inget moment utan kontroll av rätt utgåva, skruv och BOM. Kontrollera även senare april 2023 P25.",
     "Kontrollera felaktigt återgivna momentomräkningar i tredjepartstranskriptioner (t.ex. 120 in-lb anges även som 20,3 Nm, vilket matematiskt inte stämmer); förlita dig på verifierad källbild och korrekt enhet.",
-    "P25 tryckt sida 11 har inkonsekvent momentvärde för top-port-plugg: 120 in-lb anges ihop med 20,3 Nm, men korrekt omräkning är cirka 13,56 Nm. Inhämta tillverkarförtydligande före verkstadstillämpning."
+    "P25 tryckt sida 11 har inkonsekvent momentvärde för top-port-plugg: 120 in-lb anges ihop med 20,3 Nm, men korrekt omräkning är cirka 13,56 Nm. Inhämta tillverkarförtydligande före verkstadstillämpning.",
+    "Slå upp ytterligare faktiska kitartikelnummer i Hydro-Gears modellkodstyrda online service schematics innan 200/201/202/203/207/210/211/212/215 rekommenderas."
   ]
 }
