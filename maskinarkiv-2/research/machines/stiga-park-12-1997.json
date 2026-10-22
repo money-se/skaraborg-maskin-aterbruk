@@ -276,6 +276,78 @@
       "grade": "A",
       "sourceId": "stiga-park12-1997-ipl",
       "locator": "Tryckt sida 25, Manuell redskapslyft, pos. 0"
+    },
+    {
+      "id": "park12-1997-pto-vbelt",
+      "topic": "K",
+      "statement": "STIGA:s kraftuttagsgrupp listar kilrem 1134-9012-01 med likställningshänvisning till 9585-0056-00; detta är kraftuttagsrem och får inte förväxlas med transmissionsrem 1134-9035-01.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 9 (PDF index 8), Power Take Off, pos. 57"
+    },
+    {
+      "id": "park12-1997-pto-tension-roller",
+      "topic": "H",
+      "statement": "Kraftuttagsgruppen listar svart spännrulle 1134-9027-01 position 30 och separat spännhjul komplett 1134-1770-01 position 48.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 9 (PDF index 8), Power Take Off, pos. 30 och 48"
+    },
+    {
+      "id": "park12-1997-pto-tension-arm",
+      "topic": "H",
+      "statement": "STIGA:s kraftuttagsgrupp anger spännarm komplett 1134-2018-01 position 27 samt spännhjulsarm 1134-1730-01 position 46.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 9 (PDF index 8), Power Take Off, pos. 27 och 46"
+    },
+    {
+      "id": "park12-1997-pto-engine-pulley",
+      "topic": "H",
+      "statement": "Kraftuttagsgruppen listar motorremskiva 1134-2020-01 i position 32; samma position innehåller även en separat skruvpost varför rätt tabellrad måste identifieras.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 9 (PDF index 8), Power Take Off, pos. 32"
+    },
+    {
+      "id": "park12-1997-pto-belt-guide",
+      "topic": "K",
+      "statement": "Kraftuttagsgruppen listar remstyrning 1134-2381-01 position 63 och fingerskydd 1134-3654-01 position 60.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 9 (PDF index 8), Power Take Off, pos. 60 och 63"
+    },
+    {
+      "id": "park12-1997-pto-brake",
+      "topic": "G",
+      "statement": "Kraftuttagsbromsens reservdelsgrupp listar broms 1134-2524-01 position 12. Katalogen fastställer inte bromsens justering eller säkerhetsprovning.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 13 (PDF index 12), Kraftuttagsbroms, pos. 12"
+    },
+    {
+      "id": "park12-1997-engine-brake-cable",
+      "topic": "F",
+      "statement": "STIGA:s motor-/bromsgrupp listar motorbromswire 1134-3410-02 position 59 och gasreglage 1134-1975-11 position 74.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 7 (PDF index 6), Motor Broms, pos. 59 och 74"
+    },
+    {
+      "id": "park12-1997-fuel-system",
+      "topic": "C",
+      "statement": "STIGA:s motor-/bromsgrupp listar bränsletank 1134-3593-01, tanklock 1134-2877-02, bensinkran 1134-3224-01 och bensinslang 1134-2975-06; detta är maskinens bränslesystemdelar, inte fullständigt motor-ID.",
+      "variant": "STIGA Park 12 13-1442-20, Season 1997; originalkatalog 45-2014",
+      "grade": "A",
+      "sourceId": "stiga-park12-1997-ipl",
+      "locator": "Tryckt katalogsida 7 (PDF index 6), Motor Broms, pos. 37, 38, 42 och 44"
     }
   ],
   "gaps": [
@@ -286,6 +358,7 @@
     "Identifiera korrekt klippaggregat-PNC, knivar, remmar och monteringssats för detta basmaskins-PNC.",
     "Verifiera elschema och säkerhetsspärrarnas funktion i modellbunden manual.",
     "Visuell granskning av original-PDF:s ritningar kvarstår eftersom skärmbildsvisning inte fungerade vid källgranskningen 2026-10-22.",
-    "STIGA 1997 IPL listar basmaskin-transaxel 1134-3716-02 men separat MST 205-529A IPL komplett 1134-3716-01: klargör fabrikskoder, revisionsrelation och kompatibilitet innan internreparationsråd."
+    "STIGA 1997 IPL listar basmaskin-transaxel 1134-3716-02 men separat MST 205-529A IPL komplett 1134-3716-01: klargör fabrikskoder, revisionsrelation och kompatibilitet innan internreparationsråd.",
+    "Kraftuttagsrem 1134-9012-01 är dokumenterad för basmaskinens PTO; fullständigt aggregat-PNC, aggregatrem och knivnummer kräver separat katalog samt monteringskontroll."
   ]
 }
