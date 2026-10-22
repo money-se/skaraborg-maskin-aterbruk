@@ -25,6 +25,20 @@
       "title": "sGarden Jonsered LT2115CM J2115CMB seat list",
       "document": "SEAT J2115CMB 954130215 2004-06",
       "url": "https://www.sgarden.cz/SpareParts/PartList/75360/SEAT"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-gpl-oem",
+      "tier": 2,
+      "title": "Jonsered LT2115CM J2115CMB 2004-06 OEM parts list GPL scan",
+      "document": "LT2115CM J2115CMB / 954130215 / IPL 1063164-62, 2004-06",
+      "url": "https://www.gplshop.fr/dokument/bibliotek/Image/Akgrasklippare/LT2115CM/IPL.-LT-2115-CM%2C-J2115CMB%2C-954130215%2C-2004-06_wm.pdf"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-motoruf-modern-deck",
+      "tier": 2,
+      "title": "Motoruf LT2115CM J2115CMB dealer current deck list",
+      "document": "LT2115CM J2115CMB 2004-06, deck parts current seller list",
+      "url": "https://www.motoruf.com/n/partslists.html?art=37524718&id=2302742&version=1"
     }
   ],
   "topics": {
@@ -160,11 +174,34 @@
       "topic": "E",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-original-mower-belt",
+      "statement": "Återpublicerad Jonsered-IPL för J2115CMB juni 2004 anger i MOWER position 68 aggregatrem 532 18 02-17. Källan avser ursprunglig katalogredovisning, inte aktuell lagerstatus.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "GPLshop OEM IPL, MOWER key 68",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-954130215-gpl-oem",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-modern-mower-belt",
+      "statement": "Motorufs aktuella katalog för J2115CMB anger på MOWER position 68 aggregatrem 532 40 20-08, medan återpublicerad 2004-IPL har 532 18 02-17. En katalogförändring är belagd men ersättningskedja och faktisk passform är ännu obekräftade.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "Motoruf modern deck list, position 68",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-954130215-motoruf-modern-deck",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
     "Original-PDF 2004-06 identifierad i två fristående kataloger men PDF innehåll och sidbilder returnerar cachefel; ingen motortyp, transmissionstyp eller drift-/servicespecifikation får påstås här ännu.",
     "Motoruf och sGarden återger aktuella reservdelsnummer som kan vara senare ersättningsnummer; kontrollera mot komplett OEM-IPL och maskinens typskylt innan beställning.",
-    "Hel LT2115CM-familj har flera ytterligare års- och produktrevisioner som behöver egna katalogbundna register."
+    "Hel LT2115CM-familj har flera ytterligare års- och produktrevisioner som behöver egna katalogbundna register.",
+    "VIKTIG RESERVDELSKONFLIKT: 2004-06 OEM-IPL J2115CMB MOWER key68 = 532180217, medan modern Motoruf-lista key68 = 532402008. Kan vara ersättning men INGEN OEM-ersättningsbulletin eller påvisad faktisk kompatibilitet hittad. Håll delnumren separat och beställ först efter OEM-crossref/typskylt."
   ]
 }
