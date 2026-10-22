@@ -46,6 +46,13 @@
       "title": "Husqvarna Workshop Manual Rider 11/13H/14Pro/16H W0001005",
       "document": "Workshop Manual 101 90 98-26, W0001005, 2000-06, 62 pages, English technical data and transmission repair procedures",
       "url": "https://mymowerparts.com/pdf/Husqvarna-Service-Repair-Manuals/W0001005.pdf"
+    },
+    {
+      "id": "tufftorq-official-faq-k55-housing-identification",
+      "tier": 1,
+      "title": "Tuff Torq official FAQ K50 vs K55 identification",
+      "document": "Tuff Torq manufacturer FAQ, K50/K55 case housing and serial identification",
+      "url": "https://www.tufftorq.com/faq/"
     }
   ],
   "topics": {
@@ -489,6 +496,33 @@
       "sourceId": "husqvarna-rider16h-w0001005-2000-06-workshop",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "r16h-batch52-k55-case-identification",
+      "statement": "Tuff Torq skiljer K55 från K50 genom att drivaxlarna på K55 löper genom övre transmissionshuset medan det nedre huset är ett lock. K50:s husskarv går över axlarnas centrum; detta är ett fysiskt identifikationsstöd vid saknad skylt.",
+      "variant": "Tuff Torq allmän OEM-identifiering, Rider16 H K55 kräver originalserieetikett",
+      "locator": "Tuff Torq FAQ 'I don’t know if I have a K50 or a K55?'",
+      "sourceId": "tufftorq-official-faq-k55-housing-identification",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch52-k55-label-priority",
+      "statement": "Tuff Torq anger att transmissionsserienumret på originalenhetens vita etikett är avgörande för reservdelar och att etikettkopia ibland finns under maskinsitsen. K55-namn i Husqvarnas 16 H-katalog är därför inte tillräcklig identifiering av enskild reservdelsrevision.",
+      "variant": "Tuff Torq allmän OEM-identifiering, Rider16 H K55 kräver originalserieetikett",
+      "locator": "Tuff Torq FAQ 'Where is the serial number located?' and 'My barcode label is gone'",
+      "sourceId": "tufftorq-official-faq-k55-housing-identification",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "r16h-batch52-k55-mismatch-not-interchangeable",
+      "statement": "Tuff Torq avråder generellt från att ersätta en växellåda med en annan undervariant enbart inom samma modellfamilj, och kräver kontroll av exakt transaxelmodell och serienummer. Äldre K55 i Rider 16 H får inte likställas med K46 i Rider 16 eller annan K55 utan komponentkontroll.",
+      "variant": "Tuff Torq allmän OEM-identifiering, Rider16 H K55 kräver originalserieetikett",
+      "locator": "Tuff Torq FAQ 'Can I use a different model to replace my broken transmission?'",
+      "sourceId": "tufftorq-official-faq-k55-housing-identification",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -510,6 +544,7 @@
     "W0001005 OEM-verkstadshandbok 2000-06 anger K55 2,2 L SAE10W/30, proffsanvändning 50 h första byte / 300 h senare. Jämför mot Tuff Torq K55-fabrikshandbok och Husqvarnas senare rekommendation om auktoriserad service före offentlig rekommendation.",
     "W0001005 2000-06 anger Rider16H 18×6.50-8 men OM 2001-10 har 16×6.50-8 i tidigare register. Kontrollera faktisk sidtabell och eventuella marknadsversioner; markera katalogkonflikt tills utredd.",
     "W0001005 2000-06 uppger lagerenheter 506751105/104 för 16H medan IPL 2000-02 103 cm anger 506751107/106. Aggregatgruppen måste identifieras innan komponenter tolkas som utbytbara.",
-    "PDF W0001005 kunde indexläsas i tillverkaroriginalets spegel men webbsidbild nekades. Tekniska data och sida/positionsangivelser bör bildverifieras innan praktiska monteringsinstruktioner."
+    "PDF W0001005 kunde indexläsas i tillverkaroriginalets spegel men webbsidbild nekades. Tekniska data och sida/positionsangivelser bör bildverifieras innan praktiska monteringsinstruktioner.",
+    "Tuff Torq K55-husgeometri ger endast identifiering av modellfamiljen, inte exakt K55-variant eller Husqvarna artikelnummer; avläs serienummer och K55-produktetikett före reservdelsbeställning."
   ]
 }
