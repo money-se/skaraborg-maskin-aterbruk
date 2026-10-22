@@ -39,6 +39,13 @@
       "title": "ReservdelarOnline knivfäste 5028719-02: ersättningsnummer och modellförteckning",
       "document": "Produktkort för original Husqvarna Group 5028719-02, med ersättningslista",
       "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
+    },
+    {
+      "id": "klippo-driven-2009-115332210",
+      "tier": 1,
+      "title": "KLIPPO original owner manual for driven mower models",
+      "document": "OM KLIPPO drivna 2009-11, 115332210; Excellent S/S GCV, Pro 19 S/S GCV etc",
+      "url": "https://zielonemaszyny.pl/pdf/KLOO2010_AAaa_115332210.pdf"
     }
   ],
   "topics": {
@@ -176,6 +183,24 @@
       "sourceId": "retailer-bracket-502871902",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "pro19gcv-vs-driven-pro19sgcv",
+      "statement": "KLIPPO:s originalmanual 115332210 (2009-11) behandlar separat Pro 19 S GCV bland de drivna modellerna, och visar kopplingsreglage och växelhus i Pro 19 S/S GCV-modellernas komponentöversikt. Detta är sidofynd om en annan variant och får inte användas som bevis för växelhus eller kopplingsreglage på Pro 19 GCV utan S.",
+      "variant": "Pro 19 S GCV (självgående), annan maskin än Pro 19 GCV 965229001",
+      "locator": "PDF s.1 (modelllista), s.6 (svensk komponentöversikt Pro 19 S/S GCV), pos 3 kopplingsreglage, pos 11 växelhus",
+      "sourceId": "klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-driven-belt-maintenance",
+      "statement": "Originalmanualen för de drivna KLIPPO-modellerna innehåller separata moment för byte och justering av kilrem och mellanrem. Dessa procedurer är inte därmed tillämpliga på Pro 19 GCV utan S.",
+      "variant": "Självgående Pro 19 S GCV i originalmanual 115332210, 2009-11",
+      "locator": "PDF s.3 innehållsförteckning, 'Byte och justering av kilrem' och 'Byte och justering av mellanrem', tryckta s.15",
+      "sourceId": "klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "D"
     }
   ],
   "gaps": [
@@ -185,6 +210,7 @@
     "Kontrollera äldre Pro 19 GCV jämfört med senare Pro 19 SH/Pro 19 S H inklusive självgående system.",
     "Knyt servicedata till separat Honda GCV135 originalserviceanvisning.",
     "Sök original IPL för Pro 19 GCV med artikelnummer 965229001/K06730 och fastställ kniv och knivfäste efter serienummer.",
-    "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll."
+    "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll.",
+    "Pro 19 S GCV har egen drivrem-/mellanremsdokumentation, men original IPL för odrivna Pro 19 GCV 965229001 måste fortsatt kontrolleras för knivsystem."
   ]
 }
