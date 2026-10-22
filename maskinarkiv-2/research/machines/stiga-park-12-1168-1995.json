@@ -206,6 +206,114 @@
       "grade": "A",
       "sourceId": "stiga-park12-1168-1995-ipl",
       "locator": "PDF sida 29 pos 62"
+    },
+    {
+      "id": "p12-95-dual-belt-pulleys",
+      "topic": "D",
+      "statement": "1995-katalogens transmissionstabell listar motorremskiva 1134-2020-01 (pos.1) och transaxelremskiva 1134-1849-01 (pos.15). De är separata komponenter från komplett transaxel.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.27 pos.1 och 15"
+    },
+    {
+      "id": "p12-95-mount-common",
+      "topic": "K",
+      "statement": "Transmissionsfäste 1134-2986-01 anges pos.21 med fyra muttrar 9739-0831-22 (pos.19) och fyra skruvar 9997-0865-12 (pos.20). Samma kringdelar bevisar inte utbytbarhet mellan 930-022 och senare enhet.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.27 pos.19–21"
+    },
+    {
+      "id": "p12-95-serial-boundary-exact",
+      "topic": "D",
+      "statement": "Samma STIGA-transmissionstabell skriver -960401 bredvid Peerless 930-022 1134-3278-01 och 960402- bredvid 1134-3716-01. Detta är en tryckt seriegräns i 1995-katalogens revision, inte automatiskt en faktisk omläggning under kalenderåret 1995.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.27 pos.18, fyra delvis upprepade rader"
+    },
+    {
+      "id": "p12-95-shift-cable-length",
+      "topic": "F",
+      "statement": "STIGA listar växelwire 1134-2031-02 med beskrivningen 'Gear Shifter Cable (I=1333)' på pos.51, men utan specificerad mätenhet eller bekräftad kabelersättning.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.27 pos.51"
+    },
+    {
+      "id": "p12-95-clutch-assembly",
+      "topic": "F",
+      "statement": "Kopplingswire 1134-2030-04 är pos.62, medan vänster bromspedal 1134-3450-01 är pos.65 och komplett växelspak 1134-2328-01 pos.70. Dessa tillhör externa maskinreglage.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.29 pos.62,65,70"
+    },
+    {
+      "id": "p12-95-pto-vs-drive",
+      "topic": "H",
+      "statement": "Katalogen anger kraftuttagsrem 1134-9012-01 med referens 9585-0056-00 i PTO-gruppen, men transmissionsdrivrem 1134-9035-01 med referens 9585-0078-00 i transmissionen. De två remfunktionerna måste skiljas åt.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.23 pos.57 och s.27 pos.10"
+    },
+    {
+      "id": "p12-95-harness-code",
+      "topic": "I",
+      "statement": "STIGA:s elsystemtabell pos.50 markerar kablage 1134-3697-01 för artikelvariant 1168 och 1134-3718-01 för variant 1442. Variantnoteringen är uttrycklig och inte en rekommendation att byta kablage mellan maskiner.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.31 pos.50"
+    },
+    {
+      "id": "p12-95-electrical-switches",
+      "topic": "G",
+      "statement": "Elsystemet har separat brytare 1134-3156-01 pos.65 och brytare 9400-0167-01 pos.79. Reservdelskatalogen i sig är inte ett komplett elschema för säkerhetsspärrarna.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.31 pos.65,79"
+    },
+    {
+      "id": "p12-95-steering-chain",
+      "topic": "E",
+      "statement": "Styrningsgruppen anger kedjan 1134-2820-01, beskriven som 79 länkar utan lås, pos.15 och fyra kedjehjul 1134-2816-01 pos.9. Det är maskinens styrsystem och inte kedjorna i äldre Peerless-växellådor.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.33 pos.9,15"
+    },
+    {
+      "id": "p12-95-seat",
+      "topic": "B",
+      "statement": "STIGA:s sitstabell anger Suburban-sits 1134-2541-01 (pos.1), höger sitsfäste 1134-3618-01 (pos.6) och vänster 1134-3618-02 (pos.10).",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.35 pos.1,6,10"
+    },
+    {
+      "id": "p12-95-two-tire-options",
+      "topic": "E",
+      "statement": "Transmissionslistan innehåller 9545-0116-00 och 9545-0120-00 som två 16 x 7.50-8-däcksposter vid pos.39. De är katalogalternativ utan belagd universell ersättningsrelation.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.27 pos.39"
+    },
+    {
+      "id": "p12-95-guards",
+      "topic": "G",
+      "statement": "PTO-gruppen listar fingerskydd 1134-3654-01 på pos.60 och remstyrning 1134-2381-01 på pos.63. Listan fastställer artikelnummer men inte skyddets monterings- eller säkerhetsprovprocedur.",
+      "variant": "STIGA Park 12 13-1168-18, Season 1995, Issue 44-2014; originalkatalog – individuellt utförande och service ej härledda",
+      "grade": "A",
+      "sourceId": "stiga-park12-1168-1995-ipl",
+      "locator": "PDF s.23 pos.60,63"
     }
   ],
   "gaps": [
@@ -214,6 +322,7 @@
     "Exakta godkända aggregat-/kniv-PNC och monteringskit är okända.",
     "Kontrollera ägar-/verkstadshandbok för säkerhetsprov, elschema och modellbunden service.",
     "Tillämpning av senare 1134-3716-01 på 1995-maskiner måste utredas via individmärkskylt och revisionshistorik.",
-    "Original-PDF:s ritningar kunde inte visuellt kontrolleras med webbscreenshot (cache miss 2026-10-22); katalogens texttabeller är belästa."
+    "Original-PDF:s ritningar kunde inte visuellt kontrolleras med webbscreenshot (cache miss 2026-10-22); katalogens texttabeller är belästa.",
+    "Förekomst av 930-022 och 1134-3716-01 i samma reviderade 1995-katalog får inte användas som reparations- eller utbytesinstruktion utan serienummer, transaxelmärkning och tillverkarens verifierade monteringsunderlag."
   ]
 }
