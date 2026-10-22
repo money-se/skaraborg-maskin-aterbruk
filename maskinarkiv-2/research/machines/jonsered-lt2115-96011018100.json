@@ -11,6 +11,13 @@
       "title": "Jonsered IPL LT2115, original illustrated parts list återpublicerad",
       "document": "544 46 75-01, LT2115, 2006-05",
       "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%2096011018100%202006-05/LT2115-96011018100-2006-05.pdf"
+    },
+    {
+      "id": "kohler-sv470-sv620-official-sm",
+      "tier": 1,
+      "title": "Kohler Courage SV470–SV620 official service manual",
+      "document": "20 690 01 Rev. J",
+      "url": "https://resources.kohler.com/power/kohler/enginesUS/pdf/20_690_01_EN.pdf"
     }
   ],
   "topics": {
@@ -157,6 +164,61 @@
       "topic": "E",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-96011018100-sv470",
+      "statement": "Jonsereds reservdelskatalog anger Kohler SV470 på motorposition 3. Exakt motorns spec- och serienummer framgår inte av maskinens IPL.",
+      "variant": "LT2115 / 96011018100",
+      "locator": "PDF sid. 14 (PDF-index 13), ENGINE, position 3",
+      "sourceId": "jonsered-lt2115-2006-05-ipl",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-96011018100-oil-service",
+      "statement": "Kohler Courage SV470–SV620 servicemanual anger byte av olja och oljefilter efter 100 timmar eller årligen vid normal service; 300 timmar är endast tillåtet med både särskild KOHLER PRO 10W-50 olja och KOHLER PRO Extended Life-filter.",
+      "variant": "LT2115 / 96011018100",
+      "locator": "Kohler manual s. 3–4, MAINTENANCE SCHEDULE och OIL RECOMMENDATIONS",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-96011018100-air-service",
+      "statement": "Kohler-manualen anger kontroll/service av förfilter efter 25 timmar eller årligen och byte av luftfilter efter 100 timmar eller årligen, med särskilda villkor för utföranden utan förfilter.",
+      "variant": "LT2115 / 96011018100",
+      "locator": "Kohler manual s. 3, MAINTENANCE SCHEDULE",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-96011018100-fuel-filter-service",
+      "statement": "Kohler-manualen anger bränslefilterbyte var 100:e drifttimme.",
+      "variant": "LT2115 / 96011018100",
+      "locator": "Kohler manual s. 3, MAINTENANCE SCHEDULE",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115-96011018100-engine-id",
+      "statement": "Kohler kräver motoridentitet via modell-, specification- och serienummer vid reservdelsbeställning; modellnamnet SV470 ensam identifierar inte den individuella motorns alla reservdelar.",
+      "variant": "LT2115 / 96011018100",
+      "locator": "Kohler manual s. 6, ENGINE IDENTIFICATION NUMBERS",
+      "sourceId": "kohler-sv470-sv620-official-sm",
+      "grade": "B",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -164,6 +226,7 @@
     "El-, rem- och knivnummer ska kontrolleras mot enskilt produktnummer och vid behov serienummer. Ingen generell passform inom LT2115-familjen är fastställd.",
     "Förarmanual, reservdelsersättningar, fullständigt elschema och underhållsschema återstår att primärkällgranska.",
     "Original-PDF:ernas bildsidor kunde inte kontrolleras med webbläsarens skärmbildsverktyg. Angivna positioner är verifierade i PDF:s extraherade text och kräver visuell dubbelkontroll innan publicering.",
-    "Produktnummerkonflikt på den första katalogsidan: 96011011800 mot 96011018100 måste lösas från originalbild/individuell skylt."
+    "Produktnummerkonflikt på den första katalogsidan: 96011011800 mot 96011018100 måste lösas från originalbild/individuell skylt.",
+    "Motorns individuella Kohler Specification och Serial Number saknas; manualens generella SV470-intervall behöver stämmas av med den installerade motorns utförande."
   ]
 }
