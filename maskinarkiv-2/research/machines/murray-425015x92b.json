@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "slug": "murray-425015x92b",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Forskningspaket 4. Avgränsat dokumentstudium av reservdelskatalog, utan webbpublicering, universella passformsantaganden eller godkännande av komplett modellartikel.",
+  "sources": [
+    {
+      "id": "murray-murray-425015x92b-pdf",
+      "tier": 2,
+      "title": "Murray 425015X92B original-form illustrated parts list mirrored by retailer",
+      "document": "Murray 425015x92B REPAIR PARTS F-040745L",
+      "url": "https://www.lawnmowerpros.com/pdfs/murray/425015X92B.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Modellrubrik och dokumentidentifiering dokumenterade. Serienummergränser och övriga varianter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Transaxelmodell och drivrem ännu ej verifierade från den aktuella modellens katalog."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "I": {
+      "name": "Tillbehör",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "murray-425015x92b-identity",
+      "statement": "Reservdelskatalogen identifierar separat Murray-version 425015x92B.",
+      "topic": "A",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, modellrubrik",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-manual-code",
+      "statement": "Reservdelskatalogen hänvisar till instruktionsbok F-040745L.",
+      "topic": "A",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, raden Instruction Book & Parts List",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-seat",
+      "statement": "Sitsen listas som 690566.",
+      "topic": "E",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, pos 1",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-frame-right",
+      "statement": "Höger ramdel listas som 1001268E701.",
+      "topic": "B",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, pos 43",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-frame-left",
+      "statement": "Vänster ramdel listas som 1001269E701.",
+      "topic": "B",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, pos 44",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-battery-container",
+      "statement": "Batterihållaren listas som 690424.",
+      "topic": "K",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, pos 45",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92b-hitch-plate",
+      "statement": "Dragplattan listas som 1001002E701.",
+      "topic": "I",
+      "variant": "425015X92B",
+      "locator": "CHASSIS & HOOD, pos 46",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Endast CHASSIS & HOOD-uppgifter finns säkert synliga i källutdraget; drivlina, motor och klippaggregat lämnas öppna.",
+    "Motorns fullständiga Model/Type/Code och rätt motorservicehandbok saknas.",
+    "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
+    "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
+    "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+  ]
+}
