@@ -137,6 +137,13 @@
       "title": "Murray 425015X92A original operator maintenance transcript",
       "document": "F-040734L, printed p.20",
       "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=20"
+    },
+    {
+      "id": "murray-015a-engine-mount-p47",
+      "tier": 2,
+      "title": "Murray 425015X92A engine mount OEM parts table transcription",
+      "document": "F-040734L ENGINE MOUNT printed page 47",
+      "url": "https://www.somanuals.com/html/12/Murray-Lawn-Mower-425015x92A-User-Manual.html"
     }
   ],
   "topics": {
@@ -153,7 +160,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-040734L s.47 identifierar Briggs & Stratton som motorfabrikat, men inte fullständig Model/Type/Code; avgränsade montage-, bränsle-, avgas- och värmesköldsdelar finns positionsbelagda. Motorns interna service kräver dess egen manual."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -1548,6 +1555,182 @@
       "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-fuel-cap",
+      "statement": "Tanklock anges i motorinstallationslistan med uppgiften 092317.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 1",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-fuel-tank",
+      "statement": "Bränsletank anges i motorinstallationslistan med uppgiften 690280.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 2",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-hose-clamp",
+      "statement": "Bränsleslangklämma anges i motorinstallationslistan med uppgiften 095197.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 3",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-fuel-line",
+      "statement": "Bränsleledning, kapas till angiven längd anges i motorinstallationslistan med uppgiften 7601033.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 4",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-engine-plate",
+      "statement": "Motorfäste/plåt anges i motorinstallationslistan med uppgiften 094006E700.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 7",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-throttle",
+      "statement": "Gasreglage anges i motorinstallationslistan med uppgiften 092371.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 8",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-engine-maker",
+      "statement": "Motorleverantör BRIGGS & STRATTON, utan specificerat Model/Type/Code anges i motorinstallationslistan med uppgiften BRIGGS & STRATTON.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler",
+      "statement": "Ljuddämpare anges i motorinstallationslistan med uppgiften 1001717.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9a",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler-gasket",
+      "statement": "Ljuddämparpackning anges i motorinstallationslistan med uppgiften 091309.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9b",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler-adapter",
+      "statement": "Adapter till ljuddämpare anges i motorinstallationslistan med uppgiften 095207.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9c",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-adapter-screw",
+      "statement": "Skruv för ljuddämparadapter anges i motorinstallationslistan med uppgiften 06x103.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9d",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler-bolt",
+      "statement": "Ljuddämparbult anges i motorinstallationslistan med uppgiften 009x59.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9e",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-engine-pulley",
+      "statement": "Motorremskiva/stack pulley anges i motorinstallationslistan med uppgiften 690439 Z.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 11",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-belt-guide-main",
+      "statement": "Remstyrning anges i motorinstallationslistan med uppgiften 094384.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 26",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-belt-guide-aux",
+      "statement": "Extra remstyrning anges i motorinstallationslistan med uppgiften 094066.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 30",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-heat-shield",
+      "statement": "Värmesköld anges i motorinstallationslistan med uppgiften 1001897.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 32",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1558,6 +1741,7 @@
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
     "F-040734L sida 45 visar flera identiska reservdelsnummer som F-050706L för 425014X92B; jämför fästpunkter, revisioner och ersättningsnummer separat innan fysisk utbytbarhet hävdas.",
-    "Närliggande handlarlistningar av '42515X92B' får inte användas som identitetsbevis för 425015X92B utan modellnummer- och katalogkontroll."
+    "Närliggande handlarlistningar av '42515X92B' får inte användas som identitetsbevis för 425015X92B utan modellnummer- och katalogkontroll.",
+    "F-040734L s.47 anger Briggs & Stratton som fabrikat men motorns exakta Model/Type/Code saknas och kan inte härledas från aggregatets modellnummer."
   ]
 }
