@@ -39,6 +39,13 @@
       "title": "sGarden spare parts list Rider 16 953521401 44/112CM CUTTING DECK",
       "document": "Rider 16 953521401 2006-01 44/112CM CUTTING DECK",
       "url": "https://www.sgarden.cz/SpareParts/PartList/28702/44112CM_CUTTING_DECK"
+    },
+    {
+      "id": "husqvarna-rider16-2006-original-ipl-fr",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 953521401 2006-01 original illustrated parts list (French edition)",
+      "document": "SPARE PARTS LIST – RIDERS RIDER 16, 953521401, 2006-01; 37 PDF-sidor med positionslistor och antal",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Husqvarna/RIDERS/RIDER%2016/RIDER%2016%20953521401%202006-01/rider-16-953521401-2006-01.pdf"
     }
   ],
   "topics": {
@@ -341,10 +348,10 @@
     },
     {
       "id": "rider16-2006-steering-chain",
-      "statement": "Figur C visar styrkedja 506 55 47-01 (x2) och kedjehjul 506 55 46-01; den här positionsbestämningen avser styrsystemet, inte drivrem.",
+      "statement": "Rider 16 953521401-katalogens motor-/styrsystemlista anger 506 55 46-01 som CHAIN (kedja), antal 1; 506 55 47-01 anges som SUPPORT (stöd), antal 2. Tidigare uppgift att 506 55 47-01 är styrkedja var fel och har korrigerats.",
       "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
-      "locator": "PDF-sida 3, figur C, 506 55 47-01 samt 506 55 46-01",
-      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "locator": "Rider 16 953521401 2006-01, franskspråkig originalreservdelskatalog, PDF-sida 7 (P6), MOTEUR tabell, 506 55 46-01 CHAIN 1 och 506 55 47-01 SUPPORT 2",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
       "grade": "A",
       "topic": "F"
     },
@@ -368,10 +375,10 @@
     },
     {
       "id": "rider16-2006-combi-pulleys",
-      "statement": "Figur D visar remskiveenheterna 531 00 75-72 och 535 48 22-01, vilka är separata från Combi-märkt rem 531 00 60-96.",
+      "statement": "Figur D visar artiklarna 531 00 75-72 (rem enligt den längre 2006-katalogens CHASSIS/CADRE-lista) och 535 48 22-01 (remskiva); artiklarna får inte beskrivas generellt som två remskivor.",
       "variant": "Husqvarna Rider 16 953 52 14-01, IPL 2006-01",
-      "locator": "PDF-sida 3, figur D, 531 00 75-72, 535 48 22-01",
-      "sourceId": "husqvarna-rider16-2006-oem-pdf",
+      "locator": "Rider 16 953521401 fransk katalog PDF-sida 9 (P8), CHASSIS/CADRE: 531 00 75-72 COURROIE samt 535 48 22-01 POULIE",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
       "grade": "A",
       "topic": "E"
     },
@@ -482,6 +489,87 @@
       "sourceId": "husqvarna-rider16-2006-combi112-parts-sgarden",
       "grade": "B",
       "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-blade-quantity",
+      "statement": "Rider 16 953521401 originalkatalog 2006-01 anger 3 knivar 544 10 30-01 för 103 cm Combi-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), UNITÉ DE COUPE DE 103 CM, 544 10 30-01 COUTEAU 3",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-blade-quantity",
+      "statement": "Rider 16 953521401 originalkatalog 2006-01 anger 3 knivar 544 10 28-01 för 112 cm Combi-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 37 (P36), UNITÉ DE COUPE DE 112 CM, 544 10 28-01 RIDE ON BLADE 3",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-inner-belt",
+      "statement": "103 cm-aggregatet har rem 544 11 32-01, antal 1, enligt versionsbunden originalreservdelslista.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), 544 11 32-01 COURROIE 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-combi103-112-drivebelt",
+      "statement": "Båda klippaggregatlistorna i 2006-katalogen upptar 531 00 60-96 som rem; detta bekräftar katalogförekomst men inte nutida ersättningsnummer.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32) 103 CM 531 00 60-96 COURROIE 1; PDF-sida 37 (P36) 112 CM 531 00 60-96 COURROIE 1, dubblerad i textutdrag",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-2006-combi103-spindles-quantity",
+      "statement": "103 cm-listan anger 544 06 59-01 med noteringen YTTRE och antal 2 samt 544 06 59-02 med noteringen MITTEN och antal 1.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), 544 06 59-01 PALIER DE LAME COMPLET YTTRE 2; 544 06 59-02 MITTEN 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-spindles-quantity",
+      "statement": "112 cm-listan anger 544 06 59-01 med noteringen YTTRE och antal 2 samt 544 06 59-02 med noteringen MITTEN och antal 1.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 37 (P36), 544 06 59-01 YTTRE 2; 544 06 59-02 MITTEN 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi103-cover",
+      "statement": "Originalkatalogen 2006-01 anger remskydd 544 09 61-01 för 103 cm-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 33 (P32), 544 09 61-01 CARTER DE COURROIE 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-combi112-cover",
+      "statement": "Originalkatalogen 2006-01 anger remskydd 544 09 62-01 för 112 cm-aggregatet.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 37 (P36), 544 09 62-01 CARTER DE COURROIE 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-2006-engine-ipl-number",
+      "statement": "Husqvarna originalreservdelslista för Rider 16 953521401 2006-01 innehåller motorartikel 535 44 10-01 betecknad MOTEUR; detta är maskinkatalogens motorpositionsnummer, inte Briggs Model/Type/Code.",
+      "variant": "Husqvarna Rider 16, 953521401, IPL 2006-01",
+      "locator": "PDF-sida 13 (P12), MOTEUR 535 44 10-01, antal 1",
+      "sourceId": "husqvarna-rider16-2006-original-ipl-fr",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -500,6 +588,9 @@
     "Undersök senare ersättningsnummer för batteri, drivrem och styrkedja från tillverkare innan inköpsråd.",
     "Koppla Combi 103 965078401 respektive Combi 112 965071001 till egna original-IPLs, kontrollera antal knivar, infästning och eventuella ersättningsnummer.",
     "Kontrollera rem 544113201 och 531006096 per exakt aggregatfigur och funktionsposition innan rembytesanvisningar.",
-    "Skillnaden mellan knivhus/spindel 544065901 (yttre) och 544065902 (mitten) ska verifieras i tillverkarens ritning för varje aggregatversion."
+    "Skillnaden mellan knivhus/spindel 544065901 (yttre) och 544065902 (mitten) ska verifieras i tillverkarens ritning för varje aggregatversion.",
+    "Tidigare felaktig 506 55 47-01-kedjebeteckning rättades 2026-10-22 mot Husqvarnas 37-sidiga IPL; verifiera eventuella andra kategorirubriker där originalet maskinöversatts.",
+    "Kontrollera om senare reservdelslistor ersätter 544103001/544102801, 544096101/544096201 eller 535441001; katalogen 2006 gäller som historisk baseline.",
+    "37-sidig IPL har textverifierade artikelnummer och antal, men PDF-skärmbildstjänsten gav fel vid denna genomgång; visuella ritningspositioner ska därför fortfarande kontrolleras vid praktisk demontering."
   ]
 }
