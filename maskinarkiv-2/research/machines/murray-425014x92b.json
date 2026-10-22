@@ -53,6 +53,13 @@
       "title": "425014X92B chassis original part table",
       "document": "F-050706L printed page 39",
       "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=39"
+    },
+    {
+      "id": "murray-014b-maint-p21",
+      "tier": 2,
+      "title": "Murray 425014X92B maintenance chart and general recommendations",
+      "document": "F-050706L p.21",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=21"
     }
   ],
   "topics": {
@@ -104,7 +111,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "F-050706L s.21 ger dagliga, första 5 timmar och 25-timmars serviceintervall för maskin och aggregat; motorns oljetyp och motorspecifika servicepunkter hänvisas till motorhandbok."
     },
     "K": {
       "name": "Reservdelar",
@@ -1264,6 +1271,226 @@
       "sourceId": "murray-014b-chassis-page39",
       "grade": "B",
       "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-engine-daily",
+      "statement": "Före varje användning ska motorn underhållas enligt motorns separata handbok.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-blades-daily",
+      "statement": "Före varje användning ska knivarna kontrolleras för sprickor, slitage och allvarliga skador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-debris-daily",
+      "statement": "Före varje användning ska skräp från maskin och klippområde avlägsnas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-moving-daily",
+      "statement": "Före varje användning ska roterande och glidande delar undersökas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-tires-daily",
+      "statement": "Före varje användning ska däcktrycket kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-deck-level-daily",
+      "statement": "Före varje användning ska klippaggregatets vågräthet kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-belts-daily",
+      "statement": "Före varje användning ska kilremmar kontrolleras för sprickor, slitage och skador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-brake-daily",
+      "statement": "Före varje användning ska bromsens funktion kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-oil-5h",
+      "statement": "Motoroljan ska bytas efter de första fem drifttimmarna enligt motorhandboken.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-engine-25h",
+      "statement": "Efter 25 timmar föreskrivs motorunderhåll enligt separat motorhandbok.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-blade-25h",
+      "statement": "Efter 25 timmar föreskrivs demontering, granskning, slipning och balansering av knivar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-control-25h",
+      "statement": "Efter 25 timmar ska klippknivarnas inkopplingsreglage kontrolleras och justeras vid behov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-brake-25h",
+      "statement": "Efter 25 timmar ska bromsjustering kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-clutch-25h",
+      "statement": "Efter 25 timmar ska kopplingsjustering kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-steering-25h",
+      "statement": "Efter 25 timmar ska styrjustering kontrolleras.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-lubrication-25h",
+      "statement": "Efter 25 timmar anges smörjning av chassi och klippaggregat.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-spark-disconnect",
+      "statement": "Vid kontroll, justering eller reparation ska tändstiftskabeln kopplas loss för att hindra oavsiktlig start.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-annual-air-cleaner",
+      "statement": "Allmänna rekommendationer anger årlig rengöring av luftfilter, med motorns egna instruktioner som styrande källa.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-annual-spark",
+      "statement": "Allmänna rekommendationer anger årlig kontroll av tändstift.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-annual-fasteners",
+      "statement": "Fästelement ska kontrolleras så att de är åtdragna.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE chart and general recommendations, printed p.21",
+      "sourceId": "murray-014b-maint-p21",
+      "grade": "B",
+      "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
