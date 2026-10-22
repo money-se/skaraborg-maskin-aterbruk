@@ -473,6 +473,27 @@
       "title": "Husqvarna official FAQ hydrostatic transmission oil (updated 2015-06-02)",
       "document": "Swedish Rider 16 H and related Riders: 10W-30 non-synthetic, fluid change authorized Husqvarna service dealer",
       "url": "https://husqvarna.custhelp.com/app/answers/detail/a_id/387/~/maintenance---what-type-of-oil-is-used-in-the-hydrostatic-transmissions%3F"
+    },
+    {
+      "id": "tufftorq-official-k46-internal-reservoir-maintenance",
+      "tier": 1,
+      "title": "Tuff Torq Tech Tips K46 internal reservoir oil service",
+      "document": "Manufacturer K46 listed variants, fill level 20–25 mm at 20 C; refill ca 2.2L",
+      "url": "https://www.tufftorq.com/tuff-torq-transaxle-oil-service/"
+    },
+    {
+      "id": "tufftorq-official-k46-external-expansion-maintenance",
+      "tier": 1,
+      "title": "Tuff Torq K46 external expansion tank oil maintenance",
+      "document": "Manufacturer K46 external tank, 50/200h heavy use, case fill and purge",
+      "url": "https://www.tufftorq.com/tuff-torq-k46-oil-maintenance/"
+    },
+    {
+      "id": "tufftorq-official-faq-k46-k55-identity",
+      "tier": 1,
+      "title": "Tuff Torq manufacturer FAQ identification, interchange and intervals",
+      "document": "Official FAQ K46 type, serial tags, K55 vs K50, 50/250h general",
+      "url": "https://www.tufftorq.com/faq/"
     }
   ],
   "topics": {
@@ -2887,6 +2908,96 @@
       "sourceId": "husqvarna-rider16-workshop-2003-02",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch51-k46-tufftorq-two-reservoir-systems",
+      "statement": "Tuff Torq publicerar skilda serviceanvisningar för K46 med intern oljebehållare respektive extern expansionstank. Den fysiska K46-undervarianten måste fastställas innan påfyllningspunkt och procedur väljs.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "K46 Internal Reservoir vs External Expansion Tank manufacturer oil service pages",
+      "sourceId": "tufftorq-official-k46-internal-reservoir-maintenance",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-internal-temperature-level",
+      "statement": "Tuff Torqs K46-metod för intern behållare anger nivå 20–25 mm under påfyllningshålets kant vid horisontell transaxel och oljetemperatur 20 °C. Detta är inte nivåinstruktion för K55 eller varje Rider 16-K46.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "Tech Tips, maintain 20~25 mm below lip, check at room temperature 20C",
+      "sourceId": "tufftorq-official-k46-internal-reservoir-maintenance",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-recommended-tufftech",
+      "statement": "Tuff Torqs nuvarande K46-servicetext rekommenderar godkänd Tuff Tech hydrostatolja. Husqvarnas äldre manual anger SAE 10W/30; specifikationerna ska dateras och kopplas till transaxelns tillverknings-ID i stället för att tyst ersätta varandra.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "Tuff Torq internal reservoir Tech Tips 'approved Tuff Tech drive fluid'; Husqvarna workshop 2003 transmission K46",
+      "sourceId": "tufftorq-official-k46-internal-reservoir-maintenance",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-approximately-2point2l",
+      "statement": "Tuff Torqs dokument om K46 med intern behållare anger cirka 2,2 liter vid helt tom transmission, med reservation för kvarvarande olja efter tömning och enhetens skick. Volymen är inte ett påfyllningsmål oberoende av nivåkontroll.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "Tech Tips K46 internal reservoir: approximately 2.2 liters fully empty, residual oil warning",
+      "sourceId": "tufftorq-official-k46-internal-reservoir-maintenance",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-50-200heavy",
+      "statement": "Tuff Torqs K46-serviceanvisning för extern expansionstank anger vid hård användning första byte efter 50 timmar och därefter vart 200:e. Husqvarnas Rider 16-manual 2003 anger i stället 50/300 timmar för professionell användning; dokumenten avser inte nödvändigtvis samma undervariant.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "K46 external expansion tank oil maintenance 'first 50 hours ... every 200 hours thereafter'",
+      "sourceId": "tufftorq-official-k46-external-expansion-maintenance",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-50-250faq",
+      "statement": "Tuff Torqs FAQ anger K46 som lätt användningsklass där rutinmässigt oljebyte normalt inte krävs; om ägaren ändå väljer oljebyte anges 50 timmar första gången och därefter 250 timmar. Skillnaden mot serviceblad för hård användning visar att tillämpning och versionskälla måste anges.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "FAQ 'How often should I change my fluid?' 50 hours / 250 hours",
+      "sourceId": "tufftorq-official-faq-k46-k55-identity",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-noninterchangeable-submodels",
+      "statement": "Tuff Torq anger att olika K46-undermodeller inte är direkt utbytbara, exempelvis K46BT och K46AC. Modellfamiljen K46 räcker därför inte som bevis för att en ersättningsväxellåda passar Rider 16.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "FAQ 'Can I use a different model to replace my broken transmission?'",
+      "sourceId": "tufftorq-official-faq-k46-k55-identity",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-transaxle-barcode-required",
+      "statement": "Tuff Torq varnar för att förlita sig enbart på maskinens ägarmanual vid identifiering av transmissionsundervariant och rekommenderar originalenhetens serielapp; den kan finnas på bakre växellådshuset eller i kopia under sitsen.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "FAQ 'Where is the serial number located?' and 'I don’t know if I have K46HD'",
+      "sourceId": "tufftorq-official-faq-k46-k55-identity",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-hot-power-loss",
+      "statement": "Tuff Torq förklarar att transmissionskraft kan minska när oljan når över 90°C på grund av viskositetsfall och inre läckage. De anger även kontroll av rem, remskiva, länkage och motorvarvtal innan intern transmissionsskada antas.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "FAQ max temperature above 90C and 'mower slows down when warms up'",
+      "sourceId": "tufftorq-official-faq-k46-k55-identity",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch51-k46-vent-not-always-leak",
+      "statement": "Enligt Tuff Torq kan olja på transmissionshusets ovansida bero på utpressning genom avluftning vid stark uppvärmning; detta bevisar inte i sig läckande tätning men motiverar nivå- och läckagekontroll.",
+      "variant": "Tillverkaren Tuff Torq: K46-familj; kräver kontroll av exakt tillverknings-ID på Rider16",
+      "locator": "FAQ 'I have oil on top of the unit, do I have a leak?'",
+      "sourceId": "tufftorq-official-faq-k46-k55-identity",
+      "grade": "A",
+      "topic": "E"
     }
   ],
   "gaps": [
@@ -2997,6 +3108,9 @@
     "OEM-verkstadshandbok 2003 anger Rider16 motorolja 1,4 L, OM 2002 anger 1,2 L. Lös via Briggs modell-/typ-/kodspecifik manual innan fyllmängd rekommenderas.",
     "Combi 112 klippbredd anges som 1220 mm i 2003-verkstadshandbok trots benämningen 112; jämför med andra tillverkarutgåvor och skilj nominell aggregatklass från faktisk klippbredd.",
     "Rider16 K46 2003 verkstadshandbok anger 2,2 L SAE10W/30 och 50/300h vid proffsanvändning; kontrollera senare Tuff Torq-undervariant samt Husqvarnas servicebulletiner innan universell rekommendation.",
-    "Husqvarna FAQ uppdaterad 2015 anger 10W-30 icke-syntetisk för svenska Rider 16(H) och auktoriserat verkstadsbyte. Jämför K46/K55 exakt modellnummer och senare servicebulletiner före modern generell oljerekommendation."
+    "Husqvarna FAQ uppdaterad 2015 anger 10W-30 icke-syntetisk för svenska Rider 16(H) och auktoriserat verkstadsbyte. Jämför K46/K55 exakt modellnummer och senare servicebulletiner före modern generell oljerekommendation.",
+    "Tuff Torq anger för K46 olika underhållsintervall (50/200 extern tank, 50/250 FAQ, mot Husqvarna Rider16 50/300 äldre verkstad). Fastställ Rider16-enhetens tillverkningskod/reservoarsystem och tillämplig prioriterad OEM-instruktion.",
+    "Tuff Torqs senare serviceinformation rekommenderar Tuff Tech, Husqvarna äldre verkstad och svensk Rider-FAQ anger 10W/30. Utred servicepolicy per K46-ID och produktens tillverkningsperiod, utgå inte från universell olja.",
+    "Tuff Torq förbjuder generell utbytbarhet mellan K46-undermodeller. Kartlägg Husqvarnas artikelnummer K46 mot Tuff Torq originaletikett P/N och serienummer före ersättningsköp."
   ]
 }
