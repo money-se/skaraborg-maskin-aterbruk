@@ -29,6 +29,8 @@
 | Jonsered LT2115A / 96011018200 | [jonsered-lt2115a-96011018200.json](machines/jonsered-lt2115a-96011018200.json) | `needs_research`: IPL 2006-03, Hydro Gr 322-0510, 42-tums klippbord |
 | Jonsered LT2115CM / 96061008101 | [jonsered-lt2115cm-96061008101.json](machines/jonsered-lt2115cm-96061008101.json) | `needs_research`: reservdelslista 2006-05, aggregat/knivar och elsystem |
 
+| Jonsered LT2115CMA (2005-01) / 96061001000 | [jonsered-lt2115cma-96061001000.json](machines/jonsered-lt2115cma-96061001000.json) | `needs_research`: äldre IPL, Hydro-Gear 321-0510, vidare revisionskontroll krävs |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
