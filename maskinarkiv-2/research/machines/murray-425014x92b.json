@@ -102,6 +102,13 @@
       "title": "Murray 425014X92B original MOTION DRIVE parts table",
       "document": "F-050706L printed p.41",
       "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=41"
+    },
+    {
+      "id": "murray-014b-deck-oem-p47-20261022",
+      "tier": 2,
+      "title": "Murray 425014x92B mower housing OEM repair parts",
+      "document": "F-050706L printed p.47, keys 1–62",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=47"
     }
   ],
   "topics": {
@@ -143,7 +150,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Originalkatalog F-050706L p.45 dokumenterar PTO, lyftmekanism, hanger rods och separata E701/E700 fästen med positionsnummer. Motorsystem och fysisk passform ej härledd."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Originalkatalog F-050706L p.45 dokumenterar PTO, lyftmekanism, hanger rods och separata E701/E700 fästen med positionsnummer. Motorsystem och fysisk passform ej härledd. OEM MOWER HOUSING s.47 kompletterad med vänster/höger bromsbelägg (094049E701/094047E701), bromsfjädrar, infästningar och spindelhus. Aggregatbromsar är säkerhetskritiska; alltid rätt modell och fysisk kontroll."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -2820,6 +2827,226 @@
       "sourceId": "murray-014b-motion-drive-p41",
       "grade": "B",
       "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-left-brake-pad",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: left brake pad anges som 094049E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 12",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-right-brake-pad",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: right brake pad anges som 094047E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 27",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-suspension-plate",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: suspension plate anges som 094128E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 15",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-idler-arm",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: idler arm anges som 690408E700.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 25",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-brake-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: brake bracket anges som 094193E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 28",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-brake-spring",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: brake spring anges som 166x42.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 29",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-front-hanger",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: front hanger anges som 094190E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 46",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-belt-guide",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: belt guide anges som 094781.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 48",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-gauge-wheel-right-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: gauge wheel right bracket anges som 1001260E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 54",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-gauge-wheel-left-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: gauge wheel left bracket anges som 092423E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 55",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-spindle-housing",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: spindle housing anges som 094814E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 59",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-spindle-lock-ring",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: spindle lock ring anges som 031x11.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 60",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-second-belt-guide",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: second belt guide anges som 094066.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 62",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-belt-guide-cover",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: belt guide cover anges som 094051E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 23",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-deflector-rod",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: deflector rod anges som 094957 Z.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 43",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-deflector-hinge-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: deflector hinge bracket anges som 094956E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 45",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-rear-suspension",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: rear suspension anges som 094191E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 30",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-front-suspension",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: front suspension anges som 094055E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 11",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-hanger-pin",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: hanger pin anges som 095194.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 19",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-idler-spring",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: idler spring anges som 166x41.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 26",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
