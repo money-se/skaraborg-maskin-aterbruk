@@ -137,7 +137,7 @@
     },
     {
       "id": "jonsered-lt2115a-96011000801-clutch-link",
-      "statement": "Wolfswinkels versionslista för LT2115A 96011000801 (2005-05) upptar kopplingslänk 532 19 96-52 i DRIVE-delarna. Tidigare registrerat 532 10 57-10 på position 53 saknar stöd i denna majlista och ska inte användas som fastställt majnummer utan kontroll av original-IPL.",
+      "statement": "Aktuell Wolfswinkel-lista för LT2115A 2005-05 visar kopplingslänk 532 19 96-52; samma nummer finns även i den moderna 2005-01-listan. Detta styrker inte att original-IPL januari och maj hade samma artikelnummer eller att 532105710 officiellt ersatts.",
       "variant": "jonsered-lt2115a-96011000801",
       "locator": "Wolfswinkel LT2115A 96011000801 2005-05, Drive component listing (532199652); ursprunglig position 53 ej bildverifierad",
       "sourceId": "jonsered-lt2115a-96011000801-catalog",
@@ -252,6 +252,7 @@
     "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
     "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL.",
     "KORRIGERING 2026-10-22: tidigare jämförelse angav samma kopplingslänk 532105710 för januari och maj 2005. Den dokumenterade maj-versionens Wolfswinkel DRIVE-lista upptar 532199652 och ger inte stöd för det äldre numret. Januari–maj-kompatibilitet måste avgöras med båda original-IPL-sidbilderna.",
-    "2005-05 original IPL dokumenterar förarmanualernas artikelnummer (Euro och Scan) och däckdimensioner. Original-PDF textutdrag läsbart men sidbilder har cachemiss och kräver bildverifiering; däcken kan ha bytts på använda exemplar."
+    "2005-05 original IPL dokumenterar förarmanualernas artikelnummer (Euro och Scan) och däckdimensioner. Original-PDF textutdrag läsbart men sidbilder har cachemiss och kräver bildverifiering; däcken kan ha bytts på använda exemplar.",
+    "Januari 2005:s historiska original-IPL anger key53 532105710, men Wolfswinkel visar 532199652 på både januari- och majlistan. En tidigare tolkning som årsmånadsändring var för stark; aktuell katalogsynkronisering/ersättning kräver separat OEM-stöd."
   ]
 }
