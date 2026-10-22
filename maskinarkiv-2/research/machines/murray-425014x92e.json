@@ -158,6 +158,13 @@
       "title": "Tecumseh Peerless technician handbook",
       "document": "Form 691218 R 3/02, general diagnosis pp.5,9–12 and identification",
       "url": "https://www.smallenginesuppliers.com/html/engine-specs/tecumseh/Tecumseh_Transaxle_Service_Information.pdf"
+    },
+    {
+      "id": "peerless-691218-visual-lubrication-diagnostics",
+      "tier": 1,
+      "title": "Tecumseh Peerless 691218 visually checked lubrication and troubleshooting",
+      "document": "Form 691218 R 3/02, printed pp.7,10 (PDF pages 9,12); visually checked",
+      "url": "https://mymowerparts.com/pdf/Tecumseh-Service-and-Repair-Manuals/TECUMSEH-PEERLESS-TRANSMISSION-TRANSAXLES-DIFFERENTIALS-SERVICE--REPAIR-MANUAL-691218.pdf"
     }
   ],
   "topics": {
@@ -3868,6 +3875,83 @@
       "topic": "M",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-691218-visual-no-shift-under-load",
+      "statement": "Peerless övergripande verkstadsregel (ej specifik instruktion för 206-544C): Tillverkaren varnar för att växling under draglast, i lutning eller utan frigjord koppling sliter på växelkilar och drev.",
+      "variant": "Tecumseh 691218 general; Murray 425014X92E applicability unconfirmed",
+      "locator": "Troubleshooting printed p.10",
+      "sourceId": "peerless-691218-visual-lubrication-diagnostics",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-691218-visual-engine-off-shift",
+      "statement": "Peerless övergripande verkstadsregel (ej specifik instruktion för 206-544C): Med motorn avstängd ska växlarna kunna passeras med lätt motstånd; går växlingen då lätt är felet enligt manualen externt och transaxeln ska inte tas bort.",
+      "variant": "Tecumseh 691218 general; Murray 425014X92E applicability unconfirmed",
+      "locator": "Troubleshooting printed p.10",
+      "sourceId": "peerless-691218-visual-lubrication-diagnostics",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-691218-visual-disconnect-linkage",
+      "statement": "Peerless övergripande verkstadsregel (ej specifik instruktion för 206-544C): Om växlingen även är trög med motorn avstängd ska yttre växellänkage kopplas loss för ett isolerat prov av växelaxeln.",
+      "variant": "Tecumseh 691218 general; Murray 425014X92E applicability unconfirmed",
+      "locator": "Troubleshooting printed p.10",
+      "sourceId": "peerless-691218-visual-lubrication-diagnostics",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-691218-visual-belt-guides-first",
+      "statement": "Peerless övergripande verkstadsregel (ej specifik instruktion för 206-544C): Förskjutna eller saknade remstyrningar är uttryckligen listade som möjlig orsak till trög växling även vid avstängd motor.",
+      "variant": "Tecumseh 691218 general; Murray 425014X92E applicability unconfirmed",
+      "locator": "Troubleshooting printed p.10",
+      "sourceId": "peerless-691218-visual-lubrication-diagnostics",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-691218-visual-lubrication-model",
+      "statement": "Peerless övergripande verkstadsregel (ej specifik instruktion för 206-544C): Tecumseh kräver kontroll av transmissionsmodell och specifikationsnummer före påfyllning, eftersom installerad position och utförande kan påverka mängd.",
+      "variant": "Tecumseh 691218 general; Murray 425014X92E applicability unconfirmed",
+      "locator": "Lubrication Chart printed p.7",
+      "sourceId": "peerless-691218-visual-lubrication-diagnostics",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-691218-visual-mst-only",
+      "statement": "Peerless övergripande verkstadsregel (ej specifik instruktion för 206-544C): Smörjtabellens MST-värde 16 oz/473 ml olja gäller den rubricerade MST-serien och kan inte automatiskt tillämpas på Peerless 206-544C.",
+      "variant": "Tecumseh 691218 general; Murray 425014X92E applicability unconfirmed",
+      "locator": "Lubrication Chart printed p.7",
+      "sourceId": "peerless-691218-visual-lubrication-diagnostics",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-691218-visual-lubricant-types",
+      "statement": "Peerless övergripande verkstadsregel (ej specifik instruktion för 206-544C): Tillverkaren listar bentonitfett 788067C och SAE EP 80W90 730229B för skilda, uttryckligen angivna transmissionsfamiljer.",
+      "variant": "Tecumseh 691218 general; Murray 425014X92E applicability unconfirmed",
+      "locator": "Lubrication Chart printed p.7",
+      "sourceId": "peerless-691218-visual-lubrication-diagnostics",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -3884,6 +3968,7 @@
     "För att fastställa 282H07:s Type/Code krävs foto av stämpling på den verkliga maskinens motor. OEM-katalogen räcker inte för intern Briggs-delidentifiering.",
     "282H07 MS-5667 anger typberoende serviceersättare och notkoder (kabelhärva, fjäder, ljuddämpare etc), men maskinens Type/Code okända; tabellen har PDF-textgranskats men bildhämtning gav cache miss. Ingen beställningsrekommendation förrän fysisk motorkod och nuvarande OEM-delstatus verifierats.",
     "Sears 206-544C webbplatsens indexerade katalog visar interna delar men fullständig sprängskiss kunde inte öppnas (cache miss); uppgifter har stöd av indexerade beskrivningar, inte direkt bildgranskning. Märkbricka samt aktuell ersättningskedja krävs.",
-    "Peerless manual 691218 innehåller generell diagnos, men ingen explicit bekräftelse på att 206-544C följer visst MST200-smörjschema eller fyllmängd. Specificera inte 16 oz 80W90 för 206-544C utan korsverifiering."
+    "Peerless manual 691218 innehåller generell diagnos, men ingen explicit bekräftelse på att 206-544C följer visst MST200-smörjschema eller fyllmängd. Specificera inte 16 oz 80W90 för 206-544C utan korsverifiering.",
+    "Visuell granskning av Tecumseh 691218 tryckt s.7 och s.10 visar inga modellbundna fyllvärden för 206-544C. Registrera inte MST:s 473 ml som 206-544C-specifikation."
   ]
 }
