@@ -621,6 +621,33 @@
       "topic": "J",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-fuel-flow-diagnostic",
+      "statement": "Kohler TP-2339-D anger felsökningskedjan för motor med mekanisk bränslepump: kontrollera tankventilation och bränslekran, bränsleflöde fram till pumpens inlopp, därefter flöde vid förgasarens inlopp under startmotorkörning. Bristande flöde från tanken leder till kontroll av tankvent, sugsil, kran och slang; saknat pumpflöde efter kontroll av slang leder till pumpbyte.",
+      "variant": "CV11–CV16/CV460–465/CV490–495 med mekanisk bränslepump, enligt TP-2339-D",
+      "locator": "Section 5 Fuel System Troubleshooting Guide (Gasoline), printed p.5.2, PDF page index 29",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-leakdown-leak-origin",
+      "statement": "Kohler TP-2339-D:s cylinderläckagetest anger att hörbart luftläckage vid vevhusventilation pekar mot kolvringar/cylindervägg, vid avgassystem mot avgasventil och vid förgasarintag mot insugsventil. Testet utförs med kolven i övre dödläget på kompressionstakten och vevaxeln säkrad mot rotation.",
+      "variant": "CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D, cylinderläckagetest",
+      "locator": "Section 3 Cylinder Leakdown Test and Leakdown Test Results, printed p.3.4, PDF page index 23",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-tp2339-leakdown-color-bands",
+      "statement": "Kohler TP-2339-D tolkar läckagetestarens gröna low-område som gott skick, gult moderate som användbar motor med visst slitage och rött high som betydande slitage på ringar och/eller cylinder. Färgzonerna avser det instrument som manualen beskriver, inte generella procentsatser för alla läckagetestare.",
+      "variant": "CV11–CV16/CV460–465/CV490–495, Kohler leakdown-tester enligt TP-2339-D",
+      "locator": "Section 3 Leakdown Test Results, printed p.3.4, PDF page index 23",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -644,6 +671,7 @@
     "Oljestickor CH kontra CV och kortfilter 28 050 01-S kräver kontroll av respektive installation och teknisk passform; delarna får inte överföras mellan motorfamiljer utifrån katalogbild ensam.",
     "Diagnosverktyg 25 761 06-S, 25 761 05-S och 25 455 01-S har tillverkarbelagda katalognummer men provförfarande och acceptansgränser måste hämtas från rätt servicemanual och motorvariant.",
     "Oljetryck 40 psi i TP-2339-D p.11.23 avser specifikt återmonteringsprov efter 90 s tomgång. Utred separata originalgränser för normal drift och eventuell motorversionsskillnad före bred felsökningsrekommendation.",
-    "Kohler mekanisk bränslepump: komponentnummer, exakt Spec. No.-passning och eventuella ändrade monteringsprocedurer i senare revisionsmanualer är inte verifierade."
+    "Kohler mekanisk bränslepump: komponentnummer, exakt Spec. No.-passning och eventuella ändrade monteringsprocedurer i senare revisionsmanualer är inte verifierade.",
+    "Bränsle- och cylinderläckagetest måste utföras enligt fullständig säkerhets- och instrumentanvisning; Kohlers grönt/gult/rött avser specifik läckagetestare och inga generella läckageprocent har verifierats."
   ]
 }
