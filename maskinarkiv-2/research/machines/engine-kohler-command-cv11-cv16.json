@@ -45,7 +45,7 @@
     },
     "C": {
       "state": "gap",
-      "note": "Walbro- och Nikki-förgasare förekommer. Specifik förgasare, korrekt munstycke och reparationssats för en enskild motors Spec. No. är ännu inte belagda."
+      "note": "Originalservicehandboken skiljer Walbro och Nikki genom tomgångsreglage, pressat respektive gängat huvudmunstycke och begränsningar för emissionsutföranden. Exakt förgasar- och munstycksnummer per Spec. No. återstår."
     },
     "D": {
       "state": "gap",
@@ -997,6 +997,114 @@
       "topic": "I",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
+    },
+    {
+      "id": "kohler-carb-walbro-nikki-control-identification",
+      "statement": "Kohler visar att Walbro har skruv för låg tomgång och blandningsnål, medan Nikki i beskrivet fast huvudmunstycke-utförande endast har tomgångsskruv; emissionscertifierat Walbro-utförande kan ha fast blandning eller begränsarhatt.",
+      "variant": "CV11–16/CV460–465/CV490–495; Walbro respektive Nikki utförande",
+      "locator": "Section 5 p.5.3, PDF index 30, Fig. 5-3",
+      "topic": "C",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-walbro-idle-limiter-do-not-force",
+      "statement": "Kohler varnar för att Walbro-förgasare med emissionsbegränsare på tomgångsblandningsnålen endast får justeras inom begränsarens medgivna område och att nålen inte ska demonteras om begränsarhatt finns.",
+      "variant": "Walbro fixed-main-jet carburetor med emissionsbegränsning",
+      "locator": "Section 5 p.5.5–5.6, PDF indices 32–33",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-nikki-factory-sealed-idle",
+      "statement": "Nikki-förgasare på emissionscertifierade motorer har förinställd och fabriksförseglad tomgångsblandning; manualen anger att blandningen inte kan justeras.",
+      "variant": "Nikki carburetor på emissionscertifierad motor enligt TP-2339-D",
+      "locator": "Section 5 p.5.5, PDF index 32, Nikki Carburetor Adjustment",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-warm-before-adjust",
+      "statement": "Kohlers anvisning om förgasarjustering för Walbro/Nikki förutsätter uppvärmning 5–10 minuter vid halvgas före den aktuella inställningen; motor- och maskintillverkarens varvtalsgränser gäller.",
+      "variant": "Walbro/Nikki enligt service manual; justerbart utförande",
+      "locator": "Section 5 p.5.5, PDF index 32, Adjustment",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-walbro-main-jet-pressed",
+      "statement": "Walbro-huvudmunstycket är pressat i förgasarkroppens torn. Kohler avråder från demontering annat än vid installation av särskild höghöjdssats enligt satsens instruktioner.",
+      "variant": "Walbro fixed-main-jet carburetor enligt Section 5",
+      "locator": "Section 5 p.5.7, PDF index 34, Main Fuel Jet Removal",
+      "topic": "C",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-nikki-main-jet-threaded-solenoid",
+      "statement": "Nikki-huvudmunstycket är gängat i spetsen på bränsleavstängningssolenoiden och kan demonteras för kontroll/rengöring enligt servicehandboken; uppgiften kan inte överföras till Walbro.",
+      "variant": "Nikki fixed-main-jet carburetor enligt Section 5",
+      "locator": "Section 5 p.5.7, PDF index 34, Main Fuel Jet Removal",
+      "topic": "C",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-inlet-seat-not-remove",
+      "statement": "Bränslenålens säte är pressat i förgasarkroppen; Kohler förbjuder demonteringsförsök och rekommenderar rengöring på plats med förgasarrengöring vid behov.",
+      "variant": "Walbro/Nikki carburetor according to Section 5",
+      "locator": "Section 5 p.5.7, PDF index 34, Fuel Inlet Seat Removal",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-welch-tool-ko1018",
+      "statement": "Vid Walbro-förgasare anger Kohler verktyg KO1018 för demontering av Welch-plugg vid rengöring av tomgångskanaler. Verktygsspetsen får inte slå i förgasarkroppen.",
+      "variant": "Walbro carburetor with removable Welch plugs",
+      "locator": "Section 5 p.5.6–5.7, PDF indices 33–34, Figure 5-7",
+      "topic": "I",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-self-relieving-choke-kit-1275711s",
+      "statement": "Kohler anger chokereparationssats 12 757 11-S för förgasare med självavlastande choke. Satsen gäller denna specifika chokekonstruktion och är inte generellt chokeset för alla CV-motorer.",
+      "variant": "Walbro/Nikki carburetor equipped with self-relieving choke",
+      "locator": "Section 5 p.5.7, PDF index 34, Choke Shaft Removal (Self-Relieving)",
+      "topic": "K",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-throttle-shaft-no-repair-kit",
+      "statement": "Kohler anger att spjällaxeln normalt inte ska demonteras eftersom reparationssatser saknas och slitage vanligen påverkar förgasarkroppen; vid utsliten axel bör hela förgasaren bytas.",
+      "variant": "Carburetor with worn throttle shaft described in Section 5",
+      "locator": "Section 5 p.5.8, PDF index 35, Throttle Shaft Removal",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-carb-solvent-seal-compatibility",
+      "statement": "Kohler varnar för nedsänkning av förgasare i rengöringsmedel när packningar eller tätningar av fiber, gummi eller skum är monterade; lösningsmedlet kan skada dem.",
+      "variant": "Walbro/Nikki carburetors with installed nonmetallic seals",
+      "locator": "Section 5 p.5.8, PDF index 35, Cleaning",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
+    },
+    {
+      "id": "kohler-choke-plate-alignment-reassembly",
+      "statement": "Vid återmontering av självavlastande choke anger Kohler justering av chokeplattan med 0,010-tums bladmått, låsning med Loctite 609 på skruvarna och kontroll av fri rörelse; metoden gäller endast denna chokevariant.",
+      "variant": "Self-relieving choke with repair kit per TP-2339-D",
+      "locator": "Section 5 p.5.9, PDF index 36, Figure 5-12",
+      "topic": "J",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -1027,6 +1135,7 @@
     "Kohler tändmoduler 12 584 04-S, 12 584 05-S, 12 584 12-S och 12 584 17-S är identifierade i tillverkarens snabbguide; exakt reservdel kräver fortfarande motorns Spec. No. och aktuell Kohler Parts Lookup.",
     "Electrical/air intake batch: identifiera befintlig 15 A/25 A laddning, kontaktdon, drivmedelsutförande (LP/PRO) och 2,8/3,4-tums luftfilterhus via motor Spec. No. före köp eller montering. Artikelnummer är katalogbelagda, inte generella passningsgarantier.",
     "Vevhusvakuumprovets 10,2 cm är vattennivåskillnad i specificerad mätmetod och får inte jämställas med normalt oljetryck. Provets säkerhetsanvisningar och 3200–3750 rpm behöver följas.",
-    "Regulator och maxvarv: 3750 rpm är endast generell maxrekommendation för de flesta motorer; faktisk maskin-OEM anger gränsen. Innan serviceartikel krävs exakt typ av reglagefäste, regulatorfjäder, Spec. No. och varvtalsmätning."
+    "Regulator och maxvarv: 3750 rpm är endast generell maxrekommendation för de flesta motorer; faktisk maskin-OEM anger gränsen. Innan serviceartikel krävs exakt typ av reglagefäste, regulatorfjäder, Spec. No. och varvtalsmätning.",
+    "Förgasarkatalog: inga specifikationsbundna kompletta Walbro-/Nikki-förgasarnummer eller munstyckssatser har fastställts. Kontrollera förgasarfabrikat, chokeversion, emissionsbegränsning och Spec. No. före beställning eller demontering."
   ]
 }
