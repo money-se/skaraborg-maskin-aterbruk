@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-f-1218-1990",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "PARK 12 (F), PNC 13-1218-83, Season 1990, STIGA original parts catalogue. Blandad transaxelpartlista kräver modell-/revisionsidentifiering före reservdelsval.",
+  "sources": [
+    {
+      "id": "stiga-park-12-f-1218-1990-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 (F) 13-1218-83 parts catalogue",
+      "document": "Season 1990, Issue 39-2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_-F-_13-1218-83_89_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    }
+  },
+  "claims": [
+    {
+      "id": "stiga-park-12-f-1218-1990-identity",
+      "topic": "A",
+      "statement": "Originalreservdelskatalogen identifierar STIGA PARK 12 (F) 13-1218-83, säsong 1990 (Issue 39-2014).",
+      "variant": "13-1218-83",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF omslag s.1, katalogsida 3"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-briggs-type",
+      "topic": "C",
+      "statement": "Förgasargruppen skiljer Briggs & Stratton 281707-0142 och 281707-0127 med separata förgasare 491031 respektive 490518.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.3 pos.125"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-briggs-fuel-filter",
+      "topic": "C",
+      "statement": "Bränslefilter 298090 är noterat för motor 281707-0142 och 394358 för 281707-0127.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.3 pos.240"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-briggs-stator",
+      "topic": "I",
+      "statement": "Motorgenerator 393474 är noterad för Briggs 281707-0142 medan stator 392595 är noterad för 281707-0127.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.5 pos.474"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-briggs-starter",
+      "topic": "C",
+      "statement": "Briggs startmotor 490420 anges i motorförteckningen; koden avgör inte vilken motor som faktiskt finns på ett enskilt exemplar.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.5 pos.309"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-trans-variants",
+      "topic": "D",
+      "statement": "Transaxelavsnittet har både komplett 1132-0001-02 med noteringen 'Trac 12-TRM107' och 1134-2469-01 med noteringen 'Park 2002'. Två rader ger inte en dokumenterad utbytesordning.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.15 pos.0"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-gear-12-15",
+      "topic": "D",
+      "statement": "I samma blandade transaxeltabell finns P000-7781-36 15T och P000-7781-45 12T på pos.2, utan vilken individ som använder respektive alternativ.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.15 pos.2"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-chain-variant",
+      "topic": "D",
+      "statement": "Tabellen har två alternativa kedjehjul på pos.14, P000-7860-83 18T och P000-7860-60 14T, samt pos.15 P000-7860-82 9T och P000-7860-61 10T.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.15 pos.14–15"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-needle-variant",
+      "topic": "K",
+      "statement": "Nållager på pos.30 listas i två alternativ: P000-7800-86 och P000-7801-22, två vardera; de kan inte väljas utan transaxelrevision.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.15 pos.30"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-chain-alternatives",
+      "topic": "D",
+      "statement": "Pos.28 i transaxelgruppen innehåller två kedjeartiklar P000-7860-81 och P007-8606-2A, var för sig på egen rad.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.15 pos.28"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-cover-variant",
+      "topic": "K",
+      "statement": "Transaxelgruppens pos.47 visar både kåpa P000-7720-82 och P007-7207-8A.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.17 pos.47"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-gear-shifter",
+      "topic": "F",
+      "statement": "Växelförarstång P000-7842-90 är en särskild del i transaxelavsnittet, på pos.48.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.17 pos.48"
+    },
+    {
+      "id": "stiga-park-12-f-1218-1990-brake-pads",
+      "topic": "G",
+      "statement": "Transaxelns bromsdelar inkluderar tryckplatta P000-7900-07 pos.51 och två belägg P000-7900-06 pos.52.",
+      "variant": "PARK 12 (F) 13-1218-83 original IPL 1990, kataloguppgift ej garanterad individuell passform",
+      "grade": "A",
+      "sourceId": "stiga-park-12-f-1218-1990-ipl",
+      "locator": "PDF s.17 pos.51–52"
+    }
+  ],
+  "gaps": [
+    "Den interna transaxellistan kombinerar två kompletta enheter och alternativa komponentrader utan entydig individ-/serienummernyckel. Identifiera transaxelns verkliga skylt och original-BOM före reservdelsval.",
+    "Briggs Model/Type/Code och monterad motor ska fastställas på individmotor före motorspecifik service.",
+    "Originalbruksanvisning och klippaggregatets PNC samt dess monteringsmanual saknas.",
+    "PDF-söktext läst, men webbläsarens PDF-skärmbildsfunktion returnerade fel vid visuell ritningskontroll."
+  ]
+}
