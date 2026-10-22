@@ -260,6 +260,51 @@
       "sourceId": "stiga-park12-1996-ipl",
       "variant": "STIGA Park 12 13-1442-19, säsong 1996, serienummer enligt respektive claim",
       "grade": "A"
+    },
+    {
+      "id": "p12-96-pto-belt",
+      "topic": "K",
+      "statement": "Originalkatalogens Power Take-Off listar kilrem 1134-9012-01 med hänvisning till 9585-0056-00. Denna PTO-rem får inte sammanblandas med transmissionsrem 1134-9035-01.",
+      "variant": "STIGA Park 12 13-1442-19 Season 1996",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "Tryckt sida 23, pos. 57"
+    },
+    {
+      "id": "p12-96-pto-roller",
+      "topic": "H",
+      "statement": "Katalogen anger svart spännrulle 1134-9027-01 position 30 och komplett spännhjul 1134-1770-01 position 48 i kraftuttagsgruppen.",
+      "variant": "STIGA Park 12 13-1442-19 Season 1996",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "Tryckt sida 23, pos. 30 och 48"
+    },
+    {
+      "id": "p12-96-pto-cable",
+      "topic": "F",
+      "statement": "Kraftuttagsgruppen anger kraftuttagswire 1134-3573-01 position 9 och urkopplingsspak 1134-1972-01 position 10.",
+      "variant": "STIGA Park 12 13-1442-19 Season 1996",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "Tryckt sida 23, pos. 9–10"
+    },
+    {
+      "id": "p12-96-pto-lever-variant",
+      "topic": "F",
+      "statement": "STIGA listar spak 1134-1396-02 med uttrycklig variantnotering 1442, 1443, 1446 medan alternativ spak 1134-0027-01 har notering 1168, 1358, 1458; artikelnumren får inte behandlas som generellt utbytbara.",
+      "variant": "STIGA Park 12 13-1442-19 Season 1996",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "Tryckt sida 23, pos. 8 och variantanmärkningar"
+    },
+    {
+      "id": "p12-96-pto-belt-guide",
+      "topic": "K",
+      "statement": "Kraftuttagsgruppen listar remstyrning 1134-2381-01 position 63.",
+      "variant": "STIGA Park 12 13-1442-19 Season 1996",
+      "grade": "A",
+      "sourceId": "stiga-park12-1996-ipl",
+      "locator": "Tryckt sida 23, pos. 63"
     }
   ],
   "gaps": [
@@ -270,6 +315,7 @@
     "Bekräfta tillhörande aggregat-PNC, tillåtna rem- och knivkoder och monteringskit.",
     "Verifiera elschema och respektive brytares funktion mot modellbunden elritning.",
     "Original-PDF:s ritningssidor bör visuellt granskas innan reparationssteg; webbens skärmbildstjänst gav cache miss 2026-10-22.",
-    "Identifiera senare transaxel 1134-3716-01 från och med 960402 och kontrollera fabrikat/interna delar i separat IPL; använd inte Peerless 930-022-detaljer utan verifiering."
+    "Identifiera senare transaxel 1134-3716-01 från och med 960402 och kontrollera fabrikat/interna delar i separat IPL; använd inte Peerless 930-022-detaljer utan verifiering.",
+    "PTO-systemets maskinrem är dokumenterad men rätt klippaggregat-PNC, aggregatremmar och knivar är fortfarande okända."
   ]
 }
