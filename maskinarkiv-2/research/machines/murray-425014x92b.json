@@ -88,6 +88,13 @@
       "title": "Murray 425014X92B original repair parts ENGINE MOUNT",
       "document": "F-050706L printed p.49, model 425014X92B",
       "url": "https://somanuals.com/html/12/Murray-Lawn-Mower-425014x92B-User-Manual.html"
+    },
+    {
+      "id": "murray-014b-steering-p43-verified",
+      "tier": 2,
+      "title": "Murray 425014X92B original steering parts table",
+      "document": "F-050706L STEERING p.43",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=43"
     }
   ],
   "topics": {
@@ -114,7 +121,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Styrningskatalogen F-050706L s.43 identifierar ratt, styrstång, pinjong, sektor, framaxel, spindlar, styrstag och hjullager. Flera artikelnummer skiljer sig från 425015X92A trots snarlik konstruktionsgrupp; passform får inte antas."
+      "note": "Originaltabell s.43 kartlagd, inklusive styrbälg, framhjul, styrlager och motorplåt 094006E701. Den sistnämnda motsäger ENGINE MOUNT s.49 pos7 094006E700; ingen allmän passform kan härledas."
     },
     "F": {
       "name": "Reglage",
@@ -2258,6 +2265,226 @@
       "topic": "C",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-retainer-clip",
+      "statement": "Modellens STEERING-katalog anger 094131 i position 3.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 3",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-bearing",
+      "statement": "Modellens STEERING-katalog anger 094124 i position 4.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 4",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-pinion-ring",
+      "statement": "Modellens STEERING-katalog anger 011x25 i position 8.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 8",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-sector-bearing",
+      "statement": "Modellens STEERING-katalog anger 094123 i position 10.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 10",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-plate",
+      "statement": "Modellens STEERING-katalog anger 1001121E701 i position 12.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 12",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-engine-plate",
+      "statement": "Modellens STEERING-katalog anger 094006E701 i position 13.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 13",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-hanger-bracket",
+      "statement": "Modellens STEERING-katalog anger 1001270E701 i position 16.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 16",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-hanger-axle",
+      "statement": "Modellens STEERING-katalog anger 094007E701 i position 17.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 17",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-bearing-axle",
+      "statement": "Modellens STEERING-katalog anger 690150 i position 20.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 20",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-valve",
+      "statement": "Modellens STEERING-katalog anger 024373 i position 32.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 32",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-front-tire",
+      "statement": "Modellens STEERING-katalog anger 091912 i position 33.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 33",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-inner-tube",
+      "statement": "Modellens STEERING-katalog anger 407047 i position —.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos —",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-hubcap",
+      "statement": "Modellens STEERING-katalog anger 094618 i position 38.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 38",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-bellows",
+      "statement": "Modellens STEERING-katalog anger 092059 i position 40.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 40",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-wheel-cover",
+      "statement": "Modellens STEERING-katalog anger 1001982 i position 41.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 41",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-shoulder-bolt",
+      "statement": "Modellens STEERING-katalog anger 009x57 i position 6.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 6",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-pinion-nut",
+      "statement": "Modellens STEERING-katalog anger 15x111 i position 5.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 5",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-screw",
+      "statement": "Modellens STEERING-katalog anger 26x249 i position 30.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 30",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-spindle-bolt",
+      "statement": "Modellens STEERING-katalog anger 01x111 i position 22.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 22",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-cotter-pin",
+      "statement": "Modellens STEERING-katalog anger 030x49 i position 19.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 19",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -2271,6 +2498,7 @@
     "425014X92B styrningsritning visar avvikande suffixtal E245 för framaxel/styrspindlar jämfört med 425015X92A:s E701; kontrollera verklig revision och eventuella ersättningsnummer före beställning.",
     "Identifiera Briggs Model/Type/Code på motorn före koppling till motorspecifik servicemanual.",
     "425014X92B elsystemets kabelhärvor och startkomponenter skiljer sig från A-registret. Kontrollera fysisk variant och kopplingsschema före byte; endast reservdelsidentitet är katalogbelagd.",
-    "Katalogkonflikt för 425014X92B höger/vänster ram mellan avsnitten CHASSIS & HOOD respektive MOTION DRIVE. Begär maskinens märkning och kontrollera dokumentrevision före reservdelsråd."
+    "Katalogkonflikt för 425014X92B höger/vänster ram mellan avsnitten CHASSIS & HOOD respektive MOTION DRIVE. Begär maskinens märkning och kontrollera dokumentrevision före reservdelsråd.",
+    "OEM-katalogkonflikt F-050706L: STEERING s.43 pos13 motorplåt 094006E701; ENGINE MOUNT s.49 pos7 motorplåt 094006E700. Båda anges för samma modell; fysisk/OEM-revisionskontroll krävs."
   ]
 }
