@@ -11,6 +11,13 @@
       "title": "Husqvarna Rider 16 H official illustrated parts list, 2000-02",
       "document": "SPARE PARTS LIST RIDERS RIDER 16 H, 2000-02 (41-page original catalog, third-party archive)",
       "url": "https://www.lsengineers.co.uk/media/advice_centre/Husqvarna/Riders/parts-diagram-rider16h.pdf"
+    },
+    {
+      "id": "husqvarna-rider16h-2001-10-owner",
+      "tier": 1,
+      "title": "Husqvarna Rider 16 H operator's manual",
+      "document": "101 90 89-26, 2001-10, pub000016785/doc000036703",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000016785/doc000036703"
     }
   ],
   "topics": {
@@ -112,6 +119,105 @@
       "sourceId": "husqvarna-rider16h-2000-02-ipl",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "r16h-2001-owner-identity",
+      "statement": "Husqvarna originalmanual 101 90 89-26 avser Rider 16 H och är daterad 2001-10 enligt Husqvarnas dokumentbibliotek.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "PDF-sida 1 omslag",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "r16h-2001-engine",
+      "statement": "Manualens tekniska data anger Briggs & Stratton 28N707 och cylindervolym 465 cm³; verkligt Model/Type/Code på den enskilda maskinen ska kontrolleras.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 36, PDF-sida 37, TECHNICAL DATA / Engine",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "r16h-2001-oil",
+      "statement": "Manualens tekniska data för Rider 16 H anger 1,2 liter motorolja, SAE 30 eller SAE 10W/30, klass CD-SF.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 36, PDF-sida 37, TECHNICAL DATA / Engine",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "r16h-2001-tyre-pressure",
+      "statement": "Husqvarna anger däck 16 × 6.50 × 8 och tryck 60 kPa fram och bak.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 36, PDF-sida 37, TECHNICAL DATA / Dimensions",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "r16h-2001-blade-width",
+      "statement": "Rider 16 H-manualens tekniska data anger 90, 97 och 103 cm klippbredd (90 och 103 cm BioClip i specifikationen) utan att fastställa alla aggregat-PNC.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 36, PDF-sida 37, TECHNICAL DATA / Cutting unit",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2001-bioclip103-two-belts",
+      "statement": "Husqvarnas Rider 16 H-manual 2001-10 beskriver BioClip 103 med två tandremmar som synkroniserar knivarnas rotation.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 25, PDF-sida 26, Replacing the cutting unit belts / BioClip 103",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2001-bioclip103-tension",
+      "statement": "Manualen anger 7 mm nedböjning vid 10 N för de två remmarna i det beskrivna BioClip 103-aggregatet.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 26, PDF-sida 27, BioClip 103 steg 6",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "r16h-2001-bioclip103-phase",
+      "statement": "Manualen anger att knivarna på BioClip-aggregatet ska stå 90° mot varandra för att undvika kontakt och aggregatskada.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 26, PDF-sida 27, Important information",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "r16h-2001-ground-pressure",
+      "statement": "Bruksanvisningen anger aggregatmarktryck 12–15 kg och beskriver justering på båda sidor bakom framhjulen.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 23, PDF-sida 24, Checking and adjustment of cutting unit's ground pressure",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2001-deck-parallelism",
+      "statement": "Manualen anger att aggregatets bakkant ska vara 2–4 mm högre än framkanten vid kontroll av parallellitet.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Tryckt sida 23, PDF-sida 24, Checking the parallelism of the cutting unit",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "r16h-2001-towing",
+      "statement": "Husqvarna avråder från bogsering av hydrostatutrustad Rider 16 H annat än mycket korta sträckor i låg hastighet för att undvika transmissionsskada.",
+      "variant": "Rider 16 H, originalmanual 2001-10, maskin-PNC ej identifierat",
+      "locator": "Introduktion, tryckt sida 1, PDF-sida 2, Towing",
+      "sourceId": "husqvarna-rider16h-2001-10-owner",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -119,6 +225,9 @@
     "Visuellt granska alla transmissionsritningar och klippaggregatskisser, eftersom PDF-skärmbild gav cachefel.",
     "Identifiera komponentens fullständiga K55-undervariant och aktuell ersättningskedja före råd om reservdelspassform.",
     "Kontrollera Rider 16 H:s egen bruksanvisning för serviceintervall och tekniska data.",
-    "Undvik att överföra 16 H-uppgifter om K55 till 16-modeller med K46."
+    "Undvik att överföra 16 H-uppgifter om K55 till 16-modeller med K46.",
+    "Koppla Rider 16 H manual 2001-10 till exakt maskin-PNC och katalogen 2000-02 innan universella reservdelsråd ges.",
+    "Identifiera BioClip 103:s separata aggregat-PNC för Rider 16 H; 2001-manualen beskriver två tandremmar men säkerställer inte andra BioClip 103-versioners passform.",
+    "Källans PDF-text är granskad; skärmbildsanrop gav fel och tekniska figurer kräver efterföljande visuell kontroll."
   ]
 }
