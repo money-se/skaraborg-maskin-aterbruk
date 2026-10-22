@@ -81,7 +81,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Dana anges utan transaxelns exakta modellkod; drivrem 037x87 är källbunden till denna parts list."
+      "note": "F-040734L s.39 identifierar DANA-transaxel på pos 36 (utan exakt submodell) och drivrem 037x87, remskivor, växellänkage, bromsspärr och transaxelfästen. För 425015X92B är motsvarande variant fortfarande obekräftad."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -668,6 +668,127 @@
       "topic": "G",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-idler-arm",
+      "statement": "Reservdelskatalogen anger Löprullearm 690173 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 3",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-clutch-rod",
+      "statement": "Reservdelskatalogen anger Kopplingsstag 094041 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 4",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-shift-link",
+      "statement": "Reservdelskatalogen anger Växellänkage 094044 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 11",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-parking-brake-rod",
+      "statement": "Reservdelskatalogen anger Parkeringsbromsstag 1001245 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 14",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-shift-pivot",
+      "statement": "Reservdelskatalogen anger Växelspakens pivotfäste 1001303 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 16",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-brake-latch",
+      "statement": "Reservdelskatalogen anger Parkeringsbromsens spärr 094045 Z.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 26",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-transaxle-bracket",
+      "statement": "Reservdelskatalogen anger Transaxelfäste 094008E701.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 40",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-transaxle-support",
+      "statement": "Reservdelskatalogen anger Transaxelstöd 094433E701.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 42",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-drive-pulley",
+      "statement": "Reservdelskatalogen anger Drivremskiva 095094.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 44",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-belt-guide",
+      "statement": "Reservdelskatalogen anger Remstyrning 093349.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 54",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-drive-shift-yoke",
+      "statement": "Reservdelskatalogen anger Växelgaffel 1001825 YZ.",
+      "variant": "425015X92A, F-040734L",
+      "locator": "MOTION DRIVE, tryckt sida 39, position 31",
+      "sourceId": "murray-015a-html-drive",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -677,6 +798,7 @@
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
-    "F-040734L sida 45 visar flera identiska reservdelsnummer som F-050706L för 425014X92B; jämför fästpunkter, revisioner och ersättningsnummer separat innan fysisk utbytbarhet hävdas."
+    "F-040734L sida 45 visar flera identiska reservdelsnummer som F-050706L för 425014X92B; jämför fästpunkter, revisioner och ersättningsnummer separat innan fysisk utbytbarhet hävdas.",
+    "Närliggande handlarlistningar av '42515X92B' får inte användas som identitetsbevis för 425015X92B utan modellnummer- och katalogkontroll."
   ]
 }
