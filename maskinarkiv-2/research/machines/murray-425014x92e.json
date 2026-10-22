@@ -39,6 +39,13 @@
       "title": "Murray 425014X92E manual text index with transaxle identification",
       "document": "Murray 425014X92E specs, ground drive parts p.41",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/1"
+    },
+    {
+      "id": "murray-425014-oem-ipl-pdf",
+      "tier": 1,
+      "title": "Murray/AYP illustrated replacement parts document 425014X92E (96014000100)",
+      "document": "96014000100-e-rp, printed pp. 31–47",
+      "url": "https://www.lawnmowerpros.com/pdfs/ayp/96014000100.pdf"
     }
   ],
   "topics": {
@@ -55,12 +62,12 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Motorns fullständiga Model/Type/Code saknas. Maskinmanualens underhållsvärden får inte överföras till andra motorer."
+      "note": "Originalreservdelskatalog identifierar Briggs 282H07, men fullständigt Type/Code och exakt motorservicebok saknas."
     },
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Manualen innehåller Ground Drive och transaxelavsnitt; exakt transaxelmodell finns som preliminär sekundär uppgift men kräver granskning mot originalbild."
+      "note": "Originalreservdelskatalog anger Peerless 206-544C, transaxelremskiva 123666X och drivrem 130801; individuell växellådsmärkning och interntransmissionsdelar kräver fortsatt kontroll."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -75,12 +82,12 @@
     "G": {
       "name": "Säkerhetssystem",
       "state": "gap",
-      "note": "ROS och förarövervakning behandlas i maskinmanualen; fullständig elkretsspecifik verifiering kvarstår."
+      "note": "OEM elschema och reservdelslista identifierar säkring, sitsbrytare, interlock, tändningslås och ROS-modul; säkerhetssystemens exakta logik och revisioner behöver fördjupas."
     },
     "H": {
       "name": "Klippaggregat och redskap",
       "state": "gap",
-      "note": "42-tums aggregat belagt för just 425014X92E; exakta knivkombinationer och kompatibiliteter kräver visuell ritningskontroll."
+      "note": "OEM-reservdelskatalog innehåller 42-tums däck, rem 144959, tre namngivna knivalternativ och komplett ersättningsaggregat 171639. Ingen universell Murray-passform är belagd."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -265,13 +272,13 @@
     },
     {
       "id": "425014-transaxle-unconfirmed",
-      "statement": "Ett sekundärt textindex återger Peerless 206-544C under Ground Drive; kontroll mot originalets bild/tabell krävs innan uppgiften används vid beställning.",
+      "statement": "Tidigare sekundärt index nämnde Peerless 206-544C; nu bekräftad separat i tillverkarens reservdelskatalog, claim 425014-peerless-206544c-ipl.",
       "variant": "425014X92E / 96014000100",
       "locator": "GROUND DRIVE PARTS LIST, tryckt sida 41, indexutdrag",
       "sourceId": "murray-425014x92e-drive-secondary",
       "grade": "C",
       "topic": "D",
-      "verification": "needs_verification",
+      "verification": "verified",
       "checkedAt": "2026-10-22"
     },
     {
@@ -295,12 +302,265 @@
       "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-peerless-206544c-ipl",
+      "statement": "Delritningen Ground Drive anger transaxel Peerless 206-544C på position 1 och hänvisar internreservdelar till transmissionstillverkaren.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 37, GROUND DRIVE, pos 1",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-drive-vbelt-130801",
+      "statement": "Drivlinans kilrem har artikelnummer 130801, position 57.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 37, GROUND DRIVE, pos 57",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-transaxle-pulley-123666x",
+      "statement": "Remskivan på transaxeln har artikelnummer 123666X, position 3.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 37, GROUND DRIVE, pos 3",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-briggs-282h07-ipl",
+      "statement": "Motorgruppen anger Briggs motor modell 282H07, position 3; komplett Type/Code anges inte.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 41, ENGINE, pos 3",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-engine-muffler-137352",
+      "statement": "Motorinstallationens ljuddämpare anges som artikelnummer 137352, position 4.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 41, ENGINE, pos 4",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-fuse-175158",
+      "statement": "Elsystemets säkring anges som 20 A och artikelnummer 175158, position 26.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 33, ELECTRICAL, pos 26",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-ignition-193350",
+      "statement": "Tändningslåset anges som artikelnummer 193350, position 30.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 33, ELECTRICAL, pos 30",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-seat-switch-192749",
+      "statement": "Sitsbrytaren anges som artikelnummer 192749, position 29.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 33, ELECTRICAL, pos 29",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-ros-191834",
+      "statement": "Backkörningssystemets ROS-modul anges som artikelnummer 191834, position 94.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 33, ELECTRICAL, pos 94",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-interlock-176138",
+      "statement": "Interlock-brytaren anges som artikelnummer 176138, position 16.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 33, ELECTRICAL, pos 16",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-deck-165892-ipl",
+      "statement": "Klippdäcket anges som 42-tums Mower Deck Assembly, artikelnummer 165892, position 1.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, pos 1",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-deck-belt-144959",
+      "statement": "Klippaggregatets kilrem anges som artikelnummer 144959, position 68.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, pos 68",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-blade-hilift-138971",
+      "statement": "Kniv 138971 anges som 42-tums Hi-Lift för uppsamling eller sidoutkast, position 11.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, pos 11",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-blade-mulch-134149",
+      "statement": "Kniv 134149 anges som standardmulchingkniv, separat alternativ i knivlistan.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, alternativkniv under pos 11",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-blade-mulch-139775",
+      "statement": "Kniv 139775 anges som premium mulchingkniv, separat alternativ i knivlistan.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, alternativkniv under pos 11",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-mandrel-130794",
+      "statement": "Komplett spindelenhet för klippdäcket listas som 130794 utan remskiva.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, unnumbered Mandrel Assembly",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-mandrel-shaft-137645",
+      "statement": "Spindelaxeln listas som artikelnummer 137645, position 13.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, pos 13",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-mandrel-housing-128774",
+      "statement": "Spindelhuset listas som artikelnummer 128774, position 14.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, pos 14",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-mandrel-bearing-110485x",
+      "statement": "Spindelns kullager anges som artikelnummer 110485X, position 15.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, pos 15",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-replacement-deck-171639",
+      "statement": "Katalogen anger ett komplett ersättningsaggregat med artikelnummer 171639.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 47, MOWER DECK, unnumbered Replacement Mower Complete",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-chassis-174619",
+      "statement": "Chassistansningen anges som artikelnummer 174619, position 1.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 35, CHASSIS AND ENCLOSURES, pos 1",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-drawbar-176554",
+      "statement": "Dragstången anges som artikelnummer 176554, position 2.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 35, CHASSIS AND ENCLOSURES, pos 2",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "I",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014-electrical-headlamp-4152j",
+      "statement": "Framljuslampan anges som artikelnummer 4152J, lampbeteckning #1156, position 22.",
+      "variant": "Murray 425014X92E / 96014000100; IPL-revision 96014000100-e-rp",
+      "locator": "Tryckt sida 33, ELECTRICAL, pos 22",
+      "sourceId": "murray-425014-oem-ipl-pdf",
+      "grade": "A",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
-    "Fullständigt motor Model/Type/Code för dokumenterade exemplar och motorspecifikt handbokssamband.",
-    "Kontrollera Peerless 206-544C mot originalets layout och tillverkarens transaxelplåt; sekundär indexuppgift är inte beställningsbevis.",
-    "Kontroll av drivremmar, knivar och mandrel-delnummers exakta tabellpositioner mot tydlig originalbild.",
+    "Briggs 282H07 katalogverifierad, men exakt Type/Code, motorns originalmanual och kompatibilitet per serienummer kvarstår.",
+    "Peerless 206-544C nu katalogverifierad; individuell transaxelmärkning och interna reservdelskoder/serviceinstruktion återstår.",
+    "Drivrem och klipprem samt bladnummer katalogverifierade; kontrollera eventuella efterföljande ersättningsnummer och verklig passform mot maskinens ID.",
     "Fullständig elschemakontroll, interlocks och komponentkoder per revision.",
     "Flera Murray-modellfamiljer och europeiska varianter saknas ännu i forskningsbanken.",
     "Inget publiceringsbeslut; samtliga ämnesområden A–M är ännu ofullständiga."
