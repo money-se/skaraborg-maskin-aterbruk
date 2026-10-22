@@ -476,6 +476,28 @@
       "topic": "F",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-bag-support-12",
+      "statement": "Uppsamlaravsnittet BAC DE RAMASSAGE listar stöd 532 18 88-48 på position 12.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 3 (index 2), BAC DE RAMASSAGE pos.12",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "I",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061001002-bag-support-20",
+      "statement": "Uppsamlaravsnittet listar stöd 532 18 88-47 på position 20.",
+      "variant": "LT2115CMA / 96061001002 / 954130224 / 2005-05",
+      "locator": "PDF s. 3 (index 2), BAC DE RAMASSAGE pos.20",
+      "sourceId": "lt2115cma-2005-05-parts",
+      "grade": "B",
+      "topic": "I",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -487,6 +509,7 @@
     "Elsystemets och styrningens nya katalogpositioner är textgranskade men behöver visuell sidkontroll. Säkringsvärde, kopplingsschema och säkerhetsbrytarnas funktion ska inte utläsas enbart ur reservdelsnamnen.",
     "Växellådantillverkaren och växellådans modellnummer kan inte styrkas från ENTRAINEMENT-listans generiska AXLE/MAILLON-poster; märkplåt eller särskild originalkatalog behövs.",
     "Katalogpositionerna i ENTRAINEMENT bevisar endast katalogförda delar; exakt transmissionstyp och delarnas fysiska kompatibilitet med andra revisioner är inte belagda.",
-    "Jämför kabelstam ELECTRIQUE pos. 21 (532 18 37-59 enligt PDF-text) med 2004-06-versionerna J2115CMAB/J2115CMAC (532 17 56-88 enligt PDF-text). Skilda nummer är endast katalogskillnad, inte bevisad icke-passform; full bild-/elskema-kontroll återstår."
+    "Jämför kabelstam ELECTRIQUE pos. 21 (532 18 37-59 enligt PDF-text) med 2004-06-versionerna J2115CMAB/J2115CMAC (532 17 56-88 enligt PDF-text). Skilda nummer är endast katalogskillnad, inte bevisad icke-passform; full bild-/elskema-kontroll återstår.",
+    "Uppsamlarens stödfästen på pos.12 och 20 har andra katalognummer jämfört med 2004-06-revision J2115CMAB. Full bildgranskning och utbytbarhetsbelägg återstår."
   ]
 }
