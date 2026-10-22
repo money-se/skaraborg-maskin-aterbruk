@@ -102,6 +102,13 @@
       "title": "Husqvarna KLIPPO original owner manual 829-002 2018-10",
       "document": "Pro 19 SH technical data printed pp.22-23; different model than Pro 19 GCV 2007",
       "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000074207/doc000127132/OM/gtww2dNLvKOAgbtQe970sljntbk"
+    },
+    {
+      "id": "oem-klippo-driven-2009-115332210",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO driven mower manual 115332210 edition 2009-11",
+      "document": "2009 driven mower technical specifications page 18 and declarations page 19",
+      "url": "https://www.yumpu.com/no/document/view/23881380/om-klippo-drivna-2009-11-115332210/18"
     }
   ],
   "topics": {
@@ -536,6 +543,96 @@
       "sourceId": "klippo-om-2008-502937301",
       "grade": "A",
       "topic": "I"
+    },
+    {
+      "id": "pro19sgcv-2009-distinct-name",
+      "statement": "Tillverkarens 2009-manual listar Pro 19 S GCV som separat självgående modell, medan Pro 19 GCV utan S i 2008 års originalmanual saknar detta modellled. Att en S-version är driven innebär inte att Pro 19 GCV 965229001 har samma transmission.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18–19, Pro 19 S GCV, åtskild från 2008 Pro 19 GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-honda135",
+      "statement": "Pro 19 S GCV enligt 2009 års originalmanual har Honda-motor 135 cm³, nominell nettoeffekt 2,1 kW vid angivet varvtal och 2900 rpm.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA, kolumn Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-driven-speed",
+      "statement": "2009 års manual anger drivhastighet 4,5 km/h för den självgående Pro 19 S GCV. Uppgiften gäller inte odrivna Pro 19 GCV 965229001.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Drivning > Hastighet Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-plug",
+      "statement": "2009-originalmanualen anger NGK BPR6ES och elektrodavstånd 0,7–0,8 mm för Pro 19 S GCV.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Tändsystem, Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-oil",
+      "statement": "2009-originalmanualen anger Pro 19 S GCV bensintank 0,77 liter, oljetank 0,55 liter och olja SAE 30/SAE 10W-30. Avser S-versionen och får inte utan vidare överföras till Pro 19 GCV utan S.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Bränsle-/smörjsystem, Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-weight",
+      "statement": "Pro 19 S GCV anges väga 34 kg med tomma tankar och ha klippbredd 48 cm samt klipphöjd 30–60 mm i 2009 års originalmanual.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Vikt och Klippsystem, Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-vibration",
+      "statement": "Originalmanualen 2009 anger vibrationsvärde i handtag 3,7 m/s² för Pro 19 S GCV, med typisk spridning 0,2 m/s² enligt EN 836.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Vibrationsnivåer Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-noise",
+      "statement": "Pro 19 S GCV har enligt 2009 års originalmanual uppmätt ljudeffekt 89 dB(A), garanterad 96 dB(A) och ljudtryck vid operatör 78 dB(A).",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Bulleremissioner och Ljudnivåer Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-consumption",
+      "statement": "Pro 19 S GCV anges i 2009-originalmanualen ha specifik bränsleförbrukning 455 g/kWh vid 50 procents belastning (Svanen-kriterium 4.1).",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Specifik bränsleförbrukning Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-certificate",
+      "statement": "2009 års EG-försäkran listar Pro 19 S GCV med intyg 17/901/012, från serienummer 09XXXXXXX. Identiskt intygsnummer i en annan äldre modellfamilj får inte tolkas som identiska reservdelar.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.19 EG-försäkran Pro 19 S GCV och intyg",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
     }
   ],
   "gaps": [
@@ -553,6 +650,7 @@
     "Katalogpositionerna 43–44 och 51–53 är nu sekundärt källbundna. Original KLIPPO/Husqvarna IPL och exakt serienummerintervall saknas fortfarande.",
     "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
     "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
-    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd."
+    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
+    "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod."
   ]
 }
