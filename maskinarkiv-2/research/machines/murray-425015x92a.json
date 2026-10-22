@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "slug": "murray-425015x92a",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Forskningspaket 4. Avgränsat dokumentstudium av reservdelskatalog, utan webbpublicering, universella passformsantaganden eller godkännande av komplett modellartikel.",
+  "sources": [
+    {
+      "id": "murray-murray-425015x92a-pdf",
+      "tier": 2,
+      "title": "Murray 425015X92A original-form illustrated parts list mirrored by retailer",
+      "document": "Murray 425015x92A REPAIR PARTS F-040734L",
+      "url": "https://www.lawnmowerpros.com/pdfs/murray/425015X92A.pdf"
+    },
+    {
+      "id": "murray-015a-html-drive",
+      "tier": 2,
+      "title": "Murray 425015x92A illustrated parts manual text, Motion Drive",
+      "document": "F-040734L p.39",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=39"
+    },
+    {
+      "id": "murray-015a-html-deck",
+      "tier": 2,
+      "title": "Murray 425015x92A illustrated parts manual text, Mower Housing",
+      "document": "F-040734L p.45",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=45"
+    },
+    {
+      "id": "murray-015a-html-chassis",
+      "tier": 2,
+      "title": "Murray 425015x92A illustrated parts manual text, Chassis & Hood",
+      "document": "F-040734L p.37",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=37"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Modellrubrik och dokumentidentifiering dokumenterade. Serienummergränser och övriga varianter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Dana anges utan transaxelns exakta modellkod; drivrem 037x87 är källbunden till denna parts list."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "I": {
+      "name": "Tillbehör",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "murray-425015x92a-identity",
+      "statement": "Murray 425015x92A har en egen reservdelskatalog, märkt F-040734L.",
+      "topic": "A",
+      "variant": "425015X92A",
+      "locator": "MOTION DRIVE, s.39, rubrik och dokumentfot",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-dana",
+      "statement": "Motion Drive-reservdelslistan anger transaxeltillverkaren DANA; exakt transaxelmodell specificeras inte i listan.",
+      "topic": "D",
+      "variant": "425015X92A",
+      "locator": "MOTION DRIVE s.39, pos 36",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-motion-belt",
+      "statement": "Drivremmen Belt, Motion Drive anges som 037x87.",
+      "topic": "D",
+      "variant": "425015X92A",
+      "locator": "MOTION DRIVE s.39, pos 30",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-pulley",
+      "statement": "Transaxelremsskivan listas som 690409.",
+      "topic": "D",
+      "variant": "425015X92A",
+      "locator": "MOTION DRIVE s.39, pos 41",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-frame-right",
+      "statement": "Höger ramdel listas som 1001268E701.",
+      "topic": "B",
+      "variant": "425015X92A",
+      "locator": "CHASSIS & HOOD s.37, pos 43",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-frame-left",
+      "statement": "Vänster ramdel listas som 1001269E701.",
+      "topic": "B",
+      "variant": "425015X92A",
+      "locator": "CHASSIS & HOOD s.37, pos 44",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mower-belt",
+      "statement": "Klippaggregatets drivrem listas som 037x88.",
+      "topic": "H",
+      "variant": "425015X92A",
+      "locator": "MOWER HOUSING s.45, pos 3",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-blade",
+      "statement": "Klippkniven listas som 095100E701.",
+      "topic": "H",
+      "variant": "425015X92A",
+      "locator": "MOWER HOUSING s.45, pos 37",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-mandrel",
+      "statement": "Mandrel Housing listas som 1001200.",
+      "topic": "K",
+      "variant": "425015X92A",
+      "locator": "MOWER HOUSING s.45, pos 34",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-housing",
+      "statement": "Komplett Mower Housing Assembly listas som 7601032.",
+      "topic": "H",
+      "variant": "425015X92A",
+      "locator": "MOWER HOUSING s.45, pos 1–61",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "murray-425015x92a-engine-maker",
+      "statement": "Motormonteringslistan anger ENGINE, BRIGGS & STRATTON men inte motorns Model/Type/Code.",
+      "topic": "C",
+      "variant": "425015X92A",
+      "locator": "ENGINE MOUNT s.12, pos 9",
+      "sourceId": "murray-murray-425015x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Fortsatt komponent- och variantspecifik kontroll nödvändig.",
+    "Motorns fullständiga Model/Type/Code och rätt motorservicehandbok saknas.",
+    "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
+    "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
+    "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
+    "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag."
+  ]
+}
