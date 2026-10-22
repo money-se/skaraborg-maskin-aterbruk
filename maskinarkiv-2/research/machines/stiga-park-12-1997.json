@@ -1241,6 +1241,96 @@
       "grade": "B",
       "sourceId": "stiga-cybercat-1999-mst529d",
       "locator": "1999 CyberCat MST205-529D pos.71–72,87,157,180 jämfört med 1998 CyberCat MST205-529C samma positioner."
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-gear-82-corrected",
+      "topic": "D",
+      "statement": "Den separata D-märkta STIGA-listan anger drev 778363 som '30T + 13T' på position 82. Detta korsbelägger samma stavning i 1998 års C-katalog men skiljer sig från '307 + 13T' i Park 12:s A-tabell 1997; numret är identiskt och feltryck är en möjlig men inte tillverkarbekräftad förklaring.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D position 82; jämfört med STIGA Park 12 MST205-529A 1997 position 82"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-gear-83",
+      "topic": "D",
+      "statement": "Den särskilda D-katalogen listar drev 778338 med 27 tänder på position 83 och samma nummer återkommer i A-listan för 1997; detta gäller individuell reservdel, inte total utväxling.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.83"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-washer76",
+      "topic": "K",
+      "statement": "MST205-529D:s förteckning anger bricka 780090 på position 76. Katalogposten anger inga mått och därför får endast artikelnumret överföras till beställningsunderlag.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.76"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-retainer77",
+      "topic": "K",
+      "statement": "MST205-529D anger låsring 788078 på position 77; delposten är katalogbunden och innebär inget påstående om kompatibilitet med annan Peerless-transaxel.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.77"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-spring79",
+      "topic": "F",
+      "statement": "MST205-529D anger fjäder 792144 på position 79. Den fullständiga växlingsfunktionens inställning går inte att härleda ur denna reservdelsrad.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.79"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-pipeplug85",
+      "topic": "J",
+      "statement": "MST205-529D anger rörplugg 792154 på position 85 och separat växellådsolja 730229, EP SAE 80W90, på position 180. Katalogen beskriver inte tappning eller rätt oljenivå.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.85 och pos.180"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-oilseal-87",
+      "topic": "K",
+      "statement": "MST205-529D specificerar oljetätning 788089 på position 87, utan dimensioner eller alternativ tillverkarartikel.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.87"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-output-seals",
+      "topic": "K",
+      "statement": "MST205-529D anger två oljetätningar 788088 på position 157; exakt tätningstyp och axelutförande måste verifieras mot transaxelidentitet innan beställning.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.157"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-starter-switch",
+      "topic": "F",
+      "statement": "MST205-529D:s separata lista anger startbrytare 786182 på position 72. Park 12 1997:s MST205-529A har O-ring 788091 på samma position, vilket bekräftar att positionsnumret byter funktion mellan delförteckningar.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.72 jämfört med Park 12 MST205-529A pos.72"
+    },
+    {
+      "id": "p12-1997-mst-d-detail-d-seal-o-ring-distinction",
+      "topic": "K",
+      "statement": "I MST205-529D är position 71 en tätning 788069 och position 71B en O-ring 788092. Detta är två separat katalogiserade komponenter; 788069 ska inte misstolkas som ett ersättningsnummer för 788092.",
+      "variant": "STIGA/CyberCat 1999 MST205-529D (fristående återpublicerad reservdelsförteckning), endast jämförelse med Park 12 1997",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "MST205-529D pos.71 och 71B"
     }
   ],
   "gaps": [
@@ -1261,6 +1351,7 @@
     "MST205-529C-listan 1998 har flera alternativa rader (772144/772148, 776394/776422, 780072 x4/x5, 778312/778370) utan serie- eller konfigurationsnyckel. Identifiera verklig transaxel och tillverkarens BOM innan reservdelsval.",
     "STIGA Park Classic 1999 13-1258-22 motsäger sig självt: basmaskin pos.18 säger MST205-529D men interna delgruppens rubrik säger MST205-529C. Hitta separat D-specifik BOM/teknisk bulletin; utgå inte från att C-internals gäller D.",
     "STIGA:s separata D-rubricerade reservdelsförteckning 1999 klargör vilka artikelval som dokumenteras för MST205-529D, men inte varför Park Classic 1999 använder C-rubrik på sina interna sidor. Undersök tillverkarens revisionsbulletin och maskinens transaxel-ID innan retrofit.",
-    "Kontrollera ursprung/revisionslogg till Sandby Smedies 2024-utgåva av Park Classic 13-1258-22, vilken anger C där STIGA:s 2014-original anger D på transmission pos.18. Kräver fysisk transaxelmärkning för aktuell maskin."
+    "Kontrollera ursprung/revisionslogg till Sandby Smedies 2024-utgåva av Park Classic 13-1258-22, vilken anger C där STIGA:s 2014-original anger D på transmission pos.18. Kräver fysisk transaxelmärkning för aktuell maskin.",
+    "Verifiera fysisk funktion och mått hos MST205-529D-plugg 792154, tätningarna 788088/788089 och startbrytaren 786182 mot fristående Peerless tillverkarhandling; CyberCat är reservdelskatalog, inte verkstadshandbok."
   ]
 }
