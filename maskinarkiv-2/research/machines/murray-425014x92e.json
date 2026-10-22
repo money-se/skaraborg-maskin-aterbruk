@@ -118,7 +118,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Motoroljeintervall och servicepunkter extraherade ur manual för 425014X92E; motorkod saknas."
+      "note": "Modellens egen handbok 98339 ger kontroll av bromssträcka, 27–35 ft-lb knivbult, oljeintervall 25 h/år, oljekontroll var 8 h, driv- och knivremsbyte, bakhjulsfyrkantskil samt vinterförvaring."
     },
     "K": {
       "name": "Reservdelar",
@@ -1168,6 +1168,171 @@
       "sourceId": "murray-014e-troubleshooting-98339",
       "grade": "B",
       "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-max-slope",
+      "statement": "Instruktionsboken anger högst 15 graders sluttning, samt körning uppför/nedför och inte tvärs över sluttningen.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.15",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-brake-distance",
+      "statement": "Om traktorn behöver mer än fem fot för att stanna från högsta fart i högsta växeln på torr plan hård yta ska bromsen kontrolleras och justeras.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.18",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-blade-torque",
+      "statement": "Knivbultens åtdragningsmoment anges till 27–35 ft-lb.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.19",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-oil-25h",
+      "statement": "Motoroljan ska bytas efter 25 drifttimmar eller minst en gång per år om 25 timmar inte uppnås.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.20",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-oil-check-8h",
+      "statement": "Kontrollera vevhusets oljenivå före start och efter var åttonde drifttimme.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.20",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-belt-tool-less",
+      "statement": "Byte av klippknivsrem anges kunna utföras utan verktyg när klippaggregatet har demonterats enligt anvisningen.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.23",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-belt-park",
+      "statement": "Vid byte av klippknivsrem ska traktorn stå plant med parkeringsbroms ansatt.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.23",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-motion-belt-decal",
+      "statement": "Vid byte av drivrem anger manualen ett installationsschema på undersidan av vänster fotstöd.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.24",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-motion-belt-park",
+      "statement": "Vid byte av drivrem ska maskinen parkeras på plan mark med parkeringsbromsen ilagd.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.24",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-rear-wheel-key",
+      "statement": "Vid demontering av bakhjul ska fyrkantskilen i navet tas tillvara.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.25",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-light-bulb",
+      "statement": "Vid byte av strålkastarlampa lyfts huven och lamphållaren dras ut på grillens baksida.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.26",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-storage-30days",
+      "statement": "Långtidsförvaring ska förberedas om maskinen inte ska användas på 30 dagar eller mer.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.27",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-storage-fumes",
+      "statement": "Bensin i tanken innebär brand-/explosionsrisk vid förvaring där ångor kan nå antändningskällor.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.27",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-mower-belt-fault",
+      "statement": "Vid utebliven knivrotation rekommenderas byte av aggregatrem om den är skadad.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-service-mower-mandrel-service",
+      "statement": "Vid kärvande knivspindel hänvisas till kvalificerad verkstad.",
+      "variant": "425014X92E / 98339",
+      "locator": "Instruction Book 98339 printed p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
