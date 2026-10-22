@@ -18,6 +18,9 @@
 
 /* Skövde berättande design – återanvänd sidans befintliga typografi */
 main .section{padding-top:clamp(40px,5vw,58px);padding-bottom:clamp(40px,5vw,58px)}main .section.white{background:#f0f4ee}main .section.soft{background:#e4eee4}main .section.white:nth-of-type(even){background:#f7f8f4}main .hero .btn.primary,main .hero .btn-light{background:#edba49;color:#193020;border:2px solid #edba49;font-weight:850}main .hero .btn.outline,main .hero .btn.btn-outline{background:white;color:#1a3523;border:2px solid white;font-weight:850}main a:focus-visible{outline:3px solid #d8a52e;outline-offset:3px}.hjo-narrative{background:#e5eee2;padding:44px 0}.hjo-narrative .hjo-narrative-inner{max-width:810px}.hjo-narrative h2{color:#173a23;margin:7px 0 15px;font-size:clamp(1.85rem,3.6vw,2.55rem);line-height:1.2}.hjo-narrative p{font-size:1.08rem;color:#314c37;line-height:1.72;max-width:69ch}.hjo-narrative small{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:#416847;font-weight:850}@media(max-width:600px){.hjo-narrative{padding:30px 0}main .hero .actions .btn,main .hero .buttons .btn{width:100%}}
+
+/* Skövde – enhetliga tjänstekort i relaterad navigering */
+.skovde-rel-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.skovde-rel-card{display:flex;flex-direction:column;gap:12px;background:#fff;border:1px solid #dce5dd;border-radius:16px;padding:20px;text-decoration:none;color:#183b24;box-shadow:0 8px 22px #122b1610}.skovde-rel-card strong{font-size:1.05rem}.skovde-rel-card span{color:#356947;font-weight:800;margin-top:auto}.skovde-rel-card:hover{border-color:#76a384}.skovde-rel-grid a:focus-visible{outline:3px solid #d8a52e;outline-offset:2px}@media(max-width:780px){.skovde-rel-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.skovde-rel-grid{grid-template-columns:1fr}}
 </style>
 <meta property="og:title" content="Däckhämtning i Skövde – begär offert | Skaraborg Maskin &amp; Återbruk"><meta property="og:type" content="website">
 <meta property="og:url" content="https://skaraborgmaskin.se/dack-hamtning-skovde.html">
@@ -520,8 +523,7 @@ main .hero h1{font-size:clamp(2.3rem,4.7vw,3.65rem);line-height:1.12;max-width:1
       <aside class="hero-note tire-price-box" aria-label="Begär offert för däckhämtning"><span class="eyebrow" style="color:#f3d887">Individuell prisbedömning</span><h2>Begär offert</h2><p>Skicka bilder, antal däck, vilken typ de är och var de finns i Skövde-området.</p><p>Vi bedömer omfattning, transport och lastning innan vi lämnar ett prisförslag.</p><p class="tire-price-small">Du godkänner alltid priset innan något bokas.</p></aside>
     </div>
   </div>
-</section><section class="section soft"><div class="wrap"><div class="intro"><span class="eyebrow">En situation vi känner igen</span><h2>Du får priset innan du bestämmer dig</h2><p>Däckhämtning är en betald tjänst och sker endast efter offert och överenskommelse. Vi köper inte däcken av dig.</p></div></div></section>
-<section class="hjo-narrative"><div class="wrap"><div class="hjo-narrative-inner"><small>En vanlig situation här hemma</small><h2>Däck som ingen längre behöver</h2><p>Det här är en betald hämtningstjänst, inte ett inköp. Skicka antal, bilder och var hjulen finns så kan vi bedöma möjligheten och lämna pris innan ni bestämmer något.</p></div></div></section>
+</section><section class="hjo-narrative"><div class="wrap"><div class="hjo-narrative-inner"><small>En vanlig situation här hemma</small><h2>Däck som ingen längre behöver</h2><p>Det här är en betald hämtningstjänst, inte ett inköp. Skicka antal, bilder och var hjulen finns så kan vi bedöma möjligheten och lämna pris innan ni bestämmer något.</p></div></div></section>
 
 <section class="section white">
   <div class="wrap">
@@ -630,18 +632,7 @@ main .hero h1{font-size:clamp(2.3rem,4.7vw,3.65rem);line-height:1.12;max-width:1
     </div>
   </div>
 </section>
-<nav class="related wrap" aria-label="Relaterade tjänster i Skövde">
-  <h2>Mer hjälp i Skövde</h2>
-  <ul>
-    <li><a href="/skovde.html">Alla tjänster i Skövde →</a></li>
-    <li><a href="/dack-hamtning.html">Däckhämtning i Skaraborg →</a></li>
-    <li><a href="/salja-maskin-skovde.html">Sälja maskiner i Skövde →</a></li>
-    <li><a href="/aterbruk-skovde.html">Återbruk i Skövde →</a></li>
-    <li><a href="/skrot-hamtning-skovde.html">Skrothämtning i Skövde →</a></li>
-    <li><a href="/kontakt.html">Kontakta oss →</a></li>
-  </ul>
-  <a href="/skovde.html">← Tillbaka till Skövde</a>
-</nav>
+<nav class="related wrap skovde-rel" aria-label="Fler tjänster i Skövde"><h2>Fler tjänster i Skövde</h2><div class="skovde-rel-grid"><a class="skovde-rel-card" href="/skovde.html"><strong>Alla tjänster i Skövde</strong><span>Läs mer →</span></a><a class="skovde-rel-card" href="/dack-hamtning.html"><strong>Däckhämtning i Skaraborg</strong><span>Läs mer →</span></a><a class="skovde-rel-card" href="/salja-maskin-skovde.html"><strong>Sälja maskiner i Skövde</strong><span>Läs mer →</span></a><a class="skovde-rel-card" href="/aterbruk-skovde.html"><strong>Återbruk i Skövde</strong><span>Läs mer →</span></a><a class="skovde-rel-card" href="/skrot-hamtning-skovde.html"><strong>Skrothämtning i Skövde</strong><span>Läs mer →</span></a><a class="skovde-rel-card" href="/kontakt.html"><strong>Kontakta oss</strong><span>Läs mer →</span></a></div><p><a href="/skovde-forhandsvisning-20261022.html">← Till Skövdes huvudsida</a></p></nav>
 </main><div id="site-footer">
 <footer class="site-footer" aria-label="Sidfot">
   <div class="footer-inner">
