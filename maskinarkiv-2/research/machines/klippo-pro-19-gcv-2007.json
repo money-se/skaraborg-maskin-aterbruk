@@ -53,6 +53,20 @@
       "title": "Wolfswinkel reservdelskatalog – Klippo Pro 19 GCV",
       "document": "Pro 19 GCV, fullständig produktförteckning, odaterad indexvy utan säker positionsbindning",
       "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/schubm%C3%A4her/pro-19-gcv/pro-19-gcv-1?wsource=group"
+    },
+    {
+      "id": "klippo-2008-oem-catalog",
+      "tier": 1,
+      "title": "KLIPPO 2008 original product and parts catalogue",
+      "document": "KLIPPO 2008 (English), original components pp. 46–47, technical data p.48",
+      "url": "https://www.zielonemaszyny.pl/pdf/klippo_2008_angielski.pdf"
+    },
+    {
+      "id": "klippo-2008-12-om",
+      "tier": 1,
+      "title": "KLIPPO original operating instructions version 1:19",
+      "document": "5225891-01, OM 2008-12, Triumph/Champion/Excellent/Pro 19 GCV etc",
+      "url": "https://www.brftulpanen2.se/wp-content/uploads/2012/10/Gr%C3%A4sklippare-Klippo-Champion.pdf"
     }
   ],
   "topics": {
@@ -226,6 +240,33 @@
       "sourceId": "wolfswinkel-pro19gcv-parts-index",
       "grade": "B",
       "topic": "J"
+    },
+    {
+      "id": "pro19gcv-2008-oem-cutting-system",
+      "statement": "KLIPPO 2008 års originalproduktkatalog identifierar Pro 19 GCV med produktnummer 965229001 och klippsystemet 'Mulcher blade', 48 cm klippbredd och 30–60 mm klipphöjd. Det skiljer denna modell från Excellent GCV, som i samma tabell anges med Cross-Cut-kniv.",
+      "variant": "KLIPPO Pro 19 GCV 965229001 (2008 originalkatalog)",
+      "locator": "PDF index 47 (tryckt p.48), Technical Data, Professional mulchers, Pro 19 GCV; Excellent GCV i Mulchers",
+      "sourceId": "klippo-2008-oem-catalog",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "klippo-2008-oem-mulcher-blade-48",
+      "statement": "KLIPPO:s originalkatalog 2008 anger originalkniv 502978001 som 'Mulcher blade' med klippbredd 48 cm/19 tum. Detta är en produktspecifikation för kniven; katalogen anger inte en maskinspecifik IPL-position.",
+      "variant": "KLIPPO originaltillbehör, 48 cm mulcherkniv; möjlig koppling till Pro 19 GCV kräver serienummer/IPL-kontroll",
+      "locator": "PDF index 45 (tryckt p.46), Original Components > MULCHER BLADE",
+      "sourceId": "klippo-2008-oem-catalog",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-2008-oem-blade-family",
+      "statement": "Klippos originalbruksanvisning version 1:19 anger uttryckligen att Pro 19-modellerna har mulcherkniv som standard, medan Excellent-modellerna har Cross-Cut-kniv. Manualens gruppuppgift ersätter inte individens kniv- och fästesidentifiering.",
+      "variant": "Pro 19-modellfamilj enligt KLIPPO OM 2008-12 5225891-01",
+      "locator": "PDF index 5, svensk bruksanvisning 'KNIVSYSTEM', fig. 6",
+      "sourceId": "klippo-2008-12-om",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -237,6 +278,7 @@
     "Sök original IPL för Pro 19 GCV med artikelnummer 965229001/K06730 och fastställ kniv och knivfäste efter serienummer.",
     "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll.",
     "Pro 19 S GCV har egen drivrem-/mellanremsdokumentation, men original IPL för odrivna Pro 19 GCV 965229001 måste fortsatt kontrolleras för knivsystem.",
-    "Wolfswinkels Pro 19 GCV-index listar kandidaterna 502978001, 503272701 och 502871902, men det krävs original-IPL med positionsnummer och giltigt serienummerintervall innan definitiv reservdelskoppling."
+    "Wolfswinkels Pro 19 GCV-index listar kandidaterna 502978001, 503272701 och 502871902, men det krävs original-IPL med positionsnummer och giltigt serienummerintervall innan definitiv reservdelskoppling.",
+    "Originalproduktkatalogen 2008 bekräftar Pro 19 GCV 965229001 som 48 cm mulcherkniv och separat kniv 502978001, men den binder inte kniven med IPL-positionsnummer, variantserienummer och monteringskombination; behåll detta som öppen slutsats."
   ]
 }
