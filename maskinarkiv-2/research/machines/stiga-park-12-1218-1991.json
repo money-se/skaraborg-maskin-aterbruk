@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1218-1991",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA Park 12 13-1218-14 [1991], parts list published by DIY Spare Parts. Original STIGA IPL not located in manufacturer's online index; grade B claims are retailer diagrams, not manufacturer-original proof.",
+  "sources": [
+    {
+      "id": "diy-park12-1218-1991-transmission",
+      "tier": 2,
+      "title": "DIY Spare Parts – Stiga Park 12 (13-1218-14 [1991]) Transmission parts diagram",
+      "document": "Transmission_0; Park 12 13-1218-14 [1991]",
+      "url": "https://www.diyspareparts.com/parts/stiga/diagrams/3bdecf5a-9ffc-4f76-b99a/36efecdf-5010-4424-a30b"
+    },
+    {
+      "id": "partsharp-park12-index-1991",
+      "tier": 2,
+      "title": "Partsharp Park 12 model and parts-diagram version index",
+      "document": "STIGA Park 12 diagram index, lists 1990–1997 PNC",
+      "url": "https://www.partsharp.com/spare-parts/stiga/park-compact/85b0721e-422f-47ea-af78/f6901295-017e-4d23-83ea.aspx"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Sekundära reservdelsförteckningar ger vissa artikelnummer, men tillverkarens original-IPLs, specifika transaxel, motoridentitet, aggregatpassform, service och säkerhetsfunktioner saknas och är inte publiceringsklara."
+    }
+  },
+  "claims": [
+    {
+      "id": "p12-1218-91-identity",
+      "topic": "A",
+      "statement": "STIGA Park 12 version 13-1218-14 listas som år 1991 i reservdelsindexet.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "partsharp-park12-index-1991",
+      "locator": "Available diagrams > Park 12 13-1218-14 [1991]"
+    },
+    {
+      "id": "p12-1218-91-transbelt",
+      "topic": "D",
+      "statement": "Transmissionens reservdelstabell listar rem 1134-9013-01 på position 13.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "diy-park12-1218-1991-transmission",
+      "locator": "Transmission_0, pos. 13"
+    },
+    {
+      "id": "p12-1218-91-clutchwire",
+      "topic": "F",
+      "statement": "Kopplingswire 1134-2030-04 listas på position 28.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "diy-park12-1218-1991-transmission",
+      "locator": "Transmission_0, pos. 28"
+    },
+    {
+      "id": "p12-1218-91-shiftwire",
+      "topic": "F",
+      "statement": "Växelwire 1134-2031-02 listas på position 29.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "diy-park12-1218-1991-transmission",
+      "locator": "Transmission_0, pos. 29"
+    },
+    {
+      "id": "p12-1218-91-pulley",
+      "topic": "D",
+      "statement": "Motorremskiva 1134-2020-01 finns på position 14 i transmissionens remdrift.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "diy-park12-1218-1991-transmission",
+      "locator": "Transmission_0, pos. 14"
+    },
+    {
+      "id": "p12-1218-91-guide",
+      "topic": "D",
+      "statement": "Remstyrning 1134-2381-01 finns på position 26.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "diy-park12-1218-1991-transmission",
+      "locator": "Transmission_0, pos. 26"
+    },
+    {
+      "id": "p12-1218-91-tyre",
+      "topic": "B",
+      "statement": "Reservdelslistan visar däck 9545-0116-00 med dimensionen 16 × 7.50–8 på position 34A och annan däckkod på position 34.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "diy-park12-1218-1991-transmission",
+      "locator": "Transmission_0, pos. 34 och 34A"
+    },
+    {
+      "id": "p12-1218-91-shifterlever",
+      "topic": "F",
+      "statement": "Växelspak 1134-2328-01 finns på position 49.",
+      "variant": "Park 12 13-1218-14 [1991], sekundär produktkatalog",
+      "grade": "B",
+      "sourceId": "diy-park12-1218-1991-transmission",
+      "locator": "Transmission_0, pos. 49"
+    }
+  ],
+  "gaps": [
+    "Lokalisera STIGA original-IPLs för 13-1218-14 (1991), eller dokumenterat tillverkaralternativ; 1991-filen finns inte i granskad STIGA-storedirektory.",
+    "Verifiera exakt transaxel fabrikat/modell och komplett delnummer; återförsäljarens transmissionstabell saknar post som säkert identifierar den.",
+    "Hitta motorplåt Model/Type/Code samt originalmotorhandbok.",
+    "Kontrollera aggregatens fullständiga PNC, remmar, knivar, monteringskit och service för exakt basmaskin.",
+    "Kontrollera tillverkarens ägarmanual, elschema och säkerhetsfunktioner före underhålls- eller reparationsråd."
+  ]
+}
