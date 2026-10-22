@@ -67,6 +67,13 @@
       "title": "Wolfswinkel complete illustrated parts list – Klippo Excellent GCV",
       "document": "Excellent GCV 9652277-01, 2009-12, positional list refs 1–48",
       "url": "https://www.wolfswinkel.shop/spare-parts-drawings/klippo/accessories-and-tools/j-lever-set/excellent-gcv/excellent-gcv-9652277-01-2009-12"
+    },
+    {
+      "id": "retailer-bracket-502871902",
+      "tier": 2,
+      "title": "ReservdelarOnline knivfäste 5028719-02: ersättningsnummer och modellförteckning",
+      "document": "Produktkort för original Husqvarna Group 5028719-02, med ersättningslista",
+      "url": "https://www.reservdelaronline.se/produkter/knivfaeste-cobra-champion-excellent-h-wc48-5028719-02"
     }
   ],
   "topics": {
@@ -447,6 +454,15 @@
       "sourceId": "wolfswinkel-excellent-gcv-parts-detailed",
       "grade": "B",
       "topic": "H"
+    },
+    {
+      "id": "excellent-gcv-bracket-502871902-retailer",
+      "statement": "ReservdelarOnline listar knivfäste 5028719-02 som ersättare för 5028719-01, 5032583-01, 503259901 och 5032599-01 och anger passform till Excellent GCV 9652277-01 (2009-12). Påståendet är återförsäljarbelagt, inte bekräftat genom original-IPL eller serienummer.",
+      "variant": "Excellent GCV 9652277-01 (2009-12); sekundär partscompatibility",
+      "locator": "Produktinformation, 'Ersätter' och 'Passar till', Excellent GCV 9652277-01",
+      "sourceId": "retailer-bracket-502871902",
+      "grade": "B",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -460,6 +476,7 @@
     "Visuell PDF-screenshot misslyckades; kontrollera serienummerkoder och tabelllayout mot skannad original-PDF innan publicering.",
     "Reservdelslistan 965 22 76-01 (2010) har identifierats via PDF-text, men skärmbildsfunktionen misslyckades; visuellt kontrollera särskilt position 41.1/41.2 och 42.1/42.2 innan man anger underspecifika detaljer.",
     "Verifiera reservdelarnas figurnummer i Excellent GCV 9652277-01 IPL: tredjepartslistan räcker inte för att påstå kniv- eller knivfästepassform.",
-    "Även om position 28/29/47/48 finns på återförsäljarsidan behöver original-IPL för Excellent GCV 9652277-01 kontrolleras, särskilt knivfäste ref. 46 som maskinöversätts oklart."
+    "Även om position 28/29/47/48 finns på återförsäljarsidan behöver original-IPL för Excellent GCV 9652277-01 kontrolleras, särskilt knivfäste ref. 46 som maskinöversätts oklart.",
+    "Knivfäste 5028719-02 har återförsäljarlistad ersättning/passform, men exakt original-IPL-position, serienummergränser och fysiska mått kräver tillverkarkontroll."
   ]
 }
