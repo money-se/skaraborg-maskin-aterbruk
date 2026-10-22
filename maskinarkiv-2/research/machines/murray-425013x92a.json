@@ -32,7 +32,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Originalformatets Motion Drive-tabell p.4 identifierar rem, remskiva och transaxelfästen. Transaxelns fabrikat och modellnummer saknas i listan; inget Dana-antagande får göras."
+      "note": "F-030768L MOTION DRIVE tryckt s.4 dokumenterar 037x87, parvisa transaxelfästen 094184E701/094185E701 och axeldistans 690554 Z; transaxelns tillverkare/modell anges inte i denna tabell, ingen motsvarighet till Dana/Peerless kan dras."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -1433,6 +1433,259 @@
       "topic": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-idler-arm",
+      "statement": "F-030768L MOTION DRIVE anger 690173E701 för katalogposition 3.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-clutch-rod",
+      "statement": "F-030768L MOTION DRIVE anger 094041 Z för katalogposition 4.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 4",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shift-lever",
+      "statement": "F-030768L MOTION DRIVE anger 094043 Z för katalogposition 9.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shift-link",
+      "statement": "F-030768L MOTION DRIVE anger 094044 Z för katalogposition 11.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 11",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-adjust-nut",
+      "statement": "F-030768L MOTION DRIVE anger 021920 för katalogposition 12.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-parking-rod",
+      "statement": "F-030768L MOTION DRIVE anger 1001245 Z för katalogposition 14.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 14",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-pivot",
+      "statement": "F-030768L MOTION DRIVE anger 1001303 Z för katalogposition 16.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 16",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shifter-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 1001302E701 för katalogposition 22.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 22",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-parking-latch",
+      "statement": "F-030768L MOTION DRIVE anger 094045 Z för katalogposition 26.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 26",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-pedal",
+      "statement": "F-030768L MOTION DRIVE anger 021544 för katalogposition 27.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-clutch-lever",
+      "statement": "F-030768L MOTION DRIVE anger 094038E700 för katalogposition 28.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-drive-belt",
+      "statement": "F-030768L MOTION DRIVE anger 037x87 för katalogposition 30.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shift-yoke",
+      "statement": "F-030768L MOTION DRIVE anger 094031 Z för katalogposition 31.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-right-transaxle-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 094184E701 för katalogposition 34.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-left-transaxle-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 094185E701 för katalogposition 40.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 40",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-transaxle-pulley",
+      "statement": "F-030768L MOTION DRIVE anger 690409 för katalogposition 41.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 41",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-support-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 094433E700 för katalogposition 42.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 42",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-drive-pulley",
+      "statement": "F-030768L MOTION DRIVE anger 095094 för katalogposition 44.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 44",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-axle-spacer",
+      "statement": "F-030768L MOTION DRIVE anger 690554 Z för katalogposition 47.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 47",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-rear-wheel",
+      "statement": "F-030768L MOTION DRIVE anger 092290-601 för katalogposition 50.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 50",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-belt-guide",
+      "statement": "F-030768L MOTION DRIVE anger 093349 för katalogposition 54.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 54",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-idler-spring",
+      "statement": "F-030768L MOTION DRIVE anger 165x115 för katalogposition 56.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 56",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-second-spring",
+      "statement": "F-030768L MOTION DRIVE anger 165x92 för katalogposition 57.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 57",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1447,6 +1700,7 @@
     "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform.",
     "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll.",
     "Murray 425013X92A STEERING s.6 kontrollerat via katalogtext. PDF-bildhämtning misslyckades, därför kvarstår sprängskissverifiering och fysiska ersättningsnummer.",
-    "425013X92A CHASSIS & HOOD s.2 baserat på katalogens indexerade text, inte bildgranskad sprängskiss; artikelnummer anger inte garanterad passform mot andra Murray-versioner."
+    "425013X92A CHASSIS & HOOD s.2 baserat på katalogens indexerade text, inte bildgranskad sprängskiss; artikelnummer anger inte garanterad passform mot andra Murray-versioner.",
+    "F-030768L s.4 har transaxeln utan artikel- eller tillverkarnamn på pos 36 (anvisning till reservdelsdistributör); ta fysisk märkbild före identifiering. PDF-sprängskissen har ännu inte bildkontrollerats."
   ]
 }
