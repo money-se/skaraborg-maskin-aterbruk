@@ -144,6 +144,13 @@
       "title": "MTD B 155 13AP678G678 (2000) Gearbox spare parts",
       "document": "B 155 13AP678G678 2000 exploded gearbox, related components",
       "url": "https://www.motoruf.com/n/partslists.html?from_desktop=1&id=553082&version=1"
+    },
+    {
+      "id": "mtd-original-660-679-ipl-2002",
+      "tier": 1,
+      "title": "MTD Transmatic Lawn Tractors Models 660 Thru 679 Series Illustrated Parts Book",
+      "document": "FORM NO. 770-10116D.fm, ECO No. (1/2002), 28-page MTD original IPL",
+      "url": "https://www.m-and-d.com/pdfs/MTD/13CF675G062.pdf"
     }
   ],
   "topics": {
@@ -161,7 +168,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden. Sidofynd: MTD B 155 13AP678G678 använder också husdel 719-0367; det ger en korsmodellrelation för komponenten, inte bevis för samma växellådsenhet."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062. Katalogår 2000 listar 656-0004 transmissionsremskiva, 16554A-0637 variabelhastighetsfäste och 17629A-0637 transaxelfäste, men uppgifterna fastställer inte transaxelns märke. Fem ytterligare interna katalogposter har noterats för 2000: 917-1362, 917-1363, 718-0228, 921-0338 och 911-1003. Katalogindex är inte ett originalverifierat transaxel-ID. En reservdelskatalog anger dessutom en villkorad V-remskiva 656-0005 för 18-tumshjul eller 46-tumsaggregat; detta är inget belägg för faktiska fabriksutföranden. Sidofynd: MTD B 155 13AP678G678 använder också husdel 719-0367; det ger en korsmodellrelation för komponenten, inte bevis för samma växellådsenhet. MTD:s ursprungliga 770-10116D (2002) redovisar differential 618-0162, bromskomponenter och hus 719-0367/719-0313B på familjenivå. Exakt OEM-komplett transaxel-ID för 13BH670F062 saknas."
     },
     "E": {
       "state": "gap",
@@ -185,7 +192,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår."
+      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår. 770-10116D listar 737-0148 som Grease-Shell 15 oz. i ritningslistan, men detta är ingen bekräftad serviceanvisning för en enskild maskin."
     },
     "K": {
       "state": "gap",
@@ -830,6 +837,60 @@
       "grade": "B",
       "sourceId": "motoruf-b155-2000-gearbox",
       "locator": "Gearbox parts table, position 5, HOUSING HALF 719-0367"
+    },
+    {
+      "id": "mtd-2002-family-ipl-identity",
+      "statement": "MTD:s original Illustrated Parts Book 770-10116D (1/2002) omfattar Transmatic-modellserien 660–679; detta är en familjekatalog och inte en individbundet parts-ID för 13BH670F062.",
+      "topic": "A",
+      "locator": "Omslag PDF-sida 1 (index 0): Models 660 Thru 679 Series, FORM NO. 770-10116D.fm",
+      "variant": "MTD Transmatic modellserie 660–679, Illustrated Parts Book 770-10116D (januari 2002); 13BH670F062:s exakta variantkoppling ej verifierad",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002"
+    },
+    {
+      "id": "mtd-2002-family-differential",
+      "statement": "MTD:s familjekatalog visar Differential Ass’y artikel 618-0162 i transmissionsgruppen.",
+      "topic": "D",
+      "locator": "PDF-sida 11 (index 10), transmissionssprängskiss, position 22",
+      "variant": "MTD Transmatic modellserie 660–679, Illustrated Parts Book 770-10116D (januari 2002); 13BH670F062:s exakta variantkoppling ej verifierad",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002"
+    },
+    {
+      "id": "mtd-2002-family-brake-parts",
+      "statement": "MTD:s familjekatalog anger bromskloss 717-0678, bromsplatta 717-0682, aktiveringsarm 717-0700 samt bromsskiva 761-0202 i samma transmissionsgrupp.",
+      "topic": "D",
+      "locator": "PDF-sida 11 (index 10), transmissionsgrupp, position 24–26 samt 37",
+      "variant": "MTD Transmatic modellserie 660–679, Illustrated Parts Book 770-10116D (januari 2002); 13BH670F062:s exakta variantkoppling ej verifierad",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002"
+    },
+    {
+      "id": "mtd-2002-family-housing-halves",
+      "statement": "MTD:s familjekatalog listar övre transmissionshus 719-0367 och undre transmissionshus 719-0313B, utan att namnge en extern växellådstillverkare eller märka exakt 13BH670F062-revision.",
+      "topic": "D",
+      "locator": "PDF-sida 11 (index 10), transmissionsgrupp, position 7 och 34",
+      "variant": "MTD Transmatic modellserie 660–679, Illustrated Parts Book 770-10116D (januari 2002); 13BH670F062:s exakta variantkoppling ej verifierad",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002"
+    },
+    {
+      "id": "mtd-2002-family-grease-spec",
+      "statement": "MTD:s familjekatalog listar Grease-Shell (15 oz.) som reservdelsposition 737-0148 i transmissionsgruppen. Detta är en katalogiserad smörjmedelspost och inte ett självständigt verifierat oljebytesintervall eller servicerecept för 13BH670F062.",
+      "topic": "J",
+      "locator": "PDF-sida 11 (index 10), transmissionsgrupp, position 38",
+      "variant": "MTD Transmatic modellserie 660–679, Illustrated Parts Book 770-10116D (januari 2002); 13BH670F062:s exakta variantkoppling ej verifierad",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002"
+    },
+    {
+      "id": "mtd-2002-family-wheel-alternatives",
+      "statement": "MTD:s familjekatalog redovisar framhjul 634-0056A (rund skuldra) respektive 634-0105A (fyrkantig skuldra), vilket visar varför generell reservdelskatalog inte räcker för att välja hjul utan fysisk identifiering.",
+      "topic": "E",
+      "locator": "PDF-sida 9 (index 8), Front Wheel Chart, kolumner Round Shoulder / Square Shoulder",
+      "variant": "MTD Transmatic modellserie 660–679, Illustrated Parts Book 770-10116D (januari 2002); 13BH670F062:s exakta variantkoppling ej verifierad",
+      "grade": "A",
+      "sourceId": "mtd-original-660-679-ipl-2002"
     }
   ],
   "gaps": [
@@ -857,6 +918,8 @@
     "Kontrollera faktisk remskivekonfiguration innan villkorade 656-0005 eller alternativa pivotaxlar 683-0128A/719-0342A anges som kompatibla med ett konkret serienummer.",
     "Originalkorsreferens MTD 2000 gav HTTP 403 vid sidöppning trots läsbar indexerad modellrad. Verifiera sida i nedladdad original-PDF och motorns faktiska Model/Type/Code före A-klassificering.",
     "Bekräfta 2000-katalogens bromspedal 683-0123-0637, bromsstång 747-0755A och växelspak 17705 i rätt originalsprängskiss samt mot aktuellt serienummerspann.",
-    "Kontrollera sidbilden i original-/spegel-PDF 770-2000XREF.2 på PDF index 26 när nedladdning fungerar; texten stödjer 42 tum Deck G, medan modellens samlade IPL visar 38 tum Deck F."
+    "Kontrollera sidbilden i original-/spegel-PDF 770-2000XREF.2 på PDF index 26 när nedladdning fungerar; texten stödjer 42 tum Deck G, medan modellens samlade IPL visar 38 tum Deck F.",
+    "MTD 770-10116D är original-IPLs för hela Transmatic 660–679 (utgåva 2002). Kontrollera modell-/serienummerbindning innan familjens differential-, broms- och smörjmedelsposter används på 13BH670F062.",
+    "Visuell skärmbild av MTD PDF sidan 11 (index 10) misslyckades vid granskning; text och positionslista lästes, men illustrationens figurnummer och revisionsvillkor behöver slutkontrolleras."
   ]
 }
