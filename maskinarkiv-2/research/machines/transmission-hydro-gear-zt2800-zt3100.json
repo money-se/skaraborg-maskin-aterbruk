@@ -3098,6 +3098,123 @@
       "sourceId": "hg-bln52441-apr2023",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "p25-purge-air-symptoms",
+      "statement": "Kvarvarande luft efter öppnat hydraulsystem eller oljebyte kan ge missljud, försämrad drivkraft efter kort drift och förhöjd temperatur/ovanlig oljeexpansion.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.12, Purging Procedures, tre symptomsrader",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "p25-purge-check-level-first",
+      "statement": "Kontrollera att transmissionsoljans nivå är korrekt innan avluftning inleds; fyll enligt aktuell enhets specificerade nivå om den är låg.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.12, Purging Procedures, Before starting",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-purge-lift-wheels",
+      "statement": "Hydro-Gear föredrar avluftning med drivhjulen lyfta från marken och därefter upprepning under normala driftförhållanden; om det inte är möjligt krävs öppet, hinderfritt område utan personer i närheten.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.12, Purging Procedures, safety paragraph",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-purge-brake-disengaged",
+      "statement": "Avluftningsprocedurens första moment är att koppla ur parkeringsbromsen om den är aktiverad; fordonet måste därför dessförinnan vara säkert uppställt.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.12, Purging Procedures, step 1",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-purge-bypass-open",
+      "statement": "Med bypass öppen och motorn igång: rör körriktningsreglaget långsamt mellan framåt och bakåt fem–sex gånger. Detta är första cykeln i Hydro-Gears procedur.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.12, Purging Procedures, step 2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-purge-bypass-closed",
+      "statement": "Med bypass stängd och motorn igång: rör körriktningsreglaget långsamt mellan framåt och bakåt fem–sex gånger; stanna sedan motorn innan oljenivå kontrolleras och olja fylls på vid behov.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.12, Purging Procedures, step 3",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-purge-completion",
+      "statement": "Cyklerna med öppen respektive stängd bypass kan behöva upprepas; avluftningen anses klar först när ljudnivån är normal och enheten går mjukt framåt och bakåt vid normala hastigheter.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.12, Purging Procedures, step 4",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-bypass-wheels",
+      "statement": "Inför inställning av return-to-neutral (RTN) måste bypass vara urkopplad och drivhjulen lyfta fritt från marken.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.13, Return to Neutral Setting, step 1",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-remove-wheel-not-hub",
+      "statement": "Vid behov av åtkomst till RTN-länkaget får drivhjulet tas bort med hjulmuttrarna, men inte drivaxelns/navets centrala mutter.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.13, Return to Neutral Setting, note under step 1",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-disconnect-oem-linkage",
+      "statement": "Vid RTN-inställning kopplas fordonstillverkarens externa reglagelänkage bort från transmissionens reglagearm före kontroll av eventuell drivaxelrotation.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.13, Return to Neutral Setting, step 2",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-check-rotation",
+      "statement": "Efter tillverkarens föreskrivna prov med drivhjulen upplyfta kontrolleras om drivaxeln roterar i neutralläge. Utan rotation stoppas motorn och OEM-reglagelänkaget monteras/justeras enligt fordonets manual.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.13, Return to Neutral Setting, steps 3–5",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-adjust-five-degrees",
+      "statement": "Om axeln driver i neutral noteras rotationsriktningen, motorn stoppas och RTN-skruven lossas. Reglagearmen justeras sedan i femgraderssteg motsatt axelrotationen innan skruven dras åt och provet görs om.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.13, Return to Neutral Setting, step 6",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "p25-rtn-engine-off-adjust",
+      "statement": "Originalmanualen förbjuder justering med motorn igång. RTN-skruven ska därför lossas och armen ställas om först efter att motorn stoppats; motorn används enbart under särskilda kontroller med säkert upplyft drivning.",
+      "variant": "Hydro-Gear BLN-52441 P25 april 2023, ZT-2800/3100/3200; all fordonsservice kräver OEM-säkerhetsprocedurer och korrekt identifierad transaxel",
+      "locator": "Tryckt s.13, warning and steps 3–6",
+      "sourceId": "hg-bln52441-apr2023",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
