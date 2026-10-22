@@ -32,7 +32,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Transaxelmodell och drivrem ännu ej verifierade från den aktuella modellens katalog."
+      "note": "Originalformatets Motion Drive-tabell p.4 identifierar rem, remskiva och transaxelfästen. Transaxelns fabrikat och modellnummer saknas i listan; inget Dana-antagande får göras."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -102,10 +102,109 @@
       "grade": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-drivebelt",
+      "statement": "Motion Drive-remmen anges som artikelnummer 037x87.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxle-no-model",
+      "statement": "Reservdelslistan anger Transaxle utan modellnummer; tillverkaridentitet kan inte bekräftas från denna tabell.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 36",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxle-pulley",
+      "statement": "Transaxelremskivan anges som artikelnummer 690409.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 41",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-shifter",
+      "statement": "Växelspaken anges som artikelnummer 094043 Z.",
+      "topic": "F",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-clutchlever",
+      "statement": "Broms-/kopplingsspaken anges som artikelnummer 094038E700.",
+      "topic": "F",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-rightframe",
+      "statement": "Höger ramdel anges som artikelnummer 1001268E701.",
+      "topic": "B",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 23",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-leftframe",
+      "statement": "Vänster ramdel anges som artikelnummer 1001269E701.",
+      "topic": "B",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 25",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxlebracket",
+      "statement": "Höger transaxelfäste anges som artikelnummer 094184E701.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-transaxlesupport",
+      "statement": "Transaxelstödet anges som artikelnummer 094433E700.",
+      "topic": "D",
+      "variant": "Murray 425013X92A, F-030768L",
+      "locator": "MOTION DRIVE, p.4, position 42",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
-    "PDF-sökutdraget belägger modellbeteckning och dokumentkod men inte transaxel, motor eller reservdelsnummer på tillförlitlig nivå.",
+    "Tillgängligt textutdrag visar Motion Drive-delar men anger inte växellådans fabrikat/modell. PDF-bildgranskning har inte kunnat slutföras.",
     "Motorns fullständiga Model/Type/Code och rätt motorservicehandbok saknas.",
     "Exakt transaxelmodell och internreservdelar måste kontrolleras före beställning.",
     "Klippaggregatsversion, reservdelar och eventuella ersättningsnummer kräver bild- och märkskyltskontroll.",
