@@ -139,6 +139,33 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "K"
+    },
+    {
+      "id": "kohler-air-filter-100h",
+      "statement": "TP-2339-D anger byte av luftfilterelement var 100:e drifttimme, oftare i extremt dammiga eller smutsiga miljöer.",
+      "variant": "Kohler Command enligt TP-2339-D; specifikt motorexemplar ej identifierat",
+      "locator": "Section 1, printed p. 1.5, Maintenance Schedule > Every 100 Hours",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-cooling-shroud-100h",
+      "statement": "TP-2339-D anger att kylkåporna demonteras och kylområdena rengörs var 100:e timme, oftare i mycket dammig miljö.",
+      "variant": "Kohler Command enligt TP-2339-D",
+      "locator": "Section 1, printed p. 1.5, Maintenance Schedule > Every 100 Hours",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-spark-torque",
+      "statement": "TP-2339-D anger åtdragningsmoment 24,4–29,8 Nm vid återmontering av tändstift.",
+      "variant": "Kohler Command enligt TP-2339-D",
+      "locator": "Section 8, printed p. 8.2, Spark Plug Service step 4",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "G"
     }
   ],
   "gaps": [
