@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "slug": "engine-honda-gx160",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentregister för Honda GX160, byggt på Hondas amerikanska tillverkardokument. Ingen europeisk maskinpassning fastställd.",
+  "sources": [
+    {
+      "id": "honda-type-identification",
+      "tier": 1,
+      "title": "Honda Engines: Engine Type Identification",
+      "document": "Honda Engines official engine model/type/serial identification",
+      "url": "https://engines.honda.com/support-and-service/engine-type-identification"
+    },
+    {
+      "id": "honda-gx160-owners",
+      "tier": 1,
+      "title": "Honda Engines: GX160 Owner's Manual selector",
+      "document": "GX160 manual selector by serial-number prefix and range; U.S. market",
+      "url": "https://engines.honda.com/support-and-service/owners-manuals/gx160"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Belagda delfynd finns i claims; området förblir gap tills alla relevanta varianter och maskinkopplingar kontrollerats."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "D": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "I": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "J": {
+      "state": "gap",
+      "note": "Belagda delfynd finns i claims; området förblir gap tills alla relevanta varianter och maskinkopplingar kontrollerats."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Motorfamiljens undersökning är avgränsad; maskinbunden variant, samtliga servicedata och reservdelsnummer är ännu inte fullständigt originalverifierade."
+    }
+  },
+  "claims": [
+    {
+      "id": "gx160-honda-type-code",
+      "statement": "Honda anger att motorns Type Code är instansad nära serienumret och kan innehålla upp till fyra tecken. Kortare koder kan ha asterisker som platshållare.",
+      "variant": "Honda GX160 familj, generell identifikation, USA-tillverkarstöd",
+      "locator": "Finding the Engine Type Code",
+      "sourceId": "honda-type-identification",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "gx160-serial-form",
+      "statement": "Honda anger att motorns serienummer är instansat i motorn och består av ett prefix på fyra eller fem bokstäver följt av sju siffror; faktisk märkning avgör dokumentval.",
+      "variant": "Honda GX160 familj, generell identifikation, USA-tillverkarstöd",
+      "locator": "Finding the Engine Serial Number",
+      "sourceId": "honda-type-identification",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "gx160-manual-gcack-range",
+      "statement": "Hondas GX160-manualväljare skiljer på serienummerprefix GCACK i tre efterföljande intervall: 1000001–1125014, 1125015–1253941 och 1253942–9999999. Urvalet avser manualrevision, inte automatisk reservdelspassning.",
+      "variant": "Honda GX160, GCACK-serie, amerikanskt manualregister",
+      "locator": "GX160 Manuals > English, French & Spanish language manual > GCACK rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "gx160-manual-gc02-split",
+      "statement": "Honda visar GC02 1000001–1156170 som separat engelsk GX160-manualgrupp och GC02 1156171–9999999 i ett annat manualurval.",
+      "variant": "Honda GX160, GC02-serie, amerikanskt manualregister",
+      "locator": "GX160 Manuals > English / English, French & Spanish language manual > GC02 rows",
+      "sourceId": "honda-gx160-owners",
+      "grade": "A",
+      "topic": "J"
+    }
+  ],
+  "gaps": [
+    "GX160: europeiska manualrevisioner och maskinbunden användning måste verifieras separat; Honda USA anger att supportsidans uppgifter gäller amerikanska produkter.",
+    "Exakta oljevolymer, ventilspel, tändstift, artikelnummer och PTO-axelkonfiguration kräver specificerat Type/Serial-intervall.",
+    "Originalmanualens innehåll och versionsskillnader per GCACK-serie återstår att läsa i tillhörande PDF-utgåvor."
+  ]
+}
