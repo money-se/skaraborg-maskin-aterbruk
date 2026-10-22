@@ -53,6 +53,13 @@
       "document": "OEM ZT-4400 service manual",
       "url": "https://www.hydro-gear.com/wp-content/uploads/2021/09/ZT-4400-Service-and-Repair-Manual.pdf",
       "tier": 1
+    },
+    {
+      "id": "hg-oil-service-kits",
+      "tier": 1,
+      "title": "Hydro-Gear Commercial Transaxle Oil Service Kits",
+      "document": "Official manufacturer's service kit information, accessed 2026-10-22",
+      "url": "https://www.hydro-gear.com/oil/"
     }
   ],
   "claims": [
@@ -532,6 +539,123 @@
       "locator": "TRANSAXLES, ZT-4400 Service Manual",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "oilkit-72750-range",
+      "statement": "Hydro-Gear anger oljeservicesats artikel 72750 för ZT-2800 till och med ZT-3800 enligt huvudrubriken på servicesidan. Delar av sidans löptext säger dock bara till ZT-3600, så ZT-3800-tillämpningen måste dubbelkontrolleras före beställning.",
+      "variant": "ZT-2800–ZT-3800, sidans motstridiga sortimentsangivelse",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "Oil Service Kit 72750 heading and ordering paragraph",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "oilkit-72750-contents",
+      "statement": "Oljeservicesats 72750 innehåller fem amerikanska quarts Hydro-Gear Commercial Transaxle Oil, två Hydro-Gear-filter samt en anslutning med pump för oljepåfyllning.",
+      "variant": "ZT-2800–ZT-3800 enligt officiell satsrubrik",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "THIS KIT INCLUDES, part no 72750",
+      "topic": "L",
+      "grade": "A"
+    },
+    {
+      "id": "oilkit-72881-range",
+      "statement": "Hydro-Gears oljeservicesats artikel 72881 anges för ZT-4400 till ZT-5400, skild från sats 72750.",
+      "variant": "ZT-4400 / ZT-5400",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "Oil Service Kit 72881 heading",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "oilkit-72881-contents",
+      "statement": "Sats 72881 innehåller tio amerikanska quarts Hydro-Gear Commercial Transaxle Oil, två originalfilter och O-ringar för filterkåpor.",
+      "variant": "ZT-4400 / ZT-5400",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "THIS KIT INCLUDES, part no 72881",
+      "topic": "L",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-housing",
+      "statement": "ZT-4400 manual BLN-0081 anger husets skruvar pos17 till 280–340 in-lb (31,6–38,4 Nm). Detta är inte samma moment som de mindre ZT-familjernas kåpor.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 17",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-center",
+      "statement": "ZT-4400 manual BLN-0081 anger mittsektionsskruvar pos18 och pos19 till 450–550 in-lb (50,8–62,1 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values items 18/19",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-charge-cover",
+      "statement": "ZT-4400 manual BLN-0081 anger laddpumpens kåpskruvar pos51 till 80–120 in-lb (9,0–13,5 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 51",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-brake-shaft",
+      "statement": "ZT-4400 manual BLN-0081 anger mutter på bromsaxel pos87 till 660–800 in-lb (74,5–90,3 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 87",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-oilfillvent",
+      "statement": "ZT-4400 manual BLN-0081 anger oljefyllnings-/ventilationsplugg pos142 till 32–42 in-lb (3,6–4,7 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 142",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-filter-plug",
+      "statement": "ZT-4400 manual BLN-0081 anger oljefilterkåpans plugg pos102 till 200–300 in-lb men saknar metrisk omräkning. Använd in-lb-värdet som originalspecifikation, inte ett ifyllt Nm-värde.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 102",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-castlenut-discrepancy",
+      "statement": "ZT-4400 manual BLN-0081 har motsägande enheter för kronmutter pos120: 275–350 ft-lb trycks bredvid 31,1–39,54 Nm; omräkningen är orimlig (275 ft-lb ≈373 Nm). Kontrollera senare OEM-bulletin och använd inte det felaktiga metriskvärdet.",
+      "variant": "ZT-4400, BLN-0081 januari 2018, pos120",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 120 and footnote",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-motor-exact-16-4",
+      "statement": "ZT-4400 manual BLN-0081 anger exakt motorvolym 16,4 cc/varv medan produktsidan använder avrundat värde 16 cc/varv. Detta är skillnad i precision, inte stöd för två olika motorutföranden.",
+      "variant": "ZT-4400, 2018 manual vs manufacturer product page",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 6, Technical Specifications; printed page 2, General Description",
+      "topic": "D",
+      "grade": "A"
+    },
+    {
+      "id": "4400-label-bom",
+      "statement": "ZT-4400-manualens figur 2 illustrerar en etikett med separat BOM Model Number (exempel 1710-1001R), tillverkningsår, julianskt dagsnummer och serienummer; de ska läsas separat vid identifiering.",
+      "variant": "ZT-4400, printed model example only",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 6, Figure 2 Configuration Label",
+      "topic": "A",
+      "grade": "A"
     }
   ],
   "gaps": [
@@ -540,7 +664,9 @@
     "Manualens oljeservice, tätningssatser, bypass- och momentvärden behöver sida-för-sida-verifieras för ZT-3400/3600/3800.",
     "Manualspecifika service- och momentvärden för ZT-4400 behöver djupgranskas.",
     "Motsvarande originalmanualer för övriga transmissionsfamiljer (ZT-5400, ZT-2400/2600, T-serien, äldre 310-serien) granskas separat.",
-    "Tillverkarens familjeprestanda får inte misstolkas som uppmätta data för maskininstallation."
+    "Tillverkarens familjeprestanda får inte misstolkas som uppmätta data för maskininstallation.",
+    "ZT-4400 BLN-0081 tryckt s.15 har ett uppenbart orimligt ft-lb/Nm-par för hub castle nut pos120 (275–350 ft-lb respektive 31,1–39,54 Nm). Kontrollera aktuell Hydro-Gear servicebulletin innan slutlig åtdragning.",
+    "Hydro-Gears aktuella oljesatssida beskriver 72750 som ZT-2800–3800 i rubriken men i beställningstext ZT-2800–3600. Bekräfta ZT-3800 med distributör före beställning."
   ],
   "topics": {
     "A": {
