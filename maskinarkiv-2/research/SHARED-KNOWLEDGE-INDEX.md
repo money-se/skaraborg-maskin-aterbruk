@@ -40,6 +40,10 @@
 | Jonsered LT2115CMA (2006-04) / 96061008300 | [jonsered-lt2115cma-96061008300.json](machines/jonsered-lt2115cma-96061008300.json) | `needs_research`: sekundärt versionsregister; originalkatalog återstår |
 | Jonsered LT2115CMA (2006-05) / 96061008200 | [jonsered-lt2115cma-96061008200.json](machines/jonsered-lt2115cma-96061008200.json) | `needs_research`: sekundärt versionsregister; originalkatalog återstår |
 
+| Jonsered LT2115CMA J2115CMAA (2004-01) / 954130216 | [jonsered-lt2115cma-j2115cmaa.json](machines/jonsered-lt2115cma-j2115cmaa.json) | `needs_research`: versionsbunden IPL med aggregat och reservdelar |
+| Jonsered LT2115CMA J2115CMAB (2004-06) / 954130093 | [jonsered-lt2115cma-j2115cmab.json](machines/jonsered-lt2115cma-j2115cmab.json) | `needs_research`: versionsbunden IPL med aggregat och reservdelar |
+| Jonsered LT2115CMA J2115CMAC (2004-06) / 954130216 | [jonsered-lt2115cma-j2115cmac.json](machines/jonsered-lt2115cma-j2115cmac.json) | `needs_research`: versionsbunden IPL med aggregat och reservdelar |
+
 ## Sidofynd att koppla till egna maskinregister
 | Modell/komponent | Källa som upptäckts | Källa eller register | Återstår |
 |---|---|---|---|
