@@ -60,6 +60,13 @@
       "title": "Murray 425014X92E lift assembly parts transcription",
       "document": "Instruction Book 98339, LIFT ASSEMBLY printed p.45",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/45"
+    },
+    {
+      "id": "murray-014e-troubleshooting-98339",
+      "tier": 2,
+      "title": "Murray 425014X92E manufacturer-form operator instruction book",
+      "document": "98339, 03.21.05 RD, Troubleshooting Chart pp.28-30",
+      "url": "https://www.manualslib.com/manual/506831/Murray-96014000100.html"
     }
   ],
   "topics": {
@@ -126,7 +133,7 @@
     "M": {
       "name": "Vanliga frågor",
       "state": "gap",
-      "note": "Källor för identifiering och service finns; fråga/svar behöver byggas på kontrollerade modellpåståenden."
+      "note": "Originalhandbok 98339 sid.28–30: orsaker till start-/effektproblem, låst knivspindel, remfel och dåligt utkast. Peerless 206-544C:s interna service ska inte härledas från denna felsökningstabell."
     }
   },
   "claims": [
@@ -963,6 +970,204 @@
       "sourceId": "murray-425014-lift-p45-html",
       "grade": "B",
       "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-fuel",
+      "statement": "Vid utebliven start anges bränslebrist som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-choke",
+      "statement": "Vid utebliven start anges felaktig användning av choke som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-flooded",
+      "statement": "Vid utebliven start anges flödad motor som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-plug",
+      "statement": "Vid utebliven start anges defekt tändstift som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-airfilter",
+      "statement": "Vid utebliven start anges smutsigt luftfilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-fuelfilter",
+      "statement": "Vid utebliven start anges smutsigt bränslefilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-water",
+      "statement": "Vid utebliven start anges vatten i bränslet som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-start-wire",
+      "statement": "Vid utebliven start anges lösa eller skadade ledningar som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.28",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-debris",
+      "statement": "Vid effektförlust anges gräs/lövansamling under klippaggregatet och rengöring av dess undersida.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-airfilter",
+      "statement": "Vid effektförlust anges smutsigt luftfilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-oil",
+      "statement": "Vid effektförlust anges låg oljenivå eller smutsig olja som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-plug",
+      "statement": "Vid effektförlust anges defekt tändstift som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-power-fuelfilter",
+      "statement": "Vid effektförlust anges smutsigt bränslefilter som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.29",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-obstruction",
+      "statement": "Om knivarna inte roterar anges hinder i kopplingsmekanismen; avlägsna hindret med maskinen säkrad.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-belt",
+      "statement": "Om knivarna inte roterar anges sliten/skadad aggregatrem och byte av rem.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-idler",
+      "statement": "Om knivarna inte roterar anges fastkärvad löprulle och byte av löprulle.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-blade-mandrel",
+      "statement": "Om knivarna inte roterar anges fastkärvad knivspindel; hänvisa till kvalificerad verkstad.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-troubleshoot-grass-engine",
+      "statement": "Vid dåligt gräsutkast anges för lågt motorvarvtal som möjlig orsak.",
+      "variant": "425014X92E / 96014000100 / 98339",
+      "locator": "TROUBLESHOOTING CHART p.30",
+      "sourceId": "murray-014e-troubleshooting-98339",
+      "grade": "B",
+      "topic": "M",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
