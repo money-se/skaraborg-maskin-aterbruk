@@ -380,6 +380,33 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "G"
+    },
+    {
+      "id": "kohler-oil-sentry-switch-torque-6p8",
+      "statement": "TP-2339-D anger åtdragningsmoment 6,8 Nm vid montering av Oil Sentry-tryckvakten i det gängade hålet i oljefilteradaptern. Gäller endast utföranden där denna tryckvakt och adapter finns.",
+      "variant": "Kohler Command enligt TP-2339-D, motor med installerbar Oil Sentry-vakt",
+      "locator": "Section 6, printed p.6.5, PDF page index 52, installation step 2 and Fig.6-10",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-oil-sentry-no-sensor-1-8nptf",
+      "statement": "TP-2339-D anger att anslutningen på motor utan Oil Sentry kan vara försluten med 1/8-27 N.P.T.F.-plugg, men noterar att vissa filteradaptrar helt saknar möjlighet för vakten. En igenpluggad anslutning bevisar inte stöd på samtliga adaptrar.",
+      "variant": "Command CV11–CV16/CV460–465/CV490–495 enligt TP-2339-D, adaptervarianter",
+      "locator": "Section 6, printed p.6.5, PDF index 52, Installation and Fig.6-10 note",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "G"
+    },
+    {
+      "id": "kohler-oil-sentry-test-contact",
+      "statement": "Vid Kohlers originalprov för Oil Sentry ska kontakten vara sluten vid nolltryck, öppna inom 2–5 psi när trycket höjs och sluta inom motsvarande intervall när det sänks. Testet kräver tryckreglerad luft, manometer och kontinuitetsmätare; 90 psi i manualen avser testets högsta tryck och är inte motorns normala oljetryck.",
+      "variant": "Command med Oil Sentry-tryckvakt enligt TP-2339-D",
+      "locator": "Section 6, printed p.6.5, PDF index 52, Testing the Oil Sentry Switch",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "I"
     }
   ],
   "gaps": [
@@ -394,6 +421,7 @@
     "Kohler Walbro/Nikki: förgasarutförande per Spec No. och respektive reparationssats/packningsnummer återstår att belägga.",
     "Oljefilter 52 050 02-S anges i Kohler 12 590 01 men ersättningsartikel, aktuell tillgång och exakt passform per Spec. No. och filteradapter återstår att verifiera.",
     "Kohler Walbro/Nikki: rekommenderad grundtomgång 1200 ±75 rpm är inte automatiskt godkänd maskintomgång; kräver utrustningstillverkarens anvisning och exakt utförande.",
-    "Oil Sentry måste bekräftas på enskild motorkonfiguration och i maskinens kopplingsschema; brytområde 2–5 psi är inte en specifikation för normalt arbetstryck."
+    "Oil Sentry måste bekräftas på enskild motorkonfiguration och i maskinens kopplingsschema; brytområde 2–5 psi är inte en specifikation för normalt arbetstryck.",
+    "Oil Sentry artikelnummer och sensoradapter per Kohler Spec. No. återstår att kontrollera; 6,8 Nm gäller vakten, inte en godtycklig oljeplugg."
   ]
 }
