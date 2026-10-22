@@ -1481,6 +1481,42 @@
       "sourceId": "husqvarna-official-epc-rider16-model-index",
       "grade": "A",
       "topic": "A"
+    },
+    {
+      "id": "rider16-workshop-machine-plate-locator",
+      "statement": "Husqvarnas verkstadshandbok anger Rider 16-märkplåtens placering framtill på vänster sida under sitsen. Plåten uppger modellbeteckning, tillverkarens typnummer och maskinens serienummer; reservdelsbeställning ska använda modellbeteckning och serienummer.",
+      "variant": "Rider 16 enligt Husqvarna verkstadshandbok 2003-02; exakt maskin-/aggregat-PNC kräver avläsning av identitetsuppgifter",
+      "locator": "Workshop manual 2003-02, tryckt s.17 (PDF P18), 'Design and function – Serial number', machine plate",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "rider16-workshop-transaxle-label-identification",
+      "statement": "Transaxelns streckkodsetikett sitter enligt Husqvarnas verkstadshandbok framtill på huset vid vänster drivaxel. Typbeteckningen över streckkoden börjar med K, serienumret över koden har prefix s/n och tillverkarens artikelnummer under koden har prefix p/n. Detta skiljer transaxelns identitet från maskinens.",
+      "variant": "Rider 16 enligt Husqvarna verkstadshandbok 2003-02; exakt maskin-/aggregat-PNC kräver avläsning av identitetsuppgifter",
+      "locator": "Workshop manual 2003-02, tryckt s.17 (PDF P18), 'Serial number', transmission barcode decal",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider16-workshop-engine-code-plate-locator",
+      "statement": "Verkstadshandboken anger att äldre motornumrering sitter på en nitad skylt på fläktkåpan, medan nyare Rider 16-motorers Model/Type/Code är instansade i kåpan. Motorns identitet måste verifieras separat vid delar till Briggs-motor.",
+      "variant": "Rider 16 enligt Husqvarna verkstadshandbok 2003-02; exakt maskin-/aggregat-PNC kräver avläsning av identitetsuppgifter",
+      "locator": "Workshop manual 2003-02, tryckt s.17 (PDF P18), 'Serial number', older/newer engine illustrations",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider16-workshop-deck-availability-2003",
+      "statement": "Verkstadshandboken anger att Rider 16 kan ha 97 cm sid-/bakutkast, BioClip 90 samt Combi 103/112, och att tidigare versioner dessutom förekom med BioClip 103/112. Denna modellöversikt visar historisk tillgänglighet men inte någon maskin-/aggregat-PNC-koppling.",
+      "variant": "Rider 16 enligt Husqvarna verkstadshandbok 2003-02; exakt maskin-/aggregat-PNC kräver avläsning av identitetsuppgifter",
+      "locator": "Workshop manual 2003-02, tryckt s.16 (PDF P17), 'Design and function – General', Rider 16 deck list",
+      "sourceId": "husqvarna-rider16-workshop-2003-02",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -1545,6 +1581,8 @@
     "Wolfswinkels 2002-02 reservdelsvy kan visa aktuella supersession-artikelnummer i en gammal kataloggrupp. Kontrollera originalutgåvans nummer för 535410602, 535410601, 531007585 och 589533701.",
     "Ersättningsrelationen 531007587 → 589533701 för BioClip 103 är endast återförsäljarstödd. Verifiera med Husqvarnas officiella artikelhistorik och aggregat-PNC innan praktiskt råd.",
     "PartsTree bekräftar på återförsäljarnivå 531007587 → 589533701 för 103 cm; leta efter Husqvarnas egen revisions-/supersession-post med fullständigt aggregat-PNC.",
-    "Husqvarna EPC ger Rider 16:s aggregatgrupper på modellnivå, men saknar synligt belägg för vilket exakt BioClip 103-aggregat (PNC/revision) som passar en specifik maskin. Identifiera maskinens märkplåt och välj rätt EPC-variant."
+    "Husqvarna EPC ger Rider 16:s aggregatgrupper på modellnivå, men saknar synligt belägg för vilket exakt BioClip 103-aggregat (PNC/revision) som passar en specifik maskin. Identifiera maskinens märkplåt och välj rätt EPC-variant.",
+    "För att fastställa Rider 16:s exakta reservdelsrevision: läs maskinplåten framtill vänster under sitsen (modell/typ/serienummer), motorns Briggs Model/Type/Code och transaxelns K-/s/n-/p/n-streckkodsetikett separat; därefter kontrollera tillämplig Husqvarna EPC-katalog.",
+    "Separat BioClip 90/103 aggregat-PNC kunde inte bekräftas från verkstadshandbokens modell- och märkplåtsbeskrivning; ingen årsmodell får ensamt definiera aggregatets passform."
   ]
 }
