@@ -536,6 +536,13 @@
       "title": "Ceruti Briggs 282H07-0110-E1 parts IPL index",
       "document": "Model 282H07 Type 0110 E1 part diagram index; direct Rider 16 2005 OM engine model/type match, still inspect code-date applicability",
       "url": "https://www.ceruticenter.it/en/content/117946-282h07-0110-e1-briggs-stratton-engine-spare-parts"
+    },
+    {
+      "id": "briggs-282h07-0110e1-wolfswinkel-ipl",
+      "tier": 2,
+      "title": "Wolfswinkel Briggs 282H07-0110-E1 parts diagrams",
+      "document": "Type-specific online IPL with air cleaner, fuel system, blower, electrical and engine subassemblies",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/briggs-und-stratton/200000-399999-reihe/282h00-bis-282h99/282h07-0110-e1"
     }
   ],
   "topics": {
@@ -3148,6 +3155,60 @@
       "sourceId": "briggs-282h07-0110e1-ceruti-ipl-index",
       "grade": "B",
       "topic": "H"
+    },
+    {
+      "id": "rider16-batch56-airfilter",
+      "statement": "Briggs 282H07-0110-E1-återförsäljarens typspecifika reservdelslista visar luftfilterpatron 794422 (ref 445), äldre referens 698083, och separat förfilter 697015 (ref 967). Dessa uppgifter har säljkatalogstöd B, inte en av oss kontrollerad original-IPL för just Type 0110-E1.",
+      "variant": "Briggs 282H07-0110-E1 kataloglistning, faktisk Engine Code saknas",
+      "locator": "Air Cleaner, Blower Housing, ref 445 794422 / replaces 698083; ref 967 697015",
+      "sourceId": "briggs-282h07-0110e1-wolfswinkel-ipl",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch56-blower-housing",
+      "statement": "Wolfswinkels typspecifika 282H07-0110-E1-förteckning visar fläkthus 591642 (ref 304), angivet som ersättare för 698402, medan husfästen och skruvar ligger i separata positioner.",
+      "variant": "Briggs 282H07-0110-E1 kataloglistning, faktisk Engine Code saknas",
+      "locator": "Air Cleaner, Blower Housing, ref 304 591642 replaces 698402",
+      "sourceId": "briggs-282h07-0110e1-wolfswinkel-ipl",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch56-intake-gasket",
+      "statement": "Reservdelsvyn för motor 282H07-0110-E1 listar insugspackning 692137 (ref 51), utan att bevisa att alla andra Briggs 282H07-Type använder samma packning.",
+      "variant": "Briggs 282H07-0110-E1 kataloglistning, faktisk Engine Code saknas",
+      "locator": "Carburetor, Fuel Supply, ref 51 692137 GASKET-INTAKE",
+      "sourceId": "briggs-282h07-0110e1-wolfswinkel-ipl",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch56-fuel-pump-alternatives",
+      "statement": "I 282H07-0110-E1-listan anges två olika bränslepumpspositioner: ref 387, 697090 (med monteringsfäste) och ref 387A, 597338. Denna katalogförekomst innebär inte att pumparna är direkt utbytbara utan hänsyn till monteringsutförande och Code.",
+      "variant": "Briggs 282H07-0110-E1 kataloglistning, faktisk Engine Code saknas",
+      "locator": "Carburetor, Fuel Supply, ref 387 697090; ref 387A 597338",
+      "sourceId": "briggs-282h07-0110e1-wolfswinkel-ipl",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch56-carburetor-multiple-kits",
+      "statement": "Motortypsförteckningen 282H07-0110-E1 har flera alternativa tomgångs-/förgasarjusteringssatser på skilda referenser (94 794176 och 94A 793610) med olika angivna äldre nummer. Positionerna bör inte slås ihop till ett generellt förgasarkit.",
+      "variant": "Briggs 282H07-0110-E1 kataloglistning, faktisk Engine Code saknas",
+      "locator": "Carburetor, Fuel Supply, ref 94 794176; ref 94A 793610",
+      "sourceId": "briggs-282h07-0110e1-wolfswinkel-ipl",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch56-code-date-parts-protection",
+      "statement": "Briggs original-IPL för en annan typ 28N707-1201-E1 skiljer fäste för luftfilterbas ref 971: del 690810 före Code 97100600, och 692129 efter Code 97100500. Dokumentet visar varför samma motormodell kan ha datumstyrda delar, men är inte en reservdelslista för Rider 16 H:s okända Type.",
+      "variant": "Briggs 28N707-1201-E1 demonstrativ annan Type, inte verifierad Rider 16 H motor",
+      "locator": "Briggs original IPL 28N707-1201-E1 PDF p5 ref 971 before/after code date",
+      "sourceId": "briggs-original-ipl-28n707-1201e1-reference",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -3266,6 +3327,8 @@
     "Rider16 motoroljevolym 2002 OM 1,2 L kontra 2005 OM 1,4 L; 2005 hänför värdet till Briggs 282H070110E1, men utan motorns Model/Type/Code ska universell fyllmängd inte publiceras.",
     "Briggs original-IPLs för exakt Model/Type/Code saknas för specifik fysisk Rider. Innan förgasare, stift, packningar eller oljemängd väljs: avläs alla tre märkfälten, matcha IPL och kontrollera revisionsdatum.",
     "Leta fram Briggs utfärdad original-IPL specifikt för 282H07-0110-E1 och för Rider 16 H-maskinens avlästa 28N707-Type; jämför revisions- och Code-datum före motordelsnummer.",
-    "28N707-1201-E1 Briggs original-IPL är en demonstrerad annan Type; felaktig typkoppling kan ge fel förgasare och tändsystem."
+    "28N707-1201-E1 Briggs original-IPL är en demonstrerad annan Type; felaktig typkoppling kan ge fel förgasare och tändsystem.",
+    "För 282H07-0110-E1 finns typbunden säljkatalog med filter 794422, förfilter 697015, fläkthus 591642, insugspackning 692137 och pumpar 697090/597338. Hitta Briggs original-IPL för samma Type och Code innan dessa delar markeras OEM-verifierade.",
+    "Briggs 28N707-1201-E1 original-IPL har Code-daterat art.nr byte för ref 971 år 1997; detta belägg får inte överföras till okänd Type på Rider 16 H."
   ]
 }
