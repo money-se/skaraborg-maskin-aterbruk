@@ -74,6 +74,13 @@
       "title": "Murray 425014X92E 96014000100 steering assembly original parts list",
       "document": "Manufacturer IPL, STEERING ASSEMBLY printed page 39",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/39"
+    },
+    {
+      "id": "murray-014e-brake-belt-p23",
+      "tier": 2,
+      "title": "Murray 425014X92E original operator manual brake and mower drive belt maintenance",
+      "document": "425014X92E, service p.23, TO CHECK AND ADJUST BRAKE; TO REPLACE MOWER BLADE DRIVE BELT",
+      "url": "https://murray.manymanuals-pt.com/lawnmowers/425014x92e/specifications-49848/23"
     }
   ],
   "topics": {
@@ -125,7 +132,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Motoroljeintervall och servicepunkter extraherade ur manual för 425014X92E; motorkod saknas.\nFollow-up: Modellens egen handbok 98339 ger kontroll av bromssträcka, 27–35 ft-lb knivbult, oljeintervall 25 h/år, oljekontroll var 8 h, driv- och knivremsbyte, bakhjulsfyrkantskil samt vinterförvaring."
+      "note": "Original service s.23 anger bromsens 1,5-tums inställningsmått och fem fots stoppsträcka under fastställda provvillkor; knivremmens dragning och aggregatdemontering. Detta får inte appliceras på A/B-utföranden."
     },
     "K": {
       "name": "Reservdelar",
@@ -1582,6 +1589,171 @@
       "sourceId": "murray-014e-steering-original-page39",
       "grade": "B",
       "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-right",
+      "statement": "Bromssystemet är justerbart och sitter på höger sida av transaxeln.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-stopping",
+      "statement": "Bromsen ska kontrolleras om traktorn behöver mer än fem fot att stanna från högsta fart i högsta växeln på torr, plan asfalts- eller betongyta.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-flat",
+      "statement": "Bromsprov utförs på jämn och torr hårdgjord mark.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-pedal",
+      "statement": "Vid bromsprov trycks kopplings-/bromspedalen helt ned och parkeringsbromsen ansätts.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-neutral",
+      "statement": "Växelspaken ska stå i neutralläge N under det manuella bromsprovet.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-wheel-lock",
+      "statement": "Bakhjulen ska låsas och släpa vid manuellt skjutprov med parkeringsbromsen i; rullande hjul visar justerings- eller beläggbehov.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-arm-distance",
+      "statement": "Avståndet mellan bromsens manöverarm och justermutter A på bromsstaget ska vara 1 1/2 tum enligt manualen.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-jamnut",
+      "statement": "Vid fel avstånd lossas låsmuttern och mutter A justeras till 1 1/2 tum, varefter låsmuttern dras åt mot A.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-roadtest",
+      "statement": "Efter bromsjustering krävs körprov av stoppsträckan enligt handbokens villkor.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-brake-professional",
+      "statement": "Om bromssträckan fortfarande överstiger fem fot i högsta växeln krävs ytterligare service hos auktoriserad verkstad.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-blade-belt-no-tools",
+      "statement": "Manualen anger att klippknivarnas drivrem kan bytas utan verktyg efter att aggregatet demonterats enligt instruktionen.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-blade-belt-level",
+      "statement": "Rembyte på aggregatet ska ske med traktorn parkerad på plan mark och parkeringsbromsen ansatt.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-blade-belt-route",
+      "statement": "Den nya knivdrivremmen dras runt båda spindelremskivorna och löprullarna.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-blade-belt-guides",
+      "statement": "Vid remmontering ska remmen ligga i samtliga remspår och innanför alla remstyrningar.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-maint-r3-blade-belt-reinstall",
+      "statement": "Efter montering av knivdrivremmen återmonteras klippaggregatet enligt manualens separata anvisning.",
+      "variant": "425014X92E / 96014000100",
+      "locator": "TO CHECK AND ADJUST BRAKE / TO REPLACE MOWER BLADE DRIVE BELT, p.23",
+      "sourceId": "murray-014e-brake-belt-p23",
+      "grade": "B",
+      "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
     }
