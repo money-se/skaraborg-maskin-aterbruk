@@ -1865,6 +1865,96 @@
       "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
       "grade": "A",
       "topic": "E"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-401-belt-cover-oem",
+      "statement": "OEM 2007-03 103 cm-gruppen med komplett aggregat 965078401 listar remkåpa 544096101 (1 st) och separat klippkåpa 544112901 (1 st); inget av dessa är numret för hela aggregatet.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P45 L733, L735, L754",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-601-belt-cover-oem",
+      "statement": "OEM 2007-03 103 cm-gruppen med komplett aggregat 965078601 listar samma remkåpa 544096101 och klippkåpa 544112901, men annan kniv och andra remmar än gruppen 965078401.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P57 L1024–L1029, L1044; jämför P45 L733–L740",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-401-plate-adapter-bundle",
+      "statement": "I 103 cm-aggregatgruppen 965078401 anges knivplatta 506792301 (3), adapter 535504202 (3) och kniv 544103001 (3). Det är en gruppbunden originaluppsättning, ej allmän kompatibilitet med 965078601.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P45 L711, L720, L734 (antal 3), L754",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-601-plate-adapter-bundle",
+      "statement": "I 103 cm-aggregatgruppen 965078601 anges knivplatta 506792302 (3), adapter 535504201 (3) och kniv 544102901 (3), i kontrast till 965078401:s 506792301/535504202/544103001.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P57 L999, L1023, L1025; jämför P45 L711, L720, L734",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-401-belt-pair-oem",
+      "statement": "103 cm-gruppen 965078401 anger rem 506768501 (1) och rem 594978001 (1) som separata artikelrader. Nummer och positioner ska hållas isär från 965078601-gruppens två remmar.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P45 L708 och L740, komplett aggregat L754",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-601-belt-pair-oem",
+      "statement": "103 cm-gruppen 965078601 anger rem 544113201 (1) och rem 589514601 (1) i skilda artikelrader, jämfört med 965078401:s 506768501 och 594978001.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P57 L1027 och L1029, komplett aggregat L1044",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "E"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-601-bearing-spindles-oem",
+      "statement": "Original-IPLn 2007-03 anger i 965078601-gruppen lagerhus 535503401, mandrel 535503501 och 535503502, samt knivplatta 506792302. Dessa skiljer sig från 965078401-gruppens kompletta knivhus 544065901/02.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P57 L1016–L1023, P45 L721–L726",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-401-spindles-oem",
+      "statement": "Original-IPLn 2007-03 anger 965078401-gruppens yttre knivhusenhet 544065901, mittre 544065902, lagerhus 544067801 och axlar 544067901/902. Enbart katalograderna ger inte ett bytesförfarande mellan kompletta knivhus och lösa mandrlar.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P45 L721–L730, L754",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-601-knifeplate-revision",
+      "statement": "103 cm-aggregaten 965078401 och 965078601 har enligt samma OEM-katalog olika knivplattor 506792301 respektive 506792302. Detta är en konstruktionsskillnad och inte dokumenterad direktdel-ersättning.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P45 L711 (506792301), P57 L999 (506792302)",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "rider16-batch36-rpro2007-601-pulley-family",
+      "statement": "2007-03 965078601-gruppen listar remskiva 535429001 samt axlar 535428701/02, medan 965078401-gruppen listar remskiva 506922101 och axlar 544067901/02. Det finns inte tillräckligt underlag för att ange vilka remskivor som är utbytbara.",
+      "variant": "OEM-jämförelsekatalog Rider Pro 18 AWD PNC 965095001, 2007-03; inte generell Rider 16-passform",
+      "locator": "P57 L1005–L1011; P45 L714 och L728–L729",
+      "sourceId": "husqvarna-riderpro18awd-2007-03-original-ipl",
+      "grade": "A",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -1944,6 +2034,8 @@
     "Rider Pro 18 AWD 2007-03 skiljer 965078401 och 965078601 genom olika knivar, knivplattor, adaptrar och remsystem. Undersök Husqvarnas monterings-/ersättningsbulletin före slutsats om utbytbarhet.",
     "2003 953523701 har historiskt rem 531005017 och 531007587. Fastställ deras respektive funktion/position i ritning och om ersättare har utgivits.",
     "Samma 2007 IPL delar skal 544112901 och remkåpa 544096101 mellan två kompletta aggregat; delade komponenter innebär inte universell monteringskompatibilitet.",
-    "Korrigering efter original-IPL 2007-03 P57: 103 cm-aggregat 965078601 har kniv 544102901, inte tidigare felaktigt angivna 544102801. Obs: 544102801 kvarstår separat som 112 cm-kniv i 2006 års Rider 16-katalog."
+    "Korrigering efter original-IPL 2007-03 P57: 103 cm-aggregat 965078601 har kniv 544102901, inte tidigare felaktigt angivna 544102801. Obs: 544102801 kvarstår separat som 112 cm-kniv i 2006 års Rider 16-katalog.",
+    "Original-IPL 2007-03 har separata 103 cm-grupper för 965078401 och 965078601 med skilda knivplattor, adaptrar, remmar och axlar. Ingen OEM-supersession mellan kompletta aggregat hittades i katalogen.",
+    "Webbens PDF-sidbild kunde inte hämtas; artikelraderna är verifierade i tillverkarens PDF-textlager men sprängskissens positionsgeometri och monteringsanvisningar är fortfarande inte granskade."
   ]
 }
