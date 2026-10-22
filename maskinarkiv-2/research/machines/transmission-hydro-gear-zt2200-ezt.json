@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-hydro-gear-zt2200-ezt",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbundet forskningsregister för Hydro-Gear ZT-2200 EZT samt dokumentrelation till ZT-2100; gäller inte monterad maskin utan specifik ID-kontroll. Service-manualen är lokaliserad men oljebyte och reservdelskoder har ännu inte extraherats/verifierats sidbundet.",
+  "sources": [
+    {
+      "id": "hg-zt2200-product",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2200 (EZT) official product specification",
+      "document": "ZT-2200 (EZT) product page / Product Specs",
+      "url": "https://www.hydro-gear.com/product/zt-2200/"
+    },
+    {
+      "id": "hg-service-index",
+      "tier": 1,
+      "title": "Hydro-Gear Service & Repair Manuals index",
+      "document": "Service & Repair Manuals > ZT-2100, ZT-2200 (EZT) Manual",
+      "url": "https://www.hydro-gear.com/service-repair-manuals/"
+    },
+    {
+      "id": "hg-zt2100-zt2200-manual",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2100 / ZT-2200 (EZT) Service & Repair Manual",
+      "document": "BLN-52622, manufacturer PDF, further page-by-page verification needed",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2021/09/BLN-52622_ZT2100_ZT2200-1-1.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "state": "gap",
+      "note": "Komponentfamiljen är identifierad, men exakt monterad OEM-transmission kan inte bestämmas utifrån maskinens modellnamn."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Motoruppgifter ingår inte i denna komponentstudie; identifiera motor separat per maskin."
+    },
+    "C": {
+      "state": "gap",
+      "note": "Komponentens konstruktion är delvis dokumenterad; individuella serienummer och revisioner måste verifieras."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Växellådans funktion och tillverkaruppgifter har belagts, men intern reservdelskonfiguration per tillverknings-ID återstår."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Maskinspecifika reglage, remdragning och frikopplingslänkage återstår att belägga per OEM."
+    },
+    "F": {
+      "state": "gap",
+      "note": "Maskinspecifika hastigheter och viktgränser får inte härledas ur komponentens kataloggränser."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Elektriska säkerhetskretsar är maskinspecifika och ingår inte i komponentens källmaterial."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Klippaggregat och dess kompatibilitet kan inte bestämmas från transaxelns familj."
+    },
+    "I": {
+      "state": "gap",
+      "note": "OEM-instruktioner för bogsering, parkeringsbroms och säkerhet måste jämföras före service."
+    },
+    "J": {
+      "state": "verified",
+      "note": "Transmissionsservice kräver exakt Manufacturing ID och kontroll av aktuell OEM-manual."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Felsökning måste kompletteras med dokumenterade kontrollvägar för konkret enhet och maskin."
+    },
+    "L": {
+      "state": "verified",
+      "note": "Reservdelsnummer och servicekit kräver exakt etikett-/serienummer och tillverkarens parts-list."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Köpråd och sammanfattningar får inte överföra komponentvärden till okända maskinversioner."
+    }
+  },
+  "claims": [
+    {
+      "id": "ezt-integrated-identity",
+      "statement": "Hydro-Gear identifierar ZT-2200 (EZT) som en integrerad transaxel för residential zero-turn-klippare.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), produktfamilj",
+      "locator": "ZT-2200 (EZT) > introductory description",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "ezt-10cc",
+      "statement": "ZT-2200 (EZT) anges ha både pump och hydraulmotor på 10 cc/varv.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), produktfamilj",
+      "locator": "Product Specs > Pump Displacement / Motor Displacement",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "ezt-axle-1inch",
+      "statement": "ZT-2200 (EZT) anges med 1,0 tums (25,4 mm) axeldiameter, men tillverkaren listar olika axelutföranden, så detta är inte bevis för passform i en viss maskin.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), produktfamilj",
+      "locator": "Product Specs > Axle Shaft Diameter / Axle Shaft Options",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "ezt-optional-drains",
+      "statement": "Tillverkaren beskriver nyare servicebara EZT-utföranden med dräneringsportar som tillval; frånvaron eller närvaron måste kontrolleras på den fysiska enheten.",
+      "variant": "Hydro-Gear ZT-2200 (EZT), option-dependent",
+      "locator": "Features > NEW – Now serviceable with optional drain ports",
+      "sourceId": "hg-zt2200-product",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-service-manual-exists",
+      "statement": "Hydro-Gears servicebibliotek listar en gemensam service- och reparationsmanual för ZT-2100 och ZT-2200 (EZT); specifika procedurer och reservdelsnummer ska verifieras mot manual och exakt enhets-ID.",
+      "variant": "Hydro-Gear ZT-2100 / ZT-2200 (EZT), dokumentrelation",
+      "locator": "Service & Repair Manuals > TRANSAXLES > ZT-2100, ZT-2200 (EZT) Manual",
+      "sourceId": "hg-service-index",
+      "grade": "A",
+      "topic": "L"
+    }
+  ],
+  "gaps": [
+    "Verifiera produktetikett och unikt Hydro-Gear-modell-/serienummer och OEM-specifik suffixkod.",
+    "Läs BLN-52622 sida för sida och notera enhetsspecifika oljemängder, serviceintervall, luftnings-/purge-steg och säkerhetsvillkor.",
+    "Extrahera exakt komponent- och reparationskitlista ur primärmanualens relevanta sprängskisser; återanvänd inte illustrativa positionsnummer som beställningsnummer.",
+    "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion."
+  ]
+}
