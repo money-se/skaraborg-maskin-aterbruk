@@ -151,6 +151,13 @@
       "title": "Briggs & Stratton illustrated parts list model series 282H00",
       "document": "MS-5448, 2007-04-19, Type 0105 through 0600",
       "url": "https://www.lawnmowerpros.com/pdfs/BRIGGS/282H00.pdf"
+    },
+    {
+      "id": "tecumseh-peerless-technician-691218",
+      "tier": 1,
+      "title": "Tecumseh Peerless technician handbook",
+      "document": "Form 691218 R 3/02, general diagnosis pp.5,9–12 and identification",
+      "url": "https://www.smallenginesuppliers.com/html/engine-specs/tecumseh/Tecumseh_Transaxle_Service_Information.pdf"
     }
   ],
   "topics": {
@@ -3696,6 +3703,171 @@
       "topic": "K",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-id-stamp",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Peerless-enhetens modell-/specifikationskod avläses på fastsatt märkning eller stämpel på växellådshuset; tillverkaren kräver uppgiften för rätt reservdelar.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.1 / PDF 3",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-belt",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Före transaxeln demonteras ska slak, sliten eller blank drivrem undersökas.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-clutch",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Feljusterad eller utsliten koppling/remspänning kan orsaka drivproblem utan invändigt transaxelfel.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-keys",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Kontrollera lösa stoppskruvar och avskjuvade kilar i remskivor eller axlar innan enheten öppnas.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-contam",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Oljeförorenad drivrem eller koppling ska bedömas före intern transmissionsdiagnos.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-oilleaks",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Synligt oljeläckage ska noteras och lokalisering ske innan demontering.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-operator",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Felaktig kopplingsteknik och växling under belastning ingår i tillverkarens diagnostiska kontroll.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-clean",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Före invändig demontering ska transaxeln rengöras från smuts, olja och skräp.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-metal",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Vid avtappning av gammalt smörjmedel ska metallpartiklar noteras som möjligt internfelstecken.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-pre-axle",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Axeländarna granskas för rost och grader innan lager eller tätningar hanteras.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.5 / PDF 7",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-shift-off",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Om växlarna går lätt när motorn är avstängd men trögt med motorn igång bör orsaken sökas i yttre drivning, koppling eller reglage innan transaxeln lyfts ur.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.10 / PDF 12",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-shift-linkage",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Om växling är trög även avstängd ska yttre växellänkage frikopplas och själva växelaxeln provas för att isolera intern mot extern tröghet.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.10 / PDF 12",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-shift-rust",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Invändig korrosion, skadade växelkilar/kugghjul eller växelbromsaxel kan orsaka svårväxlad transaxel.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.10 / PDF 12",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-shift-beltguides",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Saknade eller felställda remstyrningar kan enligt Tecumseh orsaka svårväxling.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.10 / PDF 12",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-tecumseh-diagnostic-no-fill-assume",
+      "statement": "Generell Peerless-felsökningsprincip, tillämpning på 206-544C måste kontrolleras: Smörjmedel och fyllmängd ska väljas efter fullständigt Peerless-typnummer och gällande tabell, inte överföras från snarlik modell.",
+      "variant": "Peerless general service / 425014X92E transaxle",
+      "locator": "Tecumseh 691218 p.7 / PDF 9",
+      "sourceId": "tecumseh-peerless-technician-691218",
+      "grade": "A",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -3711,6 +3883,7 @@
     "425014X92E STEERING ASSEMBLY s.39 artikelnummer är positionsverifierade i katalogtext; sprängskissens bildvisning och fysisk passform ej kontrollerade.",
     "För att fastställa 282H07:s Type/Code krävs foto av stämpling på den verkliga maskinens motor. OEM-katalogen räcker inte för intern Briggs-delidentifiering.",
     "282H07 MS-5667 anger typberoende serviceersättare och notkoder (kabelhärva, fjäder, ljuddämpare etc), men maskinens Type/Code okända; tabellen har PDF-textgranskats men bildhämtning gav cache miss. Ingen beställningsrekommendation förrän fysisk motorkod och nuvarande OEM-delstatus verifierats.",
-    "Sears 206-544C webbplatsens indexerade katalog visar interna delar men fullständig sprängskiss kunde inte öppnas (cache miss); uppgifter har stöd av indexerade beskrivningar, inte direkt bildgranskning. Märkbricka samt aktuell ersättningskedja krävs."
+    "Sears 206-544C webbplatsens indexerade katalog visar interna delar men fullständig sprängskiss kunde inte öppnas (cache miss); uppgifter har stöd av indexerade beskrivningar, inte direkt bildgranskning. Märkbricka samt aktuell ersättningskedja krävs.",
+    "Peerless manual 691218 innehåller generell diagnos, men ingen explicit bekräftelse på att 206-544C följer visst MST200-smörjschema eller fyllmängd. Specificera inte 16 oz 80W90 för 206-544C utan korsverifiering."
   ]
 }
