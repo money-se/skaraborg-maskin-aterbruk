@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cm-j2115cmb-954130215",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Jonsered LT2115CM J2115CMB juni 2004, produkt 954130215, originaldokumentidentitet och återförsäljarförmedlade exakta komponentpositioner; ej kompatibilitetsgodkännande.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-original",
+      "tier": 2,
+      "title": "Jonsered LT2115CM J2115CMB 2004-06 IPL mirrored",
+      "document": "106 31 64-62, J2115CMB, 954130215, 2004-06",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT2115%20CM%20J2115CMB%20954130215%202004-06/LT2115-CM-J2115CMB-954130215-2004-06.pdf"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-drive-dealer",
+      "tier": 2,
+      "title": "Motoruf Jonsered LT2115CM J2115CMB Drive parts list",
+      "document": "DRIVE J2115CMB 954130215 2004-06",
+      "url": "https://www.motoruf.es/n/listas.html?art=37524391&id=2302739"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-seat-dealer",
+      "tier": 2,
+      "title": "sGarden Jonsered LT2115CM J2115CMB seat list",
+      "document": "SEAT J2115CMB 954130215 2004-06",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/75360/SEAT"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-identity",
+      "statement": "Originalkatalog 106 31 64-62 från 2004-06 namnger LT2115CM J2115CMB, med produktnummer 954130215 i reservdelsrubriken.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "PDF omslag och modelldata",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-original",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-drive-8",
+      "statement": "Återförsäljarens DRIVE-sektion listar reglagestöd på pos 8 som artikel 532 16 56-19.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "Motoruf DRIVE ref.8",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-drive-dealer",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-drive-9",
+      "statement": "Återförsäljarens DRIVE-sektion listar pos 9 som artikel 532180354, vilket överensstämmer med Noram-kopplingsnumret i andra LT2115CMA-kataloger, men passformen för CM-versionen är inte separat verifierad.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "Motoruf DRIVE ref.9",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-drive-dealer",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-seat-1",
+      "statement": "Återförsäljarens SEAT-sektion listar sitsartikel 532188705 på pos 1.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "sGarden SEAT ref.1",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-seat-dealer",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-seat-2",
+      "statement": "Återförsäljarens SEAT-sektion listar konsolartikel 532180166 på pos 2.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "sGarden SEAT ref.2",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-seat-dealer",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-j2115cmb-954130215-seat-10",
+      "statement": "Återförsäljarens SEAT-sektion listar platta 532180186 på pos 10.",
+      "variant": "LT2115CM J2115CMB / 954130215 / 2004-06",
+      "locator": "sGarden SEAT ref.10",
+      "sourceId": "jonsered-lt2115cm-j2115cmb-seat-dealer",
+      "grade": "B",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Original-PDF 2004-06 identifierad i två fristående kataloger men PDF innehåll och sidbilder returnerar cachefel; ingen motortyp, transmissionstyp eller drift-/servicespecifikation får påstås här ännu.",
+    "Motoruf och sGarden återger aktuella reservdelsnummer som kan vara senare ersättningsnummer; kontrollera mot komplett OEM-IPL och maskinens typskylt innan beställning.",
+    "Hel LT2115CM-familj har flera ytterligare års- och produktrevisioner som behöver egna katalogbundna register."
+  ]
+}
