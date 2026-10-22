@@ -116,6 +116,13 @@
       "title": "Sears PartsDirect MTD 13BH670F062 diagrams",
       "document": "MTD 13BH670F062 lawn tractor model parts and diagram navigation",
       "url": "https://www.searspartsdirect.com/model/2ybivl2baq-000736/mtd-13bh670f062-front-engine-lawn-tractor-parts"
+    },
+    {
+      "id": "mtd-2004-belt-application-guide",
+      "tier": 2,
+      "title": "MTD 2004 Equipment Parts, Accessories & Attachments – belt application guide",
+      "document": "2004 MTD equipment parts & accessories catalog, 600 Series (2002 & Prior) belt application table",
+      "url": "https://www.brentchalmers.com/Manuals/2004_MTD_EQUIPMENT_PARTS_ACCESSORIES_ATTACHMENTS.pdf"
     }
   ],
   "topics": {
@@ -133,7 +140,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer. MTD:s 2004 applikationstabell för äldre 600-serie skiljer front- (754-0280A) och rear-belt (754-0370), men listad familjekod 13A* är ännu inte uttryckligen likställd med 13BH670F062."
     },
     "E": {
       "state": "gap",
@@ -149,7 +156,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet. PartsTree 2001 rekommenderar 742-0610 (19,38 tum), men användning per 38/42-tumsdeck förblir osäker. Ny granskning 2026-10-22: 2001 års 38 tum F kontrollerat mot PDF-textens direkta modellrad; skärmbild av PDF sida 22 misslyckades, varför B-gradering kvarstår. MTD 2004 listar 754-0329A för 38 tum och 754-0371A för 42 tum i äldre 600-serie; motstridiga maskinkataloger tillåter inte slutlig däckbindning."
     },
     "I": {
       "state": "gap",
@@ -568,6 +575,42 @@
       "grade": "B",
       "sourceId": "mtd-2001-customer-cross-reference",
       "locator": "Tryckt sida 22, PDF sida 22 (nollindex 21), rad 13BH670F062"
+    },
+    {
+      "id": "mtd-600-pre2003-front-variable-belt",
+      "statement": "MTD:s 2004 tillbehörskatalog anger för familjen 600 Series (2002 & Prior), 13A*66*/67*/69*, rem 754-0280A mellan motorremskiva och variabelhastighetsremskiva.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-600-pre2003-rear-variable-belt",
+      "statement": "Samma MTD-katalog anger för den definierade 600-seriefamiljen rem 754-0370 mellan variabelhastighetsremskiva och transmissionsremskiva.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "D"
+    },
+    {
+      "id": "mtd-600-pre2003-38deck-belt",
+      "statement": "MTD-katalogens familjetabell anger rem 754-0329A mellan motorremskiva och 38-tumsaggregat.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "H"
+    },
+    {
+      "id": "mtd-600-pre2003-42deck-belt",
+      "statement": "MTD-katalogens familjetabell anger rem 754-0371A mellan motorremskiva och 42-tumsaggregat.",
+      "variant": "MTD 600 Series (2002 & Prior), 13A*66*, 13A*67*, 13A*69*; tillämplighet på exakt 13BH670F062 ännu ej styrkt",
+      "grade": "B",
+      "sourceId": "mtd-2004-belt-application-guide",
+      "locator": "Belt application table, 600 Series (2002 & Prior), search OEM-754-0280A and OEM-754-0370",
+      "topic": "H"
     }
   ],
   "gaps": [
@@ -585,6 +628,8 @@
     "Dayco 2021-PDF kunde inte skärmbildskontrolleras i webbläsningen (cache miss); källans textlager ger tillverkarens eftermarknadstabell men ingen MTD-OEM-konfirmation.",
     "Konflikt inom katalogår 2000: MTD original XREF säger 42 tum G, medan PartsTree och eReplacementParts för 2000 listar 38 tum F. Säkerställ modellens verkliga dekkskylt/serienummer och exakt original IPL innan reservdelar rekommenderas.",
     "Kontrollera kniv 742-0610 i exakt 2001 Deck Assembly F-sprängskiss och identifiera knivantal; föreslå den inte som universaldel.",
-    "Kontrollera tillverkarens originaldelritning för exakt deck F/G och avgränsa 2000 års alternativa hjul 634-0056A/634-0105A med tillverkningsetikett, decknummer eller serienummer."
+    "Kontrollera tillverkarens originaldelritning för exakt deck F/G och avgränsa 2000 års alternativa hjul 634-0056A/634-0105A med tillverkningsetikett, decknummer eller serienummer.",
+    "Kontrollera om MTD 2004 tillbehörskatalogens uttryckliga modellfamilj 13A*66*/67*/69* omfattar fabriksnumret 13BH670F062, innan remnummer görs maskinspecifika.",
+    "MTD 2004 originalkatalog är 20 MB och webbläsningens PDF-öppning misslyckades; textbaserat sökresultat är granskat men full PDF och sida/figur inte verifierade."
   ]
 }
