@@ -67,6 +67,13 @@
       "title": "STIGA CyberCat 1999 gearbox parts list, Peerless MST205-529D",
       "document": "STIGA 1999 gearbox: Tecumseh Peerless Transaxle MST205-529D; positions 0–70 and service component list",
       "url": "https://www.motoruf.de/mo/ersatzteillisten/pdf.php?file=Stiga%2FBaujahr%2F1999%2FGetriebe%2FTECUMSEH+PEERLESS+TRANSAXLE+MST+205-529D.pdf"
+    },
+    {
+      "id": "sandby-reprinted-parkclassic-1999",
+      "tier": 2,
+      "title": "STIGA Park Classic 1999, återpublicerad reservdelsförteckning av Sandby Smedie",
+      "document": "Parts catalogue 13-1258-22, datummärkt 2024-06-01, transmission item 18; anger Peerless MST205-529C där 2014-originalet anger D",
+      "url": "https://www.sandbysmeden.dk/wp-content/uploads/2024/06/13-1258-22-Stiga-Park-Classic-1999.pdf"
     }
   ],
   "topics": {
@@ -1180,6 +1187,60 @@
       "grade": "B",
       "sourceId": "stiga-cybercat-1999-mst529d",
       "locator": "D-katalog pos.1,15,66; STIGA Park 12 1997 A-katalog motsvarande positioner"
+    },
+    {
+      "id": "p12-1997-mst-followup-reprint-different-suffix",
+      "topic": "D",
+      "statement": "För STIGA Park Classic 13-1258-22 (1999) anger STIGA:s original-IPLs transmission pos.18 'Peerless MST205-529D' och 1134-3716-01, medan en STIGA-märkt återpublicerad delarlista från Sandby Smedie (2024) anger 'Peerless MST205-529C' och samma kompletta artikelnummer på pos.18. Slutsats: separat katalogversion eller datakorrigering kan ge annan suffixidentifiering; utan originaländringslogg och transaxelns faktiska märkskylt ska suffix inte härledas från produktnummer ensamt.",
+      "variant": "Endast dokumentjämförelse; 1999 Park Classic och D/C interna delar är inte modellbevis för 1997 Park 12",
+      "grade": "B",
+      "sourceId": "sandby-reprinted-parkclassic-1999",
+      "locator": "STIGA 2014 IPL Park Classic 13-1258-22 transmission pos.18 (MST205-529D) jämfört med Sandby Smedie 2024-utgåvan sida 26 transmission pos.18 (MST205-529C)."
+    },
+    {
+      "id": "p12-1997-mst-followup-reprint-belt-service-code",
+      "topic": "H",
+      "statement": "STIGA-märkt återpublicerad Park Classic 1999-lista anger drivrem 9585-0078-00 som ersatt av serviceartikelnummer 1134-9035-01. Detta är ett källtryckt servicekodssamband för remmen, inte ett bevis för ett byte av växellåda.",
+      "variant": "Endast dokumentjämförelse; 1999 Park Classic och D/C interna delar är inte modellbevis för 1997 Park 12",
+      "grade": "B",
+      "sourceId": "sandby-reprinted-parkclassic-1999",
+      "locator": "Sandby STIGA Park Classic 1999, transmission pos.10 två artikellinjer och ersättningsanmärkning."
+    },
+    {
+      "id": "p12-1997-mst-followup-reprint-same-number",
+      "topic": "D",
+      "statement": "Både STIGA:s 2014-utgåva och den 2024-daterade återpubliceringen anger komplett transaxelnummer 1134-3716-01 för Park Classic 13-1258-22, trots att deras pos.18-noteringar skiljer i suffix D respektive C. Gemensamt artikelnummer upphäver inte revisionsosäkerheten.",
+      "variant": "Endast dokumentjämförelse; 1999 Park Classic och D/C interna delar är inte modellbevis för 1997 Park 12",
+      "grade": "B",
+      "sourceId": "sandby-reprinted-parkclassic-1999",
+      "locator": "2014 STIGA original och 2024 återpublicering, båda transmission pos.18."
+    },
+    {
+      "id": "p12-1997-mst-followup-dedicated-d-seals",
+      "topic": "K",
+      "statement": "Separat STIGA/CyberCat-lista uttryckligen MST205-529D (1999) anger tätning 788069 vid pos.71, O-ring 788092 vid pos.71B, startbrytare 786182 vid pos.72, oljetätning 788089 vid pos.87 samt två oljetätningar 788088 vid pos.157. Detta är D-rubricerad komponentlista och inte tillämplighetsbevis på en viss Park 12 år 1997.",
+      "variant": "Endast dokumentjämförelse; 1999 Park Classic och D/C interna delar är inte modellbevis för 1997 Park 12",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "CyberCat-STIGA MST205-529D, 1999, pos.71,71B,72,87,157."
+    },
+    {
+      "id": "p12-1997-mst-followup-dedicated-d-oil",
+      "topic": "J",
+      "statement": "1999 års särskilt D-rubricerade STIGA/CyberCat-lista anger växellådsolja artikel 730229, EP SAE 80W90 på pos.180. Reservdelsantal 1 specificerar inte fyllvolym, som ska hämtas från lämplig verkstadshandbok för exakt enhet.",
+      "variant": "Endast dokumentjämförelse; 1999 Park Classic och D/C interna delar är inte modellbevis för 1997 Park 12",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "CyberCat-STIGA MST205-529D 1999 pos.180."
+    },
+    {
+      "id": "p12-1997-mst-followup-d-c-seal-shared",
+      "topic": "K",
+      "statement": "D-rubricerad 1999-lista och C-rubricerad 1998-lista anger samma 788069 tätning (pos.71), 788092 O-ring (pos.71B), 786182 startbrytare (pos.72), 788089 oljetätning (pos.87), två 788088 oljetätningar (pos.157) samt olja 730229 (pos.180). Detta stödjer gemensam katalogisering av just dessa nummer men inte fullständig C/D-utbytbarhet.",
+      "variant": "Endast dokumentjämförelse; 1999 Park Classic och D/C interna delar är inte modellbevis för 1997 Park 12",
+      "grade": "B",
+      "sourceId": "stiga-cybercat-1999-mst529d",
+      "locator": "1999 CyberCat MST205-529D pos.71–72,87,157,180 jämfört med 1998 CyberCat MST205-529C samma positioner."
     }
   ],
   "gaps": [
@@ -1199,6 +1260,7 @@
     "Utred varför basmaskin 13-1442-20 anger 1134-3716-02 men separat MST205-529A-lista anger 1134-3716-01; godkänn ingen ersättning utan STIGA-bulletin.",
     "MST205-529C-listan 1998 har flera alternativa rader (772144/772148, 776394/776422, 780072 x4/x5, 778312/778370) utan serie- eller konfigurationsnyckel. Identifiera verklig transaxel och tillverkarens BOM innan reservdelsval.",
     "STIGA Park Classic 1999 13-1258-22 motsäger sig självt: basmaskin pos.18 säger MST205-529D men interna delgruppens rubrik säger MST205-529C. Hitta separat D-specifik BOM/teknisk bulletin; utgå inte från att C-internals gäller D.",
-    "STIGA:s separata D-rubricerade reservdelsförteckning 1999 klargör vilka artikelval som dokumenteras för MST205-529D, men inte varför Park Classic 1999 använder C-rubrik på sina interna sidor. Undersök tillverkarens revisionsbulletin och maskinens transaxel-ID innan retrofit."
+    "STIGA:s separata D-rubricerade reservdelsförteckning 1999 klargör vilka artikelval som dokumenteras för MST205-529D, men inte varför Park Classic 1999 använder C-rubrik på sina interna sidor. Undersök tillverkarens revisionsbulletin och maskinens transaxel-ID innan retrofit.",
+    "Kontrollera ursprung/revisionslogg till Sandby Smedies 2024-utgåva av Park Classic 13-1258-22, vilken anger C där STIGA:s 2014-original anger D på transmission pos.18. Kräver fysisk transaxelmärkning för aktuell maskin."
   ]
 }
