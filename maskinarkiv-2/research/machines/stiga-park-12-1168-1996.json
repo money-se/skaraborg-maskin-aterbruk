@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-1168-1996",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Ny separat version av STIGA PARK 12, produktnummer 13-1168-19 säsong 1996. Får inte sammanblandas med 13-1442-19 eller senare modeller.",
+  "sources": [
+    {
+      "id": "stiga-1168-1996-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 original reservdelskatalog",
+      "document": "13-1168-19, Season 1996, Issue 41–2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-1168-19_95_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Delvis kartlagd i STIGA:s originalkatalog, men fullständig versionskontroll, drift-/servicemanual och säkerhets-/aggregatpassform saknas. Behåll behov av ytterligare dokumentation."
+    }
+  },
+  "claims": [
+    {
+      "id": "park1168-96-identity",
+      "topic": "A",
+      "statement": "STIGA:s originalreservdelskatalog identifierar PARK 12 13-1168-19 för säsong 1996, katalogutgåva 41–2014.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 1 omslag och sida 3 kataloghuvud"
+    },
+    {
+      "id": "park1168-96-engine-unknown",
+      "topic": "C",
+      "statement": "Originalets Motor Bromssystem listar avgasrör 1134-2013-02 och ljuddämpare 1134-3243-01, men varken dessa artiklar eller katalogens gruppnamn fastställer motorns kompletta Model/Type/Code.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 3, Motor Bromssystem, pos 4 och 9"
+    },
+    {
+      "id": "park1168-96-fuel",
+      "topic": "C",
+      "statement": "Basmaskinens bränslesystem listar bränsletank 1134-3593-01, bensinkran 1134-3224-01 och bensinslang 1134-2975-06 (L=305 mm).",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 3 pos 37, 42, 44"
+    },
+    {
+      "id": "park1168-96-pto-lever",
+      "topic": "F",
+      "statement": "Kraftuttagsgruppen anger variantbunden reglagespak 1134-0027-01 för grupp 1168/1358/1458; alternativet 1134-1396-02 är uttryckligen kopplat till 1442/1443/1446.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 5, Power Take-Off pos 8"
+    },
+    {
+      "id": "park1168-96-pto-cable",
+      "topic": "F",
+      "statement": "Kraftuttagsgruppen listar wire 1134-3573-01 på position 9 och urkopplingsspak 1134-1972-01 på position 10.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 5 pos 9–10"
+    },
+    {
+      "id": "park1168-96-transaxle-switch",
+      "topic": "D",
+      "statement": "Transmissionsgruppen anger komplett Peerless 930-022 1134-3278-01 till och med serienummer 960401, därefter 1134-3716-01 från 960402.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 11, Transmission pos 18"
+    },
+    {
+      "id": "park1168-96-transmission-belt",
+      "topic": "D",
+      "statement": "Transmissionsgruppen listar kilrem 1134-9035-01 med hänvisning till 9585-0078-00.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 11 pos 10"
+    },
+    {
+      "id": "park1168-96-shifter-cable",
+      "topic": "F",
+      "statement": "Transmissionsgruppen listar växelwire 1134-2031-02.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 11 pos 51"
+    },
+    {
+      "id": "park1168-96-clutch-cable",
+      "topic": "F",
+      "statement": "Transmissionsgruppen listar kopplingswire 1134-2030-04.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 13 pos 62"
+    },
+    {
+      "id": "park1168-96-peerless-mst",
+      "topic": "D",
+      "statement": "Originalkatalogen har en egen sprängskissegrupp för Tecumseh Peerless MST 205-529 som betecknar komplett enhet 1134-3716-01.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 31, Tecumseh Peerless Transaxel MST 205-529, pos 0"
+    },
+    {
+      "id": "park1168-96-mst-cover",
+      "topic": "K",
+      "statement": "MST 205-529-listan anger kåpa 772138 och växellådshus 770123.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 31 pos 1 och 3"
+    },
+    {
+      "id": "park1168-96-tyres",
+      "topic": "B",
+      "statement": "Transmissionsgruppen listar däckstorleken 16 x 7.50-8 under två reservdelskoder 9545-0116-00 och 9545-0120-00; detta visar katalogalternativ, inte aktuell leveransvariant.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 11 pos 39"
+    },
+    {
+      "id": "park1168-96-identity-plate",
+      "topic": "L",
+      "statement": "Katalogen instruerar reservdelsbeställare att välja lista efter tillverkningsår på maskinens identifikationsplåt.",
+      "variant": "STIGA PARK 12 13-1168-19 Season 1996 (serienummersnitt enligt påstående)",
+      "grade": "A",
+      "sourceId": "stiga-1168-1996-ipl",
+      "locator": "PDF sida 1 tillverkarnotis"
+    }
+  ],
+  "gaps": [
+    "Bekräfta full motoridentitet Model/Type/Code på varje individ och hämta Briggs originaldelkatalog.",
+    "Jämför serienummerskiftet 960401/960402 mot märkplåt och Peerless-enhetens märkning.",
+    "Kontrollera vilken originalägarmanual och tillhörande serviceintervall som avser 13-1168-19.",
+    "Sök godkända aggregat-PNC och installationsanvisning; antag inte passform från 13-1442-19.",
+    "Granska fullständigt elschema, startspärrar och säkerhetsfunktioner innan servicesteg.",
+    "Kontrollera alla växellådsdelars tillämplighet mot korrekt 930-022 eller MST 205-529."
+  ]
+}
