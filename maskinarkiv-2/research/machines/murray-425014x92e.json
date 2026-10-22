@@ -116,6 +116,13 @@
       "title": "425014X92E LIFT ASSEMBLY p.45",
       "document": "425014X92E LIFT ASSEMBLY p.45",
       "url": "https://murray.manymanuals.com/lawnmowers/425014x92e/specifications-49848/45"
+    },
+    {
+      "id": "briggs-official-identification-2026",
+      "tier": 1,
+      "title": "Briggs & Stratton official Model Type Code identification",
+      "document": "Official FAQ updated 2026-01-15",
+      "url": "https://www.briggsandstratton.com/en-us/support/faqs/engine-codes-model-numbers"
     }
   ],
   "topics": {
@@ -2913,6 +2920,50 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-identification-engine-id",
+      "statement": "Briggs & Stratton anger att Model, Type och Code måste avläsas på den faktiska motorn vid säker reservdelsidentifiering; maskinens 425014X92E-nummer ersätter inte dessa uppgifter.",
+      "variant": "425014X92E / engine 282H07",
+      "locator": "Briggs FAQ: How Can I Find the Engine Serial / Model Number, Type & Trim?",
+      "sourceId": "briggs-official-identification-2026",
+      "grade": "A",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-identification-engine-stamp",
+      "statement": "Briggs & Stratton beskriver vanliga märkpositioner som fläkthus, ljuddämparvärmesköld och området ovanför tändstift.",
+      "variant": "425014X92E / engine 282H07",
+      "locator": "Briggs FAQ: How Can I Find the Engine Serial / Model Number, Type & Trim?",
+      "sourceId": "briggs-official-identification-2026",
+      "grade": "A",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-identification-engine-emission",
+      "statement": "Briggs & Stratton varnar för att emissionsetikettens familjenummer inte är samma sak som motorns Model/Type/Code.",
+      "variant": "425014X92E / engine 282H07",
+      "locator": "Briggs FAQ: How Can I Find the Engine Serial / Model Number, Type & Trim?",
+      "sourceId": "briggs-official-identification-2026",
+      "grade": "A",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92e-engine-identification-engine-282h07-limits",
+      "statement": "425014X92E:s OEM-katalog anger Briggs Model 282H07 men inte Type eller Code; interna motorreservdelar kan därför inte väljas säkert enbart från denna maskinkatalog.",
+      "variant": "425014X92E / engine 282H07",
+      "locator": "OEM ENGINE p.41 + Briggs manufacturer FAQ",
+      "sourceId": "murray-014e-engine-p41-oem",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -2925,6 +2976,7 @@
     "Generatorns verkliga utförande och elsystemets testprotokoll måste kontrolleras mot fysisk maskin och motor-Type/Code; nominella schemasiffror är inte individuella mätvärden.",
     "425014X92E: Steering Assembly-pos. 1–97 har delvis extraherats. Ingen styrdelskompatibilitet mot A/B/425015 får antas utan egna katalogbelägg.",
     "Sits- och lyftkomponenter för 425014X92E kräver fortsatt kontroll av ersättningsnummer och fysisk maskin innan köp; katalogposter visar inte generell kompatibilitet.",
-    "425014X92E STEERING ASSEMBLY s.39 artikelnummer är positionsverifierade i katalogtext; sprängskissens bildvisning och fysisk passform ej kontrollerade."
+    "425014X92E STEERING ASSEMBLY s.39 artikelnummer är positionsverifierade i katalogtext; sprängskissens bildvisning och fysisk passform ej kontrollerade.",
+    "För att fastställa 282H07:s Type/Code krävs foto av stämpling på den verkliga maskinens motor. OEM-katalogen räcker inte för intern Briggs-delidentifiering."
   ]
 }
