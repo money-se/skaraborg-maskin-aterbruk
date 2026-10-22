@@ -1387,9 +1387,9 @@
     },
     {
       "id": "kohler-ring-endgap-new-used",
-      "statement": "Kohler TP-2339-D anger ändgap för de två övre kolvringarna 0,30–0,50 mm i nytt cylinderlopp och maximalt 0,77 mm i använt cylinderlopp. Ringarna ska provas på sin löpyta före montage.",
-      "variant": "CV11–16/CV460–465/CV490–495, två övre kolvringar",
-      "locator": "Section 10, printed p.10.10, PDF index 119, piston ring end gap",
+      "statement": "Kohler anger olika ändgap för översta kompressionsringen, mellanringen och oljeringen, och delvis olika värden för 87 respektive 90 mm motorgrupp. Använd de specificerade, separata värdena i respektive ringclaim; tidigare generalisering 0,30–0,50 mm/0,77 mm var felaktig och är här ersatt.",
+      "variant": "CV11–14/CV460–465 respektive CV15–16/CV490–495, individuell kolvring",
+      "locator": "Section 1 printed pp.1.11–1.12 (PDF indices 12–13), Piston/Piston Rings table",
       "topic": "H",
       "sourceId": "kohler-tp2339d",
       "grade": "A"
@@ -2545,6 +2545,150 @@
       "sourceId": "kohler-tp2339d",
       "grade": "A",
       "topic": "H"
+    },
+    {
+      "id": "kohler-ring-top-new-87",
+      "statement": "Kohler anger ändgap 0,250–0,500 mm för översta kompressionsringen i nytt cylinderlopp på 87 mm-motorgruppen; högsta tillåtna gap i använt lopp 0,79 mm.",
+      "variant": "CV11–14/CV460–465, översta kompressionsring",
+      "locator": "TP-2339-D Section 1, printed p.1.11 (PDF index 12)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-ring-top-new-90",
+      "statement": "Kohler anger ändgap 0,28–0,51 mm för översta kompressionsringen i nytt cylinderlopp på 90 mm-motorgruppen; högsta tillåtna gap i använt lopp 0,79 mm.",
+      "variant": "CV15–16/CV490–495, översta kompressionsring",
+      "locator": "TP-2339-D Section 1, printed p.1.11 (PDF index 12)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-ring-middle-new-87",
+      "statement": "Kohler anger ändgap 0,250–0,510 mm för mellersta kompressionsringen i nytt cylinderlopp, och högst 0,76 mm i använt lopp.",
+      "variant": "CV11–14/CV460–465, mellersta kompressionsring",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-ring-middle-new-90",
+      "statement": "Kohler anger ändgap 0,22–0,48 mm för mellersta kompressionsringen i nytt cylinderlopp, och högst 0,76 mm i använt lopp.",
+      "variant": "CV15–16/CV490–495, mellersta kompressionsring",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-ring-oil-87",
+      "statement": "Kohler anger ändgap 0,250–1,020 mm för oljekontrollringen i 87 mm-gruppen.",
+      "variant": "CV11–14/CV460–465, oil control ring",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-ring-oil-90",
+      "statement": "Kohler anger ändgap 0,250–0,760 mm för oljekontrollringen i 90 mm-gruppen.",
+      "variant": "CV15–16/CV490–495, oil control ring",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-piston-pin-bore-new",
+      "statement": "Kohler anger kolvbultsborrning ny 19,006–19,012 mm och maximal slitgräns 19,025 mm.",
+      "variant": "CV11–16/CV460–465/CV490–495, kolvens kolvbultsborrning",
+      "locator": "TP-2339-D Section 1, printed p.1.11 (PDF index 12)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-piston-pin-od-new",
+      "statement": "Kohler anger kolvbultens nya ytterdiameter 18,995–19,000 mm och lägsta tillåtna diameter vid slitage 18,994 mm.",
+      "variant": "CV11–16/CV460–465/CV490–495, piston pin",
+      "locator": "TP-2339-D Section 1, printed p.1.11 (PDF index 12)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-piston-pin-selective-fit",
+      "statement": "Kohler anger passningsspel 0,006–0,017 mm mellan kolv och kolvbult med selektiv passning.",
+      "variant": "CV11–16/CV460–465/CV490–495, piston-to-piston pin",
+      "locator": "TP-2339-D Section 1, printed p.1.11 (PDF index 12)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-piston-thrust-clearance-87",
+      "statement": "Kohler anger nytt löpspel mellan kolvens trycksida och cylinderlopp 0,041–0,044 mm för 87 mm-gruppen.",
+      "variant": "CV11–14/CV460–465, kolvens trycksida",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-piston-thrust-clearance-90",
+      "statement": "Kohler anger nytt löpspel mellan kolvens trycksida och cylinderlopp 0,031–0,043 mm för 90 mm-gruppen.",
+      "variant": "CV15–16/CV490–495, kolvens trycksida",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-piston-thrust-diameter-87",
+      "statement": "Kohler anger ny kolvdiameter på trycksidan 86,941–86,959 mm och slitgräns 86,814 mm för 87 mm-gruppen.",
+      "variant": "CV11–14/CV460–465, kolvens trycksida",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-piston-thrust-diameter-90",
+      "statement": "Kohler anger ny kolvdiameter på trycksidan 89,951–89,969 mm och slitgräns 89,824 mm för 90 mm-gruppen.",
+      "variant": "CV15–16/CV490–495, kolvens trycksida",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-rocker-arm-bore-wear",
+      "statement": "Kohler anger nytt vipparmsborrningsmått 15,837–16,127 mm och maximal slitgräns 16,13 mm för vipparmens hål.",
+      "variant": "Rockers per Kohler Section 1",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-rocker-shaft-wear",
+      "statement": "Kohler anger vipparmsaxelns nya ytterdiameter 15,85–15,90 mm och slitgräns 15,727 mm.",
+      "variant": "Rocker shaft per Kohler Section 1",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "kohler-stator-mounting-torque-6p2",
+      "statement": "Kohler anger 6,2 Nm för statorns monteringsskruvar, skilt från regulator- och startmotorfästen.",
+      "variant": "Stator installation per TP-2339-D",
+      "locator": "TP-2339-D Section 1, printed p.1.12 (PDF index 13)",
+      "sourceId": "kohler-tp2339d",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -2590,6 +2734,7 @@
     "Luftfilterhus och valfritt skumfilter för kylluft: fastställ aktuellt filterhus, luftkanal, snörstart och Spec. No. innan 12 050 02-S eller infästningsdetaljer väljs.",
     "LPG och Emission Sentry gäller bara särskilt utrustade Kohler Command och deras installationsspecifika bränsle-/emissionssystem; inga generella omställningsråd eller satskompatibiliteter utan Spec. No.",
     "Effekt och vridmoment: märkdata är laboratorieklassade vid angivna varvtal och SAE J1995, inte utlovad effekt i installerad begagnad åkgräsklippare.",
-    "Elstartmoment från TP-2339-D är tillverkarspecifika (UTE/Johnson/Eaton, Nippondenso, Delco-Remy); identifiera faktisk startmotor före åtdragning."
+    "Elstartmoment från TP-2339-D är tillverkarspecifika (UTE/Johnson/Eaton, Nippondenso, Delco-Remy); identifiera faktisk startmotor före åtdragning.",
+    "Forskningskorrigering: tidigare sammanfattat ändgap för två översta kolvringar ersatt med sex specifikationsbundna separata mätvärden från tabellen p.1.11–1.12."
   ]
 }
