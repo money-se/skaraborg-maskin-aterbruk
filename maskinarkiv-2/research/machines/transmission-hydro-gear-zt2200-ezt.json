@@ -39,12 +39,19 @@
       "title": "Hydro-Gear service and repair manual directory",
       "document": "Current Hydro-Gear official manual index",
       "url": "https://www.hydro-gear.com/service-repair-manuals/"
+    },
+    {
+      "id": "hg-prefix-crossref",
+      "tier": 1,
+      "title": "Hydro-Gear Cross Reference Guide",
+      "document": "Hydro-Gear model prefix to transaxle-series cross-reference",
+      "url": "https://www.hydro-gear.com/cross-reference-guide/"
     }
   ],
   "topics": {
     "A": {
-      "state": "gap",
-      "note": "Komponentfamiljen är identifierad, men exakt monterad OEM-transmission kan inte bestämmas utifrån maskinens modellnamn."
+      "state": "verified",
+      "note": "Originalmanualens identifikationsetikett och Hydro-Gears prefixkorsreferens är verifierade; individuella OEM-koder och serienummer måste fortfarande kontrolleras."
     },
     "B": {
       "state": "gap",
@@ -302,6 +309,51 @@
       "sourceId": "hg-zt2100-zt2200-2023-revision",
       "grade": "A",
       "topic": "J"
+    },
+    {
+      "id": "hg-ezt-config-label",
+      "statement": "Hydro-Gears BLN-52622 (2023) figur 3 visar att identifikationsetiketten innehåller fullständigt BOM-modellnummer och separat serienummer; exempelmodellen ZC-DUBB-4MDC-3PPA är en illustration, inte en reservdelsrekommendation.",
+      "variant": "ZT-2100 och ZT-2200 EZT, identifikationsmetod",
+      "locator": "Tryckt s. 7, Figure 3 Configuration Label; PDF-sida 9 (index 8)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-prefix-za-zd",
+      "statement": "Hydro-Gears prefixguide hänför modellprefix ZA, ZB, ZC och ZD till ZT-2200 EZT; resten av modellkoden krävs för korrekt reservdelsval.",
+      "variant": "Hydro-Gear ZA/ZB/ZC/ZD prefixfamiljer",
+      "locator": "Cross Reference List > ZA, ZB, ZC, ZD",
+      "sourceId": "hg-prefix-crossref",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-prefix-zf",
+      "statement": "Hydro-Gears prefixguide hänför ZF till ZT-2100, vilket skiljer familjen från ZT-2200 EZT trots gemensam servicehandbok.",
+      "variant": "Hydro-Gear ZF prefixfamilj",
+      "locator": "Cross Reference List > ZF",
+      "sourceId": "hg-prefix-crossref",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "hg-prefix-larger",
+      "statement": "Tillverkarens prefixguide hänför ZH–ZM till ZT-2800/3100/3200, ZS/ZU/ZW/ZY/Z6 till ZT-3400 samt ZX och ZZ till ZT-3600 respektive ZT-3800; dessa är inte EZT och kräver separata servicekällor.",
+      "variant": "Hydro-Gear komponentfamiljer utanför EZT",
+      "locator": "Cross Reference List > ZH THRU ZM, ZS/ZU/ZW/ZY/Z6, ZX, ZZ",
+      "sourceId": "hg-prefix-crossref",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "ezt-2023-exploded-figure26",
+      "statement": "BLN-52622 mars 2023 har ZT-2200:s exploderade figur 26 med bland annat positionerna 52, 57, 61 och 209; figurpositionerna är referenser för komponentidentifiering och är inte i sig ett beställningsnummer.",
+      "variant": "ZT-2200 EZT, manualens illustrerade delar",
+      "locator": "Tryckt s. 33, Figure 26 EZT, PDF-sida 35 (index 34)",
+      "sourceId": "hg-zt2100-zt2200-2023-revision",
+      "grade": "A",
+      "topic": "L"
     }
   ],
   "gaps": [
@@ -309,6 +361,7 @@
     "Extrahera exakt komponent- och reparationskitlista ur primärmanualens relevanta sprängskisser; återanvänd inte illustrativa positionsnummer som beställningsnummer.",
     "Kontrollera om just det aktuella EZT-utförandet har dräneringsportar; utför ingen generell oljebytesinstruktion.",
     "Identifiera faktisk Hydro-Gear OEM-artikelkod, revision och serienummer före beställning eller tillämpning på specifik maskin. BLN-52622 positionsnummer är inte beställningsnummer.",
-    "Jämförelse av 2018/2023-utgåvor har bekräftat oljemängder och avluftning, men övriga serviceprocedurer och komponentlistor är ännu inte fullständigt jämförda."
+    "Jämförelse av 2018/2023-utgåvor har bekräftat oljemängder och avluftning, men övriga serviceprocedurer och komponentlistor är ännu inte fullständigt jämförda.",
+    "För reservdelsbeställning behövs tillverkarspecifik BOM/lista som mappar exakt Hydro-Gear-modell- och serienummer till orderbara kitnummer; BLN-52622 ger figurpositioner men inte sådan universal orderlista."
   ]
 }
