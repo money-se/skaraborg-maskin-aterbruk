@@ -32,6 +32,13 @@
       "title": "Jonsered LT2115A 96011000800 2005-01 24-page illustrated parts list",
       "document": "Original IPL facsimile, DRIVE p.12 / key53",
       "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115a/tracteur_tondeuse_jonsered_lt2115a_vue-eclate-liste-des-pieces_2005-01.pdf"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-original-2005-01-engine",
+      "tier": 2,
+      "title": "Jonsered IPL LT2115A 96011000800 original 2005-01 ENGINE",
+      "document": "LT2115A product 954130222, 2005-01, OEM illustrated ENGINE parts list",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20A%2096011000800%202005-01/LT2115-A-96011000800-2005-01.pdf"
     }
   ],
   "topics": {
@@ -266,6 +273,72 @@
       "topic": "H",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-engine-sv470",
+      "statement": "Motoravsnittets position 3 anger uttryckligen Engine, Kohler, No. SV470; motorreservdelar beställs enligt motortillverkaren och exakt Kohler spec saknas.",
+      "variant": "LT2115A 96011000800, 954130222, 2005-01",
+      "locator": "Jonsered OEM reprint, ENGINE key 3",
+      "sourceId": "jonsered-lt2115a-96011000800-original-2005-01-engine",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-muffler-4",
+      "statement": "Motoravsnittets position 4 anger ljuddämpare 532 18 86-55.",
+      "variant": "LT2115A 96011000800, 954130222, 2005-01",
+      "locator": "Jonsered OEM reprint, ENGINE key 4",
+      "sourceId": "jonsered-lt2115a-96011000800-original-2005-01-engine",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-fuel-tank-31",
+      "statement": "Motoravsnittets position 31 anger bränsletank 532 18 77-50.",
+      "variant": "LT2115A 96011000800, 954130222, 2005-01",
+      "locator": "Jonsered OEM reprint, ENGINE key 31",
+      "sourceId": "jonsered-lt2115a-96011000800-original-2005-01-engine",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-oil-drain-14",
+      "statement": "Motoravsnittets position 14 anger oljeavtappningsrör 532 14 84-56; reservdelsnumret är ingen serviceintervallangivelse.",
+      "variant": "LT2115A 96011000800, 954130222, 2005-01",
+      "locator": "Jonsered OEM reprint, ENGINE key 14",
+      "sourceId": "jonsered-lt2115a-96011000800-original-2005-01-engine",
+      "grade": "B",
+      "topic": "J",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-exhaust-gasket-13",
+      "statement": "Motoravsnittets position 13 anger ljuddämparpackning 532 18 59-09.",
+      "variant": "LT2115A 96011000800, 954130222, 2005-01",
+      "locator": "Jonsered OEM reprint, ENGINE key 13",
+      "sourceId": "jonsered-lt2115a-96011000800-original-2005-01-engine",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115a-96011000800-fuel-cap-32",
+      "statement": "Motoravsnittets position 32 anger tanklock 532 14 05-27.",
+      "variant": "LT2115A 96011000800, 954130222, 2005-01",
+      "locator": "Jonsered OEM reprint, ENGINE key 32",
+      "sourceId": "jonsered-lt2115a-96011000800-original-2005-01-engine",
+      "grade": "B",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -273,6 +346,7 @@
     "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
     "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
     "De två 2005-LT2115A-katalogerna delar angivna driv- och aggregatnummer men faktisk OEM-ersättningskedja och individuellt exemplar måste verifieras mot typskylt och original-IPL.",
-    "Äldre 2005-01 OEM-förteckning visar DRIVE key53=532105710 medan nyare Wolfswinkel för samma 2005-01 anger 532199652. Det finns inga fastställda OEM-dokument för att detta är en ersättningskedja."
+    "Äldre 2005-01 OEM-förteckning visar DRIVE key53=532105710 medan nyare Wolfswinkel för samma 2005-01 anger 532199652. Det finns inga fastställda OEM-dokument för att detta är en ersättningskedja.",
+    "2005-01 LT2115A original-ENGINE visar Kohler SV470 men motorns spec-/serienummer och motormanualens tillämpbarhet för verkligt exemplar saknas. Oljeavtappningsdetaljer är inte bevis på intervall eller oljesort."
   ]
 }
