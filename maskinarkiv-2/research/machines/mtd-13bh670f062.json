@@ -119,7 +119,7 @@
     },
     "D": {
       "state": "gap",
-      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas."
+      "note": "Transmatic 660–679 manual dokumenterad; eReplacementParts 2000 listar övre transmissionshus 719-0367, ingående axel 711-1109, 14T pinjong 717-1464. Fabrikat och korrekt olja fortfarande obekräftade. Återförsäljare anger 954-0280A som variable-speed belt för modell 2000, men originaldiagram och transmissionstillverkare måste bekräftas. Manualfamilj 660–679 beskriver två drivremmar med variabel remskiva; detta är manualfamiljsunderlag, ej verifierat exakt fabriknummer."
     },
     "E": {
       "state": "gap",
@@ -135,7 +135,7 @@
     },
     "H": {
       "state": "gap",
-      "note": "MTD 2000-korsreferens anger 42-tums Deck G medan 2001-korsreferens anger 38-tums Style F; osäker katalogårs-/revisionsrelation kräver kontroll av fysisk dekkskylt. Dayco 2021 listar L499, L560, L569 och L574 för modellnumret utan års-/deckvariant. Eftermarknadslista ger inte OEM-kompatibilitet."
+      "note": "Allvarlig olöst katalogmotsägelse: MTD 2000 XREF anger 42 tum Deck G, PartsTree 2000 visar Deck F och eReplacementParts 2000 listar kompletta 38-tumsaggregat; MTD 2001 XREF anger 38 tum Deck F. Inget årtal ensamt räcker för säker kompatibilitet."
     },
     "I": {
       "state": "gap",
@@ -143,7 +143,7 @@
     },
     "J": {
       "state": "gap",
-      "note": "Byte och intervall för vätskor, remmar och smörjpunkter måste härledas från rätt modell- och motormanual."
+      "note": "MTD bruksanvisning 770-10115A serie 660–679 ger bromsjusteringsmått i figur 16, men modell- och serienummerbunden tillämplighet måste bekräftas. Full serviceplan återstår."
     },
     "K": {
       "state": "gap",
@@ -155,7 +155,7 @@
     },
     "M": {
       "state": "gap",
-      "note": "Felsökningens generiska tillverkarråd är dokumenterade men modellens reparationsinstruktioner återstår."
+      "note": "Felsökningens generiska tillverkarråd är dokumenterade men modellens reparationsinstruktioner återstår. Transmatic manual 770-10115A ger felsökningsmetod för hastighetsreglagets justering (figur 17), som endast ska användas när exakt maskin och rätt manual har identifierats."
     }
   },
   "claims": [
@@ -455,6 +455,51 @@
       "locator": "2000 model parts listing, sök artikelnummer 9540370",
       "grade": "B",
       "topic": "K"
+    },
+    {
+      "id": "mtd-2000-parts-index-deck-f-conflict",
+      "topic": "H",
+      "statement": "PartsTree katalogiserar 13BH670F062 årsangivelse 2000 med gruppen Deck Assembly F, medan MTD:s separata 2000-korsreferens listar 42 tum Deck G. De två katalogerna motsäger varandra och ingen enskild maskins aggregat kan fastställas härifrån.",
+      "variant": "13BH670F062, PartsTree 2000 Lowes kontra MTD 2000 Lowes korsreferens",
+      "grade": "B",
+      "sourceId": "partstree-mtd-2000-13bh670f062",
+      "locator": "All Diagrams (12), Deck Assembly F"
+    },
+    {
+      "id": "mtd-2000-retailer-38in-parts",
+      "topic": "H",
+      "statement": "eReplacementParts katalogiserar både komplett 38-tumsaggregat 753-0694-0637 och deck assembly 983-0129A-0637 för 13BH670F062/2000. Detta stöder ett 38-tumskatalogspår men löser inte konflikten med MTD:s 2000-korsreferens.",
+      "variant": "13BH670F062 katalogversion 2000, eReplacementParts",
+      "grade": "B",
+      "sourceId": "ereplacementparts-2000-mtd",
+      "locator": "Model part list, 38In. Deck Assembly Comp. / Deck Asm-38"
+    },
+    {
+      "id": "mtd-transmatic-manual-brake-adjustment",
+      "topic": "J",
+      "statement": "Manualen 770-10115A beskriver en bromsjusteringskontroll där bromsen ska börja ta när bromsarmen är 1/4–5/16 tum från axelhuset. Kontroll gäller manualfamiljen 660–679, inte automatiskt varje revision av 13BH670F062.",
+      "variant": "MTD Transmatic model series 660–679, manual form 770-10115A",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Tryckt sida 16, Figure 16, Brake Adjustment"
+    },
+    {
+      "id": "mtd-transmatic-manual-speed-control",
+      "topic": "M",
+      "statement": "Manualen 770-10115A uppger att högsta två hastigheterna initialt kan ligga nära varandra tills drivremmarna körts in och beskriver justering av speed-control-länkaget om hela hastighetsområdet inte erhålls.",
+      "variant": "MTD Transmatic model series 660–679, manual form 770-10115A",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Tryckt sida 16, Figure 17, Speed Control Adjustment"
+    },
+    {
+      "id": "mtd-transmatic-manual-two-drive-belts",
+      "topic": "D",
+      "statement": "Manualens drivremsskifte skiljer mellan front drive belt och rear drive belt, och visar variabelhastighetsremskiva; exakta artikelnummer måste verifieras i maskinens partslista.",
+      "variant": "MTD Transmatic model series 660–679, manual form 770-10115A",
+      "grade": "B",
+      "sourceId": "mtd-transmatic-660-679-om",
+      "locator": "Tryckt sida 22, Figures 26–27, Front Drive Belt"
     }
   ],
   "gaps": [
@@ -469,6 +514,7 @@
     "Kontrollera 2000 års MTD-korsreferens direkt i original-PDF med visuell sida; fjärrvisning ger 403, endast sökindexets PDF-text tillgänglig.",
     "Verifiera om 2000/2001-deckdifferensen beror på katalogrevision, faktiskt modellutförande eller datakvalitet innan knivar/remmar rekommenderas.",
     "Dayco anger fyra remapplikationer utan att ange vilken av 2000/2001 års 42-/38-tums däck som de olika TO DECK-remmarna tillhör. Kräv original-IPLs före användningsråd.",
-    "Dayco 2021-PDF kunde inte skärmbildskontrolleras i webbläsningen (cache miss); källans textlager ger tillverkarens eftermarknadstabell men ingen MTD-OEM-konfirmation."
+    "Dayco 2021-PDF kunde inte skärmbildskontrolleras i webbläsningen (cache miss); källans textlager ger tillverkarens eftermarknadstabell men ingen MTD-OEM-konfirmation.",
+    "Konflikt inom katalogår 2000: MTD original XREF säger 42 tum G, medan PartsTree och eReplacementParts för 2000 listar 38 tum F. Säkerställ modellens verkliga dekkskylt/serienummer och exakt original IPL innan reservdelar rekommenderas."
   ]
 }
