@@ -281,6 +281,24 @@
       "locator": "Change Oil, step 3, printed p.9 PDF index 8",
       "sourceId": "kohler-owners-1259001",
       "grade": "A"
+    },
+    {
+      "id": "kohler-owner-inline-fuel-filter-200h",
+      "statement": "Kohler ägarmanual 12 590 01 anger att motorer som har inline-bränslefilter ska få filtret kontrollerat regelbundet och bytt med Kohler-filter var 200:e drifttimme. Detta är ett serviceintervall, inte ett specifikt artikelnummers passform.",
+      "variant": "CV11–CV16 och CV460–CV493 enligt 12 590 01, endast motor med inline-bränslefilter",
+      "locator": "Fuel Filter, printed page 12, PDF page index 11",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "kohler-owner-walbro-nikki-carburetors",
+      "statement": "Kohler ägarmanual 12 590 01 beskriver Walbro- och Nikki-förgasare som två förekommande utföranden med fast huvudmunstycke, och anger att deras tomgångsreglage skiljer sig. Vilken förgasare som sitter på ett enskilt motorexemplar måste identifieras före reservdelsval och justeringsråd.",
+      "variant": "CV11–CV16 och CV460–CV493 inom manualens omfattning; ej specifikationsbunden förgasaridentitet",
+      "locator": "Carburetor Troubleshooting and Adjustments; Figure 11, printed page 12, PDF page index 11",
+      "sourceId": "kohler-owners-1259001",
+      "grade": "A",
+      "topic": "C"
     }
   ],
   "gaps": [
@@ -290,6 +308,8 @@
     "Den ursprungliga Kohler-kodtabellen i TP-2339-D täcker tillverkningsår 1991–2002; senare serienummer måste få en separat verifierad kodkälla.",
     "Kohler 12 590 01 table covers a defined engine family; verify exact model/specification/serial before applying oil quantity to a machine.",
     "Kohler tändstiftsmoment: originalmanual 12 590 01 anger 38,0–43,4 Nm medan TP-2339-D anger 24,4–29,8 Nm; lös skillnaden per manualrevision och exakt motor/specifikation innan serviceinstruktion publiceras.",
-    "Kohler luftfilter: artiklar i originalmanual 12 590 01 måste kontrolleras mot faktiskt filterhus/Spec. No. och senare supersession innan beställningsråd."
+    "Kohler luftfilter: artiklar i originalmanual 12 590 01 måste kontrolleras mot faktiskt filterhus/Spec. No. och senare supersession innan beställningsråd.",
+    "Kohler bränslefilter: identifiera OEM-specifikt inlinefilter och eventuellt artikelnummer per motor-/utrustningsutförande innan beställningsråd.",
+    "Kohler Walbro/Nikki: förgasarutförande per Spec No. och respektive reparationssats/packningsnummer återstår att belägga."
   ]
 }
