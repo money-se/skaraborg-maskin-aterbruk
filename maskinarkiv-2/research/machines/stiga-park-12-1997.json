@@ -18,6 +18,20 @@
       "title": "STIGA Park Workshop Manual 2000–2007 (endast avgränsningskälla, ej modellbevis för 1997)",
       "document": "Workshop Manual, edition 2007-03-22",
       "url": "https://view.stiga-store.com/files/Wsm-Park_EN_2000-2007.pdf"
+    },
+    {
+      "id": "stiga-park-100b-1997-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 100B original parts catalogue",
+      "document": "13-2919-20 Season 1997; Issue 45-2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_100B_13-2919-20_96_SV-EN.pdf"
+    },
+    {
+      "id": "stiga-park-102m-1997-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 102M original parts catalogue",
+      "document": "13-2913-20 Season 1997; Issue 45-2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_102M_13-2913-20_96_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -348,6 +362,87 @@
       "grade": "A",
       "sourceId": "stiga-park12-1997-ipl",
       "locator": "Tryckt katalogsida 7 (PDF index 6), Motor Broms, pos. 37, 38, 42 och 44"
+    },
+    {
+      "id": "p12-97-100b-deck-id",
+      "topic": "H",
+      "statement": "STIGA har en separat 1997 reservdelskatalog för PARK 100B med aggregat-PNC 13-2919-20. Katalogen verifierar aggregatets identitet, inte passform med Park 12 basmaskin.",
+      "variant": "Aggregat PARK 100B 13-2919-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Omslag PDF sida 1"
+    },
+    {
+      "id": "p12-97-100b-frame",
+      "topic": "K",
+      "statement": "100B 13-2919-20 katalogen listar ram 1134-1271-01 samt kåpa 1134-2193-01.",
+      "variant": "Aggregat PARK 100B 13-2919-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Ram, PDF sida 3, pos. 3-4"
+    },
+    {
+      "id": "p12-97-100b-support",
+      "topic": "K",
+      "statement": "100B 13-2919-20 katalogen listar fyra stödhjul 1134-0305-00 samt åtta skyddsrullar 1134-0299-00.",
+      "variant": "Aggregat PARK 100B 13-2919-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Ram, PDF sida 3, pos. 6-7"
+    },
+    {
+      "id": "p12-97-100b-lift",
+      "topic": "H",
+      "statement": "100B 13-2919-20 katalogen listar lyftwire 1134-2314-01 samt två fäststag 1134-0369-03.",
+      "variant": "Aggregat PARK 100B 13-2919-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-100b-1997-ipl",
+      "locator": "Ram, PDF sida 3, pos. 19 och 23"
+    },
+    {
+      "id": "p12-97-102m-deck-id",
+      "topic": "H",
+      "statement": "STIGA har en separat 1997 reservdelskatalog för PARK 102M med aggregat-PNC 13-2913-20. Katalogen bekräftar aggregatets existens men inte passform till Park 12 basmaskin.",
+      "variant": "Aggregat PARK 102M 13-2913-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Omslag PDF sida 1"
+    },
+    {
+      "id": "p12-97-102m-frame",
+      "topic": "K",
+      "statement": "102M 13-2913-20 katalogen listar klippdäck 1134-3608-01 och aggregatram 1134-3609-01.",
+      "variant": "Aggregat PARK 102M 13-2913-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Ram, PDF sida 3, pos. 4-5"
+    },
+    {
+      "id": "p12-97-102m-lift",
+      "topic": "H",
+      "statement": "102M 13-2913-20 listar lyftwire 1134-2314-02 och aggregatfäste 1134-3604-01.",
+      "variant": "Aggregat PARK 102M 13-2913-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Ram, PDF sida 3, pos. 9 och 32"
+    },
+    {
+      "id": "p12-97-102m-mulcher",
+      "topic": "K",
+      "statement": "102M 13-2913-20 knivgrupp listar mulcherkniv 1134-9002-01 som sats med tre och knivfäste 1134-9000-01 som sats med tre. Val av alternativ knivsats kräver kontroll av rätt variant.",
+      "variant": "Aggregat PARK 102M 13-2913-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Knivar, PDF sida 7 pos. 22 och 27; tabellen visuellt granskad"
+    },
+    {
+      "id": "p12-97-102m-belts",
+      "topic": "K",
+      "statement": "102M 13-2913-20 knivgrupp listar kilrem 1134-9045-01 med referens 9585-0081-00 (pos. 32) och kuggrem 9585-0087-00 (pos. 49). Dessa är aggregatdelar, inte Park 12 basmaskinens PTO-rem.",
+      "variant": "Aggregat PARK 102M 13-2913-20 säsong 1997, ej bekräftad basmaskinpassform",
+      "grade": "A",
+      "sourceId": "stiga-park-102m-1997-ipl",
+      "locator": "Knivar, PDF sida 7 pos. 32 och 49; tabellen visuellt granskad"
     }
   ],
   "gaps": [
@@ -359,6 +454,7 @@
     "Verifiera elschema och säkerhetsspärrarnas funktion i modellbunden manual.",
     "Visuell granskning av original-PDF:s ritningar kvarstår eftersom skärmbildsvisning inte fungerade vid källgranskningen 2026-10-22.",
     "STIGA 1997 IPL listar basmaskin-transaxel 1134-3716-02 men separat MST 205-529A IPL komplett 1134-3716-01: klargör fabrikskoder, revisionsrelation och kompatibilitet innan internreparationsråd.",
-    "Kraftuttagsrem 1134-9012-01 är dokumenterad för basmaskinens PTO; fullständigt aggregat-PNC, aggregatrem och knivnummer kräver separat katalog samt monteringskontroll."
+    "Kraftuttagsrem 1134-9012-01 är dokumenterad för basmaskinens PTO; fullständigt aggregat-PNC, aggregatrem och knivnummer kräver separat katalog samt monteringskontroll.",
+    "STIGA original-IPL för 100B 13-2919-20 och 102M 13-2913-20 finns, men deras passform och monteringskombination med Park 12 13-1442-20 är ännu inte bekräftad i originalmanual. Välj inte aggregatdelar enbart från basmaskinens PNC."
   ]
 }
