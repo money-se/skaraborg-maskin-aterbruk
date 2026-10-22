@@ -11,6 +11,13 @@
       "title": "STIGA PARK 12 13-5219-13 parts catalogue",
       "document": "Season 1990, Issue 39-2014",
       "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_13-5219-13_89_SV-EN_7mc403r9.pdf"
+    },
+    {
+      "id": "stiga-park2002-1218-1989-variant-ipl",
+      "tier": 1,
+      "title": "STIGA Park 2002 original parts catalogue – Peerless 846 / 801-046 variant-coded",
+      "document": "13-1218-12 Season 1989 Issue 32–2014, transaxle pp.37–41",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_2002_13-1218-12_88_SV-EN.pdf"
     }
   ],
   "topics": {
@@ -197,12 +204,121 @@
       "grade": "A",
       "sourceId": "stiga-park-12-5219-1990-ipl",
       "locator": "PDF s.21 pos.21, PDF s.23 pos.52"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-gear-series-differential",
+      "topic": "D",
+      "statement": "STIGA:s Park 2002-originalkatalog skiljer Peerless 846 från 801-046 på pos.62: 846 har två P000-7780-68, medan 801-046 har två P000-7781-31. Park 12:s blandade transaxeltabell måste tolkas efter verklig transaxelmodell.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 13-1218-12 1989 original IPL PDF s.37 pos.62; Park 12 1990 kombinerad transaxellista"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-chain-selection",
+      "topic": "D",
+      "statement": "I STIGA Park 2002-originalkatalog är kedja P000-7860-81 på pos.28 märkt 846 och P007-8606-2A märkt 801-046. De två raderna i Park 12 1990 är därför uttryckligen variantbundna, inte allmänna reservdelsalternativ.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.39–41 pos.28"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-sprocket-small",
+      "topic": "D",
+      "statement": "STIGA märker kedjehjul P000-7860-82, 9T, pos.15 med 846 och P000-7860-61, 10T, med 801-046. Båda finns i blandlistan för Park 12 1990, men kan inte korsbeställas utan modell-ID.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.39 pos.15"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-sprocket-large",
+      "topic": "D",
+      "statement": "STIGA märker kedjehjul P000-7860-83, 18T, pos.14 med 846 och P000-7860-60, 14T, med 801-046. Kombinationen med pos.15-dreven visar två dokumenterade utföranden, inte en generell ändring av drevning.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.39 pos.14–15"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-brake-lever-version",
+      "topic": "G",
+      "statement": "Originalkatalogen specificerar bromsarm P000-7900-08 för 846 och P000-7900-31 för 801-046, båda på pos.56. Pos.56 ensam är alltså otillräcklig delidentifikation.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.39 pos.56"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-shift-seal-difference",
+      "topic": "K",
+      "statement": "Tätning vid pos.42 är enligt STIGA O-ring P000-7920-01 för 846, men ring P000-7880-57 för 801-046. De har olika artiklar och beskrivningar.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.39 pos.42"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-needle-bearings",
+      "topic": "K",
+      "statement": "STIGA:s transaxelgrupp märker nållager P000-7801-22 på pos.30 som 801-046, medan tidigare 846-kataloger listar P000-7800-86 på samma position. Delnumren ska följas efter transaxelmärkning.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.39 pos.30; STIGA Park 12 1990 IPL pos.30"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-output-shaft-pos50",
+      "topic": "D",
+      "statement": "Axeln på pos.50 anges som P007-7618-3A för 801-046 och P007-7618-4A för 846; STIGA:s originaltext skiljer uttryckligen varianterna.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.41 pos.50"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-axle-lengths",
+      "topic": "D",
+      "statement": "Original STIGA Park 2002-katalog anger 846-axlarna P007-7467-3A (368 mm, pos.68) och P007-7467-4A (320 mm, pos.69), medan 801-046-axlarna anges P000-7746-70 (382 mm, pos.68) och P000-7746-69 (335 mm, pos.69). Längderna visar dokumenterad skillnad men inte godkänd installation mellan modeller.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.37 och s.41 pos.68–69"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-cover-variants",
+      "topic": "K",
+      "statement": "STIGA:s originaltabell skiljer täcklock P007-7207-8A som 846 och P000-7720-82 som 801-046 på pos.47. Det gör den tidigare blandade Park 12-katalogens alternativrader versionsidentifierbara.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.37–39 pos.47"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-drive-bearings",
+      "topic": "K",
+      "statement": "Bussning P007-8011-8A förekommer på pos.27 med olika antal: ett exemplar för 846 och två exemplar för 801-046 enligt STIGA:s uttryckliga noteringar. Samma delnummer är därför inte liktydigt med samma mängd per transaxel.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.41 pos.27"
+    },
+    {
+      "id": "stiga-park-12-5219-1990-transmission-variant-differential-bevel",
+      "topic": "D",
+      "statement": "STIGA:s original 1989 särskiljer koniska differentialdrev: P000-7782-21 på pos.61 är märkt 846, medan P000-7781-66 på samma pos.61 är märkt 801-046, två exemplar vardera.",
+      "variant": "Park 12 1990 kombinerad transaxelkatalog; variantidentifiering jämförd mot STIGA Park 2002 13-1218-12 (1989) med explicita 846/801-046-noteringar; ingen transaxelinstallation verifierad",
+      "grade": "A",
+      "sourceId": "stiga-park2002-1218-1989-variant-ipl",
+      "locator": "Park 2002 1989 original IPL PDF s.37 pos.61"
     }
   ],
   "gaps": [
     "Den interna transaxellistan kombinerar två kompletta enheter och alternativa komponentrader utan entydig individ-/serienummernyckel. Identifiera transaxelns verkliga skylt och original-BOM före reservdelsval.",
     "Briggs Model/Type/Code och monterad motor ska fastställas på individmotor före motorspecifik service.",
     "Originalbruksanvisning och klippaggregatets PNC samt dess monteringsmanual saknas.",
-    "PDF-söktext läst, men webbläsarens PDF-skärmbildsfunktion returnerade fel vid visuell ritningskontroll."
+    "PDF-söktext läst, men webbläsarens PDF-skärmbildsfunktion returnerade fel vid visuell ritningskontroll.",
+    "Separat STIGA Park 2002-originalkatalog 1989 identifierar många 846- respektive 801-046-bundna komponenter, men säger inte vilken av dessa växellådor som monterades på varje Park 12 individ 1990. Kräver faktisk transaxelmärkning och relevant maskinkatalog."
   ]
 }
