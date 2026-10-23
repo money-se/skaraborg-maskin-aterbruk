@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cm-96061000902",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "LT2115CM produkt 96061000902, katalogdatum 2005-05 och tillhörande äldre artikelnummer 954130233. Separata återförsäljarförteckningar, inte OEM-verifierad total reservdelsmatris.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cm-96061000902-engine",
+      "tier": 2,
+      "title": "sGarden Jonsered LT2115CM 96061000902 engine parts",
+      "document": "LT2115CM / 96061000902 / 954130233 / 2005-05, ENGINE",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/75430/ENGINE"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-steering",
+      "tier": 2,
+      "title": "sGarden Jonsered LT2115CM 96061000902 steering parts",
+      "document": "LT2115CM / 96061000902 / 954130233 / 2005-05, STEERING",
+      "url": "https://www.sgarden.cz/NahradniDily/Rozkresy/75433/RIZENI"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-model",
+      "tier": 2,
+      "title": "PartsTree Jonsered LT2115CM 960610009-02 model parts index",
+      "document": "LT2115CM 960610009-02 Jonsered Lawn Tractor 2005-05",
+      "url": "https://www.partstree.com/models/lt-2115-cm-960610009-02-jonsered-lawn-tractor-2005-05/"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cm-96061000902-identity",
+      "statement": "Samtida modellversion LT2115CM 96061000902 med äldre katalognr 954130233 listas för maj 2005 i reservdelskataloger.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "PartsTree 2005-05 model page",
+      "sourceId": "jonsered-lt2115cm-96061000902-model",
+      "grade": "C",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-fuel-tank-31",
+      "statement": "ENGINE key 31 visar bränsletank 532 18 55-34.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden ENGINE ref.31",
+      "sourceId": "jonsered-lt2115cm-96061000902-engine",
+      "grade": "C",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-muffler-4",
+      "statement": "ENGINE key 4 visar ljuddämpare 532 18 86-55.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden ENGINE ref.4",
+      "sourceId": "jonsered-lt2115cm-96061000902-engine",
+      "grade": "C",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-oil-pipe-14",
+      "statement": "ENGINE key 14 visar oljeavtappningsrör 532 14 84-56.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden ENGINE ref.14",
+      "sourceId": "jonsered-lt2115cm-96061000902-engine",
+      "grade": "C",
+      "topic": "J",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-oil-plug-38",
+      "statement": "ENGINE key 38 visar avtappningsplugg 532 18 16-54.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden ENGINE ref.38",
+      "sourceId": "jonsered-lt2115cm-96061000902-engine",
+      "grade": "C",
+      "topic": "J",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-fuel-cap-32",
+      "statement": "ENGINE key 32 visar tanklock 532 14 05-27.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden ENGINE ref.32",
+      "sourceId": "jonsered-lt2115cm-96061000902-engine",
+      "grade": "C",
+      "topic": "C",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-steering-wheel-1",
+      "statement": "STEERING key 1 visar rattdel 532 19 46-37.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden STEERING ref.1",
+      "sourceId": "jonsered-lt2115cm-96061000902-steering",
+      "grade": "C",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-steering-gear-71",
+      "statement": "STEERING key 71 visar styrväxel 532 17 51-46.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden STEERING ref.71",
+      "sourceId": "jonsered-lt2115cm-96061000902-steering",
+      "grade": "C",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000902-steering-shaft-2",
+      "statement": "STEERING key 2 visar rattaxel 532 18 47-06.",
+      "variant": "LT2115CM 96061000902 / 954130233 / 2005-05",
+      "locator": "sGarden STEERING ref.2",
+      "sourceId": "jonsered-lt2115cm-96061000902-steering",
+      "grade": "C",
+      "topic": "E",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "2005-05 LT2115CM finns i återförsäljar-IPL-index, men komplett OEM-PDF med visuellt kontrollerad typ- och transmissionssida återstår.",
+    "Reservdelsnumren avser handlarnas 2005-05-katalogvisning och kan vara senare ersättningsnummer; motoridentitet, Peerless-utförande, originalrem och service får inte härledas från dem.",
+    "Jämför 2004-01 J2115CMA och 2006-05 96061008101 med 2005-05-maskinens produktnummer och styrväxelfästen före kompatibilitetsbedömning."
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "slug": "jonsered-lt2115cm-96061000900",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Variantbunden forskningsstart LT2115CM 96061000900, 2005-01. Endast katalogidentitet och källkartläggning; övrig teknisk forskning återstår.",
+  "sources": [
+    {
+      "id": "jonsered-lt2115cm-96061000900-catalog",
+      "tier": 2,
+      "title": "Jonsered LT2115CM 2005-01 parts catalogue",
+      "document": "96061000900, alternate product 954130223 (tidigare felaktigt registrerat 954130233), 2005-01",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/jonsered/tracteur-tondeuse/lt2115cm/tracteur_tondeuse_jonsered_lt2115cm_vue-eclate-liste-des-pieces_2005-01.pdf"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000900-original-ipl-5440234",
+      "tier": 2,
+      "title": "Jonsered LT2115CM 96061000900 IPL 544 02 34-01",
+      "document": "IPL 544 02 34-01, LT2115CM product 954130223, 2005-01",
+      "url": "https://ersatzteil-shop24.de/bilder/zeichnungen/jonsered/JIPL2005_5440234-01.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Enbart angivna positioner i variantbunden reservdelskatalog har verifierats; fullständig originalmanual och övriga service- och identitetsuppgifter återstår."
+    }
+  },
+  "claims": [
+    {
+      "id": "jonsered-lt2115cm-96061000900-catalog-identity",
+      "statement": "Originalkatalogen IPL 544 02 34-01 anger LT2115CM (96061000900), PRODUCT NO. 954 13 02-23 (954130223) för januari 2005. Tidigare registeruppgift 954130233 är motsägande och ska inte behandlas som bekräftat produktnummer.",
+      "variant": "LT2115CM 96061000900 / PRODUCT NO. 954130223 / 2005-01",
+      "locator": "IPL 544 02 34-01, TRACTOR MODEL / PRODUCT NO. heading",
+      "sourceId": "jonsered-lt2115cm-96061000900-original-ipl-5440234",
+      "grade": "B",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000900-peerless-206546",
+      "statement": "Jonsereds DRIVE-reservdelslista för LT2115CM 96061000900 anger Transaxle Peerless 206-546 på position 1 och hänvisar transmissionens internkomponenter till tillverkaren.",
+      "variant": "LT2115CM 96061000900 / 2005-01",
+      "locator": "IPL 544 02 34-01, DRIVE key 1",
+      "sourceId": "jonsered-lt2115cm-96061000900-original-ipl-5440234",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000900-shift-rod-8",
+      "statement": "Originalkatalogens DRIVE key 8 anger reglagestång 532 16 56-19.",
+      "variant": "LT2115CM 96061000900 / 2005-01",
+      "locator": "IPL 544 02 34-01, DRIVE key 8",
+      "sourceId": "jonsered-lt2115cm-96061000900-original-ipl-5440234",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000900-noram-clutch-9",
+      "statement": "Originalkatalogens DRIVE key 9 anger Noram-koppling 532 18 03-54.",
+      "variant": "LT2115CM 96061000900 / 2005-01",
+      "locator": "IPL 544 02 34-01, DRIVE key 9",
+      "sourceId": "jonsered-lt2115cm-96061000900-original-ipl-5440234",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061000900-shift-link-84",
+      "statement": "Originalkatalogens DRIVE key 84 anger växellänk 532 16 56-21 för CRD PMST 18-tums hjul.",
+      "variant": "LT2115CM 96061000900 / 2005-01",
+      "locator": "IPL 544 02 34-01, DRIVE key 84",
+      "sourceId": "jonsered-lt2115cm-96061000900-original-ipl-5440234",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    }
+  ],
+  "gaps": [
+    "Utökning kräver sidvis originalkatalogkontroll av DRIVE, ENGINE, ELECTRICAL, MOWER och STEERING.",
+    "Årsrevisions- och produktnummer måste matcha typskylt före reservdelsval.",
+    "Eventuella nummerkedjor från moderna dealer-listor ska särredovisas från ursprunglig OEM-IPL.",
+    "Originalkatalog IPL 5440234-01 för 2005-01 visar Peerless 206-546. Drivlineuppgifter kommer från indexerad original-PDF-text; sidbild cachefel. Exakt transmission-ID på fysisk maskin och serviceinstruktion kvarstår.",
+    "KRITISK IDENTITETSRÄTTELSE: forskningspostens tidigare produktnummer 954130233 saknade stöd i nu kontrollerad original-IPL 544 02 34-01, vars sidrubrik anger 954130223. Felidentifiering måste uppmärksammas vid katalogimport och eventuell publicering."
+  ]
+}

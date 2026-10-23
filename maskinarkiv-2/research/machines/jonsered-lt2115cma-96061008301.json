@@ -11,6 +11,55 @@
       "title": "Jonsered IPL LT2115CMA, original illustrated parts list återpublicerad",
       "document": "544 88 89-01, LT2115CMA, 2006-06",
       "url": "https://ersatzteil-shop24.de/bilder/zeichnungen/jonsered/JIPL2006_5448889-01.pdf"
+    },
+    {
+      "id": "hydro-gear-3210510-20010125-ipl",
+      "tier": 1,
+      "title": "Hydro-Gear 321-0510 illustrated parts breakdown, Husqvarna document archive",
+      "document": "HYDRO-GEAR TRANSAXLE MODEL NO. 321-0510 (FHP PART NO. 170061), 2001-01-25",
+      "url": "https://www-static-nw.husqvarna.com/hbd/tdrdownload/v2/pub000017215/doc000037552/IPL/4Yof6O0qSpZ5md6A45X_Ve7Nsiw"
+    },
+    {
+      "id": "sgarden-3210510-2001-03-parts",
+      "tier": 2,
+      "title": "sGarden parts register Hydro-Gear 321-0510 2001-03",
+      "document": "REPAIR PARTS – HYDRO GEAR TRANSAXLE 321-0510, 2001-03",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/3323/REPAIR_PARTS"
+    },
+    {
+      "id": "sgarden-548448122-breakdown-390375",
+      "tier": 2,
+      "title": "sGarden Hydro Gear 321-0510 group 548448122 repair parts variant 390375",
+      "document": "321-0510 548448122, parts group 390375, undated",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/390375/REPAIR_PARTS"
+    },
+    {
+      "id": "sgarden-548448122-breakdown-390377",
+      "tier": 2,
+      "title": "sGarden Hydro Gear 321-0510 group 548448122 repair parts variant 390377",
+      "document": "321-0510 548448122, parts group 390377, undated",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/390377/REPAIR_PARTS"
+    },
+    {
+      "id": "sgarden-548448122-390370",
+      "tier": 2,
+      "title": "sGarden Hydro Gear 321-0510 548448122 parts list 390370",
+      "document": "REPAIR PARTS list 390370 (undated dealer catalogue)",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/390370/REPAIR_PARTS"
+    },
+    {
+      "id": "sgarden-548448122-390371",
+      "tier": 2,
+      "title": "sGarden Hydro Gear 321-0510 548448122 parts list 390371",
+      "document": "REPAIR PARTS list 390371 (undated dealer catalogue)",
+      "url": "https://www.sgarden.cz/SpareParts/PartList/390371/REPAIR_PARTS"
+    },
+    {
+      "id": "hydrogear-official-label-support",
+      "tier": 1,
+      "title": "Hydro-Gear Product Support: Model Identification",
+      "document": "Hydro-Gear Support, Model Identification guidance",
+      "url": "https://www.hydro-gear.com/support/"
     }
   ],
   "topics": {
@@ -278,6 +327,501 @@
       "topic": "A",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-29",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar sätesbrytare, artikelnummer 532 19 27-49, på position 29. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 29",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-30",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar tändningslås, artikelnummer 532 19 33-50, på position 30. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 30",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "F",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-40",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar tändningskablage, artikelnummer 532 19 74-36, på position 40. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 40",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-43",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar startsolenoid, artikelnummer 532 19 25-07, på position 43. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 43",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-58",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar summer för CRD, artikelnummer 532 16 94-19, på position 58. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 58",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-59",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar FBI-brytare CRD, artikelnummer 532 18 03-79, på position 59. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 59",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-81",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar reläenhet, artikelnummer 532 10 97-48, på position 81. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 81",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-92",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar kabelstam/pigtail, artikelnummer 532 19 66-15, på position 92. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 92",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-94",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar backmodul, artikelnummer 532 19 18-34, på position 94. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 94",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-34",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar ljusbrytare, artikelnummer 532 11 07-12, på position 34. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 34",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "F",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-22",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar glödlampa #1156, artikelnummer 532 00 41-52, på position 22. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 22",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "G",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-electrical-pos-33",
+      "statement": "Originalkatalogens ELECTRICAL-delstabell för 96061008301 listar tändningsnyckel, artikelnummer 532 14 04-01, på position 33. Posten styrker katalogidentitet men inte elektrisk kompatibilitet med andra revisioner.",
+      "variant": "LT2115CMA / 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF-sida 6 (index 5), ELECTRICAL pos. 33",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "F",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-22",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger stöd för spännrulle, artikel 532 19 95-90, på position 22. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 22",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-26",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger främre upphängningsstag, artikel 532 40 01-10, på position 26. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 26",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-32",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger spindelremskiva, artikel 532 17 57-07, på position 32. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 32",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-33",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger flänsmutter, artikel 532 40 02-34, på position 33. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 33",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-34",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger stödhjulsfäste vänster, artikel 532 40 01-07, på position 34. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 34",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-35",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger stödhjulsfäste höger, artikel 532 40 01-06, på position 35. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 35",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-55",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger spännarm, artikel 532 19 94-98, på position 55. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 55",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-mower-revision-pos-68",
+      "statement": "Katalogens MOWER-lista för 96061008301 / 2006-06 anger aggregatrem, artikel 532 40 20-08, på position 68. En katalogskillnad mot annan årsrevision är inte ensam ett passformsbesked.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL 544 88 89-01, PDF page 18 (index 17), MOWER, pos. 68",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "H",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-8",
+      "statement": "Katalogens DRIVE-lista anger växelreglagestång 532 19 27-06 på position 8. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 8",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-53",
+      "statement": "Katalogens DRIVE-lista anger kopplingslänk 532 19 96-52 på position 53. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 53",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-55",
+      "statement": "Katalogens DRIVE-lista anger returfjäder 532 10 57-09 på position 55. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 55",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-183",
+      "statement": "Katalogens DRIVE-lista anger V-spännrulle 532 19 95-32 på position 183. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 183",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-drive-compare-pos-185",
+      "statement": "Katalogens DRIVE-lista anger växellänk 532 17 00-08 på position 185. Endast denna revision; passform med andra varianter inte fastställd.",
+      "variant": "LT2115CMA 96061008301 / 2006-06",
+      "locator": "Jonsered IPL DRIVE pos. 185",
+      "sourceId": "jonsered-lt2115cma-2006-06-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-45",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 45: Filter, artikel 532 17 03-97. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 45",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-46",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 46: Base, Filter, artikel 532 17 03-98. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 46",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-47",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 47: Actuator, Bypass, artikel 532 17 03-99. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 47",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-48",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 48: Rod, Bypass Actuator, artikel 532 17 04-00. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 48",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-49",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 49: Arm, Bypass, artikel 532 17 81-56. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 49",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-57",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 57: 20W-50 OIL 72.8 oz, artikel 532 15 07-98. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 57",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "J",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-124",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 124: Center Section-Filter-Bypass Assembly, artikel 532 17 04-44. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 124",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-125",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 125: Filter Assembly, artikel 532 17 04-45. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 125",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-127",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 127: Seal - O-ring Kit, artikel 532 17 04-47. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 127; visuell original-PDF sidbild bekräftad 2026-10-22",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-128",
+      "statement": "Hydro-Gears modellbundna reservdelskatalog 321-0510 (2001-01-25) listar position 128: Kit, Expansion Tank, artikel 532 17 31-65. Detta belägger reservdelslistan för transaxelmodellen, inte automatiskt identisk komponentrevision i ett individuellt Jonsered-exemplar.",
+      "variant": "Hydro-Gear 321-0510 (komponentkälla för LT2115CMA 96061008301 2006-06)",
+      "locator": "Hydro-Gear 321-0510 IPL 2001-01-25, PDF sida 3 (index 2), key 128",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-filter-assembly-supersession",
+      "statement": "Hydro-Gear 321-0510 IPL anger uttryckligen att key 45 (Filter 532 17 03-97) och key 46 (Base, Filter 532 17 03-98) ersätts av key 125 (Filter Assembly 532 17 04-45). Detta är en dokumenterad katalogersättning på transaxelmodellnivå, inte bekräftad passform utan transaxelidentifikation på individnivå.",
+      "variant": "Hydro-Gear 321-0510, kopplad till LT2115CMA 96061008301 2006-06",
+      "locator": "Hydro-Gear 321-0510 illustrated parts breakdown, 2001-01-25, parts key 45–46 och katalogens anmärkning om ersättning med key 125, PDF page 3; visuell original-PDF sidbild bekräftad 2026-10-22",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-complete-unit-correction-900",
+      "statement": "Hydro-Gear 321-0510-katalogens position 900 anger 'Transaxle, complete' med artikel 532 17 16-13 men avslutas av en separat rad 'Correction: 532 17 00-61'. Exakt relation mellan numren är ännu inte styrkt; det får inte beskrivas som en bekräftad ersättningskedja.",
+      "variant": "Hydro-Gear 321-0510, Jonsered jonsered-lt2115cma-96061008301",
+      "locator": "Hydro-Gear 321-0510 IPL daterad 2001-01-25, PDF sida 3, key 900 och sista korrigeringsraden; visuell original-PDF sidbild bekräftad 2026-10-22",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-later-list-complete-900",
+      "statement": "Reservdelslistan för Hydro-Gear 321-0510 daterad 2001-03 visar position 900 komplett transmission som 532170061, och dess CORRECTION-rad upprepar 532170061. Detta ger ett separat katalogstöd för korrigeringsnumret men är inte en verifierad Husqvarna/Hydro-Gear-ersättningsbulletin.",
+      "variant": "Hydro-Gear 321-0510; Jonsered jonsered-lt2115cma-96061008301",
+      "locator": "sGarden REPAIR PARTS, 321-0510 2001-03, row 900 and CORRECTION",
+      "sourceId": "sgarden-3210510-2001-03-parts",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-later-list-filter-45-46",
+      "statement": "Reservdelslistan för Hydro-Gear 321-0510 daterad 2001-03 visar artikel 532170445 på både position 45 och 46 samt på position 125. Detta stämmer med det äldre originaldokumentets anmärkning att 45 och 46 ersätts av filterenhet 125, men bevisar inte kompatibilitet utan transaxelidentifiering.",
+      "variant": "Hydro-Gear 321-0510; Jonsered jonsered-lt2115cma-96061008301",
+      "locator": "sGarden REPAIR PARTS, 321-0510 2001-03, rows 45, 46 and 125",
+      "sourceId": "sgarden-3210510-2001-03-parts",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydro321-ipl-2001-seals-selected",
+      "statement": "I Hydro-Gear 321-0510 IPL 2001-01-25 listas separata tätningar på key 13 (532 17 03-61, lip seal .67 x 1.58 x .276), key 17 (532 17 03-63, lip seal 18 x 32 x 7), key 34 (532 17 03-90, axeltätning), key 51 (532 17 04-03, lip seal .741 x .250 x .250) och key 74 (532 17 04-19, oljetätning .625 x 1.0 x .25). Katalogen ger inte mått för alla tätningar eller allmän garanti för utbytbarhet.",
+      "variant": "Hydro-Gear 321-0510, Jonsered LT2115CMA jonsered-lt2115cma-96061008301",
+      "locator": "Original IPL 2001-01-25, PDF sida 3 (index 2), key 13,17,34,51,74; sidbild granskad 2026-10-22",
+      "sourceId": "hydro-gear-3210510-20010125-ipl",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-alt548-390375",
+      "statement": "En separat handlarkatalog märkt Hydro Gear 321-0510 och 548448122 anger position 1 housing 532142986, position 18 shaft 532142988, position 44 differential 532142990 och position 34 oilfilter 532142951. Koppling till FHP 170061 från 2001 och Jonsereds installerade utförande har inte fastställts.",
+      "variant": "Hydro-Gear dealer catalog 321-0510 / 548448122, unconfirmed applicability to LT2115CMA",
+      "locator": "sGarden variant 390375, 321-0510/548448122, rows 1, 18, 34, 44",
+      "sourceId": "sgarden-548448122-breakdown-390375",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-alt548-390377",
+      "statement": "En annan handlarkatalog med samma 321-0510 och 548448122 anger position 1 housing 532142930, position 18 motor shaft 532142942, position 44 differential kit 532142959 och position 34 oilfilter 532142951. Även dessa delar saknar bekräftad koppling till Jonsered FHP 170061.",
+      "variant": "Hydro-Gear dealer catalog 321-0510 / 548448122, unconfirmed applicability to LT2115CMA",
+      "locator": "sGarden variant 390377, 321-0510/548448122, rows 1, 18, 34, 44",
+      "sourceId": "sgarden-548448122-breakdown-390377",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-catalog-548448122-390370",
+      "statement": "Återförsäljarlista 390370 under rubrik 321-0510 / 548448122 anger housing pos 1 532142930, shaft pos 18 532150772, oilfilter pos 34 532142951, differential pos 44 532150829 och gearbox pos 900 532150071.",
+      "variant": "321-0510 / 548448122 seller parts sublist, applicability to Jonsered unconfirmed",
+      "locator": "sGarden 390370 REPAIR PARTS, rows 1,18,34,44,900",
+      "sourceId": "sgarden-548448122-390370",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-catalog-548448122-390371",
+      "statement": "Återförsäljarlista 390371 under rubrik 321-0510 / 548448122 anger housing pos 1 532142930, andra huset pos 2 532169049, axel pos 18 532150772, cylinder pos 13 532169050 och pump pos 26 532169051. Det är en separat variantspecifik lista, ej identifierad som Jonsereds FHP 170061.",
+      "variant": "321-0510 / 548448122 seller parts sublist, applicability to Jonsered unconfirmed",
+      "locator": "sGarden 390371 REPAIR PARTS, rows 1,2,13,18,26",
+      "sourceId": "sgarden-548448122-390371",
+      "grade": "C",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-96061008301-hydrogear-label-identification-required",
+      "statement": "Hydro-Gear rekommenderar uttryckligen att modell- och serienummer avläses på produktetiketten vid förfrågan om rätt service- och reparationsinformation. Detta är en identifieringsprocedur, inte en bekräftelse av någon av säljarlistornas passform.",
+      "variant": "Hydro-Gear transaxles, applicability check for Jonsered LT2115CMA",
+      "locator": "Hydro-Gear official Support, Universal Tools > Model Identification",
+      "sourceId": "hydrogear-official-label-support",
+      "grade": "A",
+      "topic": "A",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -285,6 +829,16 @@
     "El-, rem- och knivnummer ska kontrolleras mot enskilt produktnummer och vid behov serienummer. Ingen generell passform inom LT2115-familjen är fastställd.",
     "Förarmanual, reservdelsersättningar, fullständigt elschema och underhållsschema återstår att primärkällgranska.",
     "Original-PDF:ernas bildsidor kunde inte kontrolleras med webbläsarens skärmbildsverktyg. Angivna positioner är verifierade i PDF:s extraherade text och kräver visuell dubbelkontroll innan publicering.",
-    "En äldre LT2115CMA-katalog, IPL 544 02 35-01, anger 96061001000 / 954 13 02-24. Detta är en separat revision och måste jämföras innan passform mellan CMA-versioner antas."
+    "En äldre LT2115CMA-katalog, IPL 544 02 35-01, anger 96061001000 / 954 13 02-24. Detta är en separat revision och måste jämföras innan passform mellan CMA-versioner antas.",
+    "De tolv utökade ELECTRICAL-komponentposterna är kontrollerade mot den textutdragna originalkatalogen på PDF-sida 6. Extern web-PDF-skärmbild kunde inte hämtas; visuell och praktisk identifieringskontroll återstår före final verifiering.",
+    "Systematisk MOWER-jämförelse 2004-06 mot 2006-06 visar skilda katalognummer på positionerna 22, 26, 32, 33, 34, 35, 55 och 68. Sidorna är textgranskade, men web-PDF-bildvisning misslyckades; ersättningsnummer och faktisk utbytbarhet kräver separat granskning.",
+    "2004-06 och 2006-06 delar enligt DRIVE Hydro-Gear 321-0510, Noram 532 18 03-54 och rem 532 17 01-40 men katalogför skilda reglagestänger och kopplingslänkar. Bildkontroll och passformsanalys återstår.",
+    "Hydro-Gear 321-0510-reservdelslista daterad 2001 anger 20W-50 OIL 72.8 oz som katalogpost (key 57), men styrker inte automatisk oljebytesrekommendation, aktuell oljespecifikation, serviceintervall eller exakt transaxelrevision installerad i varje Jonsered-maskin. Servicemanual för 310-0510 gäller annan modellbeteckning och får inte ärvas utan uttrycklig modelltäckning.",
+    "Servicemanualen BLN-51260 täcker uttryckligen 310-0510/-0610/-0710 och har inte styrkts för Hydro-Gear 321-0510. Oljebytesprocedur, luftning, serviceintervall och åtdragningsmoment kan därför inte övertas från den manualen. Kontrollera modell/serienummer på aktuell transaxel och begär korrekt tillverkarunderlag.",
+    "Hydro-Gear 321-0510 IPL:s key 900 anger 532171613 medan efterföljande 'Correction' anger 532170061. Denna korrigeringsrad får inte automatiskt tolkas som en ersättningskedja; kontroll mot originalbild, utgåvenummer och Hydro-Gear/Husqvarna OEM krävs. Aktuell serviceprocedur för 321-0510 fortsatt obekräftad.",
+    "Senare 2001-03-lista hos sGarden stöder katalognumret 532170061 för komplett 321-0510 (key 900) och 532170445 för filterpositionerna 45/46/125, men utgör inte en original OEM-ersättningsbulletin. Kontrollera mot fysisk transaxelplåt och tillverkarens aktuella reservdelssupport före beställning.",
+    "Andra 321-0510-märkta handlarlistor under dokumentgrupp 548448122 visar en annan intern numrering (bl.a. filter key 34 532142951 och tätningar key 53/54). Det kan röra annat utförande/undergrupp, men identiteten har inte styrkts; dessa delar får INTE tillskrivas Jonsereds FHP 170061 utan förtydligande från OEM och transaxelplåt.",
+    "Två sGarden-listsidor 390375 och 390377 använder samma 321-0510 och 548448122 men har skilda hus, axel och differential. Båda visar 532142951 på filterpos 34; original-IPL för FHP 170061 använder filterenhet 532170445 pos 125. Dokumentgrupp/undermodell och eventuell överensstämmelse är OBEKRÄFTAD. Gör inga rekommendationer om dessa delar för Jonsered utan plåt-/serienummer och OEM-korsreferens.",
+    "Nu minst fyra olika återförsäljarlistor under etiketten 321-0510 / 548448122 (390370, 390371, 390375, 390377), med olika hus, axlar och differentialdelar. Ingen koppling till 2001 års Hydro-Gear FHP 170061 eller en viss Jonsered-transaxel är styrkt. Hydro-Gears officiella support kräver modell- och serienummer från etiketten inför serviceförfrågan. Beställ inte internkomponenter från alternativen utan exakt etikett/OEM-korsreferens."
   ]
 }

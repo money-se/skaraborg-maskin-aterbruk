@@ -39,6 +39,14 @@
 | stiga-park-12-1168-1995 | [stiga-park-12-1168-1995.json](machines/stiga-park-12-1168-1995.json) | `needs_research`: ej publiceringsklart |
 | stiga-park-12-1168-1996 | [stiga-park-12-1168-1996.json](machines/stiga-park-12-1168-1996.json) | `needs_research`: ej publiceringsklart |
 | stiga-park-12-1168-1997 | [stiga-park-12-1168-1997.json](machines/stiga-park-12-1168-1997.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cm-96061000902 | [jonsered-lt2115cm-96061000902.json](machines/jonsered-lt2115cm-96061000902.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cm-j2115cma-954130215 | [jonsered-lt2115cm-j2115cma-954130215.json](machines/jonsered-lt2115cm-j2115cma-954130215.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cm-j2115cmb-954130215 | [jonsered-lt2115cm-j2115cmb-954130215.json](machines/jonsered-lt2115cm-j2115cmb-954130215.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115a-96011000800 | [jonsered-lt2115a-96011000800.json](machines/jonsered-lt2115a-96011000800.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115a-96011000801 | [jonsered-lt2115a-96011000801.json](machines/jonsered-lt2115a-96011000801.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115cm-96061000900 | [jonsered-lt2115cm-96061000900.json](machines/jonsered-lt2115cm-96061000900.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115-j2115b-954130210 | [jonsered-lt2115-j2115b-954130210.json](machines/jonsered-lt2115-j2115b-954130210.json) | `needs_research`: ej publiceringsklart |
+| jonsered-lt2115a-j2115aa-954130211 | [jonsered-lt2115a-j2115aa-954130211.json](machines/jonsered-lt2115a-j2115aa-954130211.json) | `needs_research`: ej publiceringsklart |
 | jonsered-lt2115-96011018100 | [jonsered-lt2115-96011018100.json](machines/jonsered-lt2115-96011018100.json) | `needs_research`: ej publiceringsklart |
 | jonsered-lt2115a-96011018200 | [jonsered-lt2115a-96011018200.json](machines/jonsered-lt2115a-96011018200.json) | `needs_research`: ej publiceringsklart |
 | jonsered-lt2115cm-96061008101 | [jonsered-lt2115cm-96061008101.json](machines/jonsered-lt2115cm-96061008101.json) | `needs_research`: ej publiceringsklart |
