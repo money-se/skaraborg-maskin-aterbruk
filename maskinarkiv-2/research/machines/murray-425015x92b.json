@@ -32,7 +32,7 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Transaxelmodell och drivrem ännu ej verifierade från den aktuella modellens katalog.\nFollow-up: Modellens egen TRANSMISSION-lista i F-040745L s.4 anger PEERLESS på pos 36, drivrem 037x87 samt remskiva, fästen och broms-/växelkomponenter. Peerless-exaktmodell saknas och måste styrkas från fysisk transaxelmärkning/egen Peerless-katalog."
+      "note": "F-040745L TRANSMISSION s.4 anger Peerless utan fullständigt typnummer; växelgaffel 094031 Z, transaxeldistans 690554 Z och hjul 1001840-601. För 425015X92A anger F-040734L Dana, växelgaffel 1001825 YZ och distans 1401103 Z; därför ingen internt överförd reservdelslista."
     },
     "E": {
       "name": "Styrning och chassi",
@@ -52,7 +52,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-040745L Mower Housing listar rem, kniv, spindelhus, lyftstag och komplett aggregat med positionsnummer. Bildgranskning och ersättningsrevisioner återstår."
+      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-040745L Mower Housing listar rem, kniv, spindelhus, lyftstag och komplett aggregat med positionsnummer. Bildgranskning och ersättningsrevisioner återstår. Kompletterat med bromsfäste, vänster/höger stödhjulsfäste, avvisarstång, spindelhus, remstyrningar och upphängningskomponenter från tryckt s.10."
     },
     "I": {
       "name": "Tillbehör",
@@ -960,6 +960,402 @@
       "topic": "B",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-left-susp",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094192E701 i katalogposition 18.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 18",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-hanger-pin",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 095194 i katalogposition 19.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 19",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-pulley-cover",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094051E701 i katalogposition 23.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 23",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-idler-arm",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 690408E700 i katalogposition 25.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 25",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-brake-bracket",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094193E701 i katalogposition 28.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 28",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-brake-spring",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 166x42 i katalogposition 29.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 29",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-front-susp",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094191E701 i katalogposition 30.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 30",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-susp-plate",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 092426E701 i katalogposition 31.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 31",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-susp-bracket",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 690539E701 i katalogposition 35.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 35",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-deflector-rod",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094957 Z i katalogposition 43.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 43",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-hinge-bracket",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094956E701 i katalogposition 45.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 45",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-belt-guide",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094781 i katalogposition 48.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 48",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-axle-bolt",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094025 i katalogposition 50.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 50",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-extension-spring",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 165x119 i katalogposition 52.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 52",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-right-wheel-bracket",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 1001260E701 i katalogposition 54.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 54",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-left-wheel-bracket",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 092423E701 i katalogposition 55.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 55",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-stiffener",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094604E701 i katalogposition 58.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 58",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-blade-housing",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094814E701 i katalogposition 59.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 59",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-second-guide",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094066 i katalogposition 62.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 62",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-friction-pad",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094137 i katalogposition 9.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 9",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-pulley-spacer",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 1001197 i katalogposition 6.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 6",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-suspension-plate",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094128E701 i katalogposition 15.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 15",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-deflector-knob",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 094068 i katalogposition 13.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 13",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-deck-followup-idler-spring",
+      "statement": "F-040745L MOWER HOUSING anger artikelnummer 166x41 i katalogposition 26.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "MOWER HOUSING, tryckt sida 10, position 26",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-transaxle-spacer",
+      "statement": "F-040745L TRANSMISSION anger 690554 Z i position 47.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 47",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-wheel-tire",
+      "statement": "F-040745L TRANSMISSION anger 1001840-601 i position 50.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 50",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-rear-tire",
+      "statement": "F-040745L TRANSMISSION anger 091923 i position 49.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 49",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-tire-tube",
+      "statement": "F-040745L TRANSMISSION anger 407049 i position —.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position —",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-parking-rod",
+      "statement": "F-040745L TRANSMISSION anger 1001245 Z i position 14.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 14",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-right-shifter",
+      "statement": "F-040745L TRANSMISSION anger 1001302E700 i position 22.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 22",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-shift-yoke",
+      "statement": "F-040745L TRANSMISSION anger 094031 Z i position 31.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 31",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-drive-key",
+      "statement": "F-040745L TRANSMISSION anger 021553 i position 45.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 45",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-idler-arm",
+      "statement": "F-040745L TRANSMISSION anger 690173 Z i position 3.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 3",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-rear-frame-right",
+      "statement": "F-040745L TRANSMISSION anger 1001268E701 i position 23.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 23",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-rear-frame-left",
+      "statement": "F-040745L TRANSMISSION anger 1001269E701 i position 25.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 25",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92b-transmission-r4-belt-guide",
+      "statement": "F-040745L TRANSMISSION anger 093349 i position 54.",
+      "variant": "425015X92B / F-040745L",
+      "locator": "TRANSMISSION printed p.4 position 54",
+      "sourceId": "murray-murray-425015x92b-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -971,6 +1367,8 @@
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
     "PDF-bildgranskning av Mower Housing misslyckades; uppgifterna har jämförts mot källans indexerade text.",
     "PEERLESS fastställt som fabrikat i modellens TRANSMISSION-tabell, men exakt intern modell-/ID-kod och serviceoljespecifikation kräver transaxelns märkskylt samt motsvarande Peerless-servicehandling.",
-    "ELECTRICAL SYSTEM är textverifierad men inte bildgranskad (PDF-cache miss). Kontrollera fysisk kontaktkonfiguration och elektriskt schema före kompatibilitetsanspråk."
+    "ELECTRICAL SYSTEM är textverifierad men inte bildgranskad (PDF-cache miss). Kontrollera fysisk kontaktkonfiguration och elektriskt schema före kompatibilitetsanspråk.",
+    "F-040745L sida 10 kontrollerad via indexerad katalogtext; kontroll av PDF-sprängskiss återstår. Partnummerrevision E700/E701 får inte antas vara kompatibel mellan varianter.",
+    "425015X92B F-040745L TRANSMISSION pos36 anger bara PEERLESS; exakt transmissionsmodell, serienummer och interna servicevärden kräver läsning av transaxelns märkbricka. B-/A-distanser och växelgafflar är inte identiska."
   ]
 }

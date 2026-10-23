@@ -18,6 +18,13 @@
       "title": "PartsTree Murray 425014X92A mower housing suspension OEM model parts table",
       "document": "425014x92A, Mower Housing Suspension, illustrated part list",
       "url": "https://www.partstree.com/models/425014x92a-murray-42-lawn-tractor-2004/mower-housing-suspension-5/"
+    },
+    {
+      "id": "partstree-a-chassis-supersession-2026",
+      "tier": 2,
+      "title": "PartsTree model 425014X92A chassis supersession list",
+      "document": "425014x92A Chassis & Hood illustrated catalog, observed 2026-10-22",
+      "url": "https://www.partstree.com/models/425014x92a-murray-42-lawn-tractor-2004/"
     }
   ],
   "topics": {
@@ -34,7 +41,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs."
+      "note": "F-040721L s.12 visar BRIGGS & STRATTON motorfabrikat utan exakta Model/Type/Code; bränsle, avgasfästen, remskiva, remstyrningar och värmesköld kan positionsbindas. Illustrerad sprängskiss ej visuellt kontrollerad."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -74,7 +81,7 @@
     "K": {
       "name": "Reservdelar",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: PartsTree 425014X92A visar åtta uttryckliga 'Superseded to' för katalogposter i aggregatupphängningen; dessa är handlaruppgifter, inte egen tillverkarverifiering eller generell kompatibilitetsgaranti."
+      "note": "PartsTrees modellbundna chassikatalog visar 10 ytterligare explicita ersättningsnummer, bl.a. sits 690566MA→1687498YP, huvgrill 1001798E245MA→7300778RMA, instrumentpanel 1001584E701MA→7300774ZMA. Leverantörslistning, ej oberoende passformstest."
     },
     "L": {
       "name": "Begagnatköp",
@@ -1363,6 +1370,413 @@
       "topic": "K",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-clamp",
+      "statement": "ENGINE MOUNT listar artikelnummer 095197 för katalogposition 3.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-fuel-line",
+      "statement": "ENGINE MOUNT listar artikelnummer 7601033 för katalogposition 4.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 4",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-engine-plate",
+      "statement": "ENGINE MOUNT listar artikelnummer 094006E700 för katalogposition 7.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 7",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-hose-secondary",
+      "statement": "ENGINE MOUNT listar artikelnummer 095197 för katalogposition 5.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 5",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler",
+      "statement": "ENGINE MOUNT listar artikelnummer 1001717 för katalogposition 9a.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9a",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-gasket",
+      "statement": "ENGINE MOUNT listar artikelnummer 091309 för katalogposition 9b.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9b",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-adapter",
+      "statement": "ENGINE MOUNT listar artikelnummer 095207 för katalogposition 9c.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9c",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-adapter-screw",
+      "statement": "ENGINE MOUNT listar artikelnummer 06x103 för katalogposition 9d.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9d",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-bolt",
+      "statement": "ENGINE MOUNT listar artikelnummer 009x59 för katalogposition 9e.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9e",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-muffler-lock",
+      "statement": "ENGINE MOUNT listar artikelnummer 092378 för katalogposition 9f.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 9f",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-engine-fastener",
+      "statement": "ENGINE MOUNT listar artikelnummer 0025x7 för katalogposition 10.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 10",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-stack-pulley",
+      "statement": "ENGINE MOUNT listar artikelnummer 690439 Z för katalogposition 11.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 11",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-belt-guide",
+      "statement": "ENGINE MOUNT listar artikelnummer 094384 för katalogposition 21.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 21",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-belt-guide-secondary",
+      "statement": "ENGINE MOUNT listar artikelnummer 094066 för katalogposition 23.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 23",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-engine-round4-heat-shield-fastener",
+      "statement": "ENGINE MOUNT listar artikelnummer 06x104 för katalogposition 32.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "ENGINE MOUNT, tryckt sida 12, position 32",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-seat",
+      "statement": "PartsTree anger uttryckligen att del 690566MA har ersättningsnummer 1687498YP ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 1; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-cap",
+      "statement": "PartsTree anger uttryckligen att del 028X23MA har ersättningsnummer 703948 ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 2; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-washer",
+      "statement": "PartsTree anger uttryckligen att del 017X47MA har ersättningsnummer 704015 ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 6; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-seat-support",
+      "statement": "PartsTree anger uttryckligen att del 094154E701MA har ersättningsnummer 7300875BMYP ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 8; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-bolt",
+      "statement": "PartsTree anger uttryckligen att del 001X45MA har ersättningsnummer 703822 ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 11; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-grille",
+      "statement": "PartsTree anger uttryckligen att del 1001798E245MA har ersättningsnummer 7300778RMA ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 26; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-dash",
+      "statement": "PartsTree anger uttryckligen att del 1001584E701MA har ersättningsnummer 7300774ZMA ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 34; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-dash-support",
+      "statement": "PartsTree anger uttryckligen att del 095318E701MA har ersättningsnummer 7300872BMYP ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 37; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-shoulder-bolt",
+      "statement": "PartsTree anger uttryckligen att del 009X58MA har ersättningsnummer 702315 ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 42; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-parts-supersession-nut",
+      "statement": "PartsTree anger uttryckligen att del 15X123MA har ersättningsnummer 703902 ('Superseded to') på 425014X92A; detta är en leverantörsuppgift, inte oberoende passformstest.",
+      "variant": "425014X92A / PartsTree supplier listing",
+      "locator": "Chassis & Hood, position 20; Superseded to",
+      "sourceId": "partstree-a-chassis-supersession-2026",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-grille-center-insert",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 1001802.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 53",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-grille-left-insert",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 1001803.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 54",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-grille-right-insert",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 1001804.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 55",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-hood-left-insert",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 1001800.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 56",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-hood-right-insert",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 1001801.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 57",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-front-hanger-axle",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 094007E701.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 40",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-shoulder-bolt",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 009x58.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 42",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-seat-spring",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 094057.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 3",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-wing-bolt",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 1001054.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 5",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-rear-seat-washer",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 094155 Z.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 14",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-pivot-spring",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 164x31.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 15",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92a-chassis-round4-screw-seat",
+      "statement": "CHASSIS & HOOD originaldelslista anger katalognummer 26x263.",
+      "variant": "425014X92A / F-040721L",
+      "locator": "CHASSIS & HOOD tryckt s.2, position 17",
+      "sourceId": "murray-425014x92a-parts-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1374,6 +1788,7 @@
     "PDF-skärmbilder kunde inte hämtas via webbverktyget; positionsnummer har kontrollerats via dokumentens extraherade text och ska bildgranskas innan artikelpublicering.",
     "Styrningens A-artikelnummer får inte överföras till 425014X92B, där bl.a. ratt, styrdrev och framaxelsuffix skiljer sig. Kontrollera maskinens exakta modellmärkning.",
     "F-040721L MOTION DRIVE s.4 textverifierad, men bildvisning av sprängskissen misslyckades. Dana-typnummer, fysisk kompatibilitet och ersättningsnummer kvarstår.",
-    "Åtta PartsTree-Superseded-to-kedjor behöver kontrolleras mot Murray/Briggs egna delnummerrevisioner och fysisk maskin innan beställningsrekommendation."
+    "Åtta PartsTree-Superseded-to-kedjor behöver kontrolleras mot Murray/Briggs egna delnummerrevisioner och fysisk maskin innan beställningsrekommendation.",
+    "Kontrollera PartsTree-ersättningsnummer för 425014X92A mot aktuell Briggs/Murray-revisionskedja och originalmaskinens identitet före köp; leverantörens 'Superseded to' är inte generell universalpassform."
   ]
 }

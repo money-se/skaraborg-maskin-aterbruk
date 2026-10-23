@@ -95,6 +95,62 @@
       "title": "F-040734L operating and upkeep tips",
       "document": "F-040734L maintenance pages",
       "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=19"
+    },
+    {
+      "id": "murray-015a-troubleshooting-p34",
+      "tier": 2,
+      "title": "Murray 425015X92A troubleshooting chart (original manual transcript)",
+      "document": "F-040734L, printed page 34",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=34"
+    },
+    {
+      "id": "murray-015a-blade-p21",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.21",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=21"
+    },
+    {
+      "id": "murray-015a-brake-p22",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.22",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=22"
+    },
+    {
+      "id": "murray-015a-lubrication-p25",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.25",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=25"
+    },
+    {
+      "id": "murray-015a-belt-p30",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.30",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=30"
+    },
+    {
+      "id": "murray-015a-maint-p20",
+      "tier": 2,
+      "title": "Murray 425015X92A original operator maintenance transcript",
+      "document": "F-040734L, printed p.20",
+      "url": "https://phone.manualsonline.com/manuals/mfg/murray/425015x92a.html?p=20"
+    },
+    {
+      "id": "murray-015a-engine-mount-p47",
+      "tier": 2,
+      "title": "Murray 425015X92A engine mount OEM parts table transcription",
+      "document": "F-040734L ENGINE MOUNT printed page 47",
+      "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/47"
+    },
+    {
+      "id": "murray-015a-steering-p41-html",
+      "tier": 2,
+      "title": "Murray 425015X92A steering original parts list",
+      "document": "F-040734L STEERING printed page 41",
+      "url": "https://manualsdump.com/en/manuals/murray-425015x92a/90412/41"
     }
   ],
   "topics": {
@@ -111,7 +167,7 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-040734L s.47 identifierar Briggs & Stratton som motorfabrikat, men inte fullständig Model/Type/Code; avgränsade montage-, bränsle-, avgas- och värmesköldsdelar finns positionsbelagda. Motorns interna service kräver dess egen manual. KÄLLKONFLIKT: ENGINE MOUNT s.47 har motorplåt 094006E700 medan STEERING s.41 har motorplåt 094006E701; beslut om ersättningsdel kräver OEM-granskning."
     },
     "D": {
       "name": "Transmission och drivlina",
@@ -121,7 +177,7 @@
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Styrningskatalogen identifierar ratt, styrstång, pinjong, sektor, framaxel, spindlar, styrstag och hjullager. Delarnas kompatibilitet med andra versioner återstår."
+      "note": "F-040734L s.41 ger modellbunden styrdelstabell med spindlar, styrlager, frontdäck, styrbälg och motorplåt 094006E701. B-versionens delnummer och passform behöver kontrolleras separat."
     },
     "F": {
       "name": "Reglage",
@@ -146,7 +202,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Manualen hänvisar till motorleverantörens instruktioner för olje- och bränsletyp. Fullständig Briggs Model/Type/Code krävs innan individuell oljemängd eller intervall anges.\nFollow-up: F-040734L s.19,22,24,27,28 anger särskilda service- och justeringsrutiner: växellänkagets neutralläge, däcknivå/14 PSI, stödhjul 1/2/3-6 och justering av knivdrivfjäder. Följ originalsäkerhetssteg i full manual."
+      "note": "Handbok F-040734L s.20–25 anger kontroll av knivbroms inom 5 s, ljuddämparkontroll vid 50 h, knivinspektion, smörjning, filterbyte samt förvaringsåtgärder. s.30 beskriver drivremmens monteringsriktning."
     },
     "K": {
       "name": "Reservdelar",
@@ -161,7 +217,7 @@
     "M": {
       "name": "Vanliga frågor",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-040734L s.34 beskriver start-, motorgångs-, driv-, klippnings- och remsymtom med möjliga orsaker. Säkerhetsfunktioner får aldrig förbikopplas, exakta motorreparationer kräver motorspecifik servicehandbok."
     }
   },
   "claims": [
@@ -1044,6 +1100,820 @@
       "topic": "J",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-start-battery",
+      "statement": "Vid utebliven start på elstartmodell ska batteripoler rengöras och kablar dras åt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-start-fuel",
+      "statement": "Vid utebliven start rekommenderas kontroll av bränsletank, bränsleledning och bränslefilter.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-start-spark",
+      "statement": "Vid utebliven start rekommenderas kontroll eller byte av tändstift.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-charge",
+      "statement": "Om motorn inte går runt: kontrollera batteriet och laddningen på elstartmodell.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-fuse",
+      "statement": "Om motorn inte går runt: kontrollera säkringen.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-wire",
+      "statement": "Om motorn inte går runt: undersök kabelhärvan för skador och lösa förbindelser.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-no-crank-solenoid",
+      "statement": "Om motorn inte går runt på elstartmodell anger felsökningstabellen startsolenoiden som möjlig felkälla.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-running-oil",
+      "statement": "Vid ojämn motorgång eller effektförlust: kontrollera oljan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-running-air",
+      "statement": "Vid ojämn motorgång eller effektförlust: rengör luftfiltret och luftgallret.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-running-gear",
+      "statement": "Vid motoreffektförlust på grund av hög belastning: använd lägre växel.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-blades-seat",
+      "statement": "Om motorn stannar när knivarna kopplas in: kontrollera att föraren sitter centrerat på sitsen.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-blades-wire",
+      "statement": "Om motorn stannar när knivarna kopplas in: kontrollera kabelhärvan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-vibration-blade",
+      "statement": "Vid onormala vibrationer: kontrollera om kniven behöver bytas.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-vibration-pulley",
+      "statement": "Vid onormala vibrationer: kontrollera om rem eller remskiva är skadad.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-discharge-clean",
+      "statement": "Vid dåligt gräsutkast: stäng av motorn och rengör klippaggregatet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-discharge-height",
+      "statement": "Vid dåligt gräsutkast: höj klipphöjden.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-discharge-speed",
+      "statement": "Vid dåligt gräsutkast: välj lägre färdhastighet och använd FAST på gasreglaget.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-cut-pressure",
+      "statement": "Vid ojämnt klippresultat: kontrollera däcktrycket.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-cut-level",
+      "statement": "Vid ojämnt klippresultat: kontrollera aggregatets vågräthet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-blade-belt",
+      "statement": "Om knivarna inte roterar: kontrollera eller byt klippaggregatets drivrem.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-motion-belt",
+      "statement": "Om maskinen inte driver trots inkopplad koppling: kontrollera drivremmens montering och skick.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-motion-clutch",
+      "statement": "Om maskinen inte driver eller driver långsamt: kontrollera kopplingsjusteringen.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-belt-noise",
+      "statement": "Vid ihållande remoljud efter att kopplingspedalen släppts: kontrollera remstyrningar och kopplingsjustering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-troubleshoot-shift-stuck",
+      "statement": "Vid svårväxlad transaxel med motorn igång och pedalen nedtryckt: kontrollera att remmen stannar i neutral och att remstyrningar inte vidrör remskivan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "TROUBLE SHOOTING CHART, printed p.34, symptom-specific entry",
+      "sourceId": "murray-015a-troubleshooting-p34",
+      "grade": "B",
+      "topic": "M",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-disconnect",
+      "statement": "Lossa tändstiftskabeln innan kniven granskas eller demonteras.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-hit",
+      "statement": "Om kniven träffat ett föremål ska motorn stängas av och kniv/adapter kontrolleras för skador.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-protect",
+      "statement": "Vid hantering av kniven ska skyddshandskar eller tyg användas mot vassa eggar.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-period",
+      "statement": "Handboken föreskriver kontroll hos auktoriserad fackperson av kniven vart tredje år alternativt byte mot originaldel.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.21",
+      "sourceId": "murray-015a-blade-p21",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-stop5",
+      "statement": "När knivreglaget kopplas ur ska knivar och remrörelse stanna inom fem sekunder.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.22 steg 11",
+      "sourceId": "murray-015a-brake-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-brake-contact",
+      "statement": "När knivreglaget kopplats ur ska bromsbeläggen ligga tätt an mot remskivorna; annars krävs auktoriserad service.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.22 steg 8",
+      "sourceId": "murray-015a-brake-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-blade-spring-reset",
+      "statement": "Efter byte av aggregatrem ska knivdrivfjädern återställas till det översta hålet.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.22 steg 12",
+      "sourceId": "murray-015a-brake-p22",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-lubricate-steering",
+      "statement": "Handboken anger uttryckligen att styrväxeln ska smörjas med fett.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-lubricate-sandy",
+      "statement": "Vid drift i torra sandiga miljöer rekommenderas torr grafitspray i stället för normal smörjning på angivna punkter.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-fuel-filter",
+      "statement": "Vid smutsigt bränslefilter anger handboken orolig gång och lägre prestanda och rekommenderar originalreservdel.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-fuel-empty",
+      "statement": "Bränsletanken måste vara tom innan bränslefilter eller bränsleledning byts enligt handboken.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.25",
+      "sourceId": "murray-015a-lubrication-p25",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-v-face",
+      "statement": "Vid installation av drivrem ska remmens V-sida ligga mot övre motorremskivan.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 1",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-idler-flat",
+      "statement": "Vid installation av drivrem ska remmens plana sida ligga mot löprullen och remmen får inte vara vriden.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 5",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-guides",
+      "statement": "Vid installation av drivrem ska remmen ligga innanför alla remstyrningar.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 6",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-steering",
+      "statement": "Handboken kräver att styrstångsenheten ligger på rätt sida om drivremmen vid återmontering.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 10",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-belt-clutch-check",
+      "statement": "Efter byte av drivrem ska kopplingens justering kontrolleras innan maskinen används.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.30 steg 12",
+      "sourceId": "murray-015a-belt-p30",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-muffler-50",
+      "statement": "Ljuddämparen ska kontrolleras efter varje 50 timmar beträffande infästning och skador.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.20",
+      "sourceId": "murray-015a-maint-p20",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-service-round3-storage-battery",
+      "statement": "Inför minst 30 dagars förvaring anger handboken att batteriet tas bort, fulladdas och förvaras svalt och torrt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "MAINTENANCE s.20",
+      "sourceId": "murray-015a-maint-p20",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-fuel-cap",
+      "statement": "Tanklock anges i motorinstallationslistan med uppgiften 092317.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 1",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-fuel-tank",
+      "statement": "Bränsletank anges i motorinstallationslistan med uppgiften 690280.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 2",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-hose-clamp",
+      "statement": "Bränsleslangklämma anges i motorinstallationslistan med uppgiften 095197.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 3",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-fuel-line",
+      "statement": "Bränsleledning, kapas till angiven längd anges i motorinstallationslistan med uppgiften 7601033.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 4",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-engine-plate",
+      "statement": "Motorfäste/plåt anges i motorinstallationslistan med uppgiften 094006E700.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 7",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-throttle",
+      "statement": "Gasreglage anges i motorinstallationslistan med uppgiften 092371.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 8",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-engine-maker",
+      "statement": "Motorleverantör BRIGGS & STRATTON, utan specificerat Model/Type/Code anges i motorinstallationslistan med uppgiften BRIGGS & STRATTON.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler",
+      "statement": "Ljuddämpare anges i motorinstallationslistan med uppgiften 1001717.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9a",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler-gasket",
+      "statement": "Ljuddämparpackning anges i motorinstallationslistan med uppgiften 091309.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9b",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler-adapter",
+      "statement": "Adapter till ljuddämpare anges i motorinstallationslistan med uppgiften 095207.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9c",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-adapter-screw",
+      "statement": "Skruv för ljuddämparadapter anges i motorinstallationslistan med uppgiften 06x103.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9d",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-muffler-bolt",
+      "statement": "Ljuddämparbult anges i motorinstallationslistan med uppgiften 009x59.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 9e",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-engine-pulley",
+      "statement": "Motorremskiva/stack pulley anges i motorinstallationslistan med uppgiften 690439 Z.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 11",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-belt-guide-main",
+      "statement": "Remstyrning anges i motorinstallationslistan med uppgiften 094384.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 21",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-belt-guide-aux",
+      "statement": "Extra remstyrning anges i motorinstallationslistan med uppgiften 094066.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 23",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-engine-heat-shield",
+      "statement": "Värmesköld anges i motorinstallationslistan med uppgiften 1001897.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "ENGINE MOUNT, tryckt sida 47, position 30",
+      "sourceId": "murray-015a-engine-mount-p47",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-retainer-clip",
+      "statement": "Låsclips anges med artikelnummer 094131 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 3",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-bearing",
+      "statement": "Styrlager anges med artikelnummer 094124 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 4",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-pinion-snapring",
+      "statement": "Låsring till styrpinjong anges med artikelnummer 011x25 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 8",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-sector-bearing",
+      "statement": "Sektorlager anges med artikelnummer 094123 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 10",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-plate",
+      "statement": "Styrplåt anges med artikelnummer 1001121E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 12",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-engine-mount-plate",
+      "statement": "Motorplåt enligt styrningsavsnittet anges med artikelnummer 094006E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 13",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-hanger-bracket",
+      "statement": "Upphängningsfäste anges med artikelnummer 1001270E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 16",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-hanger-axle",
+      "statement": "Upphängningsaxel anges med artikelnummer 094007E701 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 17",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-axle-bearing",
+      "statement": "Axellager anges med artikelnummer 690150 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 20",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-wheel-valve",
+      "statement": "Ventil anges med artikelnummer 024373 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 32",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-front-tire",
+      "statement": "Framdäck anges med artikelnummer 091912 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 33",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-inner-tube",
+      "statement": "Innerslang anges med artikelnummer 407047 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position unnumbered",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-front-wheel-assembly",
+      "statement": "Komplett framhjul anges med artikelnummer 094579-601 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 34",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-front-hub-cap",
+      "statement": "Navkapsel, tillval anges med artikelnummer 094618 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 38",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-bellows",
+      "statement": "Styrbälg anges med artikelnummer 092059 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 40",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425015x92a-steering-r3-steering-shaft-bolt",
+      "statement": "Bult, skulder anges med artikelnummer 009x57 i originalkatalogens styrningsavsnitt.",
+      "variant": "425015X92A / F-040734L",
+      "locator": "STEERING, tryckt sida 41, position 6",
+      "sourceId": "murray-015a-steering-p41-html",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1054,6 +1924,9 @@
     "Elektriska säkerhetskretsar, underhåll och felsökning behöver originalmanual.",
     "PDF-bildgranskning via webbläsarens screenshotfunktion kunde inte slutföras (cache miss); information kommer från källornas textutdrag.",
     "F-040734L sida 45 visar flera identiska reservdelsnummer som F-050706L för 425014X92B; jämför fästpunkter, revisioner och ersättningsnummer separat innan fysisk utbytbarhet hävdas.",
-    "Närliggande handlarlistningar av '42515X92B' får inte användas som identitetsbevis för 425015X92B utan modellnummer- och katalogkontroll."
+    "Närliggande handlarlistningar av '42515X92B' får inte användas som identitetsbevis för 425015X92B utan modellnummer- och katalogkontroll.",
+    "F-040734L s.47 anger Briggs & Stratton som fabrikat men motorns exakta Model/Type/Code saknas och kan inte härledas från aggregatets modellnummer.",
+    "Motorns monteringskatalog F-040734L s.47 visar endast BRIGGS & STRATTON utan Model/Type/Code. Även om liknande maskiner använder samma monteringsdelar är motorspecifik service ej bekräftad.",
+    "F-040734L listar olika motorplåtsnummer inom samma 425015X92A-katalog: ENGINE MOUNT s.47 pos7 anger 094006E700, STEERING s.41 pos13 anger 094006E701. Nummerkonflikten får inte lösas genom antagen passform; kontrollera sprängskisser och tillverkningsrevision."
   ]
 }
