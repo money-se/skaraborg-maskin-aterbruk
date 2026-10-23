@@ -137,3 +137,21 @@ for(const [slug,chapters,sources] of [["stiga-villa-12-hst",12,14],["jonsered-lt
  assert.equal([...page.matchAll(/<\/(?:b|strong)>(?=[\p{L}\d])/gu)].length,0,slug+" missing whitespace after labels");
  console.log("MASKINARKIV_2_"+slug+"=PASS");
 }
+
+// New Rider 850 model is checked independently; existing five-model snapshots remain intact.
+for (const slug of ["husqvarna-rider-850"]) {
+ const machine=JSON.parse(fs.readFileSync("src/_data/machines/"+slug+".json","utf8"));
+ const html=fs.readFileSync("../_maskinarkiv-preview/maskinarkiv/"+slug+".html","utf8");
+ assert.ok(machine.chapters.length>=12,slug+" too few chapters");
+ assert.ok(machine.sources.length>=3,slug+" too few sources");
+ assert.equal(machine.navigation.length,machine.chapters.length,slug+" navigation mismatch");
+ const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);
+ assert.equal(ids.length,new Set(ids).size,slug+" duplicate IDs");
+ for (const chapter of machine.chapters) { assert.ok(ids.includes(chapter.id),slug+" missing chapter "+chapter.id); assert.ok(chapter.blocks.length); for(const block of chapter.blocks)assert.ok(allowed.has(block.type),slug+" unknown block "+block.type); }
+ for(const [,anchor] of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(anchor),slug+" bad anchor "+anchor);
+ assert.equal((html.match(/<section\b/g)||[]).length,(html.match(/<\/section>/g)||[]).length,slug+" unbalanced sections");
+ assert.equal((html.match(/class="source-record"/g)||[]).length,machine.sources.length,slug+" source mismatch");
+ assert.ok(html.includes("Kanzaki K55")&&html.includes("Peerless"),slug+" variants not separated");
+ assert.ok(html.includes("class=\"footer-bottom\""),slug+" missing shared footer");
+ console.log("MASKINARKIV_2_RIDER_850=PASS");
+}

@@ -1,0 +1,378 @@
+{
+  "slug": "husqvarna-rider-850",
+  "model": "Husqvarna Rider 850",
+  "title": "Husqvarna Rider 850 – modeller, motor, drivning och reservdelar",
+  "lead": "Lär känna den klassiska frontklipparen. Se skillnaden mellan Rider 850 och Rider 850 HST, hitta rätt manual och förstå motor, transmission, klippaggregat och felsökning.",
+  "eyebrow": "Maskinarkivet · Husqvarna",
+  "tags": [
+    "Frontklippare",
+    "Rider 850 / 850 HST",
+    "Peerless eller Kanzaki K55",
+    "Service & reservdelar"
+  ],
+  "headHtml": "<!DOCTYPE html>\n<html lang=\"sv\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Husqvarna Rider 850 – motor, drivning, 850 HST och reservdelar | Maskinarkivet</title><meta name=\"description\" content=\"Djupguide till Husqvarna Rider 850 och 850 HST. Jämför Peerless-växellåda med Kanzaki K55, Briggs & Stratton-motorer, 85 cm aggregat, service och reservdelar.\"><meta name=\"robots\" content=\"index,follow,max-image-preview:large\"><link rel=\"canonical\" href=\"https://skaraborgmaskin.se/maskinarkiv/husqvarna-rider-850.html\"><link rel=\"stylesheet\" href=\"/maskinarkiv/maskinarkiv-v6.css\"></head><body><a class=\"skip\" href=\"#main\">Hoppa till innehållet</a><div id=\"site-header\"></div>",
+  "footerHtml": "</main><div id=\"site-footer\"></div><script>document.querySelectorAll(\".mobile-toc a[href^='#']\").forEach(a=>a.addEventListener(\"click\",()=>{const d=a.closest(\"details\");if(d)d.open=false}));</script></body></html>",
+  "navigation": [
+    {
+      "id": "oversikt",
+      "label": "Översikt"
+    },
+    {
+      "id": "versioner",
+      "label": "Modellversioner"
+    },
+    {
+      "id": "identifiering",
+      "label": "Identifiering"
+    },
+    {
+      "id": "konstruktion",
+      "label": "Så fungerar den"
+    },
+    {
+      "id": "teknik",
+      "label": "Tekniska data"
+    },
+    {
+      "id": "motor",
+      "label": "Motor"
+    },
+    {
+      "id": "drivning",
+      "label": "Drivning"
+    },
+    {
+      "id": "styrning",
+      "label": "Styrning"
+    },
+    {
+      "id": "aggregat",
+      "label": "Klippaggregat"
+    },
+    {
+      "id": "sakerhet",
+      "label": "Säkerhet"
+    },
+    {
+      "id": "service",
+      "label": "Service & underhåll"
+    },
+    {
+      "id": "felsokning",
+      "label": "Felsökning"
+    },
+    {
+      "id": "reservdelar",
+      "label": "Reservdelar"
+    },
+    {
+      "id": "koprad",
+      "label": "Köpråd"
+    },
+    {
+      "id": "faq",
+      "label": "Vanliga frågor"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "oversikt",
+      "heading": "01 · Översikt",
+      "title": "Vad är Husqvarna Rider 850?",
+      "headingId": "h-oversikt",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Husqvarna Rider 850 är en äldre bensindriven åkgräsklippare med midjestyrning och klippaggregatet framför föraren. Här lär du dig att skilja versionerna åt, förstå funktionen och hitta rätt manual innan du reparerar.</p><p>Namnet Rider 850 berättar inte ensamt vilken motor eller transmission som finns i ett begagnat exemplar. Den vanliga Rider 850 och Rider 850 HST har olika drivsystem [S1–S4].</p>"
+        },
+        {
+          "type": "facts",
+          "rows": [
+            {
+              "label": "Maskintyp",
+              "value": "Frontklippare med ledad styrning [S3]"
+            },
+            {
+              "label": "Manuell Rider 850",
+              "value": "5 växlar framåt, neutral och 1 backväxel [S3]"
+            },
+            {
+              "label": "Rider 850 HST",
+              "value": "Kanzaki K55, steglös hydrostatisk drivning [S3]"
+            },
+            {
+              "label": "Originalaggregat i verkstadshandboken",
+              "value": "85 cm klippbredd, bakutkast [S3]"
+            },
+            {
+              "label": "Grundprincip för reservdelar",
+              "value": "Identifiera maskin, motor, transmission och aggregat separat"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "label": "Läs först",
+          "textHtml": "Detta är en modellguide – inte en ersättning för instruktionsboken för just ditt exemplar. Avvikande reservdelar och tidigare ombyggnader är vanliga kontrollpunkter på äldre maskiner."
+        }
+      ]
+    },
+    {
+      "id": "versioner",
+      "heading": "02 · Modellversioner",
+      "title": "850 eller 850 HST – vad skiljer?",
+      "headingId": "h-versioner",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Den viktigaste skillnaden är hur hjulens fart regleras. Båda kallas Rider 850, men tillägget HST hör ihop med hydrostatisk transmission.</p><div class=\"table-scroll\"><table><thead><tr><th>Utförande</th><th>Drivning</th><th>Dokumenterat i</th></tr></thead><tbody><tr><td>Rider 850</td><td>Peerless manuell växellåda, fem framåt och en back</td><td>Verkstadshandbok [S3]</td></tr><tr><td>Rider 850 HST</td><td>Kanzaki K55 hydrostat, steglös färd framåt/bakåt</td><td>Verkstadshandbok [S3]</td></tr></tbody></table></div><p>Verkstadshandboken beskriver för den manuella växellådan Peerless MST 205-531A för Europa och 205-530A för USA [S3]. Det är ett dokumenterat utförande, inte bevis för att varje maskin i dag fortfarande har samma växellåda.</p><p>Husqvarna listar dessutom olika bruksanvisningar för Rider 850/970 och Rider 850 HST/970 HST i reservdelsportalen [S1–S2].</p>"
+        },
+        {
+          "type": "note",
+          "label": "Årtal är inte årsmodell",
+          "textHtml": "Manualer som är märkta 1999-01 visar ett dokumentdatum. Det betyder inte att alla Rider 850 tillverkades 1999 eller att modellseriens hela tillverkningsperiod är fastställd."
+        }
+      ]
+    },
+    {
+      "id": "identifiering",
+      "heading": "03 · Identifiering",
+      "title": "Hitta rätt maskin och rätt delar",
+      "headingId": "h-identifiering",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Läs av skyltarna innan du söker reservdelar. Bilder på en liknande maskin räcker inte för att avgöra om komponenter passar.</p><ol><li><strong>Maskinen:</strong> fotografera märkplåten och skriv av produktnummer, serienummer och eventuell variantbeteckning.</li><li><strong>Motorn:</strong> skriv av Briggs &amp; Strattons modell, typ och kod direkt från motorn. En äldre maskin kan ha fått reservmotor.</li><li><strong>Transmissionen:</strong> kontrollera om maskinen faktiskt har manuell växelspak eller HST-reglage, och försök identifiera växellådans märkning.</li><li><strong>Klippaggregatet:</strong> jämför aggregatets utformning och märkning med den aktuella reservdelsskissen.</li><li><strong>Reservdelskatalog:</strong> välj sprängskiss för korrekt modell och jämför därefter reservdelsnummer [S1–S3].</li></ol>"
+        },
+        {
+          "type": "note",
+          "label": "Säljaren säger ”850”",
+          "textHtml": "Be om bilder på alla märkningar och på drivreglagen. Det sparar tid innan köp och minskar risken för fel beställning."
+        }
+      ]
+    },
+    {
+      "id": "konstruktion",
+      "heading": "04 · Så fungerar den",
+      "title": "Frontaggregat och midjestyrning",
+      "headingId": "h-konstruktion",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Klippaggregatet sitter framför framhjulen. Föraren ser var knivarna arbetar och kan klippa nära träd och buskar utan att köra över gräset med hela maskinen först.</p><h3>Vad gör midjestyrningen?</h3><p>Fram- och bakdel rör sig kring en led. När ratten vrids svänger maskinen genom att delarna vinklas mot varandra. Verkstadshandboken beskriver ett mycket litet oklippt område vid full styrning och behandlar styrvajrar, styrlager och justeringar [S3].</p><p>Ett styrglapp är inte automatiskt en trasig vajer: även leder, infästningar och lager kan behöva undersökas.</p>"
+        }
+      ]
+    },
+    {
+      "id": "teknik",
+      "heading": "05 · Tekniska data",
+      "title": "Mått och uppgifter från verkstadshandboken",
+      "headingId": "h-teknik",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Uppgifterna nedan gäller de utföranden som beskrivs i verkstadshandbok 101 89 11-26 [S3]. De ska inte användas som en generell garanti för en ombyggd maskin.</p>"
+        },
+        {
+          "type": "facts",
+          "rows": [
+            {
+              "label": "Längd",
+              "value": "2 000 mm, Rider 850/850 HST [S3]"
+            },
+            {
+              "label": "Bredd",
+              "value": "960 mm [S3]"
+            },
+            {
+              "label": "Höjd",
+              "value": "1 060 mm [S3]"
+            },
+            {
+              "label": "Vikt, obelastad",
+              "value": "225 kg [S3]"
+            },
+            {
+              "label": "Hjulbas",
+              "value": "820 mm [S3]"
+            },
+            {
+              "label": "Klippbredd",
+              "value": "850 mm med dokumenterat originalaggregat [S3]"
+            }
+          ]
+        },
+        {
+          "type": "note",
+          "label": "Transport och passager",
+          "textHtml": "Mät ditt eget exemplar före lastning eller innan du kör genom en smal öppning. Aggregat, hjul och eventuella monterade tillbehör kan ändra de faktiska måtten."
+        }
+      ]
+    },
+    {
+      "id": "motor",
+      "heading": "06 · Motor",
+      "title": "Vilken Briggs & Stratton sitter i?",
+      "headingId": "h-motor",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Verkstadshandboken beskriver Rider 850-familjen med luftkylda encylindriga Briggs &amp; Stratton-motorer. Där anges för vanlig Rider 850 en 10,5 hk-version och för Rider 850 HST en 12,5 hk-version [S3].</p><div class=\"table-scroll\"><table><thead><tr><th>Dokumenterat utförande</th><th>Motoruppgift</th><th>Effekt</th></tr></thead><tbody><tr><td>Rider 850</td><td>Briggs &amp; Stratton 28B707, typ 0139</td><td>10,5 hk / 7,7 kW</td></tr><tr><td>Rider 850 HST</td><td>Briggs &amp; Stratton 286707, typ 0184</td><td>12,5 hk / 9,2 kW</td></tr></tbody></table></div><p>I samma handbok anges 362 cm³ respektive 465 cm³ och 1,2 liter motoroljevolym för dessa utföranden [S3]. Kontrollera motorns faktiska märkning och egen servicemanual innan du beställer filter, tändstift eller fyller olja. Fullständig typ- och kodmärkning kan behövas.</p><h3>Om motorn inte startar</h3><p>Skilj först mellan att startmotorn inte går runt, att motorn drar runt utan att tända och att den startar men stannar. Dessa tre symptom leder till olika felsökningsspår. Gör inga gnistprov i närheten av bensinångor.</p>"
+        },
+        {
+          "type": "note",
+          "label": "Motorbyte ändrar facit",
+          "textHtml": "Att verkstadshandboken anger en viss motor betyder inte att den motorn sitter kvar i ett begagnat exemplar. Motorns egen märkning väger tyngre vid val av motordelar."
+        }
+      ]
+    },
+    {
+      "id": "drivning",
+      "heading": "07 · Drivning",
+      "title": "Manuell låda eller Kanzaki K55?",
+      "headingId": "h-drivning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Drivningen är den största tekniska skillnaden mellan varianterna. Utgå alltid från maskinens märkning och verkliga reglage.</p><h3>Manuell Rider 850</h3><p>Har fem växlar framåt, friläge och en backväxel. Verkstadshandboken beskriver kopplings-/frihjulsreglage, bromsvajer och växelreglage [S3]. Fel växling eller utebliven framdrivning ska felsökas utifrån detta system – inte utifrån en hydrostatmanual.</p><h3>Rider 850 HST</h3><p>Har enligt verkstadshandboken Kanzaki K55 hydrostat och steglös hastighetsreglering med pedal. Handboken behandlar bland annat oljenivå, neutraljustering, broms och luftning [S3–S4].</p><h3>Om maskinen inte driver</h3><ol><li>Notera om felet gäller framåt, bakåt eller båda.</li><li>Stäng av motorn och kontrollera synliga remmar samt om frihjulsläget är aktiverat.</li><li>Undersök om remdrivningen glider eller om växel-/fartreglaget inte påverkar systemet.</li><li>På HST: kontrollera eventuellt oljeläckage och följ rätt manual vid nivåkontroll.</li><li>Låt en sakkunnig felsöka internt transmissionsfel.</li></ol>"
+        },
+        {
+          "type": "warning",
+          "label": "Varning",
+          "textHtml": "Använd inte uppgifter om oljesort, påfyllning, luftning eller neutraljustering från en annan Kanzaki-modell. Fel arbete kan orsaka skada eller oväntad maskinrörelse."
+        }
+      ]
+    },
+    {
+      "id": "styrning",
+      "heading": "08 · Styrning",
+      "title": "Styrvajrar, led och broms",
+      "headingId": "h-styrning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Styrsystemets vajrar och lager behöver fungera tillsammans. Om ratten har mycket spel, om maskinen svänger olika åt höger och vänster eller om leden känns instabil bör den kontrolleras före fortsatt användning.</p><p>Verkstadshandbok 101 89 11-26 har separata avsnitt om kontroll och justering av styrvajrar, byte av vajrar, byte av styrledslager och bromsjustering [S3].</p><p>Vid en enkel kontroll: parkera plant, stäng av motorn, ta ur nyckeln och undersök bara de delar du kan nå utan att riskera klämning. För lyftarbete krävs säkra stöd.</p>"
+        }
+      ]
+    },
+    {
+      "id": "aggregat",
+      "heading": "09 · Klippaggregat",
+      "title": "85 cm bakutkast och tre knivar",
+      "headingId": "h-aggregat",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Verkstadshandboken beskriver Rider 850 med frontmonterat 85 cm brett klippaggregat med bakutkast. Den beskriver seriens frontaggregat som flytande och med tre knivar [S3].</p><h3>Varför spelar aggregatets märkning roll?</h3><p>En äldre Rider kan ha fått ett utbytt aggregat. Rem, knivar, lager, remskivor och fästen måste därför kontrolleras mot det <em>monterade aggregatet</em>, inte bara mot maskinens modellnamn. Husqvarnas reservdelsportal har en särskild sprängskisskategori för 85 cm-aggregat [S1–S2].</p><h3>Om klippresultatet är ojämnt</h3><p>Undersök knivarnas skick, om aggregatet sitter parallellt och om däcken har korrekt tryck. Verkstadshandboken behandlar justering av parallellitet och klipphöjd [S3].</p>"
+        },
+        {
+          "type": "note",
+          "label": "Knivar och remmar",
+          "textHtml": "Stäng av motorn, ta ur nyckeln och koppla bort tändkabeln före arbete vid knivarna. Använd handskar; knivar kan vara vassa även när motorn är avstängd."
+        }
+      ]
+    },
+    {
+      "id": "sakerhet",
+      "heading": "10 · Säkerhet",
+      "title": "Skydd, lutningar och rörliga delar",
+      "headingId": "h-sakerhet",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Det här är en tung maskin med roterande knivar. Läs användarhandboken innan användning och kontrollera att skydd och säkerhetsfunktioner fungerar. Koppla aldrig förbi brytare för att få maskinen att starta.</p><p>Husqvarnas bruksanvisning varnar bland annat för körning intill diken, kanter och branter, för halkrisk i vått gräs och för att barn kan komma nära maskinen [S4].</p><p>Kör inte med personer som passagerare. Se till att inga barn, djur eller åskådare finns i närheten av klippområdet. Vid tankning: stäng av motorn, låt den svalna och hantera bensin utomhus utan antändningskällor.</p>"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "heading": "11 · Service & underhåll",
+      "title": "Prioritera det som skyddar maskinen",
+      "headingId": "h-service",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Originalmanualen för Rider 850 behandlar regelbunden kontroll av motorolja, luftfilter, bromsar, styrning, knivar, däck och remmar [S4]. HST-modellen har dessutom egna transmissionskontroller i sin instruktionsbok [S2–S3].</p><ol><li><strong>Inför klippning:</strong> kontrollera att knivar och skydd ser hela ut och att maskinen inte läcker bränsle eller olja.</li><li><strong>Motor:</strong> kontrollera oljenivån enligt den monterade motorns anvisningar, rengör kylintag och luftfilter på rätt sätt.</li><li><strong>Drivning:</strong> kontrollera remmar, reglage och bromsfunktion utan att köra med öppna skydd.</li><li><strong>Aggregat:</strong> kontrollera knivar, infästningar och remmar; justera enligt rätt manual.</li><li><strong>Vinterförvaring:</strong> rengör och förvara enligt instruktionsbokens rekommendationer.</li></ol><p>Vi anger inte generella serviceintervall eller ersättningsoljor här eftersom motorbyte, transmissionstyp och manualversion påverkar vad som är korrekt.</p>"
+        }
+      ]
+    },
+    {
+      "id": "felsokning",
+      "heading": "12 · Felsökning",
+      "title": "Börja med symptomet – inte gissningen",
+      "headingId": "h-felsokning",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<div class=\"table-scroll\"><table><thead><tr><th>Symptom</th><th>Första kontrollen</th><th>Gå vidare med</th></tr></thead><tbody><tr><td>Startmotorn är tyst</td><td>Batteri, anslutningar och startvillkor</td><td>Elschema för rätt 850-version [S3]</td></tr><tr><td>Motorn drar runt men tänder inte</td><td>Bränsletillförsel, tändsystem och motoridentifiering</td><td>Motorns egen Briggs &amp; Stratton-manual</td></tr><tr><td>Den driver inte</td><td>Reglage, frihjuls-/kopplingsläge, synlig drivrem</td><td>Rätt manuell eller HST-serviceavsnitt [S3]</td></tr><tr><td>Ojämn klippning</td><td>Däcktryck, knivskick och aggregatläge</td><td>Justering av aggregat [S3–S4]</td></tr><tr><td>Styrningen glappar</td><td>Synliga vajrar, infästningar och led</td><td>Styrningsavsnitt i verkstadshandbok [S3]</td></tr></tbody></table></div><p>Tabellen är en ordning för första undersökningen, inte en säker diagnos. Om ett fel berör bromsar, säkerhetsbrytare eller styrning ska maskinen inte användas förrän felet åtgärdats.</p>"
+        }
+      ]
+    },
+    {
+      "id": "reservdelar",
+      "heading": "13 · Reservdelar",
+      "title": "Så undviker du felköp",
+      "headingId": "h-reservdelar",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p>Husqvarnas officiella reservdelsportal har separata kataloger för Rider 850 och Rider 850 HST med sprängskisser för bland annat motor, transmission, styrning och 85 cm-klippaggregat [S1–S2].</p><ol><li>Identifiera hela maskinen och avgör manuell eller HST.</li><li>Kontrollera aktuell komponent: original eller utbytt?</li><li>Öppna motsvarande sprängskiss hos Husqvarna.</li><li>Jämför hela artikelnumret och eventuella ersättningsnummer.</li><li>Stäm av mått, anslutningar och utförande före beställning.</li></ol><p>Det är olämpligt att lova kompatibilitet med andra Rider-modeller bara för att de ser lika ut. En historisk artikel i katalogen innebär inte heller att delen fortfarande går att köpa ny.</p>"
+        }
+      ]
+    },
+    {
+      "id": "koprad",
+      "heading": "14 · Köpråd",
+      "title": "Kontrollera före köp av en begagnad 850",
+      "headingId": "h-koprad",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<p class=\"lead\">Lägg mest tid på sådant som kan vara dyrt eller svårt att reparera: drivning, styrning, aggregat och motor.</p><ul><li><strong>Identitet:</strong> fotografera märkplåten och motorns märkning.</li><li><strong>Kallstart:</strong> be helst att få se maskinen före första start, så att varmkörning inte döljer problem.</li><li><strong>Drivning:</strong> prova körning i båda riktningar på säker plats; på manuell maskin ska växellägen fungera, på HST ska fartregleringen vara jämn.</li><li><strong>Styrning:</strong> kontrollera ovanligt stort spel och ojämn styrkänsla.</li><li><strong>Aggregat:</strong> titta efter rost, sprickor, lagermissljud och skadade knivar.</li><li><strong>Reservdelar:</strong> sök upp den aktuella katalogen innan du räknar med att kunna renovera maskinen billigt.</li></ul><p>Begagnatvärdet kan variera mycket med skick och plats. Utan aktuella avslutade försäljningar är ett specifikt prisintervall inte källbelagt här.</p>"
+        }
+      ]
+    },
+    {
+      "id": "faq",
+      "heading": "15 · Vanliga frågor",
+      "title": "Snabba svar om Rider 850",
+      "headingId": "h-faq",
+      "blocks": [
+        {
+          "type": "html",
+          "html": "<h3>Är Rider 850 och Rider 850 HST samma maskin?</h3><p>Nej. De hör till samma modellfamilj men har olika drivsystem. Rider 850 har manuell växellåda och 850 HST har hydrostat [S3].</p><h3>Vilken motor har Rider 850?</h3><p>Verkstadshandboken anger Briggs &amp; Stratton 10,5 hk på ett dokumenterat Rider 850-utförande och 12,5 hk på 850 HST. Kontrollera motorns egen märkning [S3].</p><h3>Har den 85 cm klippaggregat?</h3><p>Den dokumenterade originalkonfigurationen har 85 cm aggregat med bakutkast. Ett begagnat exemplar kan ha ändrats [S1, S3].</p><h3>Vad är Kanzaki K55?</h3><p>Den hydrostatiska transmissionsmodell som Husqvarnas verkstadshandbok anger för 850 HST [S3].</p><h3>Hur hittar jag rätt rem?</h3><p>Läs av aggregatets och maskinens märkning och använd motsvarande sprängskiss i Husqvarnas reservdelsportal [S1–S2].</p><h3>Kan jag följa 850 HST-manualen om jag har vanlig 850?</h3><p>Inte för transmission och drivreglage. Välj manual utifrån rätt utförande [S1–S4].</p>"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "[S1] Husqvarna – RIDER 850, officiell reservdelsportal",
+      "description": "Originalsprängskisser och dokument för vanlig Rider 850, bland annat manualen från 1999-01.",
+      "url": "https://shop-pa-v9.husqvarna.com/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcProduct=RIDER+850&modelId=Husqvarna-Riders_RIDER+850&storeId=11251"
+    },
+    {
+      "title": "[S2] Husqvarna – RIDER 850 HST, officiell reservdelsportal",
+      "description": "Separat IPL för HST-versionen, med manualer för hydrostatutförandet.",
+      "url": "https://shop-pa-v9.husqvarna.com/us/EPCProductView?catalogId=13051&epcBrandName=Husqvarna&epcProduct=RIDER+850+HST&modelId=Husqvarna-Riders_RIDER+850+HST&storeId=11251"
+    },
+    {
+      "title": "[S3] Husqvarna – verkstadshandbok 101 89 11-26",
+      "description": "Motorvarianter, Peerless-manuell låda, Kanzaki K55, mått, klippaggregat, styrning och felsökning.",
+      "url": "https://www.manualslib.com/manual/1915205/Husqvarna-Rider-850.html"
+    },
+    {
+      "title": "[S4] Husqvarna – Rider 850 / 970, operatörsmanual 101 89 35-26",
+      "description": "Husqvarnas original-PDF för Rider 850/970: körning, säkerhet, service och skötsel. Dokumenterad på Husqvarnas portal med datum 1999-01.",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000014075/doc000033203"
+    }
+  ],
+  "sourceHeading": "15 · Källor & manualer",
+  "sourceIntro": "Originalmanualer och reservdelsportaler som använts i den här guiden. Kontrollera alltid variant och motorns egna nummer.",
+  "sourceHelp": "Källorna avser olika utföranden. HST-uppgifter är inte automatiskt giltiga för manuell Rider 850.",
+  "sourceOutro": "<p class=\"small\">Källprincip: dokumentdatum är inte automatiskt tillverkningsår. Tekniska värden gäller dokumenterade utföranden; utbytta komponenter kan avvika.</p>",
+  "traderaBlock": {
+    "type": "tradera-follow",
+    "innerHtml": "<span class=\"tradera-eyebrow\">Begagnat och återbruk</span><h2>Letar du efter något till din Rider?</h2><p>Vi säljer ibland begagnade maskindelar och andra fynd på Tradera. Kontrollera alltid artikelnummer och passform innan köp.</p><a class=\"tradera-link\" href=\"/tradera.html\">Se våra annonser och fynd <span aria-hidden=\"true\">→</span></a>"
+  }
+}
