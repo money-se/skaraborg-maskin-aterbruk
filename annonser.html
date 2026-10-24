@@ -223,7 +223,34 @@
     @media(max-width:1050px){.products{grid-template-columns:repeat(3,minmax(0,1fr))}}
     @media(max-width:850px){.products{grid-template-columns:repeat(2,minmax(0,1fr))}}
     @media(max-width:600px){.products{grid-template-columns:1fr}.controls{align-items:stretch;flex-direction:column}.ad-search-field,.controls button{width:100%}.ad-trust{gap:7px}}
-  </style>
+  
+/* Annonsreservvisning – samma form och kontaktordning som genererade annonssidor */
+.detail{margin-top:24px}.detail-top{margin-bottom:18px}.detail-top button{border:1px solid #c7d8ca;background:#eaf1ea;color:#1f3322;padding:12px 18px;border-radius:11px;font-weight:800;cursor:pointer}
+.detail .brand-banner{padding:30px;border-radius:18px;margin:0 0 20px;background:radial-gradient(circle at 85% 15%,#ffffff1c,transparent 40%),linear-gradient(135deg,#1f2d1f,#304936)}
+.detail .brand-banner strong{font-size:27px;line-height:1.15;display:block}.detail .brand-banner p{font-size:15px;margin-top:9px}
+.detail .detail-layout{grid-template-columns:minmax(0,1.7fr) minmax(285px,.9fr);gap:22px}
+.detail .detail-main,.detail .business-panel{background:#fff;border:1px solid #dfe7df;border-radius:18px;box-shadow:0 12px 35px #2038260d;padding:25px}
+.detail .detail-main h2{font-size:clamp(28px,4vw,38px);margin:0 0 8px;line-height:1.16}
+.detail .detail-price{font-size:34px;font-weight:900;color:#214e2f;margin:0 0 13px}
+.detail .ad-meta{margin:0 0 23px}.detail .ad-meta.pending{background:#fff1d6;color:#714e09}
+.detail .gallery-main{background:#eaf1ea;border-radius:14px;min-height:265px;aspect-ratio:1.42}.detail .gallery-main img{height:100%;max-height:530px;object-fit:contain}
+.detail .thumb{margin-bottom:17px}.detail .thumb button{border-color:transparent}.detail .thumb button[aria-pressed="true"]{border-color:#296d40}
+.detail .detail-main h3{font-size:23px;line-height:1.2;margin:8px 0 14px}.detail .description{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.65}
+.detail .business-panel{position:sticky;top:96px;background:#fff!important;box-shadow:0 12px 35px #2038260d}.detail .business-panel:before{display:none}
+.detail .business-panel h3{font-size:24px;line-height:1.2;color:#142017;margin:0 0 15px}
+.detail .business-panel .contact-action{display:flex;justify-content:center;align-items:center;min-height:51px;width:100%;text-align:center;border:1px solid #1f3322;border-radius:12px;font-weight:850;padding:13px 18px;background:#1f3322;color:white;margin-top:10px}
+.detail .business-panel .contact-action:hover{background:#304936}.detail .business-panel .contact-action.secondary{border-color:#b6cdb9;background:#eaf1ea;color:#1f3322}
+.detail .business-panel .contact-action.secondary:hover{background:#d7e8d8}
+.detail .business-panel .contact-action[disabled]{opacity:.5}
+.detail .business-panel .ad-help{margin-top:18px;border-top:1px solid #dfe7df;padding-top:17px;color:#536457;font-size:14px}
+.detail .business-panel .ad-help p{margin:8px 0}
+.detail .business-panel .business-details{color:#526253}
+.detail .detail-pending{padding:16px;background:#fff3d9;border-radius:12px;color:#6d511c;font-weight:750}
+.detail .detail-main .placeholder{width:100%;height:300px;border-radius:14px}
+.detail .ad-contact{border:0;margin:14px 0 0;padding:0}
+@media(max-width:860px){.detail .detail-layout{grid-template-columns:1fr}.detail .business-panel{position:static}}
+@media(max-width:600px){.detail .detail-main,.detail .business-panel{padding:18px}.detail .brand-banner{padding:22px}.detail .thumb button{flex-basis:71px;height:66px}}
+.ad-view-link{display:flex;align-items:center;justify-content:center;margin-top:13px;min-height:47px;background:#1f3322;border-radius:10px;color:#fff!important;text-decoration:none;font-weight:850}.ad-view-link:hover{background:#304936}</style>
   <script defer src="/statistik-raknare.js" data-page="annonser"></script>
 </head>
 <body>
@@ -319,13 +346,57 @@ const $=id=>document.getElementById(id);let records=[];function zoom(src,alt){co
 function imageUrl(path){return db.storage.from('ad-images').getPublicUrl(path).data.publicUrl}
 function button(label,fn){const b=document.createElement('button');b.textContent=label;b.addEventListener('click',fn);return b}
 async function load(){const r=await db.from('ads').select('id,title,description,price_sek,status,image_paths,created_at,location_name,marketplace_url').in('status',['sale','pending']).eq('published',true).order('created_at',{ascending:false}).limit(300);if(r.error){$('status').textContent='Kunde inte hämta annonser just nu.';return}records=r.data;render()}
-function render(){const q=$('q').value.trim().toLocaleLowerCase('sv-SE');const items=records.filter(x=>x.title.toLocaleLowerCase('sv-SE').includes(q));$('status').textContent=items.length+' annonser';const list=$('products');list.replaceChildren();for(const ad of items){const card=document.createElement('article');card.className='card';if(ad.image_paths?.length){const img=document.createElement('img');img.src=imageUrl(ad.image_paths[0]);img.loading='lazy';img.alt=ad.title;card.append(img)}else{const p=document.createElement('div');p.className='placeholder';p.textContent='Bild saknas';card.append(p)}const body=document.createElement('div');body.className='body';const h=document.createElement('h2');h.textContent=ad.title;body.append(h);const price=document.createElement('div');price.className='price';price.textContent=ad.price_sek.toLocaleString('sv-SE')+' kr';body.append(price);const badge=document.createElement('span');badge.className='badge'+(ad.status==='pending'?' pending':'');badge.textContent=ad.status==='pending'?'Väntande – reserverad':'Till salu';body.append(badge);body.append(button('Visa annons',async()=>{const slug=ad.title.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,65).replace(/-$/,'')||'maskin';const path='/annonser/'+slug+'-'+ad.id.slice(0,8)+'.html';try{const check=await fetch(path,{method:'HEAD',cache:'no-store'});if(check.ok){window.location.assign(path);return}}catch(e){}detail(ad)}));card.append(body);list.append(card)}}
-function detail(ad){window.SMStats?.record('annons:'+ad.id);$('overview').classList.add('hidden');const box=$('detail');box.replaceChildren();const bar=document.createElement('div');bar.className='detail-top';bar.append(button('← Tillbaka till annonser',()=>{box.classList.add('hidden');$('overview').classList.remove('hidden')}));box.append(bar);
-const banner=document.createElement('div');banner.className='brand-banner';const bt=document.createElement('strong');bt.textContent='Skaraborg Maskin & Återbruk';const bp=document.createElement('p');bp.textContent='Begagnade maskiner, redskap och återbruk från Hjo';banner.append(bt,bp);box.append(banner);
-const layout=document.createElement('div');layout.className='detail-layout';const main=document.createElement('article');main.className='detail-main';const title=document.createElement('h2');title.textContent=ad.title;main.append(title);const price=document.createElement('div');price.className='detail-price';price.textContent=Number(ad.price_sek).toLocaleString('sv-SE')+' kr';main.append(price);
-if(ad.image_paths?.length){const frame=document.createElement('div');frame.className='gallery-main';const image=document.createElement('img');image.src=imageUrl(ad.image_paths[0]);image.alt=ad.title+' – bild 1';image.style.cursor='zoom-in';image.addEventListener('click',e=>{e.stopPropagation();zoom(image.src,image.alt)});frame.append(image);frame.tabIndex=0;frame.setAttribute('role','button');frame.setAttribute('aria-label','Förstora vald bild');frame.addEventListener('click',()=>zoom(image.src,image.alt));frame.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();zoom(image.src,image.alt)}});main.append(frame);const thumbs=document.createElement('div');thumbs.className='thumb';thumbs.setAttribute('aria-label','Fler bilder på annonsen');ad.image_paths.forEach((path,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Visa bild '+(i+1)+' av '+ad.image_paths.length);b.setAttribute('aria-pressed',String(i===0));const img=document.createElement('img');img.src=imageUrl(path);img.loading='lazy';img.alt='Miniatyr '+(i+1);b.append(img);b.addEventListener('click',()=>{image.src=imageUrl(path);image.alt=ad.title+' – bild '+(i+1);for(const button of thumbs.children)button.setAttribute('aria-pressed',String(button===b))});thumbs.append(b)});main.append(thumbs)}
-const state=document.createElement('span');state.className='ad-meta';state.textContent=ad.status==='pending'?'Reserverad / väntande':'Till salu';main.append(state);const heading=document.createElement('h3');heading.textContent='Om maskinen';main.append(heading);const desc=document.createElement('p');desc.className='description';desc.textContent=ad.description||'Kontakta oss för mer information om maskinen.';main.append(desc);if(ad.marketplace_url){const mp=document.createElement('p');const a=document.createElement('a');a.href=ad.marketplace_url;a.target='_blank';a.rel='noopener noreferrer';a.className='contact-action';a.textContent='Visa Marketplace-annons ↗';mp.append(a);main.append(mp)}const info=document.createElement('p');info.className='muted';info.textContent='Begagnade varor säljs i befintligt skick. Fråga gärna om fler bilder eller information före köp.';main.append(info);if(ad.status==='sale'){const action=document.createElement('div');action.className='ad-contact';const link=document.createElement('a');link.href='https://www.facebook.com/profile.php?id=61588383880828';link.target='_blank';link.rel='noopener noreferrer';link.className='contact-action';link.textContent='2. Öppna Messenger';link.setAttribute('aria-label','Kontakta oss om '+ad.title);link.textContent='Besök vår Facebooksida';action.append(link);const help=document.createElement('p');help.className='muted';help.textContent='Öppna vår Facebooksida och välj Meddelande. Skriv gärna vilken annons det gäller: '+ad.title+'.';action.append(help);main.append(action)}else{const notice=document.createElement('p');notice.className='muted';notice.textContent='Annonsen är väntande. Vi tar inte emot nya förfrågningar just nu.';main.append(notice)}layout.append(main);
-const aside=document.createElement('aside');aside.className='business-panel';const h=document.createElement('h3');h.textContent='Handla av oss i Skaraborg';const p=document.createElement('p');p.textContent='Vi arbetar med begagnade maskiner, redskap och återbruk. Hör gärna av dig om objektet eller om du har något du vill sälja.';aside.append(h,p);const points=document.createElement('ul');points.className='business-details';for(const t of ['Vi finns i Hjo','Frågor och visning enligt överenskommelse','Vi beskriver skick och kända brister i annonserna']){const li=document.createElement('li');li.textContent=t;points.append(li)}aside.append(points);const more=document.createElement('a');more.href='om-oss.html';more.textContent='Läs mer om företaget →';aside.append(more);layout.append(aside);box.append(layout);box.classList.remove('hidden');window.scrollTo(0,0)}
+function adPath(ad){const slug=ad.title.toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'').slice(0,65).replace(/-$/,'')||'maskin';return '/annonser/'+slug+'-'+ad.id.slice(0,8)+'.html'}
+function render(){const q=$('q').value.trim().toLocaleLowerCase('sv-SE');const items=records.filter(x=>(x.title||'').toLocaleLowerCase('sv-SE').includes(q));$('status').textContent=items.length+' annonser';const list=$('products');list.replaceChildren();for(const ad of items){const card=document.createElement('article');card.className='card';if(ad.image_paths?.length){const img=document.createElement('img');img.src=imageUrl(ad.image_paths[0]);img.loading='lazy';img.alt=ad.title;card.append(img)}else{const p=document.createElement('div');p.className='placeholder';p.textContent='Bild saknas';card.append(p)}const body=document.createElement('div');body.className='body';const h=document.createElement('h2');h.textContent=ad.title;body.append(h);const price=document.createElement('div');price.className='price';price.textContent=Number(ad.price_sek).toLocaleString('sv-SE')+' kr';body.append(price);const badge=document.createElement('span');badge.className='badge'+(ad.status==='pending'?' pending':'');badge.textContent=ad.status==='pending'?'Reserverad':'Till salu';body.append(badge);
+const a=document.createElement('a');a.href=adPath(ad);a.className='ad-view-link';a.textContent='Visa annons →';a.setAttribute('aria-label','Visa annonsen för '+ad.title);a.addEventListener('click',async e=>{if(e.ctrlKey||e.metaKey||e.shiftKey||e.altKey)return;e.preventDefault();try{const check=await fetch(a.href,{method:'HEAD',cache:'no-store'});if(check.ok){window.location.assign(a.href);return}}catch(error){console.info('Reservvisning används',error)}detail(ad)});body.append(a);card.append(body);list.append(card)}}
+
+function detail(ad){
+  window.SMStats?.record('annons:'+ad.id);
+  $('overview').classList.add('hidden');
+  const box=$('detail');box.replaceChildren();
+  const bar=document.createElement('div');bar.className='detail-top';bar.append(button('← Tillbaka till annonser',()=>{box.classList.add('hidden');$('overview').classList.remove('hidden');$('q').focus();document.getElementById('annonser')?.scrollIntoView()}));box.append(bar);
+  const banner=document.createElement('div');banner.className='brand-banner';
+  const bt=document.createElement('strong');bt.textContent='Skaraborg Maskin & Återbruk';
+  const bp=document.createElement('p');bp.textContent='Begagnat · '+(ad.location_name||'Hjo')+' · Skaraborg';banner.append(bt,bp);box.append(banner);
+  const layout=document.createElement('div');layout.className='detail-layout';
+  const main=document.createElement('article');main.className='detail-main';
+  const title=document.createElement('h2');title.textContent=ad.title;main.append(title);
+  const price=document.createElement('div');price.className='detail-price';price.textContent=Number(ad.price_sek).toLocaleString('sv-SE')+' kr';main.append(price);
+  const state=document.createElement('span');state.className='ad-meta'+(ad.status==='pending'?' pending':'');
+  state.textContent=ad.status==='pending'?'Reserverad':'Till salu';main.append(state);
+  if(ad.image_paths?.length){
+    const frame=document.createElement('div');frame.className='gallery-main';
+    const image=document.createElement('img');image.src=imageUrl(ad.image_paths[0]);image.alt=ad.title+' – bild 1';
+    image.style.cursor='zoom-in';image.addEventListener('click',e=>{e.stopPropagation();zoom(image.src,image.alt)});frame.append(image);
+    frame.tabIndex=0;frame.setAttribute('role','button');frame.setAttribute('aria-label','Förstora vald bild');
+    frame.addEventListener('click',()=>zoom(image.src,image.alt));
+    frame.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();zoom(image.src,image.alt)}});
+    main.append(frame);
+    const thumbs=document.createElement('div');thumbs.className='thumb';thumbs.setAttribute('aria-label','Fler bilder på annonsen');
+    ad.image_paths.forEach((path,i)=>{const b=document.createElement('button');b.type='button';b.setAttribute('aria-label','Visa bild '+(i+1)+' av '+ad.image_paths.length);b.setAttribute('aria-pressed',String(i===0));const img=document.createElement('img');img.src=imageUrl(path);img.loading='lazy';img.alt='';b.append(img);b.addEventListener('click',()=>{image.src=imageUrl(path);image.alt=ad.title+' – bild '+(i+1);for(const other of thumbs.children)other.setAttribute('aria-pressed',String(other===b))});thumbs.append(b)});
+    main.append(thumbs);
+  }else{const missing=document.createElement('div');missing.className='placeholder';missing.textContent='Ingen produktbild tillgänglig';main.append(missing)}
+  const heading=document.createElement('h3');heading.textContent='Om objektet';main.append(heading);
+  const desc=document.createElement('p');desc.className='description';desc.textContent=ad.description||'Kontakta oss för mer information om objektet.';main.append(desc);
+  const info=document.createElement('p');info.className='muted';info.textContent='Begagnade varor säljs i befintligt skick. Fråga gärna om funktion, kända fel och fler bilder före köp.';main.append(info);
+  layout.append(main);
+  const aside=document.createElement('aside');aside.className='business-panel';
+  const h=document.createElement('h3');h.textContent='Intresserad av objektet?';aside.append(h);
+  const amount=document.createElement('div');amount.className='detail-price';amount.textContent=Number(ad.price_sek).toLocaleString('sv-SE')+' kr';aside.append(amount);
+  if(ad.status==='sale'){
+    const sms=document.createElement('a');sms.href='sms:+46727483256';sms.className='contact-action';sms.textContent='Skicka SMS om annonsen →';aside.append(sms);
+    const fb=document.createElement('a');fb.href='https://www.facebook.com/profile.php?id=61588383880828';fb.target='_blank';fb.rel='noopener noreferrer';fb.className='contact-action secondary';fb.textContent='Kontakta oss via Facebook ↗';aside.append(fb);
+  }else{const blocked=document.createElement('div');blocked.className='detail-pending';blocked.textContent='Objektet är reserverat. Inga nya förfrågningar just nu.';aside.append(blocked)}
+  if(/^https:\/\/(?:www\.|m\.|web\.)?facebook\.com\/(?:marketplace\/|share\/)/.test(ad.marketplace_url||'')){
+    const mp=document.createElement('a');mp.href=ad.marketplace_url;mp.target='_blank';mp.rel='noopener noreferrer';mp.className='contact-action secondary';mp.textContent='Visa annonsen på Marketplace ↗';aside.append(mp);
+  }
+  const copy=button('Kopiera annonsens namn',async()=>{try{await navigator.clipboard.writeText(ad.title);copy.textContent='Annonsnamnet kopierat ✓'}catch(e){copy.textContent='Kopiera annonsens rubrik manuellt'}});copy.className='contact-action secondary';aside.append(copy);
+  const help=document.createElement('div');help.className='ad-help';const helpText=document.createElement('p');
+  helpText.textContent='Ange gärna annonsens namn när du kontaktar oss: '+ad.title+'.';help.append(helpText);
+  const helpSecond=document.createElement('p');helpSecond.textContent='Visning, betalning och eventuell hämtning sker efter överenskommelse.';help.append(helpSecond);
+  const more=document.createElement('a');more.href='om-oss.html';more.textContent='Läs mer om oss →';help.append(more);aside.append(help);
+  layout.append(aside);box.append(layout);box.classList.remove('hidden');box.scrollIntoView({behavior:'instant',block:'start'});
+}
 $('q').addEventListener('input',render);$('refresh').addEventListener('click',load);load();
 </script>
   <noscript><div style="padding:16px;text-align:center;background:#fff">Annonserna kräver JavaScript. Du kan även se våra andra försäljningskanaler på <a href="till-salu.html">Till salu</a>.</div></noscript>
