@@ -1,0 +1,1694 @@
+{
+  "schemaVersion": 1,
+  "slug": "transmission-hydro-gear-commercial-3400-4400",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "Komponentbunden forskning om Hydro-Gear ZT-3400, ZT-3600, ZT-3800 och ZT-4400. Specifikationerna gäller familje-/prefixnivå, inte identifierad maskin-BOM.",
+  "sources": [
+    {
+      "id": "hg-cross",
+      "title": "Hydro-Gear Cross Reference Guide",
+      "document": "Hydro-Gear model prefix and series cross reference",
+      "url": "https://www.hydro-gear.com/cross-reference-guide/",
+      "tier": 1
+    },
+    {
+      "id": "hg-3400",
+      "title": "Hydro-Gear ZT-3400 official product",
+      "document": "Product specifications ZT-3400",
+      "url": "https://www.hydro-gear.com/product/zt-3400/",
+      "tier": 1
+    },
+    {
+      "id": "hg-3600",
+      "title": "Hydro-Gear ZT-3600 official product",
+      "document": "Product specifications ZT-3600",
+      "url": "https://www.hydro-gear.com/product/zt-3600/",
+      "tier": 1
+    },
+    {
+      "id": "hg-3800",
+      "title": "Hydro-Gear ZT-3800 official product",
+      "document": "Product specifications ZT-3800",
+      "url": "https://www.hydro-gear.com/product/zt-3800/",
+      "tier": 1
+    },
+    {
+      "id": "hg-4400",
+      "title": "Hydro-Gear ZT-4400 official product",
+      "document": "Product specifications ZT-4400",
+      "url": "https://www.hydro-gear.com/product/zt-4400/",
+      "tier": 1
+    },
+    {
+      "id": "hg-service",
+      "title": "Hydro-Gear Service and Repair Manuals official index",
+      "document": "Official OEM download index",
+      "url": "https://www.hydro-gear.com/service-repair-manuals/",
+      "tier": 1
+    },
+    {
+      "id": "hg-4400-manual",
+      "title": "Hydro-Gear ZT-4400 Service and Repair Manual",
+      "document": "OEM ZT-4400 service manual",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2021/09/ZT-4400-Service-and-Repair-Manual.pdf",
+      "tier": 1
+    },
+    {
+      "id": "hg-oil-service-kits",
+      "tier": 1,
+      "title": "Hydro-Gear Commercial Transaxle Oil Service Kits",
+      "document": "Official manufacturer's service kit information, accessed 2026-10-22",
+      "url": "https://www.hydro-gear.com/oil/"
+    },
+    {
+      "id": "hg-bln0108-2023",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-3400 ZT-3600 ZT-3800 Service and Repair Manual",
+      "document": "BLN-0108 January 2023, original manufacturer PDF",
+      "url": "https://www.hydro-gear.com/wp-content/uploads/2023/03/BLN-0108_3400_3600_3800.pdf"
+    },
+    {
+      "id": "hg-1710-1076l-bom-p6",
+      "tier": 2,
+      "title": "Hydro-Gear ZT-4400 BOM-specific service schematic 1710-1076L",
+      "document": "OEM ZT-4400 service schematic 73045 P6, model 1710-1076L, 3 pages, hosted by ManualsPlus",
+      "url": "https://manuals.plus/m/250ef70b8d14bc66d149ec675dbcb4b5a3113d374ec7c42da572556effcbb0a8.pdf"
+    },
+    {
+      "id": "hg-1710-1057l-bom-p6",
+      "tier": 2,
+      "title": "Hydro-Gear 1710-1057L ZT-4400 parts breakdown",
+      "document": "OEM schematic 73045 P6, 3-page BOM hosted by device.report",
+      "url": "https://device.report/m/b0c1781d803b7819acc981238937a14a502272f80bac616a888ec1a91016dd23.pdf"
+    }
+  ],
+  "claims": [
+    {
+      "id": "cross-0",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZS, ZU, ZW, ZY, Z6 som modellfamiljen ZT-3400; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-1",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZX som modellfamiljen ZT-3600; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-2",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZZ som modellfamiljen ZT-3800; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-3",
+      "statement": "Hydro-Gears officiella prefixlista identifierar 1710 som modellfamiljen ZT-4400; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-4",
+      "statement": "Hydro-Gears officiella prefixlista identifierar 1015 som modellfamiljen ZT-5400; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-5400",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-5",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZH–ZM som modellfamiljen ZT-2800/3100/3200; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-2800/3100/3200",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-6",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZA–ZD som modellfamiljen ZT-2200 EZT; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-2200 EZT",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-7",
+      "statement": "Hydro-Gears officiella prefixlista identifierar ZF som modellfamiljen ZT-2100; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-2100",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "cross-8",
+      "statement": "Hydro-Gears officiella prefixlista identifierar 1910 som modellfamiljen ZT-1800; prefixet ensamt identifierar inte komplett BOM eller serienummer.",
+      "variant": "ZT-1800",
+      "sourceId": "hg-cross",
+      "locator": "Cross-Reference List, prefix table",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "3400-pump",
+      "statement": "ZT-3400: Pumpdeplacement 12 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-motor",
+      "statement": "ZT-3400: Motordeplacement 16 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-axle",
+      "statement": "ZT-3400: Drivaxeldiameter 1,125 tum [28,56 mm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-output",
+      "statement": "ZT-3400: Maximalt angivet utgående moment upp till 500 lb-ft [677 Nm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-speed",
+      "statement": "ZT-3400: Högsta angivna hastighet upp till 10 mph [16 km/h]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-weight",
+      "statement": "ZT-3400: Angiven högsta total maskinvikt upp till 1600 lb [725 kg]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-idle",
+      "statement": "ZT-3400: Ingångsvarvtal 3600 rpm max tomgång utan last och 1800 rpm min under last. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-ratio",
+      "statement": "ZT-3400: Modellvarianterna ZS/ZU/ZY anges med utväxlingarna 21,04:1 / 23,16:1 / 21,09:1. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-package",
+      "statement": "ZT-3400: Performance Package anges innehålla chockventiler, frästa stålkugghjul och laddpump; standard-BOM kan avvika. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-end",
+      "statement": "ZT-3400: Tillgängliga axeländar omfattar konisk, 4-bultsfläns och 5-bultsfläns. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3400-iet",
+      "statement": "ZT-3400: Intern expansionstank anges som tillval. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3400",
+      "sourceId": "hg-3400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-pump",
+      "statement": "ZT-3600: Pumpdeplacement 12 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-motor",
+      "statement": "ZT-3600: Motordeplacement 16 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-axle",
+      "statement": "ZT-3600: Drivaxeldiameter 1,125 tum [28,56 mm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-ratio",
+      "statement": "ZT-3600: Övergripande utväxling 23,16:1 för ZX. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-output",
+      "statement": "ZT-3600: Utgående moment upp till 500 lb-ft [677 Nm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-speed",
+      "statement": "ZT-3600: Högsta angivna hastighet 10 mph [16 km/h]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-weight",
+      "statement": "ZT-3600: Högsta angivna total maskinvikt 1600 lb [725 kg]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-idle",
+      "statement": "ZT-3600: Ingångsvarvtal 3600 rpm max tomgång utan last och 1800 rpm min under last. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-package",
+      "statement": "ZT-3600: Performance Package kan omfatta chockventiler, helstålsdrivlina och större laddpump. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-iet",
+      "statement": "ZT-3600: Intern expansionstank erbjuds som tillval. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3600-ends",
+      "statement": "ZT-3600: Axeländar finns som konisk, 4-bultsfläns eller 5-bultsfläns. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3600",
+      "sourceId": "hg-3600",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-pump",
+      "statement": "ZT-3800: Pumpdeplacement 12 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-motor",
+      "statement": "ZT-3800: Motordeplacement 16 cc/varv. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-ratio",
+      "statement": "ZT-3800: Övergripande utväxling 21,09:1 för ZZ. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-axle",
+      "statement": "ZT-3800: Drivaxeldiameter 1,125 tum [28,56 mm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-output",
+      "statement": "ZT-3800: Utgående moment upp till 500 lb-ft [677 Nm]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-speed",
+      "statement": "ZT-3800: Högsta angivna hastighet upp till 11 mph [17 km/h]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-weight",
+      "statement": "ZT-3800: Högsta total maskinvikt upp till 1800 lb [816 kg]. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-idle",
+      "statement": "ZT-3800: Ingångsvarvtal 3600 rpm max tomgång utan last och 1800 rpm min under last. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-cooler",
+      "statement": "ZT-3800: Port för oljekylare anges som tillval, inte allmänt standardutförande. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-iet",
+      "statement": "ZT-3800: Intern expansionstank anges som tillval. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-housing",
+      "statement": "ZT-3800: Tillverkaren beskriver uppgraderat transmissionshus, stålkugghjul och större axellager för högre belastning. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "3800-ends",
+      "statement": "ZT-3800: Axeländar kan vara koniska, 4-bultsfläns eller 5-bultsfläns. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-3800",
+      "sourceId": "hg-3800",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-pump",
+      "statement": "ZT-4400: Pumpdeplacement 12 cc/varv enligt produktsida. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-motor",
+      "statement": "ZT-4400: Motor 16 cc/varv enligt avrundad produktbeskrivning. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-axle",
+      "statement": "ZT-4400: Drivaxeldiameter 1-3/8 tum enligt produktsida. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-weight",
+      "statement": "ZT-4400: Tillverkaren anger fordon upp till 1800 lb. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-bearing",
+      "statement": "ZT-4400: Kraftiga rullager och axiallagring med hög kapacitet beskrivs av tillverkaren. Specifikationen gäller tillverkarens familjeuppgifter och är inte bevis för identisk OEM-BOM.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400",
+      "locator": "Hydro-Gear product page, Product Specs / product description",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "4400-manual-motor",
+      "statement": "ZT-4400-servicemanual anger största motorvolym 16,4 cc/varv vid fullt slag, medan produktsidans kortform avrundar till 16 cc. Dessa värden ska inte registreras som teknisk motsägelse utan revisions-/avrundningskontroll.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400-manual",
+      "locator": "Description and Operation, General Description",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "4400-manual-bypass",
+      "statement": "ZT-4400-manualen anger begränsning vid manuell förflyttning med öppnad bypass till högst 2 mph (3,2 km/h) kort sträcka.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400-manual",
+      "locator": "Description and Operation, Hydraulic Bypass",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "4400-manual-brake",
+      "statement": "ZT-4400 har enligt tillverkarens servicemanual en intern flytande skivbroms aktiverad med kamarm.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-4400-manual",
+      "locator": "Description and Operation, General Description",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "service-scope-3400",
+      "statement": "Tillverkarens manualarkiv har separat servicemanual för ZT-3400/3600/3800; serviceprocedurerna för ZT-2800-familjen kan inte generellt återanvändas.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-service",
+      "locator": "TRANSAXLES, ZT-3400 ZT-3600 ZT-3800 Manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "service-scope-4400",
+      "statement": "Tillverkaren publicerar en egen servicemanual för ZT-4400 skild från ZT-3400/3600/3800.",
+      "variant": "ZT-4400",
+      "sourceId": "hg-service",
+      "locator": "TRANSAXLES, ZT-4400 Service Manual",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "oilkit-72750-range",
+      "statement": "Hydro-Gear anger oljeservicesats artikel 72750 för ZT-2800 till och med ZT-3800 enligt huvudrubriken på servicesidan. Delar av sidans löptext säger dock bara till ZT-3600, så ZT-3800-tillämpningen måste dubbelkontrolleras före beställning.",
+      "variant": "ZT-2800–ZT-3800, sidans motstridiga sortimentsangivelse",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "Oil Service Kit 72750 heading and ordering paragraph",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "oilkit-72750-contents",
+      "statement": "Oljeservicesats 72750 innehåller fem amerikanska quarts Hydro-Gear Commercial Transaxle Oil, två Hydro-Gear-filter samt en anslutning med pump för oljepåfyllning.",
+      "variant": "ZT-2800–ZT-3800 enligt officiell satsrubrik",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "THIS KIT INCLUDES, part no 72750",
+      "topic": "L",
+      "grade": "A"
+    },
+    {
+      "id": "oilkit-72881-range",
+      "statement": "Hydro-Gears oljeservicesats artikel 72881 anges för ZT-4400 till ZT-5400, skild från sats 72750.",
+      "variant": "ZT-4400 / ZT-5400",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "Oil Service Kit 72881 heading",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "oilkit-72881-contents",
+      "statement": "Sats 72881 innehåller tio amerikanska quarts Hydro-Gear Commercial Transaxle Oil, två originalfilter och O-ringar för filterkåpor.",
+      "variant": "ZT-4400 / ZT-5400",
+      "sourceId": "hg-oil-service-kits",
+      "locator": "THIS KIT INCLUDES, part no 72881",
+      "topic": "L",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-housing",
+      "statement": "ZT-4400 manual BLN-0081 anger husets skruvar pos17 till 280–340 in-lb (31,6–38,4 Nm). Detta är inte samma moment som de mindre ZT-familjernas kåpor.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 17",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-center",
+      "statement": "ZT-4400 manual BLN-0081 anger mittsektionsskruvar pos18 och pos19 till 450–550 in-lb (50,8–62,1 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values items 18/19",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-charge-cover",
+      "statement": "ZT-4400 manual BLN-0081 anger laddpumpens kåpskruvar pos51 till 80–120 in-lb (9,0–13,5 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 51",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-brake-shaft",
+      "statement": "ZT-4400 manual BLN-0081 anger mutter på bromsaxel pos87 till 660–800 in-lb (74,5–90,3 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 87",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-oilfillvent",
+      "statement": "ZT-4400 manual BLN-0081 anger oljefyllnings-/ventilationsplugg pos142 till 32–42 in-lb (3,6–4,7 Nm).",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 142",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-filter-plug",
+      "statement": "ZT-4400 manual BLN-0081 anger oljefilterkåpans plugg pos102 till 200–300 in-lb men saknar metrisk omräkning. Använd in-lb-värdet som originalspecifikation, inte ett ifyllt Nm-värde.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 102",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-torque-castlenut-discrepancy",
+      "statement": "ZT-4400 manual BLN-0081 har motsägande enheter för kronmutter pos120: 275–350 ft-lb trycks bredvid 31,1–39,54 Nm; omräkningen är orimlig (275 ft-lb ≈373 Nm). Kontrollera senare OEM-bulletin och använd inte det felaktiga metriskvärdet.",
+      "variant": "ZT-4400, BLN-0081 januari 2018, pos120",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 15, Required Torque Values item 120 and footnote",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-motor-exact-16-4",
+      "statement": "ZT-4400 manual BLN-0081 anger exakt motorvolym 16,4 cc/varv medan produktsidan använder avrundat värde 16 cc/varv. Detta är skillnad i precision, inte stöd för två olika motorutföranden.",
+      "variant": "ZT-4400, 2018 manual vs manufacturer product page",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 6, Technical Specifications; printed page 2, General Description",
+      "topic": "D",
+      "grade": "A"
+    },
+    {
+      "id": "4400-label-bom",
+      "statement": "ZT-4400-manualens figur 2 illustrerar en etikett med separat BOM Model Number (exempel 1710-1001R), tillverkningsår, julianskt dagsnummer och serienummer; de ska läsas separat vid identifiering.",
+      "variant": "ZT-4400, printed model example only",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed page 6, Figure 2 Configuration Label",
+      "topic": "A",
+      "grade": "A"
+    },
+    {
+      "id": "bln0108-change-interval",
+      "statement": "Tillverkaren rekommenderar första olje- och filterbyte efter 75–100 timmar, därefter var 400:e drifttimme.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, FLUID CHANGE PROCEDURE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-cold-iet",
+      "statement": "För transmission med intern expansionstank måste oljan svalna under 100 °F före oljebyte för att undvika överfyllning och skada på avluftningen.",
+      "variant": "ZT-3400/3600/3800 med intern expansionstank",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, CAUTION",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-service-oil-filter",
+      "statement": "Vid vätskebyte anges originalfilter Hydro-Gear 52114 eller motsvarande, med tunn oljefilm på packningen.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-filter-handturn",
+      "statement": "Nytt filter dras för hand 3/4–1 helt varv efter att filterpackningen berört filterbasen.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-both-transaxles",
+      "statement": "Vid oljebyte föreskriver manualen att proceduren upprepas för den motsatta sidans transmission.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 6",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-oil-fill-sideport",
+      "statement": "Vid fyllning används SAE 20W50-motorolja tills oljenivån når underkanten av sidoport 11, vilket manualen ungefär anger som 2 US quarts per transaxel; den exakta mängden beror på installation och utförande.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 8–10",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-exttank-cold",
+      "statement": "För utförande med extern expansionstank fylls också tanken till Full Cold-markeringen. OEM-fordonets manual avgör den separata tankens volym.",
+      "variant": "ZT-3400/3600/3800 med extern expansionstank",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 9–13",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-noext-topplug",
+      "statement": "För utförande utan extern expansionstank hanteras toppens fyllplugg position 5 i stället för stegen för separat expansionstank.",
+      "variant": "ZT-3400/3600/3800 utan extern tank",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, NOTE före steg 10 och efter steg 11",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-port-torque-conflict",
+      "statement": "BLN-0108 tryckt sida 11 anger 120 in-lb för sidoportplugg 11 samtidigt som 20,3 Nm anges. 120 in-lb motsvarar cirka 13,56 Nm: de tryckta enheterna är motsägelsefulla och ska verifieras mot aktuell tillverkarrevision innan åtdragning.",
+      "variant": "ZT-3400/3600/3800, 2023 BLN-0108",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 11",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-purge-required",
+      "statement": "Oljeserviceproceduren avslutas med hänvisning till separat avluftningsprocedur på tryckt sida 12.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 11, steg 14",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-filter-service-tool",
+      "statement": "Vid filterbyte rekommenderas hylsformad filteravdragare; band-/remnyckel kan deformera filterburken om tätningen fastnat efter upprepade temperaturcykler.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 10, FILTER AND FILTER GUARD",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-internal-service-filter",
+      "statement": "Hydro-Gear anger att filtret alltid ska bytas vid invändigt underhåll på transmissionen.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 10, NOTE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0108-fill-port-choice",
+      "statement": "Filterservicen skiljer mellan metallplugg pos.5 och anslutning pos.111 beroende på aktuell enhets utförande.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt sida 10, figur 4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-interval",
+      "statement": "Hydro-Gear rekommenderar initialt olje- och filterbyte efter 100 timmar på ZT-4400, därefter vid 400-timmarsintervall eller årligen, vilket som inträffar först.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, FLUID CHANGE PROCEDURE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-volume",
+      "statement": "ZT-4400-servicemanualen anger 3450–3550 ml, motsvarande 117–120 US fl oz, som oljemängd för transaxeln; expansionsslang och expansionstank ingår uttryckligen inte.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, figur 3 och Note",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-filter-cover-seal",
+      "statement": "Vid ZT-4400-oljebyte ska O-ringen i filterkåpan kasseras och ersättas tillsammans med nytt filter före kåpans återmontering.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, steg 1–3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-oil-type",
+      "statement": "ZT-4400 fylls med 20W50-motorolja via expansions-/fyllport och expansionssystemet fylls till fordonets angivna nivå.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, steg 4–5",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "bln0081-4400-purge-after",
+      "statement": "ZT-4400-serviceinstruktionen kräver fortsatt avluftning efter oljebytet enligt tryckt sida 11.",
+      "variant": "ZT-4400, BLN-0081 januari 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt sida 10, steg 7",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-conditions",
+      "statement": "ZT-3400/3600/3800 manual BLN-0108 recommends purging after opening hydraulic system or changing oil. Symptoms of trapped air include noise, loss of drive, high temperature and excessive oil expansion.",
+      "variant": "ZT-3400/3600/3800, BLN-0108 2023",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, PURGING PROCEDURES, symptoms",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-lift",
+      "statement": "Purge procedure is best conducted with drive wheels raised clear of ground, then repeated in normal conditions; if impossible choose open area clear of bystanders and objects.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, PURGING PROCEDURES, right column",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-bypass-open",
+      "statement": "With brake released and bypass valve open, engine running, move forward/reverse control slowly 5–6 times as initial purge cycle.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, steps 1–2",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-bypass-shut",
+      "statement": "With bypass closed and engine running, cycle direction control forward/reverse slowly 5–6 times; stop engine prior to oil level inspection/top-up.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, step 3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-purge-endpoint",
+      "statement": "Purge cycles can be repeated until the transaxle moves smoothly in both directions at normal speeds and operating noise normalizes.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.12, step 4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-preconditions",
+      "statement": "For neutral setting disengage bypass, safely lift drive wheels and disconnect OEM linkage at directional arm before checking for unintended axle rotation.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.13, RTN steps 1–4",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-five-degree",
+      "statement": "If axle rotates in neutral, stop engine and loosen RTN screw; move arm in 5-degree increments opposite axle rotation, tighten, then repeat controlled rotation check.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.13, RTN step 6",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-wheel-vs-hub",
+      "statement": "For access to RTN linkage only wheel lug nuts may be removed; manufacturer explicitly says not to remove axle/hub nut.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.13, RTN note",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-bolt-discard",
+      "statement": "During RTN assembly removal the Torx screw item 46 must be discarded and replaced; associated RTN scissor arm parts 145/146 and spring 147 are distinguished.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.14, RTN ASSEMBLY steps 2–3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-control-washer-nut-discard",
+      "statement": "For control arm assembly item 45 washer and item 47 locknut are explicitly discard-on-removal items and should be replaced at reassembly.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.15, CONTROL ARM ASSEMBLY steps 2 and Assembly",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-rtn-seal41-kit-only",
+      "statement": "Trunnion seal item 41 should be removed only if worn or damaged; it is not included in RTN kit 211 and is serviced by appropriate seal kit.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Printed p.14, RTN ASSEMBLY note",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-when",
+      "statement": "ZT-4400 BLN-0081 requires purging after hydraulic circuit is opened or additional oil is added; air can cause noise, reduced drive and high operating temperature.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, PURGING PROCEDURE",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-open",
+      "statement": "With wheels secured off ground, bypass opened and engine running, slowly cycle controls through forward and reverse 5–6 times.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, step 1",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-closed",
+      "statement": "With bypass closed and engine running, repeat 5–6 forward/reverse cycles; stop engine before checking or topping up oil.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, step 2",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-purge-complete",
+      "statement": "Repeat purge sequence as required; service is complete when forward and reverse are smooth at normal speed.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.11, step 3",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-rtn-safety",
+      "statement": "ZT-4400 RTN adjustment requires bypass disengaged, drive wheels raised, and OEM directional linkage disconnected from control arm.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.12, RTN steps 1–2",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-rtn-five",
+      "statement": "If axle rotates in neutral, turn engine off, loosen lock-down screw item 61, rotate arm item 54 opposite wheel rotation five degrees, tighten and repeat verification.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.12, RTN step 6",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "4400-rtn-no-hub-unfasten",
+      "statement": "ZT-4400 manual permits removing the drive tire to reach the neutral adjustment mechanism but never calls for removal of the axle hub to adjust RTN.",
+      "variant": "ZT-4400, BLN-0081 2018",
+      "sourceId": "hg-4400-manual",
+      "locator": "Printed p.12, RTN step 1 note",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "3400-charge-mark",
+      "statement": "För ZT-3400/3600/3800 ska laddpumpskåpans orientering markeras mot huvudkåpan innan demontering och återskapas efter service.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, fig.22a, steg 1 och Assembly 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-seal",
+      "statement": "Vid laddpumpservice byts O-ring pos.132. Om anslutningsrören pos.130 och läpptätning pos.157 har demonterats måste även dessa bytas.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, fig.22b, Assembly NOTE",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-center-only",
+      "statement": "Anslutningsrören pos.130 och läpptätning pos.157 avlägsnas endast när mittsektionen också ska demonteras.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, fig.22b, Disassembly steg 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-gerotor-inspect",
+      "statement": "Laddpumpens gerotor pos.131 kontrolleras efter skador/slitage och ersätts vid behov.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.25, Inspection steg 1",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-code3",
+      "statement": "Laddpumpskåpans orientering bestäms via tredje modellkodstecknet; figur 23 visar separata varianter G/W/1, K/Y/2 samt H och L.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.26, figur 23",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "3400-charge-misoriented",
+      "statement": "Hydro-Gear varnar att en felvänd laddpump kan medföra fullständig förlust av hydrostatisk drivning.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.26, Charge Pump Orientation",
+      "topic": "K",
+      "grade": "A"
+    },
+    {
+      "id": "3400-brake-mark",
+      "statement": "Före demontering av bromsarm pos.102 ska dess position relativt bromsaxel pos.101 markeras, eftersom inbördes orientering är viktig för funktionen.",
+      "variant": "ZT-3400/3600/3800, inboard/outboard",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.16, figur 13, Disassembly",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "3400-brake-spline",
+      "statement": "Vid bromsarmsservice kontrolleras splines på både bromsarm pos.102 och bromsaxel pos.101 efter slitage/skador.",
+      "variant": "ZT-3400/3600/3800",
+      "sourceId": "hg-bln0108-2023",
+      "locator": "Tryckt s.16, figur 13, Inspection",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-galley-cap",
+      "statement": "Vid intern ZT-4400-service avlägsnas laddkanalens kåpa pos.15 före demontering av chockventilkomponenter.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-shock-orientation",
+      "statement": "Chockventilernas orientering ska dokumenteras innan de tas ur ZT-4400-mittsektionen.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, NOTE före steg 3",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-shock-assembly",
+      "statement": "ZT-4400:s chockventilsystem visas med ventilsäten pos.13, ventildelar pos.10/11, fjädrar pos.12 och fjäderhållare pos.30.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 3",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "4400-charge-relief-54-56",
+      "statement": "ZT-4400:s laddtrycksventil består i servicefiguren av plugg pos.54, fjäder pos.55 och kula pos.56; dessa positionsnummer är inte artikelnummer.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 5",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "4400-gerotor-57",
+      "statement": "ZT-4400:s laddpump använder gerotor pos.57, kåpa pos.53, O-ring pos.52 och kåpskruvar pos.51, skilt från ZT-3400-familjens numrering.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, figur 30, Disassembly steg 6",
+      "topic": "C",
+      "grade": "A"
+    },
+    {
+      "id": "4400-magnet-care",
+      "statement": "Vid ZT-4400-service rengörs magnet pos.35 från partiklar; den demonteras normalt endast om den är skadad.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, Inspection steg 2",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-gerotor-lip",
+      "statement": "Vid återmontering av ZT-4400 ska gerotorns centrala läpp pos.57 passas in i mittsektionen enligt figur 30.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.33, Assembly NOTE",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "4400-new-galley-cap",
+      "statement": "ZT-4400:s sammanfattning av total återmontering föreskriver ny laddkanalskåpa efter demontering.",
+      "variant": "ZT-4400, BLN-0081",
+      "sourceId": "hg-4400-manual",
+      "locator": "Tryckt s.34, Assembly After Complete Teardown steg 1",
+      "topic": "J",
+      "grade": "A"
+    },
+    {
+      "id": "bom1710-1076l-housing-main",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar huvudhus vänster (pos 1) som Hydro-Gear artikel 72518. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 1; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-housing-side",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar sidokåpa vänster (pos 2) som Hydro-Gear artikel 72520. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 2; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-shock",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar chockventilsats (pos 10 och 11, samma partnummer) som Hydro-Gear artikel 72569. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 10; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-center",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar mittsektionssats vänster (pos 20) som Hydro-Gear artikel 72570. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 20; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-motor-shaft",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar motoraxel (pos 22) som Hydro-Gear artikel 54053. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 22; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-motor-block",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar motorblock 16 cc (pos 23) som Hydro-Gear artikel 72897. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 23; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-pump-block",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar pumpblock 12 cc (pos 49) som Hydro-Gear artikel 71971. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 49; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-motor-thrust",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar axiallager motor 35×70×21,6 (pos 27) som Hydro-Gear artikel 52991. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 27; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-swash",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar svängskiva maskinbearbetad 16 cc (pos 40) som Hydro-Gear artikel 52972. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 40; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-charge-relief",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar laddtrycksventilsats (pos 54) som Hydro-Gear artikel 72527. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 54; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-charge-pump",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar laddpumpssats (pos 57) som Hydro-Gear artikel 72526. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 57; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-input-shaft",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar ingående axelsats (pos 61) som Hydro-Gear artikel 72523. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 61; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-gear-kit",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar kugghjulssats (pos 71) som Hydro-Gear artikel 72522. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 71; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-brake-left",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar bromssats vänster (pos 91) som Hydro-Gear artikel 72524. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 91; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-filter",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar filtersats (pos 100) som Hydro-Gear artikel 72537. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 100; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-filter-cap",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar filterlockssats (pos 102) som Hydro-Gear artikel 72536. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 102; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-axle",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar drivaxel (pos 112) som Hydro-Gear artikel 54275. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 112; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-outer-bearing",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar yttre axellager 35×80×21 (pos 114) som Hydro-Gear artikel 53007. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 2/3, Parts Breakdown, positionsrad 114; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-hub",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar fembultsnavsats (pos 118) som Hydro-Gear artikel 72473. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 118; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-bypass",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar bypassstång (pos 126) som Hydro-Gear artikel 54306. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 126; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-fan",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar fläkt/remskivesats (pos 136) som Hydro-Gear artikel 72475. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 136; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-control-left",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar reglagearm vänster (pos 154) som Hydro-Gear artikel 51842. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 154; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-neutral-left",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar neutralarm vänster (pos 159) som Hydro-Gear artikel 51946. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 159; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-rtn-assembly",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar rtn dubbelriktad enhet (pos 162) som Hydro-Gear artikel 52432. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 162; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-rtn-kit",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar rtn dubbelriktad reparationssats (pos 201) som Hydro-Gear artikel 71592. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 201; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1076l-seal-kit",
+      "statement": "Originalsprängskissen för ZT-4400-modell 1710-1076L specificerar tätningssats (pos 200) som Hydro-Gear artikel 72528. Detta är inte bevis på passform för andra 1710-BOM.",
+      "variant": "Endast fullständig Hydro-Gear modellkod 1710-1076L, schemarevision 73045 P6",
+      "locator": "Original PDF sida 3/3, Parts Breakdown, positionsrad 200; sidbild granskad",
+      "sourceId": "hg-1710-1076l-bom-p6",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-housing",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 1 som artikelnummer 72518. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 1",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-side",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 2 som artikelnummer 72520. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 2",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-shock-valve",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 10 som artikelnummer 72569. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 10",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-center",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 20 som artikelnummer 72570. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 20",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-motor-shaft",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 22 som artikelnummer 54053. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 22",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-motor-block",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 23 som artikelnummer 72158. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 23",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-brake-rotor-gear",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 33 som artikelnummer 72725. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 33",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-swashplate",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 40 som artikelnummer 52972. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 40",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-pump-block",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 49 som artikelnummer 71971. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 49",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-charge-relief",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 54 som artikelnummer 72527. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 54",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-charge-pump",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 57 som artikelnummer 72526. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 57",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-input-shaft",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 61 som artikelnummer 72523. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 61",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-jackshaft",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 70 som artikelnummer 54079. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 70",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-gear-kit",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 71 som artikelnummer 72522. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 71",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-brake",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 91 som artikelnummer 72524. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 91",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-filter",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 100 som artikelnummer 72537. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 100",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-filter-cap",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 102 som artikelnummer 72536. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 102",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-axle",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 112 som artikelnummer 54275. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 112",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-axle-bearing-outer",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 114 som artikelnummer 53007. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 2 av 3, pos 114",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-hub-five-bolt",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 118 som artikelnummer 72473. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 118",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-axle-tube",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 124 som artikelnummer 53367. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 124",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-bypass-rod",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 126 som artikelnummer 54306. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 126",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-fan-pulley",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 136 som artikelnummer 72476. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 136",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-control-arm",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 154 som artikelnummer 51842. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 154",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-rtn-assembly",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 162 som artikelnummer 52432. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 162",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-seal-kit",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 200 som artikelnummer 72528. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 200",
+      "grade": "B",
+      "topic": "L"
+    },
+    {
+      "id": "bom1710-1057l-rtn-kit",
+      "statement": "Sprängskissen för Hydro-Gear ZT-4400, exakt modell 1710-1057L, anger komponentposition 201 som artikelnummer 71592. Numret är inte därmed verifierat för andra 1710-modeller.",
+      "variant": "Exakt 1710-1057L; schematic 73045 P6",
+      "sourceId": "hg-1710-1057l-bom-p6",
+      "locator": "Parts Breakdown, PDF sida 3 av 3, pos 201",
+      "grade": "B",
+      "topic": "L"
+    }
+  ],
+  "gaps": [
+    "Full 14-teckens OEM-modellkod och serienummer saknas för enskilda transmissioner.",
+    "Modellbundna exploded-view reservdelskataloger och artikelnummer samt supersessions kvarstår.",
+    "Manualens oljeservice, tätningssatser, bypass- och momentvärden behöver sida-för-sida-verifieras för ZT-3400/3600/3800.",
+    "Manualspecifika service- och momentvärden för ZT-4400 behöver djupgranskas.",
+    "Motsvarande originalmanualer för övriga transmissionsfamiljer (ZT-5400, ZT-2400/2600, T-serien, äldre 310-serien) granskas separat.",
+    "Tillverkarens familjeprestanda får inte misstolkas som uppmätta data för maskininstallation.",
+    "ZT-4400 BLN-0081 tryckt s.15 har ett uppenbart orimligt ft-lb/Nm-par för hub castle nut pos120 (275–350 ft-lb respektive 31,1–39,54 Nm). Kontrollera aktuell Hydro-Gear servicebulletin innan slutlig åtdragning.",
+    "Hydro-Gears aktuella oljesatssida beskriver 72750 som ZT-2800–3800 i rubriken men i beställningstext ZT-2800–3600. Bekräfta ZT-3800 med distributör före beställning.",
+    "BLN-0108 P January 2023 page 11 has conflicting units for side port 11 (120 in-lb / 20.3 Nm); hold metric torque until later OEM revision confirms.",
+    "De 26 BOM-bundna numren för ZT-4400 1710-1076L gäller inte andra 1710-enheter utan specifik tabellkontroll och aktuell dealer supersession.",
+    "För ZT-4400 ska reservdelsnummer jämföras per komplett 1710-kod: 1710-1057L har motorblock pos 23 artikel 72158 och fläkt/remsskiva pos 136 artikel 72476. Den tidigare 1710-1076L-katalogen angav andra nummer för dessa positioner; bekräfta varje modell och revisionsstatus före beställning."
+  ],
+  "topics": {
+    "A": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "B": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "C": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "D": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "E": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "F": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "G": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "H": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "I": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "J": {
+      "state": "verified",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "K": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "L": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    },
+    "M": {
+      "state": "gap",
+      "note": "Tillverkarens ursprungsuppgifter är endast kontrollerade inom det beskrivna familjeomfånget och verifierar inte enskilt serienummer eller OEM-BOM."
+    }
+  }
+}
