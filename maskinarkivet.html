@@ -56,7 +56,7 @@ main .section{padding:69px 0}.section-soft{background:#edf4ee}.section-title{fon
 <p class="section-lead">Sök bland hela biblioteket eller filtrera efter maskintyp och märke. För att göra listan lättöverskådlig visar vi fyra guider i taget. Fler maskintyper läggs till efter hand, när underlaget räcker.</p>
 <div class="tools"><label class="search"><span aria-hidden="true">⌕ &nbsp;</span><input id="model-search" type="search" placeholder="Sök t.ex. Rider 13, Villa, transmission..." aria-label="Sök i Maskinarkivets modellguider"></label>
 <label class="type-label" for="type-filter">Maskintyp <select id="type-filter"><option value="alla">Alla maskintyper</option></select></label>
-<div class="filters" role="group" aria-label="Filtrera maskinmärke"><button class="filter" type="button" data-brand="alla" aria-pressed="true">Alla</button><button class="filter" type="button" data-brand="stiga" aria-pressed="false">STIGA</button><button class="filter" type="button" data-brand="husqvarna" aria-pressed="false">Husqvarna</button><button class="filter" type="button" data-brand="jonsered" aria-pressed="false">Jonsered</button></div></div>
+<div class="filters" id="brand-filters" role="group" aria-label="Filtrera maskinmärke"><button class="filter" type="button" data-brand="alla" aria-pressed="true">Alla märken</button></div></div>
 <div class="archive-count" id="archive-count" aria-live="polite">6 modellguider i arkivet</div>
 <div class="models" id="model-list"><article class="machine" data-category="akgrasklippare" data-brand="stiga" data-search="stiga villa 12 hst frontklippare k46cj 85 combi identifiering">
 <div class="machine-top"><span class="machine-brand">STIGA</span><span class="machine-kind">Frontklippare</span></div>
@@ -109,8 +109,15 @@ main .section{padding:69px 0}.section-soft{background:#edf4ee}.section-title{fon
 (function(){
   const field=document.getElementById("model-search");
   const type=document.getElementById("type-filter");
-  const brandButtons=[...document.querySelectorAll(".filter")];
+  const brandPanel=document.getElementById("brand-filters");
   const cards=[...document.querySelectorAll("#model-list .machine")];
+  const brandNames=new Map(cards.map(card=>[card.dataset.brand,card.querySelector(".machine-brand")?.textContent.trim()||card.dataset.brand]));
+  for(const [key,label] of brandNames){
+    const button=document.createElement("button");button.type="button";button.className="filter";
+    button.dataset.brand=key;button.setAttribute("aria-pressed","false");button.textContent=label;
+    brandPanel.append(button);
+  }
+  const brandButtons=[...brandPanel.querySelectorAll(".filter")];
   const empty=document.getElementById("no-results");
   const count=document.getElementById("archive-count");
   const more=document.getElementById("more-models");
