@@ -243,7 +243,8 @@
     /* Sidunika tillägg – godkänd CSS-bas återanvänds ordagrant */
     .sale-hero-note{font-size:15px;color:rgba(255,255,255,.85);margin:17px 0 0;line-height:1.65}
     .sale-hero-note a{color:#fff;font-weight:850;text-underline-offset:3px}
-    .sale-choice{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .sale-choice{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    @media(max-width:1000px){.sale-choice{grid-template-columns:repeat(2,minmax(0,1fr))}.sale-feature:last-child{grid-column:1/-1}}
     .sale-feature{height:100%;display:flex;flex-direction:column;padding:28px;border-radius:22px;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow)}
     .sale-feature .icon{margin-bottom:14px}
     .sale-feature h3{margin:0 0 11px;font-size:26px;line-height:1.18}
@@ -292,6 +293,7 @@
           <div class="buttons">
             <a class="btn btn-light" href="annonser.html">Se våra egna annonser →</a>
             <a class="btn btn-outline" href="tradera.html">Se Tradera-katalogen →</a>
+            <a class="btn btn-outline" href="shopify.html">Besök Skaraborg Merch →</a>
           </div>
           <p class="sale-hero-note">Har du frågor om ett objekt? <a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skriv till oss på Facebook ↗</a> eller <a href="sms:+46727483256">skicka SMS</a>. Vi föredrar skriftlig kontakt.</p>
         </div>
@@ -313,8 +315,8 @@
       <div class="wrap">
         <div class="section-head">
           <span>Börja här</span>
-          <h2>Två enkla sätt att hitta det vi säljer</h2>
-          <p>Vår egen annonskatalog visar objekt som vi lägger upp själva. På Tradera finns ytterligare annonser – särskilt reservdelar och mindre begagnade saker.</p>
+          <h2>Tre sätt att hitta det vi säljer</h2>
+          <p>Se begagnade maskiner i vår annonskatalog, reservdelar och andra objekt på Tradera – eller besök Skaraborg Merch för kläder, presenter och digitala guider.</p>
         </div>
         <div class="sale-choice">
           <div class="sale-feature">
@@ -330,6 +332,13 @@
             <p>Bläddra bland reservdelar, tillbehör och annat begagnat i vår Tradera-katalog. Du skickas vidare till originalannonsen för att se aktuell information och köpa.</p>
             <a href="tradera.html">Öppna Tradera-katalogen →</a>
             <small>Priser och tillgänglighet kontrolleras alltid på Tradera.</small>
+          </div>
+          <div class="sale-feature">
+            <div class="icon" aria-hidden="true">👕</div>
+            <h3>Skaraborg Merch – vår webbshop</h3>
+            <p>Utforska kläder, muggar, presenter, barnprodukter och digitala guider. Katalogen på vår webbplats länkar vidare till Shopify-butiken där du genomför köpet.</p>
+            <a href="shopify.html">Se produkterna från Skaraborg Merch →</a>
+            <small>De här produkterna är separata från våra begagnade maskinannonser.</small>
           </div>
         </div>
       </div>
