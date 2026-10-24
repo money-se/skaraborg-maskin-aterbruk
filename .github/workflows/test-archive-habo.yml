@@ -1,0 +1,26 @@
+name: Kontrollera Habo och Maskinarkivet
+on:
+  pull_request:
+    paths:
+      - 'habo.html'
+      - '*-habo.html'
+      - 'maskinarkivet.html'
+      - 'maskinarkiv/stiga-park-2000.html'
+      - 'sitemap.xml'
+      - 'kop-maskiner.html'
+      - 'partials1/footer.html'
+      - 'projekt.html'
+      - 'tests/test_archive_habo_hub.py'
+      - '.github/workflows/test-archive-habo.yml'
+permissions:
+  contents: read
+jobs:
+  archive-habo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Kontrollera Habo och Maskinarkivet
+        run: python -m unittest discover -s tests -p 'test_archive_habo_hub.py' -v
