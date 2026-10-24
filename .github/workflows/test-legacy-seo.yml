@@ -1,0 +1,20 @@
+name: Kontrollera äldre SEO-adresser
+on:
+  pull_request:
+    paths:
+      - '*.html'
+      - 'sitemap.xml'
+      - 'tests/test_legacy_seo.py'
+      - '.github/workflows/test-legacy-seo.yml'
+permissions:
+  contents: read
+jobs:
+  canonical:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify canonical URLs, article metadata and sitemap
+        run: python -m unittest discover -s tests -p test_legacy_seo.py -v
