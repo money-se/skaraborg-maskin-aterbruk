@@ -103,6 +103,27 @@ class TestAdSeo(unittest.TestCase):
         ad["marketplace_url"] = "javascript:alert(1)"
         self.assertNotIn("javascript:alert", adseo.render(ad, URL))
 
+    def test_header_has_clear_product_overview(self):
+        content = adseo.render(fixture(), URL)
+        self.assertIn('class="product-intro"', content)
+        self.assertIn('class="product-grid"', content)
+        self.assertIn('class="hero-price"', content)
+        self.assertIn('id="photo-open"', content)
+        self.assertIn('id="kontakt"', content)
+        self.assertIn('href="#kontakt"', content)
+
+    def test_buy_information_preserves_consumer_rights(self):
+        content = adseo.render(fixture(), URL)
+        for phrase in ("Bra att veta före köp", "Skick och funktion:", "Pris och reservation:", "Hämtning och transport:", "konsumentköplagen", "ångerrätt"):
+            self.assertIn(phrase, content)
+        self.assertIn("konsumentverket.se/konsumentratt/handla-begagnat/", content)
+
+    def test_no_inquiry_from_unavailable_item_hero(self):
+        for status in ("sold", "pending"):
+            content = adseo.render(fixture(status=status), URL)
+            self.assertNotIn('href="#kontakt"', content)
+            self.assertNotIn('href="sms:+46727483256"', content)
+
     def test_slug_is_stable(self):
         self.assertEqual(adseo.slugify("VÄGSKRAPA VRETEN 2 M"), "vagskrapa-vreten-2-m")
 
