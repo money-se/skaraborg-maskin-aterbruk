@@ -64,7 +64,8 @@ a{color:#205b36}button{font:inherit;cursor:pointer}a:focus-visible,button:focus-
 @media(max-width:900px){.product-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}.product-copy h1{font-size:clamp(31px,4vw,45px)}.ad-grid{grid-template-columns:1fr}.contact{position:static}.ad-main{padding-top:24px}}
 @media(max-width:660px){.wrap{width:min(100% - 28px,1180px)}.product-intro{padding:21px 0 28px}.crumb{margin-bottom:15px}.product-grid{grid-template-columns:1fr;gap:19px}.product-copy{padding:8px 0 4px}.product-copy h1{font-size:clamp(31px,9vw,44px);margin:12px 0 17px}.title-meta{margin-bottom:19px}.hero-sub{margin-top:15px}.hero-actions{margin-top:20px}.hero-actions a{flex:1 1 140px}.hero-photo{border-radius:18px;padding:8px}.photo-main{aspect-ratio:1.3}.thumbs button{width:70px;flex-basis:70px;height:59px}.ad-box{padding:20px}.buy-info{padding:23px}.photo-dialog{border-radius:0;max-width:100vw;width:100vw;max-height:100vh}.photo-dialog img{max-height:65vh}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-</style>
+
+.buy-info{margin-top:23px;padding:0;overflow:hidden}.buy-info summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:23px 29px;cursor:pointer;font-size:22px;font-weight:850;line-height:1.25;color:var(--ink)}.buy-info summary::-webkit-details-marker{display:none}.buy-info summary:hover{background:#eaf1ea}.buy-info .expand-icon{display:grid;place-items:center;flex:none;width:33px;height:33px;border-radius:50%;background:#e8f0e7;color:var(--green);font-size:29px;line-height:1;transition:transform .2s}.buy-info[open] .expand-icon{transform:rotate(180deg)}.buy-info[open] summary{border-bottom:1px solid var(--line)}.buy-info-content{padding:23px 29px 27px}.buy-info-content .info-lead{margin-top:0}.buy-info-content ul{margin:0}.buy-info-content .smallnote{margin-bottom:0}@media(max-width:660px){.buy-info summary{padding:18px 20px;font-size:19px}.buy-info-content{padding:20px}}</style>
 <script defer src="/statistik-raknare.js" data-page="annons:cc6a351d-29b5-4754-af16-9040c25bfd35"></script></head>
 <body><!-- AUTO-GENERATED: PUBLIC AD SEO. DO NOT EDIT. -->
 <a class="skip" href="#annons-innehall">Hoppa till annonsen</a><div id="site-header"></div>
@@ -114,17 +115,19 @@ Drivremmen verkar bra
 Säljes som repobjekt</p>
         <p class="detail-meta">Detta är ett begagnat objekt. Bedömningen av skick utgår från annonsens uppgifter och vad vi kommit överens om vid köpet.</p>
       </section>
-      <section class="ad-box buy-info" aria-labelledby="buy-info-heading">
-        <h2 id="buy-info-heading">Bra att veta före köp</h2>
-        <p class="info-lead">Lite praktisk information innan du bestämmer dig.</p>
-        <ul>
+      <details class="ad-box buy-info" id="kopinformation">
+        <summary id="buy-info-heading"><span>Bra att veta före köp</span><span class="expand-icon" aria-hidden="true">⌄</span></summary>
+        <div class="buy-info-content">
+          <p class="info-lead">Praktisk information om skick, reservation, hämtning och dina rättigheter.</p>
+          <ul>
           <li><strong>Skick och funktion:</strong> Läs beskrivningen och fråga gärna om eventuella fel, tester eller sådant som saknas. Begagnade varor kan ha normalt slitage.</li>
           <li><strong>Pris och reservation:</strong> En förfrågan är ingen beställning. Pris, tillgänglighet och eventuella villkor för reservation eller handpenning bekräftas innan ni gör upp affären.</li>
           <li><strong>Hämtning och transport:</strong> Visning, överlämning och eventuell leverans eller frakt ordnas efter överenskommelse.</li>
           <li><strong>Dina rättigheter:</strong> När du köper av oss som konsument gäller konsumentköplagen även för begagnade varor. Vid distansavtal kan du ha ångerrätt enligt lag. <a href="https://www.konsumentverket.se/konsumentratt/handla-begagnat/" target="_blank" rel="noopener noreferrer">Läs mer hos Konsumentverket ↗</a></li>
         </ul>
-        <p class="smallnote">Uppgifterna ovan är allmän köpinformation. Det aktuella objektets beskrivning och det ni kommer överens om inför köpet är också viktiga.</p>
-      </section>
+          <p class="smallnote">Uppgifterna ovan är allmän köpinformation. Det aktuella objektets beskrivning och det ni kommer överens om inför köpet är också viktiga.</p>
+        </div>
+      </details>
     </div>
     <aside class="ad-box contact" id="kontakt" aria-labelledby="contact-heading">
       <h2 id="contact-heading">Intresserad av objektet?</h2>
