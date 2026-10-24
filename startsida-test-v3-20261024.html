@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#1f3322">
+  <meta name="description" content="Designförhandsvisning av Skaraborg Maskin & Återbruks nya startsida. Vi köper maskiner, verktyg och relevanta objekt. Kontakta oss med bilder.">
+  <title>Startsideförslag 03 | Skaraborg Maskin &amp; Återbruk</title>
+  <link rel="preload" as="image" href="indexhero.jpg" fetchpriority="high">
+  <style>
+    /* Samma grundpalett, typsnitt och knappkänsla som nuvarande webbplats.
+       Byt endast värdena här för att ändra hela designens färger. */
+    :root {
+      --brand: #1f3322;
+      --brand-dark: #142317;
+      --brand-soft: #eaf1ea;
+      --accent: #d8a52e;
+      --accent-light: #f0c65b;
+      --bg: #f6f7f4;
+      --card: #ffffff;
+      --text: #142017;
+      --muted: #5f6d62;
+      --line: #dfe6df;
+      --radius: 20px;
+      --radius-sm: 14px;
+      --shadow: 0 16px 42px rgba(20,35,23,.09);
+      --max: 1160px;
+      --font: system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+      --hero-image: url("indexhero.jpg");
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 110px; }
+    body { margin: 0; font-family: var(--font); background: var(--bg); color: var(--text); line-height: 1.6; }
+    a { color: inherit; }
+    button, summary { font: inherit; }
+    img { display: block; max-width: 100%; }
+    h1,h2,h3,p { margin: 0; }
+    h1,h2,h3 { line-height: 1.15; text-wrap: balance; }
+    :focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+    .wrap { width: min(calc(100% - 40px),var(--max)); margin: 0 auto; }
+    .skip { position: absolute; left: 12px; top: -75px; z-index: 2000; padding: 10px 15px; border-radius: 9px; background: #fff; font-weight: 800; }
+    .skip:focus { top: 10px; }
+    .preview-banner { padding: 8px 15px; background: #f2e4bb; color: #544017; text-align: center; font-size: 11px; line-height: 1.4; font-weight: 850; letter-spacing: .04em; }
+    .preview-header { min-height: 76px; background: #fff; border-bottom: 1px solid var(--line); }
+    .preview-header .wrap { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+    .preview-header strong { font-size: 16px; color: var(--brand-dark); }
+    .preview-header small { display:block; color:var(--muted); font-size:11px; }
+    .preview-header nav { display: flex; gap: 13px; flex-wrap: wrap; }
+    .preview-header nav a { text-decoration: none; font-weight: 750; font-size: 13px; }
+    .preview-footer { background: var(--brand-dark); color: #dce7db; padding: 30px 0; }
+    .preview-footer .wrap { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+    .preview-footer a { color: #fff; text-decoration: none; }
+    .preview-footer small { display: block; margin-top: 3px; }
+    .preview-footer nav { display: flex; flex-wrap: wrap; gap: 20px; }
+
+    .btn { display: inline-flex; justify-content: center; align-items: center; gap: 11px; min-height: 52px; padding: 13px 20px; border: 1px solid transparent; border-radius: 13px; font-weight: 800; text-decoration: none; text-align: center; cursor: pointer; transition: transform .18s ease,background .18s ease,box-shadow .18s ease; }
+    .btn:hover { transform: translateY(-2px); }
+    .btn-primary { background: #fff; color: var(--brand-dark); box-shadow: 0 12px 24px rgba(0,0,0,.15); }
+    .btn-primary:hover { background: #f5fbf1; }
+    .btn-secondary { border-color: rgba(255,255,255,.32); background: rgba(255,255,255,.09); color: #fff; }
+    .btn-secondary:hover { background: rgba(255,255,255,.17); }
+    .btn-green { background: var(--brand); color: #fff; }
+    .btn-green:hover { background: #315438; }
+    .btn-white { background: #fff; color: var(--brand); border-color: var(--line); }
+
+    .hero { color: #fff; isolation: isolate; position: relative; overflow: visible; min-height: 565px; background-color: var(--brand-dark); background-image: linear-gradient(90deg,rgba(14,32,20,.98) 0%,rgba(20,44,27,.93) 45%,rgba(15,36,24,.65) 72%,rgba(8,26,15,.49) 100%), var(--hero-image); background-size: cover; background-position: center center; }
+    .hero::before { content: ""; position: absolute; z-index: -1; inset: 0; pointer-events:none; opacity: .34; background: radial-gradient(circle at 9% 12%,rgba(216,165,46,.18),transparent 35%); }
+    .hero .wrap { min-height: 565px; display: flex; align-items: center; }
+    .hero-copy { max-width: 810px; padding: 80px 0 95px; }
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; color: #efcf7d; font-size: 12px; font-weight: 850; letter-spacing: .11em; text-transform: uppercase; margin-bottom: 20px; }
+    .eyebrow::before { content: ""; width: 28px; height: 2px; background: var(--accent); }
+    .hero h1 { font-size: clamp(36px,5.3vw,65px); max-width: 830px; font-weight: 850; letter-spacing: -.035em; margin-bottom: 22px; }
+    .hero .lead { font-size: clamp(17px,2.15vw,21px); color: rgba(255,255,255,.91); max-width: 665px; line-height: 1.7; }
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px; margin-top: 30px; }
+    .hero-notes { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 36px; }
+    .hero-notes span { border: 1px solid rgba(255,255,255,.20); border-radius: 99px; padding: 7px 12px; background: rgba(255,255,255,.08); font-size: 12px; font-weight: 700; color: #f1f8ef; }
+    .contact-picker { position: relative; }
+    .contact-picker > summary { list-style: none; user-select: none; }
+    .contact-picker > summary::-webkit-details-marker { display:none; }
+    .contact-picker > summary::after { content: "⌄"; font-size: 19px; line-height: 1; }
+    .contact-picker[open] > summary::after { content: "⌃"; }
+    .contact-options { position: absolute; z-index: 15; left: 0; top: calc(100% + 10px); width: max(100%,300px); padding: 8px; background: white; color: var(--text); border-radius: 14px; box-shadow: 0 22px 46px rgba(0,0,0,.25); border: 1px solid #dce6d9; }
+    .contact-options a { display: flex; flex-direction: column; gap: 2px; color: var(--brand-dark); text-decoration:none; padding: 12px 13px; border-radius: 9px; }
+    .contact-options a:hover,.contact-options a:focus-visible { background: var(--brand-soft); }
+    .contact-options a strong { font-size: 14px; }
+    .contact-options a span { font-size: 12px; color: var(--muted); }
+    .contact-options a + a { border-top: 1px solid var(--line); }
+
+    .section { padding: 86px 0; }
+    .section-kicker { color: var(--brand); text-transform: uppercase; font-size: 12px; font-weight: 850; letter-spacing: .1em; margin-bottom: 12px; }
+    .section-head { display:flex; justify-content:space-between; align-items:end; gap:25px; margin-bottom:30px; }
+    .section-head h2 { font-size: clamp(29px,3.6vw,42px); letter-spacing: -.025em; }
+    .section-head p { max-width: 370px; color: var(--muted); font-size: 15px; line-height: 1.7; }
+    .quick-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+    .quick-card { display:flex; flex-direction:column; min-height:235px; padding:29px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); text-decoration:none; box-shadow:0 9px 27px rgba(20,35,23,.04); transition: transform .18s ease,box-shadow .18s ease,border-color .18s ease; }
+    .quick-card:hover { transform:translateY(-5px); box-shadow:var(--shadow); border-color:#b6c9b5; }
+    .quick-top { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+    .quick-icon { width:51px; height:51px; display:grid; place-items:center; background:var(--brand-soft); border-radius:13px; color:var(--brand); }
+    .quick-icon svg { width:26px; height:26px; stroke:currentColor; fill:none; stroke-linecap:round; stroke-linejoin:round; stroke-width:1.8; }
+    .quick-tag { font-size:11px; font-weight:850; letter-spacing:.12em; color:#7a9280; }
+    .quick-card h3 { margin:19px 0 7px; font-size:clamp(20px,2.2vw,25px); letter-spacing:-.025em; }
+    .quick-card p { color:var(--muted); font-size:14px; max-width:460px; line-height:1.65; }
+    .quick-link { display:inline-flex; align-items:center; justify-content:space-between; width:100%; gap:18px; margin-top:auto; padding-top:21px; font-size:13px; font-weight:850; color:var(--brand); }
+    .quick-link span { font-size:19px; }
+
+    .process { background:#fff; }
+    .timeline { display:flex; padding-top:30px; margin-top:14px; border-top:2px solid #d3e0d4; gap:0; }
+    .timeline-step { position:relative; flex:1 1 0; min-width:0; padding:0 24px 0 0; }
+    .timeline-step::before { content:""; position:absolute; width:14px; height:14px; border-radius:50%; background:var(--brand); top:-38px; left:0; box-shadow:0 0 0 6px #eef3eb; }
+    .step-number { display:inline-block; font-size:12px; font-weight:900; color:#688270; letter-spacing:.1em; margin-bottom:10px; }
+    .timeline-step h3 { font-size:19px; margin:0 0 8px; }
+    .timeline-step p { font-size:13px; color:var(--muted); line-height:1.65; max-width:220px; }
+    .timeline-hint { display:none; }
+
+    .local { padding: 68px 0; }
+    .local-layout { display:grid; grid-template-columns: .72fr 1.28fr; gap:52px; align-items:center; }
+    .local h2 { margin:0 0 12px; font-size: clamp(28px,3.6vw,40px); letter-spacing:-.025em; }
+    .local p { color:var(--muted); max-width:420px; font-size:14px; }
+    .tags { display:flex; flex-wrap:wrap; gap:9px; }
+    .tags a { display:inline-block; text-decoration:none; padding:8px 13px; background:#fff; color:var(--brand); border:1px solid var(--line); border-radius:999px; font-size:13px; font-weight:780; transition:background .18s,border-color .18s,transform .18s; }
+    .tags a:hover,.tags a:focus-visible { background:var(--brand-soft); border-color:#b7cbb6; transform:translateY(-2px); }
+
+    .last-cta { background:linear-gradient(135deg,var(--brand-dark),var(--brand)); color:#fff; padding:52px 0; }
+    .last-cta-inner { display:flex; align-items:center; justify-content:space-between; gap:30px; }
+    .last-cta h2 { font-size:clamp(26px,3.4vw,38px); margin-bottom:10px; }
+    .last-cta p { color:#dbe6dc; font-size:14px; max-width:580px; }
+    .last-actions { display:flex; flex-wrap:wrap; gap:11px; flex-shrink:0; }
+
+    @media (max-width: 980px) {
+      .section { padding:72px 0; }
+      .local-layout { grid-template-columns:1fr; gap:20px; }
+      .preview-header nav { display:none; }
+      .hero .wrap { min-height:490px; }
+      .hero { min-height:490px; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width:min(calc(100% - 28px),var(--max)); }
+      .preview-banner { font-size:9px; }
+      .hero { min-height:0; background-position:70% center; background-image:linear-gradient(90deg,rgba(15,32,20,.94),rgba(13,32,20,.83)),var(--hero-image); }
+      .hero .wrap { min-height:0; }
+      .hero-copy { padding:54px 0 61px; }
+      .hero h1 { font-size:clamp(34px,9vw,43px); }
+      .hero .lead { font-size:16px; }
+      .hero-actions { flex-direction:column; align-items:stretch; }
+      .hero-actions > * { width:100%; }
+      .contact-picker > summary,.hero-actions .btn { width:100%; }
+      .contact-options { width:100%; }
+      .hero-notes { margin-top:25px; gap:7px; }
+      .hero-notes span { padding:6px 10px; font-size:11px; }
+      .section { padding:57px 0; }
+      .section-head { display:block; margin-bottom:24px; }
+      .section-head p { margin-top:12px; }
+      .quick-grid { grid-template-columns:1fr; gap:13px; }
+      .quick-card { min-height:200px; padding:23px; }
+      .quick-card h3 { margin-top:13px; }
+      .timeline { overflow-x:auto; overscroll-behavior-x:contain; scroll-snap-type:x mandatory; scroll-padding-inline:2px; padding-bottom:14px; gap:14px; }
+      .timeline-step { flex:0 0 73%; scroll-snap-align:start; padding-right:20px; }
+      .timeline-hint { display:block; margin-top:9px; color:var(--muted); font-size:12px; }
+      .local { padding:54px 0; }
+      .local-layout { gap:19px; }
+      .tags { gap:7px; }
+      .tags a { font-size:12px; padding:7px 11px; }
+      .last-cta { padding:46px 0; }
+      .last-cta-inner { display:block; }
+      .last-actions { display:grid; margin-top:25px; }
+      .last-actions .btn { width:100%; }
+    }
+    @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .btn,.quick-card,.tags a { transition:none; } }
+  </style>
+</head>
+<body>
+<a class="skip" href="#main-content">Hoppa till innehållet</a>
+<div class="preview-banner">DESIGNTEST 03 · DEN ORDINARIE STARTSIDAN ÄR OFÖRÄNDRAD</div>
+<div id="site-header">
+  <header class="preview-header" aria-label="Tillfällig navigation vid lokal förhandsvisning">
+    <div class="wrap"><a href="index.html" style="text-decoration:none"><strong>Skaraborg Maskin &amp; Återbruk</strong><small>Vi köper · hämtar · återbrukar</small></a><nav><a href="kop-maskiner.html">Vi köper</a><a href="dodsbo-utrensning.html">Dödsbo</a><a href="till-salu.html">Till salu</a><a href="kontakt.html">Kontakt</a></nav></div>
+  </header>
+</div>
+<main id="main-content">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap"><div class="hero-copy">
+      <p class="eyebrow">Skaraborg Maskin &amp; Återbruk</p>
+      <h1 id="hero-title">Vi köper dina gamla maskiner, verktyg och dödsbon i Skaraborg.</h1>
+      <p class="lead">Fungerande eller trasigt spelar ingen roll. Skicka några bilder så sköter vi resten.</p>
+      <div class="hero-actions">
+        <details class="contact-picker">
+          <summary class="btn btn-primary">📷 Skicka bilder på Facebook / SMS</summary>
+          <div class="contact-options">
+            <a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer"><strong>📷 Facebook Messenger ↗</strong><span>Skicka bilder och din fråga till vår Facebook-sida.</span></a>
+            <a href="sms:+46727483256"><strong>💬 SMS till 072-748 32 56 ↗</strong><span>Beskriv objektet och lägg till bilder i meddelandet.</span></a>
+          </div>
+        </details>
+        <a class="btn btn-secondary" href="kop-maskiner.html">Se vad vi köper →</a>
+      </div>
+      <div class="hero-notes" aria-label="Vad du kan förvänta dig"><span>✓ Även trasiga maskiner</span><span>✓ Personlig bedömning</span><span>✓ Egen lastbil</span><span>✓ Hämtning efter överenskommelse</span></div>
+    </div></div>
+  </section>
+  <section class="section" id="snabbval" aria-labelledby="services-title">
+    <div class="wrap">
+      <div class="section-head"><div><p class="section-kicker">Hitta rätt direkt</p><h2 id="services-title">Vad behöver du hjälp med?</h2></div><p>Fyra snabba vägar vidare. Läs mer om det som passar – eller skicka bilder så börjar vi där.</p></div>
+      <div class="quick-grid">
+        <a class="quick-card" href="kop-maskiner.html">
+          <span class="quick-top"><span class="quick-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="10" cy="24" r="3"/><circle cx="25" cy="24" r="3"/><path d="M7 21V11h7l4 7h8v5M9 11V6h5l4 7M4 24h3m6 0h9"/></svg></span><span class="quick-tag">01 / UPPKÖP</span></span>
+          <h3>Sälja maskin &amp; verktyg</h3><p>Trädgårdsmaskiner, motorsågar, verktyg och reservdelsobjekt – även med fel.</p><span class="quick-link">Läs om att sälja till oss <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="quick-card" href="dodsbo-utrensning.html">
+          <span class="quick-top"><span class="quick-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="m4 14 12-9 12 9v14H4V14Z"/><path d="M12 28V18h8v10M3 14h26"/></svg></span><span class="quick-tag">02 / DÖDSBO</span></span>
+          <h3>Dödsbon &amp; uppköp</h3><p>Vi bedömer uppköp av hela eller delar av garage, förråd och uthus. Eventuell tömning enligt överenskommelse.</p><span class="quick-link">Läs om dödsbo &amp; uppköp <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="quick-card" href="dack-hamtning.html">
+          <span class="quick-top"><span class="quick-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="5"/><path d="M16 4v7m0 10v7M4 16h7m10 0h7M7.5 7.5l5 5m7 7 5 5m0-17-5 5m-7 7-5 5"/></svg></span><span class="quick-tag">03 / HÄMTNING</span></span>
+          <h3>Däckhämtning</h3><p>Hämtning av gamla däck på fälg hos privatpersoner och företag – efter offert.</p><span class="quick-link">Läs om däckhämtning <span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="quick-card" href="tradera.html">
+          <span class="quick-top"><span class="quick-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 11 16 5l11 6v14L16 30 5 25V11Z"/><path d="m5 11 11 6 11-6M16 17v13"/></svg></span><span class="quick-tag">04 / TILL SALU</span></span>
+          <h3>Reservdelar &amp; Tradera</h3><p>Fynda begagnade maskindelar, reservdelar och verktyg via vår Tradera-sida.</p><span class="quick-link">Se våra Tradera-annonser <span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="section process" id="sa-fungerar-det" aria-labelledby="steps-title">
+    <div class="wrap">
+      <div class="section-head"><div><p class="section-kicker">Enkelt att komma igång</p><h2 id="steps-title">Så fungerar det</h2></div><p>Du behöver inte ha en färdig annons. Några bilder, ort och det du vet om skicket räcker långt.</p></div>
+      <div class="timeline" role="list" aria-label="Fyra steg från första kontakt till överlämning">
+        <div class="timeline-step" role="listitem"><span class="step-number">STEG 01</span><h3>Skicka bilder</h3><p>Visa objektet och skriv var det finns.</p></div>
+        <div class="timeline-step" role="listitem"><span class="step-number">STEG 02</span><h3>Vi bedömer</h3><p>Vi går igenom uppgifterna och återkommer.</p></div>
+        <div class="timeline-step" role="listitem"><span class="step-number">STEG 03</span><h3>Vi kommer överens</h3><p>Om det passar oss bestämmer vi pris och upplägg.</p></div>
+        <div class="timeline-step" role="listitem"><span class="step-number">STEG 04</span><h3>Betalning &amp; hämtning</h3><p>Vid affär sker överlämning enligt överenskommelse.</p></div>
+      </div>
+      <p class="timeline-hint">Svep åt sidan för att se alla fyra stegen →</p>
+    </div>
+  </section>
+  <section class="local" aria-labelledby="local-title">
+    <div class="wrap local-layout">
+      <div><p class="section-kicker">Vi utgår från Hjo</p><h2 id="local-title">Vi arbetar i Skaraborg och tar gärna emot fler förfrågningar.</h2><p>Finns din ort inte med? Hör ändå av dig. Hämtning och uppköp bedöms från fall till fall.</p></div>
+      <nav class="tags" aria-label="Orter vi arbetar i">
+        <a href="hjo.html">Hjo</a><a href="skovde.html">Skövde</a><a href="tibro.html">Tibro</a><a href="karlsborg.html">Karlsborg</a><a href="mariestad.html">Mariestad</a><a href="tidaholm.html">Tidaholm</a><a href="skara.html">Skara</a><a href="falkoping.html">Falköping</a><a href="toreboda.html">Töreboda</a><a href="lidkoping.html">Lidköping</a><a href="gotene.html">Götene</a><a href="vara.html">Vara</a><a href="grastorp.html">Grästorp</a>
+      </nav>
+    </div>
+  </section>
+  <section class="last-cta" aria-labelledby="last-title"><div class="wrap last-cta-inner">
+    <div><h2 id="last-title">Har du något som blivit stående?</h2><p>Skicka bilder på det du har och vilken ort det finns i. Vi hör av oss om ett köp eller annat upplägg kan vara aktuellt.</p></div>
+    <div class="last-actions"><a class="btn btn-primary" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">📷 Skicka via Facebook ↗</a><a class="btn btn-secondary" href="sms:+46727483256">💬 Skicka SMS</a></div>
+  </div></section>
+</main>
+<div id="site-footer"><footer class="preview-footer"><div class="wrap"><div><strong>Skaraborg Maskin &amp; Återbruk</strong><small>Vi utgår från Hjo. Vi bedömer förfrågningar även från andra orter.</small></div><nav aria-label="Sidfot"><a href="index.html">Nuvarande startsida</a><a href="kontakt.html">Kontakt</a></nav></div></footer></div>
+<script>
+  // Endast befintlig funktion: ladda sajtens gemensamma header/footer när testsidan öppnas på skaraborgmaskin.se.
+  async function inject(id,url){
+    const target=document.getElementById(id);
+    if(!target || window.location.protocol==='file:')return;
+    try{const response=await fetch(url,{cache:'no-cache'});if(!response.ok)throw Error(url);target.innerHTML=await response.text();}
+    catch(err){console.warn('Delad navigering kunde inte laddas; lokal reservvisning används.',err);}
+  }
+  inject('site-header','/partials1/header.html');
+  inject('site-footer','/partials1/footer.html');
+</script>
+</body>
+</html>
