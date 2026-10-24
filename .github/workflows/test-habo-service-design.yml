@@ -1,0 +1,28 @@
+name: Kontrollera Habo-design och Maskinarkivets katalog
+on:
+  pull_request:
+    paths:
+      - 'maskinarkivet.html'
+      - 'habo-service.css'
+      - '*-habo.html'
+      - 'data/habo-service-template.html.txt'
+      - 'data/habo-services-part*.json'
+      - 'scripts/build-habo-services.mjs'
+      - 'tests/test_habo_service_design.py'
+      - '.github/workflows/test-habo-service-design.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Kontrollera mallens JavaScript
+        run: node --check scripts/build-habo-services.mjs
+      - name: Alla tio Habo-sidor matchar godkänd genereringsmall
+        run: node scripts/build-habo-services.mjs --check
+      - name: Kontrollera navigering, sidinnehåll och arkivets begränsade listning
+        run: python -m unittest discover -s tests -p 'test_habo_service_design.py' -v

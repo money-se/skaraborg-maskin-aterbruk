@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{META_TITLE}}</title>
+<meta name="description" content="{{META_DESCRIPTION}}">
+<meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#1b3626">
+<link rel="canonical" href="{{CANONICAL}}">
+<meta property="og:type" content="website"><meta property="og:locale" content="sv_SE">
+<meta property="og:site_name" content="Skaraborg Maskin &amp; Återbruk">
+<meta property="og:title" content="{{OG_TITLE}}">
+<meta property="og:description" content="{{META_DESCRIPTION}}">
+<meta property="og:url" content="{{CANONICAL}}">
+<script type="application/ld+json">{{SCHEMA}}</script>
+<link rel="stylesheet" href="/habo-service.css">
+</head>
+<body>
+<a class="hb-skip" href="#habo-innehall">Hoppa till innehållet</a>
+<div id="site-header"></div>
+<main class="habo-service" id="habo-innehall">
+<section class="hb-hero" aria-labelledby="habo-service-title">
+<div class="hb-wrap">
+<nav class="hb-breadcrumb" aria-label="Brödsmulor"><a href="/">Hem</a><span>/</span><a href="/habo.html">Habo</a><span>/</span><span>{{SHORT}}</span></nav>
+<div class="hb-hero-grid">
+<div><p class="hb-kicker">{{KICKER}}</p>
+<h1 id="habo-service-title">{{H1}}</h1>
+<p class="hb-lead">{{LEAD}}</p>
+<div class="hb-cta">
+<a class="hb-btn hb-btn-light" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skicka bilder via Facebook ↗</a>
+<a class="hb-btn hb-btn-border" href="#sa-gor-du">Så går det till ↓</a>
+</div></div>
+<aside class="hb-hero-panel" aria-labelledby="habo-panel-heading">
+<div class="hb-panel-label">Snabb överblick</div><h2 id="habo-panel-heading">{{HERO_PANEL_TITLE}}</h2>
+<ul>{{HERO_POINTS}}</ul>
+<p class="hb-panel-small">{{HERO_NOTE}} Vår bas finns i Hjo. Habo tillhör Jönköpings län.</p>
+</aside></div></div></section>
+<section class="hb-section" id="sa-gor-du" aria-labelledby="steps-heading"><div class="hb-wrap">
+<p class="hb-eyebrow">Enkel första kontakt</p><h2 id="steps-heading">{{STEP_TITLE}}</h2>
+<p class="hb-intro">{{STEP_LEAD}}</p>
+<div class="hb-card-grid">{{STEPS}}</div>
+</div></section>
+<section class="hb-section hb-section-alt" aria-labelledby="details-heading"><div class="hb-wrap hb-split">
+<div class="hb-prose"><p class="hb-eyebrow">Vad som är viktigt</p><h2 id="details-heading">{{DETAIL_TITLE}}</h2>
+{{DETAIL_PARAS}}
+<p class="hb-quote">{{ADVICE}}</p>
+</div>
+<aside class="hb-note"><h3>{{NOTE_TITLE}}</h3>{{NOTE_PARAS}}
+<h3>Det hjälper oss att bedöma</h3><ul class="hb-check-list">{{CHECKS}}</ul>
+</aside>
+</div></section>
+<section class="hb-section" aria-labelledby="faq-heading"><div class="hb-wrap hb-faq">
+<p class="hb-eyebrow">Frågor och svar</p><h2 id="faq-heading">Vanliga frågor om {{SHORT}}</h2>{{FAQS}}
+<nav class="hb-secondary-links" aria-label="Läs vidare">{{RELATED}}</nav>
+</div></section>
+<section class="hb-final" aria-labelledby="contact-heading"><div class="hb-wrap hb-final-inner">
+<div><p class="hb-kicker">Vi utgår från Hjo · Förfrågningar från Habo</p>
+<h2 id="contact-heading">{{CTA_TITLE}}</h2><p>{{CTA_TEXT}}</p></div>
+<a class="hb-btn hb-btn-light" href="/kontakt.html">Se alla kontaktvägar →</a>
+</div></section>
+</main>
+<div id="site-footer"></div>
+<script>
+async function inject(id,url){
+ const el=document.getElementById(id);if(!el)return;
+ try{const response=await fetch(url,{cache:"no-cache"});if(!response.ok)throw new Error(url);el.innerHTML=await response.text()}
+ catch(error){console.warn("Kunde inte ladda gemensam navigering",error)}
+}
+inject("site-header","/partials1/header.html");
+inject("site-footer","/partials1/footer.html");
+</script>
+</body></html>
