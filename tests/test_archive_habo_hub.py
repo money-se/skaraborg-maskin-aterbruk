@@ -49,7 +49,9 @@ class SitemapTests(unittest.TestCase):
         self.assertIn("Jönköpings län",html)
         self.assertNotIn("Habo ligger i Skaraborg",html)
         self.assertIn('href="habo.html"',content("kop-maskiner.html"))
-        self.assertIn('href="habo.html"',content("partials1/footer.html"))
+        self.assertNotIn('href="habo.html"',content("partials1/footer.html"))
+        self.assertNotIn("Förfrågningar även från Habo",content("partials1/footer.html"))
+        self.assertIn("oavsett ort",content("partials1/footer.html"))
 
     def test_old_habo_service_pages_link_to_hub(self):
         for path in HABO_SERVICES[:7]:
