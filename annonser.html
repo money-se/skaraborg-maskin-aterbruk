@@ -250,7 +250,20 @@
 .detail .ad-contact{border:0;margin:14px 0 0;padding:0}
 @media(max-width:860px){.detail .detail-layout{grid-template-columns:1fr}.detail .business-panel{position:static}}
 @media(max-width:600px){.detail .detail-main,.detail .business-panel{padding:18px}.detail .brand-banner{padding:22px}.detail .thumb button{flex-basis:71px;height:66px}}
-.ad-view-link{display:flex;align-items:center;justify-content:center;margin-top:13px;min-height:47px;background:#1f3322;border-radius:10px;color:#fff!important;text-decoration:none;font-weight:850}.ad-view-link:hover{background:#304936}</style>
+.ad-view-link{display:flex;align-items:center;justify-content:center;margin-top:13px;min-height:47px;background:#1f3322;border-radius:10px;color:#fff!important;text-decoration:none;font-weight:850}.ad-view-link:hover{background:#304936}
+/* Reservvisning: harmoniserar med de nya, genererade annonssidorna. */
+.detail .brand-banner{background:radial-gradient(circle at 88% 0%,rgba(212,232,211,.6),transparent 38%),linear-gradient(180deg,#fdfefc,#edf3ee)!important;color:#193c24!important;border:1px solid #dbe5dc;border-radius:19px;padding:28px 30px}
+.detail .brand-banner strong{color:#173b24;font-size:clamp(24px,3vw,33px);line-height:1.16;letter-spacing:-.02em}
+.detail .brand-banner p{color:#526e58;font-size:14px}
+.detail .brand-banner:after{color:#1a43230a;right:18px}
+.detail .buy-info{border:1px solid #dbe5dc;border-radius:15px;background:#f9fbf8;padding:21px 22px;margin-top:24px}
+.detail .buy-info h3{font-size:21px;line-height:1.2;margin:0 0 15px}
+.detail .buy-info ul{padding-left:20px;display:grid;gap:10px}
+.detail .buy-info li{color:#526456;font-size:14px;line-height:1.6}
+.detail .buy-info li strong{color:#1b3c24}
+.detail .buy-info a{font-weight:750;text-underline-offset:3px}
+@media(max-width:600px){.detail .brand-banner{padding:19px}.detail .buy-info{padding:18px}}
+</style>
   <script defer src="/statistik-raknare.js" data-page="annonser"></script>
 </head>
 <body>
@@ -379,6 +392,18 @@ function detail(ad){
   const heading=document.createElement('h3');heading.textContent='Om objektet';main.append(heading);
   const desc=document.createElement('p');desc.className='description';desc.textContent=ad.description||'Kontakta oss för mer information om objektet.';main.append(desc);
   const info=document.createElement('p');info.className='muted';info.textContent='Begagnade varor säljs i befintligt skick. Fråga gärna om funktion, kända fel och fler bilder före köp.';main.append(info);
+  const buyInfo=document.createElement('section');buyInfo.className='buy-info';buyInfo.setAttribute('aria-label','Bra att veta före köp');
+  const buyTitle=document.createElement('h3');buyTitle.textContent='Bra att veta före köp';buyInfo.append(buyTitle);
+  const buyList=document.createElement('ul');
+  const notes=[
+    ['Skick och funktion: ','Läs beskrivningen och fråga om kända brister. Begagnade varor kan ha normalt slitage.'],
+    ['Pris och reservation: ','En förfrågan är ingen beställning. Villkor för pris, reservation och eventuell handpenning bekräftas före affären.'],
+    ['Hämtning och transport: ','Visning och eventuell hämtning eller frakt sker efter överenskommelse.'],
+    ['Dina rättigheter: ','Vid köp från oss som konsument gäller konsumentköplagen även för begagnat. Vid distansavtal kan ångerrätt gälla enligt lag.']
+  ];
+  notes.forEach(([label,value])=>{const li=document.createElement('li');const strong=document.createElement('strong');strong.textContent=label;li.append(strong,document.createTextNode(value));buyList.append(li)});
+  buyInfo.append(buyList);
+  const rights=document.createElement('a');rights.href='https://www.konsumentverket.se/konsumentratt/handla-begagnat/';rights.target='_blank';rights.rel='noopener noreferrer';rights.textContent='Läs mer hos Konsumentverket ↗';buyInfo.append(rights);main.append(buyInfo);
   layout.append(main);
   const aside=document.createElement('aside');aside.className='business-panel';
   const h=document.createElement('h3');h.textContent='Intresserad av objektet?';aside.append(h);
