@@ -11,8 +11,8 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Överskottslager för företag i Skaraborg | Skaraborg Maskin & Återbruk</title>
-  <meta name="description" content="Har företaget maskiner, reservdelar, utrustning eller material som blivit över? Skicka bilder, ort och mängd för bedömning av överskottslager i Skaraborg.">
+  <title>Överskottslager och reservdelspartier för företag i Skaraborg</title>
+  <meta name="description" content="Sälj överblivna reservdelar, utrustning och maskinrelaterade restpartier efter projekt och modellbyten. Skicka bilder och artikelnummer för bedömning i Skaraborg.">
   <link rel="canonical" href="https://skaraborgmaskin.se/overskottslager-foretag.html">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#1f2d1f">
@@ -201,7 +201,19 @@
     .stock-action-row a{text-align:center}
     @media(max-width:860px){.stock-links{grid-template-columns:1fr}}
     @media(max-width:620px){.stock-action-row{flex-direction:column;width:100%}.stock-action-row a{width:100%}}
-  </style>
+  
+    /* Överskottslager: inventering av varupartier */
+    .stock-inventory{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:25px}
+    .stock-inventory>div{padding:20px;border-radius:16px;background:#eaf1ea;border:1px solid var(--line)}
+    .stock-inventory strong{display:block;margin-bottom:7px;color:var(--brand);font-size:14px;text-transform:uppercase;letter-spacing:.02em}
+    .stock-inventory span{display:block;color:var(--text)}
+    .stock-check{margin:12px 0 0;padding-left:22px;color:var(--muted)}
+    .stock-check li{margin:11px 0}
+    .stock-notice{margin-top:24px}
+    .stock-actions{display:flex;gap:11px;flex-wrap:wrap}
+    @media(max-width:900px){.stock-inventory{grid-template-columns:1fr}}
+    @media(max-width:620px){.stock-actions{flex-direction:column}.stock-actions .btn{width:100%}}
+</style>
 </head>
 <body>
   <a class="skip-link" href="#huvudinnehall">Hoppa till innehållet</a>
@@ -210,123 +222,102 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div>
-          <div class="eyebrow">Företag · Verkstäder · Överskottslager i Skaraborg</div>
-          <h1>Har företaget ett lager som bara tar plats?</h1>
-          <p class="lead">Har inköp, avslutade projekt eller förändrade maskinmodeller lämnat kvar reservdelar och utrustning som företaget inte längre behöver? Här fokuserar vi på själva överskottet: varor, komponenter och partier som blivit över men kan ha en användning hos någon annan. Vi bedömer om hela eller delar av partiet kan köpas.</p>
+          <div class="eyebrow">Företag · Restlager · Reservdelspartier</div>
+          <h1>Sälj överskottslager som inte längre används</h1>
+          <p class="lead">Blev det reservdelar över när en maskinmodell försvann? Finns det material kvar från ett avslutat projekt, eller kartonger som aldrig kommit till användning? Vi tittar på <strong>själva varupartiet</strong> – även när ni behåller lagret och fortsätter verksamheten som vanligt.</p>
           <div class="buttons">
-            <a class="btn btn-light" href="foretagsforfragan.html">Skapa en företagsförfrågan →</a>
-            <a class="btn btn-outline" href="#vad-vi-tittar-pa">Vad tittar vi på? ↓</a>
+            <a class="btn btn-light" href="foretagsforfragan.html">Visa oss ert överskott →</a>
+            <a class="btn btn-outline" href="#partier">Vilka partier kan vara intressanta? ↓</a>
           </div>
-          <p class="stock-note">Vi utgår från Hjo. Skriv gärna via <a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Facebook ↗</a> eller <a href="sms:+46727483256">SMS</a>.</p>
+          <p class="stock-note">Utgångspunkt Hjo · Förfrågningar från hela Skaraborg · <a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Facebook</a> eller <a href="sms:+46727483256">SMS</a></p>
         </div>
         <div class="hero-card">
-          <h2>En första bedömning börjar här</h2>
-          <p>Du behöver ingen komplett lista på varje artikel. Vi börjar med en överblick över lagret och ställer fler frågor om det behövs.</p>
+          <h2>Exempel: en hylla med reservdelar</h2>
+          <p>Ni har 40 oanvända komponenter till en äldre maskinserie. Ni behöver inte tömma verkstaden – skicka bilder på delarna, etiketter och ungefärligt antal så kan vi bedöma om ett köp är intressant.</p>
           <ul class="hero-list">
-            <li>1–3 tydliga bilder</li>
-            <li>Ort och ungefärlig mängd</li>
-            <li>Typ av maskiner, delar och material</li>
-            <li>Skick, kända fel och gärna en prisidé</li>
+            <li>En översiktsbild av partiet</li>
+            <li>En närbild på märkning eller artikelnummer</li>
+            <li>Antal, ort och gärna önskat pris</li>
           </ul>
-          <p class="small-note">Intresse för köp eller hämtning avgörs från fall till fall.</p>
+          <p class="small-note">Exemplet beskriver typen av förfrågan, inte ett löfte om köp.</p>
         </div>
       </div>
     </section>
 
-    <section id="vad-vi-tittar-pa">
+    <section id="partier">
       <div class="wrap">
         <div class="section-head">
-          <span>Från överblivet till användbart</span>
-          <h2>Vad kan finnas i ett överskottslager?</h2>
-          <p>Överskottslager uppstår ofta utan att ett lager behöver rensas ur helt. Det kan röra sig om reservdelar till en maskinmodell som fasats ut, material som köpts in till ett avslutat arbete eller dubbla uppsättningar av utrustning. Vi vill framför allt veta vad partiet består av och om det finns flera liknande objekt.</p>
+          <span>Det här är ett överskottslager</span>
+          <h2>Produkter och delar som blev över – inte en lokal som måste tömmas</h2>
+          <p>Det avgörande är <strong>vad ni har kvar</strong>, inte hur många kvadratmeter lagret upptar. Vi kan bedöma en avgränsad grupp reservdelar eller ett blandat parti maskinrelaterad utrustning.</p>
         </div>
         <div class="grid">
-          <div class="card s4"><div class="icon" aria-hidden="true">🚜</div><h3>Maskiner och redskap</h3><p>Äldre maskiner, verkstadsutrustning, arbetsredskap och även ofullständiga eller defekta objekt.</p></div>
-          <div class="card s4"><div class="icon" aria-hidden="true">🔩</div><h3>Reservdelar</h3><p>Komponenter, motor- och maskindelar, reservdelslager eller saker som inte längre används.</p></div>
-          <div class="card s4"><div class="icon" aria-hidden="true">📦</div><h3>Material och blandade partier</h3><p>Projektrester, viss metall, lagerförda föremål och annat återbrukbart material.</p></div>
+          <article class="card s4"><div class="icon" aria-hidden="true">🔩</div><h3>Reservdelar till utgångna modeller</h3><p>Komponenter, motor- och maskindelar som inte längre behövs eftersom utrustningen ersatts. Artikelnummer och modellbeteckningar hjälper oss att förstå partiet.</p></article>
+          <article class="card s4"><div class="icon" aria-hidden="true">📦</div><h3>Oanvända inköp och projektrester</h3><p>Förpackade delar, överblivna tillbehör och maskinrelaterat material efter projekt. Ange gärna om det finns flera av samma artikel.</p></article>
+          <article class="card s4"><div class="icon" aria-hidden="true">⚙️</div><h3>Utbytt utrustning och tillbehör</h3><p>Redskap, arbetsutrustning och reservmaskiner som ersatts men fortfarande kan ha nytta eller reservdelsvärde för någon annan.</p></article>
         </div>
-        <div class="stock-tags" aria-label="Vanliga objekt"><span>Överblivna maskiner</span><span>Äldre reservdelar</span><span>Verktyg</span><span>Reparationsobjekt</span><span>Metallpartier</span></div>
+        <div class="stock-inventory">
+          <div><strong>Typisk förfrågan</strong><span>”Vi har ett parti gamla reservdelar kvar efter ett modellbyte.”</span></div>
+          <div><strong>Det vi behöver</strong><span>Artikelgrupper, ungefärligt antal, skick och bilder på märkning.</span></div>
+          <div><strong>Möjlig lösning</strong><span>Vi bedömer om hela eller delar av partiet passar för köp och återbruk.</span></div>
+        </div>
       </div>
     </section>
 
     <section class="soft">
       <div class="wrap">
+        <div class="section-head"><span>En bra första förfrågan</span><h2>Visa vad partiet innehåller</h2><p>Det behövs normalt inte ett färdigt kalkylark. Börja med grupperna ni redan känner till och ge oss några tydliga bilder.</p></div>
         <div class="grid">
-          <div class="s7">
-            <div class="section-head">
-              <span>Få plats för det som behövs</span>
-              <h2>Slipp börja med att sälja varje sak separat</h2>
-              <p>Ett användbart första steg är att skilja ut vilka artikelgrupper som faktiskt blivit över. Ni behöver inte inventera varje artikel, men en översiktsbild på hyllorna, ungefärligt antal och gärna märkning eller modelluppgifter gör det lättare att bedöma partiet. Gäller det i stället att frigöra en hel lokal med blandat innehåll är sidan om lagerutrensning mer relevant.</p>
-            </div>
-            <ul class="stock-list">
-              <li>Visa vilka artikelgrupper eller reservdelspartier som blivit över efter inköp eller projekt.</li>
-              <li>Se vad som kan vara intressant för vidare användning eller återbruk.</li>
-              <li>Diskutera pris och möjlig hämtning om ett köp blir aktuellt.</li>
-              <li>Bifoga gärna märkning, artikelnummer eller förpackningsbilder när sådana finns.</li>
-            </ul>
-            <p class="stock-disclaimer">Vi erbjuder inte generell sophämtning eller garanterad kostnadsfri bortforsling. Skrot och avfall behöver hanteras utifrån vad det är och vilka regler som gäller.</p>
+          <div class="card s7">
+            <h3>Ett enkelt sätt att beskriva partiet</h3>
+            <ol class="stock-check">
+              <li><strong>Gruppera:</strong> vilka typer av delar eller maskiner finns och ungefär hur många?</li>
+              <li><strong>Fotografera:</strong> ta en översiktsbild och närbild på etiketter, modellnummer eller förpackningar.</li>
+              <li><strong>Berätta:</strong> ange ort, känt skick, om något är defekt och en eventuell prisidé.</li>
+            </ol>
+            <p>Har ni till exempel tio likadana delar räcker det att tydligt visa vilken modell de hör till, tillsammans med antalet.</p>
           </div>
           <div class="s5">
-            <div class="focus stock-highlight">
-              <h3>Det är innehållet som avgör</h3>
-              <p>Vi bedömer bland annat vilka typer av maskiner och delar som finns, skick, mängd, transportbehov och möjligheten till fortsatt användning.</p>
-              <p>Gamla och trasiga objekt kan fortfarande vara intressanta, men vi kan inte lova köp av allt.</p>
+            <div class="focus">
+              <h3>Vad avgör intresset?</h3>
+              <p>Artiklarna och deras användningsområde, skick, mängd, identifierbarhet samt möjligheten till fortsatt bruk.</p>
+              <p>En del lager kan vara svåra att värdera enbart på bilder. Då frågar vi efter mer information innan vi tar ställning.</p>
             </div>
           </div>
+        </div>
+        <div class="notice stock-notice">
+          <h3>Behöver ni i stället tömma ett helt lager?</h3>
+          <p>Om huvudfrågan är att frigöra ett förråd eller en lokal med blandat innehåll passar <a href="lagerutrensning-foretag.html"><strong>lagerutrensning för företag</strong></a> bättre. Vid överskottslager står de överblivna produkterna i centrum.</p>
         </div>
       </div>
     </section>
 
-    <section id="processen">
+    <section id="fragor">
       <div class="wrap">
-        <div class="section-head">
-          <span>Enkelt att komma igång</span>
-          <h2>Så går det till</h2>
-          <p>En första kontakt behöver inte vara komplicerad. Det räcker ofta att visa ungefär vad som finns och var det står.</p>
-        </div>
-        <div class="process">
-          <div class="step"><div class="num">1</div><h3>Skicka bilder</h3><p>Visa lagret eller de större maskinerna och skriv vilken ort det gäller.</p></div>
-          <div class="step"><div class="num">2</div><h3>Vi bedömer</h3><p>Vi ser om något kan vara intressant och frågar efter detaljer vid behov.</p></div>
-          <div class="step"><div class="num">3</div><h3>Vi diskuterar</h3><p>Om intresse finns pratar vi om omfattning, pris och eventuell transport.</p></div>
-          <div class="step"><div class="num">4</div><h3>Vi kommer överens</h3><p>En eventuell affär eller hämtning genomförs enligt det vi avtalat.</p></div>
-        </div>
-        <div class="notice" style="margin-top:24px">
-          <h3>Har ni blandade saker som är svåra att beskriva?</h3>
-          <p>Börja med några översiktsbilder och ungefärlig mängd. <a href="foretagsforfragan.html">Använd vårt formulär för en tydlig företagsförfrågan →</a></p>
-        </div>
+        <div class="section-head"><span>Vanliga frågor</span><h2>Inför försäljning av ett restparti</h2><p>Några skillnader som är bra att känna till innan ni hör av er.</p></div>
+        <details><summary>Måste delarna vara nya och kompletta?</summary><div class="answer"><p>Nej. Även äldre, använda och vissa defekta delar kan vara intressanta. Skriv vad ni känner till om skick och eventuella fel, så gör vi en individuell bedömning.</p></div></details>
+        <details><summary>Måste vi sälja hela lagret?</summary><div class="answer"><p>Nej. Förfrågan kan gälla en bestämd artikelgrupp eller ett avgränsat parti. Vi kan också vara intresserade av bara en del av det ni visar oss.</p></div></details>
+        <details><summary>Köper ni allt som blivit över?</summary><div class="answer"><p>Nej. Vi tittar särskilt på maskiner, reservdelar, redskap och utrustning med möjlig användning. Allmänna lagervaror och avfall ligger inte automatiskt inom det vi tar emot.</p></div></details>
       </div>
     </section>
 
     <section class="soft">
       <div class="wrap">
-        <div class="section-head">
-          <span>Utgår från Hjo</span>
-          <h2>Överskottslager i hela Skaraborg</h2>
-          <p>Vi tar emot förfrågningar från bland annat Skövde, Tibro, Karlsborg, Mariestad, Tidaholm, Skara, Falköping och Töreboda. Även företag utanför de orterna kan höra av sig.</p>
+        <div class="section-head"><span>Välj rätt väg</span><h2>Handlar det om varor, utrymme eller maskiner?</h2><p>Här är de närmaste alternativen om er situation är en annan.</p></div>
+        <div class="grid">
+          <div class="card s4 link-card"><h3>Överskottslager</h3><p><strong>Ni har kvar ett identifierbart parti</strong> efter inköp, projekt eller modellbyten. Då är ni på rätt sida.</p><a href="foretagsforfragan.html">Beskriv partiet →</a></div>
+          <div class="card s4 link-card"><h3>Lagerutrensning</h3><p><strong>Ni behöver frigöra golvyta</strong> i ett lager eller förråd där olika saker samlats över tid.</p><a href="lagerutrensning-foretag.html">Läs om lagerutrensning →</a></div>
+          <div class="card s4 link-card"><h3>Verkstadsutrensning</h3><p><strong>Ni ska byta, flytta eller avveckla verkstadsmaskiner</strong> och tillhörande utrustning.</p><a href="verkstadsutrensning-foretag.html">Läs om verkstadsutrensning →</a></div>
         </div>
-        <p class="stock-disclaimer">Hämtning och transport bedöms utifrån objekt, avstånd och mängd.</p>
-        <div class="section-head" style="margin-top:43px">
-          <span>Fler möjligheter</span>
-          <h2>Läs vidare om våra företagslösningar</h2>
-          <p>Vi bedömer även enskilda maskiner, verkstäder och större lagerpartier som behöver avvecklas.</p>
-        </div>
-        <div class="stock-links">
-          <div class="card stock-link"><div class="icon" aria-hidden="true">🏭</div><h3>För företag</h3><p>Se alla våra företagslösningar på ett ställe.</p><a href="foretag.html">Till företagslösningarna →</a></div>
-          <div class="card stock-link"><div class="icon" aria-hidden="true">🛠️</div><h3>Maskinavveckling</h3><p>Äldre maskiner som inte längre används kan ibland få en ny chans.</p><a href="maskinavveckling-foretag.html">Läs om maskinavveckling →</a></div>
-          <div class="card stock-link"><div class="icon" aria-hidden="true">♻️</div><h3>Lagerutrensning</h3><p>Rensa plats när lager eller förråd fyllts av utrustning och material.</p><a href="lagerutrensning-foretag.html">Läs om lagerutrensning →</a></div>
-        </div>
+        <p class="quiet-note">Vi utgår från Hjo och tar emot förfrågningar från Skövde, Tibro, Karlsborg, Mariestad, Skara, Falköping, Töreboda och övriga Skaraborg. Möjligt köp och transport bedöms från fall till fall.</p>
       </div>
     </section>
 
     <section class="dark">
       <div class="wrap">
-        <div class="section-head">
-          <span>Företagsförfrågan</span>
-          <h2>Vad har blivit stående hos er?</h2>
-          <p>Skicka gärna 1–3 bilder, ort och en kort beskrivning. Vi återkommer om vi behöver veta mer.</p>
-        </div>
-        <div class="stock-action-row">
-          <a class="btn btn-light" href="foretagsforfragan.html">Skapa en förfrågan →</a>
+        <div class="section-head"><span>Visa oss vad ni har</span><h2>Vilka reservdelar eller partier har blivit över?</h2><p>Skicka 1–3 bilder med artikelnummer om de finns, antal, ort och en kort beskrivning. Vi återkommer om vi behöver veta mer. Ingen affär eller hämtning är avtalad innan vi kommit överens.</p></div>
+        <div class="stock-actions">
+          <a class="btn btn-light" href="foretagsforfragan.html">Skapa företagsförfrågan →</a>
           <a class="btn btn-outline" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skriv via Facebook ↗</a>
           <a class="btn btn-outline" href="sms:+46727483256">Skicka SMS</a>
         </div>
