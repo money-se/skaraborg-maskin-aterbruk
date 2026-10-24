@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="sv"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Maskinarkivet – djupguider om åkgräsklippare, motorer & reservdelar</title>
-<meta name="description" content="Sök bland Maskinarkivets källkontrollerade maskinguider om STIGA, Husqvarna och Jonsered. Identifiera modellen och hitta hjälp med motor, drivning, aggregat och reservdelar.">
+<title>Maskinarkivet – maskinguider för åkgräsklippare och fler maskiner</title>
+<meta name="description" content="Maskinarkivet byggs ut med guider om åkgräsklippare, gräsklippare, motorsågar och andra maskiner. Sök modell, maskintyp och reservdelar.">
 <meta name="robots" content="index,follow,max-image-preview:large"><meta name="theme-color" content="#182d20">
 <link rel="canonical" href="https://skaraborgmaskin.se/maskinarkivet.html">
 <meta property="og:type" content="website"><meta property="og:locale" content="sv_SE"><meta property="og:site_name" content="Skaraborg Maskin &amp; Återbruk">
@@ -32,6 +32,11 @@ main .section{padding:69px 0}.section-soft{background:#edf4ee}.section-title{fon
 @media(max-width:970px){.models{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-grid{grid-template-columns:1fr;gap:30px}.hero-card{max-width:540px}}
 @media(max-width:640px){.wrap{width:min(100% - 28px,1150px)}.hero{padding:22px 0 45px}.breadcrumb{margin-bottom:33px}.hero h1{font-size:clamp(37px,10vw,49px)}.hero-actions .button{width:100%}main .section{padding:48px 0}.models,.trust{grid-template-columns:1fr}.tools{align-items:stretch}.search{max-width:none}.filters{gap:5px}.filter{padding:8px 12px}.machine{padding:22px}.highlight,.final-inner{flex-direction:column;align-items:flex-start}.highlight a{white-space:normal}.final .button{width:100%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.machine{transition:none}.button:hover,.machine:hover{transform:none}}
+.build-status{display:inline-flex;align-items:center;gap:10px;color:#e0eada;font-size:12px;font-weight:800;border:1px solid #b7d2b94d;background:#e9f3ea13;border-radius:100px;padding:8px 13px;margin:0 0 21px}.build-dot{width:8px;height:8px;border-radius:100px;background:#e1ba54;flex:none}
+.type-label{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:850;color:#3b5c44}.type-label select{min-width:210px;height:48px;border-radius:11px;border:1px solid #c7d8c9;background:white;color:#294532;font:inherit;font-size:14px;padding:0 12px}
+.archive-count{color:#536e59;font-size:13px;font-weight:800;margin:-2px 0 13px}.machine[hidden]{display:none!important}.no-results[hidden]{display:none!important}.more-wrap{display:flex;justify-content:center;margin-top:29px}.more-button{border:1px solid #bfd2c1;background:#fefefe;color:#255032;cursor:pointer;min-width:210px}.more-button[hidden]{display:none}.more-button:hover{background:#edf4ed}
+.future-types{display:flex;flex-wrap:wrap;gap:9px;margin-top:28px}.future-types span{border-radius:99px;border:1px solid #c8dac9;padding:7px 12px;font-size:12px;color:#486450;background:#fff}.future-types span:first-child{background:#dcebdd;color:#265032;font-weight:850}
+@media(max-width:640px){.type-label{width:100%}.type-label select{width:100%}.more-button{width:100%}}
 </style></head>
 <body><a class="skip" href="#content">Hoppa till innehåll</a><div id="site-header"></div>
 <main id="content">
@@ -39,66 +44,104 @@ main .section{padding:69px 0}.section-soft{background:#edf4ee}.section-title{fon
 <nav class="breadcrumb" aria-label="Brödsmulor"><a href="/">Hem</a><span>/</span><span>Maskinarkivet</span></nav>
 <div class="hero-grid"><div>
 <p class="eyebrow">Skaraborg Maskin &amp; Återbruk · Maskinkunskap</p>
+<div class="build-status"><span class="build-dot" aria-hidden="true"></span> Under uppbyggnad · Nya maskiner och kategorier läggs till löpande</div>
 <h1 id="hero-title">Lär känna maskinen. <em>På riktigt.</em></h1>
-<p class="hero-lead">Maskinarkivet hjälper dig förstå äldre åkgräsklippare och deras olika versioner. Hitta rätt modell, lär dig hur motor och drivning fungerar och se vad du bör kontrollera när du söker reservdelar eller köper begagnat.</p>
+<p class="hero-lead">Maskinarkivet växer till ett bibliotek om många slags maskiner – från åkgräsklippare och trädgårdstraktorer till vanliga gräsklippare, motorsågar, motorer och andra redskap. Börja med de modellguider som redan finns, och följ med när vi fyller på.</p>
 <div class="hero-actions"><a class="button button-primary" href="#modeller">Hitta din maskin ↓</a><a class="button button-outline" href="#sa-fungerar-arkivet">Så fungerar arkivet</a></div>
 </div>
 <div class="hero-card"><h2>Börja med tre saker</h2><ol><li>Ta reda på modellnamn och hela produktnumret.</li><li>Jämför motor, drivning och klippaggregat med rätt dokumentation.</li><li>Läs guiden för service, reservdelar eller felsökning.</li></ol></div>
 </div></div></section>
 <section class="section" id="modeller" aria-labelledby="models-heading"><div class="wrap">
 <p class="eyebrow">Modellbibliotek</p><h2 class="section-title" id="models-heading">Hitta rätt modellguide</h2>
-<p class="section-lead">Sök efter modell eller filtrera efter märke. Varje artikel är en egen kunskapsbank – med tydliga kapitel, underlag och praktiska råd. Kontrollera alltid märkningen på just din maskin.</p>
+<p class="section-lead">Sök bland hela biblioteket eller filtrera efter maskintyp och märke. För att göra listan lättöverskådlig visar vi fyra guider i taget. Fler maskintyper läggs till efter hand, när underlaget räcker.</p>
 <div class="tools"><label class="search"><span aria-hidden="true">⌕ &nbsp;</span><input id="model-search" type="search" placeholder="Sök t.ex. Rider 13, Villa, transmission..." aria-label="Sök i Maskinarkivets modellguider"></label>
+<label class="type-label" for="type-filter">Maskintyp <select id="type-filter"><option value="alla">Alla maskintyper</option></select></label>
 <div class="filters" role="group" aria-label="Filtrera maskinmärke"><button class="filter" type="button" data-brand="alla" aria-pressed="true">Alla</button><button class="filter" type="button" data-brand="stiga" aria-pressed="false">STIGA</button><button class="filter" type="button" data-brand="husqvarna" aria-pressed="false">Husqvarna</button><button class="filter" type="button" data-brand="jonsered" aria-pressed="false">Jonsered</button></div></div>
-<div class="models" id="model-list"><article class="machine" data-brand="stiga" data-search="stiga villa 12 hst frontklippare k46cj 85 combi identifiering">
+<div class="archive-count" id="archive-count" aria-live="polite">6 modellguider i arkivet</div>
+<div class="models" id="model-list"><article class="machine" data-category="akgrasklippare" data-brand="stiga" data-search="stiga villa 12 hst frontklippare k46cj 85 combi identifiering">
 <div class="machine-top"><span class="machine-brand">STIGA</span><span class="machine-kind">Frontklippare</span></div>
 <h3>STIGA Villa 12 HST</h3><p>Modellversioner, hydrostat, motoralternativ, 85 Combi-aggregat och vägledning för service och reservdelar.</p>
 <div class="tags"><span>K46CJ</span><span>85 Combi</span><span>Identifiering</span></div>
 <div class="machine-foot"><span>Fördjupad modellguide</span><a href="/maskinarkiv/stiga-villa-12-hst.html" aria-label="Läs guiden om STIGA Villa 12 HST">Läs guiden <span aria-hidden="true">→</span></a></div>
 </article>
-<article class="machine" data-brand="husqvarna" data-search="husqvarna rider 13 rider versioner transmission reservdelar">
+<article class="machine" data-category="akgrasklippare" data-brand="husqvarna" data-search="husqvarna rider 13 rider versioner transmission reservdelar">
 <div class="machine-top"><span class="machine-brand">Husqvarna</span><span class="machine-kind">Rider</span></div>
 <h3>Husqvarna Rider 13</h3><p>Skillnader mellan Rider 13-varianter, motorer, transmissioner, klippaggregat och säker identifiering.</p>
 <div class="tags"><span>Versioner</span><span>Transmission</span><span>Reservdelar</span></div>
 <div class="machine-foot"><span>Fördjupad modellguide</span><a href="/maskinarkiv/husqvarna-rider-13.html" aria-label="Läs guiden om Husqvarna Rider 13">Läs guiden <span aria-hidden="true">→</span></a></div>
 </article>
-<article class="machine" data-brand="husqvarna" data-search="husqvarna lth151 trädgårdstraktor produktnummer motor felsökning">
+<article class="machine" data-category="akgrasklippare" data-brand="husqvarna" data-search="husqvarna lth151 trädgårdstraktor produktnummer motor felsökning">
 <div class="machine-top"><span class="machine-brand">Husqvarna</span><span class="machine-kind">Trädgårdstraktor</span></div>
 <h3>Husqvarna LTH151</h3><p>Hitta rätt maskinvariant och läs om motor, drivning, underhåll, felsökning och delar.</p>
 <div class="tags"><span>Produktnummer</span><span>Motor</span><span>Felsökning</span></div>
 <div class="machine-foot"><span>Fördjupad modellguide</span><a href="/maskinarkiv/husqvarna-lth151.html" aria-label="Läs guiden om Husqvarna LTH151">Läs guiden <span aria-hidden="true">→</span></a></div>
 </article>
-<article class="machine" data-brand="stiga" data-search="stiga park 16 frontklippare park-serien drivning aggregat">
+<article class="machine" data-category="akgrasklippare" data-brand="stiga" data-search="stiga park 16 frontklippare park-serien drivning aggregat">
 <div class="machine-top"><span class="machine-brand">STIGA</span><span class="machine-kind">Frontklippare</span></div>
 <h3>STIGA Park 16</h3><p>Konstruktion, Park-generationer, drivning, aggregat, identifiering och praktiska maskinkontroller.</p>
 <div class="tags"><span>Park-serien</span><span>Drivning</span><span>Aggregat</span></div>
 <div class="machine-foot"><span>Fördjupad modellguide</span><a href="/maskinarkiv/stiga-park-16.html" aria-label="Läs guiden om STIGA Park 16">Läs guiden <span aria-hidden="true">→</span></a></div>
 </article>
-<article class="machine" data-brand="jonsered" data-search="jonsered lt2115 trädgårdstraktor modellfamilj motordelar manualer">
+<article class="machine" data-category="akgrasklippare" data-brand="jonsered" data-search="jonsered lt2115 trädgårdstraktor modellfamilj motordelar manualer">
 <div class="machine-top"><span class="machine-brand">Jonsered</span><span class="machine-kind">Trädgårdstraktor</span></div>
 <h3>Jonsered LT2115</h3><p>Identifiera LT2115-familjen, hitta rätt underlag och förstå viktiga skillnader i motor, drivning och delar.</p>
 <div class="tags"><span>Modellfamilj</span><span>Motordelar</span><span>Manualer</span></div>
 <div class="machine-foot"><span>Fördjupad modellguide</span><a href="/maskinarkiv/jonsered-lt2115.html" aria-label="Läs guiden om Jonsered LT2115">Läs guiden <span aria-hidden="true">→</span></a></div>
 </article>
-<article class="machine" data-brand="stiga" data-search="stiga park 2000 historisk frontklippare historia 1975 identifiering">
+<article class="machine" data-category="akgrasklippare" data-brand="stiga" data-search="stiga park 2000 historisk frontklippare historia 1975 identifiering">
 <div class="machine-top"><span class="machine-brand">STIGA</span><span class="machine-kind">Historisk frontklippare</span></div>
 <h3>STIGA Park 2000</h3><p>En historisk genomgång av den första Park-generationen från 1975, med växling, midjestyrning och modellidentifiering.</p>
 <div class="tags"><span>Historia</span><span>1975</span><span>Identifiering</span></div>
 <div class="machine-foot"><span>Historisk fördjupning</span><a href="/maskinarkiv/stiga-park-2000.html" aria-label="Läs guiden om STIGA Park 2000">Läs guiden <span aria-hidden="true">→</span></a></div>
-</article></div><p id="no-results" class="no-results" role="status" hidden>Inga guider matchar sökningen. Prova ett annat modellnamn eller välj Alla.</p>
+</article></div><p id="no-results" class="no-results" role="status" hidden>Inga guider matchar sökningen. Prova ett annat modellnamn eller välj Alla maskintyper.</p>
+<div class="more-wrap"><button class="button more-button" type="button" id="more-models" hidden>Visa fler maskiner ↓</button></div>
 </div></section>
 <section class="section section-soft" id="sa-fungerar-arkivet" aria-labelledby="trust-heading"><div class="wrap">
 <p class="eyebrow">Kunskap som går att använda</p><h2 class="section-title" id="trust-heading">Enkelt att förstå, grundligt när det behövs</h2>
-<p class="section-lead">Maskinens namn säger sällan allt. Därför skiljer vi på det som är dokumenterat för en viss version och sådant som kan variera mellan årsmodeller eller tidigare ägare.</p>
+<p class="section-lead">Biblioteket byggs ut steg för steg. Just nu finns guider om åkgräsklippare och närliggande maskintyper. Framöver kan kategorier som handgräsklippare, motorsågar, röjsågar och småmotorer tillkomma när vi har tillräckligt underlag. Vi skiljer alltid dokumenterade uppgifter från sådant som kan variera.</p>
+<div class="future-types" aria-label="Maskinkategorier vi planerar att bygga ut"><span>Finns nu: åkgräsklippare &amp; traktorer</span><span>Kommande: vanliga gräsklippare</span><span>Kommande: motorsågar</span><span>Kommande: röjsågar &amp; trimmers</span><span>Kommande: motorer &amp; redskap</span></div>
 <div class="trust"><div><h3>Identifiera innan du beställer</h3><p>Produktnummer, motorns märkning och aggregatets beteckning avgör vilken dokumentation och vilka delar som hör till din maskin.</p></div><div><h3>Hitta rätt kapitel direkt</h3><p>Guiderna är uppdelade i snabb överblick, konstruktion, felsökning, service, reservdelar och källor.</p></div><div><h3>Vi visar gränserna</h3><p>Om ett motorutförande eller en del inte är verifierad säger vi det hellre än att gissa på kompatibilitet.</p></div></div>
 <div class="highlight"><div><h3>Letar du efter delar – eller vill du sälja maskinen?</h3><p>Maskinarkivet innehåller gratis kunskap. Företagets uppköp och annonser finns separat, så du kan läsa utan att behöva handla.</p></div><a href="/kop-maskiner.html">Se vad vi köper →</a></div>
 </div></section>
 <section class="final" aria-labelledby="end-heading"><div class="wrap final-inner"><div><p class="eyebrow">Från kunskap till återbruk</p><h2 id="end-heading">Är maskinen fortfarande värd något?</h2><p>Det kan finnas användbara delar även när en äldre maskin slutat fungera. Om du vill sälja ett objekt kan du skicka bilder, ort och en kort beskrivning för individuell bedömning.</p></div><a class="button button-primary" href="/kontakt.html">Kontakta oss →</a></div></section>
 </main><div id="site-footer"></div>
 <script>
-(function(){const field=document.getElementById("model-search"),buttons=[...document.querySelectorAll(".filter")],cards=[...document.querySelectorAll(".machine")],empty=document.getElementById("no-results");let brand="alla";
-function update(){const query=field.value.trim().toLocaleLowerCase("sv-SE");let count=0;for(const card of cards){const visible=(brand==="alla"||card.dataset.brand===brand)&&(!query||card.dataset.search.includes(query));card.hidden=!visible;if(visible)count++}empty.hidden=count>0}
-buttons.forEach(btn=>btn.addEventListener("click",()=>{brand=btn.dataset.brand;buttons.forEach(other=>other.setAttribute("aria-pressed",String(other===btn)));update()}));field.addEventListener("input",update)})();
+(function(){
+  const field=document.getElementById("model-search");
+  const type=document.getElementById("type-filter");
+  const brandButtons=[...document.querySelectorAll(".filter")];
+  const cards=[...document.querySelectorAll("#model-list .machine")];
+  const empty=document.getElementById("no-results");
+  const count=document.getElementById("archive-count");
+  const more=document.getElementById("more-models");
+  const typeLabels={akgrasklippare:"Åkgräsklippare & traktorer",grasklippare:"Vanliga gräsklippare",motorsagar:"Motorsågar",roj_sagar:"Röjsågar & trimmers",motorer:"Motorer",redskap:"Redskap & övriga maskiner"};
+  const categories=[...new Set(cards.map(c=>c.dataset.category||"redskap"))];
+  for(const category of categories){
+    const option=document.createElement("option");
+    option.value=category;
+    option.textContent=typeLabels[category]||category.replaceAll("-"," ");
+    type.append(option);
+  }
+  let brand="alla",visibleLimit=4;
+  function apply(){
+    const query=field.value.trim().toLocaleLowerCase("sv-SE");
+    const matches=cards.filter(card=>(brand==="alla"||card.dataset.brand===brand)&&(type.value==="alla"||card.dataset.category===type.value)&&(!query||(card.dataset.search||card.textContent.toLocaleLowerCase("sv-SE")).includes(query)));
+    const selected=new Set(matches.slice(0,visibleLimit));
+    for(const card of cards)card.hidden=!selected.has(card);
+    const shown=Math.min(matches.length,visibleLimit);
+    count.textContent=matches.length?("Visar "+shown+" av "+matches.length+" matchande maskinguider"):"Inga maskinguider matchar filtreringen";
+    empty.hidden=matches.length!==0;
+    const left=Math.max(0,matches.length-shown);
+    more.hidden=left===0;
+    more.textContent="Visa fler maskiner ("+left+" kvar) ↓";
+  }
+  function reset(){visibleLimit=4;apply()}
+  brandButtons.forEach(btn=>btn.addEventListener("click",()=>{brand=btn.dataset.brand;brandButtons.forEach(item=>item.setAttribute("aria-pressed",String(item===btn)));reset()}));
+  field.addEventListener("input",reset);
+  type.addEventListener("change",reset);
+  more.addEventListener("click",()=>{visibleLimit+=4;apply()});
+  apply();
+})();
 async function inject(id,url){const el=document.getElementById(id);if(!el)return;try{const res=await fetch(url,{cache:"no-cache"});if(!res.ok)throw new Error(url);el.innerHTML=await res.text()}catch(e){console.warn("Navigering kunde inte laddas",e)}}
 inject("site-header","/partials1/header.html");inject("site-footer","/partials1/footer.html");
 </script></body></html>
