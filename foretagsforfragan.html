@@ -1,1 +1,387 @@
-<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Företagsförfrågan – sälj maskiner & lager | Skaraborg Maskin & Återbruk</title><meta name="description" content="Har ditt företag maskiner, verktyg, reservdelar eller lager som inte används? Beskriv vad som finns och kontakta Skaraborg Maskin & Återbruk för en första bedömning."><link rel="canonical" href="https://skaraborgmaskin.se/foretagsforfragan.html"><script defer src="/statistik-raknare.js" data-page="foretag"></script><style>*{box-sizing:border-box}body{margin:0;background:#eef3ea;color:#1c3927;font:16px/1.55 system-ui,sans-serif}header{background:#1e442c;color:white;padding:20px}header a{color:white}main{max-width:850px;margin:25px auto;padding:0 16px}.panel{background:white;border:1px solid #d6e2d6;padding:27px;border-radius:16px;margin:20px 0}h1{line-height:1.15}label{display:block;margin:14px 0;font-weight:650}input,select,textarea{display:block;width:100%;padding:12px;margin-top:6px;font:inherit;border:1px solid #aabdb0;border-radius:8px;background:white}textarea{min-height:115px;resize:vertical}.help{font-size:14px;color:#586c5d;font-weight:400}.buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}button,.btn{background:#245c38;color:white;border:0;border-radius:9px;padding:13px 17px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;display:inline-block}.btn.alt{background:#e0eee3;color:#1d4b2c}#result{white-space:pre-wrap;background:#f0f5ef;padding:16px;border-radius:10px;overflow-wrap:anywhere}#out{display:none}.note{color:#536c5a;font-size:14px}@media(max-width:580px){.panel{padding:18px}.buttons>*{width:100%;text-align:center}}</style></head><body><header><div style="max-width:850px;margin:auto"><a href="/foretag.html">← Företagslösningar</a><p>Skaraborg Maskin &amp; Återbruk</p></div></header><main><div class="panel"><h1>Har ert företag utrustning som blivit stående?</h1><p>Vi bedömer bland annat maskiner, verktyg, verkstadsutrustning, reservdelar och större lagerpartier. Även defekta objekt kan vara intressanta. Fyll i några uppgifter så skapar vi en text som ni kan skicka till oss.</p><p>Vid en överenskommen affär eller kostnadsfri hämtning kan vi gärna lyfta fram ert företag i våra sociala kanaler utan extra kostnad, om ni vill. Vi publicerar aldrig ert företagsnamn eller bilder från er verksamhet utan att först komma överens.</p><p class="note">Vi föredrar skriftlig kontakt så att vi kan gå igenom uppgifterna ordentligt.</p><p class="note">Detta är inte en automatisk offert och inget skickas förrän ni själva skickar meddelandet via Messenger.</p><form id="lead"><label>Vad gäller förfrågan?<select id="kind"><option>Maskiner eller redskap</option><option>Verkstadsutrustning och verktyg</option><option>Reservdelar eller lagerparti</option><option>Metall och skrot</option><option>Annat / blandat parti</option></select></label><label>Företagets namn <span class="help">(frivilligt)</span><input id="company" maxlength="100" placeholder="Företagsnamn"></label><label>Ort där sakerna finns <span class="help">(behövs för bedömningen)</span><input id="town" required maxlength="90" placeholder="Till exempel Skövde"></label><label>Vad finns och hur mycket?<textarea id="details" required maxlength="2000" placeholder="Beskriv maskinerna, ungefärlig mängd, skick och eventuellt märke/modell."></textarea></label><label>Vill ni att vi kontaktar er om möjligheten till gratis exponering vid affär eller hämtning?<select id="promotion"><option>Ja, berätta gärna mer</option><option>Nej tack, vi vill inte synas</option><option>Vi tar ställning senare</option></select></label><label>Övrig information <span class="help">(frivilligt)</span><textarea id="extra" maxlength="1000" placeholder="Till exempel lastmöjligheter, om allt behöver hämtas och när det passar."></textarea></label><div class="buttons"><button type="submit">Skapa meddelande</button></div></form></div><section id="out" class="panel" aria-live="polite"><h2>Meddelandet är klart</h2><p>Kopiera texten nedan och öppna Messenger. Klistra in texten i chatten och bifoga gärna 1–3 tydliga bilder. <strong>Inget har skickats automatiskt.</strong></p><div id="result"></div><div class="buttons"><button id="copy" type="button">1. Kopiera text</button><a class="btn" href="https://www.messenger.com/t/924620407412160/" target="_blank" rel="noopener noreferrer">2. Öppna Messenger</a></div><p id="feedback" role="status"></p></section><p class="note">Vi gör en individuell bedömning och kan inte lova köp eller hämtning av allt som erbjuds. Förfrågan är kostnadsfri att ställa.</p></main><script>const $=id=>document.getElementById(id);let message='';$('lead').addEventListener('submit',e=>{e.preventDefault();const val=id=>$(id).value.trim();message=['Hej! Vi vill skicka en företagsförfrågan till Skaraborg Maskin & Återbruk.','Typ: '+val('kind'),val('company')?'Företag: '+val('company'):'','Ort: '+val('town'),'Intresse för frivillig företagsexponering: '+val('promotion'),'Vad vi har: '+val('details'),val('extra')?'Övrigt: '+val('extra'):''].filter(Boolean).join('\n\n');$('result').textContent=message;$('out').style.display='block';$('feedback').textContent='';$('out').scrollIntoView({behavior:'smooth',block:'start'})});$('copy').onclick=async()=>{try{await navigator.clipboard.writeText(message);$('feedback').textContent='✓ Texten är kopierad. Öppna Messenger och klistra in den.'}catch{$('feedback').textContent='Markera och kopiera texten manuellt ovan.'}};</script></body></html>
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18349654444"></script>
+  <script>
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js',new Date());
+    gtag('config','AW-18349654444');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Företagsförfrågan – Maskiner och lager | Skaraborg Maskin & Återbruk</title>
+  <meta name="description" content="Har företaget begagnade maskiner, verktyg, reservdelar eller överskottslager som blivit stående? Skapa en enkel förfrågan och skicka till oss skriftligt.">
+  <link rel="canonical" href="https://skaraborgmaskin.se/foretagsforfragan.html">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#1f2d1f">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="sv_SE">
+  <meta property="og:title" content="Företagsförfrågan | Skaraborg Maskin & Återbruk">
+  <meta property="og:description" content="Beskriv maskiner eller lager som ditt företag vill sälja eller få bedömt. Kopiera förfrågan och skriv till oss.">
+  <meta property="og:url" content="https://skaraborgmaskin.se/foretagsforfragan.html">
+  <meta property="og:site_name" content="Skaraborg Maskin & Återbruk">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://skaraborgmaskin.se/foretagsforfragan.html#webpage",
+      "url": "https://skaraborgmaskin.se/foretagsforfragan.html",
+      "name": "Företagsförfrågan – Skaraborg Maskin & Återbruk",
+      "description": "Skapa en förfrågan om begagnade maskiner, verktyg, reservdelar eller överskottslager från ditt företag i Skaraborg.",
+      "about": {
+        "@type": "Service",
+        "serviceType": "Bedömning för köp av begagnade maskiner, redskap och företagspartier",
+        "provider": {
+          "@type": "LocalBusiness",
+          "name": "Skaraborg Maskin & Återbruk",
+          "url": "https://skaraborgmaskin.se/",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Hjo",
+            "addressRegion": "Västra Götalands län",
+            "addressCountry": "SE"
+          }
+        }
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://skaraborgmaskin.se/#company",
+      "name": "Skaraborg Maskin & Återbruk AB",
+      "url": "https://skaraborgmaskin.se/",
+      "sameAs": [
+        "https://www.facebook.com/profile.php?id=61588383880828"
+      ]
+    }
+  ]
+}
+  </script>
+  <style>
+
+
+    :root{
+      --brand:#1f2d1f;
+      --brand-2:#304936;
+      --brand-3:#3e5d45;
+      --soft:#eaf1ea;
+      --bg:#f5f7f5;
+      --card:#ffffff;
+      --text:#102015;
+      --muted:#5d6d61;
+      --line:#e1e8e1;
+      --radius:20px;
+      --shadow:0 14px 34px rgba(20,42,25,.09);
+      --max:1120px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+    .hero{
+      color:#fff;
+      padding:76px 0 62px;
+      background:
+        radial-gradient(circle at 84% 18%,rgba(255,255,255,.12),transparent 29%),
+        radial-gradient(circle at 12% 100%,rgba(215,173,85,.12),transparent 34%),
+        linear-gradient(135deg,var(--brand),var(--brand-2));
+    }
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(300px,.85fr);gap:32px;align-items:center}
+    .eyebrow{display:inline-flex;padding:7px 11px;border-radius:999px;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.16);font-size:13px;font-weight:850;margin-bottom:18px}
+    .hero h1{margin:0 0 18px;max-width:860px;font-size:clamp(42px,6vw,68px);line-height:1.03;letter-spacing:-1.8px}
+    .lead{margin:0;max-width:70ch;color:rgba(255,255,255,.9);font-size:18px}
+    .hero-card{padding:26px;border-radius:var(--radius);background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.17);backdrop-filter:blur(8px)}
+    .hero-card h2{margin:0 0 9px;font-size:24px;color:#fff}
+    .hero-card p{margin:0;color:rgba(255,255,255,.84)}
+    .hero-list{list-style:none;padding:0;margin:17px 0 0}
+    .hero-list li{position:relative;padding:9px 0 9px 27px;border-top:1px solid rgba(255,255,255,.12)}
+    .hero-list li::before{content:"✓";position:absolute;left:0;font-weight:900}
+    .buttons{display:flex;gap:11px;flex-wrap:wrap;margin-top:25px}
+    .btn{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:12px 18px;border-radius:13px;text-decoration:none;font-weight:850;border:1px solid transparent;transition:.18s ease}
+    .btn:hover{transform:translateY(-1px);filter:brightness(1.04)}
+    .btn-light{background:#fff;color:var(--brand)}
+    .btn-outline{color:#fff;background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.24)}
+    .btn-dark{background:var(--brand);color:#fff}
+    section{padding:60px 0}
+    .soft{background:#edf3ed}
+    .dark{background:var(--brand);color:#fff}
+    .section-head{max-width:820px;margin-bottom:29px}
+    .section-head span{display:block;margin-bottom:7px;color:#58705c;font-size:13px;text-transform:uppercase;letter-spacing:.08em;font-weight:850}
+    .section-head h2{margin:0 0 11px;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:-.6px}
+    .section-head p{margin:0;color:var(--muted);font-size:17px}
+    .dark .section-head span{color:#c9d8cc}
+    .dark .section-head h2{color:#fff}
+    .dark .section-head p{color:rgba(255,255,255,.82)}
+    .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px}
+    .s12{grid-column:span 12}.s8{grid-column:span 8}.s7{grid-column:span 7}.s6{grid-column:span 6}.s5{grid-column:span 5}.s4{grid-column:span 4}.s3{grid-column:span 3}
+    .card{height:100%;padding:25px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .card h3{margin:0 0 10px;font-size:22px;line-height:1.25}
+    .card p{margin:0;color:var(--muted)}
+    .card p+p{margin-top:14px}
+    .card ul{margin:14px 0 0;padding-left:20px;color:var(--muted)}
+    .card li{margin:7px 0}
+    .icon{width:50px;height:50px;display:grid;place-items:center;border-radius:15px;background:var(--soft);margin-bottom:16px;font-size:25px}
+    .focus{
+      background:
+        radial-gradient(circle at top right,rgba(255,255,255,.12),transparent 28%),
+        linear-gradient(135deg,var(--brand-2),var(--brand-3));
+      color:#fff;
+      padding:30px;
+      border-radius:24px;
+      box-shadow:var(--shadow);
+    }
+    .focus h3{margin:0 0 11px;color:#fff;font-size:28px}
+    .focus p{margin:0;color:rgba(255,255,255,.84)}
+    .focus p+p{margin-top:14px}
+    .process{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+    .step{background:#fff;border:1px solid var(--line);border-radius:18px;padding:23px;box-shadow:var(--shadow)}
+    .num{width:39px;height:39px;display:grid;place-items:center;border-radius:50%;background:var(--brand);color:#fff;font-weight:900;margin-bottom:15px}
+    .step h3{margin:0 0 7px;font-size:20px}
+    .step p{margin:0;color:var(--muted)}
+    .notice{padding:22px;border-radius:18px;background:#fff9ec;border:1px solid #ead8a9}
+    .notice h3{margin:0 0 8px;font-size:21px}
+    .notice p{margin:0;color:#655a43}
+    .link-card{display:flex;flex-direction:column;justify-content:space-between}
+    .link-card a{display:inline-flex;margin-top:18px;text-decoration:none;font-weight:850;color:var(--brand)}
+    .tag-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .tag-row span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 13px;font-weight:800;color:var(--brand)}
+    details{background:#fff;border:1px solid var(--line);border-radius:17px;box-shadow:0 8px 24px rgba(20,42,25,.055);overflow:hidden}
+    details+details{margin-top:12px}
+    summary{position:relative;list-style:none;cursor:pointer;padding:20px 58px 20px 22px;font-size:18px;font-weight:850;line-height:1.35}
+    summary::-webkit-details-marker{display:none}
+    summary::after{content:"+";position:absolute;right:21px;top:50%;width:30px;height:30px;margin-top:-15px;display:grid;place-items:center;border-radius:50%;background:var(--soft);color:var(--brand);font-size:22px}
+    details[open] summary::after{content:"−"}
+    .answer{padding:0 22px 21px;border-top:1px solid var(--line);color:var(--muted)}
+    .answer p{margin:17px 0 0}
+    .cta{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:31px;border-radius:24px;color:#fff;background:var(--brand);box-shadow:var(--shadow)}
+    .cta h2{margin:0 0 8px;color:#fff;font-size:30px}
+    .cta p{margin:0;color:rgba(255,255,255,.83)}
+    @media(max-width:900px){
+      .hero-grid{grid-template-columns:1fr}
+      .s8,.s7,.s6,.s5,.s4,.s3{grid-column:span 12}
+      .process{grid-template-columns:1fr 1fr}
+      .cta{flex-direction:column;align-items:flex-start}
+    }
+    @media(max-width:620px){
+      .hero{padding:55px 0 46px}
+      section{padding:45px 0}
+      .card,.hero-card,.focus,.notice,.cta{padding:21px}
+      .process{grid-template-columns:1fr}
+      .btn{width:100%}
+      .buttons{width:100%}
+      summary{font-size:17px;padding-left:18px;padding-right:54px}
+      .answer{padding-left:18px;padding-right:18px}
+    }
+    /* Samma visuella system som skovde.html – nationella inköpssidan */
+    :where(a,summary):focus-visible{outline:3px solid #d8a52e;outline-offset:3px}
+    .skip-link{position:absolute;left:12px;top:-110px;padding:11px 15px;background:#fff;color:#102015;border-radius:10px;z-index:10000;font-weight:850}
+    .skip-link:focus{top:12px}
+    main .hero .btn-light{background:#e9b840;color:#162d1b;border:2px solid #e9b840}
+    main .hero .btn-outline{background:#fff;color:#162d1b;border:2px solid #fff}
+    .tag-row a{display:inline-flex;align-items:center;background:#fff;border:1px solid var(--line);border-radius:999px;padding:9px 13px;font-weight:800;color:var(--brand);text-decoration:none}
+    .tag-row a:hover{text-decoration:underline;background:#eaf1ea}
+    .hero-card .small-note{margin-top:15px;font-size:14px;color:rgba(255,255,255,.80)}
+    .hero-card .small-note a{color:#fff;text-underline-offset:3px}
+    .quiet-note{margin:17px 0 0;color:var(--muted);font-size:15px}
+    .quiet-note a{color:var(--brand);font-weight:800}
+    .dark .quiet-note{color:rgba(255,255,255,.85)}
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+    @media(max-width:700px){.hero .buttons{flex-direction:column}.hero .buttons a{width:100%}}
+  
+    /* Företagsförfrågan – formulärstil ovanpå godkänd designbas */
+    .business-form-hero-note{margin:18px 0 0;font-size:15px;color:rgba(255,255,255,.86)}
+    .business-form-hero-note a{color:#fff;font-weight:850;text-underline-offset:3px}
+    .business-form-main{background:#edf3ed}
+    .lead-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(250px,.75fr);gap:22px;align-items:start}
+    .lead-panel{background:#fff;padding:29px;border-radius:22px;border:1px solid var(--line);box-shadow:var(--shadow);min-width:0}
+    .lead-panel h2{margin:0 0 12px;font-size:clamp(24px,3vw,31px);line-height:1.22}
+    .lead-panel>p{margin:0 0 14px;color:var(--muted)}
+    .form-intro{margin:0 0 23px;font-size:16px;line-height:1.7;color:var(--muted)}
+    .form-fields{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .form-field{min-width:0}
+    .form-field.full{grid-column:1/-1}
+    .form-field label{display:block;font-weight:850;color:var(--brand);font-size:15px;margin:0 0 7px}
+    .form-field input,.form-field select,.form-field textarea{display:block;width:100%;font:inherit;font-size:16px;line-height:1.5;padding:12px 13px;color:var(--text);background:#fff;border:1px solid #b9cdbb;border-radius:12px;min-height:49px}
+    .form-field textarea{min-height:116px;resize:vertical}
+    .form-field input:focus-visible,.form-field select:focus-visible,.form-field textarea:focus-visible,#copy:focus-visible{outline:3px solid #d8a52e;outline-offset:3px}
+    .form-field .help{color:var(--muted);font-size:13px;font-weight:500}
+    .form-field .hint{color:var(--muted);font-size:13px;margin:7px 0 0}
+    .form-actions{margin-top:25px}
+    .form-actions button{min-height:49px;padding:12px 20px;border-radius:12px;background:var(--brand);color:#fff;font:inherit;font-weight:850;cursor:pointer;border:1px solid var(--brand)}
+    .form-actions button:hover{background:var(--brand-3)}
+    .form-actions .btn{background:var(--brand);color:#fff;align-self:flex-start}
+    .lead-aside{display:grid;gap:17px;min-width:0}
+    .lead-aside .card{padding:23px}
+    .lead-aside .card h3{font-size:21px}
+    .lead-aside .card ul{margin:12px 0 0}
+    .form-note{margin:15px 0 0;color:var(--muted);font-size:14px}
+    #out{display:none;scroll-margin-top:28px}
+    #out .result-label{margin:13px 0 9px;color:var(--brand);font-size:14px;font-weight:850}
+    #result{white-space:pre-wrap;overflow-wrap:anywhere;background:#f1f6ef;border:1px solid #dce7dc;border-radius:14px;color:var(--text);padding:17px;font-size:15px;line-height:1.65;max-height:390px;overflow-y:auto}
+    #feedback{margin:15px 0 0;font-weight:750;color:var(--brand);font-size:14px}
+    .output-actions{display:flex;gap:11px;flex-wrap:wrap;margin-top:19px}
+    .output-actions #copy{padding:11px 18px;border-radius:12px;min-height:48px;background:var(--brand);color:#fff;font-weight:850;border:1px solid var(--brand);font:inherit;cursor:pointer}
+    .output-actions #copy:hover{background:var(--brand-3)}
+    .output-actions .btn{min-height:48px}
+    .output-actions .btn-facebook{background:#e9b840;color:#172d1b;border-color:#e9b840}
+    .output-actions .btn-sms{background:#fff;color:var(--brand);border:1px solid #abc2af}
+    .output-help{margin:10px 0 0;color:var(--muted);font-size:14px}
+    .lead-aside a{color:var(--brand);font-weight:850}
+    .lead-layout-followup{margin-top:23px}
+    @media(max-width:900px){.lead-grid{grid-template-columns:1fr}.lead-aside{grid-template-columns:1fr 1fr}}
+    @media(max-width:650px){.form-fields,.lead-aside{grid-template-columns:1fr}.lead-panel{padding:20px}.form-actions button,.output-actions button,.output-actions a{width:100%;text-align:center}.output-actions{flex-direction:column}.lead-panel h2{font-size:26px}}
+  </style>
+  <script defer src="/statistik-raknare.js" data-page="foretag"></script>
+</head>
+<body>
+  <a class="skip-link" href="#huvudinnehall">Hoppa till innehållet</a>
+  <div id="site-header"></div>
+  <main id="huvudinnehall">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Företag · Verkstäder · Lantbruk · Skaraborg</div>
+          <h1>Har ert företag något som blivit stående?</h1>
+          <p class="lead">Maskiner, verktyg, reservdelar eller överblivet lager? Berätta kort vad ni har. Formuläret hjälper er att skriva en tydlig förfrågan som ni själva skickar till oss.</p>
+          <div class="buttons">
+            <a class="btn btn-light" href="#forfragan">Skapa en förfrågan ↓</a>
+            <a class="btn btn-outline" href="foretag.html">Läs om våra företagslösningar →</a>
+          </div>
+          <p class="business-form-hero-note">Vi föredrar skriftlig kontakt via <a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Facebook ↗</a> eller <a href="sms:+46727483256">SMS</a>.</p>
+        </div>
+        <div class="hero-card">
+          <h2>Det räcker för att börja</h2>
+          <p>Ni behöver inte ha en färdig inventeringslista. Beskriv det ni känner till, så kan vi fråga efter mer information vid behov.</p>
+          <ul class="hero-list">
+            <li>Vad det gäller och ungefärlig mängd</li>
+            <li>Vilken ort sakerna finns på</li>
+            <li>Skick eller kända fel</li>
+            <li>Gärna 1–3 tydliga bilder</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="business-form-main" id="forfragan">
+      <div class="wrap">
+        <div class="section-head">
+          <span>En första förfrågan</span>
+          <h2>Beskriv vad företaget vill sälja eller få bedömt</h2>
+          <p>Det tar bara några uppgifter att komma igång. Vi gör en individuell bedömning och kan inte lova att alla objekt är intressanta att köpa eller hämta.</p>
+        </div>
+        <div class="lead-grid">
+          <div>
+            <div class="lead-panel">
+              <h2>Skapa ert meddelande</h2>
+              <p class="form-intro">Fyll i formuläret och klicka på <strong>Skapa meddelande</strong>. Då får ni en färdig text att kopiera. <strong>Inget skickas automatiskt.</strong></p>
+              <form id="lead">
+                <div class="form-fields">
+                  <div class="form-field full">
+                    <label for="kind">Vad gäller förfrågan?</label>
+                    <select id="kind" name="kind">
+                      <option>Maskiner eller redskap</option>
+                      <option>Verkstadsutrustning och verktyg</option>
+                      <option>Reservdelar eller lagerparti</option>
+                      <option>Metall och skrot</option>
+                      <option>Annat / blandat parti</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <label for="company">Företagets namn <span class="help">(frivilligt)</span></label>
+                    <input id="company" name="company" maxlength="100" placeholder="Företagsnamn" autocomplete="organization">
+                  </div>
+                  <div class="form-field">
+                    <label for="town">Ort där sakerna finns <span class="help">(obligatoriskt)</span></label>
+                    <input id="town" name="town" required maxlength="90" placeholder="Till exempel Skövde" autocomplete="address-level2">
+                  </div>
+                  <div class="form-field full">
+                    <label for="details">Vad finns och ungefär hur mycket?</label>
+                    <textarea id="details" name="details" required maxlength="2000" placeholder="Beskriv maskinerna, ungefärlig mängd, skick och eventuellt märke eller modell."></textarea>
+                    <p class="hint">Ungefärliga uppgifter räcker för en första bedömning.</p>
+                  </div>
+                  <div class="form-field full">
+                    <label for="promotion">Vill ni att vi kontaktar er om möjligheten till gratis exponering vid affär eller hämtning?</label>
+                    <select id="promotion" name="promotion">
+                      <option>Ja, berätta gärna mer</option>
+                      <option>Nej tack, vi vill inte synas</option>
+                      <option>Vi tar ställning senare</option>
+                    </select>
+                    <p class="hint">Vi publicerar aldrig företagsnamn eller bilder från verksamheten utan överenskommelse.</p>
+                  </div>
+                  <div class="form-field full">
+                    <label for="extra">Övrig information <span class="help">(frivilligt)</span></label>
+                    <textarea id="extra" name="extra" maxlength="1000" placeholder="Till exempel lastmöjligheter, om allt behöver hämtas och när det passar."></textarea>
+                  </div>
+                </div>
+                <div class="form-actions">
+                  <button type="submit">Skapa meddelande →</button>
+                </div>
+              </form>
+              <p class="form-note">Förfrågan är kostnadsfri att ställa. Det här är inte en automatisk offert.</p>
+            </div>
+            <section id="out" class="lead-panel lead-layout-followup" aria-live="polite">
+              <h2>Meddelandet är klart</h2>
+              <p>Kopiera texten nedan och öppna vår Facebooksida. Välj <strong>Meddelande</strong>, klistra in texten och bifoga gärna 1–3 bilder. Du kan också skicka texten via SMS. <strong>Inget har skickats automatiskt.</strong></p>
+              <div class="result-label">Er färdiga förfrågan</div>
+              <div id="result"></div>
+              <div class="output-actions">
+                <button id="copy" type="button">1. Kopiera text</button>
+                <a class="btn btn-facebook" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">2. Öppna Facebook ↗</a>
+                <a class="btn btn-sms" href="sms:+46727483256">Eller skicka SMS</a>
+              </div>
+              <p id="feedback" role="status"></p>
+              <p class="output-help">Kom ihåg att klistra in texten själv. Om ni väljer SMS behöver ni eventuellt dela upp ett långt meddelande.</p>
+            </section>
+          </div>
+          <aside class="lead-aside" aria-label="Information om förfrågan">
+            <div class="card">
+              <div class="icon" aria-hidden="true">🚜</div>
+              <h3>Vad köper vi?</h3>
+              <p>Vi tittar bland annat på begagnade maskiner, verkstadsutrustning, redskap och större partier med reservdelar.</p>
+              <ul>
+                <li>Även äldre och trasiga objekt</li>
+                <li>Enstaka maskiner eller flera saker</li>
+                <li>Hämtning efter överenskommelse</li>
+              </ul>
+            </div>
+            <div class="card">
+              <div class="icon" aria-hidden="true">💬</div>
+              <h3>Varför skriver vi först?</h3>
+              <p>Med bilder, ort och en kort beskrivning är det lättare för oss att förstå vad ni har och återkomma med ett besked.</p>
+              <p style="margin-top:14px"><a href="kontakt.html">Fler kontaktvägar →</a></p>
+            </div>
+            <div class="card">
+              <div class="icon" aria-hidden="true">♻️</div>
+              <h3>En chans till för utrustningen</h3>
+              <p>Vi försöker ta till vara maskiner och delar som fortfarande kan användas, säljas vidare eller repareras.</p>
+              <p style="margin-top:14px"><a href="foretag.html">Så arbetar vi med företag →</a></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script>
+    async function inject(id,url){
+      const el=document.getElementById(id);
+      if(!el)return;
+      try{
+        const response=await fetch(url,{cache:"no-cache"});
+        if(!response.ok)throw new Error("Kunde inte ladda "+url);
+        el.innerHTML=await response.text();
+      }catch(error){console.error(error);}
+    }
+    inject("site-header","partials1/header.html");
+    inject("site-footer","partials1/footer.html");
+  </script>
+  <script>
+const $=id=>document.getElementById(id);let message='';$('lead').addEventListener('submit',e=>{e.preventDefault();const val=id=>$(id).value.trim();message=['Hej! Vi vill skicka en företagsförfrågan till Skaraborg Maskin & Återbruk.','Typ: '+val('kind'),val('company')?'Företag: '+val('company'):'','Ort: '+val('town'),'Intresse för frivillig företagsexponering: '+val('promotion'),'Vad vi har: '+val('details'),val('extra')?'Övrigt: '+val('extra'):''].filter(Boolean).join('\n\n');$('result').textContent=message;$('out').style.display='block';$('feedback').textContent='';$('out').scrollIntoView({behavior:'smooth',block:'start'})});$('copy').onclick=async()=>{try{await navigator.clipboard.writeText(message);$('feedback').textContent='✓ Texten är kopierad. Öppna Facebook, välj Meddelande och klistra in texten.'}catch{$('feedback').textContent='Markera och kopiera texten manuellt ovan.'}};
+  </script>
+  <noscript><div style="padding:16px;text-align:center;background:#fff">Formuläret kräver JavaScript för att skapa en kopierbar text. Skriv gärna direkt till oss via <a href="https://www.facebook.com/profile.php?id=61588383880828">Facebook</a> eller <a href="sms:+46727483256">SMS</a>.</div></noscript>
+</body>
+</html>
