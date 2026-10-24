@@ -118,6 +118,15 @@ class TestAdSeo(unittest.TestCase):
             self.assertIn(phrase, content)
         self.assertIn("konsumentverket.se/konsumentratt/handla-begagnat/", content)
 
+    def test_buy_information_is_collapsed_by_default(self):
+        content = adseo.render(fixture(), URL)
+        self.assertIn('<details class="ad-box buy-info" id="kopinformation">', content)
+        self.assertIn('<summary id="buy-info-heading">', content)
+        self.assertIn("</details>", content)
+        self.assertNotIn('<details class="ad-box buy-info" id="kopinformation" open', content)
+        for important in ("Skick och funktion:", "Pris och reservation:", "Hämtning och transport:", "konsumentköplagen", "ångerrätt"):
+            self.assertIn(important, content)
+
     def test_no_inquiry_from_unavailable_item_hero(self):
         for status in ("sold", "pending"):
             content = adseo.render(fixture(status=status), URL)
