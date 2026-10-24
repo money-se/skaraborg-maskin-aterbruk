@@ -44,7 +44,7 @@ function render(data){
     CTA_TEXT:escapeHtml(data.ctaText),
   };
   const used=new Set();
-  const html=template.replace(/\{\{([A-Z_]+)\}\}/g,(_,key)=>{
+  const html=template.replace(/\{\{([A-Z0-9_]+)\}\}/g,(_,key)=>{
     used.add(key);
     if(!(key in replacements))throw new Error(data.slug+" unknown placeholder "+key);
     return replacements[key];
