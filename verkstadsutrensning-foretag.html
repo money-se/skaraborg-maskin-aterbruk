@@ -11,8 +11,8 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Verkstadsutrensning för företag i Skaraborg | Skaraborg Maskin</title>
-  <meta name="description" content="Har ert företag gamla verkstadsmaskiner, verktyg, reservdelar eller utrustning som blivit stående? Vi bedömer sådant för köp och återbruk i Skaraborg.">
+  <title>Verkstadsutrensning för företag | Maskiner och verktyg i Skaraborg</title>
+  <meta name="description" content="Ska äldre verkstadsmaskiner, verktyg eller motorer bort? Visa märkning, skick och lastväg så bedömer vi eventuellt köp och återbruk i Skaraborg.">
   <link rel="canonical" href="https://skaraborgmaskin.se/verkstadsutrensning-foretag.html">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="theme-color" content="#1f2d1f">
@@ -210,7 +210,25 @@
     .workshop-actions a{text-align:center}
     @media(max-width:900px){.workshop-related{grid-template-columns:1fr 1fr}.workshop-related .card:last-child{grid-column:span 2}}
     @media(max-width:620px){.workshop-related{grid-template-columns:1fr}.workshop-related .card:last-child{grid-column:auto}.workshop-actions{width:100%;flex-direction:column}.workshop-actions a{width:100%}}
-  </style>
+  
+    /* Verkstadsutrensning: fokus på individuell maskinbedömning */
+    .workshop-gear{display:flex;flex-direction:column;gap:14px}
+    .workshop-gear-row{display:grid;grid-template-columns:64px minmax(0,1fr) auto;gap:20px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px;box-shadow:var(--shadow)}
+    .workshop-gear-icon{display:grid;place-items:center;width:58px;height:58px;background:var(--soft);border-radius:16px;font-size:27px}
+    .workshop-gear-row h3{margin:0 0 8px;font-size:23px}
+    .workshop-gear-row p{margin:0;color:var(--muted)}
+    .workshop-tag{background:#eaf1ea;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:900;color:var(--brand);white-space:nowrap}
+    .workshop-sheet{overflow:hidden;border-radius:20px;border:1px solid var(--line);background:#fff;box-shadow:var(--shadow);display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+    .workshop-sheet-top{grid-column:1/-1;background:var(--brand);color:#fff;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:20px 25px}
+    .workshop-sheet-top span{font-size:13px;color:rgba(255,255,255,.76)}
+    .workshop-field{padding:27px;border-top:1px solid var(--line)}
+    .workshop-field:nth-of-type(even){border-left:1px solid var(--line)}
+    .workshop-field strong{display:block;color:var(--brand);font-size:17px;margin-bottom:9px}
+    .workshop-field p{color:var(--muted);margin:0}
+    .workshop-actions{display:flex;flex-wrap:wrap;gap:11px}
+    @media(max-width:900px){.workshop-gear-row{grid-template-columns:58px minmax(0,1fr)}.workshop-tag{grid-column:2;justify-self:start}.workshop-sheet-top{flex-direction:column;align-items:flex-start}}
+    @media(max-width:620px){.workshop-sheet{grid-template-columns:1fr}.workshop-sheet-top{grid-column:1}.workshop-field:nth-of-type(even){border-left:0}.workshop-gear-row{grid-template-columns:1fr;gap:11px}.workshop-tag{grid-column:1}.workshop-actions{flex-direction:column}.workshop-actions .btn{width:100%}}
+</style>
 </head>
 <body>
   <a class="skip-link" href="#huvudinnehall">Hoppa till innehållet</a>
@@ -219,155 +237,86 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div>
-          <div class="eyebrow">Verkstadsutrensning · Maskiner · Företag i Skaraborg</div>
-          <h1>Har verkstaden fyllts av maskiner och saker som blivit stående?</h1>
-          <p class="lead">När en verkstad bygger om, flyttar eller byter utrustning kan arbetsmaskiner, verktyg och reservdelar bli kvar. Den här sidan gäller själva verkstadsmiljön – från större maskiner till delar från tidigare reparationer. Visa vad som står i lokalen så bedömer vi vilka objekt som kan vara intressanta för köp eller återbruk.</p>
+          <div class="eyebrow">Verkstadsutrensning · Verkstadsmaskiner · Redskap</div>
+          <h1>Ska gamla verkstadsmaskiner och verktyg bort?</h1>
+          <p class="lead">När en verkstad byter maskiner, byggs om eller läggs ned kan användbar utrustning bli stående. Här börjar vi med <strong>maskinerna och deras skick</strong>: vad de är, om de fungerar och om de kan flyttas. Vi bedömer enskilda objekt eller grupper av verkstadsutrustning för eventuellt köp och återbruk.</p>
           <div class="buttons">
-            <a class="btn btn-light" href="foretagsforfragan.html">Skapa en företagsförfrågan →</a>
-            <a class="btn btn-outline" href="#vad-kan-vi-bedomma">Se vad vi tittar på ↓</a>
+            <a class="btn btn-light" href="foretagsforfragan.html">Visa era maskiner →</a>
+            <a class="btn btn-outline" href="#maskiner">Vad ska ni fotografera? ↓</a>
           </div>
-          <p class="workshop-note-hero">Vi utgår från Hjo och tar emot förfrågningar från hela Skaraborg. Skriv gärna via <a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Facebook ↗</a> eller <a href="sms:+46727483256">SMS</a>.</p>
+          <p class="workshop-note-hero">Utgångspunkt Hjo · Skaraborg · <a href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Facebook</a> eller <a href="sms:+46727483256">SMS</a></p>
         </div>
         <div class="hero-card workshop-hero-card">
-          <h2>Det räcker för att börja</h2>
-          <p>Ni behöver inte inventera varje föremål innan ni hör av er. Skicka det ni känner till så kan vi ställa fler frågor vid behov.</p>
+          <h2>Exempel: tre maskiner efter en ombyggnad</h2>
+          <p>En verkstad har bytt utrustning. Kvar står en äldre maskin, en reservmotor och flera verktyg. För att förstå vad vi tittar på är maskinens typ, skick och placering viktigare än en bild på hela lokalen.</p>
           <ul class="hero-list">
-            <li>1–3 bilder från verkstaden eller lokalen</li>
-            <li>Ort och ungefärlig mängd</li>
-            <li>Typ av maskiner, verktyg och delar</li>
-            <li>Känt skick, brister och gärna en prisidé</li>
+            <li>Helbild och märkplåt om den finns</li>
+            <li>Funktion, kända fel och saknade delar</li>
+            <li>Placering, vikt och tillgänglig lastväg</li>
           </ul>
-          <p class="small-note">Vi bedömer varje förfrågan individuellt. Det är inte säkert att vi kan köpa eller hämta allt.</p>
+          <p class="small-note">Ett exempel på bedömningsunderlag; vi kan inte lova köp, demontering eller hämtning.</p>
         </div>
       </div>
     </section>
 
-    <section id="vad-kan-vi-bedomma">
+    <section id="maskiner">
       <div class="wrap">
         <div class="section-head">
-          <span>Utrustning med fortsatt värde</span>
-          <h2>Vad kan vara intressant vid en verkstadsutrensning?</h2>
-          <p>En verkstad har ofta utrustning som kräver en annan bedömning än ett vanligt lagerparti. Typ av maskin, skick, eventuella saknade delar och hur den står placerad spelar roll. Det kan gälla exempelvis verkstadsmaskiner, handverktyg, motorer och reservdelslådor. Vi börjar med att undersöka om utrustningen kan användas vidare.</p>
+          <span>Vi bedömer utrustningen</span>
+          <h2>Börja med de större maskinerna och redskapen</h2>
+          <p>En verkstad innehåller ofta flera helt olika objekt. Visa gärna maskinerna var för sig så att vi inte behöver gissa vilka de är.</p>
         </div>
-        <div class="grid">
-          <div class="card s4">
-            <div class="icon" aria-hidden="true">🛠️</div>
-            <h3>Verkstadsmaskiner och verktyg</h3>
-            <p>Äldre verkstadsmaskiner, arbetsredskap och utrustning som ersatts eller inte längre används.</p>
-          </div>
-          <div class="card s4">
-            <div class="icon" aria-hidden="true">⚙️</div>
-            <h3>Reservdelar och komponenter</h3>
-            <p>Lagerhyllor med maskindelar, motorer, komponenter och reservdelar från tidigare arbeten.</p>
-          </div>
-          <div class="card s4">
-            <div class="icon" aria-hidden="true">♻️</div>
-            <h3>Metall och blandade objekt</h3>
-            <p>Vissa metallpartier, trasiga maskiner och utrustning som kan vara intressant för vidare användning eller materialhantering.</p>
-          </div>
-        </div>
-        <div class="workshop-tags" aria-label="Exempel på objekt">
-          <span>Verkstadsmaskiner</span>
-          <span>Reparationsobjekt</span>
-          <span>Reservdelslådor</span>
-          <span>Gamla verktyg</span>
-          <span>Metallpartier</span>
+        <div class="workshop-gear">
+          <article class="workshop-gear-row"><span class="workshop-gear-icon" aria-hidden="true">⚙️</span><div><h3>Verkstadsmaskiner</h3><p>Äldre stationära eller flyttbara arbetsmaskiner, motorer och utrustning som ersatts. Ange maskintyp, märkning och om maskinen är fungerande, okänd eller defekt.</p></div><span class="workshop-tag">Maskinens identitet</span></article>
+          <article class="workshop-gear-row"><span class="workshop-gear-icon" aria-hidden="true">🛠️</span><div><h3>Verktyg och kringutrustning</h3><p>Arbetsredskap, tillbehör och verktygsgrupper som inte används. En översiktsbild på gruppen räcker ofta för den första frågan.</p></div><span class="workshop-tag">Typ och omfattning</span></article>
+          <article class="workshop-gear-row"><span class="workshop-gear-icon" aria-hidden="true">🔩</span><div><h3>Motorer, reservdelar och reparationsobjekt</h3><p>Lösa komponenter och ofullständiga objekt kan vara intressanta. Berätta gärna vilken maskin eller modell de hör till, om ni vet.</p></div><span class="workshop-tag">Användning och skick</span></article>
         </div>
       </div>
     </section>
 
-    <section class="soft">
+    <section class="soft" id="maskinkort">
+      <div class="wrap">
+        <div class="section-head"><span>Ett bättre underlag</span><h2>Fyra uppgifter som hjälper oss att bedöma en maskin</h2><p>Ni behöver inte vara experter. Skicka det ni vet; resten kan vi fråga om. Det är särskilt användbart vid tunga eller äldre maskiner.</p></div>
+        <div class="workshop-sheet">
+          <div class="workshop-sheet-top"><strong>Exempel på enkel maskinbeskrivning</strong><span>Ingen komplett inventering krävs</span></div>
+          <div class="workshop-field"><strong>01 · Typ och modell</strong><p>Vad är det för maskin? Skicka gärna bild på märkplåt eller modellnummer.</p></div>
+          <div class="workshop-field"><strong>02 · Skick</strong><p>Fungerar maskinen? Finns kända fel, saknade delar eller lång stilleståndstid?</p></div>
+          <div class="workshop-field"><strong>03 · Storlek och placering</strong><p>Ungefärlig storlek eller vikt om ni vet; står den på golv, pall eller fast monterad?</p></div>
+          <div class="workshop-field"><strong>04 · Vägen ut</strong><p>Finns port, lastkaj eller truck? Är föremålet tillgängligt utan demontering?</p></div>
+        </div>
+        <p class="quiet-note">Även defekta maskiner kan ha värde som reservdelsobjekt. Vilka objekt vi är intresserade av avgörs i varje enskilt fall.</p>
+      </div>
+    </section>
+
+    <section id="praktiskt">
       <div class="wrap">
         <div class="grid">
           <div class="s7">
-            <div class="section-head">
-              <span>Mer plats för verksamheten</span>
-              <h2>En första bedömning behöver inte bli ett stort projekt</h2>
-              <p>Om verkstaden ska flyttas eller göras om behöver man ofta veta vilka objekt som är värda att ta en extra titt på. Fotografera gärna de större maskinerna först, följt av verktygs- och reservdelsförvaringen. För tunga objekt är det också bra att visa portar och möjliga lastvägar. Vi bedömer sedan ett möjligt köp, inte en automatisk total tömning.</p>
-            </div>
-            <ul class="workshop-list">
-              <li>Visa större verkstadsmaskiner, verktygsgrupper och reservdelar var för sig.</li>
-              <li>Få en individuell bedömning av delar som kan ha fortsatt användningsvärde.</li>
-              <li>Diskutera ett eventuellt gemensamt köp av flera objekt.</li>
-              <li>Beskriv åtkomlighet och lastningsmöjligheter för större verkstadsmaskiner.</li>
-            </ul>
-            <p class="workshop-disclaimer">Vi köper och återbrukar objekt som vi bedömer som intressanta. Vi erbjuder inte generell städning, avfallsentreprenad eller kostnadsfri bortforsling av hela verkstäder.</p>
-          </div>
-          <div class="s5">
-            <div class="focus workshop-focus">
-              <h3>Återbruk före onödigt svinn</h3>
-              <p>En äldre maskin kan fortfarande fungera, repareras eller vara värdefull som reservdelsmaskin. Därför börjar vi med att se vad utrustningen faktiskt består av.</p>
-              <p>Skick, mängd, tillgänglighet och transportbehov påverkar vad som är möjligt.</p>
+            <div class="section-head"><span>Vid en eventuell affär</span><h2>Skicket är viktigt – men även vägen ut</h2><p>Maskiner kan vara tunga, stå trångt eller kräva hjälp för att flyttas. Därför bedömer vi både nyttan med utrustningen och vad en eventuell hämtning skulle innebära. Skicka gärna en extra bild på porten eller platsen runt maskinen.</p></div>
+            <div class="notice">
+              <h3>Fast monterade eller mycket tunga maskiner?</h3>
+              <p>Berätta det redan i första kontakten. Demontering, lyft och transport ingår inte automatiskt, och vi tar ställning först när förutsättningarna är kända.</p>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="sa-gar-det-till">
-      <div class="wrap">
-        <div class="section-head">
-          <span>Fyra tydliga steg</span>
-          <h2>Så går en förfrågan till</h2>
-          <p>Ni behöver inte bestämma allt på en gång. Vi börjar med bilder och en kort beskrivning och tar nästa steg om det finns ett intresse.</p>
-        </div>
-        <div class="process workshop-process">
-          <div class="step"><div class="num">1</div><h3>Visa vad ni har</h3><p>Skicka några bilder, ort och en första beskrivning av utrustningen.</p></div>
-          <div class="step"><div class="num">2</div><h3>Vi gör en bedömning</h3><p>Vi ser om det finns maskiner eller delar som kan vara intressanta.</p></div>
-          <div class="step"><div class="num">3</div><h3>Vi pratar upplägg</h3><p>Vid intresse diskuterar vi pris, omfattning, eventuell hämtning och andra praktiska frågor.</p></div>
-          <div class="step"><div class="num">4</div><h3>Vi kommer överens</h3><p>Eventuell affär eller hämtning sker först när båda parter har godkänt upplägget.</p></div>
-        </div>
-        <div class="notice" style="margin-top:24px">
-          <h3>Har ni blandade saker och svårt att beskriva allt?</h3>
-          <p>Ta gärna några översiktsbilder från verkstaden. Börja med de större maskinerna och ungefärlig mängd. <a href="foretagsforfragan.html">Skapa en förfrågan med vårt formulär →</a></p>
+          <div class="s5"><div class="focus"><h3>Det kan vi bedöma</h3><p>Köp av enstaka maskiner, verktygsgrupper och vissa reservdelspartier som passar vår verksamhet.</p><p>Vi är inte en generell entreprenör för att riva, sanera eller städa ur hela verkstäder.</p></div></div>
         </div>
       </div>
     </section>
 
     <section class="soft">
       <div class="wrap">
-        <div class="section-head">
-          <span>Vi utgår från Hjo</span>
-          <h2>Verkstadsutrensning för företag i Skaraborg</h2>
-          <p>Vi tar emot förfrågningar från bland annat Hjo, Skövde, Tibro, Karlsborg, Mariestad, Töreboda, Tidaholm, Skara och Falköping. Andra orter är också välkomna att höra av sig.</p>
-        </div>
-        <p class="workshop-disclaimer">Hämtning och transport bedöms från fall till fall beroende på objekt, mängd och tillgänglighet.</p>
-        <div class="section-head" style="margin-top:42px">
-          <span>Fler företagslösningar</span>
-          <h2>Hitta rätt väg för företagets utrustning</h2>
-          <p>Vi bedömer även lagerpartier och vissa typer av maskinrelaterat skrot. Här kan ni läsa vidare.</p>
-        </div>
-        <div class="workshop-related">
-          <div class="card">
-            <div class="icon" aria-hidden="true">🏭</div>
-            <h3>För företag</h3>
-            <p>Se alla våra möjligheter för maskiner, verktyg, reservdelar och överblivet material.</p>
-            <a href="foretag.html">Till företagslösningarna →</a>
-          </div>
-          <div class="card">
-            <div class="icon" aria-hidden="true">📦</div>
-            <h3>Lagerutrensning</h3>
-            <p>Har ni ett lager eller förråd med gamla maskiner, reservdelar eller överskottsutrustning?</p>
-            <a href="lagerutrensning-foretag.html">Läs om lagerutrensning →</a>
-          </div>
-          <div class="card">
-            <div class="icon" aria-hidden="true">♻️</div>
-            <h3>Skrothämtning för företag</h3>
-            <p>Vi kan även bedöma vissa metall- och maskinpartier för eventuell hämtning eller återbruk.</p>
-            <a href="skrot-hamtning-foretag.html">Läs om skrothämtning →</a>
-          </div>
-        </div>
-        <p class="workshop-disclaimer">Du kan också läsa mer om vårt <a href="aterbruk.html">arbete med återbruk</a> eller se <a href="kontakt.html">alla kontaktvägar</a>.</p>
+        <div class="section-head"><span>Före första kontakten</span><h2>Vanliga frågor om verkstadsmaskiner</h2></div>
+        <details><summary>Kan vi fråga om en maskin även om den inte startar?</summary><div class="answer"><p>Ja. Beskriv felet eller skriv att skicket är okänt. Vissa objekt kan vara intressanta som reparations- eller reservdelsmaskiner.</p></div></details>
+        <details><summary>Behöver vi själva veta modell och årsmodell?</summary><div class="answer"><p>Nej, men skicka gärna bilder på märkskyltar och maskinens helhet. Det hjälper oss att identifiera utrustningen.</p></div></details>
+        <details><summary>Tar ni hand om all utrustning vid en nedläggning?</summary><div class="answer"><p>Inte automatiskt. Vi bedömer vilka maskiner, verktyg och delar som kan vara intressanta. Omfattning, pris och eventuell hämtning måste avtalas separat.</p></div></details>
+        <div class="section-head" style="margin-top:45px"><span>Andra situationer</span><h2>Gäller det en lagerlokal i stället?</h2><p>För blandade förråd och lokaler där huvudmålet är att frigöra yta, läs om <a href="lagerutrensning-foretag.html">lagerutrensning</a>. Har ni enbart överblivna artiklar och reservdelslager, se <a href="overskottslager-foretag.html">överskottslager</a>.</p></div>
+        <p class="quiet-note">Vi tar emot förfrågningar från Hjo, Skövde, Tibro, Karlsborg, Mariestad, Skara, Falköping, Tidaholm, Töreboda och andra orter i Skaraborg.</p>
       </div>
     </section>
 
     <section class="dark">
       <div class="wrap">
-        <div class="section-head">
-          <span>Enkel kontakt för företag</span>
-          <h2>Vad har blivit stående i er verkstad?</h2>
-          <p>Skicka 1–3 bilder, ort och en kort beskrivning. Vi tittar på det och återkommer om mer information behövs.</p>
-        </div>
+        <div class="section-head"><span>Företagets utrustning</span><h2>Vilka maskiner behöver ni inte längre?</h2><p>Skicka 1–3 bilder, ort och en kort beskrivning. Märkskylt och kända fel hjälper oss; vid tunga objekt, berätta gärna om port och lastväg.</p></div>
         <div class="workshop-actions">
           <a class="btn btn-light" href="foretagsforfragan.html">Skapa företagsförfrågan →</a>
           <a class="btn btn-outline" href="https://www.facebook.com/profile.php?id=61588383880828" target="_blank" rel="noopener noreferrer">Skriv via Facebook ↗</a>
