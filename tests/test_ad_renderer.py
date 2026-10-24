@@ -118,6 +118,18 @@ class TestAdSeo(unittest.TestCase):
             self.assertIn(phrase, content)
         self.assertIn("konsumentverket.se/konsumentratt/handla-begagnat/", content)
 
+    def test_buy_information_collapsed_by_default(self):
+        """Native details/summary keeps fine print accessible but out of the way."""
+        content = adseo.render(fixture(), URL)
+        self.assertIn('<details class="ad-box buy-info" id="kopinformation">', content)
+        self.assertIn('<summary id="buy-info-heading">', content)
+        self.assertIn('</summary>', content)
+        self.assertIn('</details>', content)
+        self.assertNotIn('<details class="ad-box buy-info" id="kopinformation" open', content)
+        self.assertIn('Bra att veta före köp', content)
+        self.assertIn('konsumentköplagen', content)
+        self.assertIn('ångerrätt', content)
+
     def test_no_inquiry_from_unavailable_item_hero(self):
         for status in ("sold", "pending"):
             content = adseo.render(fixture(status=status), URL)
