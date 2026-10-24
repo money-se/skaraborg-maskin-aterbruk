@@ -1,0 +1,117 @@
+SKARABORG MASKIN & ÅTERBRUK – INNEHÅLLSGRANSKNING AV ÅTTA FÖRETAGSSIDOR
+Datum: 2026-10-24
+Arbetsgren: content/foretagssidor-seo-granskning-20261024
+Källa: GitHub-repot money-se/skaraborg-maskin-aterbruk, main per granskningstillfället.
+Syfte: Öka sidornas individuella nytta och minska tematisk överlappning inför framtida arbete med startsidan.
+Omfattning: Fördjupad innehålls- och layoutanpassning av sida 3, 4 och 5; full modernisering av sida 8. Gemensamma komponenter, separata CSS/JS-filer och startsidan lämnas orörda.
+Publiceringsstatus: FÖRSLAG – PR ska granskas innan merge. Ingen ändring är publicerad genom detta arbete.
+
+1. SLUTSATS
+Sju av de åtta sidorna följer en mycket likartad modern innehållsmall. Det är inte i sig fel.
+Övergripande affärsprocess och kontaktvägar får gärna återkomma, men varje sida behöver ett
+eget tydligt användarproblem, konkreta exempel och relevanta egna frågor.
+Störst överlappning: överskottslager <-> lagerutrensning <-> verkstadsutrensning.
+Efter återkoppling att sida 3, 4 och 5 fortfarande kändes för lika fick de varsin tydligt
+skild sidstruktur. Sida 8 byggdes om på den godkända moderna företagsdesignens CSS-bas,
+med särskilt fokus på hämtningens praktiska förutsättningar.
+
+2. AVGRÄNSAD SÖKINTENTION PER SIDA
+- foretag.html
+  Huvudnav: Företag som vill veta om Skaraborg Maskin & Återbruk kan vara relevant.
+  Här behövs sammanfattning och vägval, inte lika mycket specialinnehåll som på undersidorna.
+  Åtgärd i denna PR: Ingen; redan tydlig som navsida.
+
+- foretagsaterbruk-skaraborg.html
+  Fråga: Kan företagets maskiner, delar eller utrustning komma till användning igen?
+  Egen tyngdpunkt: återanvändning i sin helhet, reparation och reservdelar före materialvärde.
+  Åtgärd: Tydligare livscykel och skillnad mot ren lager-/lokalutrensning.
+
+- overskottslager-foretag.html
+  Fråga: Kan vi sälja reservdelar, utrustning eller material som blivit över efter inköp eller projekt?
+  Egen tyngdpunkt: varor/artikelgrupper som inte längre behövs, även utan att lokalen töms.
+  Åtgärd: Ny rubrik och disposition, konkret varupartiexempel, artikelgrupper och
+  inventeringsguide med märkning/antal, FAQ samt jämförelse med lagerutrensning.
+  Avgränsning: Besökare med blandat innehåll i ett helt utrymme leds mot lagerutrensning.
+
+- lagerutrensning-foretag.html
+  Fråga: Kan vi frigöra plats i ett förråd eller lager fyllt med blandat innehåll?
+  Egen tyngdpunkt: fysisk lokal, överblick, urval av objekt och åtkomlighet.
+  Åtgärd: Ny lokalbaserad disposition med tre rumsvyer, avgränsning mellan intressanta
+  objekt och annat innehåll, samt plats-/tidsfokuserad vägledning.
+  Avgränsning: Inte en tjänst för fullständig sophämtning eller tömning.
+
+- verkstadsutrensning-foretag.html
+  Fråga: Hur gör vi med gamla verkstadsmaskiner, verktyg och reservdelar vid flytt/omställning?
+  Egen tyngdpunkt: verkstadens utrustning, större maskiner, lastvägar och reservdelsgrupper.
+  Åtgärd: Ny maskinbaserad disposition med tre utrustningsgrupper, ett tydligt
+  maskinkort (modell/skick/placering/lastväg) och frågor om tunga maskiner.
+  Avgränsning: Inte generell avfallsentreprenad eller fullständig verkstadstömning.
+
+- maskinavveckling-foretag.html
+  Fråga: Vad gör vi med en eller flera äldre maskiner som ska tas ur drift?
+  Egen tyngdpunkt: den enskilda maskinens modell, skick, brister och förflyttningsbarhet.
+  Åtgärd: Tydligare skillnad mot en lokalutrensning; konkret efterfrågan på modelluppgifter.
+
+- industri-skrot-foretag.html
+  Fråga: Är vårt avgränsade metall-/maskinparti intressant för köp eller återbruk?
+  Egen tyngdpunkt: materialslag, mängd, maskindelar vs hela maskiner och lastning.
+  Åtgärd: Skiljer metaller som material från maskiner som möjliga återbruksobjekt.
+  Avgränsning: Inte allmän avfallsinsamling eller hantering av allt industriskrot.
+
+- skrot-hamtning-foretag.html
+  Fråga: Kan en möjlig hämtning ordnas för vårt maskinrelaterade skrot eller metall?
+  Egen tyngdpunkt: hämtningens praktiska förutsättningar, mängd och tillgänglighet.
+  Åtgärd: Försiktigare affärslöften, borttagning av webbproducenttext, förtydligad
+  SEO-title/description, självkanonisk URL och internlänk till industriskrot.
+  Notering: Den gamla designen ersattes med samma godkända visuella grund som övriga
+  moderna företagssidor. Gemensam header/footer, metadata och JSON-LD är uppdaterade.
+
+3. TEKNISK KONTROLL VID GRANSKNINGEN
+- Samtliga åtta filer finns på main.
+- Sju sidor hade självkanonisk länk före ändringarna. Skrothämtning saknade sådan;
+  en självkanonisk länk har lagts till i arbetsgrenen.
+- Före denna PR fanns sju av de åtta sidorna i sitemap.xml på main.
+- skrot-hamtning-foretag.html saknades i sitemap.xml på main. I denna PR har
+  sidan lagts till en gång i sitemap.xml på arbetsgrenen.
+- Att en URL läggs till i sitemap innebär inte att Google garanterat indexerar den.
+  Den tidigare äldre designen för skrothämtning är nu moderniserad på arbetsgrenen.
+- Granskningen avser inte Search Consoles faktiska indexstatus. Sitemap är inte bevis
+  för att Google indexerat en URL.
+- Ingen startsida, header, footer eller fristående CSS-/JavaScript-fil ändras.
+  Sidspecifika CSS-regler har lagts i de fyra ändrade HTML-filerna.
+- sitemap.xml uppdateras med en URL för skrothämtning för företag.
+
+4. FÖRÄNDRINGSPRINCIPER
+- Behåll återkommande kontaktprocess och välkända kontaktvägar.
+- Skapa substans genom egna användarproblem, inte artificiell ordvariation.
+- Undvik nya, obekräftade tjänstelöften, prisuppgifter och påhittade kundfall.
+- Ingen automatisk garanti om köp, gratis hämtning eller fullständig rensning.
+- Förhindra att 'Skrothämtning för företag' framstår som generell avfallshämtning.
+- Självkanoniska länkar för avsiktligt separata sidor; ingen kanonisering mellan dem
+  enbart på grund av gemensam design eller processavsnitt.
+
+5. KVAR ATT BEVAKA
+A. Kontrollera Search Console: vilken URL visas faktiskt för överlappande sökningar?
+B. Håll särskilt koll på överskottslager/lagerutrensning och industriskrot/skrothämtning.
+C. Lägg senare gärna in riktiga, godkända fotografier och faktiska företagsexempel
+   när sådana finns, men hitta inte på uppdrag eller kundomdömen.
+D. Granska den moderniserade skrothämtningssidan visuellt före publicering; verifiera
+   särskilt mobilvy, delade header/footer och interna länkar.
+E. Gör ingen ombyggnad av index.html före PR-granskning.
+
+6. KVALITETSKRITERIER
+- Alla 8 huvudsidor ska ge en tydlig egen anledning att finnas.
+- Innehållet ska hjälpa besökaren välja rätt sida.
+- Affärslöften ska stämma med verksamhetens faktiska omfattning.
+- Varje ändrad HTML-fil: en H1, korrekt självkanonisk URL, giltig JSON-LD och fungerande
+  internlänkar. Sida 3, 4, 5 och 8 har avsiktligt nya sektioner och sidspecifik CSS.
+- Ingen skarp publicering förrän PR granskats; rendering och mobilvy kontrolleras separat.
+- PR ska granskas innan main ändras.
+
+Källor för övergripande SEO-bedömning:
+Google Search Central – SEO Starter Guide
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+Google Search Central – Canonicalization troubleshooting
+https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting
+Google Search Central – Spam policies
+https://developers.google.com/search/docs/essentials/spam-policies
