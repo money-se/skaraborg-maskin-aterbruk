@@ -19,7 +19,7 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="sv_SE">
   <meta property="og:title" content="Verkstadsutrensning för företag | Skaraborg Maskin & Återbruk">
-  <meta property="og:description" content="Verkstadsmaskiner, verktyg och reservdelar som blivit stående? Visa oss vad ni har för en första bedömning.">
+  <meta property="og:description" content="Gamla verkstadsmaskiner eller verktyg på väg ut? Skicka bilder, modell, skick och uppgifter om lastväg.">
   <meta property="og:url" content="https://skaraborgmaskin.se/verkstadsutrensning-foretag.html">
   <meta property="og:site_name" content="Skaraborg Maskin & Återbruk">
   <script type="application/ld+json">
@@ -31,7 +31,7 @@
       "@id": "https://skaraborgmaskin.se/verkstadsutrensning-foretag.html#sida",
       "url": "https://skaraborgmaskin.se/verkstadsutrensning-foretag.html",
       "name": "Verkstadsutrensning för företag i Skaraborg",
-      "description": "Bedömning av äldre maskiner, verkstadsutrustning, reservdelar och partier inför eventuellt köp och återbruk.",
+      "description": "Bedömning av enskilda verkstadsmaskiner, redskap och reservdelar, med hänsyn till skick och åtkomst, för eventuellt köp.",
       "about": {
         "@id": "https://skaraborgmaskin.se/verkstadsutrensning-foretag.html#service"
       }
@@ -222,12 +222,12 @@
     .workshop-sheet-top{grid-column:1/-1;background:var(--brand);color:#fff;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:20px 25px}
     .workshop-sheet-top span{font-size:13px;color:rgba(255,255,255,.76)}
     .workshop-field{padding:27px;border-top:1px solid var(--line)}
-    .workshop-field:nth-of-type(even){border-left:1px solid var(--line)}
+    .workshop-field:nth-child(odd){border-left:1px solid var(--line)}
     .workshop-field strong{display:block;color:var(--brand);font-size:17px;margin-bottom:9px}
     .workshop-field p{color:var(--muted);margin:0}
     .workshop-actions{display:flex;flex-wrap:wrap;gap:11px}
     @media(max-width:900px){.workshop-gear-row{grid-template-columns:58px minmax(0,1fr)}.workshop-tag{grid-column:2;justify-self:start}.workshop-sheet-top{flex-direction:column;align-items:flex-start}}
-    @media(max-width:620px){.workshop-sheet{grid-template-columns:1fr}.workshop-sheet-top{grid-column:1}.workshop-field:nth-of-type(even){border-left:0}.workshop-gear-row{grid-template-columns:1fr;gap:11px}.workshop-tag{grid-column:1}.workshop-actions{flex-direction:column}.workshop-actions .btn{width:100%}}
+    @media(max-width:620px){.workshop-sheet{grid-template-columns:1fr}.workshop-sheet-top{grid-column:1}.workshop-field:nth-child(odd){border-left:0}.workshop-gear-row{grid-template-columns:1fr;gap:11px}.workshop-tag{grid-column:1}.workshop-actions{flex-direction:column}.workshop-actions .btn{width:100%}}
 </style>
 </head>
 <body>
