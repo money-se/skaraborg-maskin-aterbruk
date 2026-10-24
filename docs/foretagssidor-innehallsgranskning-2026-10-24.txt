@@ -65,13 +65,15 @@ designarbete, inte byggas om i denna textgranskning.
 - Samtliga åtta filer finns på main.
 - Sju sidor hade självkanonisk länk före ändringarna. Skrothämtning saknade sådan;
   en självkanonisk länk har lagts till i arbetsgrenen.
-- Sju av de åtta sidorna finns i sitemap.xml i main.
-- skrot-hamtning-foretag.html saknas i sitemap.xml. Inga sitemap-ändringar görs i denna PR.
-  När sidans roll och framtida design slutligt godkänts bör indexeringsbeslut och
-  eventuell sitemap-inkludering tas separat.
+- Före denna PR fanns sju av de åtta sidorna i sitemap.xml på main.
+- skrot-hamtning-foretag.html saknades i sitemap.xml på main. I denna PR har
+  sidan lagts till en gång i sitemap.xml på arbetsgrenen.
+- Att en URL läggs till i sitemap innebär inte att Google garanterat indexerar den.
+  Bedömning av sidans äldre design kan ske separat efter innehållsgranskningen.
 - Granskningen avser inte Search Consoles faktiska indexstatus. Sitemap är inte bevis
   för att Google indexerat en URL.
 - Ingen startsida, header, footer, CSS eller JavaScript avses ändras.
+- sitemap.xml uppdateras med en URL för skrothämtning för företag.
 
 4. FÖRÄNDRINGSPRINCIPER
 - Behåll återkommande kontaktprocess och välkända kontaktvägar.
