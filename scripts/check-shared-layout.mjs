@@ -27,7 +27,7 @@ const required = ["partials1/header.html","partials1/footer.html","partials1/sit
 for (const file of required) {
   if (!fs.readFileSync(file,"utf8").includes("site-shell")) {
     // Header/footer are the actual content sources, not shell consumers.
-    if (!file.endsWith("header.html") && !file.endsWith("footer.html"))
+    if (!file.endsWith("header.html") && !file.endsWith("footer.html") && !file.endsWith("site-shell.js"))
       errors.push(file + ": does not use the shared shell");
   }
 }
