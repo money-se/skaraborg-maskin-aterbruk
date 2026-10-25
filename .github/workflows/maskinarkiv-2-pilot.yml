@@ -81,6 +81,10 @@ jobs:
         with:
           name: maskinarkivet-generated-html
           path: _maskinarkiv-preview/maskinarkiv/
+      - name: Behåll gemensam header och footer i maskinsidorna
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        working-directory: maskinarkiv-2
+        run: node scripts/stage-production.mjs
       - name: Publicera enbart Maskinarkivets fem HTML-sidor
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         shell: bash
@@ -88,7 +92,7 @@ jobs:
           set -euo pipefail
           # Inte en webbplatsbyggning. Exakt dessa fem HTML-filer får uppdateras.
           for slug in stiga-park-16 husqvarna-rider-13 husqvarna-lth151 stiga-villa-12-hst jonsered-lt2115; do
-            cp "_maskinarkiv-preview/maskinarkiv/$slug.html" "maskinarkiv/$slug.html"
+            cp "_maskinarkiv-release-review/maskinarkiv/$slug.html" "maskinarkiv/$slug.html"
           done
           git add -- maskinarkiv/stiga-park-16.html maskinarkiv/husqvarna-rider-13.html maskinarkiv/husqvarna-lth151.html maskinarkiv/stiga-villa-12-hst.html maskinarkiv/jonsered-lt2115.html
           for changed in $(git diff --cached --name-only); do
@@ -105,4 +109,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "build(maskinarkivet): update five generated machine guides [skip ci]"
+          git pull --rebase origin main
           git push origin HEAD:main
