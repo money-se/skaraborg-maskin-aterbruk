@@ -13,6 +13,7 @@
 <meta property="og:url" content="{{CANONICAL}}">
 <script type="application/ld+json">{{SCHEMA}}</script>
 <link rel="stylesheet" href="/habo-service.css">
+<script defer src="/partials1/site-shell.js" data-shared-site-shell></script>
 </head>
 <body>
 <a class="hb-skip" href="#habo-innehall">Hoppa till innehållet</a>

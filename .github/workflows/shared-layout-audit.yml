@@ -1,0 +1,24 @@
+name: Shared header, footer and Metricool audit
+on:
+  pull_request:
+    paths:
+      - '**/*.html'
+      - 'partials1/**'
+      - 'scripts/check-shared-layout.mjs'
+      - 'data/habo-service-template.html.txt'
+      - 'scripts/generate_*_seo.py'
+      - 'maskinarkiv-2/scripts/stage-production.mjs'
+  workflow_dispatch:
+jobs:
+  shared-layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Syntax check shared scripts and generators
+        run: |
+          node --check partials1/site-shell.js
+          node --check scripts/check-shared-layout.mjs
+          node --check maskinarkiv-2/scripts/stage-production.mjs
+          python -m py_compile scripts/generate_ad_seo.py scripts/generate_competition_seo.py scripts/generate_weekly_blog_seo.py
+      - name: Verify all public pages use the shared partials
+        run: node scripts/check-shared-layout.mjs
