@@ -109,5 +109,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "build(maskinarkivet): update five generated machine guides [skip ci]"
+          # Remove uncommitted build output from the CI worktree before rebasing.
+          git stash push --include-untracked -m "maskinarkivet-ci-generated-output"
           git pull --rebase origin main
           git push origin HEAD:main
