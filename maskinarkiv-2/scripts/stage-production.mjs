@@ -11,6 +11,9 @@ fs.mkdirSync(dest,{recursive:true});
 function useSharedSiteShell(html) {
   html = html.replace(/<header\b(?=[^>]*class\s*=\s*["'][^"']*\bsmar-site-header\b)[^>]*>[\s\S]*?<\/header>/gi, "");
   html = html.replace(/<footer\b(?=[^>]*class\s*=\s*["'][^"']*\bsite-footer\b)[^>]*>[\s\S]*?<\/footer>/gi, "");
+  // The generated template can contain a copy of the tracker after the removed header.
+  // Tracking is owned exclusively by /partials1/header.html; never emit a second copy.
+  html = html.replace(/<!-- Metricool web analytics;[\s\S]*?<\/script>\s*/gi, "");
   if (!html.includes('id="site-header"')) html = html.replace(/<body\b[^>]*>/i, x => x + '<div id="site-header"></div>');
   if (!html.includes('id="site-footer"')) html = html.replace(/<\/body>/i, '<div id="site-footer"></div></body>');
   if (!html.includes('data-shared-site-shell')) html = html.replace(/<\/head>/i, '<script defer src="/partials1/site-shell.js" data-shared-site-shell></script></head>');
