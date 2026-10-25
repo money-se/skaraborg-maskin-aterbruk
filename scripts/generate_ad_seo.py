@@ -96,7 +96,8 @@ def render(ad, url):
 {og_image}
 <script type="application/ld+json">{ld_json}</script>
 <style>{DETAIL_CSS}</style>
-<script defer src="/statistik-raknare.js" data-page="annons:{safe(ad['id'])}"></script></head>
+<script defer src="/statistik-raknare.js" data-page="annons:{safe(ad['id'])}"></script><script defer src="/partials1/site-shell.js" data-shared-site-shell></script>
+</head>
 <body>{MARKER}
 <a class="skip" href="#annons-innehall">Hoppa till annonsen</a><div id="site-header"></div>
 <header class="product-intro"><div class="wrap">

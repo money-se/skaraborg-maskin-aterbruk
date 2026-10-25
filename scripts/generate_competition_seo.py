@@ -44,7 +44,9 @@ def render(item):
 <link rel="canonical" href="{safe(url)}"><meta property="og:type" content="website"><meta property="og:title" content="{safe(title)}"><meta property="og:description" content="{safe(summary)}"><meta property="og:url" content="{safe(url)}">{ogimg}
 <script type="application/ld+json">{jsonld}</script><style>
 *{{box-sizing:border-box}}body{{margin:0;color:#1a3523;background:#f2f6f0;font:16px/1.65 system-ui,sans-serif}}header{{background:#173925;color:#fff;padding:18px}}header a{{color:white}}.wrap{{max-width:1000px;margin:auto;padding:20px}}article{{background:white;border:1px solid #d6e2d4;padding:25px;border-radius:18px}}h1{{line-height:1.2}}.gallery{{display:flex;gap:12px;overflow:auto;margin:24px 0}}.gallery img{{width:min(90vw,580px);height:350px;object-fit:contain;background:#f0f3ef;border-radius:12px;flex:none}}.multiline{{white-space:pre-wrap;overflow-wrap:anywhere}}.cta{{display:inline-block;background:#215a36;color:white;text-decoration:none;padding:13px 19px;border-radius:10px;font-weight:bold}}@media(max-width:600px){{.wrap{{padding:12px}}article{{padding:18px}}.gallery img{{height:240px}}}}
-</style></head><body>{MARK}<header><div class="wrap"><a href="/tavlingar.html">← Månadens maskin</a><p>Skaraborg Maskin & Återbruk</p></div></header>
+</style><script defer src="/partials1/site-shell.js" data-shared-site-shell></script>
+</head><body>{MARK}
+<div id="site-header"></div><header><div class="wrap"><a href="/tavlingar.html">← Månadens maskin</a><p>Skaraborg Maskin & Återbruk</p></div></header>
 <main class="wrap"><article><h1>{safe(title)}</h1>{test_banner}<p><strong>{'Aktiv tävling' if item["status"]=="active" else 'Avslutad tävling'}</strong></p><div class="gallery">{imgs}</div>
 {text_section("Om maskinen",item.get("description"))}
 {text_section("Skick och kända fel",item.get("prize_condition"))}
@@ -52,7 +54,7 @@ def render(item):
 {text_section("Tävlingsvillkor",item.get("rules"))}
 {text_section("Vinnare",item.get("winner_name"))}
 {link}<p>Deltagande sker endast via det aktuella tävlingsinlägget på Facebook, inte via denna webbplats.</p>
-<p><a href="/tavlingar.html">Se fler tävlingar</a></p></article></main></body></html>'''
+<p><a href="/tavlingar.html">Se fler tävlingar</a></p></article></main><div id="site-footer"></div></body></html>'''
 
 def main():
     key=os.environ["SUPABASE_PUBLISHABLE_KEY"]
