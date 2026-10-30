@@ -60,3 +60,29 @@
 - Kontrollera nya BLN-52622 (2024) mot alla äldre ZT-2100/2200-claims, särskilt oil/filters, tabeller, enhetsvariant och serviceprocedurer.
 - Läs STIGA 2010 och 2011/12 sida för sida mot Villa 12 HST-registret och dess öppna PNC/FR-frågor.
 - Skapa eller uppdatera respektive komponentregister enligt befintlig researchpolicy, utan att höja `needs_research` eller ändra publicerade artiklar automatiskt.
+
+## Extra analyserade källnoteringar (2026-10-30)
+
+### BLN-0108, ZT-3400/3600/3800, april 2023
+- Manualens tryckta sida 1 (PDF s. 3), figur 1: identitet består av BOM-modellkod och serienummer på växellådsetiketten.
+- Tryckt sida 2 (PDF s. 4): alla tre använder laddpump och intern kuggparkeringsbroms; bypass tillåter bara kort förflyttning upp till 2 mph/3,2 km/h, bromsen frigörs före bypass.
+- Tryckt sida 9–12: separata delar om olja, filter, oljebyte och luftning. Sprängskisser är egna för ZT-3400, ZT-3600 respektive ZT-3800 på tryckta sidor 38–43. Förväxla inte modellernas komponentlistor.
+
+### BLN-0081, ZT-4400, februari 2023
+- Tryckt sida 2 (PDF s. 4): variabel pump max 12 cc/varv och motor max 16,4 cc/varv vid full slaglängd. Detta är ZT-4400-specifikt, inte ett ZT-3400-värde.
+- Tryckt sida 2 (PDF s. 4): intern skivbroms och bypass för kort förflyttning högst 3,2 km/h. Manualen innehåller oljebyte på tryckt sida 10 och positionslista på tryckt sida 39.
+
+### BLN-0078, RT-310, april 2024
+- Tryckt sida 2 (PDF s. 5): hydrostatisk vinkeltransmission med variabel 3 cc-pump och 10 cc fast motor enligt beskrivningen. Teknisk tabell på tryckt sida 5 (PDF s. 8) anger 3,0 respektive 10,2 cc/varv; **avrundningsskillnad mellan löptext och tabell, bevara båda källutsagorna**.
+
+### BLN-50327, BDU-10/21, januari 2018
+- Tryckt sida 3 (PDF s. 3): BDU-10S har intern oljebehållare och filter, medan BDU-10L/21L använder extern behållare/filter och laddpump. Ett generellt BDU-oljesvar är därför otillräckligt.
+- Tryckt sida 4 (PDF s. 4): BDU-21L har valbar hjälpkrets angiven till 1,5 gpm (5,67 l/min) och 500 psi (34,5 bar) vid 3 200 rpm. Gäller ett tillval; inte varje BDU-21L.
+
+### BLN-52198, HGM-E, januari 2018
+- Tryckt sida 3 (PDF s. 6) har skilda skruvdimensioner/moment för HGM-15E och HGM-18E. Full variant måste vara identifierad innan moment återanvänds.
+
+### Honda 37Z4F802 och 37Z4F605
+- 37Z4F802, PDF s. 1: GX120/GX160 **för stampmaskiner**. 37Z4F605, PDF s. 1: GX120/GX160/GX200, separata konfigurationer. Modellnamnet GX160 ensamt ger inte installationssäker manualtillämplighet.
+
+**Kontrollnivå:** dessa är avgränsade observationer ur tillverkarfilerna med PDF-lokatorer. De ska valideras per BOM/variant innan de används som slutliga reservdelsråd. Forskningens modellregister och publiceringsstatus ändras inte av denna noteringssektion.
