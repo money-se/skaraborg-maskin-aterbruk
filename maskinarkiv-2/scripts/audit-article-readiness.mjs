@@ -14,7 +14,19 @@ for(const file of fs.readdirSync(dir).filter(f=>f.endsWith(".json"))){
  const ids=(article.chapters||[]).map(x=>x.id);
  if(new Set(ids).size!==ids.length)blocking.push("duplicate chapter IDs");
  const source=path.join(evidence,file);
- if(!fs.existsSync(source)){blocking.push("missing canonical research register for exact article slug");rows.push(row);continue}
+ if(!fs.existsSync(source)){
+  // Some article families intentionally use version-specific canonical files.
+  const all=fs.readdirSync(evidence).filter(x=>x.endsWith(".json"));
+  const family=all.filter(x=>x.startsWith(slug+"-"));
+  row.familyRegisters=family;
+  if(family.length){
+   warnings.push(family.length+" version-specific research registers present; no family-level release inferred");
+   blocking.push("no family-level scoped release; assess each version-specific register before publication");
+  }else{
+   blocking.push("no exact or version-specific research register found; investigate alias before creating new register");
+  }
+  rows.push(row);continue;
+ }
  row.research=true;
  const research=JSON.parse(fs.readFileSync(source,"utf8"));
  row.status=research.status;row.claims=research.claims?.length||0;row.sources=research.sources?.length||0;row.openGaps=research.gaps?.length||0;
