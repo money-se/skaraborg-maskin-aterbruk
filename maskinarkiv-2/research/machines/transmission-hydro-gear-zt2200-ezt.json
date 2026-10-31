@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "slug": "transmission-hydro-gear-zt2200-ezt",
   "status": "needs_research",
-  "reviewDate": "2026-10-22",
-  "scope": "Komponentbundet forskningsregister för Hydro-Gear ZT-2200 EZT samt dokumentrelation till ZT-2100; gäller inte monterad maskin utan specifik ID-kontroll. Service-manualen är lokaliserad men oljebyte och reservdelskoder har ännu inte extraherats/verifierats sidbundet. Verifierad manualgranskning av oljespecifikation, påfyllningsnivå, oljemängd, purge, bypass och positionslista i BLN-52622 (2018).",
+  "reviewDate": "2026-10-30",
+  "scope": "Komponentbundet forskningsregister för Hydro-Gear ZT-2200 EZT samt dokumentrelation till ZT-2100; gäller inte monterad maskin utan specifik ID-kontroll. Oljans typ, nivå och modellvolym är granskade mot BLN-52622 i 2018 och 2024 års utgåvor; vissa 2024-varianter har separat avtappningsprocedur. Beställningsbara reservdelskoder och specifika BOM-tillämpningar är ännu inte fullständigt verifierade. Verifierad manualgranskning av oljespecifikation, påfyllningsnivå, oljemängd, purge, bypass och positionslista i BLN-52622 (2018).",
   "sources": [
     {
       "id": "hg-zt2200-product",
@@ -60,6 +60,13 @@
       "title": "Hydro-Gear Support – Oil Change Guide and Service Kits",
       "document": "Manufacturer support landing page, general oil service kit program",
       "url": "https://www.hydro-gear.com/Support/"
+    },
+    {
+      "id": "hg-bln52622-2024-upload",
+      "tier": 1,
+      "title": "Hydro-Gear ZT-2100 / ZT-2200 EZT Service and Repair Manual, April 2024",
+      "document": "BLN-52622 P14, April 2024, user-uploaded manufacturer PDF; local filename BLN-52622_P14.pdf",
+      "url": "https://www.hydro-gear.com/service-repair-manuals/"
     }
   ],
   "topics": {
@@ -431,6 +438,24 @@
       "sourceId": "hg-user-support-identification",
       "grade": "A",
       "topic": "L"
+    },
+    {
+      "id": "ezt-2024-drainport-ef",
+      "statement": "April 2024-utgåvan anger att ZT-2200-varianter med E eller F i tredje teckenpositionen i modellnumret, exempel ZC-Exxx-xxx-xxx, har avtappningsplugg och särskild oljebytesprocedur. För andra utföranden gäller proceduren utan avtappningsplugg; faktisk etikett måste kontrolleras.",
+      "variant": "ZT-2200 EZT, BLN-52622 april 2024; E/F-kodad modellvariant",
+      "locator": "Tryckt s. 11–12, 'FLUID CHANGE PROCEDURE - MODELS WITHOUT/WITH A FLUID DRAIN PORT'; PDF-sida 13–14",
+      "sourceId": "hg-bln52622-2024-upload",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "ezt-2024-fluid-amounts",
+      "statement": "BLN-52622 april 2024 Tabell 6 anger 20W50 motorolja och 54 fl oz (1597 ml) för ZT-2100 respektive 56 fl oz (1650 ml) för ZT-2200 EZT; nivåkontroll sker 19–38 mm under påfyllningsöppningen enligt Figur 4. Dessa uppgifter överensstämmer i dessa kontrollerade punkter med mars 2018-utgåvan.",
+      "variant": "ZT-2100 / ZT-2200 EZT, BLN-52622 mars 2018 jämfört med april 2024 (familjespecifika volymer)",
+      "locator": "Båda utgåvorna tryckt s. 10–11, Tabell 6/Figur 4; PDF-sida 12–13",
+      "sourceId": "hg-bln52622-2024-upload",
+      "grade": "A",
+      "topic": "J"
     }
   ],
   "gaps": [
@@ -441,6 +466,7 @@
     "Jämförelse av 2018/2023-utgåvor har bekräftat oljemängder och avluftning, men övriga serviceprocedurer och komponentlistor är ännu inte fullständigt jämförda.",
     "För reservdelsbeställning behövs tillverkarspecifik BOM/lista som mappar exakt Hydro-Gear-modell- och serienummer till orderbara kitnummer; BLN-52622 ger figurpositioner men inte sådan universal orderlista.",
     "Pos. 209 i Figure 26 (KIT, HUB PULLER) är ett verktyg, inte en vanligt förbrukad reparationsdel; bevaka att positioner inte felklassas i framtida köpguider.",
-    "Konkret Hydro-Gear ZT-2200 BOM-nummer och matchande reservdelskatalog behövs innan beställningsbara kitnummer kan kvalitetssäkras; tillverkarens allmänna två oljesatser är inte universell EZT-passform."
+    "Konkret Hydro-Gear ZT-2200 BOM-nummer och matchande reservdelskatalog behövs innan beställningsbara kitnummer kan kvalitetssäkras; tillverkarens allmänna två oljesatser är inte universell EZT-passform.",
+    "Kontrollera varianternas faktiska E/F-tecken och BOM på transmissionsetiketten innan 2024 års avtappningsprocedur tillämpas; jämförelsen 2018/2024 avser här specifikt vätskeavsnitt, inte fullständig manualdiff."
   ]
 }
