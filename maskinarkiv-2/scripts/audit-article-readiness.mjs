@@ -17,7 +17,7 @@ for(const file of fs.readdirSync(dir).filter(f=>f.endsWith(".json"))){
  if(!fs.existsSync(source)){
   // Some article families intentionally use version-specific canonical files.
   const all=fs.readdirSync(evidence).filter(x=>x.endsWith(".json"));
-  const family=all.filter(x=>x.startsWith(slug+"-"));
+  const family=all.filter(x=>x.startsWith(slug));
   row.familyRegisters=family;
   if(family.length){
    warnings.push(family.length+" version-specific research registers present; no family-level release inferred");
