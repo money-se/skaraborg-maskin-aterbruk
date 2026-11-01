@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "slug": "husqvarna-rider-13",
   "status": "needs_research",
-  "reviewDate": "2026-10-22",
+  "reviewDate": "2026-11-01",
   "scope": "Avgränsad källgranskning av tre identifierade Husqvarna Rider 13-reservdelsutgåvor, inte godkännande av hela Rider-artikeln.",
   "sources": [
     {
@@ -88,6 +88,27 @@
       "title": "Briggs & Stratton – Numerical Designation System",
       "document": "Your Key to the World's Finest Engines, revised 2/06, PDF page 1",
       "url": "https://www.briggsandstratton.com/hubfs/Briggs%20and%20Stratton/EMEA/FAQs/pdfs/Numerical_Designation_System.pdf"
+    },
+    {
+      "id": "rider13-workshop-w0301001",
+      "tier": 1,
+      "title": "Husqvarna Rider 11/13/16 Workshop Manual (manufacturer manual reproduced)",
+      "document": "Workshop Manual Rider 11, Rider 13, Rider 11 Bio, Rider 13 Bio, Rider 16; local W0301001.pdf, 72 PDF pages",
+      "url": "https://mymowerparts.com/pdf/Husqvarna-Service-Repair-Manuals/W0301001.pdf"
+    },
+    {
+      "id": "rider13-ipl-2002-02",
+      "tier": 1,
+      "title": "Husqvarna Rider 13 Spare Parts List, edition 2002-02",
+      "document": "Rider 13 2002-02 IPL; local rider-13-2002-02.pdf, 37 PDF pages",
+      "url": "https://easyconcept-motoculture.com/vues_eclatees/Husqvarna/RIDERS/RIDER%2013/RIDER%2013%202002-02/rider-13-2002-02.pdf"
+    },
+    {
+      "id": "rider13-ipl-2003-01",
+      "tier": 1,
+      "title": "Husqvarna Rider 13 Spare Parts List, edition 2003-01",
+      "document": "Rider 13 2003-01 IPL; local 2003-01 PDF, 37 pages",
+      "url": "https://www.foretjardin.com/img/cms/documents/pieces-detachees/husqvarna/tracteurs-tondeuse-rider/rider%2013/tracteur_tondeuse_husqvarna_rider_rider-13_vue-eclate-liste-des-pieces_2003-01.pdf"
     }
   ],
   "topics": {
@@ -376,6 +397,33 @@
       "variant": "Briggs & Stratton numreringsschema, ej fastställd motoridentitet för Rider 13C 965094301",
       "locator": "PDF page 1 (printed p. 9), model numbering system columns A–E",
       "sourceId": "briggs-numerical-designation-system-2006",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "rider13-2002-02-k46-original-ipl",
+      "statement": "Reservdelskatalogen för Rider 13 utgåva 2002-02 anger transmission K46 med reservdelsnummer 506 98 64-01.",
+      "variant": "Rider 13, IPL 2002-02; inte utan vidare Rider 13 Bio eller Rider 13C",
+      "locator": "PDF s. 21, TRANSMISSION: 506 98 64-01, K46",
+      "sourceId": "rider13-ipl-2002-02",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider13-2003-01-k46-original-ipl",
+      "statement": "Reservdelskatalogen för Rider 13 utgåva 2003-01 anger transmission K46 med reservdelsnummer 506 98 64-01; samma katalognummer förekommer i 2002-02-versionen.",
+      "variant": "Rider 13, IPL 2003-01; inte generellt alla generationsvarianter",
+      "locator": "PDF s. 33, TRANSMISSION: 506 98 64-01, K46",
+      "sourceId": "rider13-ipl-2003-01",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "rider13-workshop-286707-k46",
+      "statement": "Verkstadshandbokens tabell för Rider 13 anger Briggs & Stratton modell 286707 och växellåda Tuff Torq K46 för den Rider 13-konfiguration tabellen täcker.",
+      "variant": "Rider 13 som tabellerad i Husqvarna workshop manual; kräver identitet på monterad motor och transaxel före reservdels/serviceval",
+      "locator": "PDF s. 6, tryckt English s. 4, Technical data: Rider 13 Engine Model 286707; Gearbox Tuff Torq K46",
+      "sourceId": "rider13-workshop-w0301001",
       "grade": "A",
       "topic": "C"
     }
