@@ -1,57 +1,7 @@
 {
   "status": "ready",
-  "updated_at": "2026-11-04T17:21:27.143754+00:00",
+  "updated_at": "2026-11-04T23:41:26.189247+00:00",
   "items": [
-    {
-      "id": "758439947",
-      "title": "Motorsåg Jonsereds",
-      "url": "https://www.tradera.com/item/1000239/758439947/motorsag-jonsereds",
-      "image": "https://img.tradera.net/images/252/666262252_589da3c7-fe90-408c-a99e-b98d2a485688.jpg",
-      "price": 1350.0,
-      "price_kind": "starting_bid",
-      "category_id": "1000239",
-      "end_at": "2026-11-12T20:15:58.733000+00:00"
-    },
-    {
-      "id": "758443679",
-      "title": "Diverse reservdelar gräsklippare",
-      "url": "https://www.tradera.com/item/1000186/758443679/diverse-reservdelar-grasklippare",
-      "image": "https://img.tradera.net/images/039/666265039_ff74d8cf-b362-4fa9-8ecf-ea8f41f38f16.jpg",
-      "price": 299.0,
-      "price_kind": "starting_bid",
-      "category_id": "1000186",
-      "end_at": "2026-11-05T20:45:31.660000+00:00"
-    },
-    {
-      "id": "758443713",
-      "title": "Reservdelar till gräsklippare",
-      "url": "https://www.tradera.com/item/1000186/758443713/reservdelar-till-grasklippare",
-      "image": "https://img.tradera.net/images/071/666265071_1f5e93c1-70ec-4f8e-b1bb-e35d8e863c22.jpg",
-      "price": 299.0,
-      "price_kind": "starting_bid",
-      "category_id": "1000186",
-      "end_at": "2026-11-05T20:45:44.453000+00:00"
-    },
-    {
-      "id": "758443746",
-      "title": "Oljestickor gräsklippare",
-      "url": "https://www.tradera.com/item/1000186/758443746/oljestickor-grasklippare",
-      "image": "https://img.tradera.net/images/102/666265102_44567909-c9bf-4fb6-9268-0e384ab88276.jpg",
-      "price": 299.0,
-      "price_kind": "starting_bid",
-      "category_id": "1000186",
-      "end_at": "2026-11-05T20:45:54.077000+00:00"
-    },
-    {
-      "id": "758443769",
-      "title": "Reservdelar gräsklippare",
-      "url": "https://www.tradera.com/item/1000186/758443769/reservdelar-grasklippare",
-      "image": "https://img.tradera.net/images/125/666265125_bc6a9472-8dc3-4454-bb6c-5a03cde72956.jpg",
-      "price": 299.0,
-      "price_kind": "starting_bid",
-      "category_id": "1000186",
-      "end_at": "2026-11-05T20:46:06.733000+00:00"
-    },
     {
       "id": "750136776",
       "title": "Remspännare gilson jordfräs",
@@ -1803,6 +1753,16 @@
       "end_at": "2026-12-23T08:37:15.157000+00:00"
     },
     {
+      "id": "758439947",
+      "title": "Motorsåg Jonsereds",
+      "url": "https://www.tradera.com/item/1000239/758439947/motorsag-jonsereds",
+      "image": "https://img.tradera.net/images/252/666262252_589da3c7-fe90-408c-a99e-b98d2a485688.jpg",
+      "price": 1350.0,
+      "price_kind": "starting_bid",
+      "category_id": "1000239",
+      "end_at": "2026-11-12T20:15:58.733000+00:00"
+    },
+    {
       "id": "758440214",
       "title": "Husqvarna ratt för åkgräsklippare",
       "url": "https://www.tradera.com/item/1000186/758440214/husqvarna-ratt-for-akgrasklippare",
@@ -1911,6 +1871,46 @@
       "price_kind": "buy_now",
       "category_id": "1000204",
       "end_at": "2026-12-29T10:40:13.657000+00:00"
+    },
+    {
+      "id": "758443679",
+      "title": "Diverse reservdelar gräsklippare",
+      "url": "https://www.tradera.com/item/1000186/758443679/diverse-reservdelar-grasklippare",
+      "image": "https://img.tradera.net/images/039/666265039_ff74d8cf-b362-4fa9-8ecf-ea8f41f38f16.jpg",
+      "price": 299.0,
+      "price_kind": "starting_bid",
+      "category_id": "1000186",
+      "end_at": "2026-11-05T20:45:31.660000+00:00"
+    },
+    {
+      "id": "758443713",
+      "title": "Reservdelar till gräsklippare",
+      "url": "https://www.tradera.com/item/1000186/758443713/reservdelar-till-grasklippare",
+      "image": "https://img.tradera.net/images/071/666265071_1f5e93c1-70ec-4f8e-b1bb-e35d8e863c22.jpg",
+      "price": 299.0,
+      "price_kind": "starting_bid",
+      "category_id": "1000186",
+      "end_at": "2026-11-05T20:45:44.453000+00:00"
+    },
+    {
+      "id": "758443746",
+      "title": "Oljestickor gräsklippare",
+      "url": "https://www.tradera.com/item/1000186/758443746/oljestickor-grasklippare",
+      "image": "https://img.tradera.net/images/102/666265102_44567909-c9bf-4fb6-9268-0e384ab88276.jpg",
+      "price": 299.0,
+      "price_kind": "starting_bid",
+      "category_id": "1000186",
+      "end_at": "2026-11-05T20:45:54.077000+00:00"
+    },
+    {
+      "id": "758443769",
+      "title": "Reservdelar gräsklippare",
+      "url": "https://www.tradera.com/item/1000186/758443769/reservdelar-grasklippare",
+      "image": "https://img.tradera.net/images/125/666265125_bc6a9472-8dc3-4454-bb6c-5a03cde72956.jpg",
+      "price": 299.0,
+      "price_kind": "starting_bid",
+      "category_id": "1000186",
+      "end_at": "2026-11-05T20:46:06.733000+00:00"
     }
   ]
 }
