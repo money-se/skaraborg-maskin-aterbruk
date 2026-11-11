@@ -22,7 +22,7 @@
     "B": {
       "name": "Grundkonstruktion",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår."
+      "note": "F-030768L s.2 kartlägger sits, huv 094322E663, grill 094087E700, vänster/höger lamplins, panel 1001593E701, sidopaneler och batterifästen. Nummer skiljer från 425014X92A:s huv/dashrevision."
     },
     "C": {
       "name": "Motor",
@@ -32,12 +32,12 @@
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "Originalformatets Motion Drive-tabell p.4 identifierar rem, remskiva och transaxelfästen. Transaxelns fabrikat och modellnummer saknas i listan; inget Dana-antagande får göras."
+      "note": "F-030768L MOTION DRIVE tryckt s.4 dokumenterar 037x87, parvisa transaxelfästen 094184E701/094185E701 och axeldistans 690554 Z; transaxelns tillverkare/modell anges inte i denna tabell, ingen motsvarighet till Dana/Peerless kan dras."
     },
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast avgränsade uppgifter ur katalogutdrag har kontrollerats. Fullständig variantgranskning och manualbildkontroll återstår.\nFollow-up: F-030768L, Steering tryckt sida 6, ger individuella delnummer för ratt, styrväxel, framaxel, spindlar, styrstag och hjullager; observera suffixskillnader mot 425014X92B."
+      "note": "Originaldelslista F-030768L STEERING s.6 anger ratt, drev, styrspindlar, axel, båda styrstagen och framhjulsdelar med positionsnummer. PDF-sprängskissens visuella kontroll återstår."
     },
     "F": {
       "name": "Reglage",
@@ -894,6 +894,798 @@
       "topic": "H",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-wheel",
+      "statement": "Ratt anges som reservdel 094134.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-post",
+      "statement": "Styrstång anges som reservdel 690625.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 2",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-retainer-clip",
+      "statement": "Låsclips anges som reservdel 094131.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-bearing",
+      "statement": "Styrlager anges som reservdel 094124.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 4",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-pinion-gear",
+      "statement": "Styrdrev anges som reservdel 690183.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 7",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-sector-gear",
+      "statement": "Styrsektor anges som reservdel 094121.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-sector-bearing",
+      "statement": "Sektorlager anges som reservdel 094123.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 10",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-plate",
+      "statement": "Styrplåt anges som reservdel 1001121E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-engine-plate",
+      "statement": "Motorplåt anges som reservdel 094006E700.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 13",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-hanger-bracket",
+      "statement": "Upphängningsfäste anges som reservdel 1001270E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 16",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-hanger-axle",
+      "statement": "Upphängningsaxel anges som reservdel 094007E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 17",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-axle-bearing",
+      "statement": "Axellager anges som reservdel 690150.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 20",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-left-link",
+      "statement": "Vänster styrstag anges som reservdel 095329E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-right-link",
+      "statement": "Höger styrstag anges som reservdel 095328E701.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel-bearing",
+      "statement": "Hjullager anges som reservdel 091334.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-tire-valve",
+      "statement": "Däckventil anges som reservdel 024373.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 32",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-front-tire",
+      "statement": "Framdäck anges som reservdel 091912.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 33",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-tire-tube",
+      "statement": "Slang anges som reservdel 407047.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position -",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-wheel-assy",
+      "statement": "Komplett framhjul anges som reservdel 094579-601.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-hubcap",
+      "statement": "Navkapsel (tillval) anges som reservdel 094618.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 38",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-steering-steering-bellows",
+      "statement": "Styrbälg (tillval) anges som reservdel 092059.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "STEERING, tryckt sida 6, position 40",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001028 för katalogposition 1.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 1",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-support",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094154E701 för katalogposition 8.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 8",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-pivot",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094156 Z för katalogposition 9.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-bracket",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001648E700 för katalogposition 10.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 10",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-seat-deck",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001555E663 för katalogposition 19.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 19",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-detent-plate",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094194E700 för katalogposition 21.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 21",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-floor-mat-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094383 för katalogposition 23.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 23",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-floor-mat-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094382 för katalogposition 24.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 24",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-hood",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094322E663 för katalogposition 25.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 25",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-grille",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094087E700 för katalogposition 26.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 26",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-lens-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094093 för katalogposition 27.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-bezel-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094089 Z för katalogposition 28.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-lens-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094092 för katalogposition 29.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 29",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-bezel-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094088 Z för katalogposition 30.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-steering-bearing",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001491 för katalogposition 33.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 33",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-dashboard",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001593E701 för katalogposition 34.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-access-panel",
+      "statement": "CHASSIS & HOOD listar artikelnummer 093007E701 för katalogposition 36.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 36",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-dash-support",
+      "statement": "CHASSIS & HOOD listar artikelnummer 095318E701 för katalogposition 37.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 37",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-hanger-bracket",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001270E701 för katalogposition 38.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 38",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-battery-box",
+      "statement": "CHASSIS & HOOD listar artikelnummer 690424 för katalogposition 45.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 45",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-hitch-plate",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001002E701 för katalogposition 46.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 46",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-rear-plate",
+      "statement": "CHASSIS & HOOD listar artikelnummer 690218E701 för katalogposition 47.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 47",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-detent-cover",
+      "statement": "CHASSIS & HOOD listar artikelnummer 094680 för katalogposition 48.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 48",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-side-panel-left",
+      "statement": "CHASSIS & HOOD listar artikelnummer 095218E700 för katalogposition 49.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 49",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-side-panel-right",
+      "statement": "CHASSIS & HOOD listar artikelnummer 095217E700 för katalogposition 50.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 50",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-battery-support",
+      "statement": "CHASSIS & HOOD listar artikelnummer 690482E701 för katalogposition 51.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 51",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-plenum",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001486E701 för katalogposition 62.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 62",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-chassis-round4-beverage-holder",
+      "statement": "CHASSIS & HOOD listar artikelnummer 1001542 för katalogposition 70.",
+      "variant": "425013X92A / F-030768L",
+      "locator": "CHASSIS & HOOD, tryckt sida 2, pos 70",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "B",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-idler-arm",
+      "statement": "F-030768L MOTION DRIVE anger 690173E701 för katalogposition 3.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 3",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-clutch-rod",
+      "statement": "F-030768L MOTION DRIVE anger 094041 Z för katalogposition 4.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 4",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shift-lever",
+      "statement": "F-030768L MOTION DRIVE anger 094043 Z för katalogposition 9.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 9",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shift-link",
+      "statement": "F-030768L MOTION DRIVE anger 094044 Z för katalogposition 11.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 11",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-adjust-nut",
+      "statement": "F-030768L MOTION DRIVE anger 021920 för katalogposition 12.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 12",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-parking-rod",
+      "statement": "F-030768L MOTION DRIVE anger 1001245 Z för katalogposition 14.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 14",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-pivot",
+      "statement": "F-030768L MOTION DRIVE anger 1001303 Z för katalogposition 16.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 16",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shifter-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 1001302E701 för katalogposition 22.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 22",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-parking-latch",
+      "statement": "F-030768L MOTION DRIVE anger 094045 Z för katalogposition 26.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 26",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-pedal",
+      "statement": "F-030768L MOTION DRIVE anger 021544 för katalogposition 27.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 27",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-clutch-lever",
+      "statement": "F-030768L MOTION DRIVE anger 094038E700 för katalogposition 28.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 28",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-drive-belt",
+      "statement": "F-030768L MOTION DRIVE anger 037x87 för katalogposition 30.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 30",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-shift-yoke",
+      "statement": "F-030768L MOTION DRIVE anger 094031 Z för katalogposition 31.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 31",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-right-transaxle-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 094184E701 för katalogposition 34.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 34",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-left-transaxle-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 094185E701 för katalogposition 40.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 40",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-transaxle-pulley",
+      "statement": "F-030768L MOTION DRIVE anger 690409 för katalogposition 41.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 41",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-support-bracket",
+      "statement": "F-030768L MOTION DRIVE anger 094433E700 för katalogposition 42.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 42",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-drive-pulley",
+      "statement": "F-030768L MOTION DRIVE anger 095094 för katalogposition 44.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 44",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-axle-spacer",
+      "statement": "F-030768L MOTION DRIVE anger 690554 Z för katalogposition 47.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 47",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-rear-wheel",
+      "statement": "F-030768L MOTION DRIVE anger 092290-601 för katalogposition 50.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 50",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-belt-guide",
+      "statement": "F-030768L MOTION DRIVE anger 093349 för katalogposition 54.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 54",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-idler-spring",
+      "statement": "F-030768L MOTION DRIVE anger 165x115 för katalogposition 56.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 56",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425013x92a-motion-r3-second-spring",
+      "statement": "F-030768L MOTION DRIVE anger 165x92 för katalogposition 57.",
+      "variant": "425013X92A",
+      "locator": "MOTION DRIVE printed page 4, position 57",
+      "sourceId": "murray-murray-425013x92a-pdf",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -906,6 +1698,9 @@
     "Styrningsnumren för 425013X92A och 425014X92B skiljer sig bland annat för framaxel och spindlar; eventuella ersättningskedjor och passform kräver oberoende dokumentkontroll.",
     "425013X92A har enligt F-030768L annan tank, ljuddämpare och värmesköld än 425014X92A/B. Ingen generell reservdelsutbytbarhet; kontrollera även bild/sprängskiss och fysisk märkning.",
     "425013X92A MOWER HOUSING SUSPENSION s.8 behöver ännu visuell kontroll mot sprängskiss; liknande namn/nummer i andra versioner ger inte automatiskt passform.",
-    "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll."
+    "MOWER HOUSING s.10 extraherades som originalkatalogtext; skärmbildsverktyget kunde inte öppna PDF, varför sprängskisskontroll återstår. Olika E700/E701-suffix kräver separat variantkontroll.",
+    "Murray 425013X92A STEERING s.6 kontrollerat via katalogtext. PDF-bildhämtning misslyckades, därför kvarstår sprängskissverifiering och fysiska ersättningsnummer.",
+    "425013X92A CHASSIS & HOOD s.2 baserat på katalogens indexerade text, inte bildgranskad sprängskiss; artikelnummer anger inte garanterad passform mot andra Murray-versioner.",
+    "F-030768L s.4 har transaxeln utan artikel- eller tillverkarnamn på pos 36 (anvisning till reservdelsdistributör); ta fysisk märkbild före identifiering. PDF-sprängskissen har ännu inte bildkontrollerats."
   ]
 }

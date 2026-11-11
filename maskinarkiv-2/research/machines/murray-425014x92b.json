@@ -67,6 +67,62 @@
       "title": "Murray 425014X92B original instruction book troubleshooting",
       "document": "F-050706L, Trouble Shooting Chart, printed p.35",
       "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=35"
+    },
+    {
+      "id": "murray-014b-maint-brake-clutch-p24",
+      "tier": 2,
+      "title": "Murray 425014X92B instruction book brake and clutch adjustment",
+      "document": "F-050706L MAINTENANCE printed p.24",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=24"
+    },
+    {
+      "id": "murray-014b-belt-install-p31",
+      "tier": 2,
+      "title": "Murray 425014X92B motion drive belt installation",
+      "document": "F-050706L MAINTENANCE printed p.31",
+      "url": "https://www.manualsdir.com/manuals/122988/murray-425014x92b.html?page=31"
+    },
+    {
+      "id": "murray-014b-engine-p49-detailed",
+      "tier": 2,
+      "title": "Murray 425014X92B original repair parts ENGINE MOUNT",
+      "document": "F-050706L printed p.49, model 425014X92B",
+      "url": "https://somanuals.com/html/12/Murray-Lawn-Mower-425014x92B-User-Manual.html"
+    },
+    {
+      "id": "murray-014b-steering-p43-verified",
+      "tier": 2,
+      "title": "Murray 425014X92B original steering parts table",
+      "document": "F-050706L STEERING p.43",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=43"
+    },
+    {
+      "id": "murray-014b-motion-drive-p41",
+      "tier": 2,
+      "title": "Murray 425014X92B original MOTION DRIVE parts table",
+      "document": "F-050706L printed p.41",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=41"
+    },
+    {
+      "id": "murray-014b-deck-oem-p47-20261022",
+      "tier": 2,
+      "title": "Murray 425014x92B mower housing OEM repair parts",
+      "document": "F-050706L printed p.47, keys 1–62",
+      "url": "https://lawnandgarden.manualsonline.com/manuals/mfg/murray/425014x92b.html?p=47"
+    },
+    {
+      "id": "murray-014b-shift-adjust-battery-p25",
+      "tier": 2,
+      "title": "Murray 425014X92B shift lever and battery maintenance",
+      "document": "F-050706L maintenance printed p.25",
+      "url": "https://www.manualslib.com/manual/108761/Murray-425014x92b.html?page=25"
+    },
+    {
+      "id": "dana-4360-152-manufacturer-2003",
+      "tier": 1,
+      "title": "Dana Spicer 4360-152 Murray customer service parts listing",
+      "document": "4360-152, issued 2002-05-30, rev E 2003-07-25, two parts-list pages",
+      "url": "https://www.mymowerparts.com/pdf/Dana-Foot-Transmissions-Transaxles-Differentials/4360-152.pdf"
     }
   ],
   "topics": {
@@ -83,17 +139,17 @@
     "C": {
       "name": "Motor",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Engine Mount anger Briggs & Stratton samt komponenter för montage och avgassystem. Motorns exakta Model/Type/Code saknas."
+      "note": "F-050706L Engine Mount s.49 kompletterad med positionsbundna bränsle-, avgas-, rem- och motorfästdelar. Motorn kallas Briggs & Stratton men ingen verifierad Model/Type/Code anges; katalogen hänvisar till tillverkaren för motorns reservdelar."
     },
     "D": {
       "name": "Transmission och drivlina",
       "state": "gap",
-      "note": "DANA transaxel framgår av separat Motion Drive-lista; exakt Dana-transaxelkod saknas. Motion Drive-rem 037x87 är katalogbelagd, ej generellt kompatibilitetsbevis."
+      "note": "F-050706L MOTION DRIVE tryckt s.41 kompletterad med modellbundna kopplings-, växel-, broms-, rem- och Dana-transaxelrelaterade delar. Exakt Dana-modellkod fortfarande ej angiven. Tolka inte delnummer som generella mellan modeller. Service s.25 beskriver säker neutraljustering och funktionsprov genom rullning, vilket kompletterar Dana-delstabellen."
     },
     "E": {
       "name": "Styrning och chassi",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Styrningskatalogen F-050706L s.43 identifierar ratt, styrstång, pinjong, sektor, framaxel, spindlar, styrstag och hjullager. Flera artikelnummer skiljer sig från 425015X92A trots snarlik konstruktionsgrupp; passform får inte antas."
+      "note": "Originaltabell s.43 kartlagd, inklusive styrbälg, framhjul, styrlager och motorplåt 094006E701. Den sistnämnda motsäger ENGINE MOUNT s.49 pos7 094006E700; ingen allmän passform kan härledas."
     },
     "F": {
       "name": "Reglage",
@@ -108,7 +164,7 @@
     "H": {
       "name": "Klippaggregat",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Originalkatalog F-050706L p.45 dokumenterar PTO, lyftmekanism, hanger rods och separata E701/E700 fästen med positionsnummer. Motorsystem och fysisk passform ej härledd."
+      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: Originalkatalog F-050706L p.45 dokumenterar PTO, lyftmekanism, hanger rods och separata E701/E700 fästen med positionsnummer. Motorsystem och fysisk passform ej härledd. OEM MOWER HOUSING s.47 kompletterad med vänster/höger bromsbelägg (094049E701/094047E701), bromsfjädrar, infästningar och spindelhus. Aggregatbromsar är säkerhetskritiska; alltid rätt modell och fysisk kontroll."
     },
     "I": {
       "name": "Tillbehör och användning",
@@ -118,7 +174,7 @@
     "J": {
       "name": "Underhåll",
       "state": "gap",
-      "note": "Endast utvalda uppgifter ur variantbunden reservdelskatalog har granskats. Mer originaldokumentation och komponentverifiering krävs.\nFollow-up: F-050706L s.21 ger dagliga, första 5 timmar och 25-timmars serviceintervall för maskin och aggregat; motorns oljetyp och motorspecifika servicepunkter hänvisas till motorhandbok."
+      "note": "F-050706L s.24 har konkreta broms-/kopplingsjusteringar, s.31 drivremmens läge mot övre motorremskivan samt löprullens plana sida. Hela säkerhetsproceduren ska följas."
     },
     "K": {
       "name": "Reservdelar",
@@ -1764,6 +1820,1436 @@
       "topic": "M",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-neutral",
+      "statement": "Före drivbromsprov ska kopplings-/bromspedalen tryckas helt ned, parkeringsbromsen ansättas och växelspaken ställas i neutralläge.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-test",
+      "statement": "Om bakhjulen roterar när traktorn skjuts med parkeringsbromsen ilagd behöver bromsen justeras eller bromsbeläggen bytas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-location",
+      "statement": "Drivbromsen sitter på höger sida om växellådan.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-tighten",
+      "statement": "Med parkeringsbromsen i och växeln i N vrids bromsens sexkantsmutter medurs tills bakhjulen inte roterar vid skjutprov.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-release",
+      "statement": "Efter att parkeringsbromsen frigjorts ska traktorn rulla; vid anliggande broms lossas sexkantsmuttern moturs.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-final",
+      "statement": "Efter bromsjustering ska parkeringsbromsen åter ansättas och skjutprov bekräfta låsta bakhjul.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-brake-replace",
+      "statement": "Om drivbromsen inte kan justeras korrekt föreskriver manualen byte av bromsbelägg med auktoriserad servicehjälp.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "J",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-symptoms",
+      "statement": "Slirande koppling beskrivs vid backkörning i uppförsbacke, tung last eller utebliven framdrivning.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-wire",
+      "statement": "Tändstiftskabeln ska lossas innan kopplingskontroll och justering för att förebygga oavsiktlig motorstart.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-routing",
+      "statement": "Kontrollera att drivremmen är rätt dragen och ligger innanför samtliga remstyrningar före kopplingsjustering.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-parts",
+      "statement": "Vid kopplingsjustering avlägsnas saxpinne, bricka och bromsfjäder från justermuttern.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-lever",
+      "statement": "Justermuttern kopplas loss från bromsspakens montering och parkeringsbromsens spärr.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-pin",
+      "statement": "Bromsspakens hål riktas in mot ramens hål och låses tillfälligt med en 1/4-tums (6 mm) tapp eller bult.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-rod",
+      "statement": "Kopplingsstaget dras framåt tills sträckt och justermuttern skruvas till att passa bromsspakens hål.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-reassemble",
+      "statement": "Justermutter, parkeringsbromsspärr, bromsspak och bromsfjäder återmonteras med bricka och saxpinne; den tillfälliga tappen tas bort.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-clutch-slipbelt",
+      "statement": "Om remmen fortfarande slirar efter kopplingsjustering ska den slitna eller skadade drivremmen bytas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.24, drive brake and clutch",
+      "sourceId": "murray-014b-maint-brake-clutch-p24",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-upper",
+      "statement": "Vid montering av drivrem ska remmens V-sida ligga mot den övre motorremskivan.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-idler",
+      "statement": "Vid löprullen ska remmens plana sida ligga mot rullen och remmen får inte vara vriden.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-guides",
+      "statement": "Efter drivremmontering kontrolleras att remmen går innanför alla remstyrningar.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-steering",
+      "statement": "Efter montering kontrolleras att styrstångsenheten ligger innanför drivremmens slinga enligt figur 36.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-maint-r3-belt-clutchcheck",
+      "statement": "Efter byte av drivrem ska kopplingens justering kontrolleras innan traktorn används.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.31, INSTALLATION",
+      "sourceId": "murray-014b-belt-install-p31",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-fuel-cap",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 092317.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 1",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-tank",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 690280.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 2",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-hose-clamp-in",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 095197.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 3",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-fuel-line",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 7601033.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 4",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-hose-clamp-out",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 095197.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 5",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-tank-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x201.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 6",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-throttle",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 092371.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 8",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-adapter-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 06x103.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 9d",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-muffler-bolt",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 009x59.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 9e",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-muffler-lock",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 092378.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 9f",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-engine-mount-bolt",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 0025x7.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 10",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-stack-pulley",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 690439 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 11",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-lockwasher",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 019x35.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 12",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-hex-bolt",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 01x140.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 13",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-washer",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 17x170.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 14",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-engine-mount-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x249.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 15",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-belt-guide-primary",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 094384.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 21",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-belt-guide-nut",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 015x79 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 22",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-belt-guide-secondary",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 094066.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 23",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-guard-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x253.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 26",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-heat-shield-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 26x263.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 30",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-engine-mount-r3-shield-end-screw",
+      "statement": "F-050706L ENGINE MOUNT listar artikelnummer 06x104.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "ENGINE MOUNT printed page 49 position 32",
+      "sourceId": "murray-014b-engine-p49-detailed",
+      "grade": "B",
+      "topic": "C",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-retainer-clip",
+      "statement": "Modellens STEERING-katalog anger 094131 i position 3.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 3",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-bearing",
+      "statement": "Modellens STEERING-katalog anger 094124 i position 4.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 4",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-pinion-ring",
+      "statement": "Modellens STEERING-katalog anger 011x25 i position 8.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 8",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-sector-bearing",
+      "statement": "Modellens STEERING-katalog anger 094123 i position 10.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 10",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-plate",
+      "statement": "Modellens STEERING-katalog anger 1001121E701 i position 12.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 12",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-engine-plate",
+      "statement": "Modellens STEERING-katalog anger 094006E701 i position 13.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 13",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-hanger-bracket",
+      "statement": "Modellens STEERING-katalog anger 1001270E701 i position 16.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 16",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-hanger-axle",
+      "statement": "Modellens STEERING-katalog anger 094007E701 i position 17.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 17",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-bearing-axle",
+      "statement": "Modellens STEERING-katalog anger 690150 i position 20.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 20",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-valve",
+      "statement": "Modellens STEERING-katalog anger 024373 i position 32.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 32",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-front-tire",
+      "statement": "Modellens STEERING-katalog anger 091912 i position 33.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 33",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-inner-tube",
+      "statement": "Modellens STEERING-katalog anger 407047 i position —.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos —",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-hubcap",
+      "statement": "Modellens STEERING-katalog anger 094618 i position 38.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 38",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-bellows",
+      "statement": "Modellens STEERING-katalog anger 092059 i position 40.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 40",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-wheel-cover",
+      "statement": "Modellens STEERING-katalog anger 1001982 i position 41.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 41",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-shoulder-bolt",
+      "statement": "Modellens STEERING-katalog anger 009x57 i position 6.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 6",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-pinion-nut",
+      "statement": "Modellens STEERING-katalog anger 15x111 i position 5.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 5",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-steering-screw",
+      "statement": "Modellens STEERING-katalog anger 26x249 i position 30.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 30",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-spindle-bolt",
+      "statement": "Modellens STEERING-katalog anger 01x111 i position 22.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 22",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-steering-round4-cotter-pin",
+      "statement": "Modellens STEERING-katalog anger 030x49 i position 19.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "STEERING s.43 pos 19",
+      "sourceId": "murray-014b-steering-p43-verified",
+      "grade": "B",
+      "topic": "E",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-idler-arm",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 690173 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 690173 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-clutch-rod",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094041 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094041 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-gear-shift-lever",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094043 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094043 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-gear-shift-link",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094044 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094044 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-adjuster-nut",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 021920 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 021920 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-parking-rod",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1001245 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1001245 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-brake-adjuster",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094815 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094815 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-shift-pivot",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1001303 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1001303 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spring-mount",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094042 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094042 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spring-bolt",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 009x54.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 009x54",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spring-clip",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 165x116.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 165x116",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-parking-latch",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094045 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094045 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-pedal",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 021544.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 021544",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-brake-clutch-lever",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094038E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094038E700",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-shift-yoke",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094031 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094031 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-transaxle-bracket",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094008E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094008E701",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-transaxle-support",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094433E700.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094433E700",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-rear-wheel-tire",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 092290-601.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 092290-601",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-spacer",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1401103 Z.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1401103 Z",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-tire",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 091923.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 091923",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-tire-tube",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 407049.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 407049",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-valve",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 024373.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 024373",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-drive-pulley",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 095094.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 095094",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-woodruff-key",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 020697.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 020697",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-idler-spring",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 165x115.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 165x115",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-extension-spring",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 165x92.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 165x92",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-wheel-hubcap",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 094618.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 094618",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-belt-guide",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 093349.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 093349",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-belt-guide-hairpin",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 0031x4.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 0031x4",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-drive-p41-right-shifter-bracket",
+      "statement": "Modellens MOTION DRIVE-delstabell listar 1001978E701.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MOTION DRIVE, printed p.41; part no. 1001978E701",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-left-brake-pad",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: left brake pad anges som 094049E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 12",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-right-brake-pad",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: right brake pad anges som 094047E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 27",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-suspension-plate",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: suspension plate anges som 094128E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 15",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-idler-arm",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: idler arm anges som 690408E700.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 25",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-brake-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: brake bracket anges som 094193E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 28",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-brake-spring",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: brake spring anges som 166x42.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 29",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-front-hanger",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: front hanger anges som 094190E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 46",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-belt-guide",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: belt guide anges som 094781.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 48",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-gauge-wheel-right-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: gauge wheel right bracket anges som 1001260E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 54",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-gauge-wheel-left-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: gauge wheel left bracket anges som 092423E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 55",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-spindle-housing",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: spindle housing anges som 094814E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 59",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-spindle-lock-ring",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: spindle lock ring anges som 031x11.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 60",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-second-belt-guide",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: second belt guide anges som 094066.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 62",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-belt-guide-cover",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: belt guide cover anges som 094051E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 23",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-deflector-rod",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: deflector rod anges som 094957 Z.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 43",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-deflector-hinge-bracket",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: deflector hinge bracket anges som 094956E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 45",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-rear-suspension",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: rear suspension anges som 094191E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 30",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-front-suspension",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: front suspension anges som 094055E701.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 11",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-hanger-pin",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: hanger pin anges som 095194.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 19",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-deck-oem-deep-idler-spring",
+      "statement": "425014X92B klippaggregatets reservdelskatalog: idler spring anges som 166x41.",
+      "variant": "425014X92B F-050706L",
+      "locator": "MOWER HOUSING printed p.47 key 26",
+      "sourceId": "murray-014b-deck-oem-p47-20261022",
+      "grade": "B",
+      "topic": "H",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-symptom",
+      "statement": "När växelspakens N-läge inte motsvarar transaxelns neutralläge föreskriver manualen justering av växelstagets mutter.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-off",
+      "statement": "Stäng av motorn före justering av växelspakens neutralläge.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-unhook",
+      "statement": "Lossa justermuttern från växelfästet före kontroll av transaxelns neutralläge.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-neutral",
+      "statement": "Ställ växelspaken på N och skjut traktorn för att säkerställa att själva transaxeln är i neutral.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-turn",
+      "statement": "Skruva justermuttern tills den passar i växelfästets hål utan att neutraljusteringen påverkas.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-shift-reconnect",
+      "statement": "Sätt tillbaka justermuttern i fästet och verifiera att växelspakens N överensstämmer med växellådans neutral.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "D",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-negative",
+      "statement": "Vid batteriets demontering ska svart minusledning lossas före röd plusledning för att minska risken för gnistor.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-positive",
+      "statement": "När batteriet återmonteras ansluts röd plusledning före svart minusledning.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-clean",
+      "statement": "Manualen anger rengöring av anslutningar med stålborste efter säker demontering av batteriet.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-acid",
+      "statement": "Manualen varnar för batteriets svavelsyra och risk för hud-, ögon- och klädskador.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-service-p25-battery-charge",
+      "statement": "Manualen anger 12 V-laddare, 6 A i 1 timme för det angivna underhållsfria originalbatteriet; detta är inte generell rekommendation för andra batterityper.",
+      "variant": "425014X92B / F-050706L",
+      "locator": "MAINTENANCE printed p.25",
+      "sourceId": "murray-014b-shift-adjust-battery-p25",
+      "grade": "B",
+      "topic": "G",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-document",
+      "statement": "En originalreservdelslista från Dana/Spicer finns för transaxel 4360-152 med Murray Inc. som kund. Den fastställer INTE att 4360-152 sitter i 425014X92B.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.1",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-five-speed",
+      "statement": "Dana 4360-152 betecknas Five Speed Linear Shift Transaxle; detta är referens för jämförelse, inte modellidentifiering för 425014X92B.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.1",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-brake",
+      "statement": "Dana 4360-152:s interna katalog anger bromsskiva 5960 och bromsfriktionskit 4836; de får inte tillskrivas 425014X92B innan enhetens typkod bekräftats.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.2",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-seal",
+      "statement": "Dana 4360-152 listar ingående axelns oljetätning 5508 och V-ring 7011, men inget stöd finns ännu att beställa dem till 425014X92B.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.1",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-revisions",
+      "statement": "4360-152 har dokumenterade revisioner B, D och E mellan december 2002 och juli 2003; bromsskiva och växelkit ändrades i revisionerna.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "manufacturer document p.2",
+      "sourceId": "dana-4360-152-manufacturer-2003",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "425014x92b-dana-comparison-dana-id-blocker",
+      "statement": "Murrays 425014X92B-manual anger endast DANA i MOTION DRIVE position 36 och hänvisar interna delar till transaxeltillverkaren. Koppling till något 4360-undernummer är oidentifierad.",
+      "variant": "Dana 4360-152 is not confirmed as 425014X92B",
+      "locator": "Murray F-050706L p.41; Dana 4360-152 p.1",
+      "sourceId": "murray-014b-motion-drive-p41",
+      "grade": "B",
+      "topic": "K",
+      "verification": "verified",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -1777,6 +3263,8 @@
     "425014X92B styrningsritning visar avvikande suffixtal E245 för framaxel/styrspindlar jämfört med 425015X92A:s E701; kontrollera verklig revision och eventuella ersättningsnummer före beställning.",
     "Identifiera Briggs Model/Type/Code på motorn före koppling till motorspecifik servicemanual.",
     "425014X92B elsystemets kabelhärvor och startkomponenter skiljer sig från A-registret. Kontrollera fysisk variant och kopplingsschema före byte; endast reservdelsidentitet är katalogbelagd.",
-    "Katalogkonflikt för 425014X92B höger/vänster ram mellan avsnitten CHASSIS & HOOD respektive MOTION DRIVE. Begär maskinens märkning och kontrollera dokumentrevision före reservdelsråd."
+    "Katalogkonflikt för 425014X92B höger/vänster ram mellan avsnitten CHASSIS & HOOD respektive MOTION DRIVE. Begär maskinens märkning och kontrollera dokumentrevision före reservdelsråd.",
+    "OEM-katalogkonflikt F-050706L: STEERING s.43 pos13 motorplåt 094006E701; ENGINE MOUNT s.49 pos7 motorplåt 094006E700. Båda anges för samma modell; fysisk/OEM-revisionskontroll krävs.",
+    "Dana originalkatalog 4360-152 identifierar Murray som kund men kopplar inte till 425014X92B. Bild av fysisk transaxels specifikationsskylt krävs; överför inte 4360-152:s interna komponenter till denna modell."
   ]
 }
