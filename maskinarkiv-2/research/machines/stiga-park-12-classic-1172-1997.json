@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "slug": "stiga-park-12-classic-1172-1997",
+  "status": "needs_research",
+  "reviewDate": "2026-10-22",
+  "scope": "STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.",
+  "sources": [
+    {
+      "id": "stiga-park-12-classic-1172-1997-ipl",
+      "tier": 1,
+      "title": "STIGA PARK 12 CLASSIC Original Parts Catalogue",
+      "document": "13-1172-20 Season 1997, Issue 45-2014",
+      "url": "https://view.stiga-store.com/files/IPL_Stiga_PARK_12_CLASSIC_13-1172-20_96_SV-EN.pdf"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och produktversioner",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "G": {
+      "name": "Säkerhetssystem",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "H": {
+      "name": "Klippaggregat och redskap",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "L": {
+      "name": "Begagnat och köpråd",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    },
+    "M": {
+      "name": "Vanliga frågor",
+      "state": "gap",
+      "note": "Katalogbundna påståenden finns men originalägarmanual, specifik motoridentitet, fullständig säkerhets- och servicegranskning samt aggregatkompatibilitet kvarstår; ingen publicering godkänd."
+    }
+  },
+  "claims": [
+    {
+      "id": "stiga-park-12-classic-1172-1997-plate",
+      "topic": "A",
+      "statement": "Identifiering ska ske via produktnummer, säsong och maskinens märkskylt.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.1"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-front",
+      "topic": "B",
+      "statement": "Främre ram 1134-3411-03 och midjegaffel 1134-1757-07.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.3 pos.1–2"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-front-tires",
+      "topic": "E",
+      "statement": "Framdäck 9545-0116-00: 16 x 7.50-8.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.3 pos.25"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-front-rims",
+      "topic": "E",
+      "statement": "Framfälgar 1134-2668-01, två exemplar.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.3 pos.22"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-hood",
+      "topic": "B",
+      "statement": "Motorlucka 1134-2215-02 har noteringen 1171,1172, medan 1134-2215-01 finns som separat rad; ingen ersättning följer av listningen.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.5 pos.27"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-muffler",
+      "topic": "C",
+      "statement": "Ljuddämpare 1134-3244-01 och avgasrör 1134-3738-01.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.7 pos.9,4"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-oil-drain",
+      "topic": "J",
+      "statement": "Motoroljeavtappningsrör 1134-2212-01, plugg 1134-0995-01 samt O-ring 9404-0020-00 är tre separata delar.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.7 pos.13–15"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-engine-brake",
+      "topic": "G",
+      "statement": "Motorbromswire 1134-3410-02 och bromspedal höger 1134-2170-02 är katalogposter.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.7 pos.59,63"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-throttle",
+      "topic": "F",
+      "statement": "Gasreglage 1134-1975-11 återfinns i reglagegruppen.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.7 pos.74"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-pto-brake",
+      "topic": "G",
+      "statement": "PTO-bromsens konsol 1134-2518-01 och fjädrarna 1134-2663-01 och 1134-2529-01 listas separat.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.13 pos.2,7,8"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-transaxle",
+      "topic": "D",
+      "statement": "Komplett Peerless MST205-529A har STIGA-nummer 1134-3716-01.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.15 pos.18"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-drive-belt",
+      "topic": "D",
+      "statement": "Drivrem 1134-9035-01 anges med referensen 9585-0078-00.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.15 pos.10"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-trans-pulley",
+      "topic": "D",
+      "statement": "Transaxelremskiva 1134-1849-01 listas separat från den kompletta transaxeln.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.15 pos.15"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-trans-mount",
+      "topic": "K",
+      "statement": "Transaxelfäste 1134-2986-01 samt skruvar 9997-0870-16 och muttrar 9739-0831-22 framgår av transmissionstabellen.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.15 pos.19–21"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-cables",
+      "topic": "F",
+      "statement": "Växelwire 1134-2031-02 och kopplingswire 1134-2030-04 är separata reglagekomponenter.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.15 pos.51,62"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-mst-case",
+      "topic": "K",
+      "statement": "MST205-529A har kåpa 772144, hus 770128 och två nållager 780086.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.27 pos.1–3"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-mst-shifter",
+      "topic": "F",
+      "statement": "MST205-529A anger växelförare 784378, spärrkula 792077 och fjäder 792079.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.27 pos.10,20,22"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-mst-gears",
+      "topic": "D",
+      "statement": "MST205-529A anger ringdrev 778312 (43T) och koniskt drev 778334 (30T).",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.27 pos.15,11"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-mst-brake",
+      "topic": "G",
+      "statement": "Bromsskiva 790075, tryckplatta 790007 och två bromsbelägg 799021 anges för MST205-529A.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.27 pos.36–38"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-mst-oil",
+      "topic": "J",
+      "statement": "STIGA anger växellådsolja 730229 80W90 på pos.180 men ingen påfyllnadsvolym.",
+      "variant": "PARK 12 CLASSIC 13-1172-20, STIGA originalreservdelskatalog säsong 1997",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.29 pos.180"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-harness-model-key",
+      "topic": "I",
+      "statement": "STIGA:s elavsnitt anger kablage 1134-3697-01 för varianterna 1168/1171/1172 på pos.50, medan 1442 har 1134-3718-01. Dessa är modellbundna alternativ och ska inte blandas ihop.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.19 (nollindex 18), el pos.50"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-ignition-switch",
+      "topic": "I",
+      "statement": "STIGA:s elavsnitt anger start-/tändningslås 1134-1814-01 (pos.44) samt två katalogiserade tändningsnycklar 1134-2848-01 och 1134-3368-01 (pos.47–48). Ingen nyckelutbytbarhet antas.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.19, el pos.44,47–48"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-headlamp",
+      "topic": "I",
+      "statement": "STIGA:s elsystemtabell anger strålkastarenhet 1134-1466-01 (pos.67) och lampa 9400-0075-00 (pos.68). Lampans effekt och sockel är inte verifierad separat.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.19, el pos.67–68"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-front-attachment",
+      "topic": "H",
+      "statement": "Främre ramens katalog anger två fästen för tillbehör 1134-3710-01 (pos.48). Förekomst av dessa fästen visar inte kompatibilitet med ett visst klippaggregat utan dess monteringsinstruktion.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.3, främre ram pos.48"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-seat-variants",
+      "topic": "B",
+      "statement": "Främre ramens katalog anger två olika sitskonsoler 1134-3252-02 och 1134-3800-01 på pos.7. Ingen produktionsgräns eller generell ersättningsrelation anges i denna tabell.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.3, främre ram pos.7"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-bearing-pin-wheel",
+      "topic": "E",
+      "statement": "Främre ramens katalog anger två framaxeltappar 1134-0075-01 (pos.20) och två fjäder-/spännstift 9595-0258-00 (pos.21), skilda från fälg och däck.",
+      "variant": "1997 STIGA PARK 12 CLASSIC 13-1172-20 Season 1997. Katalogspecifik och inte generellt kompatibilitetsbevis för andra modeller.; katalogbunden deluppgift, inte tillbehörs- eller kompatibilitetsintyg",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF s.3, främre ram pos.20–22"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-steer-chain",
+      "topic": "E",
+      "statement": "Styrningens originaltabell anger kedja 1134-2820-01 med 79 länkar (pos.15) och fyra kedjehjul 1134-2816-01 (pos.9). Detta gäller styrningen, inte transaxelns backkedja.",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.21 styrning pos.9,15"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-steer-shims",
+      "topic": "E",
+      "statement": "Styrningens pos.26 listar två distinkta brickor: 9699-0114-02 på 1,0 mm och 9699-0103-02 på 0,5 mm. Dessa är katalogiserade val, inte godkänd egenjustering.",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.21 styrning pos.26"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-steer-bushing",
+      "topic": "E",
+      "statement": "Styrgruppen anger tre bussningar 1134-0041-01 (pos.3) och fyra 1134-0041-02 (pos.11). Numren har skilda positionsfunktioner.",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.21 styrning pos.3,11"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-seat-attachments",
+      "topic": "B",
+      "statement": "Sitsenheten listar höger sitsfäste 1134-3618-01 (pos.6), vänster 1134-3618-02 (pos.10) och två adapterdelar 1134-2961-01 (pos.2).",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.23 sits pos.2,6,10"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-lift-assembly",
+      "topic": "H",
+      "statement": "Manuell redskapslyft är katalogiserad som komplett 1134-0410-08 (pos.0), med lyftaxel 1134-1884-01 (pos.9) och låshake 1134-2911-01 (pos.10). Detta identifierar lyftsystem, inte aggregatkompatibilitet.",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.25 Manuell redskapslyft pos.0,9–10"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-lift-bearings",
+      "topic": "H",
+      "statement": "Manuell redskapslyft anger två lager 1134-2684-01 (pos.13) och lyftsegment 1134-0536-00 (pos.14).",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.25 Manuell redskapslyft pos.13–14"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-pto-belt",
+      "topic": "H",
+      "statement": "Kraftuttagsremmen på originaltabellens pos.57 är 1134-9012-01 med tryckt referens =9585-0056-00. Den skiljer sig från transmissionens drivrem 1134-9035-01 (pos.10).",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.9 Kraftuttag pos.57, s.15 Transmission pos.10"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-pto-brake-part",
+      "topic": "G",
+      "statement": "Kraftuttagsbromsgruppen anger broms 1134-2524-01 på pos.12 samt fjäder 1134-3633-01 på pos.20, skilda från bromsdelar inne i MST205-529A.",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.13 Kraftuttagsbroms pos.12,20"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-trans-shifter",
+      "topic": "F",
+      "statement": "Yttre transmissionsreglage omfattar växelspakkomplett 1134-2328-01 (pos.70), växelarm 1134-3279-01 (pos.76) och knopp 1134-2551-01 (pos.75).",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.17 Transmission pos.70,75–76"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-battery-solenoid",
+      "topic": "I",
+      "statement": "Elsystemet anger solenoidkomplett 1134-2962-01 på pos.12 med notering att pos.14–15 ingår samt batterikabel plus 1134-0234-01 på pos.9. Batteriidentifiering måste göras separat.",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.19 Elsystem pos.9,12"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-fuse-holder",
+      "topic": "I",
+      "statement": "Elsystemet listar säkringshållare 1134-3491-01 och lock 1134-3631-01 som separata rader på pos.16. Säkringens amperevärde framgår inte här.",
+      "variant": "Original-STIGA katalog stiga-park-12-classic-1172-1997, 1997, endast katalogbunden del och ingen godkänd utbytbarhet",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "PDF s.19 Elsystem pos.16"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-mst-pos72-plug",
+      "topic": "K",
+      "statement": "MST205-529A-katalogen listar två separata artiklar på position 72: O-ring 788091 och gängad plugg 792165. Dessa måste särhållas; pos.72 är inte endast O-ringen.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 28 (tryckt s.29), MST205-529A pos.72"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-fuel-tank",
+      "topic": "C",
+      "statement": "Motorbroms-/motorinstallationsavsnittet listar bränsletank 1134-3593-01 och tanklock 1134-2877-02 på pos.37–38.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 6 (tryckt s.7), pos.37–38"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-fuel-valve-hose",
+      "topic": "C",
+      "statement": "Originalreservdelstabellen listar bensinkran 1134-3224-01, gummibussning 1134-3225-01, bränsleslang 1134-2975-06 och två slangklämmor 1134-3499-01 på pos.42–45.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 6 (tryckt s.7), pos.42–45"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-front-floor-mats",
+      "topic": "B",
+      "statement": "Främre ramens pos.47 har två rader med golvmattorna 1134-3546-01 (Park HST) och 1134-3535-01 (Park). Detta är katalogalternativ, inte uttryckligen en ersättningsföljd.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 2 (tryckt s.3), pos.47"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-rear-articulation-bearing",
+      "topic": "E",
+      "statement": "Bakre ramens originaltabell anger två ledlager 9547-0001-00 (GE17ES) vid pos.3, samt centrumaxel 1134-0057-00 vid pos.13 och distans 1134-0052-00 vid pos.14.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 4 (tryckt s.5), pos.3,13–14"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-rear-strap-kit",
+      "topic": "B",
+      "statement": "Gummistroppssats 1134-9028-01 förekommer både på pos.6 och pos.24 i bakre ramen, med anmärkning sats 3 st. Positionerna är två separata katalograder, inte bevis för sex enskilda gummistroppar.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 4 (tryckt s.5), pos.6,24"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-battery-list",
+      "topic": "I",
+      "statement": "Elsystemet listar batteri 1134-2892-01 pos.32, batterihållare 9400-0064-02 pos.7, batteriunderlägg 1134-2333-02 pos.8 och batterikabel plus 1134-0234-01 pos.9. Detta anger delar, inte batteriets tekniska elektriska kapacitet.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 18 (tryckt s.19), pos.7–9,32"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-battery-acid-catalog",
+      "topic": "I",
+      "statement": "Elsystemets pos.33 anger 1134-3300-01, batterisyra, med katalogtext '2 x 0.85 liter'. Detta är en historisk reservdelsuppgift och INTE en instruktion att fylla på batterisyra eller återanvända den.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 18 (tryckt s.19), pos.33"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-electrical-switch-positions",
+      "topic": "G",
+      "statement": "STIGA listar tre olika brytarposter i elsystemet: 1134-3156-01 pos.65, 9400-0063-00 pos.69 och 9400-0167-01 pos.79. Det finns ingen komplett elschematolkning eller spärroperation beskriven på dessa reservdelsrader.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 18 (tryckt s.19), pos.65,69,79"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-electrical-switch-variant",
+      "topic": "G",
+      "statement": "Elsystemets pos.82–83 listar fäste 1134-3551-01 och brytare 1134-3156-01 med den uttryckliga variantanmärkningen 1442,1443,1446. Detta är inte bevis för att delarna sitter på en 1171/1172-maskin.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 18 (tryckt s.19), pos.82–83"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-fuse-unknown",
+      "topic": "I",
+      "statement": "Säkringshållare 1134-3491-01 och dess lock 1134-3631-01 återfinns på två rader vid pos.16. Katalogen ger inget amperevärde, så rätt säkring måste fastställas separat.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 18 (tryckt s.19), pos.16"
+    },
+    {
+      "id": "stiga-park-12-classic-1172-1997-headlight-lamp-specific",
+      "topic": "I",
+      "statement": "STIGA anger strålkastarenhet 1134-1466-01 på pos.67 och lampa 9400-0075-00 med tryckt beteckning '12336H3 12' på pos.68. Den tryckta beteckningen återges utan härlett wattvärde.",
+      "variant": "STIGA Park 12 Classic 13-1172-20 (1997), original-IPLs katalogtabeller, ingen individpassform eller serviceprocedur härledd",
+      "grade": "A",
+      "sourceId": "stiga-park-12-classic-1172-1997-ipl",
+      "locator": "Original IPL PDF index 18 (tryckt s.19), pos.67–68"
+    }
+  ],
+  "gaps": [
+    "Motor Model/Type/Code ska kontrolleras på individens motor innan service.",
+    "Klippaggregatkompatibilitet saknar modellbunden originalmonteringsmanual.",
+    "MST205-529A-reservdelsförteckningen anger inte oljebytesintervall eller fyllvolym.",
+    "Ingen utbytbarhet med MST205-529C/D eller 1134-3716-02 styrkt.",
+    "STIGA:s elavsnitt listar alternativa kablage 1168/1171/1172 och 1442 samt dubbla sitskonsolnummer. Tillverkarens serienummergräns och godkänd ersättningsrelation saknas.",
+    "Originalreservdelstabeller visar styrkedja, variantberoende sitsar, två separata kraftöverföringsremmar samt säkringshållare; kontroll av serviceprocedurer, styrlänkagejustering, säkringens värde och faktisk aggregatmontering saknas.",
+    "Ursprungskatalogens MST205-529A pos.72 har både tätning/O-ring 788091 och gängad plugg 792165; jämför den faktiska transaxelns variant med tillverkarens dokument före reservdelsbeställning."
+  ]
+}
