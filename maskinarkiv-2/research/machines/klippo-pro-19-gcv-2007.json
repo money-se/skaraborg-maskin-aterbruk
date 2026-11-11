@@ -95,6 +95,48 @@
       "title": "KLIPPO originalbruksanvisning september 2004 (återpublicerad textkopia)",
       "document": "Originalinstruktion Art.nr 000001, Malmö september 2004; ursprungliga modelldeklaration 2004-09-22",
       "url": "https://manualzz.com/doc/4635678/klippo-champion-instruction-manual"
+    },
+    {
+      "id": "oem-klippo-2018-manual-829-002",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO original owner manual 829-002 2018-10",
+      "document": "Pro 19 SH technical data printed pp.22-23; different model than Pro 19 GCV 2007",
+      "url": "https://www.husqvarna.com/hbd/tdrdownload/v2/pub000074207/doc000127132/OM/gtww2dNLvKOAgbtQe970sljntbk"
+    },
+    {
+      "id": "oem-klippo-driven-2009-115332210",
+      "tier": 1,
+      "title": "Husqvarna KLIPPO driven mower manual 115332210 edition 2009-11",
+      "document": "2009 driven mower technical specifications page 18 and declarations page 19",
+      "url": "https://www.yumpu.com/no/document/view/23881380/om-klippo-drivna-2009-11-115332210/18"
+    },
+    {
+      "id": "oem-klippo-product-brochure-2008",
+      "tier": 1,
+      "title": "KLIPPO 2008 manufacturer brochure – Pro 19 product family",
+      "document": "Klippo original 2008 English brochure, product pages Pro19GCV/Pro19S and technical descriptions",
+      "url": "https://www.zielonemaszyny.pl/pdf/klippo_2008_angielski.pdf"
+    },
+    {
+      "id": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "title": "Wolfswinkel NL Klippo Pro 19 GCV 965229001 complete-model exploded parts listing",
+      "document": "Wolfswinkel model page, PNC 965229001, unversioned complete system part-number list",
+      "url": "https://www.wolfswinkel.nl/onderdeeltekeningen/klippo/duwmaaiers/pro-19-gcv/pro-19gcv",
+      "tier": 2
+    },
+    {
+      "id": "retailer-old-blade-502978001-6017",
+      "tier": 2,
+      "title": "Gräsklipparbutiken original-labelled 48cm mulcher blade 5029780-01",
+      "document": "Retailer compatibility including Pro19 GCV, Pro19 S and Pro19 S GCV; legacy Klippo 6017; fiber washer included",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/sv/gb/mulcherkniv-48cm-19?Land=SE&Valuta_ID=SEK"
+    },
+    {
+      "id": "wolfswinkel-pro19gcv-positioned-2026",
+      "tier": 2,
+      "title": "Wolfswinkel Klippo Pro 19 GCV numbered exploded parts list",
+      "document": "Full system page Pro19 GCV model with Ref 37–53, blade bracket, bolt, washer, key and brake cable",
+      "url": "https://www.wolfswinkel.de/ersatzteil-zeichnungen/klippo/schubm%C3%A4her/pro-19-gcv/pro-19-gcv-1?wsource=group"
     }
   ],
   "topics": {
@@ -421,6 +463,600 @@
       "sourceId": "klippo-2014-original-catalog-586612101",
       "grade": "A",
       "topic": "M"
+    },
+    {
+      "id": "pro19sh-2018-oem-mulcher",
+      "statement": "Originalmanualen 829-002 (2018) anger kniv 5028813-10, 48 cm mulcher, för Pro 19SH. Detta är ett sidofynd för den senare SH-varianten och inte ett passformsbevis för äldre Pro 19 GCV.",
+      "variant": "Pro 19SH enligt 2018 originalmanual, inte Pro 19 GCV 965229001",
+      "locator": "Tryckt sida 22, Skärutrustning > Mulcher – 48 cm, PDF index 21",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sh-2018-oem-engine",
+      "statement": "Originalmanualen 829-002 (2018) anger Honda-motor, 166 cm³, oljetank 0,5 liter och oljespecifikation SAE 10W-30 för Pro 19SH. Uppgifterna får inte kopieras till äldre Pro 19 GCV/Honda GCV135.",
+      "variant": "Pro 19SH, 2018 originalmanual, inte historisk Pro 19 GCV",
+      "locator": "Tryckt sida 22, Teknisk data Motor och Bränsle-/smörjsystem, PDF index 21",
+      "sourceId": "oem-klippo-2018-manual-829-002",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-om08-sideguard",
+      "statement": "Originalmanualens särskilda tillägg för KLIPPO Pro 19 GCV anger sidoskydd som en egenskap som skiljer yrkesmaskinen från enklare modeller.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Tillägg Pro 17/Pro19, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-om08-galvanized",
+      "statement": "Samma 2008-tillägg beskriver galvaniserade utsatta delar och avvibrerat handtag för Pro 17 och Pro 19 GCV:s yrkesutföranden.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Tillägg Pro 17/Pro19, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-om08-reinforced-parts",
+      "statement": "Originalmanualens yrkestillägg anger förstärkta komponenter och kraftigare material på Pro 17/Pro 19 GCV jämfört med enklare modeller.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Tillägg Pro 17/Pro19, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-om08-mulcher-loose",
+      "statement": "2008 års originalmanual anger att mulcherinsatsen för Pro 19 GCV följer med lös, till skillnad från Champion och Excellent där den sitter monterad vid leverans.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Mulcherinsats, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "pro-om08-blade-not-crosscut",
+      "statement": "2008 års KLIPPO-originalmanual anger vanlig mulcherkniv för Pro 19 GCV medan Cross-Cut-kniven beskrivs för Excellent-familjen; ingen Cross-Cut ska tillskrivas Pro 19 GCV av denna källa.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivsystem, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "pro-om08-airfilter-gcv",
+      "statement": "2008 års originalmanual anger Honda GCV135-luftfiltret rengörs var tredje månad/25 arbetstimmar, oftare vid damm, med försiktig knackning och utan olja/tryckluft.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Luftrenarservice Honda GCV135, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "pro-om08-spark-gap",
+      "statement": "2008 års originalmanual anger 0,7–0,8 mm elektrodavstånd vid tändstiftskontroll i felsökning för Pro 19 GCV-generationen.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Felsökning, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "pro-om08-torque-unspecified",
+      "statement": "2008-originalmanualen beskriver knivbult som högergängad och 14 mm nyckel vid lossning, men anger inget siffermoment. 2018 års 70 Nm ska inte kopieras bakåt utan separat tillverkarstöd.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Knivbyte, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "J"
+    },
+    {
+      "id": "pro-om08-service-professional",
+      "statement": "Originalmanualen rekommenderar rutinkontroll var 50:e drifttimme vid yrkesbruk och översyn efter säsongen. Gäller manualens Pro 19 GCV-generation.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.3, Skötselföreskrifter, PDF P4",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "pro-om08-oil-change",
+      "statement": "Originalmanualen 2008 anger första oljebyte efter 5 driftstimmar och därefter efter 25 driftstimmar för manualens maskiner; Honda-motorns egen bok kan ha ytterligare specifikationer.",
+      "variant": "KLIPPO modeller som omfattas av tillverkarens originalmanual 502937301 från 2008-01; gäller enbart uttryckligen angiven modell/motor, ej senare generationer",
+      "locator": "s.2, Inkörning/oljebyte, PDF P3",
+      "sourceId": "klippo-om-2008-502937301",
+      "grade": "A",
+      "topic": "I"
+    },
+    {
+      "id": "pro19sgcv-2009-distinct-name",
+      "statement": "Tillverkarens 2009-manual listar Pro 19 S GCV som separat självgående modell, medan Pro 19 GCV utan S i 2008 års originalmanual saknar detta modellled. Att en S-version är driven innebär inte att Pro 19 GCV 965229001 har samma transmission.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18–19, Pro 19 S GCV, åtskild från 2008 Pro 19 GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-honda135",
+      "statement": "Pro 19 S GCV enligt 2009 års originalmanual har Honda-motor 135 cm³, nominell nettoeffekt 2,1 kW vid angivet varvtal och 2900 rpm.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA, kolumn Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-driven-speed",
+      "statement": "2009 års manual anger drivhastighet 4,5 km/h för den självgående Pro 19 S GCV. Uppgiften gäller inte odrivna Pro 19 GCV 965229001.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Drivning > Hastighet Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-plug",
+      "statement": "2009-originalmanualen anger NGK BPR6ES och elektrodavstånd 0,7–0,8 mm för Pro 19 S GCV.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Tändsystem, Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-oil",
+      "statement": "2009-originalmanualen anger Pro 19 S GCV bensintank 0,77 liter, oljetank 0,55 liter och olja SAE 30/SAE 10W-30. Avser S-versionen och får inte utan vidare överföras till Pro 19 GCV utan S.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Bränsle-/smörjsystem, Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-weight",
+      "statement": "Pro 19 S GCV anges väga 34 kg med tomma tankar och ha klippbredd 48 cm samt klipphöjd 30–60 mm i 2009 års originalmanual.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Vikt och Klippsystem, Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-vibration",
+      "statement": "Originalmanualen 2009 anger vibrationsvärde i handtag 3,7 m/s² för Pro 19 S GCV, med typisk spridning 0,2 m/s² enligt EN 836.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Vibrationsnivåer Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-noise",
+      "statement": "Pro 19 S GCV har enligt 2009 års originalmanual uppmätt ljudeffekt 89 dB(A), garanterad 96 dB(A) och ljudtryck vid operatör 78 dB(A).",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Bulleremissioner och Ljudnivåer Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-consumption",
+      "statement": "Pro 19 S GCV anges i 2009-originalmanualen ha specifik bränsleförbrukning 455 g/kWh vid 50 procents belastning (Svanen-kriterium 4.1).",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.18 TEKNISKA DATA > Specifik bränsleförbrukning Pro 19 S GCV",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro19sgcv-2009-certificate",
+      "statement": "2009 års EG-försäkran listar Pro 19 S GCV med intyg 17/901/012, från serienummer 09XXXXXXX. Identiskt intygsnummer i en annan äldre modellfamilj får inte tolkas som identiska reservdelar.",
+      "variant": "2009 års tillverkaroriginal för självgående Klippo-versioner; skiljs från Pro 19 GCV/Excellent utan S",
+      "locator": "s.19 EG-försäkran Pro 19 S GCV och intyg",
+      "sourceId": "oem-klippo-driven-2009-115332210",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-article",
+      "statement": "Klippos originalkatalog 2008 anger artikelnummer 965229301 för Pro 19 S med Briggs & Stratton DOV ReadyStart 160 cm³. Det är en annan variant än Pro 19 GCV 965229001.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Sida 37 (tryckt), Pro 19 S, Item no 965229301",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-frontdrive",
+      "statement": "Klippos originalkatalog 2008 beskriver Pro 19 S med framhjulsdrift; den funktionen får inte tillskrivas Pro 19 GCV utan S.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 19 S, front wheel drive",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-cut",
+      "statement": "Klippos originalkatalog 2008 anger klippbredd 48 cm och klipphöjd 30–60 mm för Pro 19 S.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 19 S, Cutting width/height",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-s-weight",
+      "statement": "Originalkatalogen 2008 anger Pro 19 S vikt 34 kg, vilket gäller den drivna Briggs-versionen och inte odrivna GCV-varianten.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 19 S, Weight 34 kg",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-21-s-gcv-separate",
+      "statement": "Klippos 2008 originalkatalog listar Pro 21 S GCV som separat självgående 53 cm-modell med Honda GCV160 (160 cm³), vikt 36 kg och artikelnummer 965230901; den får inte sammanblandas med Pro 19 GCV Honda GCV135.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 21 S GCV, item no 965230901",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-21-s-separate",
+      "statement": "Originalkatalogen 2008 beskriver Pro 21 S med Briggs & Stratton Intek Edge 190 cm³, 53 cm klippbredd, 38 kg, artikelnummer 965230801.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.37 Pro 21 S, item no 965230801",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "M"
+    },
+    {
+      "id": "pro-2008-oem-sideguard-professional",
+      "statement": "Originalkatalogen 2008 anger att Klippos yrkesmaskiner med undantag av Pro 17 har sidoskydd på fast avstånd från marken oavsett klipphöjd. Det är en konstruktionsegenskap för yrkesfamiljen, inte en garanti för alla historiska årsserier.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.7, professional machines side guards except Pro 17",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro-2008-oem-wheel-material",
+      "statement": "Klippos 2008 originalkatalog beskriver underhållsfria hjullager, stålfälgar och breda gummidäck som Klippo-hjulens konstruktion; detta är en generell katalogbeskrivning och inte ett ersättningsnummer för Pro 19 GCV.",
+      "variant": "KLIPPO tillverkarkatalog 2008; 19- respektive 21-tums professionella modellfamiljer avgränsade per namn och artikel",
+      "locator": "Tryckt s.7, wheels",
+      "sourceId": "oem-klippo-product-brochure-2008",
+      "grade": "A",
+      "topic": "B"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-chassis",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503247901 (chassi/ram som även förekommer i tidigare Klippo-listor). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503247901",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "B"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-height-rod",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503249501 (höjdinställningsstång). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503249501",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-wheel",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 502945101 (hjul). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 502945101",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-wheel-bearing",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 502882701 (hjullager). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 502882701",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-wheel-cap",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503275101 (hjulkapsel). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503275101",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-mulcher-wall",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503243001 (mulcherinsats-/kåpdetalj). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503243001",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "H"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-front-axle",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503269301 (framaxeldel). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503269301",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-handle-grip",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 576641901 (handtagsgrepp). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 576641901",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-handle-bushing",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503320902 (handtagsbussning). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503320902",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-brake-cable",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 585402101 (vajer i handtags-/bromsdelssystemet, närmare funktion måste originalverifieras). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 585402101",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-mulcher-blade",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 502978001 (mulcherkniv). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 502978001",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-blade-bolt",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503272701 (knivbult). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503272701",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-blade-bracket",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 502871902 (knivfäste). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 502871902",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-fibre-washer",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503259401 (fiberbricka). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503259401",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-woodruff-key",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 504460501 (kil). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 504460501",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-handle-cable1",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503313101 (kabel-/reglagedel, exakt funktion okänd). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503313101",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-handle-cable2",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503313001 (kabel-/reglagedel, exakt funktion okänd). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503313001",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-chassis-adjustment",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503249001 (höjdjusteringsdel, detaljfunktion måste kontrolleras). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503249001",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-chassis-side",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503265801 (ram-/chassidetalj, exakt delbenämning saknas i sammanställd sida). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503265801",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "pro19-pnc-965229001-catalog-axle-other-bearing",
+      "statement": "Wolfswinkels kompletta reservdelslista för modellmärkt KLIPPO Pro 19 GCV, artikelnummer 965229001, innehåller delnummer 503242901 (hjul-/axelkomponent, funktion måste styrkas mot figur). Endast förekomst i återförsäljarens modellbundna lista är säkerställd här; exakt sprängskisseposition och årsrevision kräver separat kontroll.",
+      "variant": "KLIPPO Pro 19 GCV 965229001; modellbunden men årsrevision inte uttryckligen låst i sammanställningen",
+      "locator": "Komplett systeem / fullständigt produkt, artikelnummer 503242901",
+      "sourceId": "wolfswinkel-pro19gcv-pnc-965229001-nl-complete",
+      "grade": "B",
+      "topic": "E"
+    },
+    {
+      "id": "problade-6017-supersession",
+      "statement": "Återförsäljaren anger att 48 cm originalmärkt mulcherkniv 5029780-01 (502978001) ersätter äldre Klippo artikelnummer 6017.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Produktbeskrivning > Ersätter Klippo artnr 6017",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "problade-48cm",
+      "statement": "Återförsäljaren beskriver Pro 19 GCV-kniven 502978001 som 48 cm / 19 tum mulcherkniv.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Produktbeskrivning > Storlek 48cm / 19 tum; Passar Pro 19 GCV",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "problade-washer-included",
+      "statement": "Återförsäljaren anger att fiberbricka medföljer den sålda kniven 502978001; kontrollera om enheten innehåller just artikel 503259401 innan beställning, eftersom komponentnumret för medföljande bricka inte specificeras på produktkortet.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Produktbeskrivning > Fiberbricka medföljer",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "problade-pro19sgcv-fitment",
+      "statement": "Återförsäljaren listar samma kniv 502978001 för Pro 19 S GCV. Detta är en säljaruppgiven klippknivskompatibilitet och säger inget om gemensam transmission mellan S och odriven GCV.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Passar > Pro 19 S GCV",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "problade-pro19s-fitment",
+      "statement": "Återförsäljaren listar 502978001 för Pro 19 S. Det ska inte tolkas som att övriga knivfästen och motorer är samma som Pro 19 GCV.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Passar > Pro 19 S",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "problade-legacy-family",
+      "statement": "Återförsäljaren listar 502978001 för äldre Excellent till och med 2007, Champion till och med 2009 och Next till och med 2007; årtalsgränserna är säljaruppgifter och inte OEM-gränser.",
+      "variant": "Klippo modellbunden generationsjämförelse, 2007–2018; endast utpekad återförsäljarkoppling eller OEM-manual",
+      "locator": "Passar > Excellent tom 2007, Champion tom 2009, Next tom 2007",
+      "sourceId": "retailer-old-blade-502978001-6017",
+      "grade": "B",
+      "topic": "M"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-brake-cable",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger bromsvajer artikel 585402101 i position 39. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 39, 585402101",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "G"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-blade",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger 48 cm mulcherkniv artikel 502978001 i position 43. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 43, 502978001",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-bolt",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger knivbult artikel 503272701 i position 44. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 44, 503272701",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-blade-holder",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger knivstöd artikel 502871902 i position 51. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 51, 502871902",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-fiber",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger fiberbricka artikel 503259401 i position 52. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 52, 503259401",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-key",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger kil artikel 504460501 i position 53. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 53, 504460501",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "J"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-handle",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger underhandtagsenhet artikel 503283801 i position 45. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 45, 503283801",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-accelerator",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger gasreglage artikel 503313001 i position 38. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 38, 503313001",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-lever",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger reglageenhet artikel 503313101 i position 37. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 37, 503313101",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "F"
+    },
+    {
+      "id": "pro19gcv-diagram-ref-front-handle-bushing",
+      "statement": "Wolfswinkels Pro 19 GCV-sprängskisslista anger handtagsbussning artikel 503320902 i position 36. Positionen gäller just återförsäljarens kompletta Pro 19 GCV-lista, inte automatiskt samtliga tillverkningsår.",
+      "variant": "KLIPPO Pro 19 GCV, Wolfswinkel odaterad komplett sprängskisslista",
+      "locator": "Vollständiges produkt > Ref. 36, 503320902",
+      "sourceId": "wolfswinkel-pro19gcv-positioned-2026",
+      "grade": "B",
+      "topic": "F"
     }
   ],
   "gaps": [
@@ -436,6 +1072,13 @@
     "Originalproduktkatalogen 2008 bekräftar Pro 19 GCV 965229001 som 48 cm mulcherkniv och separat kniv 502978001, men den binder inte kniven med IPL-positionsnummer, variantserienummer och monteringskombination; behåll detta som öppen slutsats.",
     "Wolfswinkels separata nederländska register för 965229001 bekräftar modellbindningen av artikelnummerlistan; fortfarande saknas original-IPL och verifierade sprängskisspositioner.",
     "Katalogpositionerna 43–44 och 51–53 är nu sekundärt källbundna. Original KLIPPO/Husqvarna IPL och exakt serienummerintervall saknas fortfarande.",
-    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget."
+    "Äldre 2004-koder och 2014 års produktvarianter är dokumenterade separat; kontrollera bildoriginal och exakta PNC/serienummer före reservdelsråd. Katalog-PDF 2014 kunde inte skärmbildshämtas via webbverktyget.",
+    "2018 års originalmanual har annan modellgeneration/serienummeravgränsning än 2007–2013 års maskiner; försök inte lösa äldre original-IPL med senare manual ensam.",
+    "2008-års OEM-manual är drift- och servicemanual, inte reservdels-IPL. Härled inga artikelnummer, kompatibilitet eller exakta moment (70 Nm från senare manual) till denna generation utan separat tillverkarstöd.",
+    "2009 års självgående modeller ska hållas skilda från 2007–2008 odrivna modeller; växellådor och andra delar kan inte korskopplas enbart genom gemensam GCV135-motor eller intygskod.",
+    "2008 års broschyr visar tydliga modellgränser Pro 19 GCV/Pro 19 S/Pro 21 S; Pro 19 GCV original-IPL med positionsbundna hjul- och knivfästen saknas ännu.",
+    "Wolfswinkel NL visar PNC 965229001 Pro 19 GCV och flera delnummer, men sammanställd komplettsystemlista saknar år/serierevision och exakt sprängskisseposition. Verifiera varje del mot modellens original-IPL och maskinskylt.",
+    "Äldre 48cm mulcher 502978001/6017 har säljaruppgivna årtalsgränser och får inte behandlas som universell ersättare för senare Champion/Excellent/Pro-knivsystem.",
+    "För Pro 19 GCV har Wolfswinkel exakta referenser 43/44 och 51–53 för knivpaketet. Original-IPL och revisions-/serienummer behövs fortfarande för tillverkarverifierad passform."
   ]
 }
