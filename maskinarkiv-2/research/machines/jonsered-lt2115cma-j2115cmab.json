@@ -25,6 +25,13 @@
       "title": "Jonsered LT2115CMA J2115CMAB 2004-06 alternative IPL scan",
       "document": "J2115CMAB 954130093 2004-06 (alternativ kopia med LT2115CMA ENGINE-rubrik)",
       "url": "https://easyconcept-motoculture.com/vues_eclatees/Jonsered/TRACTEURS/LT%202115/LT2115%20CMA%20J2115CMAB%20954130093%202004-06/LT2115-CMA-J2115CMAB-954130093-2004-06.pdf"
+    },
+    {
+      "id": "jonsered-lt2117cmaa-2003-01-original-ipl",
+      "tier": 1,
+      "title": "Jonsered original IPL LT2117CMA J2117CMAA 2003-01",
+      "document": "106 30 37-61, LT2117CMA J2117CMAA PRODUCT NO. 954 13 00-93",
+      "url": "https://www.ersatzteil-shop24.de/bilder/zeichnungen/jonsered/JIPL2003_1063037-61.pdf"
     }
   ],
   "topics": {
@@ -369,6 +376,28 @@
       "topic": "A",
       "verification": "needs_verification",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-2003-lt2117-original-identity",
+      "statement": "Jonsereds separata originalkatalog 106 30 37-61 från 2003-01 identifierar LT2117CMA (J2117CMAA) som produktnummer 954 13 00-93. Samma produktnummer förekommer på omstridda 2004-06-blad som presenteras som LT2115CMA J2115CMAB, vilket gör identitetsfrågan särskilt kritisk.",
+      "variant": "Källkonflikt: LT2117CMA J2117CMAA 2003-01 kontra LT2115CMA J2115CMAB 2004-06",
+      "locator": "Original IPL 106 30 37-61, PDF page 2 (index 1), header TRACTOR MODEL NO. LT2117CMA PRODUCT NO. 954 13 00-93",
+      "sourceId": "jonsered-lt2117cmaa-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cma-j2115cmab-2003-lt2117-drive-clutch",
+      "statement": "Den självständiga originalkatalogen för LT2117CMA J2117CMAA 2003-01 listar Hydro-Gear 321-0510 på DRIVE position 1 och OGURA EURO elektrisk koppling 532 18 02-20 på DRIVE position 9; numren gäller explicit LT2117CMA och får inte överföras som Jonsered LT2115CMA-identitet.",
+      "variant": "Källkonflikt: LT2117CMA J2117CMAA 2003-01 kontra LT2115CMA J2115CMAB 2004-06",
+      "locator": "Original IPL 106 30 37-61, DRIVE parts list position 1 and 9",
+      "sourceId": "jonsered-lt2117cmaa-2003-01-original-ipl",
+      "grade": "A",
+      "topic": "A",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -384,6 +413,7 @@
     "Källkvalitet: 2004-06-PDF för J2115CMAB anger LT2115CMA på omslag och avsnittshuvuden men minst en sprängbildsrubrik anges som LT2117CMA (J2117CMAB). Orsaken till denna interna identitetskonflikt måste utredas mot annan OEM-kopia innan specifika komponenter publiceras.",
     "Ny originalkatalogkopia hittad: EasyConcept 2004-06 J2115CMAB 954130093 visar enligt indexerad ENGINE-rubrik LT2115CMA med produktnummer 954 13 02-16. Foretjardin-kopian anger i motsvarande rubrik LT2117CMA J2117CMAB 954 13 00-93. Skillnaden talar för sammanblandade schemablad; avgör ej motortyp utan dubbelkontroll.",
     "Wolfswinkels artikelnummer kan vara ersättningsnummer; kräver jämförelse med ursprunglig Jonsered-reservdelskatalog för denna revision.",
-    "IDENTITETSKARANTÄN: två separata ENGINE-rubriker i olika 2004-06-kopior ger LT2117CMA/954130093 respektive LT2115CMA/954130216; motortyp och motordelar från dessa blad ska inte godkännas utan tredje oberoende källa och visuell kontroll."
+    "IDENTITETSKARANTÄN: två separata ENGINE-rubriker i olika 2004-06-kopior ger LT2117CMA/954130093 respektive LT2115CMA/954130216; motortyp och motordelar från dessa blad ska inte godkännas utan tredje oberoende källa och visuell kontroll.",
+    "KRITISKT: OEM IPL 106 30 37-61 från 2003 har LT2117CMA J2117CMAA och PRODUCT NO 954130093 i samma originalkatalog. 2004-06 LT2115CMA J2115CMAB återanvänder 954130093 enligt omslags-/säljarkällor, medan motorblad pekar mot LT2117. Delar i 2004-filen kan vara blandade mellan modeller. Ingen av 2004-J2115CMAB:s icke-bildverifierade komponentclaims ska användas för beställning innan kontroll mot original serienummerskylt och tredje OEM-kopia."
   ]
 }

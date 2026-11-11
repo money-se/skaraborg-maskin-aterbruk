@@ -248,6 +248,83 @@
       "topic": "A",
       "verification": "verified",
       "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-peerless",
+      "statement": "Original IPL 544 46 78-01 för LT2115CM 96061008101 visar Peerless 206-546 på DRIVE position 1 och hänvisar interna delar till transmissionstillverkaren.",
+      "variant": "LT2115CM 96061008101 / 2006-05",
+      "locator": "IPL 544 46 78-01, DRIVE pos.1",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-belt-57",
+      "statement": "Original IPL för 96061008101 anger 532 16 56-31 som markdrivningsrem, skild från aggregatrem 532 40 20-08.",
+      "variant": "LT2115CM 96061008101 / 2006-05",
+      "locator": "IPL 544 46 78-01, DRIVE pos.57; cover belt panel",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-shift-8",
+      "statement": "Original IPL för 96061008101 visar växelreglagestång 532 19 27-06, DRIVE position 8. Äldre 2004-01-version har ett annat reglagenummer.",
+      "variant": "LT2115CM 96061008101 / 2006-05",
+      "locator": "IPL 544 46 78-01, DRIVE pos.8",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-exact-53",
+      "statement": "Jonsered 2006-05 IPL:s DRIVE-del anger kopplingslänk, artikel 532 19 96-52, på key 53. Nummeruppgiften är revisionsbunden och inte bevis för eller emot kompatibilitet.",
+      "variant": "LT2115CM jonsered-lt2115cm-96061008101 / 2006-05",
+      "locator": "Original IPL PDF s.10 (index 9), DRIVE key 53",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-exact-183",
+      "statement": "Jonsered 2006-05 IPL:s DRIVE-del anger V-spännrulle, artikel 532 19 95-32, på key 183. Nummeruppgiften är revisionsbunden och inte bevis för eller emot kompatibilitet.",
+      "variant": "LT2115CM jonsered-lt2115cm-96061008101 / 2006-05",
+      "locator": "Original IPL PDF s.10 (index 9), DRIVE key 183",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-exact-62",
+      "statement": "Jonsered 2006-05 IPL:s DRIVE-del anger pedalskydd, artikel 532 12 35-33, på key 62. Nummeruppgiften är revisionsbunden och inte bevis för eller emot kompatibilitet.",
+      "variant": "LT2115CM jonsered-lt2115cm-96061008101 / 2006-05",
+      "locator": "Original IPL PDF s.10 (index 9), DRIVE key 62",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
+    },
+    {
+      "id": "jonsered-lt2115cm-96061008101-drive-exact-214",
+      "statement": "Katalogens DRIVE key 214 visar axelenhet (Shaft Asm Blade) med artikel 532 17 56-09 för denna revision. Samma artikelnummer med annorlunda beskrivning ska inte tolkas som säker funktion utan bildkontroll.",
+      "variant": "LT2115CM jonsered-lt2115cm-96061008101 / 2006-05",
+      "locator": "Original IPL PDF s.10 (index 9), DRIVE key 214",
+      "sourceId": "jonsered-lt2115cm-96061008101-verified-ipl-mirror",
+      "grade": "B",
+      "topic": "D",
+      "verification": "needs_verification",
+      "checkedAt": "2026-10-22"
     }
   ],
   "gaps": [
@@ -256,6 +333,8 @@
     "Ingen generell reservdelspassform mellan LT2115, LT2115A, LT2115CM och LT2115CMA får antas.",
     "PDF-skärmbildskontrollen misslyckades; positioner och katalogtext bör bildverifieras före artikelpublicering.",
     "Motorns individuella Kohler Specification och Serial Number saknas; manualens generella SV470-intervall behöver stämmas av med den installerade motorns utförande.",
-    "Luftfilterschemats 25- respektive 100-timmarsrader har bevarats enligt originalmanualen. Den individuella SV470-motorns filterutförande ska fastställas före praktiskt servicelöfte."
+    "Luftfilterschemats 25- respektive 100-timmarsrader har bevarats enligt originalmanualen. Den individuella SV470-motorns filterutförande ska fastställas före praktiskt servicelöfte.",
+    "Originalkataloger från 2004-01 och 2006-05 anger båda Peerless 206-546 samt markdrivningsrem 532165631 för LT2115CM, men åtminstone shift rod pos 8 är olika (2004: 532165619; 2006: 532192706). Intern passform och senare ersättningslistor återstår.",
+    "Original IPL 2004-01 mot 2006-05: samma nummer key 214 (532175609), men olika engelska artikelbeskrivningar i de två katalogerna men ändrade katalognummer för key 53 (kopplingslänk), key 62 (pedalskydd) och key 183 (V-spännrulle). Måste skiljas från hydrostatiska LT2115CMA."
   ]
 }
