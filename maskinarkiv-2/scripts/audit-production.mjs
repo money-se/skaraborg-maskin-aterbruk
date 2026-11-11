@@ -3,7 +3,7 @@ import path from "node:path";
 import assert from "node:assert/strict";
 const root=path.resolve(process.cwd(),"..");
 const output=path.join(root,"_maskinarkiv-preview","maskinarkiv");
-const slugs=["stiga-park-16","husqvarna-rider-13","husqvarna-lth151","stiga-villa-12-hst","jonsered-lt2115"];
+const slugs=["stiga-park-16","husqvarna-rider-13","husqvarna-lth151","stiga-villa-12-hst","jonsered-lt2115","husqvarna-rider-850"];
 for(const slug of slugs){
  const file=path.join(output,slug+".html");
  const html=fs.readFileSync(file,"utf8");

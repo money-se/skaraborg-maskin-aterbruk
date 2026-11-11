@@ -5,7 +5,7 @@ import assert from "node:assert/strict";
 const repoRoot=path.resolve(process.cwd(),"..");
 const built=path.join(repoRoot,"_maskinarkiv-preview");
 const destination=path.join(process.cwd(),"preview");
-const slugs=["stiga-park-16","husqvarna-rider-13","husqvarna-lth151","stiga-villa-12-hst","jonsered-lt2115"];
+const slugs=["stiga-park-16","husqvarna-rider-13","husqvarna-lth151","stiga-villa-12-hst","jonsered-lt2115","husqvarna-rider-850"];
 const domain="https://skaraborgmaskin.se";
 fs.mkdirSync(destination,{recursive:true});
 function publicHref(url){
