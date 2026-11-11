@@ -1,0 +1,15 @@
+# Befintlig Cloudflare Turnstile-widget — Skaraborg Annonsadmin
+- Widget är redan skapad. Publik site key: `0x4AAAAAAFaFIoZ5SUmH1teb`
+- Frontend: `annonskontakt-v3.html`, länkad från `annonser-v3.html`.
+- Backend: `supabase/functions/ad-messages/index.ts` (källkod, EJ deployad).
+- Enbart domänen `skaraborgmaskin.se` accepteras i API och Cloudflare hostname-verifiering. Testa via rätt domän efter granskning; `file://` eller GitHub-preview stöds inte.
+- Nya konversationer och kundsvar kräver Turnstile-token och server-side Siteverify.
+- Saknas TURNSTILE_SECRET_KEY, MESSAGE_PEPPER, SUPABASE_URL eller SUPABASE_SERVICE_ROLE_KEY returnerar backend 503.
+- Skapa TURNSTILE_SECRET_KEY via Cloudflare (hemlig) och lägg direkt i Supabase Edge Functions > Secrets; aldrig i GitHub, webbsida eller chatt.
+- Lägg även in MESSAGE_PEPPER (minst 24 slumpmässiga tecken) som Supabase-secret.
+- Kontrollera rätt hostnames i Cloudflare-widgeten. Backend bör ha kontroller för invalid/reused/expired tokens, rate limiting, invalid thread token, authorization och cross origin.
+- Edge Function behöver uttryckligen deployas med verify_jwt=false för anonyma besökare först när andra skydd är verifierade; gör ingen deploy innan genomgång.
+- Kontrollera felfall: saknad Turnstile-secret → 503, fel captcha → 403, fel origin → 403, hög belastning → 429, ogiltig token → 404.
+- Säljstatus raderar trådar i databas; verifiera separat med transaktionellt rollback-test.
+- Kundens konversationslänk har åtkomsttoken i URL-fragment; använd inte delad dator, offentlig loggning eller analytik som läser fragmentet.
+- GDPR och retention policy måste färdigställas innan publikation.
