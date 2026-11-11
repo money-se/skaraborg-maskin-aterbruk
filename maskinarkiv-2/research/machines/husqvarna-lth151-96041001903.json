@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "slug": "husqvarna-lth151-96041001903",
+  "status": "needs_research",
+  "reviewDate": "2026-11-01",
+  "scope": "Källbunden forskning om exakt Husqvarna LTH151 katalogmodell 96041001903, produktnummer 960 41 00-19. Delnummer gäller den specificerade IPL-utgåvan, inte andra LTH151-produktnummer. Äldre flerspråkig LTH151-förarmanual används enbart för modellfamiljens användningsbeskrivningar, inte som bevis för 96041001903:s motor eller reservdelsbestyckning.",
+  "sources": [
+    {
+      "id": "husq-lth151-96041001903-ipl-2008",
+      "tier": 1,
+      "title": "Husqvarna LTH151 illustrated parts list",
+      "document": "IPL LTH151 2008-01, 532 41 73-02 Rev. 9 02.12.09; model 96041001903",
+      "url": "https://www.xn--grsklipparbutiken-rqb.se/dokument/bibliotek/Image/Akgrasklippare/LTH151/IPL%2C-LTH151%2C-96041001903%2C-2008-01_wm.pdf"
+    },
+    {
+      "id": "husq-lth151-general-om-02494",
+      "tier": 1,
+      "title": "Husqvarna LTH151 multilingual instruction manual",
+      "document": "LTH151 instruction manual 02494; local file doc000064921.pdf, 72 pages; illustrates model family, not exact PNC",
+      "url": "https://content.tdr.dss.husqvarnagroup.net/pub000034649/doc000064921"
+    }
+  ],
+  "topics": {
+    "A": {
+      "name": "Identitet och versioner",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "B": {
+      "name": "Grundkonstruktion",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "C": {
+      "name": "Motor",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "D": {
+      "name": "Transmission och drivlina",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "E": {
+      "name": "Styrning och chassi",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "F": {
+      "name": "Reglage",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "G": {
+      "name": "Säkerhet",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "H": {
+      "name": "Klippaggregat",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "I": {
+      "name": "Tillbehör och användning",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "J": {
+      "name": "Underhåll",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "K": {
+      "name": "Reservdelar",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "L": {
+      "name": "Begagnatköp",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    },
+    "M": {
+      "name": "FAQ",
+      "state": "gap",
+      "note": "Avgränsad katalog- och manualgranskning genomförd; kvarvarande variant-, service- och passformskontroller måste källbeläggas innan detta område kan frisläppas."
+    }
+  },
+  "claims": [
+    {
+      "id": "lth151-01903-identity",
+      "statement": "IPL-omslaget och introduktionssidan identifierar LTH151 med modellnummer 96041001903 och produktnummer 960 41 00-19.",
+      "variant": "LTH151 / 96041001903 / 960 41 00-19",
+      "locator": "PDF s. 1–2, omslag och ILLUSTRATED PARTS LIST",
+      "sourceId": "husq-lth151-96041001903-ipl-2008",
+      "grade": "A",
+      "topic": "A"
+    },
+    {
+      "id": "lth151-01903-transaxle-t2",
+      "statement": "DRIVE-listans position 1 anger Hydro GR T2 som transmission; IPL anger inget beställningsbart internt transmissionsnummer på denna position.",
+      "variant": "LTH151 / 96041001903",
+      "locator": "PDF s. 10 (tryckt s. 9), DRIVE pos. 1: Transaxle, Hydro GR T2; Internal parts not available",
+      "sourceId": "husq-lth151-96041001903-ipl-2008",
+      "grade": "A",
+      "topic": "D"
+    },
+    {
+      "id": "lth151-01903-sv470",
+      "statement": "ENGINE-listans position 1 anger Kohler SV470 som motorfamilj för LTH151 96041001903; individuell Kohler-specifikation och serienummer anges inte.",
+      "variant": "LTH151 / 96041001903",
+      "locator": "PDF s. 12 (tryckt s. 11), ENGINE pos. 1: Engine Kohler Model No. SV470",
+      "sourceId": "husq-lth151-96041001903-ipl-2008",
+      "grade": "A",
+      "topic": "C"
+    },
+    {
+      "id": "lth151-01903-drive-belt",
+      "statement": "DRIVE-listans position 56 anger drivrem 532 12 59-07.",
+      "variant": "LTH151 / 96041001903",
+      "locator": "PDF s. 10 (tryckt s. 9), DRIVE pos. 56",
+      "sourceId": "husq-lth151-96041001903-ipl-2008",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "lth151-01903-deck-blade",
+      "statement": "MOWER DECK-listans position 11 anger kniv 532 19 39-57, beskriven som 38-tums mulchingkniv.",
+      "variant": "LTH151 / 96041001903, IPL 2008-01",
+      "locator": "PDF s. 16 (tryckt s. 15), MOWER DECK pos. 11, Blade Premium 38 inch",
+      "sourceId": "husq-lth151-96041001903-ipl-2008",
+      "grade": "A",
+      "topic": "H"
+    },
+    {
+      "id": "lth151-01903-deck-belt",
+      "statement": "MOWER DECK-listans position 68 anger klippaggregatsrem 532 40 83-81.",
+      "variant": "LTH151 / 96041001903",
+      "locator": "PDF s. 16 (tryckt s. 15), MOWER DECK pos. 68",
+      "sourceId": "husq-lth151-96041001903-ipl-2008",
+      "grade": "A",
+      "topic": "K"
+    },
+    {
+      "id": "lth151-family-controls",
+      "statement": "Den flerspråkiga LTH151-bruksanvisningen visar nio reglage inklusive broms/kopplingspedal, fram/back-reglage, knivinkoppling och frikopplingsreglage.",
+      "variant": "LTH151-modellfamiljen som illustreras i manual 02494; ingen bekräftad PNC-koppling till 96041001903",
+      "locator": "PDF s. 25, Functional description, Positioning of controls 1–9",
+      "sourceId": "husq-lth151-general-om-02494",
+      "grade": "A",
+      "topic": "F"
+    }
+  ],
+  "gaps": [
+    "Husqvarnas katalog 2008-01, revisionsdatum 02.12.09, behöver bindas till enskilda årsmodeller och eventuella sena delersättningar innan delbeställning.",
+    "Avläs fysisk maskins PNC och Kohler SV470 Specification/Serial för att bekräfta den monterade motorn och motorspecifik service.",
+    "Hydro-Gear T2 är familjenamn: kontrollera fysisk transmissionsetikett och BOM innan serviceoljor, volymer eller internkomponenter anges.",
+    "Verifiera om äldre förarmanual 02494 faktiskt gäller produktnummer 96041001903; överför inte generella instruktioner till exakt variant utan kontroll.",
+    "Kontrollera om kniven 532 19 39-57 är det enda tillåtna alternativet eller uttryckligen en förbättrad mulchingvariant samt eventuella ersättningsnummer.",
+    "Ingen separat källgranskad publiceringspolicy för detta produktnummer ännu."
+  ]
+}
