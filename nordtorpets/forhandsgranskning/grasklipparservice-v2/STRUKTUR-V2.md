@@ -27,3 +27,10 @@ Status: noindex-förhandsvisning. Ordinarie gräsklipparsida och ursprungliga pi
 - Avstånd och luft särskilt runt problem, process och kostnadsruta.
 - Bildstrategi med autentiska foton.
 - Formulering av avgift och avtal innan lansering.
+
+## Footerjustering – 2026-11-17
+- Den föregående v2-footern var samma generiska mörkgröna footer som på övriga Nordtorpets-sidor. Den satt ihop visuellt med det mörka avslutande CTA-avsnittet och gav samarbetsdelen för mycket utrymme.
+- Avslutande tjänste-CTA har nu ljus salviegrön bakgrund, medan sidfoten har en tydlig mörk bas och tunn varm avgränsning.
+- Ny sidfot med tydlig företagsidentitet, primär kontakt till Nordtorpets, Facebook och relevanta tjänstelänkar.
+- Samarbetet med Skaraborg finns diskret på sista raden; inga påhittade företagsuppgifter har lagts till.
+- Ändringen görs enbart i noindex-förhandsvisningen v2; ordinarie Nordtorpets-sidor förblir oförändrade.
