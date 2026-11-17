@@ -31,3 +31,42 @@ main .section-last{background:rgba(214,233,222,.61)}
 .steps + .price-note{background:rgba(224,236,217,.79);border-left-color:#78aaa4}
 .text-link{color:#21625d}
 .footer{background:#143c3b;border-top:4px solid #d5b679}
+
+/* Vätterljus 1.1 – valt spår: samma enkla innehåll, mer sammanhållen färg */
+/* Det tunna vågmönstret fortsätter genom sidans ljusa sektioner. */
+main{
+ background-color:#f4f5eb;
+ background-image:
+   radial-gradient(ellipse 750px 470px at 100% 14%,rgba(52,126,123,.18),transparent 75%),
+   radial-gradient(ellipse 640px 450px at 0% 50%,rgba(206,176,103,.15),transparent 75%),
+   radial-gradient(ellipse 830px 510px at 100% 90%,rgba(100,162,145,.18),transparent 75%),
+   repeating-radial-gradient(ellipse 640px 390px at 108% 42%,rgba(40,108,105,.047) 0 1px,transparent 2px 37px),
+   linear-gradient(160deg,#faf7e9,#e9f1e7)
+}
+main .section{background:rgba(255,253,240,.25);border-bottom-color:#bdd4ca}
+main #tjanster{background:rgba(176,216,201,.41)}
+main .section-last{
+ background:
+   radial-gradient(ellipse 690px 360px at 103% 35%,rgba(111,167,162,.18),transparent 72%),
+   rgba(205,230,214,.47)
+}
+.intro{
+ background:
+   repeating-radial-gradient(ellipse 470px 280px at 109% 30%,rgba(196,233,216,.085) 0 1px,transparent 2px 36px),
+   radial-gradient(ellipse 600px 470px at 91% -12%,rgba(142,208,188,.15),transparent 73%),
+   linear-gradient(115deg,#133c3b,#286d6b);
+ border-bottom-color:#d6bc81
+}
+.service-columns>div{
+ border-left-color:#78aaa2;
+ background:linear-gradient(90deg,rgba(213,237,219,.3),transparent 78%)
+}
+.steps + .price-note{background:rgba(222,237,221,.87)}
+.button{box-shadow:0 3px 0 rgba(9,48,42,.13)}
+.footer{background:#153b39;border-top-color:#d6bc81}
+.footer nav a:hover{text-decoration-color:#ebd1a2}
+@media(max-width:740px){
+ main .section{background:rgba(255,253,240,.31)}
+ main #tjanster{background:rgba(176,216,201,.47)}
+ main .section-last{background:rgba(205,230,214,.55)}
+}
