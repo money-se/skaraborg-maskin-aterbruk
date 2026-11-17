@@ -9,8 +9,8 @@ Detta är en första fristående, statisk webbplats under `https://skaraborgmask
 
 ## Före lansering
 1. Ersätt monogrammet N i sidhuvudet med Nordtorpets valda original-logotyp, optimera bilden till WebP/PNG, använd `alt`-text och sätt rätt bildstorlek.
-2. Lägg in verifierad direktlänk till Nordtorpets Facebooksida i `kontakt/index.html` (just nu finns en tydlig uppmaning att söka efter sidan, ingen påhittad länk).
-3. Kontrollera företagets RUT- och tillståndshantering för respektive uppdrag och aktuella formuleringar om behörigheter.
+2. Facebooklänk inlagd från ägarens uppgift: `https://www.facebook.com/share/14uXUNzV9dn/`. Kontrollera gärna att länken öppnar rätt sida från en vanlig webbläsare; på sikt kan vi ersätta delningslänken med sidans permanenta adress.
+3. Kontrollera företagets RUT- och tillståndshantering för respektive uppdrag och aktuella formuleringar om behörigheter. Organisationsnumret är ännu inte verifierat och ska inte publiceras förrän det är kontrollerat.
 4. När sidan ska publiceras: lägg till sitemap i huvuddomänens `robots.txt` och/eller `sitemap.xml`; länka gärna mellan de två företagssidorna i relevant kontext.
 5. Testa mobillägen, kontrollera text och länkar, begär indexering i Search Console efter publicering.
 
