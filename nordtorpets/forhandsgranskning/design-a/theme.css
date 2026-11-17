@@ -1,0 +1,25 @@
+/* A — Skogsmark: naturinspirerad varm sida med svaga topografiska linjer */
+:root{--dark:#173f2f;--ink:#243629;--muted:#566654;--accent:#dbb476;--line:#d9e0d3}
+body{background:#f8f2e5}
+.header{background:#faf4e5;border-bottom-color:#d6bc8b}
+.preview-label{background:#e0eadb;color:#294b35}
+.brand span{color:#886137}
+main{background-color:#f4eddd;background-image:
+repeating-radial-gradient(ellipse 480px 320px at 93% 19%,rgba(47,90,59,.067) 0 1px,transparent 2px 25px),
+repeating-radial-gradient(ellipse 450px 300px at 10% 80%,rgba(47,90,59,.038) 0 1px,transparent 2px 32px),
+linear-gradient(180deg,#f9f4e8,#f3efde)}
+.intro{background:
+repeating-radial-gradient(ellipse 390px 250px at 91% 10%,rgba(231,231,194,.105) 0 1px,transparent 2px 29px),
+linear-gradient(115deg,#163a2a 0%,#34644b 100%);
+border-bottom:5px solid #d5ac68}
+.intro .eyebrow{color:#f1ce99}
+.intro .button{background:#e1b970;color:#213d2c}
+.intro .button:hover{background:#f1cf94}
+main .section{background:rgba(250,247,234,.65);border-bottom-color:#cdd9c9}
+main #tjanster{background:rgba(204,225,198,.56)}
+main .section-last{background:rgba(230,236,213,.71)}
+.section h2{color:#254a33}
+.service-columns>div{border-color:#bd955d}
+.price-note{border-color:#bf955d;background:rgba(251,249,237,.54)}
+.steps span{color:#98704a}
+.footer{background:#173c2d;border-top-color:#c59d5b}

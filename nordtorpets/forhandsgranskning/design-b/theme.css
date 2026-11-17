@@ -1,0 +1,32 @@
+/* B — Linne & lera: varm, jordnära linneväv med färg */
+:root{--dark:#384d32;--ink:#342c22;--muted:#655848;--line:#e0d4bc;--accent:#c78e4e}
+body{background:#f4e9d6;color:#342c22}
+.header{background:#f7e8d1;border-bottom:2px solid #c79a64}
+.preview-label{background:#e9dcc1;color:#645135}
+.brand strong{color:#384c32}
+.brand span{color:#a46a35}
+.nav-contact{color:#40553a;border-bottom-color:#b47d50}
+main{background-color:#f8eedb;background-image:
+repeating-linear-gradient(0deg,rgba(120,88,52,.042) 0 1px,transparent 1px 17px),
+repeating-linear-gradient(90deg,rgba(120,88,52,.038) 0 1px,transparent 1px 17px)}
+.intro{background:
+repeating-linear-gradient(132deg,rgba(247,231,184,.058) 0 1px,transparent 1px 28px),
+linear-gradient(110deg,#354f39,#687c57);
+border-bottom:5px solid #cf995f}
+.intro .eyebrow{color:#f9d39d}
+.intro h1{color:#fff7e7}
+.intro .lead{color:#edf0d8}
+.intro .button{background:#edb976;color:#342c22}
+.intro .button:hover{background:#f5cd96}
+main .section{background:rgba(253,244,227,.72);border-bottom-color:#d6c7ad}
+main #tjanster{background:rgba(215,223,194,.66)}
+main .section-last{background:rgba(232,210,176,.57)}
+.section h2{color:#3c5438}
+.service-columns>div{border-color:#c6884e}
+.service-columns h3,.price-note h3{color:#526341}
+.steps span{color:#9a6746}
+.steps p{border-bottom-color:#d6c6a9}
+.steps + .price-note{background:#ebddc4;border-left-color:#c68d57}
+.section-note,.service-columns p,.section-last p,.price-note p{color:#5d5446}
+.text-link{color:#486144}
+.footer{background:#354c37;border-top:4px solid #c99056}
