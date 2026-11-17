@@ -8,7 +8,7 @@ Detta är en första fristående, statisk webbplats under `https://skaraborgmask
 - Huvudwebbplatsens sidor, annonser, script och övriga tjänster är inte ändrade.
 
 ## Före lansering
-1. Ersätt monogrammet N i sidhuvudet med Nordtorpets valda original-logotyp, optimera bilden till WebP/PNG, använd `alt`-text och sätt rätt bildstorlek.
+1. Vi använder nu en enkel HTML/CSS-textlogotyp med NORDTORPETS, ALLSERVICE AB och HJO · SKARABORG i sidhuvud och sidfot. En framtida bildlogotyp är frivillig, ingen AI-genererad profilbild krävs för lansering.
 2. Facebooklänk inlagd från ägarens uppgift: `https://www.facebook.com/share/14uXUNzV9dn/`. Kontrollera gärna att länken öppnar rätt sida från en vanlig webbläsare; på sikt kan vi ersätta delningslänken med sidans permanenta adress.
 3. Kontrollera företagets RUT- och tillståndshantering för respektive uppdrag och aktuella formuleringar om behörigheter. Organisationsnumret är ännu inte verifierat och ska inte publiceras förrän det är kontrollerat.
 4. När sidan ska publiceras: lägg till sitemap i huvuddomänens `robots.txt` och/eller `sitemap.xml`; länka gärna mellan de två företagssidorna i relevant kontext.
