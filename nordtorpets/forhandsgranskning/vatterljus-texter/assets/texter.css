@@ -1,0 +1,42 @@
+/* Nordtorpets | Vätterljus + mer mänskliga texter. Förhandsvisning. */
+:root{--width:990px}
+.wrap{max-width:1040px}
+.intro{padding:77px 0 69px}
+.intro h1{max-width:930px}
+.intro .lead{max-width:760px}
+.preview-label a{color:inherit;font-weight:800;text-underline-offset:3px}
+.section{padding:61px 0}
+.section h2{margin-bottom:23px}
+.section h3{color:#25645c}
+.section a:not(.button){text-underline-offset:4px}
+.copy-opening{font-size:17px;max-width:770px;margin:0 0 25px;color:#405c55}
+.text-flow{max-width:795px}
+.text-flow p{margin:0 0 17px;color:#415c54;line-height:1.82}
+.text-flow p:last-child{margin-bottom:0}
+.service-columns{margin:25px 0 0;gap:52px}
+.service-columns>div{background:transparent;padding-left:19px}
+.service-columns h3{font-size:21px;margin-bottom:10px;color:#27615b}
+.service-columns p{line-height:1.77}
+.section-note{max-width:850px;line-height:1.65}
+.service-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px}
+.service-index article{padding:18px 0 20px;border-bottom:1px solid #c9dacf}
+.service-index h3{font:700 19px/1.35 system-ui,-apple-system,"Segoe UI",sans-serif;margin:0 0 8px}
+.service-index h3 a{color:#225650}
+.service-index h3 a:hover{color:#143c39}
+.service-index p{margin:0;color:#4d655a;font-size:15px;line-height:1.68}
+.price-note{max-width:790px}
+.copy-note{border-left:3px solid #d5bb82;background:rgba(235,239,224,.65);padding:18px 21px;color:#415c54;max-width:810px;margin:24px 0}
+.copy-note p{margin:4px 0 0}
+.section-last{padding:58px 0 65px}
+.section-last h2{max-width:780px}
+.finish-link{margin:23px 0 0}
+.finish-link .button{margin:0}
+.closing-strip{padding:47px 0 60px;background:rgba(212,234,220,.72);border-top:1px solid #c8dcd1}
+.closing-strip h2{font:normal clamp(30px,4vw,40px)/1.2 Georgia,serif;margin:0 0 10px;color:#225753}
+.closing-strip p{max-width:750px;color:#4a6861;margin:0 0 19px}
+.footer{border-top:4px solid #d4b775}
+.footer-inner{padding:28px 0 12px}
+.footer-extra{padding:0 0 24px;color:#acc5bd;font-size:12px}
+.footer-extra a{color:#e1e7d6;text-underline-offset:3px}
+@media(max-width:740px){.intro{padding:53px 0 50px}.section{padding:51px 0}.service-index{grid-template-columns:1fr}.service-columns{gap:25px}.footer-inner{padding:27px 0 13px}.section-last{padding:52px 0}.closing-strip{padding:43px 0 50px}}
+@media(max-width:520px){.intro h1{font-size:40px}.intro .lead{font-size:17px}.service-index article{padding:15px 0}.service-columns>div{padding-left:15px}.copy-note{padding:16px 18px}.section h2{font-size:32px}}
