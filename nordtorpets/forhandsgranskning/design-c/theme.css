@@ -1,0 +1,33 @@
+/* C — Vätterljus: mjuka gröna och blågröna landskapsformer */
+:root{--dark:#1b514d;--ink:#203631;--muted:#4d6460;--line:#d1e0d8;--accent:#e2c184}
+body{background:#eef4ed}
+.header{background:#f2f7ed;border-bottom:2px solid #b1cfc3}
+.preview-label{background:#dcece4;color:#315f54}
+.brand strong{color:#184c47}
+.brand span{color:#967e4d}
+.nav-contact{color:#1c5450;border-bottom-color:#beaa77}
+main{background-color:#f3f5e9;background-image:
+radial-gradient(ellipse 780px 480px at 105% 14%,rgba(82,143,136,.18),transparent 72%),
+radial-gradient(ellipse 670px 420px at -4% 47%,rgba(194,179,113,.16),transparent 72%),
+radial-gradient(ellipse 740px 410px at 94% 82%,rgba(93,145,178,.15),transparent 72%),
+linear-gradient(155deg,#f8f5e9,#eaf2e9)}
+.intro{background:
+radial-gradient(ellipse 480px 370px at 91% 15%,rgba(191,224,194,.13),transparent 70%),
+radial-gradient(ellipse 500px 420px at -6% 90%,rgba(105,171,180,.14),transparent 75%),
+linear-gradient(115deg,#153d3c,#286f70);
+border-bottom:5px solid #ddbd7e}
+.intro .eyebrow{color:#f0d59b}
+.intro h1{color:#fffcef}
+.intro .lead{color:#e3f1ec}
+.intro .button{background:#e8c47f;color:#153e39}
+.intro .button:hover{background:#f3d59e}
+main .section{background:rgba(250,251,241,.53);border-bottom-color:#c8dbcf}
+main #tjanster{background:rgba(206,231,216,.61)}
+main .section-last{background:rgba(214,233,222,.61)}
+.section h2{color:#1c5651}
+.service-columns>div{border-color:#78a49b}
+.service-columns h3,.price-note h3{color:#23615b}
+.steps span{color:#3a8078}
+.steps + .price-note{background:rgba(224,236,217,.79);border-left-color:#78aaa4}
+.text-link{color:#21625d}
+.footer{background:#143c3b;border-top:4px solid #d5b679}
